@@ -1,0 +1,35 @@
+{
+  "unit_id": "oman_2021-02",
+  "country": "Oman",
+  "month": "2021-02",
+  "agent_task": "/root/oman_2021_02_batch60",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T19:19:11.898649+00:00",
+  "finished_at": "2026-10-10T20:18:00+00:00",
+  "n_queries": 10,
+  "n_sources": 8,
+  "n_candidates": 1,
+  "n_excluded": 5,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "source_access_counts": {
+    "opened_cards": 7,
+    "search_only_cards": 1,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 252,
+    "registered_rollout_actions_matched": 10,
+    "comparison": "All 10 logged captures matched the registered rollout by original event ID, exact query batch, ordered headers, and URLs."
+  },
+  "access_activity_counts": {
+    "current_unit_body_requests": 7,
+    "current_unit_body_opened": 6,
+    "current_unit_cache_miss_no_body": 1,
+    "prior_unit_only_consultations_without_request": 1,
+    "preserved_no_request_gate_records": 2
+  },
+  "coverage_assessment": "Bounded English/Arabic open-web first pass: 10 captured batched searches and 252 ordered result headers. Eight unique source cards include 6 current-unit body opens and 1 prior-unit-only consultation; one additional current-unit body request ended in a web-tool Cache miss without an HTTP status or body. No qualifying February public gathering was verified. One undated Muscat grievance-visit lead remains pending evidence; the source does not establish a public assembly, attendance, or February onset. Search coverage does not reproduce LexisNexis or systematic local archives and does not establish absence or exhaustiveness. Official baseline and supplemental procedure remain pending coordinator verification; no integration decision is made.",
+  "baseline_gate": "pending_official_baseline"
+}

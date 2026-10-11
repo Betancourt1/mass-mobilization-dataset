@@ -1,0 +1,36 @@
+[
+  {
+    "gap_id": "afghanistan_2020-05_G001",
+    "type": "source_access",
+    "description": "S001 is search-only. The source body remains held pending the coordinator's source-specific gate and manual origin/alias review.",
+    "source_ids": [
+      "afghanistan_2020-05_S001"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-05_E001"
+    ],
+    "required_followup": "Wait for fresh source-specific access instructions and receipt; then review the exact public URL if permitted."
+  },
+  {
+    "gap_id": "afghanistan_2020-05_G002",
+    "type": "participants/state_target/dates",
+    "description": "The candidate's date, 50-person threshold, and demand directed to the Afghan state are unverified; search output alone does not establish eligibility.",
+    "source_ids": [
+      "afghanistan_2020-05_S001"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-05_E001"
+    ],
+    "required_followup": "Verify with permitted contemporaneous reporting and retain field-level evidence."
+  },
+  {
+    "gap_id": "afghanistan_2020-05_G003",
+    "type": "coverage",
+    "description": "Only one direct May query is captured. English/local-language, weekly, regional, sector, and before/after continuity discovery is incomplete.",
+    "source_ids": [],
+    "affected_candidates": [
+      "afghanistan_2020-05_E001"
+    ],
+    "required_followup": "Resume assigned discovery if authorized; do not infer no other events from current results."
+  }
+]

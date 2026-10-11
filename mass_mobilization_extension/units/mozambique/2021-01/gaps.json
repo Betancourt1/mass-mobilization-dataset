@@ -1,0 +1,112 @@
+[
+  {
+    "gap_id": "mozambique_2021-01_G001",
+    "type": "search_method",
+    "description": "Seventy-four literal searches are saved. Q001–Q047 have null returned_urls because their earlier pooled URL outputs were lost from the work record; these are provenance gaps, not empty-result findings. Q048–Q051 preserve a visible pooled 25-URL union without per-query attribution; Q052–Q061 preserve individual city-query URL unions. Q062–Q074 were saved individually, but returns for Q062, Q063, Q066, Q069 and Q072–Q074 were visibly truncated, so only visible URL/title/ref rows were retained and omitted rows are unknown. Q072–Q074 reran weekly windows for Jan 1–7, Jan 8–14 and Jan 15–21; the Jan 22–31 Q044 result mapping remains lost and was not rerun. Do not infer zero relevant results from null or omitted URL lists.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If resumed, rerun selected priority queries with fully retained, individually attributable URL/title/ref metadata, including Jan 22–31; do not reconstruct the earlier pooled output."
+  },
+  {
+    "gap_id": "mozambique_2021-01_G002",
+    "type": "coverage_language",
+    "description": "Searches used Portuguese and English, including local/regional outlet probes. No systematic review was completed in Changana/Changana-Ronga, Sena, Makhuwa/Emakhuwa, Nyanja/Cinyanja or other regional-language broadcasts, transcripts or local print archives.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search regional-language radio/newspaper archives and locally specific spellings in the relevant provinces."
+  },
+  {
+    "gap_id": "mozambique_2021-01_G003",
+    "type": "source_access",
+    "description": "O País 13 January article opening timed out internally and ordinary same-URL HTTPS recovery could not resolve DNS locally; the 14 January archive returned an internal timeout and the 19 January archive returned a cache miss. Search-only Guardian and ACLED weekly references were not opened. Five FRELIMO regional-supporter blog pages and one Rádio Moçambique Maxixe page returned internal cache errors. One multi-query request reported a DW URL blocked by robots.txt; later specific DW Nampula and Cabo Delgado pages opened successfully, so this was request-specific, not a blanket DW access denial.",
+    "source_ids": [
+      "MOZ21JAN-S006",
+      "MOZ21JAN-S007",
+      "MOZ21JAN-S015",
+      "MOZ21JAN-S018",
+      "MOZ21JAN-S019",
+      "MOZ21JAN-S020",
+      "MOZ21JAN-S021",
+      "MOZ21JAN-S022",
+      "MOZ21JAN-S023",
+      "MOZ21JAN-S025",
+      "MOZ21JAN-S011",
+      "MOZ21JAN-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use normally accessible public sources or a later permitted web-reader session; preserve search_only status until body text is directly read."
+  },
+  {
+    "gap_id": "mozambique_2021-01_G004",
+    "type": "coverage",
+    "description": "No qualifying January assembly meeting the public-gathering, >=50 people and domestic-state/policy-demand criteria was established. Probes covered Maputo, Nampula, Beira, Pemba, Quelimane, Chimoio, Tete, Gaza/Xai-Xai, Inhambane and Lichinga; reviewed themes included health/public-service, teachers, transport, labor, land/water and COVID rules. Local Nampula reporting describes a utility dispute/official press briefing and individual water collection, not a street assembly. Quelimane/Gaza/Niassa search results describe routine FRELIMO/OJM meetings or outreach. These source-level findings do not establish that no protests occurred.",
+    "source_ids": [
+      "MOZ21JAN-S001",
+      "MOZ21JAN-S005",
+      "MOZ21JAN-S006",
+      "MOZ21JAN-S007",
+      "MOZ21JAN-S013",
+      "MOZ21JAN-S014",
+      "MOZ21JAN-S015",
+      "MOZ21JAN-S018",
+      "MOZ21JAN-S019",
+      "MOZ21JAN-S020",
+      "MOZ21JAN-S021",
+      "MOZ21JAN-S022",
+      "MOZ21JAN-S023",
+      "MOZ21JAN-S024",
+      "MOZ21JAN-S025"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue regional, sectoral and local-archive discovery; independently check any newly surfaced January episode for actual crowd size and domestic-state demand."
+  },
+  {
+    "gap_id": "mozambique_2021-01_G005",
+    "type": "participants",
+    "description": "No in-month protest candidate with event-specific attendance was established. Do not substitute the number of displaced/affected residents, truckers, vehicles, workforce or arrests for the crowd at a public assembly. The UN/WFP figure of about 565,000 refers to conflict displacement, not protest attendance.",
+    "source_ids": [
+      "MOZ21JAN-S003",
+      "MOZ21JAN-S008",
+      "MOZ21JAN-S009",
+      "MOZ21JAN-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If an assembly lead emerges, locate a contemporaneous event-specific estimate and separate participants from affected population and arrests."
+  },
+  {
+    "gap_id": "mozambique_2021-01_G006",
+    "type": "episode_unit_dates",
+    "description": "The 2 December 2020 cargo-transporter action was checked as a prior-month boundary lead. Reports primarily describe employment/employer grievances; VOA also mentions one driver’s objection to fines for mechanical faults, which may be a public-policy grievance, but the precise authority and target are unclear. An organizer’s stated intention to continue was reported, but no January occurrence or closure was established. The documented December date excludes this gathering from January ownership regardless of the unresolved target.",
+    "source_ids": [
+      "MOZ21JAN-S008",
+      "MOZ21JAN-S009"
+    ],
+    "affected_candidates": [
+      "mozambique_2021-01_X001"
+    ],
+    "required_followup": "Check December/January labor reporting for any actual post-December action and clarify the fines authority/target if relevant; distinguish intention, workforce action and a public assembly."
+  },
+  {
+    "gap_id": "mozambique_2021-01_G007",
+    "type": "conflict_event_unit",
+    "description": "Cabo Delgado armed-conflict reporting and humanitarian displacement figures are prominent in January coverage. UN/WFP and UNRIC report displaced/affected populations and institutional appeals, not resident protest assemblies; DW’s February discussion of resettlement policy is also not an assembly report. Those conflict incidents and affected-person totals are not public protests or protest crowds. The opened ACLED monthly conflict-monitoring material was reviewed only in a bounded scope.",
+    "source_ids": [
+      "MOZ21JAN-S003",
+      "MOZ21JAN-S004",
+      "MOZ21JAN-S011",
+      "MOZ21JAN-S012",
+      "MOZ21JAN-S016",
+      "MOZ21JAN-S017"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep insurgent attacks, humanitarian figures and any separately documented civilian assemblies coded as distinct units."
+  },
+  {
+    "gap_id": "mozambique_2021-01_G008",
+    "type": "baseline",
+    "description": "Official Mass Mobilization baseline/version and current detailed coding procedure remain unresolved; this unit uses the supplied provisional protocol only.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Root to reconcile against the official baseline and coding procedure before integration or final eligibility decisions."
+  }
+]

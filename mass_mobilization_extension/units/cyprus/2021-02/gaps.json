@@ -1,0 +1,195 @@
+[
+  {
+    "gap_id": "cyprus_2021-02-G001",
+    "type": "participants",
+    "description": "Pournara Feb 1: no event-specific attendance count has been verified. Prior camp population or a different late-January crowd cannot establish turnout for this gathering.",
+    "source_ids": [
+      "cyprus_2021-02_S001",
+      "cyprus_2021-02_S002",
+      "cyprus_2021-02_S003"
+    ],
+    "affected_candidates": [
+      "cyprus_2021-02-E001"
+    ],
+    "required_followup": "Read full contemporary coverage and any distinct direct attendance estimate; keep pending_threshold if it remains absent."
+  },
+  {
+    "gap_id": "cyprus_2021-02-G002",
+    "type": "participants",
+    "description": "Nicosia Feb 1 motorized solidarity procession: no participant count or vehicle-to-person basis has been verified.",
+    "source_ids": [
+      "cyprus_2021-02_S004"
+    ],
+    "affected_candidates": [
+      "cyprus_2021-02-E002"
+    ],
+    "required_followup": "Read the source and seek independent contemporary turnout reporting; do not infer people from vehicles."
+  },
+  {
+    "gap_id": "cyprus_2021-02-G003",
+    "type": "participants",
+    "description": "Pournara Feb 3 and Feb 10: crowd size and threshold are unknown; population and police deployment are not attendance.",
+    "source_ids": [
+      "cyprus_2021-02_S005",
+      "cyprus_2021-02_S006",
+      "cyprus_2021-02_S007"
+    ],
+    "affected_candidates": [
+      "cyprus_2021-02-E003",
+      "cyprus_2021-02-E004"
+    ],
+    "required_followup": "Review contemporaneous articles and seek direct attendance estimates; otherwise keep pending_threshold or pending_evidence."
+  },
+  {
+    "gap_id": "cyprus_2021-02-G004",
+    "type": "episode_unit",
+    "description": "Pournara January–February boundary: prior January files retain separate January 23/25 candidates and a February 1 forward lead; February 1/3/10 candidates remain separate records with episode_key unset. Daily/repeated continuity, campaign identity, and closed-centre public-assembly treatment remain unresolved; no cross-month merge is made.",
+    "source_ids": [
+      "cyprus_2021-02_S001",
+      "cyprus_2021-02_S005",
+      "cyprus_2021-02_S006",
+      "cyprus_2021-02_S007"
+    ],
+    "affected_candidates": [
+      "cyprus_2021-02-E001",
+      "cyprus_2021-02-E003",
+      "cyprus_2021-02-E004",
+      "CY202101-E007",
+      "CY202101-E008"
+    ],
+    "required_followup": "Compare full dated sources and coordinator cross-month notes; keep each gathering and January/February ownership separate with no shared episode key until evidence establishes continuity or campaign identity."
+  },
+  {
+    "gap_id": "cyprus_2021-02-G005",
+    "type": "coverage",
+    "description": "The inherited Cyprus label does not itself specify coverage of Republic-controlled and Turkish-Cypriot-administered jurisdictions. Search results explicitly describe February 13 as South/Nicosia; no northern event is confirmed in these queries.",
+    "source_ids": [
+      "cyprus_2021-02_S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify the planned geography/country-code scope and search northern sources further; absence in these searches is not evidence of no events."
+  },
+  {
+    "gap_id": "cyprus_2021-02-G006",
+    "type": "search_method",
+    "description": "Open-web searches (10 batched invocations; 308 captured result headers) do not reproduce LexisNexis newspaper coverage or prove month-wide exhaustiveness; local Greek/Turkish coverage and archives remain incomplete.",
+    "source_ids": [
+      "cyprus_2021-02_S001",
+      "cyprus_2021-02_S008",
+      "cyprus_2021-02_S016",
+      "cyprus_2021-02_S021",
+      "cyprus_2021-02_S027"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted local-language and regional source searches, record empty results, and preserve the protocol deviation from the original database."
+  },
+  {
+    "gap_id": "cyprus_2021-02-G007",
+    "type": "source_access",
+    "description": "Forty-seven source cards remain discovery-only; Cyprus Mail S008 has a current body read with limited article scope. All other selected event leads still need permitted body review.",
+    "source_ids": [
+      "cyprus_2021-02_S001",
+      "cyprus_2021-02_S002",
+      "cyprus_2021-02_S004",
+      "cyprus_2021-02_S005",
+      "cyprus_2021-02_S006",
+      "cyprus_2021-02_S008",
+      "cyprus_2021-02_S009",
+      "cyprus_2021-02_S016",
+      "cyprus_2021-02_S021",
+      "cyprus_2021-02_S022",
+      "cyprus_2021-02_S027",
+      "cyprus_2021-02_S028"
+    ],
+    "affected_candidates": [
+      "cyprus_2021-02-E001",
+      "cyprus_2021-02-E002",
+      "cyprus_2021-02-E003",
+      "cyprus_2021-02-E004",
+      "cyprus_2021-02-E005",
+      "cyprus_2021-02-E006",
+      "cyprus_2021-02-E007",
+      "cyprus_2021-02-E008"
+    ],
+    "required_followup": "Read remaining event sources only after each source-specific fresh receipt, complete saved publisher/origin review, and immediate stable input fingerprint check; record exact read scope or technical failure."
+  },
+  {
+    "gap_id": "cyprus_2021-02-G008",
+    "type": "state_target",
+    "description": "For the still-unread motorcade, Limassol police-station, February 20 Nicosia, and February 20 Limassol leads, distinguish demands directed at Republic of Cyprus government policy from local, internal, or unrelated targets. S008 supports government pandemic-policy and corruption demands but does not settle the full island coverage scope.",
+    "source_ids": [
+      "cyprus_2021-02_S004",
+      "cyprus_2021-02_S008",
+      "cyprus_2021-02_S009",
+      "cyprus_2021-02_S016",
+      "cyprus_2021-02_S021",
+      "cyprus_2021-02_S022",
+      "cyprus_2021-02_S027",
+      "cyprus_2021-02_S028"
+    ],
+    "affected_candidates": [
+      "cyprus_2021-02-E002",
+      "cyprus_2021-02-E006",
+      "cyprus_2021-02-E007",
+      "cyprus_2021-02-E008"
+    ],
+    "required_followup": "Read organizer and reporting text; only code demands directed to the government of the assigned country or its policy."
+  },
+  {
+    "gap_id": "cyprus_2021-02-G009",
+    "type": "dates",
+    "description": "Start/end and event sequence remain provisional for Pournara Feb 3/10, Limassol Feb 18, and the Feb 20 actions; publication date is not an event date or end.",
+    "source_ids": [
+      "cyprus_2021-02_S005",
+      "cyprus_2021-02_S006",
+      "cyprus_2021-02_S016",
+      "cyprus_2021-02_S027",
+      "cyprus_2021-02_S028"
+    ],
+    "affected_candidates": [
+      "cyprus_2021-02-E003",
+      "cyprus_2021-02-E004",
+      "cyprus_2021-02-E006",
+      "cyprus_2021-02-E007",
+      "cyprus_2021-02-E008"
+    ],
+    "required_followup": "Read source chronology and follow each event only as needed to distinguish physical ending from last reporting."
+  },
+  {
+    "gap_id": "cyprus_2021-02-G010",
+    "type": "source_independence",
+    "description": "Several results may be syndicated or derived from Cyprus Mail, CNA, AP/AFP, or one another; same-city reports do not establish independent sourcing.",
+    "source_ids": [
+      "cyprus_2021-02_S003",
+      "cyprus_2021-02_S007",
+      "cyprus_2021-02_S009",
+      "cyprus_2021-02_S010",
+      "cyprus_2021-02_S023",
+      "cyprus_2021-02_S026",
+      "cyprus_2021-02_S028",
+      "cyprus_2021-02_S030",
+      "cyprus_2021-02_S036",
+      "cyprus_2021-02_S037"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check full article bylines, credits, explicit story links, and publisher/origin records before treating sources as independent."
+  },
+  {
+    "gap_id": "cyprus_2021-02-G011",
+    "type": "episode_unit",
+    "description": "The 13 February article names an “ENOUGH!” protest organized by many groups; search-only 20 February cards label a later Nicosia action “Os Dame.” Shared physical-event identity is ruled out by the dates, but the recurring campaign/organizer relationship is not established from a February 20 body.",
+    "source_ids": [
+      "cyprus_2021-02_S008",
+      "cyprus_2021-02_S021",
+      "cyprus_2021-02_S022",
+      "cyprus_2021-02_S023",
+      "cyprus_2021-02_S024",
+      "cyprus_2021-02_S025"
+    ],
+    "affected_candidates": [
+      "cyprus_2021-02-E005",
+      "cyprus_2021-02-E007"
+    ],
+    "required_followup": "Read February 20 contemporary reports and primary organizer material; preserve the distinct physical gatherings and leave episode_key unset until shared campaign identity is evidenced."
+  }
+]

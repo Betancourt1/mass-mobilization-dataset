@@ -1,0 +1,68 @@
+[
+  {
+    "gap_id": "GNB202102-G001",
+    "type": "threshold",
+    "description": "The Feb 1 vigil is confirmed by two read reports, but their qualitative terms “many” and “dozens” do not establish the required threshold of 50. The only search lead claiming more than 100 is S003, whose two body requests returned Cache miss.",
+    "source_ids": [
+      "GNB202102-S001",
+      "GNB202102-S003",
+      "GNB202102-S004"
+    ],
+    "affected_candidates": [
+      "GNB202102-E001"
+    ],
+    "required_followup": "Find a permitted contemporary source with a number or a clearly threshold-satisfying description of this single vigil; do not infer a lower bound from “dezenas”."
+  },
+  {
+    "gap_id": "GNB202102-G002",
+    "type": "source_access",
+    "description": "The exact Última Hora/CNEWS article S003 remains unread after two body requests returned Cache miss. A separately gated retry was also aborted before request because the whole-corpus hash recheck found a changed Gambia sources file. These are retrieval/gate outcomes, not publisher denials.",
+    "source_ids": [
+      "GNB202102-S003"
+    ],
+    "affected_candidates": [
+      "GNB202102-E001"
+    ],
+    "required_followup": "If needed, retry only with a new exact-URL receipt, full publisher/origin note and immediate matching whole-input hash check; otherwise preserve the search-only limitation."
+  },
+  {
+    "gap_id": "GNB202102-G003",
+    "type": "response",
+    "description": "The Lusa/RTP body confirms police dispersal but does not establish arrests, beatings, injuries, shootings, accommodation, or later government response. The search-only S003/S011 claims are not confirmed.",
+    "source_ids": [
+      "GNB202102-S001",
+      "GNB202102-S003",
+      "GNB202102-S004",
+      "GNB202102-S011"
+    ],
+    "affected_candidates": [
+      "GNB202102-E001"
+    ],
+    "required_followup": "Verify any event-specific response from body-readable contemporary reporting or records. Keep unsupported seven-response fields unknown."
+  },
+  {
+    "gap_id": "GNB202102-G004",
+    "type": "coverage",
+    "description": "This dossier uses 18 recorded web-search actions and 361 result headers across English, Portuguese, French and a Kriol-oriented query, including local and regional outlets and date-window/site-targeted searches. Open-web indexing is not LexisNexis; these results do not demonstrate exhaustive coverage, especially in Kriol/local archives, radio, provincial sources, and inaccessible or unindexed pages.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GNB202102-E001"
+    ],
+    "required_followup": "If further coverage is required, consult available local/radio archives and original records in Portuguese and Kriol; preserve access restrictions and capture actual search results."
+  },
+  {
+    "gap_id": "GNB202102-G005",
+    "type": "continuity",
+    "description": "Search-only S010 places a reported funeral on Jan 30, before the Feb 1 vigil; no body was read and no source shows one continuous assembly across the dates. The Feb 19 dance activity is also only an archive snippet.",
+    "source_ids": [
+      "GNB202102-S010",
+      "GNB202102-S014"
+    ],
+    "affected_candidates": [
+      "GNB202102-E001",
+      "GNB202102-X001",
+      "GNB202102-X003"
+    ],
+    "required_followup": "Review the original funeral and Feb 19 activity reports if available; do not merge separate dates or infer an ongoing campaign/assembly without continuity evidence."
+  }
+]

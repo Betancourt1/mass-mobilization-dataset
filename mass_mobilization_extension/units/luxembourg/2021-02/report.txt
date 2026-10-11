@@ -1,0 +1,29 @@
+Luxembourg — February 2021
+
+This is a bounded open-web first pass for Luxembourg (provisional ccode 212), with the project cutoff of 2026-10-07 inclusive in America/Mexico_City. The dossier is ready for coordinator review, not an exhaustive event census or an update to the original catalogue. The official baseline remains pending.
+
+Search and source coverage
+
+The log contains 36 actual web-search invocations and 903 ordered result headers/URLs. Some invocations were single-query searches and later calls preserved their original batched queries as one action; the exact invocation and result order were retained. Searches used English, French, German and Luxembourgish, with month/week/date searches and follow-ups on HORECA, COVID restrictions, education/labor, housing/planning, care/health, climate, migration/refugees, agriculture, women’s actions and local/community media. The complete registered-rollout reconciliation matched all 36 original event IDs, exact query strings, clocks, ordered headers and URL arrays to the saved search log.
+
+Eighteen exact-URL source cards were retained: one opened written article and 17 search-only cards. One full accessible French written article was read. The embedded audio/video was not played. The exact RTL Today Esch and Reddit Feb 13 opens returned technical Cache miss results without HTTP status or body; neither is treated as a publisher denial, and neither was retried. Four fresh prerequisite chains for the Le Quotidien Feb 11 lead stopped before any body request because their input/review/preflight prerequisite failed; receipts and no-request outcomes remain in access_receipts. This is an unresolved follow-up, not a denial, and the worker stopped further attempts on that body as directed by the coordinator. Search-result titles and snippets are discovery evidence only, not body verification or turnout proof.
+
+Candidates
+
+Three provisional candidates are recorded. E001 is the full-body report of a fourth HORECA gathering in Luxembourg City. The article says “Saturday” and was published Monday 8 February, so 6 February is a transparent weekday-derived date; the article reports no crowd size, exact venue, explicit state-directed demand, end or event-specific state response. It remains pending evidence.
+
+E002 is the search-only reported HORECA action at Place d’Armes on 11 February. Some search metadata refers to calls for more aid, but no article body was read for this candidate. A pre-event hope for up to 1,000 participants is not actual attendance. The source cards include related RTL variants and other discovery leads; their independence and origin relationships are not assumed. Its body and eligibility gaps, including the unanswered Le Quotidien lead and four failed prerequisite chains, are documented separately.
+
+E003 is the search-only 5 February Esch co-housing/development-plan protest lead. RTL and Wort titles appear to refer to one action, not two. Neither body was read; attendance, execution details, exact demand and intended municipal/state target remain unverified. A technical Cache miss on the RTL URL is not evidence of denial.
+
+No candidate is coded as meeting the threshold and state-demand criteria on current evidence. For all candidates, end date, protester violence and each state-response dimension remain unknown. No numerical attendee bounds or demand categories are inferred from search snippets.
+
+Other leads, continuity and exclusions
+
+The Tagesblatt search title about roughly 300 people protesting COVID measures on a Saturday and a Reddit item dated 13 February are retained as an unresolved possible anti-COVID lead; the actual event date, identity, location and attendance were not verified, so it is not assigned to the month as a candidate. Radio ARA’s planned 1 February march, the planned 9 February education action, an RTL Play Mamer heritage segment, women’s-action program/search leads and a 27 February Reddit lead remain follow-ups, not proven executed events. Searches for late-month HORECA, labor, health/care, housing, migration, climate and agricultural actions did not establish additional body-verified qualifying events; no non-occurrence conclusion is drawn.
+
+No continuation from January or into March is established. January’s HORECA gatherings on the 16th, 23rd and 30th remain separate actions; the February 6 report and February 11 report are also kept separate. Search leads about March 8 women’s actions and March 27 housing are outside this unit absent evidence of a continuous action beginning in February. No confidently excluded event was identified, so excluded.json is empty. No continuous episode starting before February was established, so continuations.json is empty.
+
+Limits and handoff
+
+The searches cover four languages and several week/date and sector windows, but do not replace LexisNexis or systematic local newspaper/archive review. Search-engine non-results cannot establish that no other protests occurred. Some exact article URLs remain unread, publisher/source-origin independence is unresolved, and the official baseline/manual gate is pending. The event records are provisional, preserve unknowns, and require coordinator review before any later integration.

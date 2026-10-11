@@ -1,0 +1,127 @@
+[
+  {
+    "gap_id": "niger_2021-02_G001",
+    "type": "participants",
+    "description": "No attendance count or reliable basis for 50 or more at an individual gathering is established. S005 describes small groups in Niamey on 25 February but provides no number; this does not settle the >=50 threshold.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "niger_2021-02_E001"
+    ],
+    "required_followup": "Read contemporary reports for each named action and record simultaneous gathered-person estimates; do not use arrests or other campaign totals as turnout."
+  },
+  {
+    "gap_id": "niger_2021-02_G002",
+    "type": "state_target",
+    "description": "S005 connects the Niamey action to the result dispute and reports the candidate alleging fraud, but no direct demand by a defined gathering. Search-only S076–S077 snippets point to campaign statements seeking suspension of results publication; bodies are unread and the gathering link is unestablished.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005",
+      "S076",
+      "S077"
+    ],
+    "affected_candidates": [
+      "niger_2021-02_E001"
+    ],
+    "required_followup": "Read contemporary statements and reports to identify the demand and whether it targeted Niger’s government/electoral process."
+  },
+  {
+    "gap_id": "niger_2021-02_G003",
+    "type": "episode_unit",
+    "description": "Reports identify Niamey and other towns and activity over multiple days. S005 specifies a Niamey street action on 25 February but does not resolve coordination, local-versus-national unit, or the full list of towns.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "niger_2021-02_E001"
+    ],
+    "required_followup": "Trace same-day locations, organizers, and demands; preserve local actions separately until evidence supports a national unit or linkage."
+  },
+  {
+    "gap_id": "niger_2021-02_G004",
+    "type": "dates",
+    "description": "A 23 February start is reported by prior-unit consultations; S005 says the Niamey demonstrations continued on 25 February for a third consecutive day, consistent with that start. Physical ending of an action or broader episode remains unknown.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "niger_2021-02_E001"
+    ],
+    "required_followup": "Seek follow-up reports after February and distinguish last reported activity from physical closure."
+  },
+  {
+    "gap_id": "niger_2021-02_G005",
+    "type": "state_response",
+    "description": "S005 directly reports police tear gas at a Niamey street confrontation on 25 February and multiple arrests announced after prior-day demonstrations, but no arrest count or exact gathering assignment. Other state-response categories and locations remain unresolved.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "niger_2021-02_E001"
+    ],
+    "required_followup": "Keep tear gas and arrests tied to the specific reported Niamey episode/day; verify arrest scope and additional responses from contemporaneous reports before assigning them to other local gatherings."
+  },
+  {
+    "gap_id": "niger_2021-02_G006",
+    "type": "source_access",
+    "description": "S005 body was read after a fresh exact-URL gate: HTTPS GET HTTP 200 with no redirects. S056 and the earlier S005 web.open returned tool Cache miss without HTTP/body. Attempt016 and attempt018 stopped before request; attempt018 was a parser error caused by str.splitlines() splitting a valid U+2028 inside Haiti JSONL, corrected by LF-byte parsing. No denial was observed for S005, S056, or S073.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005",
+      "S015",
+      "S056",
+      "S070",
+      "S073"
+    ],
+    "affected_candidates": [
+      "niger_2021-02_E001"
+    ],
+    "required_followup": "In a newly opened coordinator request phase, give priority to the exact Agir Ensemble report URL in S073 for location/action detail, the African Union observer report S048 for observer-reported demands/places, and official ANP S070 for the prosecutor statement. Rebuild complete individual receipt/manual/hash/map gates for each; do not request bodies outside an open phase. Arrest or referral totals are not turnout."
+  },
+  {
+    "gap_id": "niger_2021-02_G007",
+    "type": "language",
+    "description": "Discovery used French and English, with limited local-language queries; Hausa/Zarma and local radio coverage are not systematic.",
+    "source_ids": [],
+    "affected_candidates": [
+      "niger_2021-02_E001"
+    ],
+    "required_followup": "Continue targeted local-language and local-radio searches where searchable; document gaps rather than infer absence."
+  },
+  {
+    "gap_id": "niger_2021-02_G008",
+    "type": "search_method",
+    "description": "Open-web discovery is not equivalent to LexisNexis; 18 captured search actions/batches and 485 ordered result headers are not an exhaustive census.",
+    "source_ids": [],
+    "affected_candidates": [
+      "niger_2021-02_E001"
+    ],
+    "required_followup": "Continue weekly/date/sector/region and local-language/local-radio discovery; document unavailable hemeroteca coverage and query results rather than infer protest=0."
+  },
+  {
+    "gap_id": "niger_2021-02_G009",
+    "type": "baseline",
+    "description": "Latest official Mass Mobilization version/universe/schema and the additional Coding Procedure remain unverified for this unit.",
+    "source_ids": [],
+    "affected_candidates": [
+      "niger_2021-02_E001"
+    ],
+    "required_followup": "Coordinator must resolve baseline and protocol gates before any official mapping or approval."
+  }
+]

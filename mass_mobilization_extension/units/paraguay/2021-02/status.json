@@ -1,0 +1,28 @@
+{
+  "unit_id": "paraguay_2021-02",
+  "country": "Paraguay",
+  "month": "2021-02",
+  "agent_task": "/root/paraguay_2021_02_batch60",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T20:25:48.079778+00:00",
+  "finished_at": "2026-10-10T22:31:36Z",
+  "n_queries": 10,
+  "n_sources": 23,
+  "n_candidates": 7,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 15,
+  "source_access_counts": {
+    "opened_cards": 1,
+    "search_only_cards": 22,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_action_count": 10,
+    "captured_query_string_count": 40,
+    "captured_header_count": 253
+  },
+  "coverage_assessment": "1 current-unit body opens; 0 prior-unit-only body reads. Ten batched open-web search actions preserved 40 exact query strings and 253 ordered result headers. One of 23 source cards (S001) has a bounded partial read; 22 remain search_only. S001 attempt 1 returned a technical web.open Internal Error / Cache miss without a site HTTP status or content; attempt 2 was one separately gated exact HTTPS GET returning HTTP 200, truncated at 250000 bytes. The body supports a gathering at Chile corner Avda. Ygatimí in Asunción and a demand for the attorney general’s resignation or impeachment, but no numeric attendance or exact event date. E001 remains pending_threshold; E002–E007 remain pending_evidence, not confirmed event counts. The S001/S002 and Palace of Justice relationships, event boundaries, official baseline, and all seven state responses remain unresolved. No exhaustive or zero-event claim is made.",
+  "baseline_gate": "pending_official_baseline"
+}

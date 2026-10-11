@@ -1,0 +1,248 @@
+[
+  {
+    "gap_id": "SOM202101-G001",
+    "type": "baseline",
+    "description": "The official latest dataset bytes, verified current universe, and additional Coding Procedure remain unavailable in the repository baseline. This affects any later comparison or export, not the open-web evidence collection.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep candidates separate from the official catalogue; coordinator must resolve baseline and compatibility gates before any export."
+  },
+  {
+    "gap_id": "SOM202101-G002",
+    "type": "search_method",
+    "description": "Open-web discovery does not reproduce the source protocol's LexisNexis newspaper universe; no archive-level completeness can be claimed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Record search windows and source access. Treat uncovered outlets and empty searches as limits, not evidence of no events."
+  },
+  {
+    "gap_id": "SOM202101-G003",
+    "type": "language",
+    "description": "Somali and English reporting may not cover every region, language community, or local outlet. Human Somali-language review is not established for this unit.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search Somali terms and regional activity; identify which records were read in their original language and retain translation limits."
+  },
+  {
+    "gap_id": "SOM202101-G004",
+    "type": "episode_unit",
+    "description": "Local reporting identifies a Jan18 Galkayo demonstration and a Jan20 Galkayo street protest. Anadolu reports a Mogadishu street camp by Jan22, while Caasimada separately describes mothers speaking to media in Mogadishu on Jan18. Reuters says protests over missing recruits occurred in Mogadishu, Guriel and Galkayo during the week before Jan28. These may be distinct site-days, linked campaign actions, or overlapping descriptions; current sources do not establish a national organizer or physical continuity.",
+    "source_ids": [
+      "SOM202101-S011",
+      "SOM202101-S012",
+      "SOM202101-S001",
+      "SOM202101-S002",
+      "SOM202101-S003",
+      "SOM202101-S006",
+      "SOM202101-S010",
+      "SOM202101-S026",
+      "SOM202101-S027",
+      "SOM202101-S038"
+    ],
+    "affected_candidates": [
+      "somalia_2021-01_E001",
+      "somalia_2021-01_E002",
+      "somalia_2021-01_E003",
+      "somalia_2021-01_E004",
+      "somalia_2021-01_E005",
+      "somalia_2021-01_E006"
+    ],
+    "required_followup": "Compare dated local accounts, organizer statements, named participants and physical departure across Galkayo and Mogadishu; establish whether Guriel is separate from the unnamed-city reference. Keep candidate granularity and shared tentative keys until an evidence-based unit decision."
+  },
+  {
+    "gap_id": "SOM202101-G005",
+    "type": "dates",
+    "description": "The Jan20 Galkayo reports and Jan22 Mogadishu report do not establish physical departure or a definitive end. The Jan18 Galkayo and Mogadishu reports likewise lack end dates; the Reuters-relative 'last week' date does not identify a day or duration for Guriel.",
+    "source_ids": [
+      "SOM202101-S001",
+      "SOM202101-S002",
+      "SOM202101-S006",
+      "SOM202101-S011",
+      "SOM202101-S012",
+      "SOM202101-S038"
+    ],
+    "affected_candidates": [
+      "somalia_2021-01_E001",
+      "somalia_2021-01_E002",
+      "somalia_2021-01_E003",
+      "somalia_2021-01_E004",
+      "somalia_2021-01_E005"
+    ],
+    "required_followup": "Seek contemporaneous accounts that explicitly say when each group departed or dispersed; do not infer an end from police intent, publication date, or later silence."
+  },
+  {
+    "gap_id": "SOM202101-G006",
+    "type": "state_response",
+    "description": "For the Jan20 Galkayo protest, sources report arrests, live rounds, tear gas and a meeting between parents and the Galmudug security minister. Sources disagree whether the meeting was Wednesday or Thursday and do not establish its exact relation to one site-day. Beatings, protest-related state killings and official ignoring remain unknown. Responses at other candidate sites are unreported.",
+    "source_ids": [
+      "SOM202101-S001",
+      "SOM202101-S002",
+      "SOM202101-S003",
+      "SOM202101-S006",
+      "SOM202101-S027"
+    ],
+    "affected_candidates": [
+      "somalia_2021-01_E001",
+      "somalia_2021-01_E002",
+      "somalia_2021-01_E003",
+      "somalia_2021-01_E004",
+      "somalia_2021-01_E005"
+    ],
+    "required_followup": "Review each of the seven response dimensions independently and locate event-specific reports; preserve unknown values unless sources explicitly establish a response or its absence."
+  },
+  {
+    "gap_id": "SOM202101-G007",
+    "type": "participants",
+    "description": "Anadolu's qualitative 'hundreds' estimates support the threshold for Jan20 Galkayo and the Mogadishu camp. Jan18 Galkayo, the Mogadishu media gathering, Guriel and unspecified other-city leads have no site-specific turnout estimates.",
+    "source_ids": [
+      "SOM202101-S001",
+      "SOM202101-S006",
+      "SOM202101-S011",
+      "SOM202101-S012",
+      "SOM202101-S038"
+    ],
+    "affected_candidates": [
+      "somalia_2021-01_E001",
+      "somalia_2021-01_E002",
+      "somalia_2021-01_E003",
+      "somalia_2021-01_E004",
+      "somalia_2021-01_E005",
+      "somalia_2021-01_E006"
+    ],
+    "required_followup": "Seek attendance estimates tied to each exact city and gathering. Do not transfer a campaign-wide or multi-city estimate to individual locations."
+  },
+  {
+    "gap_id": "SOM202101-G008",
+    "type": "language",
+    "description": "The Somali-language Radio Markabley, Keydmedia and Caasimada articles were machine-interpreted, without human Somali-language review; actor, city and demand wording should be checked.",
+    "source_ids": [
+      "SOM202101-S002",
+      "SOM202101-S011",
+      "SOM202101-S012"
+    ],
+    "affected_candidates": [
+      "somalia_2021-01_E001",
+      "somalia_2021-01_E002",
+      "somalia_2021-01_E004"
+    ],
+    "required_followup": "Have a Somali-speaking reviewer check translations of the three reports and verify exact site, organizer and demand language."
+  },
+  {
+    "gap_id": "SOM202101-G009",
+    "type": "source_independence",
+    "description": "Several reports are dependent: Anadolu's Jan20 and Jan22 stories share an agency and reporter; ClickOrlando and VOA republish the same AP Jan22 report; Yahoo's Reuters story and the Garowe Online copy are Reuters-origin. The Jan20 Galkayo count is attributed only by Anadolu, while Radio Markabley and Reuters give no site-specific count.",
+    "source_ids": [
+      "SOM202101-S001",
+      "SOM202101-S006",
+      "SOM202101-S010",
+      "SOM202101-S026",
+      "SOM202101-S005",
+      "SOM202101-S038",
+      "SOM202101-S002"
+    ],
+    "affected_candidates": [
+      "somalia_2021-01_E001",
+      "somalia_2021-01_E002",
+      "somalia_2021-01_E003",
+      "somalia_2021-01_E005"
+    ],
+    "required_followup": "Maintain agency/republication links when reviewing corroboration; do not count syndications as independent evidence."
+  },
+  {
+    "gap_id": "SOM202101-G010",
+    "type": "contested_evidence",
+    "description": "Reports repeat allegations that Somali recruits trained in Eritrea were deployed to or died in the Tigray conflict; Somali officials and Ethiopian officials denied the reports. The public demonstrations and demands for answers are documented separately from the unverified allegations.",
+    "source_ids": [
+      "SOM202101-S001",
+      "SOM202101-S002",
+      "SOM202101-S006",
+      "SOM202101-S027",
+      "SOM202101-S038"
+    ],
+    "affected_candidates": [
+      "somalia_2021-01_E001",
+      "somalia_2021-01_E002",
+      "somalia_2021-01_E003",
+      "somalia_2021-01_E004",
+      "somalia_2021-01_E005",
+      "somalia_2021-01_E006"
+    ],
+    "required_followup": "Preserve both allegations and denials with attribution; do not code recruits' alleged deaths as protest-related state killings."
+  },
+  {
+    "gap_id": "SOM202101-G011",
+    "type": "source_access",
+    "description": "Yahoo's Reuters republication returned HTTP 429, Somaliland.com returned HTTP 406, and a UN report PDF returned HTTP 403. No retry or bypass was attempted after these denials. A separate Garowe Online URL for the same Reuters-origin story was accessible; this adds no independent agency source.",
+    "source_ids": [
+      "SOM202101-S005",
+      "SOM202101-S029",
+      "SOM202101-S034"
+    ],
+    "affected_candidates": [
+      "somalia_2021-01_E001",
+      "somalia_2021-01_E003",
+      "somalia_2021-01_E005"
+    ],
+    "required_followup": "Retain the three URL-specific access blocks, distinguish them from the accessible same-origin Reuters republication, and do not retry or bypass denials."
+  },
+  {
+    "gap_id": "SOM202101-G012",
+    "type": "coverage",
+    "description": "Searches used English and Somali terms, weekly ranges and Mogadishu, Galkayo/Gaalkacyo, Puntland, labor and regional-city variants. Search results returned only the captured title/URL/reference headers, not reliable result totals. No complete local archive, all-language coverage or LexisNexis-equivalent corpus was available.",
+    "source_ids": [
+      "SOM202101-S016",
+      "SOM202101-S017",
+      "SOM202101-S034"
+    ],
+    "affected_candidates": [
+      "somalia_2021-01_E001",
+      "somalia_2021-01_E002",
+      "somalia_2021-01_E003",
+      "somalia_2021-01_E004",
+      "somalia_2021-01_E005",
+      "somalia_2021-01_E006"
+    ],
+    "required_followup": "Continue with source-universe newspaper research and regional-language archive access; treat present findings as open-web coverage only."
+  },
+  {
+    "gap_id": "SOM202101-G013",
+    "type": "episode_unit",
+    "description": "Boundary searches found no documented physical continuation from December into the January missing-recruits actions. The Dec15 anti-election protest and Feb19 opposition election protest are separate issues; May 2021 and July 2022 missing-recruits actions are later events without evidence of continuous physical action from January.",
+    "source_ids": [
+      "SOM202101-S037",
+      "SOM202101-S035",
+      "SOM202101-S004",
+      "SOM202101-S028",
+      "SOM202101-S030",
+      "SOM202101-S033",
+      "SOM202101-S038"
+    ],
+    "affected_candidates": [
+      "somalia_2021-01_E001",
+      "somalia_2021-01_E002",
+      "somalia_2021-01_E003"
+    ],
+    "required_followup": "Keep unrelated December/February political protests and later missing-recruits demonstrations outside January candidates unless direct evidence of physical continuation emerges."
+  },
+  {
+    "gap_id": "SOM202101-G014",
+    "type": "source_access",
+    "description": "The source cards for S003, S004, S012, S018 and S030 preserve ordinary exact-URL HTTPS retrieval descriptions and HTTP 200 page responses, but the retained records do not contain the exact exec_command string or standalone fallback-script filename, any session IDs, or numeric process exit codes. These process-level fields are unknown; no request was repeated to recreate them. A bounded read-only process inventory first returned PermissionError (exit 1), then the authorized exact-name inventory succeeded (exit 0) and found no active matching request or extraction processes and no worker temporary script files.",
+    "source_ids": [
+      "SOM202101-S003",
+      "SOM202101-S004",
+      "SOM202101-S012",
+      "SOM202101-S018",
+      "SOM202101-S030"
+    ],
+    "affected_candidates": [
+      "somalia_2021-01_E001",
+      "somalia_2021-01_E002",
+      "somalia_2021-01_E003",
+      "somalia_2021-01_E004",
+      "somalia_2021-01_E005",
+      "somalia_2021-01_E006"
+    ],
+    "required_followup": "If original untruncated tool transcripts become available, inspect them read-only for exact command/session/exit metadata; do not repeat public requests merely to reconstruct missing process metadata."
+  }
+]

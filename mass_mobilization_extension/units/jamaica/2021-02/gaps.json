@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "JAM202102-G001",
+    "type": "event_eligibility",
+    "description": "The KPH report may describe collective workplace action, but the available search-result text does not establish a public gathering, simultaneous turnout, or the exact state-directed demand.",
+    "source_ids": [
+      "JAM202102-S001"
+    ],
+    "affected_candidates": [
+      "JAM202102-E001"
+    ],
+    "required_followup": "Seek an independently reported contemporaneous account or other accessible record confirming whether a 50+ public gathering occurred and specifying the demand/addressee; keep unknowns if evidence remains unavailable."
+  },
+  {
+    "gap_id": "JAM202102-G002",
+    "type": "source_access",
+    "description": "The initial exact RJR URL request timed out before HTTP after receipt S004/manual review/S005 (turn1584view0). A new gated request after S006/S007 at 2026-10-10T14:11:29.666Z emitted no result payload, leaving its outcome unknown; an accidental ungated duplicate at 14:11:35.079Z timed out before HTTP (turn1604view0). No body is verified/read and no denial is inferred. Kosovo 2021-02 source S003403 was recorded as a restriction at 2026-10-10T14:14:02.765Z, changing the global corpus and invalidating the earlier receipts for any future request.",
+    "source_ids": [
+      "JAM202102-S001"
+    ],
+    "affected_candidates": [
+      "JAM202102-E001"
+    ],
+    "required_followup": "If the exact article body is still needed, make any future attempt only after a fresh exact-URL receipt, complete current publisher/origin review, and immediate full-input path/hash equality check; the wrapper's unknown first result and timeouts do not supply missing evidence or establish denial."
+  },
+  {
+    "gap_id": "JAM202102-G003",
+    "type": "archive_coverage",
+    "description": "Open web searches do not reproduce the LexisNexis source archive and cannot establish that no qualifying events occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Reconcile this unit against an authorized, systematic archive or official baseline if one becomes available; retain the open-web coverage limit."
+  },
+  {
+    "gap_id": "JAM202102-G004",
+    "type": "event_eligibility",
+    "description": "A February 20 Jamaica Observer search result refers to medical interns at Mandeville Regional Hospital and mentions protest in its subheading, but the search-only material does not establish whether a collective public action occurred, when it occurred, turnout, or a government-directed policy demand.",
+    "source_ids": [
+      "JAM202102-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If the lead is pursued, inspect the exact article only after a fresh exact-URL receipt, complete matching publisher/origin review, and immediate full-input recheck. Do not code a February event unless occurrence, event date, public-action evidence, and a qualifying demand are supported."
+  }
+]

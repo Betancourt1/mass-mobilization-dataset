@@ -1,0 +1,57 @@
+{
+  "unit_id": "guinea_bissau_2021-01",
+  "country": "Guinea-Bissau",
+  "month": "2021-01",
+  "agent_task": "/root/guinea_bissau_2021_01",
+  "started_at": "2026-10-08T12:04:17.897174+00:00",
+  "finished_at": "2026-10-08T12:16:20.560767+00:00",
+  "status": "researched_open_web_pending_review",
+  "baseline_gate": "pending_official_baseline",
+  "n_queries": 59,
+  "n_sources": 242,
+  "n_candidates": 6,
+  "n_excluded": 8,
+  "n_continuations": 0,
+  "n_gaps": 20,
+  "coverage_assessment": "Iterative open-web first pass with Portuguese, English, French and limited Kriol queries; weekly windows, regions, sectors and December/February boundary leads checked. Two actual protest dates documented, four gathering leads remain unverified. January 28 passes the qualitative attendance threshold but requires episode/date review. No claim of exhaustive coverage or no other events; weak rural/radio access, failed date filters and unavailable official baseline remain open.",
+  "temporary_resources_started": [
+    {
+      "resource": "Finite ordinary HTTPS reader",
+      "session_id": 63336,
+      "termination": "Observed exit_code 0; no persistent process left running"
+    },
+    {
+      "resource": "Finite ordinary HTTPS reader",
+      "session_id": 6717,
+      "termination": "Observed exit_code 0; no persistent process left running"
+    },
+    {
+      "resource": "Finite ordinary HTTPS reader",
+      "session_id": 37926,
+      "termination": "Observed exit_code 0; no persistent process left running"
+    },
+    {
+      "resource": "Finite ordinary HTTPS reader",
+      "session_id": 99978,
+      "termination": "Observed exit_code 0; no persistent process left running"
+    },
+    {
+      "resource": "Finite ordinary HTTPS reader",
+      "session_id": 70170,
+      "termination": "Observed exit_code 0; no persistent process left running"
+    }
+  ],
+  "human_approved": false,
+  "eligibility_counts": {
+    "pending_threshold": 1,
+    "pending_unit": 1,
+    "pending_evidence": 4
+  },
+  "source_access_counts": {
+    "opened": 20,
+    "search_only": 221,
+    "not_found": 1
+  },
+  "coordinator_review_status": "not_reviewed",
+  "independent_review_status": "not_reviewed"
+}

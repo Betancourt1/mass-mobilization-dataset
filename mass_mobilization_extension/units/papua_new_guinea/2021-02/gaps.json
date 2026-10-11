@@ -1,0 +1,84 @@
+[
+  {
+    "gap_id": "papua_new_guinea_2021-02_G001",
+    "type": "threshold",
+    "description": "S004 confirms a public Wafi-Golpu forum on 10 February but supplies no numerical attendance; S005’s “many people” statement is not a count of forum participants. The >=50 eligibility threshold remains unresolved.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "papua_new_guinea_2021-02_E001"
+    ],
+    "required_followup": "Locate contemporaneous attendee estimates or direct reporting that explicitly establishes forum attendance."
+  },
+  {
+    "gap_id": "papua_new_guinea_2021-02_G002",
+    "type": "event_boundary_and_location",
+    "description": "S004 names Sir Ignatius Kilage Stadium but not its locality in the article text; S005 reports a Lae forum the prior week that may be the same event. Neither source establishes the forum’s end time/date.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "papua_new_guinea_2021-02_E001"
+    ],
+    "required_followup": "Find a venue/location confirmation, clarify whether S005 covers the same 10 February forum, and seek evidence of the gathering’s physical end."
+  },
+  {
+    "gap_id": "papua_new_guinea_2021-02_G003",
+    "type": "state_response_and_violence",
+    "description": "Neither Wafi-Golpu report establishes protester violence or any of the seven event-specific state responses: accommodation, arrests, beatings, crowd dispersal, ignore, killings, or shootings.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "papua_new_guinea_2021-02_E001"
+    ],
+    "required_followup": "Seek event-specific reporting or official documentation; retain all values unknown unless directly supported."
+  },
+  {
+    "gap_id": "papua_new_guinea_2021-02_G004",
+    "type": "inaccessible_source",
+    "description": "The PNGFacts/Police Media student-dispersal item S001 remains search-only. The exact web.open returned Cache miss without content or HTTP status; a separately gated exact-URL HTTPS request failed DNS before HTTP. No political demand, event characterization, or turnout can be verified from the body.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "papua_new_guinea_2021-02_X001"
+    ],
+    "required_followup": "If this lead is revisited, obtain a fresh exact-URL receipt and complete manual gate; do not treat technical retrieval failures as a denial or use an inferred alias."
+  },
+  {
+    "gap_id": "papua_new_guinea_2021-02_G005",
+    "type": "campaign_event_coverage",
+    "description": "The Sumgilbar reports document February correspondence and a company-license withdrawal but no in-month public gathering. Earlier dated Warden hearings and the Tokain forum are outside February; no continuous physical action into the month is established.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "papua_new_guinea_2021-02_X002"
+    ],
+    "required_followup": "Search additional contemporaneous local sources for a distinct February gathering; do not assign earlier meeting attendance or invent a continuous action."
+  },
+  {
+    "gap_id": "papua_new_guinea_2021-02_G006",
+    "type": "search_coverage",
+    "description": "Research used open-web searches, not LexisNexis; the search set includes 22 captured actions with 371 ordered result headers. Tok Pisin terms beyond the country-name variant and additional local archives were not searched, so exhaustiveness is not established.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If coverage is extended, search additional Tok Pisin terms and local archives and compare against licensed newspaper archives where available."
+  },
+  {
+    "gap_id": "papua_new_guinea_2021-02_G007",
+    "type": "coding_baseline",
+    "description": "The local May 2015 codebook’s broad political behavior/process category covers policy choices by leaders and is applied to E001. The latest official baseline and supplemental Coding Procedure remain unverified, so the category mapping is pending coordinator review.",
+    "source_ids": [],
+    "affected_candidates": [
+      "papua_new_guinea_2021-02_E001"
+    ],
+    "required_followup": "Coordinator to verify the current official baseline and supplemental procedure and confirm whether they retain this broad demand category."
+  }
+]

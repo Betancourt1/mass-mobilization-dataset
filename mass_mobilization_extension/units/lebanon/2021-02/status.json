@@ -1,0 +1,34 @@
+{
+  "unit_id": "lebanon_2021-02",
+  "country": "Lebanon",
+  "month": "2021-02",
+  "agent_task": "/root/lebanon_2021_02_batch58",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T14:33:38.864000+00:00",
+  "finished_at": "2026-10-10T15:07:49Z",
+  "n_queries": 19,
+  "n_sources": 29,
+  "n_candidates": 2,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 10,
+  "coverage_assessment": "Provisional open-web first pass: 19 captured original search actions and 507 ordered headers (16 English and 3 Arabic); 29 unique-URL source cards; 2 current-unit body opens; 0 prior-unit-only consultations. Eight physical body requests were attempted; two produced body reads and six technical failures across Lebanon24, Lebanese Forces and IMLebanon. No failure was treated as a denial. Two candidates remain pending_state_target or pending_threshold. Twenty-seven source cards are search_only, including an unresolved ArabicPost publisher-scope question; no request followed that ambiguity. One initial gate deferred and four later receipts became stale after peer source-ledger changes; no request followed those checks. A later MTV gate also deferred when inputs changed during its scan. ArabicPost remained unrequested after an ambiguous scope review; all are recorded as no-request outcomes, not denials. Coverage is not exhaustive or LexisNexis-equivalent. January Tripoli continuity and February onset/boundaries remain unestablished; see gaps and report.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 2,
+    "search_only_cards": 27,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "original_search_actions": 19,
+    "captured_header_count": 507,
+    "full_registered_rollout_comparison": "passed: all 19 original search action IDs mapped; exact query, tool, ordered returned_results and returned_urls matched; 507 headers; no omissions or reruns"
+  },
+  "physical_body_request_count": 8,
+  "successful_body_read_count": 2,
+  "technical_body_request_failures": 6,
+  "current_unit_body_read_cards": 2,
+  "prior_unit_only_body_reads": 0,
+  "no_request_gate_count": 7
+}

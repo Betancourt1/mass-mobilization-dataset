@@ -1,0 +1,384 @@
+[
+  {
+    "gap_id": "FR-202101-G001",
+    "type": "official_baseline",
+    "description": "Última versión oficial, IDs y cobertura exacta no verificados por este trabajador. Todos los registros siguen candidatos.",
+    "source_ids": [],
+    "affected_candidates": [
+      "FR-202101-E001",
+      "FR-202101-E002",
+      "FR-202101-E003",
+      "FR-202101-E004",
+      "FR-202101-E005",
+      "FR-202101-E006",
+      "FR-202101-E007",
+      "FR-202101-E008",
+      "FR-202101-E009",
+      "FR-202101-E010",
+      "FR-202101-E011",
+      "FR-202101-E012",
+      "FR-202101-E013",
+      "FR-202101-E014",
+      "FR-202101-E015",
+      "FR-202101-E016",
+      "FR-202101-E017",
+      "FR-202101-E018",
+      "FR-202101-E019",
+      "FR-202101-E020",
+      "FR-202101-E021",
+      "FR-202101-E022",
+      "FR-202101-E023",
+      "FR-202101-E024",
+      "FR-202101-E025",
+      "FR-202101-E026",
+      "FR-202101-E027",
+      "FR-202101-E028"
+    ],
+    "required_followup": "Coordinador debe verificar y descargar última base oficial, registrar versión/huella y efectuar correspondencia antes de integración/PR."
+  },
+  {
+    "gap_id": "FR-202101-G002",
+    "type": "method_deviation",
+    "description": "Barrido web abierta no reproduce Lexis Nexis ni permite afirmar exhaustividad. Los resultados están influidos por indexación y notoriedad.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Repetir consultas contra hemerotecas/archivos sistemáticos y protocolo oficial con registro de ventanas y ausencia de resultados."
+  },
+  {
+    "gap_id": "FR-202101-G003",
+    "type": "regional_coverage",
+    "description": "Cobertura fuerte París/Lyon/Grenoble, menor rural y ultramar. Mayotte y Réunion aparecen en pistas; no hubo lectura sistemática de todos los territorios.",
+    "source_ids": [
+      "FR-202101-S078",
+      "FR-202101-S116"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Hemerotecas regionales y ultramar: Ouest-France, La Dépêche, France 3, France Bleu, prensa local/archivos de prefecturas; detectar demandas locales al Estado."
+  },
+  {
+    "gap_id": "FR-202101-G004",
+    "type": "blocked_sources",
+    "description": "Fallos de extracción en 20 Minutes 16, Maville 17, Place Gre’netculture 19, FEST’IEF23 y PDFRhône. No se eludieron bloqueos.",
+    "source_ids": [
+      "FR-202101-S016",
+      "FR-202101-S130",
+      "FR-202101-S131",
+      "FR-202101-S066",
+      "FR-202101-S142"
+    ],
+    "affected_candidates": [
+      "FR-202101-E008",
+      "FR-202101-E009",
+      "FR-202101-E010",
+      "FR-202101-E025"
+    ],
+    "required_followup": "Buscar copia autorizada sindicada/archivo público disponible o revisar manualmente; registrar origen y no contar republicaciones como corroboración independiente."
+  },
+  {
+    "gap_id": "FR-202101-G005",
+    "type": "missing_participant_counts",
+    "description": "Miles/cientos/cerca 100/casi 300 no convertidos a cifras exactas. Nacionales carecen de total numérico abierto.",
+    "source_ids": [
+      "FR-202101-S038",
+      "FR-202101-S043",
+      "FR-202101-S088",
+      "FR-202101-S093",
+      "FR-202101-S135",
+      "FR-202101-S136",
+      "FR-202101-S022"
+    ],
+    "affected_candidates": [
+      "FR-202101-E002",
+      "FR-202101-E004",
+      "FR-202101-E006",
+      "FR-202101-E007",
+      "FR-202101-E012",
+      "FR-202101-E013",
+      "FR-202101-E016",
+      "FR-202101-E017",
+      "FR-202101-E018",
+      "FR-202101-E019"
+    ],
+    "required_followup": "Preservar expresiónoriginal; contrastar estimaciones policía/organizadores sin sumar jornadas ni reproducir cifra local como nacional."
+  },
+  {
+    "gap_id": "FR-202101-G006",
+    "type": "threshold_borderline",
+    "description": "Nantes 2: una cincuentena es estimación limítrofe al umbral 50.",
+    "source_ids": [
+      "FR-202101-S051"
+    ],
+    "affected_candidates": [
+      "FR-202101-E003"
+    ],
+    "required_followup": "Corroborar recuento>=50 con crónica/registro original."
+  },
+  {
+    "gap_id": "FR-202101-G007",
+    "type": "state_target",
+    "description": "Grenoble 2 demanda a ACTIS sin verificación de función pública; Lyon GJ9 no enuncia demanda concreta al Estado.",
+    "source_ids": [
+      "FR-202101-S051",
+      "FR-202101-S043"
+    ],
+    "affected_candidates": [
+      "FR-202101-E002",
+      "FR-202101-E006"
+    ],
+    "required_followup": "Verificar estatuto ACTIS y declaraciones/pancartas GJ; no inferir categoría estatal solo por identidadmovimiento."
+  },
+  {
+    "gap_id": "FR-202101-G008",
+    "type": "physical_end_dates",
+    "description": "La mayoría de noticias solo documentan una jornada y no su cierre físico. Fechasfinalesunknown preservadas.",
+    "source_ids": [],
+    "affected_candidates": [
+      "FR-202101-E002",
+      "FR-202101-E003",
+      "FR-202101-E007",
+      "FR-202101-E008",
+      "FR-202101-E009",
+      "FR-202101-E010",
+      "FR-202101-E011",
+      "FR-202101-E012",
+      "FR-202101-E013",
+      "FR-202101-E015",
+      "FR-202101-E016",
+      "FR-202101-E017",
+      "FR-202101-E018",
+      "FR-202101-E020",
+      "FR-202101-E021",
+      "FR-202101-E022",
+      "FR-202101-E023",
+      "FR-202101-E024",
+      "FR-202101-E025",
+      "FR-202101-E026",
+      "FR-202101-E027",
+      "FR-202101-E028"
+    ],
+    "required_followup": "Buscar retrospectivas/finalización y continuidad; no fijar fin al 31 enero ni última publicación."
+  },
+  {
+    "gap_id": "FR-202101-G009",
+    "type": "state_response_unknown",
+    "description": "Muchos campos de arrestos, golpes, dispersión, disparos, muertes, ignoraryconcesión sin evidencia. Silencio no se convierte enno.",
+    "source_ids": [],
+    "affected_candidates": [
+      "FR-202101-E001",
+      "FR-202101-E002",
+      "FR-202101-E003",
+      "FR-202101-E004",
+      "FR-202101-E005",
+      "FR-202101-E006",
+      "FR-202101-E007",
+      "FR-202101-E008",
+      "FR-202101-E009",
+      "FR-202101-E010",
+      "FR-202101-E011",
+      "FR-202101-E012",
+      "FR-202101-E013",
+      "FR-202101-E014",
+      "FR-202101-E015",
+      "FR-202101-E016",
+      "FR-202101-E017",
+      "FR-202101-E018",
+      "FR-202101-E019",
+      "FR-202101-E020",
+      "FR-202101-E021",
+      "FR-202101-E022",
+      "FR-202101-E023",
+      "FR-202101-E024",
+      "FR-202101-E025",
+      "FR-202101-E026",
+      "FR-202101-E027",
+      "FR-202101-E028"
+    ],
+    "required_followup": "Contrastar crónicas, prefecturas, LDH y seguimiento; separar violencia reivindicada como motivo de violencia estatal en ese acto."
+  },
+  {
+    "gap_id": "FR-202101-G010",
+    "type": "agency_dependency",
+    "description": "Euronews/Le Parisien/RTL/Arab News y otros pueden repetir AFP. Leralrepublica Impact.sn y original AFPprobablenoverificado.",
+    "source_ids": [
+      "FR-202101-S004",
+      "FR-202101-S015",
+      "FR-202101-S098",
+      "FR-202101-S104",
+      "FR-202101-S130",
+      "FR-202101-S080",
+      "FR-202101-S135"
+    ],
+    "affected_candidates": [
+      "FR-202101-E001",
+      "FR-202101-E008",
+      "FR-202101-E009",
+      "FR-202101-E013",
+      "FR-202101-E015",
+      "FR-202101-E018"
+    ],
+    "required_followup": "Etiquetar cadenas de sindicación y localizar autoría; contar fuente original única frente copias."
+  },
+  {
+    "gap_id": "FR-202101-G011",
+    "type": "unit_national_local",
+    "description": "Revisión pendiente de DALParís/Grenoble/Nantes, EDF19 local versus nacional, Chouviatmultilocal, Marchons Enfants 30–31 y participaciónestudiantil 26.",
+    "source_ids": [
+      "FR-202101-S051",
+      "FR-202101-S110",
+      "FR-202101-S022",
+      "FR-202101-S034",
+      "FR-202101-S093",
+      "FR-202101-S150",
+      "FR-202101-S152"
+    ],
+    "affected_candidates": [
+      "FR-202101-E001",
+      "FR-202101-E002",
+      "FR-202101-E003",
+      "FR-202101-E004",
+      "FR-202101-E011",
+      "FR-202101-E012",
+      "FR-202101-E016",
+      "FR-202101-E019"
+    ],
+    "required_followup": "Decidir unidad con documentos de convocatoria y baseline; evitar filas duplicadas porciudad/artículo y no mezclar demandas locales distintas."
+  },
+  {
+    "gap_id": "FR-202101-G012",
+    "type": "announcements_not_occurrence",
+    "description": "Avisos de GJ2/9, Rennes 9, medicosocial 12, AED19, homeschool 23, EDF28 no acreditan realización>=50.",
+    "source_ids": [
+      "FR-202101-S050",
+      "FR-202101-S041",
+      "FR-202101-S042",
+      "FR-202101-S063",
+      "FR-202101-S053",
+      "FR-202101-S066",
+      "FR-202101-S110"
+    ],
+    "affected_candidates": [
+      "FR-202101-E020",
+      "FR-202101-E021",
+      "FR-202101-E022",
+      "FR-202101-E023",
+      "FR-202101-E024",
+      "FR-202101-E025",
+      "FR-202101-E026"
+    ],
+    "required_followup": "Buscar crónicas retrospectivas y fuentescontemporáneas, distinguir huelga de reuniónpública."
+  },
+  {
+    "gap_id": "FR-202101-G013",
+    "type": "unread_event_leads",
+    "description": "Culture 19 y circo 26 solo cuentan con pistas/fotos no abiertas. No codificados a partir de snippets.",
+    "source_ids": [
+      "FR-202101-S131",
+      "FR-202101-S132",
+      "FR-202101-S133",
+      "FR-202101-S134",
+      "FR-202101-S147",
+      "FR-202101-S148"
+    ],
+    "affected_candidates": [
+      "FR-202101-E010",
+      "FR-202101-E027"
+    ],
+    "required_followup": "Leer fuentes y confirmar asistencia/objetivo; resolver título contradictorio fotos ABACA y unaunidadporreportaje."
+  },
+  {
+    "gap_id": "FR-202101-G014",
+    "type": "secondary_chronology",
+    "description": "Marmande 1 solo encronologíasecundaria; consulta específica devolvió materialajeno. Centrosretención Vincennes/Mesnil Amelot son otra pista sinfecha/umbral.",
+    "source_ids": [
+      "FR-202101-S149",
+      "FR-202101-S146"
+    ],
+    "affected_candidates": [
+      "FR-202101-E028"
+    ],
+    "required_followup": "Revisar artículos originales y archivos locales/detenidos; no equiparar incidentes con protesta elegible."
+  },
+  {
+    "gap_id": "FR-202101-G015",
+    "type": "continuity_cross_month",
+    "description": "Ocupación Grenoblecomenzó 9 diciembre; campaña seguridad globaldesde 17 noviembre. Convocatoriasfebrero no implican acción continuaenero.",
+    "source_ids": [
+      "FR-202101-S051",
+      "FR-202101-S059",
+      "FR-202101-S034",
+      "FR-202101-S137"
+    ],
+    "affected_candidates": [
+      "FR-202101-E002",
+      "FR-202101-E008",
+      "FR-202101-E012",
+      "FR-202101-E016",
+      "FR-202101-E017",
+      "FR-202101-E018"
+    ],
+    "required_followup": "Agente de febrero debe leer episode_key/continuations y comprobar cierre o nueva jornada; diciembre/noviembre dueños de acciones de inicio anterior."
+  },
+  {
+    "gap_id": "FR-202101-G016",
+    "type": "source_updates",
+    "description": "La Tribune 26 actualizada 2025 y algunos índices cambian. France Soir, Le Poing, DAL y LManifson fuentes con posiciones de parte.",
+    "source_ids": [
+      "FR-202101-S110",
+      "FR-202101-S038",
+      "FR-202101-S051",
+      "FR-202101-S022",
+      "FR-202101-S150",
+      "FR-202101-S152"
+    ],
+    "affected_candidates": [
+      "FR-202101-E002",
+      "FR-202101-E003",
+      "FR-202101-E004",
+      "FR-202101-E005",
+      "FR-202101-E007",
+      "FR-202101-E011",
+      "FR-202101-E019"
+    ],
+    "required_followup": "Contrastar archivos contemporáneos y medios independientes; conservar atribución de estimaciones/allegaciones."
+  },
+  {
+    "gap_id": "FR-202101-G017",
+    "type": "repression_attribution",
+    "description": "Dispersión Lyon 16 alegada porcoordinación; porras Paris 30 en Anadolu. Violencia genérica o policíasheridos no basta para deducir mecanismos.",
+    "source_ids": [
+      "FR-202101-S144",
+      "FR-202101-S004",
+      "FR-202101-S024"
+    ],
+    "affected_candidates": [
+      "FR-202101-E008",
+      "FR-202101-E018"
+    ],
+    "required_followup": "Corroborar mecanismos y actor/período con registro oficial y prensa independiente; no inferir shootings de gas oheridos."
+  },
+  {
+    "gap_id": "FR-202101-G018",
+    "type": "counter_demonstrations",
+    "description": "Pistas de contra-manifestaciones PMA31 Brest, Lyon y Rennes no están desarrolladas. Puede haber demandaspropiasestatales o conflictointercomunal.",
+    "source_ids": [
+      "FR-202101-S022",
+      "FR-202101-S099"
+    ],
+    "affected_candidates": [
+      "FR-202101-E019"
+    ],
+    "required_followup": "Abrir cobertura independiente; verificar umbral 50, objetivo estatal y actor que ejerce violencia antes de separar/incluir."
+  },
+  {
+    "gap_id": "FR-202101-G019",
+    "type": "student_next_day",
+    "description": "Balance UNEF anuncia acciones 21 en Lyon/Toulouse; no se ha verificado ejecución ni continuidad con 20.",
+    "source_ids": [
+      "FR-202101-S034"
+    ],
+    "affected_candidates": [
+      "FR-202101-E012"
+    ],
+    "required_followup": "Leer noticias 21–22 y decidir si fue jornada extendida o acciones nuevas; no extender fin desde convocatoria."
+  }
+]

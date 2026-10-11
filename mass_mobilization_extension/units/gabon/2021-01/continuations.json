@@ -1,0 +1,42 @@
+[
+  {
+    "candidate_id": "GAB202101-C001",
+    "country": "Gabon",
+    "ccode": "481",
+    "unit_month": "2021-01",
+    "title": "FECOREFI prior-month revenue-worker strike campaign reported January8",
+    "start_date": "2020",
+    "start_precision": "year",
+    "end_date": null,
+    "end_precision": "unknown",
+    "possible_owner_unit": "gabon_2020-unknown",
+    "source_ids": [
+      "GAB202101-S035",
+      "GAB202101-S135"
+    ],
+    "notes": "January8 original describes a six-month stoppage. February19 original explicitly mentions July and December2020 strikes, establishing prior-month campaign ownership but unresolved physical phases. Keep start year2020; do not choose one July/December day or merge physical episodes. Press conference, audit instructions and return-to-work appeal are not physical closure or >=50 attendance.",
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "GAB202101-S035",
+          "GAB202101-S135"
+        ],
+        "summary": "Opened January8 duration and February19 explicit July/December2020 references establish prior-year activity, with exact physical onset and phase identity unresolved."
+      },
+      "end_date": {
+        "source_ids": [
+          "GAB202101-S035"
+        ],
+        "summary": "Workreturn appealnotphysicalclosure."
+      },
+      "participants": {
+        "source_ids": [
+          "GAB202101-S035"
+        ],
+        "summary": "Economiclossnotcrowd; publicassembly>=50unverified."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "human_approved": false
+  }
+]

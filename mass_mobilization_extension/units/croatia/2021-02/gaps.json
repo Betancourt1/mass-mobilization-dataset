@@ -1,0 +1,76 @@
+[
+  {
+    "gap_id": "HR202102-G001",
+    "type": "baseline",
+    "description": "The local baseline/mm_codebook.txt and additional Coding Procedure are unavailable in this dossier. Event category mapping remains provisional; no official inclusion or export decision is made.",
+    "source_ids": [],
+    "follow_up": "Coordinator should verify the latest official baseline and category rules before consolidation."
+  },
+  {
+    "gap_id": "HR202102-G002",
+    "type": "event_evidence",
+    "description": "Brodotrogir February20 is a search-only candidate. The Jutarnji URL returned a Cache miss on the only exact article request; later gate receipts were not used after a shared-window invalidation and a source-input hash change. HINA attendance preview and pre-event announcement do not establish all event fields.",
+    "source_ids": [
+      "HR202102-S005",
+      "HR202102-S006",
+      "HR202102-S007"
+    ],
+    "follow_up": "After a fresh stable gate and complete manual review, seek exact-URL body evidence or retain as pending_evidence. Verify state target, execution, participant threshold, organizer, date precision and episode relation."
+  },
+  {
+    "gap_id": "HR202102-G003",
+    "type": "event_evidence",
+    "description": "Dnevnik.hr search preview mentions a quiet gathering outside Andrija Klarić’s gym twelve hours after his arrest but supplies no exact event date, location/address, turnout, demands or direct body evidence.",
+    "source_ids": [
+      "HR202102-S008"
+    ],
+    "follow_up": "Review the article only after fresh gate review; determine whether the event falls within February and whether it meets the participant and public-demand criteria."
+  },
+  {
+    "gap_id": "HR202102-G004",
+    "type": "eligibility",
+    "description": "Search titles describe student gatherings at Sava/Jarun as parties; one Index title suggests a possible protest against perceived hypocrisy or restrictions. No bodies were read, so protest intent and any demand remain unresolved.",
+    "source_ids": [
+      "HR202102-S010",
+      "HR202102-S011"
+    ],
+    "follow_up": "Read contemporary reporting after a fresh gate review before treating the gatherings as protest or excluding them definitively."
+  },
+  {
+    "gap_id": "HR202102-G005",
+    "type": "event_occurrence",
+    "description": "Hazud search result is an invitation for a February25 Justice Ministry gathering. The 14 captured search batches did not verify that the action occurred or establish turnout.",
+    "source_ids": [
+      "HR202102-S009"
+    ],
+    "follow_up": "Search for an after-event account; retain invitation as an unverified announcement unless occurrence is confirmed."
+  },
+  {
+    "gap_id": "HR202102-G006",
+    "type": "event_end_response",
+    "description": "For the proposed February3 and February13 candidates, physical end, protester violence and each of the seven state-response fields are unknown. Index says the crowd started leaving shortly after noon, which does not establish event closure; Jutarnji’s attendance estimate is attributed to RTL.",
+    "source_ids": [
+      "HR202102-S001",
+      "HR202102-S004"
+    ],
+    "follow_up": "Find event-specific contemporary evidence; preserve each missing value as unknown until supported."
+  },
+  {
+    "gap_id": "HR202102-G007",
+    "type": "continuity",
+    "description": "January records point forward to February3, the Klarić gym lead and the February20 Brodotrogir lead. No verified episode continuity from a January action into February is established.",
+    "source_ids": [
+      "HR202102-S001",
+      "HR202102-S005",
+      "HR202102-S008"
+    ],
+    "follow_up": "Compare current evidence with the January dossier during coordinator review; do not merge actions solely by issue, actor or company."
+  },
+  {
+    "gap_id": "HR202102-G008",
+    "type": "coverage",
+    "description": "Open-web coverage is broad but not systematic or exhaustive. Regional/local outlet access, non-Croatian local-language archives, licensed databases and full systematic day-by-day coverage remain limited; search result date filters also returned later-period noise.",
+    "source_ids": [],
+    "follow_up": "Continue targeted city/sector/date searches and consult systematic archives when available; do not make an absence claim from this batch."
+  }
+]

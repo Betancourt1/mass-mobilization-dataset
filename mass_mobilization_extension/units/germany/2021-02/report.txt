@@ -1,0 +1,15 @@
+Germany — February 2021 research handoff
+
+Scope and method
+This dossier covers only Germany, 1–28 February 2021, under the fixed 2026-10-07 cutoff. Search used 18 captured web search actions (641 ordered result headers), including German-language, date-window, local-event and policy-specific combinations. Each original response is recorded in search_log.jsonl; all 18 captured actions were compared by original event ID, exact batched query text and ordered headers/URLs. The corpus is a discovery record, not a completeness claim.
+
+Evidence captured
+There are 43 source cards. Five have documented body-read evidence: CILIP’s partial February chronology, Mannheim police, the DPA dispatch copied by Süddeutsche Zeitung, the Munich SZ weekend report, and AVL’s February archive. Six successful body reads across five unique URLs are recorded, because CILIP required two exact-URL reads. The read scopes are limited to the line ranges in sources.jsonl. Three additional body attempts failed technically (two Tagesspiegel requests, one Berliner Zeitung request); these were Cache miss/DNS failures without an observed access denial. See access_receipts/ and access_manifest.json. No body was retained.
+
+The candidate array contains 17 local records. It separates distinct city gatherings, leaves vehicle counts separate from people, retains Annaberg’s internal >700/590 discrepancy, and treats the Vogtland convoy as an unexecuted announcement. Counter-groups below 50 and a foreign-government-only target are retained in excluded.json. No event end, accommodation, arrest, beating, or other response is inferred from silence. An insult report or unassigned damage is not coded as protester violence.
+
+Coverage and limitations
+This is selected open-web coverage, not an exhaustive Germany-wide press search. There is no systematic LexisNexis access; the original MM codebook PDF is not included in the portable package, so the documented protocol is used pending the official baseline. Retrospective CILIP leads need contemporary corroboration. Berlin February event identity and turnout, the Red Rathaus date and demand, Munich borderline/unknown crowd thresholds, and Hanau state-target demands remain open. Technical retrieval failures remain search_only, not blocked. Continuations are empty because none was established from reviewed evidence; this is not evidence that no cross-month events existed.
+
+Files and review state
+All mandatory files are present. status.json remains researched_open_web_pending_review with baseline_gate pending_official_baseline. Candidate eligibility, event links, unit allocation, and official status remain for coordinator/human review. No official IDs were assigned and no candidates were integrated into the separate catalogue.

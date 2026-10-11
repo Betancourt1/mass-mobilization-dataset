@@ -1,0 +1,52 @@
+{
+  "unit_id": "china_2021-02",
+  "country": "China",
+  "month": "2021-02",
+  "agent_task": "01a12499-8bd1-7ca3-8b52-a956ef1a06a7",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T06:33:41Z",
+  "finished_at": "2026-10-10T07:45:52Z",
+  "n_queries": 16,
+  "n_sources": 17,
+  "n_candidates": 1,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "coverage_assessment": "Sixteen actual English/Chinese broad, weekly, topic and Qing’an follow-up searches retained 351 ordered headers; one contemporary body was opened and one local gathering was coded pending human review. Local/regional archive coverage is incomplete; these searches do not establish absence or exhaustiveness. 1 current-unit body opens; 0 prior-unit-only body opens. Original-rollout audit disclosed two S002 no-body retrieval attempts; generated manual_review receipts exist, but neither has a saved complete manual-scope artifact or valid complete preflight. The earlier DNS attribution to S001 was corrected and its pre-repair bytes are archived.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 1,
+    "blocked_cards": 0,
+    "search_only_cards": 16,
+    "not_found_cards": 0
+  },
+  "eligibility_counts": {
+    "pending_state_target": 1
+  },
+  "query_capture_integrity": {
+    "captured_invocations": 16,
+    "actual_headers": 351,
+    "dossier_queries": 16,
+    "dossier_headers": 351,
+    "exact_matches_after_fresh_extraction": 16,
+    "mismatches": 0
+  },
+  "receipt_manifest": "access_receipts/manifest.json",
+  "receipt_manifest_sha256": "f60324ad259cc38d43ec715aedaf0387b91be4d413611041ecb0b40bd847c2fb",
+  "retrieval_attempt_counts": {
+    "body_attempts": 6,
+    "no_body_responses": 5,
+    "body_reads": 1,
+    "attempts_without_valid_complete_preflight": 3
+  },
+  "access_metadata_repair": {
+    "reviewed_at": "2026-10-10T08:02:05.348Z",
+    "source_ids_touched": [
+      "china_2021-02_S001",
+      "china_2021-02_S002"
+    ],
+    "historical_attribution_corrected": "The ordinary HTTPS DNS failure moved from S001 to its actual URL card S002, based on the original registered rollout.",
+    "history_manifest": "capture-history/s002_attribution_repair_20261010T075947Z_prechange/manifest.json",
+    "history_manifest_sha256": "fe546db6a13a432a3e7161c9867ddc8d2c5e29b49d6063bc21a79d90380a7ca7"
+  }
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "TJK202101-G001",
+    "type": "baseline",
+    "description": "The latest official dataset bytes, current country universe and schema remain unverified, and the authors' additional Coding Procedure is unavailable. January findings remain provisional under this gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Compare the authoritative current dataset bytes, universe and schema and obtain the applicable Coding Procedure before official approval, compatibility claims, or integration. Provisional research, consolidation, and working exports may proceed while the baseline, schema, universe, and procedure remain unresolved."
+  },
+  {
+    "gap_id": "TJK202101-G002",
+    "type": "search_method",
+    "description": "Open web research does not reproduce LexisNexis or systematic regional newspaper archives. Local-language coverage remains incomplete. Radioi Tojikiston January archive pages 1, 2, 4 and 5 were screened for 10 headings each; page 3 returned a web-tool “not accessible” response, with no retry, and no article bodies were opened.",
+    "source_ids": [
+      "TJK202101-S001",
+      "TJK202101-S002",
+      "TJK202101-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue weekly English, Russian and Tajik searches across Dushanbe, Khujand/Sughd, Khatlon, Gorno-Badakhshan and rural sectors; inspect accessible local archives and original reports; check December/February continuity. Do not retry the page-3 URL after the tool-level access denial."
+  },
+  {
+    "gap_id": "TJK202101-G003",
+    "type": "coverage",
+    "description": "The Oxus Society tracker workbook contains zero rows dated January 2021 in its Tajikistan Raw and Tajikistan Clean sheets. This limited secondary-data result is not evidence that no event occurred.",
+    "source_ids": [
+      "TJK202101-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search contemporary local/regional and international reporting and documents for January 2021 events and cross-check any leads against the workbook's own source URLs where available."
+  },
+  {
+    "gap_id": "TJK202101-G004",
+    "type": "search_method",
+    "description": "Exact search-result title capture is incomplete. Persisted null-title entries are Q001 turn5286search18 and turn5286search19; Q002 turn5290reddit23; Q003 turn5291search2, turn5291search9, turn5291search20 and turn5291reddit24; Q004 turn5294search0, turn5294search4, turn5294search5, turn5294search11 and turn5294search12; Q006 turn5317search15; Q007 turn5318search16, turn5318search7 and turn5318search21; Q009 turn5324search21; Q014 turn5339search13; Q024 turn5364search14; Q026 turn5372search17; Q027 turn5374search22; and Q029 turn5383search9. The earlier notes describe some blocks as excerpts, but prior raw returns cannot be accessed in this worker context, so those title diagnoses cannot be rechecked here. Q029’s raw block had no distinct title; null was preserved. Q001’s persisted notes identify two specific corrections (turn5286search18/19); six guessed Q001 raw-store keys were unavailable and the query was not rerun. URL/ref positions remain in search_log.jsonl. Do not infer a snippet from title length or claim complete title capture. Q030 turn5385search4 (same URL as Q003 turn5291search9) has a blank title before the URL in the raw block and remains null; that source is search-only. Q031 turn5386search14 (TNU PDF) began with a mid-document passage and turn5386search15 (Labour Central Asia PDF) showed only a page-number marker; both titles are null, with exact URLs/refs preserved after raw-block inspection. Q033 turn5394search4, the same Asia Plus 2020 URL, also had a blank title before the URL and remains null. Q034 turn5396search16 (an ecoi-hosted 2022 PDF) placed an endnotes excerpt in the title position; title is null after raw-block inspection. Additional persisted titles were visibly body fragments rather than titles and were set to null without relying on length: Q008 turn5323search15 (numbered tax-code provision 17), Q010 turn5325search14 (numbered report item 10), Q022 turn5360search16 (mid-sentence Sughd power-project passage), and Q026 turn5372search18 (mid-sentence migration-yearbook passage). Prior raw returns remain unavailable for Q1–Q25, so all other prior capture judgments remain limited. Q022 turn5360search13 (ombudsman PDF) was also set to null because the persisted text begins mid-sentence in a body passage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If any null-title result becomes relevant, inspect an accessible saved raw result or the exact public page for its title; do not repeat the original query. Preserve null when no distinct result title is available."
+  },
+  {
+    "gap_id": "TJK202101-G005",
+    "type": "episode_unit",
+    "description": "A March 4, 2021 BHRRC page (S006) reports a Tajik-China Mining and Industrial Company wage protest but does not identify the physical protest date or turnout. It attributes conflicting police-violence accounts and states a private-employer wage grievance, not a separate own-state demand. Targeted Q033–Q034 searches returned other, distinct mining-worker incidents in 2020 and June 2021, but did not locate the cited original that fixes the March report’s event date.",
+    "source_ids": [
+      "TJK202101-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Locate the BHRRC-cited original Radio Ozodi report or another contemporaneous report that establishes the event date, location, gathering size and any separate own-state demand. Do not merge the separate May 2020 or June 2021 worker incidents with the March 2021 allegation."
+  },
+  {
+    "gap_id": "TJK202101-G006",
+    "type": "episode_unit",
+    "description": "Contemporary Azattyq and Radio Ozodi reports (S011–S012) document Mahmurod Odinaev’s November request for permission to hold a food-price protest and a later detention; neither reports that the proposed gathering occurred. The opened U.S. Department of State report (S009) gives a separate official account tying Dec 5 detention charges to an alleged Oct 29 Hissor altercation. The Q026 CrisisWatch staging-host snippet (S010) remains unverified. No physical event or January continuity is evidenced; this is a coverage gap, not a no-occurrence finding.",
+    "source_ids": [
+      "TJK202101-S009",
+      "TJK202101-S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If new contemporary reporting is found, verify whether any crowd actually assembled, its date/size/target, and whether it continued into January before creating a candidate. Do not infer occurrence from the permit request or subsequent detention."
+  }
+]

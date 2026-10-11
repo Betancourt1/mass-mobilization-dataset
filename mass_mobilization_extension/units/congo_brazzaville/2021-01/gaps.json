@@ -1,0 +1,192 @@
+[
+  {
+    "gap_id": "congo_brazzaville_2021-01_G001",
+    "type": "baseline",
+    "source_ids": [],
+    "candidate_ids": [
+      "congo_brazzaville_2021-01_E001",
+      "congo_brazzaville_2021-01_E002",
+      "congo_brazzaville_2021-01_E003",
+      "congo_brazzaville_2021-01_E004"
+    ],
+    "detail": "Official MM baseline version, schema and Coding Procedure verification remain unresolved globally.",
+    "follow_up": "Resolve gate before official comparison or release."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G002",
+    "type": "threshold_participants",
+    "source_ids": [
+      "S070",
+      "S042",
+      "S036",
+      "S061"
+    ],
+    "candidate_ids": [
+      "congo_brazzaville_2021-01_E001",
+      "congo_brazzaville_2021-01_E002",
+      "congo_brazzaville_2021-01_E003",
+      "congo_brazzaville_2021-01_E004"
+    ],
+    "detail": "No lead establishes at least 50 simultaneous participants. Legal caps, company count and workforce are not crowds.",
+    "follow_up": "Find contemporaneous counts or sufficiently concrete attendance evidence."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G003",
+    "type": "episode_unit_state_target",
+    "source_ids": [
+      "S070",
+      "S042"
+    ],
+    "candidate_ids": [
+      "congo_brazzaville_2021-01_E001",
+      "congo_brazzaville_2021-01_E002"
+    ],
+    "detail": "Nkayi has state-directed anger/violence but no articulated demand; UMC meeting may be internal.",
+    "follow_up": "Verify public protest character and demands independently."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G004",
+    "type": "ownership_unconfirmed",
+    "source_ids": [
+      "S036",
+      "S061"
+    ],
+    "candidate_ids": [
+      "congo_brazzaville_2021-01_E003",
+      "congo_brazzaville_2021-01_E004"
+    ],
+    "detail": "Press/slogan reports establish neither actual gathering nor start month.",
+    "follow_up": "Retain null dates until physical occurrence and owner established."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G005",
+    "type": "physical_end_dates",
+    "source_ids": [
+      "S070",
+      "S042",
+      "S036",
+      "S061"
+    ],
+    "candidate_ids": [
+      "congo_brazzaville_2021-01_E001",
+      "congo_brazzaville_2021-01_E002",
+      "congo_brazzaville_2021-01_E003",
+      "congo_brazzaville_2021-01_E004"
+    ],
+    "detail": "No physical endings established.",
+    "follow_up": "Find withdrawal, departure or specific closure evidence; do not use publication, strike duration or month end."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G006",
+    "type": "state_response_contested_casualty",
+    "source_ids": [
+      "S070"
+    ],
+    "candidate_ids": [
+      "congo_brazzaville_2021-01_E001"
+    ],
+    "detail": "Police reply unspecified. Custody death precedes crowd; police hanging claim conflicts with family allegations of beating/killing.",
+    "follow_up": "Verify crowd-specific police actions separately from grievance casualty."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G007",
+    "type": "episode_unit_accommodation",
+    "source_ids": [
+      "S082",
+      "S070"
+    ],
+    "candidate_ids": [
+      "congo_brazzaville_2021-01_E001"
+    ],
+    "detail": "January 24 civic dialogues heard grievances but do not explicitly connect to January 12 custody-death crowd.",
+    "follow_up": "Verify linkage before any accommodation coding."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G008",
+    "type": "continuation_ownership_dates",
+    "source_ids": [
+      "S010",
+      "S001",
+      "S076"
+    ],
+    "candidate_ids": [],
+    "detail": "December 31 anti-curfew action and prior SOPECO mobilizations cannot be assigned as new January occurrences.",
+    "follow_up": "Check December/September owners and February bodies; preserve separate local episodes."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G009",
+    "type": "partial_source_archive_unread",
+    "source_ids": [
+      "S037",
+      "S040",
+      "S043",
+      "S078",
+      "S012",
+      "S021",
+      "S053",
+      "S054",
+      "S064",
+      "S017"
+    ],
+    "candidate_ids": [],
+    "detail": "Weekly/daily archive searches found issues; only selected pages/keywords of 4030,4031,4033 and DBZ January25 were read. 4032 and other discovered issues remain unread.",
+    "follow_up": "Review remaining relevant issue sections, prioritizing January20 issue and sector/local pages; keywords are not exhaustive absence proof."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G010",
+    "type": "source_access_method",
+    "source_ids": [
+      "S036",
+      "S042",
+      "S047",
+      "S081"
+    ],
+    "candidate_ids": [],
+    "detail": "Web cache errors were recovered by ordinary public HTTPS HTTP200. Exact timing of first three recoveries not retained; accessed_at null with recording time. Later sandbox DNS failure recovered for S042. No actual paywall bypass.",
+    "follow_up": "Keep access precision explicit; source access is not corroboration."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G011",
+    "type": "source_independence",
+    "source_ids": [
+      "S001",
+      "S051",
+      "S071",
+      "S074",
+      "S077",
+      "S009",
+      "S042",
+      "S061",
+      "S062"
+    ],
+    "candidate_ids": [
+      "congo_brazzaville_2021-01_E001",
+      "congo_brazzaville_2021-01_E002",
+      "congo_brazzaville_2021-01_E003",
+      "congo_brazzaville_2021-01_E004"
+    ],
+    "detail": "Amnesty mirrors/translations share one origin; ADIAC/Les Dépêches and credited republications share origin.",
+    "follow_up": "Seek independent contemporary accounts; never count URLs as independent confirmations."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G012",
+    "type": "geographic_language_coverage",
+    "source_ids": [],
+    "candidate_ids": [
+      "congo_brazzaville_2021-01_E001",
+      "congo_brazzaville_2021-01_E002",
+      "congo_brazzaville_2021-01_E003",
+      "congo_brazzaville_2021-01_E004"
+    ],
+    "detail": "French open web dominates. English and limited Lingala slogan searches yielded sparse usable material. Brazzaville/Pointe-Noire/Nkayi visibility exceeds Dolisie, Owando, rural/northern regions.",
+    "follow_up": "Use local regional archives and attributable Lingala/Kituba accounts if available; no zero-event claim."
+  },
+  {
+    "gap_id": "congo_brazzaville_2021-01_G013",
+    "type": "temporal_search_method_filter",
+    "source_ids": [],
+    "candidate_ids": [],
+    "detail": "Search date operators returned out-of-range and DRC material. Queries recorded actual batch initiation, pooled returned URLs, not exact per-query latency or mapping.",
+    "follow_up": "Verify original dates/territory; do not treat filtered search as chronological completeness."
+  }
+]

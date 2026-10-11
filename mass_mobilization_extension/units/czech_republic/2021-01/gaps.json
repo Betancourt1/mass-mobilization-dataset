@@ -1,0 +1,278 @@
+[
+  {
+    "gap_id": "CZ202101-G001",
+    "type": "coverage",
+    "description": "Open web does not reproduce LexisNexis or systematic archives. Weekly Czech/English, regions/sectors, rights sources and boundaries searched; search filters sometimes ignored. No exhaustiveness or absence claim.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use licensed contemporary archives and regional collections with same cutoff; record all searches."
+  },
+  {
+    "gap_id": "CZ202101-G002",
+    "type": "timestamp_precision",
+    "description": "Initial three actual queries have unknown invocation time; later UTC timestamps are captured batch request initiation, not individual result clocks. Batch URL sets are not query-specific matches.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve null/precision labels; do not invent historical seconds."
+  },
+  {
+    "gap_id": "CZ202101-G003",
+    "type": "baseline",
+    "description": "Codebook text was read; detailed coding procedure and official baseline version/schema/universe/license unresolved.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator baseline gate remains pending_official_baseline; do not merge into official rows."
+  },
+  {
+    "gap_id": "CZ202101-G004",
+    "type": "threshold",
+    "description": "Jan3 Prague dozens versus inaccessible TN characterization unresolved. Candles are not people.",
+    "source_ids": [
+      "CZ202101-S043"
+    ],
+    "affected_candidates": [
+      "CZ202101-E001"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G005",
+    "type": "threshold",
+    "description": "Around50 at Průhonice and Jan29 provides no exact minimum.",
+    "source_ids": [
+      "CZ202101-S086",
+      "CZ202101-S053"
+    ],
+    "affected_candidates": [
+      "CZ202101-E002",
+      "CZ202101-E013"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G006",
+    "type": "access",
+    "description": "HTTP403 TN and401 Głos are actual access denials; no bypass. Other web failures may be tool errors.200 Expres/iDNES shells lacked actual body.",
+    "source_ids": [
+      "CZ202101-S043",
+      "CZ202101-S066",
+      "CZ202101-S054",
+      "CZ202101-S045"
+    ],
+    "affected_candidates": [
+      "CZ202101-E001",
+      "CZ202101-E003",
+      "CZ202101-E008",
+      "CZ202101-E012"
+    ],
+    "required_followup": "Authorized public alternate originals; preserve existing denied paths without circumvention."
+  },
+  {
+    "gap_id": "CZ202101-G007",
+    "type": "pending_evidence",
+    "description": "Brno municipal PDF body inaccessible; Jan10 lead and other dated rows are search-only.",
+    "source_ids": [
+      "CZ202101-S011"
+    ],
+    "affected_candidates": [
+      "CZ202101-E005"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G008",
+    "type": "threshold",
+    "description": "TV Jan11 actual execution supported retrospectively but no attendance/public-admission count. Organizer announcement was limited invitation.",
+    "source_ids": [
+      "CZ202101-S047",
+      "CZ202101-S089"
+    ],
+    "affected_candidates": [
+      "CZ202101-E006"
+    ],
+    "required_followup": "Find contemporary executed-event report; exhibition visitors/duration not protest attendance."
+  },
+  {
+    "gap_id": "CZ202101-G009",
+    "type": "pending_evidence",
+    "description": "Jan8 own-government component corroborated by ČT but crowd/organizer/route leads not verified; foreign solidarity alone not sufficient.",
+    "source_ids": [
+      "CZ202101-S001",
+      "CZ202101-S054"
+    ],
+    "affected_candidates": [
+      "CZ202101-E003"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G010",
+    "type": "pending_evidence",
+    "description": "Jinačovice actual body not recovered; dozens/upper100 not threshold proof.",
+    "source_ids": [
+      "CZ202101-S045",
+      "CZ202101-S050"
+    ],
+    "affected_candidates": [
+      "CZ202101-E008"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G011",
+    "type": "threshold",
+    "description": "Projected supplier vans and affected employees cannot be recast as actual people.",
+    "source_ids": [
+      "CZ202101-S049"
+    ],
+    "affected_candidates": [
+      "CZ202101-E009"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G012",
+    "type": "unit_of_analysis",
+    "description": "Chotíkov regular earlier opening, political customer gathering and regional campaign boundaries unresolved; no venue aggregation.",
+    "source_ids": [
+      "CZ202101-S026"
+    ],
+    "affected_candidates": [
+      "CZ202101-E010"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G013",
+    "type": "unit_of_analysis",
+    "description": "Třinec pre-Jan25 near200 and later several-dozen gathering might overlap; actual days/public geography need original source review.",
+    "source_ids": [
+      "CZ202101-S065",
+      "CZ202101-S022",
+      "CZ202101-S066"
+    ],
+    "affected_candidates": [
+      "CZ202101-E011",
+      "CZ202101-E012"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G014",
+    "type": "state_response",
+    "description": "Třinec earlier direct official reception coded accommodation; no victory or transfer to later action. Verify manual operationalization and event separation.",
+    "source_ids": [
+      "CZ202101-S065"
+    ],
+    "affected_candidates": [
+      "CZ202101-E011",
+      "CZ202101-E012"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G015",
+    "type": "state_response",
+    "description": "Jan10 detentions include departure-route fight;6 total versus2 identified actors and peaceful main square scopes must be reviewed.",
+    "source_ids": [
+      "CZ202101-S007"
+    ],
+    "affected_candidates": [
+      "CZ202101-E004"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G016",
+    "type": "state_response",
+    "description": "Jan31 capacity/penalty notice and traffic management do not expressly establish an instruction to break up or remove crowd.",
+    "source_ids": [
+      "CZ202101-S003",
+      "CZ202101-S005"
+    ],
+    "affected_candidates": [
+      "CZ202101-E014"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G017",
+    "type": "closure",
+    "description": "Only Jan10 square, OstravaJan16 and PragueJan29 have explicit physical closure adopted. Silence, duration, itinerary, publication or last observation not ends.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CZ202101-E001",
+      "CZ202101-E002",
+      "CZ202101-E003",
+      "CZ202101-E005",
+      "CZ202101-E006",
+      "CZ202101-E008",
+      "CZ202101-E009",
+      "CZ202101-E010",
+      "CZ202101-E011",
+      "CZ202101-E012",
+      "CZ202101-E014"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G018",
+    "type": "unknown_repression",
+    "description": "Unreported arrests/beatings/shooting/killing/dispersal/ignore remain unknown. No general lack-of-violence inferred from mask enforcement or source silence.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CZ202101-E001",
+      "CZ202101-E002",
+      "CZ202101-E003",
+      "CZ202101-E004",
+      "CZ202101-E005",
+      "CZ202101-E006",
+      "CZ202101-E007",
+      "CZ202101-E008",
+      "CZ202101-E009",
+      "CZ202101-E010",
+      "CZ202101-E011",
+      "CZ202101-E012",
+      "CZ202101-E013",
+      "CZ202101-E014"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G019",
+    "type": "language",
+    "description": "Czech sources read through source wording; Polish Głos body blocked. No crowd or date inferred from translated headline alone.",
+    "source_ids": [
+      "CZ202101-S066"
+    ],
+    "affected_candidates": [
+      "CZ202101-E012"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G020",
+    "type": "continuity",
+    "description": "December campaign antecedents and February3/14 forwards retained separately; shared campaign does not authorize event merging.",
+    "source_ids": [
+      "CZ202101-S086",
+      "CZ202101-S093",
+      "CZ202101-S095"
+    ],
+    "affected_candidates": [
+      "CZ202101-E001",
+      "CZ202101-E004",
+      "CZ202101-E010",
+      "CZ202101-E013"
+    ],
+    "required_followup": "Independent source and episode review before inclusion."
+  },
+  {
+    "gap_id": "CZ202101-G021",
+    "type": "regional_sector_coverage",
+    "description": "Searches in Brno/Ostrava/Plzeň/Liberec/ČeskéBudějovice/Hradec/Zlín/Ústí and agriculture/education/health/local environmental sources yielded uneven original-body coverage. No absence claim outside Prague.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Prioritize regional archives, Brno municipal PDF and sector union newsletters; retain date-precision and source status distinctions."
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "gap_id": "NOR2021-01-G001",
+    "type": "baseline",
+    "description": "The latest official Mass Mobilization event file, current coverage, universe, schema and additional Coding Procedure are not verified. The local May 2015 manual is historical and does not resolve these items.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain provisional scope and consult the official dataset files and additional procedure when access and version can be verified."
+  },
+  {
+    "gap_id": "NOR2021-01-G002",
+    "type": "coverage",
+    "description": "Open-web searching is not equivalent to the original LexisNexis newspaper search, and results will not establish exhaustive Norway coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search English and Norwegian sources across weeks, sectors and locations; report databases and language coverage limitations."
+  },
+  {
+    "gap_id": "NOR2021-01-G003",
+    "type": "episode_unit",
+    "description": "Stop Lockdown anti-restriction demonstrations are documented in Oslo on 28 November 2020 and in March 2021. March reporting says demonstrations occurred on several weekends / each Saturday by early April, but the currently opened sources do not date or size any January 2021 gathering or establish whether separate weekend actions formed one episode.",
+    "source_ids": [
+      "S006",
+      "S009",
+      "S011",
+      "S014",
+      "S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search each January weekend and local Norwegian reporting for Stop Lockdown, anti-curfew, COVID-restriction and related demonstrations; distinguish separate gatherings from a continuous episode. Do not transfer the November crowd count or March estimates to January."
+  },
+  {
+    "gap_id": "NOR2021-01-G004",
+    "type": "participants",
+    "description": "Bullo reports that a gathering occurred outside the Storting on 2 January 2021, while the Røde Luer organizer invitation for that date only confirms the plan. Neither source gives an attendance count and no independent event report confirms a public crowd of at least 50. The stated demand concerns Norwegian government COVID policy, but event execution and the participant threshold remain unresolved.",
+    "source_ids": [
+      "S022",
+      "S023",
+      "S027",
+      "S032"
+    ],
+    "affected_candidates": [
+      "NOR2021-01-E001"
+    ],
+    "required_followup": "Search independent Norwegian and English local/news reporting or reliable dated imagery/records for the 2 January gathering and a count. Keep unresolved unless public attendance of at least 50 is documented."
+  },
+  {
+    "gap_id": "NOR2021-01-G005",
+    "type": "episode_unit",
+    "description": "Organizer follow-ups report attendance at separate Røde Luer freedom demonstrations outside the Storting on 9, 16, 23 and 30 January 2021; a participating speaker confirms her appeal on 9 January. An organizer invitation exists for 2 January, and Bullo Tidende attributes occurrence to that date. These are separately dated Saturday gathering hypotheses within one recurring campaign; attendee numbers remain unknown, so they cannot be merged or pooled. A later activist blog misdates a referenced prior event as Saturday 10 January, though that date was Sunday.",
+    "source_ids": [
+      "S022",
+      "S023",
+      "S024",
+      "S026",
+      "S027",
+      "S029",
+      "S030",
+      "S031",
+      "S033"
+    ],
+    "affected_candidates": [
+      "NOR2021-01-E001",
+      "NOR2021-01-E002",
+      "NOR2021-01-E003",
+      "NOR2021-01-E004",
+      "NOR2021-01-E005"
+    ],
+    "required_followup": "Keep each dated Saturday action as a separate event lead under a recurring movement/campaign. Search independent local reporting, police records or dated photos for each date to verify crowd threshold and any event-specific response; do not pool attendance across Saturdays."
+  },
+  {
+    "gap_id": "NOR2021-01-G006",
+    "type": "source_independence",
+    "description": "Evidence for the January Røde Luer dates comes mainly from organizer-side Covid-19 Fakta posts, a participating speaker’s personal blog and Bullo Tidende/TV, a related activist outlet. Cross-posts and same-network retrospectives are not independent confirmations. No independent contemporary newspaper or dated police record with a January turnout estimate has been identified.",
+    "source_ids": [
+      "S022",
+      "S023",
+      "S024",
+      "S026",
+      "S027",
+      "S028",
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S033"
+    ],
+    "affected_candidates": [
+      "NOR2021-01-E001",
+      "NOR2021-01-E002",
+      "NOR2021-01-E003",
+      "NOR2021-01-E004",
+      "NOR2021-01-E005"
+    ],
+    "required_followup": "Seek independent contemporaneous local reporting, event attendance estimates, police records or primary public visual records for each date. Keep source origin and dependence explicit; do not treat reposts or recurring campaign posts as independent verification."
+  }
+]

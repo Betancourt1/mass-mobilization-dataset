@@ -1,0 +1,120 @@
+[
+  {
+    "candidate_id": "zimbabwe_2021-01_E001",
+    "country": "Zimbabwe",
+    "ccode": 552,
+    "unit_month": "2021-01",
+    "title": "ZINASU protest at Harare Magistrates Court over judicial capture",
+    "start_date": "2021-01-25",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Harare Magistrates Court, Harare",
+    "scope": "local",
+    "organizer": "Zimbabwe National Students Union (ZINASU)",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Not established: the report identifies a protest but gives no participant count or crowd estimate.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "zimbabwe_2021-01_S001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "The retrospective report explicitly dates the protest to 25 January 2021 (p.44, lines 1529–1531)."
+      },
+      "end_date": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "The examined passage does not report the assembly's physical end; arrest/detention of leaders is not used as an endpoint."
+      },
+      "location": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "The report locates the protest at Harare Magistrate Court (p.44, line 1530)."
+      },
+      "scope": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "A protest at the named Harare court is coded local; no broader scope is stated."
+      },
+      "organizer": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "The report identifies members of Zimbabwe National Students Union (ZINASU)."
+      },
+      "demands": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "The report states the protest was over judicial capture; coded political_behavior_process."
+      },
+      "participants_original": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "No participant count or crowd estimate is stated in the examined passage."
+      },
+      "participants_min": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "No numerical lower bound is reported."
+      },
+      "participants_max": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "No numerical upper bound is reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "The report confirms a protest but provides no evidence that at least 50 people attended; threshold remains pending."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "The passage gives no account of violence by protesters; unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "zimbabwe_2021-01_S001"
+        ],
+        "summary": "The report says police violently disrupted the protest and its leaders were arrested and detained (p.44, lines 1529–1531). Arrests=yes; crowd_dispersal=yes as an attempted disruption, without claiming that everyone was cleared or when the gathering ended. Accommodation, beatings, ignore, killings and shootings are not described and remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "zinasu_harare_judicial_capture_2021-01-25",
+    "notes": "Retrospective Zimbabwe Human Rights NGO Forum report published June 2022. The report establishes the dated protest and demand, but no crowd size. Its separate 1 February 2021 ZINASU demonstration is outside this unit and is not merged here.",
+    "open_questions": [
+      "Did at least 50 people attend?",
+      "When did the physical gathering end, and did police clear the whole group?",
+      "Is there an accessible contemporaneous account or primary record?",
+      "Independent review and official baseline remain pending."
+    ]
+  }
+]

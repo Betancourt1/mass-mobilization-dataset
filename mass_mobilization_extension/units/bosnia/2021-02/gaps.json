@@ -1,0 +1,134 @@
+[
+  {
+    "gap_id": "bosnia_2021-02_G002",
+    "type": "episode_unit",
+    "description": "RSE reports Kozarac residents protested the highway route several months before February 8; the earlier date, continuity, exact owner and relationship to the February gathering are unknown.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "bosnia_2021-02_E001",
+      "bosnia_2021-02_C001"
+    ],
+    "required_followup": "Locate dated earlier assembly reporting and check neighboring month/year dossiers before resolving the February episode boundary."
+  },
+  {
+    "gap_id": "bosnia_2021-02_G003",
+    "type": "dates",
+    "description": "No physical end or duration for the February 8 gathering is reported. A single publication date does not establish when the assembly ended.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "bosnia_2021-02_E001"
+    ],
+    "required_followup": "Find an explicit end/dispersal account or retain null."
+  },
+  {
+    "gap_id": "bosnia_2021-02_G004",
+    "type": "state_response",
+    "description": "No event-specific arrests, beatings, dispersal, ignore, killings or shootings are reported for the February 8 Kozarac gathering. RSE’s March 3 report now directly links the February protest to an official route-shift announcement, supporting accommodation; later implementation remains unverified.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S009"
+    ],
+    "affected_candidates": [
+      "bosnia_2021-02_E001"
+    ],
+    "required_followup": "Check contemporary official and news accounts for the remaining response fields; do not infer them from silence or from earlier decisions."
+  },
+  {
+    "gap_id": "bosnia_2021-02_G005",
+    "type": "baseline",
+    "description": "The local May 2015 codebook is historical; latest official event files, universe, schema, and reuse terms remain unverified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator must finish the official baseline gate before any official integration."
+  },
+  {
+    "gap_id": "bosnia_2021-02_G006",
+    "type": "episode_unit",
+    "description": "RSE and Al Jazeera distinguish Zenica’s February 8 work disobedience, February 12 Zenica/Breza general strikes and five one-hour solidarity strikes from the February 15 public gathering outside RMU Breza. No body evidence establishes a public gathering at the mines on February 8 or February 12.",
+    "source_ids": [
+      "S001",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "bosnia_2021-02_E002"
+    ],
+    "required_followup": "Check dated reports for any separate public gatherings connected to each stoppage; retain separate dates and units unless explicit episode evidence supports a link."
+  },
+  {
+    "gap_id": "bosnia_2021-02_G007",
+    "type": "state_target",
+    "description": "The February 15 Breza residents’ assembly is reported as supporting the miners, but the report does not state whether the residents’ own demand targeted the Federation Government, mine management or another actor. The miners’ same-day agreement is not linked causally to this assembly.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [
+      "bosnia_2021-02_E002"
+    ],
+    "required_followup": "Find a direct statement of the assembly’s demand and target; retain pending_state_target and unknown response until supported."
+  },
+  {
+    "gap_id": "bosnia_2021-02_G008",
+    "type": "occurrence",
+    "description": "A February 15 Sarajevo rally by miners was announced conditionally if the account issue remained unresolved. No report found in this unit confirms whether that particular rally was held; the agreement and the Breza gathering do not resolve its execution.",
+    "source_ids": [
+      "S001",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search contemporary Sarajevo reporting for the planned government-building rally and record execution only from event-specific evidence."
+  },
+  {
+    "gap_id": "bosnia_2021-02_G009",
+    "type": "threshold",
+    "description": "APF union representatives gathered outside the Federation Government on February 15 and explicitly sought government action, but attendance is unreported. The 25-employee and 25-family figures are not turnout.",
+    "source_ids": [
+      "S016",
+      "S017",
+      "S018"
+    ],
+    "affected_candidates": [
+      "bosnia_2021-02_E003"
+    ],
+    "required_followup": "Locate a reliable attendee count or retain pending_threshold; keep the gathering separate from the APF workplace warning strike."
+  },
+  {
+    "gap_id": "bosnia_2021-02_G010",
+    "type": "access",
+    "description": "A Nezavisne search-result lead points to a Tuzla anniversary gathering, but its body could not be read after Cache miss and actual HTTP 403. Search-result details are unverified and not coded as event facts.",
+    "source_ids": [
+      "S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek independent accessible February reporting; do not use the blocked page’s search snippet as attendance, date or demand evidence."
+  },
+  {
+    "gap_id": "bosnia_2021-02_G011",
+    "type": "continuation",
+    "description": "The HNK health-workers’ strike continued into February according to the February 4 report, but its February 8 deadline is not an end and no February public assembly is established by that source.",
+    "source_ids": [
+      "S025"
+    ],
+    "affected_candidates": [
+      "bosnia_2021-02_C002"
+    ],
+    "required_followup": "Check the 2020–2021 campaign owner and reports after February 4 for the strike’s actual end and any distinct February assembly."
+  },
+  {
+    "gap_id": "bosnia_2021-02_G012",
+    "type": "access",
+    "description": "Two agricultural-news search results refer to possible farmer protests over prices, but article bodies were not obtained and no executed February assembly is established.",
+    "source_ids": [
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek an accessible contemporaneous report confirming whether any farmer protest occurred in February; preserve these headlines as discovery only."
+  }
+]
