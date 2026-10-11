@@ -1,0 +1,132 @@
+[
+  {
+    "gap_id": "burkina_faso_2022-01-G001",
+    "type": "baseline",
+    "description": "The available local May 2015 manual describes the original project through 2014. The current official baseline, country-code crosswalk, coding procedure, universe and license remain unverified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Verify the current official dataset, codebook, country-code mapping and conditions of use before any integration."
+  },
+  {
+    "gap_id": "burkina_faso_2022-01-G002",
+    "type": "coverage",
+    "description": "Open-web discovery is not equivalent to the original LexisNexis newspaper search or systematic local hemeroteca access; searches and language coverage cannot establish that no other events occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review against suitable local newspaper archives and regional/local-language sources if access becomes available."
+  },
+  {
+    "gap_id": "burkina_faso_2022-01-G003",
+    "type": "participants",
+    "description": "The 13 January Nazi Boni student assembly has no turnout estimate, no evidence of general-public access and no resolved direct target at national government/policy level. The public-university setting alone proves none of these fields.",
+    "source_ids": [
+      "S024",
+      "S025",
+      "S041"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2022-01-E001"
+    ],
+    "required_followup": "Seek a contemporary account or organizer record establishing attendance, access, and whether grievances were directed to national government policy rather than university administration; distinguish AIB-origin repetition from independent reporting."
+  },
+  {
+    "gap_id": "burkina_faso_2022-01-G004",
+    "type": "contested_evidence",
+    "description": "For the Nazi Boni episode, S024 attributes key reporting to AIB and S025 contains a government spokesperson’s counteraccount of an agent seizure/beating and police extraction without establishing the incident date/site relation to 13 January. S023 is a search-only declaration alleging live ammunition; no opened source verifies the allegation.",
+    "source_ids": [
+      "S023",
+      "S024",
+      "S025",
+      "S041"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2022-01-E001"
+    ],
+    "required_followup": "Obtain independently attributable contemporaneous reporting on incident chronology, protester violence, arrests, injuries and any live ammunition; retain current violence/response unknowns until verified."
+  },
+  {
+    "gap_id": "burkina_faso_2022-01-G005",
+    "type": "episode_unit",
+    "description": "For 22 January, the movement-associated call covered multiple cities. Only Ouagadougou has an approximately 300-person estimate; other cities have no individual turnout estimates. Protester violence is reported for the protest wave without reliable city attribution. Physical cessation is unknown. Two organizer detentions reported by VOA were on 20 January and do not establish 22 January arrests.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S008"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2022-01-E002"
+    ],
+    "required_followup": "Resolve whether to code a single national organized action or local episodes, and seek city-specific attendance, response, violence attribution and physical cessation without transferring the Ouagadougou count or response."
+  },
+  {
+    "gap_id": "burkina_faso_2022-01-G006",
+    "type": "source_independence",
+    "description": "S005’s exact LobsPaalga URL also appears as search-only canonical Burkina Faso 2021-01 S009. Captured source-page wording dates the march-meeting to Saturday 22 January 2022, resolving the year from the source wording rather than the query/assignment, but its body remains unread and its alleged resignation demand is not verified. This same URL is not independent corroboration. Other Jan22 leads include an explicit Wakatsera HTTP 403 (S010) and a scoped Le Monde hold (S016).",
+    "source_ids": [
+      "S005",
+      "S008",
+      "S009",
+      "S010",
+      "S016"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2022-01-E002"
+    ],
+    "required_followup": "Preserve the exact-URL cross-year pointer for coordinator review; if the original article becomes accessible, use a fresh exact-URL receipt and full stable ledger review. Do not edit the 2021 dossier or bypass the scoped 403/Le Monde restrictions."
+  },
+  {
+    "gap_id": "burkina_faso_2022-01-G007",
+    "type": "participants",
+    "description": "The 25 January Place de la Nation gathering is confirmed by opened reports, but neither gives a numeric crowd estimate. Le Pays S054 was the decisive lead for a possible “hundreds” estimate and democratic/election appeal; its exact-page open returned Cache miss and one same-URL ordinary HTTPS request failed DNS before HTTP. The search preview is not field evidence. The direct foreign-policy change request is one attendee’s attributed statement, not an established crowd-wide demand.",
+    "source_ids": [
+      "S013",
+      "S018",
+      "S054",
+      "S016"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2022-01-E003"
+    ],
+    "required_followup": "Find another accessible contemporary body establishing attendance and any democracy/election appeal. Retain pending_threshold and individual attribution; do not infer a publisher denial from tool/DNS failures or request the held Le Monde body."
+  },
+  {
+    "gap_id": "burkina_faso_2022-01-G008",
+    "type": "episode_unit",
+    "description": "Search-only Jan23–24 military-mutinity leads may coexist with a civilian-supporter image-caption lead (S033) and a distinct Jan24 bystander/waiting lead (S046). Their bodies were not read, and neither lead is merged into the observed Jan25 gathering or the Jan22 march.",
+    "source_ids": [
+      "S031",
+      "S033",
+      "S034",
+      "S035",
+      "S036",
+      "S037",
+      "S038",
+      "S046",
+      "S050",
+      "S053"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use accessible contemporaneous body reporting to determine whether any separate public civilian gathering occurred, its onset, size, own-state demand and response; keep armed mutiny/coup acts separate."
+  },
+  {
+    "gap_id": "burkina_faso_2022-01-G009",
+    "type": "dates",
+    "description": "Boundary and labor/municipal leads (including older municipal-worker sit-in references, unpaid wages, and a worker crowd/interview near an employment exchange) remain search-only or do not establish a January-start public protest with a direct state target. No preceding-month continuation or later physical end is established by opened evidence.",
+    "source_ids": [
+      "S027",
+      "S042",
+      "S043",
+      "S044",
+      "S047",
+      "S048",
+      "S049",
+      "S052"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2022-01-E001",
+      "burkina_faso_2022-01-E002",
+      "burkina_faso_2022-01-E003"
+    ],
+    "required_followup": "Review December 2021/February 2022 and January labor/municipal leads in local archives; establish actual onset, whether a public protest occurred, state versus employer target, and any continuity before assigning a month or event."
+  }
+]

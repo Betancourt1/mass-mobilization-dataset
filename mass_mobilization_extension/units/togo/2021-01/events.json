@@ -1,0 +1,148 @@
+[
+  {
+    "candidate_id": "TGO202101-E001",
+    "country": "Togo",
+    "ccode": "461",
+    "unit_month": "2021-01",
+    "title": "SET teachers’ reported school sit-ins and related 72-hour strike over detained colleagues",
+    "start_date": "2021-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Unspecified schools in Togo; no individual school or sit-in location is named.",
+    "scope": "The report describes the strike as nationwide but only places sit-ins at some unspecified schools; the geographic extent of those sit-ins is unknown.",
+    "organizer": "Syndicat des Enseignants du Togo (SET), as attributed by the report; sit-in organizer(s) at individual schools are not separately identified.",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "Teachers reportedly observed a nationwide 72-hour strike; sit-ins reportedly took place at some schools. No attendance number or estimate is given.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Not established. The article reports sit-ins at some schools but gives no school count, crowd estimate, or attendance at any site. A nationwide strike claim does not establish 50 people at a public gathering.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TGO202101-S007",
+      "TGO202101-S001",
+      "TGO202101-S002",
+      "TGO202101-S011",
+      "TGO202101-S015",
+      "TGO202101-S017",
+      "TGO202101-S048",
+      "TGO202101-S052"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "Lome Gazette reports sit-ins at some schools alongside a 72-hour teacher strike; it does not establish whether these were one coordinated physical episode or separate tactics."
+      },
+      "start_date": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "The report gives relative phrases (“since Monday” for sit-ins and “since yesterday Tuesday” for the strike), but its publication date is Friday 22 January 2021. Preserve month precision because the relative chronology conflicts."
+      },
+      "end_date": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "The report describes a 72-hour strike, but the start-date conflict prevents a reliable end date; the sit-ins’ duration and physical end are not reported."
+      },
+      "location": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "The article places sit-ins at unspecified schools. It does not name schools or identify specific gathering sites."
+      },
+      "scope": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "The report characterizes the strike as nationwide but says sit-ins were taking place in some schools; the geographic extent of the sit-ins is not established."
+      },
+      "organizer": {
+        "source_ids": [
+          "TGO202101-S007",
+          "TGO202101-S017",
+          "TGO202101-S052"
+        ],
+        "summary": "The reports attribute the labor action to the Syndicat des Enseignants du Togo (SET); the inspected sources do not establish the organizer of each school sit-in separately."
+      },
+      "demands": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "The immediate demand reported is release of detained SET colleagues. It is provisionally mapped to labor_wage_dispute as a union labor-rights demand; the source does not give a detailed demand platform for the sit-ins."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "Teachers are reported on strike nationwide and sit-ins at some schools, but no participant count or estimate is provided."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "No numerical lower bound is reported; the record does not establish 50 participants at any gathering."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "No attendance maximum is reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "Occurrence of sit-ins is reported, but neither attendance, a number of participating schools, nor wording that clearly establishes 50 people at any single gathering is provided. Threshold remains unresolved."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "The report does not describe conduct at the sit-ins; protester violence remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "TGO202101-S007",
+          "TGO202101-S008",
+          "TGO202101-S009",
+          "TGO202101-S015",
+          "TGO202101-S048",
+          "TGO202101-S052"
+        ],
+        "summary": "The inspected reporting contains no event-specific state response to the reported sit-ins/strike. The 20 January union-office arrests predate the reported action and are not coded as its response; later official warnings concern announced actions, not a verified response to this event. All seven dimensions remain unknown. S052 separately documents the 22 January ministerial letter and school-monitoring request, but ties it to planned strike activity, not a verified response to the sit-ins."
+      },
+      "eligibility": {
+        "source_ids": [
+          "TGO202101-S007"
+        ],
+        "summary": "A labor action and school sit-ins are reported, but the protocol’s public-gathering ≥50-person threshold is not established; pending threshold review."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Lome Gazette’s 22 January report is the only opened source reviewed that states sit-ins were actually taking place, while also reporting a 72-hour strike. Its relative-date wording conflicts with the dated article, and the report gives no headcount or named school. Later coverage concerns different announced strike dates, cancellation or suspension, and official warnings; those plans are not merged into this report. The immediate demand is described as release of detained SET colleagues; the labor_wage_dispute taxonomy mapping is provisional. Earlier arrests at a union-office meeting are not treated as event response.",
+    "open_questions": [
+      "Did any individual sit-in reach 50 participants, and how many schools/sites were involved?",
+      "What were the exact dates of the sit-ins and the 72-hour strike given the weekday conflict?",
+      "Were the sit-ins organized by SET nationally, by local branches, or independently at schools?",
+      "Were the sit-ins and work stoppage one episode or separate tactics/actions?",
+      "Was there an event-specific state response to the actual sit-ins or strike?",
+      "Does the official coding procedure map the immediate release-of-unionists demand to labor_wage_dispute?"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "unit_id": "czech_republic_2022-01",
+  "country": "Czech Republic",
+  "month": "2022-01",
+  "agent_task": "/root/czech_republic_2022_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T14:42:01.720000+00:00",
+  "finished_at": "2026-10-10T19:22:38+00:00",
+  "n_queries": 38,
+  "n_sources": 43,
+  "n_candidates": 12,
+  "n_excluded": 2,
+  "n_continuations": 0,
+  "n_gaps": 13,
+  "coverage_assessment": "Documented scoped open-web first pass complete; coding remains draft pending coordinator/scientific review and official-baseline comparison. 38 captured searches returned 572 result headers across 43 source cards. Twelve event candidates (E001–E006 and E008–E013), two exclusions (X001 and original candidate E007), zero confirmed continuations and 13 gaps are preserved. Six are proposed includes, two pending_threshold, one pending_unit and three pending_evidence. Jan 18 E007 remains excluded: S017 reports two dozen including organizers. Jan 22 retains seven locality observations with no summed counts or Ostrov phase addition; the coordinator interim one-national-unit recommendation remains separate pending adjudication. Jan 11 farmers’ headline “thousands” remains separate from the police-attributed “up to 4,500” upper estimate; Jan 13 headline “hundreds” supports threshold separately from police “up to 400.” Jan 16 Plzeň has no numeric turnout/capacity basis; Jan 20 vehicle counts do not establish human turnout. E013/S034 explicitly says the Jan 30 march ended near Prague Castle around 19:30; retain approximate time and Jan 30 end date. Window 2 source synchronization is complete for readable S005, S015, S017 and denied S041. Source access statuses are 11 opened, 31 search_only, one exact-story blocked, and zero not_found. S041 R033 cache miss and R036 HTTP403 are both retained; the 403 hold is exact story/documented variants only, not publisher-wide. All 26 access metadata records are retained (11 readable, 13 unreadable, 2 null); no article text or cookies were saved. Broader archive/hemeroteca, independent fluent Czech-language review, systematic early-month and sector coverage, official baseline, physical boundary/onset evidence, and state-response gaps remain unresolved. Completion applies only to the documented scoped open-web pass and does not establish absence or exhaustive country-month coverage.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 11,
+    "search_only_cards": 31,
+    "blocked_cards": 1,
+    "not_found_cards": 0
+  },
+  "body_access_summary": {
+    "attempt_records": 26,
+    "body_read_true": 11,
+    "body_read_false": 13,
+    "body_read_null": 2,
+    "ledger_frozen": false,
+    "body_window_closed": true,
+    "source_cards_synchronized_after_first_window_closure": true,
+    "second_window_body_reads_not_yet_synchronized": 0,
+    "source_cards_synchronized_after_second_window_closure": true
+  },
+  "first_pass_complete": true,
+  "source_update_pending": false
+}

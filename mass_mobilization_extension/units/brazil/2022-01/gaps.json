@@ -1,0 +1,172 @@
+[
+  {
+    "gap_id": "brazil_2022-01-G001",
+    "type": "baseline",
+    "description": "The official MM baseline, original coding manual version, universe, schema and license are pending verification; open-web research is not a substitute for the original coding procedure.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to verify the authorized baseline and original manual before any consolidation or official coding."
+  },
+  {
+    "gap_id": "brazil_2022-01-G002",
+    "type": "source_access/source_independence/state_target",
+    "description": "AGETRANSP body verification is incomplete. S047’s exact official fare-history PDF returned 403; S052’s exact official page returned 404; S053’s exact Gazette URL returned 502 and its single allowed same-URL fallback failed DNS before HTTP. S048 is an opened LegisWeb reproduction that identifies AGETRANSP/CD and states DOE-RJ publication on 2022-01-12 but provides no original Gazette URL or written-origin hyperlink. S048 is dependent legal-text evidence, not independent corroboration.",
+    "source_ids": [
+      "S047",
+      "S048",
+      "S052",
+      "S053"
+    ],
+    "affected_candidates": [
+      "brazil_2022-01-E002"
+    ],
+    "required_followup": "Coordinator review the exact original-source chain and state-policy eligibility; do not infer an alias or retry a held/unavailable URL."
+  },
+  {
+    "gap_id": "brazil_2022-01-G003",
+    "type": "episode_unit/coverage",
+    "description": "The Jan. 18 federal public-service action was multi-site. The Central Bank gathering has body-based turnout evidence, but the afternoon Ministry of Economy act was described as scheduled, not confirmed; other city/site attendance is not transferable from Brasília.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S006",
+      "S007",
+      "S034",
+      "S035",
+      "S036",
+      "S041",
+      "S042"
+    ],
+    "affected_candidates": [
+      "brazil_2022-01-E001"
+    ],
+    "required_followup": "Review original episode rules and contemporaneous evidence for whether other sites occurred and whether simultaneous actions form one national event or separate local gatherings."
+  },
+  {
+    "gap_id": "brazil_2022-01-G004",
+    "type": "participants/dates/source_access/source_independence",
+    "description": "National Archives workers’ protest at the Rio archive is reported by a Jan. 11 Brasil de Fato search result and a derivative Blog do Glauco Gouvêa republication. No headcount or verified onset appears in captured material; the two URLs are one written-origin chain, not independent reports.",
+    "source_ids": [
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek accessible contemporary body or independent attendance report to establish actual January onset, location details and whether turnout reached 50."
+  },
+  {
+    "gap_id": "brazil_2022-01-G005",
+    "type": "participants/source_access/state_response",
+    "description": "São Paulo municipal doctors’ Jan. 19 City Hall protest is reported retrospectively in search-result snippets, including a CUT estimate of about 100. The body of S032 was not obtained after CacheMiss and DNS failure before HTTP; S025’s separate UOL/Reuters URL was denied by robots.txt. The planned strike and the separate protest must stay distinct.",
+    "source_ids": [
+      "S025",
+      "S026",
+      "S027",
+      "S028",
+      "S032",
+      "S054"
+    ],
+    "affected_candidates": [
+      "brazil_2022-01-E003"
+    ],
+    "required_followup": "Coordinator review the search-only candidate; obtain accessible body evidence or an independent contemporary account before confirming turnout, demands or responses."
+  },
+  {
+    "gap_id": "brazil_2022-01-G006",
+    "type": "participants/episode_unit/state_target",
+    "description": "Juazeiro do Norte health workers announced a Jan. 3 strike and planned a concentration outside City Hall; an official municipal search result reports a court order requiring return to work. No public turnout, gathering occurrence or >=50 threshold is established.",
+    "source_ids": [
+      "S059",
+      "S060"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify whether a public concentration actually took place and its attendance; do not equate the strike or court ruling with a mass gathering."
+  },
+  {
+    "gap_id": "brazil_2022-01-G007",
+    "type": "participants/coverage/state_target",
+    "description": "Jan. 22 anti-vaccination/passport actions are suggested by a retrospective university-dissertation result for Brasília and a search-result description of a “small” Avenida Paulista act. No count, verified organizer or complete event body is available; the Paulista descriptor does not establish a threshold.",
+    "source_ids": [
+      "S057",
+      "S058"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek contemporary reports with turnout and explicit policy target, keeping sites separate until organizational links are shown."
+  },
+  {
+    "gap_id": "brazil_2022-01-G008",
+    "type": "participants/state_target/dates",
+    "description": "A retrospective UOL search result associates family/friends with a Jan. 29 action near the Barra kiosk in the Moïse case, while Jornal da Barra’s result concerns an intimidation allegation. Neither gives a crowd count; exact date/demand and relation to later February justice marches are unresolved.",
+    "source_ids": [
+      "S055",
+      "S056"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find a contemporary Jan. 29 account establishing gathering, attendance and whether its demand was directed at Brazilian state policy; keep Feb. 3–6 actions outside this month."
+  },
+  {
+    "gap_id": "brazil_2022-01-G009",
+    "type": "participants/state_target",
+    "description": "A Jan. 11 National Archives protest lead may concern a federal institutional policy but captured material does not give a reliable event date or headcount. The Brasil de Fato body was not opened in this first pass.",
+    "source_ids": [
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Confirm the event date and threshold from the original article or an independent contemporaneous report before creating a candidate."
+  },
+  {
+    "gap_id": "brazil_2022-01-G010",
+    "type": "episode_unit/dates",
+    "description": "No confidently established protest continuation beginning before January was coded. Federal workers’ organizing and municipal labor disputes have adjacent-month reporting, but those notices/plans do not on their own establish a continuous public gathering.",
+    "source_ids": [
+      "S008",
+      "S009",
+      "S018",
+      "S019",
+      "S020"
+    ],
+    "affected_candidates": [
+      "brazil_2022-01-E001",
+      "brazil_2022-01-E003"
+    ],
+    "required_followup": "Review December 2021 and February 2022 episode boundaries and distinguish public gatherings from online plenaries, stoppages and announcements."
+  },
+  {
+    "gap_id": "brazil_2022-01-G011",
+    "type": "state_response/dates",
+    "description": "End time is unreported for E001 and E003; all seven state-response variables remain unknown for the Jan. 18 and Jan. 19 candidates. For E002, reports mention cordons/access closure and A Verdade’s attributed phrase “gás de borracha,” but do not clearly establish a crowd-dispersal attempt. No injury, beating, arrest, shooting or killing is inferred.",
+    "source_ids": [
+      "S006",
+      "S035",
+      "S039",
+      "S046",
+      "S032",
+      "S054"
+    ],
+    "affected_candidates": [
+      "brazil_2022-01-E001",
+      "brazil_2022-01-E002",
+      "brazil_2022-01-E003"
+    ],
+    "required_followup": "Review exact event-specific reporting for each response variable and physical end; preserve attribution and do not infer from silence or service restart."
+  },
+  {
+    "gap_id": "brazil_2022-01-G012",
+    "type": "state_target/participants/source_access",
+    "description": "The João Pessoa SINTEM audience and Jan. 26 wage offer are not public-gathering evidence. A separate in-person student discussion about campus reopening (reported during discovery) also lacks a stable source card, documented protest form or participant count in this dossier.",
+    "source_ids": [
+      "S061",
+      "S062"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If continued, locate a stable contemporary source for any separate teachers’ protest or student demonstration; do not count negotiations/discussions alone."
+  },
+  {
+    "gap_id": "brazil_2022-01-G013",
+    "type": "coverage/search_method/language",
+    "description": "This was an open-web Portuguese-language first pass across national and local coverage and multiple sectors/cities; it is not systematic LexisNexis or paid-hemeroteca coverage. Search-result discovery, uneven indexing, blocked/technical sources and body limits leave geographic and source-type coverage incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may commission a separate archival/local-source pass after baseline and year review; current web pass is not exhaustive."
+  }
+]

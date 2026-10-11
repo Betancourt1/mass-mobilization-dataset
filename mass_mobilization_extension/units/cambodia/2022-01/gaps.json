@@ -1,0 +1,138 @@
+[
+  {
+    "gap_id": "cambodia_2022-01_G001",
+    "type": "episode_unit",
+    "description": "Jan. 3, Jan. 4 and Jan. 6 NagaWorld gatherings are individually reported; each occurred amid recurring daily demonstrations related to the strike. Whether these daily assemblies are separate January events or observations/continuations of a pre-January protest episode remains unresolved. The Jan. 3 gathering has a reported same-day physical end; no continuous month-long assembly is established.",
+    "source_ids": [
+      "S019",
+      "S034",
+      "S015",
+      "S002",
+      "S039",
+      "S018"
+    ],
+    "affected_candidates": [
+      "cambodia_2022-01_E001",
+      "cambodia_2022-01_E002",
+      "cambodia_2022-01_E003"
+    ],
+    "required_followup": "Coordinator should compare adjacent-month records and the original episode rule; keep daily attendance and location estimates date-specific and candidates pending_unit/pending_threshold until review."
+  },
+  {
+    "gap_id": "cambodia_2022-01_G002",
+    "type": "dates",
+    "description": "Strike and public-demonstration onset claims do not align: CamboJA S018 says employees had been striking since late November; RFA S034 says the strike had drawn hundreds since Dec. 18; RFA S015 and LICADHO S002 describe Dec. 18/one month before Jan. 18 for the daily actions; CamboJA S019 reports Dec. 19. This may distinguish work-stoppage onset from the recurring public-demonstration phase. Retain attributed dates and do not force a single day.",
+    "source_ids": [
+      "S018",
+      "S034",
+      "S015",
+      "S002",
+      "S019"
+    ],
+    "affected_candidates": [
+      "cambodia_2022-01_E001",
+      "cambodia_2022-01_E002",
+      "cambodia_2022-01_E003"
+    ],
+    "required_followup": "Review November and December owner records and the original episode rules; preserve strike onset and public-assembly onset separately if supported."
+  },
+  {
+    "gap_id": "cambodia_2022-01_G003",
+    "type": "participants",
+    "description": "RFA reports a Jan. 4 workers’ gathering but gives no event-specific attendance. LICADHO later says around 600 workers appeared each afternoon as of Jan. 18, and RFA says hundreds had joined since Dec. 18; neither figure establishes Jan. 4 turnout.",
+    "source_ids": [
+      "S015",
+      "S002"
+    ],
+    "affected_candidates": [
+      "cambodia_2022-01_E002"
+    ],
+    "required_followup": "Seek an event-specific Jan. 4 estimate in a contemporaneous source; leave E002 pending_threshold if none is available."
+  },
+  {
+    "gap_id": "cambodia_2022-01_G004",
+    "type": "state_response",
+    "description": "Jan. 3 arrest figures differ: RFA’s Jan. 3 article reports 14; CamboJA reports at least 15; VOD updated 14 to 15; RFA’s Jan. 4 article reports 17 for Monday. These may be early counts/updates of overlapping arrests; do not sum them or count the two RFA articles as independent origins.",
+    "source_ids": [
+      "S034",
+      "S019",
+      "S039",
+      "S015"
+    ],
+    "affected_candidates": [
+      "cambodia_2022-01_E001"
+    ],
+    "required_followup": "Retain source-attributed counts; do not sum. Check another contemporaneous account if available."
+  },
+  {
+    "gap_id": "cambodia_2022-01_G005",
+    "type": "participants",
+    "description": "CamboJA S027 reports a resident saying five families had protested local authorities over land redistribution in Tamol Leu, but gives no gathering date or turnout. The Jan. 29 arrests and one activist’s livestream do not establish a public mass assembly or the >=50 threshold; no January land event candidate is coded from this report.",
+    "source_ids": [
+      "S027"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek an event-dated account with a physical assembly description and attendance estimate before opening a land-gathering candidate."
+  },
+  {
+    "gap_id": "cambodia_2022-01_G006",
+    "type": "participants",
+    "description": "Search-only VOD S040 points to a Jan. 17 embassy-petition action; discovery metadata suggests about 20 workers, while the roughly 1,300 figure is petition signatures, not attendance. A previous fresh CLI receipt existed, but its manual stable-ledger scan failed before the gate completed and no body was requested.",
+    "source_ids": [
+      "S040"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain as a weak sub-threshold/unclear-turnout lead; only revisit with a fresh full exact-source gate if it materially affects review."
+  },
+  {
+    "gap_id": "cambodia_2022-01_G007",
+    "type": "participants",
+    "description": "Search-only forest/land leads include an Oral community camp and rotating patrols (S029), an announced forest entrance blockade (S031), and a petition (S032). Current discovery records do not verify a January public gathering of at least 50; the clearly mass village protest appears to have occurred in November 2021.",
+    "source_ids": [
+      "S029",
+      "S031",
+      "S032"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not treat a patrol, proposed blockade, petition or November assembly as a January mass event without body evidence and event-specific turnout."
+  },
+  {
+    "gap_id": "cambodia_2022-01_G008",
+    "type": "sources_access",
+    "description": "Sithi’s human-rights timeline (S022) and CCHR’s NagaWorld timeline (S021) remain search-only. The exact Sithi page returned a tool Cache miss, then an ordinary request to the same URL failed DNS before HTTP after a fresh gate; no publisher denial was observed and no timeline claim is used.",
+    "source_ids": [
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [
+      "cambodia_2022-01_E001",
+      "cambodia_2022-01_E002",
+      "cambodia_2022-01_E003"
+    ],
+    "required_followup": "If access later becomes available, review the exact captured public URLs to check chronology; do not infer a source restriction from the technical retrieval failure."
+  },
+  {
+    "gap_id": "cambodia_2022-01_G009",
+    "type": "coverage",
+    "description": "No separate large actions surfaced in the captured English and Khmer searches for student/teacher, transport, prices/fuel or other factory sectors. This is a web-indexed search result, not evidence that no such actions occurred; local archives and systematic hemeroteca coverage were not available.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use local-language archives or equivalent source coverage in a later review if available; retain the web-versus-hemeroteca limitation."
+  },
+  {
+    "gap_id": "cambodia_2022-01_G010",
+    "type": "dates",
+    "description": "The overall NagaWorld strike/daily-action series remained active during January reporting, but the end of the broader strike and physical end of the Jan. 4 and Jan. 6 gatherings are unknown. VOD reports the Jan. 3 gathering ended around 6 p.m.; this does not date the campaign’s end.",
+    "source_ids": [
+      "S039",
+      "S002",
+      "S018"
+    ],
+    "affected_candidates": [
+      "cambodia_2022-01_E001",
+      "cambodia_2022-01_E002",
+      "cambodia_2022-01_E003"
+    ],
+    "required_followup": "Keep broader episode end null/unknown; seek physical-end evidence for each daily observation without inferring it from month end or later campaign status."
+  }
+]

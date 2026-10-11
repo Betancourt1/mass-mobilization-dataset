@@ -1,0 +1,132 @@
+[
+  {
+    "gap_id": "austria_2022-01_G001",
+    "type": "coverage",
+    "description": "Open-web coverage is not exhaustive. Searches Q001–Q015 used German and English general, weekly/date-window, city/region, sector and boundary terms, but engine results often returned duplicates or off-topic hits. Contemporary regional archives and licensed newspaper databases were not comprehensively searched; minority-language press was not searched.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue with dated city/region searches across local ORF and non-ORF outlets, and use equivalent licensed regional archives; log actual arrays and preserve access receipts."
+  },
+  {
+    "gap_id": "austria_2022-01_G002",
+    "type": "candidate_leads",
+    "description": "The Ministry answer (S014) lists many date/place/count rows in eight states. A row establishes only a ministry-recorded approximate COVID-related count; it does not establish the specific domestic policy demand, exact gathering, origin of the estimate, or episode boundary. Many rows remain unmatched to contemporaneous local bodies. The table is not a statewide response or monthly event count.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Match individual table rows to local body evidence of an actual public gathering, date, state target and event boundaries before adding any proposed observation. Keep unmatched rows as leads or this gap; never infer demand from “COVID-related” alone."
+  },
+  {
+    "gap_id": "austria_2022-01_G003",
+    "type": "episode_boundary",
+    "description": "Vienna Jan 20 (E004) comprises multiple reports/gatherings with overlapping counts and unresolved boundaries. Vienna Jan 29 (E011) merges 22 registered assemblies into a 10,000-person march. Official ministry statistics cannot identify which Jan 2022 Vienna assemblies were COVID-related or actually held (S014, physical p.20).",
+    "source_ids": [
+      "S004",
+      "S005",
+      "S011",
+      "S014"
+    ],
+    "affected_candidates": [
+      "austria_2022-01_E004",
+      "austria_2022-01_E011"
+    ],
+    "required_followup": "Review the original episode rules and more local event records to decide whether separately registered assemblies or their merged march constitute a single MM unit. Keep both candidates pending unit review; do not divide the merged 10,000 among assemblies."
+  },
+  {
+    "gap_id": "austria_2022-01_G004",
+    "type": "source_match",
+    "description": "On 22 Jan Graz, ORF reports a large anti-mandate event and a distinct smaller “more solidarity” gathering. Ministry p.16 lists two Graz city rows, approx. 13,500 and 200. The date/place and relative crowd sizes support possible matching, but the table has no assembly identifiers; the smaller event’s demand directed at Austrian state policy remains unclear (E009 pending_state_target).",
+    "source_ids": [
+      "S008",
+      "S010",
+      "S014"
+    ],
+    "affected_candidates": [
+      "austria_2022-01_E008",
+      "austria_2022-01_E009"
+    ],
+    "required_followup": "Locate local reporting that names each gathering and its demands and clarifies which official row belongs to it. Retain event distinction and pending target for E009."
+  },
+  {
+    "gap_id": "austria_2022-01_G005",
+    "type": "source_match",
+    "description": "ORF Salzburg reports three separate 30 Jan events at Residenzplatz (FPÖ, fewer than 300), Kapitelplatz (MFG, approx. 300) and a Mozartplatz march (approx. 3,000). Ministry p.14 lists three Salzburg rows (250, 250, 2,500) without venues. E012 remains below-threshold pending; the city/date/count pattern does not verify a one-to-one match.",
+    "source_ids": [
+      "S012",
+      "S014"
+    ],
+    "affected_candidates": [
+      "austria_2022-01_E012",
+      "austria_2022-01_E013",
+      "austria_2022-01_E014"
+    ],
+    "required_followup": "Find a venue-specific police or contemporaneous report before assigning ministry counts to the three distinct events."
+  },
+  {
+    "gap_id": "austria_2022-01_G006",
+    "type": "sector_threshold",
+    "description": "The ÖGB retrospective says early-childhood actions occurred nationwide on 24 Jan and demonstrations in some state capitals, but gives neither cities nor attendance (S015). It also identifies a Bregenz care-worker protest on 28 Jan without attendance; E015 is pending threshold. The contemporaneous ÖGB Niederösterreich page is a pre-event announcement, not proof of a specific action (S016).",
+    "source_ids": [
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "austria_2022-01_E015"
+    ],
+    "required_followup": "Locate contemporaneous local or union reports for Jan24 by city and Jan28 Bregenz with event occurrence, crowd estimate, organizer and state response."
+  },
+  {
+    "gap_id": "austria_2022-01_G007",
+    "type": "temporal_boundary",
+    "description": "December reports establish recurring anti-COVID-measures demonstrations before January (S018–S019), and February reporting establishes later Bregenz continuation (S022). These facts do not identify the earliest eligible onset, prove common organization across cities, settle the episode key, or establish when any sequence ended.",
+    "source_ids": [
+      "S018",
+      "S019",
+      "S020",
+      "S022",
+      "S023"
+    ],
+    "affected_candidates": [
+      "austria_2022-01_E001",
+      "austria_2022-01_E002",
+      "austria_2022-01_E003",
+      "austria_2022-01_E006",
+      "austria_2022-01_E007",
+      "austria_2022-01_E008",
+      "austria_2022-01_E010",
+      "austria_2022-01_E011"
+    ],
+    "required_followup": "Review December 2021 and February 2022 dossiers and the codebook’s onset/episode rules. Keep January gathering dates intact; do not infer a continuous national episode from repeated issue and timing."
+  },
+  {
+    "gap_id": "austria_2022-01_G008",
+    "type": "access",
+    "description": "Four discovered pages remain search-only after technical opens: parliamentary landing page S013, Younion spring 2022 PDF S017, and Kurier article S024 returned technical Cache miss/Internal Error outcomes at the tool. No denial or publisher hold was observed. The underlying Ministry PDF was separately accessible as S014.",
+    "source_ids": [
+      "S013",
+      "S014",
+      "S017",
+      "S024"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use only ordinary public retrieval if the source becomes needed; perform a fresh exact-URL access-check first. Do not treat technical errors as denial or as body evidence."
+  },
+  {
+    "gap_id": "austria_2022-01_G009",
+    "type": "official_data_limit",
+    "description": "The Ministry answer says Vienna recorded 546 notified assemblies during Jan 1–31 but had no statistics to identify which had COVID links or actually occurred and did not perform retrospective manual evaluation (S014, physical p.20). The local event candidates therefore rely on contemporaneous news reports and retain unit uncertainty.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [
+      "austria_2022-01_E001",
+      "austria_2022-01_E003",
+      "austria_2022-01_E004",
+      "austria_2022-01_E011"
+    ],
+    "required_followup": "Seek venue/date-specific contemporaneous reporting where a candidate’s boundary or occurrence is unresolved; do not use notified count 546 as a January protest count."
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "gap_id": "algeria_2022-01_G001",
+    "type": "date_and_episode_ownership",
+    "description": "Court-registrar reporting shows January sit-ins/strike activity, but relative-date wording, the Jan 3 “third day” description, and a separate Dec 30 one-day sit-in do not establish onset or uninterrupted continuity. Cross-site national coordination versus distinct local actions is also unresolved. No continuation is coded because continuity from December is not proven.",
+    "source_ids": [
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "algeria_2022-01_C001"
+    ],
+    "required_followup": "Seek dated local reports from each court/council, especially Constantine and Sidi M’hamed, and verify whether any physical action continued without interruption across 30 Dec–3 Jan."
+  },
+  {
+    "gap_id": "algeria_2022-01_G002",
+    "type": "participant_threshold",
+    "description": "No opened January source gives a numeric headcount for the court sit-ins or the taxi sit-in. Qualitative “large/crowded” wording at Tizi Ouzou and occupational-workforce/strike percentages do not establish 50 people gathered.",
+    "source_ids": [
+      "S004",
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [
+      "algeria_2022-01_C001",
+      "algeria_2022-01_C002"
+    ],
+    "required_followup": "Find event-specific turnout estimates from local correspondents or other contemporaneous reporting; do not convert workers, routes, or strike participation percentages to attendees."
+  },
+  {
+    "gap_id": "algeria_2022-01_G003",
+    "type": "event_end_and_boundary",
+    "description": "The physical end is unreported for the court strike/sit-ins and taxi sit-in. The Feb 2 taxi gathering addresses the same route dispute but does not establish continuous action from Jan 23; the Dec 30 court sit-in likewise does not establish continuity into January.",
+    "source_ids": [
+      "S004",
+      "S006",
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "algeria_2022-01_C001",
+      "algeria_2022-01_C002"
+    ],
+    "required_followup": "Search dated follow-up reporting for actual termination or intervening absences; keep separately dated gatherings separate unless uninterrupted presence is documented."
+  },
+  {
+    "gap_id": "algeria_2022-01_G004",
+    "type": "occurrence_and_action_form",
+    "description": "The January tax strikes, taxi/bakers work stoppages, and national lawyer court boycott have direct state-facing or occupational demands, but opened sources document stoppage/boycott rather than a qualifying public gathering. Contract teachers’ 16 January action is an announcement only; planned sit-ins were not verified.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S007",
+      "S008",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Look for contemporaneous reports of actual gatherings and turnout at tax offices, education directorates, taxi routes, bakeries, or courts; keep stoppages and court boycotts separate from documented public gatherings."
+  },
+  {
+    "gap_id": "algeria_2022-01_G005",
+    "type": "source_access",
+    "description": "El Watan’s 19 January tax-strike story remains search-only after a web-tool 502 and ordinary HTTPS DNS failure. Neither is an observed publisher denial. Ennahar/Echorouk/Sarih and local reporting add evidence, but do not replace the inaccessible article body.",
+    "source_ids": [
+      "S003",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If ordinary retrieval later succeeds and the access ledger still allows manual review, open the exact El Watan article; otherwise retain search-only status without treating the technical failures as a publisher restriction."
+  },
+  {
+    "gap_id": "algeria_2022-01_G006",
+    "type": "coverage_and_language",
+    "description": "Searches cover general and weekly French/English/Arabic queries plus targeted labor sectors and regional queries; Q018 included a Taqbaylit phrase but yielded no verifiable January Tamazight source. Coverage remains open-web only, with no LexisNexis search; the retrospective Open Data Tank page’s linked dataset/codebook were not retrieved.",
+    "source_ids": [
+      "S005",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "algeria_2022-01_C001",
+      "algeria_2022-01_C002"
+    ],
+    "required_followup": "Continue local and Arabic/French/Tamazight regional searches and consult available LexisNexis or the official baseline gate when authorized; do not infer no events from search silence."
+  },
+  {
+    "gap_id": "algeria_2022-01_G007",
+    "type": "state_response_and_violence",
+    "description": "Most event-specific state-response and protester-violence dimensions are not reported. At Sidi M’hamed, officials spoke with registrars and said requests were under consideration; no concrete accommodation is established. Taxi-driver altercations are reported separately from the sit-in.",
+    "source_ids": [
+      "S004",
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [
+      "algeria_2022-01_C001",
+      "algeria_2022-01_C002"
+    ],
+    "required_followup": "Check follow-up accounts for event-specific arrests, beatings, dispersal, killings, shootings, accommodation, or explicit nonresponse; retain unknown when no evidence is available."
+  }
+]

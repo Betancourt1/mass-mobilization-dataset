@@ -1,0 +1,277 @@
+[
+  {
+    "gap_id": "cameroon_2021-01_G001",
+    "type": "baseline",
+    "description": "Official baseline/version/universe/licence and full additional episode procedure remain coordinator gates. Existing historical manual read; no official MM IDs assigned.",
+    "source_ids": [],
+    "affected_candidates": [
+      "cameroon_2021-01_E001",
+      "cameroon_2021-01_E002",
+      "cameroon_2021-01_E003",
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E005",
+      "cameroon_2021-01_E006"
+    ],
+    "required_followup": "Coordinator verifies official original materials before any integration."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G002",
+    "type": "participants_threshold",
+    "description": "None of six leads establishes >=50 gathered participants. For SYNES the occurrence of a public assembly is itself missing: a work stoppage is observed, but >200 teachers concerned are not gathered attendance. DDR residents or later crowds are different denominators.",
+    "source_ids": [
+      "S009",
+      "S031",
+      "S148",
+      "S182"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E001",
+      "cameroon_2021-01_E002",
+      "cameroon_2021-01_E003",
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E005",
+      "cameroon_2021-01_E006"
+    ],
+    "required_followup": "Read contemporaneous attendance reports or attributable qualitative crowd descriptions for each actual assembly."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G003",
+    "type": "dates_end",
+    "description": "No actual physical closure established. January30 SYNES end is scheduled; publication dates and month boundary are not closure dates.",
+    "source_ids": [
+      "S009",
+      "S031",
+      "S070",
+      "S182"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E001",
+      "cameroon_2021-01_E002",
+      "cameroon_2021-01_E003",
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E005",
+      "cameroon_2021-01_E006"
+    ],
+    "required_followup": "Find explicit physical end/continuation evidence; retain null meanwhile."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G004",
+    "type": "state_response",
+    "description": "All seven responses remain unknown for these candidate acts. Deployment, promises, prior killings and older detentions cannot establish these responses.",
+    "source_ids": [
+      "S009",
+      "S054",
+      "S070",
+      "S182",
+      "S024"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E001",
+      "cameroon_2021-01_E002",
+      "cameroon_2021-01_E003",
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E005",
+      "cameroon_2021-01_E006"
+    ],
+    "required_followup": "Locate act-specific evidence of response and attribution."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G005",
+    "type": "violence_casualties",
+    "description": "Mokolo assault of a policeman is reported, but collective protest eligibility is uncertain; Bamenda deaths precede mourning acts.",
+    "source_ids": [
+      "S052",
+      "S182"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E003",
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E005"
+    ],
+    "required_followup": "Verify state-target protest status and act-specific violence; never transfer grievance casualties to current response."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G006",
+    "type": "state_target",
+    "description": "Mokolo fight and Bamenda mourning/funerals lack established collective demand to domestic state.",
+    "source_ids": [
+      "S052",
+      "S182"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E003",
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E005"
+    ],
+    "required_followup": "Recover demands, banners or organizer statements explicitly linked to these assemblies."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G007",
+    "type": "source_access",
+    "description": "Actual403 for SYNES announcement, Actu February1 Bamendjou article, transport article; HRLRC406. CameroonTribune publicly readable teaser only, full article paywalled.",
+    "source_ids": [
+      "S020",
+      "S072",
+      "S016",
+      "S052"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E001",
+      "cameroon_2021-01_E002",
+      "cameroon_2021-01_E003"
+    ],
+    "required_followup": "Use lawful accessible independent contemporaneous accounts; respect denials and paywall."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G008",
+    "type": "source_access_tool",
+    "description": "Tool Cache miss/InternalError persists for Pidgin lawyer report, NewsWatch Queen Mothers, some DDR and official pages. Ordinary same-URL HTTPS was attempted only where noted; no denial bypass.",
+    "source_ids": [
+      "S110",
+      "S169",
+      "S153",
+      "S128",
+      "S047"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E006",
+      "cameroon_2021-01_C001"
+    ],
+    "required_followup": "Ordinary public retrieval or archive access if available lawfully; keep unread material search_only."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G009",
+    "type": "contested_evidence_dates",
+    "description": "TNH January DDR claim links to MMI story describing March19 and earlier February actions. Displayed MMI publication2024 may be repost/update. January2 is ID-paper date.",
+    "source_ids": [
+      "S148",
+      "S183"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E006"
+    ],
+    "required_followup": "Locate a contemporaneous January report and exact assembly date; do not import February attendance."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G010",
+    "type": "dates_chronology",
+    "description": "Mokolo teaser has January19 start but inconsistent Wednesday30January follow-up wording.",
+    "source_ids": [
+      "S052"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E003"
+    ],
+    "required_followup": "Recover full lawful contemporaneous report to resolve chronology."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G011",
+    "type": "episode_unit",
+    "description": "Queen Mothers prior December24 discovery and new mourning, multiple funeral days, national SYNES/local Douala, and repeated DDR actions require original episode rules and organizational evidence.",
+    "source_ids": [
+      "S169",
+      "S182",
+      "S009",
+      "S031",
+      "S148",
+      "S183"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E001",
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E005",
+      "cameroon_2021-01_E006"
+    ],
+    "required_followup": "Resolve start-month ownership and whether separate new actions/escalations exist before inclusion; no automatic national/local or repeat-day split/merge."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G012",
+    "type": "continuity_boundaries",
+    "description": "December lawyers' boycott has no confirmed January gathering. February DDR protests, February3 transport notice, February12 SYNAPAU-C thanks march are neighboring-month discoveries.",
+    "source_ids": [
+      "S104",
+      "S110",
+      "S047",
+      "S153",
+      "S016",
+      "S128"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_C001",
+      "cameroon_2021-01_E006"
+    ],
+    "required_followup": "Research December/February owners; ongoing notice or detentions do not prove physical continuation."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G013",
+    "type": "source_independence",
+    "description": "ecoi republishes HRW; DRay archive and article share origin; MMI linked by TNH and Standard Mirror category/article cannot be counted as independent confirmation.",
+    "source_ids": [
+      "S024",
+      "S184",
+      "S147",
+      "S182",
+      "S148",
+      "S183",
+      "S153",
+      "S165"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E001",
+      "cameroon_2021-01_E002",
+      "cameroon_2021-01_E003",
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E005",
+      "cameroon_2021-01_E006"
+    ],
+    "required_followup": "Trace editorial/agency origins and corroborate important claims independently."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G014",
+    "type": "language",
+    "description": "English/French searches and Pidgin/Fulfulde search probes performed. Pidgin discovered article unread after tool failure; no systematic reporting in Fulfulde, Ewondo, Duala, Grassfields or other local languages.",
+    "source_ids": [
+      "S110"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-01_E001",
+      "cameroon_2021-01_E002",
+      "cameroon_2021-01_E003",
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E005",
+      "cameroon_2021-01_E006"
+    ],
+    "required_followup": "Use competent local-language research and accessible local archives; do not interpret failed searches as event absence."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G015",
+    "type": "coverage_search_method",
+    "description": "Open web is not LexisNexis or systematic local archives. Search engines ignored date windows and returned out-of-country/year noise; retained discovery cards are not evidence of January events.",
+    "source_ids": [],
+    "affected_candidates": [
+      "cameroon_2021-01_E001",
+      "cameroon_2021-01_E002",
+      "cameroon_2021-01_E003",
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E005",
+      "cameroon_2021-01_E006"
+    ],
+    "required_followup": "Use original comparable news archive method, verify document dates and expand undercovered localities."
+  },
+  {
+    "gap_id": "cameroon_2021-01_G016",
+    "type": "coverage_geography_sector",
+    "description": "Generic, all four weekly windows in English/French, regional and sector probes covered discovery; northern/eastern/rural coverage remains uneven and search silence is not no-protest evidence.",
+    "source_ids": [],
+    "affected_candidates": [
+      "cameroon_2021-01_E001",
+      "cameroon_2021-01_E002",
+      "cameroon_2021-01_E003",
+      "cameroon_2021-01_E004",
+      "cameroon_2021-01_E005",
+      "cameroon_2021-01_E006"
+    ],
+    "required_followup": "Follow local health, education, transport, utilities, market, land/farm, women and regional archives."
+  }
+]

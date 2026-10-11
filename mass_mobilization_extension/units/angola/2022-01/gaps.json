@@ -1,0 +1,121 @@
+[
+  {
+    "gap_id": "angola_2022-01_G001",
+    "type": "search_coverage",
+    "description": "Thirteen captured open-web search invocations (304 returned headers) cover general Portuguese/English terms, localized Portuguese wording, four weekly/date windows, regional/provincial terms, selected public-sector/health/education/taxi sectors and December/February boundaries. Search engines may ignore date operators; this is not equivalent to LexisNexis “All News” and does not establish exhaustive coverage or absence of events.",
+    "source_ids": [],
+    "affected_candidates": [
+      "angola_2022-01_E001",
+      "angola_2022-01_E002"
+    ],
+    "required_followup": "When original archive access is available, run the codebook procedure and reconcile article-level results. Keep the unit open and do not encode search silence as protest=0."
+  },
+  {
+    "gap_id": "angola_2022-01_G002",
+    "type": "language_and_geographic_coverage",
+    "description": "Coverage is primarily Portuguese-language Angolan reporting plus English-language searching. No systematic Kimbundu, Umbundu, Kikongo, Chokwe or other local-language search was conducted, and local archives across all provinces were not reviewed. Q010 named several provinces, but no site-specific bodies were obtained for most regions.",
+    "source_ids": [
+      "S002",
+      "S007"
+    ],
+    "affected_candidates": [
+      "angola_2022-01_E001"
+    ],
+    "required_followup": "Search regional outlets and relevant local-language or union/civil-society records by province. Do not infer a qualifying demonstration in each province from the national strike extent."
+  },
+  {
+    "gap_id": "angola_2022-01_G003",
+    "type": "threshold_and_attendance",
+    "description": "The taxi accounts describe pickets/blockades but provide no headcount for people assembled. The reported 40,000 concerns drivers/operators across vehicles/fleets, and the thousands walking were commuters. The Jan23 report’s lead says dozens while a later passage says hundreds; no exact number is available.",
+    "source_ids": [
+      "S002",
+      "S005",
+      "S007",
+      "S012",
+      "S014"
+    ],
+    "affected_candidates": [
+      "angola_2022-01_E001",
+      "angola_2022-01_E002"
+    ],
+    "required_followup": "Locate contemporaneous site-specific turnout estimates. Keep E001 pending_threshold and retain the internal discrepancy and qualitative nature of E002 turnout."
+  },
+  {
+    "gap_id": "angola_2022-01_G004",
+    "type": "state_target_and_demands",
+    "description": "Taxi associations list grievances involving police treatment, government-policy exclusion, passenger-capacity rules, roads and professionalization; which demands were pressed by a qualifying street gathering is not established. The Jan23 crowd followed a fatal police shooting, but reports do not provide explicit slogans or an articulated demand.",
+    "source_ids": [
+      "S002",
+      "S007",
+      "S012",
+      "S014"
+    ],
+    "affected_candidates": [
+      "angola_2022-01_E001",
+      "angola_2022-01_E002"
+    ],
+    "required_followup": "Find direct statements from participants/organizers or additional contemporaneous reporting that identifies demands, intended state target, and whether E002 was a demand-making protest rather than only immediate tumult."
+  },
+  {
+    "gap_id": "angola_2022-01_G005",
+    "type": "episode_boundaries_and_state_response",
+    "description": "Jan10 taxi stoppage ended with return to service on Jan12, but the end of any public gathering is not independently dated. The Jan23 event lasted a little over an hour in Novo Jornal; the Mutamba/Via Expressa location wording is not fully reconciled. Many response dimensions remain unknown because the bodies are silent. The Jan23 fatal shot preceded the gathering and victim membership is unestablished.",
+    "source_ids": [
+      "S005",
+      "S009",
+      "S011",
+      "S012",
+      "S014"
+    ],
+    "affected_candidates": [
+      "angola_2022-01_E001",
+      "angola_2022-01_E002"
+    ],
+    "required_followup": "Review adjacent month/event coverage and seek specific reporting on end times, police actions during each event, and any response to an articulated demand. Do not code silence as ignore or the pre-event fatal shot as protest response."
+  },
+  {
+    "gap_id": "angola_2022-01_G006",
+    "type": "source_access_and_restrictions",
+    "description": "S001 (DW) and S017 (Observador) were held under documented scoped publisher restrictions; no body request was made. S003 and S015 had technical Cache miss/Internal Error outcomes, not observed denials, and were not retried. S020 returned explicit HTTP 403 on its exact post-cutoff URL; no retry. S019’s exact body call after R060 surfaced no body or status/error and remains unverified. R041 is a valid defer receipt after inputs changed; R059 is valid JSON for the wrong item URL (ID 26391 rather than S019’s 23388), was unused and did not precede any body request. All receipt JSON parsed; neither R041 nor R059 is a body authorization.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S015",
+      "S017",
+      "S019",
+      "S020"
+    ],
+    "affected_candidates": [
+      "angola_2022-01_E001"
+    ],
+    "required_followup": "Respect the DW/Observador holds and the observed S020 403. Do not repeat technical or unsurfaced requests without a fresh exact-URL check and an applicable manual review. If S019 remains needed for February, use a new exact URL check before any ordinary body request."
+  },
+  {
+    "gap_id": "angola_2022-01_G007",
+    "type": "origin_and_independence",
+    "description": "CIAM S005 explicitly attributes its page to Jornal de Angola and is not independent confirmation. BANTUMEN quotes police through Lusa but this alone does not establish wire syndication. Jornal 24 Horas S018 says “Com agências” without naming the agency. Similar reports and official counts should retain source-specific attribution.",
+    "source_ids": [
+      "S005",
+      "S007",
+      "S011",
+      "S018"
+    ],
+    "affected_candidates": [
+      "angola_2022-01_E001"
+    ],
+    "required_followup": "Check explicit written-origin attribution before counting outlet reports as independent confirmation; keep reported arrests and turnout figures attributed to the source that stated them."
+  },
+  {
+    "gap_id": "angola_2022-01_G008",
+    "type": "sector_and_boundary_coverage",
+    "description": "Q011 searched selected health, judicial and public-worker strike terms; it does not exhaust all sectors. Q012 and later boundary leads do not provide a verified December-to-January continuation. S019 announces a February student action; its body outcome was not surfaced, and S020’s exact page body was inaccessible after 403. February occurrence/attendance must be verified in that month’s dossier.",
+    "source_ids": [
+      "S016",
+      "S018",
+      "S019",
+      "S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue sector-specific searches and verify the February boundary in the February unit. Do not duplicate an unverified planned student action as a January event or assert no December continuation from this limited pass."
+  }
+]

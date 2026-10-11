@@ -1,0 +1,140 @@
+[
+  {
+    "gap_id": "cyprus_2022-01_G001",
+    "type": "turnout_threshold",
+    "description": "E001 is a body-supported public gathering with a domestic police/government-facing demand, but no attendance count or numeric lower bound is preserved; eligibility remains pending_threshold.",
+    "source_ids": [
+      "CYP2022-01-S001"
+    ],
+    "affected_candidates": [
+      "cyprus_2022-01_E001"
+    ],
+    "required_followup": "Review accessible contemporaneous reporting for explicit turnout; do not infer from residents, affected households, or road closure."
+  },
+  {
+    "gap_id": "cyprus_2022-01_G002",
+    "type": "turnout_threshold",
+    "description": "E002 body passages describe several citizens, including children, but supply no count; eligibility remains pending_threshold.",
+    "source_ids": [
+      "CYP2022-01-S009",
+      "CYP2022-01-S010"
+    ],
+    "affected_candidates": [
+      "cyprus_2022-01_E002"
+    ],
+    "required_followup": "Find an accessible contemporary source giving attendance; check S010 origin before treating it as independent."
+  },
+  {
+    "gap_id": "cyprus_2022-01_G003",
+    "type": "denied_body_and_event_boundary",
+    "description": "S003 title suggests a distinct Chlorakas anti-migrant residents action, but the body was unavailable after an actual 403 at the exact URL. Keep the denial scoped to that URL and documented same-written-story variants. Event onset, date, turnout, demands, location boundary, and attribution remain unresolved; publication date is not event onset.",
+    "source_ids": [
+      "CYP2022-01-S003",
+      "CYP2022-01-S002",
+      "CYP2022-01-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retry, wrapper, alias, translation, or same-story route while hold stands. Use only separate already-accessible independent reporting if available, and preserve conflicting attribution."
+  },
+  {
+    "gap_id": "cyprus_2022-01_G004",
+    "type": "turnout_end_and_attribution",
+    "description": "S007 announced a refugee-led water-service demonstration planned for 11:00 on 17 January at the Water Development Department in Yeroskipou but did not confirm execution. S008, a Pafos Press article credited to KYPE/CNA, reports an actual St Nicolas residents protest outside the Department that day and a memorandum/demand for temporary reconnection. Link the announcement with the reported action by date/location only; S007 origin_agency is null and its written-origin relationship to S008 is unknown. Neither shared origin nor independent corroboration is established. No attendance count, physical end, or qualifying state response is reported. Preserve conflicting attribution between the protesters’ spokesperson and Chloraka Community Council president. Keep this refugee water action separate from anti-migrant gatherings and the held S003 story.",
+    "source_ids": [
+      "CYP2022-01-S007",
+      "CYP2022-01-S008"
+    ],
+    "affected_candidates": [
+      "cyprus_2022-01_E006"
+    ],
+    "required_followup": "Seek an independent contemporaneous turnout estimate and physical end; resolve the conflicting attribution if possible. Do not infer ≥50 from affected tenants, household count, or signs, and do not code discreet police presence or memorandum receipt as a qualifying state response."
+  },
+  {
+    "gap_id": "cyprus_2022-01_G005",
+    "type": "turnout_end_and_response",
+    "description": "The 19 January body confirms a Segdamelin-PEO gathering in front of the Presidential Palace supporting Fasouri farm workers, with a demand directed to the President and Labor Ministry policy. Attendance, physical end, and qualifying response remain unresolved; no crowd count can be inferred from the workforce or affected permits.",
+    "source_ids": [
+      "CYP2022-01-S011",
+      "CYP2022-01-S012",
+      "CYP2022-01-S013"
+    ],
+    "affected_candidates": [
+      "cyprus_2022-01_E003"
+    ],
+    "required_followup": "Seek explicit assembly turnout and independent contemporaneous coverage; distinguish meeting/receipt from accommodation and strike participation from those physically gathered."
+  },
+  {
+    "gap_id": "cyprus_2022-01_G006",
+    "type": "administrative_unit_and_coverage_universe",
+    "description": "S014 body confirms a 20 January Tel-Sen warning strike at the Gazimağusa Telecommunications Department from 08:00–12:00, followed by a court press statement and march to the Finance Ministry in Lefkoşa. The article targets the Turkish Cypriot/Northern Cyprus administration, not automatically the Republic of Cyprus government. No turnout count or physical end is reported; official geographic and dataset-universe compatibility remains unresolved. S015/S016 are advance-notice leads and were not opened because S014 already confirms the completed sequence; they add no verified turnout evidence.",
+    "source_ids": [
+      "CYP2022-01-S014",
+      "CYP2022-01-S015",
+      "CYP2022-01-S016",
+      "CYP2022-01-S017"
+    ],
+    "affected_candidates": [
+      "cyprus_2022-01_E005"
+    ],
+    "required_followup": "Obtain independent fluent review of the Turkish-language S014 translation; seek explicit assembly turnout and resolve official geographic/unit compatibility before coding. Do not silently assign the North to the Republic of Cyprus."
+  },
+  {
+    "gap_id": "cyprus_2022-01_G007",
+    "type": "turnout_and_state_response",
+    "description": "S018 headline reports Dali residents protesting asphalt plants on 28 January while the President chaired a meeting. Turnout, exact demand, event chronology, state response, and accommodation remain body-review gaps. Co-occurrence with a presidential meeting alone does not establish accommodation.",
+    "source_ids": [
+      "CYP2022-01-S018"
+    ],
+    "affected_candidates": [
+      "cyprus_2022-01_E004"
+    ],
+    "required_followup": "Review exact article if accessible under fresh gates; test turnout and policy target; accommodation only if protest leaders met, a demand was met, or formal discussion was agreed."
+  },
+  {
+    "gap_id": "cyprus_2022-01_G008",
+    "type": "date_and_continuity",
+    "description": "S019 and S020–S025 contain further partisan/election, student, labor, boundary-month, Northern Cyprus humanitarian, February convoy, and teacher-assembly leads. Their event dates, public assembly and eligibility are not established from current body evidence. The December 2021 economy protest (S022) is not assumed to continue into January; publication dates are not event onset.",
+    "source_ids": [
+      "CYP2022-01-S019",
+      "CYP2022-01-S020",
+      "CYP2022-01-S021",
+      "CYP2022-01-S022",
+      "CYP2022-01-S023",
+      "CYP2022-01-S024",
+      "CYP2022-01-S025"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Resolve January onset and assembly eligibility for any relevant lead; check December/February continuity and same-episode identity rather than duplicating campaigns or publication dates."
+  },
+  {
+    "gap_id": "cyprus_2022-01_G009",
+    "type": "search_coverage_and_archives",
+    "description": "The documented open-web discovery pass includes 30 captured search invocations and 708 result headers, with English, Greek, and Turkish query text; four weekly windows; broad, locality, publisher, sector, and Dec/Feb boundary searches. This is sufficient documentation of a first open-web pass, but not exhaustive national/regional newspaper-archive coverage, full native-language review, or evidence of absence. Remaining source-specific search-only leads are retained in G008 and other source cards.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may prioritize material unresolved leads already retained in source cards; archive access and independent fluent Turkish review remain open where noted. Do not interpret this completed open-web pass as exhaustive coverage or as proof that no further events occurred."
+  },
+  {
+    "gap_id": "cyprus_2022-01_G010",
+    "type": "official_baseline",
+    "description": "The official baseline/assignment compatibility review remains pending; no candidate has a final MM ID or coordinator approval.",
+    "source_ids": [],
+    "affected_candidates": [
+      "cyprus_2022-01_E001",
+      "cyprus_2022-01_E002",
+      "cyprus_2022-01_E003",
+      "cyprus_2022-01_E004",
+      "cyprus_2022-01_E005",
+      "cyprus_2022-01_E006"
+    ],
+    "required_followup": "Coordinator to compare against official baseline and supplemental procedure before any final inclusion decision."
+  },
+  {
+    "gap_id": "cyprus_2022-01_G011",
+    "type": "search_capture_clock_provenance",
+    "description": "Historical capture timing for two original web calls was backfilled by the next helper invocation before further web work. The exposed executed_at/response_captured_at values were retained where available; exact helper capture time is unknown, and later disclosure/root log time is not treated as actual capture time.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain original exposed clocks and this provenance limitation; do not infer the missing helper-capture timestamp or refetch solely to repair it."
+  }
+]

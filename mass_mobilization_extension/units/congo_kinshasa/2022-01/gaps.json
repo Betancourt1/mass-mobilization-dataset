@@ -1,0 +1,187 @@
+[
+  {
+    "gap_id": "CK202201-G001",
+    "type": "baseline",
+    "description": "Current official Mass Mobilization baseline, complete event universe, current CodingProcedure, and detailed use conditions remain unverified; the available 2015 user manual does not resolve these questions.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to verify the current official baseline and applicable coding procedure before any contribution."
+  },
+  {
+    "gap_id": "CK202201-G002",
+    "type": "search_method",
+    "description": "Open-web discovery does not reproduce the original LexisNexis newspaper search; no equivalence or exhaustive coverage can be claimed. Discovery used nine captured batched invocations across French, English and exploratory Swahili/Lingala terms, week windows, regions and sectors.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Report the specific remaining source, geography, language and archive gaps; do not claim equivalence with the original hemeroteca."
+  },
+  {
+    "gap_id": "CK202201-G003",
+    "type": "body_coverage",
+    "description": "Body review is selective, not complete: 12 effective reads and one incomplete HRW excerpt are recorded; the incomplete excerpt is not event evidence. Four attempts ended before content: S020 recovered on its second exact-URL attempt, both S026 attempts are exhausted, and S051’s native cache miss was recovered by one exact-URL fallback that returned HTTP 200. No actual publisher denial was observed. Source-card body/access metadata for the four successful Window 2 reads (S028, S037, S050 and S051) has now been synchronized from the saved read records. The current ledger has 13 opened and 37 search_only cards; 37 other captured cards remain search-only.",
+    "source_ids": [
+      "S004",
+      "S015",
+      "S016",
+      "S018",
+      "S020",
+      "S021",
+      "S025",
+      "S026",
+      "S027",
+      "S028",
+      "S037",
+      "S043",
+      "S050",
+      "S051"
+    ],
+    "affected_candidates": [
+      "CK202201-E001",
+      "CK202201-E002",
+      "CK202201-E003",
+      "CK202201-E004",
+      "CK202201-E005",
+      "CK202201-E006"
+    ],
+    "required_followup": "Continue selective review of distinct captured leads where needed to resolve documented episode, threshold and date gaps. Source-card access updates for S028, S037, S050 and S051 are complete; do not treat the incomplete HRW excerpt, cache failures or unrelated cross-year notices as publisher denials."
+  },
+  {
+    "gap_id": "CK202201-G004",
+    "type": "episode_evidence",
+    "description": "S016 reports a 24 January Beni state-of-siege protest as “hundreds” and attributes warning shots, arrests and one death to police accounts. S028 independently confirms an actual Mulekera manifestation, police barricade removal and at least 30 arrests, but gives no crowd count and records an allegation that some arrestees burned two civilian motorcycles. S028 reports no injuries or deaths in its reviewed passage, leaving a casualty discrepancy with S016. S043 reports a 26 January renewed attempt, barricades and police road-clearing without a crowd estimate; gunshots are heard but the shooter is unidentified. Whether Jan24/26 are distinct gatherings, a continuation, or part of one multi-day action remains unresolved; Jan26’s >=50 threshold is unproven. The HRW excerpt is incomplete and supplies no event evidence.",
+    "source_ids": [
+      "S002",
+      "S015",
+      "S016",
+      "S028",
+      "S042",
+      "S043",
+      "S044",
+      "S046"
+    ],
+    "affected_candidates": [
+      "CK202201-E002",
+      "CK202201-E003"
+    ],
+    "required_followup": "Clarify the Jan24/26 unit boundary and whether either or both actions belong to a reported multi-day campaign; seek attendance evidence for Jan26, corroboration of S016’s police-attributed casualty/arrest claims, and evidence resolving the S028 no-casualty passage and motorcycle-burning allegation. S042/S044/S046/S002 remain unread distinct captured leads; no uncatalogued internal link was opened."
+  },
+  {
+    "gap_id": "CK202201-G005",
+    "type": "episode_evidence",
+    "description": "The 18 January Lubumbashi march was assembled and police dispersed it that day, with a domestic prison-release demand. Attendance conflicts across S004 ('a few hundred'), S020 (organizers' estimate of 2,000), and S021 (AFP: 'several dozen'); the >=50 threshold therefore remains pending despite the higher claims. AFP is one declared written origin. Authorization/cancellation chronology and partisan-rally classification also remain open.",
+    "source_ids": [
+      "S004",
+      "S017",
+      "S018",
+      "S019",
+      "S020",
+      "S021",
+      "S022",
+      "S024"
+    ],
+    "affected_candidates": [
+      "CK202201-E001"
+    ],
+    "required_followup": "Window 2 only if material to unresolved facts: review S017 government statement and S022/S024 chronology/response records, and check S019 origin relation; preserve each turnout attribution and do not treat AFP republication as an independent origin. Coordinator to resolve the conflicting >=50 evidence before inclusion."
+  },
+  {
+    "gap_id": "CK202201-G006",
+    "type": "episode_evidence",
+    "description": "S025 and S027 describe a taxi-moto protest/clash period on 18–19 January and connect a governor-instructed suspension of checks to the drivers’ request; the reports attribute the suspension to ending clashes, without requiring an inferred meeting. No count establishes >=50. S025 attributes shots at some locations to security officers; ammunition and individual shooter identity are unknown, and no casualty details are established. S026 search-only preview alleges deaths/injuries, but both exact-URL attempts returned pre-content cache misses and no HTTP denial; no further S026 retry is permitted.",
+    "source_ids": [
+      "S025",
+      "S026",
+      "S027"
+    ],
+    "affected_candidates": [
+      "CK202201-E004"
+    ],
+    "required_followup": "Seek distinct permitted evidence for a 50-person threshold, assembly locations, casualty claims, and the Bunia physical-ending chronology. Preserve the reported Jan19 cessation of clashes at day precision while the exact stopping time remains unknown; do not infer live ammunition or casualties."
+  },
+  {
+    "gap_id": "CK202201-G007",
+    "type": "episode_evidence",
+    "description": "The exact S037 body confirms an actual demonstration on 11 January at the entrance to the governor’s cabinet in Bukavu by employees from different provincial-governorate services over salary arrears. No attendance estimate or counting method is supplied, so the >=50 threshold remains unresolved; no police or government response is described. Candidate CK202201-E005 preserves the action.",
+    "source_ids": [
+      "S037"
+    ],
+    "affected_candidates": [
+      "CK202201-E005"
+    ],
+    "required_followup": "Seek another permitted source only if it can establish whether at least 50 assembled or document a response; keep S037’s reported event date separate from its 10 January page-local publication clock."
+  },
+  {
+    "gap_id": "CK202201-G008",
+    "type": "episode_evidence",
+    "description": "S050 confirms an actual street demonstration in Isangi on 20 January by Dynamique des jeunes, demanding territorial administrator Joseph Mindenga’s departure. S051 (Kis24info) explicitly refers to the same Jan. 20 youth march; no separate action is established. S050 reports police used force to disperse demonstrators and several arrests, but the saved evidence does not establish completed dispersal or physical cessation, so E006 has no end date; the evening release of arrestees is not an end clock or accommodation. S051 attributes allegations of police beatings/torture, injuries, arrests, looting and live fire to local civil-society platforms. It separately reports that a police bodyguard fired more than 30 shots while accompanying the administrator’s wife to a market. Whether that market shooting is the same live-fire allegation or targeted demonstrators is unresolved. Both reports give no crowd estimate, so the >=50 threshold is unresolved. Kis24info spells the administrator Mimbenga; Radio Okapi spells him Mindenga.",
+    "source_ids": [
+      "S050",
+      "S051"
+    ],
+    "affected_candidates": [
+      "CK202201-E006"
+    ],
+    "required_followup": "Seek permitted evidence on whether at least 50 assembled and, if material, corroboration of the attributed beating, injury, looting and live-fire claims and their relation to the Jan. 20 march. Clarify whether S050 describes completed dispersal or cessation before assigning a physical end date. Verify the Mindenga/Mimbenga spelling variant if available."
+  },
+  {
+    "gap_id": "CK202201-G009",
+    "type": "eligibility",
+    "description": "Many labor leads remain search-only. Strikes, service disruption, workplace disputes, worker numbers, or affected-population counts do not establish a public gathering of at least 50 or a specific state/policy demand. Leads include nationwide university actions (S001/S003/S005–S007/S010–S012/S031/S033/S040/S041), health-worker actions (S008/S014/S029/S038), local Dungu/Matadi/Bandundu/Boteka actions (S030/S032/S034–S036/S047), and Tshopo/RVA reports (S048/S049).",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S010",
+      "S011",
+      "S012",
+      "S014",
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S033",
+      "S034",
+      "S035",
+      "S036",
+      "S038",
+      "S040",
+      "S041",
+      "S047",
+      "S048",
+      "S049"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review substantive leads selectively for actual public assemblies, counts, employers/state target distinction, and onset/continuity; do not infer participants from workforce or service figures. Keep unresolved search-only cases out of exclusions and candidate-event claims until evidence supports a decision."
+  },
+  {
+    "gap_id": "CK202201-G010",
+    "type": "boundary",
+    "description": "Several leads are prior-month continuations or February actions: health-worker strike reportedly underway since August 2021, Dungu teacher action into February, and a 28 February Kinshasa student protest. A Goma retrospective may describe a December 2021 event despite a 3 January statement.",
+    "source_ids": [
+      "S008",
+      "S013",
+      "S014",
+      "S029",
+      "S035",
+      "S038",
+      "S045"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify actual onset and any January continuation against neighboring dossiers; do not assign announcement or publication month as event onset."
+  },
+  {
+    "gap_id": "CK202201-G011",
+    "type": "date_provenance",
+    "description": "Several search records have only URL-path date signals or unclear exposed publication dates. S009’s Goma/EAC event date is suspicious and requires original chronology review; S011’s undated Courrier result has no verified publication date. S048 still requires publication/event date provenance from an exposed source rather than its URL or title. S037 and S050 have now been checked against exposed page/body dates and retain publication/event clock distinctions in their candidate evidence.",
+    "source_ids": [
+      "S009",
+      "S011",
+      "S048"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve publication, URL and event dates separately. Verify S009 against an original chronology, establish S011’s publication date only from exposed source evidence, and review S048’s exposed date before assigning event-month ownership."
+  }
+]

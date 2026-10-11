@@ -1,0 +1,272 @@
+[
+  {
+    "gap_id": "CZECH202201-G001",
+    "type": "source_access",
+    "description": "After the closed-window source-update GO, exact-page metadata-only reads were synchronized for eight cards (S008, S011, S012, S013, S020, S023, S027, S034); the frozen source ledger still has 35 of 43 cards marked search_only while Window2 reads await synchronization. The body_reads log now has 26 attempt records with exact URLs, access receipts/sidecars and outcomes: 11 readable, 13 unreadable and two null. S041 first had a native pre-content cache miss, then an exact-story HTTP 403; the technical error is not a denial, while the 403 is scoped to this story and documented written-story variants only. No article text or cookies were saved.",
+    "source_ids": [
+      "CZECH202201-S001",
+      "CZECH202201-S002",
+      "CZECH202201-S003",
+      "CZECH202201-S004",
+      "CZECH202201-S005",
+      "CZECH202201-S006",
+      "CZECH202201-S007",
+      "CZECH202201-S008",
+      "CZECH202201-S009",
+      "CZECH202201-S010",
+      "CZECH202201-S011",
+      "CZECH202201-S012",
+      "CZECH202201-S013",
+      "CZECH202201-S014",
+      "CZECH202201-S015",
+      "CZECH202201-S016",
+      "CZECH202201-S017",
+      "CZECH202201-S018",
+      "CZECH202201-S019",
+      "CZECH202201-S020",
+      "CZECH202201-S021",
+      "CZECH202201-S022",
+      "CZECH202201-S023",
+      "CZECH202201-S024",
+      "CZECH202201-S025",
+      "CZECH202201-S026",
+      "CZECH202201-S027",
+      "CZECH202201-S028",
+      "CZECH202201-S029",
+      "CZECH202201-S030",
+      "CZECH202201-S031",
+      "CZECH202201-S032",
+      "CZECH202201-S033",
+      "CZECH202201-S034",
+      "CZECH202201-S035",
+      "CZECH202201-S036",
+      "CZECH202201-S037",
+      "CZECH202201-S038",
+      "CZECH202201-S039",
+      "CZECH202201-S040",
+      "CZECH202201-S041",
+      "CZECH202201-S042",
+      "CZECH202201-S043"
+    ],
+    "affected_candidates": [
+      "CZECH202201-E001",
+      "CZECH202201-E002",
+      "CZECH202201-E003",
+      "CZECH202201-E004",
+      "CZECH202201-E005",
+      "CZECH202201-E006",
+      "CZECH202201-E007",
+      "CZECH202201-E008",
+      "CZECH202201-E009",
+      "CZECH202201-E010",
+      "CZECH202201-E011",
+      "CZECH202201-E012",
+      "CZECH202201-E013"
+    ],
+    "required_followup": "After root closes Window2 and authorizes source updates, synchronize its five metadata-only records (S005, S015, S017 and two S041 attempts). Preserve S041 exact-story/documented-variant denial scope without a Denik-wide hold; continue only material, unexhausted URLs in later authorized work."
+  },
+  {
+    "gap_id": "CZECH202201-G002",
+    "type": "unit_boundary",
+    "description": "City/day grouping remains unresolved for Jan 8 anti-vaccination actions, Jan 20 equipment drives versus the Jesenice straw-bale action and separately surfaced Skalka/Příbram road-blocking lead, and the Jan 22 Chcípl PES series. Jan 22 has seven local estimates, but the report does not establish seven MM units. The S041 exact page returned HTTP 403 without event content, so it adds no Jesenice count or boundary evidence; S042 remains unread.",
+    "source_ids": [
+      "CZECH202201-S001",
+      "CZECH202201-S002",
+      "CZECH202201-S003",
+      "CZECH202201-S004",
+      "CZECH202201-S019",
+      "CZECH202201-S020",
+      "CZECH202201-S021",
+      "CZECH202201-S022",
+      "CZECH202201-S023",
+      "CZECH202201-S024",
+      "CZECH202201-S025",
+      "CZECH202201-S041",
+      "CZECH202201-S042"
+    ],
+    "affected_candidates": [
+      "CZECH202201-E001",
+      "CZECH202201-E008",
+      "CZECH202201-E009"
+    ],
+    "required_followup": "Preserve the seven Jan 22 observations separately; the coordinator interim one-national-unit recommendation has no sums, Ostrov phase addition or seven finalized events. S041 is held only at its exact URL and documented same-story variants after HTTP 403; do not infer a publisher-wide Denik restriction. If material in later authorized work, use an unattempted local report such as S042 to test whether a separate Jan 20 human gathering occurred."
+  },
+  {
+    "gap_id": "CZECH202201-G003",
+    "type": "continuity",
+    "description": "A Jan 25–27 announcement and Feb 2 report leave actual Jan 26–27 activity, multi-day continuity, physical end and the Jan/Feb boundary unresolved. Jan 25 and Jan 30 Prague protests are separately reported and remain distinct absent contrary evidence.",
+    "source_ids": [
+      "CZECH202201-S026",
+      "CZECH202201-S027",
+      "CZECH202201-S028",
+      "CZECH202201-S029",
+      "CZECH202201-S030",
+      "CZECH202201-S039"
+    ],
+    "affected_candidates": [
+      "CZECH202201-E010"
+    ],
+    "required_followup": "Read actual-event reports for Jan 26–27 and Feb 2; verify date, overnight continuity and physical end before any continuation coding."
+  },
+  {
+    "gap_id": "CZECH202201-G004",
+    "type": "coverage",
+    "description": "Captured broad/local-language discovery found no relevant lead for Jan 1–7 and no confirmed small or poorly indexed action in several other sectors. Thirty-six searches returned 545 headers and 39 cards; web search does not reproduce systematic LexisNexis/hemeroteca coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted date, city, labor, student, price/cost and rights searches in the full first pass. No lead found is not evidence that no event occurred."
+  },
+  {
+    "gap_id": "CZECH202201-G005",
+    "type": "source_quality",
+    "description": "A possible Jan 29 Prague arms-related gathering is surfaced only by a low-confidence partisan source. Occurrence, threshold, exact demand and domestic government/state-policy target are unverified.",
+    "source_ids": [
+      "CZECH202201-S032"
+    ],
+    "affected_candidates": [
+      "CZECH202201-E012"
+    ],
+    "required_followup": "Seek an independent contemporaneous account and decide from verified evidence."
+  },
+  {
+    "gap_id": "CZECH202201-G006",
+    "type": "threshold",
+    "description": "Jan 13 headline “hundreds” supports at least 50 independently; police-attributed “up to 400” remains a separate upper estimate, not an exact count or lower bound. Jan 20 farm actions still have no verified human attendance figure; equipment is not a human crowd. S041 yielded no event content: after a native cache miss, one ordinary exact-URL HTTPS request returned 403. That denial applies to this story and documented variants only, not all Deník pages. S042 remains an unread distinct local lead.",
+    "source_ids": [
+      "CZECH202201-S013",
+      "CZECH202201-S019",
+      "CZECH202201-S020",
+      "CZECH202201-S021",
+      "CZECH202201-S041",
+      "CZECH202201-S042"
+    ],
+    "affected_candidates": [
+      "CZECH202201-E008"
+    ],
+    "required_followup": "Keep Jan 13 headline/police statements separately attributed. S041 has an exact-story 403 hold; do not retry it or a documented variant and do not infer a publisher-wide hold. In a later authorized window, review S042 or another eligible local report for actual people assembled at a specific location; do not count vehicles."
+  },
+  {
+    "gap_id": "CZECH202201-G007",
+    "type": "source_access",
+    "description": "Jan 29 Liberec lead has a search excerpt saying “several hundred,” but two body attempts did not yield readable content. Do not use snippet-only turnout as verified evidence.",
+    "source_ids": [
+      "CZECH202201-S031"
+    ],
+    "affected_candidates": [
+      "CZECH202201-E011"
+    ],
+    "required_followup": "After authorized later access window, verify exact URL, date, organizer, demands and attendance."
+  },
+  {
+    "gap_id": "CZECH202201-G008",
+    "type": "source_access",
+    "description": "Exact-body metadata has been admitted for the Jan 9 Prague march (S005) and Jan 16 Plzeň assembly (S015). The Plzeň report confirms Chcípl PES, location and demands, but its “almost half of Republic Square” wording has no numeric count or capacity/density basis; the >=50 threshold remains unresolved. Unread bodies for Jan 8 multi-city actions and the other Jan 9 Prague report variants (S006/S007) leave the Jan 8 city/day boundaries and independent-origin question open.",
+    "source_ids": [
+      "CZECH202201-S001",
+      "CZECH202201-S002",
+      "CZECH202201-S003",
+      "CZECH202201-S004",
+      "CZECH202201-S006",
+      "CZECH202201-S007",
+      "CZECH202201-S015",
+      "CZECH202201-S016"
+    ],
+    "affected_candidates": [
+      "CZECH202201-E001",
+      "CZECH202201-E002",
+      "CZECH202201-E006"
+    ],
+    "required_followup": "Read only selected exact remaining URLs under an authorized body window; establish whether any Jan 8 local gathering qualifies and how city/day boundaries relate. For Plzeň, seek an independent numeric turnout or defensible capacity/density evidence if available; do not count vehicles or treat same-origin ČTK retrospective context as corroboration."
+  },
+  {
+    "gap_id": "CZECH202201-G009",
+    "type": "source_access",
+    "description": "Exact-body S017 confirms the Jan 18 Prague gathering near the Chamber of Deputies, but reports two dozen participants including organizers, below the 50-person threshold; original candidate E007 is retained in excluded.json. The report identifies a demand that the Chamber issue Andrej Babiš for criminal prosecution. S018 remains unread; no event-series relationship or corroboration is inferred.",
+    "source_ids": [
+      "CZECH202201-S017",
+      "CZECH202201-S018"
+    ],
+    "affected_candidates": [
+      "CZECH202201-E007"
+    ],
+    "required_followup": "Keep the below-threshold exclusion unless S018 provides materially distinct, credible evidence of a crowd of at least 50. Do not treat the committee recommendation as accommodation, or merge this gathering with Jan 11, Jan 16, or Jan 22 actions."
+  },
+  {
+    "gap_id": "CZECH202201-G010",
+    "type": "source_quality",
+    "description": "Jan 11 farmers report is one ČTK origin: headline says “thousands,” while body attributes “up to 4,500” to police. Headline is positive magnitude wording; police wording is an upper estimate, not an exact count or lower bound. No actual government discussion or accommodation is verified.",
+    "source_ids": [
+      "CZECH202201-S010",
+      "CZECH202201-S011"
+    ],
+    "affected_candidates": [
+      "CZECH202201-E004"
+    ],
+    "required_followup": "Keep statements and attribution separate; compare other captured origins without double-counting ČTK republications. Verify later discussion before accommodation coding."
+  },
+  {
+    "gap_id": "CZECH202201-G011",
+    "type": "state_response",
+    "description": "State-response fields remain unknown unless directly documented. Jan 13 participants requested a meeting but no actual meeting is reported; Jan 20 working group was planned for the next day but is not verified as held. A Feb 1 search lead (S043) says farmers called off a later planned protest after expected prime-minister talks; it does not establish that a meeting occurred or demands were met. Silence is not “ignore.”",
+    "source_ids": [
+      "CZECH202201-S008",
+      "CZECH202201-S011",
+      "CZECH202201-S013",
+      "CZECH202201-S020",
+      "CZECH202201-S023",
+      "CZECH202201-S027",
+      "CZECH202201-S034",
+      "CZECH202201-S043"
+    ],
+    "affected_candidates": [
+      "CZECH202201-E003",
+      "CZECH202201-E004",
+      "CZECH202201-E005",
+      "CZECH202201-E008",
+      "CZECH202201-E009",
+      "CZECH202201-E010",
+      "CZECH202201-E013"
+    ],
+    "required_followup": "Read S043 only in a separately authorized body window if it can establish a completed follow-up meeting or other accommodation; otherwise preserve unknown. Review each response dimension independently."
+  },
+  {
+    "gap_id": "CZECH202201-G012",
+    "type": "date_precision",
+    "description": "Exact start and physical end times are unestablished for most candidates. Do not infer event end from publication, route, update, calendar boundary or schedule. Jan 30 supports a same-day march ending near 19:30 only approximately.",
+    "source_ids": [
+      "CZECH202201-S008",
+      "CZECH202201-S011",
+      "CZECH202201-S013",
+      "CZECH202201-S020",
+      "CZECH202201-S023",
+      "CZECH202201-S027",
+      "CZECH202201-S034"
+    ],
+    "affected_candidates": [
+      "CZECH202201-E001",
+      "CZECH202201-E002",
+      "CZECH202201-E003",
+      "CZECH202201-E004",
+      "CZECH202201-E005",
+      "CZECH202201-E006",
+      "CZECH202201-E007",
+      "CZECH202201-E008",
+      "CZECH202201-E009",
+      "CZECH202201-E010",
+      "CZECH202201-E011",
+      "CZECH202201-E012",
+      "CZECH202201-E013"
+    ],
+    "required_followup": "Use day precision where supported; keep end dates null unless physical closure is evidenced and avoid invented exact times."
+  },
+  {
+    "gap_id": "CZECH202201-G013",
+    "type": "date_scope",
+    "description": "The exact CT24 page carded as a Jan 11 farmers protest opens to a report displayed as published June 8, 2022. It is outside January and may be a different event or repurposed URL; no January action is verified from this page.",
+    "source_ids": [
+      "CZECH202201-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "After source-update GO, retain the title/date mismatch in source metadata; keep X001 excluded from January."
+  }
+]

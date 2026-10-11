@@ -1,0 +1,282 @@
+[
+  {
+    "gap_id": "bulgaria_2021-01-G001",
+    "type": "baseline",
+    "affected_candidates": [],
+    "source_ids": [],
+    "description": "Latest official MM baseline, universe, licensing and scheme remain unverified. Historical manual is May 2015; ccode 355 provisional.",
+    "required_followup": "Verify official baseline and country/year eligibility before any integration."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G002",
+    "type": "search_method",
+    "affected_candidates": [],
+    "source_ids": [],
+    "description": "English and Cyrillic general, weekly, sector and regional queries were executed. Date-range operators and literal dates repeatedly returned other years; no search result is treated as exhaustive. First four queries were one combined request: request-start captured, exact per-query time and result association unknown.",
+    "required_followup": "Use licensed news archives and validated date filters where available; preserve open-web coverage limits."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G003",
+    "type": "participants",
+    "affected_candidates": [
+      "bulgaria_2021-01-E001",
+      "bulgaria_2021-01-E002",
+      "bulgaria_2021-01-E003",
+      "bulgaria_2021-01-E005",
+      "bulgaria_2021-01-E006",
+      "bulgaria_2021-01-E007",
+      "bulgaria_2021-01-E008",
+      "bulgaria_2021-01-E009",
+      "bulgaria_2021-01-E011",
+      "bulgaria_2021-01-E012",
+      "bulgaria_2021-01-E013",
+      "bulgaria_2021-01-E014"
+    ],
+    "source_ids": [
+      "BG202101-S010",
+      "BG202101-S098",
+      "BG202101-S007",
+      "BG202101-S055",
+      "BG202101-S148",
+      "BG202101-S189",
+      "BG202101-S052",
+      "BG202101-S123",
+      "BG202101-S069",
+      "BG202101-S021",
+      "BG202101-S162",
+      "BG202101-S100"
+    ],
+    "description": "Crowd threshold of 50 is unresolved for these records. Boats, population, enrollment and groups limited to15 are not a summed attendance count.",
+    "required_followup": "Find event-specific person counts or attributable estimates; leave pending if threshold cannot be demonstrated."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G004",
+    "type": "episode_unit",
+    "affected_candidates": [
+      "bulgaria_2021-01-E001",
+      "bulgaria_2021-01-E008",
+      "bulgaria_2021-01-E009",
+      "bulgaria_2021-01-C001"
+    ],
+    "source_ids": [
+      "BG202101-S123",
+      "BG202101-S124",
+      "BG202101-S052",
+      "BG202101-S004"
+    ],
+    "description": "January13 and24 assemblies sit within a campaign begun July9,2020. Weekly recurring or campaign-day descriptions do not prove continuously assembled single action or separate monthly start.",
+    "required_followup": "Review original action-level boundaries and ownership with July2020 unit; do not merge automatically."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G005",
+    "type": "episode_unit",
+    "affected_candidates": [
+      "bulgaria_2021-01-C002"
+    ],
+    "source_ids": [
+      "BG202101-S270",
+      "BG202101-S250"
+    ],
+    "description": "Report confirms New Year gathering while December31 source is an announcement. Physical start/end and relation to broader campaign remain unknown.",
+    "required_followup": "Review December2020 owner and establish physical crossing/start if documented."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G006",
+    "type": "episode_unit",
+    "affected_candidates": [
+      "bulgaria_2021-01-E002"
+    ],
+    "source_ids": [
+      "BG202101-S098",
+      "BG202101-S102",
+      "BG202101-S013"
+    ],
+    "description": "Sofia and Varna arts assemblies reported together; national coordination and separate local units require review.",
+    "required_followup": "Identify organizers, attendance and government reception separately for each location before splitting or combining."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G007",
+    "type": "episode_unit",
+    "affected_candidates": [
+      "bulgaria_2021-01-E006"
+    ],
+    "source_ids": [
+      "BG202101-S148",
+      "BG202101-S105",
+      "BG202101-S149"
+    ],
+    "description": "Brestovitsa report calls January16 the second protest, without established first-assembly date in assessed evidence.",
+    "required_followup": "Locate prior gathering and review December/January ownership; do not infer its date."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G008",
+    "type": "state_target; episode_unit; violence_casualties",
+    "affected_candidates": [
+      "bulgaria_2021-01-E010",
+      "bulgaria_2021-01-E013"
+    ],
+    "source_ids": [
+      "BG202101-S122",
+      "BG202101-S162"
+    ],
+    "description": "Mezdra January10 police protest and January13 private-house assault may be separate actions. A prosecutor-jurisdiction demand accompanies January13 account, but primary domestic state target is unresolved. About70 and five arrests refer to the private-house action. Child's earlier death is a grievance, not event killing.",
+    "required_followup": "Establish exact demands, participants and temporal relationship; classify private property damage separately from violence against state actors."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G009",
+    "type": "dates",
+    "affected_candidates": [
+      "bulgaria_2021-01-E001",
+      "bulgaria_2021-01-E002",
+      "bulgaria_2021-01-E003",
+      "bulgaria_2021-01-E004",
+      "bulgaria_2021-01-E005",
+      "bulgaria_2021-01-E006",
+      "bulgaria_2021-01-E007",
+      "bulgaria_2021-01-E008",
+      "bulgaria_2021-01-E009",
+      "bulgaria_2021-01-E010",
+      "bulgaria_2021-01-E011",
+      "bulgaria_2021-01-E012",
+      "bulgaria_2021-01-E013",
+      "bulgaria_2021-01-E014"
+    ],
+    "source_ids": [],
+    "description": "No physical end is established for any candidate. Publication/update times, planned 21h or 16–22h schedules,17h march starts and reopening dates are not physical ends.",
+    "required_followup": "Find explicit dispersal/end observations; otherwise keep end_date null and precision unknown."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G010",
+    "type": "state_response",
+    "affected_candidates": [
+      "bulgaria_2021-01-E001",
+      "bulgaria_2021-01-E002",
+      "bulgaria_2021-01-E003",
+      "bulgaria_2021-01-E004",
+      "bulgaria_2021-01-E005",
+      "bulgaria_2021-01-E006",
+      "bulgaria_2021-01-E007",
+      "bulgaria_2021-01-E008",
+      "bulgaria_2021-01-E009",
+      "bulgaria_2021-01-E010",
+      "bulgaria_2021-01-E011",
+      "bulgaria_2021-01-E012",
+      "bulgaria_2021-01-E013",
+      "bulgaria_2021-01-E014"
+    ],
+    "source_ids": [
+      "BG202101-S055",
+      "BG202101-S098",
+      "BG202101-S102",
+      "BG202101-S122",
+      "BG202101-S030",
+      "BG202101-S038",
+      "BG202101-S040",
+      "BG202101-S052"
+    ],
+    "description": "Only event-specific reception for January15 and 16 and five Mezdra January13 arrests are coded yes. Remaining response categories are unknown; prior meetings, police presence and blocked entry are not automatically accommodation or dispersal.",
+    "required_followup": "Seek event-specific evidence for each response without interpreting silence as ignore or no."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G011",
+    "type": "source_access",
+    "affected_candidates": [
+      "bulgaria_2021-01-E001",
+      "bulgaria_2021-01-E002",
+      "bulgaria_2021-01-E008",
+      "bulgaria_2021-01-E012"
+    ],
+    "source_ids": [
+      "BG202101-S002",
+      "BG202101-S013",
+      "BG202101-S121",
+      "BG202101-S021"
+    ],
+    "description": "bTV and OFFNews pages returned actual403 on ordinary public requests after web errors. Denials respected. BNT lead remains index-only.",
+    "required_followup": "Seek openly accessible independent reporting or approved archive access; do not bypass denied pages."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G012",
+    "type": "source_independence",
+    "affected_candidates": [
+      "bulgaria_2021-01-E002",
+      "bulgaria_2021-01-E004",
+      "bulgaria_2021-01-E006",
+      "bulgaria_2021-01-E007"
+    ],
+    "source_ids": [
+      "BG202101-S098",
+      "BG202101-S102",
+      "BG202101-S030",
+      "BG202101-S038",
+      "BG202101-S040",
+      "BG202101-S148",
+      "BG202101-S072",
+      "BG202101-S189"
+    ],
+    "description": "Several reports relay BNR, NOVA or ministry press releases; number of URLs is not number of independent reports.",
+    "required_followup": "Trace origin and distinguish independent reporting from reprints before confidence assessment."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G013",
+    "type": "coverage; language",
+    "affected_candidates": [],
+    "source_ids": [],
+    "description": "English/Bulgarian Cyrillic open-web searches covered weekly periods, labor/education/health, environment/agriculture/transport and Sofia/Plovdiv/Varna/Burgas/Ruse/Vidin/Vratsa. No additional verified assembly from a query is not proof of no protest. No separate human linguistic review.",
+    "required_followup": "Use Bulgarian local and specialist archives and independent language review to address uneven coverage."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G014",
+    "type": "source_access; coverage",
+    "affected_candidates": [
+      "bulgaria_2021-01-E011"
+    ],
+    "source_ids": [
+      "BG202101-S069"
+    ],
+    "description": "January11 Varna rally and January12 municipal-abuse discussion/January13 solidarity were announced; actual occurrence and size remain unverified.",
+    "required_followup": "Find contemporaneous occurrence reports and crowd evidence for each announced action before coding inclusion."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G015",
+    "type": "source_access; state_target",
+    "affected_candidates": [
+      "bulgaria_2021-01-E012",
+      "bulgaria_2021-01-E014"
+    ],
+    "source_ids": [
+      "BG202101-S021",
+      "BG202101-S100"
+    ],
+    "description": "BNT / Karakachanov January15 index lead and Eagles Bridge January16 search-index lead lack assessed original accounts and exact demands.",
+    "required_followup": "Recover original articles and verify physical dates, occurrence, state target and sizes."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G016",
+    "type": "coverage",
+    "affected_candidates": [],
+    "source_ids": [
+      "BG202101-S133",
+      "BG202101-S135",
+      "BG202101-S138",
+      "BG202101-S167",
+      "BG202101-S233"
+    ],
+    "description": "Neighboring-month tourism/taxi and February campaign leads were searched. Some refer to December2020 or future February actions; no automatic January event created.",
+    "required_followup": "Carry boundary leads to relevant owner units after occurrence verification."
+  },
+  {
+    "gap_id": "bulgaria_2021-01-G017",
+    "type": "contested_evidence",
+    "affected_candidates": [
+      "bulgaria_2021-01-E001",
+      "bulgaria_2021-01-E008"
+    ],
+    "source_ids": [
+      "BG202101-S124",
+      "BG202101-S052"
+    ],
+    "description": "Unspecified clashes and two police-cordon entry blockages do not establish who used physical force or a specific state-response category.",
+    "required_followup": "Find independently attributable accounts identifying actors, force used and effects on assembly."
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "gap_id": "belgium_2021-02_G001",
+    "type": "coverage_search_method_language",
+    "description": "The unit was interrupted after one broad English-language query (Q001, 26 captured result headers). No French, Dutch, German or regional searches, weekly windows, sector searches, or episode-specific follow-up were completed. No absence or exhaustiveness conclusion is supported.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resume the required general, local-language, weekly, regional and sector searches; record every actual response and follow each relevant episode before assessing February onsets or absence."
+  },
+  {
+    "gap_id": "belgium_2021-02_G002",
+    "type": "episode_unit_source_access",
+    "description": "Q001 surfaced a February 1 Brussels Times search snippet about arrests during a Sunday anti-Covid protest and a February 1 Euronews snippet about scores arrested at two banned Brussels demonstrations. Neither body was opened. The first appears related to the January 31 candidate in the prior Belgium unit; the second has unresolved dates and event identity. No February continuation or distinct onset has been established.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "belgium_2021-01_E009"
+    ],
+    "required_followup": "Open only after exact-URL access checks, verify occurrence, date, attendance, demand, response and event identity, then determine whether any action began in February or is a continuation of a January event. Do not use arrest counts as attendance."
+  },
+  {
+    "gap_id": "belgium_2021-02_G003",
+    "type": "baseline",
+    "description": "The saved May 2015 codebook was consulted, but the latest official event file, current schema/universe and reuse terms remain unverified in the project baseline.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator resolves the official baseline and compatibility gate before any export or integration."
+  }
+]

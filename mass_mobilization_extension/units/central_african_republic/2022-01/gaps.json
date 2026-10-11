@@ -1,0 +1,128 @@
+[
+  {
+    "gap_id": "CAR202201-G001",
+    "topic": "Ouanda-Djallé action date, threshold, and outcome",
+    "source_ids": [
+      "S016",
+      "S017"
+    ],
+    "state": "unresolved",
+    "details": "S017 body was actually read and reports a manifestation but gives no count and does not distinguish the gathering date from the 25 January memorandum. The memo separately mentions a 22 January assembly and 26 January delegation. S016 is a same-publisher, search-only retrospective date lead apparently pointing to a first manifestation on 25 January. The original 231-input S017 access-scope gap remains preserved; a separate independent review approved effective admissibility with that caveat, without retroactive full-scope gate clearance.",
+    "next_action": "No further body requests are authorized in the completed current window. Keep month precision and threshold/outcome unknown; seek an independent turnout estimate and action-specific response. Any future S016 body review requires its own explicit target authorization and fresh full gate.",
+    "corrections": [
+      {
+        "field": "details,next_action",
+        "prior_value": {
+          "details": "S017 body was actually read and reports a manifestation, but gives no count and does not separate the gathering date from the 25 January memorandum. The memo separately mentions a 22 January assembly and 26 January delegation. S016 is a same-publisher, search-only retrospective date lead apparently pointing to a first manifestation on 25 January. S017’s historical 231-input scope gap is preserved; independent admissibility remains pending.",
+          "next_action": "Compare the S016 body and exact sequence if a fresh read window is authorized; seek an independent turnout estimate and action-specific state response."
+        },
+        "corrected_value": {
+          "details": "S017 body was actually read and reports a manifestation but gives no count and does not distinguish the gathering date from the 25 January memorandum. The memo separately mentions a 22 January assembly and 26 January delegation. S016 is a same-publisher, search-only retrospective date lead apparently pointing to a first manifestation on 25 January. The original 231-input S017 access-scope gap remains preserved; a separate independent review approved effective admissibility with that caveat, without retroactive full-scope gate clearance.",
+          "next_action": "No further body requests are authorized in the completed current window. Keep month precision and threshold/outcome unknown; seek an independent turnout estimate and action-specific response. Any future S016 body review requires its own explicit target authorization and fresh full gate."
+        },
+        "rationale": "Preserve the original S017 231-input gap while reflecting the subsequent independent admissibility approval and the current window’s finite authorized scope.",
+        "corrected_at": "2026-10-10T12:43:58+00:00"
+      }
+    ]
+  },
+  {
+    "gap_id": "CAR202201-G002",
+    "topic": "Bimbo Avenue David Dacko demonstration threshold and response",
+    "source_ids": [
+      "S009",
+      "S010"
+    ],
+    "state": "unresolved",
+    "details": "Search results describe a 24 January barricade demonstration but provide no count; “mass turnout” alone does not establish >=50. S009 body attempts returned a tool timeout and gated DNS failure before HTTP; no publisher denial. S010 is likely a republication of S009 and does not independently corroborate it. Police negotiations, mayoral promise, barricade removal, and physical end remain snippet-only.",
+    "next_action": "Do not retry S009 or use an alias. After explicit authorization of a new shared read window and a fresh complete gate, use an independent or alternate exact-card source if identified; otherwise keep threshold, state response, and physical end unresolved.",
+    "corrections": [
+      {
+        "field": "next_action",
+        "prior_value": "Only if a new read window is authorized, retry no exhausted URL without a fresh complete gate; seek an independent account for attendance and response.",
+        "corrected_value": "Do not retry S009 or use an alias. After explicit authorization of a new shared read window and a fresh complete gate, use an independent or alternate exact-card source if identified; otherwise keep threshold, state response, and physical end unresolved.",
+        "rationale": "The exact S009 URL is exhausted after a web.open timeout and a pre-HTTP DNS failure; no retry/alias is allowed. The previously recorded wording left retry interpretation ambiguous.",
+        "corrected_at": "2026-10-10T12:26:36+00:00"
+      }
+    ]
+  },
+  {
+    "gap_id": "CAR202201-G003",
+    "topic": "SYNAES strike onset, threshold, and January resolution",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S019"
+    ],
+    "state": "unresolved",
+    "details": "S001 body confirms the 3 January indefinite strike and domestic-policy demands, but describes workplace absence without a crowd count or public assembly. Search-only S002/S003/S005/S019 results mention November onset, a 5 January agreement, a petition/truce lead and a planned 10 January resumption. S006 full body (turn1020view0) reports classes resumed the Monday before 12 January after nearly two months of strike, some teachers/students returned, and dissenting teachers described a one-month truce and petition over the unconsulted agreement. S006 reports no public protest or count. S002 yielded no narrative in the body retrieval, and S003 exact open timed out at the tool layer without publisher content; these do not establish publisher restrictions. Episode continuity, acceptance, formal end and any public-gathering threshold remain unresolved.",
+    "next_action": "No further body requests in the completed current window. Do not replay the S002/S003 requests or infer their contents from search snippets. Preserve their retrieval gaps; any future exact target requires fresh explicit window authorization and full gates. Keep the SYNAES lead as a possible continuation, not an event, absent evidence of a public gathering and >=50 participants.",
+    "corrections": [
+      {
+        "field": "details,next_action",
+        "prior_value": {
+          "details": "S001 body confirms the 3 January indefinite strike and domestic-policy demands, but only workplace absence is described and no crowd count/public assembly is reported. Search results place earlier stoppages in November/December, report a 5 January agreement, a January 10 resumption plan and classes returning January 12. The episode boundary, threshold, agreement acceptance and actual strike end remain unclear.",
+          "next_action": "High-value body targets after a newly authorized window: exact-card S002, S003 and S006. Keep their search-only refs and do not infer a public gathering."
+        },
+        "corrected_value": {
+          "details": "S001 body confirms the 3 January indefinite strike and domestic-policy demands, but describes workplace absence without a crowd count or public assembly. Search-only S002/S003/S005/S019 results mention November onset, a 5 January agreement, a petition/truce lead and a planned 10 January resumption. S006 full body (turn1020view0) reports classes resumed the Monday before 12 January after nearly two months of strike, some teachers/students returned, and dissenting teachers described a one-month truce and petition over the unconsulted agreement. S006 reports no public protest or count. S002 yielded no narrative in the body retrieval, and S003 exact open timed out at the tool layer without publisher content; these do not establish publisher restrictions. Episode continuity, acceptance, formal end and any public-gathering threshold remain unresolved.",
+          "next_action": "No further body requests in the completed current window. Do not replay the S002/S003 requests or infer their contents from search snippets. Preserve their retrieval gaps; any future exact target requires fresh explicit window authorization and full gates. Keep the SYNAES lead as a possible continuation, not an event, absent evidence of a public gathering and >=50 participants."
+        },
+        "rationale": "The authorized v2 body window yielded a complete S006 article but no S002/S003 narrative; the prior gap still described these high-value targets as pending and omitted the S005 search-only petition/truce lead.",
+        "corrected_at": "2026-10-10T12:43:58+00:00"
+      }
+    ]
+  },
+  {
+    "gap_id": "CAR202201-G004",
+    "topic": "Students at university administrative block",
+    "source_ids": [
+      "S004"
+    ],
+    "state": "lead_not_promoted",
+    "details": "Search result says students gathered outside the university administrative block to collect examination/test receipts. It gives no clear protest demand or collective action beyond collecting documents; no qualifying event is established.",
+    "next_action": "No further read planned unless new evidence indicates an actual protest."
+  },
+  {
+    "gap_id": "CAR202201-G005",
+    "topic": "KM5 police-post damage and early-January deaths",
+    "source_ids": [
+      "S014",
+      "S020"
+    ],
+    "state": "lead_not_promoted",
+    "details": "Search-only reporting concerns an early-January clash/security incident, damage to a police post and records, and deaths. Available results do not establish a public protest, an articulated policy demand, or threshold attendance.",
+    "next_action": "Do not code as a protest absent evidence of a demonstrative gathering and state-facing demand."
+  },
+  {
+    "gap_id": "CAR202201-G006",
+    "topic": "Bria activity pause after civilian deaths",
+    "source_ids": [
+      "S021"
+    ],
+    "state": "disposition_nonprotest_on_current_evidence",
+    "details": "Search result attributes curtailed activity to fear after two civilian deaths; it reports timid activity resuming, not a public demonstration or demand.",
+    "next_action": "No additional read planned unless new protest evidence appears."
+  },
+  {
+    "gap_id": "CAR202201-G007",
+    "topic": "Announced ISYCA assembly",
+    "source_ids": [
+      "S007"
+    ],
+    "state": "occurrence_unverified",
+    "details": "The search result says an assembly was announced for 8 January; no result found confirms it occurred. Do not code an announcement as an event.",
+    "next_action": "Confirm occurrence only if another source surfaces."
+  },
+  {
+    "gap_id": "CAR202201-G008",
+    "topic": "Coverage and official baseline",
+    "source_ids": [],
+    "state": "pending_official_baseline",
+    "details": "Broad French/English web searching covered national terms, week/date windows and labor, student, local infrastructure, opposition, security and regional leads. Open-web discovery cannot establish hemeroteca completeness; exact hidden/indexed local reporting may be missing. Official baseline remains pending and no canonical update is authorized.",
+    "next_action": "Coordinator baseline review and any deeper archive search."
+  }
+]

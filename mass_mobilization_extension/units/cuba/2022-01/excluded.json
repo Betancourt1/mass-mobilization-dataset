@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "cuba_2022-01_X001",
+    "title": "Search-result lead: solitary January 1 rights protest",
+    "date": "2022-01-01 (search-result preview; not independently verified)",
+    "location": "Near Cayo Saetía (search-result preview; not independently verified)",
+    "source_ids": [
+      "cuba_2022-01-S001"
+    ],
+    "reason": "The captured search preview characterizes one person acting alone. On the available source-only evidence, that description does not meet the 50-person gathering threshold. This is a provisional exclusion only for the described lead, not a verified occurrence or crowd judgment.",
+    "notes": "The article body remains unread. Keep this as a scoped discovery lead pending any stronger evidence; do not infer that no other January action occurred."
+  },
+  {
+    "candidate_id": "cuba_2022-01_X002",
+    "title": "Announced January 28 nationwide work stoppage; execution unreported",
+    "date": "2022-01-28 (planned; source published 2022-01-24)",
+    "location": "Cuba, announced nationwide",
+    "source_ids": [
+      "cuba_2022-01-S002"
+    ],
+    "reason": "The body reports an opposition call for a future nationwide work stoppage and supporting posters, but it predates the planned date and does not report that the action occurred, any participants, or a physical public gathering. This source does not establish a qualifying event.",
+    "notes": "Source-only provisional exclusion from the event list, pending post-event corroboration. Do not infer turnout from the call, posters, workers, or photographs; the article says ADN Cuba shared poster photographs but does not establish an independent written-origin relation.",
+    "field_evidence": {
+      "announcement": {
+        "source_ids": [
+          "cuba_2022-01-S002"
+        ],
+        "note": "The January 24 article says opposition organizations called for a January 28 work stoppage and that posters expressed support."
+      },
+      "actual_gathering": {
+        "source_ids": [],
+        "note": "Not reported in this pre-event article."
+      }
+    }
+  },
+  {
+    "candidate_id": "cuba_2022-01_X003",
+    "title": "Reported Mar Verde prison protest; qualifying public assembly not established",
+    "date": null,
+    "location": "Mar Verde prison, Santiago de Cuba (as reported by S012)",
+    "source_ids": [
+      "cuba_2022-01-S012"
+    ],
+    "reason": "S012 reports that José Daniel Ferrer led a protest inside the prison and several inmates joined, but it does not establish a group of 50 or more, public-forum scope, the action date, or the participants’ own demand to the Cuban state. This is a provisional exclusion from the MM event list on current evidence; it does not deny the reported action or imply that no other January gathering occurred.",
+    "notes": "The exact S012 URL returned HTTP 200 through the one authorized ordinary fallback (BW016). The article was published on 2022-01-28, which is not evidence of the action date. Its family-reported demand for the release of political prisoners is not attributed to the protest participants. The article relays the reported incident through Ferrer’s sister and another former prisoner; it does not establish independent corroboration, a crowd count, or the public character of the gathering. Reported incommunicado treatment and fear of beating remain attributed claims, not independently verified state-response codes. Body-read metadata: body_reads/BW016_CUBA_S012_W2_2eff82c6853a_ordinary_fallback.json (SHA-256 eaf696b82c0999bfd9778019a6099c24469f79f9d461b6c64e0c49852810e40e). Source-card synchronization was completed under SOURCE_UPDATEGO2; BW016 is recorded on S012."
+  }
+]

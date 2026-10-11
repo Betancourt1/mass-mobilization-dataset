@@ -1,0 +1,23 @@
+[
+  {
+    "candidate_id": "djibouti_2022-01-X001",
+    "title": "L’Union 24 January 2022 issue: Gabonese teacher strike / return-to-class report",
+    "date": null,
+    "publication_date_or_issue_date": "2022-01-24",
+    "source_ids": [
+      "S002"
+    ],
+    "reason": "wrong_country_for_assigned_unit",
+    "notes": "R001 read the complete one-page PDF (turn1202view0). Its text explicitly concerns Libreville, Gabon, and Gabonese education unions Sena/Conasysed, not Djibouti. The reported 20% is a share of teachers, not protest turnout. No Djibouti candidate is derived from this search false positive. The source card is marked opened in the frozen source ledger; this wrong-country read is retained for exclusion provenance only and is not used as Djibouti event evidence. The original preflight receipt file was not retained: the gate sidecar preserves its hash, and R001_S002_postflight.json is a distinct post-request check, not that original receipt."
+  },
+  {
+    "candidate_id": "djibouti_2022-01-X002",
+    "title": "Media leak and reported public outcry over alleged threat to Abdourahman TX",
+    "date": "2022-01 (late month, as described retrospectively)",
+    "source_ids": [
+      "S005"
+    ],
+    "reason": "no_physical_public_gathering_documented",
+    "notes": "OFPRA DIDR’s 30 June 2023 report describes a late-January leaked conversation and a reported public outcry. It gives no physical gathering, location, participants or crowd size. Treat as an intimidation/media-reaction lead, not a public assembly or January protest candidate. The report cites an RFI article dated 30 January 2022, not independently opened here; do not treat this secondary retelling as independent corroboration or as proof of absence."
+  }
+]

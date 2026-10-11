@@ -1,0 +1,96 @@
+[
+  {
+    "gap_id": "cape_verde_2022-01_G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization baseline remains pending; the assigned country code 402 is provisional. This first-pass draft does not establish the original universe, schema, license, or coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to reconcile the open-web draft against the authorized official baseline before consolidation or final event-status decisions."
+  },
+  {
+    "gap_id": "cape_verde_2022-01_G002",
+    "type": "source_access",
+    "description": "The RTC São Filipe justice-delay source (S008) remains search-only. A first body request failed with a web-tool timeout before content. A later ordinary HTTPS request to the same public URL failed DNS before HTTP. The first manual map covered 231 inputs; the corrected check used the complete 233-input scope and returned manual_review, but the six active sibling-ledger hashes changed across the post-attempt check. No body was read, no publisher denial was observed, and S008 was not retried.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [
+      "cape_verde_2022-01_E001"
+    ],
+    "required_followup": "Per coordinator instruction, do not retry S008. Preserve the failed-before-HTTP and unstable-map evidence as a scoped gap; no further request is planned for this source."
+  },
+  {
+    "gap_id": "cape_verde_2022-01_G003",
+    "type": "participants",
+    "description": "The São Filipe justice-delay search result does not report attendance, so the public-gathering threshold of 50 remains unresolved.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [
+      "cape_verde_2022-01_E001"
+    ],
+    "required_followup": "Do not retry S008. Retain the attendance threshold as unresolved; do not infer turnout from the word residents."
+  },
+  {
+    "gap_id": "cape_verde_2022-01_G004",
+    "type": "state_target",
+    "description": "The São Filipe justice-delay search result refers to a court and general demand for better justice but does not identify the responsible institution, policy addressee, or whether the demand was explicitly directed to a domestic state actor. The Marxa Cabral search result gives cultural/pan-African framing but no specific state-directed demand.",
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "cape_verde_2022-01_E001",
+      "cape_verde_2022-01_E002"
+    ],
+    "required_followup": "Keep S008 unverified under the no-retry instruction. If S007 is separately reviewed under a future stable, authorized body-access gate, confirm target/demand language; otherwise leave Marxa Cabral pending or exclude only if evidence establishes no domestic state or policy target."
+  },
+  {
+    "gap_id": "cape_verde_2022-01_G005",
+    "type": "dates",
+    "description": "S010 reports a private-security workers' strike and demonstration scheduled for 30 December 2021 through 1 January 2022. The available search result does not establish whether either action occurred, the physical onset date, or whether any state-directed demand was part of the January 1 activity. Private-employer wage grievances and proposed actions at labor/maritime institutions require separate treatment.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If this lead is pursued, verify occurrence, onset, gathering form, turnout, state target, and boundary. Do not place it in January events or continuations on a schedule alone; if onset was December, assign the episode to the earlier month."
+  },
+  {
+    "gap_id": "cape_verde_2022-01_G006",
+    "type": "episode_unit",
+    "description": "January reporting announces teacher strike and demonstrations planned for 1 February; 31 January coverage says the São Vicente strike was suspended but demonstrations remained planned. Distinct search-only source S014, published 22 March, says teachers demonstrated on 1 February. This post-month action is kept out of January; no earlier physical assembly is reported in the saved evidence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep this as a bounded February ownership lead. S014 remains search_only; no additional February coverage or body retrieval is needed for this January unit unless the coordinator identifies a concrete review question."
+  },
+  {
+    "gap_id": "cape_verde_2022-01_G007",
+    "type": "source_independence",
+    "description": "Search-result text credits Inforpress in the Tiver items S005 and S011, but neither story body has been checked and the relationship between publisher and original report is not established. The listed outlet results must not be counted as independent confirmations solely from shared wording or credit lines.",
+    "source_ids": [
+      "S005",
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check body bylines/source credits only if those sources are accessed; record any original-story relationship explicitly and avoid counting syndicated copies as independent."
+  },
+  {
+    "gap_id": "cape_verde_2022-01_G008",
+    "type": "coverage",
+    "description": "Open-web discovery used 43 captured search invocations with Portuguese, English, and attempted Kriolu variants; week/date windows; national outlets (including RTC, A Nação, Inforpress, Tiver, Mindel Insite, Expresso das Ilhas and A Semana); and sector/island/place terms spanning labor, teachers, students, residents, justice, utilities, prices, transport, health, and islands/cities. Search coverage is uneven; the Kriolu queries returned no clearly relevant January event lead, and no systematic Kriolu news corpus, local hemeroteca, LexisNexis-equivalent access, or complete archive search was available. All 14 current source cards are search-only and no article body was read in this first pass.",
+    "source_ids": [],
+    "affected_candidates": [
+      "cape_verde_2022-01_E001",
+      "cape_verde_2022-01_E002"
+    ],
+    "required_followup": "Coordinator or later reviewer may pursue local-language archives, additional regional outlets, or exact source-body checks where they could resolve an eligibility/threshold question. Do not interpret missing search results as absence of protest."
+  }
+]

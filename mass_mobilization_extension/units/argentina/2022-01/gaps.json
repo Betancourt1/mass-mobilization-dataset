@@ -1,0 +1,177 @@
+[
+  {
+    "gap_id": "argentina_2022-01_G001",
+    "type": "search_coverage",
+    "description": "Open-web searching is not equivalent to the original LexisNexis “All News” search procedure. Twelve captured search invocations preserve 45 original query strings and 380 result headers, including broad Spanish/English, four January week windows, regional and sector searches, and boundary searches; arrays from multiquery calls were retained whole rather than guessed into per-query partitions. Results do not establish exhaustive coverage or absence of events.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "When an authorized original newspaper archive becomes available, run the codebook’s country/date/term procedure and reconcile article-level results; until then keep the unit open-web and non-exhaustive."
+  },
+  {
+    "gap_id": "argentina_2022-01_G002",
+    "type": "regional_language_coverage",
+    "description": "Coverage emphasizes Spanish-language national/local press and English-language international reporting. Regional leads cover Mar del Plata/coastal cities, Armstrong/Santa Fe, Buenos Aires/AMBA and La Plata/Arana, but no systematic archive review was possible for every province, city or local language/organization.",
+    "source_ids": [
+      "ARG202201-S001",
+      "ARG202201-S002",
+      "ARG202201-S003",
+      "ARG202201-S010",
+      "ARG202201-S020",
+      "ARG202201-S022"
+    ],
+    "affected_candidates": [
+      "argentina_2022-01_E001",
+      "argentina_2022-01_E002",
+      "argentina_2022-01_E003",
+      "argentina_2022-01_E005",
+      "argentina_2022-01_E006"
+    ],
+    "required_followup": "Add targeted provincial/local newspaper, union, environmental and civil-society archive searches, especially outside the identified central regions; verify exact source origins before counting confirmation."
+  },
+  {
+    "gap_id": "argentina_2022-01_G003",
+    "type": "episode_scope",
+    "description": "Atlanticazo reports verify a large 4 January Mar del Plata march and mention similar rallies elsewhere on the coast, but the complete city list, shared organization and whether the actions constitute one national event or several local events are unresolved. Attendance outside Mar del Plata is unknown.",
+    "source_ids": [
+      "ARG202201-S001",
+      "ARG202201-S002",
+      "ARG202201-S003",
+      "ARG202201-S004",
+      "ARG202201-S005",
+      "ARG202201-S006"
+    ],
+    "affected_candidates": [
+      "argentina_2022-01_E001"
+    ],
+    "required_followup": "Find contemporaneous city-level reports or original organizer calls; retain the Mar del Plata count only for that site and do not merge other sites until organization/demand evidence supports it."
+  },
+  {
+    "gap_id": "argentina_2022-01_G004",
+    "type": "threshold_and_source_access",
+    "description": "The Armstrong assembly is supported by one opened 2022 body reporting more than 500 participants. Search-only leads contain other unverified turnout figures (including about 200 from S012 and 700 from S027); El Cronista and Radio Mitre bodies were not obtained, Agrolink returned Cache miss, and an Infocampo tractorazo page proved to concern 2008. The 2008 event is not corroboration.",
+    "source_ids": [
+      "ARG202201-S010",
+      "ARG202201-S012",
+      "ARG202201-S019",
+      "ARG202201-S026",
+      "ARG202201-S027",
+      "ARG202201-S030",
+      "ARG202201-S031"
+    ],
+    "affected_candidates": [
+      "argentina_2022-01_E002"
+    ],
+    "required_followup": "If accessible through ordinary public retrieval, compare the 2022 post-event reports and determine whether estimates describe the same Jan8 assembly; otherwise preserve only LA NACION’s reported lower bound and its source attribution."
+  },
+  {
+    "gap_id": "argentina_2022-01_G005",
+    "type": "threshold_and_unit_scope",
+    "description": "Página|12 confirms a Jan26 six-hour blockade day at several Buenos Aires metropolitan sites and explicit government-policy demands, but gives no crowd count. It is unresolved whether this should be one multi-site event or several local blockades, and later planned action was not verified.",
+    "source_ids": [
+      "ARG202201-S034"
+    ],
+    "affected_candidates": [
+      "argentina_2022-01_E003"
+    ],
+    "required_followup": "Find site-level attendance, organizer coordination and subsequent action reporting; preserve the Jan26 date and avoid treating a threat of next-week protests as confirmed continuity."
+  },
+  {
+    "gap_id": "argentina_2022-01_G006",
+    "type": "threshold_and_episode",
+    "description": "The Jan27 Obelisk-to-Economy-Ministry march is confirmed by LA NACION and a Reuters caption/transcript, with explicit debt-payment demands, but neither provides an attendee estimate. It remains distinct from the separately verified February8 march; no evidence establishes continuity between the two.",
+    "source_ids": [
+      "ARG202201-S008",
+      "ARG202201-S009",
+      "ARG202201-S024",
+      "ARG202201-S025",
+      "ARG202201-S032",
+      "ARG202201-S033"
+    ],
+    "affected_candidates": [
+      "argentina_2022-01_E004"
+    ],
+    "required_followup": "Seek another contemporaneous body with a clear crowd estimate and end/response reporting; keep Feb8 sources with the February owner."
+  },
+  {
+    "gap_id": "argentina_2022-01_G007",
+    "type": "threshold_state_target_and_continuity",
+    "description": "The Jan5 Boedo/Garay outage blockade is dated, but the reported “hundreds” applies across AMBA piquetes rather than this site. Reports primarily attribute demands to private providers Edesur/Edenor; the direct government/regulator-policy target, repeated sites, and relation to December outages remain unclear.",
+    "source_ids": [
+      "ARG202201-S016",
+      "ARG202201-S017",
+      "ARG202201-S020",
+      "ARG202201-S021"
+    ],
+    "affected_candidates": [
+      "argentina_2022-01_E005"
+    ],
+    "required_followup": "Find site-specific turnout and direct demand statements, establish whether actions were centrally organized or separate neighborhood responses, and do not link ENRE measures to the protest without event-specific evidence."
+  },
+  {
+    "gap_id": "argentina_2022-01_G008",
+    "type": "threshold_state_target_and_end",
+    "description": "The Arana blockade is reported during Jan26–27, but turnout, a demand directed to public policy, state response and physical closure are unknown. Tire/branch burning is not evidence of violence against the state. A separate Parque Pereyra worker/quintero grievance lacks an established public gathering.",
+    "source_ids": [
+      "ARG202201-S022"
+    ],
+    "affected_candidates": [
+      "argentina_2022-01_E006"
+    ],
+    "required_followup": "Seek accessible body-level follow-up on turnout, exact demand/target, any public gathering near Parque Pereyra, physical end and state response."
+  },
+  {
+    "gap_id": "argentina_2022-01_G009",
+    "type": "date_threshold_target_and_access",
+    "description": "Mataderos and 9 de Julio search leads lack body-level event-date, attendance and state-target evidence. The Infobae body request returned a Cache miss (technical failure); the exact Clarín URL returned HTTP 402 Payment Required and remains blocked. Neither source was bypassed or retried.",
+    "source_ids": [
+      "ARG202201-S013",
+      "ARG202201-S014"
+    ],
+    "affected_candidates": [
+      "argentina_2022-01_E007",
+      "argentina_2022-01_E008"
+    ],
+    "required_followup": "Only use an independently authorized public source if available; otherwise retain dates/thresholds/demands as unknown and keep the exact access outcomes."
+  },
+  {
+    "gap_id": "argentina_2022-01_G010",
+    "type": "boundary_continuity",
+    "description": "TN captions a San Telmo outage protest on 31 December 2021, while El Grito del Sur describes neighborhood demonstrations and outages extending into early January without exact protest start dates or site-specific later counts. No qualifying December-start or January-continuation episode is established.",
+    "source_ids": [
+      "ARG202201-S016",
+      "ARG202201-S021",
+      "ARG202201-S023"
+    ],
+    "affected_candidates": [
+      "argentina_2022-01_E005",
+      "argentina_2022-01_C001"
+    ],
+    "required_followup": "Search December31/January outage coverage by neighborhood, locate exact dates and turnout for each action, and assign owner by actual onset without conflating distinct streets or the number of affected users with demonstrators."
+  },
+  {
+    "gap_id": "argentina_2022-01_G011",
+    "type": "responses_and_end_dates",
+    "description": "No event-level source establishes any of the seven state responses or protester violence for these candidates. ENRE Resolution 8/2022 concerns outages and orders Edesur to identify affected customers; it does not establish a response to a particular protest. Silence is preserved as unknown, not ignore/no_explicit. Physical ends remain uncertain for the multi-day or planned outage protests.",
+    "source_ids": [
+      "ARG202201-S001",
+      "ARG202201-S009",
+      "ARG202201-S010",
+      "ARG202201-S017",
+      "ARG202201-S020",
+      "ARG202201-S022",
+      "ARG202201-S025",
+      "ARG202201-S034"
+    ],
+    "affected_candidates": [
+      "argentina_2022-01_E001",
+      "argentina_2022-01_E002",
+      "argentina_2022-01_E003",
+      "argentina_2022-01_E004",
+      "argentina_2022-01_E005",
+      "argentina_2022-01_E006",
+      "argentina_2022-01_E007",
+      "argentina_2022-01_E008"
+    ],
+    "required_followup": "Use event-specific contemporary reports for each response and closure field; do not infer government inaction, accommodation or violence from silence, utility statements or general policy actions."
+  }
+]

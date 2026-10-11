@@ -1,0 +1,122 @@
+[
+  {
+    "gap_id": "djibouti_2022-01-G001",
+    "type": "coverage",
+    "description": "No specific eligible January physical gathering is established by the captured searches and inspected bodies. The scoped open-web first pass is complete, but archive, language and event-level coverage remain incomplete. This is a discovery gap, not evidence that no gathering occurred.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "At coordinator follow-up, continue selective January searches by week, sector and location only if additional discovery is warranted; verify any exact event-level source before making an event claim."
+  },
+  {
+    "gap_id": "djibouti_2022-01-G002",
+    "type": "coverage",
+    "description": "Search-result excerpts for S008 and S009 listed January-dated La Nation items for 11–13 and 27–30 January, respectively, but these are discovery leads only. For S008, the exact page-737 native open (R006) timed out before content; one permitted ordinary no-cookie/no-redirect request (R008) returned HTTP 200, but its index metadata was mixed/stale (date labels included October 2026 and 7–8 March 2022), had no parsed index entries, and did not corroborate the January excerpts. S009 page 722 returned no content on either the native pre-content timeout (R009) or the one ordinary fallback (R011, URLError); no HTTP status or publisher denial was observed. La Nation monthly archive page 1 of 14 was read; pages 2–14 and linked stories remain unread.",
+    "source_ids": [
+      "S001",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep the January-dated excerpts as unverified discovery leads. After separate coordinator authorization, use selective archive/story discovery only where it could clarify dated physical action; do not mechanically read every archive page. Keep unread pages and stories as explicit gaps."
+  },
+  {
+    "gap_id": "djibouti_2022-01-G003",
+    "type": "language",
+    "description": "The 24 captured search invocations include English, French, Arabic and Somali queries. Systematic Afar-language and broader local-language/archive coverage is not established.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Expand French, Somali, Afar and Arabic local-media/official/rights-source discovery, recording actual query actions and all relevant headers."
+  },
+  {
+    "gap_id": "djibouti_2022-01-G004",
+    "type": "coverage",
+    "description": "La Voix de Djibouti homepage card remains search_only. Targeted discovery surfaced a homepage/archive selector and older or later issues (2021, March 2023, and October 2022), but no January 2022 issue or January event story. ARDHD S006 and the ministry PDF S007 remain body-unread context leads.",
+    "source_ids": [
+      "S003",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If additional discovery is warranted, capture an exact contemporaneous La Voix 2022 issue/article URL before any future body request; otherwise keep the missing January archive as an explicit source-coverage gap."
+  },
+  {
+    "gap_id": "djibouti_2022-01-G005",
+    "type": "source_access",
+    "description": "OFPRA cites an RFI report reportedly dated 30 January 2022 about the leaked threat audio. The RFI body was not opened and no exact RFI article URL was found in captured results. One batched native search invocation containing an RFI query emitted “Blocked by robots.txt … rfi.fr” (search-log query ID DJIBOUTI-CAPTURE-exec-0354bfa2-e619-4e42-9039-1a2d1de470f3); that observation is limited to that invocation/result and is not an RFI article-body denial or publisher-wide restriction.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "djibouti_2022-01-X002"
+    ],
+    "required_followup": "If the exact RFI item is surfaced in future discovery, capture it as its own source card and use a fresh access gate before any body request. Do not generalize the recorded robots message beyond the observed batched search invocation."
+  },
+  {
+    "gap_id": "djibouti_2022-01-G006",
+    "type": "episode_unit",
+    "description": "The RADDE sit-in is reported in December 2021, but its exact day, total attendance, end date and any physical continuation into January are unknown. Four arrests are not a crowd count.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "djibouti_2022-01-C001"
+    ],
+    "required_followup": "Compare contemporary December 2021 and January 2022 sources with the neighboring unit owner. Keep the December start outside this unit unless a distinct or continuous January physical action is documented."
+  },
+  {
+    "gap_id": "djibouti_2022-01-G007",
+    "type": "source_independence",
+    "description": "FIDH and LDDH co-authored the June 2022 declaration; OFPRA’s 2023 account cites the FIDH statement. These records do not provide two independent reports of the December sit-in or late-January TX threat.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "djibouti_2022-01-C001",
+      "djibouti_2022-01-X002"
+    ],
+    "required_followup": "Trace each cited original report, record editorial/origin relationships, and seek independent contemporaneous reporting without treating syndication or an OFPRA retelling as independent corroboration."
+  },
+  {
+    "gap_id": "djibouti_2022-01-G008",
+    "type": "source_access",
+    "description": "Nine exact-URL body requests across six distinct URLs are represented by nine metadata-only body_reads records: five earlier requests plus four window-2 requests (R006, R008, R009 and R011). Five distinct source cards returned some content (S001, S002, S004, S005 and S008), and the synchronized source ledger now marks those five opened and S003, S006, S007 and S009 search_only. S008 is opened for index metadata only: R008 returned HTTP 200 but the mixed/stale page metadata did not corroborate the January search excerpt and is not an event report. S009 remains search_only because R009 was a native pre-content timeout and R011 ended in URLError, with no HTTP status or content. No scoped publisher body denial was observed. R010 was an unused access-check receipt, not a body request. The original R006 body record remains immutable; correction_history/R006_S008.json supersedes its incorrect returned-text/read-scope interpretation. The original R001 preflight receipt was not retained: its hash is preserved in metadata, and R001_S002_postflight.json is not retroactive authorization. S002 is opened but is a verified Gabon false positive and is not Djibouti event evidence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "djibouti_2022-01-X001"
+    ],
+    "required_followup": "Preserve the original R006 record and separate correction history; do not reconstruct the lost R001 preflight. The post-window source sync is complete. Keep S008 limited to index metadata and S009 as an unresolved search-only lead. Do not infer a publisher-wide denial from either timeout or the S009 URLError; any later body access requires a separate authorization and fresh access gate."
+  },
+  {
+    "gap_id": "djibouti_2022-01-G009",
+    "type": "baseline",
+    "description": "The scoped documented open-web first pass is complete, but the available 2015 codebook is not the current official baseline; official 2022 coverage, schema and conditions remain unverified, and the baseline gate is pending_official_baseline. Web discovery does not reproduce LexisNexis or an equivalent systematic hemeroteca. This status is neither exhaustive coverage nor official/scientific review.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator resolves the official-baseline gate and arranges independent/scientific review. Keep the archive, language, date, attendance and event-level uncertainty visible; do not present scoped first-pass completion as official compatibility or proof of event absence."
+  }
+]

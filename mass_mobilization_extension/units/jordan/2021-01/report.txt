@@ -1,0 +1,40 @@
+Jordan, January 2021 — documented first pass, pending independent review
+Worker: /root/jordan_2021_01. Queue: 82. ccode: 663. Region: MENA.
+Fixed cutoff: 2026-10-07, local Mexico City date. Research timestamps are actual session timestamps. This dossier is separate from the official MM baseline and integrated catalogue.
+
+Outcome
+Seven January candidate records:
+- E001 proposed_include: January 3 teachers' rally, explicitly hundreds.
+- E002, E003 and E004 pending_threshold: January 10 teachers, January 7 Dhiban solidarity march, and January 10 farmers.
+- E005, E006 and E007 pending_evidence: mining engineers, anti-gas-deal stand, and wedding-hall announcement.
+Discovery-only and announcement leads have null physical start dates.
+Two prior-onset continuation records: Aqaba's December 2020 five-week market sit-in; Dhiban unemployed prior-onset discovery lead, exact month unverified.
+Two excluded/out-of-month traces: ride-hailing strike without verified public assembly/date; December 28 teachers' prior march.
+Thirteen gaps cover size, dates, responses, episode boundaries, access, independence, organizer and baseline limitations.
+
+Method and coverage
+46 actual queries are saved incrementally. Searches use Arabic and English general terms, weekly windows, teacher/farmer/mining/unemployed/wedding-hall/transport/health/student/worker terms, Amman/Dhiban/Aqaba and Irbid/Karak/Maan/Zarqa/Tafila regional combinations, and December/February boundary checks.
+Q001/Q002 shared returned output; both logs disclose attribution ambiguity. Filters often ignored the requested year or place. All returned URLs remain in search logs. The 552 source cards preserve later returned discovery URLs, including unrelated false positives; this count measures neither relevant articles nor independent confirmations.
+Ten source cards were opened to the stated article/listing/PDF scope. Eight relevant URLs were actually blocked. Remaining cards are search-only. Actual article bodies include 7iber, AmmanNet, GCHR, Al Araby, Al Jazeera reporting a Euro-Med statement, Al Anbat, Gohod farmers, and AFP/Euronews; the Phenix PDF supplies a coverage benchmark and Gohod listing aids discovery.
+Arabic was read directly and recorded in short English paraphrases. No full articles are persisted. The available MM codebook and project protocol were consulted. Phenix's annual report p18 counts 13 January labor protests under a broader definition including threats, non-public strikes and small actions; 13 is not an MM inclusion target.
+This is a thorough documented open-web first pass, not an exhaustive or archive-equivalent search.
+
+Coding decisions
+January 3 is a discrete actual rally. No source establishes continuous occupation from December 28. A shared campaign alone does not establish earlier physical onset. January 3 versus January 10 recurring-phase review remains explicit.
+Actual MP reception (E001), minister meeting (E004) and governor/ASEZA meeting (C001) support accommodation without claiming victory.
+Police pushing (E001) and orders/pursuit/breakup (E002) support dispersal. A cordon alone was not used. Brief event-specific detentions support E002 arrests; detention estimates do not establish assembled crowd size.
+Unsubstantiated protester violence and state responses remain unknown. December 31 arrests are not January 3 responses. The baton allegation has unclear event-date attribution.
+No end date is inferred from publication, calloff, suspension, future meeting or road clearance. Aqaba's five-week statement establishes only a December onset month; contradictory internal date wording is retained.
+
+Access and source dependence
+Tool cache misses were followed only by ordinary HTTPS requests to the same public URL. AJ AMP and the Gohod listing recovered HTTP200. Actual HTTP403 and NCHR request-verification challenge were respected, with no bypass.
+S002 and S123 were opened successfully by this worker's web tool; a later root HTTPS403 is a separate access attempt and does not erase their earlier successful read scopes.
+GCHR has IFEX/BHRRC derivatives; Al Jazeera relies on the Euro-Med statement. Al Araby's embedded posts overlap with the 7iber reporter. Euronews article origin is AFP despite an AP image credit. Gohod's upstream reporting is unidentified.
+
+Resources and scope
+Only finite web requests and Python write/HTTPS read/check processes were started; all have observed exit results. No servers, watchers, automated browsers, containers or other persistent resources were launched.
+A read-only guessed CLI help command referenced nonexistent mm_pipeline.py and exited2; it created nothing. The research took more than ten minutes, but an additional skill or CLI is not warranted: the existing protocol and portable workflow already cover the reusable structure, while this work consists of source-specific evidence judgments.
+Only the eight worker-owned files were edited; assignment.json remains coordinator-owned. No commit, push, contact, publication, planning, script or aggregate mutation was performed. Root review and a separate independent auditor are required before the coordinator's commit.
+
+Next work
+Review E001 occurrence/size/target and the recurring teacher-phase boundary. Seek threshold evidence for E002–E004 and C001. Obtain accessible contemporaneous bodies for blocked leads. Resolve C002's onset/relocation and Aqaba's chronology. Preserve the baseline gate and all unknowns until evidence resolves them.

@@ -1,0 +1,15 @@
+Hungary January 2021 - documented open-web first pass, pending review
+
+Queries: 43 actual requests; URL cards: 242 (including explicitly unverified date/country discovery noise); opened article or metadata bodies: 14; candidates: 3; exclusions: 3; historical continuation/boundary records: 1; gaps: 16.
+
+Method: Hungarian and English general, weekly, sectoral and regional searches covered protests, demonstrations, strikes, universities, hospitality, healthcare, farmers, housing, climate, police and Russian-embassy solidarity. Exact request times are stored in search_log.jsonl. Multi-query output pools URL discovery cards: every query records the honest pooled URL union rather than claiming individual attribution or engine totals. Date/country operators returned substantial noise. Selected local original reporting, police material, Reuters caption, research and cross-month follow-ups were opened. No exhaustive search or absence claim is made.
+
+Candidates: E001 is the verified January 31 Heroes Square rally, about 300, with government restrictions, wage subsidy and tax demands. Police displacement and physical departure within an hour are supported. February 1 repeated action leaves episode linkage pending_unit. E002 is a verified January 30 university autonomy walk or standing action in Szeged, with turnout pending. E003 retains the announced January 30 Cserepes market convoy without inventing an executed gathering, a start date or turnout.
+
+Exclusions: a January 25 Pecs Zoom plenary is online. Two distinct January 23 Russian-embassy solidarity groups described by 444 were below 50 and directed at Russia. The SZFE historical record belongs to September 2020; the physical blockade ended November 10, while later resistance moved online. This does not establish January physical continuation.
+
+Access: ordinary HTTPS to the same public URL recovered the Szeged.hu and 444 bodies after tool cache misses, logging HTTP 200 and read scope. Szeged365 returned 403 and the Independent 405, respected without bypass. Full copyrighted articles were not saved. HPED CSV files are staff-only and no access or contact was attempted. A private historical MM codebook was read only; official latest baseline and additional Coding Procedure remain unresolved.
+
+Next review: determine the January 31-February 1 episode boundary; verify Szeged turnout; determine whether the Cserepes convoy occurred and its actual owner; review unknown responses, agency dependence and Hungarian translation. The coordinator must independently review and obtain an audit before any commit. No Git, aggregate, planning, catalogue or assignment mutations were performed by this worker.
+
+Temporary resources: finite public HTTPS readers used sessions 19784 and 41346, both observed exit code 0. No browser, server, watcher or background service was started; nothing remains running. Existing portable CLI handles coordination and consolidation. No new skill or CLI is justified for this source-specific research pass.

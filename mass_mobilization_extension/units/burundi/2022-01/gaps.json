@@ -1,0 +1,122 @@
+[
+  {
+    "gap_id": "burundi_2022-01_G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization baseline, original event universe, schema, and license remain pending coordinator verification; the assigned country code is provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should reconcile this open-web draft against the authorized official baseline before consolidation or any event-status decision."
+  },
+  {
+    "gap_id": "burundi_2022-01_G002",
+    "type": "coverage",
+    "description": "This was a broad open-web first pass with 34 captured search invocations and 31 source cards, not a complete news archive or verified event census. Search breadth cannot establish that no qualifying January protest occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Compare against a systematic contemporary press archive, rights-monitor corpus, and the authorized baseline before treating the empty event file as an absence finding."
+  },
+  {
+    "gap_id": "burundi_2022-01_G003",
+    "type": "language",
+    "description": "Discovery used French and English, with Kirundi and Kiswahili protest, strike, teacher, trader, and monthly terms. Indexing did not provide a systematic review of local-language newspapers, radio archives, or province-level reporting.",
+    "source_ids": [
+      "BHR2022-01-S019",
+      "BHR2022-01-S020",
+      "BHR2022-01-S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "A reviewer with local-language access should inspect contemporary radio and press archives across provinces, especially sources not indexed by the open-web searches."
+  },
+  {
+    "gap_id": "burundi_2022-01_G004",
+    "type": "source_access",
+    "description": "The ABP teacher and market pages (S004, S011) and IWACU teacher-assessment page (S005) returned web CacheMiss; the Jimbere page (S008) returned HTTP 503. One ordinary request to each exact public URL then failed at DNS before HTTP. These are technical retrieval gaps, not observed publisher denials. The RPA Central Market grievance (S028–S029) remains search-only.",
+    "source_ids": [
+      "BHR2022-01-S004",
+      "BHR2022-01-S005",
+      "BHR2022-01-S008",
+      "BHR2022-01-S011",
+      "BHR2022-01-S028",
+      "BHR2022-01-S029"
+    ],
+    "affected_candidates": [
+      "burundi_2022-01_X002",
+      "burundi_2022-01_X007",
+      "burundi_2022-01_X008"
+    ],
+    "required_followup": "If further review is needed, use only a permitted exact-source path under a fresh complete access check or locate an independent contemporaneous report. Do not infer publisher denial or use an alternate URL to bypass a failed attempt."
+  },
+  {
+    "gap_id": "burundi_2022-01_G005",
+    "type": "dates",
+    "description": "The teacher dispute is documented as a strike threat in an opened 15 January IWACU item. Later January suspension/deferment and presidential-threat details remain search-only; no exact strike or protest occurrence is established.",
+    "source_ids": [
+      "BHR2022-01-S001",
+      "BHR2022-01-S003",
+      "BHR2022-01-S004",
+      "BHR2022-01-S005",
+      "BHR2022-01-S008",
+      "BHR2022-01-S026"
+    ],
+    "affected_candidates": [
+      "burundi_2022-01_X002"
+    ],
+    "required_followup": "Check contemporaneous union, ministry, and local school reporting for an actual January action and its date. Keep a policy accommodation distinct from evidence that a gathering occurred."
+  },
+  {
+    "gap_id": "burundi_2022-01_G006",
+    "type": "participants",
+    "description": "Market reporting establishes a business stoppage and traders at closed stands, but no separate public assembly or event attendance. More than 5,000 is the market’s trader population, not participants.",
+    "source_ids": [
+      "BHR2022-01-S010",
+      "BHR2022-01-S012",
+      "BHR2022-01-S013",
+      "BHR2022-01-S018"
+    ],
+    "affected_candidates": [
+      "burundi_2022-01_X007"
+    ],
+    "required_followup": "If the episode is reconsidered, seek direct evidence of any public assembly, its participants, and any credible turnout estimate; do not convert business closures or the market population into attendance."
+  },
+  {
+    "gap_id": "burundi_2022-01_G007",
+    "type": "state_target",
+    "description": "The market-rent stoppage’s reported collective demand targets private owner/management. A trader’s mention of taxes as costs does not establish a collective state-policy demand. The former Central Market reconstruction issue is a distinct possible grievance against government, but its search result reports no protest action.",
+    "source_ids": [
+      "BHR2022-01-S013",
+      "BHR2022-01-S016",
+      "BHR2022-01-S028",
+      "BHR2022-01-S029"
+    ],
+    "affected_candidates": [
+      "burundi_2022-01_X007",
+      "burundi_2022-01_X008"
+    ],
+    "required_followup": "Review contemporaneous trader statements or organized claims if available, distinguishing the specific private rent demand from any independently documented collective demand on government."
+  },
+  {
+    "gap_id": "burundi_2022-01_G008",
+    "type": "coverage",
+    "description": "The Ntega report describes objections to a proposed local contribution for substitute-teacher pay, scheduled to begin later in January, but no implementation or later public action is established.",
+    "source_ids": [
+      "BHR2022-01-S027"
+    ],
+    "affected_candidates": [
+      "burundi_2022-01_X003"
+    ],
+    "required_followup": "Check local Ntega reporting and union follow-up for implementation, an actual collective action, or a public gathering after the proposed start date."
+  },
+  {
+    "gap_id": "burundi_2022-01_G009",
+    "type": "coverage",
+    "description": "The RPA anniversary search result preserves a possible state-directed grievance over the former Central Market’s reconstruction but gives no protest occurrence, public assembly, or attendance. It was not body-reviewed because the result did not identify an action to resolve.",
+    "source_ids": [
+      "BHR2022-01-S028",
+      "BHR2022-01-S029"
+    ],
+    "affected_candidates": [
+      "burundi_2022-01_X008"
+    ],
+    "required_followup": "If the issue is pursued, search contemporaneous coverage around the 27 January anniversary for any separately reported commemoration or protest; do not merge it with the private Kwa Siyoni rent dispute."
+  }
+]

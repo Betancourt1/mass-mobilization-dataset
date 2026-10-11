@@ -1,0 +1,24 @@
+Bhutan | January 2022 | research handoff draft
+
+Finding
+No qualifying protest event was documented in the reviewed open-web evidence. events.json remains empty. This means “no qualifying event found in the sources reviewed,” not “no event occurred.” The official baseline gate remains pending.
+
+Scope and method
+Research covered January 1–31, 2022, with weekly date-window searches, broad and targeted terms for protests, demonstrations, strikes, marches, sit-ins, assemblies and public meetings; Dzongkha action terms; regional Nepali/Hindi discovery; Bhutanese local, regional and international reporting; human-rights reporting; and sector/policy searches covering farmers and poultry, vendors and traders, workers and employment, education, health, transport, tourism, hydropower/construction, lockdown restrictions and other public-policy issues. Boundary searches covered late December 2021 and early February 2022. The saved search log contains 26 invocations, 109 actual query strings, and 627 returned result headers. Search breadth is not a census and the open web is not a systematic LexisNexis archive.
+
+Sources and review
+Seven source cards are retained: one opened annual Bhutan human-rights report (S001), one source whose attempted page returned an anti-bot verification challenge (S002), three search-only regional/context reports (S003–S005), and two search-only contemporaneous Drayang-policy reports (S006–S007). The annual report spans all of 2022 and is not a monthly event log; absence of English protest terms is not treated as proof of absence. The Bhutanese article on poultry objections (S002) remained inaccessible after an observed verification challenge; no retry or bypass was attempted. The BBS Paro vendors page (S005) first returned a web-tool cache miss. After a fresh stable R005 check and full manual review of the canonical and all 10 registered physical source ledgers, one ordinary HTTPS GET to that exact URL (redirects disabled, no cookies) failed DNS resolution before HTTP and read zero body bytes. It was not retried, and no alternate route was used. S005 remains search-only. No body access occurred for the newly added Drayang reports.
+
+Screened leads
+- A Nepal sit-in reported at Maitighar ended January 4 but was directed at Nepal’s government and took place in Kathmandu; it is out of the Bhutan unit (X001).
+- Search text on Paro vendors records a request to the local COVID task force but does not establish a public gathering; the reported rotating vendor count is not event attendance (X002; S005).
+- Search-result text on poultry farmers describes objections to egg imports, not a public gathering or strike; the underlying January article could not be opened (X003; S002, S004).
+- Contemporary search results on the January Drayang closure record owner/employee dissatisfaction, association discussions, a planned appeal, and an opposition-party press conference. They do not report a Drayang owners’/employees’ public protest, strike or march, nor attendance of 50 or more (X004; S006–S007). These are provisional search-lead exclusions, not proof that no unreported action occurred.
+
+Continuations and boundaries
+No pre-January protest continuing into the month was identified in the reviewed coverage, so continuations.json is empty. February reporting on poultry concerns was retained as boundary context only and was not assigned to January as an event.
+
+Open gaps
+The official baseline remains pending. Local-language web indexing is incomplete, particularly for a systematic Dzongkha archive review. Search-only and access-limited sources leave request methods, action status, and possible crowd sizes unresolved for some leads. The reviewed open-web corpus cannot establish a complete event universe; see gaps.json for specific follow-up.
+
+Current counts: 26 captured search invocations; 7 source cards; 0 event candidates; 4 provisional exclusions; 0 continuations; 5 gaps.

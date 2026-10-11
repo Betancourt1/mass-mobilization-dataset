@@ -1,0 +1,25 @@
+DJIBOUTI — JANUARY 2021 — RESEARCH CHECKPOINT
+Unit djibouti_2021-01 | queue 51 | provisional MM country code 522
+Worker /root/djibouti_2021_01. Source cutoff: 2026-10-07 CDMX; actual research run began 2026-10-08 09:52 UTC. Finished metadata checkpoint 2026-10-08T10:05:18.407765+00:00.
+
+RESULT
+57 recorded search queries; 41 relevant URL cards ({'opened': 17, 'search_only': 19, 'blocked': 5}); 5 candidates (3 pending_unit, 2 pending_evidence), 10 exclusions, 1 earlier context record, 18 gaps. Zero proposed_include; no official event IDs, merge, baseline write or human approval.
+
+E001: January 15 peaceful RADDE gathering, two subsequent arrests specifically documented. Exact venue, size and event/campaign identity unresolved. E002: January 23 Boulaos actual anti-fifth-term demonstration, size/identity/responses unresolved. E003: peaceful Sunday RADDE gathering in February 1 RFI-derived report; January month ownership provisional, original date missing, no invented January 31. E004: January 25 UDJ call only, null execution start. E005: merchants demonstration in retrospective Ali-Sabieh paragraph, null start; January 28 chronology placement is not independently an action date. Three arrests are not a crowd; own demand and state target remain unknown.
+
+METHOD AND COVERAGE
+Read acceptance contract, worker protocol, data dictionary, review policy and available MM codebook; no DetailedCodingProcedure supplied. Search log retains actual queries including failures/typo and pooled URLs. Queries cover generic protest/riot/strike/march discovery, region/sector leads, weekly windows, named episodes and December/February boundaries. French and English dominate opened bodies; limited Arabic/Somali discovery; no verified Afar coverage. First two full URL outputs were not captured into the log at query time, relevant discoveries retained in source cards. Exact source access instants unavailable: accessed_at null, save time labeled recorded_at. Search operators/date filters yielded many other-country/historical results; irrelevant results do not establish coverage.
+
+Opened contemporary LDDH and UDJ statements and attributed RFI copy; retrospective USDOS, LDDH UPR, FIDH and official CNDH provide distinct context with limitations. RFI-derived copies are common-origin. HTTP 200 recovered selected public paragraphs for two ARDHD pages, government page and March archive after tool failures. RFI robots/France24 403/ARD certificate failures were preserved; no access bypass. PDF text was read, but UPR visual screenshot verification failed. No full articles persisted, only metadata and paraphrases.
+
+CODING BOUNDARIES
+All crowds unknown. Specific arrests coded only for E001 and retrospective E005; other state responses unknown. E001/E003 peaceful descriptions support no_explicit protester violence; no silence-based negatives. No police presence/permit rejection alone turned into dispersal; no formal reception/negotiation found. Individual January shooting, FRUD relatives' detention and armed clashes remain separate from assembly responses. All physical ends null; February 3 custody release is not an assembly end. Anti-fifth-term/transparent-election demands directed at domestic political process differ from solely pro-party nomination support.
+
+BOUNDARIES AND EXCLUSIONS
+Earlier June 5 Fouad protest retained as context under djibouti_2020-06, not a claim it physically continued to January. December pro-candidacy rally, party congresses, New Year concert, written SI statement, armed attacks, Paris actions and CIVICUS mixed-year rally retained in exclusions. CIVICUS March 2021 page links France24 20110219: its thousands/deaths/arrests were not imported.
+
+NEXT WORK
+Independent coordinator review first; then source-original date/size/episode follow-up for E001–E003, execution evidence for UDJ call and contemporary merchant date/demand/target/size for E005. Resolve inaccessible originals, native-language/region archives, physical closure and baseline/procedure gaps before inclusion. No claim of exhaustive search, no inference that an unfound event did not occur.
+
+RESOURCES AND REUSE
+Existing portable protocol/CLI adequate; no new skill/CLI justified. Only foreground HTTPS read sessions started and both exits verified. Temporary metadata/build files are removed after self-check. No public contact, publication, integration or Git mutation performed by worker. Nine files are the reviewable output including untouched root-created assignment.json.

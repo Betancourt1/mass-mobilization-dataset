@@ -1,0 +1,88 @@
+[
+  {
+    "gap_id": "BHR2022-01-G001",
+    "type": "threshold",
+    "description": "E001 has no attendance count or explicit qualitative size. Its public march format and plural “participants” do not establish the 50-person minimum.",
+    "source_ids": [
+      "BHR2022-01-S001"
+    ],
+    "affected_candidates": [
+      "BHR2022-01-E001"
+    ],
+    "required_followup": "Seek independent attendance evidence or a clear contemporaneous qualitative size description; keep eligibility pending_threshold unless threshold evidence is found."
+  },
+  {
+    "gap_id": "BHR2022-01-G002",
+    "type": "temporal_boundary",
+    "description": "The report gives the event date but no exact physical end, interruption/reconvening information, or continuation into February.",
+    "source_ids": [
+      "BHR2022-01-S001"
+    ],
+    "affected_candidates": [
+      "BHR2022-01-E001"
+    ],
+    "required_followup": "Check independent same-day and next-day reports for the gathering end and any distinct continuation; do not infer duration from the annual schedule."
+  },
+  {
+    "gap_id": "BHR2022-01-G003",
+    "type": "state_response",
+    "description": "Only one opened report alleges tear-gas dispersal and calls participants peaceful. The remaining state-response dimensions and independent confirmation of dispersal are unresolved.",
+    "source_ids": [
+      "BHR2022-01-S001"
+    ],
+    "affected_candidates": [
+      "BHR2022-01-E001"
+    ],
+    "required_followup": "Seek independent event-specific reporting for crowd dispersal, arrests, beatings, accommodation, ignoring, killings, shootings, and protester violence; preserve unknown where no evidence appears."
+  },
+  {
+    "gap_id": "BHR2022-01-G004",
+    "type": "aggregate_reporting",
+    "description": "Search-result excerpts for Al-Wefaq/Bahrain Mirror report 16 protests in 9 areas on 8–14 January, 15 in 9 areas on 15–21 January, 16 in 11 areas on 22–28 January, and more than 84 peaceful protests across 28 villages in January, plus prison protests. These aggregates do not provide a date-by-date event list or attendance evidence.",
+    "source_ids": [
+      "BHR2022-01-S003",
+      "BHR2022-01-S004",
+      "BHR2022-01-S005",
+      "BHR2022-01-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Consult event-level weekly records or independent local reporting if available; do not turn aggregate counts into individual events or assume any met the 50-person threshold."
+  },
+  {
+    "gap_id": "BHR2022-01-G005",
+    "type": "public_character_and_threshold",
+    "description": "The Jaw Prison breakfast-refusal lead is search-only and appears confined; no public gathering, date of action, or participant count is established.",
+    "source_ids": [
+      "BHR2022-01-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain the provisional exclusion unless evidence establishes a distinct public gathering and its date and size."
+  },
+  {
+    "gap_id": "BHR2022-01-G006",
+    "type": "access_and_event_date",
+    "description": "The AOHR UK search result says five children faced extended detention for peaceful demonstration participation and refers to escalating protests in Sitra. The five is a detention count, not attendance; its exact page returned HTTP 403 before body access, leaving event date, location, and size unresolved.",
+    "source_ids": [
+      "BHR2022-01-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use only independently discoverable sources already available under access rules to establish whether a distinct January public event is implicated; do not retry or route around the blocked URL."
+  },
+  {
+    "gap_id": "BHR2022-01-G007",
+    "type": "coverage",
+    "description": "English and Arabic searches covered weekly windows, Sitra and other village terms, labor/worker and student terms, prison-related leads, wire-service queries, and December/January and January/February boundaries. Searches did not establish another event-level public gathering meeting the threshold; this is not evidence that none occurred. Coverage is web-search-based and not an exhaustive archive census.",
+    "source_ids": [
+      "BHR2022-01-S001",
+      "BHR2022-01-S003",
+      "BHR2022-01-S004",
+      "BHR2022-01-S005",
+      "BHR2022-01-S006",
+      "BHR2022-01-S007",
+      "BHR2022-01-S008",
+      "BHR2022-01-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may consult additional Arabic local archives or licensed databases if the project later authorizes them; retain the current not-found boundary."
+  }
+]

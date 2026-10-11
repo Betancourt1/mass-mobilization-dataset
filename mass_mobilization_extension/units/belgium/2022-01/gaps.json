@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "belgium_2022-01-G001",
+    "type": "baseline",
+    "description": "The worktree has no baseline/ directory or baseline/mm_codebook.txt. The original May 2015 codebook is referenced in README but is unavailable here; apply the documented protocol and retain official-baseline compatibility as pending.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to restore or verify the cited original manual and decide crosswalk/compatibility before any official integration."
+  },
+  {
+    "gap_id": "belgium_2022-01-G002",
+    "type": "source_access",
+    "description": "The Brussels Times Jan. 9 report (S002) remains search-only. Three web-reader attempts returned tool-side Cache miss and one direct HTTPS GET failed at DNS resolution before HTTP; an earlier wrapper response contained no article text/status. No HTTP status, body, site denial, paywall or challenge was observed. The accessible AFP story S024 supports the Jan. 9 candidate, but S002 supplies no coding evidence.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "belgium_2022-01_E001"
+    ],
+    "required_followup": "Preserve the exact attempts and no-status result; rely on opened evidence for coding and use other permitted sources for corroboration. Do not describe the technical failures as an observed site denial."
+  },
+  {
+    "gap_id": "belgium_2022-01-G003",
+    "type": "candidate_discovery",
+    "description": "A Jan. 26 RTBF search result (S031) reports a spontaneous strike action among Sibelga workers and action at company headquarters and regulator BRUGEL. The body was not read; public scale, number of participants, demand, state target/response, and physical start/end remain unknown, so no event is coded from the snippet.",
+    "source_ids": [
+      "S031"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep as a discovery lead until body evidence or independent contemporaneous evidence establishes a qualifying public action, turnout above 50, demand, target and physical dates."
+  },
+  {
+    "gap_id": "belgium_2022-01-G004",
+    "type": "response_evidence",
+    "description": "For Jan. 23 (E002), the opened VRT body supports a post-march violent subgroup, dispersal and arrest counts. RTBF injury coverage (S018), City council minutes (S020), and the report of a police investigation into alleged force (S036) remain search-only; search snippets are not coding evidence. Injury causation, detailed tactics and any separately established police abuse are unresolved.",
+    "source_ids": [
+      "S001",
+      "S018",
+      "S020",
+      "S036"
+    ],
+    "affected_candidates": [
+      "belgium_2022-01_E002"
+    ],
+    "required_followup": "Use accessible body/official evidence if pursued; keep the seven response dimensions at the values supported by S001 and preserve unknowns elsewhere. Do not infer beatings or accommodation from allegations, arrests or prosecution statements."
+  },
+  {
+    "gap_id": "belgium_2022-01-G005",
+    "type": "threshold_and_corroboration",
+    "description": "The Jan. 30 Euronews body excerpt (S041) supports a demonstration ending around 16:00 local without disturbances and distinguishes it from the prior week, but the retained body evidence does not verify a headcount, organizer, demand or route. Search-result snippets are discovery-only. The BRUZZ page S030 returned HTTP 403 Forbidden; the Le Vif page S032 returned a tool-side Cache miss with no HTTP status/body.",
+    "source_ids": [
+      "S030",
+      "S032",
+      "S041"
+    ],
+    "affected_candidates": [
+      "belgium_2022-01_E003"
+    ],
+    "required_followup": "Keep E003 pending_threshold until opened-body or other permitted evidence establishes attendance above 50. Do not retry the observed 403 or use an alternate-host/bypass route; do not treat the S032 Cache miss as a denial."
+  }
+]

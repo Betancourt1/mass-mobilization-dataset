@@ -1,0 +1,188 @@
+[
+  {
+    "gap_id": "chad_2022-01_G001",
+    "type": "baseline",
+    "description": "The official current Mass Mobilization baseline, universe, schema, license, and current coding procedure remain unverified. The local 2015 educational codebook copy was consulted as context only; the January meeting candidates still require coordinator interpretation against the applicable original rules.",
+    "source_ids": [],
+    "affected_candidates": [
+      "chad_2022-01_E001",
+      "chad_2022-01_E002",
+      "chad_2022-01_E003",
+      "chad_2022-01_E004"
+    ],
+    "required_followup": "Coordinator verifies official baseline/current procedure and documents which political/customary and supportive party gatherings are within the original universe."
+  },
+  {
+    "gap_id": "chad_2022-01_G002",
+    "type": "coverage",
+    "description": "Open-web search is not equivalent to the original LexisNexis newspaper procedure. The 21 captured searches cover general January and week/date windows plus French and Arabic terms and targeted Abéché, teacher/student, price, land/farm, and political-rally leads; they do not establish exhaustive national or regional coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review of source coverage and, if authorized, equivalent hemeroteca search; do not interpret unreturned results as no protest."
+  },
+  {
+    "gap_id": "chad_2022-01_G003",
+    "type": "language",
+    "description": "Searches used French, Arabic, and English terms. No systematic search was conducted in Chad’s other local languages; current local-language and outlet coverage is therefore incomplete.",
+    "source_ids": [
+      "S057",
+      "S058"
+    ],
+    "affected_candidates": [
+      "chad_2022-01_E001",
+      "chad_2022-01_E002"
+    ],
+    "required_followup": "Search additional local-language reporting or document the unavailable language/outlet coverage during review."
+  },
+  {
+    "gap_id": "chad_2022-01_G004",
+    "type": "source_access",
+    "description": "The exact AL24 News report S042 could not be retrieved: native web.open timed out before an HTTP response, then the permitted ordinary HTTPS GET failed DNS resolution before HTTP. Neither attempt returned a publisher response; no denial is inferred.",
+    "source_ids": [
+      "S042"
+    ],
+    "affected_candidates": [
+      "chad_2022-01_E004"
+    ],
+    "required_followup": "No repeat of the exhausted URL; retain as search_only unless a later independently available body is found under a fresh gate."
+  },
+  {
+    "gap_id": "chad_2022-01_G005",
+    "type": "source_independence",
+    "description": "Abéché casualty and protest evidence still relies on the retrospective joint HRW–CTDDH investigation. The contemporaneous local S003 and S016 reports could not be read: native reader requests timed out and one allowed exact-URL HTTPS GET per URL failed DNS before HTTP. No publisher denial is inferred. Search also found local reporting and rights statements; repeated agency copies must be traced to their original source.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005",
+      "S007",
+      "S009",
+      "S016",
+      "S018",
+      "S057"
+    ],
+    "affected_candidates": [
+      "chad_2022-01_E001",
+      "chad_2022-01_E002"
+    ],
+    "required_followup": "Seek a distinct, independently retrievable local or rights source for the Jan 24 march and Jan 25 funeral rather than retrying the exhausted S003/S016 URLs; compare origin and keep the two gatherings separate."
+  },
+  {
+    "gap_id": "chad_2022-01_G006",
+    "type": "state_target",
+    "description": "The Jan 25 Abéché funeral had thousands in attendance and peaceful signs according to HRW/CTDDH, but a distinct protest action or separate demand to the state is not established. The Jan 22 MNCT/CMT support rally advocated dialogue participation but the available report does not establish a grievance or demand directed to the state.",
+    "source_ids": [
+      "S057",
+      "S061"
+    ],
+    "affected_candidates": [
+      "chad_2022-01_E002",
+      "chad_2022-01_E004"
+    ],
+    "required_followup": "Seek contemporary accounts that identify what attendees did or demanded; keep both candidates pending and do not infer protest status from crowd size or state violence alone."
+  },
+  {
+    "gap_id": "chad_2022-01_G007",
+    "type": "episode_unit",
+    "description": "The Jan 22 CMT-support event may be distinct from other same-topic coverage, including a MUR meeting lead (S041), an AL24 report unavailable at body level (S042), and a Sunu Afrik lead (S043). The Jan 8 Les Transformateurs meeting is a separate date but its coding boundary with the original exclusion for political rallies needs review.",
+    "source_ids": [
+      "S041",
+      "S042",
+      "S043",
+      "S044",
+      "S061"
+    ],
+    "affected_candidates": [
+      "chad_2022-01_E003",
+      "chad_2022-01_E004"
+    ],
+    "required_followup": "Compare organizer, venue, event time, and original story/wire credits; do not merge on topic/date alone. Apply verified codebook treatment of political meetings."
+  },
+  {
+    "gap_id": "chad_2022-01_G008",
+    "type": "participants",
+    "description": "Turnout for opened event accounts remains qualitative or unquantified. S027 verifies an Abena student street action on Jan 26, S032 a Jan 18 Tapi Express operators’ sit-in, and S026 a Jan 31 class boycott at two Doba schools, each without a numeric estimate. The 50-person threshold remains pending for all three. S026 does not establish a separate public-gathering date; do not transfer its later Feb 2 confrontation to January. Other teacher and student leads still require boundary and turnout review.",
+    "source_ids": [
+      "S020",
+      "S021",
+      "S027",
+      "S032",
+      "S044",
+      "S057",
+      "S061"
+    ],
+    "affected_candidates": [
+      "chad_2022-01_E001",
+      "chad_2022-01_E002",
+      "chad_2022-01_E003",
+      "chad_2022-01_E004",
+      "chad_2022-01_E005"
+    ],
+    "required_followup": "Seek a count or credible group-size estimate for the Jan 26 Abena action and verify teacher/student leads after the next authorized reading window; preserve unknown turnout where no estimate exists."
+  },
+  {
+    "gap_id": "chad_2022-01_G009",
+    "type": "state_response",
+    "description": "For the Jan 24 march, HRW/CTDDH report live fire, killings, arrests, beatings, and dispersal; the minister’s denial of live ammunition is a conflicting attributed account. For other events, silence in the one available account does not establish ignore or a negative response.",
+    "source_ids": [
+      "S057",
+      "S044",
+      "S061"
+    ],
+    "affected_candidates": [
+      "chad_2022-01_E001",
+      "chad_2022-01_E002",
+      "chad_2022-01_E003",
+      "chad_2022-01_E004"
+    ],
+    "required_followup": "Cross-check the Jan 24 account locally and preserve each source’s attribution; leave unreported response categories unknown."
+  },
+  {
+    "gap_id": "chad_2022-01_G010",
+    "type": "episode_unit",
+    "description": "Teacher-strike, school-student, transport, diaspora and Doba leads include potential workplace stoppages, private/interpersonal disputes and school actions. E005 is a body-verified Jan 26 Abena student street action, but attendance threshold and state-directed demand remain unknown. E006 is a contributor-body-verified Jan 18 Tapi Express operators’ sit-in with a request for CMT-president involvement, but its turnout threshold and precise requested administrative action remain unresolved. E007 records only the contributor-verified Jan 31 start of Doba students’ class boycott; a separate public gathering and the date of the official meeting are not established. S020/S021 separately verify a Jan 3 science-teacher work stoppage without an in-person assembly, location or turnout; do not infer a public protest or transfer teacher headcount to the student action. The Feb 2 Doba confrontation is separate and is not assigned to January. The Jan 29 Transformateurs cancellation is not evidence of an executed gathering.",
+    "source_ids": [
+      "S009",
+      "S020",
+      "S021",
+      "S023",
+      "S024",
+      "S027",
+      "S028",
+      "S032",
+      "S033",
+      "S034",
+      "S037",
+      "S039",
+      "S054",
+      "S055"
+    ],
+    "affected_candidates": [
+      "chad_2022-01_E005"
+    ],
+    "required_followup": "For E005, verify turnout >=50 and whether students directed a demand to the state; for Doba and other school/workplace leads verify occurrence, date, crowd threshold, state target, and month boundaries before adding records."
+  },
+  {
+    "gap_id": "chad_2022-01_G011",
+    "type": "source_access",
+    "description": "Three exact local-report URLs remain unread after permitted body attempts. S003 and S016 at Le N’Djam Post returned reader-side timeouts, followed by DNS failures before HTTP; S009 at Alwihdainfo returned a reader Cache miss, followed by DNS failure before HTTP. None returned a publisher HTTP denial or article body, and each URL is technically exhausted for this pass.",
+    "source_ids": [
+      "S003",
+      "S016",
+      "S009"
+    ],
+    "affected_candidates": [
+      "chad_2022-01_E001",
+      "chad_2022-01_E002"
+    ],
+    "required_followup": "Do not retry the same exhausted URLs in this pass. If further review is authorized, use an independently captured source URL and fresh exact access gates to address the local Abéché cross-check and the possible N’Djamena diaspora action."
+  },
+  {
+    "gap_id": "chad_2022-01_G012",
+    "source_ids": [
+      "S026",
+      "S020",
+      "S021"
+    ],
+    "description": "Contributor-reviewed S026 reports Doba students at Lycée Pascal Yoadoumndji and CEG Beraba boycotting classes Jan 31 through Feb 2, without a headcount. An education-delegate meeting is described but not dated, so Jan 31 is only the reported boycott onset, not a public-gathering or state-response date. A separate Feb 2 strand involves junior students, projectiles at school buildings, police tear gas and unspecified arrests; do not assign it to January. The article prints Tuesday for Feb 2, though the calendar date was Wednesday. S020 and S021 separately verify an open-ended contract science-teacher work stoppage launched Jan 3, with demands concerning civil-service transfer and arrears, but neither documents an in-person gathering, location or turnout. The teacher stoppage does not establish a public protest, a gathering onset or participants for the Doba student action. Original baseline and episode-boundary review remain pending."
+  }
+]

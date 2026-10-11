@@ -1,0 +1,115 @@
+[
+  {
+    "gap_id": "G001",
+    "dimension": "threshold",
+    "description": "The admitted S007 retrospective report says Slobodni Zajedno protests occurred in 15 cities on 15 January, but gives neither attendance nor city names. S008 lists 15 intended cities only. No per-city >=50 threshold or count of 15 qualifying events is established.",
+    "affected_candidates": [
+      "croatia_2022-01_C001"
+    ],
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "next_step": "After source-update/body GO, seek contemporaneous post-event local evidence for actual sites and attendance; apply national-versus-local episode rules without mechanical city splits."
+  },
+  {
+    "gap_id": "G002",
+    "dimension": "announced_vs_held",
+    "description": "A search-only Dalmatinski Portal notice and Reddit repost suggest a possible 9 January Slobodni Zajedno action. The original notice date, execution, location, size and target remain unverified.",
+    "affected_candidates": [],
+    "source_ids": [
+      "S015",
+      "S016"
+    ],
+    "next_step": "After source-update GO, resolve the original notice date and seek a post-event account; retain as announcement-only until execution is evidenced."
+  },
+  {
+    "gap_id": "G003",
+    "dimension": "announced_vs_held",
+    "description": "A search-only 29 January notice announces gatherings in 17 cities. No admitted post-event source confirms whether they occurred.",
+    "affected_candidates": [],
+    "source_ids": [
+      "S013"
+    ],
+    "next_step": "After source-update GO, search for dated post-event reporting and local evidence; do not code the announcement as an event."
+  },
+  {
+    "gap_id": "G004",
+    "dimension": "campaign_boundary",
+    "description": "Search-only reports describe anti-certificate actions in December 2021. No reviewed evidence establishes that a particular physical protest continued into January or that a December action and January action are one episode.",
+    "affected_candidates": [],
+    "source_ids": [
+      "S019",
+      "S020",
+      "S021",
+      "S022",
+      "S023"
+    ],
+    "next_step": "After source-update GO, verify prior-month dates, demands, group identity and any evidence of an ongoing physical gathering; keep prior-month events as boundary context absent continuity evidence."
+  },
+  {
+    "gap_id": "G005",
+    "dimension": "classification",
+    "description": "Search-only coverage links late-January Autotrolej sick leave/“white strike” activity to a worker contract or wage dispute. Current evidence does not establish a qualifying public gathering or a domestic-government/state-policy target. No definitive event exclusion is made from snippets alone.",
+    "affected_candidates": [],
+    "source_ids": [
+      "S004",
+      "S024",
+      "S025",
+      "S026",
+      "S027"
+    ],
+    "next_step": "After source-update GO, review captured exact sources and distinguish workplace absences/service disruption from any public assembly or state-policy demand."
+  },
+  {
+    "gap_id": "G006",
+    "dimension": "campaign_boundary",
+    "description": "February school-testing and Slobodni Zajedno reports remain next-month leads. S028's native reader cache miss was followed by one fresh-gated ordinary HTTPS request to its exact captured URL; it returned HTTP 403 before readable article text (page title: ‘Just a moment...’). This is an exact-story restriction only. The event date, turnout context, and relation to the January 29 announcement remain unverified; the search-result title's approximate count is not body-reviewed.",
+    "affected_candidates": [],
+    "source_ids": [
+      "S002",
+      "S014",
+      "S028",
+      "S029"
+    ],
+    "next_step": "Do not retry this exact story or documented same-written-story variants. If needed, use a distinct contemporaneous local report to resolve date and episode relation; keep February-onset actions outside January absent evidence of January onset."
+  },
+  {
+    "gap_id": "G007",
+    "dimension": "source_origin",
+    "description": "S007 body review establishes that it is the Ombudswoman 2022 report submitted to Parliament in March 2023 and repeats the 15-city claim. S003 is the same underlying report, but its ungated find-derived content is quarantined and has no effective evidence use; S017 returned a technical reader-limit error and its mirror relationship is unverified. S009 body access was a cache miss; S010 appears to repeat the Dalmatinski Portal notice, while S008 is a separate Riportal pre-event announcement.",
+    "affected_candidates": [
+      "croatia_2022-01_C001"
+    ],
+    "source_ids": [
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S017"
+    ],
+    "next_step": "Keep same-report and apparent notice-variant relationships explicit; do not count mirrors or announcements as independent post-event corroboration."
+  },
+  {
+    "gap_id": "G008",
+    "dimension": "coverage",
+    "description": "Discovery comprised captured open-web searches in Croatian and English with weekly windows and sector/city terms. It did not include a complete local press archive or systematic review of all regional outlets; no-event conclusions cannot be drawn from missing results.",
+    "affected_candidates": [],
+    "source_ids": [],
+    "next_step": "After source updates, report remaining language, city, sector, archive and open-web coverage limits; continue broad discovery without a fixed query quota."
+  },
+  {
+    "gap_id": "G009",
+    "dimension": "event_identity",
+    "description": "S018 reports an approximately 70-person Zagreb procession on 15 January and says it was announced by Studenti za Slobodu, with Andija Klarić leading the procession. S011's search-result metadata separately describes an event by a Facebook group using that name, but its exact article returned HTTP 403 on the one permitted ordinary-HTTPS fallback, so it supplies no reviewed body evidence. Neither source establishes a clear domestic policy demand or links the action to Slobodni Zajedno; C002 may be a component of C001 rather than an additional event.",
+    "affected_candidates": [
+      "croatia_2022-01_C002"
+    ],
+    "source_ids": [
+      "S018",
+      "S007",
+      "S008"
+    ],
+    "next_step": "Do not retry S011's exact story or documented same-written-story variants. Seek a distinct contemporaneous source for the Zagreb demand and gathering relationship; do not count C002 separately from C001 until demand and episode structure are resolved."
+  }
+]

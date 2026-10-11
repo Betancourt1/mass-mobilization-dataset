@@ -1,0 +1,2261 @@
+[
+  {
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "end_date": null,
+    "end_precision": "unknown",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_min": null,
+    "participants_max": null,
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "canada_montreal_curfew_jan2022",
+    "notes": "S024 describes a separate second Montreal curfew march on 5 January and says “several dozen” people also attended this 1 January action. S002 is search-only and not counted as opened evidence. The 1 January event began at the reported Saturday evening gathering; no physical end is stated.",
+    "open_questions": [
+      "Was attendance at least 50? The contemporary QMI estimate is approximate and the second outlet could not be retrieved.",
+      "What was the physical end time?"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "The report is dated Saturday, 1 January 2022 and describes the Saturday-evening gathering."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "About fifty demonstrators went to Premier François Legault’s Montreal office and marched on Sherbrooke Street West."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "The demonstration protested Quebec’s curfew, a provincial restriction on when residents could be outside."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S001",
+          "CAN202201-S002"
+        ],
+        "summary": "The opened QMI story reports “une cinquantaine”; Daily Hive’s search-only result says approximately 75, but its body could not be read."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "The contemporary QMI report estimates about fifty people, directly around the threshold. The approximate wording leaves exact threshold passage uncertain; the second outlet remains search-only, so eligibility stays pending threshold review."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "Unknown: the report gives no clear account of protester violence; the arrest alone does not establish it."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "Unknown: the report does not describe negotiations or an agreed formal meeting."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "One activist was arrested shortly after the procession began."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "Unknown: no beating is reported."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "Unknown: the report mentions the arrest but does not describe an attempt to move or disperse the crowd."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "Unknown: absence of a reported response beyond the arrest does not establish that officials ignored the protest."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "Unknown: no killing is reported."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S001"
+        ],
+        "summary": "Unknown: no shooting is reported."
+      }
+    },
+    "candidate_id": "CAN202201-E001",
+    "title": "Montreal demonstration against Quebec curfew",
+    "start_date": "2022-01-01",
+    "start_precision": "day",
+    "location": "Montreal, Quebec; outside the offices of Premier François Legault and on Sherbrooke Street West",
+    "scope": "local",
+    "participants_original": "“Une cinquantaine de manifestants” (about fifty); a separate Daily Hive search result reports approximately 75, but that page remained unread.",
+    "threshold_50_evidence": "An opened contemporary report estimates about fifty people, directly around the 50-person threshold. Exact threshold passage is uncertain, so eligibility remains pending_threshold.",
+    "eligibility": "pending_threshold",
+    "source_ids": [
+      "CAN202201-S001",
+      "CAN202201-S002",
+      "CAN202201-S024"
+    ]
+  },
+  {
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "end_date": "2022-01-05",
+    "end_precision": "day",
+    "organizer": "Facebook event titled “Désobéissance civile” (individual organizer not identified)",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_min": null,
+    "participants_max": null,
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "canada_montreal_curfew_jan2022",
+    "notes": "The article calls this the second demonstration and places it on Wednesday evening; published 6 January 2022, so the event date is 5 January. Warnings at 21:51 did not stop the march; after police detained/interpellated participants, the rest dispersed. Crowd-dispersal attempt is coded yes from the warnings; arrest status remains unknown because the report language does not establish legal arrest.",
+    "open_questions": [
+      "Do the reported interpellations and people “taken in” meet the dataset arrest definition?"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "Article published 6 January says the demonstration occurred Wednesday evening; calendar context identifies 5 January."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "After police stopped several marchers around 22:45, the remaining cohort dispersed that evening."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "Gathering around Honoré-Beaugrand metro, followed by a march through surrounding neighborhoods and the Sherbrooke Street area."
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "The call came from a Facebook event titled “Désobéissance civile”; the article does not name an individual organizer."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "Slogans targeted government policies, the health pass, and the curfew."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "The article reports “une soixantaine de personnes” (about sixty)."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "The contemporary report estimates about sixty participants, a specific turnout above the 50-person threshold."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "No explicit protester violence: the report says the event proceeded calmly."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "Unknown: no meeting or formal agreement is reported."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "The article describes interpellations/participants being taken in, but does not establish their legal arrest status; unknown is retained pending review."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "Unknown: no beating is reported."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "Police warnings began at 21:51; after participants were taken in, the rest dispersed. Under the protocol, the warning is an attempted dispersal even though the article does not describe a forceful clearing."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "Unknown: the article describes explicit police action, so ignore is not applicable from this account alone."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "Unknown: no killing is reported."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S024"
+        ],
+        "summary": "Unknown: no shooting is reported."
+      }
+    },
+    "candidate_id": "CAN202201-E002",
+    "title": "Second Montreal demonstration against Quebec curfew",
+    "start_date": "2022-01-05",
+    "start_precision": "day",
+    "location": "Montreal, Quebec; around Honoré-Beaugrand metro and surrounding neighborhoods including Sherbrooke Street",
+    "scope": "local",
+    "participants_original": "“Une soixantaine de personnes” (about sixty)",
+    "threshold_50_evidence": "The contemporaneous Journal Métro article estimates about sixty participants.",
+    "eligibility": "proposed_include",
+    "source_ids": [
+      "CAN202201-S024"
+    ]
+  },
+  {
+    "candidate_id": "CAN202201-E003",
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "title": "Montreal rally against provincial health measures",
+    "start_date": "2022-01-08",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Place Jacques-Cartier / Old Montreal, Montreal, Quebec",
+    "scope": "local",
+    "organizer": "Québec Pro Choix (search-only QMI account)",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Agence QMI search-result excerpt: several hundred; opened Narcity account confirms a march but its 2,000 participating / 900 interested Facebook counts are advance RSVPs, not attendance.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The captured contemporary QMI search result estimates several hundred, above 50; the report body was not reached. The opened Narcity account confirms the event but gives no observed turnout, so the estimate remains search-only and provisional.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAN202201-S004",
+      "CAN202201-S005"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "Montreal rally against provincial health measures"
+      },
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "Opened Narcity account describes the Jan. 8 event plan and says Bernier participated; S004 search result also identifies the Jan. 8 report."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "The physical end is not established; no publication date, campaign endpoint, or month end is substituted."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "Place Jacques-Cartier / Old Montreal, Montreal, Quebec"
+      },
+      "scope": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "local"
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "Search-only QMI excerpt attributes organization to Québec Pro Choix."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "QMI search excerpt describes opposition to provincial health measures and booster vaccination."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "QMI search result: several hundred; Narcity body-read Facebook RSVP counts are explicitly not observed attendance."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "Several hundred is a contemporary news estimate in the captured search result. It remains body-unverified; the opened story confirms occurrence but not turnout."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "The cited material does not establish protester violence; unknown is retained."
+      },
+      "state_response": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "Response dimensions remain unknown unless an individual item below supports them."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S004",
+          "CAN202201-S005"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "The opened Narcity story gives the planned Place Jacques-Cartier start at 13:00 and route and reports Maxime Bernier attended; its Facebook RSVP figures are not crowd counts. The several-hundred estimate comes from the captured QMI search result only. S004 is QMI and should not be counted as independent of other QMI stories.",
+    "open_questions": [
+      "Verify the QMI estimate in the body if exact-URL access becomes available.",
+      "Physical end and event-specific state response are unreported."
+    ]
+  },
+  {
+    "candidate_id": "CAN202201-E004",
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "title": "Emerson border crossing trucker slow-roll protest",
+    "start_date": "2022-01-17",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Highway 75 / Emerson port of entry, Manitoba",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "No human attendance estimate. Reports mention truck drivers/supporters, trucks, trailers and farm equipment; vehicles/equipment cannot establish the 50-person threshold.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Opened RealAgriculture report describes drivers and supporters assembling but gives no people count. Vehicles and equipment do not establish at least 50 participants.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAN202201-S010",
+      "CAN202201-S009",
+      "CAN202201-S040",
+      "CAN202201-S008"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "Emerson border crossing trucker slow-roll protest"
+      },
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "Opened RealAgriculture account dates the assembly to Monday, Jan. 17; official report S040 separately identifies Jan. 17–18 slow-roll activity."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "The physical end is not established; no publication date, campaign endpoint, or month end is substituted."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "Opened report places gathering along Highway 75 at Emerson border crossing."
+      },
+      "scope": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "local"
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "Not identified in the cited account(s)."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "Article identifies protest against the Canadian federal cross-border trucker vaccine requirement; some participants also opposed carbon tax and other federal policy."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "Report mentions people and vehicle/equipment types but no human count."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "Opened RealAgriculture report describes drivers and supporters assembling but gives no people count. Vehicles and equipment do not establish at least 50 participants."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish protester violence; unknown is retained."
+      },
+      "state_response": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "Response dimensions remain unknown unless an individual item below supports them."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S010",
+          "CAN202201-S009",
+          "CAN202201-S040",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "The opened report says a looping convoy assembled early on Jan. 17 and continued through the day north of the crossing. Public Inquiry search result also identifies slow-roll protests on Jan. 17–18 but supplies no people count. Keep the next-day activity unresolved; do not infer a Jan. 18 ending or merge with the separate Jan. 29 vehicle loop.",
+    "open_questions": [
+      "Human attendance on Jan. 17 and Jan. 18.",
+      "Whether Jan. 17–18 were one event or separate actions.",
+      "Physical ending and event-specific state response."
+    ]
+  },
+  {
+    "candidate_id": "CAN202201-E005",
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "title": "Montreal march against COVID-19 health measures",
+    "start_date": "2022-01-22",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Rachel Street and Papineau Avenue to the Mount Royal statue, Montreal, Quebec",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Agence QMI reports several hundred participants; no bounded or exact count is given.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Opened QMI report estimates several hundred human marchers, clearly above 50; no numeric range is supplied.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAN202201-S028",
+      "CAN202201-S006"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "Montreal march against COVID-19 health measures"
+      },
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "Opened report dates the march to Jan. 22 and gives a rendezvous around 13:00."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "The physical end is not established; no publication date, campaign endpoint, or month end is substituted."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "Report gives Rachel/Papineau meeting point and march to the statue at the foot of Mount Royal."
+      },
+      "scope": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "local"
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "Not identified in the cited account(s)."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "Signs challenged pandemic measures and vaccine-passport enforcement; one participant called for lawsuits against businesses requiring the passport."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "Agence QMI: several hundred people."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "Opened contemporary report explicitly says several hundred people marched; no exact lower bound is invented."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "The cited material does not establish protester violence; unknown is retained."
+      },
+      "state_response": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "Response dimensions remain unknown unless an individual item below supports them."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S028",
+          "CAN202201-S006"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Participants gathered around 13:00 at Rachel/Papineau and walked to the Mount Royal statue. The report identifies challenges to pandemic measures and vaccine-passport enforcement. QMI origin is shared with other TVA/QMI coverage; do not treat repeated QMI stories as independent.",
+    "open_questions": [
+      "Physical end and state response are not reported.",
+      "Organizer and exact count remain unknown."
+    ]
+  },
+  {
+    "candidate_id": "CAN202201-E006",
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "title": "Waterloo Square rally supporting cross-border truckers",
+    "start_date": "2022-01-23",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Waterloo Town Square, Waterloo, Ontario",
+    "scope": "local",
+    "organizer": "People's Party of Canada",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Waterloo Regional Police estimated around 500 attendees; Global News independently describes several hundred people.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Body-read report gives a police estimate around 500, clearly over threshold; the number remains attributed.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAN202201-S050"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "Waterloo Square rally supporting cross-border truckers"
+      },
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "Opened Global News report dates the rally to Sunday, Jan. 23."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "The physical end is not established; no publication date, campaign endpoint, or month end is substituted."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "Opened report places gathering at Waterloo Town Square."
+      },
+      "scope": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "local"
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "Global News identifies the People's Party of Canada as organizer."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "The opened report says participants supported cross-border truckers; Bernier called on Ottawa to end COVID mandates."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "Waterloo Regional Police: around 500; the article describes several hundred."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "Attributed police estimate around 500 is well above threshold; no exact count is asserted."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "The cited material does not establish protester violence; unknown is retained."
+      },
+      "state_response": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "Response dimensions remain unknown unless an individual item below supports them."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S050"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Global News says the rally supported cross-border truckers; Maxime Bernier called for Ottawa to end COVID mandates. Police and bylaw officers observed and no charges were reported. The city closing the ice rink is not treated as crowd dispersal. No physical end is stated.",
+    "open_questions": [
+      "Physical end and any event-specific response beyond observation are unknown."
+    ]
+  },
+  {
+    "candidate_id": "CAN202201-E007",
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "title": "London-area Highway 401 convoy-support gathering(s)",
+    "start_date": "2022-01-27",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Highway 401 in the London region, Ontario; exact roadside site(s) unresolved",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Search-only Global News description reports hundreds along Highway 401 in the London region; number of people at any one site is unresolved.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Search-only account describes hundreds, but does not resolve whether that total refers to one assembly or several roadside sites; per-site threshold remains open.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAN202201-S018",
+      "CAN202201-S047"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "London-area Highway 401 convoy-support gathering(s)"
+      },
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "Captured search result dates the reported gathering to Thursday, Jan. 27."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "The physical end is not established; no publication date, campaign endpoint, or month end is substituted."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "Search-only description places crowds along Highway 401 in the London region; it does not resolve site boundaries."
+      },
+      "scope": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "local"
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "Not identified in the cited account(s)."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "Search-only Global News description identifies protest against the federal cross-border trucker vaccine mandate."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "Search-only result: hundreds along the London-area highway; no per-site count."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "Search-only account describes hundreds, but does not resolve whether that total refers to one assembly or several roadside sites; per-site threshold remains open."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish protester violence; unknown is retained."
+      },
+      "state_response": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "Response dimensions remain unknown unless an individual item below supports them."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S018",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      }
+    },
+    "eligibility": "pending_unit",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Captured Global News search result says hundreds gathered along Highway 401 in the London region for a southern Ontario branch protesting the federal cross-border trucker mandate. S047 is a separate GTA-overpass video description and does not establish local turnout or a London connection. No site merge is made.",
+    "open_questions": [
+      "Exact site(s), individual-site human turnout, and whether multiple roadside supporters are separate episodes.",
+      "Physical end and local response are unreported."
+    ]
+  },
+  {
+    "candidate_id": "CAN202201-E008",
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "title": "Vaughan roadside support for the truck convoy",
+    "start_date": "2022-01-27",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Vaughan / Greater Toronto Area, Ontario; exact roadside site unresolved",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Epoch Times search result says thousands of supporters in Vaughan; body not opened and result may conflate supporters with convoy traffic.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Search-only report says thousands, but human crowd boundaries and relationship to moving vehicles are unverified; preserve as strong lead pending body/local-source review.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAN202201-S046",
+      "CAN202201-S047"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "Vaughan roadside support for the truck convoy"
+      },
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "Search result dates convoy-support activity to Jan. 27."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "The physical end is not established; no publication date, campaign endpoint, or month end is substituted."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "Search result identifies Vaughan but not an exact crowd site."
+      },
+      "scope": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "local"
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "Not identified in the cited account(s)."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "Search-result account identifies federal vaccine mandate as issue."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "Search-only Epoch Times headline says thousands came out to support; distinction from convoy traffic is not verified."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "Strong search-only size claim, but whether people were assembled locally rather than counted with convoy traffic is unresolved."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish protester violence; unknown is retained."
+      },
+      "state_response": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "Response dimensions remain unknown unless an individual item below supports them."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S046",
+          "CAN202201-S047"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Captured Epoch Times result reports support in Vaughan as the convoy moved through the Toronto area and identifies the federal vaccine mandate. S047 describes multiple distinct GTA overpasses but supplies no count; this does not justify merging every site into one event.",
+    "open_questions": [
+      "Verify actual human assembly, exact site, turnout and federal demand in body or local reporting.",
+      "Do not merge other GTA overpasses or moving convoy without episode evidence.",
+      "Physical end and response are unknown."
+    ]
+  },
+  {
+    "candidate_id": "CAN202201-E009",
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "title": "Lévis roadside convoy-support gathering",
+    "start_date": "2022-01-28",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Lévis, Quebec; location along convoy route not further resolved",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Journal de Québec search result says a few hundred sympathizers gathered; no bounded count is provided.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Search-only report describes a few hundred people gathered at Lévis, plausibly over 50; crowd estimate and body remain unverified.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAN202201-S037",
+      "CAN202201-S031"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "Lévis roadside convoy-support gathering"
+      },
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "Search-only Journal de Québec result dates gathering to Friday, Jan. 28."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "The physical end is not established; no publication date, campaign endpoint, or month end is substituted."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "Search-only result identifies Lévis on convoy route but not a precise site."
+      },
+      "scope": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "local"
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "Not identified in the cited account(s)."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "Search result describes opposition to vaccine and health rules; specific level and policy target need confirmation."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "Search-only estimate: a few hundred sympathizers; no exact range."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "Search-only report describes a few hundred people gathered at Lévis, plausibly over 50; crowd estimate and body remain unverified."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "The cited material does not establish protester violence; unknown is retained."
+      },
+      "state_response": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "Response dimensions remain unknown unless an individual item below supports them."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S037",
+          "CAN202201-S031"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      }
+    },
+    "eligibility": "pending_state_target",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "This is a distinct roadside human gathering as the convoy passed toward Ottawa, not convoy vehicles themselves. Search result says participants opposed vaccine and health rules; the domestic government/policy target remains open. Do not merge with convoy departure or Ottawa rally.",
+    "open_questions": [
+      "Confirm search-only crowd estimate and specific domestic policy target.",
+      "Exact location, physical end and response remain unknown."
+    ]
+  },
+  {
+    "candidate_id": "CAN202201-E010",
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "title": "Ottawa Parliament Hill and downtown anti-mandate protest",
+    "start_date": "2022-01-29",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Parliament Hill and downtown Ottawa, Ontario",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions",
+      "removal_of_politician"
+    ],
+    "participants_original": "Opened CP account confirms crowds packed Parliament Hill but gives no realized numeric count. Search-only OPS estimate is 5,000–6,000 on Jan. 29; Government closing-submission search excerpt gives 6,000–7,000, growing to nearly 8,000. Estimates differ in source/time and are not combined into a new range.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Opened CP report confirms a large human crowd on Parliament Hill; separate captured official search-result estimates are in the thousands. Exact count/time is not body-verified in those official records.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAN202201-S042",
+      "CAN202201-S040",
+      "CAN202201-S041",
+      "CAN202201-S049",
+      "CAN202201-S021"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "Ottawa Parliament Hill and downtown anti-mandate protest"
+      },
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "Opened CP/CityNews confirms the human crowd on Jan. 29. S040 dates vehicle arrivals to Jan. 28 but does not establish human attendance that day."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "The physical end is not established; no publication date, campaign endpoint, or month end is substituted."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "CP/CityNews places crowds on Parliament Hill and vehicles in central Ottawa; S040 distinguishes downtown trucks and Coventry."
+      },
+      "scope": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "local"
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "Not identified in the cited account(s)."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "CP/CityNews describes protest against the federal Liberal government, vaccine mandates and COVID restrictions. Some participants hoped Trudeau would leave office; memorandum demanded federal and provincial governments lift restrictions."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "CP/CityNews says crowds packed the Hill and expected thousands but gives no realized number. OPS and Government figures are search excerpts only and differ in time/source."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "Opened account describes crowds packing Parliament Hill, and independent official search-result estimates place Jan. 29 attendance in the thousands. Do not use Jan. 28 truck counts as people."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "The cited material does not establish protester violence; unknown is retained."
+      },
+      "state_response": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "Response dimensions remain unknown unless an individual item below supports them."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S042",
+          "CAN202201-S040",
+          "CAN202201-S041",
+          "CAN202201-S049",
+          "CAN202201-S021"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Jan. 29 is the first date in this unit with direct body-read human crowd evidence (CP/CityNews). Public Inquiry says about 150 trucks were downtown Jan. 28 and another 50 at Coventry, but supplies no Jan. 28 human count; vehicle arrival is not human onset. CP account says some participants hoped mandates/restrictions would be lifted or Trudeau would leave office; convoy memorandum demanded federal and provincial governments lift restrictions. S041/S049 numeric estimates remain search-result-only. Broader Ottawa protest continued into February; physical end is not established.",
+    "open_questions": [
+      "Did a human assembly occur Jan. 28 at Parliament Hill or Coventry, distinct from vehicle arrival?",
+      "Physical end and relation to the February occupation/protest.",
+      "Verify OPS and Government estimate tables in their document bodies and retain differing time points.",
+      "Event-specific state response is not supplied by consulted local article."
+    ]
+  },
+  {
+    "candidate_id": "CAN202201-E011",
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "title": "Regina rally at Saskatchewan Legislative Building supporting the Ottawa convoy",
+    "start_date": "2022-01-29",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Saskatchewan Legislative Building grounds, Regina, Saskatchewan",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Global News estimates over 1,000 people may have been present; dozens of trucks are separate.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Opened contemporary report estimates over 1,000 human attendees may have been present, clearly over threshold though uncertain; trucks are not added to people.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAN202201-S038"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "Regina rally at Saskatchewan Legislative Building supporting the Ottawa convoy"
+      },
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "Opened Global News article dates Regina gathering to Jan. 29 and places arrival at the Legislature around 13:00."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "The physical end is not established; no publication date, campaign endpoint, or month end is substituted."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "Opened report locates gathering at Saskatchewan Legislative Building grounds."
+      },
+      "scope": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "local"
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "Not identified in the cited account(s)."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "Report says participants opposed federal cross-border vaccination mandate and continuing COVID restrictions; level of the latter is unspecified."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "Over 1,000 people may have been present, according to article; dozens of trucks are a separate count."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "Opened contemporary report estimates over 1,000 human attendees may have been present, clearly over threshold though uncertain; trucks are not added to people."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "The cited material does not establish protester violence; unknown is retained."
+      },
+      "state_response": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "Response dimensions remain unknown unless an individual item below supports them."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S038"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Global News says the convoy reached the Legislature grounds around 13:00. Participants opposed the federal cross-border vaccine mandate and continuing COVID restrictions and expressed solidarity with Ottawa. No physical end or event-specific police response is reported.",
+    "open_questions": [
+      "Physical end and event-specific state response are unknown.",
+      "Whether provincial policy signals were caused by the event is not established and is not coded as a response."
+    ]
+  },
+  {
+    "candidate_id": "CAN202201-E012",
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "title": "Edmonton Alberta Legislature convoy-support gathering",
+    "start_date": "2022-01-29",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Alberta Legislature grounds and downtown Edmonton, Alberta",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Global News describes thousands of protesters; Public Inquiry separately reports about 9,000 people and 200 vehicles converged in Edmonton. Do not add vehicles to people.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Opened reports establish thousands of human participants, well over 50. The precise local government/policy target is unresolved in the Jan. 29 account.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAN202201-S048",
+      "CAN202201-S040",
+      "CAN202201-S017"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "Edmonton Alberta Legislature convoy-support gathering"
+      },
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "Opened Global News and Public Inquiry place activity on Jan. 29."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "The physical end is not established; no publication date, campaign endpoint, or month end is substituted."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "Global News places protesters at Legislature grounds/downtown; Acheson vehicles described separately."
+      },
+      "scope": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "local"
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "Not identified in the cited account(s)."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "Local article describes solidarity with Ottawa and broad opposition to mandates/restrictions, but not government level."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "Global News: thousands of protesters; Public Inquiry: about 9,000 people and 200 vehicles converged in Edmonton. City-level estimate may cover a wider footprint."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "Opened reports establish thousands of human participants, well over 50. The precise local government/policy target is unresolved in the Jan. 29 account."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "The cited material does not establish protester violence; unknown is retained."
+      },
+      "state_response": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "Response dimensions remain unknown unless an individual item below supports them."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S048",
+          "CAN202201-S040",
+          "CAN202201-S017"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      }
+    },
+    "eligibility": "pending_state_target",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Global News describes pedestrians and vehicles downtown and a separate convoy from Acheson driving through Edmonton. Public Inquiry gives a city-level Jan. 29 estimate of about 9,000 people and 200 vehicles but does not identify exact policy demand in this passage. Local story links the assembly to Ottawa and broad opposition to mandates/restrictions; state target remains pending rather than inferred from Legislature location alone.",
+    "open_questions": [
+      "Identify whether assembly expressly targeted Alberta policy, federal policy, or both.",
+      "Relate Legislature gathering to the separate Acheson convoy without merging them.",
+      "Physical end and event-specific response are not established."
+    ]
+  },
+  {
+    "candidate_id": "CAN202201-E013",
+    "country": "Canada",
+    "ccode": "20",
+    "unit_month": "2022-01",
+    "title": "Coutts border protest/blockade beginning",
+    "start_date": "2022-01-29",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Coutts / Alberta port of entry, Alberta",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "CBSA situational-report search result estimates 500–700 demonstrators in a Jan. 30 update; that later estimate does not establish turnout at Jan. 29 onset.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Captured official search excerpt indicates 500–700 demonstrators by Jan. 30, but exact Jan. 29 human attendance/onset is not body-reviewed; preserve pending evidence.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAN202201-S015",
+      "CAN202201-S021",
+      "CAN202201-S023",
+      "CAN202201-S008"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "Coutts border protest/blockade beginning"
+      },
+      "start_date": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "Search-only committee timeline gives Jan. 29 as blockade start; body was not opened."
+      },
+      "end_date": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "The physical end is not established; no publication date, campaign endpoint, or month end is substituted."
+      },
+      "location": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "Official CBSA and committee search metadata identify Coutts/Alberta port of entry."
+      },
+      "scope": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "local"
+      },
+      "organizer": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "Not identified in the cited account(s)."
+      },
+      "demands": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "Policy context is federal Jan. 15 cross-border trucker vaccination requirement (S008 search result); local demand requires body verification."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "CBSA search excerpt: 500–700 demonstrators in a Jan. 30 update; not a Jan. 29 count or body-read report."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "Captured official search excerpt indicates 500–700 demonstrators by Jan. 30, but exact Jan. 29 human attendance/onset is not body-reviewed; preserve pending evidence."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish protester violence; unknown is retained."
+      },
+      "state_response": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "Response dimensions remain unknown unless an individual item below supports them."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "CAN202201-S015",
+          "CAN202201-S021",
+          "CAN202201-S023",
+          "CAN202201-S008"
+        ],
+        "summary": "The cited material does not establish this response; it remains unknown."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Committee search result dates Coutts blockade Jan. 29–Feb. 15; CBSA Jan. 30 report result estimates 500–700 demonstrators and refers to later truck movement. Distinct from Emerson and national convoy route. Demand provisionally mapped to opposition to cross-border trucker vaccination requirement; onset attendance needs body review.",
+    "open_questions": [
+      "Verify Jan. 29 onset and human attendance on the first day, separately from Jan. 30 estimate.",
+      "Verify precise federal demand and distinguish blockade demonstrators from vehicles.",
+      "Physical ending and event-specific state response are not established."
+    ]
+  }
+]

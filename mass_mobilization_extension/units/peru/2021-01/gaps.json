@@ -1,0 +1,179 @@
+[
+  {
+    "gap_id": "PER202101-G001",
+    "type": "baseline",
+    "description": "The official current MM dataset bytes, event schema and country universe remain unverified; ccode 135 is provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve the official baseline gate before any official IDs, compatibility decision or merge."
+  },
+  {
+    "gap_id": "PER202101-G002",
+    "type": "search_method",
+    "description": "Open-web search does not reproduce the historical LexisNexis source set or expansion procedure.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain search queries and access outcomes; use comparable newspaper archives if lawfully available before any coverage or absence claim."
+  },
+  {
+    "gap_id": "PER202101-G003",
+    "type": "language",
+    "description": "Spanish-language discovery includes broad, weekly and regional/sector queries. One query combined Aymara/Quechua-related terms llaqta, marka and ayllu with Puno/Juliaca, but results drifted mainly to 2023. No fluent Quechua or Aymara review, original-language press archive survey or local-language expert review was completed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Have fluent reviewers search and assess relevant Quechua/Aymara print, broadcast and community sources. Treat the keyword query as exploratory only; do not infer event absence from its drift."
+  },
+  {
+    "gap_id": "PER202101-G004",
+    "type": "episode_unit",
+    "description": "Jan30 Lima anti-quarantine march has divergent AS (>1,000) and El Comercio (“decenas”) descriptions, leaving event-level threshold pending. Jan31 Plaza San Martín gathering is explicitly dated by Diario Correo but remains threshold-pending (AS up to 100; Correo dozens). A police cordon on Jan30 blocked passage toward the Palace but does not establish assembly dispersal. The relationship among Jan27, Jan30 and Jan31 physical actions remains unresolved.",
+    "source_ids": [
+      "PER202101-S008",
+      "PER202101-S041",
+      "PER202101-S042",
+      "PER202101-S047",
+      "PER202101-S048"
+    ],
+    "affected_candidates": [
+      "PER202101-E001",
+      "PER202101-E002"
+    ],
+    "required_followup": "Resolve the Jan30 turnout discrepancy and whether Jan27–31 involved separate gatherings or a continuous physical action; establish independent >=50 attendance and exact arrival/departure evidence for Jan31; seek event-specific response evidence. Do not merge by campaign key or infer crowd dispersal from route obstruction alone."
+  },
+  {
+    "gap_id": "PER202101-G005",
+    "type": "episode_unit",
+    "description": "The agrarian strike began in Ica on 2020-11-30 and spread to La Libertad on 2020-12-03; contemporaneous and retrospective sources discuss a Jan 1 agreement to unblock a highway, but do not establish physical Jan 1 presence or exact departure. A Jan 4 Ica call has no opened evidence of execution.",
+    "source_ids": [
+      "PER202101-S013",
+      "PER202101-S018",
+      "PER202101-S020",
+      "PER202101-S022"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search contemporary local coverage and the original La Lupa Jan 3/4 records for physical attendance/departure; retain the November owner and do not create a new January protest from meetings, an announced call, or prior deaths."
+  },
+  {
+    "gap_id": "PER202101-G006",
+    "type": "participants",
+    "description": "Defensoría Report 203 table rows contain no turnout. Among selected candidates, Jan9 Lima and Jan13 FMP Lima have opened qualitative/count evidence above 50; E001 has an unresolved contradictory turnout account; E002, E003, E005, E006, E008, E009, E010 and E011 lack an established >=50 lower bound. The other unresolved table-only rows are listed in G009 and remain unassessed for turnout.",
+    "source_ids": [
+      "PER202101-S034"
+    ],
+    "affected_candidates": [
+      "PER202101-E001",
+      "PER202101-E002",
+      "PER202101-E003",
+      "PER202101-E005",
+      "PER202101-E006",
+      "PER202101-E008",
+      "PER202101-E009",
+      "PER202101-E010",
+      "PER202101-E011"
+    ],
+    "required_followup": "Seek contemporary original attendance evidence for the pending candidates and highest-priority state-directed table leads. Do not infer turnout from union membership, workforce, number of venues, number of sites or existence of a strike."
+  },
+  {
+    "gap_id": "PER202101-G007",
+    "type": "episode_unit",
+    "description": "Report 203 rows 6–7 (Iquitos march/clash), 17–18 (Cerro Blanco water action/blockade and PNP confrontation), and 97–98 (Acomayo health grievance) repeat actors/demands under multiple measures and remain unresolved action relationships. Rows 31–34 group FMP same-day sites (E004); rows 23–24 are one Canchis provincial measure including roadblocks (E008); rows 119–122 are same-day FEDEMINSAP sites (E006). Later FMP rows 47, 57–59, 77, 103, 111 are separate-date leads and are not automatically merged into E004. Rows 132/135 repeat Paucará quarantine action on Jan30/31 with physical daily boundaries unresolved.",
+    "source_ids": [
+      "PER202101-S034"
+    ],
+    "affected_candidates": [
+      "PER202101-E004",
+      "PER202101-E006",
+      "PER202101-E008"
+    ],
+    "required_followup": "Use contemporary notices and local reports to distinguish coordinated sites, repeated work-stoppage days, and separate physical actions. Preserve same-date multi-site counts separately and do not aggregate attendees across sites or dates."
+  },
+  {
+    "gap_id": "PER202101-G008",
+    "type": "end_response",
+    "description": "The Jan 9 Lima march against police impunity is corroborated with qualitative turnout above 50, but available contemporary reports do not describe its physical departure or any event-specific state response.",
+    "source_ids": [
+      "PER202101-S039",
+      "PER202101-S040"
+    ],
+    "affected_candidates": [
+      "PER202101-E007"
+    ],
+    "required_followup": "Search event-specific footage/contemporary local reporting for when the Jan 9 march dispersed and whether police or government actors responded at the scene; do not transfer Nov/Dec responses."
+  },
+  {
+    "gap_id": "PER202101-G009",
+    "type": "coverage",
+    "description": "A first-pass disposition ledger covers all 135 numbered action-table rows in Defensoría Report 203 pp.106–116. Candidate/grouped action rows: 16, 23–24, 31–34, 84, 110, 114, 117, 119–122, 128 (16 rows mapped to E001 and E003–E010; E002 and E011 are from separate sources). Row84’s link to E010 is tentative because the day conflicts. Excluded rows: 3, 14, 29–30, 50, 64, 75–76, 87, 89, 94, 106, 108, 116, 134 (15 records in excluded.json, each with a private-only or internal/intercommunal rationale). Unresolved table-only leads: 1–2, 4–13, 15, 17–22, 25–28, 35–49, 51–63, 65–74, 77–83, 85–86, 88, 90–93, 95–105, 107, 109, 111–113, 115, 118, 123–127, 129–133, 135 (104 rows). These rows were screened by table date, measure, actors, place, and demand, but not independently verified for at least 50 participants, full state-target scope, exact physical end, or episode relationship. Row count is not an event/candidate count; the unresolved leads are neither eligible-event counts nor evidence of absence. Rows 52–53 mention a dialogue table without resolving its public target; school-tuition rows 69 and 113 do not identify ownership or addressee; row95 Prosegur explicitly mentions national anti-labor policy; UTEA rows81/105 have unclear target and public/private setting.",
+    "source_ids": [
+      "PER202101-S034"
+    ],
+    "affected_candidates": [
+      "PER202101-E001",
+      "PER202101-E002",
+      "PER202101-E003",
+      "PER202101-E004",
+      "PER202101-E005",
+      "PER202101-E006",
+      "PER202101-E007",
+      "PER202101-E008",
+      "PER202101-E009",
+      "PER202101-E010",
+      "PER202101-E011"
+    ],
+    "required_followup": "Prioritize unresolved rows with explicit state/government demands and credible public-action descriptions. Verify body text, target, crowd threshold, physical boundaries and possible duplicate measures before adding or excluding candidates. Preserve the exact row ledger and do not treat 135 actions as 135 distinct eligible MM events."
+  },
+  {
+    "gap_id": "PER202101-G010",
+    "type": "search_method",
+    "description": "Q005 returned 31 headers, but seven header metadata records were not recoverable in the original capture (six Reddit results and one Scribd duplicate/unclear header). The raw capture retains 23 URLs and nulls for uncaptured title/URL fields; no generic placeholders were substituted. One Reddit ref later yielded metadata through a separate new open, marked as such. This is an audit limitation in the original header capture, not a newly fabricated or retroactively complete result set.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain the nulls and provenance note. Do not reconstruct missing original headers from guesses or claim full raw capture for the missing fields."
+  },
+  {
+    "gap_id": "PER202101-G011",
+    "type": "contested_evidence",
+    "description": "Diario Correo’s Jan21 update frames two San Román protests as occurring “yesterday,” but its body also refers to Jan22 as “today.” Report 203 row84 dates a San Miguel concentration to Jan21, unlike Correo’s relative-day cue. E010 and the separate march E011 therefore retain month precision; E010 also has a reported turnout of more than 20 (not >=50), and E011 has no count. No count or date is transferred between gatherings.",
+    "source_ids": [
+      "PER202101-S034",
+      "PER202101-S069"
+    ],
+    "affected_candidates": [
+      "PER202101-E010",
+      "PER202101-E011"
+    ],
+    "required_followup": "Resolve the internal relative-date conflict, the Jan21 row84 linkage, and obtain separate attendance evidence for both gatherings. Do not combine the two groups or use E010’s count for E011."
+  },
+  {
+    "gap_id": "PER202101-G012",
+    "type": "source_access",
+    "description": "La República (S070/S071) and Diario EP (S072) search results surfaced potentially relevant Puno gas-price and Jan28 protest leads, but article opens returned cache misses. Ordinary HTTPS GET attempts to the exact canonical La República and Diario EP URLs failed before connection because default DNS resolution was unavailable. These are unresolved retrieval failures, not site denials. No alternate route or bypass was attempted.",
+    "source_ids": [
+      "PER202101-S070",
+      "PER202101-S071",
+      "PER202101-S072"
+    ],
+    "affected_candidates": [
+      "PER202101-E010",
+      "PER202101-E011"
+    ],
+    "required_followup": "If ordinary public access becomes available, retrieve only the exact URLs through a normal HTTPS request and record status/body scope. Until then keep snippets as search_only and do not infer execution, count or boundaries from them."
+  },
+  {
+    "gap_id": "PER202101-G013",
+    "type": "episode_unit",
+    "description": "Official Defensoría Report 204 for February lists later Feb16–17 protests in Cusco, Puno and Juliaca with gas-price and quarantine demands. This may reflect renewed campaign activity but is separated by weeks from January actions and does not establish continuous physical presence or a Jan event end.",
+    "source_ids": [
+      "PER202101-S073"
+    ],
+    "affected_candidates": [
+      "PER202101-E001",
+      "PER202101-E002",
+      "PER202101-E008",
+      "PER202101-E009",
+      "PER202101-E010",
+      "PER202101-E011"
+    ],
+    "required_followup": "Seek contemporary evidence of January departures and exact February onset/organizer linkage before assigning continuation or merger. Do not transfer February attendance/response or treat shared demands as physical continuity."
+  }
+]

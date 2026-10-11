@@ -1,0 +1,27 @@
+{
+  "unit_id": "bangladesh_2022-01",
+  "country": "Bangladesh",
+  "month": "2022-01",
+  "agent_task": "/root/bangladesh_2022_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T07:06:16Z",
+  "finished_at": "2026-10-10T08:06:26Z",
+  "n_queries": 20,
+  "n_sources": 34,
+  "n_candidates": 12,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 15,
+  "coverage_assessment": "First-pass open-web coverage: 20 captured search invocations and 552 aligned result headers, including four January date windows, generic English/Bangla protest terms, targeted SUST/Qawwali/labor/road-safety searches, national and regional outlet queries, and Dhaka, Sylhet and Barishal leads. Twelve source cards have recorded body scopes; 18 remain search-only, one exact URL was blocked by HTTP 403, and three UGC PDFs returned 404. The record includes separate SUST physical-action candidates, four Qawwali-related actions, one garment-worker demonstration and one search-only road-safety lead, plus one private-employer exclusion. Candidate eligibility, turnout, policy target and physical boundaries remain open where noted. Coverage does not reproduce LexisNexis and is not exhaustive; official baseline approval remains pending.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 12,
+    "search_only_cards": 18,
+    "blocked_cards": 1,
+    "not_found_cards": 3
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 552,
+    "note": "Returned header count derived from all 20 saved search responses; no total-result claims added."
+  }
+}

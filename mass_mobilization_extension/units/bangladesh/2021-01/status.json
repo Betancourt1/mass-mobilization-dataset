@@ -1,0 +1,44 @@
+{
+  "unit_id": "bangladesh_2021-01",
+  "country": "Bangladesh",
+  "month": "2021-01",
+  "agent_task": "/root/bangladesh_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": null,
+  "finished_at": "2026-10-08 06:39:20 UTC",
+  "recorded_at": "2026-10-08 06:39:20 UTC",
+  "n_queries": 38,
+  "n_sources": 91,
+  "n_candidates": 27,
+  "n_excluded": 5,
+  "n_continuations": 1,
+  "n_gaps": 20,
+  "coverage_assessment": "Selective English/Bengali open-web research with weekly, regional, sector and December2020/February2021 boundary searches. Not exhaustive; contemporary body and attendance gaps remain.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources_started": [
+    {
+      "process": 47924,
+      "session": 36701,
+      "purpose": "Ordinary public HTTPS retry",
+      "status": "terminated_SIGTERM_verified_absent",
+      "exit_code": 143
+    }
+  ],
+  "independent_review_status": "awaiting_root_read_only_audit",
+  "validation": {
+    "result": "PASS",
+    "checks": [
+      "nine required files",
+      "unique IDs and URLs",
+      "source/candidate references",
+      "January ownership and date precision",
+      "all seven response keys and allowed values",
+      "demand categories",
+      "proposed inclusion backed by opened contemporary report",
+      "counts match files",
+      "assignment preserved"
+    ],
+    "validated_at": "2026-10-08 06:39:20 UTC"
+  },
+  "frozen_for_review": true
+}

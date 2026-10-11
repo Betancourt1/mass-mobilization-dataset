@@ -1,0 +1,112 @@
+[
+  {
+    "gap_id": "benin_2022-01_G001",
+    "type": "baseline",
+    "description": "The historical May 2015 codebook at mass_mobilization_extension/baseline/mm_codebook.txt is present and was read read-only; the additional Coding Procedure referenced by it remains unavailable. The DataCite DOI registration record retrieved 2026-10-08 reports registered version 5.1, declared coverage 1990-01-01–2020-03-31, CC0-1.0 and dataset_updated_date 2022-10-10. Those are registration-metadata observations, not verification of current downloadable data bytes, latest file version, filenames/checksums, current schema or country universe. The official reuse gate and compatibility mapping remain unresolved, so the experimental baseline gate remains pending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "benin_2022-01_E001"
+    ],
+    "required_followup": "Coordinator to verify official current data bytes and latest version, filename/checksum inventory, schema, country universe, cutoff and reuse terms before any integration or approval."
+  },
+  {
+    "gap_id": "benin_2022-01_G002",
+    "type": "participants",
+    "description": "The Jan 28 union press breakfast is a possible collective-action lead, but neither the opened Banouto article nor the La Nouvelle Tribune search excerpt provides a participant estimate or establishes a public meeting open to the public.",
+    "source_ids": [
+      "S001",
+      "S005"
+    ],
+    "affected_candidates": [
+      "benin_2022-01_E001"
+    ],
+    "required_followup": "Find a contemporary account or source document establishing event format, access and attendance; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "benin_2022-01_G003",
+    "type": "state_response",
+    "description": "No available source gives an event-specific state response or the press event end time; silence is retained as unknown.",
+    "source_ids": [
+      "S001",
+      "S005"
+    ],
+    "affected_candidates": [
+      "benin_2022-01_E001"
+    ],
+    "required_followup": "Seek follow-up reporting or organizer/official documentation that directly addresses response and closure."
+  },
+  {
+    "gap_id": "benin_2022-01_G004",
+    "type": "source_access",
+    "description": "Le Chasseur Infos S002 returned HTTP 403 and was not retried. La Nation S003 returned a web-tool Cache miss followed by DNS failure on one ordinary exact-URL request. S005 and S007 each returned Cache miss followed by DNS failure on one ordinary exact-URL request. No alternate hosts or routes were tried.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "benin_2022-01_E001"
+    ],
+    "required_followup": "If access circumstances change, coordinator may use only the same saved exact URLs after a fresh access review; do not bypass any observed denial."
+  },
+  {
+    "gap_id": "benin_2022-01_G005",
+    "type": "source_independence",
+    "description": "S005 may report the same Jan 28 press event as S001, but its body was unavailable and written-origin/syndication relationship is not established.",
+    "source_ids": [
+      "S001",
+      "S005"
+    ],
+    "affected_candidates": [
+      "benin_2022-01_E001"
+    ],
+    "required_followup": "Compare body/byline/origin records if S005 becomes publicly retrievable; do not count the two items as independent confirmation until resolved."
+  },
+  {
+    "gap_id": "benin_2022-01_G006",
+    "type": "coverage",
+    "description": "The web search covered four weekly windows, national/local outlets, principal cities and several sectors, but accessible coverage is not equivalent to LexisNexis. French and English material dominated; Fon, Yoruba, Bariba, Dendi and Fulfulde discovery attempts did not yield relevant local-language evidence. National/local and rural coverage may be uneven.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to consider local-language and regional archive searches, especially outside Cotonou and major outlets; do not infer that unreported actions did not occur."
+  },
+  {
+    "gap_id": "benin_2022-01_G007",
+    "type": "episode_unit",
+    "description": "A later union meeting on cost of living is reported for 2022-02-18, and another CSTB meeting for 2022-02-25. They start after January and are treated as separate later acts, not January continuations.",
+    "source_ids": [
+      "S010",
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "benin_2022-01_E001"
+    ],
+    "required_followup": "Coordinator to review February-unit ownership and whether any separately organized January action preceded those later meetings; do not carry the February acts backward."
+  },
+  {
+    "gap_id": "benin_2022-01_G008",
+    "type": "source_access",
+    "description": "A Jan 26 Parakou COTEB former-worker article is only a search-result lead. It links payments/political intervention but does not establish a strike, public meeting or collective protest; the exact page returned Cache miss and the single exact-URL HTTPS request failed DNS.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek another contemporaneous source or accessible original record to determine whether COTEB workers held a public collective action; do not create an event from the headline alone."
+  },
+  {
+    "gap_id": "benin_2022-01_G009",
+    "type": "violence_casualties",
+    "description": "The Kogandji/Savalou account of casualties comes from a police director statement in S004; Amnesty S008 offers an unread search-result summary of the confrontation but not casualty corroboration.",
+    "source_ids": [
+      "S004",
+      "S008"
+    ],
+    "affected_candidates": [
+      "benin_2022-01_X001"
+    ],
+    "required_followup": "Seek independently opened corroboration only if a later review needs casualty attribution; current exclusion does not depend on the reported death count."
+  }
+]

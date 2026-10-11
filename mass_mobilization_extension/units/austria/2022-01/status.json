@@ -1,0 +1,27 @@
+{
+  "unit_id": "austria_2022-01",
+  "country": "Austria",
+  "month": "2022-01",
+  "agent_task": "/root/austria_2022_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T03:54:46.794935+00:00",
+  "finished_at": "2026-10-10 04:25:02",
+  "n_queries": 15,
+  "n_sources": 25,
+  "n_candidates": 15,
+  "n_excluded": 1,
+  "n_continuations": 2,
+  "n_gaps": 9,
+  "coverage_assessment": "Open-web first pass through 15 captured search invocations: German and English general/date-window, regional/city, sector, weekly and Dec/Feb boundary coverage. Local article bodies support candidates in Vienna, Innsbruck, Linz, Bregenz, Gleisdorf, Graz and Salzburg; selected ministry table rows were visually checked by physical page. Many official rows remain unmatched; assembly/event boundaries, some 50-person thresholds and episode ownership remain unresolved. Minority-language/regional archives and licensed newspaper archives are incomplete. Not exhaustive.",
+  "baseline_gate": "pending_official_baseline",
+  "eligibility_counts": {
+    "proposed_include": 10,
+    "pending_unit": 2,
+    "pending_state_target": 1,
+    "pending_threshold": 2
+  },
+  "temporary_resources_started": "Finite browser/search/PDF requests and local PDF rendering only; all exited. No persistent server, watcher, browser automation or background process started.",
+  "temporary_resources_remaining": [],
+  "fixed_cutoff": "2026-10-07 America/Mexico_City",
+  "official_update": false
+}

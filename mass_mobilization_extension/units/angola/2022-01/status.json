@@ -1,0 +1,52 @@
+{
+  "unit_id": "angola_2022-01",
+  "country": "Angola",
+  "month": "2022-01",
+  "agent_task": "/root/angola_2022_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T03:54:46.527662+00:00",
+  "finished_at": "2026-10-10T04:37:17Z",
+  "n_queries": 13,
+  "n_sources": 22,
+  "n_candidates": 2,
+  "n_excluded": 3,
+  "n_continuations": 0,
+  "n_gaps": 8,
+  "source_access_counts": {
+    "opened_cards": 9,
+    "search_only_cards": 10,
+    "blocked_cards": 3,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_invocations": 13,
+    "original_search_strings": 13,
+    "captured_header_count": 304,
+    "query_ids": [
+      "Q001",
+      "Q002",
+      "Q003",
+      "Q004",
+      "Q005",
+      "Q006",
+      "Q007",
+      "Q008",
+      "Q009",
+      "Q010",
+      "Q011",
+      "Q012",
+      "Q013"
+    ],
+    "multiquery_arrays_preserved_whole": true
+  },
+  "eligibility_counts": {
+    "pending_threshold": 1,
+    "pending_state_target": 1
+  },
+  "coverage_assessment": "Open-web first pass: 13 captured invocations (13 original query strings, 304 headers), covering general/local Portuguese and English discovery, weekly/date-window, Luanda/provincial/regional, selected sector and Dec2021/Feb2022 boundary searching. Nine current-unit body opens; 0 prior-unit-only consultations. Two candidates remain pending: taxi attendance threshold and the Jan23 event’s explicit state-directed demand. Search coverage is not equivalent to LexisNexis or exhaustive; local-language and regional archives are incomplete; technical failures, two scoped holds and one exact 403 are documented. Search silence is not evidence of no protest.",
+  "baseline_gate": "pending_official_baseline",
+  "fixed_cutoff": "2026-10-07 America/Mexico_City",
+  "official_update": false,
+  "temporary_resources_started": "Finite web search/open calls and local Python CLI operations only; no persistent server, watcher, browser automation or background process was started.",
+  "temporary_resources_remaining": []
+}

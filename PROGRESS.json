@@ -1,0 +1,55 @@
+{
+  "year": "2022",
+  "state": "STOPPED_SAVED",
+  "cutoff": "2026-10-07",
+  "event_timezone": "America/Mexico_City",
+  "official_approvals": 0,
+  "source_revision": "5e774b2638f22658c7ea552e86509f0a8d7a6e11",
+  "source_stop_checkpoint_sha256": "0e33b71ef6cafd744264f8e9e2605e8a9882c49e99fb6c14e3b74bf361505bf5",
+  "committed_first_pass_units": 40,
+  "provisional_year_scope": 1920,
+  "boundary": "Twelve pilot discovery dossiers remain partial. Metadata-only CLI repair committed and postverified. Proposed 70-root scope and body stage unfinished and unapproved; metadata exposure interpretation held.",
+  "export_status": "PUBLICATION_SAFETY_FILTERED_SNAPSHOT; some dossier files omitted; no scientific re-review or consolidation",
+  "history_status": "fresh parentless export; original local Git history retained and not pushed",
+  "retained_safe_source_files": 1316,
+  "omission_reasons": [
+    {
+      "reason": "ambiguous_token_url_parameter",
+      "count": 1
+    },
+    {
+      "reason": "contact_or_personal_identifier_pattern",
+      "count": 28
+    },
+    {
+      "reason": "credential_pattern",
+      "count": 5
+    },
+    {
+      "reason": "legacy_original_source_prose",
+      "count": 1
+    },
+    {
+      "reason": "literal_runtime_path",
+      "count": 5
+    },
+    {
+      "reason": "local_workstation_or_runtime_path",
+      "count": 54
+    },
+    {
+      "reason": "outside_safe_allowlist",
+      "count": 850
+    },
+    {
+      "reason": "raw_or_excerpt_field",
+      "count": 13
+    },
+    {
+      "reason": "source_or_search_ledger_ambiguous_raw_payload",
+      "count": 356
+    }
+  ],
+  "omission_count_scope": "Counts cover enumerated candidate paths only; protected directories were pruned without opening and are additionally excluded.",
+  "source_search_ledger_policy": "All source and search ledgers omitted: raw result/body text can appear under misleading title or label keys. Local originals retained."
+}
