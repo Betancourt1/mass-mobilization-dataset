@@ -1,0 +1,131 @@
+[
+  {
+    "gap_id": "cambodia_2021-02_G001",
+    "type": "baseline",
+    "description": "Official baseline, original codebook/manual and final source universe were not available to this worker; the unit remains provisional pending coordinator baseline review.",
+    "source_ids": [],
+    "affected_candidates": [
+      "cambodia_2021-02_E001",
+      "cambodia_2021-02_E002"
+    ],
+    "required_followup": "Coordinator checks the official baseline and coding manual before integration or final inclusion."
+  },
+  {
+    "gap_id": "cambodia_2021-02_G002",
+    "type": "search_method_coverage",
+    "description": "Open-web search is not LexisNexis and does not establish complete event coverage. Searches covered English and Khmer generic/weekly terms and targeted land, labor, forest and activist-release topics, but open-web indexing remains uneven.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator or reviewer considers any available systematic archive sources and retains an explicit non-exhaustive scope statement."
+  },
+  {
+    "gap_id": "cambodia_2021-02_G003",
+    "type": "language_coverage",
+    "description": "Khmer-language searches returned noisy, mostly unrelated results; no independent native-language review of the retrieved search results was available. RFA’s event reporting was in an English translation attributed to its Khmer Service.",
+    "source_ids": [
+      "CAM2102-S001",
+      "CAM2102-S014",
+      "CAM2102-S015"
+    ],
+    "affected_candidates": [
+      "cambodia_2021-02_E001",
+      "cambodia_2021-02_E002"
+    ],
+    "required_followup": "Review Khmer-language source leads and transliterations with language expertise if available; do not infer complete local coverage from the searches."
+  },
+  {
+    "gap_id": "cambodia_2021-02_G004",
+    "type": "participants_threshold",
+    "description": "The 16 February Prek Lavea protest has no reported attendance count. The ten land-dispute families and the dozens of police are not protester turnout.",
+    "source_ids": [
+      "CAM2102-S013"
+    ],
+    "affected_candidates": [
+      "cambodia_2021-02_E001"
+    ],
+    "required_followup": "Seek contemporaneous attendance evidence and clarify whether the action involved at least 50 participants."
+  },
+  {
+    "gap_id": "cambodia_2021-02_G005",
+    "type": "state_target",
+    "description": "The 16 February article documents a land dispute with a private landholder and prior local-authority actions but does not specify a government-directed demand at the protest.",
+    "source_ids": [
+      "CAM2102-S013"
+    ],
+    "affected_candidates": [
+      "cambodia_2021-02_E001"
+    ],
+    "required_followup": "Find direct evidence of the protesters’ demand and target, or keep eligibility pending_state_target."
+  },
+  {
+    "gap_id": "cambodia_2021-02_G006",
+    "type": "participants_threshold_and_unit",
+    "description": "On 23 February, RFA reports 10–20 participants at each of 11 community locations. Each site is below 50; the report’s campaign framing does not by itself resolve whether the dataset unit aggregates dispersed sites. No campaign-wide total is calculated.",
+    "source_ids": [
+      "CAM2102-S001"
+    ],
+    "affected_candidates": [
+      "cambodia_2021-02_E002"
+    ],
+    "required_followup": "Coordinator reviews event-unit and threshold treatment while preserving each published site count."
+  },
+  {
+    "gap_id": "cambodia_2021-02_G007",
+    "type": "source_independence",
+    "description": "Each provisional action is supported by one opened contemporary news article only: CamboJA for 16 February and RFA for 23 February. The Sithi chronology does not report the 23 February action; it is selected retrospective context, not contrary evidence.",
+    "source_ids": [
+      "CAM2102-S001",
+      "CAM2102-S007",
+      "CAM2102-S013"
+    ],
+    "affected_candidates": [
+      "cambodia_2021-02_E001",
+      "cambodia_2021-02_E002"
+    ],
+    "required_followup": "Search for independent contemporaneous coverage and preserve agency/origin distinctions; do not count the RFA English version as an independent translation source."
+  },
+  {
+    "gap_id": "cambodia_2021-02_G008",
+    "type": "source_access",
+    "description": "CCHR retrospective report retrieval returned a web-tool Internal Error; ordinary HTTPS fallback failed DNS before an HTTP response. These are technical failures, not denials, and the report remains search_only. ODC labor-profile material is also unresolved: a prior unit review says its blocked original was not reopened, so this unit made no body request. One CamboJA receipt deferred during concurrent corpus changes and was replaced by a fresh stable receipt before opening.",
+    "source_ids": [
+      "CAM2102-S010",
+      "CAM2102-S012",
+      "CAM2102-S015",
+      "CAM2102-S013"
+    ],
+    "affected_candidates": [
+      "cambodia_2021-02_E001",
+      "cambodia_2021-02_E002"
+    ],
+    "required_followup": "Review technical/source-access limitations; do not treat failed requests or search snippets as body evidence."
+  },
+  {
+    "gap_id": "cambodia_2021-02_G009",
+    "type": "state_response_and_violence",
+    "description": "For the 16 February event, arrests of 11 are reported, but the relation of a separate police-violence allegation to that event is unclear; accommodation, beatings, dispersal, killings, shootings and ignore remain unknown. For 23 February, all seven response values remain unknown; failure to obtain comment is not coded as ignore.",
+    "source_ids": [
+      "CAM2102-S001",
+      "CAM2102-S013"
+    ],
+    "affected_candidates": [
+      "cambodia_2021-02_E001",
+      "cambodia_2021-02_E002"
+    ],
+    "required_followup": "Seek event-specific contemporaneous reporting for state response and alleged violence; preserve unknowns without inferring from silence."
+  },
+  {
+    "gap_id": "cambodia_2021-02_G010",
+    "type": "physical_end_and_continuity",
+    "description": "Neither event has a verified physical end date. The February 23 article describes future step-by-step campaigning but does not establish when later actions happened or when the campaign ended; no February continuation from January was substantiated.",
+    "source_ids": [
+      "CAM2102-S001",
+      "CAM2102-S013"
+    ],
+    "affected_candidates": [
+      "cambodia_2021-02_E001",
+      "cambodia_2021-02_E002"
+    ],
+    "required_followup": "Search immediate pre/post-month records and event follow-up; keep end dates null until physical closure evidence exists."
+  }
+]

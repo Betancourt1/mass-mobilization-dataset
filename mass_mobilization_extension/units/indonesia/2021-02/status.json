@@ -1,0 +1,37 @@
+{
+  "unit_id": "indonesia_2021-02",
+  "country": "Indonesia",
+  "month": "2021-02",
+  "agent_task": "01a125a8-7b2f-78e3-9029-6ff5acc45ab7",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T11:53:27.898902+00:00",
+  "finished_at": "2026-10-10T12:21:28Z",
+  "n_queries": 27,
+  "n_sources": 30,
+  "n_candidates": 14,
+  "n_excluded": 6,
+  "n_continuations": 0,
+  "n_gaps": 11,
+  "coverage_assessment": "Open-web first pass with 27 actual search invocations and 462 ordered headers, confirmed by exact comparison with the registered rollout. Thirty source cards are retained (2 current-unit body opens, 0 prior-unit-only consultations; both are scoped partial reads under compliant gates; 28 remain search-only). One candidate is a provisional proposed include supported by a qualitative hundreds-level count and a public-policy demand; 13 other candidates remain pending evidence. Coverage is geographically and sectorally uneven and is not LexisNexis-equivalent. Five exclusion leads remain provisional and one opened institutional report documents a 20-person action below threshold. No continuity is confirmed.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 2,
+    "search_only_cards": 28,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "registered_rollout_id": "01a125a8-7b2f-78e3-9029-6ff5acc45ab7",
+    "actual_actions": 27,
+    "logged_actions": 27,
+    "captured_header_count": 462,
+    "alignment_check": "passed",
+    "checks": [
+      "original event IDs",
+      "exact query or pooled batch",
+      "ordered result headers",
+      "exact URLs, refs and titles",
+      "executed and completed clocks"
+    ]
+  }
+}

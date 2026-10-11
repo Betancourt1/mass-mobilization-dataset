@@ -1,0 +1,23 @@
+Lithuania — February 2021
+
+Methods and scope
+
+The registered worker rollout contains 22 actual search actions. All 22 were recovered from that rollout and matched to the saved search log by original event ID, exact query/action, and ordered result headers: 443 headers total. Search coverage used Lithuanian and English terms, month-wide and weekly date windows, Vilnius and regional-city terms, small-business demonstrations, teacher/medical/worker actions, 16 February national-day terms, and Russia/Belarus solidarity searches. Search headings support discovery only. This open-web first pass is not LexisNexis-equivalent and does not prove that no other protest occurred.
+
+Current event leads
+
+LTU202102-E001: One full contemporaneous LRT article was read. It reports symbolic small-business protest actions on 5 February in Vilnius, Klaipėda and Panevėžys, objecting to quarantine restrictions and unequal treatment of small businesses versus large retailers and calling for safe reopening. The article reports that about 50 people joined the Panevėžys action over one hour. It does not establish whether this means cumulative arrivals or simultaneous attendance, and it is not a precise lower bound. Klaipėda had a few protesters plus a few supporters; Vilnius turnout is not reported. No city counts are pooled. A social-media call and same-day actions are documented, but whether the three sites form one national episode or separate local gatherings remains unresolved; eligibility is pending_unit. Police prevented wreath placement at a government-representative office in Panevėžys and participants relocated. The article does not establish protest-caused policy accommodation, dispersal, arrests or protester violence; these coded fields remain unknown.
+
+LTU202102-E002: Search-result headlines identify a possible 16 February Vilnius protest against quarantine requirements associated with teacher Astrauskaitė. No article body was read, so physical date/location, turnout, demands and state response remain unverified; the lead remains pending_evidence.
+
+Sources and access
+
+There are 18 source cards: one body-opened LRT article and 17 search-only cards. 1 current-unit body opens and 0 prior-unit-only body opens. A second LRT English URL is a same-story variant, not an independent confirmation. S006 (JP.lt) and S014 (15min) each received a fresh manual access review, but the immediate full-corpus hash recheck found concurrent changes in another unit’s sources.jsonl, so neither URL was opened. Their receipts, manual notes and failed no-request records are retained. S004 has a receipt but no saved manual note or body request because Phase01 closed before a request. These are aborted gates, not publisher denials or proof of inaccessibility. One earlier S001 gate was also preserved as a no-request record; a later fresh gate passed and its exact article body was read once.
+
+Continuity, exclusions and baseline
+
+No continuation is recorded. Prior-unit LTU202101-E001 is a 12 January Lukiškės Square candlelighting with an unknown end; no evidence links it to the February small-business actions or the separate 16 February anti-quarantine lead. No lead has been conclusively excluded from the search-only evidence, so excluded.json remains empty. The official original manual/baseline remains pending at the coordinator’s baseline gate. Candidates are not official observations and are not merged into the original catalogue.
+
+Open gaps
+
+The main unresolved matters are the same-day multi-city event boundary, city-specific crowd size and the approximate Panevėžys count basis, E002’s occurrence and crowd, exact event ending and any causal state accommodation, and January-to-February continuity. Open-web coverage may omit local or small-town press, inaccessible archives and other sectors. A change in a shared source file stopped the S006 and S014 body requests before opening; no denial was observed. See gaps.json for specific follow-up steps.

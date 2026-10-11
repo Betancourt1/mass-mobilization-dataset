@@ -1,0 +1,97 @@
+[
+  {
+    "gap_id": "ARG2602G001",
+    "type": "search_coverage",
+    "description": "Open-web results are noisy; this pass does not systematically cover provincial/local outlets, all sectors, archives, official records, or LexisNexis. No absence conclusion is supported.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve uncertainty. Continue only after the coordinator completes the applicable exact-target inventory/manual review; verify event dates, public meeting, threshold, domestic state target, reporting independence and adjacent-month continuity from permitted source text."
+  },
+  {
+    "gap_id": "ARG2602G002",
+    "type": "source_access",
+    "description": "S001 and S002 have one direct permitted body read each. The remaining eight exact URL leads are search-only and were not requested. Native action/header metadata remains unknown.",
+    "source_ids": [
+      "ARG2602S001",
+      "ARG2602S002",
+      "ARG2602S003",
+      "ARG2602S004",
+      "ARG2602S005",
+      "ARG2602S006",
+      "ARG2602S007",
+      "ARG2602S008",
+      "ARG2602S009",
+      "ARG2602S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "For S001 verify national/multicity unit ownership, Buenos Aires-specific turnout and arrest discrepancy. For S002 separately verify local attendance thresholds and seek permission before any further exact-target access; do not treat Infobae’s named local sources as independent reads."
+  },
+  {
+    "gap_id": "ARG2602G003",
+    "type": "episode_unit",
+    "description": "S001 reports one Feb 11 multi-city labor-reform action with a central Buenos Aires gathering but does not apportion city attendance. S002 identifies five distinct Feb 19 city gatherings (Rosario, Tucumán, Córdoba, Mendoza, Neuquén) during a national strike; these are separated and no strike-only event is proposed. Other labor/police/retiree leads remain unresolved.",
+    "source_ids": [
+      "ARG2602S001",
+      "ARG2602S002",
+      "ARG2602S003",
+      "ARG2602S004",
+      "ARG2602S005",
+      "ARG2602S006",
+      "ARG2602S007",
+      "ARG2602S008",
+      "ARG2602S009",
+      "ARG2602S010"
+    ],
+    "affected_candidates": [
+      "ARG202602-PENDING-001",
+      "ARG202602-PENDING-002",
+      "ARG202602-PENDING-003",
+      "ARG202602-PENDING-004",
+      "ARG202602-PENDING-005",
+      "ARG202602-PENDING-006"
+    ],
+    "required_followup": "Review Feb 11 national/multi-city action ownership and count localization. For each Feb 19 city gathering, establish >=50 attendance from allowed source text; keep the source article’s local-media attributions unverified and not independent."
+  },
+  {
+    "gap_id": "ARG2602G004",
+    "type": "source_independence",
+    "description": "Feb 19 city details are reported in one Infobae article with attributions to local media (Rosario3, La Gaceta, Cba24/Cadena 3/El Doce, MDZ). These outlets were not opened and are not independent corroboration. The Feb 11 EL PAÍS article is one direct report.",
+    "source_ids": [
+      "ARG2602S001",
+      "ARG2602S002",
+      "ARG2602S003",
+      "ARG2602S004",
+      "ARG2602S005",
+      "ARG2602S006",
+      "ARG2602S007",
+      "ARG2602S008",
+      "ARG2602S009",
+      "ARG2602S010"
+    ],
+    "affected_candidates": [
+      "ARG202602-PENDING-001",
+      "ARG202602-PENDING-002",
+      "ARG202602-PENDING-003",
+      "ARG202602-PENDING-004",
+      "ARG202602-PENDING-005",
+      "ARG202602-PENDING-006"
+    ],
+    "required_followup": "Preserve uncertainty. Continue only after the coordinator completes the applicable exact-target inventory/manual review; verify event dates, public meeting, threshold, domestic state target, reporting independence and adjacent-month continuity from permitted source text."
+  },
+  {
+    "gap_id": "ARG2602G005",
+    "type": "turnout_threshold",
+    "description": "Feb 19 Infobae describes a two-block Rosario column and uses qualitative “masiva/multitudinaria” wording in other cities, with no numeric attendance. Strike adherence, national labor figures and workplace closures do not establish local public-gathering attendance.",
+    "source_ids": [
+      "ARG2602S002"
+    ],
+    "affected_candidates": [
+      "ARG202602-PENDING-002",
+      "ARG202602-PENDING-003",
+      "ARG202602-PENDING-004",
+      "ARG202602-PENDING-005",
+      "ARG202602-PENDING-006"
+    ],
+    "required_followup": "Keep all five city candidates pending threshold; do not convert qualitative terms or column length to a count. Seek no origins or substitutes absent a new exact-target approval."
+  }
+]

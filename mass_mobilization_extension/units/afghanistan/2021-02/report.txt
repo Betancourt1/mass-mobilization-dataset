@@ -1,0 +1,24 @@
+Afghanistan — February 2021 open-web research pass
+
+Status: researched_open_web_pending_review. This is a provisional, non-exhaustive research dossier, not an official catalogue update or approval.
+
+Scope and method
+
+The assigned unit is Afghanistan (provisional code 700), February 1–28, 2021, under the fixed October 7, 2026 cutoff. Twelve logged open-web searches covered all four weekly windows, January–March physical boundaries, Dari, Pashto and English terms, and Kabul, Herat, Nimroz, Kapisa, Wardak/Behsud and broader provincial coverage. Topics included wages and teachers, money changers, transport, security policy, women’s rights, land, utilities and prices. Search volume and returned snippets do not establish complete coverage or absence.
+
+The dossier contains 18 source cards: seven opened original pages, three blocked sources, and eight search-only leads. Captured query headers preserve ordered titles, URLs and provider references, and each search record carries its executed_at timestamp; raw search returns and full article bodies are not retained. Before each original-body request, the saved global source-card and coordinator-check universe was scanned for publisher denials, aliases and shared written origins. Search results were treated as leads only. Access attempts, status, response size, process exit and read scope are recorded in source cards.
+
+Provisional findings
+
+Five candidate records are retained: E001 the Feb. 4 demonstrations reported across seven Kabul-province districts (qualitative “thousands”; unit/coordination unresolved); E002 the Feb. 8 Herat peace-process rally (more than 5,000 reported); E003 the Kabul–Kandahar bus-driver highway action (no turnout); E004 the Feb. 16 Herat teachers’ march (“tens,” without a clear minimum of 50); and E005 the money-changer strike-related public gatherings (no count or site list). E002 is proposed_include; E001 is pending_unit; E003, E004 and E005 are pending_threshold. No exclusions or January-onset continuations are recorded.
+
+Parstoday S014 was opened once at its exact captured URL after a fresh complete no-denial/origin guard: HTTP 200, zero redirects, 72,603 bytes, process exit 0. Its Feb. 6 report describes the national money-changer work stoppage and objection to Central Bank individual-license/company rules, but no public assembly, venue or attendance. Its reported 430 licenses and five company conversions are not turnout. S014 is retained as policy/work-stoppage context only and does not create another candidate or prove that it is the same physical episode as Salam Watandar S003’s reported assemblies. S003’s Feb. 21 meeting with President Ghani supports accommodation for that reported interaction; the promised remedy and work-strike ending do not establish policy implementation or the physical end of public assemblies.
+
+Important limits and unresolved work
+
+All remaining turnout/threshold, exact assembly-unit, physical-end, state-response, episode and source-independence questions remain open as recorded in 29 gaps. In particular, strike or road action alone is not a public assembly; closed businesses, license counts, affected people and workforce totals are not turnout. The exact money-changer assembly onset day remains unresolved across relative and Afghan-calendar clues, while month precision is retained. Teachers’ source independence, bus-driver onset/end, seven-district coordination, and January salary/Behsud boundaries remain unresolved. Later Behsud visits, inquiry findings, detainee contact, armed confrontation and administrative action do not establish a new February gathering or its physical end. The official baseline, universe and supplemental coding procedure remain pending. Blocked access was respected; no retries, bypasses or known-copy requests followed denials or gates.
+
+Validation and temporary files
+
+Four non-mutating validation-script attempts exited 1 on harness assumptions: expecting returned_results[].ref instead of web_ref; counting coordinator-owned assignment.json among the eight research files; expecting literal wording “exit 1” while this report said “exited 1”; and expecting “approximate” where the S001 note says “approximately”. None of these checks changed dossier files. An earlier corrected schema-aware validator passed at 2026-10-09 20:07:50 UTC; the final comprehensive check is run after all dossier edits. A local HTML-parser attempt using unavailable bs4 also exited 1; the standard-library parser then inspected the saved response successfully. The temporary S014 response body and response-header files were removed after inspection (cleanup command exit 0); the one S014 curl process completed with exit 0 and no process remains.
+A later finalization-script attempt exited 1 because a prose replacement anchor did not match the current report; it changed no files. The final structural validation and manifest are recorded after the corrected run.

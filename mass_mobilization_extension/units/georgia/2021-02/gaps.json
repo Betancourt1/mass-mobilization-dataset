@@ -1,0 +1,109 @@
+[
+  {
+    "gap_id": "GEO202102-G001",
+    "type": "threshold",
+    "description": "The reviewed HRC and Civil Georgia passages report about 20 initial detentions and five later detentions at Parliament on February 19–20, not total attendance; the >=50 turnout threshold for GEO202102-E001 remains unknown.",
+    "source_ids": [
+      "GEO202102-S013",
+      "GEO202102-S040"
+    ],
+    "affected_candidates": [
+      "GEO202102-E001"
+    ],
+    "required_followup": "Seek event-level crowd evidence for each day; never substitute the detentions or injuries for attendance."
+  },
+  {
+    "gap_id": "GEO202102-G002",
+    "type": "demand",
+    "description": "HRC and Civil Georgia describe the tent action, police restriction, detentions, and Public Defender’s criticism, but do not establish the participants’ exact demand or organizer for GEO202102-E001.",
+    "source_ids": [
+      "GEO202102-S013",
+      "GEO202102-S040"
+    ],
+    "affected_candidates": [
+      "GEO202102-E001"
+    ],
+    "required_followup": "Review a contemporary organizer statement or additional report; preserve demand and organizer as unknown until attributed evidence is found."
+  },
+  {
+    "gap_id": "GEO202102-G003",
+    "type": "continuity",
+    "description": "The Rioni Valley camp was active before February, described by HRC as reaching day 106 on February 8 and by Civil Georgia as maintaining rotating shifts for more than 100 days by February 28. Exact start/end and uninterrupted physical continuity remain unknown.",
+    "source_ids": [
+      "GEO202102-S013",
+      "GEO202102-S068"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Trace adjacent-month accounts for camp formation, gaps/relocations and eventual closure; do not infer a start or end from an inclusive day count."
+  },
+  {
+    "gap_id": "GEO202102-G004",
+    "type": "candidate_followup",
+    "description": "Search-only leads include February 1 students at the Government Administration (Publika S087), an On.ge student-status action with date unclear (S098), an Adjara-government-building rally (S084), Kakheti disaster-affected residents (S086), Dream City/Batumi housing (S088), Batumi opposition rally (S089), February 21 restrictions/Social Explosions (S017, S091, S100–S105), a three-city fuel-price protest (S099), and Tkibuli reporting (S094–S097). News Georgia S090 instead points to a January 27 tuition-fee action and is an adjacent-month lead. The Georgia Today Tkibuli read (S093) supports X001 exclusion, not a public state-directed assembly.",
+    "source_ids": [
+      "GEO202102-S017",
+      "GEO202102-S084",
+      "GEO202102-S086",
+      "GEO202102-S087",
+      "GEO202102-S088",
+      "GEO202102-S089",
+      "GEO202102-S090",
+      "GEO202102-S091",
+      "GEO202102-S092",
+      "GEO202102-S094",
+      "GEO202102-S095",
+      "GEO202102-S096",
+      "GEO202102-S097",
+      "GEO202102-S098",
+      "GEO202102-S099",
+      "GEO202102-S100",
+      "GEO202102-S101",
+      "GEO202102-S102",
+      "GEO202102-S103",
+      "GEO202102-S104",
+      "GEO202102-S105"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify exact event dates, actual public assembly, >=50 threshold, participant-attributed own-state demands, organizer, episode boundaries and responses from exact bodies under a fresh receipt/full manual review/immediate whole-input check. Keep the January lead and uncertain-date student action outside February unless evidence dates them within the month."
+  },
+  {
+    "gap_id": "GEO202102-G005",
+    "type": "field_evidence",
+    "description": "The February 6–7 curfew-defiance actions in Tbilisi and Batumi, February 21 restrictions rally, and post-raid/February 26 opposition rallies are still supported mainly by search headers. E001 has body evidence but still lacks crowd size, exact demand and closure; E002 has body evidence for “thousands” and government-directed HPP demands but lacks exact attendance and event end.",
+    "source_ids": [
+      "GEO202102-S013",
+      "GEO202102-S017",
+      "GEO202102-S033",
+      "GEO202102-S040",
+      "GEO202102-S044",
+      "GEO202102-S059",
+      "GEO202102-S068",
+      "GEO202102-S091",
+      "GEO202102-S098"
+    ],
+    "affected_candidates": [
+      "GEO202102-E001",
+      "GEO202102-E002"
+    ],
+    "required_followup": "Open the exact curfew and later-opposition pages under fresh access receipts, complete manual publisher/origin review and immediate whole-input checks; compare origins before treating coverage as independent. Keep unknown response/violence values unknown."
+  },
+  {
+    "gap_id": "GEO202102-G006",
+    "type": "coverage",
+    "description": "Open-web search is not a systematic LexisNexis search. The search log records English, Georgian, and Russian queries, but local archives, language variants, worker/student/environmental coverage, access failures, and after-month continuation searches remain incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted local-language and retrospective searches for February and immediate adjacent dates; report inaccessible archives and retain the non-exhaustive coverage limit."
+  },
+  {
+    "gap_id": "GEO202102-G007",
+    "type": "access",
+    "description": "Publika’s exact February 1 student article (S087) returned a reader Cache miss after a compliant exact-URL preflight; no body or HTTP denial was observed. The On.ge February 21 page (S091) has not been read: one web.open was rejected after a malformed URL, another receipt targeted a typo and was unused, and the later exact A012 note was followed by an immediate corpus hash change in Honduras, so the request was stopped. None of these outcomes is an explicit site denial.",
+    "source_ids": [
+      "GEO202102-S087",
+      "GEO202102-S091"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep both sources search-only. If either body is still needed, use its exact saved URL, refresh the receipt, complete a full matching publisher/origin review, and immediately verify every input path/hash before requesting; stop on any change."
+  }
+]

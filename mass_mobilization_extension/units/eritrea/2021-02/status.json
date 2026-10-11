@@ -1,0 +1,33 @@
+{
+  "unit_id": "eritrea_2021-02",
+  "country": "Eritrea",
+  "month": "2021-02",
+  "agent_task": "01a12529-b9ec-7f91-811b-4f67958dc5d0",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T09:35:38.607000+00:00",
+  "finished_at": "2026-10-10T09:44:08.373041+00:00",
+  "n_queries": 6,
+  "n_sources": 14,
+  "n_candidates": 0,
+  "n_excluded": 9,
+  "n_continuations": 0,
+  "n_gaps": 10,
+  "coverage_assessment": "Six actual batched web-search responses covering 22 constituent strings in English, Arabic and Tigrinya; 165 ordered headers captured. No qualifying domestic Eritrea event established. All source cards remain search_only and no body was requested or read. LexisNexis/local archives and fluent language review remain open; do not infer zero events. 0 current-unit body opens; 0 prior-unit-only body opens.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened": 0,
+    "search_only": 14,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "query_capture_integrity": {
+    "actual_search_responses": 6,
+    "constituent_search_strings": 22,
+    "captured_header_count": 165,
+    "capture_method": "extract_search_captures.py from registered rollout, persisted with research.py capture-search"
+  },
+  "body_read_counts": {
+    "physical_body_reads": 0,
+    "usable_compliant_evidence_sources": 0
+  }
+}

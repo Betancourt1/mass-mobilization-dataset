@@ -1,0 +1,157 @@
+[
+  {
+    "candidate_id": "lebanon_2021-02-E001",
+    "country": "Lebanon",
+    "ccode": 660,
+    "unit_month": "2021-02",
+    "title": "Bkerki rally supporting the Maronite Patriarch’s neutrality call",
+    "start_date": "2021-02-27",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the Maronite Patriarchate in Bkerki",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "The961’s headline says “Thousands”; the article body says “a large number” and gives no numeric count or method.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The contemporaneous page headline describes thousands at this rally, while its body uses only “a large number”; this is an attributed qualitative outlet claim and has no disclosed counting method. The body describes the gathering as peaceful.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "LBN202102-S027"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "LBN202102-S027"
+        ],
+        "summary": "The article dateline is Feb. 27, 2021; it labels the demonstration as Saturday and separately notes a Feb. 28 page update. The update is not treated as event duration."
+      },
+      "location": {
+        "source_ids": [
+          "LBN202102-S027"
+        ],
+        "summary": "The text places the gathering outside the Maronite Patriarchate at Bkerki."
+      },
+      "demands": {
+        "source_ids": [
+          "LBN202102-S027"
+        ],
+        "summary": "The outlet says the crowd supported Patriarch Bechara al-Rahi’s call for neutrality and an international conference, alongside appeals to Lebanese officials to work across sectarian barriers. Whether this support rally itself constituted a demand to the State remains unresolved."
+      },
+      "participants_original": {
+        "source_ids": [
+          "LBN202102-S027"
+        ],
+        "summary": "The headline says “Thousands,” while the body says “a large number” without a numeric estimate or method; no range is inferred."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "LBN202102-S027"
+        ],
+        "summary": "The opened article’s headline reports thousands, sufficient as an attributed outlet claim to clear 50; no exact count or counting method is available."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "LBN202102-S027"
+        ],
+        "summary": "The article describes the demonstration as peaceful; no separate event-wide incident account is given."
+      }
+    },
+    "eligibility": "pending_state_target",
+    "coding_status": "agent_coded_pending_review",
+    "open_questions": [
+      "Does support for the patriarch’s national policy call establish a demand directed at the Lebanese State, given the spokesperson’s statement that the event was not political?",
+      "Can the rally’s crowd size be independently verified beyond the outlet headline?",
+      "What was the physical end time/date? Unknown."
+    ],
+    "notes": "This is a Feb. 27 physical gathering. It is not merged with the Jan. 25–28 Tripoli anti-lockdown episode or the possible Jan. 31 Tripoli resumption; no continuity relationship is evidenced."
+  },
+  {
+    "candidate_id": "lebanon_2021-02-E002",
+    "country": "Lebanon",
+    "ccode": 660,
+    "unit_month": "2021-02",
+    "title": "Feb. 15 military-court sit-in for release of Tripoli detainees",
+    "start_date": "2021-02-15",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the Military Court in Beirut",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "LBCI reports “a number of protesters,” with no numerical count.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Not established: “a number of” provides no numeric count or lower bound of 50. Retain as a physical gathering lead with pending threshold.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "LBN202102-S008"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "LBN202102-S008"
+        ],
+        "summary": "The LBCI dateline is Feb. 15, 2021 and the article says the sit-in was held on Monday."
+      },
+      "location": {
+        "source_ids": [
+          "LBN202102-S008"
+        ],
+        "summary": "LBCI places the gathering outside the Military Court in Beirut."
+      },
+      "demands": {
+        "source_ids": [
+          "LBN202102-S008"
+        ],
+        "summary": "The stated demand was release of people arrested after the Tripoli riots."
+      },
+      "participants_original": {
+        "source_ids": [
+          "LBN202102-S008"
+        ],
+        "summary": "The article says “a number of protesters,” without a numerical estimate."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "LBN202102-S008"
+        ],
+        "summary": "No evidence in this source supports at least 50 participants."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "lebanon_military_court_detainee_release_feb2021",
+    "open_questions": [
+      "Did this sit-in reach 50 participants?",
+      "What was its physical end time/date?",
+      "How does this dated Feb. 15 sit-in relate to the separately reported Feb. 5–13 court gatherings?"
+    ],
+    "notes": "A distinct Feb. 15 physical Beirut sit-in is established; it is not a Tripoli lockdown action and is not merged with other court gatherings without unit-level evidence."
+  }
+]

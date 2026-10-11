@@ -1,0 +1,320 @@
+[
+  {
+    "gap_id": "spain_2021-01-G001",
+    "type": "source_independence",
+    "description": "The only opened contemporary report located so far attributes attendance and police-handling details for the Madrid January 23 march to sources from the Government Delegation in Madrid; independent confirmation has not yet been read.",
+    "source_ids": [
+      "spain_2021-01-S001"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E001"
+    ],
+    "required_followup": "Search and open a distinct contemporary report or primary record; compare authorship and underlying information before treating it as independent corroboration."
+  },
+  {
+    "gap_id": "spain_2021-01-G002",
+    "type": "baseline",
+    "description": "The shared baseline record says the latest official event files, current schema/universe, and additional Coding Procedure are unresolved; this dossier remains a candidate-only extension.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to continue the documented baseline access and compatibility work; do not assign official identifiers or merge candidates."
+  },
+  {
+    "gap_id": "spain_2021-01-G003",
+    "type": "participants",
+    "description": "A CSIF page announces Canary Islands public-administration work stoppages on 11 and 15 January but does not establish actual participation, numbers, or a public assembly.",
+    "source_ids": [
+      "spain_2021-01-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search contemporaneous regional media or official records for execution and any public gathering; do not code a protest event from the announcement alone."
+  },
+  {
+    "gap_id": "spain_2021-01-G004",
+    "type": "episode_unit",
+    "description": "A January 20 advance report lists a Madrid travel-agency march planned for 21 January, but follow-up coverage has not established whether it occurred or whether 50 people attended.",
+    "source_ids": [
+      "spain_2021-01-S006"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E002"
+    ],
+    "required_followup": "Find a post-event source for Madrid that verifies occurrence, human turnout, organizer and state-directed demands; keep the physical date null until occurrence is evidenced."
+  },
+  {
+    "gap_id": "spain_2021-01-G005",
+    "type": "participants",
+    "description": "A January 21 report confirms a car march in Valencia, but gives no human turnout; vehicle counts cannot establish the required 50-person threshold.",
+    "source_ids": [
+      "spain_2021-01-S007"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E003"
+    ],
+    "required_followup": "Find a direct or independent human attendance estimate; preserve the event as pending_threshold until the number is supported."
+  },
+  {
+    "gap_id": "spain_2021-01-G006",
+    "type": "source_access",
+    "description": "A Catalan-language search result titles a university-student protest about the education crisis and university rectors, but the exact 3CatInfo page returned an actual 403; date, turnout, organizer and state/policy target are unverified.",
+    "source_ids": [
+      "spain_2021-01-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search a distinct contemporaneous source or organizer record without retrying or bypassing the blocked page; retain the lead as unverified unless event details are established."
+  },
+  {
+    "gap_id": "spain_2021-01-G007",
+    "type": "language",
+    "description": "The first Basque-language query returned primarily out-of-window material; the one opened article is dated 23 April 2021, so this search did not establish January coverage.",
+    "source_ids": [
+      "spain_2021-01-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use additional Basque-language terms and date windows or a distinct local source; do not infer absence from this low-precision result set."
+  },
+  {
+    "gap_id": "spain_2021-01-G008",
+    "type": "dates",
+    "description": "MODEPEN's archive and two event pages list a Vigo concentration on 4 January and a Lugo gathering on 15 January, but do not explicitly state that either was held; physical start dates remain null.",
+    "source_ids": [
+      "spain_2021-01-S013",
+      "spain_2021-01-S014",
+      "spain_2021-01-S015"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E004",
+      "spain_2021-01-E005"
+    ],
+    "required_followup": "Find contemporaneous reporting, photographs with dates, or a post-event organizer account that confirms each gathering took place before assigning physical start dates."
+  },
+  {
+    "gap_id": "spain_2021-01-G009",
+    "type": "participants",
+    "description": "MODEPEN's January event listings give no human attendance for the Lugo or Vigo gatherings; the 50-person threshold remains unknown.",
+    "source_ids": [
+      "spain_2021-01-S013",
+      "spain_2021-01-S014",
+      "spain_2021-01-S015"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E004",
+      "spain_2021-01-E005"
+    ],
+    "required_followup": "Seek direct or independent attendance evidence for each city; do not infer numbers from the event archive or campaign size."
+  },
+  {
+    "gap_id": "spain_2021-01-G010",
+    "type": "episode_unit",
+    "description": "The MODEPEN listings link separate city/date actions around public pensions and the gender gap, plus a multi-site call explicitly marked suspended on 25 January; the relation among physical episodes is unresolved.",
+    "source_ids": [
+      "spain_2021-01-S013",
+      "spain_2021-01-S014",
+      "spain_2021-01-S015"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E004",
+      "spain_2021-01-E005"
+    ],
+    "required_followup": "Review original episode rules and campaign coordination before linking or splitting; preserve the tentative episode key and separate physical dates."
+  },
+  {
+    "gap_id": "spain_2021-01-G011",
+    "type": "participants",
+    "description": "El Salto announced the MATS demonstration and Telemadrid confirms that it occurred on 22 January, but the latter gives only qualitative attendance and no numeric lower bound; the 50-person threshold remains unverified.",
+    "source_ids": [
+      "spain_2021-01-S016",
+      "spain_2021-01-S018"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E006"
+    ],
+    "required_followup": "Search distinct contemporaneous reporting or a post-event organizer record for actual human turnout, and keep eligibility pending until the threshold is supported."
+  },
+  {
+    "gap_id": "spain_2021-01-G012",
+    "type": "source_independence",
+    "description": "A community-association page reproduces the report of a 24 January Burgos business-sector demonstration and credits Diario de Burgos; the more-than-1,500 estimate is attributed to organizers, with no independent confirmation located.",
+    "source_ids": [
+      "spain_2021-01-S017"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E007"
+    ],
+    "required_followup": "Locate the original Diario de Burgos report or an independent contemporaneous account and compare the attendance attribution; preserve the current figure as one organizer estimate."
+  },
+  {
+    "gap_id": "spain_2021-01-G013",
+    "type": "source_independence",
+    "description": "The January 18 Burgos hospitality gathering and its 300-person figure are visible in a community page that credits burgosnoticias.com; the original item or independent corroboration has not yet been located.",
+    "source_ids": [
+      "spain_2021-01-S017"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E008"
+    ],
+    "required_followup": "Locate the original burgosnoticias.com report or an independent contemporary account, preserve the 300 figure as one report's estimate, and keep event-specific state responses unknown until evidenced."
+  },
+  {
+    "gap_id": "spain_2021-01-G014",
+    "type": "episode_unit",
+    "description": "A 19 January report announces a TERE concentration in Hospital La Paz's plaza during a 21 January emergency-service strike, but no post-event evidence establishes that the public gathering occurred. The 157-to-3 figure is a strike-authorization vote, not turnout.",
+    "source_ids": [
+      "spain_2021-01-S019"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E009"
+    ],
+    "required_followup": "Find a contemporaneous post-event report or organizer account establishing whether the concentration occurred and its human attendance; do not use strike votes as participants."
+  },
+  {
+    "gap_id": "spain_2021-01-G015",
+    "type": "participants",
+    "description": "The 31 January coordinated car-convoy action has an approximate human estimate for Santander but no national attendee total; the multi-city total is unknown.",
+    "source_ids": [
+      "spain_2021-01-S020",
+      "spain_2021-01-S025",
+      "spain_2021-01-S026",
+      "spain_2021-01-S027"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E010"
+    ],
+    "required_followup": "Seek independent human attendance estimates by city or an explicit national estimate. Do not sum vehicles, affected workers, or city locations."
+  },
+  {
+    "gap_id": "spain_2021-01-G016",
+    "type": "contested_evidence",
+    "description": "Sources disagree on the city count and reported time window for the 31 January convoy: RTVE/Europa Press lists 27 locations, while USO reports Cantabria plus 27 other cities. InfoLibre/MadridActual report 11:00–12:00; USO reports a Santander route ending at 13:00.",
+    "source_ids": [
+      "spain_2021-01-S020",
+      "spain_2021-01-S024",
+      "spain_2021-01-S025",
+      "spain_2021-01-S026",
+      "spain_2021-01-S027",
+      "spain_2021-01-S028",
+      "spain_2021-01-S032"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E010"
+    ],
+    "required_followup": "Compare source-level origin, site coverage and time definitions; preserve the conflict until an independent direct account resolves it. Do not infer a national end time."
+  },
+  {
+    "gap_id": "spain_2021-01-G017",
+    "type": "participants",
+    "description": "The 14 January public-employees concentrations are reported in Pamplona and about 40 cities, but no human attendance count is given; the 50-person threshold is unresolved.",
+    "source_ids": [
+      "spain_2021-01-S030"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E011"
+    ],
+    "required_followup": "Find human turnout evidence for an individual gathering or the national call; location count and workforce totals are not attendance."
+  },
+  {
+    "gap_id": "spain_2021-01-G018",
+    "type": "source_independence",
+    "description": "The 31 January national reports have a shared or uncertain reporting chain: RTVE identifies Europa Press in its byline, MadridActual attributes its article to MA/EP, INAP explicitly republishes RTVE, and Diario de Navarra credits Europa Press. Opened infoLibre paragraphs materially match the RTVE/Europa Press story, although its page credits only the photo to Europa Press; do not infer text origin from photo credit alone.",
+    "source_ids": [
+      "spain_2021-01-S024",
+      "spain_2021-01-S026",
+      "spain_2021-01-S027",
+      "spain_2021-01-S028",
+      "spain_2021-01-S032"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E010"
+    ],
+    "required_followup": "Compare the article text and bylines against source originals, obtain distinct local or organizer reporting, and do not count agency republications or copied text as independent corroboration."
+  },
+  {
+    "gap_id": "spain_2021-01-G019",
+    "type": "source_access",
+    "description": "A Teruel municipal-document URL surfaced in follow-up search but its web open returned Internal Error; its body was not read and the search-only lead is not used to establish an event.",
+    "source_ids": [
+      "spain_2021-01-S029"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E011"
+    ],
+    "required_followup": "If needed, recover only by an ordinary request to the same public URL after the web error; otherwise retain as search-only and do not use its snippet as evidence."
+  },
+  {
+    "gap_id": "spain_2021-01-G020",
+    "type": "source_independence",
+    "description": "The 14 January concentration is supported by one Diario de Navarra account reproduced in a CCOO-hosted PDF; no separate original-page copy or independent contemporaneous report was located in this follow-up.",
+    "source_ids": [
+      "spain_2021-01-S030",
+      "spain_2021-01-S029"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E011"
+    ],
+    "required_followup": "Locate the original Diario de Navarra item or a distinct contemporaneous account, and verify which locations and organizations it covered."
+  },
+  {
+    "gap_id": "spain_2021-01-G021",
+    "type": "episode_unit",
+    "description": "Cross-month searches surfaced a 12 December 2020 Aragón protest and a planned 15 February 2021 nationwide action concerning public-employment temporality. Their bodies were not opened; these date-specific leads do not establish a physical episode continuing into or out of January.",
+    "source_ids": [
+      "spain_2021-01-S033",
+      "spain_2021-01-S034"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E010",
+      "spain_2021-01-E011"
+    ],
+    "required_followup": "If unit-boundary review requires it, open the two exact public pages and verify whether these were separate one-day actions. Do not represent the repeated campaign as a continuous physical gathering."
+  },
+  {
+    "gap_id": "spain_2021-01-G022",
+    "type": "participants",
+    "description": "The 29 January UAM student protest is confirmed, but the report supplies no student attendance number; whether the gathering reached 50 is unresolved.",
+    "source_ids": [
+      "spain_2021-01-S038"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E012"
+    ],
+    "required_followup": "Find an organizer or independent contemporary human attendance estimate; do not use unrelated page content as turnout."
+  },
+  {
+    "gap_id": "spain_2021-01-G023",
+    "type": "state_target",
+    "description": "The immediate target of the UAM student protest was the public university Rectorate, while Telemadrid says the Community of Madrid and rectors jointly agreed on in-person exams. The boundary between university administration and domestic state-policy demand should be calibrated against the original coding rules.",
+    "source_ids": [
+      "spain_2021-01-S038"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E012"
+    ],
+    "required_followup": "Review the original state-target rule and, if needed, locate the students' own statement clarifying which authority they petitioned."
+  },
+  {
+    "gap_id": "spain_2021-01-G024",
+    "type": "episode_unit",
+    "description": "The 30 January environmental action was coordinated across multiple cities. The organization report says several activists in Seville but hundreds across many cities, without per-site counts; threshold eligibility depends on preserving the national call as one multi-site unit rather than splitting locations.",
+    "source_ids": [
+      "spain_2021-01-S035",
+      "spain_2021-01-S036",
+      "spain_2021-01-S037"
+    ],
+    "affected_candidates": [
+      "spain_2021-01-E013"
+    ],
+    "required_followup": "Check the original multi-site event rule, obtain site-level counts and full location list, and retain separate uncertainty about whether the Seville component alone cleared 50."
+  },
+  {
+    "gap_id": "spain_2021-01-G025",
+    "type": "dates",
+    "description": "The farm-protest query surfaced prominent January actions dated 2020, including a UPA/UGT schedule and a retrospective ASAJA article in its January 2021 issue. These are not January 2021 events; no 2021 farm action was verified through these leads.",
+    "source_ids": [
+      "spain_2021-01-S039",
+      "spain_2021-01-S040",
+      "spain_2021-01-S041"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue local agricultural-source discovery if needed; do not carry 2020 physical actions into this unit or infer no January 2021 farm protest from these search results."
+  }
+]

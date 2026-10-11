@@ -1,0 +1,60 @@
+{
+  "year": "2026",
+  "state": "STOPPED_SAVED",
+  "cutoff": "2026-10-07",
+  "event_timezone": "America/Mexico_City",
+  "official_approvals": 0,
+  "source_revision": "478b54f6518d2d3b6f998546407b79576f383693",
+  "source_stop_checkpoint_sha256": "97e822c4f4157054af74bd4eaa62e37bff2cbf6612ef1b61d9e1e7616890394a",
+  "committed_first_pass_units": 28,
+  "provisional_year_scope": 1600,
+  "boundary": "28 bounded first passes and 10 provisional candidates committed; two additional reviewed units remain unapplied. Bangladesh/Belgium body followups partial/unreviewed.",
+  "export_status": "PUBLICATION_SAFETY_FILTERED_SNAPSHOT; some dossier files omitted; no scientific re-review or consolidation",
+  "history_status": "fresh parentless export; original local Git history retained and not pushed",
+  "retained_safe_source_files": 1736,
+  "omission_reasons": [
+    {
+      "reason": "ambiguous_token_url_parameter",
+      "count": 1
+    },
+    {
+      "reason": "contact_or_personal_identifier_pattern",
+      "count": 42
+    },
+    {
+      "reason": "credential_pattern",
+      "count": 7
+    },
+    {
+      "reason": "legacy_original_source_prose",
+      "count": 1
+    },
+    {
+      "reason": "literal_runtime_path",
+      "count": 4
+    },
+    {
+      "reason": "local_workstation_or_runtime_path",
+      "count": 82
+    },
+    {
+      "reason": "outside_safe_allowlist",
+      "count": 974
+    },
+    {
+      "reason": "raw_or_excerpt_field",
+      "count": 17
+    },
+    {
+      "reason": "source_or_search_ledger_ambiguous_raw_payload",
+      "count": 469
+    },
+    {
+      "reason": "unparseable_structured_file",
+      "count": 1
+    }
+  ],
+  "omission_count_scope": "Counts cover enumerated candidate paths only; protected directories were pruned without opening and are additionally excluded.",
+  "source_search_ledger_policy": "All source and search ledgers omitted: raw result/body text can appear under misleading title or label keys. Local originals retained.",
+  "scope_limit": "January through October 7 inclusive; October is partial."
+}

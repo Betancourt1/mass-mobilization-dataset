@@ -1,0 +1,37 @@
+{
+  "unit_id": "colombia_2021-01",
+  "country": "Colombia",
+  "month": "2021-01",
+  "agent_task": "/root/colombia_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08 08:34:31 UTC",
+  "finished_at": "2026-10-08 08:43:27 UTC",
+  "n_queries": 48,
+  "n_sources": 187,
+  "n_candidates": 18,
+  "n_excluded": 5,
+  "n_continuations": 1,
+  "n_gaps": 18,
+  "coverage_assessment": "First Spanish/English open-web pass with generic/weekly, sector/regional and December/February boundary checks. Merchant/curfew reporting dominates; threshold, earliest starts, episode boundaries and many sources unresolved. No exhaustive archive, Indigenous-language or independent human review; no absence inference.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources_started": [
+    {
+      "resource": "Foreground public HTTPS reader 5194",
+      "status": "exit0_verified"
+    },
+    {
+      "resource": "Foreground public HTTPS reader 78746",
+      "status": "exit0_verified"
+    },
+    {
+      "resource": "Foreground public HTTPS reader 25949",
+      "status": "exit0_verified"
+    },
+    {
+      "resource": "Foreground public HTTPS reader 76925",
+      "status": "exit0_verified"
+    }
+  ],
+  "temporary_resources_remaining": [],
+  "next_action": "Coordinator review and independent read-only batch audit of frozen unit before local commit; resolve explicit gaps."
+}

@@ -1,0 +1,25 @@
+{
+  "unit_id": "czech_republic_2021-01",
+  "country": "Czech Republic",
+  "month": "2021-01",
+  "agent_task": "/root/czech_republic_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T09:51:22.969557+00:00",
+  "finished_at": "2026-10-08T10:05:20.013020+00:00",
+  "n_queries": 67,
+  "n_sources": 106,
+  "n_candidates": 14,
+  "n_excluded": 6,
+  "n_continuations": 3,
+  "n_gaps": 21,
+  "coverage_assessment": "Documented open-web first pass with Czech/English weekly, regional, sector and boundary searches; uneven archive access, search-only leads and unresolved public gathering/threshold/episode questions. Not exhaustive.",
+  "baseline_gate": "pending_official_baseline",
+  "eligibility_counts": {
+    "pending_threshold": 5,
+    "pending_evidence": 3,
+    "proposed_include": 3,
+    "pending_unit": 3
+  },
+  "temporary_resources_started": "Two finite public HTTPS-reader calls; both returned exit0. No server/browser/background resource started. Own temporary metadata/input/builder files removed after checks.",
+  "official_update": false
+}

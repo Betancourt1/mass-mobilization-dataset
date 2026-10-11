@@ -1,0 +1,266 @@
+[
+  {
+    "gap_id": "austria_2021-02_G001",
+    "type": "baseline",
+    "description": "The official current Mass Mobilization baseline, country universe, current schema, license and additional coding procedure have not been verified against these worker records. Country code305 is provisional and candidate IDs are local review keys only.",
+    "source_ids": [],
+    "affected_candidates": [
+      "austria_2021-02_E001",
+      "austria_2021-02_E002",
+      "austria_2021-02_E003",
+      "austria_2021-02_E004",
+      "austria_2021-02_E005",
+      "austria_2021-02_E006",
+      "austria_2021-02_E007",
+      "austria_2021-02_E008"
+    ],
+    "required_followup": "Coordinator should verify the authorized current baseline/version, country universe, schema, terms and episode rules before official mapping or export."
+  },
+  {
+    "gap_id": "austria_2021-02_G002",
+    "type": "search_method_coverage",
+    "description": "The saved first pass now contains 41 search-response records and 760 aligned result headers. Exact original response recovery restored three previously uncaptured arrays (62 headers) as AT-RECOVER-001 through AT-RECOVER-003 and replaced seven partial records, restoring 30 omitted headers. These are actual earlier responses, not new searches; original titles, full raw URLs, references, types, domains, order and observed clocks are retained, with snippets omitted. One three-term web call (AT-Q036) remains preserved at invocation scope because its 24 returned headers were not partitioned by query. Searches cover generic German and English terms, weekly February windows, ORF regional/local queries, education/work/climate leads, episode-detail follow-ups and January/March boundaries. Search filters returned substantial out-of-period and unrelated material. This is open-web discovery, not the manual's LexisNexis workflow; no provider result totals are exposed and no exhaustive or protest-absence claim follows. Restored titles include additional Vienna and regional ORF results mentioning Linz, Innsbruck and Graz; these remain discovery-only headers because they do not establish exact February event dates, qualifying attendance or event boundaries, so no candidates or event fields were added from those titles.",
+    "source_ids": [],
+    "affected_candidates": [
+      "austria_2021-02_E001",
+      "austria_2021-02_E002",
+      "austria_2021-02_E003",
+      "austria_2021-02_E004",
+      "austria_2021-02_E005",
+      "austria_2021-02_E006",
+      "austria_2021-02_E007",
+      "austria_2021-02_E008"
+    ],
+    "required_followup": "If broader coverage is required, add dated newspaper-archive work and independent local/regional/sector searches; preserve actual query-to-response boundaries and do not infer absence from irrelevant or empty-looking results."
+  },
+  {
+    "gap_id": "austria_2021-02_G003",
+    "type": "language",
+    "description": "Searches were German-led with some English queries. There was no independent second-reader or systematic review of additional community-language channels; source discovery and interpretation may therefore underrepresent events outside the queried terms and outlets.",
+    "source_ids": [],
+    "affected_candidates": [
+      "austria_2021-02_E001",
+      "austria_2021-02_E002",
+      "austria_2021-02_E003",
+      "austria_2021-02_E004",
+      "austria_2021-02_E005",
+      "austria_2021-02_E006",
+      "austria_2021-02_E007",
+      "austria_2021-02_E008"
+    ],
+    "required_followup": "Have an independent German-language researcher review the event and source coding, and use local-language channels where a candidate or organizer indicates their relevance."
+  },
+  {
+    "gap_id": "austria_2021-02_G004",
+    "type": "participants_threshold",
+    "description": "The 4 February FFF/Bau-Holz public-building action (E008) is established by two related organizational accounts, but neither opened body gives an attendance number or qualitative crowd size. It remains pending_threshold; the event's occurrence is not proof that50 people attended.",
+    "source_ids": [
+      "AT-S030",
+      "AT-S031",
+      "AT-S032"
+    ],
+    "affected_candidates": [
+      "austria_2021-02_E008"
+    ],
+    "required_followup": "Seek an event-specific contemporary turnout account or direct attendance record. Do not infer crowd size from participating organizations, cameras, buildings or the later union report."
+  },
+  {
+    "gap_id": "austria_2021-02_G005",
+    "type": "inaccessible_sources",
+    "description": "AT-S030 is supported by the exact Q032 result header at https://fridaysforfuture.at/events/gewerkschaft-bau-holz-und-fridays-for-future-fordern-klimawende-im-gebaudesektor, and its source-card URL now matches that header. Both preserved access receipts and failed-request entries target the mistyped URL https://fridaysforfuture.at/events/gewerkschaft-bau-holz-und-fridays-for-future-fordern-klimawende-im-gebaeudesektor. The Internal Error and DNS failure therefore apply only to that typo, not to the correct result URL. The correct page was not opened and remains search-only; its title/result does not establish attendance.",
+    "source_ids": [
+      "AT-S030",
+      "AT-S031",
+      "AT-S032"
+    ],
+    "affected_candidates": [
+      "austria_2021-02_E008"
+    ],
+    "required_followup": "If body retrieval is attempted later, use the exact Q032 URL https://fridaysforfuture.at/events/gewerkschaft-bau-holz-und-fridays-for-future-fordern-klimawende-im-gebaudesektor and run a fresh access check for it. Do not reuse the receipts for https://fridaysforfuture.at/events/gewerkschaft-bau-holz-und-fridays-for-future-fordern-klimawende-im-gebaeudesektor or infer turnout from a search result; the opened FFF and ÖGB accounts still give no attendance measure."
+  },
+  {
+    "gap_id": "austria_2021-02_G006",
+    "type": "inaccessible_sources",
+    "description": "The 27 February St. Pölten ORF result AT-S024 remains a lead only. One web open returned Cache miss and one ordinary unauthenticated HTTPS request to the exact URL failed at DNS after a fresh second check. The search result's approximate70 attendees and four short-term arrests were not used as event evidence, so no St. Pölten candidate is coded here.",
+    "source_ids": [
+      "AT-S024"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Look for an accessible contemporaneous local report or later exact-URL availability; if body evidence is recovered, assess event date, qualifying turnout and state response before adding any candidate. Do not bypass access controls or treat snippet text as confirmation."
+  },
+  {
+    "gap_id": "austria_2021-02_G007",
+    "type": "unverified_lead",
+    "description": "The OTS notice AT-S011 advertises an 'Aufstehen für Bildung' demonstration at Vienna's Ballhausplatz on15February. Follow-up searches did not locate an event report or turnout evidence; announcement alone does not establish execution or threshold. No candidate is created from the notice.",
+    "source_ids": [
+      "AT-S011",
+      "AT-S029"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek a contemporaneous post-event report or organizer record that confirms the action took place and documents attendance; otherwise retain this only as an unverified announcement."
+  },
+  {
+    "gap_id": "austria_2021-02_G008",
+    "type": "unverified_lead",
+    "description": "The 4 February ORF Niederösterreich result AT-S033 describes a proposed6February Wiener Neustadt 'Faschingsumzug' against COVID measures. The result does not establish that it occurred or reached50 participants, so it remains outside events.json.",
+    "source_ids": [
+      "AT-S033"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find a contemporary post-event source with execution, location and turnout evidence before deciding whether a separate candidate belongs in the unit."
+  },
+  {
+    "gap_id": "austria_2021-02_G009",
+    "type": "dates",
+    "description": "Physical endings remain incomplete: E001, E002, E004, E005 and E008 have unknown end dates; E003 is reported only into the evening/late evening, E006's dissolution does not provide an exact physical end time, and E007 ended shortly after16:00 without a precise minute. January boundary C001 also has an unknown physical end despite a police-operation end around19:30; C002 has no exact end. The February/March search leads S027/S028 do not establish a February continuation.",
+    "source_ids": [
+      "AT-S001",
+      "AT-S006",
+      "AT-S009",
+      "AT-S020",
+      "AT-S021",
+      "AT-S022",
+      "AT-S023",
+      "AT-S031",
+      "AT-S032",
+      "AT-S026",
+      "AT-S027",
+      "AT-S028",
+      "AT-S034",
+      "AT-S035"
+    ],
+    "affected_candidates": [
+      "austria_2021-02_E001",
+      "austria_2021-02_E002",
+      "austria_2021-02_E003",
+      "austria_2021-02_E004",
+      "austria_2021-02_E005",
+      "austria_2021-02_E006",
+      "austria_2021-02_E007",
+      "austria_2021-02_E008",
+      "austria_2021-01_E002",
+      "austria_2021-01_E008"
+    ],
+    "required_followup": "Use event-specific reports that state when participants physically left or an assembly definitively ended. Do not substitute report/update date, initial dissolution, police-operation end or month boundary for physical end. Keep January ownership and do not infer February-to-March continuation from separate later events."
+  },
+  {
+    "gap_id": "austria_2021-02_G010",
+    "type": "state_response",
+    "description": "Several response dimensions remain unknown because bodies are silent or ambiguous. E001, E004, E005, E007 and E008 lack event-specific evidence for many or all coded categories; E002's mask/distance warnings are not linked to an intended breakup or move and do not establish crowd_dispersal. E003 arrests are yes but dispersal is not established; E006 arrests and assembly dissolution are reported, while protester violence remains unclear. Silence is not coded as ignore or no response.",
+    "source_ids": [
+      "AT-S006",
+      "AT-S007",
+      "AT-S009",
+      "AT-S020",
+      "AT-S021",
+      "AT-S022",
+      "AT-S023",
+      "AT-S031",
+      "AT-S032"
+    ],
+    "affected_candidates": [
+      "austria_2021-02_E001",
+      "austria_2021-02_E002",
+      "austria_2021-02_E003",
+      "austria_2021-02_E004",
+      "austria_2021-02_E005",
+      "austria_2021-02_E006",
+      "austria_2021-02_E007",
+      "austria_2021-02_E008"
+    ],
+    "required_followup": "Seek event-specific reporting of police actions and protester conduct; keep each state-response field and protester_violence unknown unless that evidence directly supports a category."
+  },
+  {
+    "gap_id": "austria_2021-02_G011",
+    "type": "contested_evidence",
+    "description": "E002 turnout estimates differ by source and geographic scope: ORF reports400 initially and about600 later on the Salzburg bank, Salzburger Nachrichten reports400–500 for that side, and Bavarian police estimate1,500 across the border in Freilassing. The German count is outside Austria. E003 has an arrest-count discrepancy: ORF's lead says four, its detailed breakdown says four criminal plus one administrative, and Kurier reports four. No common total is established.",
+    "source_ids": [
+      "AT-S006",
+      "AT-S007",
+      "AT-S009",
+      "AT-S013"
+    ],
+    "affected_candidates": [
+      "austria_2021-02_E002",
+      "austria_2021-02_E003"
+    ],
+    "required_followup": "Preserve each estimate, scope and attribution separately. Coordinator review should resolve the applicable field coding only if original reporting supports it; do not average counts, add the German side or infer a unified arrest total."
+  },
+  {
+    "gap_id": "austria_2021-02_G012",
+    "type": "source_independence",
+    "description": "Separate publisher or organizer estimates are not automatically independent reporting. E001/E003 turnout accounts attribute figures to police; ORF and Kurier on E003 share police attribution; ORF and Salzburger Nachrichten on E002 may not have independent count lineage; E004 and E005 are both supported by one ORF body, and E008's FFF/ÖGB sources have related organizer provenance. Several other candidates have a single opened body. Body-read count is therefore distinct from source-independence count.",
+    "source_ids": [
+      "AT-S006",
+      "AT-S007",
+      "AT-S009",
+      "AT-S013",
+      "AT-S020",
+      "AT-S021",
+      "AT-S022",
+      "AT-S023",
+      "AT-S031",
+      "AT-S032"
+    ],
+    "affected_candidates": [
+      "austria_2021-02_E001",
+      "austria_2021-02_E002",
+      "austria_2021-02_E003",
+      "austria_2021-02_E004",
+      "austria_2021-02_E005",
+      "austria_2021-02_E006",
+      "austria_2021-02_E007",
+      "austria_2021-02_E008"
+    ],
+    "required_followup": "Trace original reporting and shared attribution before describing corroboration; retain publisher/body counts separately from independent evidence sources."
+  },
+  {
+    "gap_id": "austria_2021-02_G013",
+    "type": "episode_unit",
+    "description": "Recurring demonstrations against COVID restrictions are not automatically one campaign episode. E003 contains a connected Vienna sequence, while E001 is a different issue and E002, E004, E005, E006 and E007 are distinct local actions. January C001 and C002 remain owned by January; the nine-day interval and common deportation issue do not join C002 to E001. March S027/S028 are later search-only event leads, not evidence that any February event continued.",
+    "source_ids": [
+      "AT-S001",
+      "AT-S006",
+      "AT-S007",
+      "AT-S009",
+      "AT-S020",
+      "AT-S021",
+      "AT-S022",
+      "AT-S023",
+      "AT-S026",
+      "AT-S027",
+      "AT-S028",
+      "AT-S034",
+      "AT-S035"
+    ],
+    "affected_candidates": [
+      "austria_2021-02_E001",
+      "austria_2021-02_E002",
+      "austria_2021-02_E003",
+      "austria_2021-02_E004",
+      "austria_2021-02_E005",
+      "austria_2021-02_E006",
+      "austria_2021-02_E007",
+      "austria_2021-02_E008",
+      "austria_2021-01_E002",
+      "austria_2021-01_E008"
+    ],
+    "required_followup": "Coordinator should review episode keys, local-versus-connected action boundaries and month ownership against event-specific chronology. Do not merge by issue, organizer network, same-day occurrence across cities or publication date."
+  },
+  {
+    "gap_id": "austria_2021-02_G014",
+    "type": "state_target",
+    "description": "E002's Saalach action opposed COVID restrictions and border closure at a two-country border; reporting includes a call to reopen the border and resignation of the Austrian government, so the domestic target and cross-border scope need review. E008's public-building retrofit demand targets government policy but the supplied taxonomy has no climate-specific demand category; political_behavior_process is a broad provisional mapping.",
+    "source_ids": [
+      "AT-S007",
+      "AT-S009",
+      "AT-S031",
+      "AT-S032"
+    ],
+    "affected_candidates": [
+      "austria_2021-02_E002",
+      "austria_2021-02_E008"
+    ],
+    "required_followup": "Review the actual demand language and affected authority against the official target and demand rules. Preserve E008's environmental demand text and its provisional broad category; do not infer a foreign-government target for E002."
+  }
+]

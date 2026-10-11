@@ -1,0 +1,34 @@
+{
+  "unit_id": "kosovo_2021-01",
+  "country": "Kosovo",
+  "month": "2021-01",
+  "agent_task": "/root/kosovo_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T14:33:49Z",
+  "finished_at": "2026-10-08T14:54:56Z",
+  "n_queries": 40,
+  "n_sources": 34,
+  "n_candidates": 4,
+  "n_excluded": 4,
+  "n_continuations": 0,
+  "n_gaps": 14,
+  "n_opened_sources": 3,
+  "coverage_assessment": "Open-web pass: 40 logged queries across multilingual general, weekly, sector, event and boundary searches; 34 source cards; four candidate/follow-up records, four exclusions, no date-verified continuation and 14 gaps. Three bodies opened; most candidate-specific sources remain search-only or inaccessible. Occurrence dates and state responses for snippet-only leads remain uncoded. LexisNexis unavailable; no exhaustive-coverage or absence claim.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources": {
+    "finite_readers": [
+      {
+        "description": "Ordinary HTTPS GET to the public KoSSev English health-worker article after web Cache miss; DNS resolution failed.",
+        "exit_code": 1
+      },
+      {
+        "description": "Ordinary HTTPS GET to the public KOHA cystic-fibrosis article after web Cache miss; DNS resolution failed.",
+        "exit_code": 1
+      }
+    ],
+    "servers_browsers_background_processes_started": [],
+    "remaining_resources": []
+  },
+  "timing_limitations": "Q001–Q004 have no captured execution timestamp; several earlier handoff queries also lack recoverable exact query text. Per-query result counts and pooled URL attribution are not exposed. Q033–Q036 and Q037–Q040 each record the time reading immediately before their search batch.",
+  "method_note": "Existing portable CLI/protocol handles persistence, atomic writes and validation. No new skill or CLI is warranted; the remaining work is source-access and evidence judgment."
+}

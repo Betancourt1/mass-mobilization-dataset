@@ -1,0 +1,25 @@
+{
+  "unit_id": "lithuania_2021-01",
+  "country": "Lithuania",
+  "month": "2021-01",
+  "agent_task": "/root/lithuania_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T16:32:18.371411Z",
+  "finished_at": "2026-10-08T16:55:55Z",
+  "n_queries": 73,
+  "n_sources": 22,
+  "n_candidates": 1,
+  "n_excluded": 5,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "coverage_assessment": "Bounded first-pass open-web search across general, weekly, sector, location, local-language and adjacent-month queries. One January 12 Lukiškės Square physical-action lead remains pending evidence on Vilnius attendance, the 50-person threshold, and policy-demand linkage; no eligible domestic event was verified. Results are nonexhaustive and open web does not reproduce LexisNexis. Literal Q053–Q073 strings and recorded tool-call boundaries were recovered with per-record provenance and SHA-256; call boundaries are not exact execution times, so executed_at remains null. Pooled query-to-result mapping remains unavailable.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources_started": [
+    {
+      "resource": "finite Python standard-library HTTPS recovery request process",
+      "started_at": "2026-10-08T16:36:22Z",
+      "exit_code": 0,
+      "result": "process completed; DNS resolution failed before HTTP; no persistent server or background process"
+    }
+  ]
+}

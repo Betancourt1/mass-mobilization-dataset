@@ -1,0 +1,66 @@
+[
+  {
+    "gap_id": "ARG2601G001",
+    "type": "search_coverage",
+    "description": "Open-web results are noisy and incomplete; national and selected provincial terms/domains were searched, but local outlets, archives, official notices, and LexisNexis were not systematically covered. No absence conclusion is supported.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve uncertainty. Continue only after the coordinator completes the applicable exact-target inventory/manual review; verify event dates, public meeting, threshold, domestic state target, reporting independence and adjacent-month continuity from permitted source text."
+  },
+  {
+    "gap_id": "ARG2601G002",
+    "type": "source_access",
+    "description": "Body-access outcomes differ by exact target: S001 yielded only a partial TN video landing page (not the video); S002 returned a tool-only Internal Error with no HTTP status/body; S003 and S004 were not body-requested. No access denial is inferred.",
+    "source_ids": [
+      "ARG2601S001",
+      "ARG2601S002",
+      "ARG2601S003",
+      "ARG2601S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep S001 event eligibility unresolved pending independent permitted corroboration of occurrence, public meeting, threshold and domestic state target; keep S002 as technical tool failure without retry or substitute; S003/S004 remain search-only unless separately authorized."
+  },
+  {
+    "gap_id": "ARG2601G003",
+    "type": "search_capture",
+    "description": "ARG26JAN-Q001 returned from web__run but raw output could not be persisted because the executor JS runtime lacked TextEncoder; result was not inspected, was not stored, and will not be repeated. The invocation is preserved with rendered_output_missing=true; later captures do not repair it.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve uncertainty. Continue only after the coordinator completes the applicable exact-target inventory/manual review; verify event dates, public meeting, threshold, domestic state target, reporting independence and adjacent-month continuity from permitted source text."
+  },
+  {
+    "gap_id": "ARG2601G004",
+    "type": "state_target",
+    "description": "The TN landing-page demand to reinstate dismissed coworkers does not establish a domestic state target; the employer/state relationship is unknown. S004 search wording refers to US policy and does not by itself establish a domestic Argentine state target. No qualifying event is proposed.",
+    "source_ids": [
+      "ARG2601S001",
+      "ARG2601S002",
+      "ARG2601S003",
+      "ARG2601S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve uncertainty; only permitted reviewed source access and independent evidence can establish event occurrence, threshold, and a domestic state-directed claim."
+  },
+  {
+    "gap_id": "ARG2601G005",
+    "type": "partial_source_content",
+    "description": "The TN URL is a video landing page: only headline/subhead/date and a video placeholder were rendered; the underlying video/audio was not accessed. The MDZ direct attempt produced a tool-level Internal Error without HTTP/body content. Neither outcome supports a complete article-level account.",
+    "source_ids": [
+      "ARG2601S001",
+      "ARG2601S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain the exact one-attempt histories and hashes. Do not infer MDZ publisher denial or retry/fallback. Treat TN facts as limited reported text; any additional access requires a separately authorized exact-target review."
+  },
+  {
+    "gap_id": "ARG2601G006",
+    "type": "partial_source_content",
+    "description": "TN returned only a video landing page; the video was not accessed. MDZ returned tool-only Internal Error with no HTTP/body; no retry occurred. Neither is a complete article-level account.",
+    "source_ids": [
+      "ARG2601S001",
+      "ARG2601S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep exact attempt histories and hashes. Do not infer MDZ publisher denial or retry/fallback. Treat TN as limited reported page text; additional access needs separate exact-target authorization."
+  }
+]

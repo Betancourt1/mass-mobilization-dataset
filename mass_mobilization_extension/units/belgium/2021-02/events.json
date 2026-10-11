@@ -1,0 +1,124 @@
+[
+  {
+    "candidate_id": "belgium_2021-02_E001",
+    "country": "Belgium",
+    "ccode": "211",
+    "unit_month": "2021-02",
+    "title": "Reclaim the Night protest in Saint-Gilles",
+    "start_date": "2021-02-13",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Parvis de Saint-Gilles / Place Marie Janson (reports differ), Saint-Gilles, Brussels",
+    "scope": "local",
+    "organizer": "Feminists Fight Back network",
+    "demands": [
+      "political_behavior_process",
+      "police_brutality"
+    ],
+    "participants_original": "The Brussels Times, citing the local police zone, reports around 80; BX1/Belga reports about 100 activists. These are approximate estimates, not a numerical range.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": 80,
+    "participants_precision": "qualitative_or_approximate",
+    "threshold_50_evidence": "Two opened contemporary accounts report approximately 80 (police, via The Brussels Times) and about 100 activists (BX1/Belga). Both exceed 50; no exact count or bounded interval is inferred.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S008",
+      "S011"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S008",
+          "S011"
+        ],
+        "summary": "Both articles describe the action as Saturday evening and are dated Feb 14, 2021, supporting Feb 13."
+      },
+      "location": {
+        "source_ids": [
+          "S008",
+          "S011"
+        ],
+        "summary": "The Brussels Times places it at Parvis de Saint-Gilles; BX1 says Place Marie Janson. Preserve both location descriptions; exact site wording differs."
+      },
+      "scope": {
+        "source_ids": [
+          "S008",
+          "S011"
+        ],
+        "summary": "Both reports place this gathering in Saint-Gilles, Brussels. The Brussels Times mentions other planned city actions but does not establish their execution."
+      },
+      "organizer": {
+        "source_ids": [
+          "S011"
+        ],
+        "summary": "BX1/Belga identifies the Reclaim the Night action as organized by the Feminists Fight Back network."
+      },
+      "demands": {
+        "source_ids": [
+          "S008",
+          "S011"
+        ],
+        "summary": "The Brussels Times states the aim was women's freedom to walk without harassment and in safety in public spaces. BX1 quotes organizers on gender-based violence, harassment, social support for sex workers, femicides, abortion-law policy and police violence. The reports do not identify a clear government recipient or remedy, so state-target eligibility remains pending."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S008",
+          "S011"
+        ],
+        "summary": "The Brussels Times quotes police at around 80; BX1/Belga reports about 100 activists. Estimates are approximate and not exact bounds."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "S008"
+        ],
+        "summary": "Around 80 is the local police estimate quoted by The Brussels Times; kept as a rough representative estimate, not an exact count."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S008",
+          "S011"
+        ],
+        "summary": "Both opened reports place attendance above 50, with approximate estimates attributed to the local police zone and BX1/Belga; the accounts are not treated as independent turnout confirmations."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S008",
+          "S011"
+        ],
+        "summary": "The police account quoted by The Brussels Times calls the gathering peaceful; BX1 reports the local police spokesperson said no incident was recorded outside arrests. No protester violence is explicitly reported."
+      },
+      "state_response": {
+        "source_ids": [
+          "S011"
+        ],
+        "summary": "BX1 quotes police saying about 20 administrative arrests occurred near curfew; the Fem&L.A.W account cited in the same report says 21. Claims about police encirclement differ, so crowd dispersal is left unknown."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "Neither report establishes the time the physical gathering ended; arrests near curfew do not establish an end time."
+      }
+    },
+    "eligibility": "pending_state_target",
+    "coding_status": "agent_coded_pending_review",
+    "coordinator_review_status": "not_reviewed",
+    "episode_key": "belgium_reclaim_the_night_2021-02-13",
+    "notes": "Two opened reports establish an executed Feb 13 assembly over 50. BX1 is credited to Belga; The Brussels Times separately quotes the Brussels police zone, so the reports are not treated as two independent turnout counts. The stated safety aim is clear, but no explicit domestic government recipient/remedy is established. Exact location and police-intervention narratives differ; preserve uncertainty.",
+    "open_questions": [
+      "Verify whether organizers directed a concrete demand to a Belgian authority or policy, beyond the grievances reported.",
+      "Seek body-read non-wire organizer material or other reporting to clarify demand and source relationships.",
+      "Resolve exact gathering location and reported encirclement/intervention conflict if further body evidence is permitted.",
+      "Establish physical end; do not infer it from curfew or arrests."
+    ]
+  }
+]

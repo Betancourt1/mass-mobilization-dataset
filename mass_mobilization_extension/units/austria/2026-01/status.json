@@ -1,0 +1,75 @@
+{
+  "unit_id": "austria_2026-01",
+  "country": "Austria",
+  "month": "2026-01",
+  "agent_task": "/root/austria_q1_2026",
+  "status": "root_reviewed_open_gaps",
+  "started_at": "2026-10-10 23:51:46 UTC",
+  "finished_at": "2026-10-11T00:31:20Z",
+  "n_queries": 3,
+  "n_sources": 4,
+  "n_candidates": 0,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "source_access_counts": {
+    "opened": 4,
+    "search_only": 0,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "actual_call_walltime_observations": [
+    {
+      "query_id": "AT26Q001",
+      "start_utc": "2026-10-10 23:51:46 UTC",
+      "end_utc": "2026-10-10 23:51:56 UTC",
+      "elapsed_seconds": 10.0
+    },
+    {
+      "query_id": "AT26Q002",
+      "start_utc": "2026-10-10 23:54:09 UTC",
+      "end_utc": "2026-10-10 23:54:15 UTC",
+      "elapsed_seconds": 6.0
+    },
+    {
+      "query_id": "AT26JANQ003",
+      "start_utc": "2026-10-10 23:55:54 UTC",
+      "end_utc": "2026-10-10 23:55:58 UTC",
+      "elapsed_seconds": 4.0
+    }
+  ],
+  "batched_query_string_count": 12,
+  "coverage_assessment": "4 current-unit body opens; 0 prior-unit-only. Bounded public open-web discovery only, not exhaustive. 3 actual captured search actions contain 12 exact query strings; date windows: January 1–10, 11–20, and 21–31; plus month-wide framing in the first search batch. English/German queries named Austria cities/provinces and sectors: students and universities, teachers, housing/rent/prices, pensioners, health, climate/farming, workers; Vienna, Graz, Linz, Salzburg, Innsbruck and provinces were named across queries. Native headers/result counts/action IDs are unavailable (unknown), not zero; extracted visible URL strings are preserved as unverified leads. 4 exact January-discovered source URLs were each directly read once following coordinator-approved exact-target review; no links, origins, aliases, retries or substitutions were opened. All four opened pages concern May 2026 or an October 9, 2026 planned action after the fixed October 7 cutoff; none establishes a January event. Receipt links and exact capture hashes are attached to the four source cards; full access receipts remain in the root-private body_receipts directory. No January event facts or event absence are established. See gaps.json. Coverage remains bounded and nonexhaustive; official baseline remains pending.",
+  "baseline_gate": "pending_official_baseline",
+  "actual_body_access_walltime_observations": [
+    {
+      "source_id": "AT26JAN-S001",
+      "actor_started_at": "2026-10-11 00:27:23 UTC",
+      "actor_completed_at": "2026-10-11 00:27:24 UTC",
+      "elapsed_seconds_observable_from_recorded_second_precision": null,
+      "note": "Raw actor-clock timestamps have second precision; elapsed duration is not inferred."
+    },
+    {
+      "source_id": "AT26JAN-S002",
+      "actor_started_at": "2026-10-11 00:27:48 UTC",
+      "actor_completed_at": "2026-10-11 00:27:49 UTC",
+      "elapsed_seconds_observable_from_recorded_second_precision": null,
+      "note": "Raw actor-clock timestamps have second precision; elapsed duration is not inferred."
+    },
+    {
+      "source_id": "AT26JAN-S003",
+      "actor_started_at": "2026-10-11 00:28:11 UTC",
+      "actor_completed_at": "2026-10-11 00:28:11 UTC",
+      "elapsed_seconds_observable_from_recorded_second_precision": null,
+      "note": "Raw actor-clock timestamps have second precision; elapsed duration is not inferred."
+    },
+    {
+      "source_id": "AT26JAN-S004",
+      "actor_started_at": "2026-10-11 00:28:49 UTC",
+      "actor_completed_at": "2026-10-11 00:28:49 UTC",
+      "elapsed_seconds_observable_from_recorded_second_precision": null,
+      "note": "Raw actor-clock timestamps have second precision; elapsed duration is not inferred."
+    }
+  ],
+  "coordinator_review_scope": "Bounded firstpass independently reviewed; baseline pending and gaps preserved. Original worker status remains in private snapshot."
+}

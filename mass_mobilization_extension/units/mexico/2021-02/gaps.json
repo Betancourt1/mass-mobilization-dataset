@@ -1,0 +1,429 @@
+[
+  {
+    "gap_id": "MX202102-G001",
+    "type": "baseline",
+    "description": "Última versión oficial y corte 2020 no verificados; todos los registros son candidatos externos.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MX202102-E001",
+      "MX202102-E002",
+      "MX202102-E003",
+      "MX202102-E004",
+      "MX202102-E005",
+      "MX202102-E006",
+      "MX202102-E007",
+      "MX202102-E008",
+      "MX202102-E009",
+      "MX202102-E010",
+      "MX202102-E011",
+      "MX202102-E012",
+      "MX202102-E013",
+      "MX202102-E014",
+      "MX202102-E015",
+      "MX202102-E016",
+      "MX202102-E017",
+      "MX202102-E018",
+      "MX202102-E019",
+      "MX202102-E020",
+      "MX202102-E021",
+      "MX202102-E022",
+      "MX202102-E023",
+      "MX202102-E024",
+      "MX202102-E025",
+      "MX202102-E026",
+      "MX202102-E027",
+      "MX202102-E028",
+      "MX202102-E029",
+      "MX202102-E030",
+      "MX202102-E031",
+      "MX202102-E032",
+      "MX202102-E033",
+      "MX202102-E034",
+      "MX202102-E035",
+      "MX202102-E036",
+      "MX202102-E037",
+      "MX202102-E038"
+    ],
+    "required_followup": "Comparar snapshot oficial con hash/esquema/licencia antes de decidir novedad o IDs."
+  },
+  {
+    "gap_id": "MX202102-G002",
+    "type": "coverage_protocol",
+    "description": "42 consultas en web abierta no reproducen LexisNexis ni hemerotecas originales. Semanas sólo aproximadas.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Repetir país/mes en hemeroteca sistemática con términos y fuentes manual; documentar cada resultado y vacíos."
+  },
+  {
+    "gap_id": "MX202102-G003",
+    "type": "geographic_language",
+    "description": "Búsqueda español/inglés, sin barrido uniforme de 32 estados ni lenguas indígenas. Predomina prensa indexada/CDMX.",
+    "source_ids": [
+      "MX202102-S087"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Cobertura estatal sistemática y hemerotecas locales; lenguas relevantes con revisores adecuados."
+  },
+  {
+    "gap_id": "MX202102-G004",
+    "type": "date_filter",
+    "description": "Consultas generales y grupos por semana devolvieron muchos resultados fuera de mes y tomas de protesta. Fechas de publicación y menú dinámico no delimitan fecha del acto.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Verificar fecha propia de cada noticia y evento; consultar índices por día, sin asumir filtro del buscador."
+  },
+  {
+    "gap_id": "MX202102-G005",
+    "type": "threshold",
+    "description": "18 candidatos tienen como problema principal umbral; otros 12 de unidad también carecen de cantidad. Decenas, afectados, miembros, tiendas, vehículos o lesionados no prueban 50 reunidos.",
+    "source_ids": [
+      "MX202102-S006",
+      "MX202102-S007",
+      "MX202102-S077",
+      "MX202102-S032",
+      "MX202102-S042"
+    ],
+    "affected_candidates": [
+      "MX202102-E008",
+      "MX202102-E009",
+      "MX202102-E010",
+      "MX202102-E013",
+      "MX202102-E014",
+      "MX202102-E015",
+      "MX202102-E017",
+      "MX202102-E018",
+      "MX202102-E020",
+      "MX202102-E021",
+      "MX202102-E022",
+      "MX202102-E024",
+      "MX202102-E025",
+      "MX202102-E026",
+      "MX202102-E027",
+      "MX202102-E029",
+      "MX202102-E031",
+      "MX202102-E037"
+    ],
+    "required_followup": "Obtener conteos contemporáneos del grupo reunido; no convertir afiliación o impactos en participantes."
+  },
+  {
+    "gap_id": "MX202102-G006",
+    "type": "event_end",
+    "description": "La mayoría de cierres físicos no están reportados. No se fijó 28 febrero ni una fecha de artículo como fin general.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MX202102-E001",
+      "MX202102-E002",
+      "MX202102-E005",
+      "MX202102-E006",
+      "MX202102-E007",
+      "MX202102-E009",
+      "MX202102-E010",
+      "MX202102-E011",
+      "MX202102-E012",
+      "MX202102-E013",
+      "MX202102-E014",
+      "MX202102-E015",
+      "MX202102-E016",
+      "MX202102-E017",
+      "MX202102-E018",
+      "MX202102-E019",
+      "MX202102-E020",
+      "MX202102-E021",
+      "MX202102-E022",
+      "MX202102-E023",
+      "MX202102-E025",
+      "MX202102-E026",
+      "MX202102-E027",
+      "MX202102-E028",
+      "MX202102-E029",
+      "MX202102-E031",
+      "MX202102-E032",
+      "MX202102-E033",
+      "MX202102-E034",
+      "MX202102-E035",
+      "MX202102-E036",
+      "MX202102-E037",
+      "MX202102-E038"
+    ],
+    "required_followup": "Seguir fuentes antes/después; distinguir fin reunión de continuidad campaña y documentar última actividad si se aplica regla original."
+  },
+  {
+    "gap_id": "MX202102-G007",
+    "type": "monthly_ownership",
+    "description": "Rodadas desde diciembre, cacerolazos enero, marchas Mariana, CNTE enero, triquis y Cobaez requieren fronteras de episodio; mes nuevo no añade evento.",
+    "source_ids": [
+      "MX202102-S050",
+      "MX202102-S071",
+      "MX202102-S045",
+      "MX202102-S047",
+      "MX202102-S030"
+    ],
+    "affected_candidates": [
+      "MX202102-E001",
+      "MX202102-E005",
+      "MX202102-E006",
+      "MX202102-E007",
+      "MX202102-E011",
+      "MX202102-E012",
+      "MX202102-E019",
+      "MX202102-E028",
+      "MX202102-E030",
+      "MX202102-E035",
+      "MX202102-E036",
+      "MX202102-E038"
+    ],
+    "required_followup": "Revisar reglas adicionales original y vecinos temporales; dejar decisiones de fusionar/separar con evidencia explícita."
+  },
+  {
+    "gap_id": "MX202102-G008",
+    "type": "blocked_sources",
+    "description": "Río Oaxaca Cañada/Sola deVega, ElSur, Texmelucan, SinEmbargo, blogtransportistas y transcripciónCDMX no pudieron abrirse.",
+    "source_ids": [
+      "MX202102-S016",
+      "MX202102-S017",
+      "MX202102-S010",
+      "MX202102-S011",
+      "MX202102-S019",
+      "MX202102-S015",
+      "MX202102-S033",
+      "MX202102-S054"
+    ],
+    "affected_candidates": [
+      "MX202102-E032",
+      "MX202102-E033",
+      "MX202102-E034"
+    ],
+    "required_followup": "Acceder a archivo permitido u otra noticia contemporánea; no eludir bloqueo y mantener pending_evidence."
+  },
+  {
+    "gap_id": "MX202102-G009",
+    "type": "partial_access",
+    "description": "OEM transporte 12 y Visteon abrieron encabezados sin cuerpo suficiente.",
+    "source_ids": [
+      "MX202102-S031",
+      "MX202102-S018"
+    ],
+    "affected_candidates": [
+      "MX202102-E016",
+      "MX202102-X004"
+    ],
+    "required_followup": "Fuente íntegra alternativa para tamaño, reunión y respuestas; snippet no sirve para completar código."
+  },
+  {
+    "gap_id": "MX202102-G010",
+    "type": "archives_unread",
+    "description": "Ediciones PDF Oaxaca/Istmo/Excélsior y agenda oficial localizadas, no revisadas íntegramente.",
+    "source_ids": [
+      "MX202102-S092",
+      "MX202102-S093",
+      "MX202102-S094",
+      "MX202102-S095",
+      "MX202102-S091",
+      "MX202102-S096",
+      "MX202102-S087"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Revisar PDF por fecha, separar agendas de acciones realizadas y levantar fuentes individuales sin reproducir artículos."
+  },
+  {
+    "gap_id": "MX202102-G011",
+    "type": "syndication",
+    "description": "Maya/La Jornada, El Universal/Pulso, Amapola/Pie de Página, Sindicato/Quadratín/Zacatecasonline son cadenas; no confirmaciones independientes.",
+    "source_ids": [
+      "MX202102-S061",
+      "MX202102-S021",
+      "MX202102-S009",
+      "MX202102-S039",
+      "MX202102-S040",
+      "MX202102-S073"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Identificar original/agencia e independencia por episodio; no sumar evidencia por número de dominios."
+  },
+  {
+    "gap_id": "MX202102-G012",
+    "type": "size_conflict_merida",
+    "description": "Jornada 27 Mérida: >100 trabajadores segúnQuadratín y alrededor 50 galenos segúnYucatán al Instante; podría ser subgrupo u horario.",
+    "source_ids": [
+      "MX202102-S064",
+      "MX202102-S066",
+      "MX202102-S065"
+    ],
+    "affected_candidates": [
+      "MX202102-E027",
+      "MX202102-E028"
+    ],
+    "required_followup": "Comparar hora/población y antecedente 20; aplicar estimación menor concurrente sólo después de resolver equivalencia."
+  },
+  {
+    "gap_id": "MX202102-G013",
+    "type": "size_conflict_pachuca",
+    "description": "2 febrero Pachuca: fuente abierta decenas, secundaria >500;13 enero comienzo sólo secundario.",
+    "source_ids": [
+      "MX202102-S043",
+      "MX202102-S044",
+      "MX202102-S045"
+    ],
+    "affected_candidates": [
+      "MX202102-E030",
+      "MX202102-C008"
+    ],
+    "required_followup": "Seguir notas originales citadas por secundaria; no usar 500 como dato hasta verificación."
+  },
+  {
+    "gap_id": "MX202102-G014",
+    "type": "cycling_violence_unit",
+    "description": "5 febrero policía golpeó y contuvo; periódico declara ningún detenido. Retrospectiva Civicus habla detenidos/sometidos. Inicio diciembre y umbral 5 desconocidos.",
+    "source_ids": [
+      "MX202102-S048",
+      "MX202102-S049",
+      "MX202102-S050",
+      "MX202102-S024"
+    ],
+    "affected_candidates": [
+      "MX202102-E011",
+      "MX202102-E012",
+      "MX202102-C007"
+    ],
+    "required_followup": "Contrastar arrest formal vs sometimiento, atribución violencia y regla episodios semanales; no trasladar tamaño 12 al 5."
+  },
+  {
+    "gap_id": "MX202102-G015",
+    "type": "electoral_boundary",
+    "description": "Campaña contra Salgado mezcla candidatura, impugnación estatal e impunidad. No se excluye por identidad política ni se incluye por marchar frente Estado.",
+    "source_ids": [
+      "MX202102-S009",
+      "MX202102-S013",
+      "MX202102-S015"
+    ],
+    "affected_candidates": [
+      "MX202102-E024",
+      "MX202102-E025"
+    ],
+    "required_followup": "Revisión del criterio electoral original, demanda estatal y umbral; descartar sólo actos exclusivamente partidarios."
+  },
+  {
+    "gap_id": "MX202102-G016",
+    "type": "national_local_unit",
+    "description": "Mariana multiciudad, CNTE y varios grupos de visitaOaxaca: coordinación y separación no establecidas.",
+    "source_ids": [
+      "MX202102-S056",
+      "MX202102-S055",
+      "MX202102-S003",
+      "MX202102-S070",
+      "MX202102-S075"
+    ],
+    "affected_candidates": [
+      "MX202102-E005",
+      "MX202102-E006",
+      "MX202102-E007",
+      "MX202102-E003",
+      "MX202102-E036"
+    ],
+    "required_followup": "No añadir fila por ciudad/origen estatal; dividir visitas sólo cuando se prueben reuniones independientes y fechas."
+  },
+  {
+    "gap_id": "MX202102-G017",
+    "type": "unknown_response",
+    "description": "Silencio no codifica ignore ni no violencia. Amenazas/lesiones previas/fallecimientos motivantes no son consecuencias de respuesta del nuevo acto.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MX202102-E001",
+      "MX202102-E002",
+      "MX202102-E003",
+      "MX202102-E004",
+      "MX202102-E005",
+      "MX202102-E006",
+      "MX202102-E007",
+      "MX202102-E008",
+      "MX202102-E009",
+      "MX202102-E010",
+      "MX202102-E011",
+      "MX202102-E012",
+      "MX202102-E013",
+      "MX202102-E014",
+      "MX202102-E015",
+      "MX202102-E016",
+      "MX202102-E017",
+      "MX202102-E018",
+      "MX202102-E019",
+      "MX202102-E020",
+      "MX202102-E021",
+      "MX202102-E022",
+      "MX202102-E023",
+      "MX202102-E024",
+      "MX202102-E025",
+      "MX202102-E026",
+      "MX202102-E027",
+      "MX202102-E028",
+      "MX202102-E029",
+      "MX202102-E030",
+      "MX202102-E031",
+      "MX202102-E032",
+      "MX202102-E033",
+      "MX202102-E034",
+      "MX202102-E035",
+      "MX202102-E036",
+      "MX202102-E037",
+      "MX202102-E038"
+    ],
+    "required_followup": "Contraste de fuentes estatales, independientes y organizadores; mantener unknown salvo evidencia atribuible."
+  },
+  {
+    "gap_id": "MX202102-G018",
+    "type": "salina_followup",
+    "description": "No se recuperó un evento febrero concreto del paro policialSalina; columna genérica no demuestra continuidad hasta febrero.",
+    "source_ids": [
+      "MX202102-S079",
+      "MX202102-S093"
+    ],
+    "affected_candidates": [
+      "MX202102-C010"
+    ],
+    "required_followup": "Verificar fin enero 4 propuesto en enero y cualquier reunión nueva; conservar hueco, no prolongar ni generar evento."
+  },
+  {
+    "gap_id": "MX202102-G019",
+    "type": "prior_source_handoff",
+    "description": "MarchaCosalá 28 enero y MarchasMariana 31 enero aparecieron durante búsquedafebrero y deben revisarse por dueño enero.",
+    "source_ids": [
+      "MX202102-S074",
+      "MX202102-S073",
+      "MX202102-S060",
+      "MX202102-S059"
+    ],
+    "affected_candidates": [
+      "MX202102-C005",
+      "MX202102-C009"
+    ],
+    "required_followup": "Coordinador contrasta con candidatosenero y deja adición/merge separado; no contarlos como nuevos de febrero."
+  },
+  {
+    "gap_id": "MX202102-G020",
+    "type": "unresolved_discovery",
+    "description": "Pistas Tlacotepec, El Platanito, fiscalía Tijuana, huelga hambre MULTI, mural Monterrey y recuerdo Academia Danza sin evidencia íntegra/día apropiado.",
+    "source_ids": [
+      "MX202102-S084",
+      "MX202102-S022",
+      "MX202102-S081",
+      "MX202102-S082",
+      "MX202102-S085",
+      "MX202102-S086",
+      "MX202102-S080"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Buscar originales y fecha real en siguiente barrido; estas pistas no prueban ausencia ni eventos elegibles."
+  },
+  {
+    "gap_id": "MX202102-G021",
+    "type": "january_followup_no_confirmation",
+    "description": "Búsquedas por Pemex, Salina Cruz, IMSS Campeche y restaurantes hallaron información/continuidad diversa, no una actualización exhaustiva de todas acciones enero.",
+    "source_ids": [
+      "MX202102-S042",
+      "MX202102-S079",
+      "MX202102-S046"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seguir cada episodioenero por localidad/organización; no tomar nuevas noticias de otra sede como continuación nacional."
+  }
+]

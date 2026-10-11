@@ -1,0 +1,38 @@
+{
+  "unit_id": "azerbaijan_2026-03",
+  "country": "Azerbaijan",
+  "month": "2026-03",
+  "agent_task": "/root/azerbaijan_q1_2026",
+  "status": "root_reviewed_open_gaps",
+  "started_at": "2026-10-10 23:51:57 UTC",
+  "finished_at": "2026-10-11 00:35:50 UTC",
+  "n_queries": 6,
+  "n_sources": 11,
+  "n_candidates": 0,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 5,
+  "source_access_counts": {
+    "opened": 0,
+    "search_only": 11,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "n_search_actions": 6,
+  "n_query_strings_in_exact_invocations": 24,
+  "event_cutoff": "2026-10-07",
+  "event_timezone": "America/Mexico_City",
+  "coverage_assessment": "Bounded discovery only: six captured search actions with exact ordered invocations for this month; broad multilingual, weekly, sector/locality, diaspora and date-boundary probes. Sources remain search_only and source bodies are held pending exact-target root review. No event/absence claim is made; eligibility, date, threshold, home-state target, continuity and responses are unknown. Search engine results included cross-month/historical noise. Body-access outcome update: Five authorized direct first attempts returned tool errors; no article body was returned or read. All source cards remain search_only. No retry/redirect/alias/alternate origin used.",
+  "query_capture_integrity": {
+    "captured_header_count": 0,
+    "native_headers_available": false,
+    "result_count_unknown": true,
+    "native_action_ids_available": false,
+    "native_clocks_available": false,
+    "exact_rendered_outputs_preserved": true,
+    "jan_q001_serialization_incident": null
+  },
+  "body_access": "Five authorized direct first attempts returned tool errors; no article body was returned or read. All source cards remain search_only. No retry/redirect/alias/alternate origin used.",
+  "baseline_gate": "pending_official_baseline",
+  "coordinator_review_scope": "Bounded firstpass independently reviewed; baseline pending and gaps preserved. Original worker status remains in private snapshot."
+}

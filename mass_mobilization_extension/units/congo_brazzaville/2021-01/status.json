@@ -1,0 +1,32 @@
+{
+  "unit_id": "congo_brazzaville_2021-01",
+  "country": "Congo Brazzaville",
+  "month": "2021-01",
+  "agent_task": "/root/congo_brazzaville_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T08:59:53.255413+00:00",
+  "finished_at": "2026-10-08T09:09:30.700364+00:00",
+  "n_queries": 51,
+  "n_sources": 56,
+  "n_candidates": 4,
+  "n_excluded": 6,
+  "n_continuations": 2,
+  "n_gaps": 13,
+  "coverage_assessment": "Broad documented open-web first pass; regional/language/archive and threshold limits remain. No exhaustive or zero-event claim.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_status_counts": {
+    "opened": 16,
+    "search_only": 40
+  },
+  "eligibility_counts": {
+    "pending_unit": 2,
+    "pending_evidence": 2
+  },
+  "validation": "Local nine-file JSON/schema/reference/count checks passed before freeze.",
+  "temporary_resources": {
+    "started": [
+      "ordinary HTTPS foreground sessions 34779, 15806, 43136; temporary PDF extraction directories"
+    ],
+    "closure": "All three sessions returned exit 0; temporary PDF directories removed by context manager. Failed sandbox DNS command exited 1 and its temporary directory auto-cleaned. No servers, browsers or background processes started."
+  }
+}

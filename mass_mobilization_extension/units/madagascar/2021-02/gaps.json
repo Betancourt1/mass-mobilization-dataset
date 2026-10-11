@@ -1,0 +1,140 @@
+[
+  {
+    "gap_id": "MAD202102-G001",
+    "type": "coverage",
+    "description": "Open web search is not a substitute for systematic LexisNexis retrieval. Searches covered 17 batched French, Malagasy, English and local-source queries, including four weekly periods, but the result set does not prove exhaustive coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "When authorized, consult systematic archives/news databases and local/regional publications; retain exact search provenance."
+  },
+  {
+    "gap_id": "MAD202102-G002",
+    "type": "threshold",
+    "description": "No attendance count or reliable scale estimate was found for the HJRA paramedical meeting, vendor march, Ankatso action, later ENSET action in Antsiranana, Vontovorona action, Toamasina action, or nearby groups on Feb 20. Workforce, injury and arrest totals are not crowd counts.",
+    "source_ids": [
+      "MAD202102-S001",
+      "MAD202102-S002",
+      "MAD202102-S004",
+      "MAD202102-S005",
+      "MAD202102-S006",
+      "MAD202102-S007",
+      "MAD202102-S008",
+      "MAD202102-S017",
+      "MAD202102-S018",
+      "MAD202102-S031",
+      "MAD202102-S003"
+    ],
+    "affected_candidates": [
+      "MAD202102-E001",
+      "MAD202102-E002",
+      "MAD202102-E003",
+      "MAD202102-E005",
+      "MAD202102-E006",
+      "MAD202102-E007",
+      "MAD202102-E004"
+    ],
+    "required_followup": "Seek explicit participant counts or reliable qualitative evidence for each separate action; do not pool campaign totals or arrests."
+  },
+  {
+    "gap_id": "MAD202102-G003",
+    "type": "accessibility",
+    "description": "Le Monde Feb 8 URL is subject to an applicable saved publisher-scope hold from another observed paywall restriction. No body request was made in this February turn. A prior opened summary only covers the 7,500 health-worker strike and does not establish the Imerikasinina Feb 6 crowd lead raised by search.",
+    "source_ids": [
+      "MAD202102-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not bypass the publisher hold via another host or reprint. Preserve Imerikasinina as unverified unless an independently gated, non-held original source is found."
+  },
+  {
+    "gap_id": "MAD202102-G004",
+    "type": "continuity",
+    "description": "Antsiranana ENSET students demonstrated “again” after a short respite, but the later action date is not given and its link to the Jan recruitment protest is unresolved. Vontovorona reporting describes an action on Feb 16 and a strike on its third day Feb 18; physical end is unknown. Ankatso actions are kept separate.",
+    "source_ids": [
+      "MAD202102-S003",
+      "MAD202102-S004",
+      "MAD202102-S007",
+      "MAD202102-S017",
+      "MAD202102-S018"
+    ],
+    "affected_candidates": [
+      "MAD202102-E003",
+      "MAD202102-E004",
+      "MAD202102-E005"
+    ],
+    "required_followup": "Compare dated contemporaneous reporting without automatically merging campus actions; identify actual start/end dates and transfer no actions or arrests across months."
+  },
+  {
+    "gap_id": "MAD202102-G005",
+    "type": "event_detail",
+    "description": "Toliara / Maninday late-February student-confrontation and disorder stories remain search-only. Two permitted open attempts to Malagasy News and Madagascar-Tribune returned tool Cache miss errors; these are not denials. S043 had an original handoff URL typo and was corrected from captured headers. A later exact-URL receipt/manual review was not followed by a body request because the immediate full-input hash check found three changed corpus inputs; both the typo-URL and extra-hyphen receipts are preserved as no-request records.",
+    "source_ids": [
+      "MAD202102-S041",
+      "MAD202102-S043",
+      "MAD202102-S044",
+      "MAD202102-S045",
+      "MAD202102-S046",
+      "MAD202102-S047",
+      "MAD202102-S048",
+      "MAD202102-S049",
+      "MAD202102-S050",
+      "MAD202102-S052"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Obtain a fresh exact-URL receipt and saved manual review immediately before any new body request; establish date, attendance, demands, state response, continuity and whether the reports describe protest rather than disorder."
+  },
+  {
+    "gap_id": "MAD202102-G006",
+    "type": "event_detail",
+    "description": "For Toamasina Feb 18, published reports disagree or differ on injury counts and do not resolve the shooter in the student death; no turnout is reported.",
+    "source_ids": [
+      "MAD202102-S005",
+      "MAD202102-S006",
+      "MAD202102-S007"
+    ],
+    "affected_candidates": [
+      "MAD202102-E006"
+    ],
+    "required_followup": "Locate direct on-scene reporting and any reliable attendance estimate; attribute state action only when stated by source evidence."
+  },
+  {
+    "gap_id": "MAD202102-G007",
+    "type": "state_target",
+    "description": "The Ankatso report documents protest and police dispersal, but the saved body summary does not establish the student demand/state target. The Feb 20 report distinguishes a blocked planned parliamentary meeting from unspecified nearby groups.",
+    "source_ids": [
+      "MAD202102-S004",
+      "MAD202102-S008"
+    ],
+    "affected_candidates": [
+      "MAD202102-E003",
+      "MAD202102-E007"
+    ],
+    "required_followup": "Read relevant exact source bodies under fresh gates and identify demands/organizers of actual participants."
+  },
+  {
+    "gap_id": "MAD202102-G008",
+    "type": "sectoral_coverage",
+    "description": "Weekly and sector searches included teachers, health workers, vendors/transport and farmers. Search leads exist for private-school teachers (Studio Sifaka, body fetch returned Unicode decoding error), a Ministry teacher-strike suspension page tied to March 9 rather than a verified February event, and a Lycée français mobilization. No February teacher/farmer public action with established date, state target and scale has been verified.",
+    "source_ids": [
+      "MAD202102-S001",
+      "MAD202102-S002",
+      "MAD202102-S056",
+      "MAD202102-S058",
+      "MAD202102-S059"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify the dated local teacher-sector sources and French-school target/participants; distinguish March follow-up from February actions and do not infer no event from search non-discovery."
+  },
+  {
+    "gap_id": "MAD202102-G009",
+    "type": "event_detail",
+    "description": "The Feb 8 HJRA union meeting’s precise date and attendance are not available in the saved body summary. The Le Monde figure refers to employees on strike and cannot establish this or another assembly threshold.",
+    "source_ids": [
+      "MAD202102-S001",
+      "MAD202102-S002"
+    ],
+    "affected_candidates": [
+      "MAD202102-E001"
+    ],
+    "required_followup": "Use the exact 2424.mg body and other independently gated contemporary coverage to identify date and meeting size."
+  }
+]

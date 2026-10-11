@@ -1,0 +1,187 @@
+[
+  {
+    "gap_id": "luxembourg_2021-01-G001",
+    "type": "coverage",
+    "description": "Bounded open-web research (37 queries) used English, French, German and Luxembourgish terms across weeks, sectors, local reporting and official sources. It does not reproduce LexisNexis or systematic newspaper archive searches; several URLs remain snippet-only or inaccessible. No completeness claim is warranted.",
+    "source_ids": [
+      "LUX202101-S002",
+      "LUX202101-S003",
+      "LUX202101-S016",
+      "LUX202101-S018",
+      "LUX202101-S020",
+      "LUX202101-S021"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-01-E001",
+      "luxembourg_2021-01-E002",
+      "luxembourg_2021-01-E003",
+      "luxembourg_2021-01-E004",
+      "luxembourg_2021-01-E005",
+      "luxembourg_2021-01-E006"
+    ],
+    "required_followup": "Continue through accessible local and regional archives, especially to resolve excerpt-only counts and confirm whether other sectors had public gatherings."
+  },
+  {
+    "gap_id": "luxembourg_2021-01-G002",
+    "type": "participants",
+    "description": "The Jan9 RTL story gives an English estimate around 200, but its embedded French text says several dozen. The discrepancy is within one page/story chain and no numeric interval is justified.",
+    "source_ids": [
+      "LUX202101-S015"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-01-E001"
+    ],
+    "required_followup": "Look for independent contemporary reporting or an organizer/official count; retain pending evidence until the differing scales are reconciled."
+  },
+  {
+    "gap_id": "luxembourg_2021-01-G003",
+    "type": "date",
+    "description": "In judgment case III 2751/21/CD, page 5 lines 124–135 identify charged conduct during a Jan16 procession, while page 7 lines 187–203 under the same heading describe a police report dated Mar3 and a gathering “at that date.” This creates unresolved date/event compatibility.",
+    "source_ids": [
+      "LUX202101-S001",
+      "LUX202101-S017"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-01-E003"
+    ],
+    "required_followup": "Check the full judgment layout and any publicly available original case/procès-verbal to establish whether the two passages concern one event or separate events; do not transfer the Mar3 crowd estimate."
+  },
+  {
+    "gap_id": "luxembourg_2021-01-G004",
+    "type": "participants",
+    "description": "Contemporary Jan16 reporting describes a few/several dozen anti-measures demonstrators, which suggests below 50 but is qualitative. The official file also contains a 4–10 legal category for charged conduct under a Jan16 allegation and a conflicting same-case Mar3 narrative; neither supplies a reliable total for the Knuedler group.",
+    "source_ids": [
+      "LUX202101-S016",
+      "LUX202101-S018",
+      "LUX202101-S021",
+      "LUX202101-S017"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-01-E003"
+    ],
+    "required_followup": "Find a full independent account or attendance record and resolve whether the legal proceeding refers to this same gathering."
+  },
+  {
+    "gap_id": "luxembourg_2021-01-G005",
+    "type": "participants",
+    "description": "For the Jan23 P1 gathering, the judgment invokes a statutory 11–100-person category in two notices. This is not an observed crowd count and does not resolve the >=50 threshold; the notices concern one gathering. Exact site is anonymized.",
+    "source_ids": [
+      "LUX202101-S017"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-01-E005"
+    ],
+    "required_followup": "Seek a contemporary attendance estimate or primary record that establishes total crowd size and the precise public demand."
+  },
+  {
+    "gap_id": "luxembourg_2021-01-G006",
+    "type": "participants",
+    "description": "The roughly 200 Jan23 HORECA estimate appears in a d’Lëtzebuerger Land search excerpt only; full page access failed. Official court evidence confirms the HORECA event but gives no turnout.",
+    "source_ids": [
+      "LUX202101-S017",
+      "LUX202101-S020"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-01-E004"
+    ],
+    "required_followup": "Read the full Land article if it becomes ordinarily accessible and seek an independent contemporary estimate."
+  },
+  {
+    "gap_id": "luxembourg_2021-01-G007",
+    "type": "event_status",
+    "description": "A Jan16 HORECA event organized by Etienne-Jean Labarrère-Claverie was explicitly canceled before execution; a separate Place d’Armes gathering occurred. A new Jan21 request was reported, but no occurrence evidence was located.",
+    "source_ids": [
+      "LUX202101-S002",
+      "LUX202101-S003",
+      "LUX202101-S007",
+      "LUX202101-S021"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-01-E002",
+      "luxembourg_2021-01-X001",
+      "luxembourg_2021-01-X002"
+    ],
+    "required_followup": "Keep the canceled Jan16 plan separate from the actual Place d’Armes protest and look for a post-Jan21 account of the separately requested gathering."
+  },
+  {
+    "gap_id": "luxembourg_2021-01-G008",
+    "type": "continuity",
+    "description": "The Jan9 article mentions a prior municipal-park COVID protest with around 40 participants but supplies no event date. Searches did not identify a dated report, so it cannot be assigned to December or recorded as a continuation. A Feb11 HORECA event is a later separate gathering, not evidence of continuous occupation/action from January.",
+    "source_ids": [
+      "LUX202101-S015",
+      "LUX202101-S019",
+      "LUX202101-S023"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Identify the earlier park gathering’s date/source and any evidence of continuous action across months; otherwise leave it unassigned."
+  },
+  {
+    "gap_id": "luxembourg_2021-01-G009",
+    "type": "state_response",
+    "description": "Sources describe general government aid statements and COVID policy, but no event-specific accommodation, arrests, beatings, dispersal, ignoring, killings, or shootings were established for the six January candidates. Unknown fields are retained; silence is not coded as no response.",
+    "source_ids": [
+      "LUX202101-S004",
+      "LUX202101-S007",
+      "LUX202101-S015",
+      "LUX202101-S017",
+      "LUX202101-S022"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-01-E001",
+      "luxembourg_2021-01-E002",
+      "luxembourg_2021-01-E003",
+      "luxembourg_2021-01-E004",
+      "luxembourg_2021-01-E005",
+      "luxembourg_2021-01-E006"
+    ],
+    "required_followup": "Seek event-specific police, municipal or government reporting for each gathering before coding any response."
+  },
+  {
+    "gap_id": "luxembourg_2021-01-G010",
+    "type": "episode_unit",
+    "description": "HORECA protests on Jan16, Jan23 and Jan30 are distinct physical gatherings. Sources may describe repeated pressure, but no stable campaign key or continuous action is established; do not merge dates or infer continuity from policy context.",
+    "source_ids": [
+      "LUX202101-S007",
+      "LUX202101-S020",
+      "LUX202101-S021",
+      "LUX202101-S004"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-01-E002",
+      "luxembourg_2021-01-E004",
+      "luxembourg_2021-01-E006"
+    ],
+    "required_followup": "Look for shared organizers or campaign planning that links the separate rallies, while retaining event-level records unless evidence supports a reviewed episode link."
+  },
+  {
+    "gap_id": "luxembourg_2021-01-G011",
+    "type": "language",
+    "description": "English, French, German and Luxembourgish search terms were used. Most readable event reporting was French or English; relevant German and French articles are blocked or snippet-only, and a systematic Luxembourgish-language/archive search was not possible. Portuguese-language outlet pages appeared in discovery but were not opened.",
+    "source_ids": [
+      "LUX202101-S003",
+      "LUX202101-S016",
+      "LUX202101-S018",
+      "LUX202101-S024"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-01-E002",
+      "luxembourg_2021-01-E003"
+    ],
+    "required_followup": "Search accessible Luxembourgish and German local archive material and record ordinary access outcomes without bypass."
+  },
+  {
+    "gap_id": "luxembourg_2021-01-G012",
+    "type": "baseline",
+    "description": "The official historical baseline, schema/version and usage gate remain unresolved for this research batch. These records are local review candidates only.",
+    "source_ids": [],
+    "affected_candidates": [
+      "luxembourg_2021-01-E001",
+      "luxembourg_2021-01-E002",
+      "luxembourg_2021-01-E003",
+      "luxembourg_2021-01-E004",
+      "luxembourg_2021-01-E005",
+      "luxembourg_2021-01-E006"
+    ],
+    "required_followup": "Coordinator should resolve the official baseline gate before any consolidation into the original Mass Mobilization catalogue."
+  }
+]

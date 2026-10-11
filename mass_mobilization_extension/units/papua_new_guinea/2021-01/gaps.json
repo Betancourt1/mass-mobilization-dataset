@@ -1,0 +1,88 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "participants",
+    "description": "The January 11 Kavieng Airport sit-in is reported, but no opened source gives the number of people present; the 50-person threshold is unresolved.",
+    "source_ids": [
+      "papua_new_guinea_2021-01_S002"
+    ],
+    "affected_candidates": [
+      "papua_new_guinea_2021-01_E001"
+    ],
+    "required_followup": "Search local reporting, original NBC coverage, photographs or organizer records for contemporaneous attendance evidence."
+  },
+  {
+    "gap_id": "G002",
+    "type": "dates",
+    "description": "The sit-in was reported as continuing on January 13, but no physical end date is established. Later compensation articles do not report assembly status.",
+    "source_ids": [
+      "papua_new_guinea_2021-01_S002",
+      "papua_new_guinea_2021-01_S004"
+    ],
+    "affected_candidates": [
+      "papua_new_guinea_2021-01_E001"
+    ],
+    "required_followup": "Search contemporary follow-up from January and February 2021 that explicitly states the landowners departed or the sit-in ended."
+  },
+  {
+    "gap_id": "G003",
+    "type": "source_independence",
+    "description": "The January 13 PNG Today article credits NBC News and appears to republish its report; it is not an independent confirmation.",
+    "source_ids": [
+      "papua_new_guinea_2021-01_S002"
+    ],
+    "affected_candidates": [
+      "papua_new_guinea_2021-01_E001"
+    ],
+    "required_followup": "Locate the original NBC News item and a distinct contemporaneous source, preserving syndication relationships."
+  },
+  {
+    "gap_id": "G004",
+    "type": "coverage",
+    "description": "Twenty-one open-web queries are logged across all January weekly windows plus local-language, region, sector and boundary follow-ups. The tool supplied result headers but no total-result counts; four returned title values were left null where the title could not be cleanly separated, with URLs and reference IDs retained. Date ranking was noisy and repeatedly surfaced unrelated January 2024 coverage. No exhaustive or LexisNexis-equivalent coverage is established.",
+    "source_ids": [],
+    "affected_candidates": [
+      "papua_new_guinea_2021-01_E001"
+    ],
+    "required_followup": "Continue with local archives, source-specific searches and competent Tok Pisin review; record each query and every returned title/URL/reference header."
+  },
+  {
+    "gap_id": "G005",
+    "type": "language",
+    "description": "Two Tok Pisin/local-name searches using Papua Niugini, Niu Ailan, Kavieng and local terms returned mostly English or unrelated results. Language-complete coverage is not established.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with varied Tok Pisin spellings and local/radio archive terms; use competent language review before coding non-English evidence."
+  },
+  {
+    "gap_id": "G006",
+    "type": "baseline",
+    "description": "The official latest MM dataset bytes, current universe/schema and additional Coding Procedure remain unavailable under the coordinator baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve official baseline and procedure gate before compatibility or export."
+  },
+  {
+    "gap_id": "G007",
+    "type": "source_access",
+    "description": "A local newspaper page titled “Partners in support of nationwide protest” was returned in search, but web open timed out; its date and relation to the unit remain unknown.",
+    "source_ids": [
+      "papua_new_guinea_2021-01_S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Revisit only if subsequent evidence establishes relevance to January 2021; the current page remains search_only."
+  },
+  {
+    "gap_id": "G008",
+    "type": "state_response",
+    "description": "The available sources do not establish whether authorities accommodated, arrested, beat, dispersed, ignored, killed or shot at participants during the January 11 sit-in. All seven response dimensions remain unknown; silence is not coded as no action.",
+    "source_ids": [
+      "papua_new_guinea_2021-01_S001",
+      "papua_new_guinea_2021-01_S002"
+    ],
+    "affected_candidates": [
+      "papua_new_guinea_2021-01_E001"
+    ],
+    "required_followup": "Search contemporaneous police, government and independent reporting for each state-response dimension and preserve any conflicting accounts."
+  }
+]

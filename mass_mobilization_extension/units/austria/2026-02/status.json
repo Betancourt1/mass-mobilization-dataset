@@ -1,0 +1,45 @@
+{
+  "unit_id": "austria_2026-02",
+  "country": "Austria",
+  "month": "2026-02",
+  "agent_task": "/root/austria_q1_2026",
+  "status": "root_reviewed_open_gaps",
+  "started_at": "2026-10-10 23:54:34 UTC",
+  "finished_at": "2026-10-10T23:58:38.581113+00:00",
+  "n_queries": 3,
+  "n_sources": 5,
+  "n_candidates": 0,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 8,
+  "source_access_counts": {
+    "opened": 0,
+    "search_only": 5,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "actual_call_walltime_observations": [
+    {
+      "query_id": "AT26FEBQ001",
+      "start_utc": "2026-10-10 23:54:34 UTC",
+      "end_utc": "2026-10-10 23:54:37 UTC",
+      "elapsed_seconds": 3.0
+    },
+    {
+      "query_id": "AT26FEBQ002",
+      "start_utc": "2026-10-10 23:55:21 UTC",
+      "end_utc": "2026-10-10 23:55:27 UTC",
+      "elapsed_seconds": 6.0
+    },
+    {
+      "query_id": "AT26FEBQ003",
+      "start_utc": "2026-10-10 23:56:12 UTC",
+      "end_utc": "2026-10-10 23:56:21 UTC",
+      "elapsed_seconds": 9.0
+    }
+  ],
+  "batched_query_string_count": 12,
+  "coverage_assessment": "Bounded public open-web discovery only, not exhaustive. 3 actual captured search actions contain 12 exact query strings; date windows: February 1–7, 8–14, and 15–28; plus month-wide framing. English/German queries named Austria cities/provinces and sectors: workers and unions, teachers/students/universities, pension policy/cost of living, healthcare/nursing, farming; Vienna, Graz, Linz, Salzburg, Innsbruck and provinces were named across queries. Native headers/result counts/action IDs are unavailable (unknown), not zero; extracted visible URL strings are preserved as unverified leads. No body reads were made; no event facts, attendance, domestic target, exclusion, or event absence are established. See gaps.json; search-only records await exact-target access review.",
+  "baseline_gate": "pending_official_baseline",
+  "coordinator_review_scope": "Bounded firstpass independently reviewed; baseline pending and gaps preserved. Original worker status remains in private snapshot."
+}

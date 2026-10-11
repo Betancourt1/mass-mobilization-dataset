@@ -1,0 +1,9 @@
+Argentina — 2026-01 bounded discovery and limited source access
+
+Status: researched_open_web_pending_review. This draft records discovery and source access; it does not establish an event-free month, exhaustive coverage, or official eligibility.
+
+January discovery used four batched search actions (16 exact query strings); three rendered outputs were preserved and one actual Q001 output was lost before inspection when the executor lacked TextEncoder. The invocation and failure remain recorded; it was not repeated. Four exact-URL leads were retained.
+
+S001 TN: one permitted exact-target attempt returned a 71-line video landing page. The headline/subhead report a Jan 14, 2026 08:08 item about a Panamericana protest by cleaning-products-company workers demanding reinstatement of dismissed coworkers. Only landing-page text was visible; the video was not read. Attendance, specific event details, public-meeting status and a domestic state target are not established. No candidate is proposed. S002 MDZ: one exact first attempt returned tool-only Internal Error text saying the URL was not accessible via the tool; no HTTP status or article body. This is a technical tool failure, not publisher denial. No retry or fallback. S003 and S004 remain search-only.
+
+Exact handoff outputs and manifests were copied byte-identically under private_reading/body_access with SHA crosswalk and access histories; native payload metadata remains unknown. Remaining gaps include provincial/local coverage, threshold, state target, source independence and Q001 missing capture. No events, exclusions or continuations are asserted; baseline and review remain pending.

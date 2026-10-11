@@ -1,0 +1,112 @@
+[
+  {
+    "candidate_id": "ALB2026-02-C001",
+    "country": "Albania",
+    "unit_month": "2026-02",
+    "title": "Tirana anti-government demonstration calling for Prime Minister Rama’s resignation",
+    "start_date": "2026-02-10",
+    "start_precision": "day",
+    "end_date": "2026-02-10",
+    "end_precision": "day",
+    "location": "Tirana; outside Prime Minister Edi Rama’s office, with clashes also reported near Parliament.",
+    "scope": "One Tuesday evening demonstration. The exact page also mentions an earlier rally two weeks before but does not describe this Feb 10 event as continuing from that rally or beyond the evening.",
+    "organizer": "Sali Berisha, opposition Democratic Party leader and former prime minister, according to the article.",
+    "demands": [
+      "political_behavior_process",
+      "removal_of_politician"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "The returned article text names protesters and describes a major demonstration but provides no participant count or lower bound; >=50 remains unverified.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "ALB2026-02-S006"
+    ],
+    "field_evidence": {
+      "event_date": {
+        "source_ids": [
+          "ALB2026-02-S006"
+        ],
+        "summary": "Article published Feb 11 and describes the Tuesday-night protest as Feb 10, 2026."
+      },
+      "location": {
+        "source_ids": [
+          "ALB2026-02-S006"
+        ],
+        "summary": "Tirana, outside the prime minister’s office; clashes near parliament are reported."
+      },
+      "organizer": {
+        "source_ids": [
+          "ALB2026-02-S006"
+        ],
+        "summary": "Article identifies Sali Berisha and the opposition Democratic Party as calling the protest."
+      },
+      "demands": {
+        "source_ids": [
+          "ALB2026-02-S006"
+        ],
+        "summary": "Demonstrators called for Rama’s resignation; article also reports demands that Balluku leave office and lose parliamentary immunity."
+      },
+      "participants": {
+        "source_ids": [
+          "ALB2026-02-S006"
+        ],
+        "summary": "No participant count or minimum appears in the returned text."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "ALB2026-02-S006"
+        ],
+        "summary": "Article reports protesters threw Molotov cocktails and flares at police."
+      },
+      "state_response": {
+        "source_ids": [
+          "ALB2026-02-S006"
+        ],
+        "summary": "Article reports police used water cannon and tear gas and that 13 people were arrested; injury attribution is unresolved in the returned text."
+      },
+      "agency_provenance": {
+        "source_ids": [
+          "ALB2026-02-S006"
+        ],
+        "summary": "Byline says Al Jazeera and News Agencies; AP is cited in body and Reuters/AFP appear in photo credits. Written origin is not established."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "candidate",
+    "baseline_gate": "pending_official_baseline",
+    "episode_key": "ALBANIA:TIRANA:2026-02-10:opposition-demonstration",
+    "open_questions": [
+      {
+        "question": "Does any authorized source establish at least 50 participants?",
+        "effect": "Eligibility remains pending_threshold; the Al Jazeera text gives no count."
+      },
+      {
+        "question": "What is the written news-agency origin of the article text, and how independent is it from AP/Reuters/AFP reporting?",
+        "effect": "No agency page is opened; attribution is retained and no independent-source count is claimed."
+      },
+      {
+        "question": "Does the codebook political-rally exclusion apply?",
+        "effect": "The reviewed text documents one opposition party organizer and a PM resignation demand; it does not establish two or more parties demonstrating positions associated with upcoming elections. Do not infer those missing criteria."
+      },
+      {
+        "question": "Is this a distinct Feb 10 action from earlier or later opposition protests?",
+        "effect": "Treat as a Feb 10 one-day event for now; no continuation/merger evidence in this first read."
+      }
+    ],
+    "source_access_status": "opened",
+    "review_status": "provisional_isolated_proposal_only"
+  }
+]

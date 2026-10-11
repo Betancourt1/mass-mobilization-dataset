@@ -1,0 +1,166 @@
+[
+  {
+    "gap_id": "GRC202102-G001",
+    "type": "baseline",
+    "description": "The original Mass Mobilization coding manual and current official baseline are not present in the portable research handoff. The unit therefore uses the documented stage-one protocol and remains pending official-baseline compatibility review.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should compare the unit with the recovered manual and verified official baseline before any official or integrated use."
+  },
+  {
+    "gap_id": "GRC202102-G002",
+    "type": "search_method",
+    "description": "The 31 captured web-query actions are an open-web discovery pass and do not reproduce LexisNexis or a systematic contemporaneous Greek press archive. English and Greek-language queries were used, but the regional, language, sector and event coverage cannot be treated as exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue date-, sector- and region-specific searches in contemporary local archives and accessible primary/official sources; preserve unsearched language/archive limits."
+  },
+  {
+    "gap_id": "GRC202102-G003",
+    "type": "source_access",
+    "description": "Most current sources remain search-only. One exact, receipt-gated Euronews/AP article was read for E001; another fresh-gated request had earlier returned only site navigation with no article text. Athens police S005 attempts recorded cache/DNS technical failures rather than observed denial and were stopped. No request followed a stale/mismatched receipt.",
+    "source_ids": [
+      "GRC202102-S005",
+      "GRC202102-S024"
+    ],
+    "affected_candidates": [],
+    "required_followup": "After individually fresh receipt, full saved publisher/origin manual review and immediate whole-input hash equality, obtain readable original article content from the highest-priority sources; retain technical failures as distinct from denials."
+  },
+  {
+    "gap_id": "GRC202102-G004",
+    "type": "unverified_lead",
+    "description": "A contemporary Euronews/AP body confirms one February 23 Thessaloniki courthouse rally against the campus-security law and reports more than 5,000 participants. This does not establish the February 22 university demonstration or occupation's event boundaries, threshold, organizer or response; the article places 31 arrests and an unspecified violent incident on February 22, not February 23.",
+    "source_ids": [
+      "GRC202102-S003",
+      "GRC202102-S008",
+      "GRC202102-S022",
+      "GRC202102-S023",
+      "GRC202102-S024",
+      "GRC202102-S080",
+      "GRC202102-S081",
+      "GRC202102-S082",
+      "GRC202102-S083",
+      "GRC202102-S084",
+      "GRC202102-S086",
+      "GRC202102-S089"
+    ],
+    "affected_candidates": [
+      "greece_2021-02_E001"
+    ],
+    "required_followup": "Seek an independent contemporary report and separately verify the February 22 gathering/occupation chronology, attendance and responses. Do not transfer Feb22 arrests/violence or crowd counts to E001."
+  },
+  {
+    "gap_id": "GRC202102-G005",
+    "type": "unverified_lead",
+    "description": "Search-only sources refer to multiple solidarity actions linked to Dimitris Koufontinas and to a separate intervention at the Health Ministry. Their dates, actions, demands, crowd sizes, whether activity was a public gathering versus entry into an office, and state responses are unresolved; arrests or detentions are not turnout.",
+    "source_ids": [
+      "GRC202102-S007",
+      "GRC202102-S009",
+      "GRC202102-S010",
+      "GRC202102-S011",
+      "GRC202102-S012",
+      "GRC202102-S016",
+      "GRC202102-S017",
+      "GRC202102-S018",
+      "GRC202102-S019",
+      "GRC202102-S020",
+      "GRC202102-S049",
+      "GRC202102-S050",
+      "GRC202102-S051",
+      "GRC202102-S052",
+      "GRC202102-S053",
+      "GRC202102-S054",
+      "GRC202102-S055"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Establish each executed public gathering's date, place, demand, participants and response from opened reports, keeping separate actions distinct and avoiding turnout inference from police totals."
+  },
+  {
+    "gap_id": "GRC202102-G006",
+    "type": "unverified_lead",
+    "description": "Search-only leads describe anti-lockdown or COVID-restriction gatherings in Athens, Thessaloniki and Evosmos on potentially different dates. Dates, demands, threshold attendance and police actions remain unverified, and each local physical assembly must remain separate unless evidence shows a single organized national action.",
+    "source_ids": [
+      "GRC202102-S021",
+      "GRC202102-S056",
+      "GRC202102-S057",
+      "GRC202102-S058",
+      "GRC202102-S059",
+      "GRC202102-S060",
+      "GRC202102-S061",
+      "GRC202102-S062",
+      "GRC202102-S063",
+      "GRC202102-S064",
+      "GRC202102-S065",
+      "GRC202102-S066",
+      "GRC202102-S067",
+      "GRC202102-S068",
+      "GRC202102-S069",
+      "GRC202102-S070",
+      "GRC202102-S071",
+      "GRC202102-S072",
+      "GRC202102-S085"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Open contemporary bodies for each specific location/date, distinguish planned from completed gatherings, obtain attendance or clear threshold evidence, and code each of the seven state/protester-response fields only where explicitly supported."
+  },
+  {
+    "gap_id": "GRC202102-G007",
+    "type": "unverified_lead",
+    "description": "Several search headers describe a February Evosmos gathering or march against lockdown. Results may refer to February 20, 21 and 24 actions; exact dates, whether they are separate gatherings, local demands (including health services, public transport, lockdown and a proposed migrant/refugee facility), participant counts and outcomes are not yet verified.",
+    "source_ids": [
+      "GRC202102-S066",
+      "GRC202102-S067",
+      "GRC202102-S068",
+      "GRC202102-S069",
+      "GRC202102-S070",
+      "GRC202102-S071",
+      "GRC202102-S072"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Compare the body chronology from contemporaneous ERT and local sources; record distinct events only on evidence and do not conflate separate policy demands."
+  },
+  {
+    "gap_id": "GRC202102-G008",
+    "type": "unverified_lead",
+    "description": "Arts-sector sources identify possible February gatherings and a separate march by artists, including a demand for Culture Minister Lina Mendoni to resign or for state support. The number of distinct actions, exact dates, participants and whether any state response occurred remain unverified; a labor strike is not automatically a public assembly.",
+    "source_ids": [
+      "GRC202102-S074",
+      "GRC202102-S075",
+      "GRC202102-S076",
+      "GRC202102-S077",
+      "GRC202102-S078",
+      "GRC202102-S079",
+      "GRC202102-S086"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read contemporaneous reports and distinguish gatherings from the arts-sector strike; verify the actual state target, date, threshold and response."
+  },
+  {
+    "gap_id": "GRC202102-G009",
+    "type": "unverified_lead",
+    "description": "Additional headers refer to a farmers' motorcade, healthcare workers' action, and student/worker solidarity gatherings. Some results describe planned actions or lack an identifiable February date; execution, exact location, demand and crowd threshold are unknown.",
+    "source_ids": [
+      "GRC202102-S014",
+      "GRC202102-S015",
+      "GRC202102-S073",
+      "GRC202102-S087",
+      "GRC202102-S088"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify contemporaneous event dates, whether an announced strike or motorcade occurred, the public-gathering form and reported participant evidence before coding."
+  },
+  {
+    "gap_id": "GRC202102-G010",
+    "type": "episode_unit",
+    "description": "No body evidence establishes event endings, starts before February, continuation into March, organizer handoffs, or whether any daily reports describe the same continuous episode. The possible campus occupation and other multiday protest references have unresolved ownership and closure.",
+    "source_ids": [
+      "GRC202102-S022",
+      "GRC202102-S023",
+      "GRC202102-S081",
+      "GRC202102-S083",
+      "GRC202102-S084"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search before and after the month for the physical beginning/end and organization of each episode; place pre-February starts in continuations and avoid inventing an end at the month boundary."
+  }
+]

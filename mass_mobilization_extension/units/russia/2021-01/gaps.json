@@ -1,0 +1,198 @@
+[
+  {
+    "gap_id": "russia_2021-01_G001",
+    "type": "baseline",
+    "description": "The unit uses the provisional ccode and event criteria pending verification of the latest official Mass Mobilization files, current universe, schema, and additional Coding Procedure.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve the repository baseline gate; do not assign official IDs or infer official coverage."
+  },
+  {
+    "gap_id": "russia_2021-01_G002",
+    "type": "search_method",
+    "description": "Open-web discovery does not reproduce the historical LexisNexis newspaper protocol. Coverage and search-language limits will be recorded as the January pass proceeds.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue weekly Russian- and English-language searches and report geographic, sector, and source-access limits."
+  },
+  {
+    "gap_id": "russia_2021-01_G003",
+    "type": "episode_unit",
+    "description": "Early-January Khabarovsk evidence conflicts: Vedomosti’s search result gives the municipality’s claim that unauthorized rallies had ceased; a NEWSru headline and partial page header say several dozen nonetheless gathered in severe cold. A direct NEWSru request returned HTTP 200 but only its title/initial lead were captured; the Vedomosti URL normalized to 404. An opened Jan. 9 MK report documents a traditional Saturday rally with >100 eyewitness-estimated attendees and says the weekly campaign began after Furgal’s July 2020 arrest. Episode/month ownership remains unresolved.",
+    "source_ids": [
+      "russia_2021-01_S014",
+      "russia_2021-01_S017",
+      "russia_2021-01_S020",
+      "russia_2021-01_S022",
+      "russia_2021-01_S079",
+      "russia_2021-01_S088"
+    ],
+    "affected_candidates": [
+      "russia_2021-01_E004"
+    ],
+    "required_followup": "If another non-evasive source access route is authorized and available, read NEWSru body; do not retry Vedomosti’s 404 or RBC’s 401. Resolve weekly-action boundaries with the Coding Procedure and verify any Jan. 16/30 gathering threshold before inclusion."
+  },
+  {
+    "gap_id": "russia_2021-01_G004",
+    "type": "contested_evidence",
+    "description": "DW’s Moscow article metadata and title date the report to 23 January 2021, while one body sentence says 23 February. Other accessed contemporary reports date the action to 23 January. The internal discrepancy remains explicit.",
+    "source_ids": [
+      "russia_2021-01_S003",
+      "russia_2021-01_S023",
+      "russia_2021-01_S025"
+    ],
+    "affected_candidates": [
+      "russia_2021-01_E001"
+    ],
+    "required_followup": "Check the original page/update history and additional contemporary reports before adjudicating the DW body date."
+  },
+  {
+    "gap_id": "russia_2021-01_G005",
+    "type": "participants",
+    "description": "The 23 January sources offer national qualitative totals and a separate disputed Moscow estimate, but no complete city-by-city counts. Cumulative national arrests are not participant counts.",
+    "source_ids": [
+      "russia_2021-01_S003",
+      "russia_2021-01_S023",
+      "russia_2021-01_S025"
+    ],
+    "affected_candidates": [
+      "russia_2021-01_E001"
+    ],
+    "required_followup": "Seek contemporary local reporting for region-specific attendance and keep national/site estimates separate; do not sum or assign national arrests as turnout."
+  },
+  {
+    "gap_id": "russia_2021-01_G006",
+    "type": "contested_evidence",
+    "description": "For 31 January, Euronews/AP reports the OVD-Info tally as over 5,130 detentions while The Moscow Times liveblog reports 5,646. OVD-Info’s retrospective report groups arrests across January 23, 31 and February 2 and reports a cumulative total over 11,000. These counts are not turnout and are not interchangeable.",
+    "source_ids": [
+      "russia_2021-01_S053",
+      "russia_2021-01_S057",
+      "russia_2021-01_S058"
+    ],
+    "affected_candidates": [
+      "russia_2021-01_E002"
+    ],
+    "required_followup": "Retain each source’s scope and timing; if a numerical arrest total is ever reported, resolve date cutoffs and source updates. Current response coding uses yes only."
+  },
+  {
+    "gap_id": "russia_2021-01_G007",
+    "type": "state_target",
+    "description": "The 17 January Vnukovo/Sheremetyevo leads describe people welcoming Alexei Navalny and subsequent detentions. Search-result titles do not establish a demand directed to the Russian state or its policy; the airport gathering is not yet an eligible protest candidate.",
+    "source_ids": [
+      "russia_2021-01_S059",
+      "russia_2021-01_S060",
+      "russia_2021-01_S061",
+      "russia_2021-01_S062",
+      "russia_2021-01_S063",
+      "russia_2021-01_S064",
+      "russia_2021-01_S065",
+      "russia_2021-01_S066",
+      "russia_2021-01_S067",
+      "russia_2021-01_S068",
+      "russia_2021-01_S069",
+      "russia_2021-01_S070",
+      "russia_2021-01_S071"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read contemporaneous bodies and distinguish welcoming a returning politician from a public gathering demanding a state action/policy. Keep a local episode pending or exclude only after the actual demand and attendance are checked."
+  },
+  {
+    "gap_id": "russia_2021-01_G008",
+    "type": "participants",
+    "description": "RFE/RL reports nine people detained after single pickets at Gostiny Dvor in St Petersburg on Jan. 17, but that detention count does not establish total attendance or whether other picketers were present. The airport welcome must remain separate.",
+    "source_ids": [
+      "russia_2021-01_S066"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find contemporary site-specific attendance and demand evidence; do not use arrests as turnout and do not merge these pickets with Vnukovo."
+  },
+  {
+    "gap_id": "russia_2021-01_G009",
+    "type": "coverage",
+    "description": "Broad Jan. 1–7, Jan. 15–21 and Jan. 24–30 regional/sector-oriented searches returned retrospective coverage, later Navalny actions, unrelated or older labor-history items, and one verified workplace stoppage in Kholmsk. VKPB reports 45 municipal bus-service employees stopped work on Jan. 20 over wage arrears; this is not a public gathering and is recorded in excluded.json. Selected Jan. 31 Kommersant live updates add several regional sites within the coordinated Navalny wave, including about 2,000 at a Krasnodar site and about 300 in Voronezh; the searches still did not establish a complete regional/sectoral inventory beyond the discussed Khabarovsk/Navalny reports; this remains a limited-coverage gap, not evidence that no other events occurred.",
+    "source_ids": [
+      "russia_2021-01_S093",
+      "russia_2021-01_S095",
+      "russia_2021-01_S097",
+      "russia_2021-01_S094"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue specific searches for Khabarovsk continuity and contemporary labor, health, education, transport, environmental and regional actions during Jan. 1–7; do not treat absent search results as evidence of no events."
+  },
+  {
+    "gap_id": "russia_2021-01_G010",
+    "type": "episode_unit",
+    "description": "Khabarovsk Jan. 9 is an opened >100-person physical gathering but whether it is a separate event or an older-onset action series is unresolved. Jan. 2 remains only partly captured, Jan. 16 is blocked, and Jan. 30 is disputed: opened RFE/RL reports several dozen at a Furgal-support rally, while opened DW says police prevented people gathering and detained several walking on the square. No uninterrupted physical occupation is established. A Feb. 6 DW account describes a single picket against low military pay, separate from Furgal support and below the threshold; this is boundary context only.",
+    "source_ids": [
+      "russia_2021-01_S014",
+      "russia_2021-01_S022",
+      "russia_2021-01_S085",
+      "russia_2021-01_S087",
+      "russia_2021-01_S088",
+      "russia_2021-01_S099"
+    ],
+    "affected_candidates": [
+      "russia_2021-01_E004",
+      "russia_2021-01_E005",
+      "russia_2021-01_E006"
+    ],
+    "required_followup": "Review the exact protocol for recurring actions; retain Jan. 2/16/30 as pending evidence until physical dates, threshold and state-target demands can be substantiated. Do not retry sources with 403/401/404; search for distinct accessible contemporary reporting."
+  },
+  {
+    "gap_id": "russia_2021-01_G011",
+    "type": "contested_evidence",
+    "description": "The Jan. 9 MK Khabarovsk page is dated Jan. 9 and its body context describes a Saturday action, but a photo caption says 'today, 9 December.' The source-internal conflict is unresolved.",
+    "source_ids": [
+      "russia_2021-01_S014"
+    ],
+    "affected_candidates": [
+      "russia_2021-01_E004"
+    ],
+    "required_followup": "Check the original page/update history or a contemporaneous independent Jan. 9 report before resolving the caption."
+  },
+  {
+    "gap_id": "russia_2021-01_G012",
+    "type": "source_verification",
+    "description": "Search-result snippets from third-party Wikipedia mirrors mention Khabarovsk actions on Jan. 18–19 and Jan. 30. The mirrors are not original sources; the Jan. 30 actions have separate contemporary report leads, but those bodies were denied or not substantively captured. No Jan. 18–19 contemporary evidence, attendance or demand has been verified.",
+    "source_ids": [
+      "russia_2021-01_S016",
+      "russia_2021-01_S085",
+      "russia_2021-01_S086"
+    ],
+    "affected_candidates": [
+      "russia_2021-01_E004",
+      "russia_2021-01_E006"
+    ],
+    "required_followup": "Find contemporaneous local or rights-monitor reports for Jan. 18–19 and Jan. 30; distinguish gatherings, detentions, and weekly-campaign continuity. Do not add a candidate from the mirror snippet."
+  },
+  {
+    "gap_id": "russia_2021-01_G013",
+    "type": "participants",
+    "description": "Jan. 16 OpenMedia and Jan. 30 OVD-Info result titles suggested Furgal-support actions; the OpenMedia page returned HTTP 403 and OVD-Info Jan. 30 returned HTTP 403. Jan. 30 RFE/RL was later read after an exact ordinary HTTPS 200 retrieval and says several dozen attended, while the Feb. 13 DW report says police prevented a group from assembling and detained several people walking on the square. The conflicting reports leave the >=50 threshold unresolved; arrests are not turnout.",
+    "source_ids": [
+      "russia_2021-01_S085",
+      "russia_2021-01_S086",
+      "russia_2021-01_S087",
+      "russia_2021-01_S099"
+    ],
+    "affected_candidates": [
+      "russia_2021-01_E005",
+      "russia_2021-01_E006"
+    ],
+    "required_followup": "Find accessible contemporary local turnout reporting without retrying denied URLs; keep candidates pending_evidence until threshold, explicit state target and physical dates are supported."
+  },
+  {
+    "gap_id": "russia_2021-01_G014",
+    "type": "episode_unit",
+    "description": "Mediazona’s contemporaneous Jan. 31 Navalny-action live page places several dozen people on a central Khabarovsk square; DW later reports 70–80 people at Lenin Square and 13 detentions. The site action is represented within E002, not duplicated. The sources do not establish whether the local group also had Furgal-support demands or whether it was distinct from the older weekly Furgal sequence.",
+    "source_ids": [
+      "russia_2021-01_S058",
+      "russia_2021-01_S099",
+      "russia_2021-01_S101"
+    ],
+    "affected_candidates": [
+      "russia_2021-01_E002"
+    ],
+    "required_followup": "Seek contemporary local reporting or organizer testimony that states the Jan. 31 Khabarovsk action’s explicit demands and organization; preserve the E002 overlap unless evidence demonstrates a separate physical action."
+  }
+]
