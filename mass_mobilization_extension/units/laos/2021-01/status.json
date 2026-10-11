@@ -1,0 +1,25 @@
+{
+  "unit_id": "laos_2021-01",
+  "country": "Laos",
+  "month": "2021-01",
+  "agent_task": "/root/laos_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T15:11:01Z",
+  "finished_at": "2026-10-08T15:24:23Z",
+  "n_queries": 36,
+  "n_sources": 20,
+  "n_candidates": 0,
+  "n_excluded": 7,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "coverage_assessment": "Bounded first pass: 36 pooled open-web queries across English, Lao script, and selected Thai, Chinese, and Vietnamese; four January weekly windows; sectoral, geographic, diaspora/location, and December/February boundary checks. Relevant opened, search-only, and inaccessible URLs are recorded, including normal HTTPS recovery after cache misses. Search result pooling, political reporting restrictions, incomplete local-archive coverage, and unresolved official baseline limit coverage. No qualifying January event was established; this is not an absence claim.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources_started": [
+    {
+      "resource": "One-shot ordinary HTTPS requests to BHRRC, LaoNews, and Thai PBS public URLs after web-tool cache misses",
+      "result": "All request processes completed. BHRRC returned HTTP 403; LaoNews failed in local DNS before an HTTP response; Thai PBS returned HTTP 200 and the article text was read. No long-running resource was started."
+    }
+  ],
+  "temporary_resources_still_running": [],
+  "mechanics_assessment": "Existing portable scripts cover unit status and consolidation mechanics; this bounded work did not justify creating a new skill or CLI. Most effort was source discovery and evidence review."
+}

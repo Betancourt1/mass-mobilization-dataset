@@ -1,0 +1,121 @@
+[
+  {
+    "gap_id": "switzerland_2021-01_G001",
+    "type": "participant_threshold",
+    "description": "The 2 January Bern Bundesplatz gathering is documented by Nau and a Kantonspolizei Bern-attributed republication, but both say only 'several dozen'. The roughly 25 people mentioned by Nau and the police republication are those remaining after an order to leave, not the initial turnout. No source establishes an initial count of at least 50.",
+    "source_ids": [
+      "switzerland_2021-01_S077",
+      "switzerland_2021-01_S078"
+    ],
+    "affected_candidates": [
+      "switzerland_2021-01_E006"
+    ],
+    "required_followup": "Seek an accessible contemporaneous total or original Kantonspolizei Bern release if available; otherwise retain pending_threshold and do not substitute the post-order subset for total turnout."
+  },
+  {
+    "gap_id": "switzerland_2021-01_G002",
+    "type": "pending_evidence",
+    "description": "The opened 20 minutes daily index for 30 January contains a Geneva headline about a gathering without authorization. The linked article body was not retrieved; the index date is not verified as the physical event date, and there is no body-level evidence about attendance, demand, police response, or episode relation.",
+    "source_ids": [
+      "switzerland_2021-01_S052"
+    ],
+    "affected_candidates": [
+      "switzerland_2021-01_E007"
+    ],
+    "required_followup": "Retrieve the exact linked article body from an accessible source before assigning a physical date, target, turnout, or state response. Keep this lead separate from the 26 February Geneva event unless continuity is demonstrated."
+  },
+  {
+    "gap_id": "switzerland_2021-01_G003",
+    "type": "event_unit",
+    "description": "On 9 January one organizer arranged four parallel, separately permitted Central Switzerland assemblies with a live transmission from Schwyz. Reports give local police-sourced estimates around 400 in Schwyz, 200 in Sarnen, 300 in Stans and 220 in Altdorf; Keystone-SDA reports over 1,000 combined, while speakers cited by Blick claimed 1,300. The Schwyz-specific figure and four-site aggregate must remain distinct. One versus multiple MM units is unresolved.",
+    "source_ids": [
+      "switzerland_2021-01_S064",
+      "switzerland_2021-01_S065",
+      "switzerland_2021-01_S066",
+      "switzerland_2021-01_S067",
+      "switzerland_2021-01_S068"
+    ],
+    "affected_candidates": [
+      "switzerland_2021-01_E002"
+    ],
+    "required_followup": "Resolve the one-versus-multiple-site rule against the applicable coding procedure and original unit definition. Do not split or merge automatically; keep each estimate tied to its reported site or aggregate."
+  },
+  {
+    "gap_id": "switzerland_2021-01_G004",
+    "type": "event_end",
+    "description": "Zurich's 30 January police release says the crowd left in groups, regrouped at Limmatquai/Niederdorf and was then checked or ordered away. The police operation ended shortly before 16:00, but that time does not establish the protest's final physical endpoint.",
+    "source_ids": [
+      "switzerland_2021-01_S063"
+    ],
+    "affected_candidates": [
+      "switzerland_2021-01_E003"
+    ],
+    "required_followup": "Look for a contemporaneous report or later official account explicitly stating when and where the final participants left; otherwise retain an unknown end date."
+  },
+  {
+    "gap_id": "switzerland_2021-01_G005",
+    "type": "state_response",
+    "description": "Formal arrest status remains unresolved in several reports. Zurich reports four people taken to a station for inquiries and dozens of citations; Bern's 23 January Italian wording says people were stopped/held and reported, alongside about 60 citations; the 2 January Bern accounts say about 25 were checked and could face complaints. These descriptions do not independently establish formal arrests.",
+    "source_ids": [
+      "switzerland_2021-01_S063",
+      "switzerland_2021-01_S070",
+      "switzerland_2021-01_S076",
+      "switzerland_2021-01_S077",
+      "switzerland_2021-01_S078"
+    ],
+    "affected_candidates": [
+      "switzerland_2021-01_E003",
+      "switzerland_2021-01_E004",
+      "switzerland_2021-01_E006"
+    ],
+    "required_followup": "Use a source that explicitly identifies arrest or custody before changing any arrests value. Keep citations, checks, inquiries and reports separate from arrest status."
+  },
+  {
+    "gap_id": "switzerland_2021-01_G006",
+    "type": "event_end",
+    "description": "Bern's 23 January report says most people left the square after police orders and that some were followed and checked elsewhere. It does not state when the full episode physically ended; recurrence of weekend calls also does not by itself establish a continuous episode.",
+    "source_ids": [
+      "switzerland_2021-01_S070",
+      "switzerland_2021-01_S076"
+    ],
+    "affected_candidates": [
+      "switzerland_2021-01_E004"
+    ],
+    "required_followup": "Seek an explicit end-of-event account and evidence of episode continuity before assigning an end date or linking this gathering to a recurring campaign."
+  },
+  {
+    "gap_id": "switzerland_2021-01_G007",
+    "type": "access",
+    "description": "A 12 January Ticinolive search result is titled as reporting protests by restaurateurs and doctors, but the exact article returned HTTP 403 after a cache miss and ordinary sandbox DNS failure. No article body was retrieved; whether it describes a public gathering, reaches 50, or overlaps with the planned business reopening or announced white-coats action is unknown.",
+    "source_ids": [
+      "switzerland_2021-01_S080"
+    ],
+    "affected_candidates": [
+      "switzerland_2021-01_E001",
+      "switzerland_2021-01_E005"
+    ],
+    "required_followup": "Do not retry or bypass the 403. If an independently accessible source is later found, assess it separately before relating it to E001 or E005; do not infer an assembly or turnout from the title."
+  },
+  {
+    "gap_id": "switzerland_2021-01_G008",
+    "type": "coverage",
+    "description": "This is a documented open-web first pass across English, German, French and Italian weekly searches plus regional, policy and sector checks through the 2026-10-07 cutoff. Search-engine noise included older and later events; some exact article pages were inaccessible, and no LexisNexis or equivalent closed-news-archive review was performed. The current official MM baseline and additional Coding Procedure remain coordinator-controlled and unresolved.",
+    "source_ids": [
+      "switzerland_2021-01_S001",
+      "switzerland_2021-01_S052",
+      "switzerland_2021-01_S071",
+      "switzerland_2021-01_S072",
+      "switzerland_2021-01_S073",
+      "switzerland_2021-01_S079",
+      "switzerland_2021-01_S080"
+    ],
+    "affected_candidates": [
+      "switzerland_2021-01_E002",
+      "switzerland_2021-01_E003",
+      "switzerland_2021-01_E004",
+      "switzerland_2021-01_E006",
+      "switzerland_2021-01_E007"
+    ],
+    "required_followup": "Treat these files as a first-pass country-month record, not proof of exhaustive search or official inclusion. Coordinator may pursue newly accessible local archives or the official baseline/procedure through the appropriate authorized workflow."
+  }
+]

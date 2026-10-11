@@ -1,0 +1,131 @@
+[
+  {
+    "gap_id": "SUR202101-G001",
+    "type": "baseline",
+    "description": "Official latest dataset bytes, current universe, schema and additional Coding Procedure remain unverified under the project baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator resolves the official baseline and compatibility gate before official-compatible export or integration, or official IDs; provisional research and working exports may continue."
+  },
+  {
+    "gap_id": "SUR202101-G002",
+    "type": "search_method",
+    "description": "Open-web search is not equivalent to the historical LexisNexis source set; search coverage and source indexing are incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use additional archive/local-language searches and document inaccessible records; do not infer absence."
+  },
+  {
+    "gap_id": "SUR202101-G003",
+    "type": "language",
+    "description": "Coverage in Dutch, English and relevant Sranan Tongo/local-language records is not yet established.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search Dutch and English sources and relevant local-language sources where indexed."
+  },
+  {
+    "gap_id": "SUR202101-G004",
+    "type": "coverage",
+    "description": "Targeted searches covered weekly windows, sectors, regions and neighboring months, but residual language, geographic and documentary gaps remain; the month search is incomplete and not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Complete targeted sector/language and neighboring-month searches; keep empty search results from becoming an absence claim."
+  },
+  {
+    "gap_id": "SUR202101-G005",
+    "type": "episode_unit",
+    "description": "Starnieuws says Pique had conducted earlier actions after the government took office; dates, threshold and relation to the 9 and 20 January gatherings are unresolved. The Monday 11 January action was announced, while a blocked headline says a Monday action was called off; exact linkage/date is unverified.",
+    "source_ids": [
+      "SUR202101-S002",
+      "SUR202101-S006",
+      "SUR202101-S007",
+      "SUR202101-S009",
+      "SUR202101-S016",
+      "SUR202101-S021"
+    ],
+    "affected_candidates": [
+      "SUR202101-E001",
+      "SUR202101-E002"
+    ],
+    "required_followup": "Search December 2020 and January/February follow-ups; use additional Coding Procedure to establish physical onsets and episode boundaries."
+  },
+  {
+    "gap_id": "SUR202101-G006",
+    "type": "participants",
+    "description": "For 9 January, Waterkant reports circa 200 and 100-200 while Starnieuws says dozens; size reporting differs in precision.",
+    "source_ids": [
+      "SUR202101-S007",
+      "SUR202101-S008",
+      "SUR202101-S009"
+    ],
+    "affected_candidates": [
+      "SUR202101-E001"
+    ],
+    "required_followup": "Retain attributed reports and seek any independent contemporaneous count; do not average or imply shared methodology."
+  },
+  {
+    "gap_id": "SUR202101-G007",
+    "type": "state_response",
+    "description": "For 9 January, reviewed accounts do not establish arrests, beatings, state crowd dispersal, intentional ignoring, killings or shootings; a future talk was offered but not shown as completed.",
+    "source_ids": [
+      "SUR202101-S007",
+      "SUR202101-S008"
+    ],
+    "affected_candidates": [
+      "SUR202101-E001"
+    ],
+    "required_followup": "Search contemporary official and independent reports for each response dimension; retain unknown absent explicit evidence."
+  },
+  {
+    "gap_id": "SUR202101-G008",
+    "type": "source_access",
+    "description": "Several related local-news pages are search-only or blocked by HTTP 403/406 or a TLS certificate failure; their body details and relations remain unavailable.",
+    "source_ids": [
+      "SUR202101-S001",
+      "SUR202101-S002",
+      "SUR202101-S004",
+      "SUR202101-S005",
+      "SUR202101-S010",
+      "SUR202101-S011",
+      "SUR202101-S012",
+      "SUR202101-S017",
+      "SUR202101-S018",
+      "SUR202101-S019"
+    ],
+    "affected_candidates": [
+      "SUR202101-E001",
+      "SUR202101-E002"
+    ],
+    "required_followup": "Use accessible sources and preserve denials without retries, bypasses or unsupported claims."
+  },
+  {
+    "gap_id": "SUR202101-G009",
+    "type": "participants",
+    "description": "For 20 January, pre-event government/media reports projected about 500, while Waterkant reported about 100 actual attendees. Only the Waterkant report gives observed turnout.",
+    "source_ids": [
+      "SUR202101-S003",
+      "SUR202101-S006",
+      "SUR202101-S016",
+      "SUR202101-S017"
+    ],
+    "affected_candidates": [
+      "SUR202101-E002"
+    ],
+    "required_followup": "Retain the distinction between expected and observed turnout; seek a separate outlet's event-day count if available."
+  },
+  {
+    "gap_id": "SUR202101-G010",
+    "type": "state_response",
+    "description": "For 20 January, government permit refusal and a warning preceded the protest; the Assembly chair later accepted the petition. A separate 23 January arrest is not linked to the protest.",
+    "source_ids": [
+      "SUR202101-S003",
+      "SUR202101-S006",
+      "SUR202101-S015",
+      "SUR202101-S016"
+    ],
+    "affected_candidates": [
+      "SUR202101-E002"
+    ],
+    "required_followup": "Coordinator review the attempted crowd-dispersal classification and preserve the distinction between event-day reception and later arrest."
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "gap_id": "ROM202102-G001",
+    "type": "search_coverage",
+    "description": "Ten web search actions covered English and Romanian terms, February weekly windows, public-sector unions, police, pupils/students, rail and miners, with selected city/sector queries. Open-web search is not LexisNexis or a systematic regional archive; many leads remain search-only and no exhaustive absence claim is supported.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use additional contemporary regional, local, official and rights-organization records where available; retain language/archive coverage limits."
+  },
+  {
+    "gap_id": "ROM202102-G002",
+    "type": "threshold",
+    "description": "The mixed public-sector Cotroceni/Government gathering is described as “zeci”; the police-specific count and relation between locations are unresolved. Photo captions were read, but linked photos were not inspected.",
+    "source_ids": [
+      "ROM202102-S021"
+    ],
+    "affected_candidates": [
+      "ROM202102-E004"
+    ],
+    "required_followup": "Seek independent contemporaneous reporting or organizer/official record establishing count and whether the groups/locations were one event."
+  },
+  {
+    "gap_id": "ROM202102-G003",
+    "type": "threshold",
+    "description": "The pupils/student protest is described as “zeci,” which does not establish 50; organization is also unresolved.",
+    "source_ids": [
+      "ROM202102-S036"
+    ],
+    "affected_candidates": [
+      "ROM202102-E003"
+    ],
+    "required_followup": "Find independent contemporaneous attendance reporting and evidence naming the organizer."
+  },
+  {
+    "gap_id": "ROM202102-G004",
+    "type": "unit_ownership",
+    "description": "TVR reports a few hundred miners outside in solidarity, separately from miners remaining underground, but does not securely establish the outside gathering start date/site or link government negotiations to those outside attendees. The wage arrears were owed by CEH; whether the public demand targeted national government is unresolved.",
+    "source_ids": [
+      "ROM202102-S022"
+    ],
+    "affected_candidates": [
+      "ROM202102-E005"
+    ],
+    "required_followup": "Identify a contemporaneous report that dates and locates the public gathering and distinguishes it from the underground stoppage; verify the state-target and episode-specific response."
+  },
+  {
+    "gap_id": "ROM202102-G005",
+    "type": "execution",
+    "description": "AGERPRES announces a planned railway-worker protest for 24 February, 11:00–13:00. This article provides no confirmation that the planned gathering occurred; 23 February is the publication date, not an observed event date.",
+    "source_ids": [
+      "ROM202102-S039"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek post-event evidence of execution/attendance before coding a physical protest; do not infer occurrence, turnout, duration or outcome from the announcement."
+  },
+  {
+    "gap_id": "ROM202102-G006",
+    "type": "closure",
+    "description": "For the Giurgiu and 16 February police events, reports give roughly two-hour durations without precise physical start/end clocks. For the other candidates, no physical end is established. Future plans in S028 are not treated as continuations.",
+    "source_ids": [
+      "ROM202102-S035",
+      "ROM202102-S028",
+      "ROM202102-S036",
+      "ROM202102-S021",
+      "ROM202102-S022"
+    ],
+    "affected_candidates": [
+      "ROM202102-E001",
+      "ROM202102-E002",
+      "ROM202102-E003",
+      "ROM202102-E004",
+      "ROM202102-E005"
+    ],
+    "required_followup": "Look for contemporaneous reports of physical closure; keep end dates null until established."
+  },
+  {
+    "gap_id": "ROM202102-G007",
+    "type": "state_response",
+    "description": "The reviewed accounts do not establish all seven event-specific state responses or protester violence. S021 contains union allegations and an official denial, not verified coercive outcomes. S022 describes formal negotiation/guarantees in the broader underground wage-stoppage context; accommodation is not attributed to the outside crowd.",
+    "source_ids": [
+      "ROM202102-S035",
+      "ROM202102-S028",
+      "ROM202102-S036",
+      "ROM202102-S021",
+      "ROM202102-S022"
+    ],
+    "affected_candidates": [
+      "ROM202102-E001",
+      "ROM202102-E002",
+      "ROM202102-E003",
+      "ROM202102-E004",
+      "ROM202102-E005"
+    ],
+    "required_followup": "Keep unknowns; seek event-specific independent corroboration without converting allegations, silence or an unrelated government statement into coded outcomes."
+  },
+  {
+    "gap_id": "ROM202102-G008",
+    "type": "independence_and_access",
+    "description": "Each of the six body-read cards has one report; S022 explicitly credits AGERPRES and is not independent confirmation. The other 42 relevant search-header cards remain search-only. A different AGERPRES URL and a different TVR URL had prior exact-URL 403s; neither is transferred to these opened exact URLs.",
+    "source_ids": [
+      "ROM202102-S021",
+      "ROM202102-S022",
+      "ROM202102-S028",
+      "ROM202102-S035",
+      "ROM202102-S036",
+      "ROM202102-S039"
+    ],
+    "affected_candidates": [
+      "ROM202102-E001",
+      "ROM202102-E002",
+      "ROM202102-E003",
+      "ROM202102-E004",
+      "ROM202102-E005"
+    ],
+    "required_followup": "Seek independent accounts and keep each source-specific restriction at its exact URL/publisher scope."
+  }
+]

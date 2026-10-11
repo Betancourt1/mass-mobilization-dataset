@@ -1,0 +1,84 @@
+[
+  {
+    "gap_id": "portugal_2021-02_G001",
+    "type": "candidate_threshold_state_target",
+    "description": "For E001, the one current body read establishes a 2 February Petrogal workers’ march to the prime minister’s official residence and opposition to a planned refinery closure. It reports no attendance and does not establish that the demand was directed to the Portuguese state; the destination alone is insufficient.",
+    "source_ids": [
+      "PRT202102-S001"
+    ],
+    "affected_candidates": [
+      "portugal_2021-02_E001"
+    ],
+    "required_followup": "Seek contemporary independent reporting or an organizer statement giving turnout and the intended addressee; establish physical end and response only from explicit evidence."
+  },
+  {
+    "gap_id": "portugal_2021-02_G002",
+    "type": "national_campaign_event_granularity",
+    "description": "Search-only CGTP/SEP records describe a 25 February national day of action, while the post-action CGTP result refers broadly to hundreds of actions and the CGTP archive exposes separate sectoral leads. No event-by-event headcount or matching locations are established; do not pool a campaign-wide figure or infer a qualifying gathering.",
+    "source_ids": [
+      "PRT202102-S002",
+      "PRT202102-S006",
+      "PRT202102-S015",
+      "PRT202102-S017"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Identify individual local events and read contemporary district or sector reports. If continuing body access, prioritize exact SEP campaign notice https://www.sep.org.pt/artigo/enfermeiros-portugal/cgtp-grande-jornada-nacional-de-luta-no-25-de-fevereiro/ and CGTP archive https://m.cgtp.pt/accao-e-luta?start=5292 under a new fresh gate."
+  },
+  {
+    "gap_id": "portugal_2021-02_G003",
+    "type": "unread_search_only_leads",
+    "description": "Search-only results point to a Benfica supporters’ horn protest reported 24 February, a Defender Portugal gathering at Parliament on 11 February, and a Lapo restaurant reopening/protest lead. Date, physical form, attendance, state-directed demand and response remain incompletely verified for the February leads.",
+    "source_ids": [
+      "PRT202102-S005",
+      "PRT202102-S008",
+      "PRT202102-S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read each exact contemporary report under a fresh gate; do not infer event onset from publication date alone. Exact URLs: https://observador.pt/2021/02/24/benfica-adeptos-reunem-se-para-buzinao-de-protesto-junto-ao-estadio-da-luz/ ; https://executivedigest.sapo.pt/dezenas-de-pessoas-manifestam-se-sem-mascara-ou-distanciamento-em-frente-ao-parlamento/ ; https://trendy.pt/2021/02/lapo-o-restaurante-que-e-contra-o-confinamento-invoca-direito-de-manifestacao-e-volta-a-abrir/ ."
+  },
+  {
+    "gap_id": "portugal_2021-02_G004",
+    "type": "sector_event_detail",
+    "description": "CGTP search results surface nurse protests in Coimbra, Porto and Loures and hotel/restaurant worker protests on 25–26 February. The result snippets do not establish individual turnout, exact demands, state targets, endings or responses.",
+    "source_ids": [
+      "PRT202102-S006",
+      "PRT202102-S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Follow original CGTP and sectoral links for each individual action and seek independent local coverage; keep the 25 February national day separate from 26 February protests."
+  },
+  {
+    "gap_id": "portugal_2021-02_G005",
+    "type": "culture_and_distributed_actions",
+    "description": "Cultural-worker search results include a 6 February Lisbon meeting/speech lead, a virtual “Na Rua Pelo Futuro da Cultura” action that search results date to January, and a CENA-STE February archive. A “Reabrir Portugal” result describes invited shop openings on 13–14 February without sales. These search-only items do not establish February public gatherings of 50 or more.",
+    "source_ids": [
+      "PRT202102-S012",
+      "PRT202102-S016",
+      "PRT202102-S018",
+      "PRT202102-S019"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Inspect archive and article bodies to distinguish meetings, virtual actions, distributed individual openings and any physical public gathering. Do not treat shop openings or campaign participation as a crowd."
+  },
+  {
+    "gap_id": "portugal_2021-02_G006",
+    "type": "strike_scope",
+    "description": "A Renascença search result describes a national education strike scheduled 15–19 February. The captured excerpt is about a work stoppage and does not document a public gathering; its reference to 10–20 participants is not protest attendance.",
+    "source_ids": [
+      "PRT202102-S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If relevant to the event inventory, verify whether separate physical assemblies occurred; do not convert strike participation into gathering size."
+  },
+  {
+    "gap_id": "portugal_2021-02_G007",
+    "type": "source_access",
+    "description": "The JPN exact URL for a Petrogal/CGTP Porto report returned HTTP 403 and is restricted at that exact URL only; no retry, fallback or publisher-wide inference was made. The CGTP post-action page returned a web-tool Cache miss, then a separately gated ordinary GET failed local DNS resolution (curl exit 6, HTTP 000, zero bytes). These CGTP outcomes are technical failures, not denials.",
+    "source_ids": [
+      "PRT202102-S009",
+      "PRT202102-S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Never retry the exact JPN 403 URL. For CGTP post-action page, a new phase would need a fresh exact-URL gate and network-enabled request to https://www.cgtp.pt/informacao/comunicacao-sindical/15619-saudacao-aos-trabalhadores-que-participaram-na-jornada-de-luta-nacional ."
+  }
+]

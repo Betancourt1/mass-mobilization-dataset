@@ -1,0 +1,19 @@
+Portugal — February 2021 first-pass dossier
+
+Status: researched, open-web first pass; pending coordinator review and official-baseline gate.
+
+Search method and coverage
+I recorded 11 original batched web searches and all 280 ordered result headers, URLs, refs and native clocks. A direct field-by-field comparison against the registered rollout found exact matches for all 11 captures. Queries were primarily in Portuguese and covered labor/CGTP activity, health, education, hospitality, culture, shop reopening, football supporters and selected locations including Lisbon, Porto, Coimbra and Loures. This is a first sweep, not an exhaustive search; local outlets, regions, languages and LexisNexis remain uncovered.
+
+Sources and access
+The ledger contains 20 source cards: 2 marked opened, 17 search-only, and 1 blocked. One current body was read: CGTP-IN’s report on Petrogal workers’ 2 February march. A second “opened” status is a prior Portugal-January consultation, not a new body read in this unit. The JPN Petrogal/Porto exact URL returned HTTP 403; the restriction is exact-URL only and was not retried or generalized. The CGTP post-action page produced a tool Cache miss and, after a separate fresh gate, a local DNS failure on an ordinary GET (curl exit 6; HTTP 000; zero bytes). Those CGTP outcomes are technical failures, not denials; no article body was received.
+
+Candidate events
+One candidate is recorded: Petrogal workers’ 2 February march from Torres de Lisboa to the prime minister’s official residence, as reported by CGTP-IN. The report says workers opposed a planned refinery closure, but that destination alone does not establish a demand addressed to the Portuguese state. Attendance is not reported, so the 50-person threshold is unverified. The physical end and protester/state responses are unknown. It remains pending evidence and must not be linked automatically to the separate search-only Porto Petrogal lead later in the month.
+
+Unresolved leads and exclusions
+No exclusions or continuations are asserted. Search-only leads include the 25 February CGTP national day of action; individual nurse, hotel and restaurant protests around 25–26 February; the Benfica supporters’ horn protest; a Defender Portugal Parliament gathering; the Lapo reopening/protest; cultural-worker items; the CENA-STE February archive; and the “Reabrir Portugal” shop-opening initiative. Search snippets do not establish event-level attendance or eligibility. The education work stoppage is recorded separately; strike participation is not treated as public-gathering attendance. The January-dated virtual culture action is outside this unit unless independent evidence establishes a February continuation.
+
+Next work
+Under a fresh authorized request phase, prioritize body review of the CGTP/SEP notice and archive for local 25–26 February actions; the Benfica and Lapo reports; the Defender Portugal report; and the CENA-STE/cultural and “Reabrir Portugal” materials. Obtain independent evidence for any attendance threshold and state-directed demand. Never retry the exact JPN 403 URL. The CGTP post-action URL may be retried only after a new exact-URL gate using network-enabled execution. Preserve all remaining fields as unknown until directly supported.
+Validation: `research.py validate-unit` passed with 11 queries, 280 result headers, 20 sources, 1 candidate, 0 exclusions, 0 continuations and 7 gaps. `research.py summarize-unit` reports one current body read plus one prior-unit consultation; it does not treat the latter as a body read in this unit.

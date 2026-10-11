@@ -1,0 +1,227 @@
+[
+  {
+    "gap_id": "argentina_2021-02-G001",
+    "type": "official_baseline",
+    "description": "The current official Mass Mobilization dataset version, full observation universe, authoritative codebook/schema and contribution rules remain unverified. Provisional ccode 160 and local candidate IDs are not official mappings.",
+    "source_ids": [],
+    "affected_candidates": [
+      "argentina_2021-02-E001",
+      "argentina_2021-02-E002",
+      "argentina_2021-02-E003",
+      "argentina_2021-02-E004",
+      "argentina_2021-02-E005",
+      "argentina_2021-02-E006",
+      "argentina_2021-02-E007",
+      "argentina_2021-02-E008",
+      "argentina_2021-02-E009"
+    ],
+    "required_followup": "Obtain the authoritative current files and verify version, hashes, universe, schema, codebook, license and mapping before any integration or official ID."
+  },
+  {
+    "gap_id": "argentina_2021-02-G002",
+    "type": "method_coverage",
+    "description": "Twenty Spanish/English web queries cover weekly windows and selected regions/sectors, but open-web results do not replicate LexisNexis or constitute exhaustive coverage. Search-engine date filtering surfaced out-of-month and retrospective pages.",
+    "source_ids": [],
+    "affected_candidates": [
+      "argentina_2021-02-E001",
+      "argentina_2021-02-E002",
+      "argentina_2021-02-E003",
+      "argentina_2021-02-E004",
+      "argentina_2021-02-E005",
+      "argentina_2021-02-E006",
+      "argentina_2021-02-E007",
+      "argentina_2021-02-E008",
+      "argentina_2021-02-E009"
+    ],
+    "required_followup": "Use accessible systematic newspaper/archive coverage and record unavailable holdings; do not treat unreturned results as absence."
+  },
+  {
+    "gap_id": "argentina_2021-02-G003",
+    "type": "participants",
+    "description": "Threshold attendance is unverified for E001–E009. Four opened candidate bodies use qualitative mass language or 'many people' without a site-level count; household need, vehicle flows, slogans and workforces are not attendance.",
+    "source_ids": [
+      "S001",
+      "S046",
+      "S025",
+      "S053",
+      "S070",
+      "S004",
+      "S010",
+      "S054",
+      "S049",
+      "S035"
+    ],
+    "affected_candidates": [
+      "argentina_2021-02-E001",
+      "argentina_2021-02-E002",
+      "argentina_2021-02-E003",
+      "argentina_2021-02-E004",
+      "argentina_2021-02-E005",
+      "argentina_2021-02-E006",
+      "argentina_2021-02-E007",
+      "argentina_2021-02-E008",
+      "argentina_2021-02-E009"
+    ],
+    "required_followup": "Seek explicit site-level counts or a clear hundreds/thousands descriptor for each physical gathering; do not transfer campaign-wide estimates to local sites."
+  },
+  {
+    "gap_id": "argentina_2021-02-G004",
+    "type": "episode_unit",
+    "description": "National/local grouping remains provisional for the February 18 social mobilization, the 27F campaign, the Chubut anti-megamining day and Formosa's five roadblock foci. Several search-only leads could be separate events or merely related reporting.",
+    "source_ids": [
+      "S001",
+      "S025",
+      "S046",
+      "S053",
+      "S004",
+      "S010",
+      "S054",
+      "S049",
+      "S035"
+    ],
+    "affected_candidates": [
+      "argentina_2021-02-E001",
+      "argentina_2021-02-E002",
+      "argentina_2021-02-E003",
+      "argentina_2021-02-E004",
+      "argentina_2021-02-E005",
+      "argentina_2021-02-E006",
+      "argentina_2021-02-E007",
+      "argentina_2021-02-E008",
+      "argentina_2021-02-E009"
+    ],
+    "required_followup": "Compare organizers, site-specific schedules, demands and physical episodes across contemporary local reporting before merging or splitting."
+  },
+  {
+    "gap_id": "argentina_2021-02-G005",
+    "type": "state_response",
+    "description": "Seven state-response dimensions remain unknown for most candidates. E004 has an attributed report of accelerated housing-module deliveries after protests; that is partial accommodation, not a resolution. The Olivos attackers in S046 were described as unionists, not state agents.",
+    "source_ids": [
+      "S001",
+      "S025",
+      "S046",
+      "S053"
+    ],
+    "affected_candidates": [
+      "argentina_2021-02-E001",
+      "argentina_2021-02-E002",
+      "argentina_2021-02-E003",
+      "argentina_2021-02-E004"
+    ],
+    "required_followup": "Find event-specific evidence on actual reception, arrests, beating, dispersal, explicit refusal, killings and firearm shootings; do not code silence or nonstate violence as state action."
+  },
+  {
+    "gap_id": "argentina_2021-02-G006",
+    "type": "source_access",
+    "description": "Diario Crónica's exact 5 February anti-megamining article returned HTTP403 after a web Cache miss and a default-sandbox DNS failure. The article body was not read. The denial is respected; other publishers or an actor's own report are separate sources, not a mirror workaround.",
+    "source_ids": [
+      "S023",
+      "S025"
+    ],
+    "affected_candidates": [
+      "argentina_2021-02-E003"
+    ],
+    "required_followup": "Use accessible independent contemporary reporting from other publishers; do not retry, bypass, mirror, or seek copies from Diario Crónica."
+  },
+  {
+    "gap_id": "argentina_2021-02-G007",
+    "type": "coverage",
+    "description": "Search-only regional and sector leads remain unverified, including Mendoza health actions and strikes, Jujuy social/labor actions, Formosa/Clorinda, Córdoba piquetero and transport actions, CTA actions on 15/22 February, and Tucumán/Salta labor disputes. A strike, transport disruption or scheduled action alone does not establish a qualifying public gathering.",
+    "source_ids": [
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S033",
+      "S034",
+      "S035",
+      "S036",
+      "S037",
+      "S048",
+      "S049",
+      "S050",
+      "S051",
+      "S052",
+      "S055",
+      "S056",
+      "S057",
+      "S058",
+      "S059",
+      "S060",
+      "S063",
+      "S064",
+      "S065",
+      "S078",
+      "S079",
+      "S080",
+      "S081",
+      "S082",
+      "S083",
+      "S084",
+      "S085",
+      "S086"
+    ],
+    "affected_candidates": [
+      "argentina_2021-02-E005",
+      "argentina_2021-02-E008",
+      "argentina_2021-02-E009"
+    ],
+    "required_followup": "Open permitted original bodies after a fresh full-universe access guard and verify physical date, crowd, own-state target, responses and episode boundaries."
+  },
+  {
+    "gap_id": "argentina_2021-02-G008",
+    "type": "continuity_boundary",
+    "description": "TN confirms the TUDA road campaign continued into February 4 but describes its start only as mid-January; exact start and the end of all sites remain unresolved. January's February 18 food/work boundary lead now points to a distinct February 18 action, not demonstrated continuous assembly. Fishers and Añelo received only boundary searches, with no verified February continuation.",
+    "source_ids": [
+      "S001",
+      "S070"
+    ],
+    "affected_candidates": [
+      "argentina_2021-02-E001"
+    ],
+    "required_followup": "Reconcile with January unit owners' decisions and follow each episode through later reporting; do not infer a close from article date, improving truck throughput or month-end."
+  },
+  {
+    "gap_id": "argentina_2021-02-G009",
+    "type": "source_independence",
+    "description": "Infobae S038 is an AMP URL variant of S001; S087 is a separate search-only lead with unverified written origin. The 27F reports (S005–S009, S012, S047) are search-only; shared event/title/date does not prove independent reporting. MULCS S025 is an organizer report.",
+    "source_ids": [
+      "S001",
+      "S038",
+      "S087",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S012",
+      "S025",
+      "S046",
+      "S047"
+    ],
+    "affected_candidates": [
+      "argentina_2021-02-E001",
+      "argentina_2021-02-E002",
+      "argentina_2021-02-E003"
+    ],
+    "required_followup": "Compare bylines and written-story origin when opening related outlets; distinguish agency attribution, actor statements, photo credits and duplicated articles."
+  },
+  {
+    "gap_id": "argentina_2021-02-G010",
+    "type": "language",
+    "description": "Research was conducted in Spanish and English. Indigenous/local-language coverage and systematic regional archives were not searched. Search snippets and date-coded URLs remain discovery metadata, not body evidence.",
+    "source_ids": [],
+    "affected_candidates": [
+      "argentina_2021-02-E001",
+      "argentina_2021-02-E002",
+      "argentina_2021-02-E003",
+      "argentina_2021-02-E004",
+      "argentina_2021-02-E005",
+      "argentina_2021-02-E006",
+      "argentina_2021-02-E007",
+      "argentina_2021-02-E008",
+      "argentina_2021-02-E009"
+    ],
+    "required_followup": "Add relevant local-language archives or community sources when accessible and record translation/source limitations."
+  }
+]

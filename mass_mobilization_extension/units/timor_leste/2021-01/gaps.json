@@ -1,0 +1,64 @@
+[
+  {
+    "gap_id": "TLS202101-G001",
+    "type": "baseline",
+    "description": "The assigned country code 860 and inherited universe remain provisional. Latest official event-file bytes, current schema, full country universe, additional Coding Procedure and contribution conditions are unresolved at the project baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should resolve the official baseline and procedure before any official comparison, ID assignment or contribution."
+  },
+  {
+    "gap_id": "TLS202101-G002",
+    "type": "search_method",
+    "description": "This dossier used open-web search, which does not reproduce LexisNexis or systematic newspaper-archive coverage. Queries returned off-window 2019 and 2025 protest reports despite January terms; result totals were not exposed. Search volume does not establish exhaustive coverage.",
+    "source_ids": [
+      "TLS202101-S001",
+      "TLS202101-S002",
+      "TLS202101-S003",
+      "TLS202101-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue with archived/local newspaper searches and document actual empty returns separately from off-window or unrelated results."
+  },
+  {
+    "gap_id": "TLS202101-G003",
+    "type": "language",
+    "description": "Discovery queries used English, Portuguese, Tetum/Tetun-style forms and Indonesian terms. Search-index coverage and spelling variation in Tetum, community outlets and local-language archives remain unverified; one named local outlet query returned no headers, which is not proof of absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Have a fluent Tetum reader review local news archives and alternative spellings if additional language-capable review is available."
+  },
+  {
+    "gap_id": "TLS202101-G004",
+    "type": "coverage",
+    "description": "Queries included Dili and the district names Baucau, Ermera, Covalima and Manatuto, plus student, veteran, worker, farmer and public-policy terms. This was not a district-by-district review of print, community or social archives; no event absence can be inferred.",
+    "source_ids": [
+      "TLS202101-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review district-level local reporting and community sources before describing January event coverage as exhaustive."
+  },
+  {
+    "gap_id": "TLS202101-G005",
+    "type": "episode_unit",
+    "description": "December 2020 and February 2021 boundary searches surfaced no identifiable public-gathering episode to link across the month. The February mobility-restriction result and December emergency-policy results are policy context, not evidence that a January gathering began, ended or continued.",
+    "source_ids": [
+      "TLS202101-S002",
+      "TLS202101-S003",
+      "TLS202101-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a dated January gathering is found later, trace its physical onset and end through December and February before assigning month ownership or duration."
+  },
+  {
+    "gap_id": "TLS202101-G006",
+    "type": "source_access",
+    "description": "Two policy-context cards remain search_only: the January 15 government decree and a TATOLI state-of-emergency report. They were not opened because no gathering link was identified and are not used to establish protest occurrence or absence.",
+    "source_ids": [
+      "TLS202101-S002",
+      "TLS202101-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Open these records only if later event evidence links a January public gathering to the policies they discuss."
+  }
+]

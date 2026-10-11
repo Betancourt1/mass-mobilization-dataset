@@ -1,0 +1,142 @@
+[
+  {
+    "candidate_id": "niger_2021-02_E001",
+    "country": "Niger",
+    "ccode": "436",
+    "unit_month": "2021-02",
+    "title": "Post-runoff election-result protests in Niger",
+    "start_date": "2021-02-23",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Niamey and other towns; exact additional locations unresolved",
+    "scope": "Reported at least in Niamey and elsewhere; whether this is one national action, separate local gatherings, or both remains unresolved.",
+    "organizer": "unknown",
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "unknown; none of the consulted summaries supplies a crowd count or a reliable basis for the >=50-person threshold.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005",
+      "S076",
+      "S077"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S003",
+          "S005"
+        ],
+        "summary": "Prior-unit reports place the onset on 23 February after provisional runoff results. S005 says Niamey demonstrations continued on Thursday 25 February for a third consecutive day, which is consistent with (but does not itself state) a 23 February start."
+      },
+      "location": {
+        "source_ids": [
+          "S002",
+          "S003",
+          "S005"
+        ],
+        "summary": "S005 directly reports the 25 February action in Niamey. S002–S003 also report activity in other towns/elsewhere, but this source does not identify those additional locations."
+      },
+      "scope": {
+        "source_ids": [
+          "S002",
+          "S003",
+          "S005"
+        ],
+        "summary": "Reports describe activity in multiple locations and days. S005 identifies a Niamey street action on 25 February but does not show whether it and actions elsewhere were one nationally organized event, several local actions, or both."
+      },
+      "organizer": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S003",
+          "S005"
+        ],
+        "summary": "S005 identifies Ousmane supporters among Niamey demonstrators but does not establish who organized the gathering; broader episode organizer remains unknown."
+      },
+      "demands": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S003",
+          "S005",
+          "S076",
+          "S077"
+        ],
+        "summary": "S005 connects the demonstration to contestation of the announced result and reports Ousmane alleging fraud, but gives no direct demand made by a defined gathering. Search-result snippets S076–S077 describe campaign statements seeking suspension of result publication; their bodies are unread and no link between those statements and a gathering is established. No demand is coded."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S003",
+          "S005"
+        ],
+        "summary": "S005 describes small groups in Niamey on 25 February but supplies no count. No numeric attendance estimate is available."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S003",
+          "S005"
+        ],
+        "summary": "S005 describes small groups but gives no count or clear qualitative basis for 50 or more people at one gathering. The >=50 rule remains unresolved; do not infer the threshold from arrests."
+      },
+      "end_date": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S003",
+          "S005"
+        ],
+        "summary": "S005 reports demonstrations on the third consecutive day, 25 February. It does not establish a physical end to that action or the wider post-election episode."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S002",
+          "S003",
+          "S005"
+        ],
+        "summary": "S005 reports stones thrown at police and fires attributed to some protesters during the 25 February Niamey street action. It does not resolve the boundaries of the broader series or attribute the conduct to every local action."
+      },
+      "state_response": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S003",
+          "S005"
+        ],
+        "summary": "S005 reports police firing tear gas during the Niamey street confrontation on 25 February (coded as crowd dispersal) and a prosecutor announcement of multiple arrests on Wednesday following demonstrations (arrests yes, count and precise gathering assignment unknown). It also reports internet restrictions without attribution to a specific gathering. Other response categories remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "niger_post_election_protests_start_2021-02-23",
+    "notes": "One current-unit body read is now logged: S005 is a Reuters dispatch republished by La Tribune (exact-URL GET HTTP 200, no redirects). It reports Ousmane supporters demonstrating in Niamey on 25 February, the third consecutive day; “small groups” is not an attendance count and cannot establish the >=50 threshold. It documents stones against police, fires by some protesters, police tear gas, and an unquantified report of arrests after prior-day demonstrations. Search-only S076–S077 preserve campaign-level result-suspension statements, not gathering-level demands. Keep the candidate pending_threshold; do not infer a national action, attendance, physical end, or broader state response.",
+    "open_questions": [
+      "Does any individually defined gathering meet the >=50 public-attendance rule?",
+      "What exact demand was made by participants at a defined gathering, and was it directed to Niger’s government/electoral process?",
+      "Which towns had separate gatherings, and were the actions coordinated as one national event or multiple local actions?",
+      "What was the physical end date of each action?",
+      "Which arrests and other state responses can be attributed to a specific gathering?",
+      "What protester violence occurred at each local action beyond the reported Niamey activity on 25 February?"
+    ]
+  }
+]

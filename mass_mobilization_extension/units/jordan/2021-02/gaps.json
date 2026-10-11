@@ -1,0 +1,70 @@
+[
+  {
+    "gap_id": "JOR202102-G001",
+    "type": "search_method_coverage",
+    "description": "Thirty-nine actual open-web search actions are captured in search_log.jsonl, with 956 ordered result headers. Queries covered English and Arabic event terms, weekly/date windows, teachers, labor, farmers, unemployed people, transport and local outlets. Open-web search does not reproduce LexisNexis or establish exhaustive national coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may compare this provisional search against the original newspaper frame or systematic archives if available. Do not infer that no other qualifying event occurred from non-discovery."
+  },
+  {
+    "gap_id": "JOR202102-G002",
+    "type": "body_evidence_and_threshold",
+    "description": "Seven provisional event leads remain unresolved: Karak unemployed gathering/march (E001/S011), farmers near the Ministry of Labor (E002/S008–S009), Ajloun teachers’ sit-in (E003/S012), Zarqa school solidarity activities (E004/S014), Irbid teachers’ attempted gathering/planned march (E005/S006–S007/S013), Karak phosphate-truck sit-in (E006/S010), and Tafilah teachers’ sit-in (E007/S015). For E002, S008 is a Jo24 search-only header and S009 is the Civil Society Knowledge Centre header captured in Q036; their bodies, same-action relationship, and independence are unverified. Two further captured unemployed-action titles are preserved in S016 and S017; whether they describe one another, E001, or distinct actions is unknown. Search titles do not establish full event occurrence, dates, attendance, policy demands, or response.",
+    "source_ids": [
+      "JOR202102-S006",
+      "JOR202102-S007",
+      "JOR202102-S008",
+      "JOR202102-S009",
+      "JOR202102-S010",
+      "JOR202102-S011",
+      "JOR202102-S012",
+      "JOR202102-S013",
+      "JOR202102-S014",
+      "JOR202102-S015",
+      "JOR202102-S016",
+      "JOR202102-S017"
+    ],
+    "affected_candidates": [
+      "JOR202102-E001",
+      "JOR202102-E002",
+      "JOR202102-E003",
+      "JOR202102-E004",
+      "JOR202102-E005",
+      "JOR202102-E006",
+      "JOR202102-E007"
+    ],
+    "required_followup": "Coordinator review should prioritize the two unemployed leads with one fresh exact-URL gate each, while resolving whether they duplicate the Karak lead; seek a body-level source for Tafilah after its technical tool failure, and independently assess the seven candidate leads. Keep turnout thresholds and cross-governorate/cross-month relationships unresolved until event-specific evidence supports them."
+  },
+  {
+    "gap_id": "JOR202102-G003",
+    "type": "source_access_restriction",
+    "description": "The New Arab source JOR202102-S006 remains unrequested under an explicit saved publisher-wide hold. The fresh exact-URL gate matched an Al-Araby / The New Arab guard supported by a different Al-Araby story’s ordinary HTTPS 403 in Jordan January source JOR202101-S123. This is not a target-specific denial. The distinct Education International S007 body reports a planned Irbid teachers’ march was prevented and at least 18 unionists were arrested while trying to gather; it does not lift the New Arab hold or provide turnout.",
+    "source_ids": [
+      "JOR202102-S006",
+      "JOR202102-S007",
+      "JOR202102-S013"
+    ],
+    "affected_candidates": [
+      "JOR202102-E005"
+    ],
+    "required_followup": "Do not request the held target or attempt copies/aliases. Preserve S006 as held and the teacher-event attendance/action gap until independently reviewed, permitted event-level sources resolve them."
+  },
+  {
+    "gap_id": "JOR202102-G004",
+    "type": "aggregate_scope_limit",
+    "description": "The opened annual Phenix/Jordan Labor Watch report (S001) records 26 February labor protests, but its inventory includes strikes, strike threats, boycotts, marches, sit-ins, and threats of self-harm and provides no event-level February dates, locations, or crowd sizes in the reviewed passages. The count cannot be assigned to individual candidates or treated as eligible public gatherings.",
+    "source_ids": [
+      "JOR202102-S001"
+    ],
+    "affected_candidates": [
+      "JOR202102-E001",
+      "JOR202102-E002",
+      "JOR202102-E003",
+      "JOR202102-E004",
+      "JOR202102-E005",
+      "JOR202102-E006"
+    ],
+    "required_followup": "Use S001 only as an aggregate source-scope note. Resolve candidates through event-specific evidence or leave the event-level and threshold fields unknown."
+  }
+]

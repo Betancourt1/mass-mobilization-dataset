@@ -1,0 +1,21 @@
+Saudi Arabia — January 2021
+
+Status: researched from open web sources, with independent review pending. The unit is 2021-01-01 through 2021-01-31. The fixed research cutoff is 2026-10-07 inclusive, America/Mexico_City. The baseline gate remains pending.
+
+Search method and observed coverage
+I ran 16 actual web searches, each logged separately with its actual timestamp and the returned title/URL/reference headers paired in original order. Coverage included Arabic and English queries for all five weekly windows (Jan 1–7, 8–14, 15–21, 22–28, and 29–31); broader month discovery; regional terms for Riyadh, Jeddah, Mecca, Medina, the Eastern Province, Qatif, Dammam, Abha and Jizan; labor, women, education, health and public-sector terms; thematic terms for wages, land, police conduct, prices/tax/fuel, social restrictions, reform and removal/resignation demands; and December 2020–February 2021 boundary checks. Queries are in search_log.jsonl. Fifteen source cards are retained: 5 opened substantive sources, 1 blocked URL, and 9 search-only records. Two other opened page views supplied no substantive article body. Open web search does not reproduce LexisNexis and does not establish exhaustive coverage.
+
+Observed candidate and exclusions
+One headline-only lead remains pending_evidence as saudi_arabia_2021-01_E001: a search result describes an unemployed workers’ strike in Riyadh, but gives no date, turnout, grievance, state target or episode detail. The exact Hespress URL returned HTTP 403 on the only open attempt. It was not retried or bypassed. The lead is not assigned a January date or treated as an eligible event. Its physical date and unit ownership, public attendance threshold, demand/target, and response fields remain unknown. All seven state-response dimensions and protester violence are unknown.
+
+One historical false positive is recorded in excluded.json: an Al Jazeera Arabic result on Saudi arrests after protests has a URL path explicitly dated 2011-01-29, outside this unit. A separate result about Saudi citizens in Washington concerns a foreign-country protest site, not a Saudi domestic gathering.
+
+Continuity and source checks
+A secondary Qatif overview describes a conflict phase ending 2020-01-07 and its listed 2020 item as a security operation after fire at a patrol. That armed-conflict chronology is not a January 2021 public protest and was not added as a continuation. An Arabic anniversary page for the Qatif uprising returned a web-tool Internal Error and yielded no readable body; it remains search_only.
+The opened ANHRI January and first-quarter monitors explicitly cover Egyptian protests, not Saudi events. The opened U.S. Department of State 2021 human-rights report gives general restrictions on assembly and worker organization but no dated January gathering. ALQST’s 2021 annual summary describes repression and land expropriations, but does not identify a January public protest in the page reviewed. These retrospective/context sources do not prove that no gathering occurred. The Saudi Press Agency year summary returned zero readable lines; the Akhbaar24 2021 retrospective returned only its title and publication date in the page view. Their contents remain search_only for this review.
+
+Evidence and remaining gaps
+The candidate stays pending_evidence because the search result is not a readable event account. No source establishes a public gathering of at least 50 people, a demand to the Saudi state or its policy, an event date, or a physical end. No precise participants, victims, arrests or state actions were inferred from campaign history, news silence, or the search result.
+Sources retain their own discovery/access status and origin agency. No independent corroboration is claimed from repeated or syndicated results. See gaps.json for the blocked lead, date, size, state-target, baseline, coverage and language follow-up. No continuation or proposed inclusion is recorded.
+
+No temporary server, watcher, browser automation, container or background process was started. Repository write/validation commands completed as finite foreground calls; no session-backed process remained.

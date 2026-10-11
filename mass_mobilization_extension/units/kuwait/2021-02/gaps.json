@@ -1,0 +1,124 @@
+[
+  {
+    "gap_id": "kwt2021-02-G001",
+    "type": "participants",
+    "description": "KWT202102-S003 reports “dozens” of salon, barbershop, and health-club owners but no numeric count. This wording does not reliably establish at least 50 attendees, so E001 remains pending_threshold.",
+    "source_ids": [
+      "KWT202102-S003"
+    ],
+    "affected_candidates": [
+      "KWT202102-E001"
+    ],
+    "required_followup": "Find contemporary, event-specific attendance reporting or another reliable record giving a human crowd count; do not convert businesses, workers, or vehicles into attendee numbers."
+  },
+  {
+    "gap_id": "kwt2021-02-G002",
+    "type": "event_verification",
+    "description": "A previously opened Kuwait Times announcement says the Salons Union planned a Feb. 5 sit-in (S004), but actual occurrence and turnout are unknown. The Al-Anba headline S006 says “Saturday”; its body, publication date, exact intended day, and relationship to S004 are unverified. Neither plan is merged with the reported Feb. 6 gathering in S003.",
+    "source_ids": [
+      "KWT202102-S004",
+      "KWT202102-S006",
+      "KWT202102-S003"
+    ],
+    "affected_candidates": [
+      "KWT202102-E001",
+      "KWT202102-E002"
+    ],
+    "required_followup": "Verify each planned date and actual execution through accessible contemporaneous reporting or organizer/official records, then resolve whether the Feb. 5/6 reports concern one or multiple actions."
+  },
+  {
+    "gap_id": "kwt2021-02-G003",
+    "type": "dates",
+    "description": "E001’s 6 February date is inferred by converting the Kuwait Times page timestamp from 6 February 10:46 p.m. EDT to 7 February local time and interpreting “yesterday.” The physical start/end times are absent. E002 has only an announced date, not a confirmed physical onset.",
+    "source_ids": [
+      "KWT202102-S003",
+      "KWT202102-S004"
+    ],
+    "affected_candidates": [
+      "KWT202102-E001",
+      "KWT202102-E002"
+    ],
+    "required_followup": "Seek a time-stamped local report or official/organizer record for exact start, event closure, and actual execution."
+  },
+  {
+    "gap_id": "kwt2021-02-G004",
+    "type": "state_response",
+    "description": "S003 supports security prevention of the National Assembly gathering and subsequent relocation, and reports that the prime minister agreed to reconsider measures with a follow-up committee meeting planned. The final outcome and precise relationship between these actions and the gathering are not documented; arrests, beatings, killings, and shootings remain unknown. No executed event or state response is established for E002.",
+    "source_ids": [
+      "KWT202102-S003",
+      "KWT202102-S004"
+    ],
+    "affected_candidates": [
+      "KWT202102-E001",
+      "KWT202102-E002"
+    ],
+    "required_followup": "Locate follow-up reporting or official records on whether measures changed, whether the meeting occurred, and any event-specific response. Preserve unknowns absent explicit evidence."
+  },
+  {
+    "gap_id": "kwt2021-02-G005",
+    "type": "source_access",
+    "description": "The Al-Anba article variants S001/S011 remain search-only. Short-path requests produced two Cache misses and one pre-HTTP DNS failure; one exact canonical web.open returned an Internal Error/inaccessible-tool result. A later exact canonical ordinary-HTTPS gate could not be used because units/latvia/2021-02/sources.jsonl changed during the immediate complete-input recheck; no request or retry followed. S011-04 had a mistyped target with zero exact matches and no request. Arab Times S002 produced a Cache miss; these are technical failures, not observed access denials.",
+    "source_ids": [
+      "KWT202102-S001",
+      "KWT202102-S002",
+      "KWT202102-S011"
+    ],
+    "affected_candidates": [
+      "KWT202102-E001",
+      "KWT202102-E002"
+    ],
+    "required_followup": "If the unit is resumed, review current full publisher/origin scope, save a fresh exact-target receipt and manual review, and request only if the immediate complete path/hash recheck is stable; otherwise preserve the gap."
+  },
+  {
+    "gap_id": "kwt2021-02-G006",
+    "type": "continuity",
+    "description": "Search-only seafarer hunger-strike leads S009/S010 may describe an action begun before February, but no body, onset date, public gathering evidence, numeric turnout, or state target is verified. Fuel-station workers (S015) and Mahboula workers (S016) are also search-only leads without verified publication/event dates, crowd counts, or government-directed demands. No confirmed February continuation or owner unit can be assigned.",
+    "source_ids": [
+      "KWT202102-S009",
+      "KWT202102-S010",
+      "KWT202102-S015",
+      "KWT202102-S016"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify publication date, event onset, actual public gathering, human attendance, demand target, and physical end from accessible contemporaneous reports before assigning a continuation or February candidate."
+  },
+  {
+    "gap_id": "kwt2021-02-G007",
+    "type": "coverage",
+    "description": "Nine captured search actions produced 233 ordered result headers, including English- and Arabic-language, full-month/weekly, local-news, international, official and rights-related searches. The search yield is not comprehensive; opened local-language body coverage is limited, and no systematic newspaper archive or LexisNexis access was available. No dated/verified February Bidun assembly was established; this is not evidence none occurred.",
+    "source_ids": [
+      "KWT202102-S007",
+      "KWT202102-S009",
+      "KWT202102-S015",
+      "KWT202102-S016"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted Arabic and English reporting searches by sector/region and review relevant official, rights, and archive records; do not treat open-web result counts as an absence finding."
+  },
+  {
+    "gap_id": "kwt2021-02-G008",
+    "type": "baseline",
+    "description": "The original Mass Mobilization official baseline and supplemental Coding Procedure remain unverified; the dossier therefore remains a separate provisional extension and does not assign official IDs or claim compatibility/approval.",
+    "source_ids": [],
+    "affected_candidates": [
+      "KWT202102-E001",
+      "KWT202102-E002"
+    ],
+    "required_followup": "Coordinator verifies authoritative baseline files, version, schema, terms, and supplemental procedure before any integration or contribution decision."
+  },
+  {
+    "gap_id": "kwt2021-02-G009",
+    "type": "source_independence",
+    "description": "E001 relies on one opened Kuwait Times report. Al-Anba variants S001/S011 could not be read and are same-article URL variants; they do not currently provide independent corroboration. S008 is a search-only government/business follow-up whose body and relationship to E001 remain unverified.",
+    "source_ids": [
+      "KWT202102-S001",
+      "KWT202102-S003",
+      "KWT202102-S008",
+      "KWT202102-S011"
+    ],
+    "affected_candidates": [
+      "KWT202102-E001"
+    ],
+    "required_followup": "Read an accessible, independently originated contemporary account or official record after a fresh full source-scope review; establish syndication/origin before counting reports as independent."
+  }
+]

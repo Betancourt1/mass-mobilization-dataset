@@ -1,0 +1,148 @@
+[
+  {
+    "gap_id": "FIN202101-G001",
+    "type": "coverage",
+    "description": "Open web search does not reproduce LexisNexis or systematic Finnish regional archive coverage. No absence or exhaustive coverage claim follows from this pass.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review and broader archive access if available."
+  },
+  {
+    "gap_id": "FIN202101-G002",
+    "type": "baseline",
+    "description": "Local baseline codebook read, but official compatible extension baseline and Detailed Coding Procedure remain unavailable. Original protocol gates remain pending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "FIN202101-E001"
+    ],
+    "required_followup": "Review candidate against official baseline and detailed event boundary rules when available."
+  },
+  {
+    "gap_id": "FIN202101-G003",
+    "type": "participant_estimate",
+    "description": "About 60 contemporary police estimate versus about 100 associated retrospective claim. Rounded estimates do not establish exact lower/upper bounds.",
+    "source_ids": [
+      "FIN202101-S011",
+      "FIN202101-S101",
+      "FIN202101-S217"
+    ],
+    "affected_candidates": [
+      "FIN202101-E001"
+    ],
+    "required_followup": "Retain lower contemporaneous point estimate and uncertainty; retrieve original police release if available."
+  },
+  {
+    "gap_id": "FIN202101-G004",
+    "type": "closure_attribution",
+    "description": "January 30 physical closure is explicit in aligned retrospective calendar and next-day associated reporting; independent contemporary report establishes the order. No contrary continuing physical action found in inspected bodies.",
+    "source_ids": [
+      "FIN202101-S011",
+      "FIN202101-S043",
+      "FIN202101-S061"
+    ],
+    "affected_candidates": [
+      "FIN202101-E001"
+    ],
+    "required_followup": "Independent reviewer assess alignment and closure attribution; do not substitute publication time."
+  },
+  {
+    "gap_id": "FIN202101-G005",
+    "type": "response_unknown",
+    "description": "Single brief detention and dispersal are documented. Three versus four fines conflict. Accommodation, beatings, killings, shootings and ignore remain unknown; peaceful attribution alone is not an independent violence finding.",
+    "source_ids": [
+      "FIN202101-S011",
+      "FIN202101-S061",
+      "FIN202101-S101",
+      "FIN202101-S217"
+    ],
+    "affected_candidates": [
+      "FIN202101-E001"
+    ],
+    "required_followup": "Seek original police report and independently assess media before adding response codes."
+  },
+  {
+    "gap_id": "FIN202101-G006",
+    "type": "media_scope",
+    "description": "Linked videos and photos were not inspected. February 2 Russian ministry video allegation cannot automatically supply January 30 police beating evidence.",
+    "source_ids": [
+      "FIN202101-S011",
+      "FIN202101-S043",
+      "FIN202101-S061",
+      "FIN202101-S101",
+      "FIN202101-S217"
+    ],
+    "affected_candidates": [
+      "FIN202101-E001"
+    ],
+    "required_followup": "Assess original media provenance, event identity and actions before any additional coding."
+  },
+  {
+    "gap_id": "FIN202101-G007",
+    "type": "language",
+    "description": "Finnish and Swedish bodies were interpreted with English paraphrases, without native-language independent review. English reporting also searched.",
+    "source_ids": [
+      "FIN202101-S011",
+      "FIN202101-S043",
+      "FIN202101-S061",
+      "FIN202101-S089",
+      "FIN202101-S101",
+      "FIN202101-S110",
+      "FIN202101-S217",
+      "FIN202101-S305"
+    ],
+    "affected_candidates": [
+      "FIN202101-E001"
+    ],
+    "required_followup": "Native-language reviewer verify demand, dispersal, closure and organizer wording."
+  },
+  {
+    "gap_id": "FIN202101-G008",
+    "type": "archive_access",
+    "description": "Some web-tool cache misses recovered through ordinary HTTPS. Lexellaw pagination returned a current index without recovering the historical January 31 entry; its search snippet remains discovery only.",
+    "source_ids": [
+      "FIN202101-S218"
+    ],
+    "affected_candidates": [
+      "FIN202101-E001"
+    ],
+    "required_followup": "Find an authorized public archive of the dated legal article if further corroboration is needed."
+  },
+  {
+    "gap_id": "FIN202101-G009",
+    "type": "episode_boundary",
+    "description": "October/November 2020 and February/March/April 2021 gatherings share themes but are reported as separate actions. No qualifying prior-month continuous physical episode established in this pass.",
+    "source_ids": [
+      "FIN202101-S043",
+      "FIN202101-S101",
+      "FIN202101-S217"
+    ],
+    "affected_candidates": [
+      "FIN202101-E001"
+    ],
+    "required_followup": "Coordinator compare neighboring country-month units and official detailed coding rules; avoid automatic campaign/day/city splitting."
+  },
+  {
+    "gap_id": "FIN202101-G010",
+    "type": "regional_search",
+    "description": "Four week windows, date-filter windows, Finnish/Swedish/English and regional/sector queries often returned later-year or other-country contamination. Resolved prominent regional Valkom lead to April; remaining search-only cards are not verified January occurrences.",
+    "source_ids": [
+      "FIN202101-S299",
+      "FIN202101-S305"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Expand systematic local archives and inspect any new plausibly dated January lead."
+  },
+  {
+    "gap_id": "FIN202101-G011",
+    "type": "original_statement",
+    "description": "Contemporary police statements are quoted through MTV–STT and Yle. Original Helsinki police January 30 statement/tweet was searched but not directly retrieved.",
+    "source_ids": [
+      "FIN202101-S011",
+      "FIN202101-S101"
+    ],
+    "affected_candidates": [
+      "FIN202101-E001"
+    ],
+    "required_followup": "Retrieve original public statement if still available; syndicated repeats do not count as independent corroboration."
+  }
+]

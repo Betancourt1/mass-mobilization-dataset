@@ -1,0 +1,157 @@
+[
+  {
+    "gap_id": "POL202102-G001",
+    "type": "source_access",
+    "description": "Twenty-four relevant or potentially relevant URLs still lack article-body evidence: 23 remain search_only and POL202102-S004 is blocked after an exact-URL HTTP 403. POL202102-S002 and POL202102-S005 have body-read evidence; their secondary reporting does not settle local origin or event-boundary questions.",
+    "source_ids": [
+      "POL202102-S001",
+      "POL202102-S003",
+      "POL202102-S004",
+      "POL202102-S006",
+      "POL202102-S007",
+      "POL202102-S008",
+      "POL202102-S009",
+      "POL202102-S010",
+      "POL202102-S011",
+      "POL202102-S012",
+      "POL202102-S013",
+      "POL202102-S014",
+      "POL202102-S015",
+      "POL202102-S016",
+      "POL202102-S017",
+      "POL202102-S018",
+      "POL202102-S019",
+      "POL202102-S020",
+      "POL202102-S021",
+      "POL202102-S022",
+      "POL202102-S023",
+      "POL202102-S024",
+      "POL202102-S025",
+      "POL202102-S026"
+    ],
+    "affected_candidates": [
+      "POL202102-E001",
+      "POL202102-E002",
+      "POL202102-E003",
+      "POL202102-E004",
+      "POL202102-E005",
+      "POL202102-E006",
+      "POL202102-E007",
+      "POL202102-E008",
+      "POL202102-E009"
+    ],
+    "required_followup": "Use a fresh exact-URL receipt, full publisher/origin/restriction review and same-call full-map/phase/deadline gate for each remaining permitted lead. POL202102-S004 is an exact-URL 403: no retry, mirror, fallback or publisher-wide inference. S002/S005 are secondary multi-city reports; do not count cited local stories as read or independent checks."
+  },
+  {
+    "gap_id": "POL202102-G002",
+    "type": "event_boundary",
+    "description": "S002 reports five same-day city actions but does not establish whether these are separate local episodes or sites of one nationally organized event. The shared episode_key is a provisional source relationship only; it does not merge or split the city actions. January ruling-related gatherings are prior context, not evidence of physical continuation into February.",
+    "source_ids": [
+      "POL202102-S002"
+    ],
+    "affected_candidates": [
+      "POL202102-E001",
+      "POL202102-E002",
+      "POL202102-E003",
+      "POL202102-E004",
+      "POL202102-E005"
+    ],
+    "required_followup": "Compare February organizer records and the January dossier; retain city-local estimates and resolve national/local unit boundaries from evidence."
+  },
+  {
+    "gap_id": "POL202102-G003",
+    "type": "state_target",
+    "description": "The specific state target/demand is not clear for Gdańsk, Kraków, Rzeszów and Bydgoszcz. Białystok has a reported government-resignation demand.",
+    "source_ids": [
+      "POL202102-S002"
+    ],
+    "affected_candidates": [
+      "POL202102-E001",
+      "POL202102-E002",
+      "POL202102-E003",
+      "POL202102-E004",
+      "POL202102-E005"
+    ],
+    "required_followup": "Review direct local reporting and organizer statements; do not infer that Białystok’s demand applies to every city."
+  },
+  {
+    "gap_id": "POL202102-G004",
+    "type": "threshold",
+    "description": "Only Gdańsk has a reported estimate above 50 (about 100). Kraków groups of around a dozen have no total, Rzeszów is described as several dozen, and Białystok/Bydgoszcz have no numeric count. No campaign or cross-city attendance is pooled.",
+    "source_ids": [
+      "POL202102-S002"
+    ],
+    "affected_candidates": [
+      "POL202102-E001",
+      "POL202102-E002",
+      "POL202102-E003",
+      "POL202102-E004",
+      "POL202102-E005"
+    ],
+    "required_followup": "Seek city-specific attendance evidence for each candidate; do not use arrest, police or campaign counts as attendance."
+  },
+  {
+    "gap_id": "POL202102-G005",
+    "type": "end_and_response",
+    "description": "S002 does not establish end times or protester violence. Some police facts are reported in Kraków, Białystok, Rzeszów and Bydgoszcz, but they do not establish all coded state-response categories.",
+    "source_ids": [
+      "POL202102-S002"
+    ],
+    "affected_candidates": [
+      "POL202102-E001",
+      "POL202102-E002",
+      "POL202102-E003",
+      "POL202102-E004",
+      "POL202102-E005"
+    ],
+    "required_followup": "Seek event-specific ending and response evidence; leave coded facts unknown when the source does not establish them."
+  },
+  {
+    "gap_id": "POL202102-G006",
+    "type": "coverage_limit",
+    "description": "The discovery sweep contains 11 actual web searches, 43 queries and 257 ordered headers. It is open-web discovery only; LexisNexis and comprehensive newspaper/archive access were not searched. Polish-language materials dominate.",
+    "source_ids": [],
+    "affected_candidates": [
+      "POL202102-E001",
+      "POL202102-E002",
+      "POL202102-E003",
+      "POL202102-E004",
+      "POL202102-E005",
+      "POL202102-E006",
+      "POL202102-E007",
+      "POL202102-E008",
+      "POL202102-E009"
+    ],
+    "required_followup": "State language and archive limits in the final report; do not infer that no other February actions occurred."
+  },
+  {
+    "gap_id": "POL202102-G007",
+    "type": "event_boundary",
+    "description": "POL202102-S005 names gatherings in Warsaw, Łódź and Gdańsk during the “Media bez wyboru” action. The same article separately mentions an earlier Warsaw demonstration before the Prime Minister’s Chancellery and a 19:30 gathering at TVP; whether the two Warsaw locations are separate gatherings or a continuous action is unresolved. Multi-city organization versus separate local units is also unresolved.",
+    "source_ids": [
+      "POL202102-S005"
+    ],
+    "affected_candidates": [
+      "POL202102-E006",
+      "POL202102-E007",
+      "POL202102-E008",
+      "POL202102-E009"
+    ],
+    "required_followup": "Compare independently reported local articles or organizer records for dates, routes, city-local units and Warsaw location continuity. Keep all local counts separate; do not infer that the February 1 Women’s Strike or January abortion-ruling mobilizations continued into this media-tax/free-media action."
+  },
+  {
+    "gap_id": "POL202102-G008",
+    "type": "threshold",
+    "description": "POL202102-S005 provides no city-local crowd estimate for the Warsaw, Łódź or Gdańsk gatherings, including the earlier Warsaw Chancellery demonstration; no candidate currently establishes the 50-person threshold from this report.",
+    "source_ids": [
+      "POL202102-S005"
+    ],
+    "affected_candidates": [
+      "POL202102-E006",
+      "POL202102-E007",
+      "POL202102-E008",
+      "POL202102-E009"
+    ],
+    "required_followup": "Seek exact local attendance evidence for each separately bounded gathering. Do not pool cities or use the size of the broader campaign, media blackout, police observers, or planned later demonstrations as a crowd count."
+  }
+]

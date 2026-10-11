@@ -1,0 +1,174 @@
+[
+  {
+    "gap_id": "ETH202102-G001",
+    "type": "threshold_50",
+    "description": "None of the seven city action leads has a published local attendance estimate or other evidence establishing at least 50 simultaneous participants. The word “protest” and reported arrests do not supply a turnout estimate.",
+    "source_ids": [
+      "ETH202102-S001"
+    ],
+    "affected_candidates": [
+      "ETH202102-E001",
+      "ETH202102-E002",
+      "ETH202102-E003",
+      "ETH202102-E004",
+      "ETH202102-E005",
+      "ETH202102-E006",
+      "ETH202102-E007"
+    ],
+    "required_followup": "Seek contemporaneous city-level reports with attendance evidence. Do not infer crowd size from arrests, injuries or a multi-city campaign."
+  },
+  {
+    "gap_id": "ETH202102-G002",
+    "type": "location_source_lineage_state_response",
+    "description": "The 5 February CIVICUS paragraph says protests occurred in different parts of Oromia including Ambo, then reports several arrests and beatings without identifying the town/action affected or the number of separate episodes. The record cannot assign these responses to Ambo or treat several arrests as turnout.",
+    "source_ids": [
+      "ETH202102-S001",
+      "ETH202102-S027"
+    ],
+    "affected_candidates": [
+      "ETH202102-E001"
+    ],
+    "required_followup": "Find contemporaneous Oromia and Ambo reporting that identifies each physical action, its organizer, attendance, and which participants experienced arrests or beatings."
+  },
+  {
+    "gap_id": "ETH202102-G003",
+    "type": "dates_episode_unit",
+    "description": "CIVICUS gives a 9–12 February window for protests beginning in Mekelle and spreading to six additional towns, but not a distinct start date, attendance, demand, organizer, end date, or episode boundary for each town. No evidence establishes one nationally or regionally coordinated multi-town event.",
+    "source_ids": [
+      "ETH202102-S001",
+      "ETH202102-S005",
+      "ETH202102-S006",
+      "ETH202102-S009"
+    ],
+    "affected_candidates": [
+      "ETH202102-E002",
+      "ETH202102-E003",
+      "ETH202102-E004",
+      "ETH202102-E005",
+      "ETH202102-E006",
+      "ETH202102-E007"
+    ],
+    "required_followup": "Search accessible contemporaneous local reporting for each named town; code separate local actions unless evidence establishes common organization and episode boundaries."
+  },
+  {
+    "gap_id": "ETH202102-G004",
+    "type": "state_target_demands",
+    "description": "The retrospective Mekelle/Tigray paragraph does not state a demand or target for the reported protests. No category is inferred from conflict context, hunger-strike context, or the report’s title.",
+    "source_ids": [
+      "ETH202102-S001",
+      "ETH202102-S005",
+      "ETH202102-S006"
+    ],
+    "affected_candidates": [
+      "ETH202102-E002",
+      "ETH202102-E003",
+      "ETH202102-E004",
+      "ETH202102-E005",
+      "ETH202102-E006",
+      "ETH202102-E007"
+    ],
+    "required_followup": "Locate local sources that report what participants demanded and whether they targeted the Ethiopian state or policy."
+  },
+  {
+    "gap_id": "ETH202102-G005",
+    "type": "casualty_attribution",
+    "description": "CIVICUS says an unknown number were reportedly injured or killed but does not assign a location, actor, event or cause. The ModernGhana title suggests a protest-related death, but its body was not retrieved (Cache miss); the Tigray War index results are conflict leads, not protest evidence. No injuries or deaths are coded for any city action.",
+    "source_ids": [
+      "ETH202102-S001",
+      "ETH202102-S015",
+      "ETH202102-S021",
+      "ETH202102-S022"
+    ],
+    "affected_candidates": [
+      "ETH202102-E002",
+      "ETH202102-E003",
+      "ETH202102-E004",
+      "ETH202102-E005",
+      "ETH202102-E006",
+      "ETH202102-E007"
+    ],
+    "required_followup": "Seek contemporaneous original reporting that explicitly links any injury/death, actor and cause to a specific protest gathering; keep armed-conflict casualties separate."
+  },
+  {
+    "gap_id": "ETH202102-G006",
+    "type": "source_access_and_origin",
+    "description": "The one current-unit body read is a retrospective CIVICUS Monitor page dated 28 May 2021. Its Addis Standard link remains deferred under an ambiguous prior same-host denial, and its ReliefWeb link was not requested. Al Jazeera produced a web.open Cache miss and an ordinary HTTPS DNS failure (curl exit 6, HTTP 000); ModernGhana produced a web.open Cache miss. A Tghat exact-URL request was made after a fresh stable receipt and immediate full path/hash match, but the saved wrapper result is empty and no body, HTTP status, or denial was observed; outcome remains unclassified, with no retry. An earlier Tghat receipt was stale and was not used for a request. AfricaPress and DW publisher-wide holds were respected; no body was requested or copied and no alias/story exception was inferred.",
+    "source_ids": [
+      "ETH202102-S001",
+      "ETH202102-S003",
+      "ETH202102-S005",
+      "ETH202102-S007",
+      "ETH202102-S015",
+      "ETH202102-S024"
+    ],
+    "affected_candidates": [
+      "ETH202102-E001",
+      "ETH202102-E002",
+      "ETH202102-E003",
+      "ETH202102-E004",
+      "ETH202102-E005",
+      "ETH202102-E006",
+      "ETH202102-E007"
+    ],
+    "required_followup": "Consult permitted, exact-URL-gated contemporaneous/origin sources after fresh full manual review and immediate input fingerprint validation. Preserve all access holds and technical failures."
+  },
+  {
+    "gap_id": "ETH202102-G007",
+    "type": "language_geographic_and_sector_coverage",
+    "description": "The 11 captured search batches contain 44 original query strings, including four weekly windows, English plus Amharic, Afaan Oromo and Tigrinya, Ethiopia-wide and targeted Oromia/Tigray queries, other regions, students, labor, teachers and health workers. Returned headers were heavily English/international and did not establish comprehensive coverage or independent local-language reporting. No LexisNexis or systematic news archive access was available.",
+    "source_ids": [
+      "ETH202102-S014",
+      "ETH202102-S026",
+      "ETH202102-S027"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use fluent local-language archives and broader regional/sector reporting to test for additional episodes. Treat web search as bounded discovery, not proof of absence."
+  },
+  {
+    "gap_id": "ETH202102-G008",
+    "type": "unverified_lead",
+    "description": "Search-only leads include a Jimma University item and social-media claims about Shashamane and Ambo. They were not opened and do not establish physical date, crowd threshold, event independence, demand or response; no claims from them are used to code the seven candidates.",
+    "source_ids": [
+      "ETH202102-S014",
+      "ETH202102-S026",
+      "ETH202102-S027"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review permitted source bodies/original reporting under the usual access process before creating or excluding any additional local candidate."
+  },
+  {
+    "gap_id": "ETH202102-G009",
+    "type": "continuity",
+    "description": "The January dossier’s Lideta court-solidarity event is pending state-target review and is not shown to continue as a physical February street action. The separately reported 4 February court attendance and post-5 February Oromia actions do not establish one continuous episode. Post-February physical closure or continuation for any candidate is unknown.",
+    "source_ids": [
+      "ETH202102-S001",
+      "ETH202102-S002"
+    ],
+    "affected_candidates": [
+      "ETH202102-E001",
+      "ETH202102-E002",
+      "ETH202102-E003",
+      "ETH202102-E004",
+      "ETH202102-E005",
+      "ETH202102-E006",
+      "ETH202102-E007"
+    ],
+    "required_followup": "Check contemporaneous reports before and after February for city-specific physical continuity; retain null endings without evidence."
+  },
+  {
+    "gap_id": "ETH202102-G010",
+    "type": "baseline_codebook_human_review",
+    "description": "The local May 2015 MM user manual supports the provisional 50-person and home-grown state-target criteria. The official current dataset version, universe, schema, the additional Coding Procedure and official use conditions remain unverified; these candidates are not approved or assigned official IDs.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ETH202102-E001",
+      "ETH202102-E002",
+      "ETH202102-E003",
+      "ETH202102-E004",
+      "ETH202102-E005",
+      "ETH202102-E006",
+      "ETH202102-E007"
+    ],
+    "required_followup": "Coordinator should clear the official-baseline gate and human eligibility review without changing the preserved provisional source evidence."
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "gap_id": "macedonia_2021-01_G001",
+    "type": "participants threshold",
+    "description": "Jan20 students, Jan26 health workers, Jan26 accountants and Jan27 Tursko Rudari have no reliable crowd estimates. Matura street-action leads and the undated egg incident have no counts and uncertain details. Only Jan29 Monstra has qualitative estimates clearly above 50.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S020",
+      "S021",
+      "S022",
+      "S025",
+      "S026",
+      "S028",
+      "S031",
+      "S034",
+      "S036"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-01_E001",
+      "macedonia_2021-01_E002",
+      "macedonia_2021-01_E003",
+      "macedonia_2021-01_E004",
+      "macedonia_2021-01_E005",
+      "macedonia_2021-01_E006",
+      "macedonia_2021-01_E007"
+    ],
+    "required_followup": "Find event-specific crowd estimates or first-hand documentation; do not infer attendance from workforce/school totals, boycott shares or number of cities."
+  },
+  {
+    "gap_id": "macedonia_2021-01_G002",
+    "type": "state_response dates source_independence",
+    "description": "Jan29 reports document police cordon/shock bombs and participant damage/stone throwing. Reviewed evidence does not establish event-time arrests, beatings, shootings, killings, accommodation or ignore. CIVICUS mentions later charges but not arrest/detention. Feb26 clashes/arrests are a separate later event.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S012",
+      "S013",
+      "S034",
+      "S035"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-01_E001"
+    ],
+    "required_followup": "Check contemporary police and rights reporting; code each response only with event-specific attribution. Keep Feb26 responses in February."
+  },
+  {
+    "gap_id": "macedonia_2021-01_G003",
+    "type": "participants end_date source_access",
+    "description": "Jan20 ministry protest has no crowd count, named organizer or physical end. Kanal5 carries an MIA-attributed report; web reader returned the body, but coordinator's later ordinary HTTPS request returned HTTP403.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-01_E002"
+    ],
+    "required_followup": "Seek an accessible independent contemporary account or organizer documentation for crowd, physical end and response; preserve the opened-reader and later-403 provenance."
+  },
+  {
+    "gap_id": "macedonia_2021-01_G004",
+    "type": "participants source_access labor",
+    "description": "CIVICUS reports Jan26 health-worker protest, but linked Republika URL returned HTTP404 and the Rabotnik item remains search-only. Public-gathering form and attendance are unresolved.",
+    "source_ids": [
+      "S013",
+      "S015",
+      "S021"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-01_E003"
+    ],
+    "required_followup": "Locate an accessible contemporary account without bypassing the 404 and establish the in-person gathering and crowd."
+  },
+  {
+    "gap_id": "macedonia_2021-01_G005",
+    "type": "participants end_date state_response",
+    "description": "24.mk verifies the Jan26 accountants physically protested outside Government for deadline extensions and a new law, but gives no crowd count, formal organizer or physical end. The unanswered letter preceded the protest and is not event-time ignore evidence.",
+    "source_ids": [
+      "S013",
+      "S016",
+      "S024"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-01_E004"
+    ],
+    "required_followup": "Seek same-day follow-up or organizer/official records for crowd, end and response during/after the gathering; do not code the earlier letter as protest ignore."
+  },
+  {
+    "gap_id": "macedonia_2021-01_G006",
+    "type": "participants state_target end_date",
+    "description": "Kanal5/MIA confirms Jan27 residents blocked a local road over a mini-hydro project and describes the action as peaceful, but gives no group size/end and does not explicitly identify government as addressee. Mayor's permit context and company interaction do not resolve target or state accommodation. Linked Sloboden Pechat English URL returned HTTP403.",
+    "source_ids": [
+      "S013",
+      "S017",
+      "S022",
+      "S027"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-01_E005"
+    ],
+    "required_followup": "Find accessible resident or local-government reporting on demand addressee, attendance and end; preserve the private-company/state distinction."
+  },
+  {
+    "gap_id": "macedonia_2021-01_G007",
+    "type": "dates episode_unit source_access",
+    "description": "Matura reports document class boycott while a Jan27 search-result snippet mentions partial street protests in Skopje/Kumanovo without date, sites or size. CIVICUS reports student street activity and egg throwing without dates; linked Republika page returned HTTP404. Relation to the Jan21 Kumanovo class boycott remains unresolved.",
+    "source_ids": [
+      "S013",
+      "S018",
+      "S019",
+      "S020",
+      "S023",
+      "S025",
+      "S026",
+      "S028",
+      "S029",
+      "S030",
+      "S031"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-01_E006"
+    ],
+    "required_followup": "Verify physical dates, sites and counts from contemporary reporting; separate class nonattendance from assemblies and do not date an undated action by its position in a monthly summary."
+  },
+  {
+    "gap_id": "macedonia_2021-01_G008",
+    "type": "source_access language",
+    "description": "Some event-specific links remain search-only. Republika pages S015/S018 returned HTTP404; Sloboden Pechat English page S017 returned HTTP403; Jan20 Kanal5 later returned HTTP403 after its web-reader body had been opened. Reader cache misses/sandbox DNS failures are retrieval limits, not publisher denials. No bypass was attempted.",
+    "source_ids": [
+      "S014",
+      "S015",
+      "S017",
+      "S018",
+      "S019",
+      "S020",
+      "S021",
+      "S024",
+      "S025",
+      "S026",
+      "S028",
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S033",
+      "S035",
+      "S036",
+      "S037"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-01_E002",
+      "macedonia_2021-01_E003",
+      "macedonia_2021-01_E005",
+      "macedonia_2021-01_E006",
+      "macedonia_2021-01_E007"
+    ],
+    "required_followup": "Review source-level access and attribution; use only ordinarily accessible pages and preserve actual 403/404 outcomes."
+  },
+  {
+    "gap_id": "macedonia_2021-01_G009",
+    "type": "coverage baseline",
+    "description": "This bounded open-web pass used English, Macedonian and Albanian searches, weekly windows, sector/city leads, local news and rights monitoring, plus official policy context. It does not reproduce LexisNexis's historical press corpus or verify the current official MM baseline, scheme and rules; neither exhaustive coverage nor national absence is established.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S013",
+      "S014",
+      "S022",
+      "S034"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should verify the latest official baseline and compatible rules; further research should consult contemporary local/regional reporting and the original manual before consolidation."
+  },
+  {
+    "gap_id": "macedonia_2021-01_G010",
+    "type": "dates participants source_access",
+    "description": "Telegrami search result reports a Jan14 electricity-price/VAT protest and police removal from the Government courtyard, but the article body was not obtained. Jan14 is the publication date, not verified physical start; no crowd estimate or event details are confirmed.",
+    "source_ids": [
+      "S036"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-01_E007"
+    ],
+    "required_followup": "Find accessible contemporary event reporting without bypassing the 404 outcome; verify the physical date, domestic target, attendance and reported police removal."
+  }
+]

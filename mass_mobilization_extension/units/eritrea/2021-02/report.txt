@@ -1,0 +1,16 @@
+Eritrea — February 2021
+
+Scope and method
+The unit covers public protest actions beginning inside Eritrea from 1–28 February 2021 and directed at the Eritrean government or its policy. The local copy of the Mass Mobilization codebook was read from mass_mobilization_extension/baseline/mm_codebook.txt. Its 50-person threshold, own-state target, public-action, non-intercommunal and non-armed-action rules were retained. Start dates require evidence of the first public action at or above the threshold; state responses remain separate from protest demands and conflict casualties.
+
+Six actual batched web-search calls were captured from the registered worker rollout using extract_search_captures.py and persisted with research.py capture-search. They contain 22 constituent search strings in English, Arabic and Tigrinya and 165 ordered search-result headers, with captured URLs, titles, refs and observed execution/response clocks. Queries covered Eritrea/Asmara, protests, demonstrations, rallies, strikes, local-language terms, human-rights sources, and searches targeting Awate, Assenna and Harnnet. No search total was available; no total was invented. One search response reported that dw.com was blocked by robots.txt; no direct page request or retry followed.
+
+All 14 source cards are search_only. No full source body was requested or read: 0 current-unit body opens; 0 prior-unit-only body opens; physical body reads: 0; usable compliant evidence sources: 0. Search output is discovery evidence only; no snippet was used to code an event candidate or populate protest variables. The six responses did not establish a qualifying domestic Eritrean February gathering. events.json is empty; this is not a claim that no protest occurred.
+
+Screening and continuity
+Search returns included fictional scenario posts from r/Geosim, a diaspora discussion/call suggesting a possible return to Asmara without reporting an executed gathering, and protest reports located in Oromia/Mekelle (Ethiopia), Mogadishu (Somalia) and Djibouti. A later refugee rally in Addis Ababa also appeared. These are not actions occurring inside Eritrea in the assigned month. Tigray conflict deaths, refugee displacement, and allegations about Eritrean forces in Ethiopia are not protest actions or protest-specific response coding. Repeated results about the Al Diaa school protest concern the October 2017 Asmara event, not February 2021. No verified physical continuation from January was found; continuations.json is empty.
+
+Coverage limits and next work
+The open web does not reproduce LexisNexis All News or a systematic local newspaper, radio and archive review. Tigrinya/Arabic were not reviewed by a fluent researcher; Tigre, Afar, Saho, Bilen and Kunama sources were not systematically searched. Search results and annual-report snippets cannot demonstrate an absence of events. The possible diaspora call, whether any action followed it, local-source coverage, event threshold, date, location, target and any response remain unresolved. Gaps are recorded separately, including the coordinator-owned official baseline gate.
+
+No candidate was integrated into the original catalogue; no MM official ID was assigned. Eligibility and independent/human review remain pending.

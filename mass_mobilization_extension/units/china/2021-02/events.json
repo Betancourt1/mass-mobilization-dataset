@@ -1,0 +1,148 @@
+[
+  {
+    "candidate_id": "china_2021-02_E001",
+    "country": "China",
+    "ccode": "710",
+    "unit_month": "2021-02",
+    "title": "Qing’an residents petition county government over heating service",
+    "start_date": "2021-02-05",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Qing’an County Government building, Qing’an County, Suihua, Heilongjiang, China",
+    "scope": "local",
+    "organizer": null,
+    "demands": [],
+    "participants_original": "过百名市民 (over 100 residents, as reported by ON.CC)",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "ON.CC reports over 100 residents physically gathered to petition at the county government building, clearly above 50. No exact count or numeric bounds are assigned.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "yes",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "china_2021-02_S008"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "china_2021-02_S008"
+        ],
+        "summary": "Contemporaneous ON.CC headline identifies a county-government gathering over a heating outage."
+      },
+      "start_date": {
+        "source_ids": [
+          "china_2021-02_S008"
+        ],
+        "summary": "Article dated February 5 reports the gathering that Friday, the 5th."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "No gathering end time or date is reported; heat restoration does not establish when the assembly ended."
+      },
+      "location": {
+        "source_ids": [
+          "china_2021-02_S008"
+        ],
+        "summary": "Residents gathered and petitioned at the Qing’an County Government building."
+      },
+      "scope": {
+        "source_ids": [
+          "china_2021-02_S008"
+        ],
+        "summary": "Local gathering at one county government building."
+      },
+      "organizer": {
+        "source_ids": [],
+        "summary": "No organizer is identified in the opened report."
+      },
+      "demands": {
+        "source_ids": [
+          "china_2021-02_S008"
+        ],
+        "summary": "The report describes complaints about inadequate and interrupted heating and a petition at the county government, but does not specify an explicit demand or establish whether the target was government policy or the utility. No existing demand category is assigned."
+      },
+      "participants_original": {
+        "source_ids": [
+          "china_2021-02_S008"
+        ],
+        "summary": "Article says over 100 residents gathered; no exact figure is given."
+      },
+      "participants_min": {
+        "source_ids": [],
+        "summary": "No numeric lower bound assigned from qualitative wording."
+      },
+      "participants_max": {
+        "source_ids": [],
+        "summary": "No exact or upper count reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "china_2021-02_S008"
+        ],
+        "summary": "The opened report explicitly says over 100 residents gathered; this exceeds 50 without an exact headcount."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "china_2021-02_S008"
+        ],
+        "summary": "The report says some residents crossed a police line; it does not describe violence by protesters, and no explicit absence is reported."
+      },
+      "state_response": {
+        "source_ids": [
+          "china_2021-02_S008"
+        ],
+        "summary": "County government announced the heating company would refund two months’ fees to eligible affected residents; the article does not verify completed refunds. Other response fields remain unknown."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "china_2021-02_S008"
+        ],
+        "summary": "Same-day county notice announced a two-month heating-fee refund by the company for eligible affected residents. This records an announced accommodation, not verified payment or victory."
+      },
+      "state_response.arrests": {
+        "source_ids": [],
+        "summary": "Arrests are not established or explicitly ruled out."
+      },
+      "state_response.beatings": {
+        "source_ids": [],
+        "summary": "Beatings are not established or explicitly ruled out."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [],
+        "summary": "Crowd dispersal is not established or explicitly ruled out."
+      },
+      "state_response.ignore": {
+        "source_ids": [],
+        "summary": "No inference from silence."
+      },
+      "state_response.killings": {
+        "source_ids": [],
+        "summary": "Deaths are not established or explicitly ruled out."
+      },
+      "state_response.shootings": {
+        "source_ids": [],
+        "summary": "Gunfire is not established or explicitly ruled out."
+      }
+    },
+    "eligibility": "pending_state_target",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "The opened report attributes the heating drop to accidents at Qingxiang Thermal Power Company, reports repairs completed and heat restored, and says the county government announced a two-month fee refund. It does not identify an organizer, quote a specific demand, establish company ownership, verify completed refunds, or show that protesters requested a government policy change. Search-result-only reports add claims about physical scuffles and next-day road closures/testing; those claims are not coded here.",
+    "open_questions": [
+      "Did residents explicitly demand that county authorities enforce or change a government heating policy, or was the gathering directed solely at the utility?",
+      "Was the heating provider state-owned, privately operated, or otherwise subject to a specific government policy in February 2021?",
+      "Were the announced refunds delivered, and did residents continue gathering or take further action after February 5?",
+      "What was the exact attendance and who organized or coordinated the gathering?",
+      "Did police arrest, beat, disperse, or otherwise act against participants? The opened article does not resolve these fields.",
+      "Are the Hope Voice-derived reports of physical contact and February 6 road closures/testing independently corroborated?"
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "gap_id": "philippines_2021-02_G001",
+    "type": "opened_body_candidate_threshold_demand_and_response",
+    "description": "Opened S002 reports a small Bacolod youth/Hilway counterprotest opposing the Anti-Terrorism Act and a separate afternoon militant indignation rally calling on the government to junk the law; both are dated February 2, but neither has a numeric attendance estimate and their attendance must not be pooled. S003’s caption reports Lumad taking part in a Manila protest near the Supreme Court on February 2 before oral arguments; the body does not clearly attribute a specific state-directed demand to the captioned participants. Three separate pending candidates are recorded; all seven state-response fields and protester violence remain unknown. S001 and S004 exact URLs each returned HTTP 403.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "PHL202102-E001",
+      "PHL202102-E002",
+      "PHL202102-E003"
+    ],
+    "required_followup": "Seek distinct contemporary evidence of attendance, organizer/site, participant demand and own-state target for each of the three candidates; never pool the two Bacolod anti-law gatherings or add the state-forces support rally to their attendance. Resolve S003 participant-demand linkage. Record protester violence, response and continuity only from positive evidence. Do not request the exact denied S001 or S004 URLs or variants."
+  },
+  {
+    "gap_id": "philippines_2021-02_G002",
+    "type": "public_action_demand_and_eligibility",
+    "description": "Headers refer to RevGov, a Mendiola rally, and Duterte supporters, but do not establish the event form, participant count, or whether participants made a qualifying demand to the Philippine state or its policy.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify actual public action, date, attendance, stated demand and target, and event-specific state response before coding eligibility."
+  },
+  {
+    "gap_id": "philippines_2021-02_G003",
+    "type": "gathering_threshold_and_own_state_demand",
+    "description": "Fisherfolk/China Coast Guard Law headers do not establish whether any Philippine public gathering occurred, its attendance, or a demand directed to the Philippine state or its policy. Opposition directed only to China is insufficient for own-state eligibility.",
+    "source_ids": [
+      "S008",
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If authorized later, verify occurrence, public gathering form, simultaneous attendance of at least 50, and any participant demand to the Philippine state from body evidence."
+  },
+  {
+    "gap_id": "philippines_2021-02_G004",
+    "type": "retrospective_source_and_date_verification",
+    "description": "S011 is a search header for an Ang Bayan PDF with a March 2021 date in the URL. Its contents, publication metadata, event references, and relevance to a February-starting episode were not reviewed.",
+    "source_ids": [
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check the captured document only under a fresh authorized phase and record publication timing separately from any event start date."
+  },
+  {
+    "gap_id": "philippines_2021-02_G005",
+    "type": "anniversary_action_occurrence_and_threshold",
+    "description": "The EDSA anniversary headers concern security measures and commemorative calls but do not establish whether an eligible public protest occurred, when it began, or its attendance and demand.",
+    "source_ids": [
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify any actual action, date, location, participants, attendance threshold, own-state demand, and event-specific response."
+  },
+  {
+    "gap_id": "philippines_2021-02_G006",
+    "type": "public_gathering_vs_sales_or_work_stoppage",
+    "description": "Pork-holiday headers describe vendors withholding or resuming sales and related government appeals; they do not show whether a public gathering of at least 50 people occurred or establish the participants’ precise state-directed demand. Refusal to sell alone is not proof of a qualifying gathering.",
+    "source_ids": [
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Determine whether a public meeting occurred, count only supported simultaneous attendance, establish the participant demand and target, and review continuity without treating each day or report as a separate event."
+  },
+  {
+    "gap_id": "philippines_2021-02_G007",
+    "type": "exact_url_access_restriction",
+    "description": "The exact S001 PNA URL and exact S004 The POST URL each returned one observed HTTP 403 with no article text read. These are exact-URL restrictions only; no publisher-wide or origin-wide restriction is inferred.",
+    "source_ids": [
+      "S001",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry or use a fallback for either denied exact URL. Revisit only through a distinct source URL if discovered and independently authorized in a later phase."
+  },
+  {
+    "gap_id": "philippines_2021-02_G008",
+    "type": "search_coverage_and_archival_limits",
+    "description": "The saved first-pass search comprises 12 queries and 361 ordered result headers from open web search. This is a discovery sample, not proof of exhaustive coverage; searches do not reproduce systematic LexisNexis or all local-language/local-archive access.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018"
+    ],
+    "affected_candidates": [],
+    "required_followup": "A later authorized pass should broaden sources/languages and preserve empty searches and inaccessible archives without claiming that no protest occurred."
+  }
+]

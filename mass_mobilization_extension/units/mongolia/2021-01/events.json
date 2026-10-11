@@ -1,0 +1,635 @@
+[
+  {
+    "candidate_id": "mongolia_2021-01-E001",
+    "country": "Mongolia",
+    "ccode": "712",
+    "unit_month": "2021-01",
+    "title": "Ulaanbaatar demonstration over the treatment of a postpartum mother and government pandemic response",
+    "start_date": "2021-01-20",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Sukhbaatar Square / outside the Government Palace, Ulaanbaatar, Mongolia",
+    "scope": "Capital-city public gathering. Sources opened so far describe one gathering at the central square; broader geographic scope is not established.",
+    "organizer": "The gathering is described as spontaneous/unprompted. A. Otgonbaatar, chair of the True and Right Party, is documented livestreaming from the square and demanding the State Emergency Commission resign; formal organizer status for the broader crowd remains uncertain.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "NHRC 2022 report citing a General Police Department letter: about 200 at 15:00, 600 at 17:00, and about 1,300 at 19:00. NHRC 2023 22nd report gives 1,500 at 15:00, 600 at 17:00, and about 1,300 at 19:00. ICNL-IRIM 2024 says the gathering peaked at 5,000; AFP reported about 5,000; bne reported more than 10,000; CNA describes a “small” protest without a number. Gogo.mn reports continuation but no count.",
+    "participants_min": 200,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "Conflicting, time-specific reports; no single event-level point estimate assigned.",
+    "threshold_50_evidence": "Both NHRC reports give multiple time-specific counts above 50 on Jan 20, though their 15:00 figures conflict (about 200 in the 2022 report citing police; 1,500 in the 2023 22nd report). ICNL-IRIM says the gathering peaked at 5,000, AFP says about 5,000 and bne says more than 10,000. These remain source-specific estimates; they are not averaged.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "yes",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "MNG21JAN-S006",
+      "MNG21JAN-S009",
+      "MNG21JAN-S011",
+      "MNG21JAN-S012",
+      "MNG21JAN-S013",
+      "MNG21JAN-S016",
+      "MNG21JAN-S028",
+      "MNG21JAN-S029"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "MNG21JAN-S006",
+          "MNG21JAN-S012",
+          "MNG21JAN-S013",
+          "MNG21JAN-S028",
+          "MNG21JAN-S029"
+        ],
+        "summary": "The 2023 NHRC report, contemporaneous bne and AFP reports, and Smith’s February 2021 commentary place the assembly on Jan 20, 2021."
+      },
+      "end_date": {
+        "source_ids": [
+          "MNG21JAN-S006",
+          "MNG21JAN-S012",
+          "MNG21JAN-S028"
+        ],
+        "summary": "The 2022 NHRC report says activity continued until 00:50; bne says participants stayed until midnight. The 2023 NHRC report describes a related Jan 21 health-workers’ assembly and says the sequence ended when the Prime Minister submitted his resignation request, but does not document when participants physically departed; event end remains unknown."
+      },
+      "location": {
+        "source_ids": [
+          "MNG21JAN-S006",
+          "MNG21JAN-S009",
+          "MNG21JAN-S012",
+          "MNG21JAN-S013",
+          "MNG21JAN-S016",
+          "MNG21JAN-S029"
+        ],
+        "summary": "Opened reports place the assembly at Sukhbaatar Square / the Government Palace in central Ulaanbaatar."
+      },
+      "scope": {
+        "source_ids": [
+          "MNG21JAN-S006",
+          "MNG21JAN-S009",
+          "MNG21JAN-S012"
+        ],
+        "summary": "Opened reports describe a single spontaneous gathering in the capital; they do not establish that it was nationally organized or held at other locations."
+      },
+      "organizer": {
+        "source_ids": [
+          "MNG21JAN-S009",
+          "MNG21JAN-S012",
+          "MNG21JAN-S016"
+        ],
+        "summary": "ICNL-IRIM describes spontaneous, unprompted assembly. NHRC and Gogo identify A. Otgonbaatar of the True and Right Party livestreaming and demanding the State Emergency Commission’s resignation; his role as formal organizer of the broader gathering is unresolved."
+      },
+      "demands": {
+        "source_ids": [
+          "MNG21JAN-S009",
+          "MNG21JAN-S012",
+          "MNG21JAN-S016",
+          "MNG21JAN-S029"
+        ],
+        "summary": "The demand to remove/resign the State Emergency Commission and hold government accountable over treatment of the mother/newborn and pandemic response is documented in the NHRC report and Smith commentary; the broad COVID-response context is also described by other opened sources."
+      },
+      "participants_original": {
+        "source_ids": [
+          "MNG21JAN-S006",
+          "MNG21JAN-S011",
+          "MNG21JAN-S012",
+          "MNG21JAN-S013",
+          "MNG21JAN-S016",
+          "MNG21JAN-S028",
+          "MNG21JAN-S009"
+        ],
+        "summary": "Two NHRC reports give conflicting 15:00 figures (about 200 in the 2022 report citing police; 1,500 in the 2023 22nd report), while both give 600 at 17:00 and about 1,300 at 19:00. ICNL-IRIM says peak 5,000; AFP says about 5,000; bne says more than 10,000; CNA says “small”; Gogo gives no count. Preserve each attributed estimate rather than averaging."
+      },
+      "participants_min": {
+        "source_ids": [
+          "MNG21JAN-S012"
+        ],
+        "summary": "The NHRC report cites about 200 people at 15:00; used only as a conservative lower bound for peak attendance, not an exact total."
+      },
+      "participants_max": {
+        "source_ids": [
+          "MNG21JAN-S006"
+        ],
+        "summary": "bne says more than 10,000, which supplies no finite upper bound; maximum left null."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "MNG21JAN-S006",
+          "MNG21JAN-S011",
+          "MNG21JAN-S012",
+          "MNG21JAN-S013",
+          "MNG21JAN-S028",
+          "MNG21JAN-S009"
+        ],
+        "summary": "Reports conflict, and official counts vary by source and time; ICNL-IRIM reports a peak of 5,000, AFP about 5,000, bne more than 10,000, and CNA says “small.” No single point estimate is assigned."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "MNG21JAN-S012",
+          "MNG21JAN-S013",
+          "MNG21JAN-S006",
+          "MNG21JAN-S028",
+          "MNG21JAN-S009"
+        ],
+        "summary": "Both NHRC reports give multiple time-specific counts above 50 on Jan 20, though their 15:00 figures conflict. ICNL-IRIM reports peak 5,000, AFP about 5,000 and bne more than 10,000; estimates remain attributed and unaveraged."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "MNG21JAN-S009"
+        ],
+        "summary": "The ICNL-IRIM report describes a peaceful gathering and says no public disorder occurred. This is explicit negative evidence; the Gogo report’s account of a dispute after police removed placards does not attribute violence to protesters."
+      },
+      "state_response": {
+        "accommodation": {
+          "source_ids": [
+            "MNG21JAN-S006",
+            "MNG21JAN-S012"
+          ],
+          "summary": "NHRC reports the Deputy Prime Minister/State Emergency Commission head and Health Minister announced resignation requests at 19:10 after protest demands; bne reports resignations amid public pressure and the Prime Minister said he accepted the public demand."
+        },
+        "arrests": {
+          "source_ids": [
+            "MNG21JAN-S012"
+          ],
+          "summary": "NHRC says a misdemeanor case was opened against the party chair for an unregistered gathering; it does not say he or participants were arrested."
+        },
+        "beatings": {
+          "source_ids": [
+            "MNG21JAN-S009",
+            "MNG21JAN-S012"
+          ],
+          "summary": "Opened accounts do not establish beatings of participants."
+        },
+        "crowd_dispersal": {
+          "source_ids": [
+            "MNG21JAN-S012",
+            "MNG21JAN-S016",
+            "MNG21JAN-S028"
+          ],
+          "summary": "The 2023 NHRC report says police did not forcibly disperse the assembly, but also records requirements concerning crowd formation and a fine against A.O. for failing to comply. The purpose and scope of those warnings are not clear enough to determine whether the state attempted to prevent or disperse the gathering; code remains unknown."
+        },
+        "ignore": {
+          "source_ids": [
+            "MNG21JAN-S006",
+            "MNG21JAN-S012"
+          ],
+          "summary": "Officials publicly announced resignation requests and the Prime Minister resigned amid the event; ignore is unsupported."
+        },
+        "killings": {
+          "source_ids": [
+            "MNG21JAN-S009",
+            "MNG21JAN-S012"
+          ],
+          "summary": "Opened event-specific accounts do not report a state killing; this absence of a report does not establish no killing."
+        },
+        "shootings": {
+          "source_ids": [
+            "MNG21JAN-S009",
+            "MNG21JAN-S012"
+          ],
+          "summary": "Opened event-specific accounts do not report state gunfire; silence is not coded as no."
+        }
+      },
+      "notes": {
+        "source_ids": [
+          "MNG21JAN-S006",
+          "MNG21JAN-S009",
+          "MNG21JAN-S011",
+          "MNG21JAN-S012",
+          "MNG21JAN-S013",
+          "MNG21JAN-S016",
+          "MNG21JAN-S028",
+          "MNG21JAN-S029"
+        ],
+        "summary": "Proposed Jan 20 event. The 2023 NHRC report describes a related Jan 21 health-workers’ assembly and a broader sequence ending when the Prime Minister submitted his resignation request, but physical departure from the Jan 20 crowd is not documented. A separate pending candidate records the Jan 21 gathering with its attendance threshold unresolved. Crowd estimates conflict, including two different NHRC 15:00 figures; do not average them. NHRC says police did not forcibly disperse the gathering but also records crowd-prevention requirements and a fine; the broader dispersal response remains unknown. Police reportedly opened a misdemeanor case against the party chair for an unregistered assembly, but no arrest is established. The separate Oyu Tolgoi/hunger-strike sequence is not merged into this event."
+      },
+      "open_questions": {
+        "source_ids": [
+          "MNG21JAN-S006",
+          "MNG21JAN-S012",
+          "MNG21JAN-S016",
+          "MNG21JAN-S028"
+        ],
+        "summary": "Physical departure after the overnight activity is undocumented; the NHRC’s Jan 21 health-workers’ assembly has no headcount and its relationship to the Jan 20 gathering is unresolved. Other open questions remain about Oyu Tolgoi crowd size, contemporary corroboration and broader January coverage."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "mongolia:2021-01-20:sukhbaatar-square-postpartum-treatment-protest",
+    "notes": "Proposed Jan 20 event. The 2023 NHRC report describes a related Jan 21 health-workers’ assembly and a broader sequence ending when the Prime Minister submitted his resignation request, but physical departure from the Jan 20 crowd is not documented. A separate pending candidate records the Jan 21 gathering with its attendance threshold unresolved. Crowd estimates conflict, including two different NHRC 15:00 figures; do not average them. NHRC says police did not forcibly disperse the gathering but also records crowd-prevention requirements and a fine; the broader dispersal response remains unknown. Police reportedly opened a misdemeanor case against the party chair for an unregistered assembly, but no arrest is established. The separate Oyu Tolgoi/hunger-strike sequence is not merged into this event.",
+    "open_questions": [
+      "When did participants physically leave or dissolve after the reported activity to 00:50?",
+      "Was the Jan 21 health-workers’ assembly a distinct gathering or part of the same event sequence, and did it draw at least 50?",
+      "Did the Jan 25–29 hunger strike draw a separate public gathering of at least 50?",
+      "Can contemporary local reporting corroborate the protest’s demand and physical end?",
+      "Did any other Mongolia-wide or local Jan 2021 demonstrations meet the threshold?"
+    ]
+  },
+  {
+    "candidate_id": "mongolia_2021-01-E002",
+    "country": "Mongolia",
+    "ccode": "712",
+    "unit_month": "2021-01",
+    "title": "Sukhbaatar Square Oyu Tolgoi protest demonstrations and Ganbaatar hunger strike",
+    "start_date": "2021-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Sukhbaatar Square, in front of the Parliament/Government Palace, Ulaanbaatar, Mongolia",
+    "scope": "Capital-city gathering. Opened sources describe demonstrations at Sukhbaatar Square; no broader geographic organization is established.",
+    "organizer": "MP S. Ganbaatar began a public hunger strike and remained at the square. Mongolia Focus describes smaller Oyu Tolgoi demonstrations starting the preceding weekend and says Ganbaatar joined; formal organizing responsibility for the wider gathering is unknown.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Mongolia Focus describes demonstrations with fewer participants than the preceding Jan 20 mobilization, without a count. A UB Post search result says a large number of citizens gathered in support and signed petitions, without a count. The NHRC account discusses supporter movement but gives no crowd estimate.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unquantified qualitative descriptions only; threshold pending",
+    "threshold_50_evidence": "The opened Mongolia Focus analysis says “demonstrations with fewer participants” but gives no number; the UB Post search result says “a large number” of supporters gathered, also without a number, and has not been opened by this worker. No source so far establishes that at least 50 people were assembled; eligibility remains pending_threshold.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "yes",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "MNG21JAN-S012",
+      "MNG21JAN-S019",
+      "MNG21JAN-S020",
+      "MNG21JAN-S021",
+      "MNG21JAN-S022",
+      "MNG21JAN-S024"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "MNG21JAN-S012",
+          "MNG21JAN-S019",
+          "MNG21JAN-S020",
+          "MNG21JAN-S021",
+          "MNG21JAN-S022"
+        ],
+        "summary": "The official NHRC report and Eguur date Ganbaatar’s hunger strike to Jan 25; bne dates it to Jan 26; Mongolia Focus says smaller Oyu Tolgoi demonstrations began the preceding weekend. This fixes the onset month but not exact first date for the collective demonstration."
+      },
+      "end_date": {
+        "source_ids": [
+          "MNG21JAN-S012",
+          "MNG21JAN-S020",
+          "MNG21JAN-S022"
+        ],
+        "summary": "NHRC records the hunger strike ending Jan 29 at 13:55; Mongolia Focus and bne show it continuing at publication/Jan 27. No source establishes physical departure of the wider gathering, so event end remains unknown."
+      },
+      "location": {
+        "source_ids": [
+          "MNG21JAN-S012",
+          "MNG21JAN-S020",
+          "MNG21JAN-S021",
+          "MNG21JAN-S022",
+          "MNG21JAN-S024"
+        ],
+        "summary": "Sources place the hunger strike and related demonstrations at Sukhbaatar Square in front of the Parliament/Government Palace in Ulaanbaatar."
+      },
+      "scope": {
+        "source_ids": [
+          "MNG21JAN-S020",
+          "MNG21JAN-S021",
+          "MNG21JAN-S022"
+        ],
+        "summary": "Reports identify activity at the central square in Ulaanbaatar; national or multi-location organization is not established."
+      },
+      "organizer": {
+        "source_ids": [
+          "MNG21JAN-S012",
+          "MNG21JAN-S020",
+          "MNG21JAN-S021",
+          "MNG21JAN-S022"
+        ],
+        "summary": "Ganbaatar initiated the hunger strike. Sources do not establish whether he or another actor organized all supporters or the preceding weekend demonstrations."
+      },
+      "demands": {
+        "source_ids": [
+          "MNG21JAN-S019",
+          "MNG21JAN-S020",
+          "MNG21JAN-S022"
+        ],
+        "summary": "Reports say the MP demanded the government/prime minister pursue international legal action concerning the Oyu Tolgoi agreement and/or revise or terminate the financing/investment arrangement. This is a domestic-government policy/process demand."
+      },
+      "participants_original": {
+        "source_ids": [
+          "MNG21JAN-S019",
+          "MNG21JAN-S020",
+          "MNG21JAN-S012"
+        ],
+        "summary": "One search-only report says “a large number” of supporters; the opened analysis says “fewer participants” than the prior mass protest; the official report gives no supporter count."
+      },
+      "participants_min": {
+        "source_ids": [
+          "MNG21JAN-S019",
+          "MNG21JAN-S020"
+        ],
+        "summary": "No numeric lower bound is published in the reviewed text."
+      },
+      "participants_max": {
+        "source_ids": [
+          "MNG21JAN-S019",
+          "MNG21JAN-S020"
+        ],
+        "summary": "No finite upper bound is published in the reviewed text."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "MNG21JAN-S019",
+          "MNG21JAN-S020"
+        ],
+        "summary": "Qualitative descriptions are unquantified; no point estimate assigned."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "MNG21JAN-S019",
+          "MNG21JAN-S020"
+        ],
+        "summary": "“Large number” and “fewer participants” do not establish the 50-person threshold without a count or more specific qualitative evidence; pending."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "MNG21JAN-S012",
+          "MNG21JAN-S020",
+          "MNG21JAN-S022"
+        ],
+        "summary": "The opened reports reviewed do not characterize protester violence either way; unknown."
+      },
+      "state_response": {
+        "accommodation": {
+          "source_ids": [
+            "MNG21JAN-S022"
+          ],
+          "summary": "The acting Justice/Home Affairs minister spoke with Ganbaatar during the protest and described an independent review and legal framework work concerning the agreement; this is a documented state reception, not proof the demand was met."
+        },
+        "arrests": {
+          "source_ids": [
+            "MNG21JAN-S021",
+            "MNG21JAN-S022"
+          ],
+          "summary": "Police issued a notice to stop the action and ministers spoke with Ganbaatar; no arrest is documented in these opened accounts."
+        },
+        "beatings": {
+          "source_ids": [
+            "MNG21JAN-S012",
+            "MNG21JAN-S020",
+            "MNG21JAN-S022"
+          ],
+          "summary": "Opened accounts do not document beatings; unknown."
+        },
+        "crowd_dispersal": {
+          "source_ids": [
+            "MNG21JAN-S021"
+          ],
+          "summary": "Police delivered a formal notice ordering the public hunger-strike action stopped as unregistered and contrary to the COVID order; this is an attempt to end the protest action. No physical move of the supporters is documented."
+        },
+        "ignore": {
+          "source_ids": [
+            "MNG21JAN-S021",
+            "MNG21JAN-S022"
+          ],
+          "summary": "Police issued a formal stop notice and the acting minister discussed the issue with Ganbaatar; ignore is unsupported."
+        },
+        "killings": {
+          "source_ids": [
+            "MNG21JAN-S012",
+            "MNG21JAN-S020",
+            "MNG21JAN-S022"
+          ],
+          "summary": "No event-specific state killing is documented in opened accounts; silence is not coded as no."
+        },
+        "shootings": {
+          "source_ids": [
+            "MNG21JAN-S012",
+            "MNG21JAN-S020",
+            "MNG21JAN-S022"
+          ],
+          "summary": "No event-specific state gunfire is documented in opened accounts; silence is not coded as no."
+        }
+      },
+      "notes": {
+        "source_ids": [
+          "MNG21JAN-S012",
+          "MNG21JAN-S019",
+          "MNG21JAN-S020",
+          "MNG21JAN-S021",
+          "MNG21JAN-S022",
+          "MNG21JAN-S024"
+        ],
+        "summary": "This candidate is kept separate from the Jan 20 protest because its stated demand concerns Oyu Tolgoi and government legal action. Reports disagree on whether the hunger strike began Jan 25 or Jan 26; a contemporary analyst says related demonstrations began over the prior weekend. The crowd size and event boundaries remain unresolved."
+      },
+      "open_questions": {
+        "source_ids": [
+          "MNG21JAN-S012",
+          "MNG21JAN-S019",
+          "MNG21JAN-S020",
+          "MNG21JAN-S021",
+          "MNG21JAN-S022"
+        ],
+        "summary": "The exact first day, whether the weekend demonstration and later hunger-strike support were one episode, whether at least 50 assembled, and when the crowd physically left are unresolved."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "mongolia:2021-01:oyu-tolgoi-square-demonstration-ganbaatar-hunger-strike",
+    "notes": "Provisional candidate for a distinct January Oyu Tolgoi protest sequence. The lone MP hunger strike is not itself treated as a >=50 gathering; it is documented alongside separate descriptions of supporters and smaller demonstrations at the square. No numeric crowd count has been found. Do not merge with Jan 20 protest absent episode evidence.",
+    "open_questions": [
+      "Did a crowd of at least 50 assemble in support of the hunger strike or Oyu Tolgoi demand?",
+      "Did related demonstrations begin Jan 23/24 or Jan 25/26?",
+      "Are the preceding-weekend demonstrations one episode with the later hunger strike, or separate actions?",
+      "When did the participants physically leave after the hunger strike stopped?"
+    ]
+  },
+  {
+    "candidate_id": "mongolia_2021-01-E003",
+    "country": "Mongolia",
+    "ccode": "712",
+    "unit_month": "2021-01",
+    "title": "Health-sector workers’ assembly opposing the Health Minister’s resignation",
+    "start_date": "2021-01-21",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Ulaanbaatar; the NHRC passage does not separately state the Jan 21 assembly’s venue",
+    "scope": "A group of health-sector workers is described at the same city-level sequence; exact venue and wider scope are not established.",
+    "organizer": "Unknown. The NHRC describes some health-sector employees gathering; it does not identify an organizer.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "The 2023 NHRC report describes an assembly by some health-sector workers on Jan 21 opposing Health Minister T. Munkhsaihan’s resignation. It gives no headcount.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unquantified group description; 50-person threshold not established",
+    "threshold_50_evidence": "No count or sufficiently clear attendance description establishes that at least 50 people assembled. Eligibility remains pending_threshold.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "MNG21JAN-S028"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "The NHRC 2023 report places a health-sector workers’ assembly on Jan 21."
+      },
+      "end_date": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "The report says a broader sequence ended when the Prime Minister submitted a resignation request, but does not state when these participants physically departed."
+      },
+      "location": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "The passage situates the assembly in the same Ulaanbaatar sequence but does not separately identify its venue."
+      },
+      "scope": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "Only a group of health-sector workers is identified; no national organization or other city is stated."
+      },
+      "organizer": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "The report names no organizer for the Jan 21 health-workers’ assembly."
+      },
+      "demands": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "The report says the health-sector workers gathered to oppose Health Minister T. Munkhsaihan’s resignation, a demand directed to state officeholders."
+      },
+      "participants_original": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "The NHRC describes “some” health-sector workers but provides no count."
+      },
+      "participants_min": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "No numeric lower bound is provided."
+      },
+      "participants_max": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "No numeric upper bound is provided."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "No point estimate is provided."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "The report’s qualitative “some health-sector workers” wording does not establish attendance of at least 50."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "The passage does not characterize violence at this Jan 21 assembly."
+      },
+      "state_response": {
+        "accommodation": {
+          "source_ids": [
+            "MNG21JAN-S028"
+          ],
+          "summary": "The report does not attribute a specific response in this Jan 21 assembly to the state."
+        },
+        "arrests": {
+          "source_ids": [
+            "MNG21JAN-S028"
+          ],
+          "summary": "The report does not attribute a specific response in this Jan 21 assembly to the state."
+        },
+        "beatings": {
+          "source_ids": [
+            "MNG21JAN-S028"
+          ],
+          "summary": "The report does not attribute a specific response in this Jan 21 assembly to the state."
+        },
+        "crowd_dispersal": {
+          "source_ids": [
+            "MNG21JAN-S028"
+          ],
+          "summary": "The report does not attribute a specific response in this Jan 21 assembly to the state."
+        },
+        "ignore": {
+          "source_ids": [
+            "MNG21JAN-S028"
+          ],
+          "summary": "The report does not attribute a specific response in this Jan 21 assembly to the state."
+        },
+        "killings": {
+          "source_ids": [
+            "MNG21JAN-S028"
+          ],
+          "summary": "The report does not attribute a specific response in this Jan 21 assembly to the state."
+        },
+        "shootings": {
+          "source_ids": [
+            "MNG21JAN-S028"
+          ],
+          "summary": "The report does not attribute a specific response in this Jan 21 assembly to the state."
+        }
+      },
+      "notes": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "Unresolved candidate for a Jan 21 assembly. It is distinguished from the Jan 20 demonstration because the reported participants and demand differ; the NHRC describes it as part of a broader sequence, so the episode boundary remains uncertain. No headcount establishes >=50, and the exact venue and physical departure are not stated."
+      },
+      "open_questions": {
+        "source_ids": [
+          "MNG21JAN-S028"
+        ],
+        "summary": "The report lacks a headcount and separate venue/departure details; its episode relation to the Jan 20 gathering is unclear."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "mongolia:2021-01-21:health-sector-workers-assembly-opposing-minister-resignation",
+    "notes": "Unresolved candidate for a Jan 21 assembly. It is distinguished from the Jan 20 demonstration because the reported participants and demand differ; the NHRC describes it as part of a broader sequence, so the episode boundary remains uncertain. No headcount establishes >=50, and the exact venue and physical departure are not stated.",
+    "open_questions": [
+      "Did at least 50 people assemble?",
+      "Was the assembly held at Sukhbaatar Square or another venue?",
+      "Was it a distinct event or a continuation/shift within the Jan 20 episode?",
+      "When did the participants physically depart?"
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "gap_id": "OMN202102-G001",
+    "type": "baseline",
+    "description": "The current official Mass Mobilization data/version, country universe, schema, cutoff, license conditions and any supplementary Coding Procedure remain unverified. The provisional ccode 698 is not an official validation. The May 2015 Clark–Regan manual is present in baseline/ and was consulted.",
+    "source_ids": [],
+    "affected_candidates": [
+      "OMN202102-E001"
+    ],
+    "required_followup": "Coordinator to verify the current official baseline and any supplemental coding procedure before compatibility or official integration decisions."
+  },
+  {
+    "gap_id": "OMN202102-G002",
+    "type": "search_method",
+    "description": "Ten logged English/Arabic open-web batched searches cover general terms, weekly dates, local/official outlets, Dhofar/Salalah land-use terms, labor leads and adjacent-period checks, but do not reproduce the original LexisNexis newspaper search or its expansion method. Search-result ordering, date filters and local archive coverage may be incomplete.",
+    "source_ids": [],
+    "affected_candidates": [
+      "OMN202102-E001"
+    ],
+    "required_followup": "Retain bounded-search wording; pursue accessible local archives and verify any new physical-action lead rather than treating search silence as no event."
+  },
+  {
+    "gap_id": "OMN202102-G003",
+    "type": "episode_unit",
+    "description": "Al Roya's 16 February opinion refers to sheikhs and local notables travelling to Muscat over Salalah Plain concerns but does not date a trip or establish whether this was a public group gathering. Monthly ownership cannot be assigned from publication date.",
+    "source_ids": [
+      "OMN202102_S002"
+    ],
+    "affected_candidates": [
+      "OMN202102-E001"
+    ],
+    "required_followup": "Find contemporaneous reporting or direct public records that date and describe any Muscat gathering and clarify whether it was an in-person public assembly."
+  },
+  {
+    "gap_id": "OMN202102-G004",
+    "type": "participants",
+    "description": "The Al Roya account provides no attendance figure for the reported trips and no evidence that 50 or more people assembled publicly.",
+    "source_ids": [
+      "OMN202102_S002"
+    ],
+    "affected_candidates": [
+      "OMN202102-E001"
+    ],
+    "required_followup": "Locate an event-specific account of the public assembly and a defensible attendance description; keep the threshold unresolved until then."
+  },
+  {
+    "gap_id": "OMN202102-G005",
+    "type": "state_target",
+    "description": "The column discusses state transfer of the Salalah Plain and unspecified grievances but does not attribute an exact demand to an assembled group. No protest action has been established.",
+    "source_ids": [
+      "OMN202102_S002",
+      "OMN202102_S001",
+      "OMN202102_S006"
+    ],
+    "affected_candidates": [
+      "OMN202102-E001"
+    ],
+    "required_followup": "Find a contemporaneous account or original statement identifying the group's specific demand and intended state target; do not infer it from policy context or online commentary."
+  },
+  {
+    "gap_id": "OMN202102-G006",
+    "type": "source_access",
+    "description": "The GCHR Arabic article about two Dhofar arrests and a third activist's court referral was not retrieved: the web tool returned Internal Error/Cache miss and exposed no HTTP status or body. This is a technical failure, not an observed site denial. Its search-result lead remains unverified in body scope.",
+    "source_ids": [
+      "OMN202102_S004"
+    ],
+    "affected_candidates": [
+      "OMN202102-X003"
+    ],
+    "required_followup": "If this report becomes material to episode review, perform a new exact-URL access check and contemporaneous publisher/origin review before any retry; no bypass."
+  },
+  {
+    "gap_id": "OMN202102-G007",
+    "type": "source_independence",
+    "description": "GCHR is the reporting source for Qatan and the Arabic arrest lead; ProtectDefenders explicitly says its partners received the al-Maashani/Bait Saeed information from GCHR. Freedom House is the author of the ecoi-hosted 2022 report. These materials do not constitute multiple independent contemporary accounts of an in-person gathering.",
+    "source_ids": [
+      "OMN202102_S003",
+      "OMN202102_S004",
+      "OMN202102_S005",
+      "OMN202102_S007"
+    ],
+    "affected_candidates": [
+      "OMN202102-E001",
+      "OMN202102-X002",
+      "OMN202102-X003"
+    ],
+    "required_followup": "Trace underlying source provenance and seek independent contemporaneous reporting before treating the rights-group reports as corroboration."
+  },
+  {
+    "gap_id": "OMN202102-G008",
+    "type": "language",
+    "description": "Arabic local and rights-group material was searched and some Arabic-language bodies were read, but no independent fluent Arabic-language review of translations and local archive coverage was completed.",
+    "source_ids": [
+      "OMN202102_S002",
+      "OMN202102_S004",
+      "OMN202102_S006"
+    ],
+    "affected_candidates": [
+      "OMN202102-E001",
+      "OMN202102-X003"
+    ],
+    "required_followup": "Have a fluent Arabic reviewer verify relevant terms, translation nuances, and any newly located local reporting."
+  },
+  {
+    "gap_id": "OMN202102-G009",
+    "type": "coverage",
+    "description": "Open-web searches surfaced later May 2021 unemployment/VAT protests and arrests through March, but no verified February gathering in the opened material. This is a bounded first-pass finding, not evidence that no protest occurred or that all Oman-wide coverage was exhausted.",
+    "source_ids": [
+      "OMN202102_S003",
+      "OMN202102_S005",
+      "OMN202102_S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue local, regional, rights-group and adjacent-period searches; keep onset dates distinct from publication and arrest dates."
+  }
+]

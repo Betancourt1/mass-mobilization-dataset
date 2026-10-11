@@ -1,0 +1,91 @@
+[
+  {
+    "gap_id": "liberia_2021-02-G001",
+    "type": "source_access",
+    "description": "The FrontPage Africa Jallah Town article and GNN follow-up remain search-only. Exact-URL web opens returned cache misses with no HTTP status or article body exposed; backend request chronology is unknown. Separate ordinary public HTTPS attempts failed DNS before HTTP. Event occurrence, physical date, details, threshold, state target, violence, response, and ending remain unresolved.",
+    "source_ids": [
+      "LBR202102-S001",
+      "LBR202102-S003"
+    ],
+    "affected_candidates": [
+      "liberia_2021-02-E001"
+    ],
+    "required_followup": "When fresh exact-URL receipts and complete matching publisher/origin reviews pass, seek accessible article bodies or other permitted contemporary evidence; do not treat technical failures as denials."
+  },
+  {
+    "gap_id": "liberia_2021-02-G002",
+    "type": "participants",
+    "description": "The Jallah Town search excerpts say “hundreds,” but the source bodies and estimate context could not be reviewed and the GNN excerpt substantially overlaps the FrontPage Africa excerpt. No independent evidence currently establishes a simultaneous crowd of 50 or more.",
+    "source_ids": [
+      "LBR202102-S001",
+      "LBR202102-S003"
+    ],
+    "affected_candidates": [
+      "liberia_2021-02-E001"
+    ],
+    "required_followup": "Verify the estimate in accessible contemporary reporting or primary records and establish whether the accounts are independent."
+  },
+  {
+    "gap_id": "liberia_2021-02-G003",
+    "type": "state_target",
+    "description": "The Jallah Town headlines/excerpts concern electricity supply but the exact demand, responsible body, and state-policy target have not been verified from article bodies.",
+    "source_ids": [
+      "LBR202102-S001",
+      "LBR202102-S003"
+    ],
+    "affected_candidates": [
+      "liberia_2021-02-E001"
+    ],
+    "required_followup": "Read an accessible body or independent contemporary account identifying the demand and its target before assigning a demand category."
+  },
+  {
+    "gap_id": "liberia_2021-02-G004",
+    "type": "source_access",
+    "description": "The Women Voices Newspaper report of a Public Workers Consortium press conference remains search-only after a web-tool cache miss with no HTTP status or article body exposed, followed by a DNS failure on ordinary public HTTPS. Backend request chronology for the cache miss is unknown. Its date, attendance, exact grievances, state target, and responses are unverified.",
+    "source_ids": [
+      "LBR202102-S002"
+    ],
+    "affected_candidates": [
+      "liberia_2021-02-E002"
+    ],
+    "required_followup": "Use a fresh exact-URL access receipt plus complete saved publisher/origin review and immediate input-hash check before any later body request; otherwise seek independent contemporary reporting."
+  },
+  {
+    "gap_id": "liberia_2021-02-G005",
+    "type": "episode_unit",
+    "description": "The announced Public Workers Consortium warning strikes are future actions in a search-only account; execution, timing, participant count, and continuity are not established.",
+    "source_ids": [
+      "LBR202102-S002"
+    ],
+    "affected_candidates": [
+      "liberia_2021-02-E002"
+    ],
+    "required_followup": "Search for contemporaneous follow-up evidence that any strike physically occurred in February, keeping the press conference separate from any executed action."
+  },
+  {
+    "gap_id": "liberia_2021-02-G006",
+    "type": "episode_unit",
+    "description": "Local Voices reports that Grand Kru health workers intended to remain for many days in December 2020, but no actual end date or evidence of continuation into February was found.",
+    "source_ids": [
+      "LBR202102-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check allowed later contemporary reports for physical continuation; do not infer it from the stated intent. Keep the reported December start outside February unless persistence is evidenced."
+  },
+  {
+    "gap_id": "liberia_2021-02-G007",
+    "type": "coverage",
+    "description": "This is a non-exhaustive English-language open-web first pass: seven captured search actions with 164 ordered result headers. No systematic local-language, county/radio, newspaper-archive, or LexisNexis coverage is established, and search silence is not evidence of no events.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with local-language and regional/archive sources and document their coverage; keep the official baseline and independent review gates separate."
+  },
+  {
+    "gap_id": "liberia_2021-02-G008",
+    "type": "baseline",
+    "description": "The current official Mass Mobilization source version, universe, scheme, and applicable coding procedure remain pending at the project baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator verifies the official baseline and applicable coding procedure before compatibility or export decisions."
+  }
+]

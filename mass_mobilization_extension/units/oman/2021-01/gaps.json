@@ -1,0 +1,75 @@
+[
+  {
+    "gap_id": "OMN202101-G001",
+    "type": "baseline",
+    "description": "Current official Mass Mobilization bytes, schema, country universe, coverage cutoff and any additional Coding Procedure remain unverified; provisional ccode 698 is not an official validation.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to verify the current official baseline and supplemental Coding Procedure before compatibility or official integration decisions."
+  },
+  {
+    "gap_id": "OMN202101-G002",
+    "type": "search_method",
+    "description": "Open-web discovery is not equivalent to the original LexisNexis newspaper search and expansion procedure.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use available public sources and retain this coverage limitation; do not infer absence from web-search silence."
+  },
+  {
+    "gap_id": "OMN202101-G003",
+    "type": "language",
+    "description": "Arabic-script discovery covered general Oman-month protest terms; Oman Observer, Times of Oman, Muscat Daily, Al Shabiba, Al Roya, Al Watan and Oman News Agency; regional terms for Muscat, Sohar and Salalah; and worker-sector terms. Results were often dominated by May 2021 protests, old protest history, administrative labour reports or COVID notices. A generic عمان query also returned Jordan coverage, requiring the country-specific سلطنة عمان wording. No complete Arabic newspaper/archive review or fluent local review was performed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "A fluent reviewer should search January 2021 local archives and social-sector reporting directly, using protest/march/sit-in/strike variants and country/place spellings in Arabic. Do not treat the current search as exhaustive."
+  },
+  {
+    "gap_id": "OMN202101-G004",
+    "type": "source_access",
+    "description": "The Times of Oman RSS labor-report URL and mobile COVID-notice URL produced web-open cache misses. One ordinary HTTPS attempt to the RSS URL failed DNS before any HTTP response; no site denial was observed. Al Shabiba pages S039, S041 and S043 also returned web-open cache misses; one normal HTTPS attempt to S039 failed DNS before any HTTP response. No site-level denial was observed.",
+    "source_ids": [
+      "OMN202101-S030",
+      "OMN202101-S032",
+      "OMN202101-S039",
+      "OMN202101-S041",
+      "OMN202101-S043"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If the exact pages become accessible in the normal open-web environment, inspect them. The canonical Oman Observer labor report S029 and the Ministry of Interior notice S013 were opened; do not treat inaccessible variants as independent sources. One ordinary request to the affected Shabiba URL also failed before reaching a server; retry only if normal network access becomes available."
+  },
+  {
+    "gap_id": "OMN202101-G005",
+    "type": "source_independence",
+    "description": "GFoW worker-complaint and settlement figures appear in Oman Observer S029, Times of Oman S030 and S049, Al Shabiba S039 and S040, and Al Roya S044. They quote or summarize the same federation data stream and do not constitute independent protest reports.",
+    "source_ids": [
+      "OMN202101-S029",
+      "OMN202101-S030",
+      "OMN202101-S039",
+      "OMN202101-S040",
+      "OMN202101-S044",
+      "OMN202101-S049"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Treat the worker-complaint reports as one Federation-origin information trail unless original documents establish distinct independent sourcing. They do not describe a public gathering."
+  },
+  {
+    "gap_id": "OMN202101-G006",
+    "type": "source_access",
+    "description": "The Oman Daily archive search result surfaced a 4 January 2021 PDF last page, but web open turn3858view0 failed with a 400 timeout before returning document content. The public-archive result does not establish the contents of the rest of that issue or other archived issues.",
+    "source_ids": [
+      "OMN202101-S047"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If the public archive page becomes normally accessible, inspect the actual newspaper pages; do not treat the failed open or search extract as full-issue coverage."
+  },
+  {
+    "gap_id": "OMN202101-G007",
+    "type": "search_capture",
+    "description": "The web-search response was truncated for Q019 and Q020. Returned URLs visible in the captured tool output were saved, and the logs identify the truncation; any hidden result cards were not reconstructed. Search-engine output length and query ranking limit what can be assessed from those two responses.",
+    "source_ids": [
+      "OMN202101-S048"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If broader official coverage is required, rerun narrower ordinary public searches by date and outlet and preserve the complete returned result identities."
+  }
+]

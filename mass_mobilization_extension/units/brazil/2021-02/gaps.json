@@ -1,0 +1,153 @@
+[
+  {
+    "gap_id": "brazil_2021-02_G001",
+    "type": "threshold",
+    "description": "All four body-confirmed February candidates lack a person turnout count or clear qualitative evidence sufficient to establish at least 50 participants. Vehicle totals, workforce totals, and occupational group sizes are not attendee counts.",
+    "source_ids": [
+      "brazil_2021-02_S015",
+      "brazil_2021-02_S021",
+      "brazil_2021-02_S026",
+      "brazil_2021-02_S034"
+    ],
+    "affected_candidates": [
+      "brazil_2021-02_E001",
+      "brazil_2021-02_E002",
+      "brazil_2021-02_E003",
+      "brazil_2021-02_E004"
+    ],
+    "required_followup": "Locate independent contemporaneous accounts or primary records with human attendance and clarify local versus multi-site counts."
+  },
+  {
+    "gap_id": "brazil_2021-02_G002",
+    "type": "unit_boundary",
+    "description": "The CUT account of 20 February summarizes actions across five regions without establishing a common event boundary; the Juntos! account describes varied local student activities on 25 February, with no common local coordination or attendance data.",
+    "source_ids": [
+      "brazil_2021-02_S021",
+      "brazil_2021-02_S026"
+    ],
+    "affected_candidates": [
+      "brazil_2021-02_E002",
+      "brazil_2021-02_E003"
+    ],
+    "required_followup": "Coordinator review of national versus local event coding; do not split or merge by city from the present evidence."
+  },
+  {
+    "gap_id": "brazil_2021-02_G003",
+    "type": "end_date",
+    "description": "No body-reviewed source establishes a physical end for any of the four February candidates. CUT’s planned 21 February schedule is not evidence that events occurred, continued, or ended on that date.",
+    "source_ids": [
+      "brazil_2021-02_S015",
+      "brazil_2021-02_S021",
+      "brazil_2021-02_S026",
+      "brazil_2021-02_S034"
+    ],
+    "affected_candidates": [
+      "brazil_2021-02_E001",
+      "brazil_2021-02_E002",
+      "brazil_2021-02_E003",
+      "brazil_2021-02_E004"
+    ],
+    "required_followup": "Search event-specific contemporaneous reporting for physical closure; retain null end dates until supported."
+  },
+  {
+    "gap_id": "brazil_2021-02_G004",
+    "type": "event_specific_response",
+    "description": "Read reports do not establish protester violence or event-specific accommodation, arrests, beatings, crowd dispersal, ignoring, killings, or shootings for the February candidates. Silence is coded unknown.",
+    "source_ids": [
+      "brazil_2021-02_S015",
+      "brazil_2021-02_S021",
+      "brazil_2021-02_S026",
+      "brazil_2021-02_S034"
+    ],
+    "affected_candidates": [
+      "brazil_2021-02_E001",
+      "brazil_2021-02_E002",
+      "brazil_2021-02_E003",
+      "brazil_2021-02_E004"
+    ],
+    "required_followup": "Seek event-specific accounts; do not transfer general campaign, city, or background policing claims."
+  },
+  {
+    "gap_id": "brazil_2021-02_G005",
+    "type": "access",
+    "description": "Several relevant exact-URL body requests stopped without article content: S018 returned HTTP 402, S022 HTTP 403, and S038 HTTP 401. These are recorded as blocked and were not retried or bypassed. Other attempts had cache-miss/DNS technical failures, which are not treated as denials.",
+    "source_ids": [
+      "brazil_2021-02_S013",
+      "brazil_2021-02_S017",
+      "brazil_2021-02_S018",
+      "brazil_2021-02_S022",
+      "brazil_2021-02_S023",
+      "brazil_2021-02_S029",
+      "brazil_2021-02_S032",
+      "brazil_2021-02_S033",
+      "brazil_2021-02_S038"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use only a newly checked permitted source or independent source; do not retry URLs with actual denial evidence."
+  },
+  {
+    "gap_id": "brazil_2021-02_G006",
+    "type": "event_lead",
+    "description": "February 1 truck-driver strike/protests, including reported road gatherings in the Northeast, remain unverified from body evidence; search-result headlines are discovery only.",
+    "source_ids": [
+      "brazil_2021-02_S009",
+      "brazil_2021-02_S010",
+      "brazil_2021-02_S011",
+      "brazil_2021-02_S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek an accessible contemporary account of actual public gatherings, state-directed demands and human attendance; distinguish workers who stopped work from protest participants."
+  },
+  {
+    "gap_id": "brazil_2021-02_G007",
+    "type": "event_lead",
+    "description": "The exact date and execution of reports about Indigenous actions at the Funai headquarters remain unverified. S038’s exact URL returned HTTP 401; S039–S041 have no body-read evidence.",
+    "source_ids": [
+      "brazil_2021-02_S038",
+      "brazil_2021-02_S039",
+      "brazil_2021-02_S040",
+      "brazil_2021-02_S041"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use an independently accessible contemporary source; do not transfer date, attendance, or response details from titles/snippets."
+  },
+  {
+    "gap_id": "brazil_2021-02_G008",
+    "type": "event_lead",
+    "description": "Additional teacher, public-service and health-worker strike/protest leads from search remain unverified as public gatherings meeting unit criteria.",
+    "source_ids": [
+      "brazil_2021-02_S027",
+      "brazil_2021-02_S028",
+      "brazil_2021-02_S029",
+      "brazil_2021-02_S030",
+      "brazil_2021-02_S032",
+      "brazil_2021-02_S033",
+      "brazil_2021-02_S035",
+      "brazil_2021-02_S036",
+      "brazil_2021-02_S037"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify actual execution, date, public gathering, government/policy target, and human attendance before creating candidates."
+  },
+  {
+    "gap_id": "brazil_2021-02_G009",
+    "type": "cross_month",
+    "description": "An opened February 1 publication reports car/bicycle actions that occurred 31 January, and no opened February body proves those same actions continued into this month. The 20 February CUT report is a later, separately dated mobilization with its own organizers and demands.",
+    "source_ids": [
+      "brazil_2021-02_S001",
+      "brazil_2021-02_S021"
+    ],
+    "affected_candidates": [
+      "brazil_2021-02_E002"
+    ],
+    "required_followup": "Compare episode identity only if new source evidence connects the February 20 campaign to the January 31 episode; do not infer continuity from similar demands."
+  },
+  {
+    "gap_id": "brazil_2021-02_G010",
+    "type": "coverage",
+    "description": "Searches covered 31 captured queries (867 returned headers), English and Portuguese terms, weekly/month-boundary windows, nationwide/local sectors and retrospective reporting. This bounded open-web pass does not establish absence or completeness; snippets are discovery only and the original Mass Mobilization codebook/baseline were not available in the worker unit. LexisNexis/news archives and full source-corpus coverage were not verified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review against the official baseline and codebook; additional archival search is needed for completeness and unresolved leads."
+  }
+]

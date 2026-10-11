@@ -1,0 +1,33 @@
+{
+  "unit_id": "ireland_2021-02",
+  "country": "Ireland",
+  "month": "2021-02",
+  "agent_task": "/root/ireland_2021_02_batch57",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T12:24:31.044000+00:00",
+  "finished_at": "2026-10-10T12:44:34.669+00:00",
+  "n_queries": 7,
+  "n_sources": 18,
+  "n_candidates": 1,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 8,
+  "coverage_assessment": "Seven actual batched web-search actions (28 query strings; 239 ordered headers) across Ireland-wide, regional, city, labor, Covid, date-window and Irish-language terms; 2 source bodies read. Date filters returned unrelated/current results and cannot support absence. Coverage remains incomplete, with explicit access, threshold, demand, continuity and response gaps.",
+  "baseline_gate": "pending_official_baseline",
+  "query_capture_integrity": {
+    "captured_header_count": 239,
+    "registered_rollout_action_count": 7,
+    "all_actions_headers_and_clocks_match": true,
+    "manifest_path": "capture-history/search_capture_manifest.json",
+    "manifest_sha256": "861c2f55d96a3e45e0fe0a7f76cae0ece693fabe3352e7c2b017dcd44857d8fb",
+    "verification": "Every actual search action in the registered rollout was compared by event ID, action object, query batch, ordered headers, URLs, clocks and extractor hash against search_log.jsonl."
+  },
+  "receipt_manifest_path": "access_receipts/manifest.json",
+  "receipt_manifest_sha256": "adb455ed569da48bfa761d9cde73bd7d4484b9d940265191ef1f65234a2658e4",
+  "access_evidence_counts": {
+    "receipts": 5,
+    "manual_review_notes": 4,
+    "body_read_outcomes": 2,
+    "body_requests_returned_and_read": 2
+  }
+}

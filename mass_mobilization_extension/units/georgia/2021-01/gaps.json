@@ -1,0 +1,459 @@
+[
+  {
+    "gap_id": "GEO202101-G001",
+    "type": "coverage",
+    "description": "Open web: 71 actual queries across generic and overlapping weekly/date windows, Georgian/English/Russian regional and sector searches, is not LexisNexis-equivalent or exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use accessible contemporary archives and native-language review; never generate protest=0 from missing results."
+  },
+  {
+    "gap_id": "GEO202101-G002",
+    "type": "date_filters",
+    "description": "Date operators returned many later 2024–2026, US-state and unrelated items. Body dates controlled coding.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Validate each event date in the actual source and retain contamination screening."
+  },
+  {
+    "gap_id": "GEO202101-G003",
+    "type": "baseline_gate",
+    "description": "Official baseline bytes, latest schema, country universe and detailed episode procedure remain unverified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator resolves baseline/compatibility before official IDs, integration or export."
+  },
+  {
+    "gap_id": "GEO202101-G004",
+    "type": "language",
+    "description": "Georgian written passages and Russian originals were read with stated scope; native independent human linguistic review remains pending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GEO202101-E001",
+      "GEO202101-E002",
+      "GEO202101-E003",
+      "GEO202101-E004",
+      "GEO202101-E005",
+      "GEO202101-E006",
+      "GEO202101-E007",
+      "GEO202101-E008",
+      "GEO202101-E009",
+      "GEO202101-E010",
+      "GEO202101-E011",
+      "GEO202101-E012",
+      "GEO202101-E013",
+      "GEO202101-E014",
+      "GEO202101-E015",
+      "GEO202101-E016",
+      "GEO202101-E017",
+      "GEO202101-E018",
+      "GEO202101-E019",
+      "GEO202101-E020",
+      "GEO202101-E021",
+      "GEO202101-E022",
+      "GEO202101-E023",
+      "GEO202101-E024"
+    ],
+    "required_followup": "Review relevant Georgian text, figures and translation in original context."
+  },
+  {
+    "gap_id": "GEO202101-G005",
+    "type": "source_dependence",
+    "description": "Sputnik relays 1TV; News Georgia relays Rustavi 2; Publika reproduces EMC. Mirrors, timelines and syndications are not independent corroborations.",
+    "source_ids": [
+      "GEO202101-S262",
+      "GEO202101-S112",
+      "GEO202101-S140"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Recover original reports/statements and record agency relationships."
+  },
+  {
+    "gap_id": "GEO202101-G006",
+    "type": "access",
+    "description": "TV25 and UrduPoint returned actual HTTP 403; ACT2 certificate validation failed; oldCivil/Atinati domains failedDNS. These were respected.",
+    "source_ids": [
+      "GEO202101-S075",
+      "GEO202101-S160",
+      "GEO202101-S173",
+      "GEO202101-S202",
+      "GEO202101-S208"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use publicly accessible legitimate originals or alternate independent reporting, without bypassing access controls."
+  },
+  {
+    "gap_id": "GEO202101-G007",
+    "type": "territorial_scope",
+    "description": "Tskhinvali/South Ossetia de-facto-government protest requires explicit jurisdiction and own-state mapping under the original universe.",
+    "source_ids": [
+      "GEO202101-S152"
+    ],
+    "affected_candidates": [
+      "GEO202101-C003"
+    ],
+    "required_followup": "Resolve geographic/state-target treatment before inclusion; no automatic foreign or domestic label."
+  },
+  {
+    "gap_id": "GEO202101-G008",
+    "type": "positive_regional_leads",
+    "description": "Anaklia port protest and Zugdidi tent; Jan 12 Batumi Sharabidze-family planned protest/police road closure appear in discovery, but actual public assembly, attendance of 50, state demand and onset remain unresolved.",
+    "source_ids": [
+      "GEO202101-S202",
+      "GEO202101-S293"
+    ],
+    "affected_candidates": [
+      "GEO202101-E022"
+    ],
+    "required_followup": "Retrieve current-domain Atinati original and Batumelebi Jan 12 original; distinguish prevention/announcement from occurrence and armed incident from public protest."
+  },
+  {
+    "gap_id": "GEO202101-G009",
+    "type": "boundary",
+    "description": "Earlier 2020 restriction/political-prisoner campaigns, Batumi camp and Rioni vigil; February 6/7 later actions were checked through discovery and retrospective timelines. Similar demands do not establish physical continuity.",
+    "source_ids": [
+      "GEO202101-S300",
+      "GEO202101-S287",
+      "GEO202101-S264",
+      "GEO202101-S188"
+    ],
+    "affected_candidates": [
+      "GEO202101-C001",
+      "GEO202101-C002",
+      "GEO202101-C003",
+      "GEO202101-C004"
+    ],
+    "required_followup": "Follow first/last physical reports and missing detailed procedure; no calendar-month split."
+  },
+  {
+    "gap_id": "GEO202101-G010",
+    "type": "candidate_uncertainty",
+    "description": "January 24 Chancellery rally against extended restrictions: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S008",
+      "GEO202101-S002"
+    ],
+    "affected_candidates": [
+      "GEO202101-E001"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G011",
+    "type": "candidate_uncertainty",
+    "description": "January 24 curfew-defiance march: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S008",
+      "GEO202101-S005",
+      "GEO202101-S299"
+    ],
+    "affected_candidates": [
+      "GEO202101-E002"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G012",
+    "type": "candidate_uncertainty",
+    "description": "Mziuri parents demand reopening plan: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S192"
+    ],
+    "affected_candidates": [
+      "GEO202101-E003"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G013",
+    "type": "candidate_uncertainty",
+    "description": "Greens transport and curfew protest January 25: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S008"
+    ],
+    "affected_candidates": [
+      "GEO202101-E004"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G014",
+    "type": "candidate_uncertainty",
+    "description": "United Youth for Georgia canned-country performance: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S008"
+    ],
+    "affected_candidates": [
+      "GEO202101-E005"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G015",
+    "type": "candidate_uncertainty",
+    "description": "Dance schools demand reopening: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S008"
+    ],
+    "affected_candidates": [
+      "GEO202101-E006"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G016",
+    "type": "candidate_uncertainty",
+    "description": "Chancellery renewed restrictions rally January 26: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S001",
+      "GEO202101-S003"
+    ],
+    "affected_candidates": [
+      "GEO202101-E007"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G017",
+    "type": "candidate_uncertainty",
+    "description": "Gldani market traders restrictions protest: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S001"
+    ],
+    "affected_candidates": [
+      "GEO202101-E008"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G018",
+    "type": "candidate_uncertainty",
+    "description": "Kutaisi early-election tent and city-hall rally: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S077"
+    ],
+    "affected_candidates": [
+      "GEO202101-E009"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G019",
+    "type": "candidate_uncertainty",
+    "description": "Kutaisi traders demand municipal transport: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S193"
+    ],
+    "affected_candidates": [
+      "GEO202101-E010"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G020",
+    "type": "candidate_uncertainty",
+    "description": "Disability social-package rally and letter delivery: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S177"
+    ],
+    "affected_candidates": [
+      "GEO202101-E011"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G021",
+    "type": "candidate_uncertainty",
+    "description": "Open the country tourism and service-sector rally: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S276",
+      "GEO202101-S167",
+      "GEO202101-S298"
+    ],
+    "affected_candidates": [
+      "GEO202101-E012"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G022",
+    "type": "candidate_uncertainty",
+    "description": "Greens transport for all January 31 rally: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S253",
+      "GEO202101-S298"
+    ],
+    "affected_candidates": [
+      "GEO202101-E013"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G023",
+    "type": "candidate_uncertainty",
+    "description": "Kutaisi economy-in-a-cage performance: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S188",
+      "GEO202101-S297"
+    ],
+    "affected_candidates": [
+      "GEO202101-E014"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G024",
+    "type": "candidate_uncertainty",
+    "description": "Kutaisi January 8 public amnesty rally: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S262",
+      "GEO202101-S120"
+    ],
+    "affected_candidates": [
+      "GEO202101-E015"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G025",
+    "type": "occurrence_access",
+    "description": "Kutaisi January 10 renewed amnesty rally: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S160"
+    ],
+    "affected_candidates": [
+      "GEO202101-E016"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G026",
+    "type": "occurrence_access",
+    "description": "Protest outside ruling-party conference: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S208"
+    ],
+    "affected_candidates": [
+      "GEO202101-E017"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G027",
+    "type": "candidate_uncertainty",
+    "description": "Batumi boulevard development protest: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S112",
+      "GEO202101-S194",
+      "GEO202101-S288"
+    ],
+    "affected_candidates": [
+      "GEO202101-E018"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G028",
+    "type": "candidate_uncertainty",
+    "description": "Batumi police-station Pangani release protest: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S112",
+      "GEO202101-S288"
+    ],
+    "affected_candidates": [
+      "GEO202101-E019"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G029",
+    "type": "occurrence_access",
+    "description": "Cartographers courthouse solidarity rally: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S114"
+    ],
+    "affected_candidates": [
+      "GEO202101-E020"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G030",
+    "type": "candidate_uncertainty",
+    "description": "Duisi Pankisi public amnesty protest: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S262"
+    ],
+    "affected_candidates": [
+      "GEO202101-E021"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G031",
+    "type": "occurrence_access",
+    "description": "Anaklia port-project stoppage protest: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S202"
+    ],
+    "affected_candidates": [
+      "GEO202101-E022"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G032",
+    "type": "candidate_uncertainty",
+    "description": "Tbilisi January 8 political-prisoner release rally: Verify >=50 actual participants, physical closure and campaign/day/phase relationship using missing original detailed coding procedure. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S262"
+    ],
+    "affected_candidates": [
+      "GEO202101-E023"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G033",
+    "type": "candidate_uncertainty",
+    "description": "Glovo couriers wage and working-conditions rally: Verify whether the assembly itself demanded state action, rather than EMC separately doing so; inspect the original EMC statement and lower attendance estimates. Physical closure and all unspecified responses remain open.",
+    "source_ids": [
+      "GEO202101-S263",
+      "GEO202101-S140"
+    ],
+    "affected_candidates": [
+      "GEO202101-E024"
+    ],
+    "required_followup": "Review source bodies, attendance and exact action/group/phase identity; preserve unknowns and raw evidence."
+  },
+  {
+    "gap_id": "GEO202101-G034",
+    "type": "glovo_target",
+    "description": "EMC's separate state-inspection demand does not automatically establish the couriers' own-state demand, despite >100attendance.",
+    "source_ids": [
+      "GEO202101-S263",
+      "GEO202101-S140"
+    ],
+    "affected_candidates": [
+      "GEO202101-E024"
+    ],
+    "required_followup": "Recover original EMC statement and assembly speeches/placards to resolve state-policy target."
+  },
+  {
+    "gap_id": "GEO202101-G035",
+    "type": "response_scope",
+    "description": "Jan 24 Batumi release-rally phase explicitly had no arrests and ended21:00, while January 25renewed. Rioni Jan 30tent removal is a clearing phase. Gldani patrol resistance is ambiguous.",
+    "source_ids": [
+      "GEO202101-S288",
+      "GEO202101-S112",
+      "GEO202101-S264",
+      "GEO202101-S001"
+    ],
+    "affected_candidates": [
+      "GEO202101-E019",
+      "GEO202101-E008",
+      "GEO202101-C001"
+    ],
+    "required_followup": "Keep phase-specific evidence separate from whole-episode closure/arrests; manual 229–232requires any move/breakup attempt, not successful removal."
+  }
+]

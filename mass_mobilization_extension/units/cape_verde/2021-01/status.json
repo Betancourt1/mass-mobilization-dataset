@@ -1,0 +1,29 @@
+{
+  "unit_id": "cape_verde_2021-01",
+  "country": "Cape Verde",
+  "month": "2021-01",
+  "agent_task": "/root/cape_verde_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08 08:16:04 UTC",
+  "finished_at": "2026-10-08 08:26:33 UTC",
+  "n_queries": 51,
+  "n_sources": 38,
+  "n_candidates": 2,
+  "n_excluded": 9,
+  "n_continuations": 0,
+  "n_gaps": 12,
+  "coverage_assessment": "First open-web pass with English/Portuguese, Kriolu probes, weekly windows, labor/education/health/police/fisheries/transport/culture/gender and island searches. Two January physical gatherings found, both pending episode review; cultural threshold unverified. No exhaustive coverage or absence inference. Date filters unreliable; several sources search-only/blocked. No earlier continuous physical start established.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources_started": [
+    {
+      "resource": "Foreground public HTTPS reader93798",
+      "status": "exited0_verified"
+    },
+    {
+      "resource": "Foreground public HTTPS reader68680",
+      "status": "exited0_verified"
+    }
+  ],
+  "temporary_resources_remaining": [],
+  "next_action": "Coordinator read-only review and independent audit of frozen unit before batch commit; resolve campaign boundaries, cultural attendance, endings and source-access gaps."
+}

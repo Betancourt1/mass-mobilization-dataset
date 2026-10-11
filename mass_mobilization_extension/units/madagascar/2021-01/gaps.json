@@ -1,0 +1,189 @@
+[
+  {
+    "gap_id": "MAD202101-G001",
+    "type": "baseline",
+    "description": "Official current baseline, complete coding procedure, universe and authoritative ccode mapping remain unresolved; ccode 580 is provisional.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MAD202101-E001",
+      "MAD202101-E002",
+      "MAD202101-E003",
+      "MAD202101-E004"
+    ],
+    "required_followup": "Coordinator resolves official baseline/procedure and country code before any integration."
+  },
+  {
+    "gap_id": "MAD202101-G002",
+    "type": "participants",
+    "description": "No event-specific attendee estimate for ENS/ENSET, medical-student or Jan25 Antsiranana gatherings; 50-person threshold cannot be asserted.",
+    "source_ids": [
+      "MAD202101-S001",
+      "MAD202101-S005",
+      "MAD202101-S008",
+      "MAD202101-S016"
+    ],
+    "affected_candidates": [
+      "MAD202101-E001",
+      "MAD202101-E002",
+      "MAD202101-E003"
+    ],
+    "required_followup": "Search contemporary local broadcast, campus, association and police reporting for event-specific counts; never substitute affected students or arrests."
+  },
+  {
+    "gap_id": "MAD202101-G003",
+    "type": "episode_unit",
+    "description": "ENS Jan6 Antananarivo and Jan7 Antsiranana share a recruitment grievance, but cross-campus coordination and one event versus local episodes remain unresolved; Nov2020 alumni protest is not shown physically continuous.",
+    "source_ids": [
+      "MAD202101-S001",
+      "MAD202101-S002",
+      "MAD202101-S005",
+      "MAD202101-S006"
+    ],
+    "affected_candidates": [
+      "MAD202101-E001"
+    ],
+    "required_followup": "Compare branch announcements/contemporary records; retain provisional linkage and do not reuse November affected-person count."
+  },
+  {
+    "gap_id": "MAD202101-G004",
+    "type": "dates",
+    "description": "dates: ENS suspension was reported by Jan10 but physical end is unverified; medical-student Jan21 action was announced but its occurrence/date are not established by opened sources, and the blocked Jan22 snippet is undated; Jan25 Antsiranana physical end and January-February continuity are unresolved.",
+    "source_ids": [
+      "MAD202101-S004",
+      "MAD202101-S007",
+      "MAD202101-S008",
+      "MAD202101-S012"
+    ],
+    "affected_candidates": [
+      "MAD202101-E001",
+      "MAD202101-E002"
+    ],
+    "required_followup": "Find opened contemporary evidence establishing whether/when the Jan21 medical-student gathering occurred, and follow ENS/ENSET, medical-student and Antsiranana campus activity to a supported physical end or later-month owner."
+  },
+  {
+    "gap_id": "MAD202101-G006",
+    "type": "state_response",
+    "description": "state_response: LINFO retrospectively attributes tear gas and warning shots to security forces during its account of the Jan25 Antsiranana clashes; La Tribune does not identify a shooter. Arrest/detention totals vary by date and status: ten apprehended Jan25 and nine remanded Feb1 (five students/four others) versus six students and one teacher held since Jan25.",
+    "source_ids": [
+      "MAD202101-S016",
+      "MAD202101-S022"
+    ],
+    "affected_candidates": [
+      "MAD202101-E003"
+    ],
+    "required_followup": "Compare the full contemporaneous accounts and chronology; preserve LINFO attribution for warning shots and distinguish Jan25 apprehension from later remand/detention counts."
+  },
+  {
+    "gap_id": "MAD202101-G007",
+    "type": "source_access",
+    "description": "source_access: some 2424/Tribune pages returned Cache miss on direct open; the Malagasy News Jan22 medical-student page showed anti-bot challenge, and the Feb8 ENS ultimatum article returned Cache miss. The latter’s ordinary HTTPS retry failed at DNS resolution; only the search-result excerpt is available.",
+    "source_ids": [
+      "MAD202101-S009",
+      "MAD202101-S015",
+      "MAD202101-S017",
+      "MAD202101-S021",
+      "MAD202101-S034"
+    ],
+    "affected_candidates": [
+      "MAD202101-E001",
+      "MAD202101-E002"
+    ],
+    "required_followup": "Access the full Malagasy News Jan22 medical-student report and Feb8 ENS ultimatum article through ordinary public access, or find independently opened contemporary reporting; do not treat snippets as full-text verification."
+  },
+  {
+    "gap_id": "MAD202101-G008",
+    "type": "source_independence",
+    "description": "Some details repeat within the same publishers; the Le Journal Africa item is an RFI republication, not independent confirmation.",
+    "source_ids": [
+      "MAD202101-S001",
+      "MAD202101-S005",
+      "MAD202101-S011",
+      "MAD202101-S018",
+      "MAD202101-S021"
+    ],
+    "affected_candidates": [
+      "MAD202101-E001",
+      "MAD202101-E004"
+    ],
+    "required_followup": "Seek separately reported contemporary coverage and preserve agency/publisher provenance."
+  },
+  {
+    "gap_id": "MAD202101-G009",
+    "type": "language",
+    "description": "French, English and Malagasy search terms were used, but no fluent Malagasy review was conducted; regional language archives are incomplete.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MAD202101-E001",
+      "MAD202101-E002",
+      "MAD202101-E003",
+      "MAD202101-E004"
+    ],
+    "required_followup": "Have a fluent reviewer search Malagasy-language news, radio, regional and campus archives."
+  },
+  {
+    "gap_id": "MAD202101-G010",
+    "type": "coverage",
+    "description": "Open-web first pass reached selected national/regional outlets, student/worker sectors and Antananarivo/Antsiranana leads; it did not review systematic print/radio archives or all regions.",
+    "source_ids": [
+      "MAD202101-S001",
+      "MAD202101-S010",
+      "MAD202101-S016"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Expand regional and audiovisual coverage; this pass makes no absence claim."
+  },
+  {
+    "gap_id": "MAD202101-G011",
+    "type": "search_method",
+    "description": "search_method: 56 literal queries ran in 14 pooled four-query web calls. Tool did not expose result totals or per-query URL mapping; logs preserve exact queries and this limitation.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Record per-query mappings only if future interface exposes them; do not reconstruct them now."
+  },
+  {
+    "gap_id": "MAD202101-G012",
+    "type": "contested_evidence",
+    "description": "contested_evidence: Jan25 La Tribune attributes rock/brick throwing to a security-force account; no independent account was located. February medical-student leaders reportedly disputed intent to demonstrate and alleged infiltration.",
+    "source_ids": [
+      "MAD202101-S015",
+      "MAD202101-S016",
+      "MAD202101-S022"
+    ],
+    "affected_candidates": [
+      "MAD202101-E002",
+      "MAD202101-E003"
+    ],
+    "required_followup": "Keep claims attributed; seek independent reports before altering violence, intent or response coding."
+  },
+  {
+    "gap_id": "MAD202101-G013",
+    "type": "contested_evidence",
+    "description": "Antsiranana arrest/detention totals differ across sources and dates/statuses: ten apprehended Jan25 and nine remanded Feb1 (five students/four others) in La Tribune; six students and one teacher detained since Jan25 in LINFO. Do not collapse these into one count.",
+    "source_ids": [
+      "MAD202101-S016",
+      "MAD202101-S022"
+    ],
+    "affected_candidates": [
+      "MAD202101-E003"
+    ],
+    "required_followup": "Seek dated court/police or independently reported records to distinguish apprehensions from persons later held/remanded."
+  },
+  {
+    "gap_id": "MAD202101-G014",
+    "type": "episode_unit",
+    "description": "February Toamasina scholarship protest and February Antsiranana/Ankatso actions are later, separately dated episodes; shared student grievances do not establish one continuous January event. Out-of-month opposition meeting attempt is also a separate February lead.",
+    "source_ids": [
+      "MAD202101-S014",
+      "MAD202101-S019",
+      "MAD202101-S022",
+      "MAD202101-S025",
+      "MAD202101-S026",
+      "MAD202101-S030"
+    ],
+    "affected_candidates": [
+      "MAD202101-E002",
+      "MAD202101-E003"
+    ],
+    "required_followup": "Coordinate with February owner on exact event dates and avoid backdating deaths, arrests, crowd sizes, or response to January."
+  }
+]

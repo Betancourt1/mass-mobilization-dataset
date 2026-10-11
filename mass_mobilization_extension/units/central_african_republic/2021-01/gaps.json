@@ -1,0 +1,187 @@
+[
+  {
+    "gap_id": "CAR202101-G001",
+    "type": "baseline",
+    "description": "Official original universe/schema/country code/licence/cutoff remain unverified; ccode482 is provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator must resolve official baseline gate before any integration."
+  },
+  {
+    "gap_id": "CAR202101-G002",
+    "type": "search_method_coverage",
+    "description": "Open-web first pass is not systematic LexisNexis replication or exhaustive coverage. Four weekly date-filter searches returned wrong-year results; zero retained URLs do not establish absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Repeat weekly archive searches where accessible; distinguish query failure from no event."
+  },
+  {
+    "gap_id": "CAR202101-G003",
+    "type": "language_coverage",
+    "description": "English/French and Sango/local-language probes (Bêafrîka, Ködörösêse tî Bêafrîka, siriri, Sango) produced limited relevant local text; no claim of Sango fluency or radio/audio archive coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use qualified language review and accessible local radio archives."
+  },
+  {
+    "gap_id": "CAR202101-G004",
+    "type": "coverage",
+    "description": "Probes included labour/wages/health/teachers/students, land/farm/prices/traders, water/electricity, security, provinces Bouar/Bambari/Bria/Bangassou/Berberati/Boda/Mbaïki/Ndélé/Paoua/Bossangoa/Kaga-Bandoro. Retrieval favours capital/conflict reporting and cannot establish sector/province absence.",
+    "source_ids": [
+      "CAR202101-S007",
+      "CAR202101-S026",
+      "CAR202101-S027",
+      "CAR202101-S056"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Target provincial and sector archives with exact historical dates."
+  },
+  {
+    "gap_id": "CAR202101-G005",
+    "type": "episode_unit_state_target",
+    "description": "30January substantive anti-dialogue demand coexists with pro-state/anti-rebel framing;3February search report claims another action. Own-state target, rally exclusion and new-day episode decision need independent review.",
+    "source_ids": [
+      "CAR202101-S002",
+      "CAR202101-S039"
+    ],
+    "affected_candidates": [
+      "CAR202101-E001",
+      "CAR202101-C003"
+    ],
+    "required_followup": "Read original/corroboration and apply review-policy20–21/deviations18–20 before inclusion or split/merge."
+  },
+  {
+    "gap_id": "CAR202101-G006",
+    "type": "participants",
+    "description": "Curfew body-carrying crowd described as many youths; no reliable50-person threshold. January peace march also lacks size.",
+    "source_ids": [
+      "CAR202101-S001",
+      "CAR202101-S004",
+      "CAR202101-S015",
+      "CAR202101-S049"
+    ],
+    "affected_candidates": [
+      "CAR202101-E002",
+      "CAR202101-E003"
+    ],
+    "required_followup": "Find actual assembled-crowd estimate; do not substitute population/workforce/families/vehicles/arrests."
+  },
+  {
+    "gap_id": "CAR202101-G007",
+    "type": "contested_evidence_dates_violence_casualties",
+    "description": "Curfew grievance/protest chronology11January versus12January; CrisisWatch later fatalities3 versus Amnesty/UN1. Monthly UN entry lacks assembly detail. Prior grievance death excluded from current response count.",
+    "source_ids": [
+      "CAR202101-S004",
+      "CAR202101-S015",
+      "CAR202101-S034",
+      "CAR202101-S049",
+      "CAR202101-S050"
+    ],
+    "affected_candidates": [
+      "CAR202101-E002"
+    ],
+    "required_followup": "Verify underlying dated testimony and episode linkage; do not create a new day solely from conflicting sources."
+  },
+  {
+    "gap_id": "CAR202101-G008",
+    "type": "source_access_state_target",
+    "description": "11January march remains search-only: original403. Search text suggests presidential consultation plus MINUSCA/peace demands; reception and occurrence not body-verified.",
+    "source_ids": [
+      "CAR202101-S001"
+    ],
+    "affected_candidates": [
+      "CAR202101-E003"
+    ],
+    "required_followup": "Obtain accessible contemporary corroboration, domestic target,50-person size and actual formal reception."
+  },
+  {
+    "gap_id": "CAR202101-G009",
+    "type": "dates_state_response",
+    "description": "No candidate has an evidenced physical end. Responses remain unknown except30January formal ministerial reception and curfew live fire/death. Silence, curfew, promises and grievance deaths do not establish responses.",
+    "source_ids": [
+      "CAR202101-S001",
+      "CAR202101-S002",
+      "CAR202101-S004",
+      "CAR202101-S049"
+    ],
+    "affected_candidates": [
+      "CAR202101-E001",
+      "CAR202101-E002",
+      "CAR202101-E003"
+    ],
+    "required_followup": "Find physical closure and current-act response evidence; do not use publication,month end or policy deadline as end."
+  },
+  {
+    "gap_id": "CAR202101-G010",
+    "type": "source_independence",
+    "description": "Amnesty language versions share investigation; media-reviewAnadolu/Xinhua reprints are not independent sources. CrisisWatch staging provenance and underlying references unresolved.",
+    "source_ids": [
+      "CAR202101-S004",
+      "CAR202101-S015",
+      "CAR202101-S023",
+      "CAR202101-S044",
+      "CAR202101-S050",
+      "CAR202101-S063",
+      "CAR202101-S071"
+    ],
+    "affected_candidates": [
+      "CAR202101-E002"
+    ],
+    "required_followup": "Trace original agencies and independent testimony; count origin,not URLs."
+  },
+  {
+    "gap_id": "CAR202101-G011",
+    "type": "source_access",
+    "description": "Numerous contextual discoveries remain unopened; originalAfriqueMedia/Ndjoni denied403, Oubangui final403, NouvellesPlus404, Anadolu embargo originaltimeout. Some PDFs recovered via ordinaryHTTPS; only selected passages read.",
+    "source_ids": [
+      "CAR202101-S001",
+      "CAR202101-S016",
+      "CAR202101-S038",
+      "CAR202101-S039",
+      "CAR202101-S049",
+      "CAR202101-S060",
+      "CAR202101-S071"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Respect actual denials; seek accessible originals or lawful corroboration. Consult source-level limitations for exact scope."
+  },
+  {
+    "gap_id": "CAR202101-G012",
+    "type": "episode_unit_dates",
+    "description": "December10/16 and February3 are continuity leads, not confirmed continuousJanuary actions; no previous-month physical continuation established.",
+    "source_ids": [
+      "CAR202101-S037",
+      "CAR202101-S038",
+      "CAR202101-S039",
+      "CAR202101-S044"
+    ],
+    "affected_candidates": [
+      "CAR202101-C001",
+      "CAR202101-C002",
+      "CAR202101-C003"
+    ],
+    "required_followup": "Neighbouring owners should resolve actual action timing and episode linkage."
+  },
+  {
+    "gap_id": "CAR202101-G013",
+    "type": "state_target_participants",
+    "description": "22January UN-embargo march excluded on available attributed article; no domestic demand or crowd count. Broader retrospective editorial is search-only and does not independently settle target.",
+    "source_ids": [
+      "CAR202101-S063",
+      "CAR202101-S070",
+      "CAR202101-S071"
+    ],
+    "affected_candidates": [
+      "CAR202101-X005"
+    ],
+    "required_followup": "Reopen if actual own-state policy demand is independently documented."
+  },
+  {
+    "gap_id": "CAR202101-G014",
+    "type": "other",
+    "description": "Additional CodingProcedure document unavailable; historical manual/codebook and extension protocol used. No official approval or human validation claimed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should obtain missing procedure and reconcile any rules before final coding."
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "gap_id": "DJ202101-G001",
+    "type": "baseline_manual",
+    "description": "Official baseline/version/schema/terms remain pending. Available baseline/mm_codebook.txt was read; no DetailedCodingProcedure manual was available.",
+    "source_ids": [],
+    "affected_candidates": [
+      "DJ202101-E001",
+      "DJ202101-E002",
+      "DJ202101-E003",
+      "DJ202101-E004",
+      "DJ202101-E005"
+    ],
+    "required_followup": "Coordinator must resolve official baseline and any missing procedure before official integration."
+  },
+  {
+    "gap_id": "DJ202101-G002",
+    "type": "coverage",
+    "description": "57 actual open-web queries include generic actions, regions/sectors, weekly windows, episode names and December/February boundaries. Open web does not reproduce LexisNexis; no exhaustive coverage or zero-event finding.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Systematic archival searches with reproducible access, including unavailable news databases."
+  },
+  {
+    "gap_id": "DJ202101-G003",
+    "type": "languages",
+    "description": "French and English dominate actual bodies. Limited Arabic and Somali discovery queries were made; no verified Arabic/Somali January article body or Afar-language coverage was recovered.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Native-language discovery/review and local archival coverage, especially Afar."
+  },
+  {
+    "gap_id": "DJ202101-G004",
+    "type": "regional_sector",
+    "description": "Regional and sector searches did not establish a further qualifying January gathering. Djibouti City dominates accessible contemporary coverage; no absence inference for Ali-Sabieh, Dikhil, Tadjourah, Obock, Arta, rural areas or workers/students.",
+    "source_ids": [
+      "DJ202101-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search regional/sector archives and verify merchant lead with contemporary sources."
+  },
+  {
+    "gap_id": "DJ202101-G005",
+    "type": "attendance",
+    "description": "No retained candidate has a proved attendance of at least 50. Two/three arrests, weeks of campaigning and June/celebration crowds are not January crowd counts.",
+    "source_ids": [
+      "DJ202101-S001",
+      "DJ202101-S003",
+      "DJ202101-S007",
+      "DJ202101-S008",
+      "DJ202101-S027"
+    ],
+    "affected_candidates": [
+      "DJ202101-E001",
+      "DJ202101-E002",
+      "DJ202101-E003",
+      "DJ202101-E004",
+      "DJ202101-E005"
+    ],
+    "required_followup": "Recover gathering-specific numeric or clear qualitative attendance evidence."
+  },
+  {
+    "gap_id": "DJ202101-G006",
+    "type": "episode_unit",
+    "description": "Repeated Friday/weekly RADDE references establish a series but not how individual actions relate under the event definition.",
+    "source_ids": [
+      "DJ202101-S002",
+      "DJ202101-S007",
+      "DJ202101-S033"
+    ],
+    "affected_candidates": [
+      "DJ202101-E001",
+      "DJ202101-E002",
+      "DJ202101-E003"
+    ],
+    "required_followup": "Recover original action chronology and review separate days/local actions versus campaign continuity before merging."
+  },
+  {
+    "gap_id": "DJ202101-G007",
+    "type": "earlier_boundary",
+    "description": "Three prior Fridays/fourth week do not independently date January 1/8 actions or determine a December start.",
+    "source_ids": [
+      "DJ202101-S007",
+      "DJ202101-S033"
+    ],
+    "affected_candidates": [
+      "DJ202101-E001",
+      "DJ202101-E002",
+      "DJ202101-E003"
+    ],
+    "required_followup": "Find dated earlier reports; assign verified pre-January starts outside events.json."
+  },
+  {
+    "gap_id": "DJ202101-G008",
+    "type": "physical_closure",
+    "description": "No candidate has an evidenced physical assembly end. Publication, month boundary, later custody release and campaign schedule are not physical closure.",
+    "source_ids": [
+      "DJ202101-S008"
+    ],
+    "affected_candidates": [
+      "DJ202101-E001",
+      "DJ202101-E002",
+      "DJ202101-E003",
+      "DJ202101-E004",
+      "DJ202101-E005"
+    ],
+    "required_followup": "Recover explicit dispersal/departure/assembly termination evidence."
+  },
+  {
+    "gap_id": "DJ202101-G009",
+    "type": "responses",
+    "description": "Unspecified state responses remain unknown. Generic violence and permit refusals alone do not establish a specific operational response; no accommodation inferred from promises or commentary.",
+    "source_ids": [
+      "DJ202101-S001",
+      "DJ202101-S003",
+      "DJ202101-S007",
+      "DJ202101-S008",
+      "DJ202101-S027",
+      "DJ202101-S034"
+    ],
+    "affected_candidates": [
+      "DJ202101-E001",
+      "DJ202101-E002",
+      "DJ202101-E003",
+      "DJ202101-E004",
+      "DJ202101-E005"
+    ],
+    "required_followup": "Find gathering-specific response actions with timing and attribution."
+  },
+  {
+    "gap_id": "DJ202101-G010",
+    "type": "access",
+    "description": "RFI original denied by robots policy; ARD copies failed HTTPS hostname validation; France24 returned 403. Denials/certificate validation were not bypassed.",
+    "source_ids": [
+      "DJ202101-S011",
+      "DJ202101-S014",
+      "DJ202101-S024",
+      "DJ202101-S032",
+      "DJ202101-S036"
+    ],
+    "affected_candidates": [
+      "DJ202101-E001",
+      "DJ202101-E002",
+      "DJ202101-E003"
+    ],
+    "required_followup": "Use legitimate accessible originals or attributed public copies; preserve common-origin dependence."
+  },
+  {
+    "gap_id": "DJ202101-G011",
+    "type": "agency_dependence",
+    "description": "RFI reproductions across ARDHD/allAfrica/Impact/AfricaTopSuccess are not independent confirmations. Repeated LDDH/FRUD/UDJ advocacy copies also share origins.",
+    "source_ids": [
+      "DJ202101-S004",
+      "DJ202101-S007",
+      "DJ202101-S010",
+      "DJ202101-S014",
+      "DJ202101-S027",
+      "DJ202101-S033",
+      "DJ202101-S038"
+    ],
+    "affected_candidates": [
+      "DJ202101-E001",
+      "DJ202101-E002",
+      "DJ202101-E003",
+      "DJ202101-E005"
+    ],
+    "required_followup": "Establish source genealogy and seek distinct witnesses or original reports."
+  },
+  {
+    "gap_id": "DJ202101-G012",
+    "type": "sunday_date",
+    "description": "February 1 RFI-derived article says Sunday without a calendar date. January ownership is provisional at month precision; January 31 must not be asserted from republication alone.",
+    "source_ids": [
+      "DJ202101-S027"
+    ],
+    "affected_candidates": [
+      "DJ202101-E003"
+    ],
+    "required_followup": "Recover original RFI publication and explicit action date; reassess month owner and duplication."
+  },
+  {
+    "gap_id": "DJ202101-G013",
+    "type": "announcement_execution",
+    "description": "January 25 UDJ call does not establish a physical gathering.",
+    "source_ids": [
+      "DJ202101-S034"
+    ],
+    "affected_candidates": [
+      "DJ202101-E004"
+    ],
+    "required_followup": "Find actual execution report before assigning start/date/attendance."
+  },
+  {
+    "gap_id": "DJ202101-G014",
+    "type": "merchant_date_target",
+    "description": "Retrospective UPR merchants paragraph has no separate explicit date, own demand, government target or crowd. Surrounding January 28 heading is not conclusive.",
+    "source_ids": [
+      "DJ202101-S003",
+      "DJ202101-S039"
+    ],
+    "affected_candidates": [
+      "DJ202101-E005"
+    ],
+    "required_followup": "Recover contemporary merchant action account and read verified page layout. PDF screenshots failed in web tool; selected March archive scope did not resolve date."
+  },
+  {
+    "gap_id": "DJ202101-G015",
+    "type": "unrelated_repression",
+    "description": "Ismail Houssein Waberi January 18 shooting and detention of FRUD relatives/other individuals lack a proved link to a retained public gathering.",
+    "source_ids": [
+      "DJ202101-S001",
+      "DJ202101-S009",
+      "DJ202101-S025"
+    ],
+    "affected_candidates": [
+      "DJ202101-E001",
+      "DJ202101-E002",
+      "DJ202101-E003",
+      "DJ202101-E004",
+      "DJ202101-E005"
+    ],
+    "required_followup": "Establish actual gathering linkage before adding a candidate or assigning these as state responses."
+  },
+  {
+    "gap_id": "DJ202101-G016",
+    "type": "historical_contamination",
+    "description": "CIVICUS March 2021 article links a France24 2011 rally while describing February 2021. Fouad June 2020 and June 2021 actions also surfaced in January searches.",
+    "source_ids": [
+      "DJ202101-S015",
+      "DJ202101-S018",
+      "DJ202101-S025",
+      "DJ202101-S026",
+      "DJ202101-S031",
+      "DJ202101-S036",
+      "DJ202101-S037"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify original dates for every reused event; never transfer historical counts or responses."
+  },
+  {
+    "gap_id": "DJ202101-G017",
+    "type": "foreign_boundary",
+    "description": "Paris December 18/February 12 demonstrations are outside the domestic unit; later reports/release dates do not establish January public assembly continuity.",
+    "source_ids": [
+      "DJ202101-S005",
+      "DJ202101-S008",
+      "DJ202101-S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify domestic events independently; keep foreign venues and later custody follow-up distinct."
+  },
+  {
+    "gap_id": "DJ202101-G018",
+    "type": "timestamp_precision",
+    "description": "Query execution times are actual pre-request batch times; returned URLs pooled across batched queries. First two query outputs were not fully captured. Exact source access instants were not recorded, so source accessed_at is null with honest run window.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain this limitation; future continuation should capture exact per-request source time without backdating."
+  }
+]

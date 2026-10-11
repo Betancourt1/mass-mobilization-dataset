@@ -1,0 +1,320 @@
+[
+  {
+    "gap_id": "armenia_2021-01_G001",
+    "type": "baseline",
+    "description": "Official latest file, schema, universe and baseline compatibility remain unverified. DOI-registration metadata does not verify current bytes.",
+    "source_ids": [],
+    "affected_candidates": [
+      "armenia_2021-01_E001",
+      "armenia_2021-01_E002",
+      "armenia_2021-01_E003",
+      "armenia_2021-01_E004",
+      "armenia_2021-01_E005",
+      "armenia_2021-01_E006",
+      "armenia_2021-01_E007",
+      "armenia_2021-01_E008",
+      "armenia_2021-01_E009",
+      "armenia_2021-01_E010",
+      "armenia_2021-01_E011",
+      "armenia_2021-01_E012"
+    ],
+    "required_followup": "Obtain and verify official files/version/schema and reconcile country universe before export."
+  },
+  {
+    "gap_id": "armenia_2021-01_G002",
+    "type": "search_method_coverage",
+    "description": "English, Russian and Armenian open-web discovery, regional/sector searches and four week-bin searches cannot reproduce original LexisNexis. Search ignored restrictive date/AND terms and returned many unrelated countries/years; preserved discovery cards include those misses.",
+    "source_ids": [],
+    "affected_candidates": [
+      "armenia_2021-01_E001",
+      "armenia_2021-01_E002",
+      "armenia_2021-01_E003",
+      "armenia_2021-01_E004",
+      "armenia_2021-01_E005",
+      "armenia_2021-01_E006",
+      "armenia_2021-01_E007",
+      "armenia_2021-01_E008",
+      "armenia_2021-01_E009",
+      "armenia_2021-01_E010",
+      "armenia_2021-01_E011",
+      "armenia_2021-01_E012"
+    ],
+    "required_followup": "Systematically inspect contemporary archives with verified dates and equivalent full-text coverage; review relevance of discovery cards."
+  },
+  {
+    "gap_id": "armenia_2021-01_G003",
+    "type": "source_access",
+    "description": "18 attempted URLs unavailable to web tool, mostly cache miss; some relevant articles have only snippets. Search-only cards also preserve unopened context.",
+    "source_ids": [
+      "S006",
+      "S009",
+      "S034",
+      "S037",
+      "S083",
+      "S084",
+      "S085",
+      "S088",
+      "S134",
+      "S136",
+      "S159",
+      "S224",
+      "S225",
+      "S228",
+      "S229",
+      "S232",
+      "S244",
+      "S245"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E001",
+      "armenia_2021-01_E002",
+      "armenia_2021-01_E003",
+      "armenia_2021-01_E004",
+      "armenia_2021-01_E005",
+      "armenia_2021-01_E006",
+      "armenia_2021-01_E007",
+      "armenia_2021-01_E008",
+      "armenia_2021-01_E009",
+      "armenia_2021-01_E010",
+      "armenia_2021-01_E011",
+      "armenia_2021-01_E012"
+    ],
+    "required_followup": "Open contemporary originals through permitted access or archives; retain blocked claims as pending evidence."
+  },
+  {
+    "gap_id": "armenia_2021-01_G004",
+    "type": "language_coverage",
+    "description": "Local-language queries executed in Armenian and Russian, but no independent linguistic review. Yerevan opposition coverage dominates; sectors and provinces outside Gyumri/Vanadzor/Ararat underrepresented.",
+    "source_ids": [],
+    "affected_candidates": [
+      "armenia_2021-01_E001",
+      "armenia_2021-01_E002",
+      "armenia_2021-01_E003",
+      "armenia_2021-01_E004",
+      "armenia_2021-01_E005",
+      "armenia_2021-01_E006",
+      "armenia_2021-01_E007",
+      "armenia_2021-01_E008",
+      "armenia_2021-01_E009",
+      "armenia_2021-01_E010",
+      "armenia_2021-01_E011",
+      "armenia_2021-01_E012"
+    ],
+    "required_followup": "Independent Armenian/Russian review and regional newspaper/archive sweep; do not infer absence from not found."
+  },
+  {
+    "gap_id": "armenia_2021-01_G005",
+    "type": "dates_contested_evidence",
+    "description": "Renewed Etchmiadzin sit-in start conflicts: January8 in opened Hetq versus January7 timestamp and already ongoing sit-in in blocked Yerevan.Today.",
+    "source_ids": [
+      "S181",
+      "S224"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E002"
+    ],
+    "required_followup": "Read original Yerevan.Today/video timestamps and independent contemporary reports; retain month precision until resolved."
+  },
+  {
+    "gap_id": "armenia_2021-01_G006",
+    "type": "episode_unit",
+    "description": "Prior missing-soldier campaign dates back approximately two months. Distinct January gatherings and pause before Etchmiadzin sit-in do not automatically establish new MM events.",
+    "source_ids": [
+      "S181",
+      "S160",
+      "S088"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E001",
+      "armenia_2021-01_E002",
+      "armenia_2021-01_E010"
+    ],
+    "required_followup": "Reconstruct late2020/February chronology and apply additional episode rules; link rather than silently merge."
+  },
+  {
+    "gap_id": "armenia_2021-01_G007",
+    "type": "participants",
+    "description": "No verified >=50 turnout for ten candidate gatherings; two have qualitative hundreds/thousands, with unit/publicness still open.",
+    "source_ids": [
+      "S008",
+      "S004"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E001",
+      "armenia_2021-01_E002",
+      "armenia_2021-01_E003",
+      "armenia_2021-01_E004",
+      "armenia_2021-01_E005",
+      "armenia_2021-01_E007",
+      "armenia_2021-01_E008",
+      "armenia_2021-01_E009",
+      "armenia_2021-01_E010",
+      "armenia_2021-01_E012"
+    ],
+    "required_followup": "Seek contemporaneous explicit attendance, attributed estimates or sufficiently clear qualitative crowd evidence; do not use military totals/affected parents as crowd."
+  },
+  {
+    "gap_id": "armenia_2021-01_G008",
+    "type": "episode_unit_public_character",
+    "description": "Gyumri hundreds and Vanadzor/Ararat regional meetings may be public mobilization, indoor supporter meetings or party organizing. Explicit removal demand distinguishes some from support-only gatherings; public access remains unverified.",
+    "source_ids": [
+      "S008",
+      "S134",
+      "S135",
+      "S136",
+      "S137"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E006",
+      "armenia_2021-01_E007",
+      "armenia_2021-01_E009"
+    ],
+    "required_followup": "Inspect venue/meeting reports and eligibility under manual's political-rally exclusion; establish whether tour is one coordinated action or distinct gatherings."
+  },
+  {
+    "gap_id": "armenia_2021-01_G009",
+    "type": "state_target",
+    "description": "Opened Ararat source proves a meeting, but not its demand; broader opposition campaign does not substitute event-specific target.",
+    "source_ids": [
+      "S137",
+      "S009"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E009"
+    ],
+    "required_followup": "Obtain opened recording/report of this meeting's explicit demand."
+  },
+  {
+    "gap_id": "armenia_2021-01_G010",
+    "type": "episode_unit_source_independence",
+    "description": "ArmyDay gathering organizers described as party-independent by Zakarian, whereas AP/TASS-based RFE/RL supplies coalition campaign context. Same-day end does not settle relationship to prior campaign/camp.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E011"
+    ],
+    "required_followup": "Verify organizers and new gathering versus continuous action; do not automatically merge or count articles as events."
+  },
+  {
+    "gap_id": "armenia_2021-01_G011",
+    "type": "state_response",
+    "description": "Arrests verified for January28 only. Police presence, scuffles and road restriction do not establish all seven responses. January14 offered reception only in unavailable snippet; keep unknown.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S019",
+      "S084"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E001",
+      "armenia_2021-01_E002",
+      "armenia_2021-01_E003",
+      "armenia_2021-01_E004",
+      "armenia_2021-01_E005",
+      "armenia_2021-01_E006",
+      "armenia_2021-01_E007",
+      "armenia_2021-01_E008",
+      "armenia_2021-01_E009",
+      "armenia_2021-01_E010",
+      "armenia_2021-01_E011",
+      "armenia_2021-01_E012"
+    ],
+    "required_followup": "Seek event-specific police/rights/court evidence and preserve unknowns; do not infer shootings/killings/beatings/ignore."
+  },
+  {
+    "gap_id": "armenia_2021-01_G012",
+    "type": "violence_casualties",
+    "description": "January28 clashes unspecified; February2 arrestee's heart attack not attributed to state violence. War deaths/missing troops are grievances, not casualties of these gatherings.",
+    "source_ids": [
+      "S004",
+      "S001",
+      "S180"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E011"
+    ],
+    "required_followup": "Review independent contemporaneous description of acts/injuries and custody attribution; maintain unknown unless supported."
+  },
+  {
+    "gap_id": "armenia_2021-01_G013",
+    "type": "dates",
+    "description": "Most candidate physical endings unknown. Airport protesters announced end without explicit observed clearance; no end inferred from last article/month boundary.",
+    "source_ids": [
+      "S019",
+      "S001"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E001",
+      "armenia_2021-01_E002",
+      "armenia_2021-01_E003",
+      "armenia_2021-01_E004",
+      "armenia_2021-01_E005",
+      "armenia_2021-01_E006",
+      "armenia_2021-01_E007",
+      "armenia_2021-01_E008",
+      "armenia_2021-01_E009",
+      "armenia_2021-01_E010",
+      "armenia_2021-01_E012"
+    ],
+    "required_followup": "Follow each assembly into subsequent reporting/February and distinguish announcement, last report and physical closure."
+  },
+  {
+    "gap_id": "armenia_2021-01_G014",
+    "type": "state_target_participants",
+    "description": "January29 journalists' action may be press questioning by a small group rather than a public protest of >=50.",
+    "source_ids": [
+      "S225",
+      "S226",
+      "S227",
+      "S229"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E012"
+    ],
+    "required_followup": "Open original video/report; identify gathering character and physically attending number before inclusion or firm exclusion."
+  },
+  {
+    "gap_id": "armenia_2021-01_G015",
+    "type": "source_independence",
+    "description": "RFE/RL January28 is explicitly based on AP/TASS; ArmenianClub January11 narrative republished Panorama January18; Russian/English Azatutyun counterparts and wiki mirrors are dependent.",
+    "source_ids": [
+      "S004",
+      "S019",
+      "S085",
+      "S228",
+      "S038"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E001",
+      "armenia_2021-01_E002",
+      "armenia_2021-01_E003",
+      "armenia_2021-01_E004",
+      "armenia_2021-01_E005",
+      "armenia_2021-01_E006",
+      "armenia_2021-01_E007",
+      "armenia_2021-01_E008",
+      "armenia_2021-01_E009",
+      "armenia_2021-01_E010",
+      "armenia_2021-01_E011",
+      "armenia_2021-01_E012"
+    ],
+    "required_followup": "Trace originals and do not count syndication/language mirrors as independent corroboration."
+  },
+  {
+    "gap_id": "armenia_2021-01_G016",
+    "type": "dates_response_attribution",
+    "description": "January15 Gyumri roadblock reports disagree about reopening attribution. Caucasian Knot paragraph on airport arrests concerns another day and must not transfer to Gyumri or January28.",
+    "source_ids": [
+      "S008",
+      "S066"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_X001",
+      "armenia_2021-01_E004"
+    ],
+    "required_followup": "Resolve same-day original reporting; keep exclusion and action-specific response scope explicit."
+  }
+]

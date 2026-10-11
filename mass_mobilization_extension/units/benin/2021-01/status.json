@@ -1,0 +1,36 @@
+{
+  "unit_id": "benin_2021-01",
+  "country": "Benin",
+  "month": "2021-01",
+  "agent_task": "/root/benin_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": null,
+  "started_at_note": "Exact start time unavailable; assignment time remains in assignment.json. first_observed_at not asserted as research start.",
+  "finished_at": "2026-10-08T06:54:14.227Z",
+  "n_queries": 43,
+  "n_sources": 185,
+  "n_candidates": 3,
+  "n_excluded": 6,
+  "n_continuations": 2,
+  "n_gaps": 15,
+  "coverage_assessment": "French and English open-web first pass with weekly, sectoral, regional and December/February boundary searches. Three ambiguous assembly/meeting leads, none verified as a qualifying >=50 protest. Discovery cards include irrelevant country/year results retained for transparency; 12 read in specified scope. Uneven archives and local-language coverage remain. Not exhaustive; no protest-zero inference.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources_started": [
+    {
+      "resource": "Foreground public HTTPS session50656",
+      "status": "terminated_exit0"
+    },
+    {
+      "resource": "Foreground public PDF retrieval/extraction session33609",
+      "status": "terminated_exit0; temporary PDF/text removed and absence checked"
+    },
+    {
+      "resource": "Foreground public HTTPS session99227",
+      "status": "terminated_exit0"
+    }
+  ],
+  "temporary_resources_remaining": [],
+  "next_action": "Coordinator review of three ambiguous January leads; resolve attendance/public-protest character and Natitingou December dates, then independent audit and local batch commit.",
+  "frozen": true,
+  "checks": "Passed JSON/JSONL parsing, unique IDs, valid source references including field evidence, seven state responses, January-start ownership, December boundary ownership, counts and required nine-file dossier. Temporary PDF/text absence verified. Not factual validation or official approval."
+}

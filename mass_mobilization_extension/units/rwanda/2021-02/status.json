@@ -1,0 +1,37 @@
+{
+  "unit_id": "rwanda_2021-02",
+  "country": "Rwanda",
+  "month": "2021-02",
+  "agent_task": "/root/rwanda_2021_02_batch61",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T23:46:07.130874+00:00",
+  "finished_at": "2026-10-11T01:20:09Z",
+  "n_queries": 18,
+  "n_sources": 26,
+  "n_candidates": 1,
+  "n_excluded": 4,
+  "n_continuations": 0,
+  "n_gaps": 15,
+  "coverage_assessment": "18 native search actions, 72 exact query terms, and 433 ordered result headers covered English general and weekly February windows; Kinyarwanda, French and limited Swahili terms; local outlets; official, international and rights-report domains; Gakoni/Gatsibo; student, labor, transport, health, teacher, farmer/vendor and land leads; and January/March boundaries. Search capture extraction retained original ordered headers, refs, URLs and clocks. The scope is open-web discovery, not LexisNexis-equivalent or district-by-district coverage. There are 3 current-unit body opens and 1 prior-unit-only consultation. Three opened pages support one reported Gakoni episode, which remains pending evidence because public-meeting status, 50-person turnout and whether the demand targeted a competent Rwanda state authority (including local police) or government policy is unestablished. One exact UNHCR PDF attempt ended in a tool-level error with unknown HTTP status; it is not recorded as publisher denial. Twenty-three cards remain search_only, including S003 prior-unit-only and S005 technically inaccessible. No absence, exhaustiveness, eligibility approval or official update is claimed.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 3,
+    "search_only_cards": 23,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_action_count": 18,
+    "captured_query_term_count": 72,
+    "captured_header_count": 433,
+    "provenance": "Existing extract_search_captures.py output from registered worker rollout; original batched queries and exact ordered result headers retained in search_log.jsonl."
+  },
+  "source_read_scope": {
+    "current_unit_body_opens": 3,
+    "prior_unit_only_consultations": 1,
+    "prior_unit_source_id": "RW202101-S006",
+    "technical_read_attempts": 1,
+    "technical_attempt_source_id": "RW202102-S005",
+    "note": "Only S001, S002 and S006 were opened in this unit; S003 is prior-unit-only; S005 returned a tool-level error with unknown HTTP status."
+  }
+}

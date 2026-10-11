@@ -1,0 +1,153 @@
+[
+  {
+    "gap_id": "sweden_2021-01-G001",
+    "type": "baseline",
+    "description": "The latest official Mass Mobilization event files, current schema/universe, date cutoff and additional Coding Procedure are not verified. The assignment code 380 is provisional and no official ID or approval can be assigned from this unit.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep this unit provisional. The coordinator must resolve the official baseline and procedure gates using permitted access before any consolidation or official coding."
+  },
+  {
+    "gap_id": "sweden_2021-01-G002",
+    "type": "search_method",
+    "description": "Discovery used 24 public-web queries, Swedish and English terms, five weekly windows, additional sector/regional queries, and December/February boundary checks. Search results often ignored date terms or surfaced March 2021, 2022, or older material. This method is not equivalent to the manual's LexisNexis newspaper search.",
+    "source_ids": [
+      "sweden_2021-01-S004",
+      "sweden_2021-01-S005",
+      "sweden_2021-01-S007",
+      "sweden_2021-01-S012"
+    ],
+    "affected_candidates": [
+      "sweden_2021-01-X001",
+      "sweden_2021-01-X002",
+      "sweden_2021-01-X003",
+      "sweden_2021-01-X004",
+      "sweden_2021-01-X005",
+      "sweden_2021-01-X006"
+    ],
+    "required_followup": "If permitted systematic newspaper/archive access becomes available, search and reconcile by source publication and event date. Do not treat the query count or returned headers as proof of absence."
+  },
+  {
+    "gap_id": "sweden_2021-01-G003",
+    "type": "coverage",
+    "description": "The regional query sampled Stockholm, Gothenburg, Malmö, Uppsala, Umeå, Lund, Linköping, Örebro, Västerås and Norrköping, but did not systematically search municipal records or every Swedish region. The January archive index consulted is one outlet only. Open-web discovery may miss local events.",
+    "source_ids": [
+      "sweden_2021-01-S004",
+      "sweden_2021-01-S007",
+      "sweden_2021-01-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Any future reconciliation should cover regional/local press and official assembly records across the country, with special attention to locations absent from the sampled searches."
+  },
+  {
+    "gap_id": "sweden_2021-01-G004",
+    "type": "language",
+    "description": "Queries and accessible evidence were in Swedish and English. No systematic search of Sámi, Finnish, Meänkieli or immigrant-language local reporting was completed.",
+    "source_ids": [
+      "sweden_2021-01-S003",
+      "sweden_2021-01-S004",
+      "sweden_2021-01-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Record language-specific source coverage if a later archive review adds those languages; do not infer that no events occurred from this Swedish/English scope."
+  },
+  {
+    "gap_id": "sweden_2021-01-G005",
+    "type": "source_access",
+    "description": "The original Sveriges Radio report on the 23 January Stockholm Navalny solidarity gathering remains unread: web open returned Cache miss, ordinary exact-URL HTTPS first failed sandbox DNS, and the approved ordinary request then returned HTTP 403. No retry, mirror, or bypass was used. The Svenska Dagbladet URL remains search-only after Cache miss.",
+    "source_ids": [
+      "sweden_2021-01-S001",
+      "sweden_2021-01-S002",
+      "sweden_2021-01-S007",
+      "sweden_2021-01-S008"
+    ],
+    "affected_candidates": [
+      "sweden_2021-01-X002"
+    ],
+    "required_followup": "Keep the blocked SR source as an unread lead. Do not repeat its 403 request or attribute body/count details to it. The foreign target is established from the opened SVT report; if turnout is later needed, seek an independently accessible permitted primary source and otherwise retain the count as unknown."
+  },
+  {
+    "gap_id": "sweden_2021-01-G006",
+    "type": "participants",
+    "description": "SVT confirms the Stockholm gathering but gives no numerical attendance. The opened secondary reference page reports an approximate figure and cites the inaccessible SR article; this number is not independently confirmed by the opened primary body and is not used to assess the 50-person threshold.",
+    "source_ids": [
+      "sweden_2021-01-S001",
+      "sweden_2021-01-S002",
+      "sweden_2021-01-S007"
+    ],
+    "affected_candidates": [
+      "sweden_2021-01-X002"
+    ],
+    "required_followup": "Leave attendance unverified and the threshold unasserted for this foreign-target exclusion; do not attribute a numerical estimate to the unread SR body."
+  },
+  {
+    "gap_id": "sweden_2021-01-G007",
+    "type": "episode_unit",
+    "description": "For Stockholm on 23 January, SVT says police dispersed demonstrators but also that a large group stood some distance from the embassy. Exact physical closure of the full gathering and any later same-episode activity are not established. The 31 January searches concerned mainly rallies in Russia.",
+    "source_ids": [
+      "sweden_2021-01-S001",
+      "sweden_2021-01-S007"
+    ],
+    "affected_candidates": [
+      "sweden_2021-01-X002"
+    ],
+    "required_followup": "Keep closure and continuity beyond the reported 23 January action unresolved; do not transfer Russian 31 January activity to Sweden or infer an end date."
+  },
+  {
+    "gap_id": "sweden_2021-01-G008",
+    "type": "source_access",
+    "description": "A relevant retrospective Arbetet URL about the 4 January Arriva workplace gathering returned HTTP 403. Its search excerpt is not used for occurrence or count; contemporaneous SVT provides the recorded basis.",
+    "source_ids": [
+      "sweden_2021-01-S012",
+      "sweden_2021-01-S013"
+    ],
+    "affected_candidates": [
+      "sweden_2021-01-X006"
+    ],
+    "required_followup": "Respect the 403 and do not retry, mirror or bypass. Retain X006 on the accessible contemporaneous SVT evidence only."
+  },
+  {
+    "gap_id": "sweden_2021-01-G009",
+    "type": "episode_unit",
+    "description": "A 30 December SVT report, updated 2 January, attributes to Sydsvenskan a report that about 100 employees met on New Year’s Eve to plan a possible strike; venue and public character are not established. For the separate 4 January workplace-support gathering, SVT says about 100 coworkers waited outside Arriva’s office in Skåne but does not identify its city or organizer, establish whether others joined, or state the precise end. Neither workplace item is a confirmed government-directed public protest.",
+    "source_ids": [
+      "sweden_2021-01-S012",
+      "sweden_2021-01-S014",
+      "sweden_2021-01-S015",
+      "sweden_2021-01-S016",
+      "sweden_2021-01-S017"
+    ],
+    "affected_candidates": [
+      "sweden_2021-01-X004",
+      "sweden_2021-01-X006"
+    ],
+    "required_followup": "Keep the New Year’s Eve planning meeting as source-attributed, with venue/public status unknown; do not create a December continuation without evidence of a qualifying public physical episode. Keep X006 at the reported regional precision and organizer/end unknown. Any follow-up should use accessible local records without conflating employee counts with turnout."
+  },
+  {
+    "gap_id": "sweden_2021-01-G010",
+    "type": "contested_evidence",
+    "description": "On the private-care conflict, Kommunal's 5 January release announced conditional action from 15 and 22 January. Almega's 14 January release says both actions were cancelled after agreement, while the 15 January WSWS roundup still describes planned measures. Exact publication-time ordering is unresolved; no execution is inferred.",
+    "source_ids": [
+      "sweden_2021-01-S005",
+      "sweden_2021-01-S009",
+      "sweden_2021-01-S010"
+    ],
+    "affected_candidates": [
+      "sweden_2021-01-X003"
+    ],
+    "required_followup": "Preserve all three accounts and their dates. Do not code the threatened steps as executed without a contemporaneous account establishing they began."
+  },
+  {
+    "gap_id": "sweden_2021-01-G011",
+    "type": "source_independence",
+    "description": "The Gothenburg 23 January report is supported by one opened contemporaneous local newspaper account. A secondary reference page also lists it, but cites that same outlet; this is not independent corroboration.",
+    "source_ids": [
+      "sweden_2021-01-S001",
+      "sweden_2021-01-S003"
+    ],
+    "affected_candidates": [
+      "sweden_2021-01-X001"
+    ],
+    "required_followup": "If independent confirmation is needed, seek a distinct contemporary source. The reported approximately 20 participants and foreign target currently place the occurrence below threshold and outside the domestic-target criterion."
+  }
+]

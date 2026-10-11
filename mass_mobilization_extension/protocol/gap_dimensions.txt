@@ -1,0 +1,24 @@
+DIMENSIONES COMUNES DE HUECOS
+
+El campo type conserva la etiqueta original del investigador. gap_dimensions añade una o
+varias dimensiones comunes mediante reglas de texto explícitas en scripts/consolidate.py.
+La normalización se aplica a la etiqueta, no decide el contenido ni resuelve el hueco.
+
+baseline: original, universo, esquema, licencia o corte sin verificar.
+participants: asistentes, estimaciones o umbral de reunión.
+state_target: demanda estatal doméstica y frontera con conflicto privado/acto electoral.
+episode_unit: separación, coordinación nacional/local, continuidad y propietario mensual.
+dates: inicio, cierre y cronología.
+state_response: acciones estatales y su atribución a este acto.
+violence_casualties: violencia y víctimas con identidad/causalidad pendientes.
+source_access: documentos bloqueados, parciales, sin abrir o URLs cambiadas.
+source_independence: agencia común, comunicado republicado y dependencia editorial.
+language: traducción y cobertura lingüística.
+coverage: cobertura espacial o documental desigual.
+search_method: diferencias de método y filtros que fallaron.
+contested_evidence: versiones contradictorias y alegaciones no corroboradas.
+other: etiquetas sin coincidencia; revisar manualmente para futuras ampliaciones.
+
+Una fila puede tener varias dimensiones. Sumar dimensiones no cuenta huecos únicos.
+affected_candidates puede incluir un ID de otro mes o una continuación; no implica evento aprobado.
+Todos los huecos conservan fuente, explicación y required_followup para el seguimiento concreto.

@@ -1,0 +1,178 @@
+[
+  {
+    "gap_id": "serbia_2021-02_G001",
+    "type": "candidate_evidence",
+    "description": "S001 is a dated interview about the continuing internet-workers campaign and negotiations, but it does not establish a dated February public gathering or a state response at an assembly. The January freelancer event cannot be carried into February as a physical continuation from campaign continuity language alone.",
+    "source_ids": [
+      "serbia_2021-02_S001"
+    ],
+    "affected_candidates": [
+      "serbia_2021-02_X001"
+    ],
+    "required_followup": "If a fresh research phase is authorized, compare the interview with the January E002 dossier and seek event-specific evidence for an in-February physical gathering before creating a continuation or event."
+  },
+  {
+    "gap_id": "serbia_2021-02_G002",
+    "type": "candidate_evidence",
+    "description": "The RGZ protest headlines do not establish event date, attendance, demand, or state response. S007 attempt 1 was a technical Cache miss with no HTTP status/body (not a denial); attempt 2 had an incomplete fresh manual review and no body request was dispatched before phase close.",
+    "source_ids": [
+      "serbia_2021-02_S007",
+      "serbia_2021-02_S008"
+    ],
+    "affected_candidates": [
+      "serbia_2021-02_E001"
+    ],
+    "required_followup": "In a separately authorized source-access phase, start a fresh exact-URL gate and complete every required review step before any dependent request; do not reuse the incomplete attempt-2 receipt chain."
+  },
+  {
+    "gap_id": "serbia_2021-02_G003",
+    "type": "candidate_evidence",
+    "description": "The N1 Oslobođenje headline and Danas Kosovo-policy headline identify possible Presidency protest leads but provide no verified physical date, attendance, policy demand, or relation between the two topics.",
+    "source_ids": [
+      "serbia_2021-02_S010",
+      "serbia_2021-02_S011",
+      "serbia_2021-02_S012"
+    ],
+    "affected_candidates": [
+      "serbia_2021-02_E002",
+      "serbia_2021-02_E003"
+    ],
+    "required_followup": "Review the source bodies only under a fresh authorized exact-URL gate; establish date and whether the two headlines concern one or separate episodes."
+  },
+  {
+    "gap_id": "serbia_2021-02_G004",
+    "type": "candidate_evidence",
+    "description": "Danas, Nova.rs, and RFE/RL search headlines raise hospitality-worker protest leads. Publication dates, occurrence, relation among the items, turnout, exact demands, and possible event-day boundaries are not established.",
+    "source_ids": [
+      "serbia_2021-02_S015",
+      "serbia_2021-02_S017",
+      "serbia_2021-02_S018"
+    ],
+    "affected_candidates": [
+      "serbia_2021-02_E004"
+    ],
+    "required_followup": "Determine whether the sources describe the same action or separate actions, whether an announced protest occurred, and whether any gathering began in February."
+  },
+  {
+    "gap_id": "serbia_2021-02_G005",
+    "type": "source_relationship",
+    "description": "An NSPM search headline describes an event-industry/hospitality protest outside the Government. Its relation to E004 and exact date are unknown.",
+    "source_ids": [
+      "serbia_2021-02_S016",
+      "serbia_2021-02_S015",
+      "serbia_2021-02_S017",
+      "serbia_2021-02_S018"
+    ],
+    "affected_candidates": [
+      "serbia_2021-02_E004",
+      "serbia_2021-02_E005"
+    ],
+    "required_followup": "Compare reviewed article dates, text, syndication/origin statements, and venue/time evidence before deduplicating or treating this as a separate event."
+  },
+  {
+    "gap_id": "serbia_2021-02_G006",
+    "type": "candidate_evidence",
+    "description": "The multi-sector protest headlines are undated in most search results. The Naslovi URL path and separate Vesti/Danas archive title point to 14 March as a tentative discovery clue only; they do not prove event date, physical occurrence, source independence, or a match to the undated RTV BN headline.",
+    "source_ids": [
+      "serbia_2021-02_S019",
+      "serbia_2021-02_S020",
+      "serbia_2021-02_S021",
+      "serbia_2021-02_S022",
+      "serbia_2021-02_S023",
+      "serbia_2021-02_S024",
+      "serbia_2021-02_S025"
+    ],
+    "affected_candidates": [
+      "serbia_2021-02_E006"
+    ],
+    "required_followup": "Keep the RTV BN headline as an undated lead. Verify each exact story and its event date in a separately authorized phase; do not count URL variants as separate events or infer independent reporting."
+  },
+  {
+    "gap_id": "serbia_2021-02_G007",
+    "type": "candidate_evidence",
+    "description": "For all six candidate clusters, the available discovery metadata does not establish a numeric or qualitative attendance estimate sufficient for the 50-person threshold.",
+    "source_ids": [
+      "serbia_2021-02_S007",
+      "serbia_2021-02_S008",
+      "serbia_2021-02_S010",
+      "serbia_2021-02_S011",
+      "serbia_2021-02_S012",
+      "serbia_2021-02_S015",
+      "serbia_2021-02_S016",
+      "serbia_2021-02_S017",
+      "serbia_2021-02_S018",
+      "serbia_2021-02_S019",
+      "serbia_2021-02_S020",
+      "serbia_2021-02_S021",
+      "serbia_2021-02_S022",
+      "serbia_2021-02_S023",
+      "serbia_2021-02_S024",
+      "serbia_2021-02_S025"
+    ],
+    "affected_candidates": [
+      "serbia_2021-02_E001",
+      "serbia_2021-02_E002",
+      "serbia_2021-02_E003",
+      "serbia_2021-02_E004",
+      "serbia_2021-02_E005",
+      "serbia_2021-02_E006"
+    ],
+    "required_followup": "Obtain event-specific attendance evidence and preserve the original wording and uncertainty. Keep threshold status pending until a qualifying count is supported."
+  },
+  {
+    "gap_id": "serbia_2021-02_G008",
+    "type": "state_response",
+    "description": "No candidate has reviewed event-specific evidence for protester violence or any of the seven state-response dimensions: accommodation, arrests, beatings, crowd dispersal, ignore, killings, shootings. All remain unknown; campaign negotiations in S001 cannot be coded as a response to an undated gathering.",
+    "source_ids": [
+      "serbia_2021-02_S001",
+      "serbia_2021-02_S007",
+      "serbia_2021-02_S008",
+      "serbia_2021-02_S010",
+      "serbia_2021-02_S011",
+      "serbia_2021-02_S012",
+      "serbia_2021-02_S015",
+      "serbia_2021-02_S016",
+      "serbia_2021-02_S017",
+      "serbia_2021-02_S018",
+      "serbia_2021-02_S019",
+      "serbia_2021-02_S020",
+      "serbia_2021-02_S021",
+      "serbia_2021-02_S022",
+      "serbia_2021-02_S023",
+      "serbia_2021-02_S024",
+      "serbia_2021-02_S025"
+    ],
+    "affected_candidates": [
+      "serbia_2021-02_E001",
+      "serbia_2021-02_E002",
+      "serbia_2021-02_E003",
+      "serbia_2021-02_E004",
+      "serbia_2021-02_E005",
+      "serbia_2021-02_E006"
+    ],
+    "required_followup": "For each event with a date and verified gathering, review explicit event-specific reporting for each response dimension; silence is not coded as no response."
+  },
+  {
+    "gap_id": "serbia_2021-02_G009",
+    "type": "coverage",
+    "description": "Sixteen open-web search captures preserve 59 exact query strings and 471 ordered result headers. Queries cover the four February weekly windows in English and Serbian Latin/Cyrillic, plus freelancer/tax negotiations, hospitality/event workers, musicians/photographers, labor, environmental protest, national/regional media, government and public-institution records, and human-rights sources. This does not recreate LexisNexis or comprehensive local/regional archive access; ranking and indexing are incomplete and no exhaustive or zero-event conclusion is supported.",
+    "source_ids": [],
+    "affected_candidates": [
+      "serbia_2021-02_E001",
+      "serbia_2021-02_E002",
+      "serbia_2021-02_E003",
+      "serbia_2021-02_E004",
+      "serbia_2021-02_E005",
+      "serbia_2021-02_E006"
+    ],
+    "required_followup": "If broader coverage is required, use authorized archived/local/regional sources and additional Serbian-language variants while preserving exact query/result captures and adding no unsupported absence claim."
+  },
+  {
+    "gap_id": "serbia_2021-02_G010",
+    "type": "baseline",
+    "description": "The official baseline gate remains pending. This dossier is a reviewable open-web extension unit and does not assign original MM identifiers or alter the integrated catalogue.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator completes baseline reconciliation and independent review before any integration decision."
+  }
+]

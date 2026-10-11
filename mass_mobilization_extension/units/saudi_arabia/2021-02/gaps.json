@@ -1,0 +1,182 @@
+[
+  {
+    "gap_id": "saudi_arabia_2021-02_G001",
+    "type": "occurrence_public_meeting",
+    "description": "E001 remains a search-snippet lead. Whether an in-person Buraidah demonstration occurred as a public meeting is unresolved; no source body was reviewed.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-02_E001"
+    ],
+    "required_followup": "Review an accessible contemporaneous source body or other ordinary-source evidence that establishes actual physical occurrence and public-meeting character."
+  },
+  {
+    "gap_id": "saudi_arabia_2021-02_G002",
+    "type": "dates_episode_boundary",
+    "description": "Publication dates in early February do not establish E001’s physical event date, precise date, end or February ownership; no dated onset or event boundary is verified.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-02_E001"
+    ],
+    "required_followup": "Verify event-specific dated reporting and any physical ending/continuation; leave start_date and end_date null until then."
+  },
+  {
+    "gap_id": "saudi_arabia_2021-02_G003",
+    "type": "participants_threshold",
+    "description": "Some E001 snippets say “hundreds,” but the source body, attendance basis and upstream origin are unknown; the required threshold of at least 50 is not verified.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-02_E001"
+    ],
+    "required_followup": "Find an accessible report with a sourced crowd estimate or direct threshold evidence; do not treat the repeated “hundreds” snippet as a verified lower bound."
+  },
+  {
+    "gap_id": "saudi_arabia_2021-02_G004",
+    "type": "demand_state_target",
+    "description": "E001 snippets allege economic hardship, unemployment, tax and quarantine grievances, but exact demands, organizers, recipients and direction toward the Saudi state remain unknown.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-02_E001"
+    ],
+    "required_followup": "Verify speaker, specific grievance/demand and state target from readable event evidence before assigning a demand category or eligibility."
+  },
+  {
+    "gap_id": "saudi_arabia_2021-02_G005",
+    "type": "source_independence",
+    "description": "Al Alam and Together for Justice accounts overlap, and some results quote social-media material or repeat a Qassim police account. Together for Justice, Al Alam, IslamTimes and Al-Ahed are not assumed independent confirmations. Watanserb and its archive appear derivative.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-02_E001"
+    ],
+    "required_followup": "Trace each account to its upstream reporter, post, statement or wire; count independent origins rather than URLs."
+  },
+  {
+    "gap_id": "saudi_arabia_2021-02_G006",
+    "type": "violence_state_response",
+    "description": "Protester violence and all seven state-response values remain unknown for both leads. Unverified snippets allege arrests, dispersal orders, force or clashes, but do not establish event/date scope.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S010",
+      "S011",
+      "S002",
+      "S004",
+      "S009"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-02_E001",
+      "saudi_arabia_2021-02_E002"
+    ],
+    "required_followup": "Verify each response dimension and any protester violence in event-specific readable evidence; preserve unknown where evidence is absent or ambiguous."
+  },
+  {
+    "gap_id": "saudi_arabia_2021-02_G007",
+    "type": "event_identity",
+    "description": "E002 may be a separate COVID-gathering-enforcement encounter rather than a protest and is not automatically E001. Okaz URL variants appear to be one story.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S009"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-02_E002"
+    ],
+    "required_followup": "Read the exact Okaz item if ordinary access is available and establish event identity, physical occurrence, date, venue and any relation to E001."
+  },
+  {
+    "gap_id": "saudi_arabia_2021-02_G008",
+    "type": "participants_threshold",
+    "description": "E002 reports several people in an enforcement encounter, not total crowd size; no evidence establishes a public meeting of at least 50.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S009"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-02_E002"
+    ],
+    "required_followup": "Seek event-specific attendance evidence. Do not convert the number of detained/referred individuals into a gathering-size estimate."
+  },
+  {
+    "gap_id": "saudi_arabia_2021-02_G009",
+    "type": "baseline",
+    "description": "Official baseline files, current universe/schema and the additional Coding Procedure remain pending; candidate records are provisional and have no official IDs.",
+    "source_ids": [],
+    "affected_candidates": [
+      "saudi_arabia_2021-02_E001",
+      "saudi_arabia_2021-02_E002"
+    ],
+    "required_followup": "Coordinator to complete official-baseline and procedure access/reconciliation before any official mapping or inclusion decision."
+  },
+  {
+    "gap_id": "saudi_arabia_2021-02_G010",
+    "type": "coverage_language_region_sector_window",
+    "description": "Twelve open-web searches covered Arabic and English broad and weekly windows, named Buraidah/Qassim and other sources, and a February–March continuity check; they are not systematic coverage of local/regional press archives, dialect/local-language sources, databases or social platforms and do not establish absence or exhaustiveness.",
+    "source_ids": [],
+    "affected_candidates": [
+      "saudi_arabia_2021-02_E001",
+      "saudi_arabia_2021-02_E002"
+    ],
+    "required_followup": "Independent review should consider Saudi regional archives and additional Arabic/local-source, labor and sector coverage, subject to ordinary public access and the fixed cutoff."
+  },
+  {
+    "gap_id": "saudi_arabia_2021-02_G011",
+    "type": "search_method",
+    "description": "S001 Al Alam stayed search_only because its source-specific access chain mechanically aborted before any body request was dispatched. There was no HTTP denial or observed Saudi URL access restriction; do not classify it as blocked or inaccessible.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-02_E001"
+    ],
+    "required_followup": "The body remains essential for occurrence, exact date, turnout, demand, source attribution and response verification. Reassess only in a separately authorized open phase using a fresh exact-URL receipt/manual review/current-input guard; this mechanical abort is not a denial."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "candidate_id": "FIN202102-E001",
+    "country": "Finland",
+    "ccode": "375",
+    "unit_month": "2021-02",
+    "title": "Helsinki February 14 Covid-restriction demonstrations at Citizens’ Square",
+    "start_date": "2021-02-14",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Kansalaistori (Citizens’ Square), Helsinki",
+    "scope": "Several separately notified gatherings are associated with this site and date; whether they constitute one or multiple event units remains unresolved.",
+    "organizer": "unknown",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Actual attendance is unknown. The prior saved Yle card describes twelve separately notified gatherings, not a count of participants; notices and legal group limits do not establish turnout.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_point_estimate": null,
+    "threshold_50_evidence": "No verified participant count establishes the 50-person threshold. Keep eligibility pending evidence; do not convert a search-result estimate or notification count into observed attendance.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "FIN202102-S001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "FIN202102-S001"
+        ],
+        "summary": "The saved January card for the exact contemporaneous Yle URL identifies the February 14 action; this dossier’s fresh request returned Cache miss."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "No physical endpoint was established."
+      },
+      "location": {
+        "source_ids": [
+          "FIN202102-S001"
+        ],
+        "summary": "The neighboring January source card’s saved body summary places the Covid-restriction demonstrations at Citizens’ Square in Helsinki."
+      },
+      "demands": {
+        "source_ids": [
+          "FIN202102-S001"
+        ],
+        "summary": "The saved body summary identifies protest against Covid restrictions; no demand wording was independently rechecked in this dossier."
+      },
+      "participants": {
+        "source_ids": [
+          "FIN202102-S001"
+        ],
+        "summary": "The saved summary reports separate notifications but no actual aggregate attendance. The threshold remains unresolved."
+      },
+      "episode_unit": {
+        "source_ids": [],
+        "summary": "Twelve separate notifications are reported, but available saved evidence does not resolve whether to code one local episode or multiple actions."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "finland-helsinki-citizens-square-covid-restrictions-2021-02-14",
+    "human_approved": false,
+    "notes": "Research candidate only. Source evidence is consulted from a saved neighboring-month card for the same exact article URL; no current-unit body was obtained. No official identifier or approval is implied.",
+    "open_questions": [
+      "Establish physical attendance and whether at least 50 people participated.",
+      "Resolve whether separately notified actions form one event unit or multiple units.",
+      "Identify organizer(s) and any event-specific demands from a contemporaneous body.",
+      "Establish physical endpoint and any state response from event-specific evidence."
+    ]
+  }
+]

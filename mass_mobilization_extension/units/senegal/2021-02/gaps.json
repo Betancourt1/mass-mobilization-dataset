@@ -1,0 +1,348 @@
+[
+  {
+    "gap_id": "SEN202102-G001",
+    "type": "demand_category",
+    "description": "The opened Sonko-home article establishes solidarity with Sonko after a gendarmerie summons, but does not itemize a demand directed to Senegal’s state. Police deployment and dispersal do not themselves establish the protesters’ demand.",
+    "source_ids": [
+      "SEN202102-S001"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E001"
+    ],
+    "required_followup": "Seek an independently readable contemporary account of participant statements or an organizer announcement; do not assign a state-target demand from the crowd or police response alone."
+  },
+  {
+    "gap_id": "SEN202102-G002",
+    "type": "participants",
+    "description": "Teranga News qualitatively says “thousands” arrived early, but gives no count or independent estimate and does not separate attendance at Sonko’s home from the march blocked on major roads.",
+    "source_ids": [
+      "SEN202102-S001"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E001"
+    ],
+    "required_followup": "Seek independently reported meeting-level attendance and exact site boundaries. Preserve participants_min/max as null until a count or defensible range is found."
+  },
+  {
+    "gap_id": "SEN202102-G003",
+    "type": "episode_unit",
+    "description": "The opened report combines a home gathering with police preventing a supporters’ march on major roads; it does not establish whether the procession was a separate event or how participants were distributed.",
+    "source_ids": [
+      "SEN202102-S001"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E001"
+    ],
+    "required_followup": "Compare additional contemporaneous accounts for times, sites and movement before splitting or grouping the home gathering and blocked march."
+  },
+  {
+    "gap_id": "SEN202102-G004",
+    "type": "dates",
+    "description": "Bignona titles identify demonstrations but do not verify whether events occurred on 8–9 February, the sequence, or any physical ending. Search-query dates are not event-date evidence.",
+    "source_ids": [
+      "SEN202102-S002",
+      "SEN202102-S003",
+      "SEN202102-S004"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E002"
+    ],
+    "required_followup": "Obtain body-level local reporting and verify dates, sequence and end; retain Bignona as a separate candidate from the Dakar home event."
+  },
+  {
+    "gap_id": "SEN202102-G005",
+    "type": "source_access",
+    "description": "Senegal body-access outcomes differ by source. S002’s local dispatch guard failed before any web request; S003 and S004 exact-URL attempts returned Cache miss before HTTP. No Senegal source denial was observed; no retry or alternate URL was used.",
+    "source_ids": [
+      "SEN202102-S002",
+      "SEN202102-S003",
+      "SEN202102-S004"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E002"
+    ],
+    "required_followup": "If a future access window is authorized, start a fresh successful exact-URL access-check and manual-review chain for each URL; do not treat the guard failure/cache misses as denials or reuse stale receipts."
+  },
+  {
+    "gap_id": "SEN202102-G006",
+    "type": "episode_unit",
+    "description": "Separate search titles describe a pro-Sonko demonstration with 45 arrests, a further demonstration, and “Résistance Sonko” with 21 arrests. Dates, sites and overlap are unknown; arrest numbers are not attendance.",
+    "source_ids": [
+      "SEN202102-S005",
+      "SEN202102-S006",
+      "SEN202102-S010"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E003",
+      "senegal_2021-02_E004",
+      "senegal_2021-02_E007"
+    ],
+    "required_followup": "Review article bodies and independent local coverage; compare exact date, site and event narrative before linking or splitting these title-level leads."
+  },
+  {
+    "gap_id": "SEN202102-G007",
+    "type": "dates",
+    "description": "The Parcelles Assainies title names a locality but its publication/event date and exact site were not verified. The late-February search window does not prove a 26 February event date.",
+    "source_ids": [
+      "SEN202102-S007"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E005"
+    ],
+    "required_followup": "Verify the publication date, event date and exact meeting site from a readable report; keep this lead separate until episode evidence supports a link."
+  },
+  {
+    "gap_id": "SEN202102-G008",
+    "type": "episode_unit",
+    "description": "A Place de l’Indépendance sit-in headline (S009) and separate Le Peuple plan/prohibition headlines (S011–S012) may concern different actions. No body evidence establishes execution or relation among them.",
+    "source_ids": [
+      "SEN202102-S009",
+      "SEN202102-S011",
+      "SEN202102-S012"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E006"
+    ],
+    "required_followup": "Review the three reports separately for date, organizer, execution and site; do not equate the titled sit-in with the announced or prohibited Le Peuple action."
+  },
+  {
+    "gap_id": "SEN202102-G009",
+    "type": "participants",
+    "description": "The Place de l’Indépendance headline names two arrests, while the “Résistance Sonko” title gives 21 arrests; neither arrest count measures the number present at a meeting.",
+    "source_ids": [
+      "SEN202102-S009",
+      "SEN202102-S010"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E006",
+      "senegal_2021-02_E007"
+    ],
+    "required_followup": "Find attendance evidence distinct from detentions, injuries or police totals; do not infer a qualifying crowd from arrest counts."
+  },
+  {
+    "gap_id": "SEN202102-G010",
+    "type": "dates",
+    "description": "The electricity-tariff alert names 15 and 21 February but the year, city, execution and meeting boundaries are unresolved.",
+    "source_ids": [
+      "SEN202102-S015"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E008"
+    ],
+    "required_followup": "Verify the alert’s year and original event reports, including whether any march occurred, where, on what date, and with what meeting-level attendance."
+  },
+  {
+    "gap_id": "SEN202102-G011",
+    "type": "episode_unit",
+    "description": "A search lead mentions 17 women being released after Sonko’s arrest, while nearby-result context raises a possible gathering; the title does not establish that the women formed a public meeting.",
+    "source_ids": [
+      "SEN202102-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check a readable original report for whether any public gathering occurred, where, and whether it was separate from other Sonko-affair actions. Do not treat 17 releases as turnout."
+  },
+  {
+    "gap_id": "SEN202102-G012",
+    "type": "source_access",
+    "description": "Search discovery returned an official journal PDF path and an indexed excerpt about order 002555 and a temporary assembly ban for Dakar and Thiès; the PDF body was not opened.",
+    "source_ids": [
+      "SEN202102-S016"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read the official instrument through a future authorized ordinary access chain; verify operative dates, geography, exceptions and scope before coding any legal response."
+  },
+  {
+    "gap_id": "SEN202102-G013",
+    "type": "source_access",
+    "description": "A WANEP Senegal PDF search result concerns recent manifestations, but its body and reporting period were not checked; it may be cross-month context rather than February evidence.",
+    "source_ids": [
+      "SEN202102-S017"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify the report’s publication date and reporting window from its body; use it for this unit only if it explicitly documents a February event."
+  },
+  {
+    "gap_id": "SEN202102-G014",
+    "type": "language",
+    "description": "Search coverage was predominantly French and included one Wolof-oriented query whose saved results were French-language; no human translation review or substantive Wolof/regional-language corpus was obtained.",
+    "source_ids": [
+      "SEN202102-S001",
+      "SEN202102-S002",
+      "SEN202102-S003",
+      "SEN202102-S004",
+      "SEN202102-S005",
+      "SEN202102-S006",
+      "SEN202102-S007",
+      "SEN202102-S008",
+      "SEN202102-S009",
+      "SEN202102-S010",
+      "SEN202102-S011",
+      "SEN202102-S012",
+      "SEN202102-S013",
+      "SEN202102-S014",
+      "SEN202102-S015",
+      "SEN202102-S016",
+      "SEN202102-S017",
+      "SEN202102-S018"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E001",
+      "senegal_2021-02_E002",
+      "senegal_2021-02_E003",
+      "senegal_2021-02_E004",
+      "senegal_2021-02_E005",
+      "senegal_2021-02_E006",
+      "senegal_2021-02_E007",
+      "senegal_2021-02_E008"
+    ],
+    "required_followup": "Seek independent local reporting in French and relevant local languages, including human-reviewed Wolof and regional-language material where available; record translation limits."
+  },
+  {
+    "gap_id": "SEN202102-G015",
+    "type": "coverage",
+    "description": "The 23 captured searches produced 537 result headers and 18 source cards, with uneven geographic and sector coverage. Sonko-affair headlines dominate; local archives and independent original reporting remain limited, and most cards remain search-only.",
+    "source_ids": [
+      "SEN202102-S001",
+      "SEN202102-S002",
+      "SEN202102-S003",
+      "SEN202102-S004",
+      "SEN202102-S005",
+      "SEN202102-S006",
+      "SEN202102-S007",
+      "SEN202102-S008",
+      "SEN202102-S009",
+      "SEN202102-S010",
+      "SEN202102-S011",
+      "SEN202102-S012",
+      "SEN202102-S013",
+      "SEN202102-S014",
+      "SEN202102-S015",
+      "SEN202102-S016",
+      "SEN202102-S017",
+      "SEN202102-S018"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E001",
+      "senegal_2021-02_E002",
+      "senegal_2021-02_E003",
+      "senegal_2021-02_E004",
+      "senegal_2021-02_E005",
+      "senegal_2021-02_E006",
+      "senegal_2021-02_E007",
+      "senegal_2021-02_E008"
+    ],
+    "required_followup": "Extend with independently produced local coverage across regions and sectors, then check each lead against event date, public-meeting form, attendance and a state-directed demand."
+  },
+  {
+    "gap_id": "SEN202102-G016",
+    "type": "episode_unit",
+    "description": "No saved February source establishes physical continuation from a January Senegal candidate; the March-focused CIVICUS result is a boundary lead, not a February event. No continuation is coded.",
+    "source_ids": [
+      "SEN202102-S001",
+      "SEN202102-S018"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E001",
+      "senegal_2021-02_E002",
+      "senegal_2021-02_E003",
+      "senegal_2021-02_E004",
+      "senegal_2021-02_E005",
+      "senegal_2021-02_E006",
+      "senegal_2021-02_E007",
+      "senegal_2021-02_E008"
+    ],
+    "required_followup": "Use physical dates, demands and participants to assess any cross-month relationship. Keep March aftermath outside this unit unless a source explicitly documents a February event."
+  },
+  {
+    "gap_id": "SEN202102-G017",
+    "type": "baseline",
+    "description": "The official latest baseline and any coordinator-resolved current schema remain pending, so these candidates are not assigned official MM IDs or exported.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to verify the official baseline and coding-procedure gate before any integration or official eligibility decision."
+  },
+  {
+    "gap_id": "SEN202102-G018",
+    "type": "source_independence",
+    "description": "Only SEN202102-S001 was opened, and no second independently produced account was read. The candidate sources S002–S004 include two Teranga News titles and one EnQuete+ title, but their bodies and reporting origins were not checked. Different publisher names alone do not establish independent reporting; no wire agency, syndication relationship, or original reporting origin is established for these leads.",
+    "source_ids": [
+      "SEN202102-S001",
+      "SEN202102-S002",
+      "SEN202102-S003",
+      "SEN202102-S004",
+      "SEN202102-S005",
+      "SEN202102-S006",
+      "SEN202102-S007",
+      "SEN202102-S009",
+      "SEN202102-S010",
+      "SEN202102-S015"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E001",
+      "senegal_2021-02_E002",
+      "senegal_2021-02_E003",
+      "senegal_2021-02_E004",
+      "senegal_2021-02_E005",
+      "senegal_2021-02_E006",
+      "senegal_2021-02_E007",
+      "senegal_2021-02_E008"
+    ],
+    "required_followup": "In a newly authorized source-access phase, compare independently produced contemporaneous accounts and record origin or syndication evidence for each apparent corroboration; keep independence unknown when provenance is not established."
+  },
+  {
+    "gap_id": "SEN202102-G019",
+    "type": "state_response",
+    "description": "For E001, the opened Teranga News report supports arrests=yes and crowd_dispersal=yes. Accommodation, beatings, ignore, killings, and firearm shootings remain unknown. For E002–E008, title-only material does not support any of the seven response fields, which all remain unknown. The report does not resolve whether the road-blocking and home-gathering response concerned one or linked actions.",
+    "source_ids": [
+      "SEN202102-S001",
+      "SEN202102-S002",
+      "SEN202102-S003",
+      "SEN202102-S004",
+      "SEN202102-S005",
+      "SEN202102-S006",
+      "SEN202102-S007",
+      "SEN202102-S009",
+      "SEN202102-S010",
+      "SEN202102-S015"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E001",
+      "senegal_2021-02_E002",
+      "senegal_2021-02_E003",
+      "senegal_2021-02_E004",
+      "senegal_2021-02_E005",
+      "senegal_2021-02_E006",
+      "senegal_2021-02_E007",
+      "senegal_2021-02_E008"
+    ],
+    "required_followup": "Use body-level accounts to attribute each response dimension to a specific gathering and timeline. Do not infer ignore, no response, beatings, killings, or shootings from silence, injuries, or tear gas."
+  },
+  {
+    "gap_id": "SEN202102-G020",
+    "type": "violence_casualties",
+    "description": "Protester violence remains unknown for all eight candidates. E001’s body does not establish violence by supporters; the Bignona title describing demonstrations as violent does not identify the actor or provide body evidence. Injury and property-damage headlines cannot establish who caused harm or whether it occurred at one meeting.",
+    "source_ids": [
+      "SEN202102-S001",
+      "SEN202102-S002",
+      "SEN202102-S003",
+      "SEN202102-S004",
+      "SEN202102-S005",
+      "SEN202102-S006",
+      "SEN202102-S007",
+      "SEN202102-S009",
+      "SEN202102-S010",
+      "SEN202102-S015"
+    ],
+    "affected_candidates": [
+      "senegal_2021-02_E001",
+      "senegal_2021-02_E002",
+      "senegal_2021-02_E003",
+      "senegal_2021-02_E004",
+      "senegal_2021-02_E005",
+      "senegal_2021-02_E006",
+      "senegal_2021-02_E007",
+      "senegal_2021-02_E008"
+    ],
+    "required_followup": "Check actor-specific body accounts for each lead; distinguish participant acts from police/state actions and harm to others. Keep the value unknown where an account is silent or ambiguous."
+  }
+]

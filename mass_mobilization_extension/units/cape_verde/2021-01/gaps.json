@@ -1,0 +1,156 @@
+[
+  {
+    "gap_id": "CV202101-G001",
+    "type": "baseline",
+    "description": "Official latest dataset bytes, schema and country universe remain unverified. Code402 is provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve official baseline gate before official IDs or merging."
+  },
+  {
+    "gap_id": "CV202101-G002",
+    "type": "search_method",
+    "description": "Open web differs from LexisNexis. Weekly date operators returned unrelated years; per-query totals unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use licensed archives and an approved coverage protocol before any absence claim."
+  },
+  {
+    "gap_id": "CV202101-G003",
+    "type": "language",
+    "description": "English, Portuguese and Kriolu spelling/slogan probes were run. No unique Kriolu article was recovered; no fluent local review.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Obtain native-language review and local archives. Actual empty queryQ051 is preserved."
+  },
+  {
+    "gap_id": "CV202101-G004",
+    "type": "participants",
+    "description": "Actual cultural protest attendance is unknown. PANA's several-dozen search text cannot safely verify>=50.",
+    "source_ids": [
+      "CV202101-S004",
+      "CV202101-S010"
+    ],
+    "affected_candidates": [
+      "CV202101-E001"
+    ],
+    "required_followup": "Recover legitimate accessible contemporary attendance evidence."
+  },
+  {
+    "gap_id": "CV202101-G005",
+    "type": "episode_unit",
+    "description": "The Oct2020/Jan2021 cultural actions and Jan/Mar/Apr INE manifestations have unresolved campaign episode boundaries.",
+    "source_ids": [
+      "CV202101-S002",
+      "CV202101-S034"
+    ],
+    "affected_candidates": [
+      "CV202101-E001",
+      "CV202101-E002"
+    ],
+    "required_followup": "Apply the missing original additional Coding Procedure; new dates or hiatuses alone do not establish separate units."
+  },
+  {
+    "gap_id": "CV202101-G006",
+    "type": "dates",
+    "description": "Neither January assembly has a documented physical end.",
+    "source_ids": [
+      "CV202101-S004",
+      "CV202101-S027",
+      "CV202101-S032"
+    ],
+    "affected_candidates": [
+      "CV202101-E001",
+      "CV202101-E002"
+    ],
+    "required_followup": "Find actual ending or dispersal reports; do not substitute publication dates, deadlines or last reports."
+  },
+  {
+    "gap_id": "CV202101-G007",
+    "type": "state_response",
+    "description": "Cultural minister criticism, aid and rule changes do not establish formal reception or specific demand satisfaction attributable to this protest.",
+    "source_ids": [
+      "CV202101-S009",
+      "CV202101-S028"
+    ],
+    "affected_candidates": [
+      "CV202101-E001"
+    ],
+    "required_followup": "Check leadership reception, negotiations or a specific demand met. Preserve official attribution."
+  },
+  {
+    "gap_id": "CV202101-G008",
+    "type": "source_access",
+    "description": "PANA ordinary HTTPS returned403, respected. Some sources remain search-only after tool failures.",
+    "source_ids": [
+      "CV202101-S001",
+      "CV202101-S010",
+      "CV202101-S011",
+      "CV202101-S018",
+      "CV202101-S035"
+    ],
+    "affected_candidates": [
+      "CV202101-E001",
+      "CV202101-E002"
+    ],
+    "required_followup": "Use legitimately accessible archives; do not bypass access denial or infer opened bodies."
+  },
+  {
+    "gap_id": "CV202101-G009",
+    "type": "coverage",
+    "description": "Island probes included Santiago, São Vicente, Santo Antão, Sal, Boa Vista, Fogo, Brava, Maio and São Nicolau. Event bodies confirm Praia and Mindelo only.",
+    "source_ids": [
+      "CV202101-S002",
+      "CV202101-S027"
+    ],
+    "affected_candidates": [
+      "CV202101-E001"
+    ],
+    "required_followup": "Review local archives. Other announced venues remain unverified; no exhaustive coverage claim."
+  },
+  {
+    "gap_id": "CV202101-G010",
+    "type": "source_independence",
+    "description": "Shared origins include Lusa republications and Rádio Morabeza published by Expresso. Reading lists are discovery aids.",
+    "source_ids": [
+      "CV202101-S005",
+      "CV202101-S020",
+      "CV202101-S031",
+      "CV202101-S032"
+    ],
+    "affected_candidates": [
+      "CV202101-E002"
+    ],
+    "required_followup": "Track agency origins and distinguish editorial republication from independent confirmation."
+  },
+  {
+    "gap_id": "CV202101-G011",
+    "type": "state_response",
+    "description": "INE official newsletter confirms the requested staff statute publication. Six other responses and the exact cancelled-strike agreement remain unknown.",
+    "source_ids": [
+      "CV202101-S030",
+      "CV202101-S032",
+      "CV202101-S034"
+    ],
+    "affected_candidates": [
+      "CV202101-E002"
+    ],
+    "required_followup": "Check the original Portaria11/2021 and contemporary agreement; policy satisfaction does not establish physical protest end."
+  },
+  {
+    "gap_id": "CV202101-G012",
+    "type": "continuity",
+    "description": "December INE threat, cancelled February3 strike and October cultural action were checked as context. No continuous earlier physical start established.",
+    "source_ids": [
+      "CV202101-S002",
+      "CV202101-S029",
+      "CV202101-S034",
+      "CV202101-S035"
+    ],
+    "affected_candidates": [
+      "CV202101-E001",
+      "CV202101-E002"
+    ],
+    "required_followup": "Coordinate neighboring months. Keep continuations empty unless evidence establishes an earlier physical start."
+  }
+]

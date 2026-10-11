@@ -1,0 +1,84 @@
+[
+  {
+    "gap_id": "botswana_2021-02_G001",
+    "type": "participants_dates_episode_unit",
+    "description": "The opened article reports a heated Mathangwane kgotla meeting after an early-January crossing closure, but dates it only as 'recently' in a 16 February article. It reports a 'hostile crowd' without a simultaneous count; 63 affected farmers are not attendance. Whether this was a mobilized public protest and whether its onset belongs to January or February remain unresolved.",
+    "source_ids": [
+      "botswana_2021-02_S001"
+    ],
+    "affected_candidates": [
+      "botswana_2021-02_E001"
+    ],
+    "required_followup": "Seek contemporaneous reports or local records for the exact meeting date, public/protest character, simultaneous attendance and convenor; then assign the onset month without splitting the underlying closure from the meeting. Keep threshold, unit, and eligibility pending until supported."
+  },
+  {
+    "gap_id": "botswana_2021-02_G002",
+    "type": "source_access_history",
+    "description": "The exact The Voice BW URL initially produced two web.open timeouts and an ordinary HTTPS DNS error. After fresh access checks and review of the exact card, an unauthenticated HTTPS GET without redirects succeeded (HTTP 200) and the article body was read. No publisher denial or source-scope hold was observed; the earlier technical failures remain preserved in source attempt history and receipts.",
+    "source_ids": [
+      "botswana_2021-02_S001"
+    ],
+    "affected_candidates": [
+      "botswana_2021-02_E001"
+    ],
+    "required_followup": "No additional retrieval required for this URL; preserve the recorded failures and successful read as separate outcomes. Independent contemporaneous corroboration remains open under G001."
+  },
+  {
+    "gap_id": "botswana_2021-02_G003",
+    "type": "language_coverage",
+    "description": "Setswana discovery searches were attempted using boipelaetso, ditshupetso, go ipelaetsa and Tlhakole, but no fluent Setswana reviewer or systematic local-language archive search was available.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Have a fluent Setswana researcher validate terminology and search relevant local records if available; do not treat the current limited queries as language-complete."
+  },
+  {
+    "gap_id": "botswana_2021-02_G004",
+    "type": "search_method_coverage",
+    "description": "Forty actual open-web search actions covered broad and weekly windows, regional and sector terms, local publishers and January/March boundaries. Q001 and Q002 are the same accidental duplicate. Search indexing is noisy and cannot reproduce LexisNexis or establish absence/exhaustiveness.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use approved systematic archives and additional local source collections if available; keep the dossier as an open-web first pass and do not code protest=0 from non-discovery."
+  },
+  {
+    "gap_id": "botswana_2021-02_G005",
+    "type": "source_independence",
+    "description": "Only one contemporaneous article supports the Mathangwane meeting candidate. Search-result duplicates and reprints are not independent corroboration.",
+    "source_ids": [
+      "botswana_2021-02_S001"
+    ],
+    "affected_candidates": [
+      "botswana_2021-02_E001"
+    ],
+    "required_followup": "Seek a separate contemporaneous source or local record for the meeting, date, turnout, organizer and crossing response before any eligibility decision."
+  },
+  {
+    "gap_id": "botswana_2021-02_G006",
+    "type": "dates_episode_threshold",
+    "description": "A 2023 retrospective says the Kgatleng Main Land Board imposed a moratorium in February 2021 and that the Ministry had heard about unspecified kgotla meetings where the issue was discussed. It gives no dates, attendance, organizer or evidence those meetings were protest assemblies; the separately dated 5 March 2021 item is a letter.",
+    "source_ids": [
+      "botswana_2021-02_S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek contemporaneous records for any Kgatleng kgotla gathering during February, with date, public protest character, attendance, convenor and policy demand. Do not create an event from the land-board moratorium or letter alone."
+  },
+  {
+    "gap_id": "botswana_2021-02_G007",
+    "type": "source_access",
+    "description": "The Mmegi BOFEPUSU rightsizing article is only partially accessible: the page showed its title, date and two paragraphs, then an explicit login/premium-content prompt. No access denial beyond that source-side paywall prompt was observed, and no attempt was made to log in or retrieve the remainder.",
+    "source_ids": [
+      "botswana_2021-02_S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not bypass the paywall. If an independently authorized copy or institutional subscription becomes available, review it for any actual public assembly; until then retain it as a blocked discovery lead."
+  },
+  {
+    "gap_id": "botswana_2021-02_G008",
+    "type": "source_access",
+    "description": "The Botswana Gazette student-allowance article search result appeared relevant to tertiary student policy, but opening the exact URL returned an anti-bot verification interstitial. Its article body was not read; no challenge or access restriction was bypassed.",
+    "source_ids": [
+      "botswana_2021-02_S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If the article later becomes accessible through ordinary permitted open-web access, review it for a reported public assembly; otherwise leave the discovery unclassified."
+  }
+]

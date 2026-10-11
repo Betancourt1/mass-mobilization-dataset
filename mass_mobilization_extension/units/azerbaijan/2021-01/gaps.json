@@ -1,0 +1,234 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "participants threshold",
+    "description": "No crowd count for the January25–27 burial protests. The numbers17/18 refer to deceased soldiers. January5 reports describe five families, without simultaneous attendance.",
+    "source_ids": [
+      "S013",
+      "S020",
+      "S026",
+      "S027",
+      "S039"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E001",
+      "azerbaijan_2021-01_E002"
+    ],
+    "required_followup": "Find a verified physical crowd count or clear qualitative evidence of at least50. Never multiply family counts."
+  },
+  {
+    "gap_id": "G002",
+    "type": "episode_unit continuity dates",
+    "description": "January5 and January25–27 share a burial grievance; continuous occupation is unproven. E001 groups25/26/27 provisionally. Earlier months of appeals do not date the start of a public gathering.",
+    "source_ids": [
+      "S013",
+      "S020",
+      "S026",
+      "S039"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E001",
+      "azerbaijan_2021-01_E002"
+    ],
+    "required_followup": "Compare original actions and dates; decide local episode boundaries and monthly ownership before merging or splitting."
+  },
+  {
+    "gap_id": "G003",
+    "type": "dates event_end",
+    "description": "Physical ends remain unknown for all candidates. January30 reburial is aftermath, not protest closure. A January28 return was announced but occurrence is unverified.",
+    "source_ids": [
+      "S013",
+      "S027"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E001",
+      "azerbaijan_2021-01_E002",
+      "azerbaijan_2021-01_E003"
+    ],
+    "required_followup": "Recover physical-end evidence and verify the January28 gathering independently."
+  },
+  {
+    "gap_id": "G004",
+    "type": "source_access unverified_lead",
+    "description": "The January5 and Drmbon leads rely on search excerpts or blocked sources. Ordinary HTTPS returned403 for OC Media, Oxu, Publika and Bavnews; attempts stopped. Pressklub returned200 and was read.",
+    "source_ids": [
+      "S012",
+      "S026",
+      "S028",
+      "S031",
+      "S032",
+      "S039",
+      "S020"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E002",
+      "azerbaijan_2021-01_E003"
+    ],
+    "required_followup": "Find lawful original or archived copies and other contemporary coverage; verify substantive fields from opened evidence."
+  },
+  {
+    "gap_id": "G005",
+    "type": "state_target territorial_coding",
+    "description": "Drmbon excerpts describe demands to Russian peacekeepers. A foreign-state-only target would be excluded. A domestic state-policy target and territorial assignment remain unresolved.",
+    "source_ids": [
+      "S014",
+      "S028",
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S034"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E003"
+    ],
+    "required_followup": "Read the original mayor statement or petition; establish demand recipient and consult official territorial coding before eligibility review."
+  },
+  {
+    "gap_id": "G006",
+    "type": "participants dates",
+    "description": "Drmbon attendance and physical end are unreported. January18 start comes from excerpts; January19 publication does not automatically date the action.",
+    "source_ids": [
+      "S031",
+      "S032",
+      "S035"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E003"
+    ],
+    "required_followup": "Read original report/video to verify public attendance, start and end."
+  },
+  {
+    "gap_id": "G007",
+    "type": "state_response protester_violence",
+    "description": "E001 documents police prevention and official reception on January27; other responses and protester violence are unknown. Other candidates lack opened response evidence.",
+    "source_ids": [
+      "S013",
+      "S026",
+      "S039"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E001",
+      "azerbaijan_2021-01_E002",
+      "azerbaijan_2021-01_E003"
+    ],
+    "required_followup": "Follow event-specific reporting; preserve unknown rather than ignore and keep war casualties separate."
+  },
+  {
+    "gap_id": "G008",
+    "type": "contested_evidence aftermath",
+    "description": "Families reported flooded graves; January30 APA reports no seepage at opening. Earlier17 deceased and18 reburied may have different scope.",
+    "source_ids": [
+      "S013",
+      "S020",
+      "S027"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E001"
+    ],
+    "required_followup": "Compare named people, dated statements and official decisions; preserve the attributed conflict."
+  },
+  {
+    "gap_id": "G009",
+    "type": "source_independence agency_dependency",
+    "description": "Several Drmbon stories appear based on one Armenpress mayor interview. January5 Oxu/Qafqazinfo/Publika share a ministry narrative. The SAR mirror repeats the same publication.",
+    "source_ids": [
+      "S026",
+      "S031",
+      "S034",
+      "S036",
+      "S037",
+      "S039"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E002",
+      "azerbaijan_2021-01_E003"
+    ],
+    "required_followup": "Trace original reports and shared statements; count independent reporting separately from source cards."
+  },
+  {
+    "gap_id": "G010",
+    "type": "coverage regional",
+    "description": "Regional probes covered Baku, Ganja, Sumqayit, Nakhchivan and Lankaran/Quba. Rural districts and Karabakh administration remain poorly covered. Search silence does not establish absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search contemporary archives for Mingachevir, Shirvan, Shaki, Zaqatala, Masalli, Astara, Imishli, Sabirabad, Shamakhi and other districts."
+  },
+  {
+    "gap_id": "G011",
+    "type": "language coverage",
+    "description": "Azerbaijani, Russian and English queries were performed. Armenian and French Drmbon results were incidental, without systematic language coverage. No Talysh or Lezgian archive was reviewed.",
+    "source_ids": [],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E001",
+      "azerbaijan_2021-01_E002",
+      "azerbaijan_2021-01_E003"
+    ],
+    "required_followup": "Obtain linguistic review and targeted local/Armenian archives for ambiguous dates, demands and territorial assignment."
+  },
+  {
+    "gap_id": "G012",
+    "type": "search_method temporal_filter archives",
+    "description": "General, weekly, sector and boundary open-web searches frequently returned other years or Armenian events. No systematic LexisNexis/Factiva or equivalent newspaper archive was available.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Repeat poorly indexed weeks through systematic dated archives; do not create protest=0 from silence."
+  },
+  {
+    "gap_id": "G013",
+    "type": "baseline protocol",
+    "description": "The May2015 manual was read. Official current dataset bytes, schema, universe and additional Coding Procedure remain unverified. Provisional code373 does not resolve territorial coding.",
+    "source_ids": [],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E001",
+      "azerbaijan_2021-01_E002",
+      "azerbaijan_2021-01_E003"
+    ],
+    "required_followup": "Coordinator verifies official files and supplementary rules and calibrates before official export or identifiers."
+  },
+  {
+    "gap_id": "G014",
+    "type": "episode_unit boundaries source_access",
+    "description": "Boundary searches establish no December public start. February1 Lankaran and February8 AzTV belong outside January. February23 Drmbon retrospective reporting does not prove a continuing blockade.",
+    "source_ids": [
+      "S018",
+      "S022",
+      "S023",
+      "S034",
+      "S036"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2021-01_E001",
+      "azerbaijan_2021-01_E003"
+    ],
+    "required_followup": "Route February leads to the appropriate unit and compare earlier public activity without automatic monthly splitting."
+  },
+  {
+    "gap_id": "G015",
+    "type": "source_access coverage",
+    "description": "Contextual annual reports, Friday wrap-up, online donation discussion, political letter and anniversary originals remain unopened or blocked; they are not occurrence proof.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S017",
+      "S019",
+      "S021",
+      "S024"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read full reports and follow bibliographies for additional January gatherings; keep snippet-only claims pending."
+  },
+  {
+    "gap_id": "G016",
+    "type": "source_access timing_provenance",
+    "description": "Query timestamps are UTC clock samples immediately before grouped dispatch; individual execution latency is unknown. Exact opening and task-start times were not captured; those timestamps remain null.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use query order, references and assignment time as provenance; capture actual future access times instead of reconstructing them."
+  }
+]
