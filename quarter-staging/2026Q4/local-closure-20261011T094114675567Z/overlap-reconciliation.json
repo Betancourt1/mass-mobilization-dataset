@@ -1,0 +1,95 @@
+{
+  "quarter": "2026Q4",
+  "status": "PROVENANCE_RECONCILED_WITH_PARTIAL_RECOVERY_AND_UNRECOVERABLE_GAPS",
+  "review_authorization": "Explicit parent instruction to reconcile own-partition overlap received 2026-10-11",
+  "collided_units": [
+    "argentina_2026-10",
+    "armenia_2026-10",
+    "austria_2026-10"
+  ],
+  "collided_unit_count": 3,
+  "current_country_evidence_files_in_collided_directories": 4,
+  "predecessor_note_versions_not_available_as_exact_bytes": 2,
+  "predecessor_missing_paths": [
+    "argentina_2026-10/discovery-notes.md (afghanistan researcher version)",
+    "armenia_2026-10/discovery-notes.md (algeria researcher version)"
+  ],
+  "overwrite_assessment": "Argentina predecessor researcher reports overwrite; Armenia earlier authoring is reported, but reconstruction receipt cannot confirm the original shared path. Creating researcher did not inspect prior existence; exact pre-write files/hashes absent. Two predecessor note versions are unavailable as exact bytes; distinguish missing versions from proven overwrite history.",
+  "austria_assessment": "Two separate note filenames coexist; no overwritten Austria evidence demonstrated. Preserve both query sets and announced-only leads.",
+  "additional_misassignment_without_current_collision": "azerbaijan_2026-10; original researcher work retained and exclusive ownership reconciled",
+  "incorrect_scheduling_record_count": 1,
+  "preserved_file_count": 21,
+  "preservation_manifest": "integrity-preservation/overlap-snapshot-20261011T0314Z/PRESERVATION_MANIFEST.json",
+  "author_copy_byte_checks": [
+    {
+      "saved_current_path": "argentina_2026-10/discovery-notes.md",
+      "author_copy_path": "lane-1-only-recovery/argentina_2026-10-overlap.md",
+      "saved_current_sha256": "f735145b3451aa16c88376020d51767731666ee17b0237a0e1b5fc634dd4e933",
+      "author_copy_sha256": "f735145b3451aa16c88376020d51767731666ee17b0237a0e1b5fc634dd4e933",
+      "byte_identical": true
+    },
+    {
+      "saved_current_path": "armenia_2026-10/discovery-notes.md",
+      "author_copy_path": "lane-1-only-recovery/armenia_2026-10-lane1.md",
+      "saved_current_sha256": "fb95d44fda1d667da127097d434d01704a014e5e26b7f767d4ba7fa6532a5da2",
+      "author_copy_sha256": "fb95d44fda1d667da127097d434d01704a014e5e26b7f767d4ba7fa6532a5da2",
+      "byte_identical": true
+    },
+    {
+      "saved_current_path": "austria_2026-10/discovery-notes.md",
+      "author_copy_path": "lane-1-only-recovery/austria_2026-10-overlap.md",
+      "saved_current_sha256": "a58ee13869a14301e893ffeb4e7ec4a783c11d7a23899e030f9d6edf11252bfc",
+      "author_copy_sha256": "a58ee13869a14301e893ffeb4e7ec4a783c11d7a23899e030f9d6edf11252bfc",
+      "byte_identical": true
+    },
+    {
+      "saved_current_path": "azerbaijan_2026-10/discovery-notes.md",
+      "author_copy_path": "lane-1-only-recovery/azerbaijan_2026-10-overlap.md",
+      "saved_current_sha256": "5d7129d74b9d7951bebbd73f6debc89eaf519fb7be7db422be96e78dc24cb5e6",
+      "author_copy_sha256": "5d7129d74b9d7951bebbd73f6debc89eaf519fb7be7db422be96e78dc24cb5e6",
+      "byte_identical": true
+    },
+    {
+      "saved_current_path": "lane-1-progress.json",
+      "author_copy_path": "lane-1-only-recovery/lane-1-progress-mistaken.json",
+      "saved_current_sha256": "33d84d69b38a1549dccb89e7dd2fe1684da0c45425194a00cc4c994d4bc318a8",
+      "author_copy_sha256": "33d84d69b38a1549dccb89e7dd2fe1684da0c45425194a00cc4c994d4bc318a8",
+      "byte_identical": true
+    }
+  ],
+  "reconstruction_limits": {
+    "argentina": "Own-session reconstruction of earlier one-query search-index-mismatch pass; original file bytes/formatting/metadata unavailable. No original verified candidate reported.",
+    "armenia": "Own-session reconstruction of earlier no-hit pass; possible omitted transcript material and original bytes unavailable. No original verified candidate reported."
+  },
+  "source_response_limits": "Full original managed-response blobs were not stored in these notes; tool refs and necessary excerpts/queries persist where recorded. Unknown omissions are not replaced by presumed-original content.",
+  "canonical_consolidation_performed": false,
+  "formal_completion_blocked_for_collided_units": true,
+  "all_formal_completed_units": 0,
+  "updated_at_utc": "2026-10-11T03:16:35.363664+00:00",
+  "receipt_manifest": "integrity-preservation/recovery-receipts-20261011/RECEIPT_MANIFEST.json",
+  "preserved_file_count_including_receipts": 23,
+  "query_and_result_reconciliation": {
+    "argentina_2026-10": {
+      "earlier_pass": "One broad query; El Miercoles Digital archive result search/open mismatch; exact snippet wording unavailable; no verified candidate reported",
+      "later_pass": "Distinct date/outlet searches; opened La Nacion Oct 6 gathering report and CTA/El retrato advance notices; original earlier query/result not duplicated in later notes",
+      "preservation_status": "Later authored note/copy byte-identical; earlier note session-reconstructed only",
+      "unrecoverable_known": "Original predecessor file bytes, metadata and exact search snippet wording; unrecorded raw response text",
+      "unknown_loss": "Any omitted predecessor note/raw result content cannot be ruled out",
+      "formal_completion_blocked": true
+    },
+    "armenia_2026-10": {
+      "earlier_pass": "One broad English/Armenian query; unrelated Facebook result turn33search0; exact result URL/snippet missing; no verified candidate reported",
+      "later_pass": "Distinct localized/date/outlet searches; opened Sputnik Oct 2 NSS protest and limited Newsflare page",
+      "preservation_status": "Later authored note/copy byte-identical; earlier content reconstructed with omissions flagged and possible original path unverified",
+      "unrecoverable_known": "Predecessor exact bytes/checksum/filesystem metadata and Facebook result URL/snippet",
+      "unknown_loss": "Any omitted session/result content cannot be ruled out",
+      "formal_completion_blocked": true
+    },
+    "austria_2026-10": {
+      "earlier_and_later_passes": "Two independently authored notes coexist under README.md and discovery-notes.md; distinct recorded query sequences",
+      "candidate_reconciliation": "One pass found no candidate; other preserved two announced demonstrations and failed to confirm occurrence. These outcomes reflect different searches, not established event absence/occurrence",
+      "preservation_status": "Both existing files preserved with hashes; recovery copy of discovery-notes.md is byte-identical; no lost Austria file version demonstrated",
+      "formal_completion_blocked": true
+    }
+  }
+}

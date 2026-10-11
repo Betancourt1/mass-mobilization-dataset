@@ -1,0 +1,15 @@
+# Mass Mobilization 2026Q4 — discovery staging
+
+Owned scope: the 160 inherited country labels in the audited supplied handoff, October 1–7, 2026 inclusive, cutoff timezone America/Mexico_City. The partial-quarter batch contains four country-month units, not twelve future-inclusive units.
+
+This isolated directory preserves new public discovery. It does not contain migrated original evidence or canonical dataset records. The audited handoff is the current eligibility inventory; annual/local threads remain stopped. The portable scientific kit has not yet been received. Source reports and candidate classifications here are provisional, with no formal validation or official completion claims.
+
+`setup-checkpoint.json` records configuration and actual initiation; `discovery-queue.json` records the 40 batches; `coordinator-progress.json` records scheduling reports only. Four researchers have exclusive lane indexes 0–3 through batches 2–40, after the initial four-country batch. Each researcher writes only its country directories and its own lane progress file. The coordinator does not conduct scientific peer review.
+
+Country notes preserve exact search queries, retrieval times or their explicit approximation limits, URLs, publication and alleged event dates, short necessary excerpts, managed-tool provenance, access failures, and unresolved leads. A bounded search without matching results is not evidence that no event occurred. An announced event is not proof that it was held. Public civic gatherings remain provisional until inclusion rules are applied. Real access denials are respected.
+
+No Git mutation, publication, official registration, original evidence transfer, network/credential/permission change, automation, or scheduled continuation is authorized here. Model settings are recorded with verification limits; the effective coordinator runtime is not independently inspectable.
+
+Integrity incident: initial index ambiguity caused overlapping researcher writes in Argentina, Armenia and Austria. Parent explicitly authorized own-partition integrity reconciliation. Current files and author recovery copies were preserved before reconciliation; see `overlap-reconciliation.json` and `integrity-preservation/overlap-snapshot-20261011T0314Z/PRESERVATION_MANIFEST.json`. Two predecessor notes lack exact-byte recovery; reconstructions must never be treated as original evidence. All new writes use literal exclusive scope files and separate researcher roots. The kit failed official materialization twice; see `kit-materialization-blocker.json`.
+
+Final bounded-discovery checkpoint: 160 unique country units map to 160 existing primary note paths, with no missing or duplicate mapped units. These are discovery artifacts, not completed scientific first passes. See `discovery-staging-index.json`; every entry remains unvalidated. The three integrity-hold units stay blocked for formal completion, and missing predecessor material remains explicitly unrecoverable. All four researcher queues have ended; no automatic or scheduled continuation was created. Existing authorization for new-unit work remains recorded.

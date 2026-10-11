@@ -1,0 +1,70 @@
+{
+  "quarter": "2026Q4",
+  "state": "RUNNING_NEW_UNITS",
+  "phase": "BOUNDED_DISCOVERY_PASS_SAVED_CANONICAL_KIT_BLOCKED",
+  "scope_start": "2026-10-01",
+  "scope_end": "2026-10-07",
+  "cutoff_timezone": "America/Mexico_City",
+  "country_units_with_existing_staged_primary_notes": 160,
+  "formally_completed_firstpass_units": 0,
+  "batch_count": 40,
+  "elapsed_units_per_batch": 4,
+  "research_workers_active": false,
+  "research_allowed": true,
+  "automatic_resume": false,
+  "evidence_complete": false,
+  "kit_error_exact": "library file transfer failed: download failed",
+  "kit_materialization_attempts": 2,
+  "kit_zip_exists": false,
+  "kit_sha256_verified": false,
+  "kit_manifest_verified": false,
+  "verify_kit_executed": false,
+  "init_quarter_executed": false,
+  "integrity": {
+    "affected_units": 3,
+    "retained_current_country_files_in_affected_directories": 4,
+    "predecessor_note_versions_lacking_exact_byte_recovery": 2,
+    "preserved_files_and_receipts": 23,
+    "formal_completion_holds": [
+      "argentina_2026-10",
+      "armenia_2026-10",
+      "austria_2026-10"
+    ],
+    "reconstructions_are_not_originals": true
+  },
+  "original_evidence_migration_performed": false,
+  "official_dataset_writes": false,
+  "git_writes_or_pushes": false,
+  "network_credential_or_permission_changes": false,
+  "checkpoint_artifacts": [
+    {
+      "relative_path": "setup-checkpoint.json",
+      "sha256": "d85190feb9e1773f0078a963d2a95bf8c2669b905299eef232c3ffaba3cf83bf"
+    },
+    {
+      "relative_path": "coordinator-progress.json",
+      "sha256": "c1f478842034af6114687ffec51055dc19e17f127a27b35a40c77ab9e355e4f8"
+    },
+    {
+      "relative_path": "discovery-staging-index.json",
+      "sha256": "add3786ade8d1598a11f46172a0382d125aa6c99a50f26ad98a9ac761b7db4c9"
+    },
+    {
+      "relative_path": "overlap-reconciliation.json",
+      "sha256": "c3420a5fb8f0e97c0bd49fe908ec14e3c0a13bde3ddc110e782c23c3470845fc"
+    },
+    {
+      "relative_path": "kit-materialization-blocker.json",
+      "sha256": "7aa430512e2eff7d96f42eafd66113fda96f0a5ad6f71d6b722040dccde05974"
+    },
+    {
+      "relative_path": "integrity-preservation/overlap-snapshot-20261011T0314Z/PRESERVATION_MANIFEST.json",
+      "sha256": "23d235cf951074955c3b3bb28624b95145650eed5a6069fa1cfa57ebb6f7f37e"
+    },
+    {
+      "relative_path": "integrity-preservation/recovery-receipts-20261011/RECEIPT_MANIFEST.json",
+      "sha256": "27b0592c34a59e3e41cceb1b15e24a765410ed35ad5e1f25ecb9cde241a851f4"
+    }
+  ],
+  "created_at_utc": "2026-10-11T03:28:28.603694+00:00"
+}
