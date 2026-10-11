@@ -1,0 +1,13 @@
+Metrics specification, twelve-unit pilot
+
+Use UTC ISO timestamps with timezone and a common pilot identifier. Append phase start/end records locally to the owner-approved session ledger. Required boundaries: reservation verified, each role launched, first actual query, first handoff, early preflight, each repair, independent review, source-window open/close, no-inflight confirmations, consolidation freeze, precommit approval, local commit, separate postverification. Record quarterly role IDs and all three monthly unit IDs; monthly roles have one unit. Preserve original query/request IDs, source hashes and reason codes rather than reconstructing timings from prose.
+
+Primary wall duration: earliest role launch to successful separate postverification of all twelve units. Also report boundary-to-boundary preparation time, research elapsed per role/month when attributable, handoff-to-reviewed-commit and commit-to-postverification. Never add simultaneous worker durations to report wall time. Give a union of blocked intervals for whole-pilot wait and separate per-role waits. Do not interpret CPU/tool durations as total reasoning time.
+
+Report schema defects detected before audit versus by audit; export defects before freeze versus during audit; frozen revisions; repeated audits; commands/query/request counts from actual IDs when available; unique requested URLs; unchanged-file disposition reuse; changed-input invalidations; exact access denials and failed retrievals. Unknown runtime fields remain unknown. Counts of defects/rework are measures of process, not scientific research quality.
+
+Both arms use Luna/high and the same optimized helper and access controls. Compare the two quarterly countries (6 monthly outputs, 2 workers) against the two monthly countries (6 outputs, 6 workers). Country, language and event-density differences prevent a causal estimate of grouping speed. Report observed times with those limitations. Historical old-workflow/max batches are descriptive reference only; model and process changed together. Do not claim causal model gains.
+
+Process replay can isolate deterministic detection effects: run old validator and new preflight on fixed staged fixtures containing the previously observed missing open_questions/status/export-alias cases, without body access or live mutation. Record which defects each catches and test outcomes. Retain original immutable fixtures/tests.
+
+Final report: exact 12 canonical unit IDs, requested/accepted/independently observed model settings, delivered monthly counts and preserved gaps, complete commit hash and postverify result, timing table, defect/rework/wait table, comparison limits and remaining blockers. No pilot success claim until commit and postverification are verified.
