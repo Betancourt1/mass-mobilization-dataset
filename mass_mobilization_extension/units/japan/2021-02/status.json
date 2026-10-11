@@ -1,0 +1,23 @@
+{
+  "unit_id": "japan_2021-02",
+  "country": "Japan",
+  "month": "2021-02",
+  "agent_task": "/root/japan_2021_02_batch58",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T13:40:47.728569+00:00",
+  "finished_at": "2026-10-10T14:49:30.933+00:00",
+  "n_queries": 23,
+  "n_sources": 26,
+  "n_candidates": 15,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "coverage_assessment": "Open-web first pass: 23 captured original search actions and 647 ordered result headers in English and Japanese. One current-unit body opens; 0 prior-unit-only consultations. Three gated physical body attempts across two URLs: JRCL twice (one wrapper response with no text blocks, one usable article), Note once (Cache miss); the earlier Note access gate issued no request. The JRCL page is dated 2022-02-16 and describes a February 11 gathering without stating its year. Its 96-person assembly figure and contextual cues consistent with 2022 do not verify the February 2021 E008 lead or its canonical date, count, demand, venue or occurrence. Other search-only results identify February Myanmar diaspora actions, but local attendance and demands directed at Japan remain unresolved. The February 17 immigration-law action remains announcement-only. The 26 source cards comprise 1 opened and 25 search_only; coverage is not exhaustive.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 1,
+    "search_only_cards": 25,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  }
+}

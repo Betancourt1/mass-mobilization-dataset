@@ -1,0 +1,121 @@
+[
+  {
+    "gap_id": "LTU202101-G001",
+    "type": "coverage;search_method",
+    "description": "This bounded open-web pass logged 73 query strings. Literal Q053–Q073 strings were recovered from read-only actual worker tool inputs; each record includes the call ID, recorded tool-call boundary, per-call input SHA-256, and recovery-file SHA-256. Those boundary timestamps are not exact request execution times, so executed_at remains null for the recovered records. Multi-query results were pooled and cannot be mapped query-by-query. Open web is not the original LexisNexis newspaper set and regional-press coverage is not systematic. A physical-action lead is retained as E001 pending attendance and demand evidence; no eligible domestic event was verified.",
+    "source_ids": [
+      "LTU202101-S004",
+      "LTU202101-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review should compare additional contemporary regional and labor sources or licensed newspaper archives, particularly for E001 and January 13 local activity, before any absence coding. Preserve the pooled-result mapping limit; do not treat call-boundary timestamps as query execution times."
+  },
+  {
+    "gap_id": "LTU202101-G002",
+    "type": "baseline",
+    "description": "The official May 2015 codebook text available to this workflow is historical; the current official baseline, universe, schema, and license remain pending. This dossier follows the supplied protocol and makes no official MM coding claim.",
+    "source_ids": [
+      "LTU202101-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Apply the official baseline and additional procedure when coordinator review receives them."
+  },
+  {
+    "gap_id": "LTU202101-G003",
+    "type": "source_access",
+    "description": "The Vilniaus Diena announcement and official Seimas memorial schedule returned reader cache misses; ordinary HTTPS recovery to those same public URLs failed before HTTP with local DNS resolution error. The Pro Patria and local city-schedule leads also remained search-only after reader cache misses. Separately, the official Nacionalinis susivienijimas January 9 call (S014) and its January 2022 date-control page (S018) opened normally.",
+    "source_ids": [
+      "LTU202101-S005",
+      "LTU202101-S006",
+      "LTU202101-S020",
+      "LTU202101-S022"
+    ],
+    "affected_candidates": [
+      "LTU202101-X001",
+      "LTU202101-X002"
+    ],
+    "required_followup": "Retry only through ordinary public access if useful; preserve the source-specific search-only limits unless pages open normally."
+  },
+  {
+    "gap_id": "LTU202101-G004",
+    "type": "contested_evidence;participants;source_independence",
+    "description": "For the excluded January 23 Navalny solidarity picket, 15min gives inconsistent attendee wording (“several dozen” and “about one hundred”). LRT and TV3/BNS describe about 100, but share BNS sourcing and are not independent confirmations. The event’s foreign-state target is clear enough for exclusion; exact attendance remains unresolved.",
+    "source_ids": [
+      "LTU202101-S001",
+      "LTU202101-S002",
+      "LTU202101-S003"
+    ],
+    "affected_candidates": [
+      "LTU202101-X001"
+    ],
+    "required_followup": "If the target decision is revisited, locate a separately originated contemporaneous attendance account; do not count BNS syndication as independent."
+  },
+  {
+    "gap_id": "LTU202101-G005",
+    "type": "participants;state_target;source_access",
+    "description": "The January 13 memorial evidence includes official home-candle/broadcast language, a regional remembrance-fire lead, opened reporting on window candles, and a local logistics lead. None establishes a qualifying public assembly with a domestic policy demand. The Lukiškės Square January 12 lead is separately retained as E001 with physical presence, attendance, and state-target link pending.",
+    "source_ids": [
+      "LTU202101-S006",
+      "LTU202101-S007",
+      "LTU202101-S015",
+      "LTU202101-S022"
+    ],
+    "affected_candidates": [
+      "LTU202101-X002",
+      "LTU202101-X005"
+    ],
+    "required_followup": "Check local contemporaneous reporting only if coordinator review needs to establish whether a distinct public assembly occurred; do not treat school or institutional counts as persons."
+  },
+  {
+    "gap_id": "LTU202101-G006",
+    "type": "state_response",
+    "description": "The picket reports describe a police detention of a disruptive flag-holder; they do not establish a response aimed at the picket’s foreign-policy demand. Other response fields remain unknown rather than inferred from silence.",
+    "source_ids": [
+      "LTU202101-S001",
+      "LTU202101-S002",
+      "LTU202101-S003"
+    ],
+    "affected_candidates": [
+      "LTU202101-X001"
+    ],
+    "required_followup": "No additional coding follow-up unless the coordinator keeps this foreign-target episode for contextual review."
+  },
+  {
+    "gap_id": "LTU202101-G007",
+    "type": "episode_unit;dates",
+    "description": "Boundary searches covered December 2020 and February 2021. A February 5 small-business lockdown protest and March 20 anti-lockdown rally were found outside the unit; no source links either to a January-origin episode. Continuations remain empty.",
+    "source_ids": [
+      "LTU202101-S010",
+      "LTU202101-S013",
+      "LTU202101-S017"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Reopen the boundary only if later review discovers a January-origin action or a connected continuing episode."
+  },
+  {
+    "gap_id": "LTU202101-G008",
+    "type": "participants;state_target;event_execution;episode_unit",
+    "description": "S008 retrospectively says “many people” went to Lukiškės Square late Tuesday, January 12, describes arrivals alone/in pairs/with children, and then lists multiple Lithuanian towns without city-specific counts. This does not establish 50 concurrent people at Vilnius. S014 is a January 9 prospective call, explicitly advises people not to gather, and gives a political rationale about the square; the available evidence does not establish that the later attendees gathered for that policy demand. The physical-gathering claim and event eligibility remain pending. No photographs were counted.",
+    "source_ids": [
+      "LTU202101-S008",
+      "LTU202101-S014"
+    ],
+    "affected_candidates": [
+      "LTU202101-E001"
+    ],
+    "required_followup": "Seek contemporaneous local reporting or another original account that separately verifies physical assembly, date and Vilnius attendance; establish whether attendees were mobilized around the state-square policy claim. Keep threshold and demand-link pending absent that evidence."
+  },
+  {
+    "gap_id": "LTU202101-G009",
+    "type": "source_date;written_statement",
+    "description": "The judicial-reform statement direct page (S019) is dated January 12, 2021, while the January bulletin (S008) says the statement was distributed January 16. The difference appears to be document date versus distribution date, but that interpretation is not independently established. Both describe a written submission to officials, not a 2021 public gathering.",
+    "source_ids": [
+      "LTU202101-S008",
+      "LTU202101-S019"
+    ],
+    "affected_candidates": [
+      "LTU202101-X004"
+    ],
+    "required_followup": "Preserve both dates and their distinct meanings unless a source clarifies when the statement was issued and distributed; do not convert either date into a protest date."
+  }
+]

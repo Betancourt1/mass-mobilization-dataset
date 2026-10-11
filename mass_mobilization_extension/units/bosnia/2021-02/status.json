@@ -1,0 +1,33 @@
+{
+  "unit_id": "bosnia_2021-02",
+  "country": "Bosnia",
+  "month": "2021-02",
+  "agent_task": "/root/bosnia_2021_02_active",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T04:02:50Z",
+  "finished_at": "2026-10-10T04:38:43Z",
+  "temporary_resources_started": [],
+  "n_candidates": 3,
+  "n_queries": 27,
+  "n_sources": 26,
+  "n_excluded": 6,
+  "n_continuations": 2,
+  "n_gaps": 11,
+  "eligibility_counts": {
+    "pending_unit": 1,
+    "pending_state_target": 1,
+    "pending_threshold": 1
+  },
+  "source_access_counts": {
+    "opened": 10,
+    "search_only": 13,
+    "blocked": 3,
+    "not_found": 0
+  },
+  "coverage_assessment": "First-pass February research complete for coordinator review: 27 saved invocation records (487 result headers), including weekly English/BCS Latin/Cyrillic and regional/sector searches; Q027 retains its four-query array with unpartitioned results. Nine current article bodies are scoped; one opened card is prior-only, and two cards carry prior-unit metadata consultations (S001 and S025). Captured candidates: Kozarac Feb 8 (approx. 100; later route-shift accommodation announcement), Breza residents Feb 15 (>100; state target pending), and APF representatives Feb 15 (attendance pending). Miners’ stoppages, the conditional Sarajevo rally, APF work strike, Tuzla anniversary, agriculture and HNK continuation boundaries remain explicitly separate. Open-web scope is not exhaustive; access, language review, physical end, state-target and event-specific response gaps remain.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources_closed": [],
+  "temporary_resources_remaining": [],
+  "resource_verification": "No temporary server, watcher, browser automation process, container or VM was started; no resource remains from this unit.",
+  "next_action": "Coordinator: review the completed unit, unresolved event/episode boundaries, access receipts and source lineage; independently audit the final diff before any commit. Do not merge candidates or official IDs automatically."
+}

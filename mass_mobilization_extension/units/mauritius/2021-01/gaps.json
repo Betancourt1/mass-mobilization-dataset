@@ -1,0 +1,54 @@
+[
+  {
+    "gap_id": "MAU2021G001",
+    "type": "participants/state_target/coverage",
+    "description": "Unresolved January evidence includes: a 12 January court-side crowd calling for Minister Sawmynaden’s resignation has no count; a 31 January La Louise civic/legal crowd is described as large in opened Defimedia coverage; an L’Express search excerpt estimates about 10,000, but the page could not be opened and the original Defi Media page’s displayed 2026 versus search-indexed 2021 date remains unresolved; a 9 January L’Express search excerpt says hundreds demanded Sawmynaden’s resignation on 7 January; ION News also mentions bystanders near court, but both pages failed open and local DNS blocked ordinary retrieval; LALIT separately alleges that a subgroup attacked the minister’s car, without independent corroboration; Freedom House separately mentions unspecified Wakashio-related protesters being blocked. A targeted labor/education/health and Rodrigues query batch surfaced no January candidate, but broader local archives and source access remain incomplete. L’Express’s 8 January account says a gathering was planned for Cathedral Square on 7 January but had to be relocated after access restrictions; Defimedia’s search result describes the 29 December gathering and names 7 January as the next hearing, not a continuation. A later Wikipedia result claims Manan Fakhoo organized a street demonstration before his 20 January death, but targeted queries found no contemporaneous corroboration; contemporary L’Express instead documents a small minister-supporting group at the 12 January court appearance, with no size established.",
+    "source_ids": [
+      "MAU2021S009",
+      "MAU2021S010",
+      "MAU2021S013",
+      "MAU2021S014",
+      "MAU2021S015",
+      "MAU2021S016",
+      "MAU2021S018",
+      "MAU2021S030",
+      "MAU2021S031",
+      "MAU2021S032",
+      "MAU2021S035",
+      "MAU2021S036",
+      "MAU2021S038",
+      "MAU2021S039",
+      "MAU2021S040",
+      "MAU2021S041",
+      "MAU2021S042"
+    ],
+    "affected_candidates": [
+      "mauritius_2021-01_E001",
+      "mauritius_2021-01_E002",
+      "mauritius_2021-01_E003"
+    ],
+    "required_followup": "Open the L’Express page or find another contemporaneous independent report to verify its ~10,000 turnout excerpt for 31 January; verify the 7 January L’Express hundreds/resignation claim and ION arrest in opened article text or another contemporary source; establish event end, turnout, and any violence; determine the 12 January gathering’s threshold; verify whether the Freedom House Wakashio statement refers to a distinct January action. Continue English/French/Mauritian-Creole searches and seek local archives; the targeted labor/education/health and Rodrigues queries did not establish absence. If a primary or contemporaneous source surfaces, determine whether the Fakhoo claim refers to the already documented 12 January supporter group or to a distinct action; do not infer an event on 20 January."
+  },
+  {
+    "gap_id": "MAU2021G002",
+    "type": "source_access",
+    "description": "Several contemporaneous L’Express, Le Mauricien, ION News, and Le Defi pages yield search excerpts but web open returns Cache miss/fetch errors. This worker attempted ordinary HTTPS to eight exact public URLs, including the L’Express 7 January crowd report and ION News report; local DNS failed before a publisher response, so no site-issued status/denial was observed. The coordinator separately reports an actual 403 on the L’Express 2 February turnout page; that observation is not this worker’s own access attempt.",
+    "source_ids": [
+      "MAU2021S013",
+      "MAU2021S018",
+      "MAU2021S025",
+      "MAU2021S026",
+      "MAU2021S028",
+      "MAU2021S031",
+      "MAU2021S032",
+      "MAU2021S035",
+      "MAU2021S036"
+    ],
+    "affected_candidates": [
+      "mauritius_2021-01_E001",
+      "mauritius_2021-01_E002",
+      "mauritius_2021-01_E003"
+    ],
+    "required_followup": "Retry exact public URLs through an available ordinary HTTPS reader when accessible; respect actual HTTP 403/404/429, login and paywall responses. Do not infer inaccessible status from local DNS failure or the web-tool Cache miss."
+  }
+]

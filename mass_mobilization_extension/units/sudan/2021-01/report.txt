@@ -1,0 +1,40 @@
+Sudan January 2021 research dossier
+
+Event cutoff: 2026-10-07 inclusive, America/Mexico_City.
+Research and persistence dates: 2026-10-09 UTC.
+Provisional country code: 625 (from the unit assignment; no official ID assigned).
+Status: researched_open_web_pending_review.
+
+Method and source capture
+
+The unit has 17 logged open-web searches with 337 actual returned title/URL/reference headers captured and paired in order. This is a count of captured headers, not a search-engine total. Queries include general English and Arabic discovery; English and Arabic weekly windows covering Jan 1–31; student, union and labor terms; a Dec 2020/UNAMID boundary check; a Feb El Geneina follow-up; regional city terms; and a targeted bread-price query. The weekly-window searches returned substantial out-of-window noise, and the search engine did not consistently apply the date/city terms.
+
+There are 75 source cards: 39 opened, 33 search-only and 3 blocked. Opened articles include contemporaneous Dabanga, Anadolu, Al Jazeera, Al Araby, Darfur24, Kush News and other coverage; Arabic reports use working translations without independent human review. Search-only material is retained as leads, not event evidence. Dabanga's retrospective timelines are useful for discovery but are not independent corroboration of its own articles. Al Rakoba S056 explicitly credits Dabanga; an AFP photo credit on Al Araby S016 does not establish syndication of the written story.
+
+Retrieval limits are recorded by URL. Direct Dabanga links S005 and S038 and Al Rakoba S054 returned HTTP 403; no retries or bypass were attempted. Masrawy/Al Rakoba pages S012, S014, S015 and S019 produced a non-retryable web-tool error without an HTTP status or body, which is not treated as a publisher denial. Darfur24 Arabic S052 returned HTTP 200 but only title/date were extracted; Anadolu S057 timed out without a body. Public exact-URL recovery attempts are logged: Darfur24 Jan 30 S036 and Jan 29 S052 returned HTTP 200/exit 0 (S052 body extraction remained incomplete); Kush News S053 and Darfur24 Feb 7 S067 each had a sandbox DNS failure/exit 1 followed by an exact public HTTPS request returning HTTP 200/exit 0. No full article text was persisted. Other query/tool access failures and source read scopes are recorded in their cards.
+
+The query log documents two recovery incidents and preserves stable identifiers: Q013's first JSONL persistence attempt used literal backslash-n separators and failed validation; the exact stored response was recovered and both records repaired using actual line feeds, with no rerun. Q015 kept earlier source IDs for duplicate URLs and skipped proposed S070/S071. Q016's initial source-card persistence exited 1 on IDs colliding with existing cards; exact stored headers were reused with new IDs, without rerunning the query. No unrelated source IDs were renumbered.
+
+Candidate findings
+
+The dossier contains 18 candidates ({'pending_threshold': 8, 'pending_state_target': 2, 'pending_evidence': 5, 'proposed_include': 1, 'pending_unit': 2}), 3 exclusions, 3 older-onset continuity leads and 21 follow-up gaps. These are research candidates, not approved records or an exhaustive event list.
+
+The strongest directly sized event is the Jan 21 El Fasher secondary-school student march: Dabanga reports hundreds at North Darfur government offices and says the governor addressed students and promised to solve the bread shortage. It is the sole proposed_include; the direct response is coded accommodation yes, without implying that the promise was implemented. Kadugli's Jan 4 protest is reported as hundreds but has a state-target question and a conflicting photo-caption year. Ed Damazin students protested bread prices Jan 18–20; attendance is unknown and security forces reportedly used tear gas and rubber bullets on Jan 18. Gas supports crowd-dispersal yes; the report does not establish firearm shooting.
+
+Khartoum economic demonstrations are preserved by dated lead and site where possible: Friday-night Jan 22, Saturday Jan 23 multi-neighborhood actions, and Sunday Jan 24/other-city reporting. They are not automatically merged, and no broad weekly attendance estimate is assigned to an individual day or site. Police tear gas on Street 60 on Jan 24 is recorded for that site only. An unspecified Jebel Awliya crowd was reportedly whipped by Central Reserve Police, but its date and relation to the daily protests are unknown. A separate Jan 21 Atbara student protest over breakfast-meal pricing lacks an attendance count and clear state target.
+
+Other pending candidates preserve the two Jan 11 women's legal-reform vigils, a Jan 12 Resistance Committees vigil, a retrospective FFC electricity-tariff protest lead, a North Kordofan bakery strike, Jan 20 Khartoum-state bread protests, the Galaa El Nahal sit-in, and source-only Jebel Awliya/normalization leads. No silence is coded as an explicit lack of response. The bakery work stoppage is not treated as a mass public gathering without evidence.
+
+January reports show an El Geneina sit-in was active in January, but the exact onset conflicts between Jan 24 and Jan 25 by day-count implication and attendance is absent. January sources alone support a month-precision onset; they do not resolve turnout or physical boundaries. A separate Kush News report describes thousands in a march and memorandum delivery while the sit-in was on its fourth day, but gives no exact calendar date; the march estimate is not transferred to the stationary sit-in. February agreement/lifting reports are kept separate and do not establish January onset, attendance or physical end.
+
+Continuity and exclusions
+
+Three December boundary leads are preserved without asserting they physically crossed into January: the Dec 14 Kalma sit-in, late-December Zalingei demonstrations, and a possibly separate week-long Kalma sit-in described on Jan 2. The Jan 2 account does not establish exact onset, end, or whether it was the Dec 14 action. No automatic merge or continuation into January is made.
+
+Three exclusions retain the SPA future-event announcement without proof of execution, Delling bakery price/meeting activity without a public assembly or state target, and the Jan 27 Wad Madani police/army clash without a protest crowd. Out-of-window search results are recorded as source cards where relevant; they are not January events.
+
+Open gaps and compatibility
+
+A post-validation schema check against worker_instructions.txt and data_dictionary.txt corrected four positive state-response enum spellings from yes_explicit to yes: E001 crowd_dispersal, E008 accommodation, E012 crowd_dispersal, and E015 beatings. The source evidence and substantive judgments were unchanged. The 21 gaps cover attendance thresholds, dates, episode/site ownership, state-directed demands, event-specific response, source access/independence, Arabic translation, web-search coverage and the official baseline. The official latest Dataverse bytes, universe, current schema, additional Coding Procedure and reuse compatibility remain unresolved. This dossier therefore uses the provisional assignment code and historical May 2015 manual only. No official MM IDs, approval, human double-coding, publication, delivery or commit is claimed.
+
+No temporary/background resources were started for this finalization; the finite foreground retrievals noted above have completed with their observed exits. No process or resource remains open.

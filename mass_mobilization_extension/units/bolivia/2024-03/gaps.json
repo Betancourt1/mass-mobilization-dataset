@@ -1,0 +1,66 @@
+[
+  {
+    "gap_id": "BOL24MAR-G001",
+    "source_ids": [
+      "BOL24MAR-S075"
+    ],
+    "summary": "Eju TV March 8 coverage opened after exact-source gate, but its body disclosed “Fuente: ANF” only after the request. Exact ANF URL and pre-body restriction scope are unknown. Withhold all article body facts from event coding; no inferred-origin URL or retroauthorization.",
+    "field_evidence": {
+      "written_origin_control": {
+        "source_ids": [
+          "BOL24MAR-S075"
+        ],
+        "note": "Only Eju TV exact URL was covered; ANF attribution surfaced after opening."
+      }
+    }
+  },
+  {
+    "gap_id": "BOL24MAR-G002",
+    "source_ids": [
+      "BOL24MAR-S083"
+    ],
+    "summary": "El Libre Observador search result preview describes a March 8 2024 march, but exact-URL open ended in an Internal Error with 400 timeout-fetching; no publisher HTTP response or denial observed. No body was read; search result remains discovery-only and no retry was made.",
+    "field_evidence": {
+      "retrieval": {
+        "source_ids": [
+          "BOL24MAR-S083"
+        ],
+        "note": "441 ms local roundtrip; native clock unknown; timeout is not denial."
+      }
+    }
+  },
+  {
+    "gap_id": "BOL24MAR-G003",
+    "source_ids": [
+      "BOL24MAR-S019"
+    ],
+    "summary": "Cámara de Diputados March 8 march page is dated 2022. It is out of assigned period and not a 2024 candidate.",
+    "field_evidence": {
+      "date_scope": {
+        "source_ids": [
+          "BOL24MAR-S019"
+        ],
+        "note": "Opened official page explicitly dated 8 March 2022."
+      }
+    }
+  },
+  {
+    "gap_id": "BOL24MAR-G004",
+    "source_ids": [
+      "BOL24MAR-S017",
+      "BOL24MAR-S018",
+      "BOL24MAR-S014"
+    ],
+    "summary": "Additional March 8 national/regional march leads suggest actual 2024 gatherings, but no body evidence currently establishes threshold and independent source origins. Search snippets are discovery-only; no attendance is inferred from ‘multitudinaria’ wording.",
+    "field_evidence": {
+      "threshold_and_origin": {
+        "source_ids": [
+          "BOL24MAR-S017",
+          "BOL24MAR-S018",
+          "BOL24MAR-S014"
+        ],
+        "note": "Threshold, precise city episode boundaries, actual dates, and source origins need exact-source review before coding."
+      }
+    }
+  }
+]

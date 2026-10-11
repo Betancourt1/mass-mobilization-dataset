@@ -1,0 +1,77 @@
+[
+  {
+    "gap_id": "angola_2024-03_G001",
+    "type": "threshold",
+    "description": "No search-only header establishes that the general strike involved a public gathering of at least 50; a work stoppage or employee absence alone is insufficient.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "angola_2024-03_E001"
+    ],
+    "required_followup": "Find contemporaneous evidence of an assembled public protest/march, attendance, location, and exact first date; otherwise keep out of events pending review."
+  },
+  {
+    "gap_id": "angola_2024-03_G002",
+    "type": "event_evidence",
+    "description": "The Lunda Norte lead comes from a retrospective search-result excerpt. Date, organizer, state target/demand, size, and episode boundaries are unknown. The target HRW World Report URL remains unopened because of the explicit saved HRW publisher-wide 403 hold at main2021/units/algeria/2021-02/S005 and main2021/review/source_checks.jsonl:2347. A fresh exact-URL gate returned manual_review without structured hold, but does not override the manual publisher restriction.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "angola_2024-03_E002"
+    ],
+    "required_followup": "Do not retrieve the HRW report body or use alternate HRW pages while the explicit publisher-wide hold applies. Seek independent local/contemporaneous sources under their own fresh exact-URL gates and manual origin reviews; date, organizer, state target/demand, public character, size, and continuity remain unknown."
+  },
+  {
+    "gap_id": "angola_2024-03_G003",
+    "type": "continuity",
+    "description": "The March strike appears as one phase of a multi-phase campaign; dates across the February announcement and later April/June phases may be distinct actions or a continuous dispute.",
+    "source_ids": [],
+    "affected_candidates": [
+      "angola_2024-03_E001",
+      "angola_2024-03_E002"
+    ],
+    "required_followup": "Review adjacent month sources and document ownership/continuity before coding; do not duplicate campaign phases automatically."
+  },
+  {
+    "gap_id": "angola_2024-03_G004",
+    "type": "coverage",
+    "description": "English/Portuguese web search is not equivalent to LexisNexis All News or local provincial archives; no exhaustive claim is possible.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Expand local, provincial, sectoral, and rights/union sources; note language/region limits."
+  },
+  {
+    "gap_id": "angola_2024-03_G005",
+    "type": "access",
+    "description": "Ver Angola S001 had one exact-URL open attempt after a fresh stable gate and source-specific publisher/origin review; it returned HTTP 403 Forbidden before content. The observed denial was retained and a fresh post-denial gate returned hold; no retry or alternate path was used. Observador S002 was held after a stable gate matched the explicit publisher guard (aliases observador.pt and www.observador.pt) and the observed HTTP 403 at main2021/review/source_checks.jsonl line 2034 for separate Portugal 2021-01 source PRT21M01-S006; S002 was not opened. A limited selected-section body read of independent Novo Jornal S003 found a pre-event strike announcement, not execution or evidence of a public gathering. HRW S004 remains search-only under the explicit HRW publisher-wide hold recorded at main2021/units/algeria/2021-02/S005 and main2021/review/source_checks.jsonl:2347; its fresh exact-URL gate was manual_review and did not override that restriction. No full article body was archived or read; key event facts and all seven response fields remain unapproved/unknown.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "angola_2024-03_E001",
+      "angola_2024-03_E002"
+    ],
+    "required_followup": "Do not retry S001 or use another path for its denied content. Do not open S002 or use alternate Observador paths under the explicit publisher hold. Do not open S004 or use alternate HRW pages under the explicit HRW publisher-wide hold. For the public-service strike lead, verify through permissible independent sources whether the stoppage actually occurred and whether a separate public gathering of 50+ occurred, with its date, location, state target, and responses; otherwise retain unknowns."
+  },
+  {
+    "gap_id": "angola_2024-03_G006",
+    "type": "capture_integrity",
+    "description": "The exact formatted search invocation outputs from earlier discovery calls were not archived to private_reading before the capture wrapper ended. Their exact raw bytes and native event_msg metadata cannot be recovered; query/header rows parsed from formatted tool output are preserved with unknown native clocks/metadata. No output was reconstructed and no query was rerun to replace the missing capture. Task-call chronology indicates 17 actual search invocations for this month, while 10 capture rows are saved; 7 invocation outputs are not represented as query-result rows, and several early queries were repeated before the runtime-capture rule was read. Exact per-invocation result arrays/timing are unavailable and are not filled with empty results.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "angola_2024-03_E001",
+      "angola_2024-03_E002"
+    ],
+    "required_followup": "Treat saved rows only as parsed formatted-output records. The observed total invocation count is separate from validator n_queries; missing invocation results and exact query clocks remain unknown. No reconstruction or rerun was used."
+  }
+]

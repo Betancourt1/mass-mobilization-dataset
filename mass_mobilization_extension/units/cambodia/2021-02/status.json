@@ -1,0 +1,31 @@
+{
+  "unit_id": "cambodia_2021-02",
+  "country": "Cambodia",
+  "month": "2021-02",
+  "agent_task": "/root/cambodia_2021_02_batch55",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T05:44:07.604302Z",
+  "finished_at": "2026-10-10T06:26:16.945Z",
+  "n_queries": 21,
+  "n_sources": 15,
+  "n_candidates": 2,
+  "n_excluded": 2,
+  "n_continuations": 0,
+  "n_gaps": 10,
+  "captured_header_count": 514,
+  "source_access_counts": {
+    "opened": 3,
+    "search_only": 12,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "n_opened_sources": 3,
+  "n_blocked_sources": 0,
+  "coverage_assessment": "Non-exhaustive English/Khmer open-web first pass with all four weekly windows in both languages and targeted land, labor, forest, activist-release, Kandal and February 23 searches. Twenty-one actual queries yielded 514 exact ordered headers; three source bodies/pages were reviewed and twelve leads remain search-only. Two provisional actions remain unresolved on target, threshold, event-unit, end and corroboration as recorded; no absence claim.",
+  "baseline_gate": "pending_official_baseline",
+  "timestamp_note": "Research began at the registered GO time. Query clocks use exposed original tool metadata; body access clocks were not exposed by the browser response where absent.",
+  "temporary_resources_started": [],
+  "temporary_resources_remaining": [],
+  "updated_at": "2026-10-10T06:26:16.945Z",
+  "validation_note": "Initial read-only validation identified two omitted zero-valued access-status categories; status was corrected to include blocked=0 and not_found=0 before the final validation."
+}

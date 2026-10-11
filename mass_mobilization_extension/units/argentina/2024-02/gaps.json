@@ -1,0 +1,37 @@
+[
+  {
+    "gap_id": "AR2402-G001",
+    "type": "baseline",
+    "description": "Official latest Mass Mobilization version, current universe/schema, and cutoff linkage remain unverified; use only provisional 2015 manual and keep candidates pending official baseline.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator verifies official dataset version, universe, schema and baseline correspondence."
+  },
+  {
+    "gap_id": "AR2402-G002",
+    "type": "search_method",
+    "description": "Open-web search results are rendered summaries, not equivalent to the historical LexisNexis newspaper search. Native search metadata (native result order/refs/counts/clocks) is unavailable; parser omissions require independent review. No exhaustive-coverage claim is made.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent review the retained rendered-output files for parser omissions; maintain query/search-method coverage limits."
+  },
+  {
+    "gap_id": "AR2402-G003",
+    "type": "source_access",
+    "description": "No February article body has been opened. Exact URL scans for AR2402-S006 (Reuters Feb. 2 gallery) and AR2402-S010 (La Nación Feb. 2 article) repeatedly returned defer during concurrent declared-ledger changes (one attempt for S006; two metadata-only attempts for S010); no body was requested, and no stable gate receipt/manifest was produced. Persistent defer is recorded as a URL-specific access gap. Other source cards remain search-only and unverified. A Feb. 1–2 Congress-protest episode may overlap protests beginning in late January; onset/continuation ownership remains unresolved because no body was opened and January itself is pending evidence. Do not create a separate continuation or duplicate event without independently reviewed boundary evidence.",
+    "source_ids": [
+      "AR2402-S001",
+      "AR2402-S002",
+      "AR2402-S003",
+      "AR2402-S004",
+      "AR2402-S005",
+      "AR2402-S006",
+      "AR2402-S007",
+      "AR2402-S008",
+      "AR2402-S009",
+      "AR2402-S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Run current access gate per exact URL, inspect receipt and associated provenance manifest hashes/counts, then perform ordinary public HTTPS open only when no hold/defer/ambiguity exists."
+  }
+]

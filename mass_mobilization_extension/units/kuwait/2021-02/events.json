@@ -1,0 +1,227 @@
+[
+  {
+    "candidate_id": "KWT202102-E001",
+    "country": "Kuwait",
+    "ccode": 690,
+    "unit_month": "2021-02",
+    "title": "Small-business owners protest COVID-19 closure measures",
+    "start_date": "2021-02-06",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the Kuwait Lawyers Society, after security prevented a gathering outside the National Assembly",
+    "scope": "One reported gathering of salon, barbershop, and health-club owners; no multi-city or broader-series scope is established.",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "The article describes dozens of salon, barbershop, and health-club owners; it gives no numeric count.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The qualitative term “dozens” is not a reliable numeric minimum of 50. Attendance bounds are unknown; eligibility remains pending_threshold.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "yes",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "KWT202102-S003"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "KWT202102-S003"
+        ],
+        "summary": "The opened Kuwait Times report describes business owners protesting announced COVID-19 business closures."
+      },
+      "start_date": {
+        "source_ids": [
+          "KWT202102-S003"
+        ],
+        "summary": "The article is stamped 6 February 2021 at 10:46 p.m. EDT; its body/image caption says the protest was yesterday. Converting that timestamp to Kuwait local time places publication on 7 February, so yesterday is interpreted as 6 February Kuwait time; this is an explicit timezone-based inference."
+      },
+      "end_date": {
+        "source_ids": [
+          "KWT202102-S003"
+        ],
+        "summary": "The article reports a move from the National Assembly area to the Lawyers Society but no event closure or end date."
+      },
+      "location": {
+        "source_ids": [
+          "KWT202102-S003"
+        ],
+        "summary": "The report says security prevented a gathering outside the National Assembly and owners then protested outside the Kuwait Lawyers Society."
+      },
+      "scope": {
+        "source_ids": [
+          "KWT202102-S003"
+        ],
+        "summary": "One protest by dozens of owners is reported; no larger campaign, additional site, or separate action is established by the read."
+      },
+      "organizer": {
+        "source_ids": [
+          "KWT202102-S003"
+        ],
+        "summary": "The report mentions small-business representatives but does not name an organizer for the protest."
+      },
+      "demands": {
+        "source_ids": [
+          "KWT202102-S003"
+        ],
+        "summary": "Owners urged authorities to stop implementing measures that shut salons, barbershops, and health clubs; coded as social restrictions."
+      },
+      "participants_original": {
+        "source_ids": [
+          "KWT202102-S003"
+        ],
+        "summary": "The report uses “dozens” for salon, barbershop, and health-club owners; no numeric turnout is given."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "KWT202102-S003"
+        ],
+        "summary": "“Dozens” does not establish at least 50 people; numeric bounds remain null."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "KWT202102-S003"
+        ],
+        "summary": "The article does not explicitly establish protester violence or its absence; code unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "KWT202102-S003"
+        ],
+        "summary": "Security prevented gathering at the Assembly site before protesters moved, supporting crowd_dispersal=yes. The speaker reported that the prime minister agreed to reconsider measures and a committee meeting with representatives was planned, supporting accommodation=yes as receipt/review of demands, not a policy victory. Arrests, beatings, ignore, killings, and shootings are not established and remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "KWT-small-business-closure-protest-2021-02-06",
+    "notes": "The article reports an actual gathering, but “dozens” does not establish the dataset’s 50-person threshold. The prime minister’s reported agreement was to reconsider measures; a final policy outcome is not documented. Do not merge with the separately planned Feb. 5 Salons Union sit-in (E002) without further evidence.",
+    "open_questions": [
+      "Can a contemporaneous source establish a numeric attendance estimate of at least 50?",
+      "Was a named union or association the organizer?",
+      "What exact time did the gathering begin and end?",
+      "Was the prime minister’s review directly prompted by this gathering, and what policy outcome followed?",
+      "Is this distinct from the planned Salons Union sit-in reported for Feb. 5?"
+    ]
+  },
+  {
+    "candidate_id": "KWT202102-E002",
+    "country": "Kuwait",
+    "ccode": 690,
+    "unit_month": "2021-02",
+    "title": "Kuwait Salons Union’s announced Feb. 5 sit-in against salon closures (execution unverified)",
+    "start_date": "2021-02-05",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "National Assembly (planned site)",
+    "scope": "A single sit-in announced by the Salons Union; actual execution is not verified.",
+    "organizer": "Kuwait Salons Union (as named in the announcement headline)",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The prior-unit article read describes only a planned sit-in and reports no execution or attendance; the event and 50-person threshold remain unverified.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "KWT202102-S004"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "KWT202102-S004"
+        ],
+        "summary": "The prior-unit scoped read of this same URL says the Salons Union planned a sit-in; this candidate is a plan, not verified occurrence."
+      },
+      "start_date": {
+        "source_ids": [
+          "KWT202102-S004"
+        ],
+        "summary": "A Kuwait Times article published 4 February said the sit-in would occur “tomorrow”; the prior-unit source check records the planned date as 5 February. This is the announced date only."
+      },
+      "end_date": {
+        "source_ids": [
+          "KWT202102-S004"
+        ],
+        "summary": "No duration or actual execution is established."
+      },
+      "location": {
+        "source_ids": [
+          "KWT202102-S004"
+        ],
+        "summary": "The announcement named the National Assembly as the planned gathering site."
+      },
+      "scope": {
+        "source_ids": [
+          "KWT202102-S004"
+        ],
+        "summary": "One planned Salons Union sit-in is described; whether it occurred is unknown."
+      },
+      "organizer": {
+        "source_ids": [
+          "KWT202102-S004"
+        ],
+        "summary": "The headline identifies the Kuwait Salons Union."
+      },
+      "demands": {
+        "source_ids": [
+          "KWT202102-S004"
+        ],
+        "summary": "The sit-in was announced to protest salon closures, coded as social restrictions."
+      },
+      "participants_original": {
+        "source_ids": [
+          "KWT202102-S004"
+        ],
+        "summary": "The read reports no actual attendees or turnout."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "KWT202102-S004"
+        ],
+        "summary": "Execution and attendance are unverified; do not infer turnout from the announced sit-in."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "KWT202102-S004"
+        ],
+        "summary": "No executed event is verified; response and violence remain unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "KWT202102-S004"
+        ],
+        "summary": "The prior-unit read covers only an announcement and does not establish an executed event or event-specific state response."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "KWT-salons-union-announced-sit-in-2021-02-05",
+    "notes": "The date is the announced date, not a confirmed physical start. KWT202102-S006 is a separate Al-Anba search header whose headline says “Saturday”; its body was not read and its intended date/relationship remain unclear. Keep it separate from E001 pending evidence.",
+    "open_questions": [
+      "Did the Feb. 5 announced sit-in take place?",
+      "What was actual attendance, if any?",
+      "Does the separate Al-Anba “Saturday” announcement describe this sit-in or another action?",
+      "Was the event continuous with or separate from the Feb. 6 protest reported in S003?"
+    ]
+  }
+]

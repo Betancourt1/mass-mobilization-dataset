@@ -1,0 +1,21 @@
+{
+  "unit_id": "bhutan_2024-01",
+  "country": "Bhutan",
+  "month": "2024-01",
+  "agent_task": "/root/bhutan_2024_q1",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-11T01:09:35.284689Z",
+  "finished_at": "2026-10-11T01:30:01Z",
+  "n_queries": 11,
+  "n_sources": 9,
+  "n_candidates": 0,
+  "n_excluded": 5,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "coverage_assessment": "Bounded open-web discovery with broad English, weekly, sector, regional, election, local-site and one Dzongkha-script query. No Bhutan-located January gathering was established from captured results; this is not evidence of absence. Search recall and systematic archive coverage remain unknown.",
+  "baseline_gate": "pending_official_baseline",
+  "timings": "Caller-side query roundtrip sum 37,583 ms across 10 measured invocations; one invocation roundtrip unknown. This excludes overall research runtime, source-body reads, and native request timing, all unknown.",
+  "query_count_basis": "captured web tool invocations in search_log.jsonl; native event IDs/result totals/clocks unavailable; January query BH2024_01_EN_BROAD_001 response lost through adapter extraction failure and not rerun",
+  "access_scope": "All source cards are search_only; no source body was requested, so no fresh compact gate or manual body review was needed or performed. Search-result rendered strings were preserved where available. One saved HRW result remains subject to the publisher-wide hold; no body or alternate was requested.",
+  "read_scope": "Search-result rendered output only; no article/report body opened outside search-result return."
+}

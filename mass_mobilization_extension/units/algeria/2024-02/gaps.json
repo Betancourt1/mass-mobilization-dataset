@@ -1,0 +1,57 @@
+[
+  {
+    "gap_id": "algeria_2024-02_G001",
+    "type": "body_access",
+    "description": "S001 received one bounded body read under a stable exact-URL gate; its page is headed ‘Algeria 2025’, but the reviewed January/February paragraph does not explicitly state the year and does not substantiate the 2024 candidate. S002 received one bounded body read under its stable exact-URL gate; it is a 22 February 2024 fifth-anniversary retrospective on the 2019 Hirak, not a report of a 2024 gathering. Neither source resolves the candidate. Occurrence, distinct episode, public-gathering form, date, location, threshold, target and all seven event-level responses remain unknown.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "algeria_2024-02_E001"
+    ],
+    "required_followup": "Seek contemporaneous 2024 event-level sources; run a fresh exact-URL gate and manual publisher/origin review for each new URL. Do not infer a 2024 gathering from S001's year-ambiguous paragraph or S002's Hirak retrospective."
+  },
+  {
+    "gap_id": "algeria_2024-02_G002",
+    "type": "event_identity_threshold_unit",
+    "description": "The annual-report snippet refers to successive actions over January and February without event count, exact dates, locations, public-gathering form, organizer, attendance or episode boundaries.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "algeria_2024-02_E001"
+    ],
+    "required_followup": "The bounded S001 excerpt leaves the year unspecified; seek contemporaneous 2024 event-level sources, distinguish demonstrations from strikes, and assign month by actual onset."
+  },
+  {
+    "gap_id": "algeria_2024-02_G003",
+    "type": "search_capture_provenance",
+    "description": "Saved headers are parsed from formatted tool output, not native event_msg metadata. Raw rendered responses and a matching own rollout_path are unavailable; initial attempts include explicit capture-failure notes.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue to disclose missing pre-adjustment rendered outputs and explicit capture failures; do not reconstruct or repeat historical queries."
+  },
+  {
+    "gap_id": "algeria_2024-02_G004",
+    "type": "coverage_lexis_language_region",
+    "description": "9 logged executions include English, French and Arabic month queries, four French weekly windows, and regional/sector searches. Result headers included substantial 2019, 2025 and off-topic noise. Open-web search does not reproduce LexisNexis; no exhaustive claim.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue contemporaneous local/regional searches with language/region and indexing limits explicit; current open-web results do not establish exhaustive coverage."
+  },
+  {
+    "gap_id": "algeria_2024-02_G005",
+    "type": "baseline",
+    "description": "Official baseline version, current universe, terms and additional Coding Procedure remain pending at the project baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve the official baseline before any export."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "Seven captured searches (34 retained rendered headers) include generic Albanian and English terms, regional city names, week windows, workers/education/health sectors and a Jan 21 anniversary boundary check. They surfaced the known 2011 anniversary coverage and mostly date leakage; no new January 2024 event lead was identified. Search coverage remains incomplete and absence cannot be inferred.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If further discovery is needed, use local/regional outlets and institutional/union/municipal sources with date-bounded searches; keep the Jan 21 anniversary exclusion limited to that story."
+  },
+  {
+    "gap_id": "G002",
+    "type": "source_access",
+    "description": "S001 has a body read after source-specific review. S002 and S003 remain search_only; their rendered snippets concern 21 January anniversary coverage and are not new 2024 event evidence. LexisNexis-equivalent coverage is unavailable.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the remaining exact URLs only if material to the anniversary exclusion or another date-bounded lead, using a fresh exact gate and contemporaneous publisher/origin review."
+  },
+  {
+    "gap_id": "G003",
+    "type": "language",
+    "description": "Four new rendered captures add local Albanian generic, sector and weekly/boundary searches. Search-result leakage remains high, and no systematic coverage of Albanian regional outlets, spellings, archives or local civic/official records was performed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue only where useful: additional regional outlets, union/civil-society records and official sources; save exact outputs and preserve query timing separately from unknown native execution metadata."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "belgium_2024-03_G001",
+    "type": "source_access",
+    "description": "The BRUZZ Women’s March exact URL returned HTTP 403 Forbidden on the ordinary web open; no article body was read.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain search-only lead; do not retry or seek an alternate/mirror while access is denied. Find independent coverage."
+  },
+  {
+    "gap_id": "belgium_2024-03_G002",
+    "type": "source_access",
+    "description": "An exact VRT NWS URL open was invoked but no readable output surfaced in the model channel. Actual response status and body availability are unknown; this is neither evidence of zero results nor an observed denial.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not repeat solely to reconstruct the missing response. Seek independent coverage and keep the result unverified."
+  },
+  {
+    "gap_id": "belgium_2024-03_G003",
+    "type": "source_access",
+    "description": "The RTBF source gate returned defer and therefore no article body was requested.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain search-only and seek independent coverage; no alternate/mirror retrieval."
+  },
+  {
+    "gap_id": "belgium_2024-03_G004",
+    "type": "lead_evidence",
+    "description": "The remaining March source cards are search-layer leads only: anti-austerity march (S001), anti-racism march organizers (S004-S005), Belga farmers-at-ports item (S007), and Reuters EU-district picture report (S008). Their search metadata does not establish article body facts, headcounts, Belgian-government targets, or event boundaries; the Gaza and XR leads also remain unverified. Captured sources S009-S011 are also now inventoried: S009 announces a planned March26 farmer action, S010 is a headline-only anti-racism march lead, and S011 is a monthly agenda/calendar snippet. They do not prove event occurrence, attendance or exact target. S009 may correspond to the Reuters March26 photo lead S008 but is not independent occurrence corroboration; S010 may relate to Vlaams ABVV/SAAMO organizer cards S004-S005 but date/count/demands remain unverified. S011 mentions a March6 Palestine action near Foreign Affairs, an FGTB strike and a March18 march; no occurrence or public crowd size is verified. The Jan q002 capture also surfaced BX1 S012, published Mar26, whose search excerpt describes tractor actions near Rue de la Loi/Schuman and calm by 14:00. It may concern the same action as S008/S009, but the match, occurrence details, headcount and target are not body-verified.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S005",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek independent body evidence under fresh source gates; verify exact dates, crowd sizes, home-state targets and whether EU-institution demands are distinct from Belgian-government demands. Do not count a worker strike or tractors as public attendee totals. For S009 compare execution with S008 without counting the announcement as occurrence; for S010 compare dates and content with S004/S005; for S011 treat each calendar line separately and distinguish a strike from a street gathering. Compare S012 with S008/S009 under future authorized body review; do not treat the snippet or announcement as independent confirmation, and establish people count and home-state target separately."
+  }
+]

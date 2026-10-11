@@ -1,0 +1,268 @@
+[
+  {
+    "gap_id": "chad_2021-01_G001",
+    "type": "baseline",
+    "description": "Latest official eventbytes/schema/universe unverified; registeredmetadata is insufficient.",
+    "source_ids": [],
+    "affected_candidates": [
+      "chad_2021-01_E001",
+      "chad_2021-01_E002",
+      "chad_2021-01_E003",
+      "chad_2021-01_E004",
+      "chad_2021-01_E005"
+    ],
+    "required_followup": "Coordinator compare latest Dataverse bytes before official compatibility/export."
+  },
+  {
+    "gap_id": "chad_2021-01_G002",
+    "type": "search_method",
+    "description": "Openweb firstpass differs from LexisNexis historical protocol;52queries not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [
+      "chad_2021-01_E001",
+      "chad_2021-01_E002",
+      "chad_2021-01_E003",
+      "chad_2021-01_E004",
+      "chad_2021-01_E005"
+    ],
+    "required_followup": "Obtain systematic contemporaneous newspaper archive coverage."
+  },
+  {
+    "gap_id": "chad_2021-01_G003",
+    "type": "language_coverage",
+    "description": "French/English and Arabicscript probes attempted; Arabic often returned Tunisia/othercountries; Sara/Toubou/Zaghawa and oral/radio archives not systematically covered.",
+    "source_ids": [
+      "S009",
+      "S011"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E001",
+      "chad_2021-01_E002",
+      "chad_2021-01_E003",
+      "chad_2021-01_E004",
+      "chad_2021-01_E005"
+    ],
+    "required_followup": "Independent local-language/radio review with accessible contemporary archives."
+  },
+  {
+    "gap_id": "chad_2021-01_G004",
+    "type": "geographic_coverage",
+    "description": "Capital-centered returns; searches for Moundou,Bongor,Sarh,Doba,Abéché,Mao,Faya and rural/land sectors sparse.",
+    "source_ids": [
+      "S036",
+      "S066",
+      "S068"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E001",
+      "chad_2021-01_E002",
+      "chad_2021-01_E003",
+      "chad_2021-01_E004",
+      "chad_2021-01_E005"
+    ],
+    "required_followup": "Search provincial/rural archives including labour,education,water,electricity,transport and land."
+  },
+  {
+    "gap_id": "chad_2021-01_G005",
+    "type": "temporal_search_filter",
+    "description": "Weekly literalwindows and dateoperators returned other months/years,2026pages and misleading2021typos.",
+    "source_ids": [
+      "S029",
+      "S030",
+      "S034",
+      "S088",
+      "S089"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check document dates and surrounding narrative for every discovered lead."
+  },
+  {
+    "gap_id": "chad_2021-01_G006",
+    "type": "occurrence_threshold",
+    "description": "CTVC conditionalcall afterJanuary7: actualexecution/date/crowd unknown.",
+    "source_ids": [
+      "S080"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E001"
+    ],
+    "required_followup": "Find postcall contemporaneous coverage or verified primaryrecord of actual publicaction."
+  },
+  {
+    "gap_id": "chad_2021-01_G007",
+    "type": "participants",
+    "description": "USPRJanuary13sit-in occurred but no simultaneousattendance reported.",
+    "source_ids": [
+      "S082",
+      "S119"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E002"
+    ],
+    "required_followup": "Find crowd estimate or assess dated originalvideo with documentedmethod; no assumption frommilitants."
+  },
+  {
+    "gap_id": "chad_2021-01_G008",
+    "type": "dates_state_response",
+    "description": "USPR physicalend and actualstateresponse unknown; preventiveban does not show actualdispersal.",
+    "source_ids": [
+      "S014",
+      "S119"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E002"
+    ],
+    "required_followup": "FollowJanuary13–14accounts for crowdending and actualresponse."
+  },
+  {
+    "gap_id": "chad_2021-01_G009",
+    "type": "gathering_episode_unit",
+    "description": "January11nationalstrike/January9unionmeeting do not establish>=50publicforum; provincialstoppagesmaystartJanuary4 and earlierunioncampaignsneedcomparison.",
+    "source_ids": [
+      "S094",
+      "S086",
+      "S036",
+      "S112"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E003"
+    ],
+    "required_followup": "Verify physicalgathering attendance/publicaccess and compare prior/adjacentepisodes before inclusion or splitting."
+  },
+  {
+    "gap_id": "chad_2021-01_G010",
+    "type": "state_response_scope",
+    "description": "FormalJanuary12/15ministerunionmeetings support accommodation only for strikelead; no inference tostudent/USPRactions.",
+    "source_ids": [
+      "S086"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E003"
+    ],
+    "required_followup": "Confirm original ministerialreport and exact publicepisode linkage."
+  },
+  {
+    "gap_id": "chad_2021-01_G011",
+    "type": "dates_continuity",
+    "description": "February6strike suspension is unreadArabicsearchlead; does not prove physicalprotestend.",
+    "source_ids": [
+      "S009",
+      "S093"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E003"
+    ],
+    "required_followup": "Open primaryFebruarytruce/restart reports, compare phases without automatic split."
+  },
+  {
+    "gap_id": "chad_2021-01_G012",
+    "type": "state_target_participants_dates",
+    "description": "Schooldisruption described but directstatedemand/publicsetting>=50/firstphysicaldate unproven.",
+    "source_ids": [
+      "S035"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E004"
+    ],
+    "required_followup": "Find students' demands and datedpublicaction coverage; distinguish privatecourseobstruction fromstateprotest."
+  },
+  {
+    "gap_id": "chad_2021-01_G013",
+    "type": "blocked_source_gathering",
+    "description": "January28solidaritystrike interview HTTP403; no physicalassembly established.",
+    "source_ids": [
+      "S032"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E005"
+    ],
+    "required_followup": "Use lawfulaccessible independentreport; verify gathering and coordination with nationalstrike."
+  },
+  {
+    "gap_id": "chad_2021-01_G014",
+    "type": "source_access",
+    "description": "Ialtchad/NDjamenaHebdo actual403; Beinchad406; HRWArabic403; otherCachemiss/timeouts preserved.",
+    "source_ids": [
+      "S032",
+      "S036",
+      "S009",
+      "S011",
+      "S066",
+      "S003",
+      "S030"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E001",
+      "chad_2021-01_E002",
+      "chad_2021-01_E003",
+      "chad_2021-01_E004",
+      "chad_2021-01_E005"
+    ],
+    "required_followup": "Follow accessible archives/independentreports without bypassing accesscontrols."
+  },
+  {
+    "gap_id": "chad_2021-01_G015",
+    "type": "source_independence",
+    "description": "JournalduTchad original/archive/republishedUSPR text are onepublication; unionquotes may derive commonstatement.",
+    "source_ids": [
+      "S082",
+      "S119",
+      "S087",
+      "S086",
+      "S112"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E002",
+      "chad_2021-01_E003"
+    ],
+    "required_followup": "Trace originatingstatements and independentwitnessreporting; do not count repeats as corroboration."
+  },
+  {
+    "gap_id": "chad_2021-01_G016",
+    "type": "episode_unit",
+    "description": "December23Transformateurscampaign, Decemberdiplomalead and February6demonstration need episode/ownercomparison; extraCodingProcedure missing.",
+    "source_ids": [
+      "S083",
+      "S073",
+      "S003"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_C001",
+      "chad_2021-01_C002",
+      "chad_2021-01_C003"
+    ],
+    "required_followup": "Coordinator inspect neighboringmonths and originalProcedure; no campaign/day/monthautomaticsplit."
+  },
+  {
+    "gap_id": "chad_2021-01_G017",
+    "type": "state_response_violence_casualties",
+    "description": "Exceptstrikeformaltalks and attributedpeacefulUSPRact, response/violence fields lack actualevidence. No currentarrests inferred fromCTVC leader's unrelatedonlinepost arrest.",
+    "source_ids": [
+      "S083",
+      "S086",
+      "S119"
+    ],
+    "affected_candidates": [
+      "chad_2021-01_E001",
+      "chad_2021-01_E002",
+      "chad_2021-01_E003",
+      "chad_2021-01_E004",
+      "chad_2021-01_E005"
+    ],
+    "required_followup": "Obtain act-specific reports; preserveunknown absent evidence."
+  },
+  {
+    "gap_id": "chad_2021-01_G018",
+    "type": "contested_dates_unverified_leads",
+    "description": "Abéché/Toukra/disability/stadium January2021 strings conflict with2022metadata/context.",
+    "source_ids": [
+      "S029",
+      "S030",
+      "S034",
+      "S088",
+      "S089"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Resolve against contemporaneous2021/2022 originals before assigning a month."
+  }
+]

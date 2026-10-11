@@ -1,0 +1,306 @@
+[
+  {
+    "gap_id": "MW202101-G001",
+    "type": "participants threshold",
+    "description": "CDEDI march turnout is described only as “dozens”; there is no reliable basis to decide whether at least 50 gathered.",
+    "source_ids": [
+      "malawi_2021-01-S010"
+    ],
+    "affected_candidates": [
+      "MW202101-E001"
+    ],
+    "required_followup": "Seek an independent contemporaneous attendance estimate; do not convert “dozens” to a numeric threshold."
+  },
+  {
+    "gap_id": "MW202101-G002",
+    "type": "participants threshold geography",
+    "description": "The Jan 26 transport protests are confirmed by three contemporary outlets, but none provides a people-count by site. Nyasa Times’ “over 100 police officers” is law-enforcement deployment, not protest attendance.",
+    "source_ids": [
+      "malawi_2021-01-S001",
+      "malawi_2021-01-S029",
+      "malawi_2021-01-S035"
+    ],
+    "affected_candidates": [
+      "MW202101-E003"
+    ],
+    "required_followup": "Find event-specific crowd estimates for each site and resolve event scope before any city-level split."
+  },
+  {
+    "gap_id": "MW202101-G003",
+    "type": "participants threshold response",
+    "description": "The Guardian says “dozens” attended the Jan 28 FSWA march; numeric lower bound and >=50 threshold remain unresolved.",
+    "source_ids": [
+      "malawi_2021-01-S009",
+      "malawi_2021-01-S018"
+    ],
+    "affected_candidates": [
+      "MW202101-E004"
+    ],
+    "required_followup": "Find independent turnout evidence; organization membership is not event attendance."
+  },
+  {
+    "gap_id": "MW202101-G004",
+    "type": "source_access occurrence participants",
+    "description": "A Jan 21 Face of Malawi search-result article reports a Zomba street demonstration on Jan 20 and names demands/officials’ response, but web open failed with Cache miss and the body remains unreviewed. It provides no attendance figure.",
+    "source_ids": [
+      "malawi_2021-01-S033"
+    ],
+    "affected_candidates": [
+      "MW202101-E005"
+    ],
+    "required_followup": "Retrieve the article body or find independent Zomba coverage; verify occurrence, attendance >=50 and precise state interaction."
+  },
+  {
+    "gap_id": "MW202101-G005",
+    "type": "source_access occurrence dates",
+    "description": "The Jan 2 Malawi24 demonstration archive listing is search-only. Reader failure and ordinary HTTPS DNS failure prevented confirming whether AHL workers actually gathered on Jan 4. Jan 6 salary payment news does not confirm execution or cancellation.",
+    "source_ids": [
+      "malawi_2021-01-S023",
+      "malawi_2021-01-S024",
+      "malawi_2021-01-S025"
+    ],
+    "affected_candidates": [
+      "MW202101-E002"
+    ],
+    "required_followup": "Locate contemporaneous follow-up proving occurrence or cancellation, then determine actual attendance, state target and whether earlier demonstrations continued into Jan."
+  },
+  {
+    "gap_id": "MW202101-G006",
+    "type": "state_target organizer",
+    "description": "AHL was reported as partly government-owned, but the Jan 4 plan concerned wages owed by the employer. No source establishes a demand addressed to the national government.",
+    "source_ids": [
+      "malawi_2021-01-S023",
+      "malawi_2021-01-S027"
+    ],
+    "affected_candidates": [
+      "MW202101-E002"
+    ],
+    "required_followup": "Find original demands and identify the intended addressee; ownership alone does not establish domestic-state targeting."
+  },
+  {
+    "gap_id": "MW202101-G007",
+    "type": "dates episode_unit state_response",
+    "description": "Transport sources differ on an earlier agreement for three passengers per seat, the associations involved, and whether enforcement continued. The Nation says police tear gas dispersed some road-blocking groups and the action was called off, without one nationwide end time; Nyasa Times says MOAM southern leadership opposed limits, while Nation quotes MOAM’s national chair distancing the association.",
+    "source_ids": [
+      "malawi_2021-01-S001",
+      "malawi_2021-01-S029",
+      "malawi_2021-01-S035"
+    ],
+    "affected_candidates": [
+      "MW202101-E003"
+    ],
+    "required_followup": "Trace the government/MDCA/MOAM statements and local reports. Preserve separate local end times if a single episode cannot be supported."
+  },
+  {
+    "gap_id": "MW202101-G008",
+    "type": "violence contested_evidence",
+    "description": "The Nation reports drivers/conductors throwing stones at motorists and cites a spokesperson’s claim that outsiders hijacked some actions. Nyasa Times separately reports attacks on kabaza operators at Bangwe. Target and attribution vary by report/site.",
+    "source_ids": [
+      "malawi_2021-01-S029",
+      "malawi_2021-01-S035"
+    ],
+    "affected_candidates": [
+      "MW202101-E003"
+    ],
+    "required_followup": "Seek event-specific independent attribution and apply the codebook’s protester-violence definition without assuming all sites shared the conduct."
+  },
+  {
+    "gap_id": "MW202101-G009",
+    "type": "state_response accommodation dates",
+    "description": "For the FSWA Lilongwe march, the District Commissioner declined to receive a petition and the group went to Lilongwe City Council. The later reception/outcome and event closure are not documented.",
+    "source_ids": [
+      "malawi_2021-01-S009",
+      "malawi_2021-01-S018"
+    ],
+    "affected_candidates": [
+      "MW202101-E004"
+    ],
+    "required_followup": "Find whether City Council formally received/responded to the petition and whether the march ended there."
+  },
+  {
+    "gap_id": "MW202101-G010",
+    "type": "episode_unit geography",
+    "description": "A Jan 26 Malawi24 item lists Mwanza and “other” sites; The Nation lists five districts/cities and says Mzuzu was unaffected. Evidence does not establish whether this was centrally coordinated as one national action or several local events.",
+    "source_ids": [
+      "malawi_2021-01-S001",
+      "malawi_2021-01-S029",
+      "malawi_2021-01-S035"
+    ],
+    "affected_candidates": [
+      "MW202101-E003"
+    ],
+    "required_followup": "Compare local reports and union/association notices; do not split or merge solely from one broad national label."
+  },
+  {
+    "gap_id": "MW202101-G011",
+    "type": "dates boundary episode_unit",
+    "description": "The Jan 27 Nation report mentions a similar minibus protest in December 2020; it may be a prior distinct episode. The undated search result about Blantyre minibus owners may be another earlier action.",
+    "source_ids": [
+      "malawi_2021-01-S029",
+      "malawi_2021-01-S031"
+    ],
+    "affected_candidates": [
+      "MW202101-E003"
+    ],
+    "required_followup": "Identify exact dates and physical continuity. Keep December outside Jan events unless a documented continuation fits the protocol."
+  },
+  {
+    "gap_id": "MW202101-G012",
+    "type": "dates boundary occurrence participants",
+    "description": "AHL employees had reportedly demonstrated during arrears dating from Sep 2020, but Jan 11 reporting supplies no exact days; a November source also describes prior vigils. It is unresolved whether any campaign/action continued into January.",
+    "source_ids": [
+      "malawi_2021-01-S025",
+      "malawi_2021-01-S027"
+    ],
+    "affected_candidates": [
+      "MW202101-E002"
+    ],
+    "required_followup": "Find dated event records and physical continuity; do not create a continuation without a known pre-January start."
+  },
+  {
+    "gap_id": "MW202101-G013",
+    "type": "episode_unit language",
+    "description": "Zomba has a reported Jan 20 local action and Lilongwe a Jan 28 FSWA march. A late-January Scrolla search result also says sex workers in different parts of the country took to streets on Jan 28 but identifies no other sites. Relationships/coordination remain unverified.",
+    "source_ids": [
+      "malawi_2021-01-S009",
+      "malawi_2021-01-S011",
+      "malawi_2021-01-S012",
+      "malawi_2021-01-S018",
+      "malawi_2021-01-S033"
+    ],
+    "affected_candidates": [
+      "MW202101-E004",
+      "MW202101-E005"
+    ],
+    "required_followup": "Trace original local reporting and FSWA/local branch notices; identify any other Jan 28 sites and determine whether these were one national action or distinct local gatherings."
+  },
+  {
+    "gap_id": "MW202101-G014",
+    "type": "source_independence",
+    "description": "The Guardian and Nyasa Times provide distinct contemporary reports on Lilongwe. Southern African Herald explicitly republishes Nyasa Times; Dullah Omar cites Guardian; CIVICUS and VOA Afrique are later summaries. These are not four independent confirmations.",
+    "source_ids": [
+      "malawi_2021-01-S009",
+      "malawi_2021-01-S013",
+      "malawi_2021-01-S014",
+      "malawi_2021-01-S015",
+      "malawi_2021-01-S018",
+      "malawi_2021-01-S032"
+    ],
+    "affected_candidates": [
+      "MW202101-E004"
+    ],
+    "required_followup": "Retain publisher/origin lineage and rely on the two distinct contemporary reports for cross-checking; trace any additional sources before counting independence."
+  },
+  {
+    "gap_id": "MW202101-G015",
+    "type": "language coverage geography",
+    "description": "Searches covered English national/local outlets and some Chichewa terms, but indexed results were dominated by English. Tumbuka and Chiyao were not systematically searched; rural and northern districts, local radio archives and regional-language sources may be underrepresented.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted local-language and regional media searches and record exact queries; do not treat sparse indexed results as absence."
+  },
+  {
+    "gap_id": "MW202101-G016",
+    "type": "coverage weekly sectors",
+    "description": "Searches now include Jan 1–10, 11–20 and 21–31 date windows plus transport, traders, health/teachers, labor, Covid restrictions, sex workers and Chichewa terms; verified substantive reports cluster in Blantyre/Lilongwe, with Zomba and the Jan 26 transport action also represented. Other sectors and districts remain incompletely covered.",
+    "source_ids": [
+      "malawi_2021-01-S033",
+      "malawi_2021-01-S034"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue week-by-week local/regional searches for agriculture, markets, students, opposition, public-service labor and regional districts, then verify candidate bodies."
+  },
+  {
+    "gap_id": "MW202101-G017",
+    "type": "source_access search_method",
+    "description": "Reader Cache miss/internal errors on S003, S004, S011, S012, S023, S031, S033 and S034 were followed by ordinary HTTPS attempts for some URLs; DNS resolution failed for tested URLs. No site denial was observed. S033/S034 remain search-only.",
+    "source_ids": [
+      "malawi_2021-01-S003",
+      "malawi_2021-01-S004",
+      "malawi_2021-01-S011",
+      "malawi_2021-01-S012",
+      "malawi_2021-01-S023",
+      "malawi_2021-01-S031",
+      "malawi_2021-01-S033",
+      "malawi_2021-01-S034"
+    ],
+    "affected_candidates": [
+      "MW202101-E001",
+      "MW202101-E002",
+      "MW202101-E005"
+    ],
+    "required_followup": "Retry only through ordinary authorized public retrieval when available; keep snippets as discovery evidence, not verified body text."
+  },
+  {
+    "gap_id": "MW202101-G018",
+    "type": "baseline coding procedure",
+    "description": "Official baseline/version, detailed original Coding Procedure and current comparison universe remain pending; no MM official IDs or integration decisions can be made in this unit.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MW202101-E001",
+      "MW202101-E002",
+      "MW202101-E003",
+      "MW202101-E004",
+      "MW202101-E005"
+    ],
+    "required_followup": "Coordinator to compare all unresolved candidates with authorized baseline and review policy before any official inclusion."
+  },
+  {
+    "gap_id": "MW202101-G019",
+    "type": "boundary after month",
+    "description": "Some reported labor and transport tensions continued or were discussed after January, but the available Feb reporting concerns later teacher actions and does not establish January continuity for these candidates.",
+    "source_ids": [
+      "malawi_2021-01-S022",
+      "malawi_2021-01-S028"
+    ],
+    "affected_candidates": [
+      "MW202101-E002",
+      "MW202101-E003"
+    ],
+    "required_followup": "Search dated February follow-up for physical continuation and preserve onset-based monthly ownership."
+  },
+  {
+    "gap_id": "MW202101-G020",
+    "type": "participants threshold event_scope",
+    "description": "Two contemporary reports and a later VOA report place a quarantine riot at Mapanga on Jan 10. Face of Malawi quotes a prison spokesperson saying only “few individuals” perpetuated the riot but gives no number. The 518/approximately 600 arrivals are not event attendance.",
+    "source_ids": [
+      "malawi_2021-01-S036",
+      "malawi_2021-01-S037",
+      "malawi_2021-01-S038",
+      "malawi_2021-01-S039",
+      "malawi_2021-01-S040"
+    ],
+    "affected_candidates": [
+      "MW202101-E006"
+    ],
+    "required_followup": "Find additional event-specific crowd estimates; do not substitute returnee cohort size. Coordinator should review fit for the original protest/riot scope."
+  },
+  {
+    "gap_id": "MW202101-G021",
+    "type": "violence state_response source_independence",
+    "description": "Nyasa Times/Face and a later VOA account describe tear gas and damage; VOA reports about 20 escaped and 39 arrested/charged, while Face quotes a prison spokesperson saying no one had escaped at that point. The Nation later mentions arrests among returnees but does not link them to a particular date. Timing and event attribution remain unresolved.",
+    "source_ids": [
+      "malawi_2021-01-S036",
+      "malawi_2021-01-S037",
+      "malawi_2021-01-S038",
+      "malawi_2021-01-S040"
+    ],
+    "affected_candidates": [
+      "MW202101-E006"
+    ],
+    "required_followup": "Review later corrections and independent accounts. Preserve timing/attribution; do not infer beatings or casualties from tear gas/property damage."
+  },
+  {
+    "gap_id": "MW202101-G022",
+    "type": "state_response contested_evidence",
+    "description": "The Lilongwe District Commissioner refused to receive the FSWA petition and the group went to City Council; City Council receipt is unknown. The Guardian also quotes the Attorney General saying government would look at the issues and respond, after saying there was no immediate government comment. Event-level ignore/accommodation coding needs scoped review.",
+    "source_ids": [
+      "malawi_2021-01-S009",
+      "malawi_2021-01-S018"
+    ],
+    "affected_candidates": [
+      "MW202101-E004"
+    ],
+    "required_followup": "Coordinator should distinguish the District Commissioner’s refusal from any later City Council/government response and apply the original accommodation/ignore definitions."
+  }
+]

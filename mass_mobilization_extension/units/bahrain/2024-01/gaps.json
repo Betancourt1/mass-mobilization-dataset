@@ -1,0 +1,86 @@
+[
+  {
+    "gap_id": "bahrain_2024-01_G001",
+    "type": "search_capture_loss",
+    "description": "The first actual English broad search response was lost before durable capture when the wrapper failed before encoding. Its rendered output and result URLs are unavailable; the query was not repeated to reconstruct it.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Proceed with distinct fresh English and Arabic queries and preserve each raw rendered result atomically."
+  },
+  {
+    "gap_id": "bahrain_2024-01_G002",
+    "type": "search_capture_loss",
+    "description": "A second actual January Bahrain English/Arabic search response was lost before durable capture when the wrapper failed before encoding. Result URLs and rendered output are unavailable; it was not repeated to reconstruct them.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use the corrected UTF-8 base64 writer for all subsequent actual searches."
+  },
+  {
+    "gap_id": "bahrain_2024-01_G003",
+    "type": "event_specificity",
+    "description": "Bahrain Mirror search snippet reports an aggregate of 237 protests from January through May 2024 but does not identify individual events or dates; it cannot establish any Q1 event, threshold, or onset month.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If exact-URL gate and manual review permit a body request, inspect for event-level references; independently verify contemporary coverage and attendance."
+  },
+  {
+    "gap_id": "bahrain_2024-01_G004",
+    "type": "source_access",
+    "description": "The BCHR 2023 retrospective is a search-only lead; its body has not been requested. Bahrain Mirror S001 was opened after its exact fresh gate, manifest verification, and manual review.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If S002 is pursued, use a fresh exact-URL compact gate and manual restriction/origin review before any body request; no authorization is implied by discovery."
+  },
+  {
+    "gap_id": "bahrain_2024-01_G005",
+    "type": "search_capture_loss",
+    "description": "The actual output string for BH24M01Q03 was returned by the search tool but the wrapper looked for a content array and captured an empty string. The original response is unavailable; empty capture is not evidence of zero results and the query was not repeated solely to reconstruct it.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain as a capture loss; rely on subsequent independently captured English/Arabic and source-specific queries."
+  },
+  {
+    "gap_id": "bahrain_2024-01_G006",
+    "type": "search_capture_loss",
+    "description": "The genuine Arabic-focused January search BH24M01Q17 returned an output, but the preservation helper was called without its required unit argument and the response was lost. The exact query and invocation are retained in search_log.jsonl with unknown result contents; empty arrays are not an observed zero-result response.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use only the other captured searches and fresh independent research; do not reconstruct the lost response."
+  },
+  {
+    "gap_id": "bahrain_2024-01_G007",
+    "type": "search_coverage",
+    "description": "Captured English and Arabic searches were bounded and uneven. Many displayed results were historical, off-period, irrelevant, or did not expose individual event details. The searches do not establish negative coverage or absence of qualifying January assemblies. Q18 surfaced a January 31 seminar listing, but its public-gathering status and attendance are unknown.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek additional date-specific contemporary English and Arabic local reporting and primary organizer/rights-monitor records; verify event type, date, location, attendance of at least 50, and home-state target separately."
+  },
+  {
+    "gap_id": "bahrain_2024-01_G008",
+    "type": "source_access",
+    "description": "The Bahrain Mirror year-end article and Bahrain Human Rights Society events listing remain search-only leads. The Bahrain Mirror June 2024 aggregate is body-read under its own exact gate. The BCHR 2023 retrospective remains unreviewed and out of period.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If these leads are pursued, use a fresh exact-URL compact gate and manual restriction/origin review before any body request; no authorization is implied by their discovery."
+  },
+  {
+    "gap_id": "bahrain_2024-01_G009",
+    "type": "source_access",
+    "description": "BH24M01Q18 captured an HRW World Report 2025 Bahrain search-result snippet about interviews conducted between March and September 2024 with children previously exposed to detention/interrogation ill-treatment related to protest participation. It does not identify an event or establish a qualifying gathering. The known Human Rights Watch publisher-wide 403 hold applies: no HRW body, alternate URL, alias, mirror, or cached copy may be requested.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain this lead as search-only under the publisher-wide HRW hold; do not retrieve a body or infer an event. Event-level facts remain unestablished."
+  }
+]

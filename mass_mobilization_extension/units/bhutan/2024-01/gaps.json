@@ -1,0 +1,84 @@
+[
+  {
+    "gap_id": "bhutan_2024-01_G01",
+    "type": "baseline",
+    "description": "Official event baseline and the eligible-gathering denominator remain pending; this bounded open-web scan cannot establish a complete event universe.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to apply official baseline and revise coverage."
+  },
+  {
+    "gap_id": "bhutan_2024-01_G02",
+    "type": "search_method",
+    "description": "Searches covered broad and weekly English terms, sector and election queries, a local-media site query, regional leads, and one Dzongkha-script query. Search indexing was noisy; the Kuensel site query returned unrelated results, and the Dzongkha query returned mostly unrelated Tibetan-language material. This is not LexisNexis-equivalent or a validated native-language review.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Repeat with native-language review and systematic local/regional archives when available."
+  },
+  {
+    "gap_id": "bhutan_2024-01_G03",
+    "type": "coverage",
+    "description": "No candidate for a Bhutan-located January gathering was established in captured results. Search visibility is not a measure of event incidence; absence is not inferred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use official baseline and independent local archive review before making absence claims."
+  },
+  {
+    "gap_id": "bhutan_2024-01_G04",
+    "type": "source_access",
+    "description": "All source cards retained for relevant leads are search_only. No source body was requested in this pass, so dates, locations, physical execution, demand, attendance and response are not verified beyond search-result projections.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Apply fresh exact-URL gate and manual source review before any body request; then update source scope and evidence."
+  },
+  {
+    "gap_id": "bhutan_2024-01_G05",
+    "type": "episode_unit",
+    "description": "The Bhutanese refugee lead in Morang, Nepal does not establish a gathering, event date, target, attendance, or whether this is a campaign rather than a public act.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review Nepal News source if it becomes relevant; do not assign a Bhutan unit without evidence of a Bhutan-located gathering."
+  },
+  {
+    "gap_id": "bhutan_2024-01_G06",
+    "type": "participants",
+    "description": "Search results for the May Hague rally do not establish an attendance count or exact event date; it is outside this unit by location and reported month.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No Bhutan-unit coding; preserve the uncertainty for any separate diaspora research."
+  },
+  {
+    "gap_id": "bhutan_2024-01_G07",
+    "type": "source_independence",
+    "description": "The Republica and Nepal Diplomat search results describe the same Hague rally and may share source material; independence is unresolved.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not count these pages as independent corroboration."
+  },
+  {
+    "gap_id": "bhutan_2024-01_G08",
+    "type": "capture_method",
+    "description": "The first actual query response BH2024_01_EN_BROAD_001 was not preserved because adapter extraction looked for content blocks instead of the returned string. The empty placeholder and zero-header projection are not evidence of zero results. This lost response was not reconstructed or rerun.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep the capture loss visible; preserve future actual returned strings directly before processing."
+  },
+  {
+    "gap_id": "bhutan_2024-01_G09",
+    "type": "source_access",
+    "description": "A regional search surfaced a historical HRW lead about Bhutanese refugees in Nepal. The existing publisher-wide HRW hold prohibited body or alternate-URL requests; search-only context is retained. The event is historical and outside Bhutan, not January 2024 evidence.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry HRW body/alternate/mirror while the hold applies; no Bhutan unit coding."
+  }
+]

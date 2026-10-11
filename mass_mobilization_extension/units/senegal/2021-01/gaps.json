@@ -1,0 +1,280 @@
+[
+  {
+    "gap_id": "SEN202101-G001",
+    "type": "participants",
+    "description": "Opened contemporary reporting confirms gatherings but provides no attendance count or clear qualitative estimate establishing at least 50 at one meeting.",
+    "source_ids": [
+      "SEN202101-S001",
+      "SEN202101-S002",
+      "SEN202101-S003",
+      "SEN202101-S004"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E001"
+    ],
+    "required_followup": "Find a contemporaneous attendance estimate or independently readable photo/video account; exclude commuters and people present outside the protest."
+  },
+  {
+    "gap_id": "SEN202101-G002",
+    "type": "episode_unit",
+    "description": "Reports name multiple neighborhoods during one curfew night but do not establish shared organization or whether these were separate meetings.",
+    "source_ids": [
+      "SEN202101-S001",
+      "SEN202101-S002",
+      "SEN202101-S003",
+      "SEN202101-S004"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E001"
+    ],
+    "required_followup": "Check local reports and organizer statements for coordination, separate meeting times, and location-level attendance before splitting or grouping."
+  },
+  {
+    "gap_id": "SEN202101-G003",
+    "type": "dates",
+    "description": "The reported protests occurred on Jan 6, but no source establishes the physical end or whether actions continued after that night.",
+    "source_ids": [
+      "SEN202101-S001",
+      "SEN202101-S002",
+      "SEN202101-S003",
+      "SEN202101-S004"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E001"
+    ],
+    "required_followup": "Follow Jan 7 onward in contemporaneous sources and record physical departure/dissolution only if explicitly documented."
+  },
+  {
+    "gap_id": "SEN202101-G004",
+    "type": "state_response",
+    "description": "Tear-gas dispersal is reported; arrest counts and other state response dimensions are not established. AFP republications are dependent.",
+    "source_ids": [
+      "SEN202101-S001",
+      "SEN202101-S002",
+      "SEN202101-S003",
+      "SEN202101-S004"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E001"
+    ],
+    "required_followup": "Seek direct contemporaneous reports or official records on each response dimension; preserve unknown where evidence is silent."
+  },
+  {
+    "gap_id": "SEN202101-G005",
+    "type": "language",
+    "description": "Language coverage remains limited. One Wolof-oriented query using the word xibaar returned French-language results; no substantive Wolof corpus or human translation review was obtained. MetroDakar prints a Wolof expression with its French gloss, and Ziguinchor reporting may also require regional-language coverage.",
+    "source_ids": [
+      "SEN202101-S010",
+      "SEN202101-S031"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E001",
+      "senegal_2021-01_E003",
+      "senegal_2021-01_E004"
+    ],
+    "required_followup": "Seek Wolof and relevant regional-language reporting (including Jola/Diola where appropriate) and human language review before relying on translation-dependent evidence."
+  },
+  {
+    "gap_id": "SEN202101-G006",
+    "type": "coverage",
+    "description": "Eighteen one-query-per-call searches now cover all five January week windows, a Wolof-oriented query, French regional/sector searches, and December/February boundaries. APS/date filters and broad searches returned substantial wrong-period material; regional, sectoral and local-language coverage remains uneven. Search result headers are not a systematic newspaper archive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with targeted local/regional checks where useful; retain the open-web versus LexisNexis/hemeroteca coverage limit and avoid an absence or exhaustiveness claim."
+  },
+  {
+    "gap_id": "SEN202101-G007",
+    "type": "episode_unit",
+    "description": "December 2020, February 2021 and event-specific boundary searches were run. No sourced physical continuation from December into the Jan 6 Dakar/Mbour or Jan 14–15 Ziguinchor actions has been identified. The February EnQuête issue reports a separate Sonko-affair episode; this search does not prove no other continuation.",
+    "source_ids": [
+      "SEN202101-S001",
+      "SEN202101-S002",
+      "SEN202101-S003",
+      "SEN202101-S004",
+      "SEN202101-S026",
+      "SEN202101-S033"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E001",
+      "senegal_2021-01_E003",
+      "senegal_2021-01_E004"
+    ],
+    "required_followup": "Maintain distinct January event keys; check any new source against physical date, demand and participants before linking across months. Absence of a located continuation is not proof none occurred."
+  },
+  {
+    "gap_id": "SEN202101-G008",
+    "type": "baseline",
+    "description": "The coordinator's official latest baseline, current universe/schema, and supplemental Coding Procedure remain unverified; this unit cannot assign official MM IDs.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve baseline and protocol gates before any export or official merge."
+  },
+  {
+    "gap_id": "SEN202101-G009",
+    "type": "source_access",
+    "description": "Leral headline reports arrests in Mbour, but after web Cache miss the exact public URL returned HTTP 200 and only the page title/heading were captured; article-body evidence is still unavailable.",
+    "source_ids": [
+      "SEN202101-S008"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E003"
+    ],
+    "required_followup": "Do not code the headline-only arrest claim or use it as attendance. Keep as search-only pending body-level verification."
+  },
+  {
+    "gap_id": "SEN202101-G010",
+    "type": "violence_casualties",
+    "description": "EnQuête reports one seriously injured protester in Thiaroye but does not identify the cause or agent.",
+    "source_ids": [
+      "SEN202101-S009"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E001"
+    ],
+    "required_followup": "Seek independent contemporaneous evidence on the injury attribution; do not code it as a state beating or killing without attribution."
+  },
+  {
+    "gap_id": "SEN202101-G011",
+    "type": "participants",
+    "description": "The Mbour reports identify youth and local street activity but no attendance count; secondary effects and a street football match are separate from turnout.",
+    "source_ids": [
+      "SEN202101-S008",
+      "SEN202101-S010"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E003"
+    ],
+    "required_followup": "Find attendance for a clearly defined protest meeting; do not use arrested people, affected families or football players as turnout."
+  },
+  {
+    "gap_id": "SEN202101-G012",
+    "type": "episode_unit",
+    "description": "The G20 source is a strike announcement; no public meeting, attendance, or executed action is documented.",
+    "source_ids": [
+      "SEN202101-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search for an actual meeting or report of execution; do not treat the strike call itself as a public protest."
+  },
+  {
+    "gap_id": "SEN202101-G013",
+    "type": "dates",
+    "description": "An opened article reports a planned teachers’ march in Thiès on Jan 12 but the publication/event year was not captured, and no execution report was found yet.",
+    "source_ids": [
+      "SEN202101-S018"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify article publication year and whether a public march occurred; if outside Jan 2021 or only announced, do not include it."
+  },
+  {
+    "gap_id": "SEN202101-G014",
+    "type": "dates",
+    "description": "An opened SenePlus transport-strike article has unknown date. Two opened local reports date the strike ending to Jan 3–4; Teranga says it was declared 10 days earlier, while a separate Jan 4 SenePlus report dates its start to Dec 25. These reports establish the strike period but no public meeting or attendance.",
+    "source_ids": [
+      "SEN202101-S017",
+      "SEN202101-S035",
+      "SEN202101-S036",
+      "SEN202101-S037"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek evidence of an actual public gathering during the strike before treating it as an MM event or continuation; keep the physical strike start separate from any unverified gathering date and do not infer turnout from service disruption."
+  },
+  {
+    "gap_id": "SEN202101-G015",
+    "type": "participants",
+    "description": "Teranga News reports several dozen young people in multiple Ziguinchor neighborhoods on Jan 14–15, but the phrase does not establish at least 50 at one meeting. Arrest totals in separate sources differ and are not turnout.",
+    "source_ids": [
+      "SEN202101-S019",
+      "SEN202101-S020",
+      "SEN202101-S021",
+      "SEN202101-S022",
+      "SEN202101-S026"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E004"
+    ],
+    "required_followup": "Find a direct attendance estimate for a defined meeting. Do not use four, roughly ten or nineteen arrests as crowd size."
+  },
+  {
+    "gap_id": "SEN202101-G016",
+    "type": "dates",
+    "description": "Senego’s Jan 14 article says the action occurred on “Thursday 14 December,” while Teranga News’ Jan 28 follow-up dates it to the night of Jan 14–15. The discrepancy is preserved; no textual correction is assumed.",
+    "source_ids": [
+      "SEN202101-S021",
+      "SEN202101-S026"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E004"
+    ],
+    "required_followup": "Seek a readable contemporary source that resolves the date and the relation among the Néma 2, Kandialang and Tilène reports."
+  },
+  {
+    "gap_id": "SEN202101-G017",
+    "type": "source_access",
+    "description": "Ziguinchor source access is mixed: Teranga News’ retrospective body is opened; the original Teranga headline URL returned HTTP 403; Setal returned HTTP 200 but article paragraphs were not extracted; SenePlus returned HTTP 403; DakarActu, Jotaay and Leral remain search-only after Cache misses. Search-only arrest figures are not coded.",
+    "source_ids": [
+      "SEN202101-S019",
+      "SEN202101-S020",
+      "SEN202101-S022",
+      "SEN202101-S023",
+      "SEN202101-S024",
+      "SEN202101-S025",
+      "SEN202101-S026"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E004"
+    ],
+    "required_followup": "Use other independently accessible contemporary sources if they are found. Do not retry denied URLs or bypass access limits; keep headline-only counts unverified."
+  },
+  {
+    "gap_id": "SEN202101-G018",
+    "type": "demand_category",
+    "description": "Ziguinchor reports identify a public-lighting/safety demand addressed to the local mayor, but none of the seven original demand categories has a clear faithful fit. The candidate leaves the coded demand list empty and retains the textual demand in field_evidence.",
+    "source_ids": [
+      "SEN202101-S021",
+      "SEN202101-S026"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E004"
+    ],
+    "required_followup": "Check the original Coding Procedure when the coordinator resolves baseline access; do not invent a new category or force an unrelated code."
+  },
+  {
+    "gap_id": "SEN202101-G019",
+    "type": "episode_unit",
+    "description": "The Jan 29 Tambacounda march for the University of Eastern Senegal was announced on Jan 26 and expressly cancelled after a prefectural prohibition. The opened report says flyer distribution was planned and a memorandum handover was decided, but does not confirm either was completed. A separate July march by the same collective is outside January.",
+    "source_ids": [
+      "SEN202101-S027",
+      "SEN202101-S028",
+      "SEN202101-S029",
+      "SEN202101-S030",
+      "SEN202101-S034"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not include the cancelled march as an executed event. Do not treat the July march as its January continuation."
+  },
+  {
+    "gap_id": "SEN202101-G020",
+    "type": "episode_unit",
+    "description": "The Feb 10 EnQuête issue reports later Sonko-affair protest activity in Dakar, Ziguinchor and Bignona. The topic and period differ from the Jan curfew and Jan public-lighting actions; no physical continuity is established.",
+    "source_ids": [
+      "SEN202101-S033"
+    ],
+    "affected_candidates": [
+      "senegal_2021-01_E001",
+      "senegal_2021-01_E004"
+    ],
+    "required_followup": "Keep this source as a boundary check only; assess February/March action dates and demands separately in their own units."
+  },
+  {
+    "gap_id": "SEN202101-G021",
+    "type": "episode_unit",
+    "description": "The Dakar24 highway-blockade article was opened and dated Jan 21, 2023, outside the unit; it reports a toll-road manifestation without an attendance count. A separate MetroDakar headline mentions drivers arrested for “attroupement,” but its exact public URL returned HTTP 403 after one ordinary request; its date, people present and event relation remain unknown.",
+    "source_ids": [
+      "SEN202101-S040",
+      "SEN202101-S042"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not link the 2023 Dakar24 action to January 2021. Do not retry the denied MetroDakar URL; only if independent evidence is already available, assess its date, gathering form, state target and attendance without using vehicle disruption as turnout."
+  }
+]

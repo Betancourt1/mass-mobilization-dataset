@@ -1,0 +1,40 @@
+[
+  {
+    "gap_id": "angola_2024-01_G001",
+    "type": "coverage",
+    "description": "The captured Portuguese/English general and weekly searches returned substantial unrelated, historical, and out-of-month material; no clearly relevant January 2024 event header was identified. This is not evidence that no protest occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search local provincial outlets, unions, rights groups, and archives by province/sector; verify every date in accessible contemporary records."
+  },
+  {
+    "gap_id": "angola_2024-01_G002",
+    "type": "boundary",
+    "description": "A January search surfaced a union-meeting/strike-decision headline concerning a planned February 24 assembly. A current ordinary open of its exact URL returned HTTP 403 before content, and a fresh post-denial gate returned hold. The event type and any subsequent public action remain unknown; no body facts or reconstructed search output are available.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry or use an alternate path for S001. Check independently accessible February/quarterly sources for whether any public protest began, and keep internal union deliberation separate from a public event."
+  },
+  {
+    "gap_id": "angola_2024-01_G003",
+    "type": "access",
+    "description": "S001's exact URL returned HTTP 403 before page content after a stable fresh gate and manual source-origin review. The denial was retained and a new gate returned hold. No body was received or read; no retry, alternate host, mirror, or substitute path was used. Search-only material cannot establish occurrence, attendance, public gathering, demand, or response.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry S001 or use another route to its denied content. Pursue only independent, separately reviewed sources under their own exact-URL gates; keep all event attributes unknown until evidenced."
+  },
+  {
+    "gap_id": "angola_2024-01_G004",
+    "type": "capture_integrity",
+    "description": "The exact formatted search invocation outputs from earlier discovery calls were not archived to private_reading before the capture wrapper ended. Their exact raw bytes and native event_msg metadata cannot be recovered; query/header rows parsed from formatted tool output are preserved with unknown native clocks/metadata. No output was reconstructed and no query was rerun to replace the missing capture. Task-call chronology indicates 15 actual search invocations for this month, while 6 capture rows are saved; 9 invocation outputs are not represented as query-result rows, and several early queries were repeated before the runtime-capture rule was read. Exact per-invocation result arrays/timing are unavailable and are not filled with empty results.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Treat saved rows only as parsed formatted-output records. The observed total invocation count is separate from validator n_queries; missing invocation results and exact query clocks remain unknown. No reconstruction or rerun was used."
+  }
+]

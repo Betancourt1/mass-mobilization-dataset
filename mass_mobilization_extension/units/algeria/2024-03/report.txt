@@ -1,0 +1,19 @@
+Algeria 2024-03 — researched open-web checkpoint (pending review)
+
+Query records: 20; rendered result headers: 195; source cards: 1; candidate leads: 0; exclusions: 0; continuations: 0; gaps: 4.
+Status is researched_open_web_pending_review; finished_at=2026-10-10T23:15:28+00:00. This bounded open-web first pass is pending independent review; it is not an exhaustive event census or a claim that no demonstrations occurred.
+
+Method: discovery used search_query only, in English, French and Arabic. Probes covered month-level terms, successive weekly windows across March, regional names, student/teacher/health/transport/workforce sectors, unemployment/housing/water concerns, and late-February/early-April boundaries. After a fresh stable exact-URL gate and manual origin review, one ordinary open was attempted for S001; the exact State Department URL returned HTTP 403 and no report body. No retry or alternate URL was attempted. Search snippets and titles remain discovery leads only.
+
+Findings: the 20 executions yielded 195 displayed headers; no March 2024-specific public-gathering lead was identified. Search output was dominated by 2019 Hirak material, historical protests and labor actions, 2025 education/health mobilization, other-country items and unrelated results. A U.S. Department of State 2024 country-report result snippet says there were no strikes during the year despite union calls. The only open attempt returned HTTP 403 before any report content; the snippet claim remains unverified and does not establish whether any public gatherings occurred. No event candidate is created from it. Other results included a report on Tiaret water-shortage unrest with timing outside the quarter or unresolved in the rendered header; it is not assigned to March.
+
+Capture provenance: actual Q001–Q020 invocation parameters and exact returned rendered strings were preserved with the approved capture helper under private_reading/rendered_search, with helper-generated SHA256 and UTF-8 byte counts. Header counts and display citation tokens are rendered-output projections, never native runtime fields. Native event IDs, refs, execution/capture clocks, native result counts and matching own rollout_path were unavailable and remain null. Earlier Jan/Feb capture records retain their own pre-adjustment limitations; no lost output was reconstructed or replaced by a repeat query.
+
+Timing: the assignment timestamp is 2026-10-10T22:40:19.609304Z. No per-query local invocation or response clock was recorded, and native timing fields are unavailable; the logged Q001–Q020 sequence is the only ordering evidence. The assignment timestamp is not search or source-publication timing.
+
+Coverage limitations: date operators and indexing returned substantial out-of-period/noise results. The searches do not demonstrate exhaustive discovery, do not reproduce LexisNexis, and cannot support a no-protest claim. Coverage of local outlets and less-famous neighborhood, water, housing, labor and student actions remains incomplete.
+
+Priority follow-up: if a bounded relevant source emerges, complete a fresh exact-URL gate and manual origin review before opening it. S001 is blocked after the one exact-URL open returned HTTP 403; the result snippet is unverified, and no March event-specific lead was found in discovery. Continue local/regional searches; occurrence, threshold, state target, onset/month, location and all seven state-response fields remain unknown. No no-event claim is made.
+
+Project baseline gate remains pending the official dataset/version, universe, license/schema and additional procedure verification.
+

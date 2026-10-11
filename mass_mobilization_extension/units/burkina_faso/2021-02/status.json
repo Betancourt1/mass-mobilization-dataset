@@ -1,0 +1,31 @@
+{
+  "unit_id": "burkina_faso_2021-02",
+  "country": "Burkina Faso",
+  "month": "2021-02",
+  "agent_task": "/root/burkina_faso_2021_02_batch55",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T05:45:02.474049+00:00",
+  "finished_at": "2026-10-10T06:28:18Z",
+  "n_queries": 42,
+  "n_sources": 35,
+  "n_candidates": 4,
+  "n_excluded": 6,
+  "n_continuations": 0,
+  "n_gaps": 12,
+  "coverage_assessment": "42 actual captured open-web searches produced 805 ordered result headers across French- and English-language general, weekly-window, sector, regional and retrospective queries. Four current-unit body opens and zero prior-unit-only consultations are recorded; there are four provisional event candidates, all pending the 50-person threshold. Thirty cards remain search-only and one is blocked. Results do not establish a complete archive search; LexisNexis and systematic newspaper archives were unavailable, local-language coverage was limited, event endings and adjacent-month continuity remain open, and the official baseline gate is pending.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 4,
+    "search_only_cards": 30,
+    "blocked_cards": 1,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 805,
+    "actual_invocations": 42,
+    "exact_matches_after_fresh_extraction": 42,
+    "mismatches": 0,
+    "comparison_artifact": "captures/search/capture-history/final-response-comparison-20261010.json",
+    "comparison_sha256": "b7fe4249e07072b061763d5bb5d3cfe98fe48f5ba7404eb0596480d5c3d94f0e"
+  }
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "gap_id": "AFG202402-G001",
+    "type": "archive_access",
+    "description": "One exact source body was opened after fresh receipt/manual review, but it is a 2021 article outside the month. No in-window event body-level verification or systematic archive-equivalent coverage is established.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "After the body-read audit gate is resolved, consult permitted contemporary reporting and accessible source bodies; preserve inaccessible archive gaps."
+  },
+  {
+    "gap_id": "AFG202402-G002",
+    "type": "search_method",
+    "description": "Search result ordering/date filters are unreliable and returned substantial older, future-dated, diaspora, conflict and unrelated material; absence of in-window hits is not evidence no protest occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review exact publication/event dates from permitted source bodies and broaden local outlet/weekly/sector searches."
+  },
+  {
+    "gap_id": "AFG202402-G003",
+    "type": "language_coverage",
+    "description": "Discovery included English, Dari and Pashto queries, but search-engine indexing and script/term coverage are incomplete; no local-language articles were opened or translated from bodies.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue Dari/Pashto variants and local/regional outlets after access gate; add other locally relevant languages where indicated."
+  },
+  {
+    "gap_id": "AFG202402-G004",
+    "type": "continuity",
+    "description": "One source body verified an employee demonstration on 27 December 2021, outside the month. The Al Jazeera and Afghan Witness leads are cross-referenced to March, and the latter was published 10 April. No February onset, separate February action, or continuity from February is established.",
+    "source_ids": [
+      "AFG202402-S001",
+      "AFG202402-S004",
+      "AFG202402-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue neighboring-month searches for a distinct February action or continuity evidence; do not count later publication or March event details as February evidence."
+  },
+  {
+    "gap_id": "AFG202402-G005",
+    "type": "month_boundary",
+    "description": "The Al Jazeera URL is path-marked and dated 8 March; the Afghan Witness report is dated 10 April and retrospectively concerns March activity. Both are cross-referenced to March. No February onset or gathering is established by these leads.",
+    "source_ids": [
+      "AFG202402-S001",
+      "AFG202402-S002",
+      "AFG202402-S003",
+      "AFG202402-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue February-bounded local and weekly searches for a distinct event; do not move March or April publication dates into February."
+  },
+  {
+    "gap_id": "AFG202402-G006",
+    "type": "capture_retention",
+    "description": "Full formatted search response text was not saved during tool calls and is no longer accessible through a supported tool. The durable log retains parsed displayed title/URL/citation-token headers only, with native result metadata and clocks null; exact output snippets are unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat current records as parsed rendered-output captures, not native event_msg captures. Do not reconstruct old snippets. If later searches are authorized, retain the exact available output string privately with a SHA-256 manifest and disclose any unavailable metadata."
+  }
+]

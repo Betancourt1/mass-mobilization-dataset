@@ -1,0 +1,27 @@
+{
+  "unit_id": "bangladesh_2024-03",
+  "country": "Bangladesh",
+  "month": "2024-03",
+  "agent_task": "/root/bangladesh_2024_q1",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-11T00:20:02Z",
+  "finished_at": "2026-10-11T00:53:07Z",
+  "n_queries": 18,
+  "n_sources": 2,
+  "n_candidates": 2,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 3,
+  "coverage_assessment": "Eighteen captured English/Bangla general, weekly, sector, regional, local, targeted and episode-boundary queries yielded 267 captured headers. The Mar 20 Left Democratic Alliance action remains a search-result lead because the returned body followed a redirect not covered by the pre-body exact-URL receipt; a post-read canonical-target check deferred. A distinct Mar 29 lead is search-only after its exact public URL returned a tool Internal Error with no HTTP status/body. Search is non-exhaustive; no absence claim is made.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 1,
+    "search_only_cards": 0,
+    "blocked_cards": 1,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 267,
+    "notes": "Native clocks/refs/counts unavailable; rendered headers retained. One source body request returned only an Internal Error and no HTTP response; it is not a denial."
+  }
+}

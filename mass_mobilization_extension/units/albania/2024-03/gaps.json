@@ -1,0 +1,72 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "state_target",
+    "description": "The March 8 women’s demonstration is search-reported, but the exact demand directed at government or municipal policy has not been established from body evidence.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "albania_2024-03_E001"
+    ],
+    "required_followup": "Review original story and contemporaneous primary/organizer material after access audit; identify explicit requested government action."
+  },
+  {
+    "gap_id": "G002",
+    "type": "participants",
+    "description": "Search result says hundreds attended, but it is not yet clear whether this is an attributed count for the gathering or a reporter’s description.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "albania_2024-03_E001"
+    ],
+    "required_followup": "Verify attendance attribution and physical gathering evidence in contemporaneous body sources."
+  },
+  {
+    "gap_id": "G003",
+    "type": "episode_boundary",
+    "description": "Ten searches now include local-language and regional terms, International Women’s Day/safety coverage, education/workers, weekly windows and follow-up on the February farmers’ announced March culmination. No returned header verifies that planned farmer action occurred or establishes the March 8 campaign boundary. Dated leakage includes Kosovo, 2025 and 2026 results.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "albania_2024-03_E001"
+    ],
+    "required_followup": "Use any additional narrow search to identify distinct local reports around March 8 and the announced farmer action; do not infer execution or campaign continuity from an announcement."
+  },
+  {
+    "gap_id": "G004",
+    "type": "continuity",
+    "description": "The February 8 Balkanweb article, now body-read once as Feb S004 and duplicated as March S003, predicts an early-March Tirana culmination but does not report its execution. No distinct source confirms a March farmers’ gathering.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search local/national outlets in Albanian and English for evidence that the planned farmers’ action occurred; do not treat the duplicated February article or its announcement as an event. If verified, assign the event month by actual start."
+  },
+  {
+    "gap_id": "G005",
+    "type": "source_access",
+    "description": "Citizens.al S001 remains search_only after one exact open returned inaccessible via this tool; no text/retry. S002 is unopened. S003 is a duplicated Balkanweb Feb article body-read once in February, not March event evidence. S004 is a search-only Prishtina/Kosovo report excluded for geographic scope. No independent body source for the March 8 Albania lead; no archive review.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "albania_2024-03_E001"
+    ],
+    "required_followup": "Do not retry Citizens.al S001. If another URL is identified, obtain narrow relevance review, fresh exact-URL gate and manual publisher/origin note. Review S002 only if relevant. Do not count the duplicate Balkanweb announcement as March execution."
+  },
+  {
+    "gap_id": "G006",
+    "type": "coverage",
+    "description": "Ten captured searches (71 retained rendered headers) include broad English/Albanian, weekly, regional-city, women’s safety, education/workers and farmer-follow-up queries. Results remain noisy and incomplete; the one distinct March 14 Kosovo lead was excluded geographically. No systematic regional or civil-society archive review.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If continuing discovery, target Albanian regional outlets, women’s organizations, local government, unions, education, transport, farmers, environment and official records with exact dates; do not treat zero relevant headers as absence."
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "gap_id": "algeria_2024-03_G001",
+    "type": "body_access",
+    "description": "No report body has been read for this unit. A fresh stable gate/manual review preceded one ordinary open of S001, but the exact State Department URL returned HTTP 403 at 2026-10-10T23:10:45Z; no content was delivered and no retry was made. The search-result claim about strikes remains unverified. No March-specific candidate was identified in discovery; this is not a no-event finding.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry or change the denied State Department URL. Preserve the 403 receipt and search for other contemporaneous sources; each new URL requires its own exact-URL gate and manual origin review."
+  },
+  {
+    "gap_id": "algeria_2024-03_G002",
+    "type": "coverage_lexis_language_region",
+    "description": "20 queries covered English, French and Arabic month, five successive weekly windows, regional names, sector searches and boundary terms. 195 displayed result headers included substantial 2019 Hirak, 2018 historical, 2025 education, other-country and off-topic results. Search operators/indexing did not reliably restrict dates. Discovery coverage is useful but incomplete; open-web search does not reproduce LexisNexis and no exhaustive claim is made.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Prioritize contemporaneous local/regional archive searches after current gate review, especially for less prominent labor, neighborhood, water, housing and student actions."
+  },
+  {
+    "gap_id": "algeria_2024-03_G003",
+    "type": "search_capture_provenance",
+    "description": "New Q001–Q020 executions were recorded with the owner-approved rendered capture helper, preserving exact returned rendered strings, UTF-8 byte counts and SHA256 digests privately. Parsed headers are rendered projections only. Native event IDs, refs, timestamps, result counts and matching own rollout path remain unavailable/null. Earlier Jan/Feb records retain their pre-adjustment limitations; no old outputs were reconstructed or repeated for capture.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep helper-preserved rendered strings and hashes; native metadata remains null. This provenance gap does not govern body access; each body URL requires a separate exact gate and manual review."
+  },
+  {
+    "gap_id": "algeria_2024-03_G004",
+    "type": "baseline",
+    "description": "Official baseline version, current universe, terms and additional Coding Procedure remain pending at the project baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve the official baseline before any export."
+  }
+]

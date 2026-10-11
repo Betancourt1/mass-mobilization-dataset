@@ -1,0 +1,152 @@
+[
+  {
+    "gap_id": "yemen2021-01-G001",
+    "type": "baseline",
+    "description": "The official Dataverse event bytes, current country universe/schema and the authors’ additional Coding Procedure remain unverified. The baseline gate blocks official integration/contribution approval; it does not prohibit these provisional, separate research files.",
+    "source_ids": [],
+    "affected_candidates": [
+      "yemen_2021-01-E001",
+      "yemen_2021-01-E002",
+      "yemen_2021-01-E003"
+    ],
+    "required_followup": "Verify the current official files, version/cutoff, schema, reuse terms and additional procedure from the authoritative source before compatibility review or contribution."
+  },
+  {
+    "gap_id": "yemen2021-01-G002",
+    "type": "participants",
+    "description": "None of the located worker/teacher sources demonstrates a public gathering with at least 50 people. The University figure counts employee strikers, the refinery payroll figure counts employees with allowances owed, and teachers have no count. A workplace stoppage alone does not prove a qualifying public meeting.",
+    "source_ids": [
+      "yemen2021-01-S004",
+      "yemen2021-01-S012",
+      "yemen2021-01-S029",
+      "yemen2021-01-S038",
+      "yemen2021-01-S044",
+      "yemen2021-01-S047"
+    ],
+    "affected_candidates": [
+      "yemen_2021-01-E001",
+      "yemen_2021-01-E002",
+      "yemen_2021-01-E003"
+    ],
+    "required_followup": "Find contemporary reporting or documents describing whether workers physically assembled, where, and how many attended at the same time; preserve workforce and crowd counts separately."
+  },
+  {
+    "gap_id": "yemen2021-01-G003",
+    "type": "contested_evidence",
+    "description": "University of Aden sources report physical strike starts on 20 January and 23 January, name different coordinators, and list different governorates. It is unresolved whether they describe one stoppage, separate stages or separate actions. S044 has an unidentified “agencies” attribution; S038 is a local bylined article.",
+    "source_ids": [
+      "yemen2021-01-S038",
+      "yemen2021-01-S044"
+    ],
+    "affected_candidates": [
+      "yemen_2021-01-E001"
+    ],
+    "required_followup": "Compare further dated university/union records for onset, affected colleges, coordinator identities, and resumption before merging or splitting the episode."
+  },
+  {
+    "gap_id": "yemen2021-01-G004",
+    "type": "episode_unit",
+    "description": "Refinery workers were reported on strike in January; S004 says fuel stations had closed since 15 January but does not explicitly date the strike’s physical onset. S047 says a one-week suspension started 21 January. The earlier saved summary places the meeting on 20 January, while retained read_scope calls the covered paragraphs the “21 January meeting”; the exact meeting day is unresolved from the retained record. The suspension does not prove a physical end, and onset relative to December remains unresolved.",
+    "source_ids": [
+      "yemen2021-01-S004",
+      "yemen2021-01-S045",
+      "yemen2021-01-S047",
+      "yemen2021-01-S048",
+      "yemen2021-01-S049",
+      "yemen2021-01-S050",
+      "yemen2021-01-S051",
+      "yemen2021-01-S052",
+      "yemen2021-01-S053",
+      "yemen2021-01-S054"
+    ],
+    "affected_candidates": [
+      "yemen_2021-01-E002"
+    ],
+    "required_followup": "Establish the workers’ actual first day, any December activity, return-to-work date after the temporary suspension and any February recurrence from accessible contemporary material."
+  },
+  {
+    "gap_id": "yemen2021-01-G005",
+    "type": "dates",
+    "description": "Teacher strike dates conflict: S012 on 21 January says the program would begin the following week; S029 is dated 24 January at 9:11 p.m. but describes a coming Sunday. A plan through mid-February and a 21 February renewed-strike story do not establish January execution, closure or continuity.",
+    "source_ids": [
+      "yemen2021-01-S012",
+      "yemen2021-01-S014",
+      "yemen2021-01-S029",
+      "yemen2021-01-S030"
+    ],
+    "affected_candidates": [
+      "yemen_2021-01-E003"
+    ],
+    "required_followup": "Find an execution report and dated union/school records, determine the intended first Sunday and actual physical action days, and compare the February action without assuming continuity."
+  },
+  {
+    "gap_id": "yemen2021-01-G006",
+    "type": "source_access",
+    "description": "S006 remains search-only because the full saved checks record an actual HTTP 403 from Al-Araby on another article; the Yemen article itself was not requested and no copy was used. S039 and S045 returned HTTP 200, but their bounded extractors surfaced only site chrome, not substantive article text. S045’s body, byline and publication date remain uncaptured.",
+    "source_ids": [
+      "yemen2021-01-S006",
+      "yemen2021-01-S039",
+      "yemen2021-01-S045"
+    ],
+    "affected_candidates": [
+      "yemen_2021-01-E001",
+      "yemen_2021-01-E002"
+    ],
+    "required_followup": "Do not repeat or seek another copy of the denied Al-Araby article. Resolve remaining facts through accessible independent sources; preserve the S039/S045 extraction limits unless a future request is permitted after a fresh full guard."
+  },
+  {
+    "gap_id": "yemen2021-01-G007",
+    "type": "source_independence",
+    "description": "Several refinery follow-up headers may repeat worker-committee statements; their written origins are unknown. The University report S044 says only “agencies,” while S038 has a local byline; independence is unproven. Teacher notices may draw on a shared union statement. Search-result titles alone do not establish corroboration.",
+    "source_ids": [
+      "yemen2021-01-S012",
+      "yemen2021-01-S029",
+      "yemen2021-01-S038",
+      "yemen2021-01-S044",
+      "yemen2021-01-S045",
+      "yemen2021-01-S047",
+      "yemen2021-01-S048",
+      "yemen2021-01-S049",
+      "yemen2021-01-S050",
+      "yemen2021-01-S052",
+      "yemen2021-01-S053",
+      "yemen2021-01-S054"
+    ],
+    "affected_candidates": [
+      "yemen_2021-01-E001",
+      "yemen_2021-01-E002",
+      "yemen_2021-01-E003"
+    ],
+    "required_followup": "Trace written bylines and statement origins from opened copies; count separate reports as corroboration only when independent written origin is established."
+  },
+  {
+    "gap_id": "yemen2021-01-G008",
+    "type": "coverage",
+    "description": "The search log covers English and Arabic, all four January weekly windows, and targeted Sanaa, Aden, Taiz and Hadramawt/Mukalla terms, with December and February boundary searches. Most substantive opened material concerns Aden labor actions; local-language and opened-source coverage in Sanaa, Taiz and Hadramawt remains limited. Open-web searching does not reproduce LexisNexis. This does not establish absence of events in any region.",
+    "source_ids": [
+      "yemen2021-01-S017",
+      "yemen2021-01-S018"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue with accessible local Arabic reporting and relevant official/worker/human-rights records by region and sector, including December/February chronology, without treating search yield as exhaustive."
+  },
+  {
+    "gap_id": "yemen2021-01-G009",
+    "type": "state_response",
+    "description": "Event-specific state responses remain unknown for the university and teacher candidates; the refinery report supports accommodation through an official meeting and joint committee. Silence does not establish ignore, arrests, beatings, dispersal, killings or shootings. No political alignment is inferred, and conflict reporting is not coded as a gathering response.",
+    "source_ids": [
+      "yemen2021-01-S004",
+      "yemen2021-01-S012",
+      "yemen2021-01-S029",
+      "yemen2021-01-S038",
+      "yemen2021-01-S044",
+      "yemen2021-01-S047"
+    ],
+    "affected_candidates": [
+      "yemen_2021-01-E001",
+      "yemen_2021-01-E002",
+      "yemen_2021-01-E003"
+    ],
+    "required_followup": "Seek reports tied to each specific action and keep the seven response dimensions separate; require attributed evidence for each value."
+  }
+]

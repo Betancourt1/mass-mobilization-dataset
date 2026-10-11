@@ -1,0 +1,126 @@
+[
+  {
+    "gap_id": "DJI202102_G001",
+    "type": "event_occurrence_date_location",
+    "description": "DJI202102_S003 is a search-only LDDH-attributed lead. Its search-result title/report date is 28 February, while the excerpt says a demonstration preceded arrests; the physical occurrence and start date are not established. The Palace location is excerpt-level only. A fresh exact-URL request returned a technical cache miss with no body or HTTP status.",
+    "source_ids": [
+      "DJI202102_S003"
+    ],
+    "affected_candidates": [
+      "DJI202102_E001"
+    ],
+    "required_followup": "If revisited, obtain a verified body through a fresh exact-URL access receipt, complete saved publisher/origin review and immediate full-input path/hash recheck. Do not infer event onset from the publication heading or retry through alternate copies."
+  },
+  {
+    "gap_id": "DJI202102_G002",
+    "type": "participants_threshold",
+    "description": "No verified attendance number or clear qualitative 50-plus estimate is available for the S003 lead. The search excerpt's claim of about twenty arrested unemployed graduates is not a total crowd count and cannot establish the eligibility threshold.",
+    "source_ids": [
+      "DJI202102_S003"
+    ],
+    "affected_candidates": [
+      "DJI202102_E001"
+    ],
+    "required_followup": "Seek contemporaneous attendance evidence if the source becomes safely reviewable; retain participants and threshold as unknown until then."
+  },
+  {
+    "gap_id": "DJI202102_G003",
+    "type": "state_target_demands_organizer",
+    "description": "For the S003 lead, the unread body leaves the actual demand, demand recipient, organizer and whether the action addressed Djibouti's government or its policy unknown. Unemployed graduates' status and the title's LDDH attribution do not establish those fields.",
+    "source_ids": [
+      "DJI202102_S003"
+    ],
+    "affected_candidates": [
+      "DJI202102_E001"
+    ],
+    "required_followup": "Use source text that states the participants' demand, its recipient and organizing role before assigning a demand category or state-target eligibility."
+  },
+  {
+    "gap_id": "DJI202102_G004",
+    "type": "event_end_protester_violence_state_response",
+    "description": "The S003 snippet's arrest claim is unverified and does not establish all event-specific response dimensions. No verified evidence establishes accommodation, arrests, beatings, crowd dispersal, ignore, killings, shootings, protester violence or the physical end.",
+    "source_ids": [
+      "DJI202102_S003"
+    ],
+    "affected_candidates": [
+      "DJI202102_E001"
+    ],
+    "required_followup": "Keep every response and end field unknown until a verified source distinguishes event-specific conduct from silence, later custody developments or unrelated incidents."
+  },
+  {
+    "gap_id": "DJI202102_G005",
+    "type": "month_boundary_continuity",
+    "description": "January sources describe separate RADDE weekly gatherings, including a January 23 Boulaos demonstration against a fifth presidential term. February searches did not establish a physical continuation of any January assembly or confirm a February gathering in that series. A recurring campaign is not coded as one uninterrupted event. DJI202102_S004 is January boundary context only; its exact URL was body-read in the January unit as DJ202101-S007.",
+    "source_ids": [
+      "DJI202102_S004"
+    ],
+    "affected_candidates": [
+      "DJ202101-E001",
+      "DJ202101-E002",
+      "DJ202101-E003"
+    ],
+    "required_followup": "Keep January event ownership unchanged. Reopen the boundary only if dated February evidence establishes a distinct gathering or a particular uninterrupted episode; do not infer continuation from search silence."
+  },
+  {
+    "gap_id": "DJI202102_G006",
+    "type": "undated_electoral_support_lead",
+    "description": "The Africa-Press S005 title describes Dikhil youth mobilizing for Guelleh's candidacy, but no publication or occurrence date and no article body are available. The lead is excluded conditionally as incumbent electoral support; whether it belongs to February is unknown.",
+    "source_ids": [
+      "DJI202102_S005"
+    ],
+    "affected_candidates": [
+      "DJI202102_X003"
+    ],
+    "required_followup": "No February event coding unless a verified date and body establish a different action type or substantive state-directed demand."
+  },
+  {
+    "gap_id": "DJI202102_G007",
+    "type": "ambiguous_historical_date_lineage",
+    "description": "The CIVICUS S006 search header says protests broke out against President Guelleh, but provides no publication or incident date in this dossier. Its relationship to the 2011 protest chronology or any 2021 event is unresolved; the headline alone is not evidence for February 2021.",
+    "source_ids": [
+      "DJI202102_S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify the article's full date and chronology through an allowed fresh access review before assigning month ownership or linking it to another source."
+  },
+  {
+    "gap_id": "DJI202102_G008",
+    "type": "somali_source_date_event_lineage",
+    "description": "The Somali-language WardheerNews S008 header describes protests against President Geelle in Djibouti but gives no publication date here. The incident date, venue, attendance, demand, event relationship and reporting origin are unknown.",
+    "source_ids": [
+      "DJI202102_S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If followed up, verify the article chronology and event details before associating the title with February 2021 or another candidate."
+  },
+  {
+    "gap_id": "DJI202102_G009",
+    "type": "scoped_search_layer_restriction",
+    "description": "DJI202102_Q012 recorded a non-retryable robots.txt block for the search-layer query site:rfi.fr Djibouti diplômés 28 février 2021 arrestation manifestation. The exact query and response are preserved in access_receipts/DJI202102_search_layer_restriction_001.json. This is scoped to that RFI-domain search request; it is not a direct page denial and does not apply to the ARDHD-hosted S003 or S004 URLs.",
+    "source_ids": [],
+    "affected_candidates": [
+      "DJI202102_E001"
+    ],
+    "required_followup": "Do not retry that denied search query. Preserve its narrow scope; any distinct future source request requires its own fresh exact-URL review and complete input recheck."
+  },
+  {
+    "gap_id": "DJI202102_G010",
+    "type": "search_coverage_archives_languages",
+    "description": "The bounded first pass captured 12 actual batched search invocations and 274 ordered result headers, with no provider totals. Queries covered English, French, Arabic and Somali, generic and week-window terms, local and official sources, rights organizations, sectors, geography and January-to-February continuity. Open-web coverage does not reproduce LexisNexis; systematic press archives and complete local-language coverage were unavailable, so no-event searches do not establish absence.",
+    "source_ids": [],
+    "affected_candidates": [
+      "DJI202102_E001"
+    ],
+    "required_followup": "Treat findings as an open-web first pass only; compare with systematic archives and the official baseline before any final unit conclusion."
+  },
+  {
+    "gap_id": "DJI202102_G011",
+    "type": "baseline_codebook_human_review",
+    "description": "The official baseline reconciliation and independent human eligibility review remain pending. The package codebook/manual was not added to this worker dossier; the locally available protocol is being used. Candidate and exclusion records are provisional proposals, not official dataset decisions.",
+    "source_ids": [],
+    "affected_candidates": [
+      "DJI202102_E001"
+    ],
+    "required_followup": "Coordinator compares the completed dossier with the official baseline and manual, then obtains independent review before any official integration or ID assignment."
+  }
+]

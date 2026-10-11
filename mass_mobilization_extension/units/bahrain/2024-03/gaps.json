@@ -1,0 +1,30 @@
+[
+  {
+    "gap_id": "bahrain_2024-03_G001",
+    "type": "event_specificity",
+    "description": "The opened Bahrain Mirror article reports 36 February demonstrations/sit-ins or 31 March demands-focused marches/sit-ins, but supplies no individual dates, locations, attendance, organization, or event-level demand. It cannot establish 50+ attendees or onset-month ownership for any single gathering.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek independent contemporary reporting and event-level dates/locations/attendance in English and Arabic; preserve unresolved aggregate counts without treating them as unique codeable events."
+  },
+  {
+    "gap_id": "bahrain_2024-03_G002",
+    "type": "search_capture_loss",
+    "description": "The genuine Arabic-focused March search BH24M03Q06 returned an output, but the preservation helper was called without its required unit argument and the response was lost. The exact query and invocation are retained with unknown result contents; empty arrays are not an observed zero-result response.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use other captured searches and fresh independent research; do not reconstruct the lost response."
+  },
+  {
+    "gap_id": "bahrain_2024-03_G003",
+    "type": "search_coverage",
+    "description": "Captured English and Arabic searches were bounded and uneven; many displayed results were historical, off-period, irrelevant, or generic. The searches do not establish negative coverage or absence of qualifying March assemblies. The BCHR count of 31 is a monthly aggregate only.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find contemporary event-specific local reporting and independently verify date, place, attendance of at least 50, event form, and home-state target; retain unknowns where sources do not establish them."
+  }
+]

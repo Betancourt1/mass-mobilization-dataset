@@ -1,0 +1,25 @@
+Finland — January 2021 open-web first pass
+Unit: finland_2021-01; provisional plan ccode: 375
+Worker: /root/finland_2021_01
+Event cutoff: 2026-10-07 inclusive, America/Mexico_City
+Status: researched_open_web_pending_review; human_approved: false
+
+Outcome
+One proposed candidate: FIN202101-E001, January 30 Kansalaistori, Helsinki, assembly/speech rights against Finnish gathering restrictions. Contemporary MTV–STT police estimate is about 60 actual people; later associated reporting claims about 100. Retain 60 as a rounded point estimate; bounds remain null. One brief detention and a dispersal order are explicit. The aligned calendar states the named gathering physically ended when police drove participants off the square, also described as broken up in next-day associated reporting, supporting January 30 day-level end. Alignment is disclosed; the official order alone would not establish physical closure. Five other state responses and protester violence remain unknown. Operational police arrangements are not accommodation. Three versus four fines is preserved as a source disagreement.
+
+Methods and coverage
+66 actual search queries, logged incrementally with actual UTC batch initiation timestamps; pooled batch URLs are explicitly attributed as pooled, with no invented per-query totals. 305 distinct URL cards preserve returned discovery material, including irrelevant/date-contaminated cards. Twelve cards were opened, with body/index scope recorded; search-only cards are not evidence of actual occurrence. Generic country/month protest/demonstration/march/strike queries; four weekly windows and additional date-filter windows; Finnish, Swedish and English; Helsinki, Tampere, Turku, Oulu, Jyväskylä, Lovisa, Tornio, Rovaniemi, Kuopio, Joensuu, Vaasa, Lahti and Pori; labor/transport, students, nursing/culture, environment/forest/peat, Sámi/refugees. Returned results frequently disregarded date windows and included later March/April events and unrelated countries. No January date inferred from discovery dates or search limits.
+Followed January 30 across contemporary MTV–STT, next-day associated reporting, aligned calendar, later associated account and retrospective Svenska Yle. Searched original police reporting. Examined December 31 party and earlier October/November plus later February actions for continuity. Foreign-target Navalny actions and private employer Kotidata strike were followed and excluded. Last regional lead, Valkom harbor protest, resolved through Yle index link to April 28 and about 30 people. No quota or famous-event-only stopping rule used.
+
+Exclusions and continuity
+8 explicit exclusion records: January 23/31 foreign-state Navalny leads, private Kotidata dispute without qualifying physical assembly, December 31 party without established demand/threshold, February 14 and March 27 later actions, individual alleged Sipilä assault, and April 28 Valkom action below threshold.
+continuations.json is empty because no qualifying continuous physical episode with prior-month onset was established in inspected evidence. This is not a statement that no continuations existed. Recurring campaign themes are not automatic continuous events.
+
+Access and provenance
+Open-web search does not reproduce LexisNexis. Cache misses at UMV and Yle recovered using ordinary normal-TLS public HTTPS, with HTTP 200 and actual selected body text checked. No access control bypass. Lexellaw current paginated index did not recover the historical body and remains search-only. No full articles retained. MTV and the January 23 Yle item identify STT origin; syndication is not independent confirmation. Aligned UMV/calendar reporting is attributed and not treated as independent neutral corroboration. Calendar explicitly disclaims organizing listed events. Photos/videos unassessed; later Russian ministry video allegation does not automatically code beatings.
+Finnish/Swedish interpretation requires language review. Original police report, detailed coding procedure and official baseline compatibility are pending. 11 gaps persist in gaps.json. Local baseline codebook and protocol read; no original or integrated dataset edits.
+
+Checks and handoff
+All substantive candidate fields carry source references. Worker self-checks cover required files, unique IDs, references, enums, counts and date precision. Parent coordinates independent read-only audit, consolidation and local commit; worker performs no Git mutation. No official MM IDs assigned or human approval claimed.
+Only finite public reader commands started; prior session 66391 verified exit 0 and all final reader commands returned exit 0. No worker browser, server, container or background process remains. Temporary payloads contain only public URLs/selection terms.
+This took more than ten minutes. Existing portable protocol/CLI is reused; a new skill or CLI would not replace source interpretation and episode review, so no new framework was added.

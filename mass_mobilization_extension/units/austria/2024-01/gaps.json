@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "austria_2024-01_G001",
+    "source_ids": [
+      "S001"
+    ],
+    "field_evidence": {
+      "access_process": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "CBA page was requested after an intervening sources.jsonl edit invalidated its stable receipt. Root review ruled the body unusable for coded evidence. Preserve URL, receipt, edit order, and rendered outcome; do not repeat merely to replace it.",
+        "evidence_scope": "protocol_deviation"
+      }
+    },
+    "summary": "S001 exact body output unusable due stale receipt. Search snippet discovery-only."
+  },
+  {
+    "gap_id": "austria_2024-01_G002",
+    "source_ids": [
+      "S002"
+    ],
+    "summary": "Initial Q001/Q002 rendered result text was lost due extraction error; original invocations preserved, blank capture is not zero results. No repeats. ORF S002 does not establish an Austrian state target; local city episode linkage and seven responses unresolved."
+  },
+  {
+    "gap_id": "austria_2024-01_G003",
+    "source_ids": [
+      "S003"
+    ],
+    "summary": "ORF Wien S003 gate was deferred because concurrent ledger changes prevented stable inputs; no body request was made. Candidates and 2024 official baseline remain pending. Search and language coverage is bounded and not exhaustive."
+  },
+  {
+    "gap_id": "austria_2024-01_G004",
+    "source_ids": [
+      "S003"
+    ],
+    "field_evidence": {
+      "disposition": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "A 25 January 2024 search-only lead for a demonstration against a private Österreichische Landsmannschaft meeting was previously put in continuations.json. This is an unresolved within-month discovery, not an episode continuing from before January. The record does not verify occurrence, public-gathering threshold, demands, or an Austrian state target; no eligibility or episode is assigned. Previous continuation bytes preserved at private_reading/reconciliation/original_continuations_pre_review.json (SHA256 c5daf6b271d69a619008bc107320c1ffaac8826aca420a6f6e4f2b85fa3641e0).",
+        "evidence_scope": "review_reconciliation"
+      }
+    },
+    "summary": "A 25 January 2024 search-only lead for a demonstration against a private Österreichische Landsmannschaft meeting was previously put in continuations.json. This is an unresolved within-month discovery, not an episode continuing from before January. The record does not verify occurrence, public-gathering threshold, demands, or an Austrian state target; no eligibility or episode is assigned. Previous continuation bytes preserved at private_reading/reconciliation/original_continuations_pre_review.json (SHA256 c5daf6b271d69a619008bc107320c1ffaac8826aca420a6f6e4f2b85fa3641e0).",
+    "candidate_id": "austria_2024-01_lead_antifar_right_20240125",
+    "disposition": "unresolved_within_month_discovery_not_continuation"
+  }
+]

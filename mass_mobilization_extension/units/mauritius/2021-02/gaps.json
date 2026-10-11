@@ -1,0 +1,84 @@
+[
+  {
+    "gap_id": "MAU2021G001",
+    "type": "independent_corroboration",
+    "description": "Only the English-language PANA article MAU2021S066 was opened for this candidate. The PANA Portuguese MAU2021S050 and January English MAU2021S022 are the same-agency story family/exact URL, not independent confirmations. Other contemporary leads remain search-only. MAU2021S043’s distinct Le Defi Media URL returned an exact HTTP 403 and was not retried; the different Le Defi Media URL MAU2021S044 remains search-only because an immediate access-gate recheck found changed corpus hashes and no request was made.",
+    "source_ids": [
+      "MAU2021S043",
+      "MAU2021S044",
+      "MAU2021S046",
+      "MAU2021S049",
+      "MAU2021S050",
+      "MAU2021S051",
+      "MAU2021S052",
+      "MAU2021S066"
+    ],
+    "affected_candidates": [
+      "mauritius_2021-02_E001"
+    ],
+    "required_followup": "When the full saved-source input set is stable, use a wholly fresh receipt and saved manual review before any exact-URL request for S044 or another distinct outlet. Do not retry S043 or infer a publisher-wide restriction from its exact-URL 403. Establish whether other reports are independent rather than syndicated."
+  },
+  {
+    "gap_id": "MAU2021G002",
+    "type": "participants",
+    "description": "PANA describes “several thousand” participants, which supports the 50-person threshold, but publishes no exact attendance estimate or defensible numeric range. Both participant bounds remain null.",
+    "source_ids": [
+      "MAU2021S066"
+    ],
+    "affected_candidates": [
+      "mauritius_2021-02_E001"
+    ],
+    "required_followup": "Seek a separately sourced explicit crowd estimate. Preserve qualitative wording and do not infer a count from arrests, workforce, vehicles, planned targets, or campaign totals."
+  },
+  {
+    "gap_id": "MAU2021G003",
+    "type": "event_dates/continuity",
+    "description": "The event date is reported as 13 February. The opened article gives no physical start clock, physical ending, or explicit continuation beyond the day. Arrival at Place d’Armes and leaders’ speeches do not establish dispersal or an event-ending date.",
+    "source_ids": [
+      "MAU2021S066",
+      "MAU2021S044"
+    ],
+    "affected_candidates": [
+      "mauritius_2021-02_E001"
+    ],
+    "required_followup": "Use contemporaneous reporting to establish physical onset/end or later protest activity. Do not assign a final date from publication time or the article’s last described location."
+  },
+  {
+    "gap_id": "MAU2021G004",
+    "type": "state_response",
+    "description": "The opened report does not describe state response. Accommodation, arrests, beatings, crowd dispersal, ignore, killings, and shootings therefore remain unknown; the report’s silence is not evidence of a no-response code.",
+    "source_ids": [
+      "MAU2021S066",
+      "MAU2021S043",
+      "MAU2021S044",
+      "MAU2021S063"
+    ],
+    "affected_candidates": [
+      "mauritius_2021-02_E001"
+    ],
+    "required_followup": "Seek independent contemporaneous reporting or official/rights-monitoring records on each response dimension; retain unknown where evidence remains absent."
+  },
+  {
+    "gap_id": "MAU2021G005",
+    "type": "search_coverage/archives",
+    "description": "The first-pass search captured 16 actual search actions (18 literal query strings because Q064 was one batched action) and 370 ordered result headers, covering English, French, Mauritian Creole, date windows, Port Louis/Rodrigues, and political, labor, education, and health leads. Open-web searching does not reproduce LexisNexis; systematic local, regional, archive, sectoral, and language coverage is incomplete. No absence claim is warranted. The local May 2015 codebook and documented protocol were used; the current official baseline and additional coding procedure remain pending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "mauritius_2021-02_E001"
+    ],
+    "required_followup": "Coordinator review should preserve this as a first-pass open-web dossier pending official-baseline and human review; future research may extend local-language and archival coverage without treating the current search yield as exhaustive."
+  },
+  {
+    "gap_id": "MAU2021G006",
+    "type": "organizer_identity",
+    "description": "The opened article attributes the march to the main opposition parties but does not name all organizing parties or establish the roles/independence of civic platforms. The local Le Mauricien joint-declaration lead MAU2021S046 is search-only.",
+    "source_ids": [
+      "MAU2021S066",
+      "MAU2021S046"
+    ],
+    "affected_candidates": [
+      "mauritius_2021-02_E001"
+    ],
+    "required_followup": "Read a contemporary organizer statement or independently reported account to clarify named organizing groups and whether one coordinated national action or only the described Port Louis march is supported."
+  }
+]

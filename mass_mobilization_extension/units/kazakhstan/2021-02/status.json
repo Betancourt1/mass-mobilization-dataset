@@ -1,0 +1,17 @@
+{
+  "unit_id": "kazakhstan_2021-02",
+  "country": "Kazakhstan",
+  "month": "2021-02",
+  "agent_task": "/root/kazakhstan_2021_02_batch58",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T13:42:47.446615+00:00",
+  "finished_at": "2026-10-10T14:23:42Z",
+  "n_queries": 9,
+  "n_sources": 22,
+  "n_candidates": 3,
+  "n_excluded": 6,
+  "n_continuations": 0,
+  "n_gaps": 11,
+  "coverage_assessment": "Broad first-pass open-web search: nine batched actions, 36 query strings in English, Russian and Kazakh, and 257 captured result headers; all nine registered-rollout action IDs, query batches and ordered headers matched the durable search log. Twenty-two source cards: four exact, partial current-unit body reads and 18 search-only records; 4 current-unit body opens and 0 prior-unit-only. Two separately gated KTK attempts failed technically without returning a body. Coverage is incomplete and does not replace LexisNexis or local-archive review; no absence-of-protest inference.",
+  "baseline_gate": "pending_official_baseline"
+}

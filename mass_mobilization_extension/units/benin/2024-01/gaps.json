@@ -1,0 +1,57 @@
+[
+  {
+    "gap_id": "benin_2024-01_G001",
+    "type": "search_method",
+    "description": "Bounded open-web discovery in French and English used monthly, weekly, regional/place, and sector-specific searches. Search-engine date filtering was unreliable; no systematic archive or LexisNexis access was used, so absence is not established.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Compare the saved leads against systematic local press archives and the official baseline before final coding."
+  },
+  {
+    "gap_id": "benin_2024-01_G002",
+    "type": "capture_loss",
+    "description": "Two early French/English broad-search returns (BEN24Q001 and BEN24Q002) were not preserved as raw rendered output. Their logged empty result arrays denote loss, not zero results; no replacement search was run.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No reconstruction is permitted; disclose the two losses in any use of this dossier."
+  },
+  {
+    "gap_id": "benin_2024-01_G003",
+    "type": "language_coverage",
+    "description": "Searches used French and English. No systematic Fon, Yoruba, Bariba, or other local-language search was performed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Consider local-language reporting and local radio/social archives during independent review."
+  },
+  {
+    "gap_id": "benin_2024-01_G004",
+    "type": "temporal_boundary",
+    "description": "Searches surfaced substantial later-period leads, especially the 27 April cost-of-living march and May union actions; these are retained as out-of-period source cards and exclusions.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review in the corresponding later-month unit if within scope; do not attribute them to January."
+  },
+  {
+    "gap_id": "benin_2024-01_G005",
+    "type": "official_baseline",
+    "description": "The official event baseline is pending. No zero-event conclusion or exhaustive absence claim is supported by this open-web screen.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Reconcile with the official baseline and independent review before closure."
+  },
+  {
+    "gap_id": "benin_2024-01_G006",
+    "type": "ambiguous_search_lead",
+    "description": "BEN24Q015 returned a Facebook URL whose truncated rendered excerpt combines a reference to 9–10 January 2024 with “Manifestation annulée sous pression”. The excerpt does not identify a planned event or establish that any gathering was planned, occurred, or was cancelled; retain as an unresolved search lead without inferring an event or attendance.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If later review finds a suitable independent source, resolve the post’s referent and event status; absent such evidence, retain this ambiguity and do not create an event."
+  }
+]

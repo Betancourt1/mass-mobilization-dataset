@@ -1,0 +1,31 @@
+{
+  "unit_id": "estonia_2021-01",
+  "country": "Estonia",
+  "month": "2021-01",
+  "agent_task": "/root/estonia_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T10:52:26+00:00",
+  "finished_at": "2026-10-08T10:57:59+00:00",
+  "n_queries": 49,
+  "n_sources": 278,
+  "n_candidates": 0,
+  "n_excluded": 8,
+  "n_continuations": 0,
+  "n_gaps": 15,
+  "coverage_assessment": "Broad English/Estonian/Russian open-web first pass, four weekly windows plus date variants, regional/sector/boundary searches and original episode followup. No verified January own-state physical candidate retained; this does not establish absence. 12 cards have selected body readings; remaining cards are discovery only, including explicit search contamination. Archives/native-language/media/closure/target gaps remain.",
+  "baseline_gate": "pending_official_baseline",
+  "human_approved": false,
+  "temporary_resources_started": [
+    {
+      "kind": "finite public HTTPS reader",
+      "session_id": 21040,
+      "status": "observed_exit_0",
+      "purpose": "Recover selected paragraphs after tool errors"
+    },
+    {
+      "kind": "finite metadata request",
+      "status": "observed_exit_1_HTTP403_respected"
+    }
+  ],
+  "persistent_resources_started": []
+}

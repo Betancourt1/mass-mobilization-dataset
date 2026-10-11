@@ -1,0 +1,92 @@
+[
+  {
+    "gap_id": "belgium_2024-01_G001",
+    "type": "search_capture_loss",
+    "description": "A genuine English/Dutch/French broad search call was executed, but the exact rendered response was lost when the capture orchestration failed before persistence. Search invocation is retained in search_log; returned URLs and native counts remain unknown, so the empty URL list is not evidence of no results.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with distinct weekly, sector and regional searches; do not repeat this query solely to reconstruct unavailable output."
+  },
+  {
+    "gap_id": "belgium_2024-01_G002",
+    "type": "participants",
+    "description": "The Guardian reports a 400-farmer week of protests near Antwerp, while describing a specific Zeebrugge port blockade; the report does not establish the number physically gathered at the blockade.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "belgium_2024-01_E001"
+    ],
+    "required_followup": "Seek an event-specific attendance estimate from Belga/local reports or organizer/port coverage; do not reuse the campaign count."
+  },
+  {
+    "gap_id": "belgium_2024-01_G003",
+    "type": "dates",
+    "description": "The report says farmers planned to blockade through midnight Wednesday but gives no confirmation of the actual end; there may have been related actions over a week.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "belgium_2024-01_E001"
+    ],
+    "required_followup": "Check contemporary port/organizer updates for actual event stop and distinguish this port action from the week-long protest series."
+  },
+  {
+    "gap_id": "belgium_2024-01_G004",
+    "type": "source_access",
+    "description": "The Le Monde Jan 31 search-result lead on EU agricultural policy was not opened: a fresh stable gate returned hold from a saved publisher-alias restriction supported by a subscriber-paywall record on a different Le Monde URL.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain the lead as search-only; do not request Le Monde bodies, alternate URLs, or mirrors while the publisher hold applies. Seek independent non-Le Monde reporting for event/target evidence."
+  },
+  {
+    "gap_id": "belgium_2024-01_G005",
+    "type": "source_access",
+    "description": "The AP search lead could not be opened by the web tool. An ordinary HTTPS request to the same exact URL failed DNS resolution before HTTP (HTTP 000, no bytes); no denial was observed and no article content was read.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep search_only; do not retry solely to replace this failed capture. Continue with independent local Belgian/European coverage."
+  },
+  {
+    "gap_id": "belgium_2024-01_G006",
+    "type": "participants",
+    "description": "A Brussels tractor convoy arrived Jan31 ahead of the announced Feb1 demonstration, but the report has no person count for Brussels; 60 tractors reported in Halle cannot be converted to simultaneous protesters.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "belgium_2024-01_E002"
+    ],
+    "required_followup": "Seek actual attendance/people count and distinguish vehicles at separate locations from Brussels participants."
+  },
+  {
+    "gap_id": "belgium_2024-01_G007",
+    "type": "state_target",
+    "description": "The Jan31 article frames the convoy as preparation for a Feb1 protest coinciding with an EU summit but does not give the convoy’s specific demands or domestic-government target.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "belgium_2024-01_E002"
+    ],
+    "required_followup": "Verify explicit demands and targets for the Jan31 convoy separately from the Feb1 Brussels gathering; do not assume EU and Belgian government are interchangeable."
+  },
+  {
+    "gap_id": "belgium_2024-01_G008",
+    "type": "episode_unit",
+    "description": "The Jan31 convoy, Jan30 Zeebrugge blockade and Feb1 announced demonstration may belong to one farmers’ wave but are different actions and potentially different episode boundaries.",
+    "source_ids": [
+      "S001",
+      "S004"
+    ],
+    "affected_candidates": [
+      "belgium_2024-01_E001",
+      "belgium_2024-01_E002"
+    ],
+    "required_followup": "Compare organizer, participant coordination, demands, locations and actual start/end across Jan30, Jan31, Feb1; no automatic merge."
+  }
+]
