@@ -1,0 +1,38 @@
+{
+  "unit_id": "kuwait_2021-02",
+  "country": "Kuwait",
+  "month": "2021-02",
+  "agent_task": "/root/kuwait_2021_02_batch58",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T14:24:36.890985+00:00",
+  "finished_at": "2026-10-10T15:06:55.253Z",
+  "n_queries": 9,
+  "n_sources": 16,
+  "n_candidates": 2,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "source_access_counts": {
+    "search_only_cards": 15,
+    "opened_cards": 1,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 233,
+    "actual_query_actions_compared_by_original_event_id": 9,
+    "mismatches": 0
+  },
+  "source_read_scope": {
+    "current_unit_body_opens": 1,
+    "prior_unit_only_consultations": 1,
+    "current_opened_source_ids": [
+      "KWT202102-S003"
+    ],
+    "prior_unit_consultation_source_ids": [
+      "KWT202102-S004"
+    ]
+  },
+  "coverage_assessment": "Captured 9 actual English- and Arabic-language search actions with 233 ordered result headers, including full-month and weekly windows plus local, regional, international, official, and rights-related queries. 1 current-unit body opens; 1 prior-unit-only consultations. One Kuwait Times article was read in full as a 164-line rendered page; a prior-unit scoped read for the planned sit-in was consulted without rereading. Fifteen of 16 source cards remain search-only, including unresolved Al-Anba and Arab Times leads. This open-web first pass is incomplete, is not LexisNexis-equivalent, and cannot establish absence of protests. Arabic and local archive coverage remain limited; the official baseline and supplemental Coding Procedure are pending. Two provisional records are retained: E001 pending turnout threshold and E002 pending verification that the announced sit-in occurred.",
+  "baseline_gate": "pending_official_baseline"
+}

@@ -1,0 +1,38 @@
+2025 authored-record preservation
+
+The Afghanistan May2025 event/source overwrite lost exact authored bytes. The
+affected lead is quarantined in sessions/2025/writer_quarantine.json. No source
+facts or original identity are recovered by hashes, memory, or reconstructed text.
+The affected worker remains suspended until the reviewed guard is adopted and
+its routing is acknowledged. Other countries may continue their assigned work.
+
+All future replacement of the eight authored monthly dossier files must use
+scripts/preserve_dossier.py. Never truncate these files with direct write_text,
+open(..., 'w'), shell redirection or ad hoc replacement. The guard saves exact
+bytes of all eight files in a new private preservation directory, verifies the
+backups and unchanged inputs, then replaces only the requested file atomically.
+It rejects stale hashes, quarantine, concurrent locks, incomplete/failed backup,
+symlinks, outside-checkout paths and invalid 2025 monthly directories.
+
+Prepare changed bytes in a new unique private input file, compute the CURRENT
+target's raw-byte SHA256, then run:
+python3 scripts/preserve_dossier.py --unit units/COUNTRY/2025-MM \
+  --file events.json --input UNIQUE_NEW_INPUT --expected-sha256 CURRENT_SHA256 \
+  --reason 'Specific correction and preservation purpose'
+
+Before existing capture-search or save-source commands that mutate one of those
+files, run the same guard with --input pointing to the unchanged target file.
+This preserves all eight exact current files before the portable CLI mutation.
+Do not run the mutation if the guard fails. A unit has one assigned writer;
+coordinator reviews read only while the worker writes. Preserve old handoff
+manifests separately as exact authored metadata before replacing them.
+
+Snapshots preserve authored records, source metadata, coding proposals and
+decision history. They must not duplicate full publisher-page body copies.
+Temporary full-page bodies follow runtime_capture.txt: independent inspection,
+exact cleanup approval, then removal with hashes/sizes/read scopes/paraphrases
+and actual-access history retained. Search-response preservation follows the
+2025 rendered-search overlay. Missing evidence stays missing; no retroactive
+access authorization, identity recovery or official approval is implied.
+
+After independently reviewedcapturefailure fix, use preserve_dossier.py --operation capture-search --file search_log.jsonl --input actualcaptureJSON, or --operation save-source --file sources.jsonl --source-id EXACTID --input actualpatchJSON, plusunit/currentexpectedSHA/reason. ExistingCLI runsONLYindisposabletarget;canonicalchangeONLYthrough guarded_write. Neverinvoke rawresearch.py capture-search/save-source against2025canonicalunits after a separateguard. Failurenonzero meansSTOP, no followonmutation. Cooperative route is not OS enforcement. All other authored replacements remain --operationwrite. Additional suspendedwriters inown2025quarantine record blockcanonicalguardedwrites.

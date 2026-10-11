@@ -1,0 +1,119 @@
+[
+  {
+    "gap_id": "LAO202101-G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization version, universe, schema, and license are not verified. The local manual copy is a May 2015 codebook; the additional Coding Procedure is missing.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should resolve the official baseline and missing procedure before coding decisions are treated as official."
+  },
+  {
+    "gap_id": "LAO202101-G002",
+    "type": "search_method",
+    "description": "The open-web search engine is not a substitute for the historical LexisNexis workflow. Results were pooled across four-query calls and exposed no per-query mapping or verified total.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If available, use systematic newspaper archives and retain query-level result metadata. Do not infer exhaustive coverage from this first pass."
+  },
+  {
+    "gap_id": "LAO202101-G003",
+    "type": "language",
+    "description": "The first pass used English and Lao-script searches plus selected Thai, Chinese, and Vietnamese queries, but it did not systematically search local Lao archives or independently verify translations.",
+    "source_ids": [
+      "LAO202101-S006",
+      "LAO202101-S008",
+      "LAO202101-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search additional Lao-language local outlets and archived local reporting; verify any translated event claims against accessible originals."
+  },
+  {
+    "gap_id": "LAO202101-G004",
+    "type": "source_access",
+    "description": "Several potentially relevant pages were inaccessible: State Department reports returned forbidden, BHRRC returned HTTP 403, and LaoNews failed at local DNS resolution before an HTTP response.",
+    "source_ids": [
+      "LAO202101-S001",
+      "LAO202101-S002",
+      "LAO202101-S007",
+      "LAO202101-S015",
+      "LAO202101-S018"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use only ordinary authorized access if these same public URLs become reachable; do not bypass access controls. Keep blocked and local-network failures distinct."
+  },
+  {
+    "gap_id": "LAO202101-G005",
+    "type": "participants",
+    "description": "RFA reports affected households in two land-compensation accounts but does not report a simultaneous public assembly or attendees; household totals cannot establish the 50-person threshold.",
+    "source_ids": [
+      "LAO202101-S008",
+      "LAO202101-S009"
+    ],
+    "affected_candidates": [
+      "LAO202101-X002",
+      "LAO202101-X003"
+    ],
+    "required_followup": "Look for independent contemporaneous evidence of an actual public meeting or gathering and its attendance before proposing either as an event."
+  },
+  {
+    "gap_id": "LAO202101-G006",
+    "type": "state_target",
+    "description": "The Guestown-Lao reporting says workers approached for back pay in December and January but does not establish that those contacts were public gatherings or demands to the Lao state; the documented assembly occurred in February and targeted a private owner.",
+    "source_ids": [
+      "LAO202101-S003",
+      "LAO202101-S011"
+    ],
+    "affected_candidates": [
+      "LAO202101-X004"
+    ],
+    "required_followup": "February-unit reviewer may inspect the original April RFA report and any earlier source to establish what “came here several times” refers to, whether any group assembled, and the addressee."
+  },
+  {
+    "gap_id": "LAO202101-G007",
+    "type": "episode_unit",
+    "description": "No qualifying physical protest beginning in December 2020 and continuing into January was established. The Guestown-Lao article mentions earlier wage approaches but not public gatherings; the Feb. 22 gathering is owned by February.",
+    "source_ids": [
+      "LAO202101-S003",
+      "LAO202101-S011",
+      "LAO202101-S018"
+    ],
+    "affected_candidates": [
+      "LAO202101-X004"
+    ],
+    "required_followup": "Check December and February neighbor units for independently documented starts or continuations; do not assign the February assembly to January without evidence of a qualifying January onset."
+  },
+  {
+    "gap_id": "LAO202101-G008",
+    "type": "coverage",
+    "description": "Political restrictions on public reporting and uneven access to local and diaspora sources make source-indexed silence especially weak evidence. The October 2020 hashtag discussion does not identify a verified physical location for overseas posters or an overseas meeting.",
+    "source_ids": [
+      "LAO202101-S013",
+      "LAO202101-S014",
+      "LAO202101-S016"
+    ],
+    "affected_candidates": [
+      "LAO202101-X005"
+    ],
+    "required_followup": "Seek event-specific records that establish physical location, date, and target for any diaspora action. Do not treat online activity or poster origin as a gathering."
+  },
+  {
+    "gap_id": "LAO202101-G009",
+    "type": "source_independence",
+    "description": "Several secondary items repeat the same source chain: FIDH and BHRRC refer to RFA’s Jan. 29 land report; RFA’s April and May wage items are one agency chain; The China Project cites local press and RFA for the separate 2022 Khammouane episode.",
+    "source_ids": [
+      "LAO202101-S003",
+      "LAO202101-S005",
+      "LAO202101-S008",
+      "LAO202101-S009",
+      "LAO202101-S011",
+      "LAO202101-S015"
+    ],
+    "affected_candidates": [
+      "LAO202101-X001",
+      "LAO202101-X002",
+      "LAO202101-X003",
+      "LAO202101-X004"
+    ],
+    "required_followup": "Trace original reporting and bylines before treating repeated publication as independent corroboration."
+  }
+]

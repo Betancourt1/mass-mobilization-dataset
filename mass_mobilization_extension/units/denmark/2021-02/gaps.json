@@ -1,0 +1,122 @@
+[
+  {
+    "gap_id": "denmark_2021-02-G001",
+    "type": "baseline_and_codebook",
+    "description": "The official baseline and detailed original Coding Procedure remain pending; campaign-versus-event and local-versus-national unit rules cannot be finalized.",
+    "source_ids": [],
+    "affected_candidates": [
+      "denmark_2021-02-E001",
+      "denmark_2021-02-E002",
+      "denmark_2021-02-E003",
+      "denmark_2021-02-E004",
+      "denmark_2021-02-E005"
+    ],
+    "required_followup": "Coordinator to recover and record the official baseline, version and permitted-use terms. Review repeated MIB dates and spatial scope against the detailed procedure without automatic merging."
+  },
+  {
+    "gap_id": "denmark_2021-02-G002",
+    "type": "archive_coverage",
+    "description": "The searches use open-web pooled results rather than systematic LexisNexis access or a complete local/regional newspaper archive. Date operators and returned result sets may be incomplete or off-period.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Compare with licensed newspaper archives and Danish local/regional outlets by date and sector. Do not treat absence from these searches as absence of a gathering."
+  },
+  {
+    "gap_id": "denmark_2021-02-G003",
+    "type": "episode_continuity",
+    "description": "February 6 and February 27 are separate MIB gatherings, with January actions and a possible February 13 action in the same campaign context. Shared group name or anti-restriction theme does not establish one continuous episode or a single national unit.",
+    "source_ids": [
+      "denmark_2021-02-S001",
+      "denmark_2021-02-S004",
+      "denmark_2021-02-S008"
+    ],
+    "affected_candidates": [
+      "denmark_2021-02-E001",
+      "denmark_2021-02-E003",
+      "denmark_2021-02-E004"
+    ],
+    "required_followup": "Review exact date/organization continuity and any inter-city structure in adjacent-month sources and the original procedure; preserve current day-level candidates pending review."
+  },
+  {
+    "gap_id": "denmark_2021-02-G004",
+    "type": "end_and_response",
+    "description": "No physical end is documented for the February 6, February 27 or February 26 Wolt gatherings. For February 6, no event-specific state response is verified. For February 27, only eight arrests are reported; beating, dispersal, accommodation, ignoring, shooting and killing remain unknown. For Wolt, the saved prior-unit summary documents no state response; all response values remain unknown.",
+    "source_ids": [
+      "denmark_2021-02-S001",
+      "denmark_2021-02-S004",
+      "denmark_2021-02-S018"
+    ],
+    "affected_candidates": [
+      "denmark_2021-02-E001",
+      "denmark_2021-02-E004",
+      "denmark_2021-02-E005"
+    ],
+    "required_followup": "Check contemporaneous police/event chronology and later reporting. Do not use a late-evening headcount, a policy announcement or a pay dispute as an episode end or state response; establish each physical end and response only from event-specific evidence."
+  },
+  {
+    "gap_id": "denmark_2021-02-G005",
+    "type": "threshold_and_demand",
+    "description": "The possible February 13 Men in Black action has only search-result and photo-caption evidence. Dagens.dk body retrieval returned a web-reader cache miss and then a DNS resolution failure on an ordinary HTTPS attempt; neither was a site denial. No headcount, exact demand or domestic state target is established.",
+    "source_ids": [
+      "denmark_2021-02-S008",
+      "denmark_2021-02-S009"
+    ],
+    "affected_candidates": [
+      "denmark_2021-02-E003"
+    ],
+    "required_followup": "Use a fresh exact-URL access receipt, full publisher/origin review and immediate full-input hash recheck before any later attempt. If retrieved under normal access, verify event occurrence, turnout, demand and response."
+  },
+  {
+    "gap_id": "denmark_2021-02-G006",
+    "type": "state_target_and_occurrence",
+    "description": "A search-only Baptist.dk result suggests a February 9 Burmese/Myanmar gathering of about 300 at Rådhuspladsen concerning the coup. The article body was not opened; actual occurrence, crowd size and whether participants addressed Danish government policy remain unknown.",
+    "source_ids": [
+      "denmark_2021-02-S011"
+    ],
+    "affected_candidates": [
+      "denmark_2021-02-E002"
+    ],
+    "required_followup": "Verify the gathering and attendance from accessible contemporary reporting, and determine whether any demand addressed Denmark or only Myanmar/international actors before inclusion or foreign-target exclusion."
+  },
+  {
+    "gap_id": "denmark_2021-02-G007",
+    "type": "retrieval_gate_deferred",
+    "description": "Dagens.dk and NB-Økonomi each had two separately gated exact-URL retrieval attempts, but neither yielded an article body: Dagens returned a web-reader cache miss then DNS failure; NB-Økonomi returned an iframe shell then DNS failure. These were retrieval failures, not site denials. Baptist.dk requests were not sent because complete-corpus hashes changed after each saved manual gate. No alternate source copy or bypass was used.",
+    "source_ids": [
+      "denmark_2021-02-S002",
+      "denmark_2021-02-S008",
+      "denmark_2021-02-S011"
+    ],
+    "affected_candidates": [
+      "denmark_2021-02-E001",
+      "denmark_2021-02-E002",
+      "denmark_2021-02-E003"
+    ],
+    "required_followup": "Keep the affected source cards search_only. Before any later request, create a fresh exact-URL receipt, save a complete contemporary publisher/origin review, and immediately compare the entire live input path/hash set; defer on any mismatch."
+  },
+  {
+    "gap_id": "denmark_2021-02-G008",
+    "type": "local_and_sector_coverage",
+    "description": "The captured Danish and English searches included Copenhagen/MIB dates and follow-ups but do not establish broad coverage across all municipalities, sectors, Greenland or Faroe Islands. The IMAGO search listing carries publication-territory terms; no image was accessed or reused. No captured Danish search invocation reported a robots or search-layer restriction.",
+    "source_ids": [
+      "denmark_2021-02-S010",
+      "denmark_2021-02-S012",
+      "denmark_2021-02-S013",
+      "denmark_2021-02-S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Extend systematic Danish-language searches across regional centers, labor/student/healthcare/housing sectors and territories, with event-date windows; use official and civil-society records where accessible. Preserve licensing limits and do not treat search silence as absence."
+  },
+  {
+    "gap_id": "denmark_2021-02-G009",
+    "type": "state_target_and_eligibility",
+    "description": "January forward-boundary continuation DK202101-C003 and exclusion DK202101-X001 point to a February 26 Wolt couriers public wage protest. The saved March 2 report summary gives approximately 100 participants protesting private-company pay and bonus cuts. Exact city/site, any Danish government-policy demand, and qualification of a private-employer target under the original rule remain unresolved; the January exclusion was only for being outside January.",
+    "source_ids": [
+      "denmark_2021-02-S018"
+    ],
+    "affected_candidates": [
+      "denmark_2021-02-E005"
+    ],
+    "required_followup": "Review the original eligibility rule and any fuller accessible reporting to determine whether demands addressed Danish state policy or the employer alone; verify exact city/site, physical end and event-specific responses. Keep the candidate pending_state_target until resolved."
+  }
+]

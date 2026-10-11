@@ -1,0 +1,28 @@
+Morocco — February 2021
+Status: researched_open_web_pending_review
+Event cutoff: 2026-10-07 inclusive, America/Mexico_City. Official baseline gate: pending_official_baseline. Checkpoint: 2026-10-10T18:26:26Z
+
+Scope and search coverage
+This dossier covers local public gatherings whose episode start may fall in February 2021. January records were consulted for continuity; no already-read January story body was reopened. The first pass recorded 14 actual search actions, 336 ordered result headers and 43 source cards in Arabic, French and English. Search topics included each February week, Fnideq and the Bab Sebta closure, the 20 February Movement anniversary in multiple cities, regional/local reporting, education and public-sector workers, municipal workers, tourist transport and health-related labor leads. The searches do not exhaust Moroccan local or sector coverage.
+
+The exact assigned registered rollout was compared with the saved query rows. All 14 original action IDs and action payloads, ordered headers, returned URLs and start/response clocks match. No query was rerun. The q001-q008 original ID/action fields now appear at the row level as exact mirrors of their pre-existing nested capture provenance; q012-q014 also have extracted-capture and manifest hashes. The exact pre-repair search-log bytes are preserved in repair-history/20261010T181939Z_search_log.jsonl.before.
+
+Source review and provisional candidates
+Three source bodies were opened: CNDH’s 2021 human-rights annual report (S021), the public excerpt of TelQuel’s 12 February Fnideq article (S007), and Alyaoum24’s 20 February Rabat report (S004). Forty other source cards remain search-only.
+
+E001 — Fnideq, 5 February. CNDH describes a gathering over economic and social hardship after the Bab Sebta crossing closure and COVID-19 effects, a demand for economic alternatives, dispersal by local authorities and subsequent arrests/prosecution. It gives no turnout figure. Four people prosecuted and the annual regional count of demonstrations are not attendance measures. CNDH calls the gathering peaceful, while TelQuel later characterizes the preceding action as ending in an “émeute”; this discrepancy remains unresolved. E001 stays pending_threshold.
+
+E002 — Fnideq, 12 February. TelQuel’s public text describes a second sit-in at the main square/area around the Mohammed V mosque and says hundreds gathered to demand reopening of the Bab Sebta crossing. This supports at least 50 but gives no exact or bounded count. The excerpt is incomplete behind a subscription prompt; it does not establish the physical end or an event-specific state response. The brief mention of disturbances is not attributed to protesters. E002 remains proposed_include, pending coordinator review.
+
+E003 — Rabat, 20 February. Alyaoum24 reports dozens of activists gathered at Bab al-Had square for a Social Front sit-in commemorating the 20 February Movement; authorities prevented the sit-in. The report says security pushed demonstrators and some activists said they were kicked. “Dozens” does not establish 50 or a numeric range, and the broader Moroccan Association for Human Rights demands statement is not attributed to those present. The report gives no physical end time. E003 stays pending_threshold; the reported kicking remains attributed, not independently confirmed in the excerpt.
+
+Unresolved leads and limits
+- S039: the exact Al-Intifada Beni Mellal page returned a technical “Cache miss”; no body was read and no HTTP denial was observed. The search-only lead remains unverified. No mirror, alias or retry was used.
+- Zaio (S042), Khenifra (S023), and Driouch (S035/S043) remain local search-only leads. Search-result titles or snippets do not establish date, turnout or threshold. A planned Driouch February 27 hospital-related sit-in is not evidence that it occurred. Keep each possible city/action separate.
+- Fnideq S014, S015 and S026 point to separate weekly actions around 19 and 26 February. Their bodies were not reviewed; do not infer attendance, continuity or a combined event.
+- Physical end times, event-specific attendance for E001/E003, onsite demands for E003, state-response attribution in E002, and violence discrepancies remain open. Geographic coverage outside northern Morocco and systematic Amazigh/Tifinagh searching are limited.
+
+Access-chain records
+The three opened bodies are linked from their source cards to the exact gate receipts, saved manual publisher/origin reviews and outcome records. S039 is linked to its exact receipt, review and technical-failure outcome. Four additional aborted chains have durable no-request records: two CNDH gate failures, an S013 mismatched-URL stop, and an S039 full-input comparison abort. None produced a body request.
+
+This dossier is an open-web first pass with provisional eligibility decisions. It does not establish absence of other gatherings, satisfy the official-baseline gate or update the integrated catalogue.

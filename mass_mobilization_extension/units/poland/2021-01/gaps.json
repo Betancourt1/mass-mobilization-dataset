@@ -1,0 +1,195 @@
+[
+  {
+    "gap_id": "POL202101-G001",
+    "type": "baseline",
+    "description": "The official current Mass Mobilization event bytes, schema, country universe, and compatibility remain unverified; provisional country code 290 is not an official confirmation.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve the official baseline gate before official IDs, compatibility decisions, or merging."
+  },
+  {
+    "gap_id": "POL202101-G002",
+    "type": "search_method",
+    "description": "Open-web search does not reproduce the historical LexisNexis source set or expansion procedure.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain query and access records; use comparable newspaper archives if available before any coverage or absence claim."
+  },
+  {
+    "gap_id": "POL202101-G003",
+    "type": "language",
+    "description": "Polish-language searches were conducted broadly and in weekly windows, with regional/city and sector terms. This is not a fluent, systematic review of local media archives or a complete regional/union/sector survey.",
+    "source_ids": [
+      "POL202101-S008",
+      "POL202101-S038",
+      "POL202101-S039",
+      "POL202101-S041"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If extending the first pass, use fluent Polish review and systematic local/regional/union archives; retain the current open-web scope as non-exhaustive."
+  },
+  {
+    "gap_id": "POL202101-G004",
+    "type": "episode_boundary",
+    "description": "December 2020 and February 2021 boundary searches were conducted. Contemporary OKO.press confirms a Dec31 Warsaw protest remained physically present at midnight Jan1; its owner is poland_2020-12 and the continuation is recorded separately as POL202101-C001. Its post-midnight physical end and 50-person threshold remain unknown. February search/open leads include Feb1 Women’s Strike planning and search-only reports of later city protests, but do not establish Jan27–28 physical continuity or an exact national close.",
+    "source_ids": [
+      "POL202101-S042",
+      "POL202101-S043",
+      "POL202101-S044",
+      "POL202101-S045",
+      "POL202101-S046",
+      "POL202101-S047",
+      "POL202101-S048"
+    ],
+    "affected_candidates": [
+      "POL202101-C001",
+      "POL202101-E002",
+      "POL202101-E003"
+    ],
+    "required_followup": "Keep the Dec31 protest in the December-owned continuation record, establish its threshold and physical end if accessible evidence is found, and seek contemporary departure/continuity evidence for the Jan27–28 actions. Do not infer continuity from campaign or weekly planning announcements."
+  },
+  {
+    "gap_id": "POL202101-G005",
+    "type": "source_access",
+    "description": "PAP search result for the Jan 20 Warsaw protest (S002) remains search_only: web open returned Cache miss; default DNS initially failed, then one ordinary HTTPS GET to the exact public URL returned HTTP 200 but only 212 bytes of text/html, with no title or article body available to the reader. No site-level denial was observed.",
+    "source_ids": [
+      "POL202101-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep the source search_only and seek independent contemporaneous body reporting through ordinary open-web search; do not repeat the unproductive request or use the snippet as body evidence."
+  },
+  {
+    "gap_id": "POL202101-G006",
+    "type": "source_access",
+    "description": "PAP S001 was blocked: the coordinator reports an exact-URL read returned actual HTTP 403 (web ref turn4052view0). No body was received; worker was not given exact timestamp/method details.",
+    "source_ids": [
+      "POL202101-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Respect the actual denial; do not retry or bypass. Use other ordinarily accessible contemporary sources for event verification."
+  },
+  {
+    "gap_id": "POL202101-G007",
+    "type": "source_access",
+    "description": "Dziennik.pl S016 was a contemporaneous Jan20 lead, but the web open returned Internal Error (Cache miss, turn4071view0). It remains search_only; no exact-URL fallback was attempted because an opened Onet source covers the same gathering.",
+    "source_ids": [
+      "POL202101-S016"
+    ],
+    "affected_candidates": [
+      "POL202101-E001"
+    ],
+    "required_followup": "Use only if independent event evidence remains necessary; a single ordinary public HTTPS request could be considered if useful. Do not infer facts from its snippet."
+  },
+  {
+    "gap_id": "POL202101-G008",
+    "type": "source_access",
+    "description": "PAP Jan27 S023 returned actual HTTP 403 (Forbidden) on web open turn4089view0. No body was received; this exact source is blocked.",
+    "source_ids": [
+      "POL202101-S023"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Respect the denial and do not retry or bypass. Seek other ordinarily accessible contemporary reporting for Jan27 occurrence, turnout, route, response and physical end."
+  },
+  {
+    "gap_id": "POL202101-G009",
+    "type": "source_access",
+    "description": "TVN Warszawa S007 Jan28 live report returned actual HTTP 403 on web open turn4095view0; no body received.",
+    "source_ids": [
+      "POL202101-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Respect the denial; do not retry or bypass. Seek other accessible contemporary Jan28 coverage, while keeping attendance and episode boundaries pending until supported."
+  },
+  {
+    "gap_id": "POL202101-G010",
+    "type": "source_access",
+    "description": "Dziennik.pl S026 Jan29 city-protest coverage returned web Internal Error (Cache miss, turn4097view0) and remains search_only.",
+    "source_ids": [
+      "POL202101-S026"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use other accessible reporting for per-city occurrences and attendance; do not infer events from this archive/snippet."
+  },
+  {
+    "gap_id": "POL202101-G011",
+    "type": "episode_boundary",
+    "description": "The Jan27 and Jan28 Onet reports document separately called national Women’s Strike action days with multiple local sites. The Jan28 live report still describes a Warsaw demonstration at 22:33; the Warsaw police response is site-specific, and neither the national physical close nor local-vs-national coding boundary is settled.",
+    "source_ids": [
+      "POL202101-S027",
+      "POL202101-S032",
+      "POL202101-S033",
+      "POL202101-S034",
+      "POL202101-S035"
+    ],
+    "affected_candidates": [
+      "POL202101-E002",
+      "POL202101-E003"
+    ],
+    "required_followup": "Apply the verified original event-unit procedure; seek independent site-level reports and departure evidence. Keep city counts unaggregated and national physical end unknown."
+  },
+  {
+    "gap_id": "POL202101-G012",
+    "type": "turnout",
+    "description": "The KOD calendar records a Jan18 free-courts demonstration in Kielce and related pickets in multiple cities. A contemporary Łódź article confirms a local picket, while Kielce and Białystok reports include advance announcements and the Białystok URL returned 403. No attendance estimate for an executed site is available from the captured bodies; local turnout and national/local event unit remain unresolved.",
+    "source_ids": [
+      "POL202101-S008",
+      "POL202101-S038",
+      "POL202101-S039",
+      "POL202101-S040",
+      "POL202101-S041"
+    ],
+    "affected_candidates": [
+      "POL202101-E004"
+    ],
+    "required_followup": "Seek contemporary reporting from executed sites with site-specific turnout and attendance; obtain no more than a permitted access attempt for the blocked source; determine local versus national coding without summing separate crowds."
+  },
+  {
+    "gap_id": "POL202101-G013",
+    "type": "event_character",
+    "description": "KOD records a Jan14 candle-heart commemoration in Kielce and an appeal for a criminal trial to begin, but does not describe attendance or whether it was a qualifying public protest.",
+    "source_ids": [
+      "POL202101-S008"
+    ],
+    "affected_candidates": [
+      "POL202101-E005"
+    ],
+    "required_followup": "Verify public access, demand-making character, state target and attendance before eligibility review."
+  },
+  {
+    "gap_id": "POL202101-G014",
+    "type": "source_access",
+    "description": "The Jan18 Białystok Nasze Miasto report (S041) was an advance announcement lead; after a web Cache miss, one exact ordinary HTTPS request returned HTTP 403. The body is unavailable and no retry or bypass was made.",
+    "source_ids": [
+      "POL202101-S041"
+    ],
+    "affected_candidates": [
+      "POL202101-E004"
+    ],
+    "required_followup": "Respect the denial; use independent accessible reporting to determine whether the planned Białystok action occurred and whether it reached 50."
+  },
+  {
+    "gap_id": "POL202101-G015",
+    "type": "turnout",
+    "description": "The Dec31 Warsaw de Gaulle protest physically continued into Jan1, but the opened contemporary account provides no attendance count; the >=50 threshold for continuation POL202101-C001 is unverified. Counts for the nearby Żoliborz “Sylwester u Kaczora” activity are a separate gathering and cannot be transferred.",
+    "source_ids": [
+      "POL202101-S047",
+      "POL202101-S048"
+    ],
+    "affected_candidates": [
+      "POL202101-C001"
+    ],
+    "required_followup": "Seek an accessible contemporary source with a count specific to Rondo de Gaulle; do not use the separate Żoliborz gathering or police-processing counts as crowd turnout."
+  },
+  {
+    "gap_id": "POL202101-G016",
+    "type": "source_access",
+    "description": "The retrospective Obywatelerp ObyPomoc appendix S048 search result describes a Dec31 picket lasting more than six hours into 2021, but the PDF open returned 502 and its body remains unavailable. The end date is not inferred from the search snippet.",
+    "source_ids": [
+      "POL202101-S048"
+    ],
+    "affected_candidates": [
+      "POL202101-C001"
+    ],
+    "required_followup": "If useful, consider one ordinary exact-public-URL request after the web retrieval error; respect any denial and do not bypass access controls."
+  }
+]

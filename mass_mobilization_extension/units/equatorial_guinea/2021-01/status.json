@@ -1,0 +1,25 @@
+{
+  "unit_id": "equatorial_guinea_2021-01",
+  "country": "Equatorial Guinea",
+  "month": "2021-01",
+  "agent_task": "/root/equatorial_guinea_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08 10:33:42 UTC",
+  "finished_at": "2026-10-08T10:43:08.471927+00:00",
+  "n_queries": 54,
+  "n_sources": 77,
+  "n_candidates": 1,
+  "n_excluded": 7,
+  "n_continuations": 0,
+  "n_gaps": 16,
+  "coverage_assessment": "Documented open-web first pass, not exhaustive. Spanish/French/English and limited Portuguese, week/region/sector and December/February boundaries searched. One undated anonymous proposal remains pending_evidence; no executed qualifying January gathering established. Seven exclusions, no verified continuation. Severe media/archive and native-language gaps remain; no protest=0 inference.",
+  "baseline_gate": "pending_official_baseline",
+  "human_approved": false,
+  "temporary_resources": "Foreground public HTTPS reader sessions 13309 and 15487 both observed completed with exit code 0. No browser, server, watcher, container or background process started. Temporary worker metadata and payload helpers removed after self-check.",
+  "namespace_correction": {
+    "recorded_at": "2026-10-08T10:44:57.006394+00:00",
+    "previous_uncommitted_prefix": "EG202101",
+    "prefix": "EQG202101",
+    "reason": "Original new prefix collided with committed Egypt candidate IDs; coordinator corrected only new Equatorial Guinea dossier before consolidation/audit. Worker followup relaunch failed actual thread limit. All facts/URLs preserved."
+  }
+}

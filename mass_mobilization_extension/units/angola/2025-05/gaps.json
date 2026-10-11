@@ -1,0 +1,60 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "event_eligibility_and_threshold",
+    "description": "S005 confirms a 1 May Luanda May Day march organized by central labor unions and attended by employees from several companies, but describes a commemoration and a unity appeal, not a state-directed labor demand; it reports no turnout count. It is excluded from event candidates on the available body.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Revisit only if independent contemporaneous coverage documents an Angolan-government-directed demand or a qualifying grievance and at least 50 participants. Do not infer protest eligibility or threshold from the ceremonial context."
+  },
+  {
+    "gap_id": "G002",
+    "type": "state_target_and_threshold",
+    "description": "S006 confirms a May Day march organized by the Union of Namibe Syndicates and reports a slogan about decent work, fair wages and social justice. It gives no attendance count and does not say whether the demands addressed government, employers or another recipient. E001 remains pending_state_target; the threshold is also unresolved.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "angola_2025-05_E001"
+    ],
+    "required_followup": "Seek independent or direct union evidence for a public gathering of at least 50 and its intended demand recipient; preserve attributed attendance wording and do not infer state target from the Vice-Governor's attendance."
+  },
+  {
+    "gap_id": "G003",
+    "type": "event_execution_and_boundary",
+    "description": "May sources include advance announcements for an MEA action and a separate search-only VOA header about a student march allegedly prevented by police, but the exact execution date, whether a public gathering formed, attendance and response remain unverified. The headers may concern a different date or year.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a relevant body becomes necessary, perform a fresh exact-target access check and manual scope review first; establish date/actual gathering and threshold before creating a candidate. The announcement and snippet do not establish occurrence."
+  },
+  {
+    "gap_id": "G004",
+    "type": "date_and_episode_resolution",
+    "description": "ANGOP social-media headers concerning a 500-person peaceful march and a worker march of about 10,000 have unclear dates and possible same-story overlap. ANGOP S011's exact Facebook target returned “Online fetch throttled”; a second ANGOP Facebook lead is a potential same-story variant and is held without a body request. These headers are search-only, not verified May 2025 actions or counts.",
+    "source_ids": [
+      "S008",
+      "S011",
+      "S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry the throttled page or use a platform copy. Seek genuinely independent contemporary sources to resolve date, episode identity, public assembly and attendance; do not merge the two estimates."
+  },
+  {
+    "gap_id": "G005",
+    "type": "coverage_and_period_boundary",
+    "description": "Discovery covered national labor/student terms, English and Portuguese, May Day, Luanda and several provinces, but the first-pass search did not resolve all regional and sector leads or verify every week of the month. DigiPress S010's opened body metadata is dated 2 May 2026 and explicitly credits Jornal de Angola/RNA; it does not verify a May 2025 event, and the origin story URL/year is not established.",
+    "source_ids": [
+      "S010",
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue bounded open-web discovery for dated, independent May 2025 provincial reports. Do not treat the 2026 derivative as independent or as a substitute for the named origin; record unknown origin scope without requesting a guessed page."
+  }
+]

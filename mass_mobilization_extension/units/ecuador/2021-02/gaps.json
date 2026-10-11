@@ -1,0 +1,144 @@
+[
+  {
+    "gap_id": "ecuador_2021-02_G001",
+    "type": "coverage",
+    "description": "The saved first pass contains 17 actual batched web-search invocations and 555 ordered result headers, including broad, weekly, sectoral, Spanish/English and continuity queries. Open-web search is not a LexisNexis-equivalent census; off-month and irrelevant results do not establish absence or exhaustiveness.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue local/regional archive review and preserve exact query results; do not claim no protests occurred."
+  },
+  {
+    "gap_id": "ecuador_2021-02_G002",
+    "type": "language",
+    "description": "Searches were in Spanish and English. Kichwa, Shuar and other indigenous-language reporting, rural/Amazonian sources and local archives were not systematically reviewed.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ecuador_2021-02_E003",
+      "ecuador_2021-02_E004"
+    ],
+    "required_followup": "Add competent local-language and indigenous/rural source review."
+  },
+  {
+    "gap_id": "ecuador_2021-02_G003",
+    "type": "threshold",
+    "description": "Attendance is absent for the 8 February vigil and the search-only transport, Loja–Quito and entertainment leads. For the 10 February CNE demonstrations, Expreso reports an approximate 200-person Quito march; no exact count or separate Guayaquil count is available.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S009",
+      "S025",
+      "S026",
+      "S028",
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S033"
+    ],
+    "affected_candidates": [
+      "ecuador_2021-02_E001",
+      "ecuador_2021-02_E002",
+      "ecuador_2021-02_E004",
+      "ecuador_2021-02_E005"
+    ],
+    "required_followup": "Find physical attendee counts for each gathering; do not use vehicles, potential participants, supporters, workers or separate event counts as crowd totals."
+  },
+  {
+    "gap_id": "ecuador_2021-02_G004",
+    "type": "access",
+    "description": "Ecuavisa S001 and Expreso S003 have saved body reads; El Universo S002 exposes only a partial page shell. El Universo S004 and El Mercurio S025 exact opens returned Cache misses (technical failures, not denials). El Comercio S006 returned an observed 403 for that exact raw URL only. El Universo S026 had two fresh manual-review receipts but each immediate whole-corpus recheck changed, first in Croatia and then Djibouti; no request was made.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S006",
+      "S025",
+      "S026",
+      "S028",
+      "S034"
+    ],
+    "affected_candidates": [
+      "ecuador_2021-02_E001",
+      "ecuador_2021-02_E004",
+      "ecuador_2021-02_E005"
+    ],
+    "required_followup": "Follow current access scope and request gates. Do not retry Cache-miss URLs, broaden the exact El Comercio denial, or open linked/copy material while coordinator scope is unresolved."
+  },
+  {
+    "gap_id": "ecuador_2021-02_G005",
+    "type": "eligibility_and_episode_boundary",
+    "description": "The 10 February Expreso body reports Pachakutik supporters but also a physical recount-demand protest at CNE offices and an approximately 200-person Quito march. Coordinator review should determine whether the explicit CNE process demand differentiates it from a candidate-support-only gathering and whether two city sites form one multi-city event. The 8 February vigil and later reported march may be related campaign phases, but continuity or participant overlap is unverified.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S006",
+      "S012",
+      "S013",
+      "S023",
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S033"
+    ],
+    "affected_candidates": [
+      "ecuador_2021-02_E002",
+      "ecuador_2021-02_E003",
+      "ecuador_2021-02_E004"
+    ],
+    "required_followup": "Apply the original event/eligibility rule and verify physical continuity before merging or splitting."
+  },
+  {
+    "gap_id": "ecuador_2021-02_G006",
+    "type": "candidate_discovery",
+    "description": "Search results also surfaced a Guayaquil pool-removal confrontation (S034) and an article about Historic Center residents’ discontent (S010). The bodies were not read and neither headline establishes a qualifying assembly, state-directed demand, threshold or protest intent. They are retained as follow-up leads, not events or exclusions.",
+    "source_ids": [
+      "S010",
+      "S034"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review only under fresh access gates; first establish whether an eligible public assembly and government-policy demand occurred."
+  },
+  {
+    "gap_id": "ecuador_2021-02_G007",
+    "type": "continuity",
+    "description": "No event begun before February was verified as a continuing public assembly in February. The reported February election actions may continue across days or into March, but titles and a pre-event official plan do not prove physical continuity, participant overlap or an end.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S006",
+      "S012",
+      "S013",
+      "S023",
+      "S029",
+      "S030",
+      "S031",
+      "S032",
+      "S033"
+    ],
+    "affected_candidates": [
+      "ecuador_2021-02_E002",
+      "ecuador_2021-02_E003",
+      "ecuador_2021-02_E004"
+    ],
+    "required_followup": "Verify first physical date, daily continuity, last physical date and rightful month owner before adding continuations or merging episodes."
+  },
+  {
+    "gap_id": "ecuador_2021-02_G008",
+    "type": "baseline",
+    "description": "Official Mass Mobilization baseline rows/universe and the original Coding Procedure remain unavailable in the dossier environment; all coding remains provisional and separate from the integrated catalog.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ecuador_2021-02_E001",
+      "ecuador_2021-02_E002",
+      "ecuador_2021-02_E003",
+      "ecuador_2021-02_E004",
+      "ecuador_2021-02_E005"
+    ],
+    "required_followup": "Coordinator checks baseline and original episode rules; do not assign official IDs or present this dossier as an official dataset update."
+  }
+]

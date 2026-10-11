@@ -1,0 +1,197 @@
+[
+  {
+    "gap_id": "BF202102-G001",
+    "type": "threshold",
+    "description": "All four event candidates have body-supported dates and gathering descriptions, but no source supplies a demonstrator count or a qualitative estimate establishing at least 50 participants. They remain pending_threshold; numerical bounds are null.",
+    "source_ids": [
+      "BF202102-S013",
+      "BF202102-S017",
+      "BF202102-S020"
+    ],
+    "affected_candidates": [
+      "BF202102-E001",
+      "BF202102-E002",
+      "BF202102-E003",
+      "BF202102-E004"
+    ],
+    "required_followup": "Seek a permitted contemporaneous account or other documented attendance evidence; do not infer headcounts from affected firms, school enrollment, population, or a wider campaign."
+  },
+  {
+    "gap_id": "BF202102-G002",
+    "type": "state_target",
+    "description": "For Bittou, opposition to the depot closure is documented, but the direct addressee and exact state-directed demand are unclear. For the student march, demands were made through the school administration; whether that qualifies as a state-policy target is not established.",
+    "source_ids": [
+      "BF202102-S013",
+      "BF202102-S017"
+    ],
+    "affected_candidates": [
+      "BF202102-E001",
+      "BF202102-E002",
+      "BF202102-E004"
+    ],
+    "required_followup": "Review the applicable MM state-target rule and obtain direct evidence identifying the authority or policy targeted; keep uncertain candidates pending."
+  },
+  {
+    "gap_id": "BF202102-G003",
+    "type": "continuity",
+    "description": "AIB reports two Bittou protests on 20 and 25 February against the same depot closure, but the article does not resolve whether they are two separate actions or one continuing episode. They are provisionally represented as two dated candidates sharing an episode_key. End dates for all four candidates are unknown.",
+    "source_ids": [
+      "BF202102-S017",
+      "BF202102-S013",
+      "BF202102-S020"
+    ],
+    "affected_candidates": [
+      "BF202102-E001",
+      "BF202102-E002",
+      "BF202102-E003",
+      "BF202102-E004"
+    ],
+    "required_followup": "Find independent dates or follow-up reporting that distinguishes repeated gatherings from a continuing event and documents when each action ended."
+  },
+  {
+    "gap_id": "BF202102-G004",
+    "type": "source_access",
+    "description": "BF202102-S006 is an Africa-Press discovery lead about the planned UCRB transport strike. Its body was not read. Three attempts are retained: web-reader timeout, default HTTPS DNS failure, and an ordinary HTTPS request that returned HTTP 403 before the saved publisher-wide guard was surfaced. The structured guard now records the exact observed host and denial, cites Zambia 2021-01 S012 and Ethiopia 2021-01 ETH202101-S175, and the fresh post-record receipt returns hold. The manual publisher review missed the old broad prose guard before these attempts; this deviation is not retroactively authorized.",
+    "source_ids": [
+      "BF202102-S006"
+    ],
+    "affected_candidates": [
+      "BF202102-X002"
+    ],
+    "required_followup": "Do not request Africa-Press or a same-story copy. If the transport lead is reviewed later, use a separately published and permitted source with an exact host/origin prescreen."
+  },
+  {
+    "gap_id": "BF202102-G005",
+    "type": "protocol_deviation",
+    "description": "Wakat Séra S013 had two wrapper opens at 06:10:57.426Z and 06:11:01.901Z. The first had a fresh receipt; there was no new receipt between these requests. Both returned only URL/title and a line count, with no surfaced body. A fresh stable receipt and full manual review preceded the third attempt at 06:12:21.187Z, which surfaced the relevant body. The missing second-attempt receipt is preserved as a protocol deviation.",
+    "source_ids": [
+      "BF202102-S013"
+    ],
+    "affected_candidates": [
+      "BF202102-E004"
+    ],
+    "required_followup": "Retain the attempt history; do not retroactively authorize the duplicate open. The body claims are limited to the third, properly gated attempt."
+  },
+  {
+    "gap_id": "BF202102-G006",
+    "type": "source_lineage",
+    "description": "Wakat Séra attributes its school report to Infowakat but gives no upstream URL. LeFaso S021 explicitly cites LeFaso for the customs-broker account and is not independent corroboration of S020. Coalition Jam’s wide-tour counts and chronology are internally inconsistent in AIB’s opened account.",
+    "source_ids": [
+      "BF202102-S013",
+      "BF202102-S020",
+      "BF202102-S021",
+      "BF202102-S019"
+    ],
+    "affected_candidates": [
+      "BF202102-E003",
+      "BF202102-E004",
+      "BF202102-X001"
+    ],
+    "required_followup": "Preserve these source relationships; seek a traceable original or independent account only under the per-request access protocol."
+  },
+  {
+    "gap_id": "BF202102-G007",
+    "type": "evidence",
+    "description": "Several relevant leads remain search-only: the truckers’ announcements and negotiations, SYNACSAB movement, F-SYNTER dispute, independent drivers’ response and March Bogodogo action. Search headlines do not establish execution, attendance, state target or event details.",
+    "source_ids": [
+      "BF202102-S001",
+      "BF202102-S002",
+      "BF202102-S003",
+      "BF202102-S004",
+      "BF202102-S005",
+      "BF202102-S008",
+      "BF202102-S009",
+      "BF202102-S010",
+      "BF202102-S011",
+      "BF202102-S012",
+      "BF202102-S014",
+      "BF202102-S015",
+      "BF202102-S016",
+      "BF202102-S023",
+      "BF202102-S024",
+      "BF202102-S025",
+      "BF202102-S026",
+      "BF202102-S029",
+      "BF202102-S030",
+      "BF202102-S031",
+      "BF202102-S032",
+      "BF202102-S033",
+      "BF202102-S034",
+      "BF202102-S035",
+      "BF202102-S036"
+    ],
+    "affected_candidates": [
+      "BF202102-X002",
+      "BF202102-X003",
+      "BF202102-X004",
+      "BF202102-X005",
+      "BF202102-X006"
+    ],
+    "required_followup": "Use a fresh exact-URL receipt and manual publisher/origin review before every future body request; do not infer events from discovery snippets."
+  },
+  {
+    "gap_id": "BF202102-G008",
+    "type": "coverage",
+    "description": "The search log records 42 actual invocations with 805 ordered result headers, including French- and English-language searches, weekly windows, sector/union terms and retrospective leads. Open-web results do not reproduce LexisNexis or systematic newspaper archives; not every lead was body-reviewed. Search volume and multiple sources do not establish completeness.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "A later review may consult systematically accessible local archives and contemporaneous regional sources without claiming coverage that was not checked."
+  },
+  {
+    "gap_id": "BF202102-G009",
+    "type": "language",
+    "description": "The search work was conducted primarily in French, with English-language and locally targeted searches. No fluent independent review of all relevant local-language material is documented; search translations and snippets were not used as body evidence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If local-language coverage materially affects a candidate, obtain competent language review and record the exact source and read scope."
+  },
+  {
+    "gap_id": "BF202102-G010",
+    "type": "continuity",
+    "description": "No event beginning before February was documented for a continuation record, so continuations.json is empty. The search pass did not establish complete pre-month/post-month coverage or prove that no campaign crossed a boundary.",
+    "source_ids": [
+      "BF202102-S013",
+      "BF202102-S017",
+      "BF202102-S020"
+    ],
+    "affected_candidates": [
+      "BF202102-E001",
+      "BF202102-E002",
+      "BF202102-E003",
+      "BF202102-E004"
+    ],
+    "required_followup": "Check adjacent-month reports before resolving event ownership, duplicate status or physical end dates."
+  },
+  {
+    "gap_id": "BF202102-G011",
+    "type": "baseline",
+    "description": "The unit remains pending the coordinator’s official-baseline gate. The original codebook/manual was not available in this owned dossier; event labels and demand coding follow the saved protocol, with categories left empty where the controlled list does not fit clearly.",
+    "source_ids": [],
+    "affected_candidates": [
+      "BF202102-E001",
+      "BF202102-E002",
+      "BF202102-E003",
+      "BF202102-E004"
+    ],
+    "required_followup": "Coordinator should compare candidates with the official baseline and applicable codebook before consolidation or any official coding decision."
+  },
+  {
+    "gap_id": "BF202102-G012",
+    "type": "source_access",
+    "description": "The unit contains four opened source cards and thirty search-only cards, plus one blocked card. A receipt for S001 is saved but no matching body attempt appears in the preserved source history. S013’s first two wrapper opens did not surface body text; S013, S017, S019 and S020 have explicit scope descriptions for the body text actually reviewed.",
+    "source_ids": [
+      "BF202102-S001",
+      "BF202102-S013",
+      "BF202102-S017",
+      "BF202102-S019",
+      "BF202102-S020"
+    ],
+    "affected_candidates": [
+      "BF202102-E001",
+      "BF202102-E002",
+      "BF202102-E003",
+      "BF202102-E004"
+    ],
+    "required_followup": "Treat receipts as access-review records only. Preserve source status and actual read scope; do not upgrade search-only cards without a logged, permitted body read."
+  }
+]

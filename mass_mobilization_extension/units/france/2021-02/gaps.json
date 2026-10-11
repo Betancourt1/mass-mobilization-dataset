@@ -1,0 +1,342 @@
+[
+  {
+    "gap_id": "FR-202102-G001",
+    "type": "coverage_open_web",
+    "description": "Primer barrido general bilingüe, semanal y sectorial, con lecturas regionales. No equivale a hemeroteca completa ni LexisNexis; no recuperar una acción no demuestra que no existió.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Contrastar la lista con hemerotecas y baseline oficial antes de medir omisiones."
+  },
+  {
+    "gap_id": "FR-202102-G002",
+    "type": "search_date_filter_failure",
+    "description": "Cuatro consultas con after/before devolvieron predominantemente contenido de 2026; operadores no respetados. Se registraron íntegramente URLs de salida y se descartaron como prueba de febrero de 2021.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Rehacer ventanas en archivo con filtro fiable si se obtiene acceso."
+  },
+  {
+    "gap_id": "FR-202102-G003",
+    "type": "official_baseline",
+    "description": "No se descargó ni cotejó tabla oficial de Mass Mobilization; candidates podrían existir ya y no tienen ID original.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Obtener baseline verificada, licencia y esquema; comparar antes de etiquetar adición."
+  },
+  {
+    "gap_id": "FR-202102-G004",
+    "type": "end_date_unknown",
+    "description": "Cierre físico no acreditado para muchas marchas. Se mantiene null incluso si sólo hay relato de un día; no se usa fin de mes ni fecha de publicación.",
+    "source_ids": [
+      "FR-202102-S014",
+      "FR-202102-S016",
+      "FR-202102-S268",
+      "FR-202102-S415",
+      "FR-202102-S416",
+      "FR-202102-S233",
+      "FR-202102-S335",
+      "FR-202102-S343",
+      "FR-202102-S156",
+      "FR-202102-S315",
+      "FR-202102-S195",
+      "FR-202102-S297",
+      "FR-202102-S502",
+      "FR-202102-S505",
+      "FR-202102-S150",
+      "FR-202102-S260",
+      "FR-202102-S176"
+    ],
+    "affected_candidates": [
+      "FR-202102-E001",
+      "FR-202102-E002",
+      "FR-202102-E003",
+      "FR-202102-E005",
+      "FR-202102-E008",
+      "FR-202102-E009",
+      "FR-202102-E010",
+      "FR-202102-E011",
+      "FR-202102-E013",
+      "FR-202102-E014",
+      "FR-202102-E018"
+    ],
+    "required_followup": "Consultar reportajes de cierre y meses vecinos; sólo entonces decidir fecha de fin con regla documentada."
+  },
+  {
+    "gap_id": "FR-202102-G005",
+    "type": "response_unknown",
+    "description": "En la mayoría de candidatos no hay descripción suficiente de respuestas estatales, lesiones o violencia de manifestantes. Desconocido no significa ausencia.",
+    "source_ids": [
+      "FR-202102-S014",
+      "FR-202102-S016",
+      "FR-202102-S268",
+      "FR-202102-S415",
+      "FR-202102-S416",
+      "FR-202102-S233",
+      "FR-202102-S112",
+      "FR-202102-S224",
+      "FR-202102-S156",
+      "FR-202102-S315",
+      "FR-202102-S297",
+      "FR-202102-S502",
+      "FR-202102-S505",
+      "FR-202102-S150",
+      "FR-202102-S260",
+      "FR-202102-S176"
+    ],
+    "affected_candidates": [
+      "FR-202102-E001",
+      "FR-202102-E002",
+      "FR-202102-E003",
+      "FR-202102-E004",
+      "FR-202102-E005",
+      "FR-202102-E006",
+      "FR-202102-E007",
+      "FR-202102-E008",
+      "FR-202102-E009",
+      "FR-202102-E010",
+      "FR-202102-E011",
+      "FR-202102-E012",
+      "FR-202102-E013",
+      "FR-202102-E014",
+      "FR-202102-E018"
+    ],
+    "required_followup": "Precisar respuesta con fuentes de seguimiento y distinguir acción, reivindicación y antecedentes."
+  },
+  {
+    "gap_id": "FR-202102-G006",
+    "type": "national_size_estimates",
+    "description": "Jornada 4 tiene estimación inicial nacional y cifras organizadoras; Justice pour Julie sólo cifras locales; motards 20 tiene origen ministerio/AFP compartido por dos publicaciones.",
+    "source_ids": [
+      "FR-202102-S014",
+      "FR-202102-S016",
+      "FR-202102-S415",
+      "FR-202102-S416",
+      "FR-202102-S297",
+      "FR-202102-S502",
+      "FR-202102-S505"
+    ],
+    "affected_candidates": [
+      "FR-202102-E001",
+      "FR-202102-E003",
+      "FR-202102-E011"
+    ],
+    "required_followup": "Revisar definición de participantes; evitar sumar réplicas y cifras parciales o vehículos."
+  },
+  {
+    "gap_id": "FR-202102-G007",
+    "type": "episode_boundary",
+    "description": "Seguridad global de febrero se vincula con campaña de noviembre y jornadas de enero; no es automáticamente nuevo episodio ni una protesta física continua de meses.",
+    "source_ids": [
+      "FR-202102-S131",
+      "FR-202102-S224",
+      "FR-202102-S219"
+    ],
+    "affected_candidates": [
+      "FR-202102-E007",
+      "FR-202102-E017"
+    ],
+    "required_followup": "Revisar E007 y E017 junto con FR-202101-E008/E018, continuación C001 y reglas originales."
+  },
+  {
+    "gap_id": "FR-202102-G008",
+    "type": "episode_boundary",
+    "description": "EDF 10 puede ser jornada distinta dentro de campaña anti-Hercule iniciada antes. Se confirma acción pública local, pero no se adopta automáticamente un total nacional de huelga.",
+    "source_ids": [
+      "FR-202102-S233",
+      "FR-202102-S240"
+    ],
+    "affected_candidates": [
+      "FR-202102-E005"
+    ],
+    "required_followup": "Comparar con FR-202101-E011 y acción EDF anunciada el 28 de enero; fijar unidad sin duplicar."
+  },
+  {
+    "gap_id": "FR-202102-G009",
+    "type": "inaccessible_sources",
+    "description": "Amnesty seguridad global y Dijoncter sound systems devolvieron 403; Le Parisien convocatoria de marzo y NPA Loiret DisabledError; TF1 motards 403; Zad du Carnet 502.",
+    "source_ids": [
+      "FR-202102-S130",
+      "FR-202102-S140",
+      "FR-202102-S037",
+      "FR-202102-S219",
+      "FR-202102-S203",
+      "FR-202102-S255"
+    ],
+    "affected_candidates": [
+      "FR-202102-E007",
+      "FR-202102-E011",
+      "FR-202102-E016",
+      "FR-202102-E017"
+    ],
+    "required_followup": "Registrar límites; buscar copia autorizada o otras fuentes sin eludir acceso."
+  },
+  {
+    "gap_id": "FR-202102-G010",
+    "type": "partial_access",
+    "description": "Mediapart sólo entradilla; Le Parisien motards sólo porción pública y Le Monde mostró metadatos de suscripción aunque devolvió pasaje del evento. No se eludió muro.",
+    "source_ids": [
+      "FR-202102-S197",
+      "FR-202102-S268",
+      "FR-202102-S194"
+    ],
+    "affected_candidates": [
+      "FR-202102-E002",
+      "FR-202102-E012"
+    ],
+    "required_followup": "Si faltan campos, usar fuente pública alternativa o acceso autorizado."
+  },
+  {
+    "gap_id": "FR-202102-G011",
+    "type": "student_size",
+    "description": "Balance de Campus France alterna cerca de 100 en título y varias decenas en cuerpo; autor pertenece a organizador.",
+    "source_ids": [
+      "FR-202102-S112"
+    ],
+    "affected_candidates": [
+      "FR-202102-E006"
+    ],
+    "required_followup": "Corroborar cifra y precisión con crónica independiente; revisar umbral propuesto."
+  },
+  {
+    "gap_id": "FR-202102-G012",
+    "type": "housing_state_target_and_size",
+    "description": "DAL confirma acción y recepción por arrendador pero refiere decenas de familias. Demanda de aplicar ley a un arrendador no demuestra destinatario estatal ni 50 reunidos.",
+    "source_ids": [
+      "FR-202102-S176"
+    ],
+    "affected_candidates": [
+      "FR-202102-E018"
+    ],
+    "required_followup": "Determinar público objetivo y conteo de personas; recepción privada no es accommodation estatal."
+  },
+  {
+    "gap_id": "FR-202102-G013",
+    "type": "culture_state_target",
+    "description": "Cahors reúne unas 200 o más personas, pero organizador dice no tener reivindicaciones. La crítica a cierres por asistentes puede o no bastar para demanda estatal.",
+    "source_ids": [
+      "FR-202102-S156"
+    ],
+    "affected_candidates": [
+      "FR-202102-E009"
+    ],
+    "required_followup": "Revisar naturaleza de acto y demanda dirigida al Estado."
+  },
+  {
+    "gap_id": "FR-202102-G014",
+    "type": "segur_threshold_and_unit",
+    "description": "CFTC confirma acciones del 19 sin cifra de asistentes, y mezcla sedes privadas con ARS.",
+    "source_ids": [
+      "FR-202102-S315"
+    ],
+    "affected_candidates": [
+      "FR-202102-E010"
+    ],
+    "required_followup": "Acreditar al menos 50 en reunión pública y resolver agrupación regional/local."
+  },
+  {
+    "gap_id": "FR-202102-G015",
+    "type": "announcement_not_occurrence",
+    "description": "WEPLI 4 sólo cuenta con convocatoria y listados; 4 000 son campañas anteriores. Saint-Gildas 27 sólo convocatoria bloqueada; números se refieren a animales.",
+    "source_ids": [
+      "FR-202102-S453",
+      "FR-202102-S060",
+      "FR-202102-S231",
+      "FR-202102-S255"
+    ],
+    "affected_candidates": [
+      "FR-202102-E015",
+      "FR-202102-E016"
+    ],
+    "required_followup": "Buscar cobertura posterior de ejecución y tamaño; conservar null como comienzo real hasta verificar."
+  },
+  {
+    "gap_id": "FR-202102-G016",
+    "type": "regional_freeparties",
+    "description": "Título NPA atribuye protestas a Orléans y Blois el 13, pero no se pudo abrir; Dijoncter también bloqueado.",
+    "source_ids": [
+      "FR-202102-S219",
+      "FR-202102-S140"
+    ],
+    "affected_candidates": [
+      "FR-202102-E017"
+    ],
+    "required_followup": "Verificar hechos, asistencia y vínculo de coordinación; separar ciudades si fueron acciones distintas."
+  },
+  {
+    "gap_id": "FR-202102-G017",
+    "type": "gonesse_arrest_count_and_followup",
+    "description": "Desalojo Gonesse: 24 en custodia frente a 25 llevados a comparecer. RP menciona concentración posterior ante comisaría Cergy sin umbral.",
+    "source_ids": [
+      "FR-202102-S441",
+      "FR-202102-S445"
+    ],
+    "affected_candidates": [
+      "FR-202102-E004"
+    ],
+    "required_followup": "Reconciliar conceptos/conteos; apoyo de Cergy no se añade como evento sin 50 y objetivo estatal."
+  },
+  {
+    "gap_id": "FR-202102-G018",
+    "type": "partisan_and_counterprotest",
+    "description": "Génération identitaire tiene objetivo contra disolución estatal y expresiones electorales. Crónica también relata contramanifestantes y 26 detenciones de ambos bandos. No se asigna cifra total a un solo grupo.",
+    "source_ids": [
+      "FR-202102-S194",
+      "FR-202102-S197",
+      "FR-202102-S269"
+    ],
+    "affected_candidates": [
+      "FR-202102-E012"
+    ],
+    "required_followup": "Revisar exclusión electoral y posible contramanifestación separada; no se acredita su umbral ni objetivo estatal con lectura disponible."
+  },
+  {
+    "gap_id": "FR-202102-G019",
+    "type": "student_regional_followup",
+    "description": "Fuentes descubiertas mencionan proceso de cuatro estudiantes de Nanterre y convocatoria/solidaridad para 15 de febrero. La consulta específica con 200/300 fue demasiado restrictiva; no se obtuvo crónica y tamaño.",
+    "source_ids": [
+      "FR-202102-S024",
+      "FR-202102-S041",
+      "FR-202102-S121"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Abrir archivo contemporáneo o publicación posterior; no convertir anuncio ni silencio en evento o ausencia."
+  },
+  {
+    "gap_id": "FR-202102-G020",
+    "type": "culture_regional_followup",
+    "description": "Crónica Cahors refiere acto cultural de Saint-Gaudens del 5 de febrero, sin tamaño ni detalle estatal.",
+    "source_ids": [
+      "FR-202102-S156"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Investigar unidad local del 5 en posterior barrido con fuentes y umbral."
+  },
+  {
+    "gap_id": "FR-202102-G021",
+    "type": "neighboring_months",
+    "description": "Se leyó expediente de enero y fuentes de Gonesse hasta desalojo. No se realizó un barrido completo de marzo para todos los movimientos ni de diciembre para todas las campañas.",
+    "source_ids": [
+      "FR-202102-S434",
+      "FR-202102-S441",
+      "FR-202102-S445",
+      "FR-202102-S131",
+      "FR-202102-S453"
+    ],
+    "affected_candidates": [
+      "FR-202102-E001",
+      "FR-202102-E002",
+      "FR-202102-E003",
+      "FR-202102-E005",
+      "FR-202102-E007",
+      "FR-202102-E009",
+      "FR-202102-E010",
+      "FR-202102-E011",
+      "FR-202102-E013",
+      "FR-202102-E014",
+      "FR-202102-E015",
+      "FR-202102-E017",
+      "FR-202102-E018"
+    ],
+    "required_followup": "Asignar seguimiento de marzo y antecesores donde cambia decisión de unidad o fin."
+  }
+]

@@ -1,0 +1,33 @@
+ESTADOS Y REVISIÓN
+
+Unidad: planned_not_assigned -> assigned_researching -> researched_open_web_pending_review.
+Una unidad investigada puede tener muchos huecos y no equivale a mes exhaustivamente cubierto.
+root_reviewed_open_gaps registra lectura del coordinador, no doble codificación humana independiente.
+Un estado final complete no existe en esta fase mientras faltan base oficial y hemerotecas equivalentes.
+
+Candidato: proposed_include, pending_threshold, pending_state_target, pending_unit o pending_evidence.
+Una propuesta debe acreditar qué reunió personas, cuándo, dónde, qué Estado/política era objeto y >=50.
+Un source_id no constituye evidencia de todos los campos. Mantener field_evidence por atributo.
+Campos observados y campos desconocidos permanecen separados. No rellenar valores por conocimiento general.
+Armas/gases/lesiones no implican disparos con munición; killings exige muerte atribuida a fuerza estatal.
+Los actos propartido, elecciones y marchas previas al golpe requieren evaluación de objetivo estatal y
+exclusión electoral del manual, sin excluir por simpatías políticas del investigador.
+
+EPISODIOS
+Antes de aprobar, revisar inicio y continuidad en meses vecinos. Identificar noticias repetidas/sindicadas.
+Relaciones nacionales vs locales no se deducen solo de fecha igual; comprobar organización y demandas.
+Mantener más granularidad en candidatos y fusionar solo con una decisión documentada y evidencias.
+La repetición mensual de un campamento continuo no añade una observación. Una jornada nueva o escalada
+se deja pending_unit si las reglas adicionales del original no resuelven la frontera de episodio.
+
+CONTRIBUCIÓN
+Exportar candidatos no aprobados en archivos separados; no mezclarlos con observaciones originales.
+Antes de proponer PR/entrega: baseline verificada, licencia específica, esquema original, ID/mapeo,
+historial de modificaciones, revisión de muestra histórica y declaración de asistencia por IA.
+Publicar evidencia breve y enlaces, no textos protegidos completos ni copias sin condiciones de uso.
+
+COBERTURA
+Informar unidades planeadas, asignadas, investigadas, revisadas, abiertas y bloqueadas por separado.
+No medir cobertura como número de noticias ni como número de protestas famosas recuperadas.
+Los buscadores pueden ignorar operadores de fecha; verificar la fecha en el documento, registrar fallos.
+Fuentes inaccesibles y ausencia de búsqueda en lenguas locales son huecos, no eventos inexistentes.

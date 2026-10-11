@@ -1,0 +1,38 @@
+2025 rendered search capture adjustment
+Owner authorization: sessions/2025/rendered_capture_owner_authorization.txt.
+This adjustment applies to 2025 work in this isolated branch. Other-year protocols
+and publisher restrictions are unchanged.
+
+Preserve the exact available invocation response before parsing it. Store the
+verbatim returned string, or JSON serialization of the actual tool object, in
+the invoking month's private_reading/search/ with a unique filename and SHA256.
+These private search responses are local evidence and excluded from portable
+exports. Preserve existing temporary responses there when available, matching
+recorded hashes; preserve gaps for responses already lost. Never reconstruct
+inaccessible rollout files, repeat a query to replace missing capture, invent
+native fields, or claim the parsed display is a native event-header payload.
+
+Use capture-search for the actual whole invocation. Header records may contain
+only visibly exposed title, exact raw URL and ref plus explicitly derived
+order. Keep unexposed metadata null or absent. Batched response belongs to the
+invocation as a whole; never guess result partitions. Preserve a pooled call
+once with explicit consultation references in other month reports. Empty arrays
+for unavailable captured headers must explicitly say unavailable, not no results.
+
+Add capture_provenance describing rendered output, private relative path/hash,
+missing native fields and any early losses. Local clocks observed immediately
+before/after calls are local clocks, distinct from unknown native timestamps.
+Record search, reading, waits, repair and closure intervals prospectively;
+retain unmeasured historical intervals as unknown.
+
+Search leads remain search_only and pending_evidence. Before each publisher
+body request, obtain a fresh stable access-check receipt in the invoking unit,
+inspect inherited canonical and current 2025 metadata and manually review exact
+URL, publisher aliases and written-story origins. Hold/defer/unknown relevant
+external restriction means no body request. The inventory and no-match never
+grant access. Do not download denied/paywalled/anti-bot content.
+
+Source-backed coding, month-onset ownership, threshold, domestic state target,
+seven response variables, uncertainty, independent review and official approval
+gates remain unchanged. This adjustment authorizes a faithful available-output
+capture method, not source access, factual approval or official inclusion.

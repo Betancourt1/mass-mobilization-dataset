@@ -1,0 +1,89 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "capture_integrity",
+    "description": "Quarter-level historical actual calls plus resumed work: February has nine unique invocation records (seven originally recorded plus two additional), with 128 visible headers across four losslessly preserved resumed outputs. Historical results retain native capture gaps; pooled rows are not partitioned per query. The Jan/Feb/Mar site-filter invocation remains canonical in January; a separate February-relevant result surfaced in Jan invocation_010 and is referenced here without duplication.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep unavailable historical metadata unknown and preserve whole invocations once. No reconstructed native headers or per-query result mappings."
+  },
+  {
+    "gap_id": "G002",
+    "type": "body_access_gate",
+    "description": "Seven of ten February source cards are search_only; S005 (Jornal Terra Angolana) and S006 (VOA Português) were opened after separate fresh exact-URL receipts and manual reviews, and S010 (Radio Angola) is blocked. S005 expressly identifies Novo Jornal Feb 20 reporting as its written basis and repeats the same provincial police account; its attendance/response statements are derivative. Fresh publisher/origin checks remain required before each body. Amnesty S002 remains held because the inherited denial/alias relationship is unresolved.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep Amnesty S002 held pending narrow owner clarification. For every other page, make a fresh exact-URL check and review canonical aliases/origins before any body request; do not treat absence of match as permission. Before any Novo Jornal page, recheck exact URL and scope; keep its account derivative unless independent origin evidence establishes otherwise."
+  },
+  {
+    "gap_id": "G003",
+    "type": "event_evidence",
+    "description": "A Feb 15 Luanda protest was announced over living costs/hunger/unemployment/public toilets (S001/S003/S004; execution unverified). A Feb 16 protest in Ndalatando/Cuanza Norte demanding investigation of murdered women farmers is described by VOA (S006) and a party-hosted Terra Angolana report (S005). The latter expressly cites Novo Jornal’s Feb 20 edition, a UNITA Feb 17 press release, and quotes the same provincial police statement reported by VOA; its “more than 50” wording is derivative. VOA reports “approximately 50.” Neither provides an independent count or exact bounds. The attendance threshold, route/site boundary, organizer, physical end, and complete response remain unresolved.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "angola_2025-02_E001"
+    ],
+    "required_followup": "Seek independently originated attendance, exact site/boundary, organizer, physical close and post-event continuity evidence for E001; preserve the two attributed count wordings separately and retain pending_threshold unless a reliable >=50 threshold is established. Keep the Feb 15 Luanda lead announcement-only pending execution evidence."
+  },
+  {
+    "gap_id": "G004",
+    "type": "coverage",
+    "description": "February coverage in this resumed pass used Portuguese and English generic/month searches and focused on Feb 15 Luanda and Feb 16 Ndalatando; result sets were noisy. Sector and provincial coverage beyond those leads, additional local-language archives, and near-month continuity searches remain incomplete; no LexisNexis-equivalent archive was searched.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue province/sector/week-window and local-language searches; independently verify candidates and inspect after-month continuation or closure evidence."
+  },
+  {
+    "gap_id": "G005",
+    "type": "source_access",
+    "description": "A fresh exact-URL access receipt for the Amnesty Angola retrospective report returned manual_review with no structured restriction match, but inherited Angola 2021-02 cards S033/S045 describe a saved Amnesty denial/publisher-level hold and a same-host Amnesty France URL is recorded as 403. The scope relationship to the 2025 report page cannot be resolved from current saved metadata. No request was made.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek narrow owner clarification for this exact Amnesty target/publisher scope; do not open or use a different language path as a workaround."
+  },
+  {
+    "gap_id": "G006",
+    "type": "threshold",
+    "description": "The Feb 16 Ndalatando candidate has two opened accounts with the crowd reported through the same provincial police source: VOA says approximately 50; Terra Angolana relays Novo Jornal and quotes police saying more than 50. These differing, derivative/attributed wordings do not independently establish an exact attendance threshold. The Feb 15 Luanda event remains an announcement without execution evidence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "angola_2025-02_E001"
+    ],
+    "required_followup": "Find an independently sourced threshold account and body-level evidence of the announced Feb 15 event before changing status. Keep E001 pending_threshold while exact headcount remains unresolved."
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "gap_id": "CZ202102-G001",
+    "type": "turnout_threshold",
+    "description": "S008 reports an estimated 300 cars for the 13 February Masopust drive but gives no people count. Vehicle count cannot be treated as attendee count; no numerical threshold is established for E002.",
+    "source_ids": [
+      "S008",
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [
+      "CZ202102-E002"
+    ],
+    "required_followup": "Review the contemporaneous legal record and any later judgment for actual people present, separating pre-event notice estimates from observed attendance."
+  },
+  {
+    "gap_id": "CZ202102-G002",
+    "type": "execution_and_unitization",
+    "description": "Valentine march body retrievals were unsuccessful or technically failed. S004 is search-only; S005 is an organizer announcement. Search leads refer to roughly 300 in Prague and a planned 15 walks, while one query result gave 16; actual locations, turnout and whether the actions form one coordinated national episode remain unverified.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "CZ202102-E003"
+    ],
+    "required_followup": "Review exact source bodies and independent local coverage; verify actual execution, sites, count and proper event unitization without summing local estimates."
+  },
+  {
+    "gap_id": "CZ202102-G003",
+    "type": "source_access_and_independence",
+    "description": "The 21 February Wenceslas Square candidate relies on search-result summaries from Echo24 and EuroZprávy; both exact-URL opens returned Cache miss, and their written-origin relationship is unknown.",
+    "source_ids": [
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "CZ202102-E005"
+    ],
+    "required_followup": "Seek body text through a fresh stable exact-URL receipt/manual review or another contemporary independent source; verify count, demands, date and response."
+  },
+  {
+    "gap_id": "CZ202102-G004",
+    "type": "turnout_and_continuity",
+    "description": "S015 says “several dozen” attended the 22 February rally and about twenty remained later. The first phrase does not establish the 50-person threshold, and the reported Tuesday-morning continuation is announced rather than confirmed.",
+    "source_ids": [
+      "S015"
+    ],
+    "affected_candidates": [
+      "CZ202102-E006"
+    ],
+    "required_followup": "Find a separate 23 February report and independent turnout evidence; keep the later holdout count separate from rally attendance."
+  },
+  {
+    "gap_id": "CZ202102-G005",
+    "type": "access_incident_review",
+    "description": "S011/TN Nova returned text under turn911view0, but its output remains quarantined as historical non-evidence. The saved R007 manual note checked at 2026-10-10T09:16:43.027332+00:00 listed distinct same-host source CZ202101-S043 only as access_status=blocked and did not establish HTTP 403. The full S043 card documenting ordinary HTTPS 403 was first read at 2026-10-10T09:17:08.296Z, after S011 returned page text at 2026-10-10T09:16:44.274Z. The unresolved same-host blocked row should have led to deferral; the manual_review outcome was not permission to proceed. No exact-target denial or publisher-wide restriction is inferred; independent scoped review remains pending, and no body-derived S011 claims are used.",
+    "source_ids": [
+      "S011"
+    ],
+    "affected_candidates": [
+      "CZ202102-E004"
+    ],
+    "required_followup": "Obtain root’s independent read-only scoped audit; do not retry TN Nova or use the quarantined output before the review clears it."
+  },
+  {
+    "gap_id": "CZ202102-G006",
+    "type": "official_record_access",
+    "description": "The official City of Brno PDF S017 lists possible 13–14 February records in search results, but the exact URL had a prior recorded Cache miss in review/source_checks.jsonl and the fresh R016 gate stopped before another request. The PDF body remains unavailable, so its entries, sites, targets and attendance are unknown.",
+    "source_ids": [
+      "S017"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If the coordinator elects another ordinary public retrieval, use a fresh exact-URL receipt/manual review and preserve the existing Cache miss as a technical failure, not a denial."
+  },
+  {
+    "gap_id": "CZ202102-G007",
+    "type": "event_date",
+    "description": "The Movement Hub story about a mother, doctors and climate activists surfaced with February publication context, but its event date is not established. Article date must not be assigned as protest date.",
+    "source_ids": [
+      "S019"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the story body through a fresh compliant exact-URL gate and identify the actual event date and location before considering an in-month candidate."
+  },
+  {
+    "gap_id": "CZ202102-G008",
+    "type": "search_coverage",
+    "description": "Nineteen captured Czech/English query responses include full-month and weekly date windows, local/regional sources, and labor, climate and political searches. They do not reproduce LexisNexis or systematic national/regional newspaper archives; several article bodies were unavailable. Search results do not establish that no other protests occurred.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S005",
+      "S013",
+      "S014",
+      "S017",
+      "S019"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may broaden to additional local outlets/archives and language variants. Preserve this limitation and avoid exhaustive-coverage claims."
+  },
+  {
+    "gap_id": "CZ202102-G009",
+    "type": "source_independence",
+    "description": "Potential overlap/syndication between local Brno reports for E001 and the two search-result reports for E005 has not been resolved. S003 explicitly credits ČTK; S004/S014 origin is unverified. Two URLs are not automatically independent confirmation.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "CZ202102-E001",
+      "CZ202102-E003",
+      "CZ202102-E005"
+    ],
+    "required_followup": "Check written-origin credits and story-level relationships in bodies when available; keep agency syndications distinct from independent reporting."
+  },
+  {
+    "gap_id": "CZ202102-G010",
+    "type": "body_retrieval",
+    "description": "S001 and S004 did not return body text after exact-URL requests; S005 returned a Unicode decoding error, and S013/S014 returned Cache miss. These are recorded as technical retrieval failures, not site denials.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S005",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "CZ202102-E001",
+      "CZ202102-E003",
+      "CZ202102-E005"
+    ],
+    "required_followup": "Any further exact-URL attempt requires a fresh receipt, complete saved manual review and immediate matching path/hash check; ordinary public retrieval only."
+  }
+]

@@ -1,0 +1,19 @@
+Algeria 2025-03 — open-web first pass pending review
+
+Status: researched_open_web_pending_review. First-pass research is done; residual evidence gaps remain pending independent review.
+
+Coverage: 13 actual search invocations containing 19 submitted query strings, with 93 query-aligned visible headers plus 78 invocation-level headers in unpartitioned batch captures are logged across French, Arabic and English discovery, including APS and local-media targeted searches. Relevant query dimensions included protest/strike, education, health, labor unions and local reporting. Most results were irrelevant or historical. Shared multi-query captures are retained invocation-wide without guessed per-query partitions. Search-result excerpts remain discovery-only.
+
+Evidence: No March-specific candidate has been established. The only saved source card is Amnesty’s 2025 Algeria report, whose reviewed section describes Jan–Feb actions. This own-unit request/read and exact capture hash are preserved; after discovery of contradictory historical scope records, its access scope is unresolved and it is held from candidate coding pending independent review. It is not used to claim March absence.
+
+Open gaps include Kabyle/Tamazight and wider local/wilaya coverage; independent contemporary and union/official/sector sources; possible March date-specific actions; event-level threshold/state target/response; boundaries with February; and baseline verification. Full inventory is in gaps.json. No event, exclusion or continuation is coded, and no absence inference is made.
+
+Capture integrity: complete actual rendered strings are preserved privately with invocation hashes. Original structured event metadata and native clocks are unavailable and unknown. Q006–Q008, Q013–Q015 and Q017–Q019 are invocation-level captures whose results are not assigned to queries; no metadata or search-result facts were reconstructed. A broad batch included a detailed AP excerpt about a February event; it remains search-only exposure, not event evidence.
+
+Counts at this checkpoint: 13 search invocations (19 submitted query strings), 93 query-aligned headers, 78 additional invocation-level visible headers in unpartitioned batches, 1 source card, 0 candidate(s), 6 gaps. These header counts include repeated results across separate invocations and are not unique-source counts.
+
+
+Additional captured discovery batch: Q017–Q019 retained as a whole-invocation rendered trace (31 visible headers; SHA-256 5ff7cbefea7ed563d6b5657a001ea85f8afd7d71b65f6767cde1840e72b2e8ad). Results were noisy/historical or concerned other months; no event facts were coded. Query-to-result partition and native timestamps remain unknown.
+
+
+Invocation-log normalization: the preserved pre-repair log is private_reading/capture-repair/search_log.pre-invocation-normalization-03.jsonl (SHA-256 d5b4ebbaa585a3da7101c5239d346f7a77fb5dded4cf990131650bebc4052485). There is now one canonical record per actual search call; batched result headers stay invocation-level. Exact submitted-query strings are retained where available in the pre-normalization rows; no text or result-to-query mapping was inferred.

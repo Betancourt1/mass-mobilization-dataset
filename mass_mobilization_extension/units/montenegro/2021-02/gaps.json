@@ -1,0 +1,92 @@
+[
+  {
+    "gap_id": "montenegro_2021-02_G001",
+    "type": "turnout_threshold",
+    "description": "S002, S003, and S006 establish a Tuzi gathering and road block but state no numerical attendance or clear minimum of 50. Publicity/support metrics, police presence, and crowd-related phrasing cannot supply the missing turnout.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S006"
+    ],
+    "affected_candidates": [
+      "montenegro_2021-02_E001"
+    ],
+    "required_followup": "Look for a contemporaneous numerical crowd estimate or a clearly bounded qualitative statement, then keep the candidate pending if it remains absent."
+  },
+  {
+    "gap_id": "montenegro_2021-02_G002",
+    "type": "state_response_and_violence_attribution",
+    "description": "The RFE/RL report records a meeting with the deputy prime minister and health minister but no disclosed outcome. Three arrests concerned hospitality operators, and criminal complaints concerned the mayor and two officials; neither establishes arrest of demonstrators. Antena M gives no violence or injury information; beatings, forced dispersal, injury, protester violence, shootings, and killings remain unknown.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S006"
+    ],
+    "affected_candidates": [
+      "montenegro_2021-02_E001"
+    ],
+    "required_followup": "Find event-specific reporting or official records that clarify the meeting result and whether coercive action or harm was directed at assembled residents."
+  },
+  {
+    "gap_id": "montenegro_2021-02_G003",
+    "type": "source_independence_and_partial_access",
+    "description": "S002 (RFE/RL), S003 (Antena M), and S006 (Anadolu Agency) are three outlet accounts, but their reporting independence has not been established. S006 exposes only a public excerpt; this limits comparison of the full source texts.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S006"
+    ],
+    "affected_candidates": [
+      "montenegro_2021-02_E001"
+    ],
+    "required_followup": "If further review is authorized, assess the reporting origin and whether the accounts are independent; do not treat outlet count as independent confirmation by itself."
+  },
+  {
+    "gap_id": "montenegro_2021-02_G004",
+    "type": "continuation_occurrence_and_threshold",
+    "description": "KAP pensioners’ February 2, 5, 12, 19, and 26 entries are reported as notices in search-result excerpts; no February occurrence or turnout is confirmed, and the table text around a possible number is corrupted/ambiguous.",
+    "source_ids": [
+      "S012",
+      "S022"
+    ],
+    "affected_candidates": [
+      "montenegro_2021-02_C001"
+    ],
+    "required_followup": "Consult a legible underlying notice/report and contemporary coverage to verify which gatherings occurred, their attendance, and the episode boundary."
+  },
+  {
+    "gap_id": "montenegro_2021-02_G005",
+    "type": "unverified_notice_only",
+    "description": "The Vektra Boka Feb 11 and Bauxite Mine Feb 25 items concern proposed gatherings, with report excerpts indicating postponement/non-permission; no actual event is verified. Planned headcounts or applications are not attendance.",
+    "source_ids": [
+      "S022"
+    ],
+    "affected_candidates": [
+      "montenegro_2021-02_X001",
+      "montenegro_2021-02_X002"
+    ],
+    "required_followup": "Search for contemporaneous follow-up confirming whether either group later assembled, where, with what demand, and how many attended."
+  },
+  {
+    "gap_id": "montenegro_2021-02_G006",
+    "type": "coverage_and_language",
+    "description": "Searches included English, Montenegrin/Serbian Latin and Cyrillic, weekly periods, multiple localities, and labour leads, but open-web indexing is uneven and not equivalent to LexisNexis or a full local archive. Most non-Tuzi notices remain search-only; no absence conclusion follows.",
+    "source_ids": [
+      "S001",
+      "S012",
+      "S022"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use available local newspaper and union archives or the official notice register if later authorized and accessible; preserve language and archive coverage limits."
+  },
+  {
+    "gap_id": "montenegro_2021-02_G007",
+    "type": "baseline",
+    "description": "Official Mass Mobilization baseline version, universe, inclusion manual, source-use conditions, and mapping remain pending coordinator verification; this dossier is a local research candidate set only.",
+    "source_ids": [],
+    "affected_candidates": [
+      "montenegro_2021-02_E001"
+    ],
+    "required_followup": "Coordinator verifies the authorized baseline and original coding procedure before any integration or official eligibility judgment."
+  }
+]

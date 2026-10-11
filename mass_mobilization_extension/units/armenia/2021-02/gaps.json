@@ -1,0 +1,266 @@
+[
+  {
+    "gap_id": "armenia_2021-02_G001",
+    "type": "baseline",
+    "description": "The official current baseline bytes, schema, territorial universe and usable event crosswalk are not verified for this unit. This remains a gate for official integration/export; it does not prevent provisional coordinator aggregation and review.",
+    "source_ids": [],
+    "affected_candidates": [
+      "armenia_2021-02_E001",
+      "armenia_2021-02_E002",
+      "armenia_2021-02_E003",
+      "armenia_2021-02_E004",
+      "armenia_2021-02_E005",
+      "armenia_2021-02_E006",
+      "armenia_2021-02_E007",
+      "armenia_2021-02_E008",
+      "armenia_2021-02_E009",
+      "armenia_2021-02_E010",
+      "armenia_2021-02_E011"
+    ],
+    "required_followup": "Obtain the authorized official baseline/version and reconcile its country universe, schema, event boundaries and duplicate links before official integration/export."
+  },
+  {
+    "gap_id": "armenia_2021-02_G002",
+    "type": "search_method_coverage",
+    "description": "The captured open-web first pass contains 57 search responses with 1,484 aligned headers and covers English, Armenian and Russian general/weekly, regional, sector, episode-detail and adjacent-month queries. Targeted Q042–Q049 searches examined January HSM regional-tour and missing-servicemen/conscript-parent leads into February and February camp/rally reports into March. A full audit of original web.search events corrected 40 partial/inaccurate saved response arrays, appended six previously uncaptured response arrays and preserved 11 already-exact records byte-for-byte, restoring 326 headers. The 46-item recovery manifest has SHA-256 065b3af630ac04d0f9df2f03647124f8097dc5ae5f8f23e82de8cde8e4509a8d and was checked against base search-log SHA-256 b12da112737f9660ee0267478141482c00a7bce64579cd0cf2aef1279f361fcd. Restored headers include potentially relevant leads on February12 attendance, February27 rallies, HSM regional meetings, and January–February missing-servicemen/conscript-parent activity; these remain discovery-only, not body evidence or new event coding. Search previews do not prove event occurrence, continuity or absence. This cannot reproduce LexisNexis or establish exhaustive coverage. Regional and sector coverage is thinner than Yerevan political reporting, and there was no independent Armenian/Russian-language review.",
+    "source_ids": [],
+    "affected_candidates": [
+      "armenia_2021-02_E001",
+      "armenia_2021-02_E002",
+      "armenia_2021-02_E003",
+      "armenia_2021-02_E004",
+      "armenia_2021-02_E005",
+      "armenia_2021-02_E006",
+      "armenia_2021-02_E007",
+      "armenia_2021-02_E008",
+      "armenia_2021-02_E009",
+      "armenia_2021-02_E010",
+      "armenia_2021-02_E011"
+    ],
+    "required_followup": "Review potentially relevant restored headers in ARMENIA-RECOVER-001 through ARMENIA-RECOVER-006, especially the February12/February27 crowd leads and HSM/family-action continuity leads. Treat headers as discovery only; before any body attempt, run a fresh exact-URL access check and manual review, then verify dates, attendance, event boundary and continuity without inferring facts from titles or snippets."
+  },
+  {
+    "gap_id": "armenia_2021-02_G003",
+    "type": "participants_threshold",
+    "description": "February11 missing-servicemen family action, February22 rally, February23 morning action and February25 camp lack event-specific turnout evidence. February23 detentions and the affected missing-servicemen population are not attendance. S043 confirms the February25–26 overnight/tent activity and PM-resignation demand but supplies no crowd count; the affected population, tents and search-only crowd language do not establish the >=50 threshold.",
+    "source_ids": [
+      "S012",
+      "S007",
+      "S031",
+      "S040",
+      "S043"
+    ],
+    "affected_candidates": [
+      "armenia_2021-02_E003",
+      "armenia_2021-02_E004",
+      "armenia_2021-02_E010",
+      "armenia_2021-02_E011"
+    ],
+    "required_followup": "Seek event-specific turnout estimates for each action; preserve the detentions, tents and affected populations separately from assembled participants."
+  },
+  {
+    "gap_id": "armenia_2021-02_G004",
+    "type": "political_rally_election_exclusion",
+    "description": "Multiple February opposition rallies are political actions, while the manual’s exclusion is tied to two or more parties demonstrating in support of positions associated with upcoming elections. Party composition, whether an action supported election-associated positions, and application of this narrower exclusion are not resolved by political affiliation alone.",
+    "source_ids": [
+      "S004",
+      "S015",
+      "S018",
+      "S036",
+      "S037"
+    ],
+    "affected_candidates": [
+      "armenia_2021-02_E001",
+      "armenia_2021-02_E002",
+      "armenia_2021-02_E005",
+      "armenia_2021-02_E006",
+      "armenia_2021-02_E007",
+      "armenia_2021-02_E008",
+      "armenia_2021-02_E009"
+    ],
+    "required_followup": "Review specific party composition and each rally’s actual demand against the codebook wording. Do not categorically exclude or include based only on pro/anti-government orientation."
+  },
+  {
+    "gap_id": "armenia_2021-02_G005",
+    "type": "contested_evidence_participants",
+    "description": "February25 attendance descriptions differ: Al Jazeera describes several thousand PM supporters and more than 20,000 opposition supporters; RFE/RL estimates 20,000 pro-PM supporters; Azatutyun says both crowds collectively numbered thousands without split counts. Counts have different scopes and no common count time; none are averaged.",
+    "source_ids": [
+      "S015",
+      "S018",
+      "S037"
+    ],
+    "affected_candidates": [
+      "armenia_2021-02_E006",
+      "armenia_2021-02_E007"
+    ],
+    "required_followup": "Seek count methodology, snapshot time and crowd-scope information, retaining each source’s estimate and attribution separately."
+  },
+  {
+    "gap_id": "armenia_2021-02_G006",
+    "type": "state_target_contested_evidence",
+    "description": "For the PM-support rally, the official transcript records Pashinyan’s attribution that the crowd insisted against early elections, but this is not an independently quoted audience demand. PM orders regarding the army and his demand that General Staff chief Gasparyan resign are not participant demands. The crowd’s political-party composition and relation to the election exclusion remain unknown.",
+    "source_ids": [
+      "S036",
+      "S037"
+    ],
+    "affected_candidates": [
+      "armenia_2021-02_E007"
+    ],
+    "required_followup": "Check contemporaneous audio/video or independent reporting for the audience’s own words and party composition; keep PM speech positions separate from crowd demands."
+  },
+  {
+    "gap_id": "armenia_2021-02_G007",
+    "type": "episode_unit_ownership_continuity",
+    "description": "February HSM actions occur within a reported postwar opposition campaign, but campaign context does not establish uninterrupted physical assembly or resolve prior-month owner. Targeted January regional-tour queries Q042/Q044 and restored ARMENIA-RECOVER-005 headers include potentially relevant Gyumri/Vanadzor/Ararat meeting leads, but do not settle whether January activity connects to February actions; titles remain discovery only. January missing-servicemen family candidates E001/E010 and conscript-parent candidates E003/E005 also have recurring February reports, but the February11 family gathering is not shown to be a continuous occupation. February20 restart language does not determine same physical episode.",
+    "source_ids": [
+      "S005",
+      "S031",
+      "S040",
+      "S047"
+    ],
+    "affected_candidates": [
+      "armenia_2021-02_E001",
+      "armenia_2021-02_E002",
+      "armenia_2021-02_E003",
+      "armenia_2021-02_E004",
+      "armenia_2021-02_E005",
+      "armenia_2021-02_E006",
+      "armenia_2021-02_E008",
+      "armenia_2021-02_E009",
+      "armenia_2021-01_E006",
+      "armenia_2021-01_E007",
+      "armenia_2021-01_E009",
+      "armenia_2021-02_E011",
+      "armenia_2021-01_E001",
+      "armenia_2021-01_E003",
+      "armenia_2021-01_E005",
+      "armenia_2021-01_E010"
+    ],
+    "required_followup": "Reconstruct the November–March movement and action chronology, checking organizer, physical occupation and each specific rally; follow restored ARMENIA-RECOVER-005/-006 leads only after source-specific review; do not infer owner transfer from recurring demands or organizer labels."
+  },
+  {
+    "gap_id": "armenia_2021-02_G008",
+    "type": "episode_unit_dates",
+    "description": "RFE/RL retrospectively dates HSM camp setup to February25, while Armenpress’s February26 report says demonstrators demanding the PM resign spent the night of February25–26 on Baghramyan Avenue and set up tents. RFE/RL’s March9 retrospective reports tents at the blocked street. These sources establish a reported overnight/tent action and its attributed demand, but not unbroken daily presence, exact physical ownership or end. Distinct February25–27 rallies may have occurred near or alongside the camp.",
+    "source_ids": [
+      "S020",
+      "S031",
+      "S043"
+    ],
+    "affected_candidates": [
+      "armenia_2021-02_E006",
+      "armenia_2021-02_E008",
+      "armenia_2021-02_E009",
+      "armenia_2021-02_E010",
+      "armenia_2021-02_C002"
+    ],
+    "required_followup": "Seek daily chronology, exact camp owner, onset count, closure and the relation of later rally crowds/occupants to the reported overnight/tent demonstrators; retain null end and separate records until resolved."
+  },
+  {
+    "gap_id": "armenia_2021-02_G009",
+    "type": "source_access",
+    "description": "27 source cards remain search-only. Technical retrieval problems include Panorama cache/DNS issues and timeout, Report.az/Kentron cache misses, UIC web-tool inaccessibility, and later Cache misses for S039, S041, S042, S044 and S047. These are not observed denials and no bypass was attempted. Other search-only sources, including S048, were not opened. Search headers/snippets are not body evidence.",
+    "source_ids": [
+      "S003",
+      "S011",
+      "S027",
+      "S033",
+      "S034",
+      "S039",
+      "S041",
+      "S042",
+      "S044",
+      "S047",
+      "S048"
+    ],
+    "affected_candidates": [
+      "armenia_2021-02_E002",
+      "armenia_2021-02_E003",
+      "armenia_2021-02_E010",
+      "armenia_2021-02_E011"
+    ],
+    "required_followup": "If a body follow-up is required, run a fresh exact-URL access check and manual review before an ordinary permitted retrieval; otherwise retain these access gaps."
+  },
+  {
+    "gap_id": "armenia_2021-02_G010",
+    "type": "source_independence",
+    "description": "Some reporting may share agency material or common event feeds: NY1’s Feb20 report is AP, RFE/RL’s Feb23 evening story credits AP, and the Feb27 RFE/RL-hosted article is AFP byline. Counts and repeated descriptions must not be treated as independent confirmation without tracing written origins.",
+    "source_ids": [
+      "S001",
+      "S009",
+      "S035",
+      "S037"
+    ],
+    "affected_candidates": [
+      "armenia_2021-02_E002",
+      "armenia_2021-02_E004",
+      "armenia_2021-02_E005",
+      "armenia_2021-02_E007",
+      "armenia_2021-02_E009"
+    ],
+    "required_followup": "Trace explicit article origins and agency credits; preserve source-specific evidence and avoid counting republication as independent confirmation."
+  },
+  {
+    "gap_id": "armenia_2021-02_G011",
+    "type": "state_response_violence",
+    "description": "Most state-response dimensions and protester violence remain unknown. February23 morning reporting documents detentions and a cordon, but an unattributed injury does not establish beating; February25 scuffles are between rival sides without attribution and do not establish violence against the state. Responses from nearby dates are not transferred.",
+    "source_ids": [
+      "S007",
+      "S018",
+      "S040",
+      "S047"
+    ],
+    "affected_candidates": [
+      "armenia_2021-02_E001",
+      "armenia_2021-02_E002",
+      "armenia_2021-02_E003",
+      "armenia_2021-02_E004",
+      "armenia_2021-02_E005",
+      "armenia_2021-02_E006",
+      "armenia_2021-02_E007",
+      "armenia_2021-02_E008",
+      "armenia_2021-02_E009",
+      "armenia_2021-02_E010",
+      "armenia_2021-02_E011"
+    ],
+    "required_followup": "Find event-specific reporting for each response field and violence attribution; keep unknown until directly supported for the candidate action."
+  },
+  {
+    "gap_id": "armenia_2021-02_G012",
+    "type": "dates_scope",
+    "description": "Several precise clock references have distinct meanings: February12 UIC count at15:37; February20 UIC count at15:40 and separate roof estimate; February22 Armenpress article publication line at20:40 is not the rally’s physical end time although its dated headline/body supports a day-level ending; February23 march starts18:20 and UIC snapshot at18:28; February25 PM crowd call at4 p.m. is not the RFE/RL crowd estimate time; February27 publication times are not count times.",
+    "source_ids": [
+      "S025",
+      "S026",
+      "S032",
+      "S035",
+      "S037",
+      "S012"
+    ],
+    "affected_candidates": [
+      "armenia_2021-02_E001",
+      "armenia_2021-02_E002",
+      "armenia_2021-02_E005",
+      "armenia_2021-02_E007",
+      "armenia_2021-02_E009",
+      "armenia_2021-02_E003"
+    ],
+    "required_followup": "Retain the precise reported count/call/publication time and time zone/scope where available; do not infer attendance time from a caption or article publication clock."
+  },
+  {
+    "gap_id": "armenia_2021-02_G013",
+    "type": "episode_unit_ownership_continuity",
+    "description": "Verelq body evidence describes a February11 missing-servicemen family road blockage and an earlier Government-building action; the relationship between these locations/actions is unclear and attendance is unknown. Targeted English, Armenian and Russian searches plus restored ARMENIA-RECOVER-006 headers include January family-action and February recurrence leads, but these search results remain discovery only and do not establish one uninterrupted physical assembly or resolve whether January family-event ownership carries to this separate February action. The related 40 servicemen are an affected population, not turnout.",
+    "source_ids": [
+      "S040",
+      "S039",
+      "S047"
+    ],
+    "affected_candidates": [
+      "armenia_2021-01_E001",
+      "armenia_2021-01_E010",
+      "armenia_2021-02_E011"
+    ],
+    "required_followup": "Find event-specific attendance and a clear direct state demand; reconstruct the February11 sequence and physical end; review restored ARMENIA-RECOVER-006 URLs as discovery leads only and compare January and February family actions without inferring ownership or continuity from shared actors/grievances. Keep pending_threshold and preserve the separate candidate until reviewed."
+  }
+]

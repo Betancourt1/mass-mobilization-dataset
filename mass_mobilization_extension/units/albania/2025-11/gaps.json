@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "search_capture_provenance",
+    "description": "Citizens S001 was opened after a fresh receipt/manual review, but its full response was not saved because private_reading/body was absent. Only transient rendered lines 42–56 were exposed. Raw response hash/bytes are unknown; no retry or reconstruction. The limited excerpt is not used as event evidence.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve the loss and do not request the same page to replace it; use a distinct permitted source only if an event-specific verification need remains."
+  },
+  {
+    "gap_id": "G002",
+    "type": "participants",
+    "description": "Search results for a Nov. 24 Tirana opposition gathering included a Reuters Connect image caption attributed to Anadolu and saying “hundreds”; it remains search_only, is not source-body evidence and has not been coded.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If pursued, seek a permitted original report with exact event/date/attendance and verify its provenance; do not infer from the image caption."
+  },
+  {
+    "gap_id": "G003",
+    "type": "cross_month_continuity",
+    "description": "A lost transient excerpt from Citizens S001 suggested a Spaç strike remained active into November and referred to a Nov. 7 meeting, but the raw response is unavailable and this passage is not used as evidence. It does not establish a dated public assembly in November.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek a separately captured independent report for any November gathering and the strike’s actual continuity/end."
+  },
+  {
+    "gap_id": "G004",
+    "type": "date_and_event_verification",
+    "description": "Queries targeted opposition events around Nov. 17 and 24 and date windows Nov. 1–10, 11–20, and 21–30, plus labor, students, pensions and regional news. Search-only results were noisy; no preserved source body establishes a November gathering with verified occurrence, location, threshold and demands.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue only on concrete leads with fresh exact-target access review; no absence claim is made."
+  },
+  {
+    "gap_id": "G005",
+    "type": "search_capture_provenance",
+    "description": "Six pooled invocations yielded 175 visible rendered headers. Q005–Q006 returned full responses and exact local call boundaries; earlier search calls have no separately preserved local interval. Native provider timestamps/headers are unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep all search outputs as invocation-level traces, not per-query partitions."
+  },
+  {
+    "gap_id": "G006",
+    "type": "archive_access",
+    "description": "No LexisNexis or systematic local archive search was available. Coverage includes Albanian and English queries, national/regional outlets, worker/student/pension topics, and week-window checks, but is not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If a later concrete lead is found, verify it using a permitted source and retain archive limitations."
+  }
+]

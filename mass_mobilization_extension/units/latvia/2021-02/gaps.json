@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "latvia_2021-02_G001",
+    "type": "publicness_threshold_event_unit",
+    "description": "The LKKA annual meeting is retained as a pending lead because LSM announced it for Feb. 22 and a search-only LETA/TV3 result later says it occurred and most members supported a conditional Pavļuts resignation demand. The opened LSM article does not establish meeting attendance, venue, mode, public access, result or a protest action. The reported 9,000 registered providers are not meeting participants.",
+    "source_ids": [
+      "LV202102-S012",
+      "LV202102-S013"
+    ],
+    "affected_candidates": [
+      "latvia_2021-02_E001"
+    ],
+    "required_followup": "If a review continues, seek an accessible contemporaneous account establishing the meeting’s venue/mode, public status, attendance, and whether a separate public action occurred. Keep the candidate pending until evidence addresses gathering status and the 50-person threshold."
+  },
+  {
+    "gap_id": "latvia_2021-02_G002",
+    "type": "dispersed_activity_onset",
+    "description": "AFP describes haircuts in forests and on frozen lakes as protest, including one client at a time, but no collective gathering, attendance or activity start is established. Other captured reports describe individual haircut or advocacy actions.",
+    "source_ids": [
+      "LV202102-S002",
+      "LV202102-S003",
+      "LV202102-S004",
+      "LV202102-S005",
+      "LV202102-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek a contemporaneous account of any coordinated public gathering, its actual start date, location and concurrent attendance; do not infer a single event from dispersed services."
+  },
+  {
+    "gap_id": "latvia_2021-02_G003",
+    "type": "source_retrieval",
+    "description": "Body retrieval did not succeed for three potentially relevant sources. S003 web.open returned Cache miss and one exact-URL curl failed DNS; S009 web.open returned Cache miss and one exact-URL curl failed DNS; S013 web.open returned UnexpectedStatusCode without exposing an HTTP code/body and a separately gated curl failed DNS (HTTP 000). These are technical failures, not observed denials.",
+    "source_ids": [
+      "LV202102-S003",
+      "LV202102-S009",
+      "LV202102-S013"
+    ],
+    "affected_candidates": [
+      "latvia_2021-02_E001"
+    ],
+    "required_followup": "Leave sources search_only. Do not retry or use another URL without a new exact-URL receipt, full manual publisher/origin note, and immediate corpus-hash check."
+  },
+  {
+    "gap_id": "latvia_2021-02_G004",
+    "type": "search_coverage",
+    "description": "This bounded open-web pass logged 12 actual batched search actions and 284 ordered result headers, using English and Latvian general, weekly, geographic and sector-specific queries. It did not provide systematic access to LexisNexis, complete local/regional archives, or every municipal/event notice. No qualifying event is established by this corpus; that is not evidence that none occurred.",
+    "source_ids": [],
+    "affected_candidates": [
+      "latvia_2021-02_E001"
+    ],
+    "required_followup": "A reviewer may extend local and regional archive searches if warranted; do not report the first-pass search as exhaustive."
+  },
+  {
+    "gap_id": "latvia_2021-02_G005",
+    "type": "baseline_review",
+    "description": "The unit remains provisional and has not passed the official baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review against the applicable official baseline and project procedures before any integration or approval."
+  }
+]

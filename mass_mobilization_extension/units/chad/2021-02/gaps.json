@@ -1,0 +1,222 @@
+[
+  {
+    "gap_id": "chad_2021-02_G001",
+    "type": "baseline",
+    "description": "Official baseline bytes/schema and original event IDs have not been verified; ccode 483 remains provisional.",
+    "source_ids": [],
+    "affected_candidates": [
+      "chad_2021-02_E001",
+      "chad_2021-02_E002",
+      "chad_2021-02_E003",
+      "chad_2021-02_E004",
+      "chad_2021-02_E005"
+    ],
+    "required_followup": "Coordinator checks the official baseline before compatibility or export; do not infer official acceptance from this provisional dossier."
+  },
+  {
+    "gap_id": "chad_2021-02_G002",
+    "type": "attendance",
+    "description": "Feb 6 N’Djamena report gives one group of 31+ and additional unquantified district groups; the site/event aggregate remains below or above the 50 threshold unknown.",
+    "source_ids": [
+      "CHAD202102-S003",
+      "CHAD202102-S005",
+      "CHAD202102-S010"
+    ],
+    "affected_candidates": [
+      "chad_2021-02_E001"
+    ],
+    "required_followup": "Find attendance evidence for each site and apply the original event/site boundary rule; do not sum districts without evidence."
+  },
+  {
+    "gap_id": "chad_2021-02_G003",
+    "type": "attendance",
+    "description": "Feb 6 Doba attendance is not reported; about twenty arrests cannot stand in for the crowd size.",
+    "source_ids": [
+      "CHAD202102-S005"
+    ],
+    "affected_candidates": [
+      "chad_2021-02_E002"
+    ],
+    "required_followup": "Seek a contemporaneous attendance estimate for the Doba gathering."
+  },
+  {
+    "gap_id": "chad_2021-02_G004",
+    "type": "event_boundary",
+    "description": "Moundou has a report of approximately thirty protest-rights convictions in the Feb 6 chronology, but the opened passages do not describe an underlying assembly or fix its date.",
+    "source_ids": [
+      "CHAD202102-S003",
+      "CHAD202102-S010"
+    ],
+    "affected_candidates": [
+      "chad_2021-02_E003"
+    ],
+    "required_followup": "Verify whether a public assembly occurred in Moundou, its date/site, and its relationship to the Feb 6 call."
+  },
+  {
+    "gap_id": "chad_2021-02_G005",
+    "type": "attendance",
+    "description": "Feb 13 N’Djamena march has no turnout estimate in the opened retrospective account; several neighborhoods do not prove an aggregate of at least 50.",
+    "source_ids": [
+      "CHAD202102-S010",
+      "CHAD202102-S029",
+      "CHAD202102-S011"
+    ],
+    "affected_candidates": [
+      "chad_2021-02_E004"
+    ],
+    "required_followup": "Find an eligible direct account with event/site attendance and preserve RFI-copy lineage."
+  },
+  {
+    "gap_id": "chad_2021-02_G006",
+    "type": "attendance",
+    "description": "Feb 15 MNCT march has no turnout estimate; thirty arrests and beatings of dozens are not turnout. The direct HRW source cited by TLP is covered by an explicit publisher-wide hold.",
+    "source_ids": [
+      "CHAD202102-S010",
+      "CHAD202102-S030"
+    ],
+    "affected_candidates": [
+      "chad_2021-02_E005"
+    ],
+    "required_followup": "Seek an eligible source independent of the held HRW body for attendance and event details; do not request copies or alternate HRW URLs."
+  },
+  {
+    "gap_id": "chad_2021-02_G007",
+    "type": "announced_action",
+    "description": "The Feb 15 sit-in announcement names the French embassy and companies, but this first pass found no report of execution.",
+    "source_ids": [
+      "CHAD202102-S013",
+      "CHAD202102-S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep announcement and occurrence distinct; only reinstate as a candidate if a source reports an actual gathering."
+  },
+  {
+    "gap_id": "chad_2021-02_G008",
+    "type": "state_response",
+    "description": "For all candidates, unreported accommodation, deliberate ignoring, shootings and killings remain unknown; the report does not establish a precise physical end for any rally.",
+    "source_ids": [
+      "CHAD202102-S003",
+      "CHAD202102-S005",
+      "CHAD202102-S010"
+    ],
+    "affected_candidates": [
+      "chad_2021-02_E001",
+      "chad_2021-02_E002",
+      "chad_2021-02_E003",
+      "chad_2021-02_E004",
+      "chad_2021-02_E005"
+    ],
+    "required_followup": "Only replace unknowns with event-specific evidence; do not infer absent response or physical closure from publication dates, arrest counts or campaign continuation."
+  },
+  {
+    "gap_id": "chad_2021-02_G009",
+    "type": "month_boundary",
+    "description": "The general public-sector strike began in January and union suspension is reported on Feb 6; residual school absences mean formal suspension may not mark the physical end.",
+    "source_ids": [
+      "CHAD202102-S025",
+      "CHAD202102-S026",
+      "CHAD202102-S027",
+      "CHAD202102-S028"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Compare the continuation with Chad January and distinguish Jan-start labor action, Feb suspension, and any separate public assembly."
+  },
+  {
+    "gap_id": "chad_2021-02_G010",
+    "type": "regional_coverage",
+    "description": "French regional searches covered Moundou, Doba, Sarh and Abéché. This pass has direct reported material for N’Djamena and Doba plus an ambiguous Moundou lead; Sarh and Abéché coverage is unresolved. No absence is inferred.",
+    "source_ids": [
+      "CHAD202102-S005",
+      "CHAD202102-S010"
+    ],
+    "affected_candidates": [
+      "chad_2021-02_E002",
+      "chad_2021-02_E003",
+      "chad_2021-02_E004"
+    ],
+    "required_followup": "Look for local coverage and site-level attendance in provinces, including Sarh and Abéché, if a permitted source is found."
+  },
+  {
+    "gap_id": "chad_2021-02_G011",
+    "type": "sector_coverage",
+    "description": "Teacher, student, health-worker and public-worker searches found the January-start strike continuation but no independently established February sector assembly. Out-of-month hits appeared in search results.",
+    "source_ids": [
+      "CHAD202102-S025",
+      "CHAD202102-S026",
+      "CHAD202102-S027",
+      "CHAD202102-S028"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review sector-specific February sources if available; do not turn strikes, absenteeism or search hits from other years into public assemblies."
+  },
+  {
+    "gap_id": "chad_2021-02_G012",
+    "type": "language_coverage",
+    "description": "Searches used French and Arabic, including Arabic for protests and labor. No speaker-reviewed Chadian Arabic transliteration or minority-language source coverage (for example Sara or Kanembu) was established.",
+    "source_ids": [
+      "CHAD202102-S019",
+      "CHAD202102-S025"
+    ],
+    "affected_candidates": [
+      "chad_2021-02_E001",
+      "chad_2021-02_E002",
+      "chad_2021-02_E003",
+      "chad_2021-02_E004",
+      "chad_2021-02_E005"
+    ],
+    "required_followup": "If local-language sources become available, use a qualified reader and preserve original text/provenance; absence from French/Arabic open web is not absence of action."
+  },
+  {
+    "gap_id": "chad_2021-02_G013",
+    "type": "source_lineage",
+    "description": "The retrospective TLP report cites Amnesty for Feb 6, RFI for Feb 13 and HRW for Feb 15. Mosaïque’s Feb 13 result reproduces RFI; HRW direct and copies remain held. These are not independent source counts.",
+    "source_ids": [
+      "CHAD202102-S003",
+      "CHAD202102-S010",
+      "CHAD202102-S011",
+      "CHAD202102-S029",
+      "CHAD202102-S030"
+    ],
+    "affected_candidates": [
+      "chad_2021-02_E001",
+      "chad_2021-02_E004",
+      "chad_2021-02_E005"
+    ],
+    "required_followup": "Retain source-level lineage and do not count a cited report and its reprint as independent corroboration."
+  },
+  {
+    "gap_id": "chad_2021-02_G014",
+    "type": "access",
+    "description": "Source access limits affected review: Le Pays and Ialtchad exact opens returned cache misses; TV5 exact URL returned 403; HRW has an explicit publisher-wide hold; the exact BeInChad URL has a prior 406. Only saved receipts/manual reviews authorize no body access, and no retry/copy was made.",
+    "source_ids": [
+      "CHAD202102-S006",
+      "CHAD202102-S007",
+      "CHAD202102-S008",
+      "CHAD202102-S009",
+      "CHAD202102-S025",
+      "CHAD202102-S030"
+    ],
+    "affected_candidates": [
+      "chad_2021-02_E003",
+      "chad_2021-02_E004",
+      "chad_2021-02_E005"
+    ],
+    "required_followup": "Preserve denials/holds, and pursue only genuinely distinct permitted sources after a fresh exact-URL receipt and full publisher/origin review."
+  },
+  {
+    "gap_id": "chad_2021-02_G015",
+    "type": "campaign_boundary",
+    "description": "The opposition campaign continues beyond February, but later marches are separate dates and the physical end of February actions is not established. No March action is assigned to this month.",
+    "source_ids": [
+      "CHAD202102-S010"
+    ],
+    "affected_candidates": [
+      "chad_2021-02_E001",
+      "chad_2021-02_E002",
+      "chad_2021-02_E003",
+      "chad_2021-02_E004",
+      "chad_2021-02_E005"
+    ],
+    "required_followup": "Review March in its own month and compare campaign continuity without extending February event end dates."
+  }
+]

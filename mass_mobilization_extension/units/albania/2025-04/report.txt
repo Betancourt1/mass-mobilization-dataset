@@ -1,0 +1,26 @@
+Albania — 2025-04 open-web research dossier
+Unit status: researched_open_web_pending_review; no official approval or baseline completion is claimed.
+
+Methods and coverage
+Recorded 7 actual search invocations and 177 visible result headers. Queries cover English and Albanian general protest terms, week/month windows, local/regional outlets, labor, agriculture/mining, students, environmental/civic concerns, candidate-specific dates, and retrospective/event-boundary checks. Each pooled response is logged once; results were not partitioned among constituent queries. Search results are discovery leads only.
+Exact search inputs and full returned rendered responses are retained in private_reading; hashes and header extraction limits are documented per invocation. The tool did not expose native event timestamps or complete native metadata in all calls, which remains unknown. The effective Luna/high runtime cannot be verified. This open-web process is not equivalent to LexisNexis or a complete newspaper archive.
+
+Opened-source inventory
+Opened source cards: 3; current-unit body reads: 3; prior-unit-only consultations: 0; search-only leads: 5; blocked exact targets: 0. Body reads and captured content scopes remain summarized in source cards. Temporary full page-body response files were removed after their hashes, byte/character counts, read scopes and brief paraphrases were recorded in ../2025-04/private_reading/body_capture_cleanup_Q2_2026-10-11.json; full rendered search captures remain private.
+
+Candidates and exclusions
+- ALB202504-E001: Animal-protection march in Tirana (proposed_include); source IDs S001, S005, S008.
+No exclusion candidate recorded.
+
+Continuity and gaps
+- G001: CIVICUS S001 gives 26 April. The Animal Reader S008 is dated 27 April but does not explicitly date the event. RTSH S005 is dated 28 April and says it happened “yesterday” (27 April). The accounts may refer to the same march but disagree by one day.
+- G002: CIVICUS and The Animal Reader describe hundreds and RTSH says a large number, but no numeric attendance estimate or bounds were found. CIVICUS links to The Animal Reader, so those two accounts are related.
+- G003: An OSAC notice and TRT World social post are search-only leads for a planned/held 17 April Tirana opposition demonstration; execution, crowd size, demand, target and relation between the notices remain unverified. The pass also included English/Albanian generic, weekly, sector, regional, animal-rights, candidate-specific and retrospective searches, but open-web discovery is not equivalent to a newspaper archive.
+
+Access and evidence limitations
+Other holds for AP exact targets/copies and the Ora/Dosja publisher scope remain in force; no held source was requested in this unit. Technical/native metadata not exposed by the web tool remains unknown.
+
+Observed timing
+Historical search/read/wait/rework intervals are unknown where not captured. June records outer functions.exec query+capture intervals (Q008 3.7s, Q009 3.7s, Q010 4.6s, Q011 4.3s) and body-request+capture interval (S001 0.9s); these include orchestration and saving, not pure provider latency. Its observed closure window was 00:00:52–00:03:17 UTC (145s) and includes review, writing, validation and communication. April/May historical intervals remain unknown. No speed or acceleration comparison is asserted.
+
+Review state: pending coordinator review; unresolved gaps: 3. No Mass Mobilization official IDs or approvals assigned.

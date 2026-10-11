@@ -1,0 +1,149 @@
+[
+  {
+    "candidate_id": "angola_2025-04_E001",
+    "country": "Angola",
+    "ccode": "540",
+    "unit_month": "2025-04",
+    "title": "MEA student gathering and march for public-school improvements and student rights",
+    "start_date": "2025-04-26",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Luanda, Angola; the reported planned concentration was at Largo do Mercado de São Paulo and intended destination was the Provincial Government; the completed route and end are unverified.",
+    "scope": "local",
+    "organizer": "Movimento dos Estudantes de Angola (MEA)",
+    "demands": [],
+    "participants_original": "Jornal Folha 8 reports “more than 50” MEA members gathering to protest public-school conditions and journalists’ detention. Primeiro Impacto separately reports 150 students detained during the demonstration context; detention count is not turnout.",
+    "participants_min": 51,
+    "participants_max": null,
+    "threshold_50_evidence": "Folha 8’s opened 27 April article states more than 50 MEA members were concentrating/gathering to protest poor conditions in public schools. This is an explicit attributed report above the cutoff, not an exact upper bound. It is a single report; the separate 150-detention figure in Primeiro Impacto is not used as attendance. Human review should assess reliability and any independence evidence.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "yes",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S002",
+      "S011",
+      "S015"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "S011"
+        ],
+        "summary": "Folha 8 describes MEA members gathering to protest conditions in public schools and journalists’ detention."
+      },
+      "start_date": {
+        "source_ids": [
+          "S002",
+          "S011",
+          "S015"
+        ],
+        "summary": "S002 body is dated April 26 and says the action occurred Saturday 26; S011 identifies Saturday 26 April; RTP S015 on April 24 announces the coming Saturday march. S015 is notice only."
+      },
+      "end_date": {
+        "source_ids": [
+          "S011",
+          "S015"
+        ],
+        "summary": "No body verifies the physical end. RTP describes a planned destination; Folha 8 describes the planned route but not its completion."
+      },
+      "location": {
+        "source_ids": [
+          "S011",
+          "S015"
+        ],
+        "summary": "Luanda is identified. São Paulo Market is the announced planned concentration and the Provincial Government the planned destination; the actual completed route is not verified."
+      },
+      "scope": {
+        "source_ids": [
+          "S002",
+          "S011",
+          "S015"
+        ],
+        "summary": "Sources describe a student action in Luanda; no evidence of a national multi-site organized event."
+      },
+      "organizer": {
+        "source_ids": [
+          "S002",
+          "S011",
+          "S015"
+        ],
+        "summary": "MEA is identified as convener/organizer; RTP advance notice names coordinator Francisco Teixeira."
+      },
+      "demands": {
+        "source_ids": [
+          "S002",
+          "S011",
+          "S015"
+        ],
+        "summary": "Sources report better academic/public-school conditions, student rights and criticism of government education provision; no supplied category specifically represents education demands, so no category is forced."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S002",
+          "S011"
+        ],
+        "summary": "Keep the claims distinct: Folha 8 reports >50 members gathering; Primeiro Impacto reports 150 student detentions in the demonstration context. The latter is not a crowd estimate."
+      },
+      "participants_min": {
+        "source_ids": [
+          "S011"
+        ],
+        "summary": "The outlet says “more than 50” MEA members gathered, supporting a reported lower bound of 51; no maximum reported."
+      },
+      "participants_max": {
+        "source_ids": [
+          "S011"
+        ],
+        "summary": "No upper bound reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S011"
+        ],
+        "summary": "Opened report explicitly says more than 50 MEA members were gathering. This crosses the cutoff as attributed; corroborating independence remains unresolved."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S002",
+          "S011"
+        ],
+        "summary": "These accounts allege police violence and do not describe participant violence; no explicit account sufficient to code participant violence either way."
+      },
+      "state_response": {
+        "source_ids": [
+          "S002",
+          "S011"
+        ],
+        "summary": "Both report detentions; each reports alleged police assaults/beatings. The 150 and >50 figures are different measures and not combined. Physical dispersal, official police account, shootings and event-linked killings are unknown."
+      },
+      "eligibility": {
+        "source_ids": [
+          "S002",
+          "S011",
+          "S015"
+        ],
+        "summary": "Opened contemporaneous reporting describes an executed public MEA gathering in Luanda and an attributed >50 threshold claim, with criticism/demands related to Angolan public education. Candidate remains subject to human review; source independence, route completion and precise state-target framing remain open."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "angola_mea_student_gathering_luanda_2025-04-26",
+    "notes": "The event is treated as one locally reported MEA action, not one event per article or each detention. Folha 8 reports >50 MEA members gathering and includes a bylined journalist who was reportedly among detainees. Primeiro Impacto attributes a separate detention figure to an MEA spokesperson; do not convert that figure to turnout. RTP is a pre-event announcement only. No explicit written-origin link between S002 and S011 was found; their different publishers do not establish independent corroboration. No body facts from held DW, Radio Angola, Club-K, Ver Angola or Facebook results were used. Not an official MM record.",
+    "open_questions": [
+      "Can an independently sourced contemporaneous account verify more than 50 people physically assembled?",
+      "Did participants complete the march to the Provincial Government, or was the event largely prevented during assembly?",
+      "What was the physical end time and did any related public action continue after April 26?",
+      "Can source origins/independence between S002 and S011 be established beyond separate publishers?",
+      "What is the exact police account, number of persons detained, injury detail, dispersal action and disposition of detained participants?",
+      "How should the education-policy demand map where the supplied category list has no education-specific category?"
+    ]
+  }
+]

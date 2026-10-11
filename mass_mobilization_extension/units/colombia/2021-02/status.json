@@ -1,0 +1,17 @@
+{
+  "unit_id": "colombia_2021-02",
+  "country": "Colombia",
+  "month": "2021-02",
+  "agent_task": "01a12482-95da-7343-a7b9-ee3f7d2b6721",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T06:31:55.570369+00:00",
+  "finished_at": "2026-10-10T07:31:29+00:00",
+  "n_queries": 26,
+  "n_sources": 43,
+  "n_candidates": 4,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 8,
+  "coverage_assessment": "Bounded open-web first pass: 26 actual search-tool invocations logged, comprising 25 native web.run searches and one distinct Search Service invocation (Q024). The native extractor captured 25 events/504 ordered headers, all compared field-for-field with the saved native rows. Searches included all four weekly windows, Spanish and English terms, regional/city and sector queries, and retrospective/official leads. Four source cards contain opened body evidence (one partial retrospective); 39 remain search-only. One candidate meets the proposed attendance threshold; one body-confirmed candidate remains pending threshold; two search-only leads remain pending evidence. Search coverage is not exhaustive and is not equivalent to LexisNexis or complete local-newspaper archives. See report and gaps. Discovery metadata correction: only CO2102-S043.url was corrected to match preserved CO2102-Q014 order 9 / turn613search5 after preserving the full pre-correction sources.jsonl (SHA-256 7577d60c052f01319fe6219036bd8abbedc56d3c8e18a11dcb7baf825702de41); no query or retrieval was repeated. The raw E002 worker coding remains preserved; a coordinator effective overlay is required to quarantine all S007 body-derived facts and set accommodation unknown, retaining only S005-supported facts. Independent review remains pending.",
+  "baseline_gate": "pending_official_baseline"
+}

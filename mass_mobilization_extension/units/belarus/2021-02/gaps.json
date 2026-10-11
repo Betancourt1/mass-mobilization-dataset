@@ -1,0 +1,209 @@
+[
+  {
+    "gap_id": "belarus_2021-02-G001",
+    "type": "search_method_coverage",
+    "description": "Coverage is a sampled open-web pass, not an exhaustive archive search. The log contains 25 capture rows and 519 headers; 13 resumed rows were restored from their saved original response events (two headers recovered, no search reruns). the final Q025 row preserves one four-query batch. Russian, Belarusian and English searches span February week windows and include regional/sector terms, but many results are historical, duplicated, or broad; search silence does not establish no events.",
+    "source_ids": [
+      "S001",
+      "S010",
+      "S016",
+      "S017",
+      "S019",
+      "S020",
+      "S022",
+      "S023"
+    ],
+    "affected_candidates": [
+      "belarus_2021-02-E001",
+      "belarus_2021-02-E002",
+      "belarus_2021-02-E003",
+      "belarus_2021-02-E004",
+      "belarus_2021-02-E005",
+      "belarus_2021-02-E006",
+      "belarus_2021-02-E007",
+      "belarus_2021-02-E008",
+      "belarus_2021-02-E009",
+      "belarus_2021-02-E010"
+    ],
+    "required_followup": "Continue date-specific review of contemporary local archives for February 1–28 and inspect promising results only after fresh scoped access review."
+  },
+  {
+    "gap_id": "belarus_2021-02-G002",
+    "type": "language_region_sector_coverage",
+    "description": "Belarusian, Russian and English were searched. Results identify some Minsk neighborhoods and towns in Brest, Vitebsk, Grodno, Mogilev and other areas, but the current evidence remains Minsk-heavy. Worker/strike, student, retiree, women/feminist and regional queries produced no body-verified February strike or systematic sector/locality map; Q025 did not surface a new contemporary February episode beyond existing leads.",
+    "source_ids": [
+      "S001",
+      "S015",
+      "S017",
+      "S019",
+      "S023",
+      "S024",
+      "S025"
+    ],
+    "affected_candidates": [
+      "belarus_2021-02-E001",
+      "belarus_2021-02-E002",
+      "belarus_2021-02-E003",
+      "belarus_2021-02-E004",
+      "belarus_2021-02-E005",
+      "belarus_2021-02-E006",
+      "belarus_2021-02-E007",
+      "belarus_2021-02-E008",
+      "belarus_2021-02-E009",
+      "belarus_2021-02-E010"
+    ],
+    "required_followup": "Search local-language city and sector archives for Brest, Grodno, Gomel, Mogilev, Vitebsk, Minsk districts and satellite towns; distinguish labor statements, detentions and court cases from public assemblies."
+  },
+  {
+    "gap_id": "belarus_2021-02-G003",
+    "type": "participants_threshold",
+    "description": "No exact attendance is reported for S001 localities, the February 14 bundle or feminist dance, or the February 4 pensioner lead. The February 21 prayer-protest has one report of “several hundred.” Viasna/Current Time detention figures (68, 25, 19 and aggregate eight) are arrests, not attendance and not guaranteed bounds on the crowd.",
+    "source_ids": [
+      "S001",
+      "S015",
+      "S019",
+      "S021",
+      "S023",
+      "S025",
+      "S002",
+      "S026",
+      "S024"
+    ],
+    "affected_candidates": [
+      "belarus_2021-02-E001",
+      "belarus_2021-02-E002",
+      "belarus_2021-02-E003",
+      "belarus_2021-02-E004",
+      "belarus_2021-02-E005",
+      "belarus_2021-02-E006",
+      "belarus_2021-02-E007",
+      "belarus_2021-02-E008",
+      "belarus_2021-02-E009",
+      "belarus_2021-02-E010"
+    ],
+    "required_followup": "Find attributed simultaneous attendance counts for each distinct assembly; do not convert arrests, detainees, event counts, or campaign totals to participants."
+  },
+  {
+    "gap_id": "belarus_2021-02-G004",
+    "type": "episode_unit",
+    "description": "February 7 and 14 liveblogs aggregate geographically separate local actions. Shared date, slogans, campaign context and publisher roundups do not establish one nationally organized assembly. The February 21 chronology also names other localities not reviewed beyond headings. Bundle/local split, coordination, overlap and physical ends remain unresolved.",
+    "source_ids": [
+      "S001",
+      "S005",
+      "S006",
+      "S009",
+      "S013",
+      "S014",
+      "S015",
+      "S019",
+      "S023"
+    ],
+    "affected_candidates": [
+      "belarus_2021-02-E003",
+      "belarus_2021-02-E004",
+      "belarus_2021-02-E005",
+      "belarus_2021-02-E008"
+    ],
+    "required_followup": "Map venue-by-venue episodes and overlap from full text or primary reporting; make no automatic national merge and no end-date inference from publication date or month end."
+  },
+  {
+    "gap_id": "belarus_2021-02-G005",
+    "type": "cross_month_boundary",
+    "description": "January 31 does not establish continuity into February, and the August 2020 campaign is background rather than a continuous assembly. A search-only chronology mentions March 1 legal changes, but no February event is shown continuing across February 28/March 1. C002/C003 keep January 31–February 7 and February 28–March 1 only as comparison windows; physical episode start/end are unknown because no assembly is shown spanning either boundary. Candidate ownership across the month boundary remains unassigned where onset is unknown.",
+    "source_ids": [
+      "S001",
+      "S016",
+      "S017"
+    ],
+    "affected_candidates": [
+      "belarus_2021-02-E001",
+      "belarus_2021-02-E002",
+      "belarus_2021-02-E003",
+      "belarus_2021-02-E007",
+      "belarus_2021-02-E010"
+    ],
+    "required_followup": "Compare January dossier C004 and March reporting at event level; assign ownership by evidenced onset, not report date or continuing campaign."
+  },
+  {
+    "gap_id": "belarus_2021-02-G006",
+    "type": "access_protocol_deviation",
+    "description": "S015 sequence deviation by the actual Belarus worker thread 01a123f7-dce0-75c2-9d1a-172593923cc5: that worker edited S013 after receipt020 and before reading S015 lines 35–150. Receipt025 was obtained after the read and is follow-up evidence, not retroactive authorization. S015 was not reopened to repair paperwork; coordinator and independent auditor review are required.",
+    "source_ids": [
+      "S013",
+      "S015"
+    ],
+    "affected_candidates": [
+      "belarus_2021-02-E004",
+      "belarus_2021-02-E005"
+    ],
+    "required_followup": "Review the exact sequence and applicable receipt scope in coordinator/auditor review; preserve the partial read and uncertainty."
+  },
+  {
+    "gap_id": "belarus_2021-02-G007",
+    "type": "access_protocol_deviation",
+    "description": "S021 request deviation: receipt028 was manually reviewed before one exact-URL HTTPS GET. The default sandbox first failed DNS; the reviewed request returned HTTP 200 with no redirect, cookies or proxy. Literal request header was User-Agent: Mozilla/5.0 (compatible; MassMobilizationResearch/1.0). The metadata extractor read title, publication metadata and description only; the main article body was not read. This is disclosed as a request-method deviation; the header alone does not establish an access-control bypass. The request was not repeated.",
+    "source_ids": [
+      "S021"
+    ],
+    "affected_candidates": [
+      "belarus_2021-02-E007"
+    ],
+    "required_followup": "Independent coordinator/auditor review of the recorded request and scope; preserve metadata-only evidence and do not reopen the source to repair extraction."
+  },
+  {
+    "gap_id": "belarus_2021-02-G008",
+    "type": "source_access",
+    "description": "S002 Viasna returned actual HTTP 403 on its sole ordinary open; no article body was read and no retry/bypass occurred. S026 is a different same-publisher search-only infographic and not independent confirmation. S017 Belmarket also returned actual HTTP 403 after fresh receipt033 manual review; no article body was read, no retry occurred and its 17-byte text/plain error response was discarded without inspection. web.open Cache misses for S019, S020, S022 and S025 and sandbox DNS failures for S012/S013 are technical retrieval failures, not publisher denials. S001/S015/S023 were only partially read and their embedded media were not inspected.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S012",
+      "S013",
+      "S015",
+      "S017",
+      "S019",
+      "S020",
+      "S021",
+      "S022",
+      "S023",
+      "S025",
+      "S026"
+    ],
+    "affected_candidates": [
+      "belarus_2021-02-E001",
+      "belarus_2021-02-E003",
+      "belarus_2021-02-E004",
+      "belarus_2021-02-E005",
+      "belarus_2021-02-E006",
+      "belarus_2021-02-E007",
+      "belarus_2021-02-E008",
+      "belarus_2021-02-E009"
+    ],
+    "required_followup": "Retain source-specific access status and scopes; do not retry S002 or infer article facts from unseen body text. Use fresh exact-URL receipt and scoped review before any future raw-body request."
+  },
+  {
+    "gap_id": "belarus_2021-02-G009",
+    "type": "coding_unknowns",
+    "description": "Several coding fields remain discovery-only or unresolved. The dates retained in E001, E006, E009 and E010 derive only from search-result material and are not body-confirmed event dates. E006/E009 arrests=yes rely on Viasna search snippets (S002/S026); E007 arrests=yes relies only on S021 title/metadata, not article prose. These are reported detention leads, not attendance, and the arrest coding is unverified. E002 political_behavior_process demand coding rests only on the S024 search snippet. E008 occurrence and the “several hundred” estimate are supported in the partially read S023 body, but no explicit domestic demand appears in read scope. Exact demands, state target, public-assembly status, physical end and most response fields remain unknown; participant violence is unknown throughout.",
+    "source_ids": [
+      "S002",
+      "S018",
+      "S021",
+      "S023",
+      "S026"
+    ],
+    "affected_candidates": [
+      "belarus_2021-02-E001",
+      "belarus_2021-02-E002",
+      "belarus_2021-02-E003",
+      "belarus_2021-02-E004",
+      "belarus_2021-02-E005",
+      "belarus_2021-02-E006",
+      "belarus_2021-02-E007",
+      "belarus_2021-02-E008",
+      "belarus_2021-02-E009",
+      "belarus_2021-02-E010"
+    ],
+    "required_followup": "Coordinator review should apply effective unknown/empty overrides to discovery-only dates, arrest coding and E002 demand as appropriate; independently verify event date, policy target, explicit demands, assembly status and physical duration from source text before coding unsupported fields."
+  }
+]

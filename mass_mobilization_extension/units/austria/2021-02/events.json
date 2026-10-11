@@ -1,0 +1,706 @@
+[
+  {
+    "candidate_id": "austria_2021-02_E001",
+    "country": "Austria",
+    "ccode": 305,
+    "unit_month": "2021-02",
+    "title": "Vienna youth protest against deportations of schoolchildren",
+    "start_date": "2021-02-06",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Ring in central Vienna",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Police estimate around400 participants; report describes several hundred youths",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "ORF/APA article explicitly reports several hundred youths and a police estimate of around400, above50.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "AT-S020"
+    ],
+    "field_evidence": {
+      "occurrence_date_location": {
+        "source_ids": [
+          "AT-S020"
+        ],
+        "summary": "ORF/APA identifies the 6 February afternoon demonstration on the Ring in central Vienna."
+      },
+      "demands": {
+        "source_ids": [
+          "AT-S020"
+        ],
+        "summary": "Demonstrators opposed deportations of three schoolgirls and their families to Georgia and Armenia and called for children’s and young people’s welfare to be prioritized; coded as political behavior/process pending review."
+      },
+      "participants_original": {
+        "source_ids": [
+          "AT-S020"
+        ],
+        "summary": "Police estimated around400; ORF/APA describes several hundred youths."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "AT-S020"
+        ],
+        "summary": "Report explicitly characterizes the demonstration as peaceful."
+      },
+      "state_response": {
+        "source_ids": [
+          "AT-S020"
+        ],
+        "summary": "Article does not report the seven state-response categories; all remain unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "AT-S020"
+        ],
+        "summary": "The report was published during the afternoon and gives no physical ending time or date."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "austria_2021-02-06_1",
+    "notes": "Distinct issue and city from the same-day Saalach COVID-measures demonstration. Do not merge with other Vienna assemblies described only in aggregate. End and response detail remain unknown.",
+    "open_questions": [
+      "Physical end date/time not located in this report.",
+      "Independent follow-up evidence and final target/demand coding remain for coordinator review."
+    ]
+  },
+  {
+    "candidate_id": "austria_2021-02_E003",
+    "country": "Austria",
+    "ccode": 305,
+    "unit_month": "2021-02",
+    "title": "Vienna protest processions against COVID measures",
+    "start_date": "2021-02-13",
+    "start_precision": "day",
+    "end_date": "2021-02-13",
+    "end_precision": "day",
+    "location": "Maria-Theresien-Platz and Karlsplatz/Resselpark, followed by processions through central Vienna and the 5th district; later groups near Schönbrunner Straße",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Police estimate up to2,000; one report says over1,000 at Resselpark before linked assemblies/processions; do not add counts across stages or separately announced rallies.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "ORF and Kurier report police estimates of up to/about 2,000 for the connected Vienna demonstrations, clearly above 50. Both reports attribute turnout to police; different publishers alone do not establish independent confirmation. Separate rally notices and counts are not added.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "AT-S006",
+      "AT-S013"
+    ],
+    "field_evidence": {
+      "occurrence_date_location": {
+        "source_ids": [
+          "AT-S006",
+          "AT-S013"
+        ],
+        "summary": "Both sources date the COVID-measures demonstrations to Saturday13February in central Vienna. ORF describes Maria-Theresien-Platz participants joining the Karlsplatz/Resselpark event and later processions; Kurier confirms the Resselpark-to-Ring sequence."
+      },
+      "demands": {
+        "source_ids": [
+          "AT-S006",
+          "AT-S013"
+        ],
+        "summary": "Demonstrators opposed government COVID measures, specifically school-testing and mask rules in ORF’s account; coded as social restrictions."
+      },
+      "participants_original": {
+        "source_ids": [
+          "AT-S006",
+          "AT-S013"
+        ],
+        "summary": "ORF says up to 2,000 and Kurier reports a police estimate of 2,000. Preserve the police attribution and do not treat the two articles as independent attendance confirmation or add turnout across linked stages."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "AT-S006",
+          "AT-S013"
+        ],
+        "summary": "ORF reports two policewomen were punched and lightly injured during the demonstrations. Kurier confirms two officers were injured but does not identify individual attackers; preserve attribution limitation."
+      },
+      "state_response": {
+        "source_ids": [
+          "AT-S006",
+          "AT-S013"
+        ],
+        "summary": "Arrests are reported, but source-specific counts differ: ORF’s lead says four while its detailed breakdown states four criminal plus one administrative; Kurier reports four for attempted resistance. Both describe police actions and cite official accounts; do not infer an exact common total or crowd breakup."
+      },
+      "end_date": {
+        "source_ids": [
+          "AT-S006",
+          "AT-S013"
+        ],
+        "summary": "ORF reports the processions ended in the evening; Kurier says protest trains were still underway into the late evening. Physical end date is13February; exact time not established."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "austria_2021-02-13_1",
+    "notes": "Treat only the linked Maria-Theresien-Platz / Karlsplatz-Resselpark gathering and ensuing processions as this connected episode. ORF and Kurier are separate articles, but police-derived turnout/arrest accounts are not treated as independent confirmation. Other prohibited or separately announced events are not assumed to have occurred or crossed 50. Do not merge with other February weekends solely by shared COVID-policy campaign.",
+    "open_questions": [
+      "Resolve arrest count discrepancy (ORF detailed five versus lead and Kurier four).",
+      "Exact physical end time and whether police stops constituted crowd dispersal remain uncertain.",
+      "Do not infer that each separate rally notice represents a distinct qualifying event."
+    ]
+  },
+  {
+    "candidate_id": "austria_2021-02_E002",
+    "country": "Austria",
+    "ccode": 305,
+    "unit_month": "2021-02",
+    "title": "Saalach border protest against COVID restrictions and closures",
+    "start_date": "2021-02-06",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Saalachbrücke / Austrian bank in Salzburg, across from Freilassing, Bavaria",
+    "scope": "local",
+    "organizer": "Merlin Eilers reported as a co-organizer; other organizers not specified",
+    "demands": [
+      "social_restrictions",
+      "political_behavior_process"
+    ],
+    "participants_original": "Austrian/Salzburg side: police initially estimated 400, later about 600 (ORF); Salzburger Nachrichten estimates 400–500. Bavarian police separately estimated 1,500 on the Freilassing side; excluded from Austria count.",
+    "participants_min": 400,
+    "participants_max": 500,
+    "threshold_50_evidence": "Salzburger Nachrichten explicitly reports 400–500 on the Salzburg/Austrian bank, above 50. ORF separately reports an initial police count of 400 revised to about 600; preserve that source-specific difference in participants_original and do not combine it into bounds. The Bavarian side count is outside Austria.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "AT-S007",
+      "AT-S009"
+    ],
+    "field_evidence": {
+      "occurrence_date_location": {
+        "source_ids": [
+          "AT-S007",
+          "AT-S009"
+        ],
+        "summary": "ORF Salzburg and Salzburger Nachrichten date the border protest to6February on/at the Saalach bridge; the Austrian side was Salzburg and the separate German side was Freilassing."
+      },
+      "demands": {
+        "source_ids": [
+          "AT-S007",
+          "AT-S009"
+        ],
+        "summary": "The rally opposed COVID restrictions and border closures. Salzburger Nachrichten reports repeated calls for border reopening and resignation of the Austrian government; coded as social restrictions and political behavior/process."
+      },
+      "participants_original": {
+        "source_ids": [
+          "AT-S007",
+          "AT-S009"
+        ],
+        "summary": "Salzburger Nachrichten reports 400–500 on Salzburg bank; ORF reports police estimate first 400 then about 600. Bavarian police estimate of 1,500 concerns Freilassing and is excluded. The separately reported counts are preserved, not combined."
+      },
+      "organizer": {
+        "source_ids": [
+          "AT-S009"
+        ],
+        "summary": "Merlin Eilers was identified as a co-organizer; a complete organizer list is not reported."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "AT-S007",
+          "AT-S009"
+        ],
+        "summary": "Both reports describe the overall demonstration as peaceful/no clashes on Salzburg side. The isolated alcohol-related custody incident is not attributed to protest behavior."
+      },
+      "state_response": {
+        "source_ids": [
+          "AT-S007",
+          "AT-S009"
+        ],
+        "summary": "Authorities and organizers repeatedly announced distancing and mask rules, but the reports do not say the warnings intended to move or break up the assembly; crowd_dispersal remains unknown. One intoxicated person’s custody is not established as protest-related; other response dimensions remain unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "AT-S009"
+        ],
+        "summary": "Salzburger Nachrichten reports the assembly began to dissolve around 17:30, 50–100 people remained for the last speech, and the border reopened around 20:00. None establishes when all protesters physically left, so the end date remains unknown."
+      },
+      "participants_min": {
+        "source_ids": [
+          "AT-S009"
+        ],
+        "summary": "400 is the lower bound of Salzburger Nachrichten’s explicit 400–500 estimate for the Salzburg/Austrian side; ORF’s later approximate 600 remains a separate estimate."
+      },
+      "participants_max": {
+        "source_ids": [
+          "AT-S009"
+        ],
+        "summary": "500 is the upper bound of Salzburger Nachrichten’s explicit 400–500 estimate for the Salzburg/Austrian side; ORF’s later approximate 600 remains a separate estimate."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "austria_2021-02-06_2",
+    "notes": "Separate from the same-day Vienna anti-deportation protest due to different city and issue. Keep only the reported Austrian-bank attendance in Austria counts. Salzburger Nachrichten and ORF are separate reports, but independent turnout reporting lineage is not established; preserve estimates separately. Border closure across Austria and Germany makes target scope a review point.",
+    "open_questions": [
+      "The exact physical end and time all protesters left are not reported; dissolution beginning and border reopening do not establish completion.",
+      "Review cross-border target attribution and demand coding.",
+      "The German Freilassing count is not part of Austria turnout; common reliance on police estimates does not establish independent count confirmation.",
+      "The alcohol-related custody incident is not established as protest-related and is not coded as arrests=yes."
+    ]
+  },
+  {
+    "candidate_id": "austria_2021-02_E004",
+    "country": "Austria",
+    "ccode": 305,
+    "unit_month": "2021-02",
+    "title": "Egg anti-COVID-measures demonstration",
+    "start_date": "2021-02-13",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Egg, Bregenzerwald, Vorarlberg",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Police estimate about200 participants, as reported retrospectively by ORF Vorarlberg.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "ORF reports that about200 people took to the streets in Egg against COVID measures on the preceding Saturday (13February); this exceeds50.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "AT-S021"
+    ],
+    "field_evidence": {
+      "occurrence_date_location": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "ORF’s 14February report says about200 people demonstrated in Egg on the previous Saturday; the report identifies Egg in the Bregenzerwald."
+      },
+      "demands": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "The article describes the gathering as against COVID measures; detailed Egg-specific demands are not reported."
+      },
+      "participants_original": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "Police estimate was about200."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "The article gives no Egg-specific violence account; unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "The article gives no Egg-specific state response detail; all seven categories remain unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "Physical end date/time is not reported."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "austria_2021-02-13_egg",
+    "notes": "A distinct local Egg action on the day before the separate Bludenz demonstration. Do not merge it with Vienna’s 13 February processions or Bludenz solely because it shared the COVID-measures issue and a regional organizer network. Detailed demands and event-specific end/response information are not reported.",
+    "open_questions": [
+      "Exact physical end and detailed demands not reported.",
+      "No event-specific organizer, violence or state-response account found in this body."
+    ]
+  },
+  {
+    "candidate_id": "austria_2021-02_E005",
+    "country": "Austria",
+    "ccode": 305,
+    "unit_month": "2021-02",
+    "title": "Bludenz anti-COVID-measures march",
+    "start_date": "2021-02-14",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Bludenz town centre, Vorarlberg",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Organizer and police each estimated about900 participants.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "ORF reports the police and organizer each estimated about900 participants, well above50.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "AT-S021"
+    ],
+    "field_evidence": {
+      "occurrence_date_location": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "ORF dates the Bludenz protest march to Sunday14February and says it travelled through the town centre."
+      },
+      "demands": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "Report identifies the march as against COVID measures to contain the pandemic; no more specific Bludenz demands are itemized."
+      },
+      "participants_original": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "Organizer and police both gave an estimate of about900."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "ORF says the demonstration was generally peaceful, but also reports two people cited for resistance against state authority without describing the conduct; violence status remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "Two people were reported for resistance and numerous mask-rule citations were issued. The report does not establish arrests or any of the other six coded response categories; all remain unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "AT-S021"
+        ],
+        "summary": "The article does not report when the march physically ended."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "austria_2021-02-14_1",
+    "notes": "Keep separate from Egg on 13February and Bregenz on21February. The same ORF article is the single body for the Egg and Bludenz evidence; do not count the two event references as separate source bodies. Mask citations and reported resistance charges are not automatically coded as arrests or violence.",
+    "open_questions": [
+      "Exact physical end is unknown.",
+      "The report does not describe the conduct behind the two resistance citations; violence and arrest statuses remain unresolved."
+    ]
+  },
+  {
+    "candidate_id": "austria_2021-02_E006",
+    "country": "Austria",
+    "ccode": 305,
+    "unit_month": "2021-02",
+    "title": "Innsbruck protest against COVID measures despite prohibition",
+    "start_date": "2021-02-20",
+    "start_precision": "day",
+    "end_date": "2021-02-20",
+    "end_precision": "day",
+    "location": "Maria-Theresien-Straße, moving toward Wilten and the Wilten Basilica, then to Landhausplatz; police prevented movement toward Bergisel",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Police estimate around700 participants.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "ORF reports a police estimate of around700 at the actual 20February Innsbruck gathering.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "AT-S023"
+    ],
+    "field_evidence": {
+      "occurrence_date_location": {
+        "source_ids": [
+          "AT-S023"
+        ],
+        "summary": "ORF reports people gathered at Maria-Theresien-Straße on20February, moved toward Wilten/Basilica, and later reached Landhausplatz."
+      },
+      "demands": {
+        "source_ids": [
+          "AT-S023"
+        ],
+        "summary": "Article states they protested the government’s COVID measures."
+      },
+      "participants_original": {
+        "source_ids": [
+          "AT-S023"
+        ],
+        "summary": "Police estimate around700."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "AT-S023"
+        ],
+        "summary": "A confrontation and one person’s alleged attempted resistance during identification are reported, but no clear physical assault or injury description establishes protester violence; unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "AT-S023"
+        ],
+        "summary": "ORF reports five arrests and that police dissolved the gathering at Landhausplatz; other response categories are not established."
+      },
+      "end_date": {
+        "source_ids": [
+          "AT-S023"
+        ],
+        "summary": "Assembly dissolution occurred on20February; exact physical end time is not reported."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "austria_2021-02-20_1",
+    "notes": "The actual Saturday gathering is distinct from the separately described Sunday prohibition/announced event and a planned Hofer memorial march. Do not infer that either Sunday event occurred. Police prevented a move toward Bergisel and later dissolved the gathering at Landhausplatz.",
+    "open_questions": [
+      "Exact physical end time is unknown.",
+      "No independent attendance account was located.",
+      "Organizer and the circumstances/physical nature of the confrontation remain unclear."
+    ]
+  },
+  {
+    "candidate_id": "austria_2021-02_E007",
+    "country": "Austria",
+    "ccode": 305,
+    "unit_month": "2021-02",
+    "title": "Bregenz anti-COVID-measures demonstration",
+    "start_date": "2021-02-21",
+    "start_precision": "day",
+    "end_date": "2021-02-21",
+    "end_precision": "day",
+    "location": "Bregenz city centre",
+    "scope": "local",
+    "organizer": "Armin Elbs (identified by ORF as organizer of the demonstrations)",
+    "demands": [
+      "social_restrictions",
+      "political_behavior_process"
+    ],
+    "participants_original": "Police estimate about1,000 participants.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "ORF reports a police estimate of about1,000 participants in Bregenz on21February.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "AT-S022"
+    ],
+    "field_evidence": {
+      "occurrence_date_location": {
+        "source_ids": [
+          "AT-S022"
+        ],
+        "summary": "ORF dates the event to Sunday21February and describes a march through Bregenz city centre."
+      },
+      "organizer": {
+        "source_ids": [
+          "AT-S022"
+        ],
+        "summary": "ORF identifies Armin Elbs as organizer of the demonstrations and quotes his stated aims before the Bregenz event."
+      },
+      "demands": {
+        "source_ids": [
+          "AT-S022"
+        ],
+        "summary": "Participants opposed children’s mask requirements and supported reopening sectors and sports; Elbs also sought more direct democracy and government attention to critical voices."
+      },
+      "participants_original": {
+        "source_ids": [
+          "AT-S022"
+        ],
+        "summary": "Police estimate about1,000."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "AT-S022"
+        ],
+        "summary": "ORF explicitly calls the event peaceful/very peaceful."
+      },
+      "state_response": {
+        "source_ids": [
+          "AT-S022"
+        ],
+        "summary": "Police reported around15 citations for mask-rule violations; no listed state-response category is established, so all seven remain unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "AT-S022"
+        ],
+        "summary": "ORF says the demonstration ended shortly after16:00 on21February."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "austria_2021-02-21_1",
+    "notes": "Separate from Egg/Bludenz and other recurring COVID-policy demonstrations by date and place. Shared issue or organizer does not establish a single continuous event. One ORF body supports this candidate; no independent attendance source was located in this pass.",
+    "open_questions": [
+      "Exact ending minute is not given.",
+      "No independent attendance report located; police estimate is retained as attributed."
+    ]
+  },
+  {
+    "candidate_id": "austria_2021-02_E008",
+    "country": "Austria",
+    "ccode": 305,
+    "unit_month": "2021-02",
+    "title": "Vienna Fridays for Future and Bau-Holz public-building climate action",
+    "start_date": "2021-02-04",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Vienna public buildings, including the former Vienna University of Economics and Business and UZA II in Spittelau",
+    "scope": "local",
+    "organizer": "Fridays for Future and Gewerkschaft Bau-Holz",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "No turnout estimate or attendee count is reported in the two opened organization accounts; physical gathering size remains unknown.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The opened FFF and ÖGB accounts establish an in-person action in Vienna on 4 February, but neither reports the number of attendees or a qualitative crowd size. The ≥50 threshold remains unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "AT-S031",
+      "AT-S032"
+    ],
+    "field_evidence": {
+      "occurrence_date_location": {
+        "source_ids": [
+          "AT-S031",
+          "AT-S032"
+        ],
+        "summary": "FFF describes a completed joint thermal-camera action on public buildings in Vienna; the retrospective ÖGB report dates the same joint action to 4 February 2021. FFF identifies the former WU and UZA II. The two accounts are organizationally related, not independent turnout sources."
+      },
+      "demands": {
+        "source_ids": [
+          "AT-S031"
+        ],
+        "summary": "FFF reports a common demand that the federal government thermally renovate at least 3% of public buildings annually, alongside faster decarbonization and access to green heating. Coded political_behavior_process because the available category broadly covers policy choices; the taxonomy has no environment-specific category."
+      },
+      "participants_original": {
+        "source_ids": [
+          "AT-S031",
+          "AT-S032"
+        ],
+        "summary": "Neither opened account gives a participant estimate or crowd-size description."
+      },
+      "participants_min": {
+        "source_ids": [
+          "AT-S031",
+          "AT-S032"
+        ],
+        "summary": "No numeric lower bound is reported; leave null."
+      },
+      "participants_max": {
+        "source_ids": [
+          "AT-S031",
+          "AT-S032"
+        ],
+        "summary": "No numeric upper bound is reported; leave null."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "AT-S031",
+          "AT-S032"
+        ],
+        "summary": "Neither account reports event-specific protester violence; silence does not establish no explicit violence."
+      },
+      "state_response": {
+        "source_ids": [
+          "AT-S031",
+          "AT-S032"
+        ],
+        "summary": "Neither account reports any of the seven event-level state-response categories; leave all unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "AT-S031",
+          "AT-S032"
+        ],
+        "summary": "Neither account reports when the in-person action physically ended."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "austria_2021-02-04_1",
+    "notes": "The opened sources describe an in-person public-building climate-check action, not simply an announced march. The policy target is Austrian public-building renovation and climate policy. Only the two opened organization accounts support this record; the FFF event page AT-S030 remains search-only after technical retrieval failures. No crowd count is inferred from the participating organizations or equipment.",
+    "open_questions": [
+      "Did 50 or more people attend? Neither opened account gives a count or a qualitative turnout estimate.",
+      "Exact locations/route and physical end time remain incompletely described.",
+      "The broad policy-demand category and target scope are retained for coordinator review."
+    ]
+  }
+]

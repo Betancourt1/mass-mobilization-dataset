@@ -1,0 +1,28 @@
+{
+  "unit_id": "mongolia_2021-02",
+  "country": "Mongolia",
+  "month": "2021-02",
+  "agent_task": "/root/mongolia_2021_02_batch59",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T17:27:56.975214Z",
+  "finished_at": "2026-10-10T17:56:55Z",
+  "n_queries": 31,
+  "n_sources": 15,
+  "n_candidates": 1,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 5,
+  "source_access_counts": {
+    "opened_cards": 2,
+    "search_only_cards": 13,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 401,
+    "registered_rollout_actions": 31,
+    "captured_action_ids_match": true
+  },
+  "coverage_assessment": "First-pass English and Mongolian Cyrillic open-web search: 31 exact captured actions, including one zero-header response, with 401 ordered headers. Queries covered national February protest/demonstration/strike terms, Ulaanbaatar and Sukhbaatar Square, the Feb. 8 self-immolation lead, labor/CMTU and the social-insurance increase, and selected local and official domains. Fifteen relevant source cards are retained. One campaign-level public-action lead remains pending evidence; no site-specific public gathering or >=50 turnout is established. One Feb. 8 individual act is excluded; no confirmed continuation is entered. Two current-unit body opens and zero prior-unit-only source-consultation cards are represented in the ledger. S010 remains search-only: a fresh receipt and manual review passed the immediate complete-input comparison, but its request was not made because the coordinator closed phase03 before web.open; an earlier gate also aborted when another source ledger changed. Regional and local-archive coverage, specialist Mongolian language review and LexisNexis-equivalent search remain incomplete; this is not an absence or exhaustiveness claim.",
+  "baseline_gate": "pending_official_baseline"
+}

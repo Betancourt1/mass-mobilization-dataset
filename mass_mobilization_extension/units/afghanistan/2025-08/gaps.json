@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "AFG202508_G001",
+    "type": "threshold",
+    "description": "The opened Guardian article reports an indoor protest in Takhar but gives no attendance count, and does not state whether the venue was open to the public. The >=50-person and public-gathering criteria cannot be assessed.",
+    "source_ids": [
+      "AFG202508_S001"
+    ],
+    "affected_candidates": [
+      "afghanistan_2025-08-E001"
+    ],
+    "required_followup": "Seek independent, permitted reporting or an original statement documenting attendance and venue/public access. Keep the candidate pending_threshold until evidence supports both."
+  },
+  {
+    "gap_id": "AFG202508_G002",
+    "type": "source_independence",
+    "description": "The Guardian article is by Guardian staff and agencies and says the movement statement was shared with Associated Press. No distinct AP body was opened, and the relation between the Guardian story, AP, and any direct organizer statement remains unresolved; no independent corroboration is claimed.",
+    "source_ids": [
+      "AFG202508_S001"
+    ],
+    "affected_candidates": [
+      "afghanistan_2025-08-E001"
+    ],
+    "required_followup": "Resolve the written-origin/agency relationship from accessible metadata or an independent source. Do not access AP or copies under existing holds; do not count the Guardian/AP material as two confirmations."
+  },
+  {
+    "gap_id": "AFG202508_G003",
+    "type": "location_and_episode",
+    "description": "Only the Takhar province and an indoor venue are identified. Exact town, site, geographic extent, physical end, and whether this was one discrete event or a continuing action are unknown.",
+    "source_ids": [
+      "AFG202508_S001"
+    ],
+    "affected_candidates": [
+      "afghanistan_2025-08-E001"
+    ],
+    "required_followup": "Find independent date/site/continuity reporting; check the immediately preceding and following months before any unit ownership or episode decision."
+  },
+  {
+    "gap_id": "AFG202508_G004",
+    "type": "search_coverage",
+    "description": "Three captured calls contain 15 submitted queries and 121 pooled visible headers, but most results were unrelated, historical, or outside the month. English and Dari local-outlet targets and selected weekly/provincial terms were used; not every province, sector, outlet archive, community source, or Pashto archive was searched. Search snippets were not coded as facts.",
+    "source_ids": [],
+    "affected_candidates": [
+      "afghanistan_2025-08-E001"
+    ],
+    "required_followup": "Continue targeted native-language and province/sector discovery where accessible, seek independent contemporary reporting, and document remaining archive gaps. Do not infer no events from the present searches."
+  },
+  {
+    "gap_id": "AFG202508_G005",
+    "type": "baseline_and_manual",
+    "description": "The official historical baseline remains pending and the original Mass Mobilization manual was not locally verified in this worker context. No candidate is official or approved.",
+    "source_ids": [],
+    "affected_candidates": [
+      "afghanistan_2025-08-E001"
+    ],
+    "required_followup": "Coordinator resolves the official baseline and manual gate before any downstream inclusion or harmonization."
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "gap_id": "TUR202101-G001",
+    "type": "contested_evidence",
+    "description": "Bianet reports that students preparing to gather at Kızılay Güvenpark were detained as they left their homes, but attributes to ODTÜ Savunulmalıdır a claim that 15 students were detained at the park. The opened article does not resolve whether a public Jan 8 gathering physically occurred or how many, if any, assembled. The 15 reported detentions cannot establish turnout.",
+    "source_ids": [
+      "TUR202101-S096"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check contemporary Jan 8 Ankara reporting or original statements for direct confirmation that an assembly occurred and a turnout estimate; do not use arrest totals as turnout. Preserve the reported date separately from physical occurrence until verified."
+  },
+  {
+    "gap_id": "TUR202101-G002",
+    "type": "contested_evidence",
+    "description": "The Jan 14 PEN Norway/Sivil Alan joint statement says over 3,000 attended the Jan 4 protest, while The Guardian reports about 1,000 across Monday and Tuesday without day allocation. The magnitudes conflict and neither report gives an estimation method; no reconciled point estimate or numeric interval is encoded, although S095 supports the >=50 threshold.",
+    "source_ids": [
+      "TUR202101-S095",
+      "TUR202101-S016"
+    ],
+    "affected_candidates": [
+      "TUR202101-E001"
+    ],
+    "required_followup": "Seek contemporaneous, day-specific attendance reporting or source methodology; preserve each attribution and do not silently select or average the estimates."
+  },
+  {
+    "gap_id": "TUR202101-G003",
+    "type": "contested_evidence",
+    "description": "S004 places an Ankara Güvenpark action supporting Boğaziçi protests under Jan 7 and says 30 students were beaten/detained. HDP report S092 separately dates an Ankara support action with 30 detentions to Jan 14. The matching city/topic/count do not establish whether these are two actions or one date discrepancy. Candidates E008 and E007 preserve both reported dates without merging; neither source gives attendance.",
+    "source_ids": [
+      "TUR202101-S004",
+      "TUR202101-S092"
+    ],
+    "affected_candidates": [
+      "TUR202101-E007",
+      "TUR202101-E008"
+    ],
+    "required_followup": "Check contemporaneous dated reporting or original event statements for both Jan 7 and Jan 14; establish whether two gatherings occurred, exact venue and attendance. Do not infer turnout from the 30 reported detentions."
+  },
+  {
+    "gap_id": "TUR202101-G004",
+    "type": "contested_evidence",
+    "description": "S004 places an initial South Campus gathering and police response under a Jan 3 heading, although its preface says Boğaziçi Dayanışması called a protest for Jan 4 and its Jan 4 section records further protest activity. AA S001 and the PEN Norway/Sivil Alan statement S095 identify the main South Campus protest as Jan 4. The first physical onset and relation of S004’s entries remain uncertain; E001 retains Jan 4 based on the other reports.",
+    "source_ids": [
+      "TUR202101-S004",
+      "TUR202101-S001",
+      "TUR202101-S095"
+    ],
+    "affected_candidates": [
+      "TUR202101-E001"
+    ],
+    "required_followup": "Inspect contemporaneous dated posts/reports linked by S004 for Jan 3 and Jan 4 and determine whether the chronology contains a separate gathering or a date/order error; do not change E001 onset from the page heading alone."
+  },
+  {
+    "gap_id": "TUR202101-G005",
+    "type": "contested_evidence",
+    "description": "S004 places the Onur walk and Kadıköy action under Jan 20, but its Jan 18 entry reports a call for Jan 21 at 17:00 and current cards S111/S112 are recorded as Jan 21. S004 links the campus walk to later Kadıköy activity, but the event date and whether these are one or two MM episodes remain unsettled. E005 and E006 are preserved separately.",
+    "source_ids": [
+      "TUR202101-S004",
+      "TUR202101-S111",
+      "TUR202101-S112"
+    ],
+    "affected_candidates": [
+      "TUR202101-E005",
+      "TUR202101-E006"
+    ],
+    "required_followup": "Compare the exact event-date wording in S111 and S112 with the linked dated posts in S004; settle Jan 20 versus Jan 21 and document whether the campus walk and Kadıköy gathering are one multi-phase event or distinct meetings without automatic merging."
+  },
+  {
+    "gap_id": "TUR202101-G006",
+    "type": "participants",
+    "description": "S004 records Hacettepe and Yıldız Technical University students holding same-time Jan 7 Boğaziçi-support actions and press statements. It gives no attendance or campus publicness, and does not establish whether the actions were one coordinated multi-site event or two local meetings. Candidates E009 and E010 remain pending_unit with no attendance aggregation.",
+    "source_ids": [
+      "TUR202101-S004"
+    ],
+    "affected_candidates": [
+      "TUR202101-E009",
+      "TUR202101-E010"
+    ],
+    "required_followup": "Seek dated event photos, statements or reporting for each site to establish crowd size/publicness and whether a shared organizer coordinated the two campus gatherings. Do not aggregate attendance without evidence."
+  },
+  {
+    "gap_id": "TUR202101-G007",
+    "type": "contested_evidence",
+    "description": "S007 dates an Ankara courthouse press statement supporting opposition to the appointed rector to Jan 13 and reports five detentions with physical force. S004 reports a Jan 7 Ankara action with 30 detentions and HDP report S092 reports a Jan 14 support action with 30 detentions. Matching city/topic does not establish whether these are three actions, date errors or overlapping reports; candidates E008, E011 and E007 stay separate.",
+    "source_ids": [
+      "TUR202101-S004",
+      "TUR202101-S007",
+      "TUR202101-S092"
+    ],
+    "affected_candidates": [
+      "TUR202101-E008",
+      "TUR202101-E011",
+      "TUR202101-E007"
+    ],
+    "required_followup": "Seek dated contemporaneous accounts and source origins for Jan 7, Jan 13 and Jan 14; establish physical occurrence, exact venues, attendance and whether reports describe distinct events. Do not infer turnout from detentions."
+  },
+  {
+    "gap_id": "TUR202101-G008",
+    "type": "contested_evidence",
+    "description": "S007 reports a Jan 21 HDP press statement in Kadıköy concerning prison hunger strikes, while S111 reports a separate Boğaziçi student gathering in Kadıköy on the same date and S004 places student activity there under Jan 20. Exact site, time and participant overlap are unknown; the stated demands differ, so E012 is not merged with E005.",
+    "source_ids": [
+      "TUR202101-S007",
+      "TUR202101-S111",
+      "TUR202101-S004"
+    ],
+    "affected_candidates": [
+      "TUR202101-E012",
+      "TUR202101-E005"
+    ],
+    "required_followup": "Find an exact venue/time and original statement or contemporaneous account for the HDP gathering; determine if separate groups assembled in Kadıköy and preserve different demands. Do not infer one event from same city/date."
+  },
+  {
+    "gap_id": "TUR202101-G009",
+    "type": "state_target",
+    "description": "S007 reports a Jan 29 Batman “mass march” organized by DTK, DBP, TJA and HDP, with 23 detentions. S131’s search-only Jan 29 agenda instead schedules a 13:30 mass press statement at Atatürk Park as the final of activity since Jan 25; the page body returned Cache miss. The planned statement does not confirm execution and its type differs from S007’s account. Neither source gives demand or attendance.",
+    "source_ids": [
+      "TUR202101-S007",
+      "TUR202101-S131"
+    ],
+    "affected_candidates": [
+      "TUR202101-E013"
+    ],
+    "required_followup": "Find a contemporaneous post-event report or organizer statement establishing what occurred at Atatürk Park on Jan 29, its demand, turnout and route; distinguish the planned press statement from any executed march and do not use 23 detentions as turnout."
+  },
+  {
+    "gap_id": "TUR202101-G010",
+    "type": "contested_evidence",
+    "description": "S007 says police prevented an İzmir women’s press statement scheduled for Jan 29 at 16:30 outside İZBAN in Karşıyaka. S131’s search-only agenda independently lists an HDP İzmir Women’s Council statement at the same time/site about detention, oppression and hostage-taking policies; its body returned Cache miss. The plan and prevention claim do not establish that a physical group assembled or attendance.",
+    "source_ids": [
+      "TUR202101-S007",
+      "TUR202101-S131"
+    ],
+    "affected_candidates": [
+      "TUR202101-E014"
+    ],
+    "required_followup": "Find direct contemporaneous evidence establishing whether people assembled before police intervention, attendance and police method; retain the reported schedule separately from the physical start."
+  },
+  {
+    "gap_id": "TUR202101-G011",
+    "type": "contested_evidence",
+    "description": "For the Jan 11 Cargill action, S048 reports 14 workers detained while S007 reports 10 during a union-site sit-in following a prevented Ministry statement. The reports may describe different phases or conflicting totals; neither figure is turnout.",
+    "source_ids": [
+      "TUR202101-S007",
+      "TUR202101-S048",
+      "TUR202101-S047"
+    ],
+    "affected_candidates": [
+      "TUR202101-E004"
+    ],
+    "required_followup": "Compare contemporaneous accounts’ exact phase, location and detention wording; retain attributed counts and determine whether they describe one or multiple action phases. Do not treat either detention figure as attendance."
+  },
+  {
+    "gap_id": "TUR202101-G012",
+    "type": "contested_evidence",
+    "description": "S007 reports nine detentions at the Jan 21 HDP Kadıköy hunger-strike statement; the previously opened TİHV Jan 22 daily report S071 reports eight at the corresponding statement. The TİHV document is a monitoring report based on press/news and network sources, not direct independent eyewitness corroboration. Neither count establishes total attendance.",
+    "source_ids": [
+      "TUR202101-S007",
+      "TUR202101-S071"
+    ],
+    "affected_candidates": [
+      "TUR202101-E012"
+    ],
+    "required_followup": "Compare the exact wording and contemporaneous detention lists or follow-up reports to determine why the attributed totals differ; keep both source-specific figures and do not treat either as turnout."
+  },
+  {
+    "gap_id": "TUR202101-G013",
+    "type": "source_independence",
+    "description": "S071 explicitly dates a Tunceli statement on prison isolation/hunger strikes to Jan 21 and says no one was detained. PİRHA’s direct story S133 (published Jan 21 at 12:31:19 UTC) and Özgür Gelecek S132 (published Jan 22) report the matching HDP Dersim statement; the inspected paragraphs substantially overlap, and S132 likely reuses the PİRHA-origin story. S132/S133 do not state the event date in the inspected narrative, and S071 may draw on the same press account, so independent corroboration is not established. None gives turnout.",
+    "source_ids": [
+      "TUR202101-S071",
+      "TUR202101-S132",
+      "TUR202101-S133",
+      "TUR202101-S074"
+    ],
+    "affected_candidates": [
+      "TUR202101-E015"
+    ],
+    "required_followup": "Seek an independent contemporaneous account or organizer record establishing attendance (including whether it reached 50), exact event date/venue and physical end; preserve S071’s Jan 21 date as attributed and do not treat publication timestamps as event time."
+  }
+]

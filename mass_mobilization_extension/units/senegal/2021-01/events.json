@@ -1,0 +1,529 @@
+[
+  {
+    "candidate_id": "senegal_2021-01_E001",
+    "country": "Senegal",
+    "ccode": 433,
+    "unit_month": "2021-01",
+    "title": "Multi-neighborhood protests against the renewed COVID-19 curfew in Dakar",
+    "start_date": "2021-01-06",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Dakar and reported suburbs: Niary Tally, Grand Yoff, Médina, Ngor, Yoff, Pikine, Guédiawaye, Thiaroye, Mbao and other named areas; neighborhood-level grouping unresolved",
+    "scope": "local; Nettali describes actions in some Dakar neighborhoods as coordinated, but exact site-level meeting boundaries remain unresolved",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "No attendance estimate is reported. Nettali describes young people coming out in large numbers in some neighborhoods, but gives no count or scale tied to 50 people at one meeting.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The reports confirm public gatherings and Nettali characterizes the turnout in some neighborhoods as large, but no count or scale clearly establishes at least 50 people at any one meeting. Commuters delayed by the curfew are not attendance.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "SEN202101-S001",
+      "SEN202101-S002",
+      "SEN202101-S003",
+      "SEN202101-S004",
+      "SEN202101-S009",
+      "SEN202101-S032"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "SEN202101-S001",
+          "SEN202101-S002",
+          "SEN202101-S003",
+          "SEN202101-S004",
+          "SEN202101-S009"
+        ],
+        "summary": "Contemporary reports date the curfew demonstrations to Wednesday night, Jan 6; the Journal du Senegal report published Jan 7 describes protests the previous day, and AFP captions identify Jan 6. The Jan 7 EnQuête issue explicitly describes the previous evening; its surrounding page context identifies Jan 6."
+      },
+      "end_date": {
+        "source_ids": [
+          "SEN202101-S001",
+          "SEN202101-S002",
+          "SEN202101-S003",
+          "SEN202101-S004"
+        ],
+        "summary": "No opened report states when the gatherings physically ended; publication or update dates do not establish closure."
+      },
+      "location": {
+        "source_ids": [
+          "SEN202101-S001",
+          "SEN202101-S002",
+          "SEN202101-S003",
+          "SEN202101-S004",
+          "SEN202101-S009"
+        ],
+        "summary": "Reports name several Dakar neighborhoods and suburbs. They do not establish whether every named site held a distinct gathering or a coordinated common event. EnQuête adds Mbao, Pikine Tally Boumack, Jet d’Eau and other Dakar suburbs; grouping by site remains unresolved."
+      },
+      "scope": {
+        "source_ids": [
+          "SEN202101-S001",
+          "SEN202101-S002",
+          "SEN202101-S003",
+          "SEN202101-S004",
+          "SEN202101-S032"
+        ],
+        "summary": "Reports describe neighborhood-level action; Nettali says some Dakar neighborhood protests were coordinated, but exact sites and boundaries remain unresolved."
+      },
+      "organizer": {
+        "source_ids": [
+          "SEN202101-S001",
+          "SEN202101-S002",
+          "SEN202101-S003",
+          "SEN202101-S004"
+        ],
+        "summary": "No organizer is identified in the opened reports."
+      },
+      "demands": {
+        "source_ids": [
+          "SEN202101-S001",
+          "SEN202101-S002",
+          "SEN202101-S003",
+          "SEN202101-S004"
+        ],
+        "summary": "Contemporary reports explicitly describe the gathering as opposition to the newly imposed COVID-19 curfew, a domestic state policy; map to social_restrictions."
+      },
+      "participants": {
+        "source_ids": [
+          "SEN202101-S001",
+          "SEN202101-S002",
+          "SEN202101-S003",
+          "SEN202101-S004",
+          "SEN202101-S032"
+        ],
+        "summary": "No numeric count. Nettali describes young people as coming out in large numbers in some areas; this is unquantified and not tied to one site."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "SEN202101-S001",
+          "SEN202101-S002",
+          "SEN202101-S003",
+          "SEN202101-S004",
+          "SEN202101-S032"
+        ],
+        "summary": "Nettali’s qualitative “large numbers” description lacks a scale tied to 50 people at a single meeting; the numeric threshold remains unproven."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "SEN202101-S001",
+          "SEN202101-S002",
+          "SEN202101-S003",
+          "SEN202101-S004",
+          "SEN202101-S009",
+          "SEN202101-S032"
+        ],
+        "summary": "Reports attribute stone/projectile throwing and tire burning or barricades to some protesters; this does not attribute violence to every gathering participant. EnQuête reports tire burning, road obstruction and some clashes in Dakar; these claims apply to some groups only. Nettali separately reports tire burning, road barriers and damage at a public building in some areas; scope remains limited to described actors."
+      },
+      "state_response": {
+        "source_ids": [
+          "SEN202101-S001",
+          "SEN202101-S002",
+          "SEN202101-S003",
+          "SEN202101-S004",
+          "SEN202101-S009"
+        ],
+        "summary": "Explicit police tear-gas use to disperse some groups supports crowd_dispersal=yes as an attempted mechanism. Arrests, beatings, accommodation, ignore, state killings and firearm shootings remain unknown; tear gas is not coded as firearm shooting. VOA and Channels are the same AFP origin; Journal du Senegal attributes some details to L'AS. EnQuête reports tear gas used to disperse groups in Yoff and Thiaroye and one seriously injured protester with no agent attribution. AFP/VOA tear-gas reporting is separate from the EnQuête account; do not infer other response dimensions."
+      },
+      "eligibility": {
+        "source_ids": [
+          "SEN202101-S001",
+          "SEN202101-S002",
+          "SEN202101-S003",
+          "SEN202101-S004"
+        ],
+        "summary": "Public opposition to state curfew policy is evidenced, but the 50-person threshold and neighborhood event boundary remain unresolved; pending_threshold."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "sen_dakar_curfew_protests_2021_01_06",
+    "notes": "A provisional cluster of Jan 6 neighborhood protests against the curfew is retained because contemporary sources describe public gatherings and an explicit demand to end the domestic restriction. Do not count residents who were delayed while commuting as attendees. The single-event grouping across sites is tentative. AFP content republished by VOA and Channels is one reporting origin, not independent corroboration; Anadolu provides a separate account, and Journal du Senegal relays some details attributed to L'AS. EnQuête independently reports additional Dakar localities and one seriously injured protester in Thiaroye, but it does not attribute the injury to an actor. It describes a Thiès firecracker episode separately, tracked as another pending candidate. Nettali’s Jan 8 report describes the Dakar actions as coordinated and large in some neighborhoods, and says they lasted much of the night; it gives no count. Its security-source passages are attributed to EnQuête, so these statements are not independent confirmation of that outlet.",
+    "open_questions": [
+      "Verify whether at least one meeting reached 50 people; current reports provide no attendance estimate.",
+      "Resolve whether the neighborhood actions constitute one event or distinct gatherings; retain tentative links until coordination is evidenced.",
+      "Follow the physical ending and any continuation after Jan 7; do not use the last report or month-end as closure.",
+      "Check December 2020 for an earlier onset and February 2021 for continuation or a distinct episode.",
+      "Seek direct evidence on arrests, beatings, accommodation, explicit refusal or avoidance, killings and firearm shootings; current silence remains unknown.",
+      "A Wolof-oriented search using xibaar returned French-language results only; no human translation review or substantive Wolof-language coverage was obtained."
+    ]
+  },
+  {
+    "candidate_id": "senegal_2021-01_E002",
+    "country": "Senegal",
+    "ccode": 433,
+    "unit_month": "2021-01",
+    "title": "Possible Thiès curfew-night protest gathering",
+    "start_date": "2021-01-06",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Thiès; specific site unknown",
+    "scope": "local; whether this is a distinct meeting or part of wider curfew-night activity is unresolved",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "No count; the article describes a firecracker episode in Thiès after reporting protests against the state curfew across Dakar and Thiès.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The opened report does not give a participant count and the Thiès passage does not establish the size or exact form of a public meeting.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "SEN202101-S009"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "SEN202101-S009"
+        ],
+        "summary": "The report is dated Jan 7 and describes the curfew protests as occurring the previous evening; Jan 6 is explicit in the issue context."
+      },
+      "end_date": {
+        "source_ids": [
+          "SEN202101-S009"
+        ],
+        "summary": "No physical end is reported."
+      },
+      "location": {
+        "source_ids": [
+          "SEN202101-S009"
+        ],
+        "summary": "Thiès is mentioned, but the specific location is not stated."
+      },
+      "scope": {
+        "source_ids": [
+          "SEN202101-S009"
+        ],
+        "summary": "The article relates this passage to protest activity over the state curfew, but does not resolve whether Thiès forms a distinct meeting or a broader coordinated action."
+      },
+      "organizer": {
+        "source_ids": [
+          "SEN202101-S009"
+        ],
+        "summary": "No Thiès organizer is identified."
+      },
+      "demands": {
+        "source_ids": [
+          "SEN202101-S009"
+        ],
+        "summary": "The report's introduction says young people in Dakar and Thiès protested the state-imposed curfew; the exact tie between that demand and the described firecracker episode remains uncertain."
+      },
+      "participants": {
+        "source_ids": [
+          "SEN202101-S009"
+        ],
+        "summary": "No Thiès attendance count is given."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "SEN202101-S009"
+        ],
+        "summary": "No numeric or clear qualitative evidence establishes 50 people."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "SEN202101-S009"
+        ],
+        "summary": "Firecrackers alone do not establish violence by protest participants."
+      },
+      "state_response": {
+        "source_ids": [
+          "SEN202101-S009"
+        ],
+        "summary": "No response is specifically attributed to the Thiès episode; all seven dimensions remain unknown."
+      },
+      "eligibility": {
+        "source_ids": [
+          "SEN202101-S009"
+        ],
+        "summary": "Occurrence as a public meeting and the tie between the Thiès episode and the curfew demand need confirmation; pending_evidence."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "sen_thies_curfew_protests_2021_01_06",
+    "notes": "The same Jan 7 issue reports curfew protests across Dakar and Thiès, then describes a firecracker episode in Thiès. Treat the possible meeting as a separate tentative candidate because no coordinating structure or event boundary is shown.",
+    "open_questions": [
+      "Confirm whether the Thiès firecracker episode was a public meeting protesting the curfew.",
+      "Find an attendance estimate, location, organizer and physical end.",
+      "Determine whether it is a separate local event or coordinated with the Dakar actions.",
+      "Do not transfer tear-gas use reported for Dakar/Thiaroye to Thiès."
+    ]
+  },
+  {
+    "candidate_id": "senegal_2021-01_E003",
+    "country": "Senegal",
+    "ccode": 433,
+    "unit_month": "2021-01",
+    "title": "Youth protest against the region-limited COVID-19 curfew in Mbour",
+    "start_date": "2021-01-06",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Mbour, including the 11 November neighborhood; the precise rally location is not identified",
+    "scope": "local; opened reports support Mbour curfew-night protest activity, but the exact meeting form, site and episode boundary remain unresolved",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "No count. MetroDakar reports youth in the street and families affected by tire smoke; a football match in the street is not counted as protest attendance.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Neither the local report nor SenePlus gives an attendance count or clear qualitative estimate establishing at least 50 at one meeting.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "SEN202101-S008",
+      "SEN202101-S010",
+      "SEN202101-S011"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "SEN202101-S008",
+          "SEN202101-S010"
+        ],
+        "summary": "SenePlus explicitly dates the first curfew night to Wednesday Jan 6; MetroDakar describes its action as the first curfew night."
+      },
+      "end_date": {
+        "source_ids": [
+          "SEN202101-S008",
+          "SEN202101-S010"
+        ],
+        "summary": "Neither opened report establishes physical closure."
+      },
+      "location": {
+        "source_ids": [
+          "SEN202101-S008",
+          "SEN202101-S010"
+        ],
+        "summary": "Mbour is named in both reports; MetroDakar identifies the 11 November neighborhood for a street football match, but does not give an exact protest site."
+      },
+      "scope": {
+        "source_ids": [
+          "SEN202101-S008",
+          "SEN202101-S010"
+        ],
+        "summary": "Both opened reports describe local Mbour curfew-night protest activity; the exact public meeting form/site and coordination with Dakar or Thiès remain unresolved."
+      },
+      "organizer": {
+        "source_ids": [
+          "SEN202101-S008",
+          "SEN202101-S010"
+        ],
+        "summary": "No organizer is identified."
+      },
+      "demands": {
+        "source_ids": [
+          "SEN202101-S008",
+          "SEN202101-S010"
+        ],
+        "summary": "MetroDakar quotes a youth objecting to the curfew applying only to Dakar and Thiès; SenePlus describes complaints about the decision being imposed without preparation and its effects on work. This is a reported response to domestic curfew policy."
+      },
+      "participants": {
+        "source_ids": [
+          "SEN202101-S008",
+          "SEN202101-S010"
+        ],
+        "summary": "Reports refer to youth but provide no count. Smoke-affected families and football players are not counted as protesters."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "SEN202101-S008",
+          "SEN202101-S010"
+        ],
+        "summary": "No numeric lower bound or sufficient qualitative size statement establishes 50 people at a meeting."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "SEN202101-S010"
+        ],
+        "summary": "MetroDakar reports intentional tire burning by youths during the protest. The historical codebook’s Protester Violence definition includes riotous behavior that destroys property; the yes code is scoped to those reported actors, not inferred from generic clashes."
+      },
+      "state_response": {
+        "source_ids": [
+          "SEN202101-S008",
+          "SEN202101-S010",
+          "SEN202101-S011"
+        ],
+        "summary": "The opened SenePlus and MetroDakar reports do not specify any of the seven state responses. Leral headline-only search lead claims arrests, but body text was not captured and is not coded; all dimensions remain unknown."
+      },
+      "eligibility": {
+        "source_ids": [
+          "SEN202101-S008",
+          "SEN202101-S010"
+        ],
+        "summary": "Open articles support local public protest activity and an explicit dispute over the state curfew, but attendance threshold remains unproven; pending_threshold."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "sen_mbour_curfew_protests_2021_01_06",
+    "notes": "Opened local MetroDakar reporting and a SenePlus interview support the Mbour protest lead. The stated objection concerned curfew coverage and preparation; no 50-person attendance is established. A football match and families affected by smoke are excluded from turnout. SenePlus is an interview-based analysis, not an eyewitness account. A search-only Leral headline mentions 16 arrests, but no body evidence was captured, so arrests remain unknown. The single-event relation to Dakar and Thiès remains tentative.",
+    "open_questions": [
+      "Verify at least 50 participants at one Mbour public meeting.",
+      "Establish exact site, organizer, public-meeting form and physical ending.",
+      "Verify the Leral body before coding its headline arrest claim; do not use arrests as turnout.",
+      "Seek independent local evidence and human Wolof review of the printed expression.",
+      "Check whether the Mbour action was distinct from or coordinated with Dakar and Thiès."
+    ]
+  },
+  {
+    "candidate_id": "senegal_2021-01_E004",
+    "country": "Senegal",
+    "ccode": 433,
+    "unit_month": "2021-01",
+    "title": "Ziguinchor protests over public lighting on the Boulevard des 54 m",
+    "start_date": "2021-01-14",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Boulevard des 54 m / CEDEAO, Ziguinchor; reports name Néma 2, Kandialang and Tilène; exact meeting sites and grouping remain unresolved",
+    "scope": "local; a multi-neighborhood protest on the night of Jan 14–15 is reported, but boundaries between locations are not established",
+    "organizer": null,
+    "demands": [],
+    "participants_original": "Teranga News reports several dozen young people from Néma 2, Kandialang, Tilène and other neighborhoods; Senego describes residents going out to protest. No exact count is reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "“Several dozen” does not give a lower bound of 50 at a single meeting. Arrest numbers reported across headlines are not turnout and are not summed; eligibility remains pending_threshold.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "SEN202101-S019",
+      "SEN202101-S020",
+      "SEN202101-S021",
+      "SEN202101-S022",
+      "SEN202101-S023",
+      "SEN202101-S024",
+      "SEN202101-S025",
+      "SEN202101-S026"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "SEN202101-S021",
+          "SEN202101-S026"
+        ],
+        "summary": "Teranga News’ Jan 28 follow-up dates the event to the night of Jan 14–15; Senego’s Jan 14 report instead says “Thursday 14 December,” a conflicting date that is preserved without correction."
+      },
+      "end_date": {
+        "source_ids": [
+          "SEN202101-S021",
+          "SEN202101-S026"
+        ],
+        "summary": "The reports describe an overnight incident but do not state a physical departure or dissolution time; no exact end date is coded."
+      },
+      "location": {
+        "source_ids": [
+          "SEN202101-S021",
+          "SEN202101-S026"
+        ],
+        "summary": "Senego identifies Néma 2 and the Boulevard des 54 m; Teranga News names Néma 2, Kandialang, Tilène and other neighborhoods. It is unresolved whether every location hosted a distinct meeting or formed one coordinated local action."
+      },
+      "scope": {
+        "source_ids": [
+          "SEN202101-S021",
+          "SEN202101-S026"
+        ],
+        "summary": "Opened reports describe local residents from several Ziguinchor neighborhoods protesting a local public-lighting problem; national coordination is not shown."
+      },
+      "organizer": {
+        "source_ids": [
+          "SEN202101-S021",
+          "SEN202101-S026"
+        ],
+        "summary": "No protest organizer is named in the opened event reports."
+      },
+      "demands": {
+        "source_ids": [
+          "SEN202101-S021",
+          "SEN202101-S026"
+        ],
+        "summary": "The opened reports identify a demand for public lighting on the Boulevard des 54 m, framed as a safety issue after night accidents, and say the mayor was addressed. The original seven categories contain no clear public-service fit, so no category is assigned."
+      },
+      "participants": {
+        "source_ids": [
+          "SEN202101-S026",
+          "SEN202101-S021"
+        ],
+        "summary": "Teranga News says several dozen young people; Senego refers to residents going out. Neither gives an exact count."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "SEN202101-S026",
+          "SEN202101-S021"
+        ],
+        "summary": "The only opened qualitative size is “several dozen,” which does not establish at least 50 at a meeting. Search-only arrest headlines are not turnout evidence."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "SEN202101-S026"
+        ],
+        "summary": "Teranga News reports intentional tire burning by some young demonstrators. The historical codebook’s Protester Violence definition includes riotous behavior that destroys property; the yes code is scoped to those reported actors and does not imply violence by every attendee."
+      },
+      "state_response": {
+        "source_ids": [
+          "SEN202101-S021",
+          "SEN202101-S026"
+        ],
+        "summary": "Both opened reports describe police arrests; Senego says four people and Teranga News says nineteen were detained and later released. Counts conflict and are not combined. No opened source establishes accommodation, beating, attempted dispersal, explicit ignore, killing or firearm shooting. Release is not coded as accommodation."
+      },
+      "eligibility": {
+        "source_ids": [
+          "SEN202101-S021",
+          "SEN202101-S026"
+        ],
+        "summary": "A public protest about a local public service and safety concern addressed to the mayor is described, but the original category fit and >=50 threshold remain unresolved; eligibility is pending_threshold."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "sen_ziguinchor_public_lighting_2021_01_14",
+    "notes": "Opened Teranga News follow-up dates the episode to the night of Jan 14–15 and reports several dozen youths from multiple neighborhoods, tire burning and nineteen detentions followed by release. Senego’s Jan 14 article reports four arrests and contains a conflicting “Thursday 14 December” date; both dates and arrest counts remain visible, with no presumed correction or aggregation. Search-only Setal, DakarActu, SenePlus, Jotaay and Leral leads are retained as source cards but do not establish additional counts or meetings. The public-lighting demand has no faithful match in the seven original demand categories, so demands is left empty. Release and the mayor’s future repair promise are not coded as state accommodation.",
+    "open_questions": [
+      "Resolve the Senego/ Teranga News date discrepancy and the relation between reports from different neighborhoods.",
+      "Find attendance evidence that establishes at least 50 at a single meeting; do not use arrest numbers as turnout.",
+      "Determine whether the event’s public-service demand can be mapped under the original manual without inventing a category.",
+      "Verify the conflicting arrest reports from readable sources; do not sum them.",
+      "Seek human-language review and local-language reporting beyond the limited Wolof-oriented search.",
+      "Clarify the physical end and any continuation; do not infer closure from publication dates or later promises."
+    ]
+  }
+]

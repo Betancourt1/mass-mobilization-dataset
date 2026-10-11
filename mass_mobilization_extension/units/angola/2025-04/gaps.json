@@ -1,0 +1,95 @@
+[
+  {
+    "gap_id": "angola_2025-04_G001",
+    "type": "threshold",
+    "description": "The opened Folha 8 report says more than 50 MEA members were gathering, but the cutoff claim is not independently corroborated. Primeiro Impacto’s 150 figure is detentions, not attendance. Preserve the first claim as attributed and keep the other measure separate.",
+    "source_ids": [
+      "S002",
+      "S011"
+    ],
+    "affected_candidates": [
+      "angola_2025-04_E001"
+    ],
+    "required_followup": "Seek a genuinely independent contemporaneous account or original evidence establishing the physical crowd size; review source origins without treating separate publishers as proof of independence."
+  },
+  {
+    "gap_id": "angola_2025-04_G002",
+    "type": "event_execution_route_end",
+    "description": "RTP S015 is an advance announcement; Folha 8 reports a gathering and arrests while members were concentrating but does not establish completion of the planned march to the Provincial Government or the physical end. The DW result is held under inherited publisher scope, so its incidental search excerpt is not used.",
+    "source_ids": [
+      "S009",
+      "S011",
+      "S015"
+    ],
+    "affected_candidates": [
+      "angola_2025-04_E001"
+    ],
+    "required_followup": "Find an independent, permitted body verifying where the crowd actually assembled, whether it moved to the destination, any dispersal, and event end."
+  },
+  {
+    "gap_id": "angola_2025-04_G003",
+    "type": "state_response",
+    "description": "Two opened accounts report detentions and alleged police assaults, but exact numbers, injury detail, police account, official disposition and physical dispersal remain unknown. No shootings or protest-linked killings are established.",
+    "source_ids": [
+      "S002",
+      "S011"
+    ],
+    "affected_candidates": [
+      "angola_2025-04_E001"
+    ],
+    "required_followup": "Seek the police/official account and independent contemporaneous reporting on event-linked arrests, beatings, dispersal, injuries and release/trial outcomes."
+  },
+  {
+    "gap_id": "angola_2025-04_G004",
+    "type": "source_origin_independence",
+    "description": "S002 and S011 have opened bodies, but no explicit written-origin relationship was found in saved metadata; neither is counted as independent corroboration solely because publishers differ. S015 is advance notice only.",
+    "source_ids": [
+      "S002",
+      "S011",
+      "S015"
+    ],
+    "affected_candidates": [
+      "angola_2025-04_E001"
+    ],
+    "required_followup": "Review body-level credits and any explicit sourcing links in further reports. Keep origin unknown unless documented."
+  },
+  {
+    "gap_id": "angola_2025-04_G005",
+    "type": "access_restrictions",
+    "description": "Several relevant leads remain unavailable: DW S009 is held by a saved publisher-scope guard matched to amp.dw.com; TSF S010 exact URL returned HTTP 403; MEA Facebook S012 rendered an explicit temporary anti-bot block; Club-K S013 is held under unresolved publisher scope; Ver Angola S014 has an exact HTTP 403; Radio Angola S005 is explicitly derivative of DW and held. No held body/copy was requested or used as verified evidence.",
+    "source_ids": [
+      "S005",
+      "S009",
+      "S010",
+      "S012",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "angola_2025-04_E001"
+    ],
+    "required_followup": "No same-target or copy request while restrictions remain. Use only genuinely independent reports with their own exact-URL receipt and manual scope review."
+  },
+  {
+    "gap_id": "angola_2025-04_G006",
+    "type": "coverage_boundary",
+    "description": "Searches covered Portuguese and English phrasing, national and Luanda/other-region terms, student/labour/public-action leads, and contemporary/retrospective reporting. Some results were unrelated or dated July 2025, including fuel-protest coverage; those are outside this April unit. Search results do not establish month-wide absence or exhaustive LexisNexis coverage. Other local languages and inaccessible archives remain unsearched or incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue broad region/sector and retrospective searching if additional time permits; verify month-boundary stories in permitted bodies and preserve no-absence language."
+  },
+  {
+    "gap_id": "angola_2025-04_G007",
+    "type": "classification_baseline",
+    "description": "The documented demand concerns education conditions/student rights; the supplied category list has no education-specific category, so no category was forced. Official baseline matching/approval remains pending.",
+    "source_ids": [
+      "S002",
+      "S011",
+      "S015"
+    ],
+    "affected_candidates": [
+      "angola_2025-04_E001"
+    ],
+    "required_followup": "Coordinator to assess category treatment and reconcile against official baseline during later review."
+  }
+]

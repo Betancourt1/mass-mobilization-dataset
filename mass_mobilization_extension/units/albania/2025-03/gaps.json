@@ -1,0 +1,119 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "source_access",
+    "description": "March S001 AP exact URL was searched and then checked after fresh exact-URL receipts/manual scope review. Web-tool attempts returned inaccessible messages; one ordinary HTTPS request to the exact URL returned HTTP 403 Forbidden. This exact story URL is blocked and will not be requested again or accessed through another host/copy. No article body was reviewed. Other sources remain search_only.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry S001 or seek copies. Continue verification through other independently cleared publishers; preserve S001 as a blocked title-only lead."
+  },
+  {
+    "gap_id": "G002",
+    "type": "search_coverage",
+    "description": "A genuine open-web first pass now includes generic English/Albanian and local/regional sector searches, week windows for all March dates, and candidate-specific TikTok-ban searches and turnout/response follow-up. The February and March Q012 records are separate actual invocations with distinct rendered responses and refs; each remains counted in its own month. Their saved query strings are identical, but native tool-call payload recovery is unavailable, so no additional input provenance is claimed. Results were noisy; no systematic archive or exhaustive local coverage is established.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use targeted dated searches across Albania national/local outlets and sectors, then date-check relevant leads against exact public sources after fresh URL scope review."
+  },
+  {
+    "gap_id": "G003",
+    "type": "search_capture_provenance",
+    "description": "The web tool exposed rendered result text rather than native structured header objects. Parsed displayed title/URL/ref/order were captured and aligned for Q001-Q003, but exact native metadata is unverified. Temporary rendered responses for Q001-Q003 were removed before the coordinator required preservation; hashes are unavailable. The first three-query combined invocation is transcribed once as Q000 in units/albania/2025-01/search_log.jsonl and referenced here as shared discovery context, not counted as an additional executed query in this unit. It is a degraded whole-invocation trace from visible conversation output; the raw rendered response was not saved, and native metadata/order completeness cannot be verified. Results are not partitioned across constituent queries or month. Q004-Q007 exact raw rendered outputs are saved privately with hashes; native metadata remains unknown. Only visible titles/URLs/refs/order were retained; excerpt blocks were omitted.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat all saved query records as degraded invocation-level discovery traces; do not reconstruct native headers, infer per-query result assignment, or replace prior responses. Coordinator/auditor to decide whether native rollout extraction is possible from this task’s actual runtime."
+  },
+  {
+    "gap_id": "G004",
+    "type": "participants",
+    "description": "Bodies were reviewed for S008 (TRT Balkan), S009 (Ora News), S010 (Anews), S011 (JOQ) and S012 (Shqiptarja.com). S009 was opened contrary to the inherited Ora/Dosja hold and is excluded from evidence. S008/S010 concern an October 2024 event; S011 is a pre-event announcement; S012 describes March 15 turnout as “minimal” without a number. ALB202503-E001 attendance ≥50 remains unresolved.",
+    "source_ids": [
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [
+      "ALB202503-E001"
+    ],
+    "required_followup": "For each dated gathering lead, verify attendance in a contemporary source; do not infer attendance from affected people or from a headline."
+  },
+  {
+    "gap_id": "G005",
+    "type": "state_target",
+    "description": "For ALB202503-E001, S011 announces a protest against the TikTok shutdown/censorship policy and S012 reports the March 15 rally outside the Prime Minister’s Office about the TikTok shutdown. This establishes the state-policy target. Attendance remains below verified threshold; S009 Ora News content is excluded because it was opened contrary to the inherited publisher hold.",
+    "source_ids": [
+      "S009",
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [
+      "ALB202503-E001"
+    ],
+    "required_followup": "Verify precise demand and its intended government/policy target from a cleared source."
+  },
+  {
+    "gap_id": "G006",
+    "type": "event_dates_and_episode_boundaries",
+    "description": "Search-only leads may be outside the assigned month, share a gathering, or describe continuation from an earlier month. Event dates, localities, distinctness, prior-month continuations and post-month endings remain unknown.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Verify publication and event dates, location, organizer, relationship among reports, prior-month ownership and continuation after the month."
+  },
+  {
+    "gap_id": "G007",
+    "type": "archive_access",
+    "description": "LexisNexis or an equivalent systematically searchable news archive was not available or consulted; open-web discovery does not establish completeness.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Report archive access limitations and use any authorized archive only if available; never describe this open-web pass as exhaustive."
+  },
+  {
+    "gap_id": "G008",
+    "type": "search_excerpt_exposure",
+    "description": "Q004-Q007 rendered search outputs may contain article text blocks alongside visible headers. Full invocation strings were preserved privately before parsing; only title/URL/ref/order are retained. No excerpt facts are used as evidence; no result URL was intentionally opened. Q008 is another header-only search trace; no excerpt facts were used.",
+    "source_ids": [
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep new source cards search_only/pending_evidence; request publisher bodies only after fresh exact-URL receipt and manual publisher/origin review."
+  },
+  {
+    "gap_id": "G009",
+    "type": "source_access_scope",
+    "description": "S009 Ora News body was opened after a fresh exact-URL receipt but before the worker located the global Ora/Dosja hold recorded in canonical review check 2343. Independent scope review confirmed that publisher-wide hold applies. Preserve the actual read and hash as contrary-to-hold provenance, without retrospective authorization; do not use body facts or request any Ora News/Dosja body or copy.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep S009 body out of evidence and preserve its access history as a policy deviation. No further Ora News/Dosja body request or copy."
+  },
+  {
+    "gap_id": "G010",
+    "type": "participants",
+    "description": "The March 15 TikTok-policy opposition protest is verified by a post-event local report. Shqiptarja.com says turnout was “minimal” and the gathering lasted under one hour, but provides no numeric attendance. The ≥50 threshold remains unresolved. Candidate-specific March follow-up Q016 produced no usable new attendance or response evidence.",
+    "source_ids": [
+      "S012"
+    ],
+    "affected_candidates": [
+      "ALB202503-E001"
+    ],
+    "required_followup": "Seek another independently cleared contemporaneous source with a defensible attendance estimate; do not infer turnout from visuals or adjectives."
+  },
+  {
+    "gap_id": "G011",
+    "type": "participants",
+    "description": "For ALB202503-E001, the only opened post-event account calls turnout minimal but gives no count. No source verifies ≥50 participants.",
+    "source_ids": [
+      "S012"
+    ],
+    "affected_candidates": [
+      "ALB202503-E001"
+    ],
+    "required_followup": "Seek a distinct, cleared contemporary source with a numeric or clearly qualifying attendance estimate."
+  }
+]

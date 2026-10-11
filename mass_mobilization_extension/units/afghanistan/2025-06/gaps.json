@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "AFG202506_G001",
+    "type": "search_method",
+    "description": "The public web search repeatedly returned unrelated or historical materials despite period wording. Search result date filters were visibly unreliable; no item in these responses established a public assembly beginning in this month.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with additional local and regional outlet discovery and date verification; treat the current search pass as a documented partial open-web first pass, not a no-event finding."
+  },
+  {
+    "gap_id": "AFG202506_G002",
+    "type": "coverage",
+    "description": "Searches targeted women’s rights, labor/teachers and selected major/provincial locations but did not systematically cover every Afghan province, occupation, community source or local outlet.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Extend province-by-province and sector-specific source discovery, including contemporary local outlets and civic/union reporting where accessible."
+  },
+  {
+    "gap_id": "AFG202506_G003",
+    "type": "language",
+    "description": "Some Dari and Pashto search terms were used, but no independent translation or systematic review of Pashto/Dari local archives was completed; translated search results may omit or misdate gatherings.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Run native-language searches with qualified language review and inspect contemporary local-language reporting when accessible."
+  },
+  {
+    "gap_id": "AFG202506_G004",
+    "type": "episode_unit",
+    "description": "No in-period event was established from the captured results. Month-boundary continuation remains open. Afghanistan March 2025 report retains undated/search-only women’s gathering leads, including a held TOLOnews Facebook Faryab lead (AFG202503_S001); its date and ownership cannot be inferred, and the existing hold must not be treated as permission to open it or a copy.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resolve dates and start-month ownership from permitted evidence; keep the March Faryab lead held under its existing source-scope restriction unless the owner resolves the restriction."
+  },
+  {
+    "gap_id": "AFG202506_G005",
+    "type": "coverage",
+    "description": "The searches do not provide LexisNexis-equivalent newspaper coverage. Search-only excerpts were not coded as facts; no source body was requested and no event-level source card qualified for this monthly file.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use accessible independent contemporary sources and document unresolved archives, body access and coverage limits. Do not infer absence from empty in-scope leads."
+  },
+  {
+    "gap_id": "AFG202506_G006",
+    "type": "search_method",
+    "description": "The exact complete search-tool input argument object was not persisted before the invocations. Captured search logs preserve the submitted query descriptions and responses, but do not establish a pre-call request manifest; response_length and any unexposed invocation metadata remain unavailable. Call-level local start/response clocks were not recorded, so elapsed search, reading, wait, repair and closure intervals are unknown.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "For later invocations, save the full exact argument object before the call and record local UTC start/response clocks immediately around it; retain these prior provenance gaps as unknown."
+  }
+]

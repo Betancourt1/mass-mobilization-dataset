@@ -1,0 +1,21 @@
+{
+  "unit_id": "poland_2021-01",
+  "country": "Poland",
+  "month": "2021-01",
+  "agent_task": "/root/poland_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T23:26:22Z",
+  "finished_at": "2026-10-08T23:50:57Z",
+  "n_queries": 13,
+  "n_sources": 48,
+  "n_candidates": 5,
+  "n_excluded": 1,
+  "n_continuations": 1,
+  "n_gaps": 16,
+  "coverage_assessment": "Thirteen one-query-per-call Polish/English broad, four weekly, regional/city, sector, date-specific, and adjacent-month searches are logged with returned headers; the tool exposed no result totals. Forty-eight source cards: 16 opened, 28 search_only, 4 blocked. Five January candidates remain: three proposed_include, one pending_unit, one pending_evidence. One foreign-target exclusion and one Dec31-onset continuation physically present at midnight Jan1 are documented. Turnout/unit boundaries and physical end remain unresolved for several records. Open-web searches do not reproduce LexisNexis and do not establish exhaustive coverage or absence.",
+  "baseline_gate": "pending_official_baseline",
+  "timestamp_note": "started_at and finished_at are first UTC clock observations around assignment and final reconciliation; exact operation timestamps were not captured.",
+  "temporary_resources_started": [],
+  "temporary_resources_remaining": [],
+  "process_note": "Exact-URL request commands returned synchronously without open command sessions. The numeric nested exit for Jan18 requests was not surfaced. Process-list verification was unavailable: ps returned Operation not permitted and pgrep could not access the process list."
+}

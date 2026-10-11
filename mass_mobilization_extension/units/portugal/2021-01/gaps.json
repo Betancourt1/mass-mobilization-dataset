@@ -1,0 +1,109 @@
+[
+  {
+    "gap_id": "PRT21M01-G001",
+    "type": "search_method",
+    "description": "Open-web searches covered all four January weeks, Portuguese-language date/topic terms, regional mentions and several sectors, but this discovery method does not reproduce the original LexisNexis newspaper protocol and cannot establish absence or exhaustive coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may target source lists and additional local/regional outlets or languages; preserve uneven search coverage and do not treat query/result counts as completeness."
+  },
+  {
+    "gap_id": "PRT21M01-G002",
+    "type": "source_independence",
+    "description": "The only opened contemporary account with event-specific attendance and demand detail is DNOTICIAS, carrying a Lusa byline. A Correio da Manhã article body remains unread; an RTP liveblog search result appears to carry the same Lusa account but was not opened. The Observador feature is opened but does not identify the movement in the selected text. Independent corroboration remains unverified.",
+    "source_ids": [
+      "PRT21M01-S004",
+      "PRT21M01-S005",
+      "PRT21M01-S006",
+      "PRT21M01-S022"
+    ],
+    "affected_candidates": [
+      "portugal_2021-01_E001"
+    ],
+    "required_followup": "If coordinator access permits, seek a genuinely independent contemporary report or inspect accessible reporting with its own byline. Respect the later HTTP 403s on DNOTICIAS and Observador URLs; no retries or alternate-route access. Do not count search-only leads as corroboration."
+  },
+  {
+    "gap_id": "PRT21M01-G003",
+    "type": "dates",
+    "description": "The physical end of the January 16 demonstration is not established by the selected report text.",
+    "source_ids": [
+      "PRT21M01-S005"
+    ],
+    "affected_candidates": [
+      "portugal_2021-01_E001"
+    ],
+    "required_followup": "Find reporting that documents participants leaving or the assembly dissolving; do not use publication time or the last mention as physical end."
+  },
+  {
+    "gap_id": "PRT21M01-G004",
+    "type": "state_response",
+    "description": "The selected Lusa paragraphs do not resolve any of the seven response fields. An official 16-30 January report describes general policing and security at demonstrations but does not identify this gathering; non-mention cannot be coded as explicit absence or ignore.",
+    "source_ids": [
+      "PRT21M01-S005",
+      "PRT21M01-S013"
+    ],
+    "affected_candidates": [
+      "portugal_2021-01_E001"
+    ],
+    "required_followup": "Seek event-specific contemporary reporting for accommodation, arrests, beatings, crowd dispersal, ignore, killings and shootings. Keep all fields unknown unless tied to this gathering."
+  },
+  {
+    "gap_id": "PRT21M01-G006",
+    "type": "episode_unit",
+    "description": "Separate later Defender Portugal-related actions were reported at Parliament: an 11 February gathering over pandemic measures, a 1 March cultural event announced for that evening, and a 21 June Movement Zero police rally supported by Defender Portugal. The different dates, issues and (in June) organizing movement do not establish physical continuity with the 16 January gathering.",
+    "source_ids": [
+      "PRT21M01-S007",
+      "PRT21M01-S020",
+      "PRT21M01-S021"
+    ],
+    "affected_candidates": [
+      "portugal_2021-01_E001"
+    ],
+    "required_followup": "Do not merge these later actions into the January episode; retain any broader campaign relationship for coordinator review. The March article is prospective and the June action is distinct."
+  },
+  {
+    "gap_id": "PRT21M01-G008",
+    "type": "source_access",
+    "description": "Official 2021 strike-statistics PDF returned web-reader HTTP 502 and the exact ordinary HTTPS request timed out before receiving response headers or bytes.",
+    "source_ids": [
+      "PRT21M01-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If future public retrieval succeeds, inspect only whether the report gives month/sector indicators that guide event discovery; do not equate strike participation with public assembly attendance."
+  },
+  {
+    "gap_id": "PRT21M01-G009",
+    "type": "source_access",
+    "description": "An exact-headline search found a matching Renascença result whose URL is dated 20 March 2021, outside this January unit. The Reddit post and article body remain unopened, so the original details are unverified.",
+    "source_ids": [
+      "PRT21M01-S011",
+      "PRT21M01-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not create a January candidate from this lead. Any March research should verify the Renascença article body and original count before use."
+  },
+  {
+    "gap_id": "PRT21M01-G010",
+    "type": "dates",
+    "description": "The RTP lead was opened and is dated 8 March 2021. It reports an aircraft-cleaning workers' demonstration against a collective dismissal of 47, outside the January unit; 47 jobs are not a crowd count.",
+    "source_ids": [
+      "PRT21M01-S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No January candidate from this source. Do not infer attendance from the number of dismissals."
+  },
+  {
+    "gap_id": "PRT21M01-G011",
+    "type": "coverage",
+    "description": "Education-sector searches surfaced a Lusa report dated 26 January announcing a teachers’ and school-professionals’ strike from Monday 1 February, without a reported public assembly in its selected opening text. An SPN archive lists only open-session/debate promotional items for January; this narrow archive does not establish absence of other actions. Search results for teacher demonstrations in 2020 and 2023 were opened and date-disambiguated; a SEPLEU page explicitly places a surfaced district-strike sequence in January 2023.",
+    "source_ids": [
+      "PRT21M01-S015",
+      "PRT21M01-S016",
+      "PRT21M01-S017",
+      "PRT21M01-S018",
+      "PRT21M01-S019"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue local and sector discovery. Do not infer a public gathering from a strike notice or infer no gatherings from this one union archive; seek contemporaneous event reports where other leads arise."
+  }
+]

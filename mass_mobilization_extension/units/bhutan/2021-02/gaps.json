@@ -1,0 +1,114 @@
+[
+  {
+    "gap_id": "BHU202102-G001",
+    "type": "source_access",
+    "description": "The Bhutanese February 2021 archive (S002) returned only a verification loader; archive items were not readable. The exact HTTP status and verification vendor remain unknown. Pre- and post-observation receipts AR002–AR004 are retained. This is an unresolved access limit, not evidence that the archive contained no protest reports.",
+    "source_ids": [
+      "BHU202102-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry or bypass the verification loader. Use separately accessible dated reporting if a later review needs this outlet's coverage."
+  },
+  {
+    "gap_id": "BHU202102-G002",
+    "type": "source_access",
+    "description": "The exact Kantipur Daily e-paper URL (S011) returned HTTP 403 on one ordinary direct HTTPS GET after fresh stable pre-attempt receipt AR014 and a manual ledger review. Response headers showed text/plain and 17 bytes; redirects were disabled and no response body/article text was read. Earlier web Cache miss and sandbox DNS errors are retained separately. AR015 is the preserved intermediate post-capture receipt made before the attempt was represented in the access_attempts schema; AR016 is the subsequent stable receipt that recognizes the exact HTTP 403 and returns hold. No retry or bypass was attempted.",
+    "source_ids": [
+      "BHU202102-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not request this URL again. Treat the e-paper search-result lead as discovery only; any later event claim needs a separately available, permitted source."
+  },
+  {
+    "gap_id": "BHU202102-G003",
+    "type": "source_access",
+    "description": "The official USDOS 2021 Bhutan human-rights report URL (S005) produced only a Technical Difficulties page with 'Exception: forbidden' (web ref turn46view0); no HTTP status was exposed and no report body was read in this unit. The January dossier's opened ecoi mirror BHU202101-S079 is the same USDOS report, not an independent source. No retry of the State route was made.",
+    "source_ids": [
+      "BHU202102-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep S005 body-unread and do not retry the forbidden route. Do not count the January mirror as independent corroboration."
+  },
+  {
+    "gap_id": "BHU202102-G004",
+    "type": "language",
+    "description": "Language coverage is limited. Q004 is one Dzongkha-script search (6 headers); Q010 and Q013 are Nepali searches (22 and 27 headers). S010 was read only to screen a Nepali current-events lead, without a fluent independent Nepali reviewer. S011's Nepali e-paper was not readable after the actual HTTP 403. No fluent Dzongkha review was available. Search snippets and unreviewed translations were not used to code event facts.",
+    "source_ids": [
+      "BHU202102-S010",
+      "BHU202102-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a relevant local-language lead appears, obtain fluent human review of the source body before coding dates, demands, assembly, or attendance."
+  },
+  {
+    "gap_id": "BHU202102-G005",
+    "type": "coverage",
+    "description": "Regional and sector coverage is search-based and uneven. Q007 named Thimphu, Phuentsholing, Gelephu, Sarpang, Samtse, Samdrup Jongkhar, Trashigang, and Mongar. Q008–Q009 covered construction and labor, unpaid wages, teachers, nurses, taxi drivers, farmers, students, and health workers. Accessible BBS bodies S007–S008 report construction slowdowns and a later unpaid-wage grievance, respectively, but no public assembly. Q014's Kuensel-targeted search returned only 3 general/current manifesto or app results and did not search each issue or district archive. This does not cover every locality, sector, or local outlet.",
+    "source_ids": [
+      "BHU202102-S007",
+      "BHU202102-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "For stronger coverage, search dated district and sector records, including local-language reporting and newspaper archives, while preserving each outlet's access rules."
+  },
+  {
+    "gap_id": "BHU202102-G006",
+    "type": "episode_unit",
+    "description": "Q011 and Q012 checked January–February and February–March boundary terms; the saved January dossier records no established January candidate, and no accessible source body in this unit documents a public-action episode continuing across January, February, and March. No continuation row was created. The searches are bounded discovery, so this does not prove there was no such episode.",
+    "source_ids": [
+      "BHU202102-S001",
+      "BHU202102-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If new evidence documents an action starting before February or continuing after it, preserve a single episode and route month ownership to coordinator review rather than splitting it by calendar month."
+  },
+  {
+    "gap_id": "BHU202102-G007",
+    "type": "participants",
+    "description": "No current candidate has a source-documented public assembly, a simultaneous participant count meeting the provisional 50-person threshold, or an event date. S008's approximate 12 workers are workforce size, not demonstrators or turnout. The e-paper S011 is body-unread and cannot establish participants.",
+    "source_ids": [
+      "BHU202102-S008",
+      "BHU202102-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If an event lead is established later, verify that people assembled publicly and distinguish simultaneous attendance from affected populations, workers, families, vehicles, or other totals."
+  },
+  {
+    "gap_id": "BHU202102-G008",
+    "type": "state_target",
+    "description": "No current candidate has a verified demand made by an assembly to Bhutan's domestic government or a government policy. S010 is a Nepali opinion piece on refugee policy and historical displacement; it reports no February 2021 assembly. S011's search-result lead is unread and does not establish an event, its location, or target. No event eligibility is inferred from policy grievances alone.",
+    "source_ids": [
+      "BHU202102-S010",
+      "BHU202102-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "For any later lead, verify the physical act, location, organization, demand, and intended state target from accessible reporting before eligibility review."
+  },
+  {
+    "gap_id": "BHU202102-G009",
+    "type": "baseline",
+    "description": "The official integrated baseline, source universe, schema compatibility, and official country mapping were not verified for this worker task. ccode 760 remains provisional and the official baseline gate is pending. No official observation IDs were assigned.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator must verify the official baseline and country-month mapping before integration; keep this worker dossier separate from the integrated catalogue."
+  },
+  {
+    "gap_id": "BHU202102-G010",
+    "type": "search_method",
+    "description": "The documented method is public web search with 14 captured query actions and 317 raw result headers, not a systematic newspaper-issue census or an exhaustive search across subscription databases. The raw headers include many unrelated-country and repeated items, so header totals are not independent sources or event evidence. A targeted Kuensel query returned only three non-contemporaneous/general results.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Describe this as a bounded open-web first pass. A future review can add systematic issue archives or other authorized searchable collections and record their actual coverage."
+  },
+  {
+    "gap_id": "BHU202102-G011",
+    "type": "source_independence",
+    "description": "Repeated search headers and mirror copies are not independent evidence. S005 is the same USDOS annual report already represented by BHU202101-S079; repeated S001 and other source URLs across queries are the same publication, not corroboration. No candidate relies on duplicate headers.",
+    "source_ids": [
+      "BHU202102-S001",
+      "BHU202102-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain exact URLs and written-origin/variant links; count sources as independent only after the source relationship is established."
+  }
+]

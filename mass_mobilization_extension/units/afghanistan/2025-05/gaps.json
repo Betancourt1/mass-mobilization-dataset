@@ -1,0 +1,107 @@
+[
+  {
+    "gap_id": "AFG202505_G001",
+    "type": "search_method",
+    "description": "The public web search repeatedly returned unrelated or historical materials despite period wording. Search result date filters were visibly unreliable; no item in these responses established a public assembly beginning in this month.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with additional local and regional outlet discovery and date verification; treat the current search pass as a documented partial open-web first pass, not a no-event finding."
+  },
+  {
+    "gap_id": "AFG202505_G002",
+    "type": "coverage",
+    "description": "Searches targeted women’s rights, labor/teachers and selected major/provincial locations but did not systematically cover every Afghan province, occupation, community source or local outlet.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Extend province-by-province and sector-specific source discovery, including contemporary local outlets and civic/union reporting where accessible."
+  },
+  {
+    "gap_id": "AFG202505_G003",
+    "type": "language",
+    "description": "Some Dari and Pashto search terms were used, but no independent translation or systematic review of Pashto/Dari local archives was completed; translated search results may omit or misdate gatherings.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Run native-language searches with qualified language review and inspect contemporary local-language reporting when accessible."
+  },
+  {
+    "gap_id": "AFG202505_G004",
+    "type": "episode_unit",
+    "description": "No in-period event was established from the captured results. Month-boundary continuation remains open. Afghanistan March 2025 report retains undated/search-only women’s gathering leads, including a held TOLOnews Facebook Faryab lead (AFG202503_S001); its date and ownership cannot be inferred, and the existing hold must not be treated as permission to open it or a copy.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resolve dates and start-month ownership from permitted evidence; keep the March Faryab lead held under its existing source-scope restriction unless the owner resolves the restriction."
+  },
+  {
+    "gap_id": "AFG202505_G005",
+    "type": "source_independence",
+    "description": "Two current-unit bodies were actually retrieved, but pre-call manual publisher/origin review is unverified for both. Their contents are excluded from event coding and they do not provide compliant corroboration on the currently preserved control record.",
+    "source_ids": [
+      "AFG202505_S001",
+      "AFG202505_S002"
+    ],
+    "affected_candidates": [
+      "afghanistan_2025-05-E001"
+    ],
+    "required_followup": "Resolve the missing pre-call manual-review control history independently; only then assess whether either opened body can be counted as usable evidence or corroboration."
+  },
+  {
+    "gap_id": "AFG202505_G006",
+    "type": "search_method",
+    "description": "The exact complete search-tool input argument object was not persisted before the initial invocations. Those earlier logs preserve query descriptions and responses but not pre-call request manifests or call-local clocks. Later targeted outlet and candidate-specific searches did save exact arguments before invocation and local UTC start/output-save clocks; their manifests and hashes are retained in the search provenance. Earlier search, reading, waiting and repair intervals remain unknown.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve exact input arguments and local start/response clocks before/around any further calls; do not retroactively infer missing earlier timing or request-envelope metadata."
+  },
+  {
+    "gap_id": "AFG202505_G007",
+    "type": "state_target",
+    "description": "No demand or state-target fact is accepted for the discovery-only May 30 lead. All prior body-derived demand interpretations have been withdrawn because pre-call manual access review is unverified.",
+    "source_ids": [
+      "AFG202505_S001",
+      "AFG202505_S002"
+    ],
+    "affected_candidates": [
+      "afghanistan_2025-05-E001"
+    ],
+    "required_followup": "Establish any demand and state target only from evidence whose source-access control history is independently resolved and usable."
+  },
+  {
+    "gap_id": "AFG202505_G008",
+    "type": "episode_unit",
+    "description": "No location, national scope, attendance, coordination, or local episode fact is accepted for the discovery-only lead. All prior body-derived scope and scale statements are withdrawn because pre-call manual access review is unverified.",
+    "source_ids": [
+      "AFG202505_S001",
+      "AFG202505_S002"
+    ],
+    "affected_candidates": [
+      "afghanistan_2025-05-E001"
+    ],
+    "required_followup": "Establish event location, scale, coordination and unit boundaries only from independently reviewable evidence after control history is resolved."
+  },
+  {
+    "gap_id": "AFG202505_G009",
+    "type": "access_gate",
+    "description": "Fresh exact-URL access receipts preceded both May body requests, but each receipt decision was manual_review with automatic_retrieval_authorized=false and a note that no match is not permission. No contemporaneous saved publisher/origin review note or completion timestamp was found in the unit, access receipts, body request manifests or source_checks ledger. The report’s earlier untimed manual-review statements do not establish that the required review occurred before the body requests. Pre-call manual-review completion is therefore unverified for Pajhwok BODY001 and Times of India BODY002. Both actual body responses are excluded from coding pending independent review. The raw text files are removed after handoff under the coordinator’s exact cleanup approval; source cards and manifests retain hashes, byte/character/line counts, request/receipt paths, observed clocks, and displayed line scopes.",
+    "source_ids": [
+      "AFG202505_S001",
+      "AFG202505_S002"
+    ],
+    "affected_candidates": [
+      "afghanistan_2025-05-E001"
+    ],
+    "required_followup": "Resolve whether contemporaneous review evidence exists outside the saved dossier before treating either read as compliant. No later note can retroactively authorize a prior read."
+  },
+  {
+    "gap_id": "AFG202505_G010",
+    "type": "provenance",
+    "description": "Irrecoverable authored-record preservation gap: before body-derived claims were withdrawn, the saved snapshot retained only the pre-withdrawal events.json SHA-256 49ef5dda4511f05874e2e411c67b085605a9bcfa91521f2a14d65c91c41844a5 and byte size 5279, not the authored event-record bytes. The current candidate ID afghanistan_2025-05-E001 cannot be verified as the original ID; original_candidate_id is null. The pre-withdrawal combined sources.jsonl SHA-256 33e5d0241cc2ae23053f76ec0933a4d0e272f0b5251949552536f1d923cfb374 and byte size 4159 survive, but original source-record bytes and individual original source IDs/hashes were not preserved. Current IDs are provisional and not claimed to be preserved original IDs. No reconstruction or backdating is made.",
+    "source_ids": [
+      "AFG202505_S001",
+      "AFG202505_S002"
+    ],
+    "affected_candidates": [
+      "afghanistan_2025-05-E001"
+    ],
+    "required_followup": "Carry this irrecoverable identity/provenance limitation into any review or transfer. Do not claim current IDs match original IDs. Any future record must receive an explicitly new identity after independent review."
+  }
+]

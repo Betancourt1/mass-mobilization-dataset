@@ -1,0 +1,27 @@
+{
+  "unit_id": "dominican_republic_2021-02",
+  "country": "Dominican Republic",
+  "month": "2021-02",
+  "agent_task": "/root/dominican_republic_2021_02_batch56",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T08:58:11.366646+00:00",
+  "finished_at": "2026-10-10T09:36:51+00:00",
+  "temporary_resources_started": [],
+  "n_queries": 16,
+  "n_sources": 32,
+  "n_candidates": 4,
+  "n_excluded": 4,
+  "n_continuations": 0,
+  "n_gaps": 13,
+  "source_access_counts": {
+    "opened_cards": 0,
+    "search_only_cards": 32,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 370
+  },
+  "coverage_assessment": "Bounded first-pass open-web research in Spanish and English captured 16 exact ordered search invocations and 370 result headers. It produced 32 source cards, all search_only; two exact-URL body attempts ended in Cache miss with no HTTP status or article body, so current-unit body reads are zero. Four provisional event candidates retain unknown turnout, event boundaries, violence and state responses; scheduled, cancelled, foreign-target and work-stoppage-only leads are separately excluded or left as gaps. Search indexing does not establish exhaustiveness or event absence; local archive and LexisNexis coverage are unknown.",
+  "baseline_gate": "pending_official_baseline"
+}

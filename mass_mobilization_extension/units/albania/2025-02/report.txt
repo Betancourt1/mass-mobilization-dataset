@@ -1,0 +1,15 @@
+Albania 2025-02 — open-web first pass; pending review
+
+Status: researched_open_web_pending_review. Provisional monthly research only; this does not establish an official event list or exhaustive coverage.
+
+Search and provenance: 13 per-month invocation records / 228 visibly returned headers. Q000 is shared and stored once in January. February Q012 and March Q012 are distinct actual invocations with separate rendered responses (turn198search* and turn183search* respectively) and are counted in their respective monthly logs. Their saved three-query inputs are identical; native tool-call payloads were not recovered independently, so no further input provenance is claimed. Q001–Q003 raw responses were lost before preservation was required. Other rendered outputs are privately preserved as noted in query records; native search metadata is unknown and only visible title/URL/ref/order are retained. Query excerpts were not used as evidence. Week-window, local-language, sector/regional, Feb 8/11 and candidate follow-ups are recorded. Results were noisy, including out-of-period and unrelated items.
+
+Sources and candidate: S001 Albanian Daily News body is dated 2026 and excluded. S002 exact AP story URL returned HTTP 403 after fresh checks; no body was reviewed and no AP copy is used. S003 Citizens.al reports a Feb 11 gathering outside the Prime Minister’s Office and calls for Edi Rama to resign; the article says “dozens” without a count. ALB202502-E001 remains pending_threshold. Q013 found no further independent numeric turnout report; S004 Albanian Times remains search_only and does not establish the candidate’s attendance or continuity.
+
+Events: 1 candidate; exclusions: 1 (out of period); continuations: 0. Attendance ≥50, exact organizer, state response, end time and relationship to other opposition actions remain for review. Search excerpts are not substituted for source bodies.
+
+Coverage and limitations: Searches covered generic English and Albanian terms, sectors, Tirana and regional local news, each February week, Feb 8 turnout and the Feb 11 event. Open-web discovery is not equivalent to LexisNexis or a systematic archive. AP’s exact denied story and copies remain held.
+
+Timing: total search-only, body-read, wait, rework and closure times are unknown. The newly observed Q013 interval includes search plus local persistence (2.9s), not isolated search latency; Q012 and earlier operations lack separable timing. S003 body-read duration is unknown.
+
+Capture hash note: Q008 rendered capture hash was reconciled in capture-history/rendered_search_hash_reconciliation_20261010.json: the stored declared digest matches UTF-8 text after universal-newline normalization, while the physical file-byte digest includes CRLF. The original expected hash was preserved.

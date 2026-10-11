@@ -1,0 +1,33 @@
+{
+  "unit_id": "argentina_2021-01",
+  "country": "Argentina",
+  "month": "2021-01",
+  "agent_task": "/root/argentina_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": null,
+  "finished_at": "2026-10-08 06:03:12 UTC",
+  "research_start_checkpoint_at": "2026-10-08 05:51:26 UTC",
+  "started_at_provenance": "Exact research start not recorded; assignment timestamp and first saved research checkpoint exist separately. Null avoids treating either as exact start.",
+  "finished_at_provenance": "Clock sampled at final dossier preparation; validation follows.",
+  "n_queries": 33,
+  "n_sources": 98,
+  "n_candidates": 23,
+  "n_excluded": 4,
+  "n_continuations": 3,
+  "n_gaps": 21,
+  "eligibility_counts": {
+    "pending_evidence": 15,
+    "pending_threshold": 6,
+    "proposed_include": 1,
+    "pending_state_target": 1
+  },
+  "source_access_counts": {
+    "blocked": 23,
+    "search_only": 62,
+    "opened": 13
+  },
+  "coverage_assessment": "Documented first open-web pass in Spanish/English, general/weekly/sector/provincial and December 2020/February 2021 boundary checks. Partial geographic/archive coverage, unreliable date filters, blocked sources and unresolved attendance/units remain. No exhaustiveness or zero-event claim.",
+  "baseline_gate": "pending_official_baseline",
+  "fixed_event_cutoff": "2026-10-07 America/Mexico_City",
+  "temporary_resources_started": []
+}

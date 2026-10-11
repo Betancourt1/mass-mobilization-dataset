@@ -1,0 +1,30 @@
+[
+  {
+    "gap_id": "AFG202501_G001",
+    "type": "search_method",
+    "description": "Initial two-query batch returned results, but the complete actual tool string was not persisted before parsing, so exact returned headers and URLs cannot be recovered or attributed. The search was not empty.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Repeat neither query retroactively; continue with fresh single-query calls, persist each full returned string before parsing, and keep this incident in the provenance record."
+  },
+  {
+    "gap_id": "AFG202501_G002",
+    "type": "source_access",
+    "description": "Le Monde source AFG202501_S001 remains blocked by a fresh exact-URL receipt matching an inherited Le Monde publisher-scope paywall guard; no publisher body request was made.",
+    "source_ids": [
+      "AFG202501_S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep this URL held. Continue independent sources and use exact-URL receipts/manual checks for other candidate sources."
+  },
+  {
+    "gap_id": "AFG202501_G003",
+    "type": "coverage",
+    "description": "20 recorded search invocations (201 captured result headers) completed the broad open-web first pass: English, Dari/Pashto, local calendar, regional/sector searches, date-window and December/January boundary queries, plus targeted UNAMA/OHCHR and HRW/Amnesty monitoring. Targeted official/UN/HRW searches were attempted. The UNAMA/OHCHR domain query returned unrelated results, and human-rights search mostly surfaced broad or later material; search-engine filtering was unreliable. The first two-query batch capture loss remains explicit; returned results often ignored date/site terms.",
+    "source_ids": [
+      "AFG202501_S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Independent review may decide whether narrower local archive searches are needed. Any later dated lead requires event-level date, attendance, target, response and continuity evidence; do not infer absence."
+  }
+]

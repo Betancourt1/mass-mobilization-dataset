@@ -1,0 +1,83 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "participants",
+    "description": "May 16 opposition turnout is described as “small” without a count, leaving the 50-person threshold unresolved. May 1 and May 24 attendance are described as hundreds without numeric counts.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "ALB202505-E001",
+      "ALB202505-E002",
+      "ALB202505-E003"
+    ],
+    "required_followup": "Seek independent contemporaneous attendance reporting; do not translate qualitative estimates into numeric bounds."
+  },
+  {
+    "gap_id": "G002",
+    "type": "state_response",
+    "description": "Reviewed accounts do not resolve the seven state-response fields for any May candidate. CIVICUS reports no major police intervention at the May 16 protest, which does not resolve each field. The Pride account quotes ministerial support and a dialogue invitation but no formal action.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "ALB202505-E001",
+      "ALB202505-E002",
+      "ALB202505-E003"
+    ],
+    "required_followup": "Verify each response dimension separately from event-specific sources."
+  },
+  {
+    "gap_id": "G003",
+    "type": "event_identity_and_access",
+    "description": "OSAC S007’s captured search-result title names a planned demonstration near the U.S. Embassy on May 16; its body was not reviewed. The prior source brief’s more specific Zogu I Boulevard wording is not supported by the captured header and remains unverified. CIVICUS S001 separately reports an opposition protest in Tirana; no evidence establishes whether the OSAC lead is the same action. Top Channel S004 exact URL returned HTTP 403; coordinator directs that the exact story and same-story variants, translations, mirrors and written-origin copies remain held. CIVICUS S001 was read before the denial, and that chronology/derivative relationship is retained without authorizing a copy.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S007"
+    ],
+    "affected_candidates": [
+      "ALB202505-E002"
+    ],
+    "required_followup": "Do not infer a precise OSAC venue or event identity from title/snippet text; verify only through a separately permitted independent source. Retain the Top Channel exact-story and copy hold."
+  },
+  {
+    "gap_id": "G004",
+    "type": "source_independence",
+    "description": "CIVICUS S001 links directly to the CLR PDF for May Day and the Citizens.al article for Pride. The accounts are therefore related, not independent corroboration. The CLR PDF is an organizer statement.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "ALB202505-E001",
+      "ALB202505-E003"
+    ],
+    "required_followup": "Find independent contemporary reporting where available and preserve source provenance."
+  },
+  {
+    "gap_id": "G005",
+    "type": "search_coverage",
+    "description": "Open-web first pass included English and Albanian generic, weekly, sector, local/regional, candidate-specific and retrospective searches. Search engines returned substantial out-of-period noise; LexisNexis-equivalent newspaper archive access and exhaustive coverage cannot be established. No June continuation of these May actions was verified.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ALB202505-E001",
+      "ALB202505-E002",
+      "ALB202505-E003"
+    ],
+    "required_followup": "Pending coordinator review, the month-boundary/continuity and source-coverage gaps remain open."
+  }
+]

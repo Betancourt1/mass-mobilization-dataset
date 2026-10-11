@@ -1,0 +1,105 @@
+[
+  {
+    "candidate_id": "afghanistan_2025-08-E001",
+    "country": "Afghanistan",
+    "ccode": "700",
+    "unit_month": "2025-08",
+    "title": "United Afghan Women’s Movement for Freedom indoor protest against Taliban rule in Takhar",
+    "start_date": "2025-08-15",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Takhar province, Afghanistan; exact locality and venue unknown",
+    "scope": "A reported indoor protest in Takhar; attendance, public access and geographic extent unknown",
+    "organizer": "United Afghan Women’s Movement for Freedom",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Unknown. The sole opened article says an indoor protest occurred but reports no attendance count or size; public access to the venue is also unspecified. The >=50 criterion is therefore unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "AFG202508_S001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "AFG202508_S001"
+        ],
+        "summary": "The article identifies the protest as occurring on Friday; it is reported with the Friday 15 Aug 2025 anniversary and was published that same date, so this event date is coded as 2025-08-15."
+      },
+      "location": {
+        "source_ids": [
+          "AFG202508_S001"
+        ],
+        "summary": "The article places the indoor protest in north-eastern Takhar province; it gives no town, venue, or subnational scope."
+      },
+      "organizer": {
+        "source_ids": [
+          "AFG202508_S001"
+        ],
+        "summary": "The article names members of the United Afghan Women’s Movement for Freedom."
+      },
+      "demands": {
+        "source_ids": [
+          "AFG202508_S001"
+        ],
+        "summary": "The article characterizes the gathering as a protest against Taliban rule and quotes the movement describing women’s exclusion from work, education, and social life."
+      },
+      "participants": {
+        "source_ids": [
+          "AFG202508_S001"
+        ],
+        "summary": "Attendance not reported; no number or group-size range can be inferred."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "AFG202508_S001"
+        ],
+        "summary": "Not established: no reported participant count and indoor public accessibility is unspecified."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "AFG202508_S001"
+        ],
+        "summary": "The article does not report protester violence; value remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "AFG202508_S001"
+        ],
+        "summary": "No event-specific response by state authorities is reported; all response fields remain unknown."
+      },
+      "source_origin": {
+        "source_ids": [
+          "AFG202508_S001"
+        ],
+        "summary": "The article is by Guardian staff and agencies and says the movement statement was shared with Associated Press. The underlying reporting/source relationship and independent corroboration are unresolved."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "afghanistan-2025-08-takhar-2025-08-15-womens-movement",
+    "notes": "Single Guardian article reports an indoor protest on the anniversary Friday in Takhar. It supplies an organizer and a protest against Taliban rule, but not group size, exact venue, public access, state response, or violence. The article’s byline is Guardian staff and agencies and it says the statement was shared with AP; no AP article/body or mirror was opened, so independent source origin is unresolved. This remains a provisional lead and is not a qualifying event or official inclusion.",
+    "open_questions": [
+      "Did the indoor protest involve at least 50 participants?",
+      "Was the venue open to the public or otherwise within the codebook's public-gathering scope?",
+      "What town and exact venue in Takhar?",
+      "What was the precise state-directed demand, beyond opposition to Taliban rule and women's exclusion?",
+      "Who supplied the article's event reporting (Guardian staff, Associated Press, or another agency), and is independent corroboration available without using held copies?",
+      "Was there any state response, protester violence, or physical end?",
+      "Was this a distinct event or part of a continuing campaign, and did it start in the 15 August local day?"
+    ]
+  }
+]

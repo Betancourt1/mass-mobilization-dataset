@@ -1,0 +1,35 @@
+{
+  "unit_id": "bosnia_2021-01",
+  "country": "Bosnia",
+  "month": "2021-01",
+  "agent_task": "/root/bosnia_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": null,
+  "finished_at": "2026-10-08T07:19:33Z",
+  "temporary_resources_started": [],
+  "n_candidates": 11,
+  "n_queries": 71,
+  "n_sources": 324,
+  "n_excluded": 4,
+  "n_continuations": 6,
+  "n_gaps": 13,
+  "eligibility_counts": {
+    "proposed_include": 4,
+    "pending_threshold": 3,
+    "pending_evidence": 2,
+    "pending_unit": 1,
+    "pending_state_target": 1
+  },
+  "source_access_counts": {
+    "opened": 21,
+    "search_only": 297,
+    "blocked": 6
+  },
+  "coverage_assessment": "General, weekly, regional, sector, English and Bosnian/Croatian/Serbian Latin/Cyrillic searches with December2020/February2021 boundary checks. Open-web discovery and selected contemporaneous readings; sparse local archives/date-filter noise, blocked pages and unknown thresholds prevent exhaustive or zero-event claims.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources_closed": [],
+  "temporary_resources_remaining": [],
+  "resource_verification": "No background server, watcher, browser, container or VM started. Foreground retrieval/write processes returned exit0; no persistent sessions retained.",
+  "next_action": "Coordinator read-only audit, episode/attribution review, validation/consolidation and authorized commit. Follow gaps for unresolved source/threshold/boundary evidence.",
+  "source_checkpoint": "413426c"
+}

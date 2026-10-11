@@ -1,0 +1,233 @@
+[
+  {
+    "gap_id": "algeria_2021-02_G001",
+    "type": "baseline",
+    "description": "The verified current official MM event files, current universe/schema, reuse terms and additional Coding Procedure are unavailable. The 2015 historical manual and provisional code 615 do not establish official compatibility or IDs.",
+    "source_ids": [],
+    "affected_candidates": [
+      "algeria_2021-02_E001",
+      "algeria_2021-02_E002",
+      "algeria_2021-02_E003",
+      "algeria_2021-02_E004",
+      "algeria_2021-02_E005",
+      "algeria_2021-02_E006",
+      "algeria_2021-02_E007",
+      "algeria_2021-02_E008",
+      "algeria_2021-02_E009",
+      "algeria_2021-02_E010",
+      "algeria_2021-02_E011"
+    ],
+    "required_followup": "Coordinator must verify authoritative current dataset bytes, universe, schema and episode guidance before any official mapping or export."
+  },
+  {
+    "gap_id": "algeria_2021-02_G002",
+    "type": "search_method_coverage",
+    "description": "18 open-web queries retain 437 actual result headers across English, French and Arabic; this is not a coverage denominator. Q001/Q002 header arrays remain saved but their original raw-store keys were not retained and are recorded null with that limitation. Q011 has a known raw key but no exact response timestamp. Q013–Q016 add southern unemployment, ENIEM and housing leads; Q017 adds anniversary/multi-wilaya leads and Q018 adds sector-strike leads. The opened Q018 Liberté result is dated April 7, outside the assigned month. No independent Tamazight review was conducted; coverage remains non-exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [
+      "algeria_2021-02_E001",
+      "algeria_2021-02_E002",
+      "algeria_2021-02_E003",
+      "algeria_2021-02_E004",
+      "algeria_2021-02_E005",
+      "algeria_2021-02_E006",
+      "algeria_2021-02_E007",
+      "algeria_2021-02_E008",
+      "algeria_2021-02_E009",
+      "algeria_2021-02_E010",
+      "algeria_2021-02_E011",
+      "algeria_2021-02_E012",
+      "algeria_2021-02_E013",
+      "algeria_2021-02_E014",
+      "algeria_2021-02_E015",
+      "algeria_2021-02_E021"
+    ],
+    "required_followup": "Use a dated newspaper archive or equivalent and additional local-language review; preserve the stated capture limits and do not infer absence from search results."
+  },
+  {
+    "gap_id": "algeria_2021-02_G003",
+    "type": "episode_unit",
+    "description": "The January Jijel E004 boundary remains unresolved. Opened ObservAlgérie (S017) places two nights on January 30–31, says several dozen, and gives no physical end. A January Twala source card (S085, copied with original reader/time identified) also dates the first night January 30. A prior Le Monde article describes hundreds over consecutive nights; the prior Le Jeune Indépendant three-day lead is unopened. No physical February continuation is established, and this is a boundary lead rather than a February event. The February 2 Le360 report S103 is search-only and recounts the late-January actions; it does not establish February continuation or a physical ending.",
+    "source_ids": [
+      "S017",
+      "S023",
+      "S085"
+    ],
+    "affected_candidates": [
+      "algeria_2021-01_E004"
+    ],
+    "related_prior_unit_sources": [
+      "algeria_2021-01:S002",
+      "algeria_2021-01:S039"
+    ],
+    "required_followup": "Check original article/PDF dates and physical activity through February 1; do not infer end from publication date or silence."
+  },
+  {
+    "gap_id": "algeria_2021-02_G004",
+    "type": "participants_threshold",
+    "description": "Several local actions remain below or without a site-specific attendance estimate. The national arrest total is not a crowd count. E001 lacks an Algiers-only threshold estimate; E004 has no count at each listed site; E006, E008, E009, E010 and E011 have no qualifying local lower bound. The new opened Maghreb Émergent report S099 describes dozens in Touggort but not a definite 50-person minimum; Hassi R’Mel and the other Ouargla leads have no count. Qualitative hundreds reports for E002/E003 and E007 support only broad threshold evidence, not exact intervals. The Touggourt-to-Algiers march E016 was reported with more than a dozen starters, but no clear 50-person lower bound. E021 is an actual earlier Oran AADL-agency gathering but has no attendance estimate; delegates alone do not establish 50. The February 9 wilaya sit-in in S115 was announced, not confirmed as held.",
+    "source_ids": [
+      "S003",
+      "S025",
+      "S035",
+      "S038",
+      "S053",
+      "S066",
+      "S075",
+      "S099",
+      "S101"
+    ],
+    "affected_candidates": [
+      "algeria_2021-02_E001",
+      "algeria_2021-02_E004",
+      "algeria_2021-02_E006",
+      "algeria_2021-02_E008",
+      "algeria_2021-02_E009",
+      "algeria_2021-02_E010",
+      "algeria_2021-02_E011",
+      "algeria_2021-02_E012",
+      "algeria_2021-02_E013",
+      "algeria_2021-02_E014",
+      "algeria_2021-02_E015",
+      "algeria_2021-02_E016",
+      "algeria_2021-02_E021"
+    ],
+    "required_followup": "Seek attributed site-level estimates or direct visual documentation; never transfer national, workforce, arrest or neighboring-city counts."
+  },
+  {
+    "gap_id": "algeria_2021-02_G005",
+    "type": "state_response",
+    "description": "For most candidates the seven event-specific state-response fields remain unknown. E005 has Algiers baton/tear-gas evidence at the Grande Poste; whether any crowd was cleared is unresolved. E006 has an Oran arrest attributed through CNLD and Ennahar’s report of forced dispersal. E015 now records Ouargla February 9 police dispersal at the wilaya-side portal and later Mekhadma, based on Le360’s account citing El Watan; S099’s four arrests are linked only provisionally. These local scopes are not replaced by Anadolu’s broader statement about no police intervention in the capital. E021 records accommodation only for the earlier Oran gathering because delegates report being received by the AADL regional director; all other response dimensions remain unknown. S115 does not confirm occurrence of the separately announced February 9 wilaya sit-in.",
+    "source_ids": [
+      "S003",
+      "S025",
+      "S066",
+      "S075",
+      "S099",
+      "S100"
+    ],
+    "affected_candidates": [
+      "algeria_2021-02_E001",
+      "algeria_2021-02_E005",
+      "algeria_2021-02_E006",
+      "algeria_2021-02_E007",
+      "algeria_2021-02_E008",
+      "algeria_2021-02_E009",
+      "algeria_2021-02_E010",
+      "algeria_2021-02_E011",
+      "algeria_2021-02_E012",
+      "algeria_2021-02_E013",
+      "algeria_2021-02_E014",
+      "algeria_2021-02_E015",
+      "algeria_2021-02_E021"
+    ],
+    "required_followup": "Compare event- and site-specific accounts for arrests, beatings, dispersal and other responses; keep all unreported fields unknown."
+  },
+  {
+    "gap_id": "algeria_2021-02_G006",
+    "type": "source_access",
+    "description": "Several source bodies remain unavailable under saved access restrictions or technical retrieval failures. S004/S006 are retained under a prior Deutsche Welle robots restriction; S005 under a saved Human Rights Watch 403; S097 was not requested after the global guard found an actual 403 for a different Al-Araby article, so no target-specific denial is claimed. S046 Le Courrier produced Cache miss, DNS failure (exit 1) and TLS timeout (exit 1), with no HTTP response or body; these are technical errors, not a publisher denial.",
+    "source_ids": [
+      "S004",
+      "S005",
+      "S006",
+      "S046",
+      "S097"
+    ],
+    "affected_candidates": [
+      "algeria_2021-02_E002",
+      "algeria_2021-02_E001"
+    ],
+    "required_followup": "Respect publisher holds. For S046, only a future ordinary exact-URL retrieval if technically available; do not repeat a denied request or use copies to bypass a restriction."
+  },
+  {
+    "gap_id": "algeria_2021-02_G007",
+    "type": "source_independence",
+    "description": "Multiple publishers and attributed speakers are present, but not every written origin or syndication relationship was established. Le Monde names no individual author; its AP credit is a photograph credit. Interlignes video, CNLD and LADDH attributions do not establish article authorship. Le360 S100 explicitly relies on El Watan for the detailed Ouargla site/sequence report and is not counted as independent confirmation. S099 is a separate publisher report; independence of its local sources is unverified. ENIEM work-return sources from February are search-only and several cite APS/El Watan; they are not counted as independent accounts or as February public assemblies.",
+    "source_ids": [
+      "S025",
+      "S066",
+      "S075",
+      "S099",
+      "S100",
+      "S103",
+      "S104",
+      "S105",
+      "S108",
+      "S110"
+    ],
+    "affected_candidates": [
+      "algeria_2021-02_E005",
+      "algeria_2021-02_E006",
+      "algeria_2021-02_E007",
+      "algeria_2021-02_E010",
+      "algeria_2021-02_E011"
+    ],
+    "required_followup": "Capture bylines, written origins, agency syndication and source dependence from accessible originals before counting corroboration."
+  },
+  {
+    "gap_id": "algeria_2021-02_G008",
+    "type": "language",
+    "description": "Research used French, Arabic and English queries. French and Arabic source wording was read by this agent, but no independent Arabic or French review was performed; no Tamazight search/review was conducted. Ennahar Arabic descriptions, local slogans and translation-dependent scale terms therefore remain open to linguistic review.",
+    "source_ids": [
+      "S003",
+      "S017",
+      "S066"
+    ],
+    "affected_candidates": [
+      "algeria_2021-02_E001",
+      "algeria_2021-02_E005",
+      "algeria_2021-02_E006",
+      "algeria_2021-02_E007",
+      "algeria_2021-02_E008",
+      "algeria_2021-02_E009"
+    ],
+    "required_followup": "Request independent Arabic and French wording review, and add feasible Tamazight discovery before approval."
+  },
+  {
+    "gap_id": "algeria_2021-02_G009",
+    "type": "episode_unit_and_state_target",
+    "description": "Separate local/site-day records are retained where reports provide distinct dates or locations: February 15 Bejaia, February 16 Kherrata, February 25 Constantine/Annaba, and February 26 Algiers/Oran/Bordj Bou Arreridj/Bejaia/Constantine. The February 22 anniversary is also distinct. The relationship between the recurring Hirak campaign and each local action awaits original episode rules; Annaba’s own-state demand is not explicit and E009 remains pending_state_target. The opened February 9 Maghreb Émergent article S099 also reports separate jobseekers’ actions at Touggort, Hassi R’Mel and Ouargla. The stopped march has an ambiguous city referent; the Ouargla university sit-in has no physical date; these are separate pending records, not an inferred unified episode. Le360 S100 dates the Ouargla unemployed gathering to February 9 and reports a wilaya-side portal and later Mekhadma regrouping, with details attributed to El Watan. This is separate from Touggort, Hassi R’Mel and the undated Ouargla university sit-in; no January action or planned Hassi Messaoud march is counted as February activity. The opened ObservAlgérie report S101 describes a Touggourt-to-Algiers march underway by February 4, with a reported Monday/February 2 weekday/date mismatch and no endpoint; it remains separate from February 9 local Touggort and Ouargla actions. For the January-start ENIEM dispute, February sources describe factory return-to-work following the January 31 assembly; they establish no February public gathering or physical end of the earlier street march. Q015 yielded a search-only February 7 DK News lead about housing applicants blocking RN.09 in Béjaïa; exact action date, location, turnout and relation to other local housing actions await original review. The hall-owner gathering located by this search was reported for March 7, outside the assigned month. Q016 adds separate search-only housing leads: VAVA S116 reports February 7 closures at Toudja and At Ksila APC offices and recalls a February 5 Taskriout road closure; DK News S112 previews a Taskriout RN.09 action and S113 is a separate La Nation issue with disconnected AADL2 fragments. These must not be merged across site/day without original evidence. S114 opened VAVA evidence supports an AADL2 sit-in at the Béjaïa wilaya seat on February 8; it was ongoing at publication, and S115 only announces an Oran February 9 sit-in so far. The opened VAVA innova body S116 distinguishes February 7 Toudja and At Ksila APC closures from Taskriout’s February 5 RN9 action over housing lists. No crowd counts or end/response boundaries are reported. It links a separate Taskriout article that remains unopened; its photographs are also uninspected. These city/day records remain separate. S115 now confirms an earlier AADL subscriber gathering at the Oran regional agency, but gives only 'beginning of the week' before its February 9 publication; the exact day, count and end remain unknown. It separately announces a February 9 sit-in at the wilaya seat, without confirming it occurred. The prior-unit Algérie54 S034 Oran AADL lead remains search-only with unknown date and relationship; it is not independent corroboration. E021 is a separate pending-threshold record for the earlier gathering. Q018's opened Liberté report S123 is dated April 7, 2021 and concerns later health-sector actions; it does not establish any February occurrence. Keep it as an out-of-month boundary item.",
+    "source_ids": [
+      "S003",
+      "S025",
+      "S035",
+      "S053",
+      "S066",
+      "S075",
+      "S099",
+      "S100",
+      "S101",
+      "S103",
+      "S104",
+      "S105",
+      "S108",
+      "S110",
+      "S111",
+      "S112",
+      "S113",
+      "S114",
+      "S115",
+      "S116"
+    ],
+    "affected_candidates": [
+      "algeria_2021-02_E001",
+      "algeria_2021-02_E002",
+      "algeria_2021-02_E003",
+      "algeria_2021-02_E005",
+      "algeria_2021-02_E006",
+      "algeria_2021-02_E007",
+      "algeria_2021-02_E008",
+      "algeria_2021-02_E009",
+      "algeria_2021-02_E010",
+      "algeria_2021-02_E011",
+      "algeria_2021-02_E012",
+      "algeria_2021-02_E013",
+      "algeria_2021-02_E014",
+      "algeria_2021-02_E015",
+      "algeria_2021-02_E016",
+      "algeria_2021-02_E021"
+    ],
+    "required_followup": "Apply verified original episode and state-target definitions; do not merge a recurring campaign, different cities or adjacent days by date alone."
+  }
+]

@@ -1,0 +1,25 @@
+Papua New Guinea, January 2021 unit research report
+
+Status: researched_open_web_pending_review. The unit covers January 1–31, 2021. The event cutoff is 2026-10-07 inclusive, America/Mexico_City. The official baseline gate remains pending.
+
+Methods and coverage
+
+Twenty-one individual open-web searches are logged. They include general searches and one search for each week of January; targeted searches for Kavieng Airport and its compensation dispute; Tok Pisin/local-name searches; local newspaper and archive searches; Bougainville, Hela, urban-region, land/mining, university, labor/health and COVID-policy searches; and December/February boundary checks. Each captured result retains its URL and reference header. Four title values are null where the returned text could not be cleanly separated into a reliable title; they were not reconstructed. The search tool did not expose total result counts, and several date-window queries returned unrelated stories about the January 2024 riots. These searches do not prove that no other event occurred.
+
+Nineteen source cards are recorded: 15 opened and four search_only. Three pages that returned web Cache miss were recovered with one ordinary public HTTPS read each (HTTP 200); only short text was examined in memory, and no article copies were saved. One local newspaper page returned a fetch timeout and remains search_only. The open-web method does not reproduce LexisNexis; local-language and regional archives remain unevenly indexed. Tok Pisin/local-name queries produced mostly English or unrelated results, so language coverage is limited.
+
+Candidate event
+
+One candidate, papua_new_guinea_2021-01_E001, is the Kavieng Airport landowners’ sit-in over unpaid compensation. A January 13 contemporary report republished by Papua New Guinea Today and credited to NBC News says the sit-in began Monday, January 11, at Kavieng Airport in New Ireland Province. It identifies demands for the National Government and National Airports Corporation to pay outstanding compensation for airport redevelopment. Amnesty International’s 2021/22 report also places a landowners’ sit-in in New Ireland in January 2021. The later April compensation report is campaign context and does not describe whether the sit-in continued.
+
+Neither source gives an attendance estimate. Eligibility is pending_threshold. The sit-in was reported as continuing on January 13, but no physical end date is established. The PNG Today story is a republication credited to NBC News; the two labels are one reporting origin. The later Amnesty report is a separate summary, but its underlying sourcing is not established. Protester violence and all seven state-response dimensions remain unknown; absence of reporting is not coded as absence of action.
+
+Continuations and filtered leads
+
+No episode beginning before January was identified in the December lookback searches; this is not proof none existed. February searches did not find a report establishing when the Kavieng sit-in physically ended. The continuation array is empty because no pre-January episode with a supported date was found. Later compensation coverage does not date the sit-in’s end.
+
+Four leads are preserved with reasons in excluded.json: a formal 2020 Panguna complaint with no public gathering reported; a later-2021 Hela landowners’ protest announcement with ambiguous date and no verified occurrence; a June 2021 UPNG student protest outside the month; and a November 2021 parliamentary walkout outside the month that was not a reported public mass gathering. Separate May and November 2021 nurses’ sit-ins and a later Kavieng landowners’ meeting are not treated as continuations of the January landowners’ action.
+
+Open gaps
+
+The eight recorded gaps cover the 50-person threshold; the physical end date; syndication and source independence; bounded web coverage and missing LexisNexis equivalence; limited Tok Pisin/local-language coverage; the official dataset, universe and Coding Procedure gate; one search-only local newspaper page with unknown date/relevance; and unknown state response during the sit-in.

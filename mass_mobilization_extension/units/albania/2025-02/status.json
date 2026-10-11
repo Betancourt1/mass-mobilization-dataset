@@ -1,0 +1,37 @@
+{
+  "unit_id": "albania_2025-02",
+  "country": "Albania",
+  "month": "2025-02",
+  "agent_task": "/root/albania_q1",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T22:36:24.673994+00:00",
+  "finished_at": "2026-10-10T23:39:23Z",
+  "n_queries": 13,
+  "n_sources": 4,
+  "n_candidates": 1,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "source_access_counts": {
+    "opened_cards": 2,
+    "search_only_cards": 1,
+    "blocked_cards": 1,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "capture_status": "degraded_rendered_header_metadata_with_capture_and_excerpt_limitations_disclosed",
+    "captured_header_count": 228,
+    "notes": "Counts are saved visible headers only; native metadata remains unknown. Q000 pooled consultation is stored once in January and referenced by other months. Q001–Q003 raw response losses remain disclosed. Every later actual rendered invocation currently preserved before parsing; result excerpts are discovery only, not substantive evidence. See per-query private provenance/hash notes and source/gap records. Three earlier rendered response hash discrepancies were checked: expected digests match UTF-8 text after universal-newline normalization; current file-byte hashes differ because CRLF is present. Both are recorded without replacing expected hashes in capture-history/rendered_search_hash_reconciliation_20261010.json."
+  },
+  "timings": {
+    "search_elapsed_seconds": null,
+    "body_read_elapsed_seconds": null,
+    "wait_elapsed_seconds": null,
+    "rework_elapsed_seconds": null,
+    "closure_elapsed_seconds": null,
+    "known_combined_search_and_persistence_intervals": "Q013 search-and-preservation call: 2.9s; this combined interval is not isolated search latency. Q012 and earlier operation intervals unknown.",
+    "reason": "The combined wall intervals include tool search and local preservation and cannot isolate search latency. Exact total search, source reading, waiting, rework, and closure intervals are unavailable; unknowns are left null."
+  },
+  "coverage_assessment": "Open-web first pass completed for February 2025 and submitted for review. It includes generic Albanian/English discovery, sector/regional terms, all four February week windows, Feb 8 and Feb 11 follow-ups, and a March 15 candidate follow-up (a separate March Q012 invocation is recorded in March). The Feb 11 event remains below verified threshold evidence; no absence claim is made.",
+  "baseline_gate": "pending_official_baseline"
+}

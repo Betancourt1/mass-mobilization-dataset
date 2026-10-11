@@ -1,0 +1,24 @@
+{
+  "unit_id": "costa_rica_2021-01",
+  "country": "Costa Rica",
+  "month": "2021-01",
+  "agent_task": "/root/costa_rica_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T08:59:50+00:00",
+  "finished_at": "2026-10-08T09:11:03+00:00",
+  "n_queries": 51,
+  "n_sources": 51,
+  "n_candidates": 8,
+  "n_excluded": 6,
+  "n_continuations": 0,
+  "n_gaps": 14,
+  "coverage_assessment": "Bounded Spanish open-web national/local, regional, sector, weekly and adjacent-month first pass. Original government/news/organizer bodies and UCR secondary chronology read where accessible. No verified >=50 candidate; announcements, inaccessible bodies and hospital episode boundaries remain pending. Weekly search operators were unreliable; local coverage is uneven. Per-open clocks unavailable and explicitly null; actual batch query and persistence clocks recorded. Not exhaustive or equivalent to LexisNexis. All worker decisions await independent review.",
+  "baseline_gate": "pending_official_baseline",
+  "frozen_for_review": true,
+  "temporary_resources": {
+    "started_background_resources": [],
+    "foreground_reader_sessions_completed": [82074, 38981, 13534],
+    "remaining_running_resources": [],
+    "verification": "Each foreground reader returned exit code 0; no browser/server/container/watcher/builder was started."
+  }
+}

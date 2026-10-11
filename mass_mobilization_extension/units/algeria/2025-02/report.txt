@@ -1,0 +1,21 @@
+Algeria 2025-02 — open-web first pass pending review
+
+Status: researched_open_web_pending_review. First-pass research is done; residual evidence gaps remain pending independent review.
+
+Coverage: 14 actual search invocations containing 19 submitted query strings, with 97 query-aligned visible headers plus 66 invocation-level headers are logged across French, Arabic, and English searches. Candidate-specific discovery targeted M’sila on 24 February, teachers’ unions, resident doctors, and local/official sources. Many results were historical/noisy; multi-query batches are kept as invocation-level traces where result-to-query allocation was unavailable. Search excerpts remain discovery only.
+
+Evidence: One provisional local candidate is retained for a teachers’ union gathering outside the M’sila Education Directorate on 24 February. Maghreb Emergent’s contemporary report and a joint 2026 FIDH/OMCT retrospective identify a gathering; the latter places the two union leaders’ arrests about 30 km away. Neither supplies attendance or specific demands; >=50 remains unresolved. CIVICUS explicitly relays Maghreb Emergent. Africanews S003 explicitly credits AP and is not an independent account; its preserved body-read occurred before later unrelated AP URL denials and remains excluded from independent evidence pending scope review. No national-to-local split is inferred.
+
+Source scope: 11 source cards (4 opened, 7 search_only). S003, S007, S010 and S011 have limited recorded written-text reads. S009 returned a tool Internal Error with no body; it was not retried. S002 AP likewise has only an earlier tool error and remains held from retry; S001 Le Monde is under an inherited hold. Search-only snippets establish no event facts.
+
+Open gaps include attendance/threshold and demands; Feb. 23–24 physical continuity; possible doctor actions; independent source origins; local/regional, union and official coverage; cross-month boundaries; and baseline verification. Full inventory is in gaps.json. The detailed event remains pending_threshold; no absence inference is made.
+
+Capture integrity: complete actual rendered strings are saved privately with per-invocation hashes. Original structured tool metadata and native clocks are unavailable and unknown. First-run capture-order history is preserved in capture_provenance; no missing metadata was reconstructed.
+
+Counts at this checkpoint: 14 search invocations (19 submitted query strings), 97 query-aligned headers, 66 additional invocation-level headers in unpartitioned batches, 11 source cards, 1 candidate, 7 gaps. These header counts include repeated results across separate invocations and are not unique-source counts.
+
+
+Recovery note: Feb sources.jsonl was restored after accidental overwrite from the per-card source snapshots and preserved read captures listed in private_reading/capture-repair/recovery_manifest.json. The exact overwritten bytes are retained for audit. S008 original serialized bytes were unavailable; only the visible source-card fields were reconstructed. Independent isolation_audit approved the source-ledger restoration itself; this does not recover lost original prose or approve the full monthly dossier. No further February body requests were made.
+
+
+Invocation-log normalization: the pre-repair log is retained at private_reading/capture-repair/search_log.pre-invocation-normalization.jsonl (SHA-256 58a70e83174e8231b921cf677e1e0b080751edebf7bd7ef825de21d6d8830f06). One canonical log row now represents each actual call; batched visible headers remain unpartitioned. All 19 submitted query strings are recovered from pre-normalization log rows. Recovery restoration separately is approved for the source ledger only; full monthly review remains ongoing.

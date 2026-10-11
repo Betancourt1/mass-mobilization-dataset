@@ -1,0 +1,27 @@
+{
+  "unit_id": "laos_2021-02",
+  "country": "Laos",
+  "month": "2021-02",
+  "agent_task": "/root/laos_2021_02_batch58",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T14:28:30.404000+00:00",
+  "finished_at": "2026-10-10T15:29:47+00:00",
+  "n_queries": 45,
+  "n_sources": 10,
+  "n_candidates": 0,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "coverage_assessment": "Completed provisional first-pass open-web dossier. The registered rollout contains 45 captured search actions and 819 ordered headers in English, Lao, Thai, Chinese, and Vietnamese, including date windows for all four February weeks. Coverage spans worker/wage, land/resettlement, election, Hmong, official, local and international reporting. Search headers are provisional and do not establish full event histories. Final provenance reconciliation matched all 45 original rollout captures to all 45 durable search records, including ordered result headers: 819 compared, zero mismatches, and no searches rerun. One current-unit body was read; two additional records are prior-unit-only consultations. Four fresh S003 RFA exact-URL gates were withheld after immediate full-input hash changes; no S003 body request was made and no source denial was observed. Q044-Q045 add search-only election and Nam Ngum 4 resettlement/detention leads. No absence or completeness claim.",
+  "baseline_gate": "pending_official_baseline",
+  "captured_result_headers": 819,
+  "source_access_counts": {
+    "opened": 3,
+    "opened_prior_unit_only": 2,
+    "search_only": 7,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "body_attempts_current_unit": 1,
+  "body_reads_current_unit": 1
+}

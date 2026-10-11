@@ -1,0 +1,129 @@
+Algeria, February 2021 — provisional first-pass research dossier
+Country code: 615 (provisional). Unit: algeria_2021-02. Researcher: /root/algeria_2021_02.
+Fixed event cutoff: 2026-10-07 inclusive, America/Mexico_City.
+Research window: February 1–28, 2021. Status: researched, open-web, pending review.
+
+Scope and limits
+This is a non-exhaustive first pass, not an official catalogue update, an absence claim, or a human double-coded dataset. The official baseline/current schema/additional Coding Procedure gate remains pending. Candidate IDs are provisional worker keys only. No events were automatically merged across sites, days, reports, campaigns or months.
+
+Coverage and captures
+Eighteen open-web searches retain 437 actual result headers in original order: 3 English, 11 French and 4 Arabic queries. The header arrays and their URL arrays were positionally checked from the same captured arrays. There are 129 source cards: 18 cards marked opened (16 current-unit body opens plus two prior-unit-only dossier metadata consultations (S085/S130)), 107 search_only, 4 blocked and 0 not_found. A card marked opened may reflect a limited read and is not independent corroboration. Fifty-two result title positions retain a specific capture limitation; the exact captured text/ref is preserved where available and no search-preview text was used as substantive event evidence.
+
+The saved search-to-card mapping below links query headers to source cards by their recorded web refs. It does not imply that every header became a card or that a search result substantiates an event.
+
+| Query | Captured headers | Source-card IDs linked by saved header refs |
+|---|---:|---|
+| Q001 | 36 | S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S012 |
+| Q002 | 25 | S001,S013,S014,S015,S016,S017,S018,S019,S020,S021,S022,S023,S024,S025,S026,S027 |
+| Q003 | 23 | S001,S003,S028,S029,S030,S031,S032,S033,S034,S035,S036,S037 |
+| Q004 | 25 | S001,S014,S021,S024,S027,S030,S038,S039,S040,S041,S042,S043 |
+| Q005 | 23 | S001,S002,S014,S021,S022,S023,S044,S045,S046,S047,S048,S049,S050,S051 |
+| Q006 | 28 | S001,S018,S021,S027,S042,S043,S052,S053,S054,S055,S056,S057,S058,S059,S060,S061,S062,S063 |
+| Q007 | 26 | S064,S065,S066,S067,S068,S069,S070,S071,S072,S073,S074 |
+| Q008 | 27 | S025,S026,S075,S076,S077,S078,S079,S080,S081,S082,S083,S084 |
+| Q009 | 24 | S013,S014,S015,S016,S017,S019,S021,S023,S085,S086,S087,S088,S089 |
+| Q010 | 29 | S001,S021,S025,S026,S027,S063,S077,S090,S091,S092,S093,S094 |
+| Q011 | 29 | S001,S021,S027,S041,S043,S062,S084,S095 |
+| Q012 | 15 | S001,S003,S096,S097,S098 |
+| Q013 | 21 | S014,S023,S043,S099,S100,S101,S102 |
+| Q014 | 23 | S027,S039,S043,S103,S104,S105,S106,S107,S108,S109,S110 |
+| Q015 | 18 | S111,S112,S113 |
+| Q016 | 18 | S112,S114,S115,S116 |
+| Q017 | 24 | S084,S117,S119,S120,S121,S122 |
+| Q018 | 23 | S123,S124,S125,S126,S127,S128,S129 |
+
+Capture limitations: Q001 and Q002 have complete saved header arrays, but their actual ephemeral raw-store key identifiers were not retained or recovered; both keys are null, with the limitation recorded. No key was guessed and neither query was rerun. Q003–Q018 have explicit stored-key identifiers; their exact query execution timestamps are not recorded in the log. Q008's first header-persistence wrapper omitted one header; its numeric exit and failure text were not retained, so success is not claimed for that attempt. The complete 27-header array was rebuilt from the exact stored Q008 raw return in provider order with URL alignment and no query rerun. Raw search returns were not saved in the dossier.
+
+Candidate inventory
+`null` date means no physical date is established in the opened source record. Counts or verbal estimates remain source-faithful; no numeric bounds were invented. The eligibility status is provisional.
+
+| Candidate | Reported date | Site | Sources | Turnout / threshold evidence | Eligibility |
+|---|---|---|---|---|---|
+| E001 Algiers Hirak second-anniversary demonstration | 2021-02-22 | Central Post Office Square and central Algiers | S003 | The report says thousands of Algerians demonstrated in the capital and other cities; it does not give an Algiers-only attendance estimate. Threshold: Not resolved for the Algiers gathering: the source's qualitative 'thousands' statement covers the capital and other cities together, without a site-specific count. Nationwide arrests are not turnout. | pending_threshold |
+| E002 Kherrata second-anniversary Hirak march | 2021-02-16 | Kherrata, Béjaïa Wilaya; town streets, exact route not specified. | S035, S053 | Euronews reports hundreds gathered in Kherrata city centre before a march; TSA says thousands filled the town streets before midday and describes the march as taking place. Both estimates are qualitative, without an exact count. Threshold: Euronews reports hundreds gathered and TSA reports thousands filling the streets; both qualitative descriptions place the public gathering well above 50, with no exact attendance bound. | proposed_include |
+| E003 Bejaia Hirak march for regime change and detainee release | 2021-02-15 | Bejaia, Algeria | S035 | Euronews, attributing the account to LADDH, describes several hundred people at the Bejaia march; no exact count is supplied. Threshold: The article attributes several hundred participants to the Bejaia march, supporting the public-gathering threshold of 50; no exact attendance bound is reported. | proposed_include |
+| E004 103rd Friday Hirak demonstrations across several wilayas | 2021-02-05 | Multiple locations: Tichy, Akbou and El Kseur in Bejaia wilaya; Beni Ourtilane in Setif wilaya; Bouira and Tizi Ouzou wilayas (additional site details not stated) | S038 | No count is given for any site. Tichy is called a large march; the other locations are listed as having demonstrations or protest activity. Threshold: No site-level attendance estimate is reported. The qualitative description 'large march' for Tichy is insufficient by itself to establish at least 50 people at that site; do not sum the listed locations. | pending_threshold |
+| E005 Algiers Friday Hirak rally after the second anniversary | 2021-02-26 | Algiers; several corteges formed in popular neighborhoods, including Bab El Oued, and moved toward the centre and Grande Poste. | S025, S075 | Le Monde reports thousands of Hirak supporters in Algiers; no exact count or bounds are supplied. Threshold: Le Monde directly describes thousands of supporters demonstrating in Algiers on February 26, sufficient for the 50-person threshold but not an exact bound. | proposed_include |
+| E006 Oran Hirak gathering and police dispersal | 2021-02-26 | Oran public places; exact square and route are not specified. | S025, S066 | No Oran-specific crowd estimate is supplied. Threshold: Neither opened article gives an Oran-specific attendance estimate; the 50-person threshold remains unresolved. | pending_threshold |
+| E007 Bordj Bou Arreridj Hirak procession during the February 26 resumption | 2021-02-26 | Bordj Bou Arreridj city streets; the report lists several starting points and route segments but gives inconsistent endpoint descriptions. | S066 | Ennahar first describes hundreds of participants and then gives an estimate above 3,000; both statements are retained because the same report does not reconcile them. Threshold: Even the report's less specific description is hundreds; its later estimate says more than 3,000, both well above 50. No tighter range is assigned. | proposed_include |
+| E008 Constantine Hirak march reported for February 25 | 2021-02-25 | Central Constantine. | S066 | Ennahar describes central streets crowded with throngs of participants, including men, women and children; it supplies no count. Threshold: The report's Arabic description is a large throng filling central streets, but no numeric count is given and language review remains pending; retain threshold as unresolved. | pending_threshold |
+| E009 Annaba Hirak gathering and march reported for February 25 | 2021-02-25 | Revolution Square (El Kour) in central Annaba, near the Ezzedine Mejoub regional theatre. | S066 | Ennahar describes many citizens but supplies no count or bounded estimate. Threshold: The source says many citizens without specifying a numeric or clear hundreds-scale estimate; threshold remains unresolved. | pending_state_target |
+| E010 Bejaia Hirak rally on February 26 | 2021-02-26 | Bejaia city; exact square and route are not specified. | S025, S075 | Anadolu reports a gathering in Bejaia as part of demonstrations across several cities but gives no Bejaia-specific count. Threshold: No Bejaia-specific attendance estimate is given by the opened reports; threshold remains unresolved. | pending_threshold |
+| E011 Constantine Hirak rally on February 26 | 2021-02-26 | Constantine city; exact square and route are not specified. | S075 | Anadolu lists Constantine among several northern cities but gives no Constantine-specific attendance. Threshold: No Constantine-specific attendance estimate is given; threshold remains unresolved. | pending_threshold |
+| E012 Touggort unemployment march reported February 9 | 2021-02-09 | Streets of Touggort, Ouargla Wilaya | S099 | The article describes dozens in Touggort; it gives no exact number or definite lower bound of 50. Threshold: Pending. 'Dozens' is qualitative and does not clearly establish at least 50 at this specific Touggort march. | pending_threshold |
+| E013 Hassi R'Mel jobseekers gather at ANEM office | 2021-02-08 | At the ANEM office in Hassi R'Mel, Laghouat Wilaya | S099 | The article reports a gathering but gives no attendance figure. Threshold: Pending. The article gives no count or qualitative estimate for the Hassi R'Mel gathering. | pending_threshold |
+| E014 Ouargla university sit-in seeking Sonatrach jobs (date unresolved) | unknown | At the entrance to an unnamed university in Ouargla | S099 | No attendance figure is reported. Threshold: Pending. No count or qualitative estimate is supplied. | pending_state_target |
+| E015 Unemployed march stopped before start (location unresolved) | 2021-02-09 | Side portal of the wilaya headquarters and later Mekhadma neighborhood, Ouargla city | S099, S100 | No total is given. The article says youths were waiting for more participants; a separate source reports four arrests but that is not attendance. Threshold: Pending. Neither article provides a crowd estimate or clear 50-person lower bound for the February 9 Ouargla gathering. | pending_evidence |
+| E016 Touggourt unemployed jobseekers' march toward Algiers | unknown | From Touggourt toward Algiers; the specific route and endpoint are not reported. | S101 | More than a dozen began the march; the exact number and any growth along the route are not reported. Threshold: Pending. The article says more than a dozen began the march, but gives no count or clear lower bound of 50. | pending_threshold |
+| E017 AADL 2 subscribers' sit-in at the Béjaïa wilaya headquarters | 2021-02-08 | Outside the entrance to the Béjaïa (Vgayet) wilaya headquarters. | S114 | « plusieurs dizaines de protestataires » (several dozen protesters); no exact number or definite minimum is given. Threshold: Pending. The source says several dozen, a qualitative range that does not establish at least 50 at this site. | pending_threshold |
+| E018 Housing-list protest at Toudja APC office | 2021-02-07 | At the Toudja APC office, Béjaïa Wilaya. | S116 | The article reports no attendance figure for Toudja. Threshold: Pending. No numeric or qualitative lower bound of 50 is given for Toudja. | pending_threshold |
+| E019 Housing-list protest at At Ksila APC office | 2021-02-07 | At the At Ksila APC office in Beni Ksila, Béjaïa Wilaya. | S116 | The article gives no count; it says only that social-media photos showed a strong presence of contestants. The photos were not independently inspected. Threshold: Pending. A qualitative 'strong presence' in referenced photos supplies no 50-person lower bound. | pending_threshold |
+| E020 Taskriout housing applicants block RN9 | 2021-02-05 | On RN9 near Taskriout (Derguina), Béjaïa Wilaya. | S116 | The article gives no participant estimate for the February 5 road closure. Threshold: Pending. Neither the number of apartments nor severe traffic disruption gives a participant count or 50-person lower bound. | pending_threshold |
+| E021 AADL subscribers gather at the regional agency in Oran (exact day unresolved) | unknown | In front of the AADL regional agency in Oran; the exact address is not reported. | S115 | The article describes a gathering and refers to subscriber delegates; it gives no total or qualitative crowd estimate. Threshold: Pending. The account gives no attendance estimate and mentions delegates without establishing how many people gathered. | pending_threshold |
+
+State-response flags are listed in this order: accommodation / arrests / beatings / crowd dispersal / ignore or refusal / killings / firearm shootings. `?` means unknown; `Y` means yes; `N` means no_explicit.
+
+| Candidate | Accom. | Arrests | Beatings | Dispersal | Ignore/refusal | Killings | Shootings |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| E001 | ? | Y | ? | ? | ? | ? | ? |
+| E002 | ? | ? | ? | ? | ? | ? | ? |
+| E003 | ? | ? | ? | ? | ? | ? | ? |
+| E004 | ? | ? | ? | ? | ? | ? | ? |
+| E005 | ? | ? | Y | Y | ? | ? | ? |
+| E006 | ? | Y | ? | Y | ? | ? | ? |
+| E007 | ? | ? | ? | ? | ? | ? | ? |
+| E008 | ? | ? | ? | ? | ? | ? | ? |
+| E009 | ? | ? | ? | ? | ? | ? | ? |
+| E010 | ? | ? | ? | ? | ? | ? | ? |
+| E011 | ? | ? | ? | ? | ? | ? | ? |
+| E012 | ? | ? | ? | ? | ? | ? | ? |
+| E013 | ? | ? | ? | ? | ? | ? | ? |
+| E014 | ? | ? | ? | ? | ? | ? | ? |
+| E015 | ? | Y | ? | Y | ? | ? | ? |
+| E016 | ? | ? | ? | ? | ? | ? | ? |
+| E017 | ? | ? | ? | ? | Y | ? | ? |
+| E018 | ? | ? | ? | ? | ? | ? | ? |
+| E019 | ? | ? | ? | ? | ? | ? | ? |
+| E020 | ? | ? | ? | ? | ? | ? | ? |
+| E021 | Y | ? | ? | ? | ? | ? | ? |
+
+Episode, threshold and field-specific decisions
+E001 is limited to the Central Post Office Square/central Algiers gathering; the source's qualitative thousands figure spans the capital and other cities, so the Algiers-only threshold remains pending. The account explicitly says the central demonstrators dispersed peacefully by evening, supporting the February 22 physical end. The national arrest total is not turnout; the report attributes 26 arrests to Algiers.
+
+E002 and E003 are separate Kherrata (February 16) and Bejaia (February 15) actions. The opened accounts support qualitative hundreds or thousands for those respective local actions, but neither establishes a physical end. The Euronews account attributes attendance at Bejaia to LADDH; its AFP image credit is not treated as independent written reporting. E004 lists multiple wilayas in one report but supplies no per-site count; the sites are not summed into one threshold-qualified crowd.
+
+E005 is an Algiers February 26 rally; the local report's thousands description supports the threshold. Its source-specific reports of batons and tear gas support beating and crowd-dispersal response flags. Those dimensions remain separate from events in other cities. E006 is a distinct Oran gathering: the opened accounts report arrests and forced police dispersal, but neither gives an Oran attendance estimate or explicit physical closure of the whole gathering. Its end date remains null. E007's Bordj Bou Arreridj estimate is internally inconsistent (hundreds and later above 3,000); both descriptions are preserved, without a tighter bound. E008's Constantine account is dated February 25 and has no count. E009's Annaba account is dated February 25 and says participants dispersed around 17:30, supporting its physical end; its target/threshold remain unresolved. E010 and E011 are separate Bejaia and Constantine February 26 records with no city-specific counts. Anadolu's report of no intervention in the capital is not applied to other city sites.
+
+E012–E015 preserve distinct southern labor/housing actions. E012 reports dozens at Touggort, not a definite 50-person minimum; E013 has no Hassi R'Mel count; E014's Ouargla university sit-in has no verified date or count and a pending state target. E015 records the February 9 Ouargla gathering phases at the wilaya-side portal and Mekhadma, with arrests and dispersal attributed to the local accounts, but no crowd total; the four arrests are not attendance. The report does not convert one city's evidence to another site.
+
+E016 is the Touggourt-to-Algiers jobseekers' march. The source says more than a dozen began; it does not establish 50, an exact route/end, or a reliable calendar start. Its phrase “Monday 2 February” conflicts with the 2021 calendar, so start_date remains null and the quoted conflict is preserved. E017 is the February 8 AADL2 sit-in at Béjaïa wilaya headquarters. The “several dozen” description does not establish 50. The current sit-in narrative attributes an explicit refusal by the wali to receive the association through a participant account cited to BRTV; exact within-day timing/sequence is not recorded. An older association grievance is not used as current-response evidence. The reported ongoing action has no physical end.
+
+E018 and E019 are distinct February 7 housing-list actions at Toudja and At Ksila; the linked article gives no count at Toudja and only an uninspected photograph characterization at At Ksila. E020 is the February 5 Taskriout RN9 housing-list road action; the number of apartments and traffic disruption are not turnout. No physical end or 50-person lower bound is recorded for E018–E020.
+
+E021 records an actual Oran gathering at the AADL regional agency earlier in the publication week. The article reports subscriber delegates being received by the regional director, coded as accommodation (a hearing), not fulfillment of their demand. Exact event day, attendance and physical end remain unknown. A separate February 9 sit-in at the wilaya headquarters was announced, not confirmed as held, and is not folded into E021. The January Algérie54 source S034 is still search_only and is not independent corroboration.
+
+Access and pre-body review
+S114 (VAVA innova) was opened after a full saved-source/source-check guard; its target also appears as a January search-only card, not as a previously read original. The web reader returned Cache miss. One default exact-URL request failed DNS (curl exit 6); one network-escalated exact HTTPS request returned HTTP 200 and exit 0. The successful article HTML was parsed in memory, not retained; its exact successful response time and raw-store key were not retained.
+
+S115 (Eddiwan) and S123 (Liberté) each have a full contemporaneous pre-body guard saved on the source card, including the saved-universe scan counts, file/check stability, parse outcome and publisher/story-origin review. Both were opened directly using web.run with their observed body ref, timestamp and raw-capture key. S115 describes a separate Oran AADL gathering; its announced February 9 sit-in is not occurrence evidence. S123 is dated April 7, 2021, outside February; it is recorded as X001 and not used as February evidence. The S123 photo credit is not treated as the article's byline.
+
+Saved access restrictions remain respected: S004/S006 Deutsche Welle are blocked under a prior robots restriction; S005 Human Rights Watch remains blocked under its saved 403. S097 was not requested after the full saved-source check found a separate Al-Araby publisher-wide 403; that is not represented as an exact-target denial. S046 Le Courrier had a Cache miss, DNS failure (exit 1) and TLS timeout (exit 1), with no HTTP response or body; these are technical failures, not a denial.
+
+Boundary and continuation notes
+The January Jijel item remains a boundary-only continuation: saved sources place activity January 30–31, but no physical February activity or definite end is established. The February ENIEM reporting is a work-return boundary lead; announcements or a return-to-work status do not prove a public assembly or physical ending. The two continuation records preserve January source identities and do not count as February events.
+The ENIEM continuation provenance was repaired after coordinator review. Its earlier current-unit S037 pointed to an unrelated Ikhwan Online result, while the intended SIWEL article existed as January-dossier S037 only. Current-unit S130 now explicitly records prior-dossier consultation of that exact SIWEL URL, retaining January's S037, reader, access time, ref and written origin. The continuation's top-level source list and start-date field now refer to S130; the related-prior-unit link still preserves January S037. No query or body was reopened and no date or candidate coding changed.
+
+S100 and S101 had machine accessed_at values earlier than their saved body-response captures, with exact request starts unknown. Their machine accessed_at fields are now null; the prior values are retained only as query/discovery clock metadata with explicit limitations. Their body-response captures remain unchanged. S114's summary now reflects the existing opened-body scope instead of describing a search preview.
+
+Process and validation record
+Four writer attempts exited 1 before replacing intended files: an overly strict E001 evidence check, a gap-key mismatch, and two newline-serialization errors in Q017 and the S115 guard. The corrected writes used already retained metadata/results; no source query or body retrieval was rerun. Initial read-only checks also caught missing explicit Q001/Q002 key limitations and an overly narrow assumption about historical guard nesting; the checks were corrected. A diagnostic expecting body_read_ref on every opened source raised KeyError on the direct-request S114 record and changed no files. An invocation using the unavailable `python` alias failed; subsequent checks used `python3`. The initial Q008 wrapper outcome remains unknown as stated above. An intermediate read-only final comparison exited 1 because its harness treated the intentionally appended S100/S101 limitation as unchanged content. A field-level diff confirmed only the requested access-clock corrections; the validator was corrected. No source data changed during that failed check. A prior read-only validation, before the precision representation repair, exited 0 across all eight research files, source references, dates, response enums, unique source IDs/URLs, query order, and URL/header alignment.
+
+This batch leaves the baseline gate, human review, site-level attendance, physical boundaries, response evidence, source independence and language review open as described above. No persistent local servers, containers or browser tabs were started.
+
+
+Schema representation repair — 2026-10-09T22:56:06Z
+The coordinator reported that consolidate.py exited 0 with five validation issues because E005, E007, E008, E010 and E011 had null end_date and null end_precision. For these five records only, end_precision is now “unknown”, matching the schema enum and the data dictionary meaning of a null/blank date. end_date remains null for all five; no substantive date evidence, event outcome, response field, source, candidate ID, or other event field changed. No query or body read was performed.
+A pre-edit helper exited 1 before changing unit files because its hard-coded expected checksum for the copied manifest was incorrect. At that time, exact-byte comparisons verified that the backed-up events, status, report and manifest matched the then-current files; no unit file changed in that attempt.
+
+Repair validation record
+A post-write helper exited 1 after the five precision values and interim manifest had been written because its verification referenced uninitialized old_event_bytes. A later validator exited 1 when its preflight incorrectly expected the intentionally modified current events/status/report to match pre-repair backups; it made no changes. The first full final-checker pass exited 1 before writes because its source-count assertion omitted the explicit not_found: 0 category; no files changed. These wrapper/checker exits are preserved as process incidents, not treated as repair failure.

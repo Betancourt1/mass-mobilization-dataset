@@ -1,0 +1,39 @@
+CAMBIOS Y DIFERENCIAS QUE DEBEN REVISARSE ANTES DE EXPORTAR
+
+1. Descubrimiento: el manual describe LexisNexis con un conjunto de periódicos y expansión
+   de fuentes. Aquí se utiliza web abierta, ventanas semanales y medios locales. Sus sesgos
+   y cobertura no son equivalentes. Se conserva el log de consultas y accesos.
+
+2. Respuesta no reportada: el manual permite representar con ignore la falta de reacción
+   reportada, reconociendo la posible confusión con falta de información periodística.
+   Aquí se conserva unknown ante silencio. No se exporta automáticamente como 0 ni como
+   ignore=yes: requiere una decisión explícita de compatibilidad y evidencia preservada.
+
+3. Fechas: precisión y finales desconocidos se conservan. La publicación no sustituye al
+   acto. Un fin vacío no significa duración cero ni evento de un solo día. El manual también
+   permite el último reporte de actividad como fin; aquí no se convierte automáticamente
+   un último reporte parcial en cierre, sin seguir el episodio. Antes de exportar se debe
+   distinguir fin físico, última actividad reportada y seguimiento todavía insuficiente.
+
+4. Unidad: país–mes organiza investigación, no crea observaciones oficiales. Eventos
+   pueden cruzar meses. Acciones locales/nacionales esperan revisión de coordinación
+   y reglas de episodio del protocolo adicional antes de fusionar o separar.
+
+5. Tamaño: texto original y atribución permanecen. Cientos puede acreditar el umbral sin
+   crear cifra exacta. Aproximadamente 50 conserva duda en el límite. Vehículos, empresas,
+   personal total y afectados no equivalen a personas manifestantes. El manual permite
+   algunas inferencias del umbral a partir de detenidos; aquí quedan pendientes cuando
+   el número de reunidos no está suficientemente acreditado. Esta diferencia requiere
+   calibración, para no sesgar la nueva serie por una regla más conservadora.
+
+6. Ausencia: un resultado vacío no genera protest=0. Una fila de ausencia compatible con
+   el original requiere un protocolo de cobertura aprobado.
+
+7. Universo/esquema: códigos y ventana proceden provisionalmente de una copia educativa.
+   Sólo el original vigente permite comparación. IDs de candidatos son locales.
+
+8. IA: subagentes producen candidatos y el coordinador verifica de forma selectiva.
+   No es doble codificación humana independiente. Faltan revisión independiente y
+   revisión lingüística donde corresponda.
+
+Fuente: manual de los autores, mayo de 2015, enlazado en README.txt.

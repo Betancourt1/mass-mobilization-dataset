@@ -1,0 +1,43 @@
+{
+  "unit_id": "angola_2025-03",
+  "country": "Angola",
+  "month": "2025-03",
+  "agent_task": "/root/angola_q1",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T22:36:25.302038+00:00",
+  "finished_at": "2026-10-10T23:33:44+00:00",
+  "n_queries": 14,
+  "n_sources": 8,
+  "n_candidates": 1,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 7,
+  "coverage_assessment": "Completed first open-web pass with residual gaps: 14 unique invocation traces with 47 query strings and 215 visible headers across nine preserved resumed outputs. Two earlier rendered outputs remain explicit capture gaps. Eight source cards (2 opened, 5 search-only, 1 blocked), two successful body reads; exact search/body clock fields remain unknown where not directly observed. E001 is a provisional March 29 Luanda planned public action about gender-based violence, pending_state_target; attendance threshold is separately unresolved. Zango reports police prevented concentration, removed banners/shirts and detained ten women, but does not establish a formed crowd physically dispersed or report total attendance. Ver Angola exact target for a possible March general-strike phase returned 403; potential headline copies are held. A separate raw rendered response notes a DW robots block for dw.com/pt-002, but the exact article URL and triggering operation are unavailable; no direct DW body request is confirmed. Amnesty and Club-K remain held under unresolved saved scope. Q1 Portuguese/English, regional/sector and local-language searches did not establish completeness.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 2,
+    "search_only_cards": 5,
+    "blocked_cards": 1,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "quality": "degraded_invocation_only",
+    "captured_header_count": 215,
+    "native_headers_available": false,
+    "note": "Exact visible title/URL/ref/order headers extracted only from fully preserved resumed invocations 007–015; native event IDs/timestamps and query partitioning are unavailable. Invocations 005–006 full output capture failed and remain explicit gaps. Empty arrays in degraded log rows mean capture unavailable, not zero results."
+  },
+  "current_body_reads": 2,
+  "actual_query_terms_in_month_relevant_batches": 47,
+  "related_invocation_pointers": [
+    {
+      "unit_month": "2025-02",
+      "query_id": "angola_2025-02_invocation_002",
+      "purpose": "shared February/March discovery batch, stored/counts once in February"
+    },
+    {
+      "unit_month": "2025-01",
+      "query_id": "angola_2025-01_invocation_005",
+      "purpose": "shared Jan/Feb/Mar site-filter batch, stored/counts once in January"
+    }
+  ]
+}

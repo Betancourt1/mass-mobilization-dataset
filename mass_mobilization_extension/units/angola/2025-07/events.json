@@ -1,0 +1,78 @@
+[
+  {
+    "candidate_id": "angola_2025-07-E001",
+    "country": "Angola",
+    "ccode": "540",
+    "unit_month": "2025-07",
+    "title": "Luanda protest over diesel-price increase during taxi strike",
+    "start_date": "2025-07-28",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Luanda",
+    "scope": "city",
+    "organizer": "unknown",
+    "demands": [
+      "price_increases_tax_policy"
+    ],
+    "participants_original": "unknown",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Not established. Reuters reports protests in the capital but gives no crowd count or evidence that 50 or more people assembled at one place and time.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "yes"
+    },
+    "source_ids": [
+      "S027"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S027"
+        ],
+        "summary": "Reuters dateline says Luanda, July 28; article published July 29."
+      },
+      "location": {
+        "source_ids": [
+          "S027"
+        ],
+        "summary": "Reuters locates the reported protests in Luanda."
+      },
+      "scope": {
+        "source_ids": [
+          "S027"
+        ],
+        "summary": "Reported in the capital; no other location is attached to this candidate."
+      },
+      "demands": {
+        "source_ids": [
+          "S027"
+        ],
+        "summary": "Reuters describes protests over a diesel-price increase; it contextualizes the price change as a government subsidy-reduction policy."
+      },
+      "state_response": {
+        "source_ids": [
+          "S027"
+        ],
+        "summary": "Reuters says police acknowledged arrests; it attributes tear gas, shots fired into the air, and fatality claims to Novo Jornal. Arrest count and physical crowd dispersal are not stated; deaths are not coded as state killings."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "angola_2025-07-luanda-diesel-protest-2025-07-28",
+    "notes": "A verified Reuters page reports protests over a diesel-price increase in Luanda on Monday, July 28, while a three-day minibus-taxi strike began that day. Keep the strike and public protest related but distinct; looting is not automatically coded as protester violence. Reuters attributes its death and police-force details to Novo Jornal. Attendance and meeting boundaries remain unknown.",
+    "open_questions": [
+      "Was there a qualifying gathering of at least 50 people, and what exact time/place bounds can be supported?",
+      "Can the Novo Jornal origin reporting be located and accessed under its own exact-URL publisher/story scope review, or should attributed claims remain the limit?",
+      "Were arrests tied to protesters at this specific assembly, and was any assembled crowd physically dispersed?",
+      "Did the protest assembly continue, end, or recur after July 28?"
+    ]
+  }
+]

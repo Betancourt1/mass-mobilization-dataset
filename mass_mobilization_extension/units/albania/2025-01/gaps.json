@@ -1,0 +1,115 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "source_access",
+    "description": "Two exact-URL bodies were opened: S006 after a fresh stable receipt/manual canonical alias-origin review, and S007 A2 CNN after its fresh manual-review receipt. S006 describes an out-of-month November 2024 gathering; S007 establishes a January 20 protest and clashes but not demand or turnout. S008 Gazeta Jon remains search_only after its access scan deferred; no body was requested. Q005 search output exposure was independently classified as search-result excerpt exposure, not a verified body read.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ALB202501-E001"
+    ],
+    "required_followup": "For each remaining search-only source considered for body verification, obtain a fresh exact-URL access receipt, review current publisher aliases and written-origin links, and stop on any denial/paywall/anti-bot response or relevant restriction."
+  },
+  {
+    "gap_id": "G002",
+    "type": "search_coverage",
+    "description": "A genuine open-web first pass now includes Albanian/English generic searches, sector and regional combinations, January week windows, and candidate-specific January 20 follow-ups. Results were noisy and often outside period; this is not equivalent to systematic archives or exhaustive local coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted week-window searches across Albanian and English local/national sources; verify event dates, counts and targets via fresh-gated source bodies; retain empty searches."
+  },
+  {
+    "gap_id": "G003",
+    "type": "search_capture_provenance",
+    "description": "The web tool exposed rendered result text rather than native structured header objects. Parsed displayed title/URL/ref/order were captured and aligned for Q001-Q003, but exact native metadata is unverified. Temporary rendered responses for Q001-Q003 were removed before the coordinator required preservation; hashes are unavailable. The first three-query combined invocation was later transcribed into Q000 as one degraded whole-invocation trace from visible conversation output. Its raw rendered response was not saved, and native metadata/order completeness cannot be verified. Results are not partitioned across the constituent queries or month.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat all saved query records as degraded invocation-level discovery traces; do not reconstruct native headers, infer per-query result assignment, or replace prior responses. Coordinator/auditor to decide whether native rollout extraction is possible from this task’s actual runtime."
+  },
+  {
+    "gap_id": "G004",
+    "type": "participants",
+    "description": "For ALB202501-E001, S007 A2 CNN does not state attendance; threshold ≥50 remains unknown. S006 is an unrelated November 2024 gathering and does not provide attendance for this January candidate.",
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "ALB202501-E001"
+    ],
+    "required_followup": "For each dated gathering lead, verify attendance in a contemporary source; do not infer attendance from affected people or from a headline."
+  },
+  {
+    "gap_id": "G005",
+    "type": "state_target",
+    "description": "For ALB202501-E001, S007 establishes a protest outside the Interior Ministry but reports no protest demand. The search-only S008 Gazeta Jon excerpt suggests a justice demand but is not evidence because no body was opened after its access scan deferred. S006 concerns an out-of-month November 2024 event.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ALB202501-E001"
+    ],
+    "required_followup": "Verify precise demand and its intended government/policy target from a cleared source."
+  },
+  {
+    "gap_id": "G006",
+    "type": "event_dates_and_episode_boundaries",
+    "description": "S007 dates the candidate gathering to January 20, 2025, but continuation and close are unknown. S006 describes a separate November 19, 2024 gathering and a distinct earlier gathering with only relative timing; neither is evidence for the January 20 candidate. The relationship of the January event to any later action remains unresolved.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ALB202501-E001"
+    ],
+    "required_followup": "Verify publication and event dates, location, organizer, relationship among reports, prior-month ownership and continuation after the month."
+  },
+  {
+    "gap_id": "G007",
+    "type": "archive_access",
+    "description": "LexisNexis or an equivalent systematically searchable news archive was not available or consulted; open-web discovery does not establish completeness.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Report archive access limitations and use any authorized archive only if available; never describe this open-web pass as exhaustive."
+  },
+  {
+    "gap_id": "G008",
+    "type": "search_capture_classification",
+    "description": "Q005 exact rendered response is preserved privately (SHA256 recorded in search_log) and contains publisher article text blocks alongside 18 visible title/URL/ref headers. Independent audit classified the exposure as search-result excerpt output, not a verified page-body read. Only visible headers are retained in search_log; excerpt text is omitted and not used as evidence. Q005 source leads remain search_only/pending_evidence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve this distinction during review; use a fresh exact-URL receipt and manual scope review before any intended page-body request."
+  },
+  {
+    "gap_id": "G009",
+    "type": "state_target",
+    "description": "A2 CNN S007 verifies a January 20 protest at the Interior Ministry and reported clashes, but gives no demand. The Gazeta Jon search excerpt suggests a justice demand; its exact URL access scan deferred, so that claim is not adopted.",
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ALB202501-E001"
+    ],
+    "required_followup": "Obtain a new stable exact-URL receipt and complete alias/story-origin review before any body request for S008; otherwise keep the state target unknown. Seek independent accessible coverage and distinguish protest demands from the altercation."
+  },
+  {
+    "gap_id": "G010",
+    "type": "event_dates_and_episode_boundaries",
+    "description": "The January 20 protest lead may connect to later daily actions, but current accessible body evidence does not establish continuation or a close date. Search-only follow-up was inconclusive/noisy.",
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ALB202501-E001"
+    ],
+    "required_followup": "Search contemporaneous late-January/February reports for continuation, date boundaries, organizer and distinct episodes; keep end_date unknown until verified."
+  }
+]

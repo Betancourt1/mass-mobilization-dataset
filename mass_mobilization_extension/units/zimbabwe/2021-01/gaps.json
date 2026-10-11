@@ -1,0 +1,137 @@
+[
+  {
+    "gap_id": "zimbabwe_2021-01_G001",
+    "type": "turnout_threshold",
+    "description": "NewsDay reports a Bulawayo City Council workforce of 3,600 and a week-long strike but gives no strike-participant count and describes no public assembly or picket. The total workforce is not turnout evidence; whether at least 50 people assembled publicly is unresolved.",
+    "source_ids": [
+      "zimbabwe_2021-01_S011",
+      "zimbabwe_2021-01_S031",
+      "zimbabwe_2021-01_S032",
+      "zimbabwe_2021-01_S043"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek accessible independent contemporary reporting or an organizer/council record that explicitly describes a public gathering and its participant count; do not infer assembly or turnout from the strike or city workforce."
+  },
+  {
+    "gap_id": "zimbabwe_2021-01_G002",
+    "type": "physical_episode_boundary",
+    "description": "NewsDay reports the industrial strike beginning January 13 and workers returning around January 19, but no source read so far identifies a public gathering, its location, or physical onset/end. Strike dates are not physical assembly boundaries.",
+    "source_ids": [
+      "zimbabwe_2021-01_S031",
+      "zimbabwe_2021-01_S032",
+      "zimbabwe_2021-01_S043"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Locate a body-accessible contemporary account that states where participants assembled and when the gathering began and ended; keep the reported strike period separate unless such evidence is found."
+  },
+  {
+    "gap_id": "zimbabwe_2021-01_G003",
+    "type": "source_origin_access",
+    "description": "NewsDay page S031 has a NewsDay byline but credits the written report to ZimLive, so its report and ZimLive S043 are one written origin rather than independent corroboration. The exact ZimLive story URL returned HTTP 403 on one ordinary request; no body was read and no retry is permitted.",
+    "source_ids": [
+      "zimbabwe_2021-01_S031",
+      "zimbabwe_2021-01_S043"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use only a genuinely independent, accessible written account or primary record for additional evidence; do not retry ZimLive or use a same-written-origin copy."
+  },
+  {
+    "gap_id": "zimbabwe_2021-01_G004",
+    "type": "source_access",
+    "description": "The Herald S032 body could not be read: web.open returned Cache miss, the default HTTPS request failed DNS, and the one ordinary HTTPS fallback returned actual HTTP 403. No story facts were learned from this page; Herald and copies must not be retried.",
+    "source_ids": [
+      "zimbabwe_2021-01_S032"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use an accessible genuinely independent source for any needed BCC strike facts; do not retry Herald or retrieve mirrors/copies."
+  },
+  {
+    "gap_id": "zimbabwe_2021-01_G005",
+    "type": "source_access",
+    "description": "NewsDay S047 was inaccessible: web.open returned Cache miss, the default HTTPS request failed DNS, and the one ordinary HTTPS fallback returned actual HTTP 403. No article body or event facts were read; do not retry NewsDay or obtain copies.",
+    "source_ids": [
+      "zimbabwe_2021-01_S047"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use another independently authored and accessible source for any potential teachers sit-in; no further NewsDay or copy requests."
+  },
+  {
+    "gap_id": "zimbabwe_2021-01_G006",
+    "type": "turnout_threshold",
+    "description": "S001 retrospectively confirms a 25 January ZINASU protest at Harare Magistrate Court but gives no participant count or estimate. A qualifying threshold of at least 50 remains unestablished.",
+    "source_ids": [
+      "zimbabwe_2021-01_S001"
+    ],
+    "affected_candidates": [
+      "zimbabwe_2021-01_E001"
+    ],
+    "required_followup": "Seek an accessible independent contemporaneous report or primary record giving an explicit count or qualifying qualitative estimate; keep pending_threshold until then."
+  },
+  {
+    "gap_id": "zimbabwe_2021-01_G007",
+    "type": "physical_episode_boundary",
+    "description": "S001 says police violently disrupted the 25 January ZINASU protest but gives no physical end or whether all participants were cleared. It separately mentions a 1 February action outside this unit. S007 reports a 1 February MDC Alliance youth flash demonstration outside the Ministry of Justice over release of Job Sikhala and Allan Moyo; no turnout is stated. These post-month reports do not establish that the Jan25 gathering ended or continued.",
+    "source_ids": [
+      "zimbabwe_2021-01_S001",
+      "zimbabwe_2021-01_S007"
+    ],
+    "affected_candidates": [
+      "zimbabwe_2021-01_E001"
+    ],
+    "required_followup": "Locate a source that describes the Jan25 crowd’s physical departure/dissolution and clarifies the police intervention; do not use arrest, detention, publication date, or a separate Feb1 action as the end."
+  },
+  {
+    "gap_id": "zimbabwe_2021-01_G008",
+    "type": "episode_unit",
+    "description": "Search-only ZimLive bail reports dated January 2 and 5 refer to an earlier ARTUZ-associated teachers’ salary protest in Masvingo involving Sheila Chisirimunhu. They do not establish the protest’s exact date, public gathering size or physical boundaries, and could refer to one shared case/reporting origin. The underlying action may predate January; no January event or dated continuation is recorded. ZimLive bodies/copies are held after actual HTTP403 on S043.",
+    "source_ids": [
+      "zimbabwe_2021-01_S057",
+      "zimbabwe_2021-01_S058"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek independently authored and accessible court, union or contemporary reporting that establishes the original gathering date, attendance and location. Keep as an undated lead; do not retry ZimLive or count the two headers as independent evidence."
+  },
+  {
+    "gap_id": "zimbabwe_2021-01_G009",
+    "type": "participants",
+    "description": "S005 states that nurses at Sally Mugabe Hospital in Harare struck on 7 January and called for government-provided PPE, but supplies no participant estimate and describes no public assembly. The labor action is a relevant lead, not enough by itself to establish a qualifying gathering of at least 50.",
+    "source_ids": [
+      "zimbabwe_2021-01_S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek an accessible independently authored or primary account describing whether nurses publicly assembled and giving turnout; do not infer assembly from hospital staffing or the strike."
+  },
+  {
+    "gap_id": "zimbabwe_2021-01_G010",
+    "type": "state_target",
+    "description": "S005 reports police dispersing informal workers at Glenview on 6 January and using tear gas to displace vendors, traders and members of the public at Chigovanyika Shopping Centre, Chitungwiza, on 7 January. It gives no attendance and no explicit protest demand; the passages frame economic activity and lockdown enforcement, not a stated public protest directed at government. No candidate was created.",
+    "source_ids": [
+      "zimbabwe_2021-01_S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek an accessible contemporary account or organizer record establishing a public protest, participant number and explicit government/policy demand. Do not infer protest status or turnout from police dispersal or commercial activity."
+  },
+  {
+    "gap_id": "zimbabwe_2021-01_G011",
+    "type": "episode_unit",
+    "description": "S044 covers December 2020, but the limited recovered-body text screening surfaced no matching protest/assembly terms. Because only 33 extracted heading/time/paragraph items were screened and the report was not fully fact-reviewed, no conclusion about December protests or physical continuity into January is supported.",
+    "source_ids": [
+      "zimbabwe_2021-01_S044"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If the December boundary becomes material, review an accessible complete report or an independent event-specific account and establish dated physical assembly/onset/continuity. Do not treat the limited keyword scan as evidence of absence."
+  },
+  {
+    "gap_id": "zimbabwe_2021-01_G012",
+    "type": "episode_unit",
+    "description": "S001 and S007 each mention a February 1 action outside this unit, but S007 specifies an MDC Alliance youth flash demonstration outside the Ministry of Justice demanding release of Job Sikhala and Allan Moyo, while S001 only notes its separate post-month demonstration in the reviewed summary. Whether these are distinct Feb1 actions is unresolved. Neither report establishes the physical endpoint of the Jan25 ZINASU gathering, and no post-month action is merged into E001.",
+    "source_ids": [
+      "zimbabwe_2021-01_S001",
+      "zimbabwe_2021-01_S007"
+    ],
+    "affected_candidates": [
+      "zimbabwe_2021-01_E001"
+    ],
+    "required_followup": "If the post-month boundary is material, compare accessible independent Feb1 accounts and establish whether more than one gathering occurred. Keep Feb1 outside this unit and do not use it as Jan25’s endpoint."
+  }
+]

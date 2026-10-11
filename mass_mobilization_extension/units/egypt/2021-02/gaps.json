@@ -1,0 +1,111 @@
+[
+  {
+    "gap_id": "EG202102-G001",
+    "type": "report_roster",
+    "description": "ANHRI search previews give 15 social/labor entries for 1–15 February and 14 for 15–28 February (29 total), but no complete February roster was transcribed into this unit. The January-unit body read for EG202101-S005 identifies a continuing Helwan sit-in; the remaining entries and eligibility filters are unresolved.",
+    "source_ids": [
+      "EG202102-S001",
+      "EG202102-S005",
+      "EG202102-S009",
+      "EG202102-S015"
+    ],
+    "affected_candidates": [
+      "EG202102-E001",
+      "EG202102-E002",
+      "EG202102-C001"
+    ],
+    "required_followup": "Read the exact first- and second-half report bodies, map each roster item to a contemporary source, and assess public gathering, onset, >=50 turnout, domestic state target and event-level response separately."
+  },
+  {
+    "gap_id": "EG202102-G002",
+    "type": "access",
+    "description": "Tanta candidate S016 and similar S017 remain search-only. One exact Cairo24 and one exact ElNabaa web.open each returned Cache miss without an HTTP status or article text. A second S016 gate was stopped before request when the immediate whole-corpus fingerprint changed (new Ethiopia source file and changed Equatorial Guinea source file).",
+    "source_ids": [
+      "EG202102-S016",
+      "EG202102-S017"
+    ],
+    "affected_candidates": [
+      "EG202102-E001"
+    ],
+    "required_followup": "If inputs are stable and a fresh full receipt/manual review/recheck passes, seek one exact public body or independent contemporaneous account; otherwise retain the access gap."
+  },
+  {
+    "gap_id": "EG202102-G003",
+    "type": "threshold_and_state_target",
+    "description": "The Tanta search previews say “hundreds” and connect a closure to COVID enforcement, but turnout basis, executed gathering, precise demand, state-policy target, duration and response are not verified; Cairo24 and ElNabaa may be reporting one story.",
+    "source_ids": [
+      "EG202102-S016",
+      "EG202102-S017"
+    ],
+    "affected_candidates": [
+      "EG202102-E001"
+    ],
+    "required_followup": "Verify the body text and story origin, then assess the threshold, target and all response fields independently."
+  },
+  {
+    "gap_id": "EG202102-G004",
+    "type": "threshold_and_date",
+    "description": "The second-half monitor preview mentions a Beila lawyers’ sit-in and “dozens” after a reported police-guard assault. “Dozens” does not establish >=50, and the exact date, public action, demand and state target are unknown.",
+    "source_ids": [
+      "EG202102-S009"
+    ],
+    "affected_candidates": [
+      "EG202102-E002"
+    ],
+    "required_followup": "Read the report and underlying contemporary story; verify event date, crowd count, demand, state target and response."
+  },
+  {
+    "gap_id": "EG202102-G005",
+    "type": "threshold_and_occurrence",
+    "description": "The Cairo24 preview says 36 Saris El-Layan–Menouf route drivers considered a work stoppage over fines and that 15 threatened, but did not begin, a hunger strike. If 36 is the full group, it falls below the threshold; the preview does not establish a public gathering or actual protest event.",
+    "source_ids": [
+      "EG202102-S018",
+      "EG202102-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read the report body and determine whether a distinct public gathering occurred, whether the reported group count covers the action, and whether there is any separate >=50 state-targeted episode."
+  },
+  {
+    "gap_id": "EG202102-G006",
+    "type": "continuity",
+    "description": "The prior-month owner has a Helwan sit-in beginning 17 January; a prior-unit body-read ANHRI roster identifies it as continuing in the first half of February. No February-specific end date, crowd size, state response or change in demands is established here.",
+    "source_ids": [
+      "EG202102-S005"
+    ],
+    "affected_candidates": [
+      "EG202102-C001"
+    ],
+    "required_followup": "Keep Egypt January as owner; find contemporaneous February and post-February records to establish physical continuation, any changed episode scope and end."
+  },
+  {
+    "gap_id": "EG202102-G007",
+    "type": "coverage",
+    "description": "Open-web discovery surfaced other potential February leads, including the Open Data Tank catalogue and a report claiming 27 February labor/student/social protests, but neither source body was read and no event roster was verified. General web search is not systematic newspaper-archive coverage.",
+    "source_ids": [
+      "EG202102-S008",
+      "EG202102-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Inspect these source bodies and their cited records when permitted; widen local and regional news archive searches by week and sector."
+  },
+  {
+    "gap_id": "EG202102-G008",
+    "type": "baseline_and_method",
+    "description": "The official project baseline remains pending and the supplementary Coding Procedure is unavailable. The local May 2015 codebook is the only available baseline reference; category compatibility and the full original source/search procedure need coordinator review.",
+    "source_ids": [],
+    "affected_candidates": [
+      "EG202102-E001",
+      "EG202102-E002",
+      "EG202102-C001"
+    ],
+    "required_followup": "Coordinator should compare these pending records against the verified official baseline and obtain the missing Coding Procedure before changing eligibility or field mappings."
+  },
+  {
+    "gap_id": "EG202102-G009",
+    "type": "search_method",
+    "description": "Nine exact captured query responses (including one three-query batched invocation) cover broad English and Arabic Egypt terms and targeted labor, ANHRI, Tanta, Beila-lawyer and transport leads. This remains open-web discovery, not LexisNexis or a systematic archive search, and does not show that no other February events occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue week-by-week Arabic and English searches across local/regional press, official sources and rights monitors; record archive and language limits."
+  }
+]

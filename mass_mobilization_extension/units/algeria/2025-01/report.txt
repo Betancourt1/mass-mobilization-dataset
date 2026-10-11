@@ -1,0 +1,23 @@
+Algeria 2025-01 — open-web first pass pending review
+
+Status: researched_open_web_pending_review. First-pass research is done; residual evidence gaps remain pending independent review.
+
+Coverage: 14 actual search invocations containing 23 submitted query strings, with 109 query-aligned headers plus 103 invocation-level headers retained at whole-invocation level (not assigned to individual queries) cover French, Arabic and English searches, local reporting/commentary, selected city/wilaya terms, and official/union queries. Multi-query calls are preserved as whole invocation traces when no query-level result partition was available. Results were frequently noisy or historical; search snippets remain discovery-only. Kabyle/Tamazight and systematic coverage of all wilayas remain open.
+
+Candidate evidence: One provisional candidate is retained for high-school strikes and reported street protests. Maghreb Emergent’s contemporary 20 Jan account says TikTok videos showed hundreds of students marching toward education directorates across several wilayas; it names Tlemcen, Batna, Sétif, Bordj Bou Arréridj, Tizi Ouzou, Skikda and Biskra, while explicitly cautioning that not all locations could be authenticated. It gives no per-assembly count. TSA’s 23 Jan article reports strikes/street protests but no city or count. NPA–Révolutionnaires’ 7 Feb political commentary names four cities, claims hundreds in each, and dates the strike from Jan. 20, but cites no basis. The candidate remains pending threshold and event-unit review: no specific authenticated assembly has independently verified >=50 attendance, exact venue/date, or direct state response. No national-to-local split or absence claim is made.
+
+Access: 6 source cards (3 opened, 3 search_only). S003 (NPA), S005 (TSA), and S006 (Maghreb Emergent) have scoped written-text captures. Le Monde S001 remains held by inherited publisher-level evidence. Le360 S004’s open response was lost by the wrapper; outcome/content remain unknown and it was not retried.
+
+Open gaps include authentication and per-assembly attendance/location/date, source input overlap, exact physical end and cross-month boundaries, comprehensive local/wilaya and Kabyle/Tamazight searches, and official/union corroboration. Teachers’ planned Feb. 10–11 actions are separate from the January student episode on present evidence. Full details are in gaps.json; no continuation or exclusion is coded.
+
+Capture integrity: rendered strings are privately retained with invocation hashes. Native structured metadata and native timestamps remain unavailable/unknown. Q001–Q002 were saved after parsing; Q003–Q008 and Q015–Q016 before parsing; Q009–Q011, Q012–Q014, Q017–Q019 and Q020–Q023 are whole-invocation records without guessed result partitions. The S004 wrapper loss remains an unknown outcome, not a denial or body read.
+
+Counts at this checkpoint: 14 search invocations (23 submitted query strings), 109 query-aligned headers, 103 additional invocation-level visible headers in unpartitioned batches, 6 source cards, 1 candidate(s), 10 gaps. Visible header totals include repeated results across invocations and are not unique-source counts.
+
+
+Additional captured discovery batch: Q017–Q019 retained as a whole-invocation rendered trace (26 visible headers; SHA-256 f3dfd9643984ff521a690b5375d5e3df3da66e6ee9d23117e9fa4f044fd1e7f9). Results were noisy/historical or concerned other months; no event facts were coded. Query-to-result partition and native timestamps remain unknown.
+
+Additional Q020–Q023 local/wilaya, official, union and Tamazight discovery batch retained at invocation level (27 visible headers; SHA-256 0784ab12c86b65f2175ed56ccbc695335c33028480ca472a8a1fe86f6a3a93e2). Search-result leads were not body-read; no additional candidate or absence claim was coded.
+
+
+Invocation-log normalization: the preserved pre-repair log is private_reading/capture-repair/search_log.pre-invocation-normalization-01.jsonl (SHA-256 78849748fc9bc2475ee8ab26078f6d42862faa7d816875787fdb5a17ef4e46f3). There is now one canonical record per actual search call; batched result headers stay invocation-level. Exact submitted-query strings are retained where available in the pre-normalization rows; no text or result-to-query mapping was inferred.

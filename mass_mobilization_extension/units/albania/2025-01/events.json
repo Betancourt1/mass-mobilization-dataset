@@ -1,0 +1,83 @@
+[
+  {
+    "candidate_id": "ALB202501-E001",
+    "country": "Albania",
+    "ccode": "339",
+    "unit_month": "2025-01",
+    "title": "Tirana protest outside the Interior Ministry with reported clashes between opposition supporters",
+    "start_date": "2025-01-20",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the Ministry of Interior, Tirana",
+    "scope": "One reported local gathering; relationship to any later daily protest campaign remains unverified.",
+    "organizer": "Not established; participants identified as supporters of Shqipëria Bëhet and Lëvizja Bashkë.",
+    "demands": [],
+    "participants_original": "Not stated in opened report.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Unknown; the opened report provides no attendance estimate. A search-only Gazeta Jon lead cannot establish attendance.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S007"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "A2 CNN article dated 20 January 2025 says the protest took place that evening."
+      },
+      "location": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "A2 CNN places it outside the Interior Ministry in Tirana."
+      },
+      "organizer": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "The report identifies supporters of two movements but does not identify an organizer."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "Attendance is not described."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "A2 CNN reports physical clashes between supporters of the two movements; it does not attribute violence to state actors."
+      },
+      "state_response": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "The article does not establish a response by the state to the gathering."
+      }
+    },
+    "eligibility": "pending_state_target",
+    "coding_status": "candidate",
+    "episode_key": "ALB202501-TIRANA-INTERIOR-MINISTRY-2025-01-20",
+    "notes": "This is a lead for review, not a verified eligible mobilization: the opened contemporary report establishes a protest, date and location, but no demand directed at the Albanian state or attendance threshold. Search-only Gazeta Jon material alleges a justice demand and large turnout, but remains unverified because its access scan deferred. Do not infer its claims into coded fields.",
+    "open_questions": [
+      "What state-directed demand, if any, defined the gathering?",
+      "Was attendance at least 50?",
+      "Was the gathering organized by one of the movements, both, or another group?",
+      "Did daily protests continue after 20 January, and are they one episode or distinct actions?",
+      "What was the state response and actual end time?"
+    ]
+  }
+]

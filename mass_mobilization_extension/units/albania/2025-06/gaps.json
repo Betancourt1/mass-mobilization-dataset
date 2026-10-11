@@ -1,0 +1,37 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "candidate_date_and_identity",
+    "description": "Search lead Shqiptarja “protesta e 8 qershorit” (S002) has no resolved year or event identity. Other high-ranked results included a 20th-day protest result and a 22nd-protest Facebook result (S003/S004), without a verified date or event body. Snippets are not used as evidence; no June 2025 candidate is established.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search these leads by exact date/title and seek contemporaneous opened evidence only after fresh exact-URL access review."
+  },
+  {
+    "gap_id": "G002",
+    "type": "out_of_period_and_search_noise",
+    "description": "A2 S001 was opened after fresh receipt/manual review to disambiguate a June 1 search lead; the body dates the described Tirana protest to 28 May 2024. It is out of period. Searches also returned numerous 2026 anti-government, foreign-country, and unrelated results.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not code these out-of-period results. Continue with independently sourced June 2025 events if found."
+  },
+  {
+    "gap_id": "G003",
+    "type": "search_coverage_and_continuity",
+    "description": "The open-web pass used English/Albanian generic searches, week-range and sector/region queries, local outlet searches, and candidate-specific June 8/10/15 follow-ups. It did not yield a verified in-period event, which is not evidence that none occurred. Accessible newspaper archives are not equivalent to LexisNexis; exact day-level completeness, smaller local assemblies, and continuity across May 31/June 1 or June 30/July 1 remain unresolved.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may identify missing outlet/date coverage; preserve “not found” as a research result, not an absence claim."
+  }
+]
