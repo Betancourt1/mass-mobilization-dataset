@@ -1,0 +1,199 @@
+[
+  {
+    "gap_id": "moldova_2021-01_G001",
+    "type": "participants",
+    "description": "The Jan 25 farmers’ gathering outside MAI is described as “several”/a “group,” with no count establishing 50 or more.",
+    "source_ids": [
+      "MDA2101-S011",
+      "MDA2101-S013",
+      "MDA2101-S014"
+    ],
+    "affected_candidates": [
+      "moldova_2021-01_E001"
+    ],
+    "required_followup": "Search accessible contemporary local reporting or organizer statements for a documented attendance estimate; retain pending_threshold if none appears."
+  },
+  {
+    "gap_id": "moldova_2021-01_G002",
+    "type": "state_response",
+    "description": "NewsMaker reports a Jan 25 audience with a state secretary and MAI confirms a separate Feb 1 meeting with the interim minister. Arrests, beatings, dispersal, deliberate ignoring, killings and shootings at the Jan 25 gathering are unreported; silence does not establish no response.",
+    "source_ids": [
+      "MDA2101-S001",
+      "MDA2101-S013",
+      "MDA2101-S014"
+    ],
+    "affected_candidates": [
+      "moldova_2021-01_E001"
+    ],
+    "required_followup": "Seek event-specific contemporary reporting on police action and physical ending; preserve unknown values absent direct evidence."
+  },
+  {
+    "gap_id": "moldova_2021-01_G003",
+    "type": "participants",
+    "description": "The Jan 5 Ocnița railway-worker protest has no attendance number, and the exact public gathering site/form is not reported.",
+    "source_ids": [
+      "MDA2101-S020",
+      "MDA2101-S031"
+    ],
+    "affected_candidates": [
+      "moldova_2021-01_E002"
+    ],
+    "required_followup": "Search local Ocnița and railway-worker reporting for turnout, precise site, public-assembly form, organizer and end; do not infer headcount from workforce size."
+  },
+  {
+    "gap_id": "moldova_2021-01_G004",
+    "type": "state_target",
+    "description": "The Jan 21 FMF action primarily concerned a private federation election. A search-only UNIMEDIA result reports a march to the Prosecutor General to demand completion of match-fixing cases; confirm that this was part of the same gathering and a domestic-state demand.",
+    "source_ids": [
+      "MDA2101-S027",
+      "MDA2101-S028",
+      "MDA2101-S029",
+      "MDA2101-S030",
+      "MDA2101-S032"
+    ],
+    "affected_candidates": [
+      "moldova_2021-01_E003"
+    ],
+    "required_followup": "Recover or find an accessible contemporary source confirming the march, addressee and demand; keep eligibility pending_evidence until the source text can be checked."
+  },
+  {
+    "gap_id": "moldova_2021-01_G005",
+    "type": "participants",
+    "description": "For the Jan 21 FMF action, a single report’s headline says about 50 while the body says over 50; another says only several supporters. The boundary is material to the 50-person threshold.",
+    "source_ids": [
+      "MDA2101-S027",
+      "MDA2101-S028"
+    ],
+    "affected_candidates": [
+      "moldova_2021-01_E003"
+    ],
+    "required_followup": "Find an independent attendance estimate or clearer original Infotag wording; do not turn “about 50” into an exact or guaranteed minimum."
+  },
+  {
+    "gap_id": "moldova_2021-01_G006",
+    "type": "episode_unit",
+    "description": "The Jan 25 farmer hearing protest is linked to the large December campaign through police citations but is physically separate after tractors were withdrawn on Dec 30. Whether it is a new episode under the original Coding Procedure remains unresolved.",
+    "source_ids": [
+      "MDA2101-S001",
+      "MDA2101-S013",
+      "MDA2101-S014"
+    ],
+    "affected_candidates": [
+      "moldova_2021-01_E001"
+    ],
+    "required_followup": "Check the original Coding Procedure and retain the relationship without merging unless its episode rules and evidence support that decision."
+  },
+  {
+    "gap_id": "moldova_2021-01_G007",
+    "type": "episode_unit",
+    "description": "Basarabeasca’s possible Dec-onset wage action and Ocnița’s Jan 5 protest concern the same state enterprise but different local workers and sites. National coordination or campaign unity is not established.",
+    "source_ids": [
+      "MDA2101-S019",
+      "MDA2101-S020",
+      "MDA2101-S026"
+    ],
+    "affected_candidates": [
+      "moldova_2021-01_E002"
+    ],
+    "required_followup": "Keep the Basarabeasca episode in continuations and Ocnița as its own local candidate pending the original unit/episode rules; do not merge based only on common employer and demand."
+  },
+  {
+    "gap_id": "moldova_2021-01_G008",
+    "type": "dates",
+    "description": "No physical ending is documented for the Jan 5, Jan 21 or Jan 25 gatherings; last publication or later meeting is not used as an event end.",
+    "source_ids": [
+      "MDA2101-S001",
+      "MDA2101-S013",
+      "MDA2101-S014",
+      "MDA2101-S020",
+      "MDA2101-S027",
+      "MDA2101-S028",
+      "MDA2101-S029",
+      "MDA2101-S030"
+    ],
+    "affected_candidates": [
+      "moldova_2021-01_E001",
+      "moldova_2021-01_E002",
+      "moldova_2021-01_E003",
+      "moldova_2021-01_C001"
+    ],
+    "required_followup": "Follow later reporting for explicit participant departure, dissolution or last verified activity; preserve unknown end dates otherwise."
+  },
+  {
+    "gap_id": "moldova_2021-01_G009",
+    "type": "source_access",
+    "description": "Several public URLs returned web-tool Cache miss/Internal Error or timeout. An ordinary HTTPS recovery attempt for public Noi.md pages failed locally at DNS resolution before receiving a server response; no remote HTTP status was received. Metadata review corrected S004/S005/S010 to search_only because only search refs and conflicting limitations were retained; their old timestamps are preserved as unverified metadata and accessed_at is null. S015 now has a direct-open ref to the exact archive URL, but its read scope is archive listings only; its old timestamp remains unverified and the new verification observation is recorded separately. No protected source was bypassed.",
+    "source_ids": [
+      "MDA2101-S002",
+      "MDA2101-S004",
+      "MDA2101-S005",
+      "MDA2101-S006",
+      "MDA2101-S008",
+      "MDA2101-S009",
+      "MDA2101-S010",
+      "MDA2101-S011",
+      "MDA2101-S012",
+      "MDA2101-S015",
+      "MDA2101-S016",
+      "MDA2101-S017",
+      "MDA2101-S018",
+      "MDA2101-S019",
+      "MDA2101-S022",
+      "MDA2101-S023",
+      "MDA2101-S024",
+      "MDA2101-S025",
+      "MDA2101-S026",
+      "MDA2101-S027",
+      "MDA2101-S028",
+      "MDA2101-S030",
+      "MDA2101-S031",
+      "MDA2101-S032"
+    ],
+    "affected_candidates": [
+      "moldova_2021-01_E001",
+      "moldova_2021-01_E002",
+      "moldova_2021-01_E003"
+    ],
+    "required_followup": "Seek accessible direct pages or independent contemporary reporting for relevant leads; treat archive/search excerpts as discovery evidence and do not treat unverified timestamps as opened-page evidence."
+  },
+  {
+    "gap_id": "moldova_2021-01_G010",
+    "type": "coverage",
+    "description": "The open-web first pass used Romanian, Russian and English, but search output was pooled without per-query result totals or reliable query mapping. One early-month generic query exposed no event lead, yet a later targeted search found a Jan 5 railway event. Gagauz-language coverage and systematic newspaper archives were not searched.",
+    "source_ids": [
+      "MDA2101-S019",
+      "MDA2101-S020",
+      "MDA2101-S031"
+    ],
+    "affected_candidates": [
+      "moldova_2021-01_E001",
+      "moldova_2021-01_E002",
+      "moldova_2021-01_E003"
+    ],
+    "required_followup": "Continue with Gagauz-language and local/regional sources, weekly queries and neighboring-month follow-up; do not treat a blank result as evidence of no protest."
+  },
+  {
+    "gap_id": "moldova_2021-01_G011",
+    "type": "search_method",
+    "description": "This open-web search is not equivalent to the manual’s LexisNexis newspaper frame or the unavailable additional Coding Procedure. Coverage and event-unit rules therefore remain provisional.",
+    "source_ids": [],
+    "affected_candidates": [
+      "moldova_2021-01_E001",
+      "moldova_2021-01_E002",
+      "moldova_2021-01_E003"
+    ],
+    "required_followup": "Obtain the latest official baseline and Coding Procedure before any approval or export."
+  },
+  {
+    "gap_id": "moldova_2021-01_G012",
+    "type": "baseline",
+    "description": "The current official Mass Mobilization baseline, the latest version/schema/universe, and its additional Coding Procedure remain unverified for this unit.",
+    "source_ids": [],
+    "affected_candidates": [
+      "moldova_2021-01_E001",
+      "moldova_2021-01_E002",
+      "moldova_2021-01_E003"
+    ],
+    "required_followup": "Coordinator to resolve the baseline gate; worker candidates remain local and pending review."
+  }
+]

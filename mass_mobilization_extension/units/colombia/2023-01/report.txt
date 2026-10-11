@@ -1,0 +1,45 @@
+Colombia — January 2023 research dossier
+
+Assignment and review boundary
+Country: Colombia. Provisional ccode: 100. Unit: 2023-01. Fixed source cutoff: 2026-10-07. Research was done in the worker-owned temporary mirror only. These are review candidates, not official MM rows or IDs. The consulted 2015 codebook extract is historical guidance; the current official baseline, full procedure, and terms remain unverified.
+
+Search and source coverage
+I ran 10 captured native search invocations, with 293 returned result headers, across a broad Spanish/English pass, four weekly date ranges, sector and regional searches, and focused event follow-ups. The exact native captures Q001–Q010 and corresponding LF JSONL query records are retained. These counts describe searches and headers, not a complete census of protest events.
+
+The dossier contains 41 unique exact-URL source cards. Seven direct pages were opened and partially read: S002, S006, S007, S008, S011, S013 and S029. No full article was copied. Eleven other exact-URL body attempts returned a web-tool Cache miss with no HTTP status or page body: S001, S004, S005, S009, S015, S019, S020, S021, S030, S034 and S035. Each attempt has a fresh receipt and is recorded as a technical retrieval failure, not a denial. The remaining sources are search-only. Across all sources there are 19 access receipts, including one reviewed receipt that did not lead to a body attempt. Search-only sources and cache-miss snippets remain visibly limited in sources.jsonl and event field_evidence.
+
+Candidate disposition
+There are 11 provisional event candidates: two proposed inclusions, three with threshold unresolved, and six pending evidence. No candidate is approved or integrated into the official dataset.
+
+E001 is a Jan18 La Mojana plantón at Puente San Jorge. Opened reporting estimates about 300 participants, describes a peaceful action, and reports a same-day road reopening after an agreement over Cara de Gato flood-control works. The estimate has no invented range, and implementation is unverified.
+
+E002 is a separate Jan25–31 La Mojana strike at Puente San Jorge over flood mitigation. The opened Infobae report describes the dates, demand and agreement but supplies no scoped attendance count. The Jan18 turnout was not transferred to it.
+
+E003 is the Jan23–25 Wayuu blockade action at 11 La Guajira points. Opened coverage describes “hundreds,” enough qualitatively to clear the threshold, and reports a Jan25 agreement/lifting of blocks. Start date is inferred from a Jan24 “second day” description. Wayuu authority/representation was contested; the separate unattributed sidebar figure above 2,000 was not used.
+
+E004 is the El Oponcito/Campo 23 campesino action demanding revocation of a CAS license for a Colcco mining project. Opened Vanguardia reporting supports the demand and Jan27 lifting of the local block but no attendance. A Caracol search excerpt puts a community at the site from Jan08 while opened Jan25 coverage says it had been protesting about 48 hours; the start/episode boundary stays unresolved.
+
+E005 is the separate La Lizama humanitarian-emergency action associated with campesino constituencies in southern Bolívar, Cesar and northeastern Antioquia, dated Jan23–27 in opened reporting. National-government guarantees and a humanitarian response were requested. Talks and an announced roadmap are reported, but no participant count or implementation is established. Prior killings of community leaders are context, not protest-period killings.
+
+E006 is a Jan20–21 Santander páramo campesino road blockade. Captured Caracol/BluRadio/Canal 1 search excerpts report more than 2,000 participants, opposition to delimitation rules and a planned meeting with the president. No body was read, so the count, sites, date interval and accommodation remain search-only; the candidate is pending evidence.
+
+E007 is a Jan16 Bogotá recycler protest at Avenida Caracas/Calle 53. A Bogotá Alerta search excerpt reports more than 100 recyclers seeking five months of unpaid compensation from UAESP; an El Espectador excerpt reports an agreed dialogue table. No article body was read, so both the count and response are pending evidence.
+
+E008 is the Jan10 Bogotá private-vehicle plan tortuga against changes to pico y placa. Search text describes several vehicles and a policy grievance but no attendance number or end time; the source body attempt returned Cache miss.
+
+E009 is a Jan19–20 Bogotá taxi-driver blockade over the immobilization of a colleague’s taxi. The captured search text describes the procedural grievance and the mayor’s criticism but no crowd count. Both direct body attempts returned Cache misses.
+
+E010 is a Jan16 Bogotá youth protest reported in front of the Mayor’s Office concerning allegations about disappearances during the 2021 national strike. Search text only; the allegation is not treated as established fact, and the crowd, demand and endpoint remain unresolved.
+
+E011 records search-only reports of solidarity blockades at Puerto Wilches and Sabana de Torres from Jan25. Their attendance, independent demands and endpoints are not scoped, and they are not merged into La Lizama or Oponcito.
+
+Other search-only leads, including platform-driver items, remain gaps rather than event candidates because the available result may describe planned dialogue rather than a physical protest. No separate exclusion or out-of-month continuation was established from the reviewed material; this does not imply none existed.
+
+Open questions and limits
+The official baseline and current coding procedure still need coordinator verification. Threshold evidence remains missing or search-only for E002, E004, E005, E008–E011; E006/E007’s reported counts require body review. The Oponcito Jan08 versus roughly Jan23 chronology and the identity of the separate Magdalena Medio points require resolution. Agreements for La Mojana, Guajira, La Lizama, Santander and Bogotá recyclers are reported commitments, not verified policy/work implementation. All silent state-response fields remain unknown. No claim is made that no other January events occurred: the web-search sample is bounded and does not replace a systematic archive review.
+
+Freeze artifact
+manifest.json records the SHA-256 and byte size for every unit file present at freeze time except the manifest itself, plus the derived counts, source-read scopes, candidate statuses and the date/episode concerns above. The deterministic snapshot digest and the manifest’s own SHA-256 are reported to the coordinator separately.
+
+Freeze correction revision — 2026-10-10T10:31:33+00:00
+This freeze supersedes the prior snapshot tree digest 8c1a5637e463dba26274f527e1266c45bbf52cdf7c7bcb2d7b6136071780a4f3 (generated 2026-10-10T10:18:22+00:00). Exact pre-correction sources.jsonl and manifest.json bytes are retained in capture_revisions/. For S002, S006, S007, S008, S011, S013 and S029, summary now joins only existing body_evidence; the already captured opened-page response IDs are stored in body_ref and web_ref, while each prior search summary/ref is retained in discovery_summary/discovery_ref. No event judgments or source facts changed.

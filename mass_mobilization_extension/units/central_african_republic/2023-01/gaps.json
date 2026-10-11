@@ -1,0 +1,226 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "participants",
+    "description": "The Jan 5 sit-in and Jan 7 mototaxi protest are both reported, but neither source gives a headcount or clear crowd scale for either gathering. The Jan 7 article says residents supported the action without quantifying them.",
+    "source_ids": [
+      "S002",
+      "S006"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E002",
+      "central_african_republic_2023-01_E001"
+    ],
+    "required_followup": "Search for contemporaneous attributed attendance or a clear crowd-size description for each gathering. Do not substitute worker population, vehicles, residents affected or transport users; retain pending_threshold if evidence remains absent."
+  },
+  {
+    "gap_id": "G002",
+    "type": "source_independence",
+    "description": "Journal du Faso and Oubangui Médias provide overlapping Jan 7 details under different bylines; neither article declares a shared origin. Their independence is plausible but not established.",
+    "source_ids": [
+      "S002",
+      "S006"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E001"
+    ],
+    "required_followup": "Compare any available attribution or text origins and seek a third permitted contemporaneous report before treating the accounts as independent corroboration."
+  },
+  {
+    "gap_id": "G003",
+    "type": "state_response",
+    "description": "For Jan 7, the sources report the gendarmerie intervention/departure, barrier removal and reopened road, but not whether protesters were dispersed or whether demands were accepted. For Jan 5, no response is detailed. Neither action’s physical end is established.",
+    "source_ids": [
+      "S002",
+      "S006"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E001",
+      "central_african_republic_2023-01_E002"
+    ],
+    "required_followup": "Find a first-hand or independent contemporary account that distinguishes the Jan 5 sit-in from the Jan 7 blockade and reports protester movement, closure and any attributed state response."
+  },
+  {
+    "gap_id": "G004",
+    "type": "source_access",
+    "description": "A January 27 search-result lead describes a wave of demonstrations against Castel in Bangui. The exact article body remains unverified. The current receipt is manual_review; a prior same-publisher article in the January 2021 CAR dossier records an actual 403 and a same-host no-retry decision, which is being honored.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search broadly for independent contemporaneous reporting on the apparent Bangui action without requesting the held Ndjoni Sango body or seeking a copy to bypass its publisher hold; retain this as an unresolved lead if no permitted source is found."
+  },
+  {
+    "gap_id": "G005",
+    "type": "episode_unit",
+    "description": "Oubangui Médias describes a Jan 5 sit-in followed by a Jan 7 blockade at the same gendarmerie barrier and over the same fees. It does not say whether the gatherings were discrete events or one continuing action.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E002",
+      "central_african_republic_2023-01_E001"
+    ],
+    "required_followup": "Retain separate provisional records and determine whether the Jan 5 sit-in ended before a distinct Jan 7 mobilization. Do not merge based only on shared location/demands or extend the action across the gap without evidence."
+  },
+  {
+    "gap_id": "G006",
+    "type": "participants",
+    "description": "The Jan 31-Feb 2 nationwide teacher work stoppage is documented, but no source reports an event-specific headcount or a public gathering. The later union-federation source’s “massive” description applies collectively to several strikes and cannot establish turnout for this one.",
+    "source_ids": [
+      "S003",
+      "S007"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E003"
+    ],
+    "required_followup": "Look for contemporaneous evidence of an actual January 31-February 2 public meeting, march or other assembly and an attributed count. Do not use teacher workforce size, school closures, classes or affected pupils as attendance; retain pending_evidence if no gathering is documented."
+  },
+  {
+    "gap_id": "G007",
+    "type": "source_independence",
+    "description": "The January local account is supplemented by a March retrospective from Education International, which is affiliated with the SYNEAC member union in the teachers’ platform. The later statement is useful for demands and date range but is not independent attendance verification.",
+    "source_ids": [
+      "S003",
+      "S007"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E003"
+    ],
+    "required_followup": "Seek contemporaneous independent reporting or an official union/government document that identifies the exact Jan 31-Feb 2 action, its demands and any public assembly."
+  },
+  {
+    "gap_id": "G008",
+    "type": "episode_unit",
+    "description": "The teacher strike began January 31 and continued through February 2. The start date makes it January-owned; February follow-up must not create a duplicate event.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E003"
+    ],
+    "required_followup": "At coordinator consolidation, carry this record’s February 1-2 continuation into the next-month review as context and preserve January ownership by the event start date."
+  },
+  {
+    "gap_id": "G009",
+    "type": "threshold",
+    "description": "ActuNiger describes anti-Castel actions at several Bangui locations but gives no turnout at any single gathering. Participant totals cannot be inferred from citywide activity, broken bottles, or locations visited.",
+    "source_ids": [
+      "S013"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E004"
+    ],
+    "required_followup": "Seek an independent report or contemporaneous primary account with an event-specific headcount or clear scale for a single gathering."
+  },
+  {
+    "gap_id": "G010",
+    "type": "eligibility_target",
+    "description": "The only body-read account says protesters wanted Castel to leave the country; it does not identify a demand directed at the Central African government or state policy, which the original codebook requires.",
+    "source_ids": [
+      "S013"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E004"
+    ],
+    "required_followup": "Confirm whether protesters asked the government to act or whether the action targeted only the private company; otherwise screen as non-qualifying under the original target rule."
+  },
+  {
+    "gap_id": "G011",
+    "type": "date_episode",
+    "description": "The January 23 article refers to activity in recent days and several locations but gives no exact start/end date or evidence that all actions were one episode.",
+    "source_ids": [
+      "S013"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E004"
+    ],
+    "required_followup": "Find dated reporting distinguishing the locations and days and establish whether the actions were coordinated as one episode."
+  },
+  {
+    "gap_id": "G012",
+    "type": "source_independence",
+    "description": "ActuNiger's article is bylined but identifies no wire service, written origin or independent corroboration. Its relationship to other reporting is not established.",
+    "source_ids": [
+      "S013"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E004"
+    ],
+    "required_followup": "Check for a separately reported account with transparent provenance before treating source statements as independently corroborated."
+  },
+  {
+    "gap_id": "G013",
+    "type": "public_assembly",
+    "description": "The January 5 bus/taxi accounts available through search excerpts describe parked vehicles and a work stoppage, with no event-specific public gathering or count. This does not establish the original manual's 50-person gathering criterion.",
+    "source_ids": [
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E005"
+    ],
+    "required_followup": "Find an accessible contemporaneous account of whether drivers assembled in one place and how many attended at once."
+  },
+  {
+    "gap_id": "G014",
+    "type": "source_independence",
+    "description": "The UN Human Rights Division snippet and Oubangui Médias search excerpt agree on a January 5 transport-worker action, but full text and source provenance are unavailable for both; independent underlying origins are not established.",
+    "source_ids": [
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E005"
+    ],
+    "required_followup": "Review accessible full reports or a separately sourced account and compare their stated origins."
+  },
+  {
+    "gap_id": "G015",
+    "type": "episode_boundary",
+    "description": "This same-day bus/taxi work stoppage over transport pricing is distinct on current evidence from E001/E002, which concern motorcycle-taxi drivers at a gendarmerie barrier and gendarmerie fees. Do not merge solely because both involve transport workers and Jan 5/7 dates.",
+    "source_ids": [
+      "S002",
+      "S006",
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2023-01_E001",
+      "central_african_republic_2023-01_E002",
+      "central_african_republic_2023-01_E005"
+    ],
+    "required_followup": "Maintain separate actions unless an accessible source demonstrates the same participants, place and grievance."
+  },
+  {
+    "gap_id": "G016",
+    "type": "execution_status",
+    "description": "The January 2023 UN report and Radio Ndeke Luka's January 21 article record civil-society warnings about possible public action over fuel prices and a January 20 government meeting after a January 16 letter. The available evidence documents advocacy and dialogue, not an executed public demonstration; this is not evidence that none occurred.",
+    "source_ids": [
+      "S015",
+      "S017"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek dated post-January 20 reporting or a primary civil-society record to establish whether a public gathering later occurred, keeping it distinct from the January 5 transport-worker stoppage."
+  },
+  {
+    "gap_id": "G017",
+    "type": "lead_unresolved",
+    "description": "A Corbeau News search title says retired FACA personnel were received by the prime minister amid tension in Bangui, but the page body could not be retrieved after a Cache miss and DNS failure. The search title does not establish a protest, date, demand or turnout.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek an independent accessible contemporaneous account establishing whether a public protest or gathering occurred, its date and demand; do not retry or obtain a copy merely to bypass the technical failures."
+  },
+  {
+    "gap_id": "G018",
+    "type": "lead_unresolved",
+    "description": "TV Plus Afrique's captured header says 'Bangui supports its forces,' but the exact article body was unavailable after a Cache miss. The header alone does not establish the date, whether a gathering took place, turnout, target or demand.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If revisited, seek a separately accessible dated account that identifies the action and whether it was an anti-government protest, rather than infer an event from the headline."
+  }
+]

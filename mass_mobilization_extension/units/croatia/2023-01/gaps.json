@@ -1,0 +1,125 @@
+[
+  {
+    "gap_id": "croatia_2023-01_G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization baseline, manual/coding procedure and license are not verified in this worker copy. Local-government/public-company targets, religious gatherings and demand-category mapping therefore remain open for coordinator review.",
+    "source_ids": [],
+    "affected_candidates": [
+      "croatia_2023-01_E001",
+      "croatia_2023-01_E002",
+      "croatia_2023-01_E003",
+      "croatia_2023-01_E004",
+      "croatia_2023-01_E005",
+      "croatia_2023-01_E006"
+    ],
+    "required_followup": "Coordinator should verify the original manual and official baseline before approving any candidate or resolving state-target/category boundaries."
+  },
+  {
+    "gap_id": "croatia_2023-01_G002",
+    "type": "participants",
+    "description": "Turnout is unresolved for the Jan 7 Zagreb gathering, Pula, Opatija and Split. Makarska search-result text reports about 300, but no body was read. Zagreb Čistoća is the only candidate with opened qualitative turnout evidence (HRT: several hundred at the company building); RFE/RL’s 1,000 employee figure has no count method or simultaneity scope.",
+    "source_ids": [
+      "croatia_2023-01-S001",
+      "croatia_2023-01-S003",
+      "croatia_2023-01-S008",
+      "croatia_2023-01-S012",
+      "croatia_2023-01-S015",
+      "croatia_2023-01-S016"
+    ],
+    "affected_candidates": [
+      "croatia_2023-01_E001",
+      "croatia_2023-01_E002",
+      "croatia_2023-01_E003",
+      "croatia_2023-01_E004",
+      "croatia_2023-01_E005",
+      "croatia_2023-01_E006"
+    ],
+    "required_followup": "Seek accessible contemporaneous accounts or body-level evidence for attendance at each site. Preserve qualitative phrases as reported and do not invent bounds or aggregate city counts."
+  },
+  {
+    "gap_id": "croatia_2023-01_G003",
+    "type": "state_target",
+    "description": "The Zagreb sanitation action targeted a city-owned company and involved a mayoral agreement; whether that qualifies as a domestic state target needs original-codebook review. The Jan 7 rosary lead lacks body evidence of any state-directed demand.",
+    "source_ids": [
+      "croatia_2023-01-S001",
+      "croatia_2023-01-S003",
+      "croatia_2023-01-S016"
+    ],
+    "affected_candidates": [
+      "croatia_2023-01_E001",
+      "croatia_2023-01_E002"
+    ],
+    "required_followup": "Verify the original domestic-state-target rule; retrieve a January 7 body or contemporaneous source establishing any demand directed at Croatian government policy."
+  },
+  {
+    "gap_id": "croatia_2023-01_G004",
+    "type": "episode_unit",
+    "description": "The Jan 23–26 Čistoća reports link a public demonstration to a multi-day strike, but the precise physical assembly start and last gathering are not separately established. Same-day coastal demonstrations have local organizers and a broader initiative, but national coordination and the correct one-event-versus-local-event unit remain unresolved. A Zagreb action was announced for 2 February; announcement is not execution or proof of continuation.",
+    "source_ids": [
+      "croatia_2023-01-S001",
+      "croatia_2023-01-S003",
+      "croatia_2023-01-S007",
+      "croatia_2023-01-S008",
+      "croatia_2023-01-S010",
+      "croatia_2023-01-S012",
+      "croatia_2023-01-S013",
+      "croatia_2023-01-S014",
+      "croatia_2023-01-S015"
+    ],
+    "affected_candidates": [
+      "croatia_2023-01_E002",
+      "croatia_2023-01_E003",
+      "croatia_2023-01_E004",
+      "croatia_2023-01_E005",
+      "croatia_2023-01_E006"
+    ],
+    "required_followup": "Check neighboring-month evidence for the actual Feb 2 event and assess Jan 28 organizers/demands across localities before merging. Keep February out of this month’s event ownership unless the original episode rule indicates continuation."
+  },
+  {
+    "gap_id": "croatia_2023-01_G005",
+    "type": "source_access",
+    "description": "Body retrieval was limited by technical and tool failures: Glas Istre and Riportal pages each returned Cache miss and one fresh-receipt exact-URL HTTPS DNS failure (HTTP 000); Makarska Danas returned Cache miss and one such DNS failure; Net.hr and Index.hr targets returned Cache miss; Zelena Istra’s PDF exceeded the tool’s 10 MiB limit. These are not publisher denials. Slobodna Dalmacija’s event page was marked premium in returned search results, so its body was not requested.",
+    "source_ids": [
+      "croatia_2023-01-S007",
+      "croatia_2023-01-S008",
+      "croatia_2023-01-S010",
+      "croatia_2023-01-S012",
+      "croatia_2023-01-S013",
+      "croatia_2023-01-S015",
+      "croatia_2023-01-S016"
+    ],
+    "affected_candidates": [
+      "croatia_2023-01_E001",
+      "croatia_2023-01_E003",
+      "croatia_2023-01_E004",
+      "croatia_2023-01_E005",
+      "croatia_2023-01_E006"
+    ],
+    "required_followup": "Use only the exact captured URL after a fresh receipt and manual review, or find an accessible independent contemporary source; do not treat technical misses as denials or body evidence."
+  },
+  {
+    "gap_id": "croatia_2023-01_G006",
+    "type": "coverage",
+    "description": "Ten grouped open-web search invocations retained 261 native result headers in English and Croatian, including four January weekly windows and targeted regional/sector queries. This does not reproduce LexisNexis or establish exhaustive national coverage. No systematic survey of Croatian local archives, official assembly notices, union archives or local civic-group records was completed.",
+    "source_ids": [
+      "croatia_2023-01-S001",
+      "croatia_2023-01-S003",
+      "croatia_2023-01-S007",
+      "croatia_2023-01-S008",
+      "croatia_2023-01-S012",
+      "croatia_2023-01-S016"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search systematically across local/regional Croatian outlets, municipalities, unions, civic organizations and newspaper archives; retain uncovered regions and sectors as open gaps."
+  },
+  {
+    "gap_id": "croatia_2023-01_G007",
+    "type": "search_method",
+    "description": "Search-result discovery about January post-euro price pressure and a Dolac market image did not establish a mass public assembly. Later retail boycotts in 2025 are outside this unit. A January 2023 consumer-action lead therefore remains unresolved.",
+    "source_ids": [
+      "croatia_2023-01-S017"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check contemporaneous Croatian-language consumer, labor and market sources for any January 2023 physical public gathering directed at domestic price policy; do not code shopping avoidance alone as an assembly."
+  }
+]

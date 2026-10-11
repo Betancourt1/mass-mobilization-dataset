@@ -1,0 +1,32 @@
+{
+  "unit_id": "bolivia_2023-01",
+  "country": "Bolivia",
+  "ccode": "145",
+  "month": "2023-01",
+  "agent_task": "/root/bolivia_2023_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T06:50:07Z",
+  "finished_at": "2026-10-10T07:56:53Z",
+  "n_queries": 32,
+  "n_sources": 66,
+  "n_candidates": 25,
+  "n_excluded": 1,
+  "n_continuations": 1,
+  "n_gaps": 16,
+  "coverage_assessment": "First-pass Spanish/English open-web research covered January weekly windows, Indigenous-group search terms, civic/political mobilization, health/labor, transport/fare disputes, and campaign continuation. Twenty-five event candidates include six proposed threshold-qualified actions and a set of unresolved local crowd/target candidates. No exhaustiveness or official inclusion claim. Nineteen partial or incomplete search-log rows were repaired from exact original web.search metadata without replay: the original seven response rows and twelve rows missing native type/domain/ref_id fields. Original log snapshots, recovery manifests, and all nineteen exact response JSON files are preserved in capture_revisions/.",
+  "source_access_counts": {
+    "opened": 37,
+    "blocked": 2,
+    "search_only": 27,
+    "not_found": 0
+  },
+  "query_capture_integrity": {
+    "captured_query_count": 32,
+    "captured_header_count": 629,
+    "uncaptured_responses": 0,
+    "recovery_status": "nineteen_original_query_rows_recovered_without_requery"
+  },
+  "baseline_gate": "pending_official_baseline",
+  "coordinator_review_status": "not_reviewed",
+  "original_agent_status": "ready_for_coordinator_review"
+}

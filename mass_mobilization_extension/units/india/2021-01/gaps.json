@@ -1,0 +1,1055 @@
+[
+  {
+    "gap_id": "IND202101-G001",
+    "type": "coverage_method",
+    "description": "47 consultas en web abierta no reproducen LexisNexis All News, major world publications ni inspección de todos los artículos país-año. El buscador devuelve años incorrectos y notas de campañas famosas.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Acceder a hemeroteca y realizar recuperación sistemática por ventanas semanales con cuatro términos MM; evaluar recall sobre período conocido."
+  },
+  {
+    "gap_id": "IND202101-G002",
+    "type": "baseline",
+    "description": "La versión oficial MM y sus condiciones/mecanismo de contribución siguen pendientes. Código Polity 750 proviene del assignment y no es ID oficial de casos.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resolver baseline oficial con coordinador; no integrar ni emitir PR hasta esa compuerta."
+  },
+  {
+    "gap_id": "IND202101-G003",
+    "type": "language",
+    "description": "Se buscaron inglés, hindi, tamil y bengalí; lectura bengalí/hindi asistida no constituye revisión nativa. No hubo barrido en maratí, telugu, kannada, malayalam, punjabí, urdu, asamés, manipuri ni restantes idiomas indios.",
+    "source_ids": [
+      "IND202101-S030"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Asignar revisores de lenguas/localidades y revisar prensa regional para reducir sesgo por inglés."
+  },
+  {
+    "gap_id": "IND202101-G004",
+    "type": "geographic_coverage",
+    "description": "Se buscaron movimientos laborales, estudiantes, tierra y CAA además de campesinos Delhi. Hay pistas de Delhi, Punjab, Tamil Nadu, Kerala, Karnataka, Assam, Goa, Telangana, Manipur, Odisha y Jammu/Kashmir. Esto no prueba cobertura de esos estados, y no cubre todos distritos, territorios ni estados.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Expandir por estado-distrito-sector; conservar matriz de no cubierto y no confundir ningún hallazgo con ausencia real."
+  },
+  {
+    "gap_id": "IND202101-G005",
+    "type": "blocked_archive",
+    "description": "Herald Goa Pernem 403, PBS NewsHour 403 y PDF oficial Puducherry DisabledError. Deccan Herald abrió sin cuerpo sustantivo. No hubo acceso a LexisNexis ni archivos NYT/Washington Post/CSM/Times London para el mes.",
+    "source_ids": [
+      "IND202101-S013",
+      "IND202101-S014",
+      "IND202101-S015",
+      "IND202101-S026"
+    ],
+    "affected_candidates": [
+      "IND202101-E006",
+      "IND202101-E025"
+    ],
+    "required_followup": "Recuperar alternativas públicas independientes o acceso autorizado a archivo; no eludir barreras."
+  },
+  {
+    "gap_id": "IND202101-G006",
+    "type": "syndication",
+    "description": "PTI, IANS, Reuters y medios con citas parciales de BBC aparecen repetidos; varios buscadores devolvieron versiones lite/amp/pdf de la misma pieza.",
+    "source_ids": [
+      "IND202101-S008",
+      "IND202101-S012",
+      "IND202101-S022",
+      "IND202101-S025",
+      "IND202101-S027",
+      "IND202101-S028",
+      "IND202101-S037"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Deduplicar por origen y fecha; no equiparar número de dominios a corroboración independiente."
+  },
+  {
+    "gap_id": "IND202101-G007",
+    "type": "discovery_unopened",
+    "description": "201 URLs permanecen search_only; muchas son otras fechas, anuncios, antecedentes o versiones sindicadas. discovery_index conserva todos los resultados sin copiar artículos. Estas pistas no son eventos codificados.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Abrir y cribar por fecha, país y relevancia; registrar nuevos eventos y descartes solo al verificarlos."
+  },
+  {
+    "gap_id": "IND202101-G008",
+    "type": "end_date",
+    "description": "Huelga y concentraciones de empleados municipales de Delhi: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S006",
+      "IND202101-S007",
+      "IND202101-S008",
+      "IND202101-S003"
+    ],
+    "affected_candidates": [
+      "IND202101-E001"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G009",
+    "type": "state_response",
+    "description": "Huelga y concentraciones de empleados municipales de Delhi: unknown en beatings, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S006",
+      "IND202101-S007",
+      "IND202101-S008",
+      "IND202101-S003"
+    ],
+    "affected_candidates": [
+      "IND202101-E001"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G010",
+    "type": "end_date",
+    "description": "Nueva fase coordinada de oposición a privatización BEML: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S001",
+      "IND202101-S009",
+      "IND202101-S010"
+    ],
+    "affected_candidates": [
+      "IND202101-E002"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G011",
+    "type": "state_response",
+    "description": "Nueva fase coordinada de oposición a privatización BEML: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S001",
+      "IND202101-S009",
+      "IND202101-S010"
+    ],
+    "affected_candidates": [
+      "IND202101-E002"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G012",
+    "type": "threshold",
+    "description": "Docentes de primaria presentan 15 demandas en Madurai: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S011"
+    ],
+    "affected_candidates": [
+      "IND202101-E003"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G013",
+    "type": "end_date",
+    "description": "Docentes de primaria presentan 15 demandas en Madurai: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S011"
+    ],
+    "affected_candidates": [
+      "IND202101-E003"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G014",
+    "type": "state_response",
+    "description": "Docentes de primaria presentan 15 demandas en Madurai: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S011"
+    ],
+    "affected_candidates": [
+      "IND202101-E003"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G015",
+    "type": "threshold",
+    "description": "Empleados SSA protestan contra traslados en Patiala: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S016",
+      "IND202101-S002"
+    ],
+    "affected_candidates": [
+      "IND202101-E004"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G016",
+    "type": "end_date",
+    "description": "Empleados SSA protestan contra traslados en Patiala: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S016",
+      "IND202101-S002"
+    ],
+    "affected_candidates": [
+      "IND202101-E004"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G017",
+    "type": "state_response",
+    "description": "Empleados SSA protestan contra traslados en Patiala: unknown en arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S016",
+      "IND202101-S002"
+    ],
+    "affected_candidates": [
+      "IND202101-E004"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G018",
+    "type": "threshold",
+    "description": "Personal no docente SSA demanda regularización en Bathinda: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S001"
+    ],
+    "affected_candidates": [
+      "IND202101-E005"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G019",
+    "type": "end_date",
+    "description": "Personal no docente SSA demanda regularización en Bathinda: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S001"
+    ],
+    "affected_candidates": [
+      "IND202101-E005"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G020",
+    "type": "state_response",
+    "description": "Personal no docente SSA demanda regularización en Bathinda: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S001"
+    ],
+    "affected_candidates": [
+      "IND202101-E005"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G021",
+    "type": "end_date",
+    "description": "Protesta eléctrica contra privatización en Puducherry: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S002",
+      "IND202101-S015",
+      "IND202101-S036"
+    ],
+    "affected_candidates": [
+      "IND202101-E006"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G022",
+    "type": "state_response",
+    "description": "Protesta eléctrica contra privatización en Puducherry: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S002",
+      "IND202101-S015",
+      "IND202101-S036"
+    ],
+    "affected_candidates": [
+      "IND202101-E006"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G023",
+    "type": "end_date",
+    "description": "Extratrabajadores aeroportuarios reclaman pago e intervención estatal: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S001"
+    ],
+    "affected_candidates": [
+      "IND202101-E007"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G024",
+    "type": "state_response",
+    "description": "Extratrabajadores aeroportuarios reclaman pago e intervención estatal: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S001"
+    ],
+    "affected_candidates": [
+      "IND202101-E007"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G025",
+    "type": "end_date",
+    "description": "Trabajadores públicos de agua se manifiestan en Udhampur: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S001"
+    ],
+    "affected_candidates": [
+      "IND202101-E008"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G026",
+    "type": "state_response",
+    "description": "Trabajadores públicos de agua se manifiestan en Udhampur: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S001"
+    ],
+    "affected_candidates": [
+      "IND202101-E008"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G027",
+    "type": "threshold",
+    "description": "Personal de universidad musical exige salarios en Mysuru: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S001"
+    ],
+    "affected_candidates": [
+      "IND202101-E009"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G028",
+    "type": "end_date",
+    "description": "Personal de universidad musical exige salarios en Mysuru: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S001"
+    ],
+    "affected_candidates": [
+      "IND202101-E009"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G029",
+    "type": "state_response",
+    "description": "Personal de universidad musical exige salarios en Mysuru: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S001"
+    ],
+    "affected_candidates": [
+      "IND202101-E009"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G030",
+    "type": "end_date",
+    "description": "Personal de basura protesta en plaza pública de Nagpur: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S002"
+    ],
+    "affected_candidates": [
+      "IND202101-E010"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G031",
+    "type": "state_response",
+    "description": "Personal de basura protesta en plaza pública de Nagpur: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S002"
+    ],
+    "affected_candidates": [
+      "IND202101-E010"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G032",
+    "type": "threshold",
+    "description": "Enfermeras contratadas protestan en Erode: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S002"
+    ],
+    "affected_candidates": [
+      "IND202101-E011"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G033",
+    "type": "end_date",
+    "description": "Enfermeras contratadas protestan en Erode: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S002"
+    ],
+    "affected_candidates": [
+      "IND202101-E011"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G034",
+    "type": "state_response",
+    "description": "Enfermeras contratadas protestan en Erode: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S002"
+    ],
+    "affected_candidates": [
+      "IND202101-E011"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G035",
+    "type": "threshold",
+    "description": "Empleados de aseguradoras públicas protestan en Nagpur: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S003"
+    ],
+    "affected_candidates": [
+      "IND202101-E012"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G036",
+    "type": "end_date",
+    "description": "Empleados de aseguradoras públicas protestan en Nagpur: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S003"
+    ],
+    "affected_candidates": [
+      "IND202101-E012"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G037",
+    "type": "state_response",
+    "description": "Empleados de aseguradoras públicas protestan en Nagpur: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S003"
+    ],
+    "affected_candidates": [
+      "IND202101-E012"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G038",
+    "type": "end_date",
+    "description": "Personal universitario no docente realiza piquete en Patiala: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S003"
+    ],
+    "affected_candidates": [
+      "IND202101-E013"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G039",
+    "type": "state_response",
+    "description": "Personal universitario no docente realiza piquete en Patiala: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S003"
+    ],
+    "affected_candidates": [
+      "IND202101-E013"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G040",
+    "type": "threshold",
+    "description": "Anganwadi reclama salarios ante autoridad en Ganderbal: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S004"
+    ],
+    "affected_candidates": [
+      "IND202101-E014"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G041",
+    "type": "end_date",
+    "description": "Anganwadi reclama salarios ante autoridad en Ganderbal: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S004"
+    ],
+    "affected_candidates": [
+      "IND202101-E014"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G042",
+    "type": "state_response",
+    "description": "Anganwadi reclama salarios ante autoridad en Ganderbal: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S004"
+    ],
+    "affected_candidates": [
+      "IND202101-E014"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G043",
+    "type": "threshold",
+    "description": "Personal de comidas escolares pide estatus estatal en Assam: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S004"
+    ],
+    "affected_candidates": [
+      "IND202101-E015"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G044",
+    "type": "end_date",
+    "description": "Personal de comidas escolares pide estatus estatal en Assam: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S004"
+    ],
+    "affected_candidates": [
+      "IND202101-E015"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G045",
+    "type": "state_response",
+    "description": "Personal de comidas escolares pide estatus estatal en Assam: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S004"
+    ],
+    "affected_candidates": [
+      "IND202101-E015"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G046",
+    "type": "end_date",
+    "description": "Médicos de colegios públicos Kerala suspenden tareas: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S004"
+    ],
+    "affected_candidates": [
+      "IND202101-E016"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G047",
+    "type": "state_response",
+    "description": "Médicos de colegios públicos Kerala suspenden tareas: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S004"
+    ],
+    "affected_candidates": [
+      "IND202101-E016"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G048",
+    "type": "threshold",
+    "description": "Trabajadores revenue exigen arrestar agresores de colega: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S004"
+    ],
+    "affected_candidates": [
+      "IND202101-E017"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G049",
+    "type": "end_date",
+    "description": "Trabajadores revenue exigen arrestar agresores de colega: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S004"
+    ],
+    "affected_candidates": [
+      "IND202101-E017"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G050",
+    "type": "state_response",
+    "description": "Trabajadores revenue exigen arrestar agresores de colega: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S004"
+    ],
+    "affected_candidates": [
+      "IND202101-E017"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G051",
+    "type": "end_date",
+    "description": "Acción coordinada AASU contra CAA durante visitas oficiales: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S017",
+      "IND202101-S018",
+      "IND202101-S019"
+    ],
+    "affected_candidates": [
+      "IND202101-E018"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G052",
+    "type": "state_response",
+    "description": "Acción coordinada AASU contra CAA durante visitas oficiales: unknown en accommodation, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S017",
+      "IND202101-S018",
+      "IND202101-S019"
+    ],
+    "affected_candidates": [
+      "IND202101-E018"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G053",
+    "type": "end_date",
+    "description": "Protesta contra NIMZ en audiencia pública de Bardipur: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S022",
+      "IND202101-S023",
+      "IND202101-S024"
+    ],
+    "affected_candidates": [
+      "IND202101-E019"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G054",
+    "type": "state_response",
+    "description": "Protesta contra NIMZ en audiencia pública de Bardipur: unknown en beatings, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S022",
+      "IND202101-S023",
+      "IND202101-S024"
+    ],
+    "affected_candidates": [
+      "IND202101-E019"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G055",
+    "type": "threshold",
+    "description": "Estudiantes UoH protestan por terreno universitario: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S021"
+    ],
+    "affected_candidates": [
+      "IND202101-E020"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G056",
+    "type": "end_date",
+    "description": "Estudiantes UoH protestan por terreno universitario: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S021"
+    ],
+    "affected_candidates": [
+      "IND202101-E020"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G057",
+    "type": "state_response",
+    "description": "Estudiantes UoH protestan por terreno universitario: unknown en accommodation, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S021"
+    ],
+    "affected_candidates": [
+      "IND202101-E020"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G058",
+    "type": "threshold",
+    "description": "Aspirantes a docentes de colegios protestan en Bikash Bhavan: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S030"
+    ],
+    "affected_candidates": [
+      "IND202101-E021"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G059",
+    "type": "end_date",
+    "description": "Aspirantes a docentes de colegios protestan en Bikash Bhavan: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S030"
+    ],
+    "affected_candidates": [
+      "IND202101-E021"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G060",
+    "type": "state_response",
+    "description": "Aspirantes a docentes de colegios protestan en Bikash Bhavan: unknown en accommodation, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S030"
+    ],
+    "affected_candidates": [
+      "IND202101-E021"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G061",
+    "type": "threshold",
+    "description": "Periodistas Guwahati reclaman sanciones y protección policial: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S032"
+    ],
+    "affected_candidates": [
+      "IND202101-E022"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G062",
+    "type": "end_date",
+    "description": "Periodistas Guwahati reclaman sanciones y protección policial: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S032"
+    ],
+    "affected_candidates": [
+      "IND202101-E022"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G063",
+    "type": "state_response",
+    "description": "Periodistas Guwahati reclaman sanciones y protección policial: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S032"
+    ],
+    "affected_candidates": [
+      "IND202101-E022"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G064",
+    "type": "threshold",
+    "description": "Organizaciones campesinas realizan ayuno público en Imphal: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S031"
+    ],
+    "affected_candidates": [
+      "IND202101-E023"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G065",
+    "type": "end_date",
+    "description": "Organizaciones campesinas realizan ayuno público en Imphal: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S031"
+    ],
+    "affected_candidates": [
+      "IND202101-E023"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G066",
+    "type": "state_response",
+    "description": "Organizaciones campesinas realizan ayuno público en Imphal: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S031"
+    ],
+    "affected_candidates": [
+      "IND202101-E023"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G067",
+    "type": "threshold",
+    "description": "Acciones Konsakhul contra terreno de National Sports University: no se demuestra reunión >=50; cifras de plantillas, afectados o detenidos no bastan por sí mismas.",
+    "source_ids": [
+      "IND202101-S033",
+      "IND202101-S034",
+      "IND202101-S035"
+    ],
+    "affected_candidates": [
+      "IND202101-E024"
+    ],
+    "required_followup": "Recuperar estimación contemporánea/imagen revisable o evidencia clara de escala; no inventar asistentes."
+  },
+  {
+    "gap_id": "IND202101-G068",
+    "type": "end_date",
+    "description": "Acciones Konsakhul contra terreno de National Sports University: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S033",
+      "IND202101-S034",
+      "IND202101-S035"
+    ],
+    "affected_candidates": [
+      "IND202101-E024"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G069",
+    "type": "state_response",
+    "description": "Acciones Konsakhul contra terreno de National Sports University: unknown en accommodation, arrests, beatings, ignore, killings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S033",
+      "IND202101-S034",
+      "IND202101-S035"
+    ],
+    "affected_candidates": [
+      "IND202101-E024"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G070",
+    "type": "end_date",
+    "description": "Protesta ante comisaría Pernem por activistas arrestados: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S013"
+    ],
+    "affected_candidates": [
+      "IND202101-E025"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G071",
+    "type": "state_response",
+    "description": "Protesta ante comisaría Pernem por activistas arrestados: unknown en accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S013"
+    ],
+    "affected_candidates": [
+      "IND202101-E025"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G072",
+    "type": "state_response",
+    "description": "Marcha de agricultores Nashik–Mumbai y sit-in Azad Maidan: unknown en accommodation, arrests, beatings, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S020",
+      "IND202101-S028"
+    ],
+    "affected_candidates": [
+      "IND202101-E026"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G073",
+    "type": "end_date",
+    "description": "Marcha de tractores del Día de la República en Delhi: fecha de fin sin verificar. No se fija 31 enero ni la última URL como cierre.",
+    "source_ids": [
+      "IND202101-S025",
+      "IND202101-S037",
+      "IND202101-S029",
+      "IND202101-S005"
+    ],
+    "affected_candidates": [
+      "IND202101-E027"
+    ],
+    "required_followup": "Buscar cierre físico o seguimiento de reportes que permita regla de último reporte explícitamente identificada."
+  },
+  {
+    "gap_id": "IND202101-G074",
+    "type": "state_response",
+    "description": "Marcha de tractores del Día de la República en Delhi: unknown en accommodation, arrests, ignore, killings, shootings; ausencia de noticia no equivale no respuesta.",
+    "source_ids": [
+      "IND202101-S025",
+      "IND202101-S037",
+      "IND202101-S029",
+      "IND202101-S005"
+    ],
+    "affected_candidates": [
+      "IND202101-E027"
+    ],
+    "required_followup": "Contrastar fuentes por respuestas desconocidas. No imputar cero/No a silent reporting."
+  },
+  {
+    "gap_id": "IND202101-G075",
+    "type": "unit_and_dates",
+    "description": "BEML: día 3 corresponde al anuncio de venta y es usado por un resumen como inicio; Palakkad tiene inicio confirmado 6. Campo global deja solo mes.",
+    "source_ids": [
+      "IND202101-S001",
+      "IND202101-S009",
+      "IND202101-S010"
+    ],
+    "affected_candidates": [
+      "IND202101-E002"
+    ],
+    "required_followup": "Reconstruir secuencia y coordinación de plantas, luego fijar fecha de primer acto >=50."
+  },
+  {
+    "gap_id": "IND202101-G076",
+    "type": "unit_and_dates",
+    "description": "Puducherry: fuentes contrastan anuncio 11 con reporte de comienzo 12; diciembre hubo huelga anterior terminada.",
+    "source_ids": [
+      "IND202101-S002",
+      "IND202101-S015",
+      "IND202101-S036"
+    ],
+    "affected_candidates": [
+      "IND202101-E006"
+    ],
+    "required_followup": "Verificar prensa local y orden oficial, distinguir anuncio/realización y población laboral/asistentes."
+  },
+  {
+    "gap_id": "IND202101-G077",
+    "type": "unit",
+    "description": "Campamento Delhi C001, nueva marcha 26 enero E027 y acción Maharashtra E026 se relacionan con convocatoria nacional SKM pero tienen ámbitos/acciones distintas.",
+    "source_ids": [
+      "IND202101-S005",
+      "IND202101-S020",
+      "IND202101-S025",
+      "IND202101-S028",
+      "IND202101-S037"
+    ],
+    "affected_candidates": [
+      "IND202101-E026",
+      "IND202101-E027"
+    ],
+    "required_followup": "Revisor decide unidad antes de contar; si un nacional las engloba, no sumar componentes como eventos independientes."
+  },
+  {
+    "gap_id": "IND202101-G078",
+    "type": "unit",
+    "description": "PHE Udhampur E008 puede ser reunión nueva o continuación de huelga septiembre 2020.",
+    "source_ids": [
+      "IND202101-S001"
+    ],
+    "affected_candidates": [
+      "IND202101-E008"
+    ],
+    "required_followup": "Recuperar final huelga previa e inicio/fin de concentración 2 enero."
+  },
+  {
+    "gap_id": "IND202101-G079",
+    "type": "contested_fatality",
+    "description": "Muerte Navrit/Navreet Singh 26 enero tiene relato de accidente policial y alegaciones iniciales de disparo; no se marca killings ni shootings a partir de ella.",
+    "source_ids": [
+      "IND202101-S025",
+      "IND202101-S029",
+      "IND202101-S037"
+    ],
+    "affected_candidates": [
+      "IND202101-E027"
+    ],
+    "required_followup": "Revisar autopsia/documentos, grado de causalidad estatal y resoluciones. Mantener atribuciones separadas."
+  },
+  {
+    "gap_id": "IND202101-G080",
+    "type": "threshold_unit_target",
+    "description": "NSU Manipur: 40–50 en incidente, acciones desde 27 enero y disputa entre comunidades. Reclamo a gobierno explícito pero hay contramovilización distinta.",
+    "source_ids": [
+      "IND202101-S033",
+      "IND202101-S034",
+      "IND202101-S035"
+    ],
+    "affected_candidates": [
+      "IND202101-E024"
+    ],
+    "required_followup": "No sumar comunidades ni bloques anunciados; comprobar umbral, inicio y acto anti-state frente a exclusivamente intercomunal."
+  },
+  {
+    "gap_id": "IND202101-G081",
+    "type": "state_target",
+    "description": "Nagpur basura, universidad Patiala y periodistas Guwahati requieren precisar qué decisión estatal se demanda y el contexto público.",
+    "source_ids": [
+      "IND202101-S002",
+      "IND202101-S003",
+      "IND202101-S032"
+    ],
+    "affected_candidates": [
+      "IND202101-E010",
+      "IND202101-E013",
+      "IND202101-E022"
+    ],
+    "required_followup": "Resolver estatal frente a empresa/autoridad universitaria autónoma y tamaño."
+  },
+  {
+    "gap_id": "IND202101-G082",
+    "type": "geographic_conflict",
+    "description": "HR Katha localiza SSA de traslados en Delhi; The Tribune y WSWS describen mismos detalles en Patiala.",
+    "source_ids": [
+      "IND202101-S016",
+      "IND202101-S036"
+    ],
+    "affected_candidates": [
+      "IND202101-E004"
+    ],
+    "required_followup": "Contrastar original y corregir atribución geográfica antes de duplicar supuesto acto de Delhi."
+  },
+  {
+    "gap_id": "IND202101-G083",
+    "type": "unverified_leads",
+    "description": "Pistas aún no desarrolladas incluyen posibles acciones de días 7/18/30 vinculadas campaña campesina; UTC Uttarakhand ~1.200 huelguistas; reclamo de minorías Haj House Hyderabad 11; Santa Cruz Goa vialidad 26; protesta por precio de acero Coimbatore anunciada 11; anuncios nacionales de laboral y apoyo BEML 27.",
+    "source_ids": [
+      "IND202101-S026",
+      "IND202101-S036"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verificar realización, inicio, objetivo gubernamental y >=50; si ya parte de episodio no crear nuevas filas."
+  },
+  {
+    "gap_id": "IND202101-G084",
+    "type": "continuations",
+    "description": "Continuaciones Delhi, Tripura y Melauli pertenecen a unidades anteriores; no se aprobaron inicios nuevos en enero por cambiar mes.",
+    "source_ids": [
+      "IND202101-S005",
+      "IND202101-S012",
+      "IND202101-S038"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Entregar a meses propietarios noviembre/diciembre 2020 y al agente febrero 2021 para seguimiento."
+  }
+]

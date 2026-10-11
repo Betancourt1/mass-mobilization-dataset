@@ -1,0 +1,122 @@
+[
+  {
+    "gap_id": "BF2301-G001",
+    "type": "participants",
+    "description": "The opened LeFaso account for the 15 January Ouahigouya meeting describes a crowded plaza and large turnout but provides no count. AIB discovery says “thousands,” but the exact body attempt returned a technical Cache miss; that figure is not used.",
+    "source_ids": [
+      "BF2301-S017",
+      "BF2301-S018"
+    ],
+    "affected_candidates": [
+      "BF2301-E001"
+    ],
+    "required_followup": "If a numeric estimate matters, seek another receipted contemporaneous local report. Any retry to AIB requires a new exact-URL receipt and manual scope review; do not convert qualitative terms into bounds."
+  },
+  {
+    "gap_id": "BF2301-G002",
+    "type": "state_target",
+    "description": "The 20 January CLP assembly is reported as several hundred, but Anadolu states its demands were that France remove its ambassador and military force. An attendee says they came to support the transition president; this alone does not show a domestic government or policy demand. Do not infer the crowd target from subsequent diplomacy.",
+    "source_ids": [
+      "BF2301-S001"
+    ],
+    "affected_candidates": [
+      "BF2301-E002"
+    ],
+    "required_followup": "Seek a distinct contemporaneous account explicitly reporting a demand to Burkina Faso authorities or a specific domestic policy ask at the gathering; otherwise retain pending_state_target."
+  },
+  {
+    "gap_id": "BF2301-G003",
+    "type": "participants",
+    "description": "The 28 January Bobo-Dioulasso meeting is confirmed, but the opened local report provides no crowd count or crowd-size description. The parade of about ten horsemen is not attendance evidence.",
+    "source_ids": [
+      "BF2301-S012"
+    ],
+    "affected_candidates": [
+      "BF2301-E004"
+    ],
+    "required_followup": "Look for independent contemporaneous attendance reporting; otherwise keep the >=50 threshold unknown and do not count images or one subgroup as the total crowd."
+  },
+  {
+    "gap_id": "BF2301-G004",
+    "type": "state_target",
+    "description": "The Bobo-Dioulasso meeting included broad transition support, a warning to the Ivorian president, and a participant appeal that Bobo should not be neglected. The last appeal’s addressee and relationship to domestic government policy are unclear.",
+    "source_ids": [
+      "BF2301-S012"
+    ],
+    "affected_candidates": [
+      "BF2301-E004"
+    ],
+    "required_followup": "Find contemporaneous evidence explicitly tying the appeal to Burkina Faso government action or a domestic policy demand; a warning to a foreign president alone is insufficient."
+  },
+  {
+    "gap_id": "BF2301-G005",
+    "type": "episode_unit",
+    "description": "Burkina24 reports simultaneous mobilizations in many cities on 28 January; its Bobo report references a Ouagadougou meeting. Organizers, sites and whether these were one national organized episode remain unresolved.",
+    "source_ids": [
+      "BF2301-S009",
+      "BF2301-S012"
+    ],
+    "affected_candidates": [
+      "BF2301-E003",
+      "BF2301-E004"
+    ],
+    "required_followup": "Compare the local organizers and contemporaneous site reports. Keep city-specific records distinct pending coordinator episode reconciliation; do not infer one national event or shared attendance."
+  },
+  {
+    "gap_id": "BF2301-G006",
+    "type": "episode_unit",
+    "description": "LeFaso reports a second 28 January Ouahigouya meeting by Les Patriotes du Nord and says supportive gatherings also took place in Ouagadougou and Bobo-Dioulasso. The relation to those city reports and to the distinct 15 January meeting by the same group is unresolved.",
+    "source_ids": [
+      "BF2301-S018",
+      "BF2301-S009",
+      "BF2301-S012",
+      "BF2301-S019"
+    ],
+    "affected_candidates": [
+      "BF2301-E001",
+      "BF2301-E003",
+      "BF2301-E004",
+      "BF2301-E005"
+    ],
+    "required_followup": "Compare local organizers, demands and the dated physical actions across the three Jan 28 cities and the Jan 15/28 Ouahigouya meetings. Preserve these as distinct physical candidates pending coordinator review; no campaign merge is inferred."
+  },
+  {
+    "gap_id": "BF2301-G007",
+    "type": "participants",
+    "description": "The 4 January Kossi residents event is reported as a press conference with journalists, but attendance, public access and any broader gathering are unreported. The article does not establish the >=50 threshold.",
+    "source_ids": [
+      "BF2301-S020"
+    ],
+    "affected_candidates": [
+      "BF2301-E006"
+    ],
+    "required_followup": "Look for contemporaneous description of venue, attendance and format; do not infer a public mass assembly from a press conference, spokesperson or the size of the affected community."
+  },
+  {
+    "gap_id": "BF2301-G008",
+    "type": "episode_unit",
+    "description": "ONATEL labor reporting distinguishes a workplace “crisis” dated to 17 November from physical worker actions and a police confrontation on 29–30 December. A January 24 search excerpt says workers returned after nearly a month of strike, but the exact body timed out. No physical January gathering or exact strike onset is verified.",
+    "source_ids": [
+      "BF2301-S026",
+      "BF2301-S028"
+    ],
+    "affected_candidates": [
+      "BF2301-C001"
+    ],
+    "required_followup": "If useful, retry the exact January 24 body only after a fresh receipt and manual review; inspect for physical January assemblies and actual strike onset/end. Keep Nov 17 as crisis chronology unless separate physical-action evidence supports it."
+  },
+  {
+    "gap_id": "BF2301-G009",
+    "type": "coverage",
+    "description": "This is an open-web first pass, not LexisNexis-equivalent coverage or an exhaustive absence finding. Eleven captured search invocations covered general/monthly, weekly, local French, sector and candidate-specific leads; regional and local-language coverage remains uneven, and several publisher pages were technical retrieval failures or search-only.",
+    "source_ids": [
+      "BF2301-S017",
+      "BF2301-S028",
+      "BF2301-S030",
+      "BF2301-S031",
+      "BF2301-S032"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may prioritize regional archives, local-language reporting and any relevant contemporaneous bodies. Preserve source-specific holds and create fresh exact-URL receipts before any additional body attempts."
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "gap_id": "GAB202301-G001",
+    "type": "baseline",
+    "description": "The current official Mass Mobilization baseline, universe, supplemental Coding Procedure and applicable use conditions have not been verified for this first pass.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GAB202301-E001",
+      "GAB202301-E002"
+    ],
+    "required_followup": "Coordinator should compare these local candidates with the verified official 2023 event files and current supplemental coding procedure before any integration decision."
+  },
+  {
+    "gap_id": "GAB202301-G002",
+    "type": "participants",
+    "description": "GAB202301-S001 reports hundreds in the Franceville city march, supporting the threshold qualitatively, but gives no exact count or per-school/per-site attendance. The several school names and march route are not separate event counts.",
+    "source_ids": [
+      "GAB202301-S001",
+      "GAB202301-S020"
+    ],
+    "affected_candidates": [
+      "GAB202301-E001"
+    ],
+    "required_followup": "Seek a contemporaneous independent account or visual record with reviewable location and scale. Keep one city march unless evidence establishes distinct simultaneous sites; do not invent numeric bounds."
+  },
+  {
+    "gap_id": "GAB202301-G003",
+    "type": "dates",
+    "description": "The physical end of the 9 January Franceville march is unknown. S002 and S020 report a class suspension through 14 January and a planned 16 January reopening, which do not establish assembly duration, dispersal or an end date.",
+    "source_ids": [
+      "GAB202301-S001",
+      "GAB202301-S002",
+      "GAB202301-S020"
+    ],
+    "affected_candidates": [
+      "GAB202301-E001"
+    ],
+    "required_followup": "Find direct reporting of participants' departure or a later physical assembly. Retain the known administrative school dates separately from protest dates."
+  },
+  {
+    "gap_id": "GAB202301-G004",
+    "type": "state_response",
+    "description": "Event-specific accommodation, enforcement, arrests, beatings, crowd dispersal, killings and shootings are not established for either candidate. For E001, the reported class suspension may be an administrative response but does not prove the fare grievance was met. Silence is not coded as an explicit negative.",
+    "source_ids": [
+      "GAB202301-S001",
+      "GAB202301-S002",
+      "GAB202301-S005",
+      "GAB202301-S020"
+    ],
+    "affected_candidates": [
+      "GAB202301-E001",
+      "GAB202301-E002"
+    ],
+    "required_followup": "Look for reporting or official records explicitly linking an action to these particular gatherings. Do not infer crowd dispersal from class closure or violence from hypothetical escalation."
+  },
+  {
+    "gap_id": "GAB202301-G005",
+    "type": "dates",
+    "description": "S005 describes physical action at the Port-Gentil CNSS gate and courtyard but gives no actual local start or end date. Its 12 January publication date is not an event date; the episode's January ownership remains unresolved.",
+    "source_ids": [
+      "GAB202301-S005"
+    ],
+    "affected_candidates": [
+      "GAB202301-E002"
+    ],
+    "required_followup": "Find contemporaneous evidence dating the local action and its physical end; otherwise retain null dates and pending evidence."
+  },
+  {
+    "gap_id": "GAB202301-G006",
+    "type": "participants",
+    "description": "S005 gives no Port-Gentil site attendance, and the accessible description does not resolve whether this was an open public assembly. CNSS staff totals or attendance at other-city sites would not establish the local 50-person threshold.",
+    "source_ids": [
+      "GAB202301-S005"
+    ],
+    "affected_candidates": [
+      "GAB202301-E002"
+    ],
+    "required_followup": "Seek a source that documents simultaneous attendance at the Port-Gentil site and whether the action was public/open. Keep the candidate pending until these criteria can be assessed."
+  },
+  {
+    "gap_id": "GAB202301-G007",
+    "type": "state_target",
+    "description": "S005 attributes the CNSS action to alleged unpaid benefits and banners against provisional administrator Christophe Eyi, but the reviewed report does not fully establish whether the administrator or CNSS is a qualifying domestic state-policy target rather than an employer grievance.",
+    "source_ids": [
+      "GAB202301-S005"
+    ],
+    "affected_candidates": [
+      "GAB202301-E002"
+    ],
+    "required_followup": "Verify the relevant institutional/administrative relationship and the protest demand from direct reporting or official materials; do not assume state ownership or policy targeting from the institution's name."
+  },
+  {
+    "gap_id": "GAB202301-G008",
+    "type": "episode_unit",
+    "description": "The Port-Gentil CNSS account situates its action inside a wider stoppage with earlier suspended phases and activity in other cities. It does not establish whether the Port-Gentil action was a new January episode, a restart, or a continuation, or whether multiple sites formed one coordinated event.",
+    "source_ids": [
+      "GAB202301-S005",
+      "GAB202301-S006"
+    ],
+    "affected_candidates": [
+      "GAB202301-E002"
+    ],
+    "required_followup": "Establish local dates, cross-city organization and prior-month physical action before assigning month ownership or merging sites. S006 is only an inaccessible lead and cannot supply the missing details."
+  },
+  {
+    "gap_id": "GAB202301-G009",
+    "type": "source_access",
+    "description": "The exact Info241 S006 URL returned HTTP 403 on the recorded ordinary request after an earlier cache miss. Its body was not read. The URL is stopped; no retry, alternate spelling, wrapper, mirror or publisher-wide inference is authorized by this unit record.",
+    "source_ids": [
+      "GAB202301-S006"
+    ],
+    "affected_candidates": [
+      "GAB202301-E002"
+    ],
+    "required_followup": "Preserve the exact response metadata and stop that URL. Any other exact story must be independently checked under fresh source-specific scope and guard review; do not use S006's title as body evidence."
+  },
+  {
+    "gap_id": "GAB202301-G010",
+    "type": "source_independence",
+    "description": "S001 and S002 share Gabon Media Time and the same author; S002 is not independent corroboration. S020 is a separate outlet/story confirming the Franceville occurrence and fare grievance but does not independently report turnout.",
+    "source_ids": [
+      "GAB202301-S001",
+      "GAB202301-S002",
+      "GAB202301-S020"
+    ],
+    "affected_candidates": [
+      "GAB202301-E001"
+    ],
+    "required_followup": "Seek a separately sourced crowd description or direct record, especially if reviewing the threshold evidence. Keep source dependence explicit and do not count S001 and S002 as two confirmations."
+  },
+  {
+    "gap_id": "GAB202301-G011",
+    "type": "coverage",
+    "description": "The first-pass open-web search covered national and several regional/sector leads, weekly/temporal terms and adjacent-month queries, but coverage remains uneven across Gabon's provinces, outlets, all January weeks and available languages. No LexisNexis or comprehensive local archive review was performed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may select additional regions, local-language sources, January weeks and December/February continuity checks for follow-up. This limitation is not evidence that unlocated events did not occur."
+  }
+]

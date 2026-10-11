@@ -1,0 +1,31 @@
+Croatia — January 2023 open-web research report
+Cutoff: 2026-10-07 inclusive (America/Mexico_City)
+Unit: croatia_2023-01; ccode 344; queue 3875
+
+Scope and method
+Ten grouped open-web search invocations were captured with the native result metadata: 261 returned headers across broad January searches, four weekly Croatian-language date windows, sector searches, and targeted follow-up on Zagreb sanitation workers, the proposed maritime-domain law, post-euro prices, and the first-Saturday Zagreb rosary gathering. Searches included English and Croatian. The portable capture helper and research CLI retained query arrays, result order, raw URLs, refs, titles and actual query clocks. Search results are discovery evidence only.
+
+The unit has 17 source cards. Two current-unit body opens were completed (RFE/RL S001 and HRT S003); 0 prior-unit-only body consultations were used. These reads concern the Zagreb Čistoća worker action. HRT lists HRT, HINA and several newsroom desks in its byline; it is not treated as independent from HINA-origin coverage. RFE/RL is a separate report. No other source body was successfully read. Glas Istre and Riportal exact-page opens returned Cache miss; their one fresh-receipt HTTPS retries failed DNS before HTTP (000). Makarska Danas had the same Cache miss/DNS-failure sequence. Net.hr and Index.hr page opens returned Cache miss. Zelena Istra’s annual-report PDF exceeded the web tool’s 10 MiB response limit. These are technical/tool failures, not publisher denials. The Slobodna Dalmacija event article was marked premium in the returned search result; its body was not requested. Access receipts and attempt outcomes are saved under access_receipts/ and in the source cards.
+
+Candidate findings
+1. Zagreb Čistoća workers: opened reports place the beginning of a protest/strike on 23 January after three proposed dismissals. HRT describes several hundred workers demonstrating outside the company building on 24 January, which qualitatively establishes at least 50 people without creating numerical bounds. RFE/RL reports 1,000 employees in the protest but gives no counting method or simultaneous turnout scope; that figure is retained as attributed context, not as a range. RFE/RL reports a 26 January mayor-worker agreement, immediate accommodation on five of eleven demands, further negotiation on six, and return to work. The end date is coded 26 January for the reported four-day protest/strike; the boundary between the physical gathering and work stoppage needs review. Eligibility remains pending state-target review because Čistoća is a city-owned public company and the mayor negotiated.
+
+2. Makarska, 28 January: Makarska Danas search-result text describes a locally organized protest walk against the proposed Maritime Domain and Seaports Law and reports about 300 participants. The article body could not be retrieved, so the number is not verified and no numeric bounds are entered. Keep as pending evidence.
+
+3. Pula, 28 January: Glas Istre search-result text identifies Portarata, noon, and local organizers Zelena Istra and Inicijativa za Lungomare, and calls the turnout “solid” without a count. Zelena Istra’s report search result is organizer-side and did not yield readable body text. The 50-person threshold remains unknown.
+
+4. Opatija, 28 January: Riportal search-result text reports an actual protest against the proposed law, but the body could not be retrieved and no attendance number or local organizer was found.
+
+5. Split, 28 January: Slobodna Dalmacija search-result text reports a gathering at Bačvice organized by Udruga Sunce and attendees from several parts of Croatia. The result gives no turnout count; its article page was marked premium, so it was not opened.
+
+The coastal-law actions are kept as distinct local candidates with a common tentative episode key. A search-result announcement names Javno je dobro and planned protests in several coastal towns, while local snippets identify different organizers and locations. Shared date and issue alone do not establish one multi-site episode or an aggregate count. The announced Zagreb protest for 2 February is outside the unit and is not treated as executed or as a January continuation.
+
+6. Zagreb, 7 January: Net.hr search-result text describes men praying the rosary at Ban Josip Jelačić Square, but its body returned Cache miss. The result does not establish attendance or an event-level demand directed at Croatian government policy. It remains a qualification/evidence lead, not an included event.
+
+A Reuters/Investing.com search result discusses post-euro price increases and includes a 14 January Dolac market image caption, but does not document a public assembly. It is retained in excluded.json only as a lead requiring follow-up, not as evidence that no price-related assembly occurred.
+
+Records and open gaps
+The dossier contains 6 event candidates, 1 lead excluded from the event list for lack of evidence of a public assembly, 0 continuations, and 7 explicit gaps. The gaps cover attendance, state-target and demand qualification, event boundaries and coordination, technical source access, the missing official baseline/manual, local archive and sector coverage, and January price-action discovery. All seven state-response fields remain unknown except accommodation at the Zagreb Čistoća episode. Unknown fields are not coded as explicit absences.
+
+Coverage limitations
+This is a bounded open-web first pass, not a complete January catalogue. Search language included Croatian and English, but coverage was not systematic across every regional newsroom, municipal notice archive, union or civic-group record, or national newspaper archive. LexisNexis was not available. The official Mass Mobilization baseline and codebook were not verified in this worker copy; the unit remains pending official baseline and coordinator review. No official IDs, approvals, aggregation, publication, external contact, or contribution were made. The original catalogue and extension remain separate.

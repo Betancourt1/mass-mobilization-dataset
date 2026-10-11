@@ -1,0 +1,258 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline_and_codebook",
+    "description": "The local May 2015 Mass Mobilization Codebook and User’s Manual covers 1990–2014 and offers historical project guidance; it does not establish the current official dataset baseline, present-day coding universe/version, or any later rules governing 2023 cases. This unit remains a candidate dossier pending comparison against applicable current materials.",
+    "source_ids": [],
+    "affected_candidates": [
+      "bangladesh_2023-01-E001",
+      "bangladesh_2023-01-E002",
+      "bangladesh_2023-01-E003",
+      "bangladesh_2023-01-E004",
+      "bangladesh_2023-01-E005",
+      "bangladesh_2023-01-E006",
+      "bangladesh_2023-01-E007",
+      "bangladesh_2023-01-E008",
+      "bangladesh_2023-01-E009",
+      "bangladesh_2023-01-E010",
+      "bangladesh_2023-01-E011",
+      "bangladesh_2023-01-E012",
+      "bangladesh_2023-01-E013",
+      "bangladesh_2023-01-E014"
+    ],
+    "required_followup": "Coordinator should identify the current official dataset version/universe and any post-2014 coding procedure, then compare proposed events and exclusions before integration or official status."
+  },
+  {
+    "gap_id": "G002",
+    "type": "attendance_threshold",
+    "description": "Attendance at several labor gatherings and the 22 January student road blockade is unreported; injury, organizer or employee counts cannot substitute for attendees.",
+    "source_ids": [
+      "S012",
+      "S013",
+      "S016",
+      "S018",
+      "S019",
+      "S031",
+      "S009"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E001",
+      "bangladesh_2023-01-E002",
+      "bangladesh_2023-01-E004",
+      "bangladesh_2023-01-E007",
+      "bangladesh_2023-01-E008",
+      "bangladesh_2023-01-E014"
+    ],
+    "required_followup": "Seek a contemporaneous attendance estimate or leave each affected threshold pending."
+  },
+  {
+    "gap_id": "G003",
+    "type": "source_access_and_evidence",
+    "description": "The 8 January Garment Sramik Sanghati lead is supported only by a search result. The exact Daily Star Bangla URL returned Cache miss and exact-URL HTTPS failed DNS.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E003"
+    ],
+    "required_followup": "Read a permitted exact article or independent contemporaneous report; verify date, execution, size and any response."
+  },
+  {
+    "gap_id": "G004",
+    "type": "unresolved_local_lead",
+    "description": "Searches found Narayanganj archive, New Age and Bangla Tribune headlines about a left-alliance action against an electricity-price increase. The archive’s displayed date may be publication date; related reports could not be read after cache/DNS failures.",
+    "source_ids": [
+      "S027",
+      "S028",
+      "S029"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find the exact local event article and verify event date/site, attendance, state target and whether the three leads describe one action."
+  },
+  {
+    "gap_id": "G005",
+    "type": "source_access_and_event_boundary",
+    "description": "The 24 January Jamaat lead is search-only, reports more than one Dhaka location and mixes domestic and foreign-policy themes; body access failed technically.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E010"
+    ],
+    "required_followup": "Verify body, each local action’s date and attendance, and which demands target Bangladesh state policy."
+  },
+  {
+    "gap_id": "G006",
+    "type": "source_access_and_attendance",
+    "description": "The 27 January NDB march is supported by similar search-result headlines on three sites. The main exact page returned Cache miss and the same-URL HTTPS attempt failed DNS; no attendance evidence exists and source independence is unresolved.",
+    "source_ids": [
+      "S020",
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E012"
+    ],
+    "required_followup": "Verify execution and attendance from a readable contemporaneous source or original public record; investigate shared release/syndication."
+  },
+  {
+    "gap_id": "G007",
+    "type": "technical_access",
+    "description": "Several exact URLs returned cache misses/internal errors and ordinary exact-URL requests failed DNS. These are tool/network retrieval failures, not HTTP denials; no alternate host was tried.",
+    "source_ids": [
+      "S010",
+      "S014",
+      "S017",
+      "S020",
+      "S027",
+      "S028",
+      "S029",
+      "S030",
+      "S032"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E003",
+      "bangladesh_2023-01-E010",
+      "bangladesh_2023-01-E012"
+    ],
+    "required_followup": "Retry only if a future fresh exact-URL check and manual source guard permit it; otherwise retain search-only evidence and gaps."
+  },
+  {
+    "gap_id": "G008",
+    "type": "event_continuity",
+    "description": "Students blocked Kawla/Airport Road on both 22 and 23 January after the same fatal bus crash. Reports establish distinct physical actions on both dates but do not establish whether they are separate episodes or consecutive phases of one campaign.",
+    "source_ids": [
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E008",
+      "bangladesh_2023-01-E009"
+    ],
+    "required_followup": "Coordinator review should preserve both start dates and decide campaign/episode linkage from additional evidence without merging physical actions automatically."
+  },
+  {
+    "gap_id": "G009",
+    "type": "national_scope_and_response",
+    "description": "National rally programs have stronger Dhaka attendance evidence than other sites. Responses and end dates are unevenly reported; local Chattogram force is not generalized nationally.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005",
+      "S006",
+      "S011"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E005",
+      "bangladesh_2023-01-E006",
+      "bangladesh_2023-01-E011"
+    ],
+    "required_followup": "Find local reports and closure evidence; keep unreported state-response fields unknown."
+  },
+  {
+    "gap_id": "G010",
+    "type": "retrospective_source_limit",
+    "description": "An Odhikar report located via an ANFREL query supports a 10 January dialysis-fee protest and force/arrest claims, but its cited same-week Jugantor article could not be fetched; no attendance is reported.",
+    "source_ids": [
+      "S031",
+      "S032"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E004"
+    ],
+    "required_followup": "Find an accessible independent or direct contemporary account and attendance evidence; do not treat 20 injuries as turnout."
+  },
+  {
+    "gap_id": "G011",
+    "type": "local_event_boundary",
+    "description": "Odhikar reports a 16 January Chhatra League member shooting a Chhatra Dal member while the latter were preparing a procession in Narsingdi. Attendance, state-actor involvement and relation to the nationwide rally are not established.",
+    "source_ids": [
+      "S031",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E006"
+    ],
+    "required_followup": "Verify with contemporaneous reporting; decide whether this was a distinct public action, an attempted procession, or related context."
+  },
+  {
+    "gap_id": "G012",
+    "type": "coverage_and_archives",
+    "description": "Search covered English/Bengali terms, weekly date windows, regional place names, labor sectors, retrospective reporting and episode follow-ups, but web search is not LexisNexis and cannot establish exhaustive coverage. No complete official event or police-response register was located.",
+    "source_ids": [
+      "S031"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may add systematic newspaper, official, rights-monitoring or baseline research when available; report this unit as open-web pending review."
+  },
+  {
+    "gap_id": "G013",
+    "type": "duplicate_query",
+    "description": "Eleven query records with incomplete native header metadata were restored from exact original responses without replaying queries: six in the first pass and five in the second. Pre-repair/intermediate logs and both recovery manifests are preserved under capture_revisions. The full log awaits root’s final original-metadata comparison.",
+    "source_ids": [
+      "S020",
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E012"
+    ],
+    "required_followup": "Root should verify all eleven restored arrays, event IDs/actions and the unchanged query/header totals during batch freeze; do not replay any search."
+  },
+  {
+    "gap_id": "G014",
+    "type": "source_independence",
+    "description": "Some multi-outlet reports may describe the same event or reproduce a common press release. In particular, Jan 20, Jan 27 and Jan 29 clusters are not counted as independent confirmation without established provenance.",
+    "source_ids": [
+      "S016",
+      "S017",
+      "S018",
+      "S019",
+      "S020",
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E007",
+      "bangladesh_2023-01-E012",
+      "bangladesh_2023-01-E014"
+    ],
+    "required_followup": "Coordinator review should trace bylines, republishing and common releases before counting reports as independent."
+  },
+  {
+    "gap_id": "G015",
+    "type": "eligibility",
+    "description": "The opened sources establish public actions and domestic demands for multiple labor events, but attendance is absent; do not include them as meeting the numeric threshold without new evidence.",
+    "source_ids": [
+      "S012",
+      "S013",
+      "S016",
+      "S018",
+      "S019"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E001",
+      "bangladesh_2023-01-E002",
+      "bangladesh_2023-01-E007",
+      "bangladesh_2023-01-E014"
+    ],
+    "required_followup": "Keep the candidates pending_threshold or find a reliable attendance estimate."
+  },
+  {
+    "gap_id": "G016",
+    "type": "access_provenance",
+    "description": "Audit found three source-access trace issues. The pre-correction S010 card URL was malformed, while Q016 and A010 use the same exact captured URL; the failed open had A010 before it, but the later HTTPS DNS-failure fallback had no fresh receipt. For S019, a malformed Bangla Tribune URL was opened without an exact-URL receipt; A025 covers only the correct captured URL, and the failed malformed request returned no body. For S028, two exact-URL opens returned Internal Error and a later exact-URL HTTPS GET failed DNS after one A027 manual_review check; the second open and HTTPS fallback had no fresh receipt. The receipts are not retrieval permission, no failed attempt adds event evidence, and candidate facts and eligibility remain unchanged.",
+    "source_ids": [
+      "S010",
+      "S019",
+      "S028"
+    ],
+    "affected_candidates": [
+      "bangladesh_2023-01-E010",
+      "bangladesh_2023-01-E014"
+    ],
+    "required_followup": "Coordinator should retain this incident trail and require a fresh exact-URL access check and manual source guard before any future retrieval; do not reuse receipts across later retries or treat manual_review/absence of a match as permission."
+  }
+]

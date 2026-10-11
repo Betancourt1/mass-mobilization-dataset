@@ -1,0 +1,34 @@
+{
+  "unit_id": "ghana_2023-01",
+  "country": "Ghana",
+  "month": "2023-01",
+  "agent_task": "/root/ghana_2023_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T17:12:28.203000+00:00",
+  "finished_at": "2026-10-10T18:04:52Z",
+  "n_queries": 19,
+  "n_sources": 20,
+  "n_candidates": 3,
+  "n_excluded": 2,
+  "n_continuations": 0,
+  "n_gaps": 12,
+  "coverage_assessment": "Open-web research only; 19 native search-action records (22 query strings), 457 ordered result headers, 20 source cards. 6 current-unit body opens; 0 prior-unit-only consultations. Coverage includes general and week-span searches plus Tamale, Oforikrom, Legon/university labor, Kumasi market and named Northern Ghana locations. No systematic LexisNexis or full press-archive coverage, no comprehensive regional or local-language sweep. Snippets and previews remain discovery-only. The generation-3 body window closed at 2026-10-10T17:49:25.219260Z; all later activity was search-only and no request is in flight. Findings remain candidates pending independent review; no official baseline or approval.",
+  "baseline_gate": "pending_official_baseline",
+  "human_approved": false,
+  "source_access_counts": {
+    "opened_cards": 6,
+    "search_only_cards": 14,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 457,
+    "native_search_action_count": 19,
+    "individual_action_query_count": 22,
+    "notes": "Q016 bundled four exact action queries into one native search event and one combined ordered result list; other records correspond to one query each."
+  },
+  "temporary_resources_started": [
+    "Exact-URL ordinary HTTPS curl fallback for S007; started 2026-10-10T17:47:41.651000Z, completed 2026-10-10T17:47:43.715000Z, HTTP 200, zero redirects, curl exit 0; command completed and no persistent resource remains."
+  ],
+  "temporary_resources_still_running": []
+}

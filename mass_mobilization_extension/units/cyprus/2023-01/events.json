@@ -1,0 +1,1024 @@
+[
+  {
+    "candidate_id": "cyprus_2023-01-E001",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "Kurdish protest in Nicosia over Paris murders (month and target unresolved)",
+    "start_date": null,
+    "start_precision": "unknown",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Nicosia; exact site and date unknown.",
+    "scope": "Local discovery lead; the host location may be Republic of Cyprus but target is unknown.",
+    "organizer": null,
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No body or attendance evidence; title alone does not establish date or 50 attendees.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S017"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S017"
+        ],
+        "summary": "Captured result title reports Kurdish protest in Nicosia about murders in Paris; body returned a technical Cache miss, leaving assigned-month fit and target unresolved."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S017"
+        ],
+        "summary": "Captured result title identifies Nicosia only; exact site is unknown."
+      }
+    },
+    "eligibility": "pending_unit",
+    "coding_status": "candidate",
+    "episode_key": null,
+    "notes": "Do not code as a Republic of Cyprus policy protest until the actual date and direct target are verified.",
+    "open_questions": [
+      "Verify occurrence within January 2023.",
+      "Identify direct target (possibly France or another actor) and state scope.",
+      "Seek an accessible exact-date report and event-specific attendance."
+    ],
+    "target_state": "Unresolved; the result title concerns Paris murders and may indicate a foreign-state target.",
+    "action_form": "discovery lead"
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E002",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "Opposition and civil-society march against Islamification in northern Lefkoşa",
+    "start_date": "2023-01-16",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the de facto prime minister’s office, Lefkoşa/Nicosia, Turkish-Cypriot-administered northern territory.",
+    "scope": "Local physical protest; ccode 352 is the geographic island assignment, while the target is the northern de facto administration.",
+    "organizer": "CTP and other opposition parties, NGOs and unions; 40 groups were announced, not counted attendees.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Attendance is unreported; 40 organizations are not 40 participants.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S001",
+      "cyprus_2023-01_S002"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S001",
+          "cyprus_2023-01_S002"
+        ],
+        "summary": "Cyprus Mail reported a planned 17:30 action on 16 January; the 26 January MYKibris report later says a walk took place on 16 January. It is distinct from the 26 January Religious Affairs Office action."
+      },
+      "start_date": {
+        "source_ids": [
+          "cyprus_2023-01_S001"
+        ],
+        "summary": "Later article dates the earlier walk to 16 January; the same-day announcement is not used alone as occurrence evidence."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S001",
+          "cyprus_2023-01_S002"
+        ],
+        "summary": "Reported outside the northern de facto prime minister’s office."
+      },
+      "organizer": {
+        "source_ids": [
+          "cyprus_2023-01_S002"
+        ],
+        "summary": "CTP announced the protest with other groups; 40 is group count, not turnout."
+      },
+      "participants": {
+        "source_ids": [
+          "cyprus_2023-01_S001",
+          "cyprus_2023-01_S002"
+        ],
+        "summary": "No physical participant count is reported."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "cyprus_north_secularism_2023-01-16",
+    "notes": "No participant count, actual end time or physical crowd estimate. The 40-group call is organizer count only.",
+    "open_questions": [
+      "Find an explicit attendance estimate.",
+      "Verify actual start/end and event-specific state response.",
+      "Preserve northern de facto target institutions separately from the Republic of Cyprus state."
+    ],
+    "territory": "Turkish-Cypriot-administered northern territory (de facto Northern Cyprus).",
+    "target_state": "Northern de facto prime minister/religious-education institutions; not the Republic of Cyprus government.",
+    "action_form": "march/demonstration"
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E003",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "State-hospital staff two-hour strike (unverified search-result lead)",
+    "start_date": "2023-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Republic of Cyprus state hospitals; exact sites not established.",
+    "scope": "Search-only public healthcare lead; exact site and state decision-maker unverified.",
+    "organizer": null,
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Captured title reports a two-hour strike but provides no headcount or physical crowd evidence; body failed twice with Cache miss.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S003"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S003"
+        ],
+        "summary": "Only a captured search-result title is available. The URL path date is not treated as the physical strike date; actual action details remain unverified."
+      },
+      "start_date": {
+        "source_ids": [
+          "cyprus_2023-01_S003"
+        ],
+        "summary": "Only month-level lead retained; URL path date is a publication-path hint, not verified event time."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": null,
+    "notes": "",
+    "open_questions": [
+      "Verify occurrence, event date, location and actual duration.",
+      "Verify demands, turnout, endpoint and response from an accessible body.",
+      "Keep technical Cache miss separate from access denial."
+    ],
+    "target_state": "Possibly Republic of Cyprus state hospitals/employer; verify from body."
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E004",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "KTAMS and Kamu-İş strike at the Lefkoşa Motor Vehicles Unit",
+    "start_date": "2023-01-18",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Lefkoşa Motor Vehicles Unit, Turkish-Cypriot-administered north; a 09:30 press statement outside the de facto transport ministry was planned.",
+    "scope": "Single-unit work stoppage; target is a northern de facto ministry, not Republic of Cyprus administration.",
+    "organizer": "KTAMS and Kamu-İş",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No participant count. A one-unit strike does not establish 50 physical participants; the planned statement is not confirmed as held.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S004"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S004"
+        ],
+        "summary": "MYKibris reports a full-day strike on 18 January because the northern transport ministry had not acted on unit problems. The planned 09:30 statement is a separate announced action; no endpoint is reported."
+      },
+      "start_date": {
+        "source_ids": [
+          "cyprus_2023-01_S004"
+        ],
+        "summary": "Article dated 18 January says unions were striking that day."
+      },
+      "organizer": {
+        "source_ids": [
+          "cyprus_2023-01_S004"
+        ],
+        "summary": "KTAMS and Kamu-İş named."
+      },
+      "demands": {
+        "source_ids": [
+          "cyprus_2023-01_S004"
+        ],
+        "summary": "Union statement attributes action to ministry inaction on problems at the unit; detail not supplied."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "cyprus_north_motor_vehicle_unit_2023-01-18",
+    "notes": "",
+    "open_questions": [
+      "Verify count of physical strikers and whether the press statement occurred.",
+      "Verify stoppage end time and later response."
+    ],
+    "territory": "Turkish-Cypriot-administered northern territory.",
+    "target_state": "Northern de facto Ministry of Public Works and Transport.",
+    "action_form": "full-day strike; separate press statement was planned"
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E005",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "Banner protest over Ahmet Ünsal’s appointment in the northern legislature (date unverified)",
+    "start_date": "2023-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Northern Turkish-Cypriot-administered legislature in Lefkoşa; chamber/site is unverified.",
+    "scope": "Search-only lead; direct target and occurrence date require confirmation.",
+    "organizer": null,
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No body or participant estimate; do not infer turnout from a banner or the number of women.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S010",
+      "cyprus_2023-01_S018"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S010",
+          "cyprus_2023-01_S018"
+        ],
+        "summary": "Captured local titles/routes identify a legislature banner protest, but MYKibris was inaccessible through the tool and Bugün Kıbrıs returned Cache miss. Exact date, demand and attendance are unverified."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S010"
+        ],
+        "summary": "Captured MYKibris title identifies a legislature banner protest, but exact site is not verified."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": null,
+    "notes": "",
+    "open_questions": [
+      "Read a local article or archive after a fresh exact-URL check.",
+      "Verify date, organizer, target, physical count and site."
+    ],
+    "territory": "Turkish-Cypriot-administered northern territory.",
+    "target_state": "Possible local official appointment target; not body-verified."
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E006",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "CoLA strike demonstration outside the Finance Ministry, Nicosia",
+    "start_date": "2023-01-26",
+    "start_precision": "day",
+    "end_date": "2023-01-26",
+    "end_precision": "day",
+    "location": "Republic of Cyprus Ministry of Finance, central Nicosia; march continued to the Ministry of Labour.",
+    "scope": "Local Nicosia assembly during the coordinated islandwide strike; this row uses the Nicosia estimate only.",
+    "organizer": "Cypriot trade unions; ANT1 reports twelve union organizations.",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "ANT1 reported approximately five thousand workers demonstrated outside the Finance Ministry in Nicosia.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "ANT1 reports approximately five thousand demonstrators at the Nicosia Finance Ministry; site-specific evidence clearly exceeds 50. No numeric bounds are inferred.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "yes",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S006",
+      "cyprus_2023-01_S007"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "The actual three-hour strike ran 12:00–15:00. Nicosia demonstrators gathered outside Finance, marched to Labour and delivered a petition. The approximately 5,000 estimate applies only to Nicosia; no other-site numbers are summed or transferred."
+      },
+      "start_date": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "Both reports identify 26 January; strike began at noon."
+      },
+      "end_date": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "Strike ended at 15:00; ANT1 says Nicosia workers later left peacefully."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "Finance Ministry gathering followed by a march to Labour."
+      },
+      "demands": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "Full restoration of CoLA and protection of collective agreements/workers’ rights."
+      },
+      "participants": {
+        "source_ids": [
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "ANT1 reports approximately five thousand workers outside Finance in Nicosia."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "Union representatives delivered a petition/resolution to the labour minister, who responded; receipt/engagement is not a policy victory."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "ANT1 reports workers left peacefully after the Nicosia assembly."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "cyprus_republic_cola_2023-01-26",
+    "notes": "",
+    "open_questions": [
+      "Review national/local event-unit boundaries.",
+      "Official baseline, event mapping and manual review remain pending."
+    ],
+    "target_state": "Republic of Cyprus government and employer-side CoLA policy.",
+    "action_form": "demonstration during strike",
+    "participants_estimate": 5000,
+    "participants_precision": "approximate"
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E007",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "CoLA strike assembly outside Paphos District Administration",
+    "start_date": "2023-01-26",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside Paphos District Administration, Republic of Cyprus.",
+    "scope": "Local physical assembly during the islandwide strike; no Paphos end time or state response reported.",
+    "organizer": "Cypriot trade unions",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "ANT1 described hundreds of workers gathered outside the Paphos district administration.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "ANT1 describes hundreds at Paphos, which exceeds 50; qualitative wording kept without numeric bounds.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S006",
+      "cyprus_2023-01_S007"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "This is a separate Paphos site row under the coordinated union strike. “Hundreds” applies only to Paphos and is not added to Nicosia or transferred elsewhere."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "Outside Paphos District Administration."
+      },
+      "demands": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "Full CoLA restoration/workers’ rights."
+      },
+      "participants": {
+        "source_ids": [
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "ANT1 describes hundreds; no bounds or point count assigned."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "cyprus_republic_cola_2023-01-26",
+    "notes": "",
+    "open_questions": [
+      "Review national/local event linkage.",
+      "Keep qualitative participant wording and site estimate separate."
+    ],
+    "territory": "Republic of Cyprus-administered Paphos District.",
+    "target_state": "Republic of Cyprus government and employer-side CoLA policy.",
+    "action_form": "demonstration during strike"
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E008",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "CoLA strike assembly in Limassol (attendance unknown)",
+    "start_date": "2023-01-26",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside Limassol District Administration / central Limassol.",
+    "scope": "Local gathering during coordinated strike; no site count.",
+    "organizer": "Cypriot trade unions",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Reports confirm a gathering but give no Limassol-specific turnout; Nicosia and Paphos estimates cannot be transferred.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S006",
+      "cyprus_2023-01_S007"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "Limassol is retained as a distinct reported local assembly under the same union call and demand; its attendance remains unknown."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "Cyprus Mail and ANT1 report a Limassol gathering; ANT1 places workers at the district administration."
+      },
+      "participants": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "No Limassol-specific estimate."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "cyprus_republic_cola_2023-01-26",
+    "notes": "",
+    "open_questions": [
+      "Find a site-specific estimate or retain pending_threshold.",
+      "Do not sum or transfer attendance from other cities."
+    ],
+    "territory": "Republic of Cyprus-administered Limassol District.",
+    "target_state": "Republic of Cyprus government and employer-side CoLA policy.",
+    "action_form": "demonstration during strike"
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E009",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "CoLA strike gathering in Larnaca (attendance unknown)",
+    "start_date": "2023-01-26",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Larnaca district-office area; exact gathering point is not specified.",
+    "scope": "Local gathering during coordinated strike; no site count.",
+    "organizer": "Cypriot trade unions",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Reports mention Larnaca action but provide no site-specific turnout; other city counts are not transferred.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S006",
+      "cyprus_2023-01_S007"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "A separate Larnaca gathering is retained with unknown attendance and only district-level location detail."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "Reports place Larnaca action/gathering in the district area; exact point is not stated."
+      },
+      "participants": {
+        "source_ids": [
+          "cyprus_2023-01_S006",
+          "cyprus_2023-01_S007"
+        ],
+        "summary": "No Larnaca-specific estimate."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "cyprus_republic_cola_2023-01-26",
+    "notes": "",
+    "open_questions": [
+      "Find a site-specific attendance estimate.",
+      "Verify exact local site; do not transfer other city estimates."
+    ],
+    "territory": "Republic of Cyprus-administered Larnaca District.",
+    "target_state": "Republic of Cyprus government and employer-side CoLA policy.",
+    "action_form": "demonstration during strike"
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E010",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "CoLA strike protest outside welfare offices in Paralimni (attendance unknown)",
+    "start_date": "2023-01-26",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Welfare offices, Paralimni, Republic of Cyprus.",
+    "scope": "Local gathering during coordinated strike.",
+    "organizer": "Cypriot trade unions",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Cyprus Mail reports a physical Paralimni protest but no local turnout; other city estimates are not transferred.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S006"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S006"
+        ],
+        "summary": "A separate Paralimni site row is retained; no participant count is inferred from the islandwide strike or union membership."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S006"
+        ],
+        "summary": "Cyprus Mail identifies welfare offices in Paralimni."
+      },
+      "participants": {
+        "source_ids": [
+          "cyprus_2023-01_S006"
+        ],
+        "summary": "No Paralimni-specific estimate."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "cyprus_republic_cola_2023-01-26",
+    "notes": "",
+    "open_questions": [
+      "Find a Paralimni-specific attendance report.",
+      "Do not infer from union membership or national strike totals."
+    ],
+    "territory": "Republic of Cyprus-administered Paralimni.",
+    "target_state": "Republic of Cyprus government and employer-side CoLA policy.",
+    "action_form": "demonstration during strike"
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E011",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "Protest at northern Religious Affairs Presidency against Ahmet Ünsal and religious policy",
+    "start_date": "2023-01-26",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Religious Affairs Presidency, Lefkoşa, followed by march to Kıbrıs Media Group building in Turkish-Cypriot-administered territory.",
+    "scope": "Local protest in northern de facto administration; later stop has a private target.",
+    "organizer": "Political parties, unions and civil-society groups; headline cites 40 organizations.",
+    "demands": [
+      "political_behavior_process",
+      "removal_of_politician"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No participant count. The 40 organizations in the headline are not a crowd estimate; the later private-media stop does not add participants.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S001"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S001"
+        ],
+        "summary": "MYKibris reports an evening action against Ünsal and local religious/education policies, followed by a march to a private media group seeking an apology over coverage of Helin Reessur. Ankara is mentioned in one slogan but is not treated as the sole target."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S001"
+        ],
+        "summary": "Religious Affairs Presidency followed by Kıbrıs Media Group."
+      },
+      "organizer": {
+        "source_ids": [
+          "cyprus_2023-01_S001"
+        ],
+        "summary": "Political parties, unions and civil-society groups; 40 is an organization count."
+      },
+      "demands": {
+        "source_ids": [
+          "cyprus_2023-01_S001"
+        ],
+        "summary": "Calls for Ünsal’s removal, education/religious-course changes and a media apology."
+      },
+      "participants": {
+        "source_ids": [
+          "cyprus_2023-01_S001"
+        ],
+        "summary": "No crowd estimate."
+      },
+      "state_target": {
+        "source_ids": [
+          "cyprus_2023-01_S001"
+        ],
+        "summary": "Article describes local religious/education authorities and local appointment/removal authority; media target is private."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "cyprus_north_unsal_secularism_2023-01-26",
+    "notes": "",
+    "open_questions": [
+      "Find a physical crowd estimate and end time.",
+      "Keep local authorities distinct from Republic of Cyprus and Turkish state actors.",
+      "Review whether the separate media stop warrants its own row without duplicating people."
+    ],
+    "territory": "Turkish-Cypriot-administered northern territory (de facto Northern Cyprus).",
+    "target_state": "Northern de facto religious/education institutions and local appointment authority. Ankara/Turkey appears in a slogan; the Kıbrıs Media Group is a private target.",
+    "action_form": "demonstration followed by march to media office"
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E012",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "Court-front protest in the Helin Reessur case (date and target unverified)",
+    "start_date": "2023-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "İskele court area in northern territory, based only on captured discovery metadata.",
+    "scope": "Search-only court protest lead; target and month fit not confirmed.",
+    "organizer": null,
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No body or attendance estimate; title alone cannot establish 50 participants.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S012"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S012"
+        ],
+        "summary": "Captured MYKibris title identifies a court-front protest in the Helin case, but the page was not accessible through the tool; date, site and addressee remain unverified."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S012"
+        ],
+        "summary": "Search-result title suggests a court-front protest; location is not body-confirmed."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": null,
+    "notes": "",
+    "open_questions": [
+      "Verify actual date, site, attendance and state addressee from a readable local body.",
+      "Keep distinct from the 31 January school march unless organization, demands and episode are verified."
+    ],
+    "territory": "Likely Turkish-Cypriot-administered northern territory; exact site/authority unverified.",
+    "target_state": "Unresolved judicial/police target; do not infer without body."
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E013",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "Famagusta vocational-school students’ march for Helin and against male violence",
+    "start_date": "2023-01-31",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Famagusta Vocational High School to Namık Kemal Square/monument, Gazimağusa/Famagusta, Turkish-Cypriot-administered north.",
+    "scope": "Local march/assembly; the report criticizes public/system inaction but does not clearly name a government addressee.",
+    "organizer": "Famagusta Vocational High School students; teachers and a union supported; some parents joined.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "The article describes a crowd of students and supporters but gives no number.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Article calls the assembly a crowd but gives no count; enrollment, teachers, union and parent support do not establish 50 attendees.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S013"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S013"
+        ],
+        "summary": "YENİDÜZEN reports a student-organized march after Helin Reessur’s killing, with teachers, union and parents supporting. Students called for justice and an end to male violence; exact state/policy addressee remains uncertain."
+      },
+      "start_date": {
+        "source_ids": [
+          "cyprus_2023-01_S013"
+        ],
+        "summary": "Article date and text identify the same-day 31 January action."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S013"
+        ],
+        "summary": "Started at the vocational school and went to Namık Kemal Square/monument."
+      },
+      "organizer": {
+        "source_ids": [
+          "cyprus_2023-01_S013"
+        ],
+        "summary": "Students organized; teachers, a union and parents supported."
+      },
+      "demands": {
+        "source_ids": [
+          "cyprus_2023-01_S013"
+        ],
+        "summary": "Students called for justice, equality and an end to male violence; direct addressee remains uncertain."
+      },
+      "participants": {
+        "source_ids": [
+          "cyprus_2023-01_S013"
+        ],
+        "summary": "The article says a crowd but gives no number."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "cyprus_north_helin_school_2023-01-31",
+    "notes": "",
+    "open_questions": [
+      "Find a site-specific attendance estimate.",
+      "Resolve the direct state target before eligibility review.",
+      "Verify physical endpoint and event-specific response; police escort alone is not dispersal."
+    ],
+    "territory": "Turkish-Cypriot-administered northern territory.",
+    "target_state": "Unresolved; general criticism of system/public inaction is reported, but a specific institution or policy is not identified.",
+    "action_form": "school-organized march and assembly"
+  },
+  {
+    "candidate_id": "cyprus_2023-01-E014",
+    "country": "Cyprus",
+    "ccode": 352,
+    "unit_month": "2023-01",
+    "title": "Paphos quarry/concrete companies’ motorway protest and two-hour work stoppage",
+    "start_date": "2023-01-31",
+    "start_precision": "day",
+    "end_date": "2023-01-31",
+    "end_precision": "day",
+    "location": "Paphos–Limassol motorway near Anatholiko industrial area, Paphos District, Republic of Cyprus.",
+    "scope": "Local company-led protest and work stoppage targeting state permits/land-use policy.",
+    "organizer": "Paphos concrete-production and quarrying companies; an industry association spokesperson spoke.",
+    "demands": [
+      "land_farm_issue"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Physical protest, road closure and two-hour stoppage are reported, but no attendee count is given; workforce/company size is not crowd turnout.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "cyprus_2023-01_S015",
+      "cyprus_2023-01_S016"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "cyprus_2023-01_S015",
+          "cyprus_2023-01_S016"
+        ],
+        "summary": "REPORTER’s CNA-attributed report says the physical protest started at 07:00 and the road reopened shortly before 09:00. Companies demanded new quarry permits/zone expansion at Androlikou. The 24 January planned stoppage was cancelled and is separate."
+      },
+      "start_date": {
+        "source_ids": [
+          "cyprus_2023-01_S015"
+        ],
+        "summary": "The report dates the action to 31 January and states a 07:00 start."
+      },
+      "end_date": {
+        "source_ids": [
+          "cyprus_2023-01_S015"
+        ],
+        "summary": "Traffic reopened shortly before 09:00; work stoppage described as two hours."
+      },
+      "location": {
+        "source_ids": [
+          "cyprus_2023-01_S015"
+        ],
+        "summary": "Motorway closure near Anatholiko industrial area."
+      },
+      "demands": {
+        "source_ids": [
+          "cyprus_2023-01_S015",
+          "cyprus_2023-01_S016"
+        ],
+        "summary": "New quarry permits/zone expansion near Androlikou; 24 January report is cancelled-plan context only."
+      },
+      "participants": {
+        "source_ids": [
+          "cyprus_2023-01_S015"
+        ],
+        "summary": "No crowd count; company/workforce size is not used."
+      },
+      "source_independence": {
+        "source_ids": [
+          "cyprus_2023-01_S015"
+        ],
+        "summary": "REPORTER attributes the page to Cyprus News Agency (ΚΥΠΕ/CNA), so it is one agency-origin report."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "cyprus_republic_paphos_quarry_permits_2023-01-31",
+    "notes": "",
+    "open_questions": [
+      "Find an actual participant estimate; do not substitute workforce totals.",
+      "Verify responsible state body and event-specific response.",
+      "Check adjacent-month boundary without merging by issue alone."
+    ],
+    "territory": "Republic of Cyprus-administered Paphos District.",
+    "target_state": "Republic of Cyprus authorities responsible for quarry permits and land-use plan.",
+    "action_form": "motorway blockade and two-hour work stoppage"
+  }
+]

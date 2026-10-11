@@ -1,0 +1,84 @@
+[
+  {
+    "gap_id": "CZ202301-G001",
+    "type": "eligibility_state_target",
+    "description": "The January 8 Prague Castle gathering is clearly pre-election candidate support. The opened reports identify civic-group organizer Milion Chvilek and supporters of multiple candidates, but do not establish the codebook definition of an excluded political rally: two or more political parties demonstrating for their positions in association with upcoming elections. The Castle Administration relocation recommendation and dispute over public-space status could also raise an assembly-right/state-target issue, but the reports do not establish a demand directed at state authorities about it.",
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "CZ202301-X001"
+    ],
+    "required_followup": "Coordinator should check whether contemporaneous evidence shows two or more political parties demonstrating for their positions and whether participants made a distinct demand about the relocation recommendation or public access to the Castle site. Keep the worker exclusion provisional until these questions are resolved."
+  },
+  {
+    "gap_id": "CZ202301-G002",
+    "type": "attendance_source_independence",
+    "description": "For January 21, S001 and S002 attribute “several hundred” to the same Prague police spokesperson; S003 reports a similar estimate, and the outlet says it uses ČTK content generally, but its story-specific relationship is unknown. There is no independent exact count and no defensible numeric bounds.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "CZ202301-E001"
+    ],
+    "required_followup": "Look for an independently sourced contemporaneous estimate or direct, attributable count. Until then retain qualitative estimates and null numeric bounds."
+  },
+  {
+    "gap_id": "CZ202301-G003",
+    "type": "state_response_and_incident_attribution",
+    "description": "S002 reports a detention during the January 21 gathering over suspected social-media conduct from November; the account does not connect it to the protest. S001 reports paint thrown by two young people but establishes neither their affiliation nor an official response. State response and protester violence remain unknown.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "CZ202301-E001"
+    ],
+    "required_followup": "Seek contemporaneous official or independent reporting that directly attributes an arrest or other response to the event, and evidence identifying the paint throwers as participants; otherwise retain unknown values."
+  },
+  {
+    "gap_id": "CZ202301-G004",
+    "type": "source_access_sequence",
+    "description": "For S001, the exact URL access receipt was created at 2026-10-10T10:42:38.806177Z and its summary was read at 10:42:45.504Z: decision=manual_review; automatic retrieval was false; exact URL, denial, publisher-scope, documented written-origin, retrieval-failure, and blocked-without-denial match lists were empty. Before fetching, a canonical grep searched the literal terms irozhlas.cz/irozhlas in extension units and review/source_checks.jsonl; it displayed unrelated Czech 2021 iROZHLAS/ČTK records (source_checks rows 858 and 868), but no exact 2023 URL or event-specific written-origin record. No separate alias search for Český rozhlas/Czech Radio and no temporary-card readback occurred before fetch. The exact openPage action started at 10:42:59.821Z and completed at 10:43:00.821Z. The S001 card was first read back at 10:43:28.483Z, after the fetch; this later readback is not prefetch review. The original search-only card was preserved from its first-write command in capture_inputs/CZ202301-S001-prefetch-source-card.jsonl; the raw receipt remains at access_receipts/CZ202301-S001-check-001.json. No refetch was made.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "CZ202301-E001"
+    ],
+    "required_followup": "Independent science audit should assess whether the receipt summary and limited literal-iROZHLAS canonical grep were sufficient without a prefetch card readback or broader outlet-alias check. Treat this as an unresolved process/access gap; do not describe the chronology as fully compliant or repair it with another request."
+  },
+  {
+    "gap_id": "CZ202301-G005",
+    "type": "search_coverage_and_continuity",
+    "description": "Coverage consists of six grouped English/Czech web searches and 182 captured result headers, focused on national discovery, date windows, labor/union terms, election-period gatherings, and selected regional terms. Date filters frequently returned off-month material. The Q006 native response reported robots.txt blocks for brnensky.denik.cz and plzensky.denik.cz. No systematic local-press/archive or LexisNexis review was done. No January event found here is linked to a continuous episode starting in December 2022, but the search does not establish that none existed.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S006",
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "CZ202301-E001",
+      "CZ202301-X001"
+    ],
+    "required_followup": "If extending coverage, review accessible regional archives and relevant December 2022 dossiers for an explicitly continuous episode; keep this bounded search from becoming an absence claim."
+  },
+  {
+    "gap_id": "CZ202301-G006",
+    "type": "baseline_and_review_gate",
+    "description": "The original manual text was consulted for worker screening, but the official baseline universe, crosswalk, and coordinator review for this unit remain pending. This dossier contains worker judgments only; it does not confer official inclusion/exclusion approval.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CZ202301-E001",
+      "CZ202301-X001"
+    ],
+    "required_followup": "Coordinator must complete the official baseline and review gates before any consolidation or official coding decision."
+  }
+]

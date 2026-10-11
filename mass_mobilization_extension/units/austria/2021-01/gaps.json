@@ -1,0 +1,493 @@
+[
+  {
+    "gap_id": "AT-G001",
+    "type": "baseline",
+    "description": "Historical May2015 manual read; no official original dataset reconciliation or MMofficialIDs. This experimental extension remains separate.",
+    "source_ids": [],
+    "affected_candidates": [
+      "austria_2021-01_E001",
+      "austria_2021-01_E002",
+      "austria_2021-01_E003",
+      "austria_2021-01_E004",
+      "austria_2021-01_E005",
+      "austria_2021-01_E006",
+      "austria_2021-01_E007",
+      "austria_2021-01_E008",
+      "austria_2021-01_E009",
+      "austria_2021-01_E010",
+      "austria_2021-01_E011",
+      "austria_2021-01_E012",
+      "austria_2021-01_E013",
+      "austria_2021-01_E014",
+      "austria_2021-01_E015",
+      "austria_2021-01_E016",
+      "austria_2021-01_E017",
+      "austria_2021-01_E018",
+      "austria_2021-01_E019",
+      "austria_2021-01_E020",
+      "austria_2021-01_E021",
+      "austria_2021-01_E022",
+      "austria_2021-01_E023",
+      "austria_2021-01_E024",
+      "austria_2021-01_E025",
+      "austria_2021-01_E026",
+      "austria_2021-01_E027",
+      "austria_2021-01_E028",
+      "austria_2021-01_E029",
+      "austria_2021-01_E030",
+      "austria_2021-01_E031",
+      "austria_2021-01_E032",
+      "austria_2021-01_E033",
+      "austria_2021-01_E034",
+      "austria_2021-01_E035",
+      "austria_2021-01_E036",
+      "austria_2021-01_E037",
+      "austria_2021-01_E038",
+      "austria_2021-01_E039",
+      "austria_2021-01_E040",
+      "austria_2021-01_E041",
+      "austria_2021-01_E042",
+      "austria_2021-01_E043",
+      "austria_2021-01_E044",
+      "austria_2021-01_E045",
+      "austria_2021-01_E046",
+      "austria_2021-01_E047",
+      "austria_2021-01_E048",
+      "austria_2021-01_E049",
+      "austria_2021-01_E050"
+    ],
+    "required_followup": "Coordinator must resolve pending_official_baseline before any official claims."
+  },
+  {
+    "gap_id": "AT-G002",
+    "type": "search_coverage",
+    "description": "German/English generic, weekly, regional and sector searches conducted. Open web is not LexisNexis or a systematic archive; ranking strongly favorsCOVID and Vienna. Query count is not exhaustion evidence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search systematic contemporary regional/sector archives if available; preserve unresolved absence."
+  },
+  {
+    "gap_id": "AT-G003",
+    "type": "regional_coverage",
+    "description": "Burgenland and rural areas remain weakly covered; Carinthia, LowerAustria and Vorarlberg largely discovered through selective official policing table. Table records selected police incidents, not all assemblies.",
+    "source_ids": [
+      "AT-S042"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E031",
+      "austria_2021-01_E032",
+      "austria_2021-01_E033",
+      "austria_2021-01_E034",
+      "austria_2021-01_E035",
+      "austria_2021-01_E036",
+      "austria_2021-01_E037",
+      "austria_2021-01_E038",
+      "austria_2021-01_E039",
+      "austria_2021-01_E040",
+      "austria_2021-01_E041",
+      "austria_2021-01_E042",
+      "austria_2021-01_E043",
+      "austria_2021-01_E044",
+      "austria_2021-01_E045",
+      "austria_2021-01_E046"
+    ],
+    "required_followup": "Obtain local contemporary reports and attendance for listed dates; search unrepresented locations."
+  },
+  {
+    "gap_id": "AT-G004",
+    "type": "sector_coverage",
+    "description": "University, deportation, welfare, feminist, housing/land, union and farmer/care terms used. No systematic sector archive access; annual union context not sufficient to establishJanuary assemblies.",
+    "source_ids": [
+      "AT-S103",
+      "AT-S104"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E001",
+      "austria_2021-01_E015",
+      "austria_2021-01_E019",
+      "austria_2021-01_E023"
+    ],
+    "required_followup": "Review union/local sector archives without transferring annual examples intoJanuary."
+  },
+  {
+    "gap_id": "AT-G005",
+    "type": "language",
+    "description": "German and English read; no systematic Austrian dialect, minority-language, migrant-community or regional print search.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use additional language/local sources when justified by leads."
+  },
+  {
+    "gap_id": "AT-G006",
+    "type": "query_provenance",
+    "description": "Exact execution/access times were not captured; all corresponding fields null. Shared batched search URLs are batch-level, not attributable rankings perquery. Date strings/operators often returned other periods.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain transparent provenance; use new captured timestamps only for new actions, never reconstruct old exact times."
+  },
+  {
+    "gap_id": "AT-G007",
+    "type": "access",
+    "description": "Web internal errors/cache misses were not treated as site denials. Normal HTTPS recoveredCBA,akin,GrazORF,MeinBezirk,KleineZeitungpubliclead and parliamentaryPDF. OTS returned actual403 and remainsblocked. AnnualombudsmanPDF webInternalError remainssearchonly.",
+    "source_ids": [
+      "AT-S001",
+      "AT-S003",
+      "AT-S053",
+      "AT-S090",
+      "AT-S099"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Try ordinary public retrieval only where no denial; no login/paywall/anti-bot bypass. Record limited read scope."
+  },
+  {
+    "gap_id": "AT-G008",
+    "type": "source_independence",
+    "description": "AFP,APA andReuters syndications are not independent reports. CBAKettler/noch rich ten and akin chronology share provenance; their overlapping counts cannot corroborate each other independently.",
+    "source_ids": [
+      "AT-S005",
+      "AT-S007",
+      "AT-S008",
+      "AT-S010",
+      "AT-S026",
+      "AT-S063",
+      "AT-S078",
+      "AT-S094"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E001",
+      "austria_2021-01_E002",
+      "austria_2021-01_E006",
+      "austria_2021-01_E007",
+      "austria_2021-01_E017",
+      "austria_2021-01_E023"
+    ],
+    "required_followup": "Trace original observation/police/organizer attribution before weighting sources."
+  },
+  {
+    "gap_id": "AT-G009",
+    "type": "attendance",
+    "description": "Many dated local assemblies lack attendance. Police/arrest/complaint totals and number of rallies are not crowd sizes. Around50 counter/photo participants remains uncertain rather than exact50.",
+    "source_ids": [
+      "AT-S035",
+      "AT-S042",
+      "AT-S087"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E012",
+      "austria_2021-01_E013",
+      "austria_2021-01_E014",
+      "austria_2021-01_E015",
+      "austria_2021-01_E016",
+      "austria_2021-01_E018",
+      "austria_2021-01_E021",
+      "austria_2021-01_E022",
+      "austria_2021-01_E025",
+      "austria_2021-01_E027",
+      "austria_2021-01_E029",
+      "austria_2021-01_E031",
+      "austria_2021-01_E032",
+      "austria_2021-01_E033",
+      "austria_2021-01_E034",
+      "austria_2021-01_E035",
+      "austria_2021-01_E036",
+      "austria_2021-01_E037",
+      "austria_2021-01_E038",
+      "austria_2021-01_E039",
+      "austria_2021-01_E040",
+      "austria_2021-01_E041",
+      "austria_2021-01_E042",
+      "austria_2021-01_E043",
+      "austria_2021-01_E044",
+      "austria_2021-01_E045",
+      "austria_2021-01_E046",
+      "austria_2021-01_E048",
+      "austria_2021-01_E049",
+      "austria_2021-01_E050"
+    ],
+    "required_followup": "Find explicit contemporaneous count or clear >=50 qualitative evidence for each local action."
+  },
+  {
+    "gap_id": "AT-G010",
+    "type": "domestic_target",
+    "description": "Domestic state/policy target remains unresolved for anti-mask/far-right counter-actions, Moria camps, Donaufeld planning, Budenbummel, BraunauJan6 and SalzburgJan25. Grievance against private actors/foreign governments cannot automatically qualify.",
+    "source_ids": [
+      "AT-S007",
+      "AT-S035",
+      "AT-S063",
+      "AT-S078",
+      "AT-S086",
+      "AT-S046"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E007",
+      "austria_2021-01_E017",
+      "austria_2021-01_E018",
+      "austria_2021-01_E019",
+      "austria_2021-01_E020",
+      "austria_2021-01_E027",
+      "austria_2021-01_E047",
+      "austria_2021-01_E048",
+      "austria_2021-01_E050"
+    ],
+    "required_followup": "Obtain actual slogans/demands addressed to Austrian government or public policy."
+  },
+  {
+    "gap_id": "AT-G011",
+    "type": "national_unit",
+    "description": "Jan12 coordinated Bildungbrennt action retained as one national candidate. Vienna800,1800departure,700arrival describe different snapshots/estimates; not summed. Dornbirn5 excluded localcomponent.",
+    "source_ids": [
+      "AT-S010",
+      "AT-S078"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E001"
+    ],
+    "required_followup": "Coordinator review national organization and originalMM unit convention before splitting local records."
+  },
+  {
+    "gap_id": "AT-G012",
+    "type": "episode",
+    "description": "Jan16 main/counter gatherings are separate provisional records; counterblockade locations/subgroups not automatically separate events. Jan28 eveningÖVP-to-ministry sequence grouped because crowds joined. CampsJan16–17 andJan23–24 are separate weekends.",
+    "source_ids": [
+      "AT-S026",
+      "AT-S037",
+      "AT-S063",
+      "AT-S078"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E006",
+      "austria_2021-01_E007",
+      "austria_2021-01_E008",
+      "austria_2021-01_E017",
+      "austria_2021-01_E018"
+    ],
+    "required_followup": "Resolve physical connectedness, simultaneous stages and distinct organizers before final eventcount."
+  },
+  {
+    "gap_id": "AT-G013",
+    "type": "overnight_start",
+    "description": "ZinnergasseJan27 afternoon and overnightJan27/28 blockade may connect. Night record first threshold-supportedJan28; actual before/after-midnight start unresolved, though both dates belongJanuary.",
+    "source_ids": [
+      "AT-S056",
+      "AT-S063"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E021",
+      "austria_2021-01_E022"
+    ],
+    "required_followup": "Recover contemporaneous chronology/counts and merge only if physical continuity established."
+  },
+  {
+    "gap_id": "AT-G014",
+    "type": "boundary",
+    "description": "December26Graz reference is not proof of physical continuation intoJan2. February-specific searches mostly returnedJanuary/annualnoise; Jan31reportspublishedFeb1 do not createFebruary events.",
+    "source_ids": [
+      "AT-S096",
+      "AT-S050",
+      "AT-S005",
+      "AT-S094"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E002",
+      "austria_2021-01_E005"
+    ],
+    "required_followup": "Check Decemberclosing and Februaryopening localreports; no automatic month split or month-end closure."
+  },
+  {
+    "gap_id": "AT-G015",
+    "type": "ending",
+    "description": "Most physical endings remain unknown and null; last article, police operation ending and monthend not used as protestend. Explicit campovernights/Jan16main/Jan1Innsbruck/Jan30Innsbruckends separatelysupported.",
+    "source_ids": [],
+    "affected_candidates": [
+      "austria_2021-01_E001",
+      "austria_2021-01_E002",
+      "austria_2021-01_E003",
+      "austria_2021-01_E005",
+      "austria_2021-01_E007",
+      "austria_2021-01_E008",
+      "austria_2021-01_E009",
+      "austria_2021-01_E010",
+      "austria_2021-01_E012",
+      "austria_2021-01_E013",
+      "austria_2021-01_E014",
+      "austria_2021-01_E015",
+      "austria_2021-01_E016",
+      "austria_2021-01_E019",
+      "austria_2021-01_E020",
+      "austria_2021-01_E022",
+      "austria_2021-01_E023",
+      "austria_2021-01_E024",
+      "austria_2021-01_E025",
+      "austria_2021-01_E026",
+      "austria_2021-01_E027",
+      "austria_2021-01_E028",
+      "austria_2021-01_E029",
+      "austria_2021-01_E030",
+      "austria_2021-01_E031",
+      "austria_2021-01_E032",
+      "austria_2021-01_E033",
+      "austria_2021-01_E034",
+      "austria_2021-01_E035",
+      "austria_2021-01_E036",
+      "austria_2021-01_E037",
+      "austria_2021-01_E038",
+      "austria_2021-01_E039",
+      "austria_2021-01_E040",
+      "austria_2021-01_E041",
+      "austria_2021-01_E042",
+      "austria_2021-01_E043",
+      "austria_2021-01_E044",
+      "austria_2021-01_E045",
+      "austria_2021-01_E046",
+      "austria_2021-01_E047",
+      "austria_2021-01_E048",
+      "austria_2021-01_E049",
+      "austria_2021-01_E050"
+    ],
+    "required_followup": "Find cessation/dissolution reports with actor/time for each episode."
+  },
+  {
+    "gap_id": "AT-G016",
+    "type": "violence_contested",
+    "description": "GrazJan9counter and InnsbruckJan30 police allege protester attacks; organizers/witnesses contest accounts. Violenceyes carries police attribution; alleged kicks/blows remain unconfirmed beatingsunknown.",
+    "source_ids": [
+      "AT-S035",
+      "AT-S052",
+      "AT-S063"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E011",
+      "austria_2021-01_E027"
+    ],
+    "required_followup": "Seek independent contemporaneous observations or review findings; never transfer grievance violence into assembly response."
+  },
+  {
+    "gap_id": "AT-G017",
+    "type": "response_unknown",
+    "description": "All seven state-response fields retained. Silence not absence; complaints not arrests; later investigation not arrests; pepper spray not shootings. Police talks not accommodation. No killings/shootings inferred.",
+    "source_ids": [],
+    "affected_candidates": [
+      "austria_2021-01_E001",
+      "austria_2021-01_E002",
+      "austria_2021-01_E003",
+      "austria_2021-01_E004",
+      "austria_2021-01_E005",
+      "austria_2021-01_E006",
+      "austria_2021-01_E007",
+      "austria_2021-01_E008",
+      "austria_2021-01_E009",
+      "austria_2021-01_E010",
+      "austria_2021-01_E011",
+      "austria_2021-01_E012",
+      "austria_2021-01_E013",
+      "austria_2021-01_E014",
+      "austria_2021-01_E015",
+      "austria_2021-01_E016",
+      "austria_2021-01_E017",
+      "austria_2021-01_E018",
+      "austria_2021-01_E019",
+      "austria_2021-01_E020",
+      "austria_2021-01_E021",
+      "austria_2021-01_E022",
+      "austria_2021-01_E023",
+      "austria_2021-01_E024",
+      "austria_2021-01_E025",
+      "austria_2021-01_E026",
+      "austria_2021-01_E027",
+      "austria_2021-01_E028",
+      "austria_2021-01_E029",
+      "austria_2021-01_E030",
+      "austria_2021-01_E031",
+      "austria_2021-01_E032",
+      "austria_2021-01_E033",
+      "austria_2021-01_E034",
+      "austria_2021-01_E035",
+      "austria_2021-01_E036",
+      "austria_2021-01_E037",
+      "austria_2021-01_E038",
+      "austria_2021-01_E039",
+      "austria_2021-01_E040",
+      "austria_2021-01_E041",
+      "austria_2021-01_E042",
+      "austria_2021-01_E043",
+      "austria_2021-01_E044",
+      "austria_2021-01_E045",
+      "austria_2021-01_E046",
+      "austria_2021-01_E047",
+      "austria_2021-01_E048",
+      "austria_2021-01_E049",
+      "austria_2021-01_E050"
+    ],
+    "required_followup": "Field-specific evidence needed to change unknown; assess explicit nonintervention/ignore interpretations during audit."
+  },
+  {
+    "gap_id": "AT-G018",
+    "type": "arrest_count_scope",
+    "description": "Jan31 arrest totals10AFP,11laterORF,12officialreply; Jan16official20includes17Parkring and3otherplaces, not allocated main/counter. InnsbruckJan30ORF15identityarrests versusakin19later. No summation.",
+    "source_ids": [
+      "AT-S005",
+      "AT-S037",
+      "AT-S042",
+      "AT-S052",
+      "AT-S063",
+      "AT-S094"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E002",
+      "austria_2021-01_E006",
+      "austria_2021-01_E007",
+      "austria_2021-01_E011"
+    ],
+    "required_followup": "Resolve observationtime, legalcategory and physical-group scope before assigning numeric totals."
+  },
+  {
+    "gap_id": "AT-G019",
+    "type": "plans_not_occurrence",
+    "description": "Jan17coup plans, Jan15trafficforecast9rallies and futureThursday invitations do not establish assemblies/attendance. BannedJan31counterrally not assumed to occur.",
+    "source_ids": [
+      "AT-S105",
+      "AT-S109",
+      "AT-S078",
+      "AT-S063"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Require occurrence report; armed plans not automatically coded as public protest."
+  },
+  {
+    "gap_id": "AT-G020",
+    "type": "retrospective_leads",
+    "description": "Ombudsman annualreport searchlead mentionsLinzJanuary23 but relevant passage not yet opened; no verified eventfacts assigned. Retrospective extremist/civil-society/academic sources retained as discovery/context.",
+    "source_ids": [
+      "AT-S099",
+      "AT-S092"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Open exactLinzpassage and find contemporary corroboration; if onlysearch evidence, candidate remains pending_evidence."
+  },
+  {
+    "gap_id": "AT-G021",
+    "type": "braunau_date",
+    "description": "Official2024judgmentfinding saysJan3photo while reproducedJan4APA release saysJan2. About50referswhite-suitedsubgroup; widerprotestsize unknown. InnviertelJan2lead possiblyoverlaps.",
+    "source_ids": [
+      "AT-S087",
+      "AT-S050"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E049"
+    ],
+    "required_followup": "Check originalAPArelease/videochronology and largerassembly. Keep monthprecision until resolved; no duplicateJan2/Jan3records."
+  },
+  {
+    "gap_id": "AT-G022",
+    "type": "parallel_components",
+    "description": "InnsbruckJan1reports three versusfour registered standrallies; one/two counteractions. One grouped discoveryrecord pending identification/threshold/state-target review, no automatic split bytopic.",
+    "source_ids": [
+      "AT-S030",
+      "AT-S051"
+    ],
+    "affected_candidates": [
+      "austria_2021-01_E050"
+    ],
+    "required_followup": "Find registrations/organizers and actualindividual attendance; avoid transferring mainmarch dispersal tostandrallies."
+  }
+]

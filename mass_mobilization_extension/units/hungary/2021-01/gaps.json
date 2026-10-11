@@ -1,0 +1,199 @@
+[
+  {
+    "gap_id": "HUN202101-G001",
+    "type": "baseline",
+    "description": "Official latest MM bytes, universe, cutoff, reuse conditions and the additional Coding Procedure remain unverified.",
+    "source_ids": [],
+    "affected_candidates": [
+      "HUN202101-E001",
+      "HUN202101-E002",
+      "HUN202101-E003"
+    ],
+    "required_followup": "Coordinator must verify the official baseline and compatibility before export or approval."
+  },
+  {
+    "gap_id": "HUN202101-G002",
+    "type": "search_method",
+    "description": "Open-web search is not equivalent to the manual LexisNexis procedure. Weekly and date operators returned substantial unrelated date and country noise.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use systematic contemporary archives where available, assess the retained leads and never infer protest absence from search results."
+  },
+  {
+    "gap_id": "HUN202101-G003",
+    "type": "coverage",
+    "description": "Budapest and university or hospitality disputes dominate discovery. Rural and smaller-town coverage is uneven despite regional and sector searches.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Extend local archive checks for smaller towns and counties, including labour, land, housing, healthcare and environmental action."
+  },
+  {
+    "gap_id": "HUN202101-G004",
+    "type": "language",
+    "description": "Hungarian and English sources were searched and paraphrased, without independent human Hungarian-language review.",
+    "source_ids": [],
+    "affected_candidates": [
+      "HUN202101-E001",
+      "HUN202101-E002",
+      "HUN202101-E003"
+    ],
+    "required_followup": "Have a Hungarian reader check turnout, demands, police verbs and episode boundaries."
+  },
+  {
+    "gap_id": "HUN202101-G005",
+    "type": "source_access",
+    "description": "Szeged365 returned HTTPS 403 and the Independent returned 405 after web-tool failures; Hirtv remains a tool-error lead.",
+    "source_ids": [
+      "HUN202101-S058",
+      "HUN202101-S015",
+      "HUN202101-S003"
+    ],
+    "affected_candidates": [
+      "HUN202101-E002"
+    ],
+    "required_followup": "Use legitimate accessible original reports or archive access; respect denials. Verify Szeged365 crowd estimate rather than treating its snippet as body evidence."
+  },
+  {
+    "gap_id": "HUN202101-G006",
+    "type": "source_access",
+    "description": "HPED raw protest data are explicitly repository-staff only, although collection metadata and a codebook are public. No contact or restricted access was attempted.",
+    "source_ids": [
+      "HUN202101-S089"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may consider a separately authorised legitimate data-access route; notified events still need occurrence and threshold checks."
+  },
+  {
+    "gap_id": "HUN202101-G007",
+    "type": "source_independence",
+    "description": "RFE/RL is based on Reuters and AFP; the Independent lead is AP. Telex follow-up repeats its own scene reporting. Outlet counts are not confirmation counts.",
+    "source_ids": [
+      "HUN202101-S002",
+      "HUN202101-S015",
+      "HUN202101-S004",
+      "HUN202101-S037",
+      "HUN202101-S228"
+    ],
+    "affected_candidates": [
+      "HUN202101-E001"
+    ],
+    "required_followup": "Preserve agency families and distinguish original correspondent accounts from republications."
+  },
+  {
+    "gap_id": "HUN202101-G008",
+    "type": "episode_unit",
+    "description": "January 31 physically ended within one hour, but the same organisers gathered again on February 1. Separate physical meetings need not automatically be separate MM episodes.",
+    "source_ids": [
+      "HUN202101-S004",
+      "HUN202101-S006"
+    ],
+    "affected_candidates": [
+      "HUN202101-E001"
+    ],
+    "required_followup": "Coordinator should compare the additional Coding Procedure and cross-month evidence before deciding episode boundaries or an owning month for any combined episode."
+  },
+  {
+    "gap_id": "HUN202101-G009",
+    "type": "state_response",
+    "description": "Warnings, identity checks, displacement, fines and proceedings do not settle every response variable; silence remains unknown.",
+    "source_ids": [
+      "HUN202101-S004",
+      "HUN202101-S242",
+      "HUN202101-S037"
+    ],
+    "affected_candidates": [
+      "HUN202101-E001"
+    ],
+    "required_followup": "Read additional official and eyewitness accounts for arrests, injuries, negotiations or other responses; do not convert fines into arrests."
+  },
+  {
+    "gap_id": "HUN202101-G010",
+    "type": "contested_evidence",
+    "description": "Three organiser fines totalling 1.5 million HUF are attributed to the organiser in the February 1 follow-up, without a verified individual decision.",
+    "source_ids": [
+      "HUN202101-S037",
+      "HUN202101-S242"
+    ],
+    "affected_candidates": [
+      "HUN202101-E001"
+    ],
+    "required_followup": "Verify the relevant administrative decisions or contemporaneous official statement, preserving the attribution and temporal scope."
+  },
+  {
+    "gap_id": "HUN202101-G011",
+    "type": "participants",
+    "description": "The opened Szeged.hu body gives no count; the blocked Szeged365 search card suggests two or three dozen. Fifty actual participants are unverified.",
+    "source_ids": [
+      "HUN202101-S136",
+      "HUN202101-S058"
+    ],
+    "affected_candidates": [
+      "HUN202101-E002"
+    ],
+    "required_followup": "Find a legitimate body-accessible contemporaneous count or original video with a defensible contemporaneous count; preserve conflicting estimates."
+  },
+  {
+    "gap_id": "HUN202101-G012",
+    "type": "dates",
+    "description": "The Szeged university walk has a verified January 30 activity date but no physical withdrawal or end evidence.",
+    "source_ids": [
+      "HUN202101-S136"
+    ],
+    "affected_candidates": [
+      "HUN202101-E002"
+    ],
+    "required_followup": "Follow the group and local reporting before and after January 30 for actual onset and physical closure."
+  },
+  {
+    "gap_id": "HUN202101-G013",
+    "type": "episode_unit",
+    "description": "The Szeged university walk is linked to university autonomy but its organisation, simultaneous assembly and relationship to other university actions remain uncertain.",
+    "source_ids": [
+      "HUN202101-S136",
+      "HUN202101-S058"
+    ],
+    "affected_candidates": [
+      "HUN202101-E002"
+    ],
+    "required_followup": "Review the public invitation and contemporary regional coverage without merging all university campaigns automatically."
+  },
+  {
+    "gap_id": "HUN202101-G014",
+    "type": "occurrence_threshold",
+    "description": "A January 30 Cserepes market convoy is announced in a tag card. The opened local report establishes trade and a press conference rather than execution of a protest with 50 people.",
+    "source_ids": [
+      "HUN202101-S086",
+      "HUN202101-S087"
+    ],
+    "affected_candidates": [
+      "HUN202101-E003"
+    ],
+    "required_followup": "Retrieve the original convoy report and same-day follow-up. Verify actual expressive assembly, simultaneous people and the domestic municipal demand."
+  },
+  {
+    "gap_id": "HUN202101-G015",
+    "type": "episode_unit_dates",
+    "description": "Earlier market demonstrations are mentioned vaguely; February 1 talks and February 2 protest are proposals. The physical owning month and endpoint remain unknown.",
+    "source_ids": [
+      "HUN202101-S086",
+      "HUN202101-S087"
+    ],
+    "affected_candidates": [
+      "HUN202101-E003"
+    ],
+    "required_followup": "Follow earlier January and December reports plus actual February action. An invitation to meet the mayor is not accommodation."
+  },
+  {
+    "gap_id": "HUN202101-G016",
+    "type": "historical_boundary",
+    "description": "The SZFE occupation belongs to September 2020 and physically ended on November 10. January online resistance does not prove a continuous January assembly.",
+    "source_ids": [
+      "HUN202101-S014",
+      "HUN202101-S207"
+    ],
+    "affected_candidates": [
+      "HUN202101-C001"
+    ],
+    "required_followup": "Verify earlier owner records and investigate any separately executed January street action if new evidence appears."
+  }
+]

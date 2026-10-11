@@ -1,0 +1,131 @@
+[
+  {
+    "gap_id": "argentina_2023-01-G001",
+    "candidate_ids": [
+      "argentina_2023-01-E004"
+    ],
+    "source_ids": [
+      "S009",
+      "S011",
+      "S015"
+    ],
+    "status": "open",
+    "question": "How many people attended the Jan. 24 Mar del Plata taxi/remise gathering?",
+    "evidence": "“Hundreds of vehicles” is not a human attendance count; “decenas de choferes” does not establish >=50.",
+    "next_step": "Seek a direct human crowd count or a source clearly establishing at least 50 participants."
+  },
+  {
+    "gap_id": "argentina_2023-01-G002",
+    "candidate_ids": [
+      "argentina_2023-01-E005"
+    ],
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "status": "open",
+    "question": "Did at least 50 people attend the body-verified Jan. 25 CABA blockade, and is independent reporting available?",
+    "evidence": "S001 verifies columns and blockage but gives no attendance figure. S002’s exact URL returned HTTP 403; no body was read.",
+    "next_step": "Use only another independently accessible contemporaneous report; preserve the exact S002 URL restriction."
+  },
+  {
+    "gap_id": "argentina_2023-01-G003",
+    "candidate_ids": [
+      "argentina_2023-01-E002",
+      "argentina_2023-01-E003"
+    ],
+    "source_ids": [
+      "S005",
+      "S014"
+    ],
+    "status": "open",
+    "question": "What actually occurred in the two Jujuy leads published Jan. 17, whose occurrence dates remain unverified, and were the Sala-indulto and Padres del Dolor actions distinct?",
+    "evidence": "The Página|12 body narrative did not render; the Jujuy al Momento URL returned Cache miss. Search-result metadata suggests distinct demands, but no bodies or human counts establish overlap, venue, or execution details.",
+    "next_step": "Retrieve permitted body evidence and verify date, locations, organizers, turnout, and whether the events overlapped."
+  },
+  {
+    "gap_id": "argentina_2023-01-G004",
+    "candidate_ids": [],
+    "source_ids": [
+      "S006"
+    ],
+    "status": "open",
+    "question": "What date and actual public action does the Salta UTM “assembly and awareness day” headline describe?",
+    "evidence": "Only the search-result headline is available. The exact URL returned HTTP 429 at turn91view0 and was not retried; do not infer the event date or that the planned assembly occurred.",
+    "next_step": "Wait for ordinary access to recover without retrying the exact rate-limited URL in this research pass."
+  },
+  {
+    "gap_id": "argentina_2023-01-G005",
+    "candidate_ids": [
+      "argentina_2023-01-E005"
+    ],
+    "source_ids": [
+      "S012",
+      "S013"
+    ],
+    "status": "open",
+    "question": "Which out-of-CABA Jan. 25 Unidad Piquetera actions actually occurred, where, and with what attendance?",
+    "evidence": "Search results announce or report possible local actions in San Juan, Mar del Plata, and Paraná. San Juan page opens returned technical Cache misses; no body verifies local execution.",
+    "search_refs": [
+      "Q021",
+      "Q022",
+      "Q023"
+    ],
+    "next_step": "Verify each locality from accessible local reporting before adding a place-specific candidate; do not sum locations from an announcement."
+  },
+  {
+    "gap_id": "argentina_2023-01-G006",
+    "candidate_ids": [],
+    "source_ids": [],
+    "status": "open",
+    "question": "Did the Chubut SISAP Jan. 17 health-sector action include a qualifying public assembly?",
+    "evidence": "Q017 search results surfaced strike announcements and compulsory-conciliation reporting, but no page body was read and a strike alone does not establish a public gathering. Relevant headers: turn140search0, turn140search1, turn140search3.",
+    "search_refs": [
+      "Q017"
+    ],
+    "next_step": "Verify whether the strike included a physical public assembly of at least 50; keep worker action and protest assembly distinct."
+  },
+  {
+    "gap_id": "argentina_2023-01-G007",
+    "candidate_ids": [
+      "argentina_2023-01-E008",
+      "argentina_2023-01-E009"
+    ],
+    "source_ids": [
+      "S016"
+    ],
+    "status": "open",
+    "question": "What were the exact venues, turnout, and demands at the other anniversary actions reported from Mar del Plata and Zárate, and what happened in Recoleta?",
+    "evidence": "A24 provides partial city descriptions: Mar del Plata has a justice slogan but no count or exact site; Zárate has a municipal location and “No tenemos miedo” slogan but no clear policy demand/count; Recoleta is only a subhead mention.",
+    "next_step": "Seek local reports and preserve each locality as a separate event if verified."
+  },
+  {
+    "gap_id": "argentina_2023-01-G008",
+    "candidate_ids": [
+      "argentina_2023-01-E001"
+    ],
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "status": "open",
+    "question": "Do the December 2022 and February 2023 Atlanticazo actions represent recurring separate rallies or any single continuing physical episode?",
+    "evidence": "Q006/Q007/Q014/Q015 surfaced recurring monthly campaign references. The verified Jan. 4 action is a dated local gathering; no evidence here establishes one continuous occupation across months.",
+    "search_refs": [
+      "Q006",
+      "Q007",
+      "Q014",
+      "Q015"
+    ],
+    "next_step": "Keep the January rally discrete unless direct dates and continuity evidence establish otherwise."
+  },
+  {
+    "gap_id": "argentina_2023-01-G009",
+    "candidate_ids": [],
+    "source_ids": [],
+    "status": "open",
+    "question": "What additional provinces, local outlets, and sectors remain missing from the January picture?",
+    "evidence": "The 24-query Spanish/English pass covers all four January weeks and selected sectors/localities, but does not establish an exhaustive national press universe; LexisNexis was unavailable. The official baseline gate remains pending.",
+    "next_step": "Continue province-by-province and sector-specific checks during independent review, then compare against the authorized official baseline."
+  }
+]

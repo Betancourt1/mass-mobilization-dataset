@@ -1,0 +1,104 @@
+[
+  {
+    "gap_id": "BEL23-GAP001",
+    "type": "search_capture",
+    "status": "resolved",
+    "description": "Exact completed web.search metadata for all 18 actual query invocations was recovered from this worker’s observed event_msg records and rebuilt through canonical capture-search. The prior Q001–Q015 rows had lost clocks and some exact header fields; Q008 also omitted one header. Current rows preserve original query actions, all ordered headers, title-field presence, refs, URLs and clocks. Exact exports and both prior log revisions are retained in capture_revisions/. No query was repeated.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "None for capture recovery. Preserve capture_revisions/README.txt and both byte-for-byte search-log revision snapshots."
+  },
+  {
+    "gap_id": "BEL23-GAP002",
+    "type": "coverage",
+    "status": "open",
+    "description": "No qualifying January 2023 public-protest candidate was identified in 18 open-web search invocations and two opened reports. This is a finding about the searches conducted, not evidence that no protest occurred. Belarusian, Russian and English searches included four weekly windows, regional names, labor/transport/tax sectors, targeted union-trial and prayer-service follow-ups, and official BelTA/MVD site searches; search-result indexing and reporting constraints remain.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review against the official baseline and any accessible local or archived coverage; retain “no candidate identified” unless new evidence supports an event."
+  },
+  {
+    "gap_id": "BEL23-GAP003",
+    "type": "inaccessible_sources",
+    "status": "open",
+    "description": "The January HRW report was not opened under a saved publisher-wide 403 hold, and the spring96.org January report was not opened after manual review found actual 403 denials on three separate URLs at the same host. Exact target requests were not made for either report; neither target-specific denial is claimed.",
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve the holds and use no sibling URL, translation or copy as a bypass. Revisit only if the source-access record or authorized access conditions change."
+  },
+  {
+    "gap_id": "BEL23-GAP004",
+    "type": "lexisnexis_deviation",
+    "status": "open",
+    "description": "The required retrospective screen used open-web search and available indexed reports; LexisNexis and systematic newspaper-archive coverage were unavailable. Open-web search is not equivalent to the project’s LexisNexis reference workflow.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If an authorized archive corpus becomes available, run a separate date-bounded retrospective screen and preserve source-level provenance."
+  },
+  {
+    "gap_id": "BEL23-GAP005",
+    "type": "continuity_boundary",
+    "status": "open",
+    "description": "No episode beginning in January was documented, so no candidate was assigned to events or continuations. The open-web screens do not establish whether an unreported action began in December 2022 or continued into February 2023.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If new evidence identifies an episode, search its pre- and post-month boundary before assigning ownership or an end date; do not infer a boundary from the final article date."
+  },
+  {
+    "gap_id": "BEL23-GAP006",
+    "type": "mass_threshold_and_state_target",
+    "status": "open",
+    "description": "The screened court, religious-service, online-speech and tax-policy leads do not document a public protest meeting the 50-person threshold and a demand directed to the Belarusian government. Attendance and state-target criteria remain unobserved for any possible undocumented action.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not code an event without direct evidence of a public gathering and an eligible state target; assess attendance from reported participant counts or a clearly explained qualitative basis."
+  },
+  {
+    "gap_id": "BEL23-GAP007",
+    "type": "event_response_unknown",
+    "status": "open",
+    "description": "There is no qualifying protest candidate to which the seven event-specific response variables can be assigned. General repression reports and arrests for online speech are not substituted for evidence about a protest crowd.",
+    "source_ids": [
+      "S002",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep event-level protester violence and accommodation, arrests, beatings, crowd dispersal, ignore, killings and shootings unknown unless evidence identifies a qualifying gathering and its response."
+  }
+]

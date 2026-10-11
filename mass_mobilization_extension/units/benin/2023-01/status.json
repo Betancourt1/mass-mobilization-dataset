@@ -1,0 +1,60 @@
+{
+  "unit_id": "benin_2023-01",
+  "country": "Benin",
+  "month": "2023-01",
+  "agent_task": "/root/benin_2023_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T06:50:07.208390+00:00",
+  "finished_at": "2026-10-10T07:23:24Z",
+  "n_queries": 16,
+  "n_query_texts": 28,
+  "n_search_result_headers": 386,
+  "n_sources": 7,
+  "n_candidates": 0,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 8,
+  "n_access_receipts": 9,
+  "coverage_assessment": "First-pass English and French open-web search is complete for this unit: 16 actual search invocations preserve 28 query strings and 386 ordered headers. Searches covered four weekly windows, student/teacher/transport/labor and other themes, northern/southern cities, election-day/post-result issues, and December/February boundaries. Two source bodies were read. Three leads remain search-only and two Africa Press items remain blocked by the inherited publisher hold. No event met the evidence standard; this is not an absence finding. Coverage is not exhaustive and excludes systematic Fon/Yoruba/Bariba, local-radio and province-by-province archive review.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened": 2,
+    "search_only": 3,
+    "blocked": 2,
+    "not_found": 0
+  },
+  "eligibility_counts": {
+    "proposed_include": 0,
+    "pending_evidence": 0,
+    "pending_state_target": 0,
+    "pending_threshold": 0
+  },
+  "query_capture_integrity": {
+    "actual_invocations": 16,
+    "original_query_strings": 28,
+    "ordered_headers": 386,
+    "one_row_per_actual_invocation": true,
+    "grouped_invocation_query_counts": {
+      "Q001": 4,
+      "Q005": 4,
+      "Q009": 4,
+      "Q013": 4
+    },
+    "adapter_comparison": "All 16 invocation arrays, query strings, header fields, ordering, refs, URLs, titles and timestamps matched saved exact-metadata adapter exports."
+  },
+  "capture_revisions": {
+    "initial_search_log": "search_log_revisions/initial_per_query_rows_20261010T0653Z.jsonl",
+    "intermediate_search_log": "search_log_revisions/pre_adapter_search_log_20261010T0702Z.jsonl",
+    "original_source_log": "capture_revisions/source_log_pre_separator_fix.txt",
+    "original_source_log_sha256": "4aca35f11154bca18545ed12c9252a87e08f0a12fbfd6eeb31b620a86fd9b604"
+  },
+  "body_read_source_ids": [
+    "BN2301-S003",
+    "BN2301-S006"
+  ],
+  "temporary_resources_started": [],
+  "temporary_resources_remaining": [],
+  "next_action": "Coordinator review the frozen first-pass dossier and materialize it only through the approved batch workflow; official baseline review remains pending.",
+  "frozen": true,
+  "checks": "Passed research.py validate-unit with zero issues; summarize-unit confirmed counts and two body-read scopes; exact-metadata comparison matched 32 saved adapter exports covering all 16 distinct search invocations."
+}

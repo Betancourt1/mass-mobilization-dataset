@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "ER2301-G001",
+    "type": "search_coverage",
+    "description": "The 19-query open-web sweep found no source describing a January 2023 physical public protest in Eritrea with an own-state target. The observed result set cannot establish that no such protest occurred; search-engine coverage and recall are unknown.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review and, if warranted, searches of additional period-specific news archives and contemporaneous original records; keep the result as not identified by this bounded sweep, not a zero-protest conclusion."
+  },
+  {
+    "gap_id": "ER2301-G002",
+    "type": "method",
+    "description": "Open-web search does not reproduce the codebook-described Lexis-Nexis workflow or its newspaper selection, terms, date controls, and expansion thresholds. No claim of equivalent or exhaustive coverage is supported.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Reconcile against the official current baseline and any available licensed archive; retain the method deviation until verified."
+  },
+  {
+    "gap_id": "ER2301-G003",
+    "type": "language_and_local_media",
+    "description": "Coverage included English queries, one Tigrinya query, one Arabic query, and searches scoped to Shabait, BBC Tigrinya, Asmarino, Assenna, and Radio Erena. This is not broad coverage of Eritrean-language reporting or of in-country and diaspora archives; search indexing and translations remain uncertain.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If further review is needed, consult additional original-language reporting and relevant local or regional archives with competent language review; record exact terms and limits."
+  },
+  {
+    "gap_id": "ER2301-G004",
+    "type": "source_access",
+    "description": "The January 19, 2023 EEPA Horn report (S001) remained search-only after a web-open Internal Error and a separately gated ordinary HTTPS request that failed DNS resolution (curl exit 6, HTTP 000, zero bytes). No HTTP denial or report content was observed.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No further retrieval was attempted. Any later attempt requires a fresh source-scope review and an open source window; otherwise retain as inaccessible due to technical failure, not denial."
+  },
+  {
+    "gap_id": "ER2301-G005",
+    "type": "baseline",
+    "description": "The available local May 2015 MM Codebook reading copy was reviewed, but the additional Mass Mobilization Coding Procedure and a verified current official baseline, universe, and applicable use conditions remain unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator-owned baseline verification and retrieval of the additional procedure before official coding or integration."
+  },
+  {
+    "gap_id": "ER2301-G006",
+    "type": "continuity",
+    "description": "December 2022 and February 2023 continuity searches did not identify a qualifying physical protest episode to assign across a month boundary. If an episode exists outside indexed sources, its start, end, state target, and ownership remain unknown; report dates were not used as event dates.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review adjacent-month units and contemporaneous sources if a specific episode is identified; do not create a continuation from state mobilization references alone."
+  }
+]

@@ -1,0 +1,544 @@
+[
+  {
+    "gap_id": "GHA202101-G001",
+    "type": "method",
+    "description": "Open-web retrieval is not the manual’s systematic LexisNexis All News search.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use comparable systematic archives when accessible; do not infer complete coverage."
+  },
+  {
+    "gap_id": "GHA202101-G002",
+    "type": "baseline",
+    "description": "Latest official baseline bytes/version/schema/universe remain coordinator-level pending verification.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resolve official baseline gate before official integration."
+  },
+  {
+    "gap_id": "GHA202101-G003",
+    "type": "protocol",
+    "description": "Additional Mass Mobilization Coding Procedure is unavailable.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GHA202101-E001",
+      "GHA202101-E002",
+      "GHA202101-E003",
+      "GHA202101-E004",
+      "GHA202101-E005",
+      "GHA202101-E006",
+      "GHA202101-E007"
+    ],
+    "required_followup": "Resolve national/local/day/phase unit identity under the original detailed procedure."
+  },
+  {
+    "gap_id": "GHA202101-G004",
+    "type": "language",
+    "description": "English predominated; French regional and one Twi-script search were attempted, with no verified vernacular broadcast transcript corpus.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search local-language radio archives with fluent contextual review."
+  },
+  {
+    "gap_id": "GHA202101-G005",
+    "type": "coverage",
+    "description": "Weekly windows, labor/education/health/farming/mining/trade/road/border and regional queries are a broad first pass, not systematic district coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Follow underrepresented districts and unindexed local reporting."
+  },
+  {
+    "gap_id": "GHA202101-G006",
+    "type": "search_logging",
+    "description": "The first three pooled searches were returned in a truncated tool output before durable retention. Exact execution timestamps were not retained and are null; shown relevant URLs retained. Later calls logged actual pre-call UTC and all parsed result-header URLs.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Do not reconstruct missing timestamps or claim complete initial URL retention; reproduce searches if needed, retaining new execution records separately."
+  },
+  {
+    "gap_id": "GHA202101-G007",
+    "type": "source_access",
+    "description": "Ho pre-prohibition NewsGhana URL returned ordinary HTTPS403 after web cache miss.",
+    "source_ids": [
+      "GHA202101-S143"
+    ],
+    "affected_candidates": [
+      "GHA202101-E007"
+    ],
+    "required_followup": "Respect denial; recover an authorized original police statement or independent accessible report."
+  },
+  {
+    "gap_id": "GHA202101-G008",
+    "type": "search_only",
+    "description": "Most discovered URLs remain search-only, including openly retained irrelevant search noise; none establishes a candidate fact merely by discovery.",
+    "source_ids": [
+      "GHA202101-S008",
+      "GHA202101-S009",
+      "GHA202101-S010",
+      "GHA202101-S011",
+      "GHA202101-S012",
+      "GHA202101-S013",
+      "GHA202101-S014",
+      "GHA202101-S015",
+      "GHA202101-S016",
+      "GHA202101-S017",
+      "GHA202101-S018",
+      "GHA202101-S019",
+      "GHA202101-S020",
+      "GHA202101-S021",
+      "GHA202101-S022",
+      "GHA202101-S023",
+      "GHA202101-S024",
+      "GHA202101-S025",
+      "GHA202101-S026",
+      "GHA202101-S027",
+      "GHA202101-S028",
+      "GHA202101-S029",
+      "GHA202101-S030",
+      "GHA202101-S033",
+      "GHA202101-S035",
+      "GHA202101-S037",
+      "GHA202101-S038",
+      "GHA202101-S039",
+      "GHA202101-S040",
+      "GHA202101-S041",
+      "GHA202101-S042",
+      "GHA202101-S043",
+      "GHA202101-S044",
+      "GHA202101-S045",
+      "GHA202101-S046",
+      "GHA202101-S047",
+      "GHA202101-S048",
+      "GHA202101-S049",
+      "GHA202101-S050",
+      "GHA202101-S051",
+      "GHA202101-S052",
+      "GHA202101-S053",
+      "GHA202101-S054",
+      "GHA202101-S055",
+      "GHA202101-S056",
+      "GHA202101-S057",
+      "GHA202101-S059",
+      "GHA202101-S060",
+      "GHA202101-S061",
+      "GHA202101-S062",
+      "GHA202101-S063",
+      "GHA202101-S065",
+      "GHA202101-S066",
+      "GHA202101-S067",
+      "GHA202101-S068",
+      "GHA202101-S069",
+      "GHA202101-S070",
+      "GHA202101-S071",
+      "GHA202101-S072",
+      "GHA202101-S073",
+      "GHA202101-S074",
+      "GHA202101-S076",
+      "GHA202101-S077",
+      "GHA202101-S078",
+      "GHA202101-S079",
+      "GHA202101-S080",
+      "GHA202101-S081",
+      "GHA202101-S082",
+      "GHA202101-S083",
+      "GHA202101-S084",
+      "GHA202101-S085",
+      "GHA202101-S086",
+      "GHA202101-S087",
+      "GHA202101-S088",
+      "GHA202101-S089",
+      "GHA202101-S091",
+      "GHA202101-S092",
+      "GHA202101-S093",
+      "GHA202101-S094",
+      "GHA202101-S095",
+      "GHA202101-S096",
+      "GHA202101-S097",
+      "GHA202101-S098",
+      "GHA202101-S099",
+      "GHA202101-S100",
+      "GHA202101-S101",
+      "GHA202101-S102",
+      "GHA202101-S103",
+      "GHA202101-S104",
+      "GHA202101-S105",
+      "GHA202101-S106",
+      "GHA202101-S107",
+      "GHA202101-S108",
+      "GHA202101-S109",
+      "GHA202101-S110",
+      "GHA202101-S112",
+      "GHA202101-S113",
+      "GHA202101-S114",
+      "GHA202101-S115",
+      "GHA202101-S116",
+      "GHA202101-S117",
+      "GHA202101-S118",
+      "GHA202101-S119",
+      "GHA202101-S120",
+      "GHA202101-S121",
+      "GHA202101-S122",
+      "GHA202101-S123",
+      "GHA202101-S124",
+      "GHA202101-S125",
+      "GHA202101-S126",
+      "GHA202101-S127",
+      "GHA202101-S129",
+      "GHA202101-S130",
+      "GHA202101-S131",
+      "GHA202101-S132",
+      "GHA202101-S133",
+      "GHA202101-S134",
+      "GHA202101-S135",
+      "GHA202101-S136",
+      "GHA202101-S137",
+      "GHA202101-S138",
+      "GHA202101-S139",
+      "GHA202101-S140",
+      "GHA202101-S142",
+      "GHA202101-S145",
+      "GHA202101-S146",
+      "GHA202101-S147",
+      "GHA202101-S148",
+      "GHA202101-S149",
+      "GHA202101-S150",
+      "GHA202101-S151",
+      "GHA202101-S152",
+      "GHA202101-S153",
+      "GHA202101-S154",
+      "GHA202101-S155",
+      "GHA202101-S156",
+      "GHA202101-S157",
+      "GHA202101-S158",
+      "GHA202101-S159",
+      "GHA202101-S160",
+      "GHA202101-S161",
+      "GHA202101-S162",
+      "GHA202101-S165",
+      "GHA202101-S166",
+      "GHA202101-S167",
+      "GHA202101-S168",
+      "GHA202101-S170",
+      "GHA202101-S171",
+      "GHA202101-S172",
+      "GHA202101-S173",
+      "GHA202101-S174",
+      "GHA202101-S175",
+      "GHA202101-S176",
+      "GHA202101-S177",
+      "GHA202101-S178",
+      "GHA202101-S179",
+      "GHA202101-S180",
+      "GHA202101-S181",
+      "GHA202101-S182",
+      "GHA202101-S183",
+      "GHA202101-S184",
+      "GHA202101-S186",
+      "GHA202101-S187",
+      "GHA202101-S188",
+      "GHA202101-S189",
+      "GHA202101-S190",
+      "GHA202101-S191",
+      "GHA202101-S192",
+      "GHA202101-S193",
+      "GHA202101-S194",
+      "GHA202101-S195",
+      "GHA202101-S196",
+      "GHA202101-S197",
+      "GHA202101-S198",
+      "GHA202101-S199",
+      "GHA202101-S200",
+      "GHA202101-S201",
+      "GHA202101-S202",
+      "GHA202101-S204",
+      "GHA202101-S205",
+      "GHA202101-S206",
+      "GHA202101-S207",
+      "GHA202101-S208",
+      "GHA202101-S209",
+      "GHA202101-S210",
+      "GHA202101-S211",
+      "GHA202101-S212",
+      "GHA202101-S213",
+      "GHA202101-S214",
+      "GHA202101-S215",
+      "GHA202101-S216",
+      "GHA202101-S217",
+      "GHA202101-S218",
+      "GHA202101-S219",
+      "GHA202101-S220",
+      "GHA202101-S221",
+      "GHA202101-S222",
+      "GHA202101-S223",
+      "GHA202101-S224",
+      "GHA202101-S225",
+      "GHA202101-S226",
+      "GHA202101-S227",
+      "GHA202101-S228",
+      "GHA202101-S229",
+      "GHA202101-S230",
+      "GHA202101-S231",
+      "GHA202101-S232",
+      "GHA202101-S233",
+      "GHA202101-S234",
+      "GHA202101-S235",
+      "GHA202101-S236",
+      "GHA202101-S237",
+      "GHA202101-S238",
+      "GHA202101-S239",
+      "GHA202101-S240",
+      "GHA202101-S241",
+      "GHA202101-S242",
+      "GHA202101-S243",
+      "GHA202101-S244",
+      "GHA202101-S245",
+      "GHA202101-S246",
+      "GHA202101-S247",
+      "GHA202101-S248",
+      "GHA202101-S249",
+      "GHA202101-S250",
+      "GHA202101-S251",
+      "GHA202101-S252",
+      "GHA202101-S253",
+      "GHA202101-S254",
+      "GHA202101-S255",
+      "GHA202101-S256",
+      "GHA202101-S257",
+      "GHA202101-S258",
+      "GHA202101-S259",
+      "GHA202101-S260",
+      "GHA202101-S261",
+      "GHA202101-S262",
+      "GHA202101-S263",
+      "GHA202101-S264",
+      "GHA202101-S265"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Prioritize January Ghana leads and original reports; classify noise without treating source count as corroboration."
+  },
+  {
+    "gap_id": "GHA202101-G009",
+    "type": "threshold",
+    "description": "Ada report says scores; exact crowd and >=50 threshold remain unverified.",
+    "source_ids": [
+      "GHA202101-S163",
+      "GHA202101-S090"
+    ],
+    "affected_candidates": [
+      "GHA202101-E002"
+    ],
+    "required_followup": "Find a source-specific attendance estimate; do not convert scores into >=50 automatically."
+  },
+  {
+    "gap_id": "GHA202101-G010",
+    "type": "continuity",
+    "description": "Damongo local march belongs to wider post-December election campaign; national/local episode identity unresolved.",
+    "source_ids": [
+      "GHA202101-S032",
+      "GHA202101-S002",
+      "GHA202101-S031",
+      "GHA202101-S034"
+    ],
+    "affected_candidates": [
+      "GHA202101-E001",
+      "GHA202101-C001"
+    ],
+    "required_followup": "Review campaign versus discrete executed local actions without monthly reset."
+  },
+  {
+    "gap_id": "GHA202101-G011",
+    "type": "protester_violence",
+    "description": "Citi reports tried attacking Damongo police headquarters but gives no physical method; leaders prevented a clash.",
+    "source_ids": [
+      "GHA202101-S032"
+    ],
+    "affected_candidates": [
+      "GHA202101-E001"
+    ],
+    "required_followup": "Verify physical conduct against the state. An actual physical attempt may count even without successful harm; verbal intent alone does not."
+  },
+  {
+    "gap_id": "GHA202101-G012",
+    "type": "state_response",
+    "description": "Police attempted stopping Damongo tire burning; operational movement/breakup method is unspecified.",
+    "source_ids": [
+      "GHA202101-S032"
+    ],
+    "affected_candidates": [
+      "GHA202101-E001"
+    ],
+    "required_followup": "Distinguish policing an act/route from attempted breakup; do not transfer prior election killings."
+  },
+  {
+    "gap_id": "GHA202101-G013",
+    "type": "date_conflict",
+    "description": "Ho planned January25 date differs from VoltaOnline January29 last-Wednesday retrospective (January27). Actual January march is established; day retained unresolved.",
+    "source_ids": [
+      "GHA202101-S128",
+      "GHA202101-S141",
+      "GHA202101-S144"
+    ],
+    "affected_candidates": [
+      "GHA202101-E007"
+    ],
+    "required_followup": "Locate an executed-action original with explicit date; preserve month precision."
+  },
+  {
+    "gap_id": "GHA202101-G014",
+    "type": "occurrence",
+    "description": "TEWU/SSA/FUSSAG work stoppages and declaration meetings do not establish executed public assemblies of >=50.",
+    "source_ids": [
+      "GHA202101-S036",
+      "GHA202101-S001",
+      "GHA202101-S075",
+      "GHA202101-S203",
+      "GHA202101-S058"
+    ],
+    "affected_candidates": [
+      "GHA202101-E004",
+      "GHA202101-E005",
+      "GHA202101-E006"
+    ],
+    "required_followup": "Verify public physical gatherings and turnout; do not substitute workforce totals."
+  },
+  {
+    "gap_id": "GHA202101-G015",
+    "type": "response_link",
+    "description": "January13 minister-led TEWU negotiations are documented within labor dispute, but physical public assembly remains unverified.",
+    "source_ids": [
+      "GHA202101-S036",
+      "GHA202101-S001"
+    ],
+    "affected_candidates": [
+      "GHA202101-E004"
+    ],
+    "required_followup": "Retain labor-dispute meeting evidence; assign accommodation to a qualifying public protest only with phase linkage."
+  },
+  {
+    "gap_id": "GHA202101-G016",
+    "type": "labor_identity",
+    "description": "TEWU January19 suspension was not obeyed at every campus; SSA has an earlier October2020 phase; FUSSAG-UHAS solidarity differs from SSA identity.",
+    "source_ids": [
+      "GHA202101-S036",
+      "GHA202101-S001",
+      "GHA202101-S075",
+      "GHA202101-S203",
+      "GHA202101-S058"
+    ],
+    "affected_candidates": [
+      "GHA202101-E004",
+      "GHA202101-E005",
+      "GHA202101-E006"
+    ],
+    "required_followup": "Resolve group/physical-phase relationships without treating every campus or strike date as a new protest."
+  },
+  {
+    "gap_id": "GHA202101-G017",
+    "type": "continuity",
+    "description": "February Ada confrontation includes contested gunfire attribution, 14 wounded and11 arrests; no proof this was the same unbroken physical action as January27 march.",
+    "source_ids": [
+      "GHA202101-S007"
+    ],
+    "affected_candidates": [
+      "GHA202101-E002"
+    ],
+    "required_followup": "Review February owner and primary sources; retain conflicting police/resident accounts and do not transfer later counts/responses."
+  },
+  {
+    "gap_id": "GHA202101-G018",
+    "type": "occurrence",
+    "description": "Effutu January5 march execution remains unverified after a court pre-prohibition.",
+    "source_ids": [
+      "GHA202101-S003",
+      "GHA202101-S005"
+    ],
+    "affected_candidates": [
+      "GHA202101-E003"
+    ],
+    "required_followup": "Find actual execution evidence; keep physical start null."
+  },
+  {
+    "gap_id": "GHA202101-G019",
+    "type": "closure",
+    "description": "No candidate has verified physical closure. Work resumption, route endpoint, last publication and announced schedules are not automatically closure.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GHA202101-E001",
+      "GHA202101-E002",
+      "GHA202101-E003",
+      "GHA202101-E004",
+      "GHA202101-E005",
+      "GHA202101-E006",
+      "GHA202101-E007"
+    ],
+    "required_followup": "Find explicit physical closure; retain null end dates and no derived duration."
+  },
+  {
+    "gap_id": "GHA202101-G020",
+    "type": "state_response",
+    "description": "All seven responses remain unknown for all candidates; no silence converted to ignore or no.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GHA202101-E001",
+      "GHA202101-E002",
+      "GHA202101-E003",
+      "GHA202101-E004",
+      "GHA202101-E005",
+      "GHA202101-E006",
+      "GHA202101-E007"
+    ],
+    "required_followup": "Find event-specific state response evidence with compatible phase and scope."
+  },
+  {
+    "gap_id": "GHA202101-G021",
+    "type": "syndication",
+    "description": "GhanaBusinessNews Effutu is GNA; ModernGhana Damongo explicitly ClassFM; syndicated versions are not independent corroboration.",
+    "source_ids": [
+      "GHA202101-S003",
+      "GHA202101-S034"
+    ],
+    "affected_candidates": [
+      "GHA202101-E001",
+      "GHA202101-E003"
+    ],
+    "required_followup": "Trace original reporting/statement sources before treating repeats as independent."
+  },
+  {
+    "gap_id": "GHA202101-G022",
+    "type": "metadata",
+    "description": "Africanews displays August2024 update while URL/article context concerns December2020; source publication date left null.",
+    "source_ids": [
+      "GHA202101-S164"
+    ],
+    "affected_candidates": [
+      "GHA202101-C001"
+    ],
+    "required_followup": "Recover original timestamp; do not use page update as event date."
+  },
+  {
+    "gap_id": "GHA202101-G023",
+    "type": "media",
+    "description": "Embedded images, videos and audio were not assessed as attendance or conduct evidence.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GHA202101-E001",
+      "GHA202101-E002",
+      "GHA202101-E003",
+      "GHA202101-E004",
+      "GHA202101-E005",
+      "GHA202101-E006",
+      "GHA202101-E007"
+    ],
+    "required_followup": "Review authorized original media where material, without converting image count/views into attendance."
+  },
+  {
+    "gap_id": "GHA202101-G024",
+    "type": "occurrence",
+    "description": "Retrospective report describes January agitation against LGBTQ resource-office opening, but no specified executed mass public gathering.",
+    "source_ids": [
+      "GHA202101-S169"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find contemporaneous execution, turnout, date and own-state demand if a physical action occurred."
+  }
+]

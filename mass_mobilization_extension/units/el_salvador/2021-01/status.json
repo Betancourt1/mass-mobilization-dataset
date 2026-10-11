@@ -1,0 +1,41 @@
+{
+  "unit_id": "el_salvador_2021-01",
+  "country": "El Salvador",
+  "month": "2021-01",
+  "agent_task": "/root/el_salvador_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T10:33:04.458823+00:00",
+  "finished_at": "2026-10-08T10:47:40.964150+00:00",
+  "baseline_gate": "pending_official_baseline",
+  "search_queries": 63,
+  "sources": 298,
+  "source_access_counts": {
+    "opened": 27,
+    "search_only": 265,
+    "blocked": 6
+  },
+  "events": 14,
+  "eligibility_counts": {
+    "proposed_include": 1,
+    "pending_threshold": 7,
+    "pending_unit": 3,
+    "pending_evidence": 3
+  },
+  "continuations": 2,
+  "excluded": 11,
+  "gaps": 11,
+  "freeze": "Owned dossier frozen; coordinator review and independent audit pending.",
+  "temporary_resources": {
+    "started": "Finite public HTTPS readers only; no servers, browsers, containers or watchers.",
+    "running": [],
+    "verification": "All worker reader sessions observed exit 0; metadata one-shot exited 1 on respected HTTP 403."
+  },
+  "n_queries": 63,
+  "n_sources": 298,
+  "n_candidates": 14,
+  "n_excluded": 11,
+  "n_continuations": 2,
+  "n_gaps": 11,
+  "coverage_assessment": "Documented English/Spanish open-web first pass across weekly windows, sectors, regions, rights and December/February boundaries. Not exhaustive; date operators leaked unrelated countries/years, most crowds and whole-episode closure remain unverified, and several originals were inaccessible. Independent review and official baseline gate pending.",
+  "human_approved": false
+}

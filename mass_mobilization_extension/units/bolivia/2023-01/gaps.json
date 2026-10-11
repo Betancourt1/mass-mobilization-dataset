@@ -1,0 +1,323 @@
+[
+  {
+    "gap_id": "BOL202301-G001",
+    "title": "Official baseline and final country-month eligibility review pending",
+    "note": "assignment.json keeps baseline_gate pending_official_baseline. This dossier is worker research, not official coding or final inclusion. Coordinator must reconcile every candidate against the approved baseline/codebook and fixed ownership rules.",
+    "source_ids": [],
+    "type": "baseline_review",
+    "description": "assignment.json keeps baseline_gate pending_official_baseline. This dossier is worker research, not official coding or final inclusion. Coordinator must reconcile every candidate against the approved baseline/codebook and fixed ownership rules.",
+    "affected_candidates": [],
+    "required_followup": "Coordinator: reconcile every candidate with the approved baseline, codebook, and ownership rules; record inclusion, exclusion, or unresolved disposition without assigning official status here."
+  },
+  {
+    "gap_id": "BOL202301-G002",
+    "title": "Coverage is open-web first-pass, not exhaustive",
+    "note": "Searches covered Spanish and English terms, January periods, national political actions, health/labor and local fare actions, and regional sources. No database-wide or archive completeness claim is possible; no event absence is inferred from missing results.",
+    "source_ids": [],
+    "type": "coverage_limit",
+    "description": "Searches covered Spanish and English terms, January periods, national political actions, health/labor and local fare actions, and regional sources. No database-wide or archive completeness claim is possible; no event absence is inferred from missing results.",
+    "affected_candidates": [],
+    "required_followup": "At the next coverage pass, search relevant local archives and databases for January actions in the documented topic/region gaps; log searches and keep this as an open-web first pass until the wider sources are checked."
+  },
+  {
+    "gap_id": "BOL202301-G003",
+    "title": "Indigenous-language reporting remains undercovered",
+    "note": "Spanish-language searches for Aymara, Quechua and Guaraní terms did not yield a clearly Bolivian local protest result. Dedicated searches in those languages, local radio archives and departmental/indigenous organization channels remain open.",
+    "source_ids": [
+      "bolivia_2023-01_S009",
+      "bolivia_2023-01_S010",
+      "bolivia_2023-01_S011"
+    ],
+    "type": "language_coverage",
+    "description": "Spanish-language searches for Aymara, Quechua and Guaraní terms did not yield a clearly Bolivian local protest result. Dedicated searches in those languages, local radio archives and departmental/indigenous organization channels remain open.",
+    "affected_candidates": [],
+    "required_followup": "Search Aymara-, Quechua-, and Guaraní-language local radio/archive and departmental or Indigenous organization channels for January 2023 protest reports; record exact queries and retain only event-level evidence."
+  },
+  {
+    "gap_id": "BOL202301-G004",
+    "title": "Search-only and technically inaccessible article leads",
+    "note": "The listed sources have no usable article body: S006, S008, S011, S014, S017, S025, S032, S038, S042, S048, S050, S051, S057, S059, S061, S062, S065. Technical cache, timeout, decode, HTTP 429 or DNS failures are not access denials. Search snippets/headlines are not used to assert body details. AP bodies S002/S003 remain stopped by inherited AP publisher guard; do not retry under this assignment.",
+    "source_ids": [
+      "bolivia_2023-01_S006",
+      "bolivia_2023-01_S008",
+      "bolivia_2023-01_S011",
+      "bolivia_2023-01_S014",
+      "bolivia_2023-01_S017",
+      "bolivia_2023-01_S025",
+      "bolivia_2023-01_S032",
+      "bolivia_2023-01_S038",
+      "bolivia_2023-01_S042",
+      "bolivia_2023-01_S048",
+      "bolivia_2023-01_S050",
+      "bolivia_2023-01_S051",
+      "bolivia_2023-01_S057",
+      "bolivia_2023-01_S059",
+      "bolivia_2023-01_S061",
+      "bolivia_2023-01_S062",
+      "bolivia_2023-01_S065",
+      "bolivia_2023-01_S002",
+      "bolivia_2023-01_S003"
+    ],
+    "type": "inaccessible_sources",
+    "description": "The listed sources have no usable article body: S006, S008, S011, S014, S017, S025, S032, S038, S042, S048, S050, S051, S057, S059, S061, S062, S065. Technical cache, timeout, decode, HTTP 429 or DNS failures are not access denials. Search snippets/headlines are not used to assert body details. AP bodies S002/S003 remain stopped by inherited AP publisher guard; do not retry under this assignment.",
+    "affected_candidates": [],
+    "required_followup": "For non-AP leads, use only authorized publisher, archive, or library access to seek the exact article body and refresh its source record; do not retry AP URLs or copies under the inherited hold."
+  },
+  {
+    "gap_id": "BOL202301-G005",
+    "title": "Search-only leads not promoted to events",
+    "note": "Body-inaccessible leads include a Tarija COD march dated Jan. 12 (S048), a Jan. 5 Santa Cruz women’s march (S014), a Jan. 6 Santa Cruz university women’s march (S059), and the Jan. 22 government State Day celebration/rally (S012, S067 is an announcement only). A civic Tarija march is dated Jan. 10 by the Jan. 11 Los Tiempos issue and by El País’s Jan. 11 MAS march, while the inaccessible S048 preview implies a civic march the previous day before a Jan. 12 COD march. Do not infer an extra civic event or resolve the date without opened evidence.",
+    "source_ids": [
+      "bolivia_2023-01_S048",
+      "bolivia_2023-01_S014",
+      "bolivia_2023-01_S059",
+      "bolivia_2023-01_S012",
+      "bolivia_2023-01_S067",
+      "bolivia_2023-01_S041",
+      "bolivia_2023-01_S039"
+    ],
+    "type": "unresolved_event_leads",
+    "description": "Body-inaccessible leads include a Tarija COD march dated Jan. 12 (S048), a Jan. 5 Santa Cruz women’s march (S014), a Jan. 6 Santa Cruz university women’s march (S059), and the Jan. 22 government State Day celebration/rally (S012, S067 is an announcement only). A civic Tarija march is dated Jan. 10 by the Jan. 11 Los Tiempos issue and by El País’s Jan. 11 MAS march, while the inaccessible S048 preview implies a civic march the previous day before a Jan. 12 COD march. Do not infer an extra civic event or resolve the date without opened evidence.",
+    "affected_candidates": [
+      "BOL202301-E020",
+      "BOL202301-E021"
+    ],
+    "required_followup": "Seek opened, attributable reports for the listed leads to confirm dates, turnout, and whether each was a distinct January protest; do not create or merge events from snippets or an announcement."
+  },
+  {
+    "gap_id": "BOL202301-G006",
+    "title": "Attendance threshold unresolved for local actions",
+    "note": "Candidates E002–E005, E008–E018, E021, E023 and E025 lack a defensible documented attendance of 50 or more; several sources identify a gathering without a count. For E013, the 28 employees affected by a salary law are not turnout. For E025, 56 dialysis beneficiaries are not attendees and the highest strike estimate is more than 40.",
+    "source_ids": [
+      "bolivia_2023-01_S044",
+      "bolivia_2023-01_S054",
+      "bolivia_2023-01_S056",
+      "bolivia_2023-01_S063",
+      "bolivia_2023-01_S005",
+      "bolivia_2023-01_S039",
+      "bolivia_2023-01_S013",
+      "bolivia_2023-01_S046",
+      "bolivia_2023-01_S031",
+      "bolivia_2023-01_S033",
+      "bolivia_2023-01_S035",
+      "bolivia_2023-01_S037"
+    ],
+    "type": "attendance_threshold",
+    "description": "Candidates E002–E005, E008–E018, E021, E023 and E025 lack a defensible documented attendance of 50 or more; several sources identify a gathering without a count. For E013, the 28 employees affected by a salary law are not turnout. For E025, 56 dialysis beneficiaries are not attendees and the highest strike estimate is more than 40.",
+    "affected_candidates": [
+      "BOL202301-E002",
+      "BOL202301-E003",
+      "BOL202301-E004",
+      "BOL202301-E005",
+      "BOL202301-E006",
+      "BOL202301-E007",
+      "BOL202301-E008",
+      "BOL202301-E009",
+      "BOL202301-E010",
+      "BOL202301-E011",
+      "BOL202301-E012",
+      "BOL202301-E013",
+      "BOL202301-E014",
+      "BOL202301-E015",
+      "BOL202301-E016",
+      "BOL202301-E017",
+      "BOL202301-E018",
+      "BOL202301-E021",
+      "BOL202301-E023",
+      "BOL202301-E025"
+    ],
+    "required_followup": "Find event-specific attendance estimates or keep threshold unresolved. Reassess E006 against numeric 50-person evidence; do not treat “massive,” affected employees, or dialysis beneficiaries as a documented protest count."
+  },
+  {
+    "gap_id": "BOL202301-G007",
+    "title": "Jan. 3 city-level march scope and attendance",
+    "note": "Los Tiempos reports marches in six capitals, but only describes Cochabamba as massive and Sucre as hundreds. No Jan. 3 national coordinating structure is established, and attendance/routes for Santa Cruz, La Paz, Trinidad and Oruro are unknown. E009 is separate from the La Paz pro-government action.",
+    "source_ids": [
+      "bolivia_2023-01_S054"
+    ],
+    "type": "event_scope_and_turnout",
+    "description": "Los Tiempos reports marches in six capitals, but only describes Cochabamba as massive and Sucre as hundreds. No Jan. 3 national coordinating structure is established, and attendance/routes for Santa Cruz, La Paz, Trinidad and Oruro are unknown. E009 is separate from the La Paz pro-government action.",
+    "affected_candidates": [
+      "BOL202301-E006",
+      "BOL202301-E007",
+      "BOL202301-E008",
+      "BOL202301-E009",
+      "BOL202301-E010",
+      "BOL202301-E011",
+      "BOL202301-E012",
+      "BOL202301-E013"
+    ],
+    "required_followup": "Check local accounts for the Jan. 3 marches in all six capitals, including turnout, routes, organizers, and any common coordinator; retain separate local candidates unless coordination is evidenced."
+  },
+  {
+    "gap_id": "BOL202301-G008",
+    "title": "Conflicting or attributed incident narratives",
+    "note": "The Jan. 10 clash accounts do not consistently identify which group used fireworks or pushed whom. ABI alone reports an attack on police after the Jan. 25 Santa Cruz cabildo; RedUno reports police clearing a Cochabamba roadway and pushing/blows without identifying actors. Correo del Sur S066 says “agency data” without naming the underlying origin. Preserve these limits; do not attribute campaign-wide police violence or participant violence to a specific event absent event-level evidence.",
+    "source_ids": [
+      "bolivia_2023-01_S001",
+      "bolivia_2023-01_S024",
+      "bolivia_2023-01_S027",
+      "bolivia_2023-01_S041",
+      "bolivia_2023-01_S066"
+    ],
+    "type": "incident_attribution",
+    "description": "The Jan. 10 clash accounts do not consistently identify which group used fireworks or pushed whom. ABI alone reports an attack on police after the Jan. 25 Santa Cruz cabildo; RedUno reports police clearing a Cochabamba roadway and pushing/blows without identifying actors. Correo del Sur S066 says “agency data” without naming the underlying origin. Preserve these limits; do not attribute campaign-wide police violence or participant violence to a specific event absent event-level evidence.",
+    "affected_candidates": [
+      "BOL202301-E001",
+      "BOL202301-E002",
+      "BOL202301-E003",
+      "BOL202301-E004",
+      "BOL202301-E005",
+      "BOL202301-E020",
+      "BOL202301-E024"
+    ],
+    "required_followup": "Seek independent, event-specific accounts identifying actors in the Jan. 2, Jan. 10, and Jan. 25 incidents; until corroborated, preserve the attributed claims and unknown actor/violence fields."
+  },
+  {
+    "gap_id": "BOL202301-G009",
+    "title": "Jan. 25 cabildo attendance and later demands vary by city",
+    "note": "ANF and Los Tiempos report thousands in Santa Cruz; ABI reports low turnout at several city sites, including fewer than 50 in Cobija at 17:15, but says Santa Cruz turnout was significant. Local estimates cannot be summed into a national total. After-cabildo violence and police response are localized and contested.",
+    "source_ids": [
+      "bolivia_2023-01_S001",
+      "bolivia_2023-01_S019",
+      "bolivia_2023-01_S021",
+      "bolivia_2023-01_S027"
+    ],
+    "type": "city_level_turnout_and_demands",
+    "description": "ANF and Los Tiempos report thousands in Santa Cruz; ABI reports low turnout at several city sites, including fewer than 50 in Cobija at 17:15, but says Santa Cruz turnout was significant. Local estimates cannot be summed into a national total. After-cabildo violence and police response are localized and contested.",
+    "affected_candidates": [
+      "BOL202301-E024"
+    ],
+    "required_followup": "Compare city-specific Jan. 25 reports for attendance and follow each cabildo demand through later reporting; do not sum local estimates into a national turnout figure."
+  },
+  {
+    "gap_id": "BOL202301-G010",
+    "title": "Camacho detention campaign endpoint unknown",
+    "note": "El Deber reports the principal routes open by Jan. 18, a local phase change rather than national campaign end. The Jan. 25 cabildo was a later discrete event. CIVICUS and the UCB Observatory describe a later decline/latent phase but do not state when the broader campaign ended; exact physical end dates for blockades/vigils are unknown.",
+    "source_ids": [
+      "bolivia_2023-01_S049",
+      "bolivia_2023-01_S052",
+      "bolivia_2023-01_S053",
+      "bolivia_2023-01_S055",
+      "bolivia_2023-01_S064"
+    ],
+    "type": "campaign_endpoint",
+    "description": "El Deber reports the principal routes open by Jan. 18, a local phase change rather than national campaign end. The Jan. 25 cabildo was a later discrete event. CIVICUS and the UCB Observatory describe a later decline/latent phase but do not state when the broader campaign ended; exact physical end dates for blockades/vigils are unknown.",
+    "affected_candidates": [],
+    "required_followup": "Search later contemporary reporting for an explicitly dated end to the blockades/vigils or a defensible endpoint for the broader campaign; keep local phase changes and the Jan. 25 cabildo separate."
+  },
+  {
+    "gap_id": "BOL202301-G011",
+    "title": "Dissent and origin independence require care",
+    "note": "Infobae S018 is explicitly EFE-attributed, so same-wire retellings are not independent. Los Tiempos S041 attributes its Tarija march detail to Página Siete. Correo del Sur S066 does not name the agencies behind its account. ABI S001/S013 is a state news agency with a clear pro-government frame. AP S002/S003 remain blocked by inherited publisher-level hold; local evidence is used instead.",
+    "source_ids": [
+      "bolivia_2023-01_S001",
+      "bolivia_2023-01_S013",
+      "bolivia_2023-01_S018",
+      "bolivia_2023-01_S041",
+      "bolivia_2023-01_S066",
+      "bolivia_2023-01_S002",
+      "bolivia_2023-01_S003"
+    ],
+    "type": "source_independence_and_origin",
+    "description": "Infobae S018 is explicitly EFE-attributed, so same-wire retellings are not independent. Los Tiempos S041 attributes its Tarija march detail to Página Siete. Correo del Sur S066 does not name the agencies behind its account. ABI S001/S013 is a state news agency with a clear pro-government frame. AP S002/S003 remain blocked by inherited publisher-level hold; local evidence is used instead. Jan. 25 Los Tiempos S019 identifies “Los Tiempos and agencies” without naming an agency, so its outlet label alone does not establish independence from ANF.",
+    "affected_candidates": [
+      "BOL202301-E001",
+      "BOL202301-E002",
+      "BOL202301-E003",
+      "BOL202301-E004",
+      "BOL202301-E005",
+      "BOL202301-E020",
+      "BOL202301-E022",
+      "BOL202301-E024"
+    ],
+    "required_followup": "Check original bylines and agency credits before treating reports as independent; preserve EFE, Página Siete, unnamed Correo del Sur agency material, ABI framing, and the AP hold in candidate evidence."
+  },
+  {
+    "gap_id": "BOL202301-G012",
+    "title": "Jan. 2 police negotiation and nighttime dispersal link is uncertain",
+    "note": "Correo del Sur reports police commanders' commitment to allow protests and coordinate about detainee release, and reports nighttime gas/dispersal at Cristo Redentor. Its unnamed agency sourcing is not independent, and the meeting/pledge is campaign-level. The daytime women’s march, later vigil and scope of any accommodation remain separate or unresolved.",
+    "source_ids": [
+      "bolivia_2023-01_S058",
+      "bolivia_2023-01_S066"
+    ],
+    "type": "event_link_and_state_response",
+    "description": "Correo del Sur reports police commanders' commitment to allow protests and coordinate about detainee release, and reports nighttime gas/dispersal at Cristo Redentor. Its unnamed agency sourcing is not independent, and the meeting/pledge is campaign-level. The daytime women’s march, later vigil and scope of any accommodation remain separate or unresolved.",
+    "affected_candidates": [
+      "BOL202301-E001",
+      "BOL202301-E002",
+      "BOL202301-E003",
+      "BOL202301-E004",
+      "BOL202301-E005"
+    ],
+    "required_followup": "Seek contemporaneous accounts that tie the Jan. 2 negotiation, women’s march, later vigil, and dispersal to specific times and actors; keep the campaign-level pledge distinct from event-specific response."
+  },
+  {
+    "gap_id": "BOL202301-G013",
+    "title": "Kidney-patient protest attendance and contract outcome",
+    "note": "The Health Ministry reports about 15 strikers Jan. 4 and more than 40 by Jan. 9; another source says dozens. The often repeated 56 is beneficiary count, not turnout. The strike was suspended after a 15-day review agreement; whether the agreement resulted in the requested dialysis contract is unresolved.",
+    "source_ids": [
+      "bolivia_2023-01_S031",
+      "bolivia_2023-01_S033",
+      "bolivia_2023-01_S034",
+      "bolivia_2023-01_S035",
+      "bolivia_2023-01_S036",
+      "bolivia_2023-01_S037"
+    ],
+    "type": "attendance_and_outcome",
+    "description": "The Health Ministry reports about 15 strikers Jan. 4 and more than 40 by Jan. 9; another source says dozens. The often repeated 56 is beneficiary count, not turnout. The strike was suspended after a 15-day review agreement; whether the agreement resulted in the requested dialysis contract is unresolved.",
+    "affected_candidates": [
+      "BOL202301-E025"
+    ],
+    "required_followup": "Look for independent attendance estimates for the Jan. 4–9 Davosan action and follow-up on the 15-day dialysis-contract review; distinguish strikers from beneficiaries."
+  },
+  {
+    "gap_id": "BOL202301-G014",
+    "title": "Event-specific state responses are incomplete",
+    "note": "Most opened reports do not enumerate arrests, beatings, killings, shootings, accommodation or crowd dispersal for each event. These dimensions remain unknown except for the Jan. 2 Cristo Redentor vigil and localized Jan. 25 follow-up, where reporting supports crowd dispersal, and the renal-patient strike meeting, where accommodation is documented. Do not backfill with campaign-wide incident totals.",
+    "source_ids": [
+      "bolivia_2023-01_S001",
+      "bolivia_2023-01_S027",
+      "bolivia_2023-01_S034",
+      "bolivia_2023-01_S035",
+      "bolivia_2023-01_S055",
+      "bolivia_2023-01_S064",
+      "bolivia_2023-01_S066"
+    ],
+    "type": "event_specific_state_response",
+    "description": "Most opened reports do not enumerate arrests, beatings, killings, shootings, accommodation or crowd dispersal for each event. These dimensions remain unknown except for the Jan. 2 Cristo Redentor vigil and localized Jan. 25 follow-up, where reporting supports crowd dispersal, and the renal-patient strike meeting, where accommodation is documented. Do not backfill with campaign-wide incident totals.",
+    "affected_candidates": [],
+    "required_followup": "For each candidate, consult event-level reporting for accommodation, arrests, beatings, dispersal, ignoring, killings, or shootings; code only supported dimensions and leave silent dimensions unknown."
+  },
+  {
+    "gap_id": "BOL202301-G015",
+    "title": "Jan. 12 parallel pro-government marches outside Oruro",
+    "note": "ABI reports state-aligned/social-sector marches in several cities and Guayaramerín. Only its Oruro passage describes hundreds. Attendance and specific domestic state targets for the other cities are unverified, so they were not bundled with E022.",
+    "source_ids": [
+      "bolivia_2023-01_S013"
+    ],
+    "type": "parallel_event_scope_and_turnout",
+    "description": "ABI reports state-aligned/social-sector marches in several cities and Guayaramerín. Only its Oruro passage describes hundreds. Attendance and specific domestic state targets for the other cities are unverified, so they were not bundled with E022.",
+    "affected_candidates": [
+      "BOL202301-E022"
+    ],
+    "required_followup": "Seek local attendance and state-target evidence for the Jan. 12 state-aligned marches outside Oruro; keep them separate from E022 unless coordination is documented."
+  },
+  {
+    "gap_id": "BOL202301-G016",
+    "title": "Independent corroboration of municipal fare response",
+    "note": "The Jan. 30 Sucre municipality report documents suspension of the fare increase after meetings involving the municipality, transit representatives and Fedjuve. It does not establish that the Jan. 6 march alone caused the suspension.",
+    "source_ids": [
+      "bolivia_2023-01_S004",
+      "bolivia_2023-01_S005",
+      "bolivia_2023-01_S015",
+      "bolivia_2023-01_S047"
+    ],
+    "type": "causal_attribution",
+    "description": "The Jan. 30 Sucre municipality report documents suspension of the fare increase after meetings involving the municipality, transit representatives and Fedjuve. It does not establish that the Jan. 6 march alone caused the suspension.",
+    "affected_candidates": [
+      "BOL202301-E016"
+    ],
+    "required_followup": "Seek independent reporting or records connecting the Jan. 6 fare march to the Jan. 30 suspension; otherwise retain the suspension as a later outcome with causality unresolved."
+  }
+]

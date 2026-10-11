@@ -1,0 +1,139 @@
+[
+  {
+    "gap_id": "cameroon_2023-01_G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization baseline, current universe/schema/license and final ccode are not independently verified; the assigned code remains provisional 471.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator must resolve the official-baseline gate before consolidation or any official-compatibility claim."
+  },
+  {
+    "gap_id": "cameroon_2023-01_G002",
+    "type": "participants",
+    "description": "Attendance is absent for the National Printing Press strike, the BLT/SOCOPAO 20 January gathering and the Redhac press conference; the only approximate “about one hundred” estimate for the Amplitude FM tribute is in an inaccessible Opale search excerpt. Affected workers are not turnout.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "cameroon_2023-01_E001",
+      "cameroon_2023-01_E002",
+      "cameroon_2023-01_E003",
+      "cameroon_2023-01_E004"
+    ],
+    "required_followup": "Seek contemporaneous body-read reports or records with event-specific attendance; do not substitute workforce/affected-person totals or infer numeric bounds."
+  },
+  {
+    "gap_id": "cameroon_2023-01_G003",
+    "type": "state_target",
+    "description": "Whether the National Printing Press employer is a state actor and whether its strike demanded state action are unresolved; the BLT/SOCOPAO dispute targets a private employer while a labor minister is asked to help; the Amplitude tribute’s political demand is not established by the body-read report.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S008",
+      "S011"
+    ],
+    "affected_candidates": [
+      "cameroon_2023-01_E001",
+      "cameroon_2023-01_E002",
+      "cameroon_2023-01_E004"
+    ],
+    "required_followup": "Verify employer/state relationships and the exact demands made at each physical action; keep the separate later minister meeting out of the tribute unless linkage is documented."
+  },
+  {
+    "gap_id": "cameroon_2023-01_G004",
+    "type": "dates",
+    "description": "S001 dates the strike only as the Wednesday before its 6 January report; S013’s tribute excerpt says “Monday 22 January,” which conflicts with S008/S011’s 23 January; no body-read account confirms the planned late-January journalist actions.",
+    "source_ids": [
+      "S001",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S013"
+    ],
+    "affected_candidates": [
+      "cameroon_2023-01_E001",
+      "cameroon_2023-01_E004",
+      "cameroon_2023-01_X005",
+      "cameroon_2023-01_X006"
+    ],
+    "required_followup": "Check the exact dates in contemporaneous reports and locate post-event coverage of 25–26 January; preserve the conflicting 237infos wording until resolved."
+  },
+  {
+    "gap_id": "cameroon_2023-01_G005",
+    "type": "state_response",
+    "description": "No state response is directly attributed to any coded occurrence. The Bollore tripartite labor meeting on 18 January preceded the workers’ 20 January gathering; the government’s announced Zogo investigation is not established as a response to either 23 January gathering.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S008",
+      "S012"
+    ],
+    "affected_candidates": [
+      "cameroon_2023-01_E001",
+      "cameroon_2023-01_E002",
+      "cameroon_2023-01_E003",
+      "cameroon_2023-01_E004"
+    ],
+    "required_followup": "Find dated evidence linking any accommodation, arrest, beating, dispersal, ignore, killing or shooting to each specific action; otherwise retain unknown."
+  },
+  {
+    "gap_id": "cameroon_2023-01_G006",
+    "type": "source_access",
+    "description": "S010 and S013 exact URL opens returned tool Cache miss; S011 was reported inaccessible by the tool; S006 exposes only text before a subscriber gate. These are access limits, not publisher denials.",
+    "source_ids": [
+      "S006",
+      "S010",
+      "S011",
+      "S013"
+    ],
+    "affected_candidates": [
+      "cameroon_2023-01_E004",
+      "cameroon_2023-01_X003",
+      "cameroon_2023-01_X005"
+    ],
+    "required_followup": "If retrieval becomes available, retry only after a new exact-URL access receipt and manual scope check; do not bypass the Cameroon Tribune gate or infer content from the inaccessible bodies."
+  },
+  {
+    "gap_id": "cameroon_2023-01_G007",
+    "type": "source_independence",
+    "description": "The opened INA record is an AFP video catalogue item and includes AFP context text; those passages are one agency origin, not independent corroboration. The Yaoundé tribute estimate and attendee details rest on search-only reports with unverified editorial origins.",
+    "source_ids": [
+      "S004",
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "cameroon_2023-01_E003",
+      "cameroon_2023-01_E004"
+    ],
+    "required_followup": "Seek genuinely independent event reporting or direct local documentation; do not count AFP context text, AP search metadata, or snippets as independent body confirmation."
+  },
+  {
+    "gap_id": "cameroon_2023-01_G008",
+    "type": "language",
+    "description": "The eight captured grouped searches covered English and French terms, sectors, weeks, regions and the Zogo lead, but not systematic Cameroon Pidgin or other local-language reporting, print archives, LexisNexis or a comprehensive outlet-by-day review.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "A later coverage pass may query Cameroonian Pidgin and relevant regional/print archives; keep this first pass bounded and make no absence-of-protest claim."
+  },
+  {
+    "gap_id": "cameroon_2023-01_G009",
+    "type": "episode_unit",
+    "description": "The January ASEELEC assembly and the November 2022 Eneo subcontractor strike may concern related contract issues, but identity, organization, episode continuity and owner month are not established.",
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "cameroon_2023-01_C001",
+      "cameroon_2023-01_X003"
+    ],
+    "required_followup": "Compare the opened January assembly report with body-read November reporting and identify whether the same workers/organizers/actions continued; do not merge by date or topic alone."
+  }
+]

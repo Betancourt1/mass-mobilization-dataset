@@ -1,0 +1,27 @@
+{
+  "unit_id": "czech_republic_2023-01",
+  "country": "Czech Republic",
+  "month": "2023-01",
+  "agent_task": "/root/czech_republic_2023_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T10:41:04.435000+00:00",
+  "finished_at": "2026-10-10T11:08:34Z",
+  "n_queries": 6,
+  "n_sources": 9,
+  "n_candidates": 1,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 6,
+  "coverage_assessment": "Bounded open-web coverage: six actual grouped Czech/English searches and 182 native result headers focused on national discovery, January date windows, labor/union events, election-period gatherings, and selected regional sources. Date windows frequently returned off-month material; the Q006 response reported robots.txt blocks for brnensky.denik.cz and plzensky.denik.cz. No systematic local-archive or LexisNexis review was performed, so no absence claim is supported. Five current-unit body opens and 0 prior-unit-only source consultations. S001 has an unresolved prefetch-sequence deviation recorded in gaps.json and must be assessed independently. S002 also has a disclosed prefetch access gap: its card and receipt were inspected at 10:49:01.626Z, but the captured check only searched the literal iDNES/idnes.cz string in review/source_checks.jsonl and showed unrelated 2021 rows; no current canonical-unit card, alias, or written-origin review is evidenced before the exact body request (10:49:04.710Z–10:49:05.720Z). See report.txt and capture_revisions/receipt-link-repair-proof.json.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 5,
+    "search_only_cards": 4,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 182
+  },
+  "official_approval": false
+}

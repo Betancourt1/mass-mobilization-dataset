@@ -1,0 +1,170 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold",
+    "description": "Turnout remains unreported for the opened January 5 Zenica benefits protest, January 11 Tuzla monthly protest, January 12 Mostar health workers, January 13 Zenica hospital workers and January 23 Sarajevo Canton health-sector strike. RK Borac says “many citizens” without a number.",
+    "source_ids": [
+      "S019",
+      "S029",
+      "S030",
+      "S031",
+      "S016",
+      "S017",
+      "S035",
+      "S032"
+    ],
+    "affected_candidates": [
+      "bosnia_2023-01_E001",
+      "bosnia_2023-01_E002",
+      "bosnia_2023-01_E003",
+      "bosnia_2023-01_E005",
+      "bosnia_2023-01_E007",
+      "bosnia_2023-01_E008"
+    ],
+    "required_followup": "Seek a direct attendance estimate from an accessible original or an independent report, distinguishing protest attendees from employees, beneficiaries and supporters. Do not treat qualitative “many” as a verified count."
+  },
+  {
+    "gap_id": "G002",
+    "type": "source_access",
+    "description": "The reported January 12 Zenica follow-up over 100 KM aid is represented by Cazin/072info search results, but both signal Zenica.info as the written origin. The exact origin URL was not found; Cazin body returned Cache miss, and the copied 072info body was not requested.",
+    "source_ids": [
+      "S027",
+      "S034"
+    ],
+    "affected_candidates": [
+      "bosnia_2023-01_E004"
+    ],
+    "required_followup": "Locate the exact Zenica.info URL through a fresh, provenance-safe original-result lookup, then verify event date, site, turnout, organizer and official response. Do not request speculative aliases or treat the nearly-3,000 affected people as attendees."
+  },
+  {
+    "gap_id": "G003",
+    "type": "continuity",
+    "description": "The January 5, search-only January 12, and CCI-reported January 16 Zenica unemployment-assistance actions may belong to one campaign, but their exact separation, sequence and organizer continuity are unresolved. CCI calls January 16 the final/latest protest.",
+    "source_ids": [
+      "S019",
+      "S027",
+      "S034",
+      "S026",
+      "S018"
+    ],
+    "affected_candidates": [
+      "bosnia_2023-01_E001",
+      "bosnia_2023-01_E004",
+      "bosnia_2023-01_E006"
+    ],
+    "required_followup": "Compare dated primary accounts and organizer statements. Keep three physical action dates separate unless evidence establishes a single continuous event; only assign an episode_key after review."
+  },
+  {
+    "gap_id": "G004",
+    "type": "event_verification",
+    "description": "Trebinje Ravnogorci/Chetnik-support rally is a January search lead (RFE/RL and Oslobođenje), but exact physical date, occurrence, turnout, demand and source relationships remain unverified; repost-derived attendance was not used.",
+    "source_ids": [
+      "S014",
+      "S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify the exact dated event and original account; determine whether it was a public protest directed at a domestic authority before creating an event candidate."
+  },
+  {
+    "gap_id": "G005",
+    "type": "event_verification",
+    "description": "Trebinje Vukanović electricity-price protest appears in announcement/search-only reports. A 10 January result announced an action for the following day; other results suggest a protest and an approximate crowd, but occurrence, exact date, turnout, government target and whether there were multiple actions are unresolved.",
+    "source_ids": [
+      "S020",
+      "S022",
+      "S023",
+      "S040"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify whether the announced 11 January protest occurred and obtain an accessible original/date-specific report. Do not rely on the search-result attendance estimate."
+  },
+  {
+    "gap_id": "G006",
+    "type": "date_and_site",
+    "description": "CCI describes early-year Trebinje protests about agricultural land transfer and a water-protection gathering connected with a Sarajevo Canton Assembly session. Exact January date/attendance/target are unclear. The Avaz water report instead places a roughly ten-person gathering outside the Canton government on 26 January.",
+    "source_ids": [
+      "S026",
+      "S018",
+      "S033"
+    ],
+    "affected_candidates": [
+      "bosnia_2023-01_X005"
+    ],
+    "required_followup": "Check the original-language CCI context and any date-specific report for a distinct Assembly gathering or Trebinje land protest. Do not move later March/June events into January or collapse distinct locations."
+  },
+  {
+    "gap_id": "G007",
+    "type": "execution",
+    "description": "Ljudski search result says more than forty laid-off Prevent workers planned to gather on 19 January. The exact article body was unavailable, and the reported workforce number does not establish attendance or event execution.",
+    "source_ids": [
+      "S037"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify whether a public gathering actually occurred on 19 January and obtain its attendee count, site, demand and target. Keep the announcement outside events until occurrence is established."
+  },
+  {
+    "gap_id": "G008",
+    "type": "cancellation",
+    "description": "The announced eight-union 23 January Sarajevo Canton warning strike was moved to 22 February according to the NAP search result. Both NAP pages failed body retrieval; the health-workers’ 30-minute strike is a separate action.",
+    "source_ids": [
+      "S038",
+      "S039",
+      "S035"
+    ],
+    "affected_candidates": [
+      "bosnia_2023-01_E007",
+      "bosnia_2023-01_X006"
+    ],
+    "required_followup": "If an accessible primary or contemporaneous report becomes available, confirm the postponement and the scope of the separate health-sector strike. Preserve both action identities."
+  },
+  {
+    "gap_id": "G009",
+    "type": "date",
+    "description": "An Avaz lead on workers outside the Sarajevo Canton government could not be dated from the unavailable article body. A December action is separately documented, but this URL has not been confidently linked to it.",
+    "source_ids": [
+      "S036",
+      "S015",
+      "S024",
+      "S025"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Obtain reliable article date and event details before assigning any month or linking this page to the December 2022 action."
+  },
+  {
+    "gap_id": "G010",
+    "type": "event_verification",
+    "description": "A Brčko government search result discusses a union’s announced general strike and says a healthcare strike was ended, but its date, public gathering, turnout, and demands were not established.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If the official notice can be read later, determine whether any January 2023 public worker assembly occurred and whether it was directed to a domestic authority."
+  },
+  {
+    "gap_id": "G011",
+    "type": "retrospective_coverage",
+    "description": "A 2023 retrospective PDF appeared in the January week-range search results, but its body was not opened in this first pass. The captured search title is an apparent descriptive text fragment, so the report identity and January event coverage remain uncertain.",
+    "source_ids": [
+      "S041"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Inspect the exact PDF and screen only dated January entries if the source-access review permits; retain exact location, date, turnout and source attribution for any lead."
+  },
+  {
+    "gap_id": "G012",
+    "type": "scope",
+    "description": "Open-web first pass covered broad English, Bosnian/Croatian/Serbian and Serbian-Cyrillic searches, weekly windows, major cities and targeted health/labor/environment/January leads. Search-result capture was complete, but this is not an exhaustive absence claim; LexisNexis was not consulted. Cache misses and DNS failures are technical retrieval limits. AP’s inherited exact-story guard was honored and no AP story/copy was requested.",
+    "source_ids": [
+      "S001",
+      "S006",
+      "S014",
+      "S016",
+      "S026",
+      "S035",
+      "S039",
+      "S041"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review should decide whether additional country-level retrospective, local-language, union, municipal and post-January continuation searches are warranted before consolidation."
+  }
+]

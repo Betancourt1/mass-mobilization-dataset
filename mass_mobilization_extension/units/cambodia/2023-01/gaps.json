@@ -1,0 +1,79 @@
+[
+  {
+    "gap_id": "cambodia_2023-01_G001",
+    "type": "source_access",
+    "description": "The Smart Shirt story body was blocked by an anti-bot verification challenge. Its VOD Khmer same-event variant was not opened. Dates, turnout, route, resolution, and the state-intervention request remain search-preview leads only.",
+    "source_ids": [
+      "S001",
+      "S005"
+    ],
+    "affected_candidates": [
+      "cambodia_2023-01_E001"
+    ],
+    "required_followup": "Find an independent contemporary report or accessible primary record. Do not retry the blocked URL or use its same-event variant to bypass the challenge; any other exact URL requires a fresh access check and manual review."
+  },
+  {
+    "gap_id": "cambodia_2023-01_G002",
+    "type": "state_target",
+    "description": "The Smart Shirt lead concerns a private wage dispute. A search preview attributes a request for Labor Department intervention to the union president, but the full account and original MM state-target rule are unavailable.",
+    "source_ids": [
+      "S001",
+      "S005"
+    ],
+    "affected_candidates": [
+      "cambodia_2023-01_E001"
+    ],
+    "required_followup": "Verify the actual demand and whether it was directed to the Cambodian state or a policy, rather than inferring eligibility from private-employer action alone."
+  },
+  {
+    "gap_id": "cambodia_2023-01_G003",
+    "type": "contested_evidence",
+    "description": "The Indigenous gathering is described as a consultation forum with a state-policy request. It is unclear whether this event form meets the original Mass Mobilization definition. An IPS Voice statement body could not be retrieved after two cache misses; the ODC announcement has ambiguous attendance wording and an unconfirmed relation to the forum.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S006"
+    ],
+    "affected_candidates": [
+      "cambodia_2023-01_E002"
+    ],
+    "required_followup": "Check the official codebook and event definition; independently verify forum organization and attendance. Treat S004 and S006 as non-independent or unrelated until their relationship to S003 is established."
+  },
+  {
+    "gap_id": "cambodia_2023-01_G004",
+    "type": "episode_unit",
+    "description": "An opened Cambodia Daily reprint of a Casino.org report says the NagaWorld strike began in December 2021 and continued as of January 25, 2023, but supplies no discrete January physical action or turnout. S007 remains search-only: its first receipted open returned only metadata; a second open without a fresh receipt is recorded as an error and excluded from evidence.",
+    "source_ids": [
+      "S002",
+      "S007"
+    ],
+    "affected_candidates": [
+      "cambodia_2023-01_C001"
+    ],
+    "required_followup": "Confirm whether a distinct physical assembly occurred in January 2023 and preserve December 2021 ownership if the ongoing strike had no newly documented episode. Any new body attempt requires a fresh exact-URL receipt and manual review."
+  },
+  {
+    "gap_id": "cambodia_2023-01_G005",
+    "type": "coverage",
+    "description": "Nine grouped web-search invocations covered general January protest terms, four weekly windows, labor/NagaWorld, land and Indigenous issues, and selected Khmer-language terms. Searches did not systematically cover all provinces, Khmer-language archives, local publications, or official records.",
+    "source_ids": [],
+    "affected_candidates": [
+      "cambodia_2023-01_E001",
+      "cambodia_2023-01_E002",
+      "cambodia_2023-01_C001"
+    ],
+    "required_followup": "Continue with province-focused Khmer searches, local archives, union/rights-monitor records, and official notices; document failures and retain uncovered dimensions rather than asserting absence."
+  },
+  {
+    "gap_id": "cambodia_2023-01_G006",
+    "type": "baseline_review",
+    "description": "The official original MM codebook, latest baseline universe/schema, and final reuse/ownership mapping have not been verified in the assigned work. Candidate judgments remain provisional.",
+    "source_ids": [],
+    "affected_candidates": [
+      "cambodia_2023-01_E001",
+      "cambodia_2023-01_E002",
+      "cambodia_2023-01_C001"
+    ],
+    "required_followup": "Coordinator: reconcile records against the official baseline and codebook, resolve event eligibility and month ownership, and preserve unresolved decisions without assigning official IDs."
+  }
+]

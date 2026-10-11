@@ -1,0 +1,104 @@
+[
+  {
+    "gap_id": "afghanistan_2023-01_G001",
+    "type": "baseline",
+    "description": "The current official Mass Mobilization release, coverage universe, schema and reuse terms have not been independently verified for this unit.",
+    "source_ids": [],
+    "affected_candidates": [
+      "AFG202301-E001",
+      "AFG202301-E002",
+      "AFG202301-E003",
+      "AFG202301-E004",
+      "AFG202301-E005"
+    ],
+    "required_followup": "Coordinator baseline review; retain baseline_gate=pending_official_baseline."
+  },
+  {
+    "gap_id": "afghanistan_2023-01_G002",
+    "type": "search_method",
+    "description": "The search log records 28 unique English/Dari/Pashto discovery invocations with 651 returned result headers across week windows, sectors, and adjacent-month context. Open-web search does not reproduce the original LexisNexis source universe or establish exhaustive coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review of search coverage and original-source universe; any additional source work must preserve exact query and result capture."
+  },
+  {
+    "gap_id": "afghanistan_2023-01_G003",
+    "type": "language",
+    "description": "Dari and Pashto discovery terms were searched and Dari/Persian reports were summarized. Local-language search completeness and independent human translation review are not established; no Pashto article body was opened.",
+    "source_ids": [
+      "AFG202301-S010",
+      "AFG202301-S011"
+    ],
+    "affected_candidates": [
+      "AFG202301-E002",
+      "AFG202301-E003",
+      "AFG202301-E005"
+    ],
+    "required_followup": "Human review of translations and additional Dari/Pashto archive coverage if available."
+  },
+  {
+    "gap_id": "afghanistan_2023-01_G004",
+    "type": "state_target",
+    "description": "Badakhshan reporting combines slogans aimed at Sweden, the U.S. and U.N. with a reported request to Afghanistan’s Islamic Emirate to take a strong position. Herat reporting names no recipient for “punishment of those responsible,” while its slogans target Sweden and “enemies of Islam.” The Mazar report gives no local demand/addressee. For the Kabul pension gathering, the reported call on the Islamic Emirate appears only in a TOLOnews search preview; AAN does not independently establish the demand. None of these target questions is resolved here.",
+    "source_ids": [
+      "AFG202301-S005",
+      "AFG202301-S011"
+    ],
+    "affected_candidates": [
+      "AFG202301-E001",
+      "AFG202301-E002",
+      "AFG202301-E003",
+      "AFG202301-E005"
+    ],
+    "required_followup": "Coordinator to apply the manual state-target rule to the exact reported wording without treating foreign-directed slogans as Afghan-state demands."
+  },
+  {
+    "gap_id": "afghanistan_2023-01_G005",
+    "type": "local_coverage",
+    "description": "CIR verifies Jan 24–26 protests in Qalat, Tirin Kut, Asadabad, Sharan and Kandahar, with “several hundred” only for Kandahar; it also describes verified footage in 25 provinces and claims in seven more by Jan 30. Etilaatroz gives only a four-province aggregate for Balkh, Herat, Ghor and Badghis; for Mazar it says “dozens,” which has no numerical upper bound and does not establish threshold status. Most local sites lack site-level counts, exact sites, demands or physical ends.",
+    "source_ids": [
+      "AFG202301-S001",
+      "AFG202301-S011"
+    ],
+    "affected_candidates": [
+      "AFG202301-E003",
+      "AFG202301-E004",
+      "AFG202301-E005"
+    ],
+    "required_followup": "Seek independent local reporting for dated provincial events and separate site counts/demands; do not infer one national organization from same-day activity."
+  },
+  {
+    "gap_id": "afghanistan_2023-01_G006",
+    "type": "access_and_response",
+    "description": "TOLOnews Jan 2 pension story remained search-only after cache misses and a DNS failure; Pajhwok January 27 article exposed only a subscription-limited opening; the Afghan Witness event map rendered a JavaScript shell. No direct state response or physical end is established for candidates.",
+    "source_ids": [
+      "AFG202301-S002",
+      "AFG202301-S007",
+      "AFG202301-S009"
+    ],
+    "affected_candidates": [
+      "AFG202301-E001",
+      "AFG202301-E002",
+      "AFG202301-E003",
+      "AFG202301-E004",
+      "AFG202301-E005"
+    ],
+    "required_followup": "Treat TOLO technical failures as retrieval limitations, not access denials; coordinator may seek lawful, non-bypass access and verify candidate-specific response/end evidence."
+  },
+  {
+    "gap_id": "afghanistan_2023-01_G007",
+    "type": "continuity",
+    "description": "December 2022 searches found reports about university-ban demonstrations, but no January public assembly continuing that activity was verified. February Quran/pension queries did not establish a continuation of the January gatherings; related arrests in February do not by themselves establish a new assembly.",
+    "source_ids": [
+      "AFG202301-S006"
+    ],
+    "affected_candidates": [
+      "AFG202301-E001",
+      "AFG202301-E002",
+      "AFG202301-E003",
+      "AFG202301-E004",
+      "AFG202301-E005"
+    ],
+    "required_followup": "Retain continuations.json empty unless a dated public gathering is verified; monthly proximity or arrests alone do not establish continuity."
+  }
+]

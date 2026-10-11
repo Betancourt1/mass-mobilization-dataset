@@ -1,0 +1,106 @@
+[
+  {
+    "gap_id": "france_2023-01_G001",
+    "type": "episode_scope_and_compatibility",
+    "description": "The opened reports describe January 19 and January 31 as nationwide union actions against the French pension reform. Local assemblies are named within each national action, but the available material does not resolve whether any particular local gatherings should also be treated as independent episodes. Keep one provisional national candidate for each date and leave national/local episode compatibility to coordinator review.",
+    "source_ids": ["S032", "S091", "S095"],
+    "affected_candidates": ["france_2023-01_E001", "france_2023-01_E002"],
+    "required_followup": "Coordinator review against the applicable coding procedure and any source-specific local reporting; do not duplicate the national event or transfer national turnout to local sites."
+  },
+  {
+    "gap_id": "france_2023-01_G002",
+    "type": "physical_sites_and_local_counts_january_19",
+    "description": "RTL reports city estimates for January 19 but does not identify every exact meeting site or route. The 20,000 figure associated with Caen and Perpignan is not clearly allocated, and the city-count sources are not named. Other France-Guyane and overseas-territory leads remain search-only and are not used as occurrence or turnout evidence.",
+    "source_ids": ["S091", "S116", "S121", "S122", "S129", "S131"],
+    "affected_candidates": ["france_2023-01_E001"],
+    "required_followup": "If the source window reopens, review exact current cards under fresh per-URL gates and preserve counts by their stated city and counter; do not infer site-level values from national totals."
+  },
+  {
+    "gap_id": "france_2023-01_G003",
+    "type": "physical_sites_and_local_counts_january_31",
+    "description": "RTL gives conflicting, unattributed ranges for several January 31 cities and grouped counts for multiple municipalities. FECFO lists planned meeting points but does not prove that those sites were used, a route was completed, or a gathering occurred at each scheduled point. Search-only Martinique and Guyane reports are not used to verify the dates or counts shown in their headlines.",
+    "source_ids": ["S032", "S095", "S115", "S127"],
+    "affected_candidates": ["france_2023-01_E002"],
+    "required_followup": "Seek opened, date-specific reporting for each claimed site and keep grouped or conflicting estimates attributed rather than calculating bounds or adding totals."
+  },
+  {
+    "gap_id": "france_2023-01_G004",
+    "type": "overseas_territory_evidence",
+    "description": "Search discovery found Martinique, Réunion, and Guyane pages concerning the pension-reform mobilizations. Most cards remain search-only; Réunion results aggregate Saint-Denis with Saint-Pierre, and Martinique/Guyane headlines or calls do not establish site-specific attendance in this dossier. No local occurrence, count, or physical endpoint is coded from those search results.",
+    "source_ids": ["S115", "S116", "S117", "S120", "S121", "S122", "S123", "S124", "S125", "S126", "S127", "S129", "S131", "S132", "S133"],
+    "affected_candidates": ["france_2023-01_E001", "france_2023-01_E002"],
+    "required_followup": "Review relevant exact source cards under fresh gates if the body window reopens; separate physical actions and count attribution by territory, city, and date."
+  },
+  {
+    "gap_id": "france_2023-01_G005",
+    "type": "other_sector_coverage",
+    "description": "Searches surfaced leads about the January 5 doctors' march, January 7 Gilets jaunes gatherings, education and health union actions, and other professional-sector calls. The January 2023 unit has no body-reviewed evidence for these leads, so actual physical occurrence, state-directed demand, and the 50-person public-gathering threshold remain unverified. No exclusion or zero-event conclusion is inferred.",
+    "source_ids": ["S035", "S038", "S043", "S044", "S048", "S050", "S052", "S054", "S057", "S106", "S107", "S108", "S109", "S110", "S111", "S112", "S113", "S114", "S119"],
+    "affected_candidates": [],
+    "required_followup": "Review event-specific records under fresh access gates, distinguishing announced strikes, workplace stoppages, and public assemblies; retain unverified leads without treating them as qualifying candidates."
+  },
+  {
+    "gap_id": "france_2023-01_G006",
+    "type": "source_independence_and_count_attribution",
+    "description": "The opened January 19 RTL article credits AFP in its byline, but its original copy and syndication relationship were not independently established. Its city-count sources are largely unnamed. No independent-source confirmation or count methodology is established by the reviewed material.",
+    "source_ids": ["S091"],
+    "affected_candidates": ["france_2023-01_E001"],
+    "required_followup": "Use independently reported or primary local records if available and keep source dependence and unattributed counts explicit; do not treat duplicated reporting as independent confirmation."
+  },
+  {
+    "gap_id": "france_2023-01_G007",
+    "type": "physical_routes_and_endpoints",
+    "description": "The opened coverage does not establish the precise meeting site, completed route, or end time/date for each physical gathering. FECFO is planning evidence only. Neither the interval between January 19 and January 31 nor later February calls establishes continuous physical protest activity.",
+    "source_ids": ["S032", "S091", "S095", "S016", "S031"],
+    "affected_candidates": ["france_2023-01_E001", "france_2023-01_E002"],
+    "required_followup": "Retain unknown endpoints and review any continuity claim separately against occurrence reports; do not infer campaign duration from repeated national calls."
+  },
+  {
+    "gap_id": "france_2023-01_G008",
+    "type": "violence_and_state_response",
+    "description": "The inspected January 19 passage reports 38 Paris interpellations but does not establish protester violence or other state-response dimensions. The inspected January 31 passage does not establish event-specific response or violence. Uninspected article passages, images, and linked media are outside the recorded read scope.",
+    "source_ids": ["S032", "S091"],
+    "affected_candidates": ["france_2023-01_E001", "france_2023-01_E002"],
+    "required_followup": "Keep unsupported response dimensions and protester violence unknown; review additional exact-card material only under a fresh open window and access gates."
+  },
+  {
+    "gap_id": "france_2023-01_G009",
+    "type": "source_access_scope",
+    "description": "S022 remains unread under its saved conservative manual receipt decision of hold. That receipt records a scope conflict tied to a different Le Monde article; it does not establish a paywall on S022 or a verified sitewide restriction. S021 had a web cache miss and a separate DNS failure with no HTTP response; the exact URL was not retried.",
+    "source_ids": ["S021", "S022"],
+    "affected_candidates": ["france_2023-01_E001"],
+    "required_followup": "Preserve the current S022 hold unless a separately audited scope resolution changes it. Do not bypass through a same-story wrapper. Do not describe S021's technical errors as an HTTP denial."
+  },
+  {
+    "gap_id": "france_2023-01_G010",
+    "type": "official_baseline_and_coding_procedure",
+    "description": "The latest official baseline, current universe, applicable reuse terms, and additional Mass Mobilization Coding Procedure have not been independently verified. The candidates are provisional and the local-vs-national episode question remains open.",
+    "source_ids": [],
+    "affected_candidates": ["france_2023-01_E001", "france_2023-01_E002"],
+    "required_followup": "Coordinator-owned baseline and procedure review before official compatibility claims or any integration."
+  },
+  {
+    "gap_id": "france_2023-01_G011",
+    "type": "coverage_method_and_completeness",
+    "description": "The 31-query search is a bounded open-web discovery pass, not the codebook-described LexisNexis workflow. It cannot establish exhaustive coverage, absence of other qualifying actions, or equivalence to the official dataset's selection process.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain the method limitation; compare with an authorized current baseline and any available licensed archive before coverage or completeness claims."
+  },
+  {
+    "gap_id": "france_2023-01_G012",
+    "type": "month_boundary_and_campaign_continuity",
+    "description": "January 31 reporting and forward-looking February mobilization references do not establish whether any specific physical episode began in December or continued after January. No systematic adjacent-month physical-event review was completed for all identified leads.",
+    "source_ids": ["S016", "S031", "S134", "S135"],
+    "affected_candidates": ["france_2023-01_E001", "france_2023-01_E002"],
+    "required_followup": "Review adjacent-month units and event-specific sources if continuity is claimed; use physical occurrence evidence rather than publication, negotiation, or announced action dates."
+  },
+  {
+    "gap_id": "france_2023-01_G013",
+    "type": "regional_and_local_media_coverage",
+    "description": "Searches used English and French and covered multiple sectors and some named overseas areas, but regional media and local archives are unevenly indexed and not comprehensively checked. Search results do not reveal the full list of physical sites for nationwide actions.",
+    "source_ids": ["S091", "S032", "S115", "S116", "S120", "S127", "S131"],
+    "affected_candidates": ["france_2023-01_E001", "france_2023-01_E002"],
+    "required_followup": "If further coverage is authorized, target local reporting by region and overseas territory and record exact search terms/results; do not interpret missing reports as no events."
+  }
+]

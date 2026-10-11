@@ -1,0 +1,39 @@
+{
+  "unit_id": "kenya_2021-01",
+  "country": "Kenya",
+  "month": "2021-01",
+  "agent_task": "/root/kenya_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T14:02:44.518Z",
+  "finished_at": "2026-10-08T14:11:17.875Z",
+  "n_queries": 41,
+  "n_sources": 275,
+  "n_candidates": 17,
+  "n_excluded": 4,
+  "n_continuations": 2,
+  "n_gaps": 17,
+  "n_opened_sources": 14,
+  "coverage_assessment": "Documented English/limited Swahili open-web first pass with generic, weekly, sector, regional and Dec/Feb boundary queries. 17 pending candidates,4 provisional exclusions,2 related December continuations. 275 URL cards include substantial other-period/non-protest search noise;14 selected-text openings,5 actual403. No exhaustivity, absence or unique-protest count. Official baseline pending.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources": {
+    "finite_readers": [
+      {
+        "description": "Same-public-URL requests after sandbox DNS failures",
+        "exit_code": 0
+      },
+      {
+        "description": "Ordinary HTTPS3URL denial check",
+        "exit_code": 0
+      },
+      {
+        "session_id": 73283,
+        "exit_code": 0,
+        "description": "Two actual403; KNA200 selected article reading"
+      }
+    ],
+    "servers_browsers_background_processes_started": [],
+    "remaining_resources": []
+  },
+  "timing_limitations": "All executed_at values record actual batch-request initiation from Date immediately before web call; internal per-query times not exposed. Source accessed_at is observation/save time; read scope limits explicitly stated.",
+  "method_note": "Task exceeded10minutes due source access and evidence coding. Existing portable CLI/protocol already covers persistence/consolidation; no new skill or CLI needed for this one unit. Reuse is preferable to overengineering."
+}

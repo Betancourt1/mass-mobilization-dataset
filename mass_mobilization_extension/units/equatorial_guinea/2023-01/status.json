@@ -1,0 +1,37 @@
+{
+  "unit_id": "equatorial_guinea_2023-01",
+  "country": "Equatorial Guinea",
+  "month": "2023-01",
+  "agent_task": "/root/equatorial_guinea_2023_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T14:05:57.123000+00:00",
+  "finished_at": "2026-10-10T14:36:07.632659+00:00",
+  "n_queries": 23,
+  "n_sources": 27,
+  "n_candidates": 0,
+  "n_excluded": 6,
+  "n_continuations": 0,
+  "n_gaps": 8,
+  "coverage_assessment": "Bounded open-web coverage: 23 native search actions, 29 submitted phrases and 464 ordered headers. English, Spanish, French, Portuguese; weekly January windows; student, labor, official and retrospective leads; December 2022 and February 2023 continuity checks. No qualifying in-country event verified. Not exhaustive; no LexisNexis-equivalent access, no systematic local archive/native-language search, no source-body reads.",
+  "baseline_gate": "pending_official_baseline",
+  "ccode_provisional": "411",
+  "queue_order": 3885,
+  "source_access_counts": {
+    "opened": 0,
+    "search_only": 27,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "query_capture_integrity": {
+    "native_search_events": 23,
+    "submitted_query_strings": 29,
+    "captured_header_count": 464,
+    "projection_verified": true,
+    "verified_against": "public completed event_msg payload.item records in the assigned worker rollout"
+  },
+  "body_attempts": 4,
+  "body_content_reads": 0,
+  "source_window_state": "closed",
+  "source_window_closed_at": "2026-10-10T14:33:38.354072+00:00",
+  "notes": "Q021 was recovered from the public rollout and appended after Q020; native clocks preserve actual execution order. All source cards remain search_only; no article bodies were received."
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "gap_id": "uruguay_2021-01_G001",
+    "type": "baseline",
+    "description": "The current official Mass Mobilization event universe, schema, license, codebook and supplementary Coding Procedure remain unverified. This unit uses the provisional assignment and documented protocol and is not an official update.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Compare only after the coordinator verifies the official baseline and applicable Coding Procedure."
+  },
+  {
+    "gap_id": "uruguay_2021-01_G002",
+    "type": "search_method",
+    "description": "This pass used open-web search and selected public pages, not the original LexisNexis newspaper frame or equivalent systematic archive access. Query and result counts do not establish exhaustive coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review against the original newspaper frame and systematic archives if access becomes available; do not infer a zero-event month from this pass."
+  },
+  {
+    "gap_id": "uruguay_2021-01_G003",
+    "type": "language",
+    "description": "Searches used Spanish and English. Portuguese-language border media and local archives were not systematically searched; this is a language and source-coverage limitation, not evidence of absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If a broader language pass is feasible, search relevant Portuguese-language border media and archives with fluent terms."
+  },
+  {
+    "gap_id": "uruguay_2021-01_G004",
+    "type": "coverage",
+    "description": "Searches covered Montevideo, grouped interior regions, and labor, education, health, transport, wage, rural, construction, finance and pandemic-policy themes. Department-level archives were not comprehensively reviewed. The Río Negro residents result S178 remains search-only and has no verified publication or event date.",
+    "source_ids": [
+      "UY202101-S178",
+      "UY202101-S104"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check regional and departmental reporting for dated physical gatherings, especially the S178 lead; keep it undated until a page or reliable contemporary report is accessible."
+  },
+  {
+    "gap_id": "uruguay_2021-01_G005",
+    "type": "participants",
+    "description": "The only actual January event described by the reviewed Un Solo Uruguay reporting is the January 23 virtual media mobilization X001. S239 gives no physical venue or audience count; S233 is a pre-event announcement. S235 is a search-only title for a virtual assembly and its body is inaccessible. No parallel physical audience or 50-person physical gathering is established. S233 also has a January 11 URL slug and a January 12 visible publication date.",
+    "source_ids": [
+      "UY202101-S233",
+      "UY202101-S239",
+      "UY202101-S235"
+    ],
+    "affected_candidates": [
+      "uruguay_2021-01_X001"
+    ],
+    "required_followup": "If revisited, seek lawful contemporary evidence of any separate physical gathering, its date, venue, public access and attendance; do not infer these facts from a virtual program or inaccessible headline."
+  },
+  {
+    "gap_id": "uruguay_2021-01_G006",
+    "type": "source_access",
+    "description": "El Telégrafo S235 returned Cache miss in the web reader, then HTTP 403 on one ordinary HTTPS request to the exact URL; no body was read, and no retry, mirror, copy or further article-body request at that publisher was made. El País S133 showed a subscribers-only gate on an out-of-month March article; its body was not used.",
+    "source_ids": [
+      "UY202101-S235",
+      "UY202101-S133"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep both limits explicit. Do not request another El Telégrafo body or a mirror after the 403; use S133 only if available through ordinary publisher access."
+  },
+  {
+    "gap_id": "uruguay_2021-01_G007",
+    "type": "source_access",
+    "description": "The exact San José Ahora SUNCA page S104 and Diario Crónicas page S178 produced web-reader Cache misses, which are tool failures rather than publisher denials. No ordinary HTTPS retrieval was made; their bodies, dates and event details remain unverified.",
+    "source_ids": [
+      "UY202101-S104",
+      "UY202101-S178"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If either lead is pursued, use at most an ordinary request to its exact public URL under normal access rules and verify the body before coding occurrence, date, demand or turnout."
+  },
+  {
+    "gap_id": "uruguay_2021-01_G008",
+    "type": "episode_unit",
+    "description": "December 2020 and February 2021 boundary searches did not verify a physical action continuing into or out of January. The January 19 SUNCA title S104 announces a February mobilization; the announcement and worker-sector size do not establish a January gathering or physical continuity. No January continuation is coded, but this is not proof that none occurred.",
+    "source_ids": [
+      "UY202101-S104",
+      "UY202101-S239"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Recheck December and February event-day reporting if available; link months only when sources establish continuous physical presence or a specific episode relationship."
+  }
+]

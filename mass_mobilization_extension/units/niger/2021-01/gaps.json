@@ -1,0 +1,38 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "source_access",
+    "description": "Tournons La Page search results identify a scanned Niamey municipal order no. 0006/PDS/VN/SG dated 25 January prohibiting an MNPD march followed by a meeting planned for Wednesday 27 January, for public-order risk. The linked 18.77 MB report PDF could not be read, and the only detailed indexed copy is a third-party mirror of the same report. It remains unknown whether people assembled despite the ban, what demand they planned to press, and whether 50 or more attended.",
+    "source_ids": [
+      "S008",
+      "S009",
+      "S013",
+      "S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search contemporary Nigerien media and public notices for 26–28 January for evidence of an actual assembly or cancellation; if no report is found, retain this as an unconfirmed banned plan and do not infer attendance."
+  },
+  {
+    "gap_id": "G002",
+    "type": "pending_evidence",
+    "description": "A search-only Bénin Web TV result describes an opposition-coalition meeting at Niamey’s Palais des sports on 12 January with more than 3,000 attendees. It frames the meeting as an electoral coalition appeal against the governing-party candidate. The full source remains unavailable after Cache miss and a DNS failure on ordinary HTTPS retry; the exact event day, whether it was a public protest rather than an electoral support meeting, and whether it demanded state action remain unverified. An opened 11 January ANP article documents only an opposition declaration and a call for future mobilization, not an assembly.",
+    "source_ids": [
+      "S002",
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find a contemporary Niger source for the 12 January meeting; establish whether it was a public protest demanding state action or an electoral support rally/meeting before coding or excluding it."
+  },
+  {
+    "gap_id": "G003",
+    "type": "participants",
+    "description": "Le Sahel/ONEP reports a RJRN anniversary and youth-exchange gathering in Niamey on 24 January. The article records a request that government increase job creation and training, but reports no venue, public access, attendance or protest format. Its celebratory and election-conflict-prevention context leaves open whether this was a protest action.",
+    "source_ids": [
+      "S012"
+    ],
+    "affected_candidates": [
+      "niger_2021-01-E001"
+    ],
+    "required_followup": "Search contemporary RJRN/Le Sahel/ANP and other local coverage or public notices for the meeting venue, participant count, event format, and whether the government request was pressed as a public protest."
+  }
+]

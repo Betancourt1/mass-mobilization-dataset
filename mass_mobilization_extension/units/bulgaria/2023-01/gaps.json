@@ -1,0 +1,156 @@
+[
+  {
+    "gap_id": "BG202301-G001",
+    "type": "baseline",
+    "description": "The original Mass Mobilization codebook and official baseline/ID mapping were not included in the working materials; provisional candidate categories cannot be treated as official coding or approval.",
+    "source_ids": [],
+    "affected_candidates": [
+      "BG202301-E001",
+      "BG202301-E002",
+      "BG202301-E003"
+    ],
+    "required_followup": "Coordinator should verify the authoritative codebook version, observation universe, original fields and country-code/ID mapping before consolidation or any official comparison."
+  },
+  {
+    "gap_id": "BG202301-G002",
+    "type": "source_access",
+    "description": "Nine relevant source bodies were not retrieved after exact-URL access checks: web.open returned Cache miss for S003, S009–S012, S014–S017; ordinary exact-URL HTTPS attempts for S010 and S016 failed DNS before HTTP. S005 provided only a visible excerpt before a sign-in/registration prompt. These are technical/access-scope limits, not evidence of publisher denial except the visible BTA sign-in barrier.",
+    "source_ids": [
+      "S003",
+      "S005",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S014",
+      "S015",
+      "S016",
+      "S017"
+    ],
+    "affected_candidates": [
+      "BG202301-E002",
+      "BG202301-E003",
+      "BG202301-X001"
+    ],
+    "required_followup": "If accessible through the approved workflow, read contemporaneous article bodies from their exact captured URLs after a fresh receipt and manual review. Do not infer event facts from unverified snippets or try alternate URLs to bypass a barrier."
+  },
+  {
+    "gap_id": "BG202301-G003",
+    "type": "participants",
+    "description": "Jan. 12 has two reports above 3,000, but the count origin and independence are not established. The Jan. 16 attendance is only a search snippet saying several hundred; the Jan. 26 headline says low-turnout without a number. Local-event eligibility at the 50-person threshold remains unresolved.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S010",
+      "S011",
+      "S012",
+      "S015",
+      "S016",
+      "S017"
+    ],
+    "affected_candidates": [
+      "BG202301-E001",
+      "BG202301-E002",
+      "BG202301-E003"
+    ],
+    "required_followup": "Check full contemporaneous reports, organizers’ count basis, independent estimates and precise numerical evidence; assign no bound to qualitative or snippet-only descriptions."
+  },
+  {
+    "gap_id": "BG202301-G004",
+    "type": "dates",
+    "description": "Physical end times are not established for any candidate. Jan. 16 and Jan. 26 occurrence/date attribution rely partly on search-only reports; the Jan. 16 opened BNR page is only an advance announcement.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S015",
+      "S016",
+      "S017"
+    ],
+    "affected_candidates": [
+      "BG202301-E001",
+      "BG202301-E002",
+      "BG202301-E003"
+    ],
+    "required_followup": "Verify execution dates and physical start/end from contemporaneous reporting or event records; do not infer closure from article dates or scheduled times."
+  },
+  {
+    "gap_id": "BG202301-G005",
+    "type": "episode_unit",
+    "description": "The Jan. 16 and Jan. 26 Kustendil leads concern the same tax issue but do not establish whether either assembly occurred, whether organizers overlapped, or whether the later action was a separate event. The Jan. 12 account mentions a separate Nov. 11, 2022 energy-sector demonstration.",
+    "source_ids": [
+      "S001",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S015",
+      "S016",
+      "S017"
+    ],
+    "affected_candidates": [
+      "BG202301-E001",
+      "BG202301-E002",
+      "BG202301-E003"
+    ],
+    "required_followup": "Compare full reports across January and neighboring months; preserve Jan. 16/26 as distinct candidates unless evidence establishes the event boundary, and do not roll the November action into January."
+  },
+  {
+    "gap_id": "BG202301-G006",
+    "type": "state_response",
+    "description": "For Jan. 12, parliamentary-group contact/support is reported, but causation and the relationship between the assembly and the formal resolution are unclear. For the local-tax leads, event-specific accommodation, arrests, beatings, dispersal, ignoring, killings and shootings remain unknown. Silence is not evidence of no response or no violence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017"
+    ],
+    "affected_candidates": [
+      "BG202301-E001",
+      "BG202301-E002",
+      "BG202301-E003"
+    ],
+    "required_followup": "Review full event-specific reports and public records for response to each action; preserve unknown values unless an explicit event-linked fact supports yes or no_explicit."
+  },
+  {
+    "gap_id": "BG202301-G007",
+    "type": "coverage",
+    "description": "The nine grouped English/Bulgarian web-search invocations provide a bounded first pass, not exhaustive monthly coverage. LexisNexis and systematic press archives were unavailable; local/regional, independent civil-society, sector and small-town coverage remains uneven, and no absence claim is warranted.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018"
+    ],
+    "affected_candidates": [
+      "BG202301-E001",
+      "BG202301-E002",
+      "BG202301-E003"
+    ],
+    "required_followup": "Coordinator/researcher should extend Bulgarian-language regional and sector-specific coverage using accessible contemporaneous archives and document archive, language and geographic limits."
+  }
+]

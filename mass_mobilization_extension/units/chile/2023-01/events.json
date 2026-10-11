@@ -1,0 +1,807 @@
+[
+  {
+    "candidate_id": "CHL-2023-01-E001",
+    "country": "Chile",
+    "ccode": "155",
+    "unit_month": "2023-01",
+    "title": "Alto Hospicio residents march to Iquique over insecurity",
+    "start_date": "2023-01-30",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Plaza Belén, Alto Hospicio, to the Presidential Delegation in Iquique, Tarapacá",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "political_behavior_process",
+      "removal_of_politician"
+    ],
+    "participants_original": "24horas reports more than 2,000 people began the march at 10:00; BioBioChileTV reports more than 300 assembled at Plaza Belén and that additional groups joined. The figures differ and are not harmonized.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "Conflicting outlet reports with distinct time/place anchors; no harmonized estimate.",
+    "threshold_50_evidence": "Two contemporary reports independently describe more than 50 participants: 24horas reports >2,000 at the start of the march; BioBioChileTV reports >300 at Plaza Belén and further participants joining. Do not turn these outlet estimates into an interval.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "yes",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHL23-S001",
+      "CHL23-S002",
+      "CHL23-S005"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHL23-S002",
+          "CHL23-S005"
+        ],
+        "summary": "Both reports place the main march on Monday 30 January; 24horas says it began at 10:00."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "Arrival and a meeting with the delegate are reported, but physical dispersal/end is not."
+      },
+      "location": {
+        "source_ids": [
+          "CHL23-S002",
+          "CHL23-S005"
+        ],
+        "summary": "The march started at Plaza Belén in Alto Hospicio and proceeded to the Presidential Delegation in Iquique."
+      },
+      "scope": {
+        "source_ids": [
+          "CHL23-S002",
+          "CHL23-S005"
+        ],
+        "summary": "A local march crossed from Alto Hospicio to Iquique; no additional cities are described."
+      },
+      "organizer": {
+        "source_ids": [],
+        "summary": "Residents and neighborhood leaders are identified; formal convener is not."
+      },
+      "demands": {
+        "source_ids": [
+          "CHL23-S001",
+          "CHL23-S002",
+          "CHL23-S005"
+        ],
+        "summary": "Reports describe demands for public security; 24horas reports a letter seeking more security, border closure and the delegate’s resignation."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHL23-S002",
+          "CHL23-S005"
+        ],
+        "summary": "24horas says >2,000 began the march; BioBio says >300 assembled at Plaza Belén before others joined. The estimates differ by outlet and time/place."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CHL23-S002",
+          "CHL23-S005"
+        ],
+        "summary": "Each contemporary report independently exceeds the threshold, though the reported figures are not harmonized."
+      },
+      "state_target": {
+        "source_ids": [
+          "CHL23-S001",
+          "CHL23-S005"
+        ],
+        "summary": "Participants addressed regional and municipal authorities; a letter was delivered at the Presidential Delegation."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CHL23-S002"
+        ],
+        "summary": "BioBioChileTV says the march was predominantly peaceful; no specific violent act by march participants is reported."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "CHL23-S002"
+        ],
+        "summary": "Neighborhood and municipal leaders met the presidential delegate to work toward a security table; no policy concession is established."
+      },
+      "state_response": {
+        "source_ids": [
+          "CHL23-S001",
+          "CHL23-S002",
+          "CHL23-S005"
+        ],
+        "summary": "A meeting with the delegate is reported; these scoped reports do not resolve arrests, beatings, dispersal, killings, shootings or explicit nonresponse, so those fields remain unknown."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "CHL:ALTO_HOSPICIO:SECURITY_ACTIONS:2023-01",
+    "notes": "The march sought public-security measures after a rise in homicides and delivered a letter to the Presidential Delegation. Residents requested border closure, improved regional security and the delegate’s resignation. The early 06:00 route blockade is E004; the prior-evening cacerolazos are E005. Keep each physical action separate.",
+    "open_questions": "Resolve the differing attendance estimates and whether the 06:00 blockade or 29 January cacerolazos had independent qualifying attendance. Find the physical end of the march. Do not claim the reported meeting produced a policy concession.",
+    "baseline_gate": "pending_official_baseline",
+    "coordinator_review_status": "not_reviewed",
+    "official_update": false
+  },
+  {
+    "candidate_id": "CHL-2023-01-E002",
+    "country": "Chile",
+    "ccode": "155",
+    "unit_month": "2023-01",
+    "title": "Competing pro- and anti-Dominga demonstrations outside the Environment Ministry",
+    "start_date": "2023-01-18",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Sidewalk on San Martín Street outside Chile’s Environment Ministry, Santiago",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "La Tercera reports more than 50 people across pro- and anti-Dominga groups, separated by about 10 metres. It does not divide attendance by side. The Guardian independently reports demonstrations for and against the project but gives no count.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "Combined total reported; attendance and threshold are unknown for each opposing side.",
+    "threshold_50_evidence": "La Tercera reports more than 50 people across two opposing groups at the same site and time. It does not establish that either side individually reached 50; the Guardian provides no count. Keep pending threshold and coordinator review of the event boundary.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHL23-S014",
+      "CHL23-S015"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHL23-S014",
+          "CHL23-S015"
+        ],
+        "summary": "Both contemporary reports date the demonstrations and ministerial meeting to 18 January."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "The groups remained after the decision, but the time/date of physical dispersal is not reported."
+      },
+      "location": {
+        "source_ids": [
+          "CHL23-S014",
+          "CHL23-S015"
+        ],
+        "summary": "Reports place both groups outside the Environment Ministry in central Santiago; La Tercera names San Martín Street."
+      },
+      "scope": {
+        "source_ids": [
+          "CHL23-S014",
+          "CHL23-S015"
+        ],
+        "summary": "The documented physical action is at one site in Santiago; attendees’ regions of origin do not expand the event’s physical scope."
+      },
+      "organizer": {
+        "source_ids": [],
+        "summary": "Representatives and supporting organizations are described, but no formal organizer for either demonstration is identified."
+      },
+      "demands": {
+        "source_ids": [
+          "CHL23-S014"
+        ],
+        "summary": "The pro-Dominga side emphasized jobs/development and supported the project; the anti-Dominga side emphasized fisheries/biodiversity and opposed it."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHL23-S014",
+          "CHL23-S015"
+        ],
+        "summary": "La Tercera reports >50 combined across the two opposing groups; Guardian confirms both sides without a count."
+      },
+      "participants_min": {
+        "source_ids": [
+          "CHL23-S014"
+        ],
+        "summary": "The >50 figure covers both sides combined and does not establish a ≥50 threshold for either side individually; the coded per-side minimum is therefore null."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CHL23-S014",
+          "CHL23-S015"
+        ],
+        "summary": "La Tercera reports >50 in both opposing demonstrations combined; neither side has a separate count. The Guardian confirms both sides without a count."
+      },
+      "state_target": {
+        "source_ids": [
+          "CHL23-S014",
+          "CHL23-S015"
+        ],
+        "summary": "Both sides demonstrated outside the Environment Ministry during a government committee decision, but sought opposite outcomes: project approval versus rejection. Keep target/demand attribution side-specific."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "CHL23-S014"
+        ],
+        "summary": "La Tercera describes both demonstrations as peaceful and reports isolated shouting but no physical clashes."
+      },
+      "state_response": {
+        "source_ids": [
+          "CHL23-S014",
+          "CHL23-S015"
+        ],
+        "summary": "The committee decision was contemporaneous, but a direct response to the street demonstration is not established. Other response dimensions are not reported."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "CHL:DOMINGA_COUNTERDEMONSTRATIONS:2023-01-18",
+    "notes": "The two opposing groups were waiting for a government committee decision on a project-level environmental policy. La Tercera reports a peaceful gathering, isolated shouting and about 30 Carabineros around the sidewalk. The committee’s rejection occurred during the assembly, but reporting does not establish that it was a response to the protest. The event is modeled as a same-site/time counter-demonstration cluster; it is not a claim that both sides shared one demand.",
+    "open_questions": "Seek side-specific attendance and clearer physical start/end information. Coordinator should decide whether to retain a combined counter-demonstration cluster or split into opposing records; combined attendance >50 does not establish that either side alone reached 50. Do not code the committee’s decision as accommodation without a direct link to the protest.",
+    "baseline_gate": "pending_official_baseline",
+    "coordinator_review_status": "not_reviewed",
+    "official_update": false
+  },
+  {
+    "candidate_id": "CHL-2023-01-E003",
+    "country": "Chile",
+    "ccode": "155",
+    "unit_month": "2023-01",
+    "title": "CONFUSAM municipal-health workers demonstrate in several cities",
+    "start_date": "2023-01-17",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Santiago outside the Ministry of Health; other cities unnamed in search-only reporting",
+    "scope": "multi_city",
+    "organizer": null,
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "Captured search previews describe municipal-health employees demonstrating in several cities; one preview says the Santiago action began at 11:30 outside the Ministry of Health and was called by CONFUSAM. No site-specific headcount is reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unharmonized or uncounted source reporting",
+    "threshold_50_evidence": "Search-only results identify worker demonstrations but provide no attendance figure for any site. A multi-city report or the size of the workforce cannot establish 50 simultaneous participants at a location.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHL23-S008",
+      "CHL23-S009"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHL23-S008",
+          "CHL23-S009"
+        ],
+        "summary": "Search previews published 18 January refer to the action as having taken place Tuesday, 17 January; body was not accessible."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "No physical ending is established in the search previews."
+      },
+      "location": {
+        "source_ids": [
+          "CHL23-S009"
+        ],
+        "summary": "Search preview names an 11:30 Santiago action outside the Health Ministry and says demonstrations occurred in several cities; other sites are not identified."
+      },
+      "scope": {
+        "source_ids": [
+          "CHL23-S008",
+          "CHL23-S009"
+        ],
+        "summary": "Search-only preview says several cities; a full list and per-site actions are unavailable."
+      },
+      "organizer": {
+        "source_ids": [
+          "CHL23-S009"
+        ],
+        "summary": "Search preview identifies CONFUSAM as caller for the Santiago action."
+      },
+      "demands": {
+        "source_ids": [
+          "CHL23-S008",
+          "CHL23-S009"
+        ],
+        "summary": "Search previews describe labor improvements and primary-health workers’ rights, with criticism of government actions/omissions."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHL23-S008",
+          "CHL23-S009"
+        ],
+        "summary": "Search-only previews describe workers demonstrating in several cities; no crowd count."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CHL23-S008",
+          "CHL23-S009"
+        ],
+        "summary": "No attendance count or site-level estimate is available."
+      },
+      "state_target": {
+        "source_ids": [
+          "CHL23-S008",
+          "CHL23-S009"
+        ],
+        "summary": "The preview says the demonstration criticized the government and demanded fulfillment of primary-health workers’ rights; body was not read."
+      },
+      "state_response": {
+        "source_ids": [],
+        "summary": "No direct state response is available from the search previews."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "CHL:CONFUSAM:2023-01-17",
+    "notes": "S008 and S009 have the same article title and internal content ID on two radio domains and are treated as one likely story variant, not two independent sources. Both exact body attempts returned Cache miss; no article body was obtained. This physical January action remains separate from earlier Chile 2021 union dossiers.",
+    "open_questions": "Obtain a body or independent contemporaneous report with attendance for each site, exact start/end, and full demands. Retry only with a fresh exact-URL access receipt. Do not use workforce size or total participants across separate cities as a single-site crowd count.",
+    "baseline_gate": "pending_official_baseline",
+    "coordinator_review_status": "not_reviewed",
+    "official_update": false
+  },
+  {
+    "candidate_id": "CHL-2023-01-E004",
+    "country": "Chile",
+    "ccode": "155",
+    "unit_month": "2023-01",
+    "title": "Early Route 16 blockade over insecurity in Alto Hospicio",
+    "start_date": "2023-01-30",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Route 16 near Alto Hospicio, cuesta El Pampino",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "BioBioChile reports that a group of people lit barricades and blocked Route 16 at about 06:00, demanding improved security after homicides. No crowd count is given.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unharmonized or uncounted source reporting",
+    "threshold_50_evidence": "The article identifies a group but gives no number; no ≥50 threshold is established for the 06:00 blockade.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHL23-S001",
+      "CHL23-S002"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHL23-S001",
+          "CHL23-S002"
+        ],
+        "summary": "BioBioChile reports the blockade at about 06:00 on Monday 30 January."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "The duration of the blockade is not reported."
+      },
+      "location": {
+        "source_ids": [
+          "CHL23-S001",
+          "CHL23-S002"
+        ],
+        "summary": "Barricades were on Route 16 connecting Alto Hospicio and Iquique; BioBioChile names cuesta El Pampino."
+      },
+      "demands": {
+        "source_ids": [
+          "CHL23-S001",
+          "CHL23-S002"
+        ],
+        "summary": "The route was blocked to call attention to increased homicides and demand improved security."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHL23-S001"
+        ],
+        "summary": "BioBioChile says a group of people lit barricades; no number."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CHL23-S001",
+          "CHL23-S002"
+        ],
+        "summary": "No attendee count is reported for the early blockade."
+      },
+      "state_target": {
+        "source_ids": [
+          "CHL23-S001"
+        ],
+        "summary": "The article says the blockade sought to press authorities for security measures."
+      },
+      "state_response": {
+        "source_ids": [],
+        "summary": "A state response to the 06:00 blockade is not reported."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "CHL:ALTO_HOSPICIO:SECURITY_ACTIONS:2023-01",
+    "notes": "This early road blockade preceded a 10:00 march on the same issue. BioBioChileTV describes the march as having begun with barricades and road blocks, but participant overlap and continuity are not established. It is kept as a separate physical action from E001 pending review.",
+    "open_questions": "Find a contemporaneous attendance estimate for the 06:00 blockade and determine whether it was a distinct assembly from the main march. Do not borrow the later march’s crowd count.",
+    "baseline_gate": "pending_official_baseline",
+    "coordinator_review_status": "not_reviewed",
+    "official_update": false
+  },
+  {
+    "candidate_id": "CHL-2023-01-E005",
+    "country": "Chile",
+    "ccode": "155",
+    "unit_month": "2023-01",
+    "title": "Alto Hospicio neighborhood cacerolazos over homicides",
+    "start_date": "2023-01-29",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Several Alto Hospicio neighborhoods; exact sites not reported",
+    "scope": "multi_neighborhood",
+    "organizer": null,
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "BioBioChile reports that neighbors held cacerolazos in different neighborhoods on Sunday evening as a protest against the high homicide count; no attendance figure or exact sites are given.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unharmonized or uncounted source reporting",
+    "threshold_50_evidence": "The report does not provide a count by neighborhood or establish 50 people at any single site.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHL23-S001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHL23-S001"
+        ],
+        "summary": "A 30 January report says cacerolazos occurred on Sunday evening, 29 January."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "No physical end reported."
+      },
+      "location": {
+        "source_ids": [
+          "CHL23-S001"
+        ],
+        "summary": "Several neighborhoods in Alto Hospicio; exact places unspecified."
+      },
+      "scope": {
+        "source_ids": [
+          "CHL23-S001"
+        ],
+        "summary": "Multiple neighborhood actions are reported, without a site list."
+      },
+      "demands": {
+        "source_ids": [
+          "CHL23-S001"
+        ],
+        "summary": "The article describes a protest against high homicide numbers; a demand to a named authority is not specified."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHL23-S001"
+        ],
+        "summary": "Neighbors held cacerolazos in different neighborhoods; no count."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CHL23-S001"
+        ],
+        "summary": "No site-level attendance or simultaneity is reported."
+      },
+      "state_target": {
+        "source_ids": [],
+        "summary": "No specific demand directed to the Chilean State or local authority is established for the cacerolazos."
+      },
+      "state_response": {
+        "source_ids": [],
+        "summary": "No direct state response reported."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "CHL:ALTO_HOSPICIO:SECURITY_ACTIONS:2023-01",
+    "notes": "This is a prior-evening action distinct from the 30 January route blockade and march. Shared issue and location do not establish the same participants or a continuous event.",
+    "open_questions": "Identify specific sites, simultaneous attendance, demands directed at public authorities and physical duration. Do not transfer the main march’s attendance or state-target language to this action.",
+    "baseline_gate": "pending_official_baseline",
+    "coordinator_review_status": "not_reviewed",
+    "official_update": false
+  },
+  {
+    "candidate_id": "CHL-2023-01-E006",
+    "country": "Chile",
+    "ccode": "155",
+    "unit_month": "2023-01",
+    "title": "Gathering near Plaza Baquedano during Friday demonstrations",
+    "start_date": "2023-01-13",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Around Plaza Baquedano, Santiago",
+    "scope": "local",
+    "organizer": null,
+    "demands": [],
+    "participants_original": "Meganoticias reports “a group of people” near Plaza Baquedano; no count.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unharmonized or uncounted source reporting",
+    "threshold_50_evidence": "No attendance count, numerical estimate or description that establishes 50 participants.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHL23-S019"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHL23-S019"
+        ],
+        "summary": "The contemporary report dates the gathering to Friday 13 January 2023."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "The Metro station reopened later that evening, but the report does not say when the demonstrators dispersed."
+      },
+      "location": {
+        "source_ids": [
+          "CHL23-S019"
+        ],
+        "summary": "The report places people around Plaza Baquedano and later describes a preventive announcement at Alameda and Portugal."
+      },
+      "demands": {
+        "source_ids": [],
+        "summary": "No issue or policy demand is reported."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHL23-S019"
+        ],
+        "summary": "Meganoticias says a group of people; no number."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CHL23-S019"
+        ],
+        "summary": "No crowd estimate or 50-person description."
+      },
+      "state_target": {
+        "source_ids": [],
+        "summary": "No demand directed to a state policy or authority is reported."
+      },
+      "state_response": {
+        "source_ids": [
+          "CHL23-S019"
+        ],
+        "summary": "The report mentions a police preventive announcement and Metro closure/reopening, but does not describe a direct protest response or dispersal."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "The report describes a real gathering and transit/Metro disruption but does not identify the issue or a demand directed at a state authority. Police loudspeaker announcements and service closures do not establish event size or dispersal. Keep separate from 20 January reports.",
+    "open_questions": "Identify the gathering’s demand/target and a site-specific attendance estimate. Review the exact end of the public assembly; Metro service restoration is not proof the crowd dispersed.",
+    "baseline_gate": "pending_official_baseline",
+    "coordinator_review_status": "not_reviewed",
+    "official_update": false
+  },
+  {
+    "candidate_id": "CHL-2023-01-E007",
+    "country": "Chile",
+    "ccode": "155",
+    "unit_month": "2023-01",
+    "title": "Demonstration near Plaza Baquedano with temporary traffic diversion",
+    "start_date": "2023-01-20",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Plaza Baquedano, Providencia/Santiago",
+    "scope": "local",
+    "organizer": null,
+    "demands": [],
+    "participants_original": "Puranoticia reports demonstrators temporarily diverted traffic; no participant count.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unharmonized or uncounted source reporting",
+    "threshold_50_evidence": "The article gives no crowd size or description establishing 50 participants at this site.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHL23-S010"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHL23-S010"
+        ],
+        "summary": "Puranoticia dates the action to Friday 20 January 2023; its police update was at 19:55."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "Traffic was reopened about half an hour after the update; this does not establish the crowd’s physical end."
+      },
+      "location": {
+        "source_ids": [
+          "CHL23-S010"
+        ],
+        "summary": "Traffic diversions were reported around Plaza Baquedano in Providencia."
+      },
+      "demands": {
+        "source_ids": [],
+        "summary": "The report does not state a demand."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHL23-S010"
+        ],
+        "summary": "Demonstrators caused temporary traffic diversions; no number."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CHL23-S010"
+        ],
+        "summary": "No attendance figure or qualifying description."
+      },
+      "state_target": {
+        "source_ids": [],
+        "summary": "No demand to a state authority is reported."
+      },
+      "state_response": {
+        "source_ids": [
+          "CHL23-S010"
+        ],
+        "summary": "Carabineros reported traffic diversions and reopening; no response toward protesters is established."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "A separate same-evening demonstration is reported at Plaza Ñuñoa (E008). The cause, organizer and policy target of either gathering are not reported. Do not infer attendance from traffic diversion or merge the two sites.",
+    "open_questions": "Seek a source for the Baquedano group’s demand, specific attendance and physical end. Do not infer protest size from vehicle diversions or from later recurring-Friday reports.",
+    "baseline_gate": "pending_official_baseline",
+    "coordinator_review_status": "not_reviewed",
+    "official_update": false
+  },
+  {
+    "candidate_id": "CHL-2023-01-E008",
+    "country": "Chile",
+    "ccode": "155",
+    "unit_month": "2023-01",
+    "title": "Simultaneous demonstration at Plaza Ñuñoa with traffic diversion",
+    "start_date": "2023-01-20",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Plaza Ñuñoa, Ñuñoa/Santiago",
+    "scope": "local",
+    "organizer": null,
+    "demands": [],
+    "participants_original": "Puranoticia reports a simultaneous demonstration that caused an Irarrázaval traffic detour; no participant count.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unharmonized or uncounted source reporting",
+    "threshold_50_evidence": "The article provides no crowd size or description establishing 50 participants at this site.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHL23-S010"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHL23-S010"
+        ],
+        "summary": "Puranoticia reports the demonstration as simultaneous with the 20 January Plaza Baquedano action."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "Only the traffic detour is reported; physical assembly end is unknown."
+      },
+      "location": {
+        "source_ids": [
+          "CHL23-S010"
+        ],
+        "summary": "Puranoticia places a second demonstration at Plaza Ñuñoa, causing a detour on Irarrázaval."
+      },
+      "demands": {
+        "source_ids": [],
+        "summary": "No issue or demand is stated."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHL23-S010"
+        ],
+        "summary": "A simultaneous demonstration is reported; no count."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "CHL23-S010"
+        ],
+        "summary": "No site-specific attendance evidence."
+      },
+      "state_target": {
+        "source_ids": [],
+        "summary": "No demand directed at a state authority is reported."
+      },
+      "state_response": {
+        "source_ids": [
+          "CHL23-S010"
+        ],
+        "summary": "Only traffic detours are described, not an intervention against protesters."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Puranoticia reports this separately from Plaza Baquedano (E007). No evidence establishes the same participants, organizer or demand at the two sites.",
+    "open_questions": "Seek a source for the Plaza Ñuñoa gathering’s demand, site-specific attendance and physical end. Do not infer size from the traffic detour or combine it with Plaza Baquedano.",
+    "baseline_gate": "pending_official_baseline",
+    "coordinator_review_status": "not_reviewed",
+    "official_update": false
+  }
+]

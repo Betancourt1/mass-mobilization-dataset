@@ -1,0 +1,108 @@
+[
+  {
+    "gap_id": "GEO202301-G001",
+    "type": "participant_threshold",
+    "description": "The opened January 4 reports provide no crowd count for any Georgian site in the #SaveMisha series; campaign scale, multiple city labels, and foreign rallies cannot prove 50 simultaneously present at one site.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S009"
+    ],
+    "affected_candidates": [
+      "GEO202301-E001"
+    ],
+    "required_followup": "Find reliable site-specific contemporaneous counts or other clear minimum-size evidence; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "GEO202301-G002",
+    "type": "episode_scope",
+    "description": "Reports differ in named locations and timings. The relation between two Tbilisi gathering points, the 14:00 Chorvila/Shekvetili activity, the 18:00 city rallies and the separate doctors’ rally is unresolved; planned venues are not all confirmed as completed.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S007",
+      "S009",
+      "S013",
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "GEO202301-E001",
+      "GEO202301-E002"
+    ],
+    "required_followup": "Review full texts and contemporaneous reporting venue-by-venue; document whether sites form one organized multi-site event or distinct local episodes, and distinguish announced from completed gatherings."
+  },
+  {
+    "gap_id": "GEO202301-G003",
+    "type": "event_evidence",
+    "description": "The doctors’ rally is currently supported only by a search-result lead. Its exact event date, physical occurrence, specific site, state addressee, attendance, relation to the UNM meeting and response remain unverified. The one Georgia Today open returned a Cache miss, a technical tool failure.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [
+      "GEO202301-E002"
+    ],
+    "required_followup": "Use a future fresh source window and authorized exact-URL workflow or independent contemporaneous sources; do not retry the same Georgia Today URL under the prior no-retry disposition."
+  },
+  {
+    "gap_id": "GEO202301-G004",
+    "type": "source_access",
+    "description": "Civil Georgia search discovery points to an HRC annual assemblies report and an HRC monitoring PDF that might clarify event coverage or counts. Manual canonical review was clear, but the final preflight observed the live body window closed at 2026-10-10T17:49:25.219260Z; no body request was issued.",
+    "source_ids": [
+      "S014",
+      "S018"
+    ],
+    "affected_candidates": [
+      "GEO202301-E001",
+      "GEO202301-E002"
+    ],
+    "required_followup": "Only after a fresh ROOT_READY/window authorization, rerun the full exact-URL gate and then consider opening the precise current-card URL; current receipts do not authorize later retrieval."
+  },
+  {
+    "gap_id": "GEO202301-G005",
+    "type": "continuity",
+    "description": "Search-only leads identify a delivery-driver protest archive and later courier reporting, while the opened February 5 On.ge action is outside this unit and directed at private firms. No January 2023 courier assembly or uninterrupted physical action is established. A later Saakashvili-support rally lead likewise does not establish physical continuity from January 4.",
+    "source_ids": [
+      "S008",
+      "S019",
+      "S020",
+      "S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check month-specific dates and actual physical activity in adjacent months; avoid turning an ongoing issue/campaign label into a continuous event without evidence."
+  },
+  {
+    "gap_id": "GEO202301-G006",
+    "type": "coverage",
+    "description": "Eleven native search invocations captured 295 ordered headers across Georgian and English language terms and broad/midmonth/later-month queries. English searches sometimes surfaced the U.S. state of Georgia; those results were excluded. Open-web discovery is not a LexisNexis-equivalent systematic search, the Georgian regional press sample is incomplete, and this unit cannot establish absence of other events. Official baseline/schema verification is still pending.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018",
+      "S019",
+      "S020",
+      "S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review should inspect capture/source coverage, compare the official baseline when available, and pursue Georgian local and sector-specific archives without treating zero results as no event."
+  }
+]

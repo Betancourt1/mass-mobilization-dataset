@@ -1,0 +1,120 @@
+[
+  {
+    "gap_id": "cyprus_2023-01-G001",
+    "type": "participants",
+    "description": "Site-level attendance is unverified for the 16 January northern march, 17 January hospital-strike lead, 18 January Motor Vehicles Unit strike, northern legislature banner lead, 26 January northern religious-affairs protest, court-front Helin lead, 31 January Famagusta student march, 31 January Paphos quarry protest, and CoLA gatherings in Limassol, Larnaca and Paralimni. Organization/workforce totals are not physical turnout.",
+    "source_ids": [
+      "cyprus_2023-01_S001",
+      "cyprus_2023-01_S003",
+      "cyprus_2023-01_S004",
+      "cyprus_2023-01_S010",
+      "cyprus_2023-01_S012",
+      "cyprus_2023-01_S013",
+      "cyprus_2023-01_S015"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-01-E002",
+      "cyprus_2023-01-E003",
+      "cyprus_2023-01-E004",
+      "cyprus_2023-01-E005",
+      "cyprus_2023-01-E008",
+      "cyprus_2023-01-E009",
+      "cyprus_2023-01-E010",
+      "cyprus_2023-01-E011",
+      "cyprus_2023-01-E012",
+      "cyprus_2023-01-E013",
+      "cyprus_2023-01-E014"
+    ],
+    "required_followup": "Seek event-specific attendance from permitted local reports, union records or archives. Keep qualitative estimates attributed, invent no bounds, and never sum/transfer estimates across sites."
+  },
+  {
+    "gap_id": "cyprus_2023-01-G002",
+    "type": "state_target",
+    "description": "Ccode 352 is a geographic island assignment and must not collapse Republic-of-Cyprus state targets with Turkish-Cypriot-administered northern territory and its de facto institutions. The Kurdish Nicosia lead may target French authorities; the student and court actions have unresolved state addressees.",
+    "source_ids": [
+      "cyprus_2023-01_S001",
+      "cyprus_2023-01_S002",
+      "cyprus_2023-01_S012",
+      "cyprus_2023-01_S013",
+      "cyprus_2023-01_S017"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-01-E001",
+      "cyprus_2023-01-E002",
+      "cyprus_2023-01-E011",
+      "cyprus_2023-01-E012",
+      "cyprus_2023-01-E013"
+    ],
+    "required_followup": "Review direct demand, responsible institution and controlled territory before eligibility; distinguish geographic host, northern de facto target, Republic of Cyprus, Turkey, France and private media."
+  },
+  {
+    "gap_id": "cyprus_2023-01-G003",
+    "type": "source_access",
+    "description": "Full bodies were unavailable for the state-hospital strike, legislature banner action, court-front protest, Kurdish Nicosia lead and Bugün Kıbrıs page. S003 returned two technical Cache misses; S010/S012 said URL not accessible via tool; S017/S018 returned Cache miss. No HTTP denial was returned. AP coverage of CoLA remains under inherited hold and was not requested.",
+    "source_ids": [
+      "cyprus_2023-01_S003",
+      "cyprus_2023-01_S010",
+      "cyprus_2023-01_S012",
+      "cyprus_2023-01_S017",
+      "cyprus_2023-01_S018",
+      "cyprus_2023-01_S019"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-01-E001",
+      "cyprus_2023-01-E003",
+      "cyprus_2023-01-E005",
+      "cyprus_2023-01-E012"
+    ],
+    "required_followup": "If pursued, refresh an exact-URL receipt and manually recheck current/canonical/origin/alias holds before any body request. Preserve failed attempts and do not bypass AP/AfricaPress holds."
+  },
+  {
+    "gap_id": "cyprus_2023-01-G004",
+    "type": "coverage",
+    "description": "Eleven native search invocations captured 264 result headers in English, Greek and Turkish across general, weekly, local-domain and event-led queries. This is bounded discovery, not an exhaustive press or official-record census. Local union, parliamentary and ministry archives were not systematically reviewed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue bounded Greek-/Turkish-language reporting and local union, parliamentary, ministry and archive searches. Describe actual coverage and gaps without asserting no other events occurred."
+  },
+  {
+    "gap_id": "cyprus_2023-01-G005",
+    "type": "episode_unit",
+    "description": "CoLA action has multiple local sites. Nicosia (~5,000) and Paphos (“hundreds”) have separate estimates; Limassol, Larnaca and Paralimni remain separate with unknown turnout. Northern secularism actions on 16 and 26 January are distinct physical dates. Helin court and school actions have different evidence and are not merged.",
+    "source_ids": [
+      "cyprus_2023-01_S001",
+      "cyprus_2023-01_S006",
+      "cyprus_2023-01_S007",
+      "cyprus_2023-01_S013"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-01-E002",
+      "cyprus_2023-01-E006",
+      "cyprus_2023-01-E007",
+      "cyprus_2023-01-E008",
+      "cyprus_2023-01-E009",
+      "cyprus_2023-01-E010",
+      "cyprus_2023-01-E011",
+      "cyprus_2023-01-E012",
+      "cyprus_2023-01-E013"
+    ],
+    "required_followup": "Review national/local event unit, confirm shared organization and demands before linking site rows, and preserve site-level counts without summing."
+  },
+  {
+    "gap_id": "cyprus_2023-01-G006",
+    "type": "dates",
+    "description": "Exact occurrence dates and endpoints remain unavailable for several discovery-only leads. A captured result for a Wolt-driver strike timeline was not body-read, so no January continuation is confirmed. No complete adjacent-month review was performed for court, student or quarry episodes. Empty continuations.json means no continuation confirmed, not proven absence.",
+    "source_ids": [
+      "cyprus_2023-01_S003",
+      "cyprus_2023-01_S012",
+      "cyprus_2023-01_S017",
+      "cyprus_2023-01_S020"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-01-E001",
+      "cyprus_2023-01-E003",
+      "cyprus_2023-01-E012",
+      "cyprus_2023-01-E013",
+      "cyprus_2023-01-E014"
+    ],
+    "required_followup": "Verify physical dates separately from publication/announcement dates and check December 2022/February 2023 boundary sources before episode ownership is resolved."
+  }
+]

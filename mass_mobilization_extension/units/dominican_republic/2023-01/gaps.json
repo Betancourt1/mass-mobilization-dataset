@@ -1,0 +1,39 @@
+[
+  {
+    "gap_id": "G001",
+    "gap_type": "access",
+    "issue": "The HOY year-end retrospective lead returned actual HTTP 406 Not Acceptable on the only body attempt; no article text was received or read. Its discussion of January events remains unknown, and 406 is not treated as an access-policy denial.",
+    "source_ids": [
+      "S001"
+    ],
+    "candidate_ids": [],
+    "status": "open",
+    "next_action": "If pursued after the body window reopens, use a fresh exact-URL receipt, full manual corpus/card/alias/origin review, and immediate open-window check before any new request."
+  },
+  {
+    "gap_id": "G002",
+    "gap_type": "event_identity_and_demand",
+    "issue": "A Jan. 31 7dias search-result title reports Leonel Fernández denouncing external pressure concerning Dominican nationality policy. The body was not read, and the title alone does not show whether it concerns the Jan. 30 civic-cultural parade or establishes a demand at that event.",
+    "source_ids": [
+      "S008",
+      "S015"
+    ],
+    "candidate_ids": [
+      "DR202301-E001"
+    ],
+    "status": "open",
+    "next_action": "After a newly open source window, independently complete the exact-URL receipt and substantive full manual review for S015, then verify event identity, physical date/site, and whether an own-state policy demand occurred."
+  },
+  {
+    "gap_id": "G003",
+    "gap_type": "date_and_event_scope",
+    "issue": "Search-only headlines for a Fuerza del Pueblo march against cost of living, unemployment and insecurity (S009) and a women-led march against cost of living and insecurity (S010) do not provide enough date or identity information to establish January 2023 scope or whether the reports concern the same event.",
+    "source_ids": [
+      "S009",
+      "S010"
+    ],
+    "candidate_ids": [],
+    "status": "open",
+    "next_action": "Keep the two leads separate. If pursued after the body window reopens, complete the fresh access gate for each exact URL and establish actual assembly date, physical end, attendance threshold, and own-state demand from source bodies."
+  }
+]

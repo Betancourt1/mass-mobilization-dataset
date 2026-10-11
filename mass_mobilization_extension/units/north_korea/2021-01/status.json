@@ -1,0 +1,28 @@
+{
+  "unit_id": "north_korea_2021-01",
+  "country": "North Korea",
+  "month": "2021-01",
+  "agent_task": "/root/north_korea_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T20:57:52+00:00",
+  "finished_at": "2026-10-08T21:20:24+00:00",
+  "n_queries": 23,
+  "n_sources": 13,
+  "n_candidates": 0,
+  "n_excluded": 2,
+  "n_continuations": 0,
+  "n_gaps": 7,
+  "coverage_assessment": "Open-web pass logged 23 Korean- and English-language queries, including weekly, sector, regional and Dec.–Feb. boundary searches. Five URLs were opened (including the Kyunghyang archive page, which did not verify the target article); eight remain search_only. Two documented congress-support rally leads were excluded because available contemporary reporting describes pledges to implement Party/state policy and no demand of the North Korean state; no attendance number was found. This is not evidence that January had no protests. Domestic archives and the original KCNA and Ministry of Unification sources remain uninspected.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_status_counts": {
+    "opened": 5,
+    "search_only": 8
+  },
+  "eligibility_counts": {
+    "excluded": 2
+  },
+  "temporary_resources": {
+    "started": [],
+    "closure": "No persistent temporary resources were started. One-shot foreground HTTPS retrieval processes exited; HTTP results and process exits are recorded in report.txt."
+  }
+}

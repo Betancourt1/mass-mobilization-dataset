@@ -1,0 +1,120 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline",
+    "description": "The current authoritative MM codebook/manual, event universe, schema, licensing terms, and full historical source baseline remain unresolved in the project baseline gate. The assigned ccode 816 is provisional only; no official event identifiers or equivalence claim is made.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator verifies the authoritative current codebook, universe, coding procedure, and permitted comparison workflow before any integration or export."
+  },
+  {
+    "gap_id": "G002",
+    "type": "search_method",
+    "description": "Discovery used 25 public web searches with 511 returned result headers, not LexisNexis or a systematic country newspaper archive. Search engines returned many irrelevant, historical, or later-period items; result headers and snippets were used only to decide whether further discovery was warranted. Header count is not a measure of coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "When the official baseline and equivalent archives are available, repeat documented date-window searches across local and international newspaper collections and compare retrieval differences."
+  },
+  {
+    "gap_id": "G003",
+    "type": "coverage",
+    "description": "Queries named Hanoi and Ho Chi Minh City, central-region Da Nang, Hue, and Quang Nam, and industrial provinces Binh Duong and Dong Nai. This was not a province-by-province or outlet-by-outlet review; rural northern provinces, the Mekong Delta, the Central Highlands, and other localities have uneven or no direct local-archive coverage in this unit.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search local/regional news and public records by province and locality, with particular attention to the Mekong Delta, Central Highlands, rural northern areas, and places not named in the logged queries."
+  },
+  {
+    "gap_id": "G004",
+    "type": "language",
+    "description": "Discovery terms were in Vietnamese and English. There was no independent professional translation or bilingual review of local terminology, and the selected phrases may miss local idiom, alternate spellings, or descriptions of petitions and gatherings.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Have a Vietnamese-language reviewer validate terminology and search variants, then inspect any surfaced source in its original language."
+  },
+  {
+    "gap_id": "G005",
+    "type": "coverage",
+    "description": "Queries explicitly addressed labor disputes, land and environmental grievances, COVID-related impacts, and BOT/public-service complaints. Education, housing, transport fares beyond BOT, utilities, health-service access, and other local service grievances were not searched systematically by location and week.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Run focused Vietnamese and English searches for education, housing, transport, utilities, health-service, and other public-service grievances across all weekly windows and undercovered provinces."
+  },
+  {
+    "gap_id": "G006",
+    "type": "episode_unit",
+    "description": "December 2020 and February 2021 boundary searches produced no specific case to trace. S002 says 2021 stoppages occurred mainly around before and after Tết Tân Sửu but gives no January-specific incident dates or count. S003 describes a hunger strike reported in October 2020 with a September 2020 start, and S004 is dated January 2020; neither documents continuity into January 2021. The empty continuation array is not evidence that no prior or continuing action occurred.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If an in-period episode is discovered, inspect contemporary records from both adjacent months to establish physical onset, continuation, and end before assigning a monthly owner."
+  },
+  {
+    "gap_id": "G007",
+    "type": "participants",
+    "description": "No source establishes January 2021 turnout. S001's 4,166 people are an aggregate tied to 2020 Ho Chi Minh City labor disputes; S002's 105 cases are an annual 2021 stoppage total without monthly or event-level attendance; S005's 400 workers describe a 2011 Hanoi workplace strike. None is January 2021 protest turnout.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "For any future event lead, obtain an occurrence source and an explicit or defensible attendance account that can be assessed against the 50-person threshold."
+  },
+  {
+    "gap_id": "G008",
+    "type": "state_target",
+    "description": "No source reviewed establishes an in-month gathering or a demand directed to Vietnam's government or policy. S001 is a risk forecast; S002 is an annual labor-dispute summary; S003 concerns detained activists' hunger strike; S004 and S005 concern 2020 and 2011 workplace actions. These sources do not establish an in-scope January state target.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "For any future event lead, verify the physical action, domestic state/policy demand, organizer, and whether the conflict is public rather than exclusively private."
+  },
+  {
+    "gap_id": "G009",
+    "type": "state_response",
+    "description": "Because no January gathering was established, arrests, beatings, crowd dispersal, accommodation, ignore, killings, shootings, and protester violence cannot be attributed to an event. The out-of-period detention, labor-negotiation, and hunger-strike reports are not transferred to this unit.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only after an event is established, code each response dimension independently from event-specific evidence and preserve unknown values where reporting is silent or attribution is uncertain."
+  },
+  {
+    "gap_id": "G010",
+    "type": "source_access",
+    "description": "All five retained original pages returned content: S002-S005 through the web reader and S001 after an earlier Cache miss and default-network DNS failure were followed by ordinary HTTPS success. The web reader did not expose HTTP codes for S002-S005. S001's parser detected a challenge-like marker without capturing its context; it is unclassified and does not establish denial. S001's publication date remains null. The linked Radio Free Asia report from S003 was not opened.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep S001 undated context only; do not infer access denial or event evidence from a cache/DNS failure or unclassified marker. Retrieve the linked RFA item only if a future in-period lead requires it and after a fresh global access guard."
+  },
+  {
+    "gap_id": "G011",
+    "type": "source_independence",
+    "description": "None of the five opened pages corroborates a January 2021 event. The same Dân trí annual page appeared under three search references and is one source, not three. S003 references an RFA report that was not opened; S005 carries a VIR source credit but the full-text relationship was not checked. No shared-origin or independent-corroboration conclusion is made for a January event.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If an in-month event lead is found, seek separately authored contemporary reporting or an original document and record any shared written origin or syndication."
+  }
+]

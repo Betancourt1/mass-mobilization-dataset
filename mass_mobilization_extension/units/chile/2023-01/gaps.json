@@ -1,0 +1,91 @@
+[
+  {
+    "gap_id": "CHL-2023-01-G001",
+    "type": "attendance_and_episode_boundary",
+    "description": "For the 30 January Alto Hospicio march, 24horas reports >2,000 at the start, while BioBioChileTV reports >300 assembled at Plaza Belén and further participants joining. The figures are attributed and not harmonized. A 06:00 blockade and prior-evening neighborhood cacerolazos are related in topic but are distinct physical actions with unknown crowd size.",
+    "source_ids": [
+      "CHL23-S001",
+      "CHL23-S002",
+      "CHL23-S003",
+      "CHL23-S005",
+      "CHL23-S006",
+      "CHL23-S007"
+    ],
+    "affected_candidates": [
+      "CHL-2023-01-E001",
+      "CHL-2023-01-E004",
+      "CHL-2023-01-E005"
+    ],
+    "required_followup": "Find another contemporaneous report or official source with separate time/site estimates for the 06:00 blockade, 10:00 march and 29 January cacerolazos; resolve the march’s physical end. Any retry must use a fresh exact-URL access receipt. Keep counts attributed; do not treat reporting differences as an interval or merge the physical actions automatically."
+  },
+  {
+    "gap_id": "CHL-2023-01-G002",
+    "type": "counterdemonstration_structure",
+    "description": "La Tercera reports >50 people across opposing pro- and anti-Dominga groups, about 10 metres apart, but does not split the count. The Guardian confirms both sides without a number. Whether this co-located same-time counterdemonstration cluster should be modeled as one event or two opposing actions needs coordinator review.",
+    "source_ids": [
+      "CHL23-S013",
+      "CHL23-S014",
+      "CHL23-S015"
+    ],
+    "affected_candidates": [
+      "CHL-2023-01-E002"
+    ],
+    "required_followup": "Look for side-specific crowd counts, physical start/end, and an account distinguishing each side’s location/attendance. If split, do not allocate the combined >50 count to either side without evidence. Do not code the simultaneous committee decision as accommodation absent a direct protest-response link."
+  },
+  {
+    "gap_id": "CHL-2023-01-G003",
+    "type": "attendance_and_source_access",
+    "description": "Search-only previews identify a 17 January CONFUSAM health-worker action in several cities and name a Santiago march outside the Health Ministry, but neither site-specific attendance nor the full article body is available. Both radio URLs share a title and content ID and were treated as one likely story variant; exact-body attempts returned Cache miss.",
+    "source_ids": [
+      "CHL23-S008",
+      "CHL23-S009"
+    ],
+    "affected_candidates": [
+      "CHL-2023-01-E003"
+    ],
+    "required_followup": "Find an accessible independent contemporaneous report or exact article body with per-site attendance, complete city list, demands and duration. Use a fresh access receipt before any retry. Do not use workforce totals or sum separate city actions into a single crowd."
+  },
+  {
+    "gap_id": "CHL-2023-01-G004",
+    "type": "target_and_attendance",
+    "description": "Reports document Plaza Baquedano gatherings on 13 and 20 January and a separate simultaneous demonstration at Plaza Ñuñoa on 20 January. The reports give no qualifying crowd count or clear policy demand for any site; transit/Metro disruptions do not establish either.",
+    "source_ids": [
+      "CHL23-S010",
+      "CHL23-S019"
+    ],
+    "affected_candidates": [
+      "CHL-2023-01-E006",
+      "CHL-2023-01-E007",
+      "CHL-2023-01-E008"
+    ],
+    "required_followup": "Locate contemporaneous source material identifying each group’s issue/state target, site-specific attendance and physical end. Keep 13 January, 20 January Baquedano and 20 January Ñuñoa separate unless evidence establishes continuity or same participants."
+  },
+  {
+    "gap_id": "CHL-2023-01-G005",
+    "type": "labor_action_screen",
+    "description": "A reported SAG work stoppage at Paso Los Libertadores ended after a negotiating table but the source reports no public gathering or attendance. The official Department of Labor January strike list was discovered in search results but its underlying report was not examined.",
+    "source_ids": [
+      "CHL23-S011",
+      "CHL23-S020"
+    ],
+    "affected_candidates": [
+      "CHL-2023-01-X001"
+    ],
+    "required_followup": "If expanding the labor screen, capture and review the exact January 2023 daily-strike report and follow only actions with evidence of an eligible public assembly. Distinguish strike participants, staffing levels, service disruption and public-gathering attendance."
+  },
+  {
+    "gap_id": "CHL-2023-01-G006",
+    "type": "bounded_coverage",
+    "description": "Eight grouped searches covered general and weekly January terms, labor/health, students/Mapuche, several regions, and targeted Alto Hospicio/Dominga follow-up. This is an open-web first pass, not a complete national census, licensed-news archive search or basis for asserting that no other events occurred. Some search-only leads and four technical/tool body failures remain.",
+    "source_ids": [
+      "CHL23-S003",
+      "CHL23-S006",
+      "CHL23-S008",
+      "CHL23-S009",
+      "CHL23-S011",
+      "CHL23-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "A later reviewer may add targeted local-press, organizer and public-record searches by region and sector, retaining exact native query captures and source-level provenance. Preserve all unresolved cases and avoid absence claims."
+  }
+]

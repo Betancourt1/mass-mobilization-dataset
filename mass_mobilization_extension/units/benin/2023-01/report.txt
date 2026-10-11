@@ -1,0 +1,32 @@
+Benin January 2023 — first-pass research handoff
+
+Unit: benin_2023-01; Benin; ccode 434.
+Scope cutoff: 2026-10-07 inclusive, America/Mexico_City.
+
+Decision
+
+No event candidate met the documented evidence threshold for a public gathering of at least 50 people directed at the Beninese government or its policy. events.json is empty, as is continuations.json. This is a report of the open-web first pass, not a claim that no protest occurred. One February-start taxi-moto stoppage is excluded from January ownership as X001. No MM ID or official approval is assigned.
+
+Search and capture
+
+Captured 16 actual web-search invocations containing 28 original query strings and 386 ordered result headers. The actual invocations were saved one row each; grouped four-query calls Q001, Q005, Q009 and Q013 retain their original query arrays and full shared response headers, without invented per-query partitions. Captures preserve the exact clocks, refs, raw URLs, titles, order and original query action; snippets are omitted. The 28 query strings cover English and French broad discovery, four January week windows, student/teacher/transport/labor and other themes, north/south city searches, election-day and post-result coverage, plus December and February boundaries. No search was repeated to repair capture. A targeted exact-title search Q025 returned the same publisher’s article/index pages and no independent meeting report.
+
+The corrected search log was checked against exact-metadata adapter exports for every recorded invocation: all query strings, headers, URLs, refs, titles, order and clocks matched. The original malformed per-query export remains in search_log_revisions/initial_per_query_rows_20261010T0653Z.jsonl; the intermediate capture is also preserved. The original malformed source-log bytes remain at capture_revisions/source_log_pre_separator_fix.txt (SHA-256 4aca35f11154bca18545ed12c9252a87e08f0a12fbfd6eeb31b620a86fd9b604). Repair skipped only separators between complete JSON objects and retained the source cards’ values and order.
+
+Sources and decisions
+
+Seven source cards are retained: 2 body-read, 3 search-only, 2 blocked and 0 not found. WANEP-Bénin’s three-page election-day declaration (S003) reports 714 deployed observers, data from 686 polling posts by 15:50, and no public manifestations in 93.44% of the reported posts; it does not identify events or crowd sizes in the remaining posts. The observer and post counts are coverage figures, not protest attendance. Its aggregate results do not establish a protest or countrywide absence. [WANEP declaration URL: https://wanepbenin.org/wp-content/uploads/2024/02/Deiclaration-2_Jour-du-scr-utin-Leigislatives-2023.pdf]
+
+The opened L’Économiste du Bénin article (S006) describes a Djougou taxi-moto work stoppage on 27–28 February over a municipal annual tax, lifted 1 March. It reports no public assembly or attendance. Because the action began in February, it is X001 and not a January continuation. [Article URL: https://leconomistebenin.bj/mouvement-dhumeur-des-zemidjans-a-djougou-les-hommes-en-vert-jaune-ont-repris-le-travail/]
+
+Educ’Action S001 remains search-only: its result is displayed as 23 January 2023 but refers to negotiations on 26 January 2017; the body was unavailable. La Flamme S004 remains search-only after its exact page returned Cache miss and a normal exact-URL HTTPS request failed DNS. Search results describe APP meetings associated with the election, but attendance, execution, meeting dates and whether these were protest actions or campaign rallies are unverified; the publication is PCB-aligned. Les 4 VERITES S007 is a search-only student sit-in lead whose result age indicator is about 9.3 years; the exact date and event year are unverified. None is coded as a January 2023 event.
+
+Africa Press S002 and S005 were not opened under the inherited publisher-wide hold. The exact-target receipt for S002 returned manual_review/no-match; the explicit inherited hold still governs. S005 search text overlaps the WANEP report, but no syndication chain was established. Do not count the blocked leads as independent corroboration or seek copies during this run.
+
+Gaps and baseline
+
+Eight gaps preserve article access and chronology failures, blocked-republisher restrictions, the missing participant threshold and state-target verification, the limited incident-level detail in the poll-day report, continuity boundaries, source independence, and search coverage limits. Required follow-up is in gaps.json. Searches were in French and English; there was no systematic Fon, Yoruba, Bariba, local-radio or province-by-province archive sweep. Open-web search does not reproduce LexisNexis and does not establish completeness.
+
+The local codebook is a May 2015 historical manual covering 1990–2014; the additional coding procedure is unavailable. The authoritative current dataset version/universe remains unverified because the official Dataverse access gate is blocked, so baseline_gate remains pending_official_baseline. This dossier is provisional research material for coordinator review, not an official dataset update.
+
+Counts: 16 search invocations; 28 embedded query strings; 386 result headers; 7 sources; 0 event candidates; 1 exclusions; 0 continuations; 8 gaps. Status remains researched_open_web_pending_review.

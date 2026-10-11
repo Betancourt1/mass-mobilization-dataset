@@ -1,0 +1,26 @@
+{
+  "unit_id": "canada_2023-01",
+  "country": "Canada",
+  "month": "2023-01",
+  "agent_task": "/root/canada_2023_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T02:59:07-06:00",
+  "finished_at": "2026-10-10T03:30:40-06:00",
+  "n_queries": 14,
+  "n_sources": 16,
+  "n_candidates": 8,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "coverage_assessment": "Bounded open-web first pass: 14 captured search invocations containing 56 search strings and 440 returned result headers. English- and French-language country-wide, week-binned, province/city, labour/healthcare, climate, housing, Indigenous, and Ottawa anniversary searches were used. Eight source bodies were reviewed; seven cards remain search-only and one exact URL returned only a cache miss. Candidate leads remain pending on attendance, state-directed demands, or body evidence. CBC/Radio-Canada domain searches encountered access/robots limits; no LexisNexis/archive sweep or official original baseline was verified. This does not establish absence or exhaustive coverage.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 8,
+    "search_only_cards": 7,
+    "blocked_cards": 0,
+    "not_found_cards": 1
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 440
+  }
+}

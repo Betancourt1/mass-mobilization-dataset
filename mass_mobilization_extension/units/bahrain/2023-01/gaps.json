@@ -1,0 +1,76 @@
+[
+  {
+    "gap_id": "bahrain_2023-01_G001",
+    "type": "eligibility_target_and_participants",
+    "description": "The opened January 27 Ras al-Rumman account says “Dozens” and reports only a Sweden-focused demand. Based on the opened body alone, X001 remains a provisional foreign-target screen-out pending the unresolved S006 lead; the ≥50 threshold is unresolved. A Shiite News search-result title/snippet suggests an Al-Wefaq criticism of a Bahraini ban, but the article body was unavailable, so whether this rally also had a domestic Bahrain-policy target remains unresolved.",
+    "source_ids": [
+      "S001",
+      "S006"
+    ],
+    "query_ids": [
+      "BHR-Q002",
+      "BHR-Q009",
+      "BHR-Q010"
+    ],
+    "affected_candidates": [
+      "bahrain_2023-01_X001"
+    ],
+    "required_followup": "Retain “Dozens” without a below-50 judgment. If the exact Shiite News URL becomes ordinarily reachable after a fresh exact-URL access check and complete source-ledger review, read only that exact article; do not substitute an alternate copy, language, or host. Seek body-level evidence for any Bahrain-government demand and actual attendance precision before revisiting the provisional screen-out."
+  },
+  {
+    "gap_id": "bahrain_2023-01_G002",
+    "type": "prison_action_occurrence_and_public_assembly",
+    "description": "GIDHR and Bahrain Mirror search-only leads refer to prison communications, visitation, a possible hunger strike, and a prison conditions letter. Bodies were unavailable or not opened; execution, date precision, and any public solidarity assembly are not established.",
+    "source_ids": [
+      "S004",
+      "S005",
+      "S008"
+    ],
+    "query_ids": [
+      "BHR-Q006",
+      "BHR-Q009",
+      "BHR-Q010"
+    ],
+    "affected_candidates": [
+      "bahrain_2023-01_X002"
+    ],
+    "required_followup": "Search for body-verified, date-specific public solidarity gatherings outside prison. Keep prison statements, threatened actions, and inmate headcounts separate from public assembly and crowd attendance. Any future body attempt requires a fresh exact-URL access check and complete applicable manual ledger review."
+  },
+  {
+    "gap_id": "bahrain_2023-01_G003",
+    "type": "coverage_open_web_limits",
+    "description": "ACLED's regional search result says peaceful protests were recorded in Bahrain in January but gives no incident-level detail. Broad, weekly, locality, sector, source-domain, and Arabic/English searches produced no other body-verified January public assembly meeting the threshold and domestic-target screen. This is not evidence that no such event occurred; source indexing and the unavailable ACLED article limit incident-level coverage.",
+    "source_ids": [
+      "S007"
+    ],
+    "query_ids": [
+      "BAHRAIN-RECOVER-001",
+      "BHR-Q002",
+      "BHR-Q003",
+      "BHR-Q004",
+      "BHR-Q005",
+      "BHR-Q007",
+      "BHR-Q008",
+      "BHR-Q009",
+      "BHR-Q010",
+      "BHR-Q011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Pursue only focused, event-level leads in national/local Arabic and English reporting or archived activist/rights reporting; preserve publisher, source-family, and scope limitations. Do not treat ACLED aggregate wording as an event or broaden an access failure into a host-wide denial."
+  },
+  {
+    "gap_id": "bahrain_2023-01_G004",
+    "type": "adjacent_month_continuity",
+    "description": "December 2022 and February 2023 were searched for adjacent context. February anniversary search results concern separately dated February activity; no evidence links a January-started assembly or campaign to continued physical activity in February. No continuing event is coded.",
+    "source_ids": [
+      "S008"
+    ],
+    "query_ids": [
+      "BHR-Q006",
+      "BHR-Q008",
+      "BHR-Q010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Revisit continuity only if a dated Jan-to-Feb source identifies the same physical action or qualifying ongoing assembly. Do not infer continuity from a recurring political campaign or a February anniversary."
+  }
+]

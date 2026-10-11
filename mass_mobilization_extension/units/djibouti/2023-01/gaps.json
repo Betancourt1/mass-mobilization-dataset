@@ -1,0 +1,128 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "dates",
+    "description": "The onset of any physical demonstration is undated. S001 links weekly protests to a reported 30 January killing but does not give the first gathering date; S002 and S005 give different/overlapping death dates. January ownership and the death chronology remain unresolved.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005"
+    ],
+    "affected_candidates": [
+      "djibouti_2023-01-E001"
+    ],
+    "required_followup": "Seek contemporaneous, independent reporting that dates the first actual gathering and clarifies the death chronology; do not infer a protest date from the precipitating death."
+  },
+  {
+    "gap_id": "G002",
+    "type": "participants",
+    "description": "No individual gathering has an attendance figure or qualitative size evidence sufficient to establish the 50-person threshold.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "djibouti_2023-01-E001"
+    ],
+    "required_followup": "Find event-specific attendance estimates or a clear description of crowd scale for each dated gathering."
+  },
+  {
+    "gap_id": "G003",
+    "type": "state_target",
+    "description": "The sources associate protests with a death in police custody but report no exact demonstrator demand and do not establish a demand directed to the Djiboutian government or its policy.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "djibouti_2023-01-E001"
+    ],
+    "required_followup": "Find contemporaneous accounts stating protest demands and their target; do not infer a government-directed demand from the trigger alone."
+  },
+  {
+    "gap_id": "G004",
+    "type": "episode_unit",
+    "description": "S001 mentions recurring demonstrations in Dikhil, As-Eyla, and Kouta Bouya, without dates, organizers, coordination details, or site-level attendance. It is unclear whether these were one coordinated action or separate local episodes.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "djibouti_2023-01-E001"
+    ],
+    "required_followup": "Establish dates and evidence for each site, and whether organizers, demands, and coordination make them one or multiple episodes."
+  },
+  {
+    "gap_id": "G005",
+    "type": "dates",
+    "description": "No physical end date is reported. The 6 March communiqué is a last observation of weekly demonstrations, not evidence that the episode ended on that date.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "djibouti_2023-01-E001"
+    ],
+    "required_followup": "Check later contemporaneous coverage for the last physical gathering or explicit cessation; keep last observation separate from event end."
+  },
+  {
+    "gap_id": "G006",
+    "type": "state_response",
+    "description": "No response to these demonstrations is established. S001 separately describes 5–6 March Gobaad raids and clashes in a land-settlement context; those are not assigned to this candidate. Protester violence is also unreported, not disproven.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "djibouti_2023-01-E001"
+    ],
+    "required_followup": "Find accounts that explicitly connect any state response or protester violence to a dated gathering in this candidate."
+  },
+  {
+    "gap_id": "G007",
+    "type": "source_access",
+    "description": "The exact State Department page produced a reader-generated technical-difficulties response ending “Exception: forbidden”, without an observed HTTP status or report body. The La Nation CNDH page remained unread after a cache miss and DNS failure before HTTP. These are not coded as verified HTTP denials.",
+    "source_ids": [
+      "S002",
+      "S005"
+    ],
+    "affected_candidates": [
+      "djibouti_2023-01-E001"
+    ],
+    "required_followup": "If retrieval is later considered, use a fresh exact-URL receipt and manual scope review before any request; retain technical-failure and no-body limits unless an actual response is observed."
+  },
+  {
+    "gap_id": "G008",
+    "type": "source_independence",
+    "description": "The only opened event-specific account is a FRUD communiqué reproduced by ARDHD. S003 and S004 are from the same origin/publisher; S006 reproduces the State Department report and S007 is a URL wrapper, so they are not independent confirmations.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "djibouti_2023-01-E001"
+    ],
+    "required_followup": "Seek genuinely independent contemporaneous local or regional reporting and record story origins/syndication before counting corroboration."
+  },
+  {
+    "gap_id": "G009",
+    "type": "language_coverage_search_method",
+    "description": "Ten open-web searches included English, French, Arabic, and Somali terms; coverage was bounded. No Afar-language search or systematic local newspaper/archive review was performed, and public search is not equivalent to LexisNexis. Search-result volume does not establish completeness.",
+    "source_ids": [],
+    "affected_candidates": [
+      "djibouti_2023-01-E001"
+    ],
+    "required_followup": "Use bounded French, Somali, Afar, and Arabic local-media/archive searches if an approved later pass is available; document inaccessible archives and query results without claiming absence."
+  },
+  {
+    "gap_id": "G010",
+    "type": "baseline",
+    "description": "The original official codebook, baseline universe, and approval criteria have not been verified for this draft. No candidate is officially approved.",
+    "source_ids": [],
+    "affected_candidates": [
+      "djibouti_2023-01-E001"
+    ],
+    "required_followup": "Coordinator must verify the official baseline, source license, and coding rules in a separate reviewed stage before any official mapping or integration."
+  }
+]

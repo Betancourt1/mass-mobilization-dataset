@@ -1,0 +1,103 @@
+[
+  {
+    "gap_id": "ecuador_2023-01_G001",
+    "type": "attendance_threshold",
+    "description": "The January 19 morning FUT sit-in at Edificio Zarzuela is body-confirmed, but S001 gives no attendee count. It must remain separate from the afternoon march; its threshold is unresolved.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-01_E002"
+    ],
+    "required_followup": "If additional source review is authorized, seek a report that counts people simultaneously at the sit-in; do not transfer the afternoon march's estimate."
+  },
+  {
+    "gap_id": "ecuador_2023-01_G002",
+    "type": "attendance_threshold",
+    "description": "S003 confirms a January 18–20 Petroecuador protest but reports no number of people present at the office site.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-01_E003"
+    ],
+    "required_followup": "Seek site-specific turnout evidence under the access protocol; retain pending_threshold until at least 50 simultaneous participants are established."
+  },
+  {
+    "gap_id": "ecuador_2023-01_G003",
+    "type": "event_end",
+    "description": "S001 reports the FUT march reaching Plaza Sixto Durán Ballén after 17:00 but gives no physical dispersal/end time.",
+    "source_ids": [
+      "S001",
+      "S009"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-01_E001"
+    ],
+    "required_followup": "Use a source that reports the march's actual conclusion; do not substitute arrival, publication time, or a later planned march."
+  },
+  {
+    "gap_id": "ecuador_2023-01_G004",
+    "type": "source_access",
+    "description": "The January 12 Babahoyo debt-condonation march appears only as a planned action in search-only sources S013, S021, and S004. S020's exact URL returned an explicit 403 and is held exact-URL; occurrence, turnout, and end are unresolved.",
+    "source_ids": [
+      "S004",
+      "S013",
+      "S020",
+      "S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry S020 or its wrappers. If an unrelated source becomes necessary after ROOT explicitly reopens the body window, obtain a fresh exact-source receipt and complete manual scope review first; otherwise retain this gap."
+  },
+  {
+    "gap_id": "ecuador_2023-01_G005",
+    "type": "search_only_lead",
+    "description": "Search-only S031 is a Reddit result title about Seguro Campesino affiliates announcing a national mobilization; S032 is an El Universo planning headline about the January 19 FUT mobilization. Neither body was opened, so date, execution, turnout, relationship to E001/E002, and any December-to-January continuation are unverified.",
+    "source_ids": [
+      "S007",
+      "S026",
+      "S031",
+      "S032"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-01_E001",
+      "ecuador_2023-01_E002"
+    ],
+    "required_followup": "Keep both as leads. If body access later becomes authorized and useful, perform the exact-URL receipt and full manual scope gate before each attempt; do not infer execution or continuity from headlines."
+  },
+  {
+    "gap_id": "ecuador_2023-01_G006",
+    "type": "violence_and_state_response",
+    "description": "E001 and E002 have no event-specific state response established by the opened reports; protester violence is also unreported. For E003, the company reports an EMCO agreement, while other response dimensions and protester violence are unreported. Unknown values are intentional and silence is not coded as absence.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S009"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-01_E001",
+      "ecuador_2023-01_E002",
+      "ecuador_2023-01_E003"
+    ],
+    "required_followup": "Retain unknowns unless event-specific evidence establishes a response or violence; do not infer absence from silence or from the company's non-disruption statement."
+  },
+  {
+    "gap_id": "ecuador_2023-01_G007",
+    "type": "coverage_limit",
+    "description": "Four source bodies were read across 14 native web searches; 27 cards remain search-only and one exact URL is blocked. Searches included January coverage and a December–January continuity query, but they do not establish complete national or all-language coverage; LexisNexis was not searched.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S009",
+      "S020",
+      "S031",
+      "S032"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-01_E001",
+      "ecuador_2023-01_E002",
+      "ecuador_2023-01_E003"
+    ],
+    "required_followup": "Treat unlocated events as not found in this bounded search, not as absent. Broaden coverage only through coordinator-approved continuation under the same source gate."
+  }
+]

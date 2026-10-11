@@ -1,0 +1,141 @@
+[
+  {
+    "gap_id": "botswana_2023-01_G001",
+    "type": "episode_unit",
+    "description": "The three kgotla meeting leads in the 18 January DailyNews issue have incomplete event dates (“recently” or “Wednesday”), so their month ownership is not established.",
+    "source_ids": [
+      "botswana_2023-01_S007"
+    ],
+    "affected_candidates": [
+      "botswana_2023-01_E001",
+      "botswana_2023-01_E002",
+      "botswana_2023-01_E003"
+    ],
+    "required_followup": "Find contemporaneous records with exact meeting dates; preserve null dates until verified and route any pre-January episode to its actual start month."
+  },
+  {
+    "gap_id": "botswana_2023-01_G002",
+    "type": "participants",
+    "description": "DailyNews gives no attendance estimates for the Nokaneng, Sefhophe, or Mmutlane meetings, so none is known to meet the >=50 threshold.",
+    "source_ids": [
+      "botswana_2023-01_S007"
+    ],
+    "affected_candidates": [
+      "botswana_2023-01_E001",
+      "botswana_2023-01_E002",
+      "botswana_2023-01_E003"
+    ],
+    "required_followup": "Seek a separate contemporary attendance report, organizer count, or photograph with safely interpretable scope; do not derive turnout from a kgotla venue or village population."
+  },
+  {
+    "gap_id": "botswana_2023-01_G003",
+    "type": "state_target",
+    "description": "The three reports describe concerns and requests raised during kgotla meetings but do not establish whether the meetings were protests/public actions rather than routine community consultations.",
+    "source_ids": [
+      "botswana_2023-01_S007"
+    ],
+    "affected_candidates": [
+      "botswana_2023-01_E001",
+      "botswana_2023-01_E002",
+      "botswana_2023-01_E003"
+    ],
+    "required_followup": "Consult the original MM codebook when available and seek contemporaneous reporting on how each meeting was convened and whether participants acted collectively to press the demands."
+  },
+  {
+    "gap_id": "botswana_2023-01_G004",
+    "type": "state_response",
+    "description": "Officials spoke or responded in the same meeting reports, but the relationship between those statements and any qualifying protest is unclear; all seven response variables remain unknown.",
+    "source_ids": [
+      "botswana_2023-01_S007"
+    ],
+    "affected_candidates": [
+      "botswana_2023-01_E001",
+      "botswana_2023-01_E002",
+      "botswana_2023-01_E003"
+    ],
+    "required_followup": "Only code a state response after establishing event eligibility and a direct link between the response and that public action; retain all unknowns until then."
+  },
+  {
+    "gap_id": "botswana_2023-01_G005",
+    "type": "source_access",
+    "description": "The 16 January DailyNews PDF search excerpt mentions complaints during kgotla meetings in several villages, but the exact PDF open returned a tool fetch error and ordinary HTTPS failed DNS before HTTP. No denial was observed.",
+    "source_ids": [
+      "botswana_2023-01_S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If the exact public URL becomes ordinarily reachable, obtain a fresh access receipt before retrieval and inspect the original issue; do not convert the search excerpt into a candidate fact."
+  },
+  {
+    "gap_id": "botswana_2023-01_G006",
+    "type": "source_access",
+    "description": "Guardian Sun and Mmegi pages are login/signup gated after partial leads. Their visible portions do not establish a January public gathering, turnout, or event eligibility.",
+    "source_ids": [
+      "botswana_2023-01_S001",
+      "botswana_2023-01_S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use only a separately published, ordinary public source if available; do not log in, bypass the gate, or treat a snippet as body evidence."
+  },
+  {
+    "gap_id": "botswana_2023-01_G007",
+    "type": "coverage",
+    "description": "Searches covered generic and weekly English queries, Setswana terms, labor/student/land/prices/policing sectors, local official press, regional results, and retrospective human-rights reporting. Open-web indexing does not reproduce LexisNexis and cannot establish that no protest occurred.",
+    "source_ids": [
+      "botswana_2023-01_S003",
+      "botswana_2023-01_S005",
+      "botswana_2023-01_S006",
+      "botswana_2023-01_S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue with accessible contemporaneous local/regional archives and verify any newly surfaced episode; report coverage limits rather than asserting absence."
+  },
+  {
+    "gap_id": "botswana_2023-01_G008",
+    "type": "language",
+    "description": "Setswana terms were searched, and the Jan 18 DailyNews issue contains relevant Setswana reporting. Translation and local terminology have not received an independent language review.",
+    "source_ids": [
+      "botswana_2023-01_S007"
+    ],
+    "affected_candidates": [
+      "botswana_2023-01_E001",
+      "botswana_2023-01_E002",
+      "botswana_2023-01_E003"
+    ],
+    "required_followup": "Review the original Setswana wording with the codebook and a competent independent language reviewer before definitive event classification."
+  },
+  {
+    "gap_id": "botswana_2023-01_G009",
+    "type": "source_independence",
+    "description": "The kgotla leads are reported within one official DailyNews/BOPA issue; the Africa-Press search result was not opened under the inherited publisher hold and is not independent confirmation.",
+    "source_ids": [
+      "botswana_2023-01_S007",
+      "botswana_2023-01_S009"
+    ],
+    "affected_candidates": [
+      "botswana_2023-01_E001",
+      "botswana_2023-01_E002",
+      "botswana_2023-01_E003"
+    ],
+    "required_followup": "Seek independent contemporaneous reporting or local records; retain the source-origin relationship and do not count a republication as confirmation."
+  },
+  {
+    "gap_id": "botswana_2023-01_G010",
+    "type": "source_access",
+    "description": "The 2023 U.S. Department of State report appeared in search results, but manual review found multiple prior actual 403/“Technical Difficulties” records for other country-report pages on the same archive host; the target itself was not requested.",
+    "source_ids": [
+      "botswana_2023-01_S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Reassess only if the exact primary URL becomes ordinarily available without using an alternate copy to evade a restriction; no January absence claim follows from the search excerpts."
+  },
+  {
+    "gap_id": "botswana_2023-01_G011",
+    "type": "source_access",
+    "description": "The exact Botswana Gazette 25 January 2023 PDF URL returned HTTP 403 after a scoped pre-request review. No issue content was read.",
+    "source_ids": [
+      "botswana_2023-01_S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry this URL or use an alternate route/copy to evade the denial. If an independent, ordinarily accessible source reports a relevant event, obtain its own fresh exact-URL receipt and preserve separate provenance."
+  }
+]

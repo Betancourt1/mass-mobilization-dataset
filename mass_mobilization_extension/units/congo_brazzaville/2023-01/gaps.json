@@ -1,0 +1,76 @@
+[
+  {
+    "gap_id": "CB2301-G001",
+    "type": "coverage",
+    "description": "The eight captured open-web invocations searched the Republic of the Congo/Congo-Brazzaville in English and French, including four weekly date windows, local media, worker sectors, fuel policy, human-rights reporting, and adjacent-month follow-up. Open-web results are not an exhaustive press archive; no LexisNexis-equivalent archive was searched. The absence of a qualifying result is not evidence that no event occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "When accessible, compare against systematic local and international press archives and official or civil-society event records; keep the current unit open until that coverage is available."
+  },
+  {
+    "gap_id": "CB2301-G002",
+    "type": "episode_unit",
+    "description": "A partial 26 January 2023 newspaper issue reports that the University Marien-Ngouabi intersyndical made a declaration public in Brazzaville on 24 January. It sought a larger university budget, but the excerpt does not say whether an in-person public meeting, press event, strike, or demonstration occurred, nor how many people attended. The declaration date cannot be substituted for an event start date.",
+    "source_ids": [
+      "CB2301-S001",
+      "CB2301-S012",
+      "CB2301-S013",
+      "CB2301-S014"
+    ],
+    "affected_candidates": [
+      "CB2301-X002"
+    ],
+    "required_followup": "Obtain the full declaration and contemporaneous account or minutes; determine whether a physical gathering occurred, its actual date and public format, whether at least 50 were present, and any state response. Coordinate with the February 2023 unit: the search lead places a separate UMNG strike from 18 February, which must not be backdated or automatically merged into January."
+  },
+  {
+    "gap_id": "CB2301-G003",
+    "type": "search_method",
+    "description": "The fuel-price search found a 5 percent increase announced for 31 January and a TV5MONDE report of user concern, but no verified gathering or strike. RFI search results were blocked by robots.txt during the grouped search invocation; no retry or alternate copy was used.",
+    "source_ids": [
+      "CB2301-S005",
+      "CB2301-S006",
+      "CB2301-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check accessible local transport-union, consumer-group, and contemporaneous press material around 31 January and early February for an executed action, participant count, and state target. Keep the Africa-Press body closed under the inherited hold."
+  },
+  {
+    "gap_id": "CB2301-G004",
+    "type": "dates",
+    "description": "Amnesty International’s 2022/23 report search excerpt says police beat three people in Brazzaville in “early January,” with one reported death, but does not state the year in the excerpt. Its annual report context points to 2022; the excerpt also does not identify a qualifying public gathering. It is not evidence of a January 2023 event or of violence against a protest in this unit.",
+    "source_ids": [
+      "CB2301-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If this allegation is relevant to another month, locate the contemporaneous CAD/OCDH account and court reporting to establish the actual year, incident context, and whether any public assembly occurred; do not attribute it to a January 2023 protest without that evidence."
+  },
+  {
+    "gap_id": "CB2301-G005",
+    "type": "source_access",
+    "description": "Two relevant discovery leads remain behind inherited publisher holds: AP (the Goma false-positive) and Africa-Press (a fuel-price policy report). Their exact-URL access-check receipts returned manual_review/no-match, which did not override the saved cross-unit publisher holds. No bodies or syndication copies were requested.",
+    "source_ids": [
+      "CB2301-S007",
+      "CB2301-S008"
+    ],
+    "affected_candidates": [
+      "CB2301-X001"
+    ],
+    "required_followup": "Retain the restrictions and seek accessible original reporting or other independent sources where useful; never use a copy or alternate URL to bypass either hold."
+  },
+  {
+    "gap_id": "CB2301-G006",
+    "type": "baseline",
+    "description": "The original MM codebook/Coding Procedure and a current official baseline were not available to this worker for direct verification. Screening therefore follows the supplied protocol; the official-baseline gate remains pending.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve the original manual, any separate Coding Procedure, current official release, universe, schema, and reuse conditions before any official-status decision."
+  },
+  {
+    "gap_id": "CB2301-G007",
+    "type": "language",
+    "description": "The bounded local-language pass used French and English search terms. Lingala and Kituba terms, offline local archives, and subscription news databases were not searched.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If later evidence or local-language expertise is available, search Lingala and Kituba terms and local archive holdings; preserve the search terms and any empty results."
+  }
+]
