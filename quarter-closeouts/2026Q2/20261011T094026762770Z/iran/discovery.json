@@ -1,0 +1,174 @@
+{
+  "country": "Iran",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "search_window_utc": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+    "targeted_queries": 10,
+    "coverage": "At least two targeted searches per month (English plus local-language terms where feasible), with focused follow-ups noted in search_history.",
+    "limitations": [
+      "Search engines returned stale material, wrong-year/location hits, and sometimes low-quality pages.",
+      "The web tool does not expose exact per-request UTC timestamps; the recorded UTC bracket comes from clock readings before and after this search/open sequence.",
+      "No finding in this pass does not establish that no protest or mobilization occurred."
+    ]
+  },
+  "search_history": [
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Iran protest demonstration strike workers April 2026 Iran labor social protest",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-04",
+      "language": "Persian",
+      "query": "ایران اعتراضات کارگری تجمع اعتصاب فروردین ۱۴۰۵ آوریل ۲۰۲۶",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Iran protest demonstration strike workers May 2026 Iran labor social protest",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "Persian",
+      "query": "ایران اعتراضات کارگری اردیبهشت ۱۴۰۵ تجمع کارگران اعتصاب اردیبهشت 2026",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Iran protest demonstration strike workers June 2026 Iran labor social protest",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "Persian",
+      "query": "ایران اعتراضات خرداد ۱۴۰۵ تجمع اعتراضی اعتصاب کارگران خرداد 2026",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Iran May Day 2026 protest workers May 1 Tehran May 2026",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "Persian",
+      "query": "Iran demonstrations workers May 2026 Ordibehesht 1405 اعتراضات کارگری",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Iran June 2026 student protests Tehran",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Iran June 2026 worker protests retirees demonstrations June 29",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "IR-2026-04-29-workers-retirees-protests",
+      "month": "2026-04",
+      "event_type": "multiple labor/retiree demonstrations",
+      "status": "reported event; provisional",
+      "actors": "Steel industry retirees; railway infrastructure workers",
+      "locations": [
+        "Isfahan and Tehran; railway work sites in Dorud, Lorestan and Andimeshk"
+      ],
+      "event_date": "2026-04-28 to 2026-04-29 (page says gatherings occurred on Apr 29 and railway workers were on second consecutive day)",
+      "publication_date": "2026-04-29 (Gregorian search metadata; source page shows Solar Hijri 1405/02/09)",
+      "sources": [
+        {
+          "title": "دستکم ۴ تجمع اعتراضی برگزار شد",
+          "url": "https://www.hra-news.org/2026/hranews/a-9a153972/",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "بازنشستگان صنایع فولاد در اصفهان و تهران",
+          "provenance": "HRA News / Human Rights Activists News Agency; directly opened in Persian. The page says its reporting cites ILNA for these gatherings and separately reports railway workers."
+        }
+      ],
+      "assessment": "Specific worker and pensioner gatherings are reported at identifiable places and dates. Retain provisionally; the report is a rights-monitoring outlet citing labor news, not direct participant documentation.",
+      "uncertainty": "Translation/calendar date conversion follows Gregorian date in search metadata; the page date is Solar Hijri. Report groups multiple gatherings under one page, not necessarily a single coordinated event."
+    },
+    {
+      "id": "IR-2026-06-01-02-student-protests",
+      "month": "2026-06",
+      "event_type": "student demonstrations and sit-ins",
+      "status": "reported event; provisional, source affiliation caveat",
+      "actors": "Students; parents reported at a related June 1 action",
+      "locations": [
+        "Tehran, Mashhad, Hamadan; Khorramabad on June 1"
+      ],
+      "event_date": "2026-06-01 to 2026-06-02",
+      "publication_date": "2026-06-02",
+      "sources": [
+        {
+          "title": "Iranian Students and Workers Stage Protests Amid Record-Breaking 80-Year Inflation High",
+          "url": "https://www.ncr-iran.org/en/news/economy/iranian-students-and-workers-stage-protests-amid-record-breaking-80-year-inflation-high/",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "widespread student protests erupted across major Iranian cities",
+          "provenance": "NCR-Iran public article directly opened. It describes June 2 gatherings and June 1 Khorramabad action and cites linked reports/social media."
+        }
+      ],
+      "assessment": "Specific June student demonstrations/sit-ins are described, with demands tied to exam and grading changes. Keep as provisional pending independent corroboration.",
+      "uncertainty": "NCR-Iran is affiliated with an opposition organization and article relies partly on linked reports and social-media material; this affects source weighting, not proof of falsity."
+    },
+    {
+      "id": "IR-2026-06-21-22-protest-aggregator",
+      "month": "2026-06",
+      "event_type": "reported multi-city social demonstrations",
+      "status": "weak, inaccessible lead; do not code pending corroboration",
+      "actors": "Students, retirees, workers reportedly",
+      "locations": "Several Iranian cities, unspecified in search snippet",
+      "event_date": "2026-06-21 to 2026-06-22 (Solar Hijri 1405/03/31–04/01)",
+      "publication_date": "2026-06-22",
+      "sources": [
+        {
+          "title": "موج تازه تجمع‌های اعتراضی شهرهای مختلف ایران را فرا گرفت",
+          "url": "https://www.balatarin.com/permlink/2026/6/22/6465141",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "موج تازه‌ای از تجمع‌های اعتراضی در شهرهای مختلف ایران شکل گرفت",
+          "provenance": "Balatarin public search result; opening hit a browser verification/reCAPTCHA page, so only snippet reviewed."
+        }
+      ],
+      "assessment": "Search-only aggregator item, retained solely for further checking; no details or corroboration obtained.",
+      "uncertainty": "Low reliability/access. Do not count as validated event."
+    }
+  ],
+  "excluded_or_contextual_results": [
+    {
+      "title": "2025–2026 Iranian protests",
+      "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iranian_protests",
+      "reason": "Search result describes main protest phases through March 31, 2026; late-April internet-access disputes are statements/refusals, not clearly public demonstrations. Not used as event evidence."
+    },
+    {
+      "title": "تجمع اعتراضی کارگران و بازنشستگان به مناسبت روز جهانی کارگر",
+      "url": "https://www.facebook.com/AlArabiya.Farsi/videos/1093355541141494/",
+      "reason": "Search snippet identifies the gathering as May Day 2021, not 2026; excluded wrong year."
+    },
+    {
+      "title": "Iran Protest: Diverse Sectors Take To The Streets Over Economic And Environmental Crises",
+      "url": "https://www.eurasiareview.com/30062026-iran-protest-diverse-sectors-take-to-the-streets-over-economic-and-environmental-crises-oped/",
+      "reason": "Search snippet suggests June 29 protests but direct page open returned 403. Search-only secondary opinion lead not used as confirmed event."
+    }
+  ],
+  "no_findings_by_month": {
+    "2026-04": "HRA News surfaced an April 29 worker/retiree lead. No other April event was confirmed in this pass.",
+    "2026-05": "No dated May 2026 event was confirmed. May Day social-search snippets lacked accessible publication/event dates; older 2021 item excluded.",
+    "2026-06": "Student demonstrations June 1–2 reported; June 21–22 aggregator snippet and June 29 inaccessible article remain weak leads, not event coding."
+  },
+  "failures_and_follow_up": [
+    "Balatarin June 22 page blocked open with reCAPTCHA; snippet only.",
+    "Eurasia Review June 29 page returned 403; no paywall or access control bypass attempted.",
+    "Persian Facebook May Day result was not opened and had no clear 2026 date; excluded."
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "status": "provisional_public_source_discovery",
+  "country": "Angola",
+  "coverage_window": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "scope": "Public-source discovery only; no canonical records or completion claims.",
+  "handoff": {
+    "eligibility_basis": "Coordinator explicitly confirmed the owner's audited handoff: current inventory identifies these three monthly units as new and unclaimed, with no partial or completed work.",
+    "schema_or_validation_kit": "Pending; none supplied or applied.",
+    "boundary": "This is not a completed or validated event dataset. A no-findings search does not establish that no event occurred."
+  },
+  "query_log": [
+    {
+      "batch": "coordinator_initial_search",
+      "accessed_at_utc": "2026-10-11T03:02:17Z",
+      "query": "Angola protest demonstration April May June2026 Luanda",
+      "reported_result_summary": "Mostly historical 2025/2024 pages; coordinator specifically flagged HRW World Report 2026 as covering 2025 events and an HRF August 2026 page recalling July 2025 protests."
+    },
+    {
+      "batch": "exploratory_round_1",
+      "access_window_utc": ["2026-10-11T03:02:17Z", "2026-10-11T03:04:50Z"],
+      "time_precision_note": "Clock was not sampled around each exploratory call; this bounded window covers the searches before the timestamped ledger batches.",
+      "queries": [
+        "Angola protesto manifestação abril 2026 Luanda",
+        "Angola greve trabalhadores abril 2026",
+        "Angola protest May 2026 Luanda demonstration",
+        "Angola labor strike May 2026",
+        "site:verangola.net Angola abril 2026 greve manifestação protesto",
+        "site:club-k.net Angola Abril 2026 manifestação greve trabalhadores",
+        "Angola protest June 2026 demonstration strike Luanda",
+        "Angola greve manifestação junho 2026",
+        "Angola junho de 2026 greve manifestação protesto Luanda trabalhadores",
+        "Angola June 2026 strike protest demonstrations Angola news",
+        "site:verangola.net/va/en/062026 Angola strike protest",
+        "site:angola24horas.com 2026 junho protesto manifestação greve",
+        "Angola June 2026 workers strike protest Luanda",
+        "Angola June 2026 public demonstrations activists",
+        "Angola junho de 2026 paralisação greve trabalhadores Luanda",
+        "Angola junho 2026 marcha protesto manifestação Luanda",
+        "Angola April 2026 strike workers demonstration protest Luanda",
+        "Angola abril 2026 manifestação trabalhadores marcha greve Luanda",
+        "site:dw.com/pt-002 Angola 2026 abril manifestação",
+        "site:voaportugues.com Angola abril 2026 manifestação greve",
+        "Angola ELISAL greve junho 2026 16 junho trabalhadores",
+        "\"ELISAL\" \"greve\" \"2026\" Angola junho",
+        "\"greve nos media\" Angola junho 2026 jornalistas",
+        "Angola strike \"June 1\" \"2026\" media strike",
+        "Angola ex-workers Sonangol protest April 6 2026 Luanda",
+        "\"manifestação dos ex-trabalhadores\" Sonangol Abril 2026",
+        "\"trabalhadores da Sonangol\" protesto 6 de abril 2026 Luanda",
+        "\"Hermenegildo Caculo\" Sonangol protest 2026 April 6",
+        "Angola ELISAL strike began 11 June 2026 workers strike",
+        "\"11 de Junho\" ELISAL greve 2026",
+        "Angola journalists May 18 strike suspended May 15 2026",
+        "\"suspensão da primeira fase\" greve \"15 de Maio\" 2026 Angola jornalistas"
+      ]
+    },
+    {
+      "batch": "month_coverage_ledger",
+      "access_window_utc": ["2026-10-11T03:04:51Z", "2026-10-11T03:05:02Z"],
+      "queries": [
+        {"month": "2026-04", "language": "English", "query": "Angola April 2026 protest demonstration Luanda"},
+        {"month": "2026-04", "language": "Portuguese", "query": "Angola abril 2026 protesto manifestação Luanda"},
+        {"month": "2026-05", "language": "English", "query": "Angola May 2026 strike demonstration protest Luanda"},
+        {"month": "2026-05", "language": "Portuguese", "query": "Angola maio 2026 greve manifestação protesto Luanda"},
+        {"month": "2026-06", "language": "English", "query": "Angola June 2026 strike protest demonstration Luanda"},
+        {"month": "2026-06", "language": "Portuguese", "query": "Angola junho 2026 greve protesto manifestação Luanda"}
+      ],
+      "summary": "Portuguese and English targeted queries were run for each coverage month. Results were noisy; discovery leads were verified by opening accessible pages or are explicitly marked snippet-only/unverified."
+    },
+    {
+      "batch": "lead_confirmation_searches",
+      "access_window_utc": ["2026-10-11T03:05:20Z", "2026-10-11T03:05:26Z"],
+      "queries": [
+        "Angola April 2026 Sonangol former workers protest Luanda CPJ",
+        "Angola abril de 2026 protesto manifestação Luanda",
+        "Angola May 2026 public media strike May 18 suspended",
+        "Angola maio 2026 greve jornalistas suspensa 18 maio",
+        "Angola June 2026 ELISAL workers strike Luanda",
+        "Angola junho de 2026 ELISAL greve trabalhadores Luanda",
+        "Angola June 2026 Sonangol former workers protests June",
+        "Angola junho 2026 manifestação trabalhadores ex-Sonangol"
+      ]
+    }
+  ],
+  "provisional_leads": [
+    {
+      "lead_id": "AGO-2026-04-sonangol-former-workers",
+      "month": "2026-04",
+      "event_date_as_reported": ["2026-04-06", "2026-04-01 (same protest; coverage attempt/detention reported)"],
+      "location": "Luanda, by the Sonangol building; CPJ places a reporter's detention at a nearby protest site in Ingombota.",
+      "actors_and_action": "Former employees of national oil company Sonangol protested; CPJ reports a journalist attempting to cover the action was detained.",
+      "publication_date": "2026-04-17 10:36 EDT (CPJ page; UTC offset not normalized here)",
+      "source_ids": ["S-APR-CPJ"],
+      "provenance": "CPJ says the account came from reporter Hermenegildo Caculo and his lawyer; it separately says the reporter had also tried to cover the same ex-workers' protest on Apr 1.",
+      "uncertainty": "One accessible source in this pass; it does not independently corroborate the protest or provide participant counts/demands. Keep Apr 1 and Apr 6 as dates requiring event-level review rather than assuming they are separate or identical event records.",
+      "discovery_status": "candidate; not validated"
+    },
+    {
+      "lead_id": "AGO-2026-06-elisal-strike",
+      "month": "2026-06",
+      "event_date_as_reported": ["2026-06-11 through first phase reported as ongoing on 2026-06-12; return-to-work reported for 2026-06-16"],
+      "location": "ELISAL facilities and municipal waste collection operations, Luanda.",
+      "actors_and_action": "ELISAL workers conducted an intermittent labor strike over wages, allowances, working conditions and related demands. On Jun 12, the union alleged police used tear gas and detained six union members; ELISAL disputed the strike's legality and said some services continued.",
+      "publication_dates": [
+        {"source_id": "S-JUN-VOZ", "date": "2026-06-12"},
+        {"source_id": "S-JUN-NJ", "date": "2026-06-16 11:44 (local page timestamp; timezone unspecified)"},
+        {"source_id": "S-JUN-CIAM", "date": "2026-06-16"}
+      ],
+      "source_ids": ["S-JUN-VOZ", "S-JUN-NJ", "S-JUN-CIAM"],
+      "provenance": "Voz de Angola article attributes its account to Lusa and quotes a union representative plus ELISAL's communications director. Novo Jornal reports the strike and quotes company and union representatives. CIAM reports the provincial government account.",
+      "uncertainty": "Source accounts differ on duration: the union account on Jun 12 says seven days for the first phase; CIAM reports four days of service stoppage; Novo Jornal reports the Jun 11 start and return on Jun 16 after the first phase. Jun 12 detention/repression allegations are attributed to union sources; police did not answer Lusa's request for comment. Counts and exact event boundaries require validation.",
+      "discovery_status": "candidate; multi-source public reporting, not validated"
+    }
+  ],
+  "planned_or_excluded_items": [
+    {
+      "item_id": "AGO-2026-05-public-media-strike-announced-then-suspended",
+      "month": "2026-05",
+      "publication_dates": ["2026-05-11", "2026-05-15"],
+      "planned_dates": ["2026-05-18", "2026-05-20"],
+      "disposition": "Do not treat as a realized May strike based on this pass. Lusa/Club of Mozambique reported the planned first phase; a May 15 report says the union accepted a government proposal and suspended it before the announced start.",
+      "uncertainty": "May 11 sources vary between a planned end date of May 20 and May 21. May 15 report was accessible in search results, while direct opening was blocked by a verification page. Search/open details are recorded in source ledger."
+    },
+    {
+      "item_id": "AGO-2026-06-sonangol-action-announcement-unverified",
+      "month": "2026-06",
+      "publication_date_as_indexed": "2026-05-28 (search result) / page currently displays 2026-09-08; conflict",
+      "planned_dates_as_page_reports": ["2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-06"],
+      "disposition": "Do not count as confirmed June events. The accessible page claims former Sonangol workers had returned to protest and announced dates in June, but its displayed date conflicts with the search index and the stated planned dates predate the displayed date. No corroboration was found in the targeted follow-up searches.",
+      "source_ids": ["S-SONANGOL-PLAN"]
+    },
+    {
+      "item_id": "AGO-2026-04-papal-mass-crowd",
+      "month": "2026-04",
+      "event_date": "2026-04-19",
+      "publication_date": "2026-04-19 09:25 UTC (Reuters page; updated Apr 20)",
+      "disposition": "Excluded from protest leads: Reuters describes a papal mass and religious shrine visit, a large crowd but no protest action.",
+      "source_ids": ["S-APR-REUTERS-MASS"]
+    },
+    {
+      "item_id": "older-angola-protests-and-strikes",
+      "disposition": "Excluded wrong event year. Searches repeatedly surfaced Angola's July 2025 fuel protests and older actions (including 2023, 2024, and 2018). HRW's World Report 2026 page expressly labels its coverage as events of 2025; page/report year is not the event year.",
+      "source_ids": ["S-HRW-2026-REPORT", "S-AMNESTY-NILA", "S-OLDER-2025-AP"]
+    },
+    {
+      "item_id": "foreign-location-search-noise",
+      "disposition": "Excluded out of scope: search results included the City of Angola, Indiana and 2026 June strike notices for Portugal/Brazil. These are not events in Angola (the country)."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "S-APR-CPJ",
+      "title": "Angolan journalist harassed, illegally detained for 4 days for protest coverage",
+      "url": "https://cpj.org/2026/04/angolan-journalist-harassed-illegally-detained-for-4-days-for-protest-coverage/",
+      "publisher": "Committee to Protect Journalists",
+      "publication_date": "2026-04-17 10:36 EDT",
+      "accessed_at_utc_window": ["2026-10-11T03:05:35Z", "2026-10-11T03:05:36Z"],
+      "access": "opened successfully",
+      "excerpt": "\"detained on April 6 at a protest in the capital, Luanda, by ex-employees of the national oil company, Sonangol\"",
+      "excerpt_word_count": 19,
+      "source_notes": "CPJ attributes the details to the reporter and lawyer; article says Apr 1 was another attempt to cover the same workers' protest."
+    },
+    {
+      "source_id": "S-APR-REUTERS-MASS",
+      "title": "Pope urges Angola to heal divisions at events drawing 130,000",
+      "url": "https://www.reuters.com/world/africa/tens-thousands-gather-outside-angolan-capital-pope-leo-mass-2026-04-19/",
+      "publisher": "Reuters",
+      "publication_date": "2026-04-19 09:25 UTC; updated 2026-04-20",
+      "event_date": "2026-04-19",
+      "accessed_at_utc_window": ["2026-10-11T03:05:53Z", "2026-10-11T03:05:55Z"],
+      "access": "opened successfully",
+      "excerpt": "\"events that jointly drew roughly 130,000 people\"",
+      "excerpt_word_count": 7,
+      "source_notes": "Mass and religious visit; excluded from protest action leads."
+    },
+    {
+      "source_id": "S-HRW-2026-REPORT",
+      "title": "World Report 2026: Angola",
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/angola",
+      "publisher": "Human Rights Watch",
+      "publication_date": "2026 report (page published in 2026; exact date not displayed in open page)",
+      "event_date": "2025 events only, including July 12, 2025 protest",
+      "accessed_at_utc_window": ["2026-10-11T03:05:53Z", "2026-10-11T03:05:55Z"],
+      "access": "opened successfully",
+      "excerpt": "\"Events of 2025\"",
+      "excerpt_word_count": 3,
+      "source_notes": "Explicitly wrong event year for this coverage window; kept as a false-positive control."
+    },
+    {
+      "source_id": "S-AMNESTY-NILA",
+      "title": "Angola: Authorities must release arbitrarily detained activist General Nila",
+      "url": "https://www.amnesty.org/en/latest/news/2026/04/angola-authorities-must-release-arbitrarily-detained-activist-general-nila/",
+      "publisher": "Amnesty International",
+      "publication_date": "2026-04-02",
+      "event_date": "July 2025 (fuel protest/strike context), not April 2026",
+      "accessed_at_utc_window": ["2026-10-11T03:05:53Z", "2026-10-11T03:05:55Z"],
+      "access": "opened successfully",
+      "excerpt": "\"groups that organized protests in July 2025\"",
+      "excerpt_word_count": 7,
+      "source_notes": "Published during Q2 but describes 2025 events; exclude on event-date criterion."
+    },
+    {
+      "source_id": "S-MAY-COM",
+      "title": "Angolan public media outlets announce three-day national strike",
+      "url": "https://clubofmozambique.com/news/angolan-public-media-outlets-announce-three-day-national-strike/",
+      "publisher": "Club of Mozambique; story credits Lusa",
+      "publication_date": "2026-05-11",
+      "planned_event_dates": ["2026-05-18", "2026-05-20"],
+      "accessed_at_utc_window": ["2026-10-11T03:05:35Z", "2026-10-11T03:05:36Z"],
+      "access": "opened successfully",
+      "excerpt": "\"The first phase is scheduled for the 18th to the 20th of this month\"",
+      "excerpt_word_count": 14,
+      "source_notes": "Open page says the phase ran May 18–20; a VerAngola variant says May 18–20; another local outlet describes May 18–21."
+    },
+    {
+      "source_id": "S-MAY-CANCEL",
+      "title": "Jornalistas dos órgãos públicos aceitam proposta do Executivo e suspendem greve",
+      "url": "https://correiokianda.info/jornalistas-dos-orgaos-publicos-aceitam-proposta-do-executivo-e-suspendem-greve/",
+      "publisher": "Correio da Kianda",
+      "publication_date": "2026-05-15 (search result and article text)",
+      "event_date": "Scheduled May 18–20 strike was suspended before its start",
+      "accessed_at_utc_window": ["2026-10-11T03:05:35Z", "2026-10-11T03:05:36Z"],
+      "access": "search result content available; direct page returned verification interstitial",
+      "excerpt": "\"suspend the strike that was scheduled for May 18, 19 and 20\"",
+      "excerpt_word_count": 12,
+      "source_notes": "Search result states workers accepted government salary-progression proposal and suspended the first phase at an assembly on May 15; direct page could not be opened."
+    },
+    {
+      "source_id": "S-MAY-CIAM-ANNOUNCEMENT",
+      "title": "Assembleia de jornalista decide paralisar trabalhos a partir do dia 18",
+      "url": "https://ciam.gov.ao/ao/noticia/5124",
+      "publisher": "CIAM; page attributes source to Jornal de Angola",
+      "publication_date": "2026-05-11",
+      "planned_event_dates": ["2026-05-18", "2026-05-21"],
+      "access": "search result content available; not opened directly in this pass",
+      "excerpt": "\"decretou greve para o período entre 18 e 21 deste mês\"",
+      "excerpt_word_count": 10,
+      "source_notes": "Public page search result records the planned action and minimum-service arrangement; schedule differs slightly from Club of Mozambique."
+    },
+    {
+      "source_id": "S-JUN-VOZ",
+      "title": "Greve na ELISAL marcada por detenções e acusações de repressão policial",
+      "url": "https://www.vozdeangola.com/en/sociedade/item/10148-greve-na-elisal-marcada-por-detencoes-e-acusacoes-de-repressao-policial",
+      "publisher": "Voz de Angola; text attributes statements to Lusa, union representatives, and ELISAL",
+      "publication_date": "2026-06-12",
+      "event_date": "2026-06-12 (reported as the strike's second day; implied start Jun 11)",
+      "accessed_at_utc_window": ["2026-10-11T03:05:53Z", "2026-10-11T03:05:55Z"],
+      "access": "opened successfully",
+      "excerpt": "\"the intermittent strike, today on its second day\"",
+      "excerpt_word_count": 8,
+      "source_notes": "Union alleged tear gas and six detentions; company spokesperson called the action illegal and said some workers were working. Lusa could not obtain police comment."
+    },
+    {
+      "source_id": "S-JUN-NJ",
+      "title": "Trabalhadores da ELISAL regressam ao trabalho no fim da 1ª fase da greve que em cinco dias causou prejuízos superiores a 700 milhões kz, segundo o GPL",
+      "url": "https://novojornal.co.ao/sociedade/detalhe/trabalhadores-da-elisal-regressam-ao-trabalho-no-fim-da-1-fase-da-greve-que-em-cinco-dias-causou-prejuizos-superiores-a-700-milhoes-kz-segundo-o-gpl-72566.html",
+      "publisher": "Novo Jornal",
+      "publication_date": "2026-06-16 11:44 (page-local time; timezone not stated)",
+      "event_date": "strike reported since Jun 11; first phase ends with return-to-work Jun 16",
+      "accessed_at_utc_window": ["2026-10-11T03:05:35Z", "2026-10-11T03:05:36Z"],
+      "access": "opened successfully",
+      "excerpt": "\"estavam em greve desde o dia 11\"",
+      "excerpt_word_count": 7,
+      "source_notes": "Reports more than 2,500 employees; says workers returned after phase one. It relays GPL and company statements and an account from the union committee."
+    },
+    {
+      "source_id": "S-JUN-CIAM",
+      "title": "GPL esclarece andamento da greve na ELISAL e aponta prejuízos superiores a 700 milhões de kwanzas",
+      "url": "https://ciam.gov.ao/ao/noticia/5236",
+      "publisher": "CIAM (Angolan government press center), relaying Luanda Provincial Government",
+      "publication_date": "2026-06-16",
+      "event_date": "four-day stoppage reported by provincial government; date span not fully specified in article",
+      "accessed_at_utc_window": ["2026-10-11T03:05:35Z", "2026-10-11T03:05:36Z"],
+      "access": "opened successfully",
+      "excerpt": "\"paralisação de quatro dias\"",
+      "excerpt_word_count": 3,
+      "source_notes": "Official account says two of ten demands remained unresolved and salary demand was principal. This is a government/management-side source."
+    },
+    {
+      "source_id": "S-JUN-VERANGOLA",
+      "title": "Union denounces police repression and arrests of Elisal strikers",
+      "url": "https://www.verangola.net/va/en/062026/Society/49103/Union-denounces-police-repression-and-arrests-of-Elisal-strikers.htm",
+      "publisher": "VerAngola / Lusa",
+      "publication_date": "2026-06-12",
+      "event_date": "strike reported on second day, Jun 12",
+      "accessed_at_utc_window": ["2026-10-11T03:05:35Z", "2026-10-11T03:05:36Z"],
+      "access": "search result returned; direct open failed with HTTP 403",
+      "excerpt": "",
+      "source_notes": "English-language variant provides a search snippet corroborating the reported allegation; use the accessible Voz de Angola Lusa text for substantive detail."
+    },
+    {
+      "source_id": "S-SONANGOL-PLAN",
+      "title": "Ex-trabalhadores da Sonangol anunciam manifestação nacional após acusarem empresa de despedimentos injustos e denunciam intimidação policial",
+      "url": "https://makamavulo.com/ex-trabalhadores-da-sonangol-anunciam-manifestacao-nacional-apos-acusarem-empresa-de-despedimentos-injustos-e-denunciam-intimidacao-policial/",
+      "publisher": "Makamavulo",
+      "publication_date_as_indexed": "Search result: 2026-05-28; page display: 2026-09-08",
+      "planned_event_dates": ["2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-06"],
+      "accessed_at_utc_window": ["2026-10-11T03:05:53Z", "2026-10-11T03:05:55Z"],
+      "access": "opened successfully, but date metadata conflicts",
+      "excerpt": "\"manifestações a nível nacional marcada para os dias 1, 2, 3, 4 e 6 de junho\"",
+      "excerpt_word_count": 16,
+      "source_notes": "The displayed September date is later than the June dates it describes. Its statement that workers 'returned to the streets this week' lacks a usable event date because the page date conflicts. Search follow-up did not find corroboration."
+    },
+    {
+      "source_id": "S-VERANGOLA-403-MAY",
+      "url": "https://www.verangola.net/va/en/052026/Telecommunications/48763/Public-media-outlets-announce-a-three-day-national-strike.htm",
+      "publisher": "VerAngola",
+      "access": "direct open failed with HTTP 403; search result was available",
+      "accessed_at_utc_window": ["2026-10-11T03:05:35Z", "2026-10-11T03:05:36Z"],
+      "excerpt": ""
+    },
+    {
+      "source_id": "S-ANGOLA24H-403",
+      "url": "https://angola24horas.com/sociedade/item/34342-comunicacao-social-angolana-volta-suspender-greve-apos-promessas-de-atualizacao-salarial",
+      "publisher": "Angola 24 Horas",
+      "access": "direct open failed with HTTP 403; search result/list references were available",
+      "accessed_at_utc_window": ["2026-10-11T03:02:17Z", "2026-10-11T03:05:34Z"],
+      "excerpt": ""
+    },
+    {
+      "source_id": "S-DW-ROBOTS",
+      "url": "https://www.dw.com/pt-002/",
+      "publisher": "Deutsche Welle",
+      "access": "search request blocked by robots.txt; no page content retrieved",
+      "accessed_at_utc_window": ["2026-10-11T03:02:17Z", "2026-10-11T03:04:50Z"],
+      "excerpt": ""
+    },
+    {
+      "source_id": "S-CORREIOKIANDA-VERIFY",
+      "url": "https://correiokianda.info/jornalistas-dos-orgaos-publicos-aceitam-proposta-do-executivo-e-suspendem-greve/",
+      "publisher": "Correio da Kianda",
+      "access": "direct open returned a request-verification interstitial; search snippet was accessible",
+      "accessed_at_utc_window": ["2026-10-11T03:05:35Z", "2026-10-11T03:05:36Z"],
+      "excerpt": ""
+    }
+  ],
+  "search_noise_and_failures": [
+    "Search engines returned many wrong-year pages on Angola's 2025 fuel protests and older protests; do not infer 2026 events from a 2026 publication date.",
+    "Some broad English queries for June returned irrelevant results due to the word June; later country-plus-ELISAL queries produced the June labor-strike leads.",
+    "Some results were for Angola, Indiana, or Portugal/Brazil labor actions; excluded as foreign-location results.",
+    "Several pages were not directly accessible (HTTP 403, robots.txt restriction, or verification interstitial); snippets are marked as such and were not silently treated as opened source text."
+  ],
+  "absence_statement": "No month is declared event-free. Search coverage was bounded and noisy; missing search hits or inaccessible pages do not establish absence of protest events."
+}

@@ -1,0 +1,97 @@
+{
+  "country": "Chad",
+  "country_slug": "chad",
+  "quarter": "2026Q2",
+  "period_start": "2026-04-01",
+  "period_end": "2026-06-30",
+  "status": "provisional public discovery; not canonical; no formal validation performed",
+  "search_logs": [
+    {
+      "query": "Tchad grève manifestation protestation avril 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Chad strike protest demonstration April 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Tchad grève manifestation protestation mai 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Chad strike protest demonstration May 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "marche GCAP 2 mai 2026 Tchad manifestation réalisée arrestations N’Djamena",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Chad May 2 2026 protest GCAP march occurred police arrests N’Djamena",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Tchad grève manifestation protestation juin 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Chad strike protest demonstration June 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    }
+  ],
+  "events": [
+    {
+      "id": "chad-2026-04-29-ndjamena-masra-rally",
+      "event_date": "2026-04-29",
+      "event_date_precision": "day (article states Wednesday; corroborating party call dated Apr29)",
+      "country": "Chad",
+      "location": "Les Transformateurs party headquarters, N’Djamena",
+      "title": "Rally for release of opposition leader Succès Masra",
+      "publication_date": "2026-04-30",
+      "source_url": "https://www.africanews.com/2026/04/30/hundreds-rally-in-chad-for-release-of-opposition-leader-masra/",
+      "source_type": "Africanews with AFP",
+      "excerpt": "Hundreds gathered on Wednesday in N’Djamena to demand the release of Chadian opposition leader and former premier Succes Masra.",
+      "excerpt_word_count": 19,
+      "notes": "Article reports an actual in-country gathering; Wednesday before publication was April29. APA had announced the party’s April29 mobilization beforehand."
+    }
+  ],
+  "excluded_or_unverified_leads": [
+    {
+      "lead": "GCAP march planned for May 2",
+      "reason": "Canceled Apr30 after Supreme Court dissolution decision; separate reporting said the authorities banned the rally and leaders were arrested. No action counted."
+    },
+    {
+      "lead": "May16 demonstration call",
+      "reason": "Wakit Tamma disassociated itself from an event called by another group under the Wakit Tamma label; no confirmed occurrence."
+    },
+    {
+      "lead": "April 28 U.S. Embassy travel advisory",
+      "reason": "General warning about potential protest risks, not evidence of a specific event."
+    }
+  ],
+  "source_access_failures": [],
+  "method_notes": [
+    "Bounded search for strikes, public protests, demonstrations, rallies and mobilizations physically inside the country during Apr-Jun 2026.",
+    "Local-language queries were used where feasible: Portuguese for Cape Verde, French for Chad and Central African Republic, Spanish for Chile; English companion queries included.",
+    "No-results is not an absence claim. Planned or canceled actions and non-dissent civic/sporting marches are not counted as protest events.",
+    "Publication date, event date and precision are separated; exact URLs and source provenance retained.",
+    "Each excerpt is under 25 words.",
+    "Provisional staging only; no scientific-kit integration or canonical schema validation performed."
+  ]
+}

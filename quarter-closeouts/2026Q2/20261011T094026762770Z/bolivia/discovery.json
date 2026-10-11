@@ -1,0 +1,118 @@
+{
+  "country": "Bolivia",
+  "country_slug": "bolivia",
+  "quarter": "2026Q2",
+  "period_start": "2026-04-01",
+  "period_end": "2026-06-30",
+  "status": "provisional public discovery; not canonical; no formal validation performed",
+  "search_logs": [
+    {
+      "query": "Bolivia protesta huelga manifestación abril 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bolivia protest strike demonstration April 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bolivia protesta huelga manifestación mayo 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bolivia protest strike demonstration May 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bolivia protesta huelga manifestación junio 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bolivia protest strike demonstration June 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    }
+  ],
+  "events": [
+    {
+      "id": "bolivia-2026-04-09-la-paz-marches-strike",
+      "event_date": "2026-04-09",
+      "event_date_precision": "day",
+      "country": "Bolivia",
+      "location": "La Paz",
+      "title": "Sectoral marches and 24-hour health-workers strike",
+      "publication_date": "2026-04-09",
+      "source_url": "https://www.vision360.bo/noticias/2026/04/09/42949-marchas-y-bloqueos-de-distintos-sectores-colapsaron-el-centro-de-la-paz",
+      "source_type": "Bolivian news report (Vision 360)",
+      "excerpt": "Marchas y bloqueos de distintos sectores colapsaron el centro de La Paz.",
+      "excerpt_word_count": 12,
+      "notes": "Report describes health workers, municipal workers and teachers participating in demonstrations; event location and date are in-country and within Q2."
+    },
+    {
+      "id": "bolivia-2026-05-13-el-alto-ponchos-rojos-march",
+      "event_date": "2026-05-13",
+      "event_date_precision": "day (reported as Wednesday; inferred from May 14 publication)",
+      "country": "Bolivia",
+      "location": "El Alto",
+      "title": "Ponchos Rojos march amid wider protest wave",
+      "publication_date": "2026-05-14",
+      "source_url": "https://efe.com/mundo/2026-05-14/bolivia-protestas-claves/",
+      "source_type": "EFE report",
+      "excerpt": "Los Ponchos Rojos marcharon el miércoles en El Alto.",
+      "excerpt_word_count": 9,
+      "notes": "Distinct march date inferred as Wednesday immediately before the Thursday May 14 article; larger wave began before the quarter, so this entry covers the specifically dated in-quarter march only."
+    },
+    {
+      "id": "bolivia-2026-06-08-vinto-cochabamba-protests",
+      "event_date": "2026-06-08",
+      "event_date_precision": "day",
+      "country": "Bolivia",
+      "location": "Vinto and Cochabamba",
+      "title": "Protests and clashes during blockades",
+      "publication_date": "2026-06-08",
+      "source_url": "https://apnews.com/article/bolivia-protests-e2f71fb33b704a679cbebfd3d84311ab",
+      "source_type": "Associated Press report and caption",
+      "excerpt": "Protesters clash with police in Vinto, Bolivia, on Monday, June 8, 2026.",
+      "excerpt_word_count": 12,
+      "notes": "AP caption dates the Vinto action; report describes clashes in Cochabamba and nationwide blockades."
+    },
+    {
+      "id": "bolivia-2026-06-20-roadblock-crisis",
+      "event_date": "2026-06-20",
+      "event_date_precision": "day (reported action); broader blockades ongoing",
+      "country": "Bolivia",
+      "location": "Nationwide; El Alto and Cochabamba mentioned",
+      "title": "Roadblock crisis and state emergency response",
+      "publication_date": "2026-06-20",
+      "source_url": "https://www.reuters.com/world/americas/bolivias-paz-declares-state-emergency-over-blockade-crisis-2026-06-20/",
+      "source_type": "Reuters report",
+      "excerpt": "Blockades have paralyzed parts of Bolivia for nearly 50 days.",
+      "excerpt_word_count": 10,
+      "notes": "Source reports an ongoing nationwide protest/blockade campaign and June 20 government response; date is not claimed as the campaign start."
+    }
+  ],
+  "excluded_or_unverified_leads": [
+    {
+      "lead": "May protest wave onset",
+      "reason": "Search results indicated broader unrest began before Q2; only specific Q2-dated events retained above."
+    }
+  ],
+  "source_access_failures": [],
+  "method_notes": [
+    "Bounded search focused on strikes, demonstrations, protests, rallies and mobilizations within the country during Apr-Jun 2026.",
+    "A search-result absence is not evidence that no events occurred. Unconfirmed plans and wrong-country locations are not counted as events.",
+    "Publication date and event date are recorded separately where established; uncertainties are explicit.",
+    "Quoted excerpts are kept short (each under 25 words).",
+    "This is a staging artifact only; the scientific kit was unavailable for canonical workflow/schema review."
+  ]
+}

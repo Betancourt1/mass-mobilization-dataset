@@ -1,0 +1,63 @@
+{
+  "country":"Belgium",
+  "period":{"start":"2026-04-01","end":"2026-06-30"},
+  "status":"provisional_public_source_discovery",
+  "capture_note":"Managed search/open requests occurred approximately 2026-10-11 03:02–03:09 UTC; individual request timestamps are not exposed. Several pages were opened around 03:09 UTC.",
+  "queries":[
+    {"month":"2026-04","language":"English","query":"Belgium protest demonstration April 2026 labor union climate protest","result":"Union call for April 9 Brussels demonstration; follow-up query located post-event account."},
+    {"month":"2026-04","language":"French","query":"Belgique manifestation grève avril 2026 syndicats","result":"SETCa Namur call for April 9 Brussels event; organizer notice opened."},
+    {"month":"2026-04","language":"English","query":"Belgium Brussels 9 April 2026 teachers unions demonstration event 9 avril manifestation Bruxelles 2026 compte rendu","result":"EPSU post-event result states more than 1,500 gathered at Brussels-Midi on April 9; direct open returned 403."},
+    {"month":"2026-05","language":"English","query":"Belgium protest demonstration May 2026 trade union strike rally","result":"May 12 nationwide union strike/march in Brussels; Euronews opened."},
+    {"month":"2026-05","language":"French","query":"Belgique manifestation grève mai 2026 syndicats rassemblement","result":"May 12 national demonstration source leads; attendance estimates vary."},
+    {"month":"2026-06","language":"English","query":"Belgium protest demonstration June 2026 Brussels education reform protest","result":"June 4–5 Brussels education protests; Reuters and FIDH/OMCT/LDH sources surfaced."},
+    {"month":"2026-06","language":"French","query":"Belgique manifestation juin 2026 Bruxelles enseignement protestation","result":"FIDH statement about June 4–5 demonstrations opened."}
+  ],
+  "leads":[
+    {
+      "id":"be-2026-04-09-brussels-public-sector-cuts-rally",
+      "event_date":"2026-04-09",
+      "event_date_confidence":"high",
+      "location":"Brussels-Midi, Brussels, Belgium",
+      "description":"Demonstration against cuts/reforms affecting French-speaking public-sector services, including education, childcare and child services.",
+      "sources":[
+        {"url":"https://www.epsu.org/article/brussels-rally-fights-cuts-belgiums-french-speaking-public-sector","publisher":"European Federation of Public Service Unions (EPSU)","publication_date":"2026-04-09 per search result; exact page date not confirmed because open returned 403","accessed_utc":"2026-10-11T03:09:03Z approximate","provenance":"Managed search result summarized post-event account: over 1,500 gathered at Brussels-Midi on 9 April. Direct source open returned 403 Forbidden, so details retained from search result only.","excerpt":"More than 1,500 demonstrators gathered at Brussels-Midi on 9 April."},
+        {"url":"https://www.setca-namur.org/fr/setca-namur-fr/iobject/7CRQSPAF3GG","publisher":"SETCa Namur (union local)","publication_date":"2026-03-19 per page metadata","accessed_utc":"2026-10-11T03:09:03Z approximate","provenance":"Opened organizer call for April 9 at 09:30 at Brussels-Midi; it describes the purpose and date, not post-event attendance.","excerpt":"Manifestation à Bruxelles le 09/04/2026"}
+      ]
+    },
+    {
+      "id":"be-2026-05-12-brussels-national-union-march",
+      "event_date":"2026-05-12",
+      "event_date_confidence":"high",
+      "location":"Brussels, Belgium",
+      "description":"Nationwide strike and union demonstration against federal government reforms, focused on pensions, purchasing power and automatic wage indexation.",
+      "sources":[
+        {"url":"https://www.euronews.com/2026/05/12/general-strike-in-belgium-against-government-reforms-draws-tens-of-thousands-to-the-capita","publisher":"Euronews / AP photo credit","publication_date":"2026-05-12 18:05 GMT+2","accessed_utc":"2026-10-11T03:09:03Z (approximate open capture)","provenance":"Opened report states between 40,000 and 70,000 marched in Brussels; three main trade unions called the nationwide protest. A Brussels Times result reported range 40,000–75,000 and police estimate 40,000; keep figures attributed rather than reconcile.","excerpt":"Between 40,000 and 70,000 people marched through the streets of Brussels on Tuesday."}
+      ],
+      "attendance_variants":"Euronews reports 40,000–70,000; Brussels Times headline/search result reports 40,000–75,000 and its live report gives police estimate 40,000. Treat separately attributed estimates as variants.",
+      "denial_or_official_response":"No event denial located. Federal government reforms are reported as the grievance; not treated as official denial."
+    },
+    {
+      "id":"be-2026-06-04-and-05-brussels-education-reform-protests",
+      "event_date":"2026-06-04 and 2026-06-05",
+      "event_date_confidence":"high for both dates as reported by FIDH; Reuters result separately confirms Brussels event on June 4",
+      "location":"Brussels; Reuters also notes protests in Namur and Charleroi",
+      "description":"Students, teachers, and education staff demonstrated against French Community education changes. Rights groups report several thousand across June 4–5 in Brussels and excessive force; Reuters reports clashes and police tear gas for June 4, with protests elsewhere calmer.",
+      "sources":[
+        {"url":"https://www.fidh.org/fr/regions/europe-asie-centrale/belgique/belgique-les-manifestations-contre-la-reforme-de-l-enseignement","publisher":"FIDH, OMCT, Ligue des droits humains","publication_date":"2026-06-25 16:55:20Z","accessed_utc":"2026-10-11T03:09:03Z approximate","provenance":"Opened joint rights group statement. Says several thousand students, teachers, and education staff gathered in Brussels on June 4 and 5; reports water cannon, tear gas, batons, kettling and arrests. Its account is advocacy reporting, attributed accordingly.","excerpt":"plusieurs milliers d’étudiant·es, d’enseignant·es et de membres du personnel de l’enseignement se sont rassemblé·es à Bruxelles"},
+        {"url":"https://www.reuters.com/world/clashes-break-out-belgian-protest-against-education-reforms-2026-06-04/","publisher":"Reuters","publication_date":"2026-06-04 (search result; exact time not retained)","accessed_utc":"2026-10-11T03:09:03Z approximate","provenance":"Reuters managed search result reported Brussels clashes on June 4 and police tear gas; also cited local media on Namur and Charleroi demonstrations. Direct open returned Internal Error, so the result is the available evidence.","excerpt":"Clashes break out in Belgian protest against education reforms"}
+      ],
+      "official_response":"Reuters search result says the French Community government defended the fee increase/cost-saving changes. This is a stated policy position, not an event denial."
+    }
+  ],
+  "excluded_or_unresolved":[
+    {"item":"March 2026 industrial/union mobilization results appearing in general 2026 searches","reason":"Outside Q2 period."},
+    {"item":"Brussels June education reform protests","reason":"Included as in-country Q2 events; article publication date (June 25 FIDH; June 4 Reuters) is distinguished from event dates June 4–5."}
+  ],
+  "no_findings_and_failures":[
+    {"note":"No major Q2 April event surfaced beyond April 9 in this targeted labor/union set; this does not establish absence of other protests."},
+    {"source_failure":"EPSU direct open returned 403 Forbidden; retained only the short post-event search-result statement and separate organizer call."},
+    {"source_failure":"Reuters direct open returned Internal Error; event details are based only on managed search-result text."},
+    {"note":"No official denial of the demonstrations was located. Attendance estimates remain source-specific."}
+  ],
+  "status_note":"Provisional discovery only; no canonical schema, formal validation, or completion claim."
+}

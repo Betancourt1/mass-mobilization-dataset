@@ -1,0 +1,28 @@
+{
+  "country":"Senegal",
+  "period":"2026-04-01/2026-06-30",
+  "status":"provisional_public_source_discovery",
+  "searches":[
+    {"query":"Senegal protest demonstration April 2026 Dakar","searched_utc":"approx. 2026-10-11T03:19:00Z/03:19:06Z (search tool did not expose per-query timestamps)"},
+    {"query":"Sénégal manifestation avril 2026 Dakar","searched_utc":"approx. 2026-10-11T03:19:06Z/03:19:12Z (search tool did not expose per-query timestamps)"},
+    {"query":"Senegal protest demonstration May 2026 Dakar","searched_utc":"approx. 2026-10-11T03:19:12Z/03:19:18Z (search tool did not expose per-query timestamps)"},
+    {"query":"Sénégal manifestation mai 2026 Dakar","searched_utc":"approx. 2026-10-11T03:19:18Z/03:19:23Z (search tool did not expose per-query timestamps)"},
+    {"query":"Senegal protest demonstration June 2026 Dakar","searched_utc":"approx. 2026-10-11T03:19:23Z/03:19:29Z (search tool did not expose per-query timestamps)"},
+    {"query":"Sénégal manifestation juin 2026 Dakar","searched_utc":"approx. 2026-10-11T03:19:29Z/03:19:34Z (search tool did not expose per-query timestamps)"}
+  ],
+  "opened_sources":[
+    {"url":"https://apnews.com/article/senegal-protest-unions-hidden-debt-sonko-8608b47695043cc50579934d2f8721a4","publisher":"Associated Press","page_date":"2026-04-08","event_date":"2026-04-08","location":"Dakar, Senegal","finding":"AP report documents hundreds of workers, union members, and opposition supporters marching over broken government promises and rising costs. Direct opening succeeded, though page body was extensive and only opening metadata was inspected in the returned view.","excerpt":"Hundreds of workers, union members and opposition supporters march in Senegal's capital, Dakar","excerpt_words":13,"opened_utc":"approx. 2026-10-11T03:20:00Z/03:20:10Z"}
+  ],
+  "provisional_leads":[
+    {"url":"https://apanews.net/senegal-workers-unions-announce-april-8-for-national-march/","publisher":"APA News","page_date":"2026-03-13","event_date":"2026-04-08 (scheduled)","location":"National march announced in Senegal; press briefing in Dakar","finding":"Opened article is a pre-event union announcement of an April 8 national march. The later AP report supports that a march occurred in Dakar; this announcement is planning provenance, not separate event evidence.","excerpt":"announced a major national march scheduled for April 8, 2026","excerpt_words":10,"opened_utc":"approx. 2026-10-11T03:20:10Z/03:20:15Z"},
+    {"url":"https://www.facebook.com/fonctionpubliqueSn/posts/1e-mai-les-syndicats-marchent-pour-la-d%C3%A9fense-des-travailleurs-le-front-syndical/1385952563571028/","publisher":"Syndicalist social-media page (search result only)","page_date":"2026-05-01 (snippet)","event_date":"2026-05-01","location":"Dakar, Senegal","finding":"Search result says the labor front held a May Day march in Dakar. Social snippet only; not opened or corroborated in this pass, so retain as low-confidence lead.","excerpt":"a organisé son défilé unitaire le 1er mai 2026 à Dakar","excerpt_words":11,"access":"search-result only","opened_utc":"approx. 2026-10-11T03:19:18Z/03:19:23Z"},
+    {"url":"https://apnews.com/article/46cf2cd43d31793b2301854e75de08cd","publisher":"Associated Press","page_date":"2026-06-29","event_date":"2026-06-29","location":"Outside Senegal's National Assembly, Dakar","finding":"Search result says constitutional reform sparked protests outside parliament and demonstrators clashed with police. Direct open returned internal error; search-result-only lead, pending independent accessible verification.","excerpt":"widespread protests outside the parliament","excerpt_words":5,"access":"direct open returned internal error; search result only","opened_utc":"approx. 2026-10-11T03:20:15Z/03:20:20Z"}
+  ],
+  "exclusions":[
+    {"item":"February 2026 Cheikh Anta Diop University protests","reason":"Outside Q2 period even though search results described continuing student unrest."},
+    {"item":"March 2023 protests and 2022 events","reason":"Wrong period."},
+    {"item":"July 2026 Dakar cost-of-living protest","reason":"Out of period."},
+    {"item":"Senegal diaspora or foreign events","reason":"Outside country scope."}
+  ],
+  "limitations":"April 8 is supported by an opened AP post-event report; APA is a pre-event schedule source. The May 1 and June 29 items are unverified search-result leads. Search timestamps are approximate session brackets; the web search tool did not expose per-query execution times."
+}

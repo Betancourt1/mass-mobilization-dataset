@@ -1,0 +1,80 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Ghana",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "ghana_2026-04",
+      "ghana_2026-05",
+      "ghana_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Ghana; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ghana April 2026 protest demonstration march strike labor opposition church Ghana διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:16 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ghana April 2026 protest demonstration march strike opposition / Ghana April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:35 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ghana May 2026 protest demonstration march strike labor opposition church Ghana διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:23 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ghana May 2026 protest demonstration march strike opposition / Ghana May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:41 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ghana June 2026 protest demonstration march strike labor opposition church Ghana διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:29 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ghana June 2026 protest demonstration march strike opposition / Ghana June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:47 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [],
+  "candidates": [],
+  "screened_non_candidates": [
+    {
+      "date": "2024",
+      "event": "Planned cost-of-living protest court case",
+      "reason": "Wrong year; excluded."
+    }
+  ],
+  "search_and_source_failures": [],
+  "coverage_limits": [
+    "No sufficiently sourced in-scope event was established for Ghana in this bounded pass; this is not an absence finding. Some surfaced results were historical, outside the quarter, or insufficiently reliable to attribute."
+  ],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

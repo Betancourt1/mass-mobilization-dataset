@@ -1,0 +1,5 @@
+# Switzerland — Q2 2026 provisional discovery
+
+No dateable April demonstration surfaced in this bounded English/French search. SWI swissinfo/Keystone-SDA reported around 50 Labour Day demonstrations planned for May 1, including a Zurich rally, but the same-day article is a preview and this pass did not verify completion. The June 14 anti-G7 march in Geneva is confirmed by Reuters and AP at about 20,000 attendees. The event occurred in Geneva, Switzerland; the G7 summit was scheduled in nearby Evian, France. Both reports say the march began peacefully and later saw clashes/property damage and police tear gas; AP attributes the approximate turnout to Geneva police.
+
+The Geneva canton government’s May 27 release on the demonstration permit and route is planning/official context, not proof of event attendance. March 28 demonstrations were excluded as outside period. Exact English/French queries, URLs, event/publication dates, provenance, source-specific count, short excerpts and limitations are recorded in `discovery.json`. “No findings” is not evidence of absence; no canonical schema or formal validation applied.

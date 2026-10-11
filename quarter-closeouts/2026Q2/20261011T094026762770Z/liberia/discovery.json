@@ -1,0 +1,155 @@
+{
+  "country": "Liberia",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "search_window_utc": "2026-10-11 03:18:29–03:21:01 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+    "targeted_queries": 12,
+    "coverage": "At least two month-specific English/local-language queries per month where local query was feasible, plus focused follow-ups; public search results and relevant accessible pages reviewed.",
+    "limitations": [
+      "This pass is bounded, and no-hit results do not imply no event occurred.",
+      "Search results occasionally surfaced wrong-year or neighboring-country items; these were excluded explicitly.",
+      "Search index snippets are flagged as such and are not treated as equivalent to opened articles."
+    ]
+  },
+  "search_history": [
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Liberia protest demonstration strike workers April 2026 social protest",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Liberia Jobs and Justice protest April 14 2026 Monrovia",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Liberia protest demonstration strike workers May 2026 labor protest",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Liberia protest demonstration workers strike May 2026 Monrovia",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Liberia protest demonstration strike workers June 2026 social protest",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Liberia protest demonstration workers strike June 2026 Monrovia",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "site:frontpageafricaonline.com Liberia protest April 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "site:thenewdawnliberia.com strike protest May 2026 Liberia",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "site:lnp.gov.lr protest demonstration 2026 Liberia",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Liberia April 14 2026 protest demonstration workers strike Monrovia",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Liberia protest April 14 2026 Jobs and Justice Monrovia news",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Liberia May 2026 protest demonstration Monrovia workers",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "LR-2026-04-14-Monrovia-jobs-justice-march",
+      "month": "2026-04",
+      "event_type": "student/youth demonstration for jobs and justice",
+      "status": "reported held; police dispersed demonstrators (social/search-snippet reporting only)",
+      "actors": "Student Unification Party members and youth demonstrators",
+      "locations": [
+        "Monrovia, including vicinity of Capitol Building / University of Liberia (planned route)"
+      ],
+      "event_date": "2026-04-14 (reported)",
+      "publication_date": "2026-04-13 alert; post-event social reports dated April 14 (platform metadata not verified)",
+      "sources": [
+        {
+          "title": "Demonstration Alert: U.S. Embassy Monrovia, Liberia (April 13, 2026)",
+          "url": "https://lr.usembassy.gov/demonstration-alert-u-s-embassy-monrovia-liberia-april-13-2026/",
+          "accessed_utc_bracket": "2026-10-11 03:18:29 UTC–2026-10-11 03:20:00 UTC",
+          "excerpt": "demonstration planned for tomorrow, Tuesday, April 14, 2026, near the Capitol Building",
+          "provenance": "U.S. Embassy public alert search snippet; attempted to open, got HTTP 403. It is advance notice of a planned event, not proof it occurred."
+        },
+        {
+          "title": "SUP April 14 protest / post-event reports",
+          "url": "https://www.facebook.com/focusonliberiaTV/photos/on-april-14-members-of-the-student-unification-party-staged-a-protest-in-monrovi/977109528158101/",
+          "accessed_utc_bracket": "2026-10-11 03:18:29 UTC–2026-10-11 03:20:00 UTC",
+          "excerpt": "On April 14, members of the Student Unification Party staged a protest in Monrovia",
+          "provenance": "Facebook search snippet surfaced local-media posting; open attempt was throttled. Treat event as provisional/low confidence pending accessible direct reporting."
+        }
+      ],
+      "assessment": "Search surfaced credible advance alert plus multiple local/social snippets indicating the student Jobs and Justice action occurred, but no accessible opened post-event newsroom page in this pass.",
+      "uncertainty": "Route and police dispersal details in snippets may reflect planned route or posts that could not be opened; verify against independent reporting before coding."
+    }
+  ],
+  "excluded_or_unverified": [
+    {
+      "item": "Embassy alert warned of a planned April 14 protest; page returned 403 on open",
+      "url": "https://lr.usembassy.gov/demonstration-alert-u-s-embassy-monrovia-liberia-april-13-2026/",
+      "reason": "Planned notice by itself does not confirm occurrence; preserve status as planned/source inaccessible."
+    },
+    {
+      "item": "Several Facebook snippets refer to April 14 Jobs and Justice event but could not be opened (403/throttled)",
+      "url": "https://www.facebook.com/focusonliberiaTV/photos/on-april-14-members-of-the-student-unification-party-staged-a-protest-in-monrovi/977109528158101/",
+      "reason": "Only low-confidence provisional lead; do not elevate beyond tentative pending open accessible post-event reports."
+    },
+    {
+      "item": "Liberia historical 2018, 2019–20 and March 2024 protest hits",
+      "url": "https://apnews.com/article/d3e85723b6304d10b2d56c97bf894b09",
+      "reason": "Wrong year; excluded."
+    }
+  ],
+  "assessment": "A planned/likely held Monrovia student march surfaced, but direct accessible post-event confirmation failed. No verified May/June events in this pass.",
+  "limitations_note": "Embassy page access failed 403 and Facebook throttled; snippets are discovery leads, not full evidence.",
+  "access_failures": [
+    {
+      "url": "https://lr.usembassy.gov/demonstration-alert-u-s-embassy-monrovia-liberia-april-13-2026/",
+      "result": "403 Forbidden on open; search snippet accessible."
+    },
+    {
+      "url": "https://www.facebook.com/focusonliberiaTV/photos/on-april-14-members-of-the-student-unification-party-staged-a-protest-in-monrovi/977109528158101/",
+      "result": "Facebook online fetch throttled."
+    },
+    {
+      "url": "https://www.facebook.com/womenvoicesnewspaper1/posts/protesters-blocked-arcelormittal-liberias-railway-in-sanniquellie-city-early-mon/1427144279432027/",
+      "result": "Facebook online fetch throttled; snippet-only lead not retained as confirmed event."
+    }
+  ]
+}

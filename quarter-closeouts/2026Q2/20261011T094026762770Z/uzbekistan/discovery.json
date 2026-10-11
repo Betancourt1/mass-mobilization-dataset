@@ -1,0 +1,90 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Uzbekistan",
+  "country_slug": "uzbekistan",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass on reported demonstrations and collective actions. Empty searches do not demonstrate absence. Planned actions are distinguished from verified event occurrence.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:20:02Z",
+    "search_and_open_window_utc": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose request-level timestamps; window records the observed bounded session."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "Uzbekistan protest demonstration April 2026 Tashkent rally",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "No Q2 protest surfaced; results were irrelevant or historical."
+    },
+    {
+      "month_focus": "April",
+      "language": "Uzbek",
+      "query": "O'zbekiston norozilik namoyishi aprel 2026 Toshkent",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable April protest surfaced; results included weather and unrelated material."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "Uzbekistan protest demonstration May 2026 Tashkent rally",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable May protest surfaced; results mainly historical protests."
+    },
+    {
+      "month_focus": "May",
+      "language": "Uzbek",
+      "query": "O'zbekiston norozilik namoyishi may 2026 Toshkent",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "No relevant Q2 protest result; local-language query results were largely weather/holiday pages."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "Uzbekistan protest demonstration June 2026 Tashkent rally",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "No Q2 protest surfaced; results included unrelated political and historical material."
+    },
+    {
+      "month_focus": "June",
+      "language": "Uzbek",
+      "query": "O'zbekiston norozilik namoyishi iyun 2026 Toshkent",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable June protest surfaced; result sets included historical items and unrelated pages."
+    }
+  ],
+  "provisional_leads": [],
+  "excluded_or_deferred_results": [
+    {
+      "item": "Karakalpakstan constitutional-reform protests",
+      "source_urls": [
+        "https://www.hrw.org/news/2022/11/07/uzbekistan-police-abuses-autonomous-region-protests",
+        "https://www.reuters.com/world/asia-pacific/protests-break-out-uzbek-autonomous-region-over-constitution-reform-plan-2022-07-02/"
+      ],
+      "reported_event_date": "2022-07-01 to 2022-07-02",
+      "reason": "Wrong year and period."
+    },
+    {
+      "item": "Street fight in Tashkent Region",
+      "source_url": "https://nova24.uz/en/incidents/in-the-tashkent-region-several-men-engaged-in-a-mass-street-fight-video/",
+      "reported_event_date": "2026-04-13",
+      "reason": "Reported as a fight, not a protest/demonstration."
+    },
+    {
+      "item": "Uzbekistan diplomatic protest note to Russia",
+      "source_url": "https://yuz.uz/en/news/uzbekistan-napravil-notu-protesta-v-mid-rossii-po-faktam-narusheniy-prav-svoix-grajdan",
+      "reported_event_date": "2025-06-11",
+      "reason": "Wrong period; diplomatic note, not public demonstration."
+    }
+  ],
+  "failures_and_limits": [
+    "English and Uzbek queries produced no clearly dateable Q2 protest lead. No inference of absence is warranted."
+  ],
+  "next_pass_priorities": [
+    "Follow up on announced actions lacking outcome reporting and expand searches for local/national outlets before formal coding."
+  ]
+}

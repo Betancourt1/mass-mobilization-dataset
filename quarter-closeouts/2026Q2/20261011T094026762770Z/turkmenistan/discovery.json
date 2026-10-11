@@ -1,0 +1,92 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Turkmenistan",
+  "country_slug": "turkmenistan",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass of publicly reported protests, demonstrations, and related collective actions. Search results are leads; no inference of absence from empty or failed searches.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:18:07Z",
+    "search_and_open_window_utc": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose per-request timestamps; capture window is an observed bounded session window."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "Turkmenistan protest demonstration April 2026 Ashgabat rally",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clear Q2 protest result; results included unrelated or wrong-period items."
+    },
+    {
+      "month_focus": "April",
+      "language": "Russian",
+      "query": "Туркменистан протест демонстрация апрель 2026 Ашхабад",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clear Q2 protest result; official event listings and unrelated stories surfaced."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "Turkmenistan protest demonstration May 2026 Ashgabat rally",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable May event surfaced; many results were historical or used “rally” for motorsport."
+    },
+    {
+      "month_focus": "May",
+      "language": "Russian",
+      "query": "Туркменистан протест демонстрация май 2026 Ашхабад",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clear May protest result; wrong-period/historical material."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "Turkmenistan protest demonstration June 2026 Ashgabat rally",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "Surfaced an RFE/RL report of June 17 protest in Mary Province over power outages."
+    },
+    {
+      "month_focus": "June",
+      "language": "Russian",
+      "query": "Туркменистан протест демонстрация июнь 2026 Ашхабад",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No separate local-language event report surfaced in this query; RFE/RL English/Turkmen Service lead located via English search."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "lead_id": "TKM-2026-06-MARY-POWER-OUTAGES",
+      "event_date": {
+        "value": "2026-06-17",
+        "basis": "RFE/RL report published June 19 explicitly says protest occurred June 17.",
+        "uncertainty": "Crowd estimate is “several hundred”; reporting is attributed to eyewitnesses. RFE/RL could not reach Mary officials."
+      },
+      "location": "In front of the main provincial government building, Mary city, Mary Province, Turkmenistan; participants reportedly mostly from Bayramaly district.",
+      "action_summary": "Residents protested frequent power cuts and demanded to see the provincial governor; police were deployed, governor met participants and promised a repair, after which they dispersed.",
+      "provisional_status": "promising reported lead; based on eyewitness accounts carried by RFE/RL Turkmen Service",
+      "sources": [
+        {
+          "url": "https://www.rferl.org/a/turkmenistan-protest-electricity-economy/33784533.html",
+          "publisher": "RFE/RL, Turkmen Service",
+          "publication_date": "2026-06-19",
+          "accessed_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+          "excerpt": "Hundreds of people in Turkmenistan have staged a protest over power outages.",
+          "provenance": "Opened full article. Article dates demonstration to June 17, at provincial government building in Mary, and describes several hundred protesters and reported power outages.",
+          "event_date_as_reported": "2026-06-17",
+          "excerpt_note": "Short source excerpt; below 25 quoted words."
+        }
+      ]
+    }
+  ],
+  "excluded_or_deferred_results": [],
+  "failures_and_limits": [
+    "RFE/RL could not reach local officials; report relies on eyewitnesses. Search queries used English and Russian, not Turkmen."
+  ],
+  "next_pass_priorities": [
+    "Expand local and regional press searches, seek direct primary evidence, and resolve event dates/locations before any formal coding."
+  ]
+}

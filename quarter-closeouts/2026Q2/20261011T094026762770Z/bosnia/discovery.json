@@ -1,0 +1,71 @@
+{
+  "country": "Bosnia",
+  "country_slug": "bosnia",
+  "quarter": "2026Q2",
+  "period_start": "2026-04-01",
+  "period_end": "2026-06-30",
+  "status": "provisional public discovery; not canonical; no formal validation performed",
+  "search_logs": [
+    {
+      "query": "Bosna i Hercegovina protest štrajk demonstracije april 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bosnia protest strike demonstrations April 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bosna i Hercegovina protest štrajk demonstracije maj 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bosnia protest strike demonstrations May 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bosna i Hercegovina protest štrajk demonstracije juni 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bosnia protest strike demonstrations June 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Sarajevo protest May 3 2026 Bosnia demonstration",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    }
+  ],
+  "events": [],
+  "excluded_or_unverified_leads": [
+    {
+      "lead": "February/March demonstrations",
+      "reason": "Outside Q2 2026."
+    },
+    {
+      "lead": "Sarajevo May 3 demonstration",
+      "reason": "U.S. Embassy alert announced a planned demonstration; no public report confirming it occurred."
+    }
+  ],
+  "source_access_failures": [],
+  "method_notes": [
+    "Bounded search focused on strikes, demonstrations, protests, rallies and mobilizations within the country during Apr-Jun 2026.",
+    "A search-result absence is not evidence that no events occurred. Unconfirmed plans and wrong-country locations are not counted as events.",
+    "Publication date and event date are recorded separately where established; uncertainties are explicit.",
+    "Quoted excerpts are kept short (each under 25 words).",
+    "This is a staging artifact only; the scientific kit was unavailable for canonical workflow/schema review."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Ecuador",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "ecuador_2026-04",
+      "ecuador_2026-05",
+      "ecuador_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Ecuador; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ecuador April 2026 protest demonstration march strike labor opposition church Ecuador protesta manifestación marcha huelga",
+        "searched_at_utc": "2026-10-11 03:13:05 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ecuador April 2026 protestas huelga manifestación oposición trabajo / Ecuador April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:13:25 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ecuador May 2026 protest demonstration march strike labor opposition church Ecuador protesta manifestación marcha huelga",
+        "searched_at_utc": "2026-10-11 03:13:11 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ecuador May 2026 protestas huelga manifestación oposición trabajo / Ecuador May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:13:32 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ecuador June 2026 protest demonstration march strike labor opposition church Ecuador protesta manifestación marcha huelga",
+        "searched_at_utc": "2026-10-11 03:13:17 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ecuador June 2026 protestas huelga manifestación oposición trabajo / Ecuador June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:13:38 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "ec-mayday-primicias",
+      "url": "https://www.primicias.ec/politica/sindicatos-marcha-dia-trabajo-1mayo-feriado-indigenas-partidos-correismo-121401/",
+      "outlet": "Primicias",
+      "provenance": "Contemporaneous Spanish-language national news article reporting union plans.",
+      "publication_date": "2026-04-27",
+      "event_date": "2026-05-01 (planned; completion not independently established here)",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Quito, Ecuador",
+      "bounded_excerpt": "Las organizaciones sindicales anunciaron el 27 de abril de 2026 que afinan detalles para la jornada de movilización nacional por el 1 de Mayo",
+      "excerpt_word_count": 24,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "This is advance notice; it does not itself confirm execution."
+      ]
+    },
+    {
+      "source_id": "ec-mayday-quito-city",
+      "url": "https://www.quitoinforma.gob.ec/2026/04/30/quito-tendra-cierres-viales-por-la-marcha-del-1-de-mayo/",
+      "outlet": "Quito Informa (municipal government)",
+      "provenance": "Official municipal notice; operational evidence for a planned march, not an independent account that it occurred.",
+      "publication_date": "2026-04-30",
+      "event_date": "2026-05-01 (planned; completion not established)",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Quito, Ecuador",
+      "bounded_excerpt": "Municipal traffic notice for May 1 workers’ march and road closures",
+      "excerpt_word_count": 11,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "No completion report was established in this bounded review."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "ec-2026-05-quito-mayday-notice",
+      "month_unit": "2026-05",
+      "event_date": "2026-05-01 (planned)",
+      "location": "Quito, Ecuador",
+      "event_type_signal": "labor mobilization / march notice",
+      "issue": "May Day labor mobilization announced by unions",
+      "sources": [
+        "ec-mayday-primicias",
+        "ec-mayday-quito-city"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Both sources document plans and route impacts; occurrence is not confirmed in the opened evidence."
+      ]
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

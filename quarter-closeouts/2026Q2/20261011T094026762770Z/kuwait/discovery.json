@@ -1,0 +1,27 @@
+{
+  "country":"Kuwait","period":"2026Q2","scope":"Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass":{"type":"bounded first discovery pass","search_window_utc":"2026-10-11 03:16:09–03:17:16 UTC (observed run bracket; web tool does not expose per-query access timestamps)","targeted_queries":12,"coverage":"Six core English/Arabic monthly queries plus six follow-up English/Arabic searches emphasizing labor and migrant worker actions.","limitations":["No Q2 event lead surfaced in this bounded pass; this does not establish no protest occurred.","Search results included many stale labor-strike examples and unverified social media.","A government notice about resuming weddings, concerts and theatrical events was not a protest or strike record."]},
+  "search_history":[
+    {"month":"2026-04","language":"English","query":"Kuwait protest demonstration strike workers April 2026 Kuwait social protest","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-04","language":"Arabic","query":"الكويت احتجاج مظاهرة إضراب عمال أبريل 2026","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-05","language":"English","query":"Kuwait protest demonstration strike workers May 2026 social","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-05","language":"Arabic","query":"الكويت احتجاج مظاهرة إضراب عمال مايو 2026","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-06","language":"English","query":"Kuwait protest demonstration strike workers June 2026 social","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-06","language":"Arabic","query":"الكويت احتجاج مظاهرة إضراب عمال يونيو 2026","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-04","language":"English","query":"Kuwait strike workers protest April 2026 migrant workers wages","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-04","language":"Arabic","query":"الكويت إضراب عمال احتجاج أجور أبريل 2026 الكويت","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-05","language":"English","query":"Kuwait strike workers protest May 2026 migrant wages","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-05","language":"Arabic","query":"الكويت إضراب عمال مظاهرات مايو 2026 أجور الكويت","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-06","language":"English","query":"Kuwait demonstration workers strike June 2026 protest","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-06","language":"Arabic","query":"الكويت احتجاج عمال إضراب يونيو 2026","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"}
+  ],
+  "provisional_leads":[],
+  "excluded_or_contextual_results":[
+    {"title":"Statement 22 from the Ministry of Interior","url":"https://www.moi.gov.kw/main/News/Index/112200","reason":"Official notice dated April 23 says weddings, parties and theatrical events would again be allowed from April 24 after an earlier restriction tied to security conditions. It does not mention protests or demonstrations and is not event evidence."},
+    {"title":"مضلل | اندلاع احتجاجات شعبية غاضبة في الكويت خلال التصعيد الأخير","url":"https://www.facebook.com/MisbarFC/videos/%D9%85%D8%B6%D9%84%D9%84-%D8%A7%D9%86%D8%AF%D9%84%D8%A7%D8%B9-%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7%D8%AA-%D8%B4%D8%B9%D8%A8%D9%8A%D8%A9-%D8%BA%D8%A7%D8%B6%D8%A8%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1/4452506798347957/","reason":"Search hit is explicitly labeled misleading and concerned a circulating video claiming to show protests during a recent escalation; it is not reliable evidence of an event."},
+    {"title":"عمال النفط ينفذون إضرابهم... الحكومة تتوعد بالعقاب","url":"https://www.aljarida.com/articles/1463605225858575800","reason":"Wrong year: historic April 2016 oil-sector strike."},
+    {"title":"Kuwait: 200 migrant workers strike to protest months of unpaid wages","url":"https://www.business-humanrights.org/en/latest-news/kuwait-200-migrant-workers-strike-to-protest-months-of-unpaid-wages-withheld-passports-poor-living-conditions/","reason":"Wrong year: page dates the reported migrant worker action to June 2020."}
+  ],
+  "no_findings_by_month":{"2026-04":"No confirmed protest or strike lead surfaced in this bounded pass.","2026-05":"No confirmed protest or strike lead surfaced in this bounded pass.","2026-06":"No confirmed protest or strike lead surfaced in this bounded pass."},
+  "failures_and_follow_up":["The Ministry of Interior page was accessible, but pertains to public entertainment event restrictions, not demonstrations.","Search results were dominated by older worker actions (2015–2020) and non-event contextual material.","Follow-up would be needed with local Arabic news and labor sources to improve coverage; current no-findings are not an absence conclusion."]
+}

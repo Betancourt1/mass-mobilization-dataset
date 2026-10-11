@@ -1,0 +1,92 @@
+{
+  "country": "Montenegro",
+  "quarter": "2026Q2",
+  "status": "provisional public-source discovery; kit/schema/formal validation pending",
+  "searches": [
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "English",
+      "query": "Montenegro protest demonstration strike April 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "Montenegrin/Serbian",
+      "query": "Crna Gora protesti štrajk april 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "English",
+      "query": "Montenegro protest demonstration strike May 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "Montenegrin/Serbian",
+      "query": "Crna Gora protesti štrajk maj 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "English",
+      "query": "Montenegro protest demonstration strike June 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "Montenegrin/Serbian",
+      "query": "Crna Gora protesti štrajk jun 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    }
+  ],
+  "leads": [
+    {
+      "url": "https://www.gov.me/clanak/saopstenje-415",
+      "publisher": "Police Administration via gov.me",
+      "publication_date": "2026-04-17",
+      "event_date": "2026-04-14 to 2026-04-17",
+      "event": "Police reports transporter assemblies at eight sites; attempted continuation of road blockades after authorized end at three municipalities.",
+      "excerpt": "odobrena javna okupljanja u organizaciji NVU „Udruženje prevoznika Crne Gore“",
+      "excerpt_word_count": 10,
+      "access_and_provenance": "2026-10-11 03:11:37-03:11:38; open success, 03:11:49-50 lines 12-23; Official police statement in Montenegrin.",
+      "uncertainty": "Provisional; enforcement authority perspective, not independently corroborated."
+    }
+  ],
+  "excluded_or_noisy_results": [
+    "Apr29 union protest announcement was scheduled only; open attempt failed."
+  ],
+  "access_failures": [
+    "Official page announcing Apr29 action failed to open; it was a plan rather than confirmed event."
+  ],
+  "note": "Bounded first discovery pass; no findings are not evidence of absence. Planned/scheduled events remain unconfirmed unless a source describes them retrospectively. Claims are attributed to sources; not for canonical integration.",
+  "follow_up_searches": [
+    {
+      "access_utc": "2026-10-11 03:15:28..03:15:35 UTC",
+      "query": "Montenegro truckers protest 17 April 2026 blockade locations protest ended local news",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    }
+  ],
+  "follow_up_sources": [
+    {
+      "lead_index": 0,
+      "url": "https://radiobijelopolje.me/en/hronika/75661/uprava-policije-dozvolila-nvu-udruzenju-prevoznika-crne-gore-odrzavanje-javnih-okupljanja-u-trajanju-72-sata-na-osam-lokacija-u-sest-opstina-u-periodu-od-14-do-17-aprila-2026-godine-protest-u-luci-bar-nije-dozvoljen",
+      "publisher": "Radio Bijelo Polje",
+      "publication_date": "2026-04-09",
+      "event_date": "2026-04-14 to 2026-04-17 (authorization notice; not retrospective)",
+      "excerpt": "allowed the NGO ‘Association of Transporters of Montenegro’ to hold public gatherings for 72 hours at eight locations",
+      "word_count": 14,
+      "access_utc": "2026-10-11 03:15:28-03:15:35 search result only; page not separately opened",
+      "provenance": "Local outlet reproducing the Police Administration notice; the official police Apr17 statement remains the direct retrospective occurrence report.",
+      "uncertainty": "Follow-up did not find an independent retrospective report; this item is an advance authorization, not event confirmation."
+    }
+  ],
+  "follow_up_assessment": "Apr14-17 transporter gatherings and Apr17 blockades are directly described in the opened Apr17 Police Administration statement. Follow-up found authorization coverage but no independent retrospective account."
+}

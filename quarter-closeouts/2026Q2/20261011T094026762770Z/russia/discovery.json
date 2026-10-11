@@ -1,0 +1,17 @@
+{
+  "country":"Russia","period":"2026-04-01/2026-06-30","status":"provisional_public_source_discovery",
+  "searches":[
+    {"query":"Russia protest demonstration April 2026 Moscow","searched_utc":"2026-10-11T03:11:50Z/2026-10-11T03:11:56Z"},
+    {"query":"Россия протест апрель 2026 Москва митинг","searched_utc":"2026-10-11T03:11:57Z/2026-10-11T03:12:00Z"},
+    {"query":"Russia protest demonstration May 2026 Moscow","searched_utc":"2026-10-11T03:12:04Z/2026-10-11T03:12:09Z"},
+    {"query":"Россия протест май 2026 Москва митинг","searched_utc":"2026-10-11T03:12:10Z/2026-10-11T03:12:13Z"},
+    {"query":"Russia protest demonstration June 2026 Moscow","searched_utc":"2026-10-11T03:12:15Z/2026-10-11T03:12:20Z"},
+    {"query":"Россия протест июнь 2026 Москва митинг","searched_utc":"2026-10-11T03:12:24Z/2026-10-11T03:12:27Z"}
+  ],
+  "opened_sources":[
+    {"url":"https://united24media.com/world/leaked-document-shows-how-russia-staged-anti-western-rallies-outside-14-embassies-21212","publisher":"UNITED24 Media","page_date":"2026-07-30","event_date":"2026-06-04","location":"Outside U.S. and 13 European diplomatic missions in Russia (city-by-city scope not fully specified in article excerpt)","finding":"Article attributes the claim to a leaked Void Group document; provisional lead only, with provenance and framing caveat.","excerpt":"The rallies were held outside the US Embassy and the diplomatic missions of 13 European countries on June 4, 2026.","excerpt_words":20,"opened_utc":"2026-10-11T03:12:35Z/2026-10-11T03:12:36Z","confidence":"low-to-moderate; source is secondary and relies on leaked-document reporting"},
+    {"url":"https://www.svoboda.org/a/eta-tema-obedinyaet-vseh-aktsii-protiv-blokirovok-interneta/33723018.html","publisher":"Radio Svoboda","page_date":"2026-04-02","event_date":"2026-03-29","location":"Russia","finding":"Article describes March 29 protest against internet restrictions, outside the target window.","excerpt":"акции протеста против блокировок интернета прошли 29 марта","excerpt_words":8,"opened_utc":"2026-10-11T03:12:35Z/2026-10-11T03:12:36Z"}
+  ],
+  "exclusions":[{"item":"March 29 anti-internet-blocking protests","reason":"Event date is outside Q2 although the article appeared in April."},{"item":"October 4 Moscow memorial protest","reason":"Search result was for a future/out-of-period event."}],
+  "limitations":"No April or May occurrence was confirmed in this bounded pass. June 4 embassy action remains a low-confidence, document-attributed lead, not independently corroborated. No-findings are not evidence of absence."
+}

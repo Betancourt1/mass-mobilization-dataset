@@ -1,0 +1,16 @@
+{
+ "country":"Tanzania","period":{"start":"2026-04-01","end":"2026-06-30"},"status":"provisional_public_source_discovery","capture_note":"Managed search/open capture approximately 2026-10-11T03:13–03:16Z; exact per-request timestamps unavailable.",
+ "queries":[
+  {"month":"2026-04","language":"English","query":"Tanzania protest demonstration April 2026 rally workers Dar es Salaam","result":"No current individually dateable April protest surfaced."},
+  {"month":"2026-04","language":"Swahili","query":"Tanzania maandamano Aprili 2026 Dar es Salaam maandamano","result":"No current event lead surfaced."},
+  {"month":"2026-05","language":"English","query":"Tanzania protest demonstration May 2026 rally workers Dar es Salaam","result":"No current individually dateable May event surfaced."},
+  {"month":"2026-05","language":"Swahili","query":"Tanzania maandamano Mei 2026 Dar es Salaam maandamano","result":"No event lead surfaced in this pass."},
+  {"month":"2026-06","language":"English","query":"Tanzania protest demonstration June 2026 rally workers Dar es Salaam","result":"Reuters/AP report government ban ahead of planned July 7 youth demonstrations; no June event identified."},
+  {"month":"2026-06","language":"Swahili","query":"Tanzania maandamano Juni 2026 Dar es Salaam maandamano","result":"Search likewise surfaced preparations/ban for July 7, outside the quarter."}
+ ],
+ "leads":[],
+ "context_sources":[{"url":"https://www.reuters.com/world/africa/tanzania-bans-political-rallies-ahead-youth-led-protests-2026-06-26/","publisher":"Reuters","publication_date":"2026-06-26 15:20 UTC","accessed_utc":"2026-10-11T03:15Z approximate","provenance":"Opened report. Confirms ban announced June 26 and describes youth-led protests planned for July 7; its event date is outside Q2, so not included as an event lead.","excerpt":"youth-led protests planned for July 7"},{"url":"https://apnews.com/article/tanzania-political-rallies-ban-830f6a6db6ac7d8573b12e146006cd35","publisher":"Associated Press","publication_date":"2026-06-26 per story","accessed_utc":"2026-10-11T03:15Z approximate","provenance":"Opened AP report also says demonstrations were planned for July 7, following government ban; opposition/law-society criticism is included as context.","excerpt":"The country’s young people have said they plan to demonstrate on July 7"}],
+ "excluded_or_unresolved":[{"item":"Youth-led anti-government protest planned for July 7, 2026","reason":"Outside Q2 period. June sources document planned future action and government's ban, not a Q2 demonstration."},{"item":"2025 post-election protests","reason":"Wrong event period."}],
+ "no_findings_and_failures":[{"period":"April 2026","note":"No-findings in targeted English/Swahili searches; not evidence of absence."},{"period":"May 2026","note":"No-findings in targeted English/Swahili searches; not evidence of absence."},{"period":"June 2026","note":"No June mass demonstration was confirmed in this pass. June 26 reporting is about proposed July 7 action and ban; Tanzania authorities denied rights-group allegations of excessive force in 2025, a disputed claim not treated as Q2 event denial."}],
+ "status_note":"Provisional only; no canonical schema/formal validation/completion claim."
+}

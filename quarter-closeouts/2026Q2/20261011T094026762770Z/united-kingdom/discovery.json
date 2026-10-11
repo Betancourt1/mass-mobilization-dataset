@@ -1,0 +1,135 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "United Kingdom",
+  "country_slug": "united-kingdom",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass on reported demonstrations and collective actions. Empty searches do not demonstrate absence. Planned actions are distinguished from verified event occurrence.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:20:02Z",
+    "search_and_open_window_utc": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose request-level timestamps; window records the observed bounded session."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "United Kingdom protest demonstration April 2026 London rally",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Search surfaced a US Embassy notice for planned April 11 London demonstrations; attempted open denied (403)."
+    },
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "UK protest march demonstration April 2026 London",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "No additional clearly reported actual April demonstration surfaced in the result set."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "United Kingdom protest demonstration May 2026 London rally",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced May 16 London far-right and pro-Palestinian marches; Reuters opened."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "UK protest march demonstration May 2026 London",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced May 16 demonstrations and official pre-event notice; other results noisy."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "United Kingdom protest demonstration June 2026 London rally",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced planned June 20 Rejoin march; occurrence not verified in this pass."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "UK protest march demonstration June 2026 London",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced same planned June 20 central London march; no separate event verification."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "lead_id": "GBR-2026-04-LONDON-PLANNED-DEMONSTRATIONS",
+      "event_date": {
+        "value": "Planned for 2026-04-11; occurrence unverified",
+        "uncertainty": "Page could not be opened; actual event occurrence, participants and demands not established."
+      },
+      "location": "London, England; specific route(s) in Embassy search result snippet include Whitehall.",
+      "action_summary": "US Embassy alert said demonstrations were expected in London on April 11.",
+      "provisional_status": "planned-action lead only; no outcome verified",
+      "sources": [
+        {
+          "url": "https://uk.usembassy.gov/demonstration-alert-planned-demonstrations-in-london-april-11-2026/",
+          "publisher": "U.S. Embassy & Consulates in the United Kingdom",
+          "publication_date": "2026-04-11 (search result dateline)",
+          "accessed_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+          "excerpt": "Planned demonstrations are expected in London on Saturday, April 11.",
+          "provenance": "Search snippet identifies the date and expected demonstrations. Direct open returned HTTP 403; details not independently reviewed.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "event_date_as_reported": "planned 2026-04-11"
+        }
+      ]
+    },
+    {
+      "lead_id": "GBR-2026-05-16-LONDON-IMMIGRATION-AND-PALESTINE",
+      "event_date": {
+        "value": "2026-05-16",
+        "uncertainty": ""
+      },
+      "location": "Central London, England.",
+      "action_summary": "Two separate marches: one against high immigration and perceived Islamic threat to British identity; one in support of Palestinians.",
+      "provisional_status": "reported event lead; Reuters article opened",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/uk/tens-thousands-march-london-separate-immigration-propalestinian-protests-2026-05-16/",
+          "publisher": "Reuters",
+          "publication_date": "2026-05-16",
+          "accessed_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+          "excerpt": "Tens of thousands of people marched through central London on Saturday in two separate protests.",
+          "provenance": "Opened Reuters report; says police deployed 4,000 officers. The events were separately framed by organizers/participants.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "event_date_as_reported": "2026-05-16"
+        }
+      ]
+    },
+    {
+      "lead_id": "GBR-2026-06-20-LONDON-REJOIN-PLANNED-MARCH",
+      "event_date": {
+        "value": "Planned for 2026-06-20; occurrence unverified",
+        "uncertainty": "Follow-up reporting on whether the planned march occurred was not found."
+      },
+      "location": "Temple station to Parliament Square, central London, England.",
+      "action_summary": "National Rejoin March announced a march and rally calling for the UK to rejoin the European Union.",
+      "provisional_status": "planned-action lead only",
+      "sources": [
+        {
+          "url": "https://northeastbylines.co.uk/news/brexit/rejoin-march-to-mark-10-years-since-eu-referendum/",
+          "publisher": "North East Bylines",
+          "publication_date": "2026-06-16",
+          "accessed_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+          "excerpt": "Thousands of pro-Europeans will march through central London on Saturday 20 June 2026.",
+          "provenance": "Opened event notice, which gives planned route and rationale; it is a preview, not confirmation of occurrence.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "event_date_as_reported": "planned 2026-06-20"
+        }
+      ]
+    }
+  ],
+  "excluded_or_deferred_results": [],
+  "failures_and_limits": [
+    "The April 11 Embassy page returned 403 on open; search snippet is retained as page-denial evidence. June 20 notice is prospective and not an event confirmation."
+  ],
+  "next_pass_priorities": [
+    "Follow up on announced actions lacking outcome reporting and expand searches for local/national outlets before formal coding."
+  ]
+}

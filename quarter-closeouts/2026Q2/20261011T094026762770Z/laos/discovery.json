@@ -1,0 +1,26 @@
+{
+  "country":"Laos","period":"2026Q2","scope":"Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass":{"type":"bounded first discovery pass","search_window_utc":"2026-10-11 03:16:09–03:17:16 UTC (observed run bracket; web tool does not expose per-query access timestamps)","targeted_queries":12,"coverage":"Six core English/Lao searches, plus six targeted English/Lao follow-ups covering each month.","limitations":["Search engines returned very few dated Q2 2026 protest or strike reports; lack of results is not evidence of absence.","A planned International Workers’ Day health walk and celebration was a state/union commemoration, not classified as protest evidence.","Searches may have limited reach in Lao-language local sources."]},
+  "search_history":[
+    {"month":"2026-04","language":"English","query":"Laos protest demonstration strike workers April 2026 social protest","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-04","language":"Lao","query":"ລາວ ປະທ້ວງ ນັດຢຸດງານ ເມສາ 2026","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-05","language":"English","query":"Laos protest demonstration strike workers May 2026","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-05","language":"Lao","query":"ລາວ ປະທ້ວງ ນັດຢຸດງານ ພຶດສະພາ 2026","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-06","language":"English","query":"Laos protest demonstration strike workers June 2026","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-06","language":"Lao","query":"ລາວ ປະທ້ວງ ນັດຢຸດງານ ມິຖຸນາ 2026","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-04","language":"English","query":"Laos workers strike protest 2026 April","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-04","language":"Lao","query":"ລາວ ປະທ້ວງ 2026 ເມສາ ຄົນງານ","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-05","language":"English","query":"Laos demonstration strike workers May 2026","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-05","language":"Lao","query":"ລາວ ປະທ້ວງ ເດືອນພຶດສະພາ 2026 ຄົນງານ","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-06","language":"English","query":"Laos demonstration strike workers June 2026","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"},
+    {"month":"2026-06","language":"Lao","query":"ລາວ ປະທ້ວງ ເດືອນມິຖຸນາ 2026 ຄົນງານ","access_utc_bracket":"2026-10-11 03:16:09–03:17:16 UTC"}
+  ],
+  "provisional_leads":[],
+  "excluded_or_contextual_results":[
+    {"title":"Laos to Mark International Workers’ Day with Nationwide Activities","url":"https://kpl.gov.la/fr/detail.aspx?id=98895","reason":"KPL article dated April 25 describes planned nationwide observances, including a May 1 health walk and celebration at Patuxay Park. It is a state/union commemoration and worker-awareness program, not reported protest or strike action."},
+    {"title":"Worker oppression on the rise in Laos","url":"https://www.nationthailand.com/international/30281529","reason":"Wrong year: labor conditions story from 2016."},
+    {"title":"Some 1000 Workers Still Jobless After Protests Prompted Strike","url":"https://khmer.voanews.com/","reason":"Wrong country/year: search result is about garment workers in Cambodia in 2019."}
+  ],
+  "no_findings_by_month":{"2026-04":"No dated protest or strike event was found in this bounded pass. KPL’s May Day notice was a planned celebration, not protest evidence.","2026-05":"No Q2 protest or strike event surfaced; the May 1 public observance was described as a health walk and commemorative/workers’ education activity.","2026-06":"No dated protest or strike event surfaced in this bounded pass; not evidence of absence."},
+  "failures_and_follow_up":["Search hits were dominated by unrelated Lao Gold Festival posts, historical worker-rights coverage, calendar pages, and events in neighboring countries.","Follow up with additional Lao-language news, labor federation, and regional reporting if deeper coverage is required."]
+}

@@ -1,0 +1,278 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Armenia",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "armenia_2026-04",
+      "armenia_2026-05",
+      "armenia_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Armenia; do not treat diaspora events outside Armenia as Armenia-located events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries_logged_at_utc": "2026-10-11 03:05:29 UTC",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English",
+        "exact_query": "Armenia protests demonstration April 2026 Yerevan opposition church labor strike protest April 2026"
+      },
+      {
+        "month": "2026-04",
+        "language": "Armenian/English",
+        "exact_query": "Հայաստան ապրիլ 2026 բողոքի ցույց Երևան գործադուլ protest"
+      },
+      {
+        "month": "2026-05",
+        "language": "English",
+        "exact_query": "Armenia May 2026 protest church opposition rally May 2026 Yerevan protest"
+      },
+      {
+        "month": "2026-05",
+        "language": "Armenian/English",
+        "exact_query": "Հայաստան մայիս 2026 բողոքի ակցիա եկեղեցի Երևան 2026"
+      },
+      {
+        "month": "2026-06",
+        "language": "English",
+        "exact_query": "Armenia June 2026 protest strike election results Yerevan protest 2026 June"
+      },
+      {
+        "month": "2026-06",
+        "language": "Armenian",
+        "exact_query": "Հայաստան հունիս 2026 բողոքի ցույց Երևան եկեղեցի ընդդիմություն գործադուլ"
+      }
+    ],
+    "supplemental_searches": "Follow-up searches were used to check exact dates and distinguish strikes, protests, campaign rallies, elections, and historical lookalikes. The initial exploratory calls did not expose per-query UTC timestamps; the six primary queries above were rerun and timestamped. No source access barrier was bypassed.",
+    "source_accessed_at_utc": "2026-10-11 03:05:42 UTC"
+  },
+  "sources": [
+    {
+      "source_id": "arm-apr-driver-protest",
+      "url": "https://alphanews.am/en/protest-takes-place-outside-the-armenian-government-building/",
+      "outlet": "Alpha News",
+      "provenance": "Contemporaneous English-language web report; item is in the outlet's Opinion section, so treat as single-source reporting rather than independently corroborated fact.",
+      "publication_date": "2026-04-09",
+      "event_date": "2026-04-09",
+      "event_date_basis": "Article timestamp is April 9 and uses present-progressive wording; date inferred as same-day, not independently stated in the body.",
+      "location": "Outside the Armenian government building, Yerevan, Armenia",
+      "bounded_excerpt": "Citizens who have been stripped of their driver’s licenses are holding a protest outside the government building in Yerevan.",
+      "excerpt_word_count": 19,
+      "source_accessed_at_utc": "2026-10-11 03:05:42 UTC"
+    },
+    {
+      "source_id": "arm-apr-commemoration-march",
+      "url": "https://www.euronews.com/video/2026/04/24/armenia-marks-111th-anniversary-of-armenian-genocide-in-yerevan",
+      "outlet": "Euronews",
+      "provenance": "English-language video report, updated April 24, with event description and visuals summarized in accessible page text.",
+      "publication_date": "2026-04-24",
+      "event_date": "2026-04-23/2026-04-24",
+      "event_date_basis": "Page says ceremonies/marches were held on both dates and describes the torch march on the eve of remembrance day.",
+      "location": "Yerevan, Armenia",
+      "bounded_excerpt": "Thousands joined the silent march, led by the youth wing of the Armenian Revolutionary Federation.",
+      "excerpt_word_count": 15,
+      "source_accessed_at_utc": "2026-10-11 03:05:42 UTC"
+    },
+    {
+      "source_id": "arm-may-eu-summit-protest-knot",
+      "url": "https://www.eng.kavkaz-uzel.eu/articles/74963",
+      "outlet": "Caucasian Knot",
+      "provenance": "English-language report with date/time and direct description of rally demands; search page and article opened.",
+      "publication_date": "2026-05-04",
+      "event_date": "2026-05-04",
+      "event_date_basis": "Report timestamp and text identify the opening day of the summit.",
+      "location": "Yerevan, Armenia",
+      "bounded_excerpt": "Karabakh natives called on EU representatives to pay attention to the problems of Armenian prisoners of war in Azerbaijan and the preservation of Armenian cultural heritage.",
+      "excerpt_word_count": 25,
+      "source_accessed_at_utc": "2026-10-11 03:05:42 UTC"
+    },
+    {
+      "source_id": "arm-may-eu-summit-protest-pan",
+      "url": "https://www.pan.am/en/332931",
+      "outlet": "PAN.am",
+      "provenance": "English-language local news report; gives specific location and says Artsakh Armenians and opposition representatives staged a protest.",
+      "publication_date": "2026-05-04",
+      "event_date": "2026-05-04",
+      "event_date_basis": "Report explicitly says the protest took place ahead of the May 4 summit.",
+      "location": "Intersection of Kievyan and Halabyan streets by the Karen Demirchyan Sports and Concert Complex, Yerevan, Armenia",
+      "bounded_excerpt": "Artsakh Armenians and representatives of opposition political forces staged a protest at the intersection of Kievyan and Halabyan streets",
+      "excerpt_word_count": 18,
+      "source_accessed_at_utc": "2026-10-11 03:05:42 UTC"
+    },
+    {
+      "source_id": "arm-may-ijevan-labor-rferl",
+      "url": "https://www.azatutyun.am/a/33756643.html",
+      "outlet": "Azatutyun / RFE-RL Armenian Service",
+      "provenance": "Armenian-language report with explicit protest description and demand; the accessible page includes the full text and attribution to police/investigators.",
+      "publication_date": "2026-05-14",
+      "event_date": "2026-05-11/2026-05-14 (approximate window)",
+      "event_date_basis": "The article refers to protest videos published the prior day; it does not give a firm date when the work stoppage began.",
+      "location": "Grand Textile garment factory, Ijevan, Tavush Province, Armenia",
+      "bounded_excerpt": "բողոքի ցույցն ավարտվել է մեկ անձի ձերբակալությամբ",
+      "excerpt_translation": "the protest ended with one person arrested",
+      "excerpt_word_count": 7,
+      "source_accessed_at_utc": "2026-10-11 03:05:42 UTC"
+    },
+    {
+      "source_id": "arm-may-ijevan-labor-evn",
+      "url": "https://evnreport.com/law-society/strike-against-the-sweatshop-migrant-workers-in-ijevan/",
+      "outlet": "EVN Report",
+      "provenance": "English-language report; gives labor context and a bounded interval, and links to video documentation and an Armenian-service report.",
+      "publication_date": "2026-05-20",
+      "event_date": "2026-05-11/2026-05-14 (approximate window)",
+      "event_date_basis": "Article says the second stoppage was in the prior week; its video published May 13 documents a police confrontation, but the precise stoppage start date is not stated.",
+      "location": "Grand Textile factory, Ijevan, Tavush Province, Armenia",
+      "bounded_excerpt": "In the past week, workers undertook another work stoppage after reportedly rejecting an unreasonable increase in production quotas demanded by management.",
+      "excerpt_word_count": 20,
+      "source_accessed_at_utc": "2026-10-11 03:05:42 UTC"
+    },
+    {
+      "source_id": "arm-jun-cec-protest-kyiv-independent",
+      "url": "https://kyivindependent.com/armenia-releases-final-election-results-as-pro-russian-opposition-demands-new-vote/",
+      "outlet": "The Kyiv Independent",
+      "provenance": "English-language report describing the protest and its demand, with publication date and event date for the CEC announcement.",
+      "publication_date": "2026-06-15",
+      "event_date": "2026-06-14",
+      "event_date_basis": "The CEC held its extraordinary final-results session June 14; report says the demonstration took place as the announcement was made.",
+      "location": "Outside Central Electoral Commission building, Yerevan, Armenia",
+      "bounded_excerpt": "The announcement came as hundred of opposition figures and their supporters held a demonstration outside the Central Electoral Commission building",
+      "excerpt_word_count": 18,
+      "source_accessed_at_utc": "2026-10-11 03:05:42 UTC"
+    },
+    {
+      "source_id": "arm-jun-cec-protest-interfax",
+      "url": "https://interfax.com/newsroom/top-stories/118056/",
+      "outlet": "Interfax",
+      "provenance": "English-language wire report; describes a mass protest outside CEC as final results were presented. It gives June 15 publication time and refers to a Sunday meeting (June 14).",
+      "publication_date": "2026-06-15 10:33",
+      "event_date": "2026-06-14",
+      "event_date_basis": "Wire report says the CEC chair spoke at a Sunday meeting; this was the June 14 final-results announcement.",
+      "location": "In front of Central Electoral Commission building, Yerevan, Armenia",
+      "bounded_excerpt": "Various opposition parties held a massive protest in front of the CEC building at the time it was in meeting.",
+      "excerpt_word_count": 15,
+      "source_accessed_at_utc": "2026-10-11 03:05:42 UTC"
+    },
+    {
+      "source_id": "arm-jun-campaign-rally-hetq",
+      "url": "https://hetq.am/en/article/181782",
+      "outlet": "Hetq",
+      "provenance": "English-language local news report; used to distinguish a campaign rally from a protest and not counted as a protest event.",
+      "publication_date": "2026-06-04",
+      "event_date": "2026-06-03",
+      "event_date_basis": "Article explicitly says the final campaign rally occurred June 3.",
+      "location": "Republic Square, Yerevan, Armenia",
+      "bounded_excerpt": "The Strong Armenia party held its final campaign rally in Yerevan’s Republic Square on June 3.",
+      "excerpt_word_count": 14,
+      "source_accessed_at_utc": "2026-10-11 03:05:42 UTC"
+    }
+  ],
+  "candidate_events": [
+    {
+      "candidate_id": "armenia-2026-04-driver-license-protest",
+      "month_unit": "armenia_2026-04",
+      "event_date": "2026-04-09",
+      "event_date_confidence": "low; inferred from same-day article timestamp",
+      "location": "Yerevan, Armenia",
+      "event_type_signal": "street protest",
+      "issue": "Driver-license revocations",
+      "reported_participants": null,
+      "sources": ["arm-apr-driver-protest"],
+      "uncertainties": ["Single report; small or exact group size unknown; Alpha News labels the item Opinion."]
+    },
+    {
+      "candidate_id": "armenia-2026-04-genocide-remembrance-march",
+      "month_unit": "armenia_2026-04",
+      "event_date": "2026-04-23/2026-04-24",
+      "event_date_confidence": "medium",
+      "location": "Yerevan, Armenia",
+      "event_type_signal": "large annual march with explicit protest elements",
+      "issue": "Genocide denial, Armenia-Turkey/Azerbaijan tensions, and post-2023 Nagorno-Karabakh grievances",
+      "reported_participants": "Thousands",
+      "sources": ["arm-apr-commemoration-march"],
+      "uncertainties": ["Commemoration and protest overlap; protocol/category rules may exclude a primarily ritual annual procession. Diaspora events in London, Paris, and Los Angeles are outside the country scope and excluded."]
+    },
+    {
+      "candidate_id": "armenia-2026-05-eu-summit-protest",
+      "month_unit": "armenia_2026-05",
+      "event_date": "2026-05-04",
+      "event_date_confidence": "high",
+      "location": "Yerevan, Armenia",
+      "event_type_signal": "opposition/rights protest during European Political Community summit",
+      "issues": ["Armenian prisoners held in Azerbaijan", "Artsakh refugees and cultural heritage", "democracy and political prisoners", "opposition allegations of attacks on the Armenian Apostolic Church"],
+      "reported_participants": null,
+      "sources": ["arm-may-eu-summit-protest-knot", "arm-may-eu-summit-protest-pan"],
+      "uncertainties": ["Sources do not provide a robust participant count. The event was announced by opposition actors and independently described as staged; claims about motivation/demands are attributed to organizers and participants."]
+    },
+    {
+      "candidate_id": "armenia-2026-05-ijevan-textile-strike-protest",
+      "month_unit": "armenia_2026-05",
+      "event_date": "2026-05-11/2026-05-14 (approximate window)",
+      "event_date_confidence": "medium for May, low for exact day",
+      "location": "Ijevan, Tavush Province, Armenia",
+      "event_type_signal": "labor strike and protest",
+      "issues": ["Higher wages", "improved working conditions", "production quotas"],
+      "reported_participants": "Dozens in confrontation video; total number of striking workers not consistently specified in opened reports",
+      "sources": ["arm-may-ijevan-labor-rferl", "arm-may-ijevan-labor-evn"],
+      "uncertainties": ["Exact start and end dates are not given; Azatutyun says protest ended with one worker detained, while EVN Report describes nine arrests in the video confrontation. Treat arrest counts as potentially different timepoints or reports, not reconciled."]
+    },
+    {
+      "candidate_id": "armenia-2026-06-cec-election-results-protest",
+      "month_unit": "armenia_2026-06",
+      "event_date": "2026-06-14",
+      "event_date_confidence": "high",
+      "location": "Outside the Central Electoral Commission, Yerevan, Armenia",
+      "event_type_signal": "opposition demonstration",
+      "issue": "Demand to annul June 7 parliamentary election results and hold a new election",
+      "reported_participants": "Hundreds according to Kyiv Independent; Interfax calls it massive",
+      "sources": ["arm-jun-cec-protest-kyiv-independent", "arm-jun-cec-protest-interfax"],
+      "uncertainties": ["Election results and related protest claims were politically contested. Sources vary in participant count wording; no exact crowd count found."]
+    }
+  ],
+  "screened_non_candidates": [
+    {
+      "date": "2026-06-03",
+      "event": "Strong Armenia final campaign rally in Yerevan",
+      "reason": "Reported as a campaign rally without a distinct protest demand; retained as a screening note, not a protest candidate.",
+      "sources": ["arm-jun-campaign-rally-hetq"]
+    },
+    {
+      "date": "2026-06-07",
+      "event": "Armenian parliamentary election day",
+      "reason": "An election is not itself a protest event; election-result protest is separately recorded for June 14.",
+      "sources": ["https://odihr.osce.org/odihr/665473", "https://armenpress.am/en/article/1252978"]
+    },
+    {
+      "date": "2024 and earlier historical results",
+      "event": "Earlier opposition/church protests in Armenia",
+      "reason": "Search results included old 2024, 2022, and 2018 demonstrations; excluded as outside quarter/year scope.",
+      "sources": ["https://www.azatutyun.am/a/32940903.html", "https://www.rferl.org/a/armenia-protests-apr26/29193839.html"]
+    }
+  ],
+  "search_and_source_failures": [
+    {
+      "url": "https://oc-media.org/armenian-opposition-groups-hinted-at-of-further-escalation-as-final-election-results-announced/",
+      "failure": "Managed open returned HTTP 520 (Unknown Status Code).",
+      "handling": "Logged; no retry or access restriction bypass attempted. Other accessible reports were used for the June 14 protest."
+    }
+  ],
+  "coverage_limits": [
+    "This is bounded public discovery, not proof of a complete event census or of absence in any month.",
+    "Election, opposition, church-related rhetoric, labor action, and local civic grievances were included in search coverage.",
+    "No June labor/church protest candidate was established by this bounded search; the one found Ijevan labor action is in May.",
+    "Election rallies and ceremonial marches are kept separate or flagged where protest classification is uncertain.",
+    "No diaspora-located event is attributed to Armenia."
+  ],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending."
+  }
+}

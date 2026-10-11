@@ -1,0 +1,89 @@
+{
+  "country": "Cape Verde",
+  "country_slug": "cape-verde",
+  "quarter": "2026Q2",
+  "period_start": "2026-04-01",
+  "period_end": "2026-06-30",
+  "status": "provisional public discovery; not canonical; no formal validation performed",
+  "search_logs": [
+    {
+      "query": "Cabo Verde greve manifestação protesto abril 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Cape Verde strike protest demonstration April 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Cabo Verde greve manifestação protesto maio 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Cape Verde strike protest demonstration May 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "greve agentes prisionais Cabo Verde começou 14 maio 2026 SIACSA",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Cabo Verde greve agentes prisionais 14 maio 2026 resultado greve",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Cabo Verde greve manifestação protesto junho 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Cape Verde strike protest demonstration June 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    }
+  ],
+  "events": [
+    {
+      "id": "cape-verde-2026-05-14-national-prison-guards-strike",
+      "event_date": "2026-05-14/2026-05-15",
+      "event_date_precision": "two-day work stoppage, as announced May 13 and reported underway May14",
+      "country": "Cape Verde",
+      "location": "Nationwide prison service; multiple islands/cities referenced by Inforpress agenda",
+      "title": "National prison guards strike over wages and security",
+      "publication_date": "2026-05-14",
+      "source_url": "https://rtc.cv/tcv/video-details/greve-dos-agentes-prisionais-arranca-com-exigencias-por-melhores-salarios-e-seguranca-58186",
+      "source_type": "TCV / Rádio Televisão de Cabo Verde report; official public broadcaster",
+      "excerpt": "Greve dos Agentes Prisionais arranca com exigências por melhores salários e segurança.",
+      "excerpt_word_count": 12,
+      "notes": "TCV published a report dated May 14 with the strike described as starting and worker demands. A May13 RTC notice said it was scheduled May14 through Friday, May15; no unverified plan treated as an event without the May14 report."
+    }
+  ],
+  "excluded_or_unverified_leads": [
+    {
+      "lead": "April/June strike and protest search results",
+      "reason": "Search results largely returned unrelated, archival, or poorly indexed RTC items without a verifiable Q2 event; Cape Verde May prison-guards strike is the confirmed record."
+    }
+  ],
+  "source_access_failures": [],
+  "method_notes": [
+    "Bounded search for strikes, public protests, demonstrations, rallies and mobilizations physically inside the country during Apr-Jun 2026.",
+    "Local-language queries were used where feasible: Portuguese for Cape Verde, French for Chad and Central African Republic, Spanish for Chile; English companion queries included.",
+    "No-results is not an absence claim. Planned or canceled actions and non-dissent civic/sporting marches are not counted as protest events.",
+    "Publication date, event date and precision are separated; exact URLs and source provenance retained.",
+    "Each excerpt is under 25 words.",
+    "Provisional staging only; no scientific-kit integration or canonical schema validation performed."
+  ]
+}

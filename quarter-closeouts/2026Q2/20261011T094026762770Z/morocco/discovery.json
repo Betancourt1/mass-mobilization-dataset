@@ -1,0 +1,134 @@
+{
+  "country": "Morocco",
+  "quarter": "2026Q2",
+  "status": "provisional public-source discovery; kit/schema/formal validation pending",
+  "searches": [
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "English",
+      "query": "Morocco protest demonstrations strikes April 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "French",
+      "query": "Maroc manifestations grève protestation avril 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "English",
+      "query": "Morocco protest demonstrations strikes May 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "French",
+      "query": "Maroc manifestations grève protestation mai 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "English",
+      "query": "Morocco protest demonstrations strikes June 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:01..03:09:28 UTC",
+      "language": "French",
+      "query": "Maroc manifestations grève protestation juin 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    }
+  ],
+  "leads": [
+    {
+      "url": "https://www.moroccoworldnews.com/2026/04/285772/adouls-escalate-protest-with-nationwide-open-ended-strike-starting-april-13/",
+      "publisher": "Morocco World News",
+      "publication_date": "2026-04-04",
+      "event_date": "Early Apr symbolic Parliament protest; nationwide strike announced from 2026-04-13",
+      "event": "Adouls announced open-ended nationwide professional strike; the article separately reports symbolic Parliament protest.",
+      "excerpt": "declaring a nationwide, open-ended strike starting April 13, 2026",
+      "excerpt_word_count": 9,
+      "access_and_provenance": "2026-10-11 03:11:37-03:11:38; open success 03:11:40-41 lines 42-63; News report citing professional authority.",
+      "uncertainty": "Provisional; announcement, strike occurrence/duration unverified."
+    },
+    {
+      "url": "https://www.industriall-union.org/fr/maroc-cdt-protestations-syndicales-2026/",
+      "publisher": "IndustriALL Global Union",
+      "publication_date": "2026-07-09",
+      "event_date": "2026-06-28",
+      "event": "Retrospective report of national CDT workers' protest march in Casablanca.",
+      "excerpt": "une grande marche nationale de protestation à Casablanca",
+      "excerpt_word_count": 8,
+      "access_and_provenance": "2026-10-11 03:11:37-03:11:38; open success 03:11:49-50 lines 103-117; Trade union federation French-language report.",
+      "uncertainty": "Provisional; post-quarter retrospective, union-aligned."
+    }
+  ],
+  "excluded_or_noisy_results": [
+    "Separately surfaced March18-Apr5 action is outside Q2 occurrence period."
+  ],
+  "access_failures": [
+    "U.S. Embassy Rabat alert about Apr19 planned protest failed to open.",
+    "Africa News English article URL returned an internal error on open at 2026-10-11 03:16:30; Apr13 strike status remains search-snippet level."
+  ],
+  "note": "Bounded first discovery pass; no findings are not evidence of absence. Planned/scheduled events remain unconfirmed unless a source describes them retrospectively. Claims are attributed to sources; not for canonical integration.",
+  "follow_up_searches": [
+    {
+      "access_utc": "2026-10-11 03:14:55..03:14:58 UTC",
+      "query": "Morocco adouls strike April 13 2026 strike started occurred adouls",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    },
+    {
+      "access_utc": "2026-10-11 03:15:17..03:15:23 UTC",
+      "query": "Moroccan Adouls strike April 13 2026 began nationwide April 2026 strike services suspended",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    },
+    {
+      "access_utc": "2026-10-11 03:15:28..03:15:35 UTC",
+      "query": "Morocco adouls strike April 13 2026 work stopped adouls nationwide",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    },
+    {
+      "access_utc": "2026-10-11 03:16:03..03:16:06 UTC",
+      "query": "Morocco CDT Casablanca national protest march 28 June 2026 published June report",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    }
+  ],
+  "follow_up_sources": [
+    {
+      "lead_index": 0,
+      "url": "https://africanews.dz/eng/index.php/2026/04/17/morocco-adouls-strike-reveals-deep-crisis-between-the-profession-and-authorities/",
+      "publisher": "Africa News English",
+      "publication_date": "2026-04-17 (URL and search listing)",
+      "event_date": "from 2026-04-13",
+      "excerpt": "Since April 13, Morocco has been witnessing an unprecedented mobilization of Adouls",
+      "word_count": 12,
+      "access_utc": "2026-10-11 03:15:28-03:15:35 search listing; open failed 03:16:30",
+      "provenance": "Search listing excerpt from local news page reports action underway; independently supported by the Apr4 announcement from Morocco World News/Hespress.",
+      "uncertainty": "Occurrence is reported by search snippet, but follow-up page did not open; leave as reported, not independently verified."
+    },
+    {
+      "lead_index": 1,
+      "url": "https://www.industriall-union.org/morocco-cdt-union-protests-2026/",
+      "publisher": "IndustriALL Global Union English page",
+      "publication_date": "2026-07-09",
+      "event_date": "2026-06-28",
+      "excerpt": "The Moroccan working class joined a large-scale national protest march in Casablanca on Sunday 28 June 2026.",
+      "word_count": 13,
+      "access_utc": "2026-10-11 03:16:12-03:16:19 search listing; original French article opened 03:11:37-03:11:50",
+      "provenance": "English version of the already-opened IndustriALL report; not an independent outlet.",
+      "uncertainty": "Confirms date as retrospective union account; seek independent corroboration."
+    }
+  ],
+  "follow_up_assessment": "The Apr13 adouls strike is announced by accessible Apr4 source; Apr17 search listing says action had been underway since Apr13 but page open failed, so treat occurrence as reported, not fully opened/independently verified. June28 Casablanca march has retrospective IndustriALL union reporting."
+}

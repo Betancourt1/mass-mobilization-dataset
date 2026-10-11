@@ -1,0 +1,7 @@
+# Kosovo — Q2 2026 public-source discovery
+
+This bounded pass used twelve English/Albanian searches, including follow-ups for May Day, school staff and RTK employees. The observed UTC access bracket is 2026-10-11 03:13:44–03:15:48; individual request timestamps are not exposed by the tool.
+
+KOHA’s May 1 live coverage reports a workers’ rights march by the Private Sector Workers’ Union Federation and separate Anti-Capitalist Bloc/feminist actions in Pristina; it also reports four arrests after one demonstration: [KOHA May Day live update](https://www.koha.net/en/arberi/protestohet-per-1-maj-10-te-vdekur-ne-vende-pune-sivjet). KOHA also reports a May 18 protest by technical school workers over unpaid wages, a strike beginning May 19, and suspension by May 20 after payment of April wages: [May 18 report](https://www.koha.net/arberi/neser-ne-greve-punetoret-teknike-te-shkollave-ne-prishtine), [May 20 update](https://www.koha.net/arberi/punetoret-teknike-pezullojne-greven).
+
+A June 9 RTK staff protest was announced for noon over unpaid wages, but the Serbian-language publisher returned a verification page on open and no after-event report surfaced; it remains a planned action only: [Kontakt Plus](https://radiokontaktplus.org/vesti/pocinju-protesti-zaposlenih-u-rtk-zbog-neisplacenih-plata/132051/). April bus-company action appeared only as a threat to strike. The JSON preserves these status distinctions, query strings and exclusions. Discovery only; no completeness or formal validation claim.

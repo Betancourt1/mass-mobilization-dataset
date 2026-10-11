@@ -1,0 +1,108 @@
+{
+  "country": "Netherlands",
+  "quarter": "2026Q2",
+  "status": "provisional public-source discovery; kit/schema/formal validation pending",
+  "searches": [
+    {
+      "access_utc": "2026-10-11 03:09:35..03:09:41 UTC",
+      "language": "English",
+      "query": "Netherlands protest demonstrations strike April 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:41..03:09:45 UTC",
+      "language": "Dutch",
+      "query": "Nederland protest demonstratie staking april 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:45..03:09:49 UTC",
+      "language": "English",
+      "query": "Netherlands protest demonstrations strike May 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:49..03:09:58 UTC",
+      "language": "Dutch",
+      "query": "Nederland protest demonstratie staking mei 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:58..03:10:05 UTC",
+      "language": "English",
+      "query": "Netherlands protest demonstrations strike June 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:10:05..03:10:09 UTC",
+      "language": "Dutch",
+      "query": "Nederland protest demonstratie staking juni 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    }
+  ],
+  "leads": [
+    {
+      "url": "https://www.fnv.nl/nieuwsbericht/sectornieuws/vervoer/2026/06/ov-staking-eerste-waarschuwing",
+      "publisher": "FNV",
+      "publication_date": "2026-06-23",
+      "event_date": "2026-06-24 scheduled",
+      "event": "FNV announced national public transport strike against spending cuts (bus/tram/metro from 08:00; NS 04:00-08:00).",
+      "excerpt": "Woensdag 24 juni leggen werknemers in het openbaar vervoer het werk neer.",
+      "excerpt_word_count": 12,
+      "access_and_provenance": "2026-10-11 03:11:37-03:11:38; open success 03:11:49-50 lines 2-10; Primary trade-union notice.",
+      "uncertainty": "Provisional; notice alone does not confirm strike occurred."
+    }
+  ],
+  "excluded_or_noisy_results": [
+    "Belgium demonstrations surfaced as false positives."
+  ],
+  "access_failures": [],
+  "note": "Bounded first discovery pass; no findings are not evidence of absence. Planned/scheduled events remain unconfirmed unless a source describes them retrospectively. Claims are attributed to sources; not for canonical integration.",
+  "follow_up_searches": [
+    {
+      "access_utc": "2026-10-11 03:14:55..03:14:58 UTC",
+      "query": "Netherlands nationwide public transport strike 24 June 2026 took place results",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    },
+    {
+      "access_utc": "2026-10-11 03:15:17..03:15:23 UTC",
+      "query": "netherlands public transport strike June 24 2026 disruption NS bus tram actual cancelled strike occurred",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    }
+  ],
+  "follow_up_sources": [
+    {
+      "lead_index": 0,
+      "url": "https://nltimes.nl/2026/06/24/public-transport-strike-4-8-trains-buses-trams-metros-running",
+      "publisher": "NL Times",
+      "publication_date": "2026-06-24",
+      "event_date": "2026-06-24, morning",
+      "excerpt": "Public transport throughout the Netherlands is severely disrupted throughout rush hour on Wednesday morning due to strikes",
+      "word_count": 14,
+      "access_utc": "2026-10-11 03:15:17-03:15:23 search listing; opened successfully 03:15:43-03:15:44, lines 66-80",
+      "provenance": "Dutch news report describing observed service disruptions; separately corroborated by Utrecht operator U-OV update.",
+      "uncertainty": "Confirms the announced strike was held; some routes still ran, so do not imply total nationwide shutdown."
+    },
+    {
+      "lead_index": 0,
+      "url": "https://www.u-ov.nl/en/news/staking-24-juni",
+      "publisher": "U-OV transport operator",
+      "publication_date": "2026-06-24 update",
+      "event_date": "2026-06-24",
+      "excerpt": "On Wednesday 24 June, there will be a strike affecting public transport until 08:00.",
+      "word_count": 12,
+      "access_utc": "2026-10-11 03:15:43-03:15:44; opened successfully, lines 154-169",
+      "provenance": "Primary operator service notice updated on the event date.",
+      "uncertainty": "Confirms impact in Utrecht; operator's prior planning language is paired with NL Times retrospective reporting."
+    }
+  ],
+  "follow_up_assessment": "The June24 strike is confirmed as held by opened NL Times reporting and operator U-OV update; disruption was broad but not literally universal."
+}

@@ -1,0 +1,26 @@
+{
+  "country":"Kazakhstan","period":"2026Q2","scope":"Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass":{"type":"bounded first discovery pass","search_window_utc":"2026-10-11 03:13:44–03:15:48 UTC (observed run bracket; web tool does not expose per-query access timestamps)","targeted_queries":10,"coverage":"Six core monthly searches in English and Kazakh; four English/Kazakh follow-ups targeting April, May, and June.","limitations":["No-hit results do not establish absence.","An April court decision about a protest held in November 2025 is kept separate from Q2 2026 events.","The June mining strike account is contemporaneous but details and event start are limited to one accessible report."]},
+  "search_history":[
+    {"month":"2026-04","language":"English","query":"Kazakhstan protest demonstration strike workers April 2026 Kazakhstan social protest","access_utc_bracket":"2026-10-11 03:13:44–03:15:48 UTC"},
+    {"month":"2026-04","language":"Kazakh","query":"Қазақстан 2026 сәуір наразылық ереуіл митинг жұмысшылар","access_utc_bracket":"2026-10-11 03:13:44–03:15:48 UTC"},
+    {"month":"2026-05","language":"English","query":"Kazakhstan protest demonstration strike workers May 2026 Kazakhstan labor","access_utc_bracket":"2026-10-11 03:13:44–03:15:48 UTC"},
+    {"month":"2026-05","language":"Kazakh","query":"Қазақстан 2026 мамыр наразылық ереуіл митинг жұмысшылар","access_utc_bracket":"2026-10-11 03:13:44–03:15:48 UTC"},
+    {"month":"2026-06","language":"English","query":"Kazakhstan protest demonstration strike workers June 2026 Kazakhstan","access_utc_bracket":"2026-10-11 03:13:44–03:15:48 UTC"},
+    {"month":"2026-06","language":"Kazakh","query":"Қазақстан 2026 маусым наразылық ереуіл митинг жұмысшылар","access_utc_bracket":"2026-10-11 03:13:44–03:15:48 UTC"},
+    {"month":"2026-06","language":"English","query":"site:reuters.com Kazakhstan protest strike 2026 June","access_utc_bracket":"2026-10-11 03:13:44–03:15:48 UTC"},
+    {"month":"2026-06","language":"Kazakh","query":"Қазақстан 2026 маусым митинг ереуіл жұмысшылар","access_utc_bracket":"2026-10-11 03:13:44–03:15:48 UTC"},
+    {"month":"2026-05","language":"English","query":"Kazakhstan demonstration protest May 2026","access_utc_bracket":"2026-10-11 03:13:44–03:15:48 UTC"},
+    {"month":"2026-04","language":"English","query":"Kazakhstan protest April 2026 demonstration","access_utc_bracket":"2026-10-11 03:13:44–03:15:48 UTC"}
+  ],
+  "provisional_leads":[
+    {"id":"KZ-2026-06-11-Kazakhmys-miners-strike","month":"2026-06","event_type":"mine workers’ strike","status":"reported as held in same-day coverage","actors":"South Zhezkazgan mine workers employed by Kazakhmys Corporation","locations":["Ulytau Region, Kazakhstan; South Zhezkazgan mine"],"event_date":"2026-06-11 (contemporaneous page; exact start time not specified)","publication_date":"2026-06-11 16:02 local page time","sources":[{"title":"«Қазақмыс» кеншілері ереуілі: компания басшылығы еңбек жағдайын жақсартуға уәде берді","url":"https://kz.kursiv.media/kk/2026-06-11/qazaqmys-shahterlary-zhalaqyny-koeterwdi-talap-etip-erewilge-shyqty/","accessed_utc_bracket":"2026-10-11 03:13:44–03:15:48 UTC","excerpt":"кеншілер жұмысты тоқтатып, ереуілге шықты","provenance":"Kursiv Kazakhstan, directly opened in Kazakh; same-day report says mine workers stopped work and went on strike, with a 50% wage-increase demand plus leave-pay, staffing, and non-retaliation demands."}],"assessment":"Specific company, workplace and labor demands are reported in a dated local-language article.","uncertainty":"Only one source was opened in this bounded pass; the exact strike start and duration are not stated."}
+  ],
+  "excluded_or_contextual_results":[
+    {"title":"Kazakhstan: Sentencing of 19 for protest against repression in China’s Xinjiang region","url":"https://www.amnesty.org/en/latest/news/2026/04/kazakhstan-sentencing-of-19-activists-over-peaceful-xinjiang-protest-a-travesty-of-justice/","reason":"Publication/event decision is in April 2026, but Amnesty states the underlying peaceful protest occurred near Almaty in November 2025. The 2025 protest is outside Q2; sentencing is a legal consequence, not a Q2 protest event."},
+    {"title":"World Report 2026: Kazakhstan","url":"https://www.hrw.org/world-report/2026/country-chapters/kazakhstan","reason":"General rights context, not a dated Q2 protest event."},
+    {"title":"Kazakhstan protests / unrest search hits from 2019 and 2022","url":"https://www.reuters.com/article/uk-kazakhstan-protests-idUSKCN2AS06O/","reason":"Wrong years: old protest coverage was excluded."}
+  ],
+  "no_findings_by_month":{"2026-04":"No Q2 April protest event was confirmed. An April 2026 court sentencing related to a November 2025 protest is excluded from event dates.","2026-05":"No dated May 2026 protest or strike surfaced in this bounded search.","2026-06":"Kursiv reported a Kazakhmys miners’ strike in Ulytau Region on June 11."},
+  "failures_and_follow_up":["The bounded search found many stale 2019/2022 protest results and official/non-event pages.","Seek independent corroboration and end date for the June miners’ strike before coding beyond a provisional event lead."]
+}

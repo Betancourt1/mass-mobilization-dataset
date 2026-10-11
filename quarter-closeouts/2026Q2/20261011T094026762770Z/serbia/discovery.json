@@ -1,0 +1,28 @@
+{
+  "country":"Serbia",
+  "period":"2026-04-01/2026-06-30",
+  "status":"provisional_public_source_discovery",
+  "searches":[
+    {"query":"Serbia protest demonstration April 2026 Belgrade","searched_utc":"approx. 2026-10-11T03:19:00Z/03:19:06Z (search tool did not expose per-query timestamps)"},
+    {"query":"Serbia protest protesti april 2026 Beograd","searched_utc":"approx. 2026-10-11T03:19:06Z/03:19:12Z (search tool did not expose per-query timestamps)"},
+    {"query":"Serbia protest demonstration May 2026 Belgrade","searched_utc":"approx. 2026-10-11T03:19:12Z/03:19:18Z (search tool did not expose per-query timestamps)"},
+    {"query":"Srbija protesti maj 2026 Beograd demonstracija","searched_utc":"approx. 2026-10-11T03:19:18Z/03:19:23Z (search tool did not expose per-query timestamps)"},
+    {"query":"Serbia protest demonstration June 2026 Belgrade","searched_utc":"approx. 2026-10-11T03:19:23Z/03:19:29Z (search tool did not expose per-query timestamps)"},
+    {"query":"Srbija protesti jun 2026 Beograd Novi Sad","searched_utc":"approx. 2026-10-11T03:19:29Z/03:19:34Z (search tool did not expose per-query timestamps)"}
+  ],
+  "opened_sources":[
+    {"url":"https://www.reuters.com/world/police-protesters-clash-serbia-crowds-demand-presidents-exit-2026-05-23/","publisher":"Reuters","page_date":"2026-05-23 (updated same day)","event_date":"2026-05-23","location":"Belgrade, Serbia","finding":"Opened Reuters report documents a student-led anti-government rally, clashes with police, and demand for early elections. Crowd estimates differ: police 34,300; Archive of Public Gatherings about 100,000.","excerpt":"Police fired tear gas and clashed with protesters in central Belgrade on Saturday","excerpt_words":12,"opened_utc":"approx. 2026-10-11T03:20:15Z/03:20:20Z"},
+    {"url":"https://www.aljazeera.com/news/2026/6/28/serbias-protesters-press-on-even-after-vucic-promises-to-step-aside","publisher":"Al Jazeera","page_date":"2026-06-28","event_date":"2026-06-28 (and Belgrade rally June 27)","location":"Kraljevo and Belgrade, Serbia","finding":"Opened report documents thousands rallying in Kraljevo on June 28 and a pro-government rally in Belgrade the preceding day. The Belgrade rally is not opposition protest; include only if the inventory tracks all public political demonstrations, otherwise review classification.","excerpt":"Thousands of protesters have packed the streets of the central Serbian city of Kraljevo","excerpt_words":13,"opened_utc":"approx. 2026-10-11T03:20:20Z/03:20:25Z"}
+  ],
+  "provisional_leads":[
+    {"url":"https://www.reuters.com/world/thousands-rally-serbias-north-demand-early-elections-2026-06-20/","publisher":"Reuters","page_date":"2026-06-20","event_date":"2026-06-20","location":"Novi Sad, Serbia","finding":"Reuters search result reports thousands protesting to mark the 2024 railway-station deaths and demand early elections. Direct open returned internal error; retain as a strong but unopened lead.","excerpt":"Thousands protested in Serbia’s northern city of Novi Sad on Saturday","excerpt_words":10,"access":"open attempt returned internal error; search result only","opened_utc":"approx. 2026-10-11T03:20:20Z/03:20:25Z"},
+    {"url":"https://rs.usembassy.gov/demonstration-alert-u-s-embassy-belgrade-june-27-2026/","publisher":"U.S. Embassy Belgrade","page_date":"2026-06-27","event_date":"2026-06-27 (scheduled)","location":"Serbian Parliament, Belgrade, Serbia","finding":"Search result describes a planned pro-government rally. Direct open returned internal error, and this is a notice of a planned event rather than evidence it occurred; do not count as confirmed.","excerpt":"Pro-government supporters will hold a rally on Saturday June 27, 2026","excerpt_words":10,"access":"open attempt returned internal error; search result only","opened_utc":"approx. 2026-10-11T03:20:20Z/03:20:25Z"}
+  ],
+  "exclusions":[
+    {"item":"March 31, 2026 Belgrade university protest","reason":"Outside the assigned April-June period."},
+    {"item":"Reuters April 2 report whose photo caption documents a March 1 Niš protest","reason":"Publication date is April 2, but reported event date is March 1; exclude by event date."},
+    {"item":"Serbian student journey through Budapest, Bratislava, Vienna, and Strasbourg in 2025","reason":"Wrong year and partly foreign locations; not Q2 2026 domestic protest event evidence."},
+    {"item":"Foreign demonstrations supporting or criticizing Serbia","reason":"Outside Serbia's geographic scope."}
+  ],
+  "limitations":"The May event is documented by an opened Reuters report. June 20 remains search-result-only due an open failure; June 28 Kraljevo is opened. The June 27 pro-government rally is only a planned event in an embassy notice and not confirmed as held. Search timestamps below are approximate session brackets because per-query execution timestamps were not supplied by the search interface."
+}

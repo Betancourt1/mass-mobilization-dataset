@@ -1,0 +1,9 @@
+# Côte d’Ivoire — Q2 2026 public-source discovery
+
+This bounded, provisional pass used six targeted English/French searches, two for each month. Per-query access times are not exposed by the web tool; `discovery.json` records the observed access bracket, 2026-10-11 03:10:44–03:12:16 UTC. No-hit results do not establish absence.
+
+The best-supported lead is a June 8 strike/sit-in by maritime administration workers in Abidjan, reported by the EU SEE/Hivos monitoring consortium, with a later FIDH report providing legal follow-up: [EU SEE](https://eusee.hivos.org/alert/repression-de-la-greve-des-agents-des-affaires-maritimes-a-abidjan), [FIDH](https://www.fidh.org/fr/themes/defenseurs-des-droits-humains/cote-d-ivoire-31-agents-des-affaires-maritimes-condamne-es-a-un-an-de). The initial report describes demands for a housing allowance and higher bonuses; arrest and later conviction details should remain attributed to the reporting groups.
+
+Reuters reported that cocoa farmers had protested over unpaid sales and blocked roads near M’Batto during the week before May 12; the exact protest day is not given: [Reuters](https://www.reuters.com/world/africa/ivory-coast-will-send-officials-calm-protests-by-cocoa-farmers-source-says-2026-05-12/). KOACI’s April 20 page points to an FPSO Espoir work stoppage beginning April 18, but its opened page exposed little story text, so that remains a low-confidence lead pending corroboration: [KOACI](https://www.koaci.com/index.php/article/2026/04/20/cote-divoire/societe/cote-divoire-greve-sur-le-petrolier-fpso-espoir-la-production-a-larret-les-travailleurs-durcissent-le-ton_195982.html).
+
+The JSON preserves publication and event dates separately and excludes wrong-year political/teacher-strike coverage. Discovery only; no canonical coding or completeness claim.

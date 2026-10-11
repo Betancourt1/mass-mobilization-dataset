@@ -1,0 +1,90 @@
+{
+  "country": "Nicaragua",
+  "quarter": "2026Q2",
+  "status": "provisional public-source discovery; kit/schema/formal validation pending",
+  "searches": [
+    {
+      "access_utc": "2026-10-11 03:09:35..03:09:41 UTC",
+      "language": "English",
+      "query": "Nicaragua protests demonstrations strike April 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:41..03:09:45 UTC",
+      "language": "Spanish",
+      "query": "Nicaragua protestas manifestaciones huelga abril 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:45..03:09:49 UTC",
+      "language": "English",
+      "query": "Nicaragua protests demonstrations strike May 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:49..03:09:58 UTC",
+      "language": "Spanish",
+      "query": "Nicaragua protestas manifestaciones huelga mayo 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:58..03:10:05 UTC",
+      "language": "English",
+      "query": "Nicaragua protests demonstrations strike June 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:10:05..03:10:09 UTC",
+      "language": "Spanish",
+      "query": "Nicaragua protestas manifestaciones huelga junio 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    }
+  ],
+  "leads": [
+    {
+      "url": "https://www.articulo66.com/2026/04/18/marcha-empleados-publicos-nicaragua-abril-2026/",
+      "publisher": "Artículo 66",
+      "publication_date": "2026-04-18",
+      "event_date": "2026-04-18",
+      "event": "Report says state institutions called public employees to official April Peace Month march commemorating 2018 protests; government-led, not opposition dissent.",
+      "excerpt": "convocaron a los trabajadores del sector público a marchar este sábado, 18 de abril",
+      "excerpt_word_count": 14,
+      "access_and_provenance": "2026-10-11 03:11:37-03:11:38; open success 03:11:49-50 lines 67-77; Independent critical media; framing and coercion claims not independently verified.",
+      "uncertainty": "Provisional; classify as state-led political march."
+    }
+  ],
+  "excluded_or_noisy_results": [
+    "October 2026 institutional news and historic 2018 protests excluded."
+  ],
+  "access_failures": [],
+  "note": "Bounded first discovery pass; no findings are not evidence of absence. Planned/scheduled events remain unconfirmed unless a source describes them retrospectively. Claims are attributed to sources; not for canonical integration.",
+  "follow_up_searches": [
+    {
+      "access_utc": "2026-10-11 03:16:03..03:16:06 UTC",
+      "query": "Nicaragua Caminata Abril Mes de la Paz 18 abril 2026 marchó empleados públicos",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    }
+  ],
+  "follow_up_sources": [
+    {
+      "lead_index": 0,
+      "url": "https://www.tn8.ni/nacionales/familias-nicaraguenses-se-desbordan-en-caminatas-por-el-dia-de-la-paz/",
+      "publisher": "TN8",
+      "publication_date": "2026-04-18",
+      "event_date": "2026-04-18",
+      "excerpt": "familias nicaragüenses salieron a las calles para celebrar la paz y la reconciliación",
+      "word_count": 10,
+      "access_utc": "2026-10-11 03:16:03-03:16:06 search listing; opened successfully 03:16:30",
+      "provenance": "Nicaraguan outlet reports public Peace Day marches; government/official framing. Original Artículo 66 report says state agencies summoned employees.",
+      "uncertainty": "Corroborates marches occurred, but not whether employees were compelled; retain that allegation as attributed to Artículo 66 only."
+    }
+  ],
+  "follow_up_assessment": "TN8's Apr18 report confirms Peace Day street marches occurred. It does not independently verify the Artículo 66 claim that state employees were compelled."
+}

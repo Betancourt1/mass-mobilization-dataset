@@ -1,0 +1,233 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Afghanistan",
+  "period": {"start": "2026-04-01", "end": "2026-06-30"},
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass focused on publicly reported protests, demonstrations, and symbolic collective actions. Search results are leads, not verified event records. No inference of absence from failed or empty search results.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:03:34Z",
+    "search_and_open_window_utc": "2026-10-11T03:02:48Z to 2026-10-11T03:03:34Z",
+    "timestamp_note": "The web tool did not expose per-request timestamps. The window is the observed bounded session window; prepared_at_utc is an exact clock reading."
+  },
+  "queries": [
+    {"batch": 1, "month_focus": "April", "language": "English", "query": "Afghanistan protest demonstration April 2026 Kabul women protest", "outcome": "No clearly dated April event surfaced in this result set; later expanded queries found an April 20 report about early-April symbolic protests in Herat."},
+    {"batch": 1, "month_focus": "April", "language": "Dari/Persian", "query": "افغانستان اعتراض تظاهرات اپریل ۲۰۲۶ کابل اعتراض زنان", "outcome": "Results were mostly wrong-period or otherwise outside scope; this is not evidence of no events."},
+    {"batch": 1, "month_focus": "May", "language": "English", "query": "Afghanistan protest demonstration May 2026 women Kabul protest", "outcome": "No clearly dated May result in this result set; later opened CIVICUS Monitor lead for May 7 Kabul graffiti campaign."},
+    {"batch": 1, "month_focus": "May", "language": "Dari/Persian", "query": "افغانستان اعتراض تظاهرات می ۲۰۲۶ اعتراض کابل زنان", "outcome": "Results were mostly wrong-period or otherwise outside scope; this is not evidence of no events."},
+    {"batch": 2, "month_focus": "June", "language": "English", "query": "Afghanistan Herat protest June 9 2026 women arrested protest local sources June 2026", "outcome": "Multiple reports surfaced for the June 9 Herat event."},
+    {"batch": 2, "month_focus": "June", "language": "Dari", "query": "افغانستان هرات اعتراض ۱۹ جوزا ۱۴۰۵ تظاهرات اعتراض زنان", "outcome": "Local-language reporting surfaced, including Etilaat Roz, Rukhshana, and Kabul Tribune."},
+    {"batch": 2, "month_focus": "April", "language": "English", "query": "Afghanistan women rights protests April 2026 Afghanistan protest activists sit-in Afghanistan April 2026", "outcome": "Returned mixed-period material; no corroborated April sit-in inside Afghanistan from this query."},
+    {"batch": 2, "month_focus": "April", "language": "Dari/Persian", "query": "تظاهرات افغانستان اپریل ۲۰۲۶ اعتراض زنان هرات کابل", "outcome": "No clearly dated in-country event surfaced in this result set; not evidence of absence."},
+    {"batch": 3, "month_focus": "May", "language": "English", "query": "Afghanistan Kabul women's protest graffiti May 7 2026 \"Women's History Transformation Movement\"", "outcome": "Search did not return a directly opened original report; CIVICUS Monitor later supplied a dated secondary lead citing Afghanistan International English."},
+    {"batch": 3, "month_focus": "April", "language": "English", "query": "Afghanistan protest demonstration April 2026 Kabul Herat women protest April 2026", "outcome": "Surfaced an EL PAIS report published April 20 describing symbolic education protests in Herat, with caption dating an instance to early April."},
+    {"batch": 3, "month_focus": "April", "language": "Dari/Persian", "query": "اعتراض افغانستان اپریل ۲۰۲۶ تظاهرات حقوق زنان", "outcome": "No clearly dated in-country event surfaced in this result set; not evidence of absence."},
+    {"batch": 3, "month_focus": "April", "language": "English", "query": "Afghanistan protests April 2026 protest Afghanistan events April women's rights", "outcome": "Search results included the April EL PAIS report and unrelated/wrong-period material."},
+    {"batch": 4, "month_focus": "May", "language": "English", "query": "site:afintl.com 2026 Afghanistan protest May 2026 Kabul graffiti protest May 7", "outcome": "No direct AFIntl article surfaced; CIVICUS Monitor's May 7 item references an AFIntl English social post."},
+    {"batch": 4, "month_focus": "May", "language": "Dari/Persian", "query": "افغانستان اعتراض می ۲۰۲۶ زنان جنبش تاریخ زنان به سوی آزادی کابل", "outcome": "No direct result for this specific query; CIVICUS Monitor supplied a provisional May Kabul lead."}
+  ],
+  "provisional_leads": [
+    {
+      "lead_id": "AFG-2026-04-HERAT-EDU-SYMBOLIC",
+      "event_date": {"value": "early April 2026; exact day(s) unresolved", "basis": "EL PAIS image caption says early April; article says several similar protests occurred in recent days before publication on April 20.", "uncertainty": "The report may describe several distinct acts. Do not collapse into one event or assign an exact day without follow-up."},
+      "location": "Herat, Afghanistan; outside closed schools",
+      "action_summary": "Afghan teenage girls associated with Golden Needle reportedly posed with textbooks or phones outside closed schools, then left quickly, as a symbolic protest for education.",
+      "provisional_status": "lead; event count and dates need follow-up",
+      "sources": [
+        {
+          "url": "https://elpais.com/planeta-futuro/2026-04-20/ensena-el-libro-esconde-el-rostro-saca-la-foto-y-echa-a-correr-asi-protestan-las-afganas-privadas-de-educacion-por-los-talibanes.html",
+          "publisher": "EL PAIS, Planeta Futuro; by Soodabeh Elham and Beatriz Lecumberri; reporting dateline Herat/Madrid",
+          "publication_date": "2026-04-20 05:30 CEST (page byline metadata)",
+          "accessed_utc": "2026-10-11T03:02:48Z to 2026-10-11T03:03:34Z; exact individual open time unavailable",
+          "excerpt": "Una joven protesta con su libro de texto ante las puertas cerradas de una escuela en Herat, Afganistán, a principios de abril de 2026.",
+          "excerpt_note": "Exact caption excerpt in Spanish; 21 whitespace-delimited words.",
+          "provenance": "Directly opened article; lines 28-35 give headline/byline/date, lines 61-65 describe the action and several recent incidents, and caption explicitly says early April. EL PAIS attributes photographs/testimony to Golden Needle.",
+          "event_date_as_reported": "Caption: early April 2026; text: several similar protests in the days before April 20, exact days unspecified."
+        }
+      ]
+    },
+    {
+      "lead_id": "AFG-2026-05-KABUL-ANTI-DV-GRAFFITI",
+      "event_date": {"value": "2026-05-07", "basis": "CIVICUS Monitor dates action to May 7 and cites Afghanistan International English social post dated May 7.", "uncertainty": "Secondary source; exact time, specific locations, participant count, and original post details not independently confirmed in this pass."},
+      "location": "Kabul, Afghanistan",
+      "action_summary": "Members of the Women's History Transformation Movement reportedly painted protest messages on walls about domestic violence against women.",
+      "provisional_status": "lead; corroborate original posting and event details",
+      "sources": [
+        {
+          "url": "https://monitor.civicus.org/explore/afghanistan-ongoing-repression-of-the-press-and-activists-as-peaceful-protest-in-herat-disrupted-with-excessive-force/",
+          "publisher": "CIVICUS Monitor; country civic-space development page",
+          "publication_date": "2026-06-15 (page Date Posted field)",
+          "accessed_utc": "2026-10-11T03:02:48Z to 2026-10-11T03:03:34Z; exact individual open time unavailable",
+          "excerpt": "On 7th May 2026, members of the Women’s History Transformation Movement painted protest messages on walls across Kabul",
+          "excerpt_note": "Exact excerpt; 17 whitespace-delimited words.",
+          "provenance": "Directly opened CIVICUS Monitor page, Peaceful Assembly / Graffiti against domestic violence section. Page cites an Afghanistan International English social post dated May 7, 2026; page itself posted June 15, 2026.",
+          "event_date_as_reported": "2026-05-07"
+        }
+      ]
+    },
+    {
+      "lead_id": "AFG-2026-06-09-HERAT-JEBRAIL-DRESS-CODE-PROTEST",
+      "event_date": {"value": "2026-06-09", "basis": "Multiple reports and local-calendar date 19 Jawza 1405.", "uncertainty": "Event identity/date strongly aligned across sources; casualties, crowd size, arrests, and some event details conflict or are incompletely sourced."},
+      "location": "Jebrail/Jebrail area, Herat city, Herat Province, Afghanistan",
+      "action_summary": "Residents protested reported arrests of women and girls over dress-code enforcement. Taliban security forces dispersed the gathering, with witnesses and local reports describing gunfire and beatings. Authorities denied that women had been arrested for hijab violations.",
+      "provisional_status": "lead; maintain source-specific variants, do not reconcile casualty totals yet",
+      "reported_variants": {
+        "participants": [
+          {"source": "AP News, 2026-06-09", "value": "about 100-150", "basis": "witness estimate"},
+          {"source": "CIVICUS Monitor, posted 2026-06-15", "value": "100-150 Afghan men", "basis": "secondary summary citing DW/AFP; differs from AP/Guardian wording on participant mix"},
+          {"source": "The Guardian, 2026-06-10", "value": "about 70", "basis": "witnesses told Rukhshana Media; Guardian says demonstrators included men"},
+          {"source": "Etilaat Roz, 2026-06-09", "value": "dozens", "basis": "local residents/sources"}
+        ],
+        "deaths": [
+          {"source": "Reuters, 2026-06-09", "value": "one person killed", "basis": "witnesses"},
+          {"source": "The Guardian, 2026-06-10", "value": "at least two people, including one boy", "basis": "local sources; Guardian says UN confirmed a child among the killed"},
+          {"source": "CIVICUS Monitor, posted 2026-06-15", "value": "two people died", "basis": "secondary report citing BBC medics"},
+          {"source": "Rukhshana Media, 19 Jawza 1405 / 2026-06-09", "value": "headline says two killed; its cited hospital source names one 30-year-old man who died", "basis": "anonymous hospital source and residents; retain internal detail and uncertainty"},
+          {"source": "AP News, 2026-06-09 initial report", "value": "does not report deaths; reports at least three injured", "basis": "do not interpret omission as a zero-death assertion"}
+        ],
+        "injuries": [
+          {"source": "AP News, 2026-06-09", "value": "at least three injured", "basis": "eyewitnesses"},
+          {"source": "The Guardian, 2026-06-10", "value": "three wounded", "basis": "local sources"},
+          {"source": "Rukhshana Media, 2026-06-09", "value": "three men transferred to emergency care; one additional man reportedly died after transfer", "basis": "anonymous provincial hospital source"},
+          {"source": "Etilaat Roz, 2026-06-09", "value": "at least three injured and taken to hospital in first 90 minutes", "basis": "local sources"}
+        ],
+        "arrests_or_detentions": [
+          {"source": "Reuters, 2026-06-09", "value": "dozens arrested, including women and girls", "basis": "witnesses"},
+          {"source": "The Guardian, 2026-06-10", "value": "at least 13 detained after beatings", "basis": "local sources"},
+          {"source": "AP News, 2026-06-09", "value": "at least 16 women detained since Friday, including a pregnant woman", "basis": "unnamed human-rights monitor; this concerns the wider preceding detention wave, not necessarily only protest participants"},
+          {"source": "Taliban / Herat officials as quoted by Reuters", "value": "denied women had been arrested for failing to observe hijab rules", "basis": "official statements"}
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://apnews.com/article/afghanistan-taliban-women-protest-crackdown-dress-hijab-17ca4f9cf803a7d83f021203d309637a",
+          "publisher": "Associated Press; by Elena Becatoros",
+          "publication_date": "2026-06-09 12:14:05 UTC (page timestamp)",
+          "accessed_utc": "2026-10-11T03:02:48Z to 2026-10-11T03:03:34Z; exact individual open time unavailable",
+          "excerpt": "About 100-150 people were participating in the protest in the western city of Herat, witnesses said.",
+          "excerpt_note": "Exact excerpt; 15 whitespace-delimited words.",
+          "provenance": "Search result and direct open via returned search-result reference; direct open with the original short URL first failed as inaccessible, then succeeded through search-result resolution to the canonical URL. AP attributes crowd and injury details to witnesses; reports at least three injuries and does not report a death in this initial story.",
+          "event_date_as_reported": "2026-06-09"
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/police-crack-down-anti-hijab-protests-western-afghanistan-2026-06-09/",
+          "publisher": "Reuters; by Mohammad Yunus Yawar",
+          "publication_date": "2026-06-09 12:03 UTC; updated 2026-06-09",
+          "accessed_utc": "2026-10-11T03:02:48Z to 2026-10-11T03:03:34Z; exact individual open time unavailable",
+          "excerpt": "Witnesses said one person was killed, several others were wounded and dozens of people, including women and girls, were arrested.",
+          "excerpt_note": "Exact excerpt; 20 whitespace-delimited words.",
+          "provenance": "Directly opened Reuters story. Reuters reports witness accounts, says Taliban authorities did not comment on casualties or arrests, separately quotes Herat police and morality officials denying hijab-related arrests, and labels circulated video unverified by Reuters.",
+          "event_date_as_reported": "2026-06-09"
+        },
+        {
+          "url": "https://www.theguardian.com/global-development/2026/jun/10/two-killed-in-rare-street-demonstration-over-womens-rights-in-afghanistan",
+          "publisher": "The Guardian; Ruchi Kumar, Ghazaal Mohammadi, and Rukhshana Media reporters",
+          "publication_date": "2026-06-10 19:35 AEST; modified 2026-06-12 02:44 AEST",
+          "accessed_utc": "2026-10-11T03:02:48Z to 2026-10-11T03:03:34Z; exact individual open time unavailable",
+          "excerpt": "Witnesses told Rukhshana Media that about 70 people joined the demonstration on Tuesday",
+          "excerpt_note": "Exact excerpt; 11 whitespace-delimited words.",
+          "provenance": "Directly opened article. The Guardian's reporting incorporates Rukhshana Media reporting; it says local sources reported two killed, three wounded, and at least 13 detained. It reports a UN confirmation that one victim was a child.",
+          "event_date_as_reported": "Tuesday, 2026-06-09"
+        },
+        {
+          "url": "https://rukhshana.com/two-killed-and-three-injured-an-eyewitness-account-of-the-protest-by-residents-of-herats-jebrail-area/",
+          "publisher": "Rukhshana Media; article text cites unnamed local residents and a provincial hospital source",
+          "publication_date": "19 Jawza 1405 (page date); calendar correspondence is 2026-06-09",
+          "accessed_utc": "2026-10-11T03:02:48Z to 2026-10-11T03:03:34Z; exact individual open time unavailable",
+          "excerpt": "یک مرد ۳۰ ساله نیز پس از انتقال به شفاخانه، فوت کرده است.",
+          "excerpt_note": "Exact Persian excerpt: 'A 30-year-old man also died after being transferred to hospital.' 10 whitespace-delimited words in Persian segmentation.",
+          "provenance": "Directly opened Dari article. Headline says two killed and three injured; body says hospital source reported three men brought to emergency care and one 30-year-old man died after transfer. Residents said march began around 8 a.m. and lasted about an hour.",
+          "event_date_as_reported": "19 Jawza 1405; report says Tuesday, June 9, 2026"
+        },
+        {
+          "url": "https://www.etilaatroz.com/255106/hereditary-family-power-distribution-taliban-2/",
+          "publisher": "Etilaat Roz (اطلاعات روز); Dari local reporting",
+          "publication_date": "19 Jawza 1405 / 2026-06-09 (page metadata)",
+          "accessed_utc": "2026-10-11T03:02:48Z to 2026-10-11T03:03:34Z; exact individual open time unavailable",
+          "excerpt": "ده‌ها نفر از باشندگان جبرئیل هرات امروز در واکنش به بازداشت زنان و دختران از سوی طالبان، اعتراض کرده و شعار «تحصیل، کار، آزادی» سر دادند.",
+          "excerpt_note": "Exact Dari excerpt; under 25 whitespace-delimited words.",
+          "provenance": "Directly opened page; date displayed as 19 Jawza 1405 / June 9, 2026. Report says dozens demonstrated in Jebrail, injuries followed gunfire, and includes multiple same-day updates. Local-source reports and video are described; casualty details vary by update.",
+          "event_date_as_reported": "2026-06-09"
+        },
+        {
+          "url": "https://www.thekabultribune.com/fa/0009248",
+          "publisher": "The Kabul Tribune; Dari local report by Rahila Yousefi",
+          "publication_date": "19 Jawza 1405 (page timestamp 15:36; corresponds to 2026-06-09)",
+          "accessed_utc": "2026-10-11T03:02:48Z to 2026-10-11T03:03:34Z; exact individual open time unavailable",
+          "excerpt": "شهروندان هرات روز سه‌شنبه، ۱۹ جوزا، در اعتراض به بازداشت زنان و اجرای سیاست حجاب اجباری از سوی طالبان دست به تجمع اعتراضی زدند.",
+          "excerpt_note": "Exact Dari excerpt; under 25 whitespace-delimited words.",
+          "provenance": "Directly opened Dari story. Reports Herat residents demonstrated in Jebrail in response to women's arrests and mandatory hijab policy; linked social-media videos are described as showing clashes. No casualty detail in the opened excerpt.",
+          "event_date_as_reported": "Tuesday, 19 Jawza 1405 / 2026-06-09"
+        },
+        {
+          "url": "https://monitor.civicus.org/explore/afghanistan-ongoing-repression-of-the-press-and-activists-as-peaceful-protest-in-herat-disrupted-with-excessive-force/",
+          "publisher": "CIVICUS Monitor; country civic-space development page",
+          "publication_date": "2026-06-15 (page Date Posted field)",
+          "accessed_utc": "2026-10-11T03:02:48Z to 2026-10-11T03:03:34Z; exact individual open time unavailable",
+          "excerpt": "On 9th June 2026, Taliban authorities cracked down on a protest over women's dress code violations.",
+          "excerpt_note": "Exact excerpt; 15 whitespace-delimited words.",
+          "provenance": "Directly opened page. Secondary synthesis cites social posts and reports by DW, AFP, BBC, RFE/RL and others; says 100-150 men gathered and medics told BBC two died. Page publication date June 15, not event date.",
+          "event_date_as_reported": "2026-06-09"
+        }
+      ]
+    }
+  ],
+  "excluded_or_deferred_results": [
+    {
+      "item": "Afghan women's rights solidarity sit-in outside the European Parliament in Brussels",
+      "source_url": "https://monitor.civicus.org/explore/afghanistan-ongoing-repression-of-the-press-and-activists-as-peaceful-protest-in-herat-disrupted-with-excessive-force/",
+      "publication_date": "CIVICUS Monitor 2026-06-15",
+      "reported_event_date": "2026-04-01",
+      "reason": "Wrong geography for an Afghanistan in-country inventory; event is in Belgium."
+    },
+    {
+      "item": "International solidarity demonstrations in Tehran, Geneva, Europe, North America, and other diaspora locations after the Herat event",
+      "source_urls": ["https://www.afintl.com/202606118148", "https://www.afintl.com/202606228767", "https://kabulnow.com/2026/06/protests-across-countries-demand-recognition-of-gender-apartheid-in-afghanistan/"],
+      "reported_event_dates": ["2026-06-11", "2026-06-21/22", "2026-06-14 social post found in search"],
+      "reason": "These are protests outside Afghanistan; excluded from in-country leads. Event date of one social post/location details remain unclear."
+    },
+    {
+      "item": "CIVICUS-referenced symbolic performance by women protesters on World Press Freedom Day",
+      "source_url": "https://monitor.civicus.org/explore/afghanistan-ongoing-repression-of-the-press-and-activists-as-peaceful-protest-in-herat-disrupted-with-excessive-force/",
+      "reported_event_date": "2026-05-03",
+      "reason": "Potentially within period, but venue/location is not established by the opened passage; deferred rather than treating as an Afghanistan event."
+    },
+    {
+      "item": "Kabul International Women's Day protest",
+      "source_url": "https://monitor.civicus.org/explore/afghanistan-ongoing-repression-of-the-press-and-activists-as-peaceful-protest-in-herat-disrupted-with-excessive-force/",
+      "reported_event_date": "2026-03-08",
+      "reason": "Outside Q2 period."
+    },
+    {
+      "item": "Search results for Afghan protests from 2021-2022, 2023, 2024, and 2025, including older Kabul women's protests",
+      "reason": "Wrong period; excluded from Q2 2026 leads."
+    },
+    {
+      "item": "Afghanistan-Pakistan border conflict / airstrike stories in June 2026",
+      "reason": "Search returned conflict/airstrike reporting but it was not a protest or demonstration lead for this pass."
+    }
+  ],
+  "failures_and_limits": [
+    {
+      "operation": "First direct open of the coordinator-supplied AP short URL",
+      "url": "https://apnews.com/article/17ca4f9cf803a7d83f021203d309637a",
+      "result": "Web tool reported URL inaccessible on initial direct open. A subsequent search-result reference resolved the same article to its canonical URL and direct open succeeded.",
+      "interpretation": "Tool-access failure only; not source absence."
+    },
+    {
+      "operation": "April and May query result sets",
+      "result": "Initial targeted searches did not surface a clearly dated event in each result set; expanded searches identified one April Herat education protest report and a secondary May Kabul graffiti lead.",
+      "interpretation": "Discovery/search coverage is bounded and uneven; no-findings are not demonstrated absence."
+    },
+    {
+      "operation": "Original local-language social posts and full underlying evidence for May graffiti and June protest",
+      "result": "Not fully opened or independently verified in this pass; some CIVICUS references are to social posts and reports by other outlets.",
+      "interpretation": "Follow-up needed before validation or event coding."
+    }
+  ],
+  "next_pass_priorities": [
+    "Resolve whether the early-April EL PAIS reporting represents multiple independently dateable actions and identify each event date, if publicly recoverable.",
+    "Open and preserve the original Afghanistan International English post cited for the 2026-05-07 Kabul graffiti campaign, if accessible.",
+    "Seek UNAMA, BBC, AFP, DW, RFE/RL, and further local reporting on the 2026-06-09 Herat event; preserve rather than reconcile casualty and crowd-size variants.",
+    "Search local-language and regional outlets for other Q2 in-country protests or collective actions."
+  ]
+}
