@@ -1,0 +1,41 @@
+[
+  {
+    "gap_id": "G001",
+    "dimension": "threshold",
+    "description": "Makaza protest attendee count absent; do not infer people from road blockade or vehicles.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "status": "open"
+  },
+  {
+    "gap_id": "G002",
+    "dimension": "access",
+    "description": "BTA Pleven 31 August body request returned HTTP 429 Too Many Requests after a fresh exact receipt; no retry/bypass. Search-only details and attendance remain unverified.",
+    "source_ids": [
+      "S007"
+    ],
+    "status": "open"
+  },
+  {
+    "gap_id": "G003",
+    "dimension": "episode_continuity",
+    "description": "Pleven water protests recur on successive Sundays. The 24 August event is included; later dates remain separate events pending a reviewer decision on continuity.",
+    "source_ids": [
+      "S006"
+    ],
+    "status": "open"
+  },
+  {
+    "gap_id": "G004",
+    "dimension": "threshold",
+    "description": "Kotsev-related 15 August protest and road-safety rally lack a reliable count in captured search results.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "status": "open"
+  }
+]

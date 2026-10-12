@@ -1,0 +1,40 @@
+[
+  {
+    "gap_id": "EGY09G001",
+    "gap_type": "unitization",
+    "description": "Sugar strike: shared company/demands reported, plant dates differ, only cross-site totals.",
+    "source_ids": [
+      "EGY09S001",
+      "EGY09S005"
+    ]
+  },
+  {
+    "gap_id": "EGY09G002",
+    "gap_type": "threshold_and_target",
+    "description": "Nile Linen: 15 is meeting count, 1,000 negotiations; no simultaneous protest count. Demands to management with labor officials present; state target/public forum unclear.",
+    "source_ids": [
+      "EGY09S002",
+      "EGY09S003"
+    ]
+  },
+  {
+    "gap_id": "EGY09G003",
+    "gap_type": "search_only",
+    "description": "El-Shamadan is search-only; body/date/turnout unknown.",
+    "source_ids": [
+      "EGY09S004"
+    ]
+  },
+  {
+    "gap_id": "EGY09G004",
+    "gap_type": "capture_incident",
+    "description": "Initial q001 parser record had a literal escaped newline and zero headers; raw output preserved; q001_cli_v2 uses saved actual output and has 13 headers. No new search or reconstruction.",
+    "source_ids": []
+  },
+  {
+    "gap_id": "EGY09G005",
+    "gap_type": "coverage",
+    "description": "Five bilingual searches covered broad September, date windows and sugar follow-up; open web/local archive coverage incomplete; no zero-event inference.",
+    "source_ids": []
+  }
+]

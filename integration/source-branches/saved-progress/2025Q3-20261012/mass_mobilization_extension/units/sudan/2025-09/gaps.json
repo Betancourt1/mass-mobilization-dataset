@@ -1,0 +1,39 @@
+[
+  {
+    "gap_id": "SU25-09-G001",
+    "type": "technical_retrieval",
+    "description": "Jubraka Kassala teachers lead exact URL returned tool inaccessible error, no HTTP status/redirect/body; no retry.",
+    "source_ids": [
+      "SU25-09-S003"
+    ],
+    "affected_candidates": [
+      "SU25-09-E001"
+    ],
+    "required_followup": "Do not retry/alternate route; use unrelated permitted reporting for actual gathering/date/target/count."
+  },
+  {
+    "gap_id": "SU25-09-G002",
+    "type": "temporal_mismatch",
+    "description": "Two opened teacher-related reports date to May/June 2026, outside September 2025.",
+    "source_ids": [
+      "SU25-09-S001",
+      "SU25-09-S002"
+    ],
+    "affected_candidates": [
+      "SU25-09-E001"
+    ],
+    "required_followup": "Do not reuse as Q3 evidence."
+  },
+  {
+    "gap_id": "SU25-09-G003",
+    "type": "coverage_and_method_limit",
+    "description": "Three English/Arabic searches covered broad regions and a Kassala education follow-up; no body-grounded September gathering was identified. This is not evidence that no protest occurred.",
+    "source_ids": [
+      "SU25-09-S003"
+    ],
+    "affected_candidates": [
+      "SU25-09-E001"
+    ],
+    "required_followup": "A future pass could target September sub-windows and independent local radio/union reporting; verify execution, site, >=50 persons, domestic state demand."
+  }
+]

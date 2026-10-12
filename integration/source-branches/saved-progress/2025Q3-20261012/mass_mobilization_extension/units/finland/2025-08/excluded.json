@@ -1,0 +1,42 @@
+[
+  {
+    "candidate_id": "finland_2025-08_X001",
+    "title": "Vihtavuori anti-arms-trade/militarization demonstration, Laukaa, 15 August",
+    "source_ids": [
+      "S001"
+    ],
+    "reason": "Yle reports about 40 participants, below the 50-person threshold. The direct domestic-state target is not explicit.",
+    "field_evidence": {
+      "attendance": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Yle reports about 40."
+      },
+      "state_target": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The story concerns arms trade/militarization but does not clearly establish a demand directed at Finnish state policy."
+      }
+    },
+    "decision": "excluded_below_threshold_and_state_target_unclear"
+  },
+  {
+    "candidate_id": "finland_2025-08_X002",
+    "title": "Yle April 2026 Tampere cuts protest page surfaced as a temporal search match",
+    "source_ids": [
+      "S006"
+    ],
+    "reason": "Opened page is dated 20 April 2026 and is outside the August 2025 unit. It does not verify execution of the planned 29 August 2025 event.",
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "S006"
+        ],
+        "summary": "Opened page reports a 2026 event, outside assigned period."
+      }
+    },
+    "decision": "excluded_out_of_period_false_match"
+  }
+]

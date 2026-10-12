@@ -1,0 +1,96 @@
+[
+  {
+    "candidate_id": "chile_2025-08_E001",
+    "country": "Chile",
+    "ccode": 155,
+    "unit_month": "2025-08",
+    "title": "Student demonstrations in Santiago and Valparaíso over restricted TNE use",
+    "start_date": "2025-08-08",
+    "start_precision": "day",
+    "end_date": "2025-08-08",
+    "end_precision": "day",
+    "location": "Santiago and Valparaíso, Chile",
+    "scope": "Students protested the Comptroller’s interpretation limiting the National Student Card to school-related travel; each city is a distinct local occurrence, with no count reported.",
+    "organizer": "Confederation of Chilean Students (Confech); local organizers otherwise unknown.",
+    "demands": [
+      "social_restrictions",
+      "political_behavior_process"
+    ],
+    "participants_original": "Unknown; no turnout count stated in the article.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Opened Cooperativa report confirms separate demonstrations in Santiago and Valparaíso but gives no attendance count at either. Do not aggregate sites to claim >=50 at one gathering.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "chile_2025-08_S001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "chile_2025-08_S001"
+        ],
+        "summary": "The report dates the demonstrations to Friday, Aug. 8, 2025."
+      },
+      "location": {
+        "source_ids": [
+          "chile_2025-08_S001"
+        ],
+        "summary": "Students in Santiago and Valparaíso protested; separate local attendance remains unquantified."
+      },
+      "scope": {
+        "source_ids": [
+          "chile_2025-08_S001"
+        ],
+        "summary": "Opposed restriction of the TNE to trips for study."
+      },
+      "organizer": {
+        "source_ids": [
+          "chile_2025-08_S001"
+        ],
+        "summary": "Confech issued the quoted demand; other city organizers unknown."
+      },
+      "participants": {
+        "source_ids": [
+          "chile_2025-08_S001"
+        ],
+        "summary": "No participants count in article."
+      },
+      "state_target": {
+        "source_ids": [
+          "chile_2025-08_S001"
+        ],
+        "summary": "Confech directed demands to the Transport and Education ministries and the Government of Chile."
+      },
+      "demand": {
+        "source_ids": [
+          "chile_2025-08_S001"
+        ],
+        "summary": "Amend Decree 20 of 1982 to secure universal, unrestricted, free student travel."
+      },
+      "state_response": {
+        "source_ids": [
+          "chile_2025-08_S001"
+        ],
+        "summary": "Government response to demonstrations not covered in the article."
+      }
+    },
+    "state_target": "Government of Chile; Ministry of Transport and Telecommunications; Ministry of Education.",
+    "eligibility": "pending_threshold",
+    "coding_status": "candidate",
+    "episode_key": "chile_tne_student_protests_aug_2025_08_08",
+    "notes": "No count for either site. RED driver/food-handler stoppages are distinct labour activity and are not merged into this event.",
+    "open_questions": [
+      "What was attendance at each city gathering?",
+      "Did either ministry change the TNE rule in response?"
+    ]
+  }
+]

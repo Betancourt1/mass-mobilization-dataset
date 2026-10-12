@@ -1,0 +1,53 @@
+[
+  {
+    "gap_id": "gabon_2025-08_G001",
+    "type": "threshold_and_continuity",
+    "description": "Taxi coverage conflicts on onset (August 1 vs August 6) and does not quantify the reported Centre social gathering or resolve continuity with July.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "gabon_2025-08_E001"
+    ],
+    "required_followup": "Seek local reporting or union documentation to establish exact onset, continuity, attendance and end."
+  },
+  {
+    "gap_id": "gabon_2025-08_G002",
+    "type": "gathering_and_event_linkage",
+    "description": "ANPN and DGCCRF sources establish labor strikes but do not establish public gatherings of 50 or more or event-linked official responses.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "gabon_2025-08_E002",
+      "gabon_2025-08_E003"
+    ],
+    "required_followup": "Seek event-level reporting with location, attendance, organizer, end and response."
+  },
+  {
+    "gap_id": "gabon_2025-08_G003",
+    "type": "threshold_and_outcome",
+    "description": "SNAPTOUR reporting identifies a ministry sit-in and September 18 agreement but no attendance count or implementation outcome. Two onset accounts may share sourcing.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "gabon_2025-08_E004"
+    ],
+    "required_followup": "Seek attendance and implementation follow-up; maintain agreement response narrowly scoped."
+  },
+  {
+    "gap_id": "gabon_2025-08_G004",
+    "type": "exact_url_access_denial",
+    "description": "Info241 forestry article body returned exact-URL HTTP 403; search-only lead is not used to establish event facts.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry; use genuinely independent sources only after exact URL and origin review."
+  }
+]

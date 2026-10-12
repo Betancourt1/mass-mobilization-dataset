@@ -1,0 +1,38 @@
+[
+  {
+    "gap_id": "BRA07G001",
+    "scope": "Brazil July 2025",
+    "type": "retrieval_failure",
+    "detail": "Exact body requests for BZ07S001 and BZ07S002 failed in the web tool (internal error/inaccessible URL); no publisher HTTP denial was observed and no retry was made. Their attendance claims remain search-only.",
+    "affected_fields": [
+      "attendance",
+      "demands",
+      "organizer"
+    ],
+    "follow_up": "Seek other accessible reporting for the Paulista event; retain exact source-specific gaps."
+  },
+  {
+    "gap_id": "BRA07G002",
+    "scope": "Brazil July 2025",
+    "type": "occurrence_and_threshold",
+    "detail": "CUT BZ07S008 is an advance list of planned July 10 actions in 11 cities, not proof of execution in those cities. The reviewed sources do not establish turnout for most city actions.",
+    "affected_fields": [
+      "occurrence",
+      "participants_min",
+      "episode_scope"
+    ],
+    "follow_up": "Search city-level post-event reporting before coding additional locations."
+  },
+  {
+    "gap_id": "BRA07G003",
+    "scope": "Brazil July 2025",
+    "type": "coverage",
+    "detail": "Six open-web search captures (165 result headers) covered English/Portuguese generic, weekly, issue and MST terms. This is not LexisNexis coverage and does not exhaust local/regional reporting, sectors, languages or all dates.",
+    "affected_fields": [
+      "coverage",
+      "continuity",
+      "source_access"
+    ],
+    "follow_up": "Further local/sector searches and cross-month continuity review."
+  }
+]

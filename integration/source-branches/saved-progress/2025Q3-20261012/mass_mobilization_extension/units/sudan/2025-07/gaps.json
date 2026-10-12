@@ -1,0 +1,65 @@
+[
+  {
+    "gap_id": "SU25-07-G001",
+    "type": "temporal_provenance_and_response",
+    "description": "Port Sudan event has one article dated July 25 but no exact event/end date, no page version history, and unknown state response; page chrome is dated 2026.",
+    "source_ids": [
+      "SU25-07-S001"
+    ],
+    "affected_candidates": [
+      "SU25-07-E001"
+    ],
+    "required_followup": "Seek a permitted contemporaneous/archived version and exact date/end/response; review demand category."
+  },
+  {
+    "gap_id": "SU25-07-G002",
+    "type": "source_retrieval_and_independence",
+    "description": "Sudan Independent same-date Port Sudan lead returned tool error 406 with no body; relation to Assayha unresolved.",
+    "source_ids": [
+      "SU25-07-S002"
+    ],
+    "affected_candidates": [
+      "SU25-07-E001"
+    ],
+    "required_followup": "No retry or alternate route for same story; seek distinct independent reporting."
+  },
+  {
+    "gap_id": "SU25-07-G003",
+    "type": "inaccessible_archive",
+    "description": "Atar English Issue 33 PDF exact target failed with tool 400 content too large (14,278,770 bytes); no body; relation to Sudan Events reporting unresolved.",
+    "source_ids": [
+      "SU25-07-S003",
+      "SU25-07-S005"
+    ],
+    "affected_candidates": [
+      "SU25-07-E002",
+      "SU25-07-E003"
+    ],
+    "required_followup": "No retry/download/alternate URL; seek permitted independent Kadugli attendance/date/actor reporting."
+  },
+  {
+    "gap_id": "SU25-07-G004",
+    "type": "threshold_and_episode_unitization",
+    "description": "Kadugli gatherings lack attendee counts; first date is relative weekday, second is two days later; continuity/separation and actor/time link for reported deaths/arrests unresolved.",
+    "source_ids": [
+      "SU25-07-S005"
+    ],
+    "affected_candidates": [
+      "SU25-07-E002",
+      "SU25-07-E003"
+    ],
+    "required_followup": "Find permitted exact-date/site count, unitization and response evidence; retain unknowns."
+  },
+  {
+    "gap_id": "SU25-07-G005",
+    "type": "search_method_limit",
+    "description": "Four English/Arabic open-web queries are not LexisNexis or an exhaustive archive.",
+    "source_ids": [],
+    "affected_candidates": [
+      "SU25-07-E001",
+      "SU25-07-E002",
+      "SU25-07-E003"
+    ],
+    "required_followup": "Coverage bounded to saved query outputs and five target checks."
+  }
+]

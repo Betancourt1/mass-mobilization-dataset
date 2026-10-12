@@ -1,0 +1,40 @@
+[
+  {
+    "gap_id": "IN08G001",
+    "type": "continuity",
+    "description": "September results support continuation/end date for Maratha protest only through search snippets; no body follow-up was opened.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "india_2025-08_E001"
+    ],
+    "required_followup": "Confirm end date, exact state response and whether assembly continued after the fast ended."
+  },
+  {
+    "gap_id": "IN08G002",
+    "type": "threshold",
+    "description": "Karur MGNREGA petition lead is search-only; exact article open returned Internal Error, attendance and state-directed demand unverified.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "india_2025-08_E002"
+    ],
+    "required_followup": "A fresh exact-URL access assessment would be needed before any future body retrieval; no retry was made."
+  },
+  {
+    "gap_id": "IN08G003",
+    "type": "coverage",
+    "description": "Existing August queries include English, Marathi and Tamil searches, with a concentration on Mumbai, Bihar/Delhi/UP/Karnataka, and Tamil Nadu; not exhaustive by state or week.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "india_2025-08_E001",
+      "india_2025-08_E002"
+    ],
+    "required_followup": "Review other regions and sectors by local source and date window."
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "gap_id": "thailand_2025-09_G001",
+    "type": "search_scope",
+    "description": "Three searches included Thai generic, English generic and a targeted Thai follow-up; regional/sectoral and sub-month coverage remains incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If capacity permits, consult local regional media, labor/land groups and Southern border outlets in additional date windows."
+  },
+  {
+    "gap_id": "thailand_2025-09_G002",
+    "type": "threshold",
+    "description": "18 September network action is described as about 50 only in prior-unit retrospective report; The Active confirms occurrence and demands but no headcount. Other leads have no turnout.",
+    "source_ids": [
+      "thailand_2025-09_S004",
+      "thailand_2025-09_S003"
+    ],
+    "affected_candidates": [
+      "thailand_2025-09_E001",
+      "thailand_2025-09_E002",
+      "thailand_2025-09_E003",
+      "thailand_2025-09_E005",
+      "thailand_2025-09_E006"
+    ],
+    "required_followup": "Find contemporaneous event-specific headcounts. Do not convert 75 organizations or 57 prisoners to attendees."
+  },
+  {
+    "gap_id": "thailand_2025-09_G003",
+    "type": "retrieval_failure",
+    "description": "Exact Prachachat page for 18 Sep returned HTTP 503 and no body; no retry.",
+    "source_ids": [
+      "thailand_2025-09_S002"
+    ],
+    "affected_candidates": [
+      "thailand_2025-09_E001"
+    ],
+    "required_followup": "Use separate independent source if found; do not retry URL or use snippet as evidence."
+  },
+  {
+    "gap_id": "thailand_2025-09_G004",
+    "type": "source_scope",
+    "description": "Nation Thailand Sa Kaeo article already opened in Cambodia unit; its saved body scope covered Cambodian gatherings and explicitly excluded Thai section. This unit does not code a Thai event from that body/snippet.",
+    "source_ids": [
+      "thailand_2025-09_S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find an independent report of any Thai counter-gathering with exact site, attendance and demand directed to Thai state; do not reopen exact URL."
+  },
+  {
+    "gap_id": "thailand_2025-09_G005",
+    "type": "continuity",
+    "description": "KPT/Yarnapund sit-ins are retrospectively reported through 30 Sep, having begun in March. Broader historic episode coverage and official baseline unavailable.",
+    "source_ids": [
+      "thailand_2025-09_S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Compare with pre-Q3 owner unit if available; retain as continuation and avoid duplicate onset."
+  }
+]

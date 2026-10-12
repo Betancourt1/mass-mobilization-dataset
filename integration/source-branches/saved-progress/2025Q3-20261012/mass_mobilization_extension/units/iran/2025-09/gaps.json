@@ -1,0 +1,73 @@
+[
+  {
+    "gap_id": "IR09G001",
+    "type": "threshold",
+    "description": "None of seven September leads has a site-level simultaneous attendance count; cities, gatherings and annual totals are not aggregated.",
+    "source_ids": [
+      "IR09S001"
+    ],
+    "affected_candidates": [
+      "iran_2025-09_E001",
+      "iran_2025-09_E002",
+      "iran_2025-09_E003",
+      "iran_2025-09_E004",
+      "iran_2025-09_E005",
+      "iran_2025-09_E006",
+      "iran_2025-09_E007"
+    ],
+    "required_followup": "Seek specific site counts from accessible contemporaneous reports; maintain pending_threshold until then."
+  },
+  {
+    "gap_id": "IR09G002",
+    "type": "date_location",
+    "description": "Fars retirees have no named site; telecom retirees are listed in cities without dates; Mashhad van-driver gathering lacks date, site and demand.",
+    "source_ids": [
+      "IR09S001"
+    ],
+    "affected_candidates": [
+      "iran_2025-09_E003",
+      "iran_2025-09_E004",
+      "iran_2025-09_E005"
+    ],
+    "required_followup": "Search local outlets/organization posts for exact occurrence date, public site, and demand."
+  },
+  {
+    "gap_id": "IR09G003",
+    "type": "state_target",
+    "description": "South Pars employment grievance, telecom regulations, and van-driver demand need exact state-policy/authority clarification; other farm/bakery/steel claims state target appears but policy details are thin.",
+    "source_ids": [
+      "IR09S001"
+    ],
+    "affected_candidates": [
+      "iran_2025-09_E001",
+      "iran_2025-09_E004",
+      "iran_2025-09_E005",
+      "iran_2025-09_E006",
+      "iran_2025-09_E007"
+    ],
+    "required_followup": "Use independent local/event reporting that explicitly identifies the responsible ministry, governorate or policy."
+  },
+  {
+    "gap_id": "IR09G004",
+    "type": "continuity",
+    "description": "Iran International describes telecom protests as continuing; start date and possible overlap with August retiree actions are unknown. July Sabzevar follow-up reports summons but no new protest.",
+    "source_ids": [
+      "IR09S001"
+    ],
+    "affected_candidates": [
+      "iran_2025-09_E004"
+    ],
+    "required_followup": "Find dated pre/post reports for the same telecom groups/sites; treat summons as response lead, not a continuation of the gathering."
+  },
+  {
+    "gap_id": "IR09G005",
+    "type": "search_limit",
+    "description": "One actual web call batched English and Persian September queries; results include only 25 headers and one opened event-level source. Search is open web and not an exhaustive archive.",
+    "source_ids": [
+      "IR09S001",
+      "IR09S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Additional provincial/local labor, agricultural and utility sources remain unsearched; no completeness claim."
+  }
+]

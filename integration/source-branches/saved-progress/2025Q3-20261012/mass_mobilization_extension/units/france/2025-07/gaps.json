@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "FR07G001",
+    "topic": "A69 occurrence, attendance and episode boundaries",
+    "description": "Search leads point to a 4–6 July gathering, but exact reporting pages were paywalled or returned 403. Search-result snippets are not evidence.",
+    "impact": "No A69 candidate is coded; occurrence, local threshold, onset day, continuity/end and event-level State response remain unverified.",
+    "source_ids": [
+      "FR07S003",
+      "FR07S004"
+    ],
+    "next_step": "Search a genuinely independent local source only after fresh exact URL review; no retry or alternate route for the held URLs."
+  },
+  {
+    "gap_id": "FR07G002",
+    "topic": "Independent attendance verification for the 8 July Paris line",
+    "description": "Amnesty directly reports thousands but is an organizer/advocacy source; no opened independent count is available.",
+    "impact": "Candidate is supported by an organizer report; crowd estimate and source independence remain limited.",
+    "source_ids": [
+      "FR07S002"
+    ],
+    "next_step": "Seek unrelated-source coverage if available without using held/ambiguous origins."
+  },
+  {
+    "gap_id": "FR07G003",
+    "topic": "State response and event closure",
+    "description": "Opened sources do not establish response outcomes, concessions or a precise closing time for the two candidates.",
+    "impact": "Response and end-date fields stay unknown; no closure inferred from silence.",
+    "source_ids": [
+      "FR07S001",
+      "FR07S002"
+    ],
+    "next_step": "Only update with explicit evidence."
+  },
+  {
+    "gap_id": "FR07G004",
+    "topic": "Coverage outside the observed regions/sectors",
+    "description": "Searches emphasize Paris, Tarn/Occitanie, and health/Gaza/A69 topics; non-indexed local and radio reporting is incomplete.",
+    "impact": "Candidate count is not a completeness claim.",
+    "source_ids": [
+      "FR07S001",
+      "FR07S002"
+    ],
+    "next_step": "Continue localized, sector-specific searches if assigned; compare only after baseline is supplied."
+  },
+  {
+    "gap_id": "FR07G005",
+    "topic": "Official baseline and country code",
+    "description": "No approved official event baseline or verified code mapping was present in the assigned materials.",
+    "impact": "No completeness, reconciliation, or official event number is claimed.",
+    "source_ids": [],
+    "next_step": "Reconcile against the approved baseline when available."
+  },
+  {
+    "gap_id": "FR07G006",
+    "topic": "Unmatched search PRE",
+    "description": "A q006 input file is present but no corresponding raw tool output was available.",
+    "impact": "Execution/result metadata cannot be reconstructed; it is not included as a captured call.",
+    "source_ids": [],
+    "next_step": "Preserve the unmatched input and report unknown; do not recreate the response."
+  }
+]

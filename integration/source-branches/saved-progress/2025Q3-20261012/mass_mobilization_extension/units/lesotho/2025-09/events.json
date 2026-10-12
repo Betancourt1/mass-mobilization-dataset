@@ -1,0 +1,89 @@
+[
+  {
+    "candidate_id": "lesotho_2025-09_E001",
+    "country": "Lesotho",
+    "ccode": 570,
+    "unit_month": "2025-09",
+    "title": "Polihali strike-linked protests or public meetings (occurrence and threshold unresolved)",
+    "start_date": "2025-09",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Polihali Dam / Mokhotlong is the context for the strike; actual protest or meeting location unknown",
+    "scope": "local/unknown",
+    "organizer": "unknown",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "unknown",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "unknown; Amnesty’s retrospective report does not quantify any protest or meeting.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "LSO25-09-S004"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "LSO25-09-S004"
+        ],
+        "summary": "Amnesty locates strike-linked protests/public meetings in September but gives no day."
+      },
+      "location": {
+        "source_ids": [],
+        "summary": "No gathering location specified; Polihali is only the worker/strike context."
+      },
+      "organizer": {
+        "source_ids": [],
+        "summary": "Unknown."
+      },
+      "demands": {
+        "source_ids": [
+          "LSO25-09-S004"
+        ],
+        "summary": "Amnesty reports demands for higher wages and better working conditions."
+      },
+      "participants_original": {
+        "source_ids": [],
+        "summary": "No participants or count reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [],
+        "summary": "No crowd/meeting size or simultaneity evidence."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "No duration or closure reported."
+      },
+      "state_response": {
+        "source_ids": [],
+        "summary": "Report says authorization was restricted but gives no event-specific accommodation, arrest, dispersal, beating, shooting or killing evidence."
+      },
+      "protester_violence": {
+        "source_ids": [],
+        "summary": "Unknown; no event-specific account."
+      },
+      "eligibility": {
+        "source_ids": [
+          "LSO25-09-S004"
+        ],
+        "summary": "Retrospective report says protest/public meetings were connected to strike action, but does not establish that a qualifying gathering proceeded, reached 50, or addressed the Lesotho state rather than employer."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "polihali_sep_2025_strike_linked_public_action",
+    "notes": "Keep separate from the wage strike itself and from the AfDB complaint. The report gives an assembly-related lead but not occurrence, threshold, exact place or state-target proof; no candidate is verified.",
+    "open_questions": []
+  }
+]

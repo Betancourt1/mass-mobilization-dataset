@@ -1,0 +1,34 @@
+[
+  {
+    "gap_id": "SVK25-07-G001",
+    "type": "threshold_and_state_target",
+    "description": "Eligibility turns on whether >70 reaching the endpoint were simultaneously present, and whether the project decision demand was directed to the Slovak state. Cumulative >120 over two days is not simultaneous.",
+    "source_ids": [
+      "SVK25-07-S001"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2025-07_E001"
+    ],
+    "required_followup": "Reviewer should assess endpoint group and direct state target."
+  },
+  {
+    "gap_id": "SVK25-07-G002",
+    "type": "search_coverage",
+    "description": "Bounded open-web searches do not replicate LexisNexis or exhaust local/regional archives.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search additional local/regional archives if available; absence of results is not zero events."
+  },
+  {
+    "gap_id": "SVK25-07-G003",
+    "type": "source_limit",
+    "description": "Matica protest is known only from a retrospective search snippet; state target is not demonstrated.",
+    "source_ids": [
+      "SVK25-07-S003"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2025-07_X001"
+    ],
+    "required_followup": "Reassess only if a state-policy demand is evidenced."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "PH25-07-G001",
+    "dimension": "site attendance",
+    "affected_candidate_ids": [
+      "PH25-07-E003",
+      "PH25-07-E004",
+      "PH25-07-E005",
+      "PH25-07-E006",
+      "PH25-07-E007"
+    ],
+    "source_ids": [
+      "PH25-07-S003",
+      "PH25-07-S005",
+      "PH25-07-S006",
+      "PH25-07-S007"
+    ],
+    "description": "Cebu, Tacloban, General Santos, Mendiola and Abra River leads lack body-verified site-specific turnout; Mendiola and Abra are snippet-only.",
+    "next_permitted_action": "If pursued, seek distinct permitted contemporaneous local reporting with exact site and simultaneous attendance; any exact URL requires fresh assessment."
+  },
+  {
+    "gap_id": "PH25-07-G002",
+    "dimension": "source access/origin",
+    "affected_candidate_ids": [
+      "PH25-07-E006",
+      "PH25-07-E007"
+    ],
+    "source_ids": [
+      "PH25-07-S001",
+      "PH25-07-S006",
+      "PH25-07-S007"
+    ],
+    "description": "Manila Bulletin QC URL returned 403; Rappler was explicitly blocked by robots in the search call; the Mendiola MB result is a related same-day story lead and remains unopened.",
+    "next_permitted_action": "No retry on exact blocked URLs; future unrelated source must have distinct exact URL/origin and fresh assessment."
+  },
+  {
+    "gap_id": "PH25-07-G003",
+    "dimension": "episode continuity",
+    "affected_candidate_ids": [
+      "PH25-07-E001",
+      "PH25-07-E002"
+    ],
+    "source_ids": [
+      "PH25-07-S002",
+      "PH25-07-S004"
+    ],
+    "description": "Baguio July 1 march coincided with a union congress; SONA gathering is later in the month. No evidence links them as one episode.",
+    "next_permitted_action": "Preserve separate onsets; only link if a contemporaneous source documents continuity."
+  }
+]

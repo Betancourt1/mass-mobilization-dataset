@@ -1,0 +1,170 @@
+[
+  {
+    "candidate_id": "guinea_2025-09_E001",
+    "country": "Guinea",
+    "ccode": 438,
+    "unit_month": "2025-09",
+    "title": "Choques en Cosa Rails durante llamado de FVG",
+    "start_date": "2025-09-05",
+    "start_precision": "day",
+    "end_date": "2025-09-05",
+    "end_precision": "day",
+    "location": "Cosa Rails, Conakry",
+    "scope": "Acción localizada; no se agregan sitios sin prueba organizativa.",
+    "organizer": "FVG convocó; organizador local no identificado",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Jóvenes manifestantes, sin cifra.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No hay headcount; observaciones matutinas describen calma/sin multitud en otros sitios.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S004"
+        ],
+        "summary": "Choques en tarde de 5-sep."
+      },
+      "location": {
+        "source_ids": [
+          "S003",
+          "S004",
+          "S006"
+        ],
+        "summary": "Cosa Rails en tarde; otras observaciones son de mañana."
+      },
+      "demands": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "FVG pidió retorno constitucional y denunció gestión de transición; no se registra demanda local."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S003",
+          "S004",
+          "S006"
+        ],
+        "summary": "No hay prueba de 50."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "S004"
+        ],
+        "summary": "Gas para dispersar."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "guinea_2025-09_E001",
+    "notes": "La convocatoria nacional no equivale a marcha nacional ejecutada. Calma/ausencia de multitud por la mañana y choques localizados reportados por la tarde.",
+    "open_questions": [
+      "¿Cuántos estaban en el acto local?",
+      "¿Adoptaron el objetivo FVG?",
+      "¿Arrestos, heridos, disparos o negociación?"
+    ]
+  },
+  {
+    "candidate_id": "guinea_2025-09_E002",
+    "country": "Guinea",
+    "ccode": 438,
+    "unit_month": "2025-09",
+    "title": "Protesta de docentes contractuales ante Presidencia por ingreso a función pública",
+    "start_date": "2025-09-08",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Bourse du Travail y Palacio Mohamed V, Kaloum, Conakry",
+    "scope": "Acción localizada; no se agregan sitios sin prueba organizativa.",
+    "organizer": "Docentes contractuales comunales/zona especial de Conakry",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "Docentes contractuales; total no reportado.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No se da número. Representación de 33 prefecturas y 13 comunas no es headcount en el palacio.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "yes",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S007",
+          "S008",
+          "S009"
+        ],
+        "summary": "8-sep."
+      },
+      "location": {
+        "source_ids": [
+          "S007",
+          "S008"
+        ],
+        "summary": "Bolsa de Trabajo y Palacio Mohamed V."
+      },
+      "demands": {
+        "source_ids": [
+          "S007",
+          "S008",
+          "S009"
+        ],
+        "summary": "Ingreso inmediato a función pública antes del inicio de clases."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S007",
+          "S008",
+          "S009"
+        ],
+        "summary": "Desconocido; sin extrapolar representaciones territoriales."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "S008"
+        ],
+        "summary": "Delegación recibida en Presidencia."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "guinea_2025-09_E002",
+    "notes": "Petición concreta de integración al servicio público; aunque se reportan consignas de apoyo al presidente, no se trata como simple acto de campaña. Una delegación fue recibida.",
+    "open_questions": [
+      "¿Cuántos docentes estuvieron presentes?",
+      "¿La respuesta fue compromiso formal o declaración de enlace?",
+      "¿Hubo acciones adicionales en septiembre?"
+    ]
+  }
+]

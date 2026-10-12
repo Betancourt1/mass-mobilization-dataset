@@ -1,0 +1,54 @@
+[
+  {
+    "gap_id": "IR07G001",
+    "type": "threshold",
+    "description": "Sabzevar site lacks a simultaneous attendance count; Sadra lacks exact public site and count.",
+    "source_ids": [
+      "IR07S002"
+    ],
+    "affected_candidates": [
+      "iran_2025-07_E001",
+      "iran_2025-07_E002"
+    ],
+    "required_followup": "Seek contemporaneous local reporting or reliable footage/counts for the specific sites; no source reopened."
+  },
+  {
+    "gap_id": "IR07G002",
+    "type": "continuity",
+    "description": "Sabzevar report calls July23 the second consecutive day; start is no later than July22, but end and episode continuity are unknown.",
+    "source_ids": [
+      "IR07S002",
+      "IR07S003"
+    ],
+    "affected_candidates": [
+      "iran_2025-07_E001"
+    ],
+    "required_followup": "Check accessible local follow-up on July24 onward and distinguish summons case response from protest continuation."
+  },
+  {
+    "gap_id": "IR07G003",
+    "type": "response",
+    "description": "Tear gas at Sabzevar is explicit; arrests, dispersal, shootings, killings and accommodation are not established.",
+    "source_ids": [
+      "IR07S002"
+    ],
+    "affected_candidates": [
+      "iran_2025-07_E001"
+    ],
+    "required_followup": "Only code additional response if an accessible event-level source reports it."
+  },
+  {
+    "gap_id": "IR07G004",
+    "type": "search_limit",
+    "description": "Four July broad searches in English and Persian covered generic July protest terms, labor/retiree/utilities, and Tehran/Khuzestan/Isfahan; this is open web, not LexisNexis or an exhaustive archive.",
+    "source_ids": [
+      "IR07S001",
+      "IR07S002"
+    ],
+    "affected_candidates": [
+      "iran_2025-07_E001",
+      "iran_2025-07_E002"
+    ],
+    "required_followup": "Potential regional archives/local press unavailable or not systematically searchable; preserve unknowns."
+  }
+]

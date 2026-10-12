@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "SK07-G001",
+    "affected_candidate_ids": [
+      "south_korea_2025-07_E001"
+    ],
+    "dimension": "threshold",
+    "reason": "Capital-area and national aggregate do not prove attendance at the Yeouido gathering.",
+    "next_permitted_action": "Retain pending threshold for review.",
+    "source_ids": [
+      "SK25-07-S002"
+    ]
+  },
+  {
+    "gap_id": "SK07-G002",
+    "affected_candidate_ids": [
+      "south_korea_2025-07_E002"
+    ],
+    "dimension": "same-site overlap",
+    "reason": "Separate ~10k plant/construction count may overlap.",
+    "next_permitted_action": "Do not add; review saved account.",
+    "source_ids": [
+      "SK25-07-S003"
+    ]
+  },
+  {
+    "gap_id": "SK07-G003",
+    "affected_candidate_ids": [],
+    "dimension": "News1 target mismatch",
+    "reason": "Actual AMP open target differed from PRE/receipt; body excluded.",
+    "next_permitted_action": "No retry; search-only.",
+    "source_ids": [
+      "SK25-07-S001"
+    ]
+  },
+  {
+    "gap_id": "SK07-G004",
+    "affected_candidate_ids": [],
+    "dimension": "coverage limits",
+    "reason": "Weekly Korean/English searches do not constitute a complete region/sector inventory.",
+    "next_permitted_action": "No zero-protest or exhaustive claim.",
+    "source_ids": []
+  }
+]

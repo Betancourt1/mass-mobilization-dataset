@@ -1,0 +1,91 @@
+[
+  {
+    "gap_id": "comoros_2025-09_G001",
+    "type": "threshold",
+    "description": "TMAM attendance not reported.",
+    "source_ids": [
+      "comoros_2025-09_S001"
+    ],
+    "affected_candidates": [
+      "comoros_2025-09_E001"
+    ],
+    "required_followup": "Seek union/local event count."
+  },
+  {
+    "gap_id": "comoros_2025-09_G002",
+    "type": "threshold",
+    "description": "Student ministry group about 12; gendarmerie follow-on size unknown, not additive.",
+    "source_ids": [
+      "comoros_2025-09_S002",
+      "comoros_2025-09_S003",
+      "comoros_2025-09_S006"
+    ],
+    "affected_candidates": [
+      "comoros_2025-09_E002"
+    ],
+    "required_followup": "Seek credible count for each gathering."
+  },
+  {
+    "gap_id": "comoros_2025-09_G003",
+    "type": "state_response",
+    "description": "Arrests reported; release/further force unknown.",
+    "source_ids": [
+      "comoros_2025-09_S002",
+      "comoros_2025-09_S003",
+      "comoros_2025-09_S006"
+    ],
+    "affected_candidates": [
+      "comoros_2025-09_E002"
+    ],
+    "required_followup": "Permitted evidence if material; do not infer outcome."
+  },
+  {
+    "gap_id": "comoros_2025-09_G004",
+    "type": "continuity",
+    "description": "Strike reportedly ongoing 29 Sep; actual closure/resumption unknown.",
+    "source_ids": [
+      "comoros_2025-09_S004",
+      "comoros_2025-09_S009",
+      "comoros_2025-09_S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not use a schedule or later Oct report to date Sep closure."
+  },
+  {
+    "gap_id": "comoros_2025-09_G005",
+    "type": "publicness_threshold",
+    "description": "Private opposition hotel meeting no size; Al-Fajr exact request 403; Habariza driver lead 429.",
+    "source_ids": [
+      "comoros_2025-09_S005",
+      "comoros_2025-09_S007",
+      "comoros_2025-09_S008",
+      "comoros_2025-09_S010"
+    ],
+    "affected_candidates": [
+      "comoros_2025-09_X001"
+    ],
+    "required_followup": "No retry of blocked URLs; unrelated permitted evidence only."
+  },
+  {
+    "gap_id": "comoros_2025-09_G006",
+    "type": "coverage",
+    "description": "French/English + Swahili/Komori local phrase; Moroni/Anjouan/Patsy/Mohoro; no archive; direct Shikomori/Arabic limited. Retrieval 11 Oct after prescribed 7 Oct cutoff; facts used are 2025.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review cutoff deviation and whether feasible coverage is material."
+  },
+  {
+    "gap_id": "comoros_2025-09_G007",
+    "type": "access_method",
+    "description": "Wrong Masiwa URL was receipt-checked, no body requested; corrected exact target separately checked/opened. PRE/POST Al-Fajr files preserve actual 403.",
+    "source_ids": [
+      "comoros_2025-09_S004",
+      "comoros_2025-09_S007"
+    ],
+    "affected_candidates": [
+      "comoros_2025-09_E002",
+      "comoros_2025-09_X001"
+    ],
+    "required_followup": "Retain exact URL distinction and immutable receipts."
+  }
+]

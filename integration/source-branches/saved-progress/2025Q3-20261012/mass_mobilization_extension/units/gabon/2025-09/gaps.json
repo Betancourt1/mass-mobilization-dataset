@@ -1,0 +1,51 @@
+[
+  {
+    "gap_id": "gabon_2025-09_G001",
+    "type": "threshold_and_end_date",
+    "description": "IFPEL strike onset and claims are reported, but the article supplies no attendance count, qualifying public gathering evidence or end date.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "gabon_2025-09_E001"
+    ],
+    "required_followup": "Seek a local follow-up with crowd, organizer and end-date information."
+  },
+  {
+    "gap_id": "gabon_2025-09_G002",
+    "type": "cross_month_threshold_and_implementation",
+    "description": "SNAPTOUR continues from August and ends/suspends September 18 per La Une, but attendance and implementation remain unknown; Gabonclic and Gabonactu may not be independent.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek independent follow-up on attendance and implementation; keep event onset in August."
+  },
+  {
+    "gap_id": "gabon_2025-09_G003",
+    "type": "source_integrity",
+    "description": "Gabonews response page displayed unrelated spam links and compromised content integrity. Its content is excluded; a retrieval timestamp beyond actual receipt checked_at is not asserted.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use a genuinely independent, clean report only after exact URL/origin assessment."
+  },
+  {
+    "gap_id": "gabon_2025-09_G004",
+    "type": "coverage",
+    "description": "Four captured French/English searches covered national labor/protest terms, Libreville and education/tourism sectors, but did not cover every week, region or archive. No exhaustive or zero-event claim is warranted.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "gabon_2025-09_E001"
+    ],
+    "required_followup": "Extend regional and sector searches if further work is scheduled."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "gap_id": "croatia_2025-07_G001",
+    "type": "attendance/state-demand",
+    "description": "Taxi-driver action has search-only lead; attendance, event occurrence details and state-policy target unverified.",
+    "source_ids": [
+      "croatia_2025-07_S006"
+    ],
+    "affected_candidates": [
+      "croatia_2025-07_E002"
+    ],
+    "required_followup": "Independent local source/body and exact count plus demand target."
+  },
+  {
+    "gap_id": "croatia_2025-07_G002",
+    "type": "episode-onset/threshold",
+    "description": "Moby Drea July29 attendance is approximate boundary (~50); August documents later larger gathering, so earliest qualifying date remains unresolved.",
+    "source_ids": [
+      "croatia_2025-07_S005"
+    ],
+    "affected_candidates": [
+      "croatia_2025-07_E001"
+    ],
+    "required_followup": "Review August continuation evidence and seek date-specific July count; do not infer."
+  }
+]

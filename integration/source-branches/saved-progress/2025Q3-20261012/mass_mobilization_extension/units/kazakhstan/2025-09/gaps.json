@@ -1,0 +1,73 @@
+[
+  {
+    "gap_id": "kazakhstan_2025-09-G001",
+    "type": "threshold",
+    "description": "The Talgar Ayala workers’ protest has no attendee count; threshold ≥50 is unestablished.",
+    "source_ids": [
+      "KZ25-09-S001",
+      "KZ25-09-S004"
+    ],
+    "affected_candidates": [
+      "kazakhstan_2025-09-E001"
+    ],
+    "required_followup": "Contemporaneous source or original recording with simultaneous attendance count."
+  },
+  {
+    "gap_id": "kazakhstan_2025-09-G002",
+    "type": "state_target",
+    "description": "Whether Talgar workers’ demands were directed to government policy/public employer or solely to workplace management is unresolved.",
+    "source_ids": [
+      "KZ25-09-S001",
+      "KZ25-09-S004"
+    ],
+    "affected_candidates": [
+      "kazakhstan_2025-09-E001"
+    ],
+    "required_followup": "Evidence on employer ownership, decision authority and precise addressee of demands."
+  },
+  {
+    "gap_id": "kazakhstan_2025-09-G003",
+    "type": "continuity",
+    "description": "Neither return to work nor a scheduled 30 September meeting establishes that the Talgar protest ended on 27 September or that demands were resolved.",
+    "source_ids": [
+      "KZ25-09-S001",
+      "KZ25-09-S004"
+    ],
+    "affected_candidates": [
+      "kazakhstan_2025-09-E001"
+    ],
+    "required_followup": "Follow-up source after the planned meeting; event end remains unknown."
+  },
+  {
+    "gap_id": "kazakhstan_2025-09-G004",
+    "type": "threshold",
+    "description": "The Karaganda Region Aktau tariff protest lacks headcount and sufficient independent corroboration; target and gathering form also require confirmation.",
+    "source_ids": [
+      "KZ25-09-S003"
+    ],
+    "affected_candidates": [
+      "kazakhstan_2025-09-E002"
+    ],
+    "required_followup": "Independent contemporaneous regional reporting and simultaneous attendance evidence."
+  },
+  {
+    "gap_id": "kazakhstan_2025-09-G005",
+    "type": "source_access",
+    "description": "The official Gov.kz URL concerning the Talgar workforce timed out in the web tool without HTTP status or body; no retry was made.",
+    "source_ids": [
+      "KZ25-09-S002"
+    ],
+    "affected_candidates": [
+      "kazakhstan_2025-09-E001"
+    ],
+    "required_followup": "No retry in this pass; source remains search-only with technical failure recorded."
+  },
+  {
+    "gap_id": "kazakhstan_2025-09-G006",
+    "type": "archive_access",
+    "description": "Open web search does not reproduce LexisNexis or systematic newspaper archives; the bounded searches cannot establish absence of other events.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Systematic archive and further local-language review if available."
+  }
+]

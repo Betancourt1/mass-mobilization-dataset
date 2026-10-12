@@ -1,0 +1,64 @@
+[
+  {
+    "gap_id": "PH25-09-G001",
+    "dimension": "site-specific turnout",
+    "affected_candidate_ids": [
+      "PH25-09-E002",
+      "PH25-09-E003",
+      "PH25-09-E004",
+      "PH25-09-E005",
+      "PH25-09-E006",
+      "PH25-09-E007",
+      "PH25-09-E008",
+      "PH25-09-E009"
+    ],
+    "source_ids": [
+      "PH25-09-S001"
+    ],
+    "description": "Only the Cebu Fuente Osmeña event has a separate site-level estimate; other Visayas locations have no individual attendance counts.",
+    "next_permitted_action": "Fresh exact-source review of a distinct local report if available; do not transfer the Cebu estimate."
+  },
+  {
+    "gap_id": "PH25-09-G002",
+    "dimension": "unavailable source text",
+    "affected_candidate_ids": [
+      "PH25-09-E010",
+      "PH25-09-E011",
+      "PH25-09-E012",
+      "PH25-09-E013"
+    ],
+    "source_ids": [
+      "PH25-09-S002",
+      "PH25-09-S003",
+      "PH25-09-S004",
+      "PH25-09-S005"
+    ],
+    "description": "Inquirer Luneta and two Manila Bulletin exact URLs returned 403; ABS-CBN Baguio returned page shell without article prose. Snippet facts remain unverified.",
+    "next_permitted_action": "Do not retry or route around exact denials; for Baguio, no further request is planned. Future independent evidence requires exact origin review and fresh assessment."
+  },
+  {
+    "gap_id": "PH25-09-G003",
+    "dimension": "episode continuity",
+    "affected_candidate_ids": [
+      "PH25-09-E001",
+      "PH25-09-E013"
+    ],
+    "source_ids": [
+      "PH25-09-S001",
+      "PH25-09-S005"
+    ],
+    "description": "Sep. 13 EDSA lead and Sep. 21 multi-city events concern flood-control corruption, but the accessible evidence does not establish continuity, common organizer or one sustained episode.",
+    "next_permitted_action": "Keep dates and sites separate; link only if a permitted contemporaneous source explicitly documents continuity."
+  },
+  {
+    "gap_id": "PH25-09-G004",
+    "dimension": "regional/sector coverage",
+    "affected_candidate_ids": [],
+    "source_ids": [
+      "PH25-09-S001",
+      "PH25-09-S004"
+    ],
+    "description": "Searches covered early/late September, regional/local and anti-corruption terms in English/Filipino; accessible event coverage is strongest for Visayas. Other regions/sectors are not exhaustively covered.",
+    "next_permitted_action": "Optional future local outlet/sector checks with exact URL assessment; no national completeness claim."
+  }
+]

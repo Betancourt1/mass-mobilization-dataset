@@ -1,0 +1,77 @@
+[
+  {
+    "gap_id": "FR09G001",
+    "topic": "18 September Rennes main union procession state target",
+    "description": "Local body gives a time-specific estimate of about 11,500 but does not document a specific direct demand to the French State for this exact procession.",
+    "impact": "Candidate remains pending_state_target; do not infer demands from national totals or adjacent blockades.",
+    "source_ids": [
+      "FR09S002"
+    ],
+    "next_step": "Seek an opened exact local source that documents this procession’s own demands."
+  },
+  {
+    "gap_id": "FR09G002",
+    "topic": "18 September Rennes procession end and response",
+    "description": "The article reports later incidents involving a group it distinguishes from the union procession; no procession end time or response outcome is established.",
+    "impact": "End, violence and response remain unknown for the main cortège.",
+    "source_ids": [
+      "FR09S002"
+    ],
+    "next_step": "Keep separate from the general strike day, separate groups and the pharmacy march."
+  },
+  {
+    "gap_id": "FR09G003",
+    "topic": "Toulouse pharmacists count, exact demands and response",
+    "description": "La Dépêche exposed a subscriber-only wall and is not usable; the separate local action’s count/demand needs an unrelated accessible source.",
+    "impact": "No candidate is coded for Toulouse from the paywalled page or search snippet.",
+    "source_ids": [
+      "FR09S003"
+    ],
+    "next_step": "Search an unrelated organizer or local public source with fresh exact-target assessment."
+  },
+  {
+    "gap_id": "FR09G004",
+    "topic": "Rennes official records technical retrieval failures",
+    "description": "Prefecture page returned 502 and public acts PDF timed out.",
+    "impact": "No official-source body evidence was obtained; these are technical failures, not denial or event findings.",
+    "source_ids": [
+      "FR09S004",
+      "FR09S005"
+    ],
+    "next_step": "Use other unrelated sources; do not treat failure as absence."
+  },
+  {
+    "gap_id": "FR09G005",
+    "topic": "8 September Lyon Bayrou gathering",
+    "description": "Pre-event reporting surfaced but no opened post-event source establishes occurrence/attendance for Lyon.",
+    "impact": "Announcement is not coded as an event.",
+    "source_ids": [
+      "FR09S006"
+    ],
+    "next_step": "Seek post-event evidence only if exact access review allows."
+  },
+  {
+    "gap_id": "FR09G006",
+    "topic": "10 September local episodes",
+    "description": "Searches found high national totals and local leads, but opened material did not establish per-gathering participant groups and thresholds for the 10 September actions.",
+    "impact": "No national or city aggregate is assigned as attendance for a local candidate.",
+    "source_ids": [],
+    "next_step": "Do not sum cities, workforces, strikes or blockages."
+  },
+  {
+    "gap_id": "FR09G007",
+    "topic": "Coverage and official baseline",
+    "description": "Coverage is strongest for Rennes/Toulouse and the 18 September professional/union actions; other cities, local radio and non-indexed sources are incomplete. Official baseline is pending.",
+    "impact": "No claim that no other protest occurred, no official completeness claim.",
+    "source_ids": [],
+    "next_step": "Continue local/sector search and reconcile when baseline is available."
+  },
+  {
+    "gap_id": "FR09G008",
+    "topic": "Missing q005 raw response",
+    "description": "A q005 PRE input exists without corresponding persisted raw output.",
+    "impact": "Actual search output and execution metadata are unknown and are not reconstructed.",
+    "source_ids": [],
+    "next_step": "Preserve the input and report the gap."
+  }
+]

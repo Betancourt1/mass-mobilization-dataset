@@ -1,0 +1,39 @@
+[
+  {
+    "gap_id": "gabon_2025-07_G001",
+    "type": "threshold_and_action_form",
+    "description": "The opened July 31 report establishes a taxi work stoppage and citywide service disruption, but no public gathering or simultaneous attendee count. The 50-person threshold is unresolved.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "gabon_2025-07_E001"
+    ],
+    "required_followup": "Seek event-level reporting or a union account describing whether a public gathering occurred and its approximate attendance."
+  },
+  {
+    "gap_id": "gabon_2025-07_G002",
+    "type": "exact_url_access_denial",
+    "description": "Info241 exact article URL returned HTTP 403. This is an exact-URL access gap only; the body is not used and no publisher-wide inference is made.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "gabon_2025-07_E001"
+    ],
+    "required_followup": "Use independently reported evidence only after exact-URL and origin assessment; do not retry the blocked URL."
+  },
+  {
+    "gap_id": "gabon_2025-07_G003",
+    "type": "coverage_and_continuity",
+    "description": "Two French queries covered broad July and town/sector terms, but not every week, region or archive. Available reports leave the July 31 end date and continuity with August unresolved.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "gabon_2025-07_E001"
+    ],
+    "required_followup": "Check later local reports for exact end date and whether August action was a renewal or continuation."
+  }
+]
