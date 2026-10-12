@@ -1,0 +1,32 @@
+{
+  "quarter": "2022Q1",
+  "state": "STOPPED_SAVED",
+  "official_complete_units": 0,
+  "local_manifest_recount": {
+    "allowed": 404,
+    "excluded_not_researched_here": 76,
+    "with_actual_notes_or_research": 404,
+    "partial_only": 0,
+    "delivered_dossiers_required_files_present": 404,
+    "intact_reviewed_snapshot_unique_units": 241,
+    "prepared_without_activity": 0,
+    "current_hash_reviewed_unique_units": 171,
+    "current_hash_ACCEPT_BOUNDED_WITH_GAPS_unique_units": 48,
+    "missing_actual_research_vs_480": 76,
+    "missing_actual_research_in_allowed": 0,
+    "handoff_unit_mentions": 442,
+    "unique_handoff_unit_ids": 394,
+    "duplicate_handoff_mentions": 48,
+    "review_receipts": 369,
+    "unique_review_unit_ids": 304,
+    "duplicate_review_receipts": 65
+  },
+  "retained_safe_files": 2975,
+  "private_local_files": 29557,
+  "omission_reasons": {
+    "outside_safe_allowlist": 25304,
+    "ambiguous_prose_identifiers_or_raw_fields": 4230,
+    "unparseable_structured_file": 23
+  },
+  "review_count_limits": "Existing checkpoint counts; current-hash matches and latest saved handoff selection only, not new scientific review. Historical versions deduplicated for unit counts."
+}
