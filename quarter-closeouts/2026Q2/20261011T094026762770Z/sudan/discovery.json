@@ -1,0 +1,70 @@
+{
+  "country": "Sudan",
+  "period": "2026-04-01/2026-06-30",
+  "status": "provisional_public_source_discovery",
+  "searches": [
+    {
+      "query": "Sudan protest demonstration April 2026 Khartoum",
+      "searched_utc": "approx. 2026-10-11T03:16:41Z/2026-10-11T03:16:47Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "query": "السودان احتجاج مظاهرة أبريل 2026 الخرطوم بورتسودان",
+      "searched_utc": "approx. 2026-10-11T03:16:48Z/2026-10-11T03:16:51Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "query": "Sudan protest demonstration May 2026 Port Sudan",
+      "searched_utc": "approx. 2026-10-11T03:16:52Z/2026-10-11T03:16:58Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "query": "السودان احتجاج مظاهرة مايو 2026 الخرطوم بورتسودان",
+      "searched_utc": "approx. 2026-10-11T03:16:59Z/2026-10-11T03:17:02Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "query": "Sudan protest demonstration June 2026 Sudan protest",
+      "searched_utc": "approx. 2026-10-11T03:17:03Z/2026-10-11T03:17:07Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "query": "السودان احتجاج مظاهرة يونيو 2026 السودان",
+      "searched_utc": "approx. 2026-10-11T03:17:08Z/2026-10-11T03:17:13Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    }
+  ],
+  "opened_sources": [
+    {
+      "url": "https://sudantribune.com/article/314049",
+      "publisher": "Sudan Tribune",
+      "page_date": "2026-05-17",
+      "event_date": "2026-05-16/2026-05-17",
+      "location": "Abri, Northern State, Sudan",
+      "finding": "Report documents protests against electricity cuts and service conditions; its caption describes road blocking on May 16, while the report says protests flared Sunday May 17. Preserve the date range/ambiguity.",
+      "excerpt": "Protests flared on Sunday in the Abri area of Sudan’s Northern State",
+      "excerpt_words": 12,
+      "opened_utc": "approx. 2026-10-11T03:17:15Z/2026-10-11T03:17:17Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "url": "https://www.dabangasudan.org/en/all-news/article/sudan-marks-april-6-anniversary-with-renewed-calls-to-end-war-and-restore-civilian-rule",
+      "publisher": "Radio Dabanga",
+      "page_date": "2026-04-06",
+      "event_date": "2026-04-06 anniversary commemoration; physical demonstration not established",
+      "location": "Sudan (specific event location unclear from accessible summary)",
+      "finding": "Article reports anniversary observances and political calls to end war/restore civilian rule, but accessible evidence does not establish a public demonstration occurrence. Kept as an ambiguous lead, not counted.",
+      "excerpt": "Sudan marks April 6 anniversary with renewed calls to end war",
+      "excerpt_words": 11,
+      "opened_utc": "approx. 2026-10-11T03:17:15Z/2026-10-11T03:17:17Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    }
+  ],
+  "exclusions": [
+    {
+      "item": "Sudan Tribune article on electricity-related road blockade in Suakin/Jubayt",
+      "reason": "Directly opened article is dated August 1, 2026 and describes actions beginning July 31; outside period despite topical relevance. URL: https://sudantribune.net/article/316895"
+    },
+    {
+      "item": "June 2026 Sudan conflict timeline",
+      "reason": "Search surfaced a conflict chronology but did not establish an in-period public demonstration occurrence."
+    },
+    {
+      "item": "2022 protest coverage",
+      "reason": "Outside the assigned quarter."
+    }
+  ],
+  "limitations": "One opened May source clearly documents public protest activity; April anniversary coverage is ambiguous as to an actual street action, and no June occurrence was established. Search non-findings are not evidence of absence. Dates reflect the source's May 16 caption and May 17 reporting language. UTC timestamps for searches/opens marked approximate are reconstructed from session chronology because the tool omitted per-call timestamps."
+}

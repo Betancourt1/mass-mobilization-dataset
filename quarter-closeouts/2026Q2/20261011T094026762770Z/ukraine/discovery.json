@@ -1,0 +1,131 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Ukraine",
+  "country_slug": "ukraine",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass of publicly reported protests, demonstrations, and related collective actions. Search results are leads; no inference of absence from empty or failed searches.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:18:07Z",
+    "search_and_open_window_utc": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose per-request timestamps; capture window is an observed bounded session window."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "Ukraine protest demonstration April 2026 Kyiv rally",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clearly dated April public demonstration surfaced in the targeted result sets."
+    },
+    {
+      "month_focus": "April",
+      "language": "Ukrainian",
+      "query": "Україна протест мітинг квітень 2026 Київ",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clearly dated April in-country protest result surfaced; search result sets included unrelated material."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "Ukraine protest demonstration May 2026 Kyiv rally",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "Surfaced May 22 Kyiv march over law on missing soldiers and a Civil Code protest report."
+    },
+    {
+      "month_focus": "May",
+      "language": "Ukrainian",
+      "query": "Україна протест мітинг травень 2026 Київ",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "Surfaced Censor.NET report on May 17 protest against draft Civil Code."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "Ukraine protest demonstration June 2026 Kyiv rally",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clearly dated June Kyiv demonstration surfaced from this query."
+    },
+    {
+      "month_focus": "June",
+      "language": "Ukrainian",
+      "query": "Україна протест мітинг червень 2026 Київ",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "Police page mentioned unspecified mass events June 21; insufficient details to identify a protest."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "lead_id": "UKR-2026-05-KYIV-MISSING-SOLDIERS-LAW",
+      "event_date": {
+        "value": "2026-05-22",
+        "basis": "LA Times/AP report dated May 22 says the march occurred Friday.",
+        "uncertainty": "“Hundreds” is a broad reported estimate; source describes participants’ concern about legislation affecting legal status of missing persons."
+      },
+      "location": "Kyiv, Ukraine; march route through the capital (specific route not given in excerpt).",
+      "action_summary": "Hundreds marched demanding repeal of a law that families of missing soldiers feared could allow courts to declare missing service members dead before their fate was confirmed.",
+      "provisional_status": "reported event lead, sourced to AP via LA Times",
+      "sources": [
+        {
+          "url": "https://www.latimes.com/world-nation/story/2026-05-22/ukrainian-protesters-in-kyiv-urge-veto-of-bill-families-fear-could-declare-missing-soldiers-dead",
+          "publisher": "Los Angeles Times / Associated Press",
+          "publication_date": "2026-05-22",
+          "accessed_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+          "excerpt": "Hundreds of Ukrainians marched through the capital Friday to demand that the government repeal a recent law.",
+          "provenance": "Opened article. The march is expressly dated Friday, May 22; event concern was proposed legal treatment of missing persons.",
+          "event_date_as_reported": "2026-05-22",
+          "excerpt_note": "Short source excerpt; below 25 quoted words."
+        }
+      ]
+    },
+    {
+      "lead_id": "UKR-2026-05-KYIV-CIVIL-CODE-PROTEST",
+      "event_date": {
+        "value": "2026-05-17; article also references earlier event May 5",
+        "basis": "Censor.NET page dateline 17.05.26 and text explicitly dates rally to Sunday, May 17; it separately mentions a May 5 protest.",
+        "uncertainty": "Crowd size not provided. May 5 is a separately mentioned prior protest and should be a distinct follow-up lead if required."
+      },
+      "location": "Mariinsky Park, Kyiv, Ukraine.",
+      "action_summary": "Demonstrators opposed the draft Civil Code, calling for amendments from human-rights activists to be considered or for the bill to be withdrawn.",
+      "provisional_status": "reported event lead; secondary reporting cites Hromadske and Radio Liberty",
+      "sources": [
+        {
+          "url": "https://censor.net/en/photonews/4003681/protesters-rallied-in-kyiv-against-the-new-civil-code",
+          "publisher": "Censor.NET",
+          "publication_date": "2026-05-17",
+          "accessed_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+          "excerpt": "On Sunday, 17 May, a protest took place in Mariinsky Park in Kyiv against the new Civil Code.",
+          "provenance": "Opened article; names location, date and demands and cites Hromadske and Radio Liberty. Also says a separate protest occurred in Kyiv on May 5.",
+          "event_date_as_reported": "2026-05-17",
+          "excerpt_note": "Short source excerpt; below 25 quoted words."
+        }
+      ]
+    }
+  ],
+  "excluded_or_deferred_results": [
+    {
+      "item": "Pro-Fedorov protests from July onward, Kyiv and other cities",
+      "source_urls": [
+        "https://www.reutersconnect.com/item/protesters-gather-in-kyiv-for-a-third-consecutive-day-to-protest-the-dismissal-of-ukrainian-defence-minister-fedorov/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUxFUElDMDAwV1E0TFpT",
+        "https://apnews.com/article/russia-ukraine-war-defense-minister-reshuffle-fedorov-88083e4381b1690f5048088d75954d3a"
+      ],
+      "reported_event_date": "2026-07-16 onward",
+      "reason": "Outside Q2; included in noisy searches but excluded."
+    },
+    {
+      "item": "Kyiv police report of mass events in central Kyiv",
+      "source_url": "https://kyiv.npu.gov.ua/news/politsiia-kyieva-ta-prydani-syly-zabezpechyly-pravoporiadok-pid-chas-provedennia-masovyh-zakhodiv-u-tsentri-stolytsi",
+      "reported_event_date": "2026-06-21",
+      "reason": "Official page confirms mass events but does not describe their character or demands; deferred as insufficiently specific to classify as protest."
+    }
+  ],
+  "failures_and_limits": [
+    "Search surfaced July protests prominently; those are explicitly excluded. April no-findings reflect limited discovery results only. Ukrainian-language searches were included."
+  ],
+  "next_pass_priorities": [
+    "Expand local and regional press searches, seek direct primary evidence, and resolve event dates/locations before any formal coding."
+  ]
+}

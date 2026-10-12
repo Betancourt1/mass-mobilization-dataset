@@ -1,0 +1,5 @@
+# Swaziland (Eswatini) — Q2 2026 provisional discovery
+
+The only dateable in-country event surfaced was an April 20 public-sector union march in Mbabane toward the Prime Minister’s Office to deliver a petition over salary “notching.” Swaziland News reports police stopped the authorized march. The article quotes a government statement urging calm and saying negotiations remained active; it also reports the union leader intended to return on April 22. A related union Facebook result announcing April 22 petition delivery could not be opened, so completion of that follow-up is unconfirmed.
+
+Targeted English searches for May and June did not locate a separately dated Q2 demonstration. Historical June 29/2021 commemoration material and overseas solidarity actions were excluded. This bounded search is not evidence that no other events occurred. Exact queries, source URL, page/event dates, provenance, excerpt, and failure are in `discovery.json`. SiSwati query equivalents were not used because no confident search formulation was available in this pass. Provisional only; no schema or formal validation applied.

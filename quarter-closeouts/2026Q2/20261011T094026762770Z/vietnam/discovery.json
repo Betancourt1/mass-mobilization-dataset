@@ -1,0 +1,101 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Vietnam",
+  "country_slug": "vietnam",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass for publicly reported protests, demonstrations, and related collective actions. Planned actions are distinct from events that occurred. Empty/irrelevant search sets do not demonstrate absence.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:22:19Z",
+    "search_and_open_window_utc": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose request-level timestamps; this is the observed bounded query/open window."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "Vietnam protest demonstration April 2026 Hanoi protest",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable Q2 protest surfaced; results were irrelevant or outside period."
+    },
+    {
+      "month_focus": "April",
+      "language": "Vietnamese",
+      "query": "biểu tình Việt Nam tháng 4 năm 2026 Hà Nội",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable in-country protest surfaced in this result set."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "Vietnam protest demonstration May 2026 Hanoi protest",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable Q2 public demonstration surfaced in the targeted results."
+    },
+    {
+      "month_focus": "May",
+      "language": "Vietnamese",
+      "query": "biểu tình Việt Nam tháng 5 năm 2026 Hà Nội",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "Results were unrelated or outside the period; no-findings do not establish absence."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "Vietnam protest demonstration June 2026 Hanoi protest",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "Surfaced AFP report on Hanoi residents’ silent opposition to redevelopment/demolitions."
+    },
+    {
+      "month_focus": "June",
+      "language": "Vietnamese",
+      "query": "biểu tình Việt Nam tháng 6 năm 2026 Hà Nội",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No additional Vietnamese-language report surfaced; AFP-derived English-language story was opened."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "lead_id": "VNM-2026-06-HANOI-REDEVELOPMENT-SILENT-VIGILS",
+      "event_date": {
+        "value": "Mid-June 2026; exact date(s) unresolved",
+        "uncertainty": "Source describes multiple anonymous vigils over recent weeks; no single date or participant total for each action can be extracted. Article reports “hundreds” attended similar vigils, not one necessarily single event."
+      },
+      "location": "Hanoi, Vietnam; Red River redevelopment area, with reported vigils and banners in nearby neighborhoods and West Lake area.",
+      "action_summary": "Residents used silent prayer vigils, cautious banners, and T-shirts to oppose a redevelopment scheme that could displace residents.",
+      "provisional_status": "AFP report republished by Barron’s and Arab News; lead refers to a pattern, not one fully dated event",
+      "sources": [
+        {
+          "url": "https://www.barrons.com/news/hanoi-residents-mount-silent-protest-over-home-demolitions-42d9b0dd",
+          "publisher": "Agence France-Presse (republished by Barron’s)",
+          "publication_date": "2026-06-23",
+          "accessed_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+          "excerpt": "Silent prayer vigils, cautiously worded protest banners and T-shirts pleading for neighbourhoods to be spared.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "provenance": "Opened AFP-sourced item. Identifies public opposition to redevelopment; content is short summary.",
+          "event_date_as_reported": "mid-June 2026; exact date unresolved"
+        },
+        {
+          "url": "https://www.arabnews.com/world/hanoi-residents-mount-silent-protest-over-home-demolitions-2648361",
+          "publisher": "Agence France-Presse (republished by Arab News)",
+          "publication_date": "2026-06-23; updated 2026-06-24",
+          "accessed_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+          "excerpt": "Last week, she joined a vigil at a Buddhist temple where residents prayed for peace — a veiled plea for their homes to be spared.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "provenance": "Opened AFP report. Says vigil occurred the week prior to publication and hundreds attended similar vigils organized in recent weeks; also describes banners and T-shirts.",
+          "event_date_as_reported": "approx. week of 2026-06-15; exact date unresolved"
+        }
+      ]
+    }
+  ],
+  "excluded_or_deferred_results": [],
+  "failures_and_limits": [
+    "Vietnamese-language searches returned no relevant event report; English AFP syndication gave the June lead."
+  ],
+  "next_pass_priorities": [
+    "Verify whether announced actions occurred and search further local reporting before any event coding or completion claim."
+  ]
+}

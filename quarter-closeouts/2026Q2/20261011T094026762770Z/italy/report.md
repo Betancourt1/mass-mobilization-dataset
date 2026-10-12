@@ -1,0 +1,9 @@
+# Italy — Q2 2026 public-source discovery
+
+This is a bounded, provisional source-discovery pass, not a complete event inventory or formal validation. Six targeted queries covered April, May, and June in English and Italian; the web tool did not provide per-request UTC timestamps, so the access bracket recorded in `discovery.json` is the observed run window (2026-10-11 03:10:44–03:12:16 UTC).
+
+The strongest completed-event lead is Sky TG24’s same-day report of a June 12 national cultural-workers strike with demonstrations in 15 cities: [Sky TG24](https://tg24.sky.it/cronaca/2026/06/12/sciopero-lavoratori-cultura-12-giugno-perche). Reuters also reported that a Kering strike was held May 20, while the 70–100% participation estimate comes from unions: [Reuters](https://www.reuters.com/business/world-at-work/italian-unions-claim-70-100-success-kering-strike-2026-05-20/).
+
+For April, Quotidiano Sanità published a pre-event call for pharmacy workers to strike and march in Rome on April 13: [Quotidiano Sanità](https://www.quotidianosanita.it/lavoro-e-professioni/sciopero-delle-farmacie-private-il-13-aprile-a-roma-manifestazione-nazionale-per-il-rinnovo-del-contratto/). That page does not confirm the action occurred. The Guardian likewise described a British Council strike in Italy prospectively on May 20, so it remains an announced action pending post-event confirmation: [The Guardian](https://www.theguardian.com/politics/2026/may/20/british-council-staff-italy-strike-workforce-cut).
+
+The official public-sector strike dashboard surfaced relevant entries in search snippets, but its opened page had no extractable lines. I have not treated those registry entries or other strike calendars as proof of an action being held. See the JSON for query history, planned-versus-reported distinctions, and exclusions.

@@ -1,0 +1,103 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Estonia",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "estonia_2026-04",
+      "estonia_2026-05",
+      "estonia_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Estonia; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Estonia April 2026 protest demonstration march strike labor opposition church Eesti protesta manifestación huelga",
+        "searched_at_utc": "2026-10-11 03:13:48 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Eesti April 2026 protestas huelga manifestación oposición trabajo / Estonia April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:14:07 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Estonia May 2026 protest demonstration march strike labor opposition church Eesti protesta manifestación huelga",
+        "searched_at_utc": "2026-10-11 03:13:54 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Eesti May 2026 protestas huelga manifestación oposición trabajo / Estonia May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:14:15 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Estonia June 2026 protest demonstration march strike labor opposition church Eesti protesta manifestación huelga",
+        "searched_at_utc": "2026-10-11 03:14:01 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Eesti June 2026 protestas huelga manifestación oposición trabajo / Estonia June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:14:22 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "ee-apr-forest-err",
+      "url": "https://www.err.ee/1610006515/galerii-meeleavaldus-tallinnas-kutsus-ules-tugevdama-metsade-kaitset",
+      "outlet": "ERR (Estonian Public Broadcasting)",
+      "provenance": "Estonian-language public broadcaster report and photo gallery.",
+      "publication_date": "2026-04-25",
+      "event_date": "2026-04-25",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Tammsaare Park to Freedom Square, Tallinn, Estonia",
+      "bounded_excerpt": "Laupäeva pärastlõunal toimus Tallinnas meeleavaldus “Mets on pärandamiseks, mitte ärandamiseks!”",
+      "excerpt_word_count": 10,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Article identifies Saturday afternoon; publication/event date align on April 25."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "ee-2026-04-forest-protection",
+      "month_unit": "2026-04",
+      "event_date": "2026-04-25",
+      "location": "Tallinn, Estonia",
+      "event_type_signal": "environmental demonstration and march",
+      "issue": "Strengthen forest protection and oppose proposed amendments to forest/nature conservation law",
+      "sources": [
+        "ee-apr-forest-err"
+      ],
+      "status": "provisional; not a canonical record"
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

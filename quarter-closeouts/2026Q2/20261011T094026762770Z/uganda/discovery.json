@@ -1,0 +1,131 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Uganda",
+  "country_slug": "uganda",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass of publicly reported protests, demonstrations, and related collective actions. Search results are leads; no inference of absence from empty or failed searches.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:18:07Z",
+    "search_and_open_window_utc": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose per-request timestamps; capture window is an observed bounded session window."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "Uganda protest demonstration April 2026 Kampala rally opposition",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "Surfaced Monitor report dated April 20 on anti-EACOP activists in Kampala."
+    },
+    {
+      "month_focus": "April",
+      "language": "Swahili",
+      "query": "Uganda maandamano April 2026 Kampala protest",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No separate local-language result; English Monitor report was the relevant lead."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "Uganda protest demonstration May 2026 Kampala rally opposition",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "Surfaced a May 28 report announcing a planned protest at the Turkish Embassy; occurrence not confirmed."
+    },
+    {
+      "month_focus": "May",
+      "language": "Swahili",
+      "query": "Uganda maandamano May 2026 Kampala protest",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No distinct Swahili-language report surfaced; English Pulse Uganda result found."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "Uganda protest demonstration June 2026 Kampala rally opposition",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable in-country June event surfaced in this result set."
+    },
+    {
+      "month_focus": "June",
+      "language": "Swahili",
+      "query": "Uganda maandamano June 2026 Kampala protest",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable June event surfaced; no-findings are not evidence of absence."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "lead_id": "UGA-2026-04-KAMPALA-ANTI-EACOP",
+      "event_date": {
+        "value": "2026-04-20",
+        "basis": "Monitor publication and narrative date the arrests/action to Monday, April 20.",
+        "uncertainty": "Source describes a petition delivery and planned demonstration; some participants marched and others were dispersed. Police arrested six; report says over 50 youth mobilized."
+      },
+      "location": "TotalEnergies head offices, Yusuf Lule Road, Kampala, Uganda.",
+      "action_summary": "Environmental activists associated with Rooted in Resistance sought to submit a petition against EACOP/Tilenga; group marched to the office and was intercepted. Police reported six student arrests; story describes over 50 mobilized.",
+      "provisional_status": "reported event lead; details are from local press and police statement",
+      "sources": [
+        {
+          "url": "https://www.monitor.co.ug/uganda/news/national/six-anti-eacop-protestors-arrested-in-kampala-5430642",
+          "publisher": "Daily Monitor",
+          "publication_date": "2026-04-20",
+          "accessed_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+          "excerpt": "Police on Monday arrested six environmental activists who stormed TotalEnergies’ offices in Kampala.",
+          "provenance": "Opened article. Identifies petition against EACOP, six arrests, over 50 youth mobilized; police attributed arrests to alleged unlawful demonstration/public-order concerns.",
+          "event_date_as_reported": "2026-04-20",
+          "excerpt_note": "Short source excerpt; below 25 quoted words."
+        }
+      ]
+    },
+    {
+      "lead_id": "UGA-2026-05-KAMPALA-PLU-PLANNED-DEMONSTRATION",
+      "event_date": {
+        "value": "planned as of 2026-05-28; actual date and occurrence not established",
+        "basis": "Pulse Uganda story dated May 28 reports the party announcement but does not establish that the action took place.",
+        "uncertainty": "Retain as planned action only; do not code as an event without follow-up."
+      },
+      "location": "Outside Turkish Embassy, Kampala, Uganda (announced venue).",
+      "action_summary": "Patriotic League of Uganda announced a demonstration connected to its dispute with Türkiye; a source reports party leaders were instructed to attend.",
+      "provisional_status": "planned-action lead only; occurrence unverified",
+      "sources": [
+        {
+          "url": "https://www.pulse.ug/story/muhoozis-plu-plans-protest-outside-turkish-embassy-heres-why-2026052808303963236",
+          "publisher": "Pulse Uganda",
+          "publication_date": "2026-05-28",
+          "accessed_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+          "excerpt": "Uganda’s Patriotic League of Uganda (PLU) is planning a demonstration outside the Turkish Embassy in Kampala.",
+          "provenance": "Opened report: party announcement and stated Turkish Embassy venue; no follow-up confirming demonstration occurred.",
+          "event_date_as_reported": "not established; announcement dated 2026-05-28",
+          "excerpt_note": "Short source excerpt; below 25 quoted words."
+        }
+      ]
+    }
+  ],
+  "excluded_or_deferred_results": [
+    {
+      "item": "January 2026 Ugandan election protests and associated crackdown",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/2026_Ugandan_protests",
+        "https://monitor.civicus.org/explore/2026-polls-characterised-by-systematic-crackdown-on-opposition-and-civic-space/"
+      ],
+      "reported_event_date": "2026-01-16 onward",
+      "reason": "Outside Q2. April Monitor/CIVICUS reporting about election repression is background unless it documents a specific Q2 collective action."
+    },
+    {
+      "item": "September 2026 Kampala protest at Turkish Embassy",
+      "source_url": "https://apnews.com/article/f85945e017371116cd3fd440f6664a45",
+      "reported_event_date": "2026-09-18",
+      "reason": "Wrong period; later rally, not the May planned action."
+    }
+  ],
+  "failures_and_limits": [
+    "May planned demonstration has no searched follow-up source confirming it occurred. Swahili queries did not return useful local-language reports; English/local Ugandan outlet results were used."
+  ],
+  "next_pass_priorities": [
+    "Expand local and regional press searches, seek direct primary evidence, and resolve event dates/locations before any formal coding."
+  ]
+}

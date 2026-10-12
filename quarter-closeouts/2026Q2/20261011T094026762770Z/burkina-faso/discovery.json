@@ -1,0 +1,76 @@
+{
+  "country": "Burkina Faso",
+  "country_slug": "burkina-faso",
+  "quarter": "2026Q2",
+  "period_start": "2026-04-01",
+  "period_end": "2026-06-30",
+  "status": "provisional public discovery; not canonical; no formal validation performed",
+  "search_logs": [
+    {
+      "query": "Burkina Faso grève manifestation protestation avril 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Burkina Faso strike protest demonstration April 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Burkina Faso grève manifestation protestation mai 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Burkina Faso strike protest demonstration May 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Burkina Faso grève manifestation protestation juin 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Burkina Faso strike protest demonstration June 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    }
+  ],
+  "events": [
+    {
+      "id": "burkina-faso-2026-late-may-ouagadougou-faithful-protest",
+      "event_date": "2026-05-27/2026-06-03",
+      "event_date_precision": "uncertain range; described as days after May 26 arrest",
+      "country": "Burkina Faso",
+      "location": "Ouagadougou; Avenue Kwame-Nkrumah and Great Mosque mentioned",
+      "title": "Faithful protest after imam’s arrest",
+      "publication_date": "2026-06-03",
+      "source_url": "https://www.lemonde.fr/afrique/article/2026/06/03/au-burkina-faso-l-arrestation-d-un-imam-rigoriste-revele-des-tensions-au-sein-de-la-junte_6696575_3212.html",
+      "source_type": "Le Monde subscriber article, limited public preview",
+      "excerpt": "Dans les jours qui suivent, plusieurs centaines de fidèles manifestent.",
+      "excerpt_word_count": 10,
+      "notes": "Article preview says imam was arrested May 26 and demonstrators acted in following days; exact day uncertain. Public preview supports only this limited detail; full article is paywalled and was not bypassed."
+    }
+  ],
+  "excluded_or_unverified_leads": [],
+  "source_access_failures": [
+    {
+      "url": "https://www.lemonde.fr/afrique/article/2026/06/03/au-burkina-faso-l-arrestation-d-un-imam-rigoriste-revele-des-tensions-au-sein-de-la-junte_6696575_3212.html",
+      "failure": "Full text is subscriber-only; used only publicly visible preview and did not bypass."
+    }
+  ],
+  "method_notes": [
+    "Bounded search focused on strikes, demonstrations, protests, rallies and mobilizations within the country during Apr-Jun 2026.",
+    "A search-result absence is not evidence that no events occurred. Unconfirmed plans and wrong-country locations are not counted as events.",
+    "Publication date and event date are recorded separately where established; uncertainties are explicit.",
+    "Quoted excerpts are kept short (each under 25 words).",
+    "This is a staging artifact only; the scientific kit was unavailable for canonical workflow/schema review."
+  ]
+}

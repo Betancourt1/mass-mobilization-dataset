@@ -1,0 +1,235 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Bahrain",
+  "period": {"start": "2026-04-01", "end": "2026-06-30"},
+  "status": "provisional; not canonical data, formal validation, or a completion claim",
+  "scope_note": "Bounded first public-source discovery pass focused on demonstrations and protests. Aggregate source counts are not event records. No inference of absence from failed, empty, or non-specific search results.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:06:23Z",
+    "search_and_open_window_utc": "2026-10-11T03:05:03Z to 2026-10-11T03:06:23Z",
+    "timestamp_note": "The managed web tool did not expose individual request timestamps. This observed session window is retained for query and source access; it is not represented as a per-request instant."
+  },
+  "queries": [
+    {"batch": 1, "month_focus": "April", "language": "English", "query": "Bahrain protest demonstration April 2026", "outcome": "Returned war/crackdown context, a formal diplomatic protest, and many old-period protest results; no individually dated in-country April demonstration was established in this result set."},
+    {"batch": 1, "month_focus": "April", "language": "Arabic", "query": "البحرين احتجاج مظاهرة أبريل 2026", "outcome": "Search results were mostly unrelated, wrong-period, or not individually dateable; not evidence of no events."},
+    {"batch": 1, "month_focus": "May", "language": "English", "query": "Bahrain protest demonstration May 2026", "outcome": "Surfaced context for 2026 Iran-war protests and a later ACLED report; no individual May event in this result set."},
+    {"batch": 1, "month_focus": "May", "language": "Arabic", "query": "البحرين احتجاج مظاهرة مايو 2026", "outcome": "Search results were mostly unrelated or old-period; later targeted queries surfaced May 10 reporting about protests after cleric arrests."},
+    {"batch": 2, "month_focus": "June", "language": "English", "query": "Bahrain protest demonstration June 2026", "outcome": "Surfaced an aggregate first-half protest count and later analysis of March-August demonstrations; no individually dated June event established in this result set."},
+    {"batch": 2, "month_focus": "June", "language": "Arabic", "query": "البحرين احتجاج مظاهرة يونيو 2026", "outcome": "Search results largely concerned Iran, military attacks, or older Bahrain protests; not evidence of no events."},
+    {"batch": 2, "month_focus": "April-June", "language": "English", "query": "Bahrain anti-government protests April May June 2026 Iran war protests", "outcome": "Surfaced a later ACLED summary that Shiite-centered demonstrations occurred March-August, plus April reporting about arrest/crackdown context."},
+    {"batch": 2, "month_focus": "April-June", "language": "Arabic", "query": "البحرين مظاهرات احتجاجات أبريل مايو يونيو 2026 الحرب إيران", "outcome": "Returned mainly conflict reporting and unrelated/wrong-period results; no standalone event established by this query."},
+    {"batch": 3, "month_focus": "May", "language": "English", "query": "Bahrain May 9 2026 arrest 41 Shiite clerics protests demonstrations", "outcome": "Surfaced Reuters on the official arrest announcement and advocacy reporting; prompted further search for demonstrations after the arrests."},
+    {"batch": 3, "month_focus": "May", "language": "Arabic", "query": "البحرين 9 مايو 2026 اعتقال 41 عالما احتجاج مظاهرات", "outcome": "Surfaced Arabic coverage of arrests and later a report about protests in several towns on May 10."},
+    {"batch": 3, "month_focus": "June", "language": "English", "query": "Bahrain June 2026 demonstrations protests political arrests villages", "outcome": "Surfaced BCHR aggregate monthly count and broad later-period coverage; no individually dated June event identified."},
+    {"batch": 3, "month_focus": "June", "language": "Arabic", "query": "البحرين مظاهرات احتجاجات يونيو 2026 اعتقالات احتجاج سياسي", "outcome": "Results were mostly wrong-period or not event-specific; no individually dated June event identified in this result set."},
+    {"batch": 4, "month_focus": "May-June", "language": "English", "query": "\"With you, with you, O Scholars\" Bahrain demonstrations May June 2026", "outcome": "Surfaced ACLED's September 17 analysis linking a chant in Bahrain streets to the May 9 arrests; the passage does not date individual demonstrations."},
+    {"batch": 4, "month_focus": "May-June", "language": "Arabic", "query": "\"معك معك يا علماء\" البحرين مظاهرات مايو يونيو 2026", "outcome": "Did not surface an independently dateable event in the result set; not evidence of absence."},
+    {"batch": 4, "month_focus": "May", "language": "English", "query": "Bahrain demonstrations after May 9 2026 clerics arrests protest village", "outcome": "Surfaced the May 10 Al-Manar report of protests in several towns/cities, and a May 10 social-media result; exact locations and counts remain unclear."},
+    {"batch": 4, "month_focus": "May", "language": "Arabic", "query": "تظاهرات البحرين بعد اعتقال العلماء 9 مايو 2026 احتجاجات قرى", "outcome": "Surfaced Arabic-language May 10 reports of demonstrations, including Al-Manar."},
+    {"batch": 5, "month_focus": "May", "language": "English", "query": "Bahrain protest May 2026 Bahrain demonstration clerics May 10 2026 Shiite protests", "outcome": "Surfaced Arabic May 10 reporting and later ACLED analysis; no independent crowd or location count."},
+    {"batch": 5, "month_focus": "May", "language": "Arabic", "query": "البحرين مظاهرة مايو 2026 مسيرة احتجاج اعتقال علماء شيعة البحرين", "outcome": "Surfaced Al-Manar and social-media references to May 10 protests; direct independent corroboration is limited in this pass."},
+    {"batch": 5, "month_focus": "April", "language": "English", "query": "Bahrain protest April 2026 Bahrain village demonstrators April protest Iran war", "outcome": "No individually dated April demonstration surfaced; results include a March-origin crackdown context and a formal diplomatic protest."},
+    {"batch": 5, "month_focus": "April", "language": "Arabic", "query": "البحرين احتجاج مظاهرة أبريل 2026 قرية مظاهرات", "outcome": "No individually dated in-country April event surfaced in this result set; not evidence of absence."},
+    {"batch": 6, "month_focus": "April", "language": "English", "query": "Bahrain protest April 2026 Mohamed al-Mousawi demonstrations custody death April", "outcome": "Surfaced reporting on the March detention/death and funeral-related mobilization; no Q2 event date was established."},
+    {"batch": 6, "month_focus": "April", "language": "Arabic", "query": "البحرين احتجاجات أبريل 2026 محمد الموسوي مظاهرات اعتقالات", "outcome": "Surfaced April reporting about the death in custody; underlying detention and funeral-related action were in March and are outside the period."},
+    {"batch": 6, "month_focus": "June", "language": "English", "query": "Bahrain June 2026 protests demonstrations after clerics arrest Sitra", "outcome": "No individually dateable June event surfaced; BCHR gives a monthly total of four peaceful protests, and ACLED discusses a broader March-August trend."},
+    {"batch": 6, "month_focus": "June", "language": "Arabic", "query": "البحرين احتجاجات يونيو 2026 تظاهرات سترة اعتقال العلماء", "outcome": "No individually dateable June protest surfaced in this result set; not evidence of absence."}
+  ],
+  "monthly_findings": [
+    {
+      "month": "2026-04",
+      "individually_dateable_provisional_leads": [],
+      "aggregate_signal": {"value": 43, "unit": "peaceful protests", "source": "Bahrain Center for Human Rights (BCHR), first-half 2026 report", "caveat": "BCHR's monthly aggregate; no event dates, locations, or event-level source trail in the opened passage. Do not create 43 event records from this count."},
+      "search_assessment": "Several targeted English and Arabic queries plus follow-up searches did not identify an individually dateable April demonstration. This is a bounded search result, not evidence that none occurred.",
+      "context_only": ["AP and Los Angeles Times reporting on wartime arrest and dissent context, published April 3; the stories describe demonstrations in general but do not identify an April event.", "Bahrain's April 13 diplomatic note of protest to Iraq is a state-to-state act, not a public demonstration."]
+    },
+    {
+      "month": "2026-05",
+      "individually_dateable_provisional_leads": [
+        {
+          "lead_id": "BHR-2026-05-10-CLERICS-ARREST-PROTESTS",
+          "event_date": {"value": "2026-05-10 (provisional)", "basis": "Al-Manar report is dated May 10, 2026 and describes mobilizations in several Bahraini cities and towns responding to the arrest campaign launched May 9.", "uncertainty": "The article does not identify individual towns, exact start times, crowd sizes, or whether it summarizes more than one discrete gathering. Treat as a reported cluster, not as one verified event or one event per town."},
+          "location": "Several cities and towns in Bahrain; individual locations unresolved",
+          "action_summary": "Arabic-language Al-Manar reporting says demonstrations/mobilizations took place in several Bahraini cities and towns opposing arrests of Shiite religious scholars. Later ACLED analysis states that a pro-scholars chant had been heard in Bahrain's streets since the arrests; it does not supply dates for specific gatherings in the opened passage.",
+          "provisional_status": "lead; political outlet reporting and broad geography require independent event-level corroboration",
+          "source_variants_and_denials": [
+            "Bahrain Interior Ministry, as reported by Reuters on May 9, said it arrested 41 people linked to Iran's IRGC and associated investigations with sympathy for Iranian attacks; this is the government's stated rationale, not an independently verified description of the detainees.",
+            "ACLED's September 17 article also describes 41 arrested Shiite scholars/clerics and links subsequent demonstrations to those arrests.",
+            "ADHRB's June 8 page title refers to 53 clerics; Human Rights First's May 22 account says 41 arrested and at least 37 confirmed to be Shiite clerics. Counts/categories differ and are not resolved here.",
+            "No official denial specifically addressing the May 10 demonstrations was found in this pass."
+          ],
+          "sources": [
+            {
+              "url": "https://www.almanartv.com.lb/article/839397/",
+              "publisher": "Al-Manar TV; Arabic news article",
+              "publication_date": "2026-05-10 16:11 (page-displayed local time; timezone not specified)",
+              "accessed_utc": "2026-10-11T03:05:03Z to 2026-10-11T03:06:23Z; exact individual open time unavailable",
+              "excerpt": "شهد عدد من المدن والبلدات البحرينية تحركات رافضة لحملة الاعتقالات الأمنية",
+              "excerpt_note": "Exact Arabic excerpt, approximately 9 whitespace-separated words.",
+              "provenance": "Directly opened Al-Manar page, headline and timestamp shown; article says several Bahraini cities/towns saw mobilizations against the arrest campaign. Al-Manar is a Lebanese broadcaster with a clear political alignment; use as a lead and seek independent/local corroboration.",
+              "event_date_as_reported": "Not separately stated; report dated May 10 and says mobilizations occurred (likely same day, provisional)."
+            },
+            {
+              "url": "https://acleddata.com/expert-comment/why-are-bahrains-shiites-taking-streets-growing-numbers",
+              "publisher": "ACLED; expert commentary / analysis",
+              "publication_date": "2026-09-17 (search result metadata)",
+              "accessed_utc": "2026-10-11T03:05:03Z to 2026-10-11T03:06:23Z; exact individual open time unavailable",
+              "excerpt": "Since 9 May, when the Bahraini government arrested 41 Shiite scholars and clerics, the chant “With you, with you, O Scholars!” has rung through the streets of Bahrain",
+              "excerpt_note": "Exact shortened excerpt; 13 whitespace-delimited words.",
+              "provenance": "Directly opened ACLED expert commentary. Search metadata dates it September 17, 2026. It summarizes demonstrations from March-August and connects a chant in the streets to the May 9 arrests, but this passage does not provide date/location for each gathering.",
+              "event_date_as_reported": "Beginning after the May 9 arrest campaign; exact protest date(s) unspecified."
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/bahrain-says-it-has-arrested-41-people-linked-irans-irgc-2026-05-09/",
+              "publisher": "Reuters; reporting based on Bahrain state news agency and Interior Ministry statement",
+              "publication_date": "2026-05-09 09:38 UTC; updated same day",
+              "accessed_utc": "2026-10-11T03:05:03Z to 2026-10-11T03:06:23Z; exact individual open time unavailable",
+              "excerpt": "Bahrain’s interior ministry said on Saturday it had arrested 41 people it said were linked to Iran’s Revolutionary Guards",
+              "excerpt_note": "Exact excerpt; 17 whitespace-separated words.",
+              "provenance": "Directly opened Reuters article. It attributes the allegation to the Interior Ministry/state news agency and adds the ministry linked investigations to sympathy with Iranian attacks; it is a source on the trigger/official position, not a protest report.",
+              "event_date_as_reported": "Arrest announcement: 2026-05-09; protest date not reported."
+            },
+            {
+              "url": "https://www.humanrightsfirst.org/library/bahrains-rulers-return-to-2011-repression-methods-torture-in-custody-and-widespread-repression-resurface-in-latest-attacks-on-dissent",
+              "publisher": "Human Rights First; human-rights analysis",
+              "publication_date": "2026-05-22 (search result metadata)",
+              "accessed_utc": "2026-10-11T03:05:03Z to 2026-10-11T03:06:23Z; exact individual open time unavailable",
+              "excerpt": "security forces arrested 41 people, at least 37 of them now confirmed to be Shia clerics",
+              "excerpt_note": "Exact excerpt; 13 words.",
+              "provenance": "Directly opened page, which reports the arrests and the rights group's count/category; not an event-level demonstration source.",
+              "event_date_as_reported": "Arrests followed the May 9 campaign; no demonstration date in this excerpt."
+            }
+          ]
+        }
+      ],
+      "aggregate_signal": {"value": 23, "unit": "peaceful protests", "source": "BCHR, first-half 2026 report", "caveat": "Monthly aggregate only; no event-level information in the opened passage."}
+    },
+    {
+      "month": "2026-06",
+      "individually_dateable_provisional_leads": [],
+      "aggregate_signal": {"value": 4, "unit": "peaceful protests", "source": "BCHR, first-half 2026 report", "caveat": "Monthly aggregate only; not four validated event records."},
+      "context_signal": "ACLED's September 2026 analysis says demonstrations focused on Shiite issues occurred during March-August and were mainly in response to the March detention/death and the May 9 cleric arrests; no individually dateable June protest is specified in the opened passage.",
+      "search_assessment": "Targeted English and Arabic searches did not identify a specific June demonstration in this bounded pass. This is not evidence of absence."
+    }
+  ],
+  "additional_sources": [
+    {
+      "url": "https://bahrainrights.net/?p=137322",
+      "publisher": "Bahrain Center for Human Rights (BCHR), first-half 2026 summary",
+      "publication_date": "2026-07-04 (search-result metadata)",
+      "accessed_utc": "2026-10-11T03:05:03Z to 2026-10-11T03:06:23Z; exact individual open time unavailable",
+      "excerpt": "BCHR documented 260 peaceful protests between January and June 2026.",
+      "excerpt_note": "Exact excerpt; 9 words.",
+      "provenance": "Directly opened BCHR first-half report. It lists 43 protests in April, 23 in May, and 4 in June, alongside monthly arrest statistics. This is BCHR's own monitoring tally and methodology/event list was not validated in this pass.",
+      "event_date_as_reported": "Aggregate reporting period 2026-01 through 2026-06; no single event date."
+    },
+    {
+      "url": "https://apnews.com/article/iran-us-war-bahrain-protests-dissent-952f20a5bafd31d91b2a83454e8f9985",
+      "publisher": "Associated Press; by Sam Metz",
+      "publication_date": "2026-04-03 08:04:23 UTC (page timestamp)",
+      "accessed_utc": "2026-10-11T03:05:03Z to 2026-10-11T03:06:23Z; exact individual open time unavailable",
+      "excerpt": "Bahrain has arrested dozens of people throughout the war for filming strikes and demonstrations, expressing support for Iran",
+      "excerpt_note": "Exact excerpt; 15 words.",
+      "provenance": "Directly opened AP report. It provides March-origin war and crackdown context rather than a specifically dated Q2 demonstration. AP records that the government said al-Mousawi died of a heart attack and denied abuse and sectarian bias; rights groups and forensic review disputed that account.",
+      "event_date_as_reported": "No specific Q2 protest date identified in the opened story; story reports a broader ongoing period beginning in February/March."
+    },
+    {
+      "url": "https://www.latimes.com/world-nation/story/2026-04-03/gulf-kingdom-of-bahrain-cracks-down-on-dissent-as-iran-war-reignites-internal-unrest",
+      "publisher": "Los Angeles Times; article republished/syndicated reporting on Bahrain dissent",
+      "publication_date": "2026-04-03 (URL and search metadata)",
+      "accessed_utc": "2026-10-11T03:05:03Z to 2026-10-11T03:06:23Z; exact individual open time unavailable",
+      "excerpt": "Bahrain has arrested dozens of people throughout the war for filming strikes and demonstrations",
+      "excerpt_note": "Exact excerpt; 10 words.",
+      "provenance": "Directly opened LA Times article; it reports general arrest context and does not identify an April protest date in the passage opened.",
+      "event_date_as_reported": "No individually dateable event stated in the opened passage."
+    },
+    {
+      "url": "https://www.hrw.org/news/2026/05/03/bahrain-end-media-repression",
+      "publisher": "Human Rights Watch",
+      "publication_date": "2026-05-03 (page and search metadata)",
+      "accessed_utc": "2026-10-11T03:05:03Z to 2026-10-11T03:06:23Z; exact individual open time unavailable",
+      "excerpt": "On March 1, 2026, hours after Iranian state media confirmed the death of the country’s Supreme Leader",
+      "excerpt_note": "Exact excerpt; 15 words.",
+      "provenance": "Search result describes demonstrations; the cited street actions occurred March 1, not in Q2. HRW's May 3 publication date must not be mistaken for an event date.",
+      "event_date_as_reported": "2026-03-01 (outside Q2)"
+    },
+    {
+      "url": "https://www.reuters.com/world/middle-east/bahrain-summons-iraqi-charge-daffaires-over-drone-attacks-launched-iraq-2026-04-13/",
+      "publisher": "Reuters; official statement by Bahrain Foreign Ministry",
+      "publication_date": "2026-04-13 13:15 UTC; updated same day",
+      "accessed_utc": "2026-10-11T03:05:03Z to 2026-10-11T03:06:23Z; exact individual open time unavailable",
+      "excerpt": "Bahrain summoned Iraq's chargé d'affaires in Manama on Monday to protest against what it called ongoing drone attacks",
+      "excerpt_note": "Exact excerpt; 19 words.",
+      "provenance": "Directly opened Reuters report. Official Foreign Ministry action and statement; not a citizen demonstration or mass-mobilization event.",
+      "event_date_as_reported": "2026-04-13 (diplomatic action only; excluded from protest-event leads)"
+    },
+    {
+      "url": "https://apnews.com/article/cf45bbfce5bf24ca26ef6600930e722d",
+      "publisher": "Associated Press; by Sam Metz",
+      "publication_date": "2026-06-02 15:50:18 UTC (page timestamp)",
+      "accessed_utc": "2026-10-11T03:05:03Z to 2026-10-11T03:06:23Z; exact individual open time unavailable",
+      "excerpt": "Bahrain's government has denied any sectarianism, saying authorities have acted lawfully",
+      "excerpt_note": "Exact excerpt; 10 words.",
+      "provenance": "Directly opened AP report on a court ruling related to a March detention death. It records the government's denial of sectarianism/abuse allegations and rights-group criticism. This is context/official-denial evidence, not a June demonstration report.",
+      "event_date_as_reported": "Court sentence 2026-06-02; underlying detention/death is from March and not a Q2 demonstration."
+    }
+  ],
+  "excluded_or_deferred_results": [
+    {
+      "item": "Peaceful demonstrations mourning Ayatollah Ali Khamenei and protesting U.S.-Israeli attacks",
+      "source_url": "https://www.hrw.org/news/2026/05/03/bahrain-end-media-repression",
+      "reported_event_date": "2026-03-01",
+      "reason": "The source's publication date is May 3, but the described demonstrations occurred March 1, outside the Q2 event period."
+    },
+    {
+      "item": "Funeral-related mobilization connected to Mohamed al-Mousawi's March detention/death",
+      "source_urls": ["https://www.hrw.org/news/2026/04/12/bahrain-sayed-mohamed-almosawi-dies-in-custody", "https://apnews.com/article/616255b25e04cf34b041c751d48701f7"],
+      "reported_event_dates": ["detention 2026-03-19; death/body returned 2026-03-27; funeral late March"],
+      "reason": "April stories recount March events; no Q2 demonstration date was established."
+    },
+    {
+      "item": "Bahrain's formal diplomatic protest to Iraq about drone attacks",
+      "source_url": "https://www.reuters.com/world/middle-east/bahrain-summons-iraqi-charge-daffaires-over-drone-attacks-launched-iraq-2026-04-13/",
+      "reported_event_date": "2026-04-13",
+      "reason": "A government-to-government diplomatic protest, not a public demonstration."
+    },
+    {
+      "item": "Iran protests, demonstrations in Belgium/Tunisia/India, and older Bahrain protests (2011, 2017, 2021)",
+      "reason": "Wrong country or wrong year; excluded from Bahrain Q2 2026 event leads."
+    },
+    {
+      "item": "Iranian missile/drone strikes and Bahrain's state responses during Q2",
+      "reason": "Armed conflict and official security actions are not demonstrations; retained only as context where source claims are relevant."
+    }
+  ],
+  "failures_and_limits": [
+    {
+      "operation": "Arabic Al-Wefaq X post found in search results on May demonstrations",
+      "url": "https://x.com/ALWEFAQ/status/2053500348757692857",
+      "result": "Search result snippet says Bahrainis protested in Sitra on the previous Saturday against arrests of senior Shiite clerics; opening the reference failed in the web tool.",
+      "interpretation": "Unopened social-source lead; exact event date is not fixed here and it is not treated as independently verified."
+    },
+    {
+      "operation": "BCHR monthly protest tallies",
+      "result": "BCHR reports 43 peaceful protests in April, 23 in May, and 4 in June, but the opened source passage supplies no dated event list or per-event locations.",
+      "interpretation": "Useful aggregate signal only; event-level discovery and validation remain incomplete."
+    },
+    {
+      "operation": "April and June specific-event searches",
+      "result": "No individually dateable protest event was recovered from these bounded result sets; later ACLED material is trend-level rather than event-level.",
+      "interpretation": "Not demonstrated absence; restricted media access, Arabic indexing, source availability, and query coverage limit discovery."
+    },
+    {
+      "operation": "Protest and arrest totals across sources",
+      "result": "BCHR, ACLED, advocacy sources, and official statements use different time periods, categories, and counts. May arrest counts include official 41, ADHRB title 53 clerics, and Human Rights First's 41/at least 37 clerics formulation.",
+      "interpretation": "Do not reconcile figures without source-specific follow-up."
+    }
+  ],
+  "next_pass_priorities": [
+    "Seek BCHR's underlying April/May/June event list and original documentation for its monthly counts.",
+    "Find independent reporting on the May 10 demonstrations and identify locations, individual event dates, participant estimates, and official response.",
+    "Open or independently verify the Al-Wefaq Sitra post and resolve the relative date phrase 'previous Saturday'.",
+    "Search further Arabic-language local sources for individually dateable April and June gatherings; keep publication date distinct from event date.",
+    "Preserve official denials and source claims alongside rights-monitor and witness accounts rather than deciding between them in discovery staging."
+  ]
+}

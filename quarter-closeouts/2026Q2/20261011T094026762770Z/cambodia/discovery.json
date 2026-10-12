@@ -1,0 +1,79 @@
+{
+  "country": "Cambodia",
+  "country_slug": "cambodia",
+  "quarter": "2026Q2",
+  "period_start": "2026-04-01",
+  "period_end": "2026-06-30",
+  "status": "provisional public discovery; not canonical; no formal validation performed",
+  "search_logs": [
+    {
+      "query": "Cambodge grève manifestation avril 2026 protestation",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cambodia strike protest demonstration April 2026",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cambodge grève manifestation mai 2026 protestation",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cambodia strike protest demonstration May 2026",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cambodge grève manifestation juin 2026 protestation",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cambodia strike protest demonstration June 2026",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    }
+  ],
+  "events": [],
+  "excluded_or_unverified_leads": [
+    {
+      "lead": "April/June Cambodia “protests” concerning Thai military actions",
+      "reason": "Retrieved sources described Cambodian government diplomatic protests/statements about border conduct, not public demonstrations or strikes; no street action counted."
+    },
+    {
+      "lead": "Phnom Penh May Day labor rally result",
+      "reason": "Search returned a U.S. OSAC alert with “tomorrow Sunday, May 1” wording but unclear year/dated historical context; cannot establish a Q2 2026 event."
+    },
+    {
+      "lead": "Thailand 2025 protest over Cambodia border dispute",
+      "reason": "Physical event was in Bangkok, Thailand, and in 2025."
+    }
+  ],
+  "source_access_failures": [
+    {
+      "url": "https://www.osac.gov/Country/Cambodia/Content/Detail/Report/a0827d79-d2aa-46b8-bfa8-1e600ac86b9d",
+      "failure": "Open returned Internal Error; result’s unspecified year prevents confirming Q2 2026 relevance. No bypass attempted."
+    },
+    {
+      "url": "https://www.khmertimeskh.com/501923890/cambodia-protests-thailands-border-violations/",
+      "failure": "Open returned Internal Error; search snippet describes diplomatic protest, not a street demonstration."
+    }
+  ],
+  "method_notes": [
+    "Bounded search focused on strikes, public demonstrations, protests and rallies within the country in Apr-Jun 2026.",
+    "Local-language/French queries were used where feasible; Canada searched in English and French.",
+    "No-results wording does not claim absence. Planned actions, foreign-location protests, non-protest commemorations and diplomatic statements are not counted as public protest occurrences.",
+    "Publication and event dates are separate where established; uncertainty and provenance notes are explicit.",
+    "Quoted excerpts are bounded to fewer than 25 words per source.",
+    "This is a staging artifact only; scientific kit/schema integration remains pending."
+  ]
+}

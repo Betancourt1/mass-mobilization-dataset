@@ -1,0 +1,167 @@
+{
+  "country": "Indonesia",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "search_window_utc": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+    "targeted_queries": 8,
+    "coverage": "At least two targeted searches per month (English plus local-language terms where feasible), with focused follow-ups noted in search_history.",
+    "limitations": [
+      "Search engines returned stale material, wrong-year/location hits, and sometimes low-quality pages.",
+      "The web tool does not expose exact per-request UTC timestamps; the recorded UTC bracket comes from clock readings before and after this search/open sequence.",
+      "No finding in this pass does not establish that no protest or mobilization occurred."
+    ]
+  },
+  "search_history": [
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Indonesia protest demonstration strike workers April 2026 Indonesia labor social protests",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-04",
+      "language": "Arabic",
+      "query": "إندونيسيا احتجاج إضراب مظاهرات أبريل 2026 العمال",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Indonesia protest demonstration strike workers May 2026 Indonesia labor social protest",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "Indonesian",
+      "query": "Indonesia buruh demonstrasi May Day 2026 aksi buruh 1 Mei 2026",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Indonesia protest demonstration strike workers June 2026 Indonesia labor social protest",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "Indonesian",
+      "query": "Indonesia aksi demonstrasi protes pekerja Juni 2026 demonstrasi 12 Juni Indonesia",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Indonesia demonstrations June 12 2026 student protest Reuters Indonesia 2026 June",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "Indonesian",
+      "query": "site:tempo.co 2026 Juni demonstrasi protes Indonesia Juni 2026 mahasiswa",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "ID-2026-05-01-May-Day-rallies",
+      "month": "2026-05",
+      "event_type": "labor mobilization / rally",
+      "status": "reported event; provisional; corroboration desirable",
+      "actors": "Indonesian workers, students, civil society groups; Aceh Labour Alliance (ABA), unions",
+      "locations": [
+        "multi-city Indonesia",
+        "Aceh (convoy from Baiturrahman Grand Mosque past provincial legislature to governor's office)",
+        "Denpasar / Renon Square (May Day gathering)"
+      ],
+      "event_date": "2026-05-01",
+      "publication_date": "2026-05-29",
+      "sources": [
+        {
+          "title": "Thousands take to the streets across Indonesia on May Day",
+          "url": "https://red-spark.org/2026/05/29/thousands-take-to-the-streets-across-indonesia-on-may-day/",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "Hundreds of workers from the Aceh Labour Alliance (ABA) held a convoy on May 1",
+          "provenance": "Red Spark report by James Balowski; article credits Tempo English photo. Directly opened. Report describes multiple distinct union and government May Day events."
+        }
+      ],
+      "assessment": "The page explicitly reports May 1 rallies and gives a specific Aceh convoy and labor demands. Treat as a provisional lead; the publication is a left political outlet and postdates the event, so independently corroborate turnout and event details before coding.",
+      "uncertainty": "The account is secondary and uses collective/national language; exact participation by location is not fully established from the opened excerpt."
+    },
+    {
+      "id": "ID-2026-06-12-Jakarta-student-protest",
+      "month": "2026-06",
+      "event_type": "student demonstration",
+      "status": "reported event; provisional",
+      "actors": "University students, including University of Indonesia student body",
+      "locations": [
+        "Central Jakarta, Indonesia; other cities also reported"
+      ],
+      "event_date": "2026-06-12",
+      "publication_date": "2026-06-12",
+      "sources": [
+        {
+          "title": "Students in anti-Prabowo protests say Indonesia 'heading' for bankruptcy",
+          "url": "https://www.reuters.com/world/asia-pacific/students-hold-heading-bankrupt-indonesia-protests-against-prabowos-policies-2026-06-12/",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "Hundreds of Indonesian university students rallied in central Jakarta on Friday",
+          "provenance": "Reuters, direct public page search result; exact event date and city corroborated by page slug/publication."
+        },
+        {
+          "title": "Indonesian students protest government policies as economic pressures grow",
+          "url": "https://apnews.com/article/fc758948bc547075d62bcf80d8a7e827",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "About 1,500 protesters attempted to march toward the Hotel Indonesia traffic circle",
+          "provenance": "Associated Press; public result gives event date June 12, 2026, Jakarta, and protest demands."
+        }
+      ],
+      "assessment": "Strong provisional event lead corroborated by Reuters and AP. Students rallied over fuel and food prices and government spending; police redirected marchers from the Hotel Indonesia traffic circle.",
+      "uncertainty": "Search snippets report scale somewhat differently (hundreds rallying; about 1,500 attempted march). Keep those as source-specific claims."
+    },
+    {
+      "id": "ID-2026-06-26-Surabaya-photo-caption",
+      "month": "2026-06",
+      "event_type": "protest (caption-only contextual lead)",
+      "status": "not enough detail for event coding",
+      "actors": "not identified",
+      "locations": [
+        "Surabaya, East Java"
+      ],
+      "event_date": "2026-06-26",
+      "publication_date": "2026-07-21",
+      "sources": [
+        {
+          "title": "When the Indonesian Middle Class Takes to the Streets",
+          "url": "https://fulcrum.sg/article/commentaries/when-the-indonesian-middle-class-takes-to-the-streets/",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "Indonesians stage a protest against the government in Surabaya, Indonesia, on 26 June 2026.",
+          "provenance": "Fulcrum commentary image caption; article itself refers more generally to mid-June mass student protests."
+        }
+      ],
+      "assessment": "Record only as a lead for follow-up: the caption supplies date and location but no actors, demands, or action details. Do not code it as a complete event from caption alone.",
+      "uncertainty": "Caption alone may refer to the broader mid-June protest cycle; it is unclear whether it documents a separate action."
+    }
+  ],
+  "excluded_or_contextual_results": [
+    {
+      "title": "Presiden Prabowo Umumkan Serangkaian Kebijakan Perlindungan Pekerja pada May Day 2026",
+      "url": "https://www.kemnaker.go.id/news/detail/presiden-prabowo-umumkan-serangkaian-kebijakan-perlindungan-pekerja-pada-may-day-2026",
+      "reason": "Official May Day commemoration and policy announcement; not evidence of a protest."
+    },
+    {
+      "title": "Pimpinan DPR RI terima audiensi peserta unjuk rasa Hari Buruh",
+      "url": "https://emedia.dpr.go.id/news/2026/05/01/pimpinan-dpr-ri-terima-audiensi-peserta-unjuk-rasa-hari-buruh",
+      "reason": "Search snippet includes planned GEBRAK action and an audience with lawmakers; direct open failed to extract body, so plans and held action are not conflated."
+    }
+  ],
+  "no_findings_by_month": {
+    "2026-04": "No April event lead emerged from this bounded search pass; this is not evidence of absence.",
+    "2026-05": "May 1 labor rallies were reported; no additional May event was confirmed in this pass.",
+    "2026-06": "A well-sourced June 12 student demonstration was found; the June 26 photo-caption item is too thin for coding."
+  },
+  "failures_and_follow_up": [
+    "DPR official page returned an internal extraction error on open; search result was retained as a planned-action/limited-access lead only.",
+    "Arabic Indonesia queries were included for multilingual coverage but returned irrelevant material."
+  ]
+}

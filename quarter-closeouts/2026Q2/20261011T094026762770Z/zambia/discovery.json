@@ -1,0 +1,96 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Zambia",
+  "country_slug": "zambia",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass for publicly reported protests, demonstrations, and related collective actions. Planned actions are distinct from events that occurred. Empty/irrelevant search sets do not demonstrate absence.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:22:19Z",
+    "search_and_open_window_utc": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose request-level timestamps; this is the observed bounded query/open window."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "Zambia protest demonstration April 2026 Lusaka rally",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "Results included street-vendor protest posts but follow-up identified that these referred to September 2026, outside Q2."
+    },
+    {
+      "month_focus": "April",
+      "language": "Nyanja",
+      "query": "Zambia chiwonetsero maandamano April 2026 Lusaka protest",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No relevant local-language result; mixed-language query returned irrelevant pages."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "Zambia protest demonstration May 2026 Lusaka rally",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable protest surfaced; RightsCon cancellation is civic-space context, not a protest event."
+    },
+    {
+      "month_focus": "May",
+      "language": "Nyanja",
+      "query": "Zambia chiwonetsero maandamano May 2026 Lusaka",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No in-country protest surfaced in the relevant returned results."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "Zambia protest demonstration June 2026 Lusaka rally",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "Surfaced June 28 UPND election campaign rally; classified separately from protest activity."
+    },
+    {
+      "month_focus": "June",
+      "language": "Nyanja",
+      "query": "Zambia chiwonetsero maandamano June 2026 Lusaka",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable protest event surfaced; English search found only a campaign rally."
+    }
+  ],
+  "provisional_leads": [],
+  "excluded_or_deferred_results": [
+    {
+      "item": "Street-vendor protests in Lusaka against relocation from the CBD",
+      "source_urls": [
+        "https://www.facebook.com/lusakagazette/posts/trendingstreet-vendors-in-lusaka-have-refused-to-leave-the-cbd-protests-are-curr/1553087713500675/",
+        "https://thezambianpeoplespulse.news/article/17730005"
+      ],
+      "reported_event_date": "2026-09-29",
+      "reason": "Wrong period; current search results referred to September 29, 2026."
+    },
+    {
+      "item": "UPND campaign launch rally at National Heroes Stadium",
+      "source_urls": [
+        "https://www.sh.gov.zm/president-hichilema-launches-2026-presidential-campaign/",
+        "https://www.zambianobserver.com/in-picturesimages-from-the-official-launch-of-the-upnd-campaign-rally-at-heroes-stadium-in-lusaka/"
+      ],
+      "reported_event_date": "2026-06-28",
+      "reason": "This is a scheduled/held party electoral campaign rally, not a protest or oppositional demonstration; excluded from protest leads."
+    },
+    {
+      "item": "RightsCon 2026 cancellation/postponement in Lusaka",
+      "source_urls": [
+        "https://www.hrw.org/news/2026/05/01/zambia-summit-on-human-rights-technology-effectively-canceled",
+        "https://www.theguardian.com/global-development/2026/may/02/zambia-cancels-rightscon-summit-largest-human-rights-technology-conference"
+      ],
+      "reported_event_date": "2026-05-05 to 2026-05-08 scheduled; canceled before start",
+      "reason": "Civic-space controversy but no protest event identified in opened reporting."
+    }
+  ],
+  "failures_and_limits": [
+    "Nyanja query wording was not a reliable local-language search and did not return a useful source. English discovery pass found no clear Q2 protest lead; no-findings are not evidence of absence."
+  ],
+  "next_pass_priorities": [
+    "Verify whether announced actions occurred and search further local reporting before any event coding or completion claim."
+  ]
+}

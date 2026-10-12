@@ -1,0 +1,114 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Yemen",
+  "country_slug": "yemen",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass for publicly reported protests, demonstrations, and related collective actions. Planned actions are distinct from events that occurred. Empty/irrelevant search sets do not demonstrate absence.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:22:19Z",
+    "search_and_open_window_utc": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose request-level timestamps; this is the observed bounded query/open window."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "Yemen protest demonstration April 2026 Sana’a rally",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "Surfaced Al Jazeera Arabic reporting for April 10 mass demonstrations in Sana’a and other governorates."
+    },
+    {
+      "month_focus": "April",
+      "language": "Arabic",
+      "query": "اليمن احتجاج مظاهرة أبريل 2026 صنعاء",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "Surfaced Al Jazeera Arabic report describing rallies in Sanaa and north Yemen, plus separate protests in some government-controlled cities."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "Yemen protest demonstration May 2026 Sana’a rally",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No clearly dated May protest surfaced; results included old 2011/2014 Unity Day items."
+    },
+    {
+      "month_focus": "May",
+      "language": "Arabic",
+      "query": "اليمن احتجاج مظاهرة مايو 2026 صنعاء",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No clear public demonstration lead for May surfaced in the targeted result set."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "Yemen protest demonstration June 2026 Sana’a rally",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No clearly dated June protest surfaced; results mainly concerned war/conflict or unrelated topics."
+    },
+    {
+      "month_focus": "June",
+      "language": "Arabic",
+      "query": "اليمن احتجاج مظاهرة يونيو 2026 صنعاء",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No clearly dated June protest surfaced; result sets included historical protest reporting."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "lead_id": "YEM-2026-04-10-SANAA-ANTI-GREATER-ISRAEL",
+      "event_date": {
+        "value": "2026-04-10",
+        "uncertainty": "Crowd count is “thousands” across Sana’a and several governorates; event counts and exact locations beyond Sana’a are unspecified. Do not merge the separately noted government-area protests without follow-up."
+      },
+      "location": "Sana’a and multiple northern governorates under Houthi control, Yemen.",
+      "action_summary": "Thousands rallied following a Houthi leader’s call, opposing the “Greater Israel” plan and expressing support for Palestine and Lebanon; distinct demonstrations were also reported in some government-controlled cities.",
+      "provisional_status": "reported by Al Jazeera Arabic, drawing on correspondents and agencies",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.net/news/2026/4/10/تظاهرات-في-اليمن-رفضا-لمخطط-إسرائيل",
+          "publisher": "Al Jazeera Arabic",
+          "publication_date": "2026-04-10",
+          "accessed_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+          "excerpt": "وخرج الآلاف في العاصمة اليمنية صنعاء وعدد من المحافظات في شمال البلاد الواقعة تحت سيطرة جماعة أنصار الله",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "provenance": "Opened Arabic report, dated April 10. Identifies multiple cities, Houthi-organized Sana’a gathering, stated slogan, and separate protests in some government-controlled cities.",
+          "event_date_as_reported": "2026-04-10"
+        }
+      ]
+    }
+  ],
+  "excluded_or_deferred_results": [
+    {
+      "item": "CCTV Plus result referencing April 3 rallies in Sana’a and other areas",
+      "source_url": "https://www.facebook.com/NewsContent.CCTVPLUS/posts/large-scale-rallies-were-held-on-april-3-in-yemens-capital-of-sanaa-and-other-ar/1370465475118222/",
+      "reported_event_date": "search snippet says April 3, 2026; source open was throttled",
+      "reason": "Not opened; separate from the directly opened Al Jazeera April 10 report. Retained as an unverified search lead, not merged."
+    },
+    {
+      "item": "Historical protests and rallies in Yemen from 2011, 2014, 2016, 2017 and 2023",
+      "source_urls": [
+        "https://reliefweb.int/report/yemen/yemen-timeline-protests-11-march",
+        "https://www.alayyam.info/news/5WQXI987-JVWM76",
+        "https://www.adenprovince.net/NDetails.aspx?contid=16591"
+      ],
+      "reported_event_dates": "2011–2023",
+      "reason": "Wrong period."
+    },
+    {
+      "item": "Southern Transitional Council supporters in Aden",
+      "source_url": "https://apnews.com/article/2de533f8af3435e8a705baefc0456a78",
+      "reported_event_date": "2026-01-10",
+      "reason": "Outside Q2."
+    }
+  ],
+  "failures_and_limits": [
+    "The April 3 social-media-linked result could not be opened due fetch throttling. Search did not surface a clearly dateable May or June 2026 event; no absence inference."
+  ],
+  "next_pass_priorities": [
+    "Verify whether announced actions occurred and search further local reporting before any event coding or completion claim."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "country":"Belarus",
+  "period":{"start":"2026-04-01","end":"2026-06-30"},
+  "status":"provisional_public_source_discovery",
+  "capture_note":"Managed web search/open timestamps were not exposed per individual request; activity occurred approximately 2026-10-11 03:02–03:09 UTC.",
+  "queries":[
+    {"month":"2026-04","language":"English","query":"Belarus protest demonstration April 2026 opposition rally","result":"Mostly historical 2020 material; no individually dated in-country April 2026 protest event surfaced."},
+    {"month":"2026-04","language":"Russian","query":"Беларусь протесты демонстрация апрель 2026","result":"No current in-country street demonstration lead surfaced."},
+    {"month":"2026-05","language":"English","query":"Belarus protest demonstration May 2026 opposition rally workers","result":"No dateable in-country opposition or public protest event found in this bounded search."},
+    {"month":"2026-05","language":"Russian","query":"Беларусь протесты демонстрация май 2026 оппозиция","result":"Search returned historical and general material; no Q2 May event lead."},
+    {"month":"2026-06","language":"English","query":"Belarus protest demonstration June 2026 opposition rally protest","result":"EUAA June 2026 background on protest prosecutions; no contemporary Q2 street-event lead."},
+    {"month":"2026-06","language":"Russian","query":"Беларусь протесты демонстрация июнь 2026","result":"A foreign-located attack and Belarusian diplomatic protest note surfaced, not a public protest in Belarus."},
+    {"month":"2026-04–06","language":"English","query":"Belarus April May June 2026 protest demonstration Minsk 2026 opposition street","result":"No dateable in-country protest lead; AP report on April 9 detentions was a workplace raid, not a protest."},
+    {"month":"2026-04–06","language":"Russian","query":"Беларусь апрель май июнь 2026 протест митинг Минск демонстрация","result":"No in-country Q2 mass protest found in supplemental search."}
+  ],
+  "leads":[],
+  "context_sources":[
+    {"url":"https://www.euaa.europa.eu/belarus-political-opposition-and-dissent/42-protesters","publisher":"European Union Agency for Asylum","publication_date":"June 2026 per report title; exact section publication date not stated in accessible excerpt","accessed_utc":"2026-10-11T03:09:03Z (approximate open capture)","provenance":"Opened public country-of-origin section. Discusses prosecutions tied to 2020 mass protests and 2022 anti-war protests and continuation in 2024–2025; it does not establish that no 2026 events occurred.","excerpt":"The authorities continue to systematically punish participation in street protests."}
+  ],
+  "excluded_or_unresolved":[
+    {"item":"June 18 Belarusian MFA formal protest to Ukraine over a drone attack affecting a bus in Bryansk region, Russia","reason":"Not a street demonstration; underlying incident occurred outside Belarus and the diplomatic note is an official state protest, not public mobilization."},
+    {"item":"March 2026 Belarusian diaspora/Freedom Day rallies abroad","reason":"Outside the Q2 event window and located outside Belarus."},
+    {"item":"April 9 AP report of 52 detentions at a Minsk architecture firm","reason":"In-period event, but workplace search/detention rather than protest or demonstration."},
+    {"item":"2020 mass demonstrations and February 2022 anti-war demonstrations","reason":"Wrong event period; historical context only."}
+  ],
+  "no_findings_and_failures":[
+    {"period":"2026-04","note":"No individually dateable in-country April public protest emerged from targeted English and Russian searches; this does not demonstrate absence."},
+    {"period":"2026-05","note":"No individually dateable in-country May public protest emerged; this does not demonstrate absence."},
+    {"period":"2026-06","note":"No individually dateable in-country June public protest emerged; search did surface background reporting and an out-of-country diplomatic dispute."},
+    {"note":"Searches are bounded public-source discovery, not a census. The EUAA background report was opened and is contextual, not negative-event evidence."}
+  ],
+  "status_note":"Provisional discovery only; no canonical schema, formal validation, or completion claim."
+}

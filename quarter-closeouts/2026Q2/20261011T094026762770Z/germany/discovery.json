@@ -1,0 +1,106 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Germany",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "germany_2026-04",
+      "germany_2026-05",
+      "germany_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Germany; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Germany April 2026 protest demonstration march strike labor opposition church Deutschland διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:16 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Deutschland April 2026 protest demonstration march strike opposition / Germany April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:35 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Germany May 2026 protest demonstration march strike labor opposition church Deutschland διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:23 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Deutschland May 2026 protest demonstration march strike opposition / Germany May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:41 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Germany June 2026 protest demonstration march strike labor opposition church Deutschland διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:29 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Deutschland June 2026 protest demonstration march strike opposition / Germany June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:47 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "de-apr-energy-welt",
+      "url": "https://www.welt.de/regionales/berlin/article69e3803e7c6e5e236a26ae3c/tausende-protestieren-in-berlin-gegen-energiepolitik.html",
+      "outlet": "WELT / dpa",
+      "provenance": "German-language report by dpa carried by WELT.",
+      "publication_date": "2026-04-18",
+      "event_date": "2026-04-18",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Berlin, Germany",
+      "bounded_excerpt": "Hunderte Menschen protestieren in Berlin gegen die aktuelle Energiepolitik der Bundesregierung.",
+      "excerpt_word_count": 11,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Crowd estimates differed between police and organizers in the article."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "de-2026-04-energy-policy",
+      "month_unit": "2026-04",
+      "event_date": "2026-04-18",
+      "location": "Berlin, Germany",
+      "event_type_signal": "energy-policy protest",
+      "issue": "Opposition to federal government energy policy",
+      "sources": [
+        "de-apr-energy-welt"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Organizer and police crowd estimates differ."
+      ]
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

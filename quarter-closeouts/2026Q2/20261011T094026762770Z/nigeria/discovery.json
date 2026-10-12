@@ -1,0 +1,128 @@
+{
+  "country": "Nigeria",
+  "quarter": "2026Q2",
+  "status": "provisional public-source discovery; kit/schema/formal validation pending",
+  "searches": [
+    {
+      "access_utc": "2026-10-11 03:10:15..03:10:22 UTC",
+      "language": "English",
+      "query": "Nigeria protest demonstrations strike April 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:10:22..03:10:28 UTC",
+      "language": "English",
+      "query": "Nigeria protest demonstrations strikes April 2026 English",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:10:28..03:10:35 UTC",
+      "language": "English",
+      "query": "Nigeria protest demonstrations strike May 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:10:35..03:10:40 UTC",
+      "language": "English",
+      "query": "Nigeria protest demonstrations strikes May 2026 English",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:10:40..03:10:46 UTC",
+      "language": "English",
+      "query": "Nigeria protest demonstrations strike June 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:10:46..03:10:54 UTC",
+      "language": "English",
+      "query": "Nigeria protest demonstrations strikes June 2026 English",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    }
+  ],
+  "leads": [
+    {
+      "url": "https://punchng.com/may-day-nlc-plans-protests-against-states-not-paying-minimum-wage/",
+      "publisher": "Punch",
+      "publication_date": "2026-04-03",
+      "event_date": "2026-05-01 scheduled",
+      "event": "NLC planned May Day street processions against nonpayment of minimum wage; occurrence unconfirmed.",
+      "excerpt": "take to the streets of their respective state capitals",
+      "excerpt_word_count": 9,
+      "access_and_provenance": "Search result 2026-10-11 03:10:35-40; open failed 03:11:37-38; Nigerian news snippet only.",
+      "uncertainty": "Low-confidence; planned action, page inaccessible."
+    },
+    {
+      "url": "https://ng.usembassy.gov/security-alert-u-s-embassy-abuja-take-it-back-protests-june-3-2026/",
+      "publisher": "U.S. Embassy Abuja",
+      "publication_date": "2026-06-03 (URL/snippet)",
+      "event_date": "2026-06-04 scheduled",
+      "event": "Alert says Take It Back movement called Abuja protests for June4; occurrence unconfirmed.",
+      "excerpt": "has called for protests in Abuja tomorrow, Thursday, June 4",
+      "excerpt_word_count": 10,
+      "access_and_provenance": "Search result 2026-10-11 03:10:40-46; open failed 03:11:37-38; Official embassy alert search snippet only.",
+      "uncertainty": "Low-confidence; planned action, page inaccessible."
+    }
+  ],
+  "excluded_or_noisy_results": [
+    "Niger State results are Nigeria, but not the Republic of Niger; October 2026 events out of quarter."
+  ],
+  "access_failures": [
+    "Punch Apr3 and U.S. Embassy Abuja June3 pages returned internal error; snippets only.",
+    "Federal Ministry May Day article returned an internal error on open at 2026-10-11 03:16:30; its result does not corroborate the planned NLC minimum-wage protest."
+  ],
+  "note": "Bounded first discovery pass; no findings are not evidence of absence. Planned/scheduled events remain unconfirmed unless a source describes them retrospectively. Claims are attributed to sources; not for canonical integration.",
+  "follow_up_searches": [
+    {
+      "access_utc": "2026-10-11 03:15:02..03:15:09 UTC",
+      "query": "Nigeria May Day 2026 NLC protest march May 1 held",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    },
+    {
+      "access_utc": "2026-10-11 03:15:28..03:15:35 UTC",
+      "query": "NLC May Day protest May 1 2026 held Nigeria minimum wage protest",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    },
+    {
+      "access_utc": "2026-10-11 03:15:50..03:15:56 UTC",
+      "query": "Take It Back movement Abuja protest June 4 2026 rescue abducted schoolchildren news",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    }
+  ],
+  "follow_up_sources": [
+    {
+      "lead_index": 1,
+      "url": "https://www.premiumtimesng.com/news/headlines/885094-oyo-abduction-take-it-back-movement-protests-in-abuja.html",
+      "publisher": "Premium Times",
+      "publication_date": "2026-06-04",
+      "event_date": "2026-06-04",
+      "excerpt": "Protesters under the banner of the Take-It-Back Movement on Thursday marched through parts of Abuja",
+      "word_count": 13,
+      "access_utc": "2026-10-11 03:16:03-03:16:06 search listing; opened successfully 03:16:30, lines 222-267",
+      "provenance": "Premium Times reporter account with location, organizers, demands and security response.",
+      "uncertainty": "Directly confirms the previously planned June4 action occurred; demands reported as rescue of abducted pupils and teachers."
+    },
+    {
+      "lead_index": 0,
+      "url": "https://fmino.gov.ng/gov-uba-sani-celebrate-with-workers-in-may-day-2026-in-kaduna/",
+      "publisher": "Federal Ministry of Information and National Orientation",
+      "publication_date": "2026-05-01 (search listing)",
+      "event_date": "2026-05-01",
+      "excerpt": "thousands of dedicated men and women at the 2026 May Day celebration in Kaduna",
+      "word_count": 12,
+      "access_utc": "2026-10-11 03:15:02-03:15:09 search listing; open failed 03:16:30",
+      "provenance": "Government ministry search result about Kaduna May Day celebration, separate from NLC's announced protests against states not paying minimum wage.",
+      "uncertainty": "Does not verify that the planned NLC minimum-wage protest took place; keep that lead as unconfirmed."
+    }
+  ],
+  "follow_up_assessment": "Premium Times directly confirms the planned June4 Abuja protest was held. No follow-up evidence confirms the NLC planned May1 minimum-wage protest; an official Kaduna May Day celebration result does not establish that action."
+}

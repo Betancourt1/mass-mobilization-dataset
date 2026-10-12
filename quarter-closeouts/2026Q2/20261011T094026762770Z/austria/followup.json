@@ -1,0 +1,53 @@
+{
+  "country": "Austria",
+  "quarter": "2026Q2",
+  "artifact_type": "supplement to discovery.json, not duplicate events",
+  "observed_access_window_utc": [
+    "2026-10-11 03:14:59 UTC",
+    "2026-10-11 03:15:26 UTC"
+  ],
+  "queries": [
+    "Brenner Demonstration 30 Mai 2026 5000 site:orf.at",
+    "Brennerdemo 30. Mai 2026 Tirol Protest",
+    "Tausende protestieren Brenner Autobahn 30 Mai 2026"
+  ],
+  "sources": [
+    {
+      "id": "AT9",
+      "url": "https://www.reuters.com/world/austrian-protesters-shut-vital-motorway-connecting-germany-italy-2026-05-30/",
+      "title": "Austrian protesters shut vital motorway connecting Germany to Italy",
+      "publisher": "Reuters",
+      "opened": true,
+      "published_date": "2026-05-30",
+      "event_date": "2026-05-30",
+      "provenance": "Reuters reporting; crowd figure attributed via APA to mayor address",
+      "excerpt": "a crowd of around 3,000 protesters who gathered on the motorway at 1 p.m.",
+      "summary": "Direct report establishes May30 motorway protest near Matrei against transit traffic. Approximate3000 kept separately from earlier Welt search estimate4500–5000."
+    },
+    {
+      "id": "AT10",
+      "url": "https://www.tirol.gv.at/buergerservice/30-mai-2026-sperre-des-brennerkorridors/english/",
+      "title": "30 May 2026 Closure of the Brenner Corridor",
+      "publisher": "Land Tirol",
+      "opened": true,
+      "published_date": null,
+      "event_date": "2026-05-30",
+      "provenance": "regional-government prospective traffic closure notice",
+      "excerpt": "an officially notified assembly on the A 13 Brenner motorway near Matrei am Brenner",
+      "summary": "Supports planned date and location; actual occurrence supported by AT9."
+    }
+  ],
+  "resolved_gap": {
+    "original_lead": "Brenner motorway May30, AT5",
+    "resolution": "Date and occurrence now supported by direct accessible Reuters; source-specific crowd variants remain unresolved"
+  },
+  "new_planned_only_gap": {
+    "event_date": "2026-06-27",
+    "location": "Fernpass/Tyrol",
+    "url": "https://www.welt.de/regionales/baden-wuerttemberg/article69f38b326fe2dee7bfb0f162/weitere-alpenpass-sperre-wegen-demonstration.html",
+    "opened": false,
+    "provenance": "prospective search summary",
+    "occurrence": "not established"
+  },
+  "canonical_validation": false
+}

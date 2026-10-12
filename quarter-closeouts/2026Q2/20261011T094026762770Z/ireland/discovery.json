@@ -1,0 +1,141 @@
+{
+  "country": "Ireland",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "search_window_utc": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+    "targeted_queries": 7,
+    "coverage": "At least two targeted searches per month (English plus local-language terms where feasible), with focused follow-ups noted in search_history.",
+    "limitations": [
+      "Search engines returned stale material, wrong-year/location hits, and sometimes low-quality pages.",
+      "The web tool does not expose exact per-request UTC timestamps; the recorded UTC bracket comes from clock readings before and after this search/open sequence.",
+      "No finding in this pass does not establish that no protest or mobilization occurred."
+    ]
+  },
+  "search_history": [
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Ireland protest demonstration strike workers April 2026 social movement April 2026",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-04",
+      "language": "Irish",
+      "query": "Ireland agóidí stailc Aibreán 2026 cost of living fuel protest Ireland",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Ireland protest demonstration strike workers May 2026 social movement Ireland",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "Irish",
+      "query": "Ireland agóidí Bealtaine 2026 stailc cost of living protest Ireland May 2026",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Ireland protest demonstration strike workers June 2026 social movement Ireland",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "Irish",
+      "query": "Ireland agóidí Meitheamh 2026 stailc Éire protest June 2026",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Dublin May Day rally Garden of Remembrance 1 May 2026 march held",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "IE-2026-04-07-12-fuel-protests",
+      "month": "2026-04",
+      "event_type": "nationwide fuel-price demonstrations and blockades",
+      "status": "reported event; strong public reporting",
+      "actors": "Farmers, hauliers, agricultural contractors and other transport-dependent groups",
+      "locations": [
+        "Republic of Ireland: Dublin, Galway, Limerick, County Cork (Whitegate refinery), Foynes, and other towns/cities"
+      ],
+      "event_date": "2026-04-07 to 2026-04-12 (Reuters on Apr 8 describes second day; Guardian on Apr 12 sixth day)",
+      "publication_date": "2026-04-08 (Reuters); 2026-04-12 / first published 2026-04-12 (Guardian)",
+      "sources": [
+        {
+          "title": "Protests over high fuel costs clog Dublin, other Irish cities for second day",
+          "url": "https://www.reuters.com/world/protests-over-high-fuel-costs-clog-dublin-other-irish-cities-second-day-2026-04-08/",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "Tractors, trucks block Dublin city's main thoroughfare",
+          "provenance": "Reuters, public page opened; reports nationwide road blockades, fuel price demands and second consecutive day on Apr 8."
+        },
+        {
+          "title": "Irish police clear Dublin blockade staged by fuel price protesters",
+          "url": "https://www.theguardian.com/world/2026/apr/12/irish-police-clear-dublin-blockade-fuel-price-protesters-farmers-hauliers",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "six days of protests that have rocked Ireland",
+          "provenance": "Guardian public page opened; reports police clearance of Dublin/other blockades and groups/actions through Apr 12."
+        }
+      ],
+      "assessment": "Strongly documented, sustained protest episode over high fuel prices and cost-of-living, involving convoys and blockades. Provisional event lead with multiple public sources.",
+      "uncertainty": "Reported nationwide episode comprises multiple local actions; preserve local event granularity if later formal coding requires it."
+    },
+    {
+      "id": "IE-2026-05-01-May-Day-rally-planned",
+      "month": "2026-05",
+      "event_type": "trade-union rally and march",
+      "status": "scheduled by source; occurrence not confirmed in this pass",
+      "actors": "Irish Congress of Trade Unions; Dublin Council of Trade Unions; workers",
+      "locations": [
+        "Garden of Remembrance to Liberty Hall, Dublin"
+      ],
+      "event_date": "2026-05-01 evening (source says planned)",
+      "publication_date": "2026-05-01 10:54 update",
+      "sources": [
+        {
+          "title": "Unions to focus on cost-of-living supports on May Day",
+          "url": "https://www.rte.ie/news/ireland/2026/0501/1571151-unions-may-day/",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "will hold their annual May Day rally at the Garden of Remembrance",
+          "provenance": "RTÉ public search-result text identifies the union bodies, rally and march route; direct page open returned internal extraction error."
+        }
+      ],
+      "assessment": "Specific scheduled May Day rally and march, with affordability/housing theme. Keep separate from a confirmed held event until a report of occurrence is found.",
+      "uncertainty": "The source was accessed via search preview only; event outcome unverified."
+    }
+  ],
+  "excluded_or_contextual_results": [
+    {
+      "title": "2026 Irish fuel protests",
+      "url": "https://en.wikipedia.org/wiki/2026_Irish_fuel_protests",
+      "reason": "Search returned a detailed Wikipedia overview; used only to locate higher-quality Reuters/Guardian sources and not as event provenance."
+    },
+    {
+      "title": "Fuel-price protests cause chaos in Ireland and spread to Norway",
+      "url": "https://www.theguardian.com/world/2026/apr/10/fuel-price-protests-chaos-ireland-norway",
+      "reason": "Same April episode, not a distinct event; retained as search context but not duplicated as separate action."
+    },
+    {
+      "title": "Ireland fuel protest items dated October 2026",
+      "url": "https://www.reuters.com/world/northern-irish-police-contact-sinn-fein-members-over-investigation-into-parade-2026-10-08/",
+      "reason": "Wrong quarter; Northern Ireland's September/October parade dispute excluded."
+    }
+  ],
+  "no_findings_by_month": {
+    "2026-04": "Confirmed public reporting of fuel-price protests Apr 7–12 in Ireland.",
+    "2026-05": "A May 1 Dublin union rally was announced; no after-event confirmation found in this pass.",
+    "2026-06": "No June 2026 protest/strike lead emerged from two multilingual targeted searches; not evidence of absence."
+  },
+  "failures_and_follow_up": [
+    "RTÉ May Day article returned internal extraction error when opened; its search result provided the event plan, retained with snippet-only limitation.",
+    "Irish-language searches were attempted for all three months; results were limited/irrelevant, so English-language sources carry most evidence."
+  ]
+}

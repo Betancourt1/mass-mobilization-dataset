@@ -1,0 +1,107 @@
+{
+  "country": "Spain",
+  "period": "2026-04-01/2026-06-30",
+  "status": "provisional_public_source_discovery",
+  "searches": [
+    {
+      "query": "Spain protest demonstration April 2026 Madrid",
+      "searched_utc": "approx. 2026-10-11T03:16:41Z/2026-10-11T03:16:47Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "query": "España protesta manifestación abril 2026 Madrid",
+      "searched_utc": "approx. 2026-10-11T03:16:48Z/2026-10-11T03:16:51Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "query": "Spain protest demonstration May 2026 Madrid",
+      "searched_utc": "approx. 2026-10-11T03:16:52Z/2026-10-11T03:16:58Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "query": "España protesta manifestación mayo 2026 Madrid",
+      "searched_utc": "approx. 2026-10-11T03:16:59Z/2026-10-11T03:17:02Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "query": "Spain protest demonstration June 2026 Madrid",
+      "searched_utc": "approx. 2026-10-11T03:17:03Z/2026-10-11T03:17:07Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "query": "España protesta manifestación junio 2026 Madrid",
+      "searched_utc": "approx. 2026-10-11T03:17:08Z/2026-10-11T03:17:13Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    }
+  ],
+  "opened_sources": [
+    {
+      "url": "https://elpais.com/espana/2026-04-18/la-ultima-manifestacion-contra-marlaska-revela-el-agotamiento-de-las-protestas-policiales.html",
+      "publisher": "El País",
+      "page_date": "2026-04-18",
+      "event_date": "2026-04-18",
+      "location": "Madrid, Spain",
+      "finding": "Police and Civil Guard union demonstration over pay and working conditions. Delegation estimate was 4,500 while organizers claimed more than 15,000; retain the disagreement rather than selecting a single figure.",
+      "excerpt": "La manifestación de policías y guardias civiles ha reunido a 4.500 manifestantes en el centro de Madrid",
+      "excerpt_words": 17,
+      "opened_utc": "approx. 2026-10-11T03:17:15Z/2026-10-11T03:17:16Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "url": "https://efe.com/espana/2026-04-25/varios-cientos-personas-gritan-no-guerra-centro-madrid-2/",
+      "publisher": "Agencia EFE",
+      "page_date": "2026-04-25",
+      "event_date": "2026-04-25",
+      "location": "Madrid, Spain (and announced actions in other Spanish localities)",
+      "finding": "Opened report documents several hundred people gathered in Callao for peace in the Middle East and Gaza; it says similar mobilizations were called in more than 200 Spanish localities.",
+      "excerpt": "varios cientos de personas se han concentrado este sábado en la madrileña plaza de Callao",
+      "excerpt_words": 15,
+      "opened_utc": "approx. 2026-10-11T03:18:54Z/2026-10-11T03:18:55Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "url": "https://www.europapress.es/madrid/noticia-cerca-3000-personas-salen-calle-madrid-mayo-exigir-mejores-salarios-vivienda-democracia-20260501134048.html",
+      "publisher": "Europa Press",
+      "page_date": "2026-05-01 (updated 14:55)",
+      "event_date": "2026-05-01",
+      "location": "Madrid, Spain",
+      "finding": "Opened report documents the May Day march from Gran Vía/Clavel to Plaza de España; report estimates nearly 3,000 participants.",
+      "excerpt": "Cerca de 3.000 personas han salido este viernes 1 de Mayo",
+      "excerpt_words": 10,
+      "opened_utc": "approx. 2026-10-11T03:18:54Z/2026-10-11T03:18:55Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    }
+  ],
+  "provisional_leads": [
+    {
+      "url": "https://efe.com/espana/2026-05-23/marcha-madrid-para-pedir-dimision-sanchez/",
+      "publisher": "Agencia EFE",
+      "page_date": "2026-05-23",
+      "event_date": "2026-05-23",
+      "location": "Madrid, Spain",
+      "finding": "Search result describes a march seeking Prime Minister Sánchez's resignation; it gives materially different crowd estimates (about 40,000 by authorities and 120,000 by organizers). Direct open was attempted but returned no usable article body, so this remains a search-result-only lead.",
+      "excerpt": "Decenas de miles de personas han pedido este sábado en Madrid la dimisión",
+      "excerpt_words": 12,
+      "access": "open attempt did not yield article body; search result only",
+      "opened_utc": "approx. 2026-10-11T03:18:54Z/2026-10-11T03:18:56Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    },
+    {
+      "url": "https://www.los40.com/2026/05/28/convocan-una-manifestacion-en-madrid-contra-la-caza-este-sabado-30-de-mayo/",
+      "publisher": "Los 40",
+      "page_date": "2026-05-28",
+      "event_date": "2026-05-30 (announced)",
+      "location": "Madrid, Spain",
+      "finding": "Announcement of an anti-hunting march; no opened post-event report located, so occurrence is unverified and not counted as confirmed.",
+      "excerpt": "manifestación en Madrid contra la caza este sábado 30 de mayo",
+      "excerpt_words": 10,
+      "access": "search-result lead; no direct page open",
+      "opened_utc": "approx. 2026-10-11T03:17:03Z/2026-10-11T03:17:07Z (session-clock reconstruction; web tool omitted per-call timestamp)"
+    }
+  ],
+  "exclusions": [
+    {
+      "item": "Madrid July Pride march (July 4)",
+      "reason": "A June-published guide surfaced, but the Madrid date is outside the April-June 2026 window."
+    },
+    {
+      "item": "April 19 pro-Cuba demonstration metadata",
+      "reason": "Search surfaced an image-agency item only; weaker than opened corroborated reporting and not needed to establish April leads."
+    },
+    {
+      "item": "October demonstrations",
+      "reason": "Outside requested period."
+    }
+  ],
+  "limitations": "This is a bounded discovery pass, not an exhaustive census. Confirmed examples are not a complete event list; absence of a June lead in these queries is not evidence that no events occurred. Crowd estimates and unverified scheduled events remain source-qualified. UTC timestamps for searches/opens marked approximate are reconstructed from session chronology because the tool omitted per-call timestamps."
+}

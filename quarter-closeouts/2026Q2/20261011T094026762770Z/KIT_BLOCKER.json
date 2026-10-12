@@ -1,0 +1,35 @@
+{
+  "quarter": "2026Q2",
+  "library_file_id": "libfile_6072f6fb6c588191ac95da53ee9abff0",
+  "file_name": "mass-mobilization-cloud-starter-20261011.zip",
+  "expected_sha256": "2d57963bbeb49deff1e8f2b9acde914039d544cfed4d013bb6fbeb6389433810",
+  "route": "Library resolved-reference prepare_materialize and bundled transfer helper",
+  "attempts": [
+    {
+      "destination": "/workspace/quarter-staging/2026Q2/kit-download/mass-mobilization-cloud-starter-20261011.zip",
+      "prepare_materialize_returned": "signed transfer; workspace_path null",
+      "helper_exit_code": 1,
+      "exact_error": "library file transfer failed: download failed",
+      "local_file_exists_after_attempt": false
+    },
+    {
+      "destination": "/workspace/quarter-staging/2026Q2/kit-download-retry/mass-mobilization-cloud-starter-20261011.zip",
+      "prepare_materialize_returned": "signed transfer; workspace_path null",
+      "helper_exit_code": 1,
+      "exact_error": "library file transfer failed: download failed",
+      "local_file_exists_after_attempt": false
+    }
+  ],
+  "authorized_retry_exhausted": true,
+  "underlying_failure_cause": "not exposed by helper; not inferred",
+  "network_permissions_changed": false,
+  "checksum_verified": false,
+  "manifest_verified": false,
+  "README_read": false,
+  "CLOUD_WORKFLOW_read": false,
+  "verify_kit_executed": false,
+  "init_quarter_executed": false,
+  "canonical_validated_units": 0,
+  "independent_public_discovery_continues": false,
+  "bounded_public_discovery_pass_finished": true
+}

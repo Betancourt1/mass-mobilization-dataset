@@ -1,0 +1,150 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Georgia",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "georgia_2026-04",
+      "georgia_2026-05",
+      "georgia_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Georgia; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Georgia April 2026 protest demonstration march strike labor opposition church საქართველო διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:16 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "საქართველო April 2026 protest demonstration march strike opposition / Georgia April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:35 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Georgia May 2026 protest demonstration march strike labor opposition church საქართველო διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:23 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "საქართველო May 2026 protest demonstration march strike opposition / Georgia May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:41 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Georgia June 2026 protest demonstration march strike labor opposition church საქართველო διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:29 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "საქართველო June 2026 protest demonstration march strike opposition / Georgia June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:47 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "ge-apr-500days-jam",
+      "url": "https://jam-news.net/georgia-protests-500-days-of-continuous-demonstrations/",
+      "outlet": "JAMnews",
+      "provenance": "Regional independent news article with explicit date and protest context.",
+      "publication_date": "2026-04-11",
+      "event_date": "2026-04-11",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Tbilisi, Georgia",
+      "bounded_excerpt": "The “500 Days of Resistance” march, held on 11 April 2026, marked the 500th consecutive day of pro-European protests in Georgia.",
+      "excerpt_word_count": 21,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened"
+    },
+    {
+      "source_id": "ge-may-eu-euronews",
+      "url": "https://www.euronews.com/2026/05/27/thousands-in-georgia-rally-for-eu-membership-as-country-marks-35th-independence-anniversar",
+      "outlet": "Euronews",
+      "provenance": "International news report published the day after the Independence Day event.",
+      "publication_date": "2026-05-27",
+      "event_date": "2026-05-26",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Central Tbilisi, Georgia",
+      "bounded_excerpt": "Waving Georgian and EU flags, thousands of protesters marched through central Tbilisi before staging a rally outside parliament",
+      "excerpt_word_count": 18,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Event date identified from May 26 national Independence Day coverage."
+      ]
+    },
+    {
+      "source_id": "ge-may-civilge",
+      "url": "https://civil.ge/archives/735927",
+      "outlet": "Civil Georgia",
+      "provenance": "Independent Georgian news service; headline and report describe opposition protest march.",
+      "publication_date": "2026-05-27",
+      "event_date": "2026-05-26",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Tbilisi, Georgia",
+      "bounded_excerpt": "Independence Day Protest March Draws High Turnout as Opposition Alliance Announces “Georgia Deserves Better” Campaign",
+      "excerpt_word_count": 15,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Publication date is next day; report describes event amid Independence Day celebrations."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "ge-2026-04-500-days",
+      "month_unit": "2026-04",
+      "event_date": "2026-04-11",
+      "location": "Tbilisi, Georgia",
+      "event_type_signal": "pro-European opposition march",
+      "issue": "Continued opposition to government direction and support for Georgia’s European path",
+      "sources": [
+        "ge-apr-500days-jam"
+      ],
+      "status": "provisional; not a canonical record"
+    },
+    {
+      "candidate_id": "ge-2026-05-independence-protest",
+      "month_unit": "2026-05",
+      "event_date": "2026-05-26",
+      "location": "Tbilisi, Georgia",
+      "event_type_signal": "opposition march and rally",
+      "issue": "EU membership and political opposition",
+      "sources": [
+        "ge-may-eu-euronews",
+        "ge-may-civilge"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Event took place alongside Independence Day celebrations; sources characterize it as a protest rally."
+      ]
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

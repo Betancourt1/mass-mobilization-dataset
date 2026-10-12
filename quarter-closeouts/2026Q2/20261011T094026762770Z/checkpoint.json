@@ -1,0 +1,135 @@
+{
+  "quarter": "2026Q2",
+  "state": "STOPPED_FOR_EXECUTOR_REPLACEMENT",
+  "phase": "BOUNDED_PUBLIC_DISCOVERY_PASS_FINISHED",
+  "research_authorization_received": true,
+  "source_discovery_started": true,
+  "evidence_complete": false,
+  "formal_validation": false,
+  "official_database_writes": false,
+  "requested_models": {
+    "coordinator": "gpt-6.1-sol/medium",
+    "researchers": "gpt-6-luna/high",
+    "coordinator_runtime_verified": true,
+    "verification_basis": "parent reports Chrome confirmed GPT-6.1 Sol Medio; no independent runtime introspection"
+  },
+  "candidate_batch": {
+    "countries": [
+      "Afghanistan",
+      "Albania",
+      "Algeria",
+      "Angola"
+    ],
+    "months": [
+      "2026-04",
+      "2026-05",
+      "2026-06"
+    ],
+    "unit_count": 12,
+    "eligibility": "confirmed by owner: audited supplied handoff is current inventory",
+    "ownership": "exclusive 2026Q2 partition; one researcher per country"
+  },
+  "scope": {
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "country_count_supplied": 160,
+    "remaining_firstpass_units_supplied": 480,
+    "fixed_cutoff": "2026-10-07",
+    "cutoff_timezone": "America/Mexico_City"
+  },
+  "local_repository_check": {
+    "toplevel": "/workspace/mass-mobilization-dataset",
+    "origin": "https://github.com/Betancourt1/mass-mobilization-dataset.git",
+    "exact_online_environment_association_verified": false,
+    "available_files": [
+      "README.md",
+      "PROGRESS_INDEX.json"
+    ],
+    "verification_limit": "Local repository identity only; exact online association is separately reported as confirmed by parent Chrome coordinator, without independent runtime introspection."
+  },
+  "blockers": [
+    "Library kit byte transfer failed on initial attempt and sole authorized retry; canonical integration/validation unavailable"
+  ],
+  "researchers_launched": 6,
+  "coordinator_initial_queries": 4,
+  "first_effective_query_utc": "2026-10-11 03:02:17 UTC",
+  "kit_materialization": {
+    "library_file_id": "libfile_6072f6fb6c588191ac95da53ee9abff0",
+    "file_name": "mass-mobilization-cloud-starter-20261011.zip",
+    "expected_sha256": "2d57963bbeb49deff1e8f2b9acde914039d544cfed4d013bb6fbeb6389433810",
+    "attempts": 2,
+    "error": "library file transfer failed: download failed",
+    "local_file_exists": false,
+    "checksum_verified": false,
+    "manifest_verified": false,
+    "verify_kit_executed": false,
+    "init_quarter_executed": false
+  },
+  "online_environment_association": {
+    "status": "confirmed by parent Chrome coordinator",
+    "repository": "mass-mobilization-dataset",
+    "local_repository_identity_verified": true
+  },
+  "researcher_workers": 6,
+  "scientific_firstpass_units_completed": 0,
+  "updated_at_utc": "2026-10-11T03:32:51.658583+00:00",
+  "provisional_country_packages_staged": 160,
+  "country_month_scope_represented_in_staging": 480,
+  "batches_with_all_four_country_artifacts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "public_discovery_allowed": false,
+  "canonical_integration_available": false,
+  "automatic_resume": false,
+  "active_researchers": 0,
+  "public_discovery_pass_finished": true,
+  "canonical_validated_units": 0,
+  "scientific_firstpass_units_remaining": 480,
+  "mechanical_checks": {
+    "discovery_files": 160,
+    "report_files": 160,
+    "json_parse_errors": 0,
+    "scientific_acceptance": false
+  },
+  "research_active": false,
+  "replacement_checkpoint": "/workspace/quarter-staging/2026Q2/EXECUTOR_REPLACEMENT_CHECKPOINT.json"
+}

@@ -1,0 +1,76 @@
+{
+  "country": "Bhutan",
+  "country_slug": "bhutan",
+  "quarter": "2026Q2",
+  "period_start": "2026-04-01",
+  "period_end": "2026-06-30",
+  "status": "provisional public discovery; not canonical; no formal validation performed",
+  "search_logs": [
+    {
+      "query": "འབྲུག་ ངོ་རྒོལ་ ཟླ་ ༤ ༢༠༢༦",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bhutan strike protest demonstration April 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "འབྲུག་ ངོ་རྒོལ་ ཟླ་ ༥ ༢༠༢༦",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bhutan strike protest demonstration May 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "འབྲུག་ ངོ་རྒོལ་ ཟླ་ ༦ ༢༠༢༦",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Bhutan strike protest demonstration June 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Khengjang Molcham rally protest Bhutan May 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    }
+  ],
+  "events": [],
+  "excluded_or_unverified_leads": [
+    {
+      "lead": "April protest in Assam",
+      "reason": "Physical event was in India, across the Bhutan border; excluded by in-country requirement."
+    },
+    {
+      "lead": "May Khengjang/Molcham rally snippet",
+      "reason": "Facebook result location/content ambiguous; page open returned an internal error, so no event accepted."
+    }
+  ],
+  "source_access_failures": [
+    {
+      "url": "https://www.facebook.com/",
+      "failure": "Open returned Internal Error for the May rally result; not retried or bypassed."
+    }
+  ],
+  "method_notes": [
+    "Bounded search focused on strikes, demonstrations, protests, rallies and mobilizations within the country during Apr-Jun 2026.",
+    "A search-result absence is not evidence that no events occurred. Unconfirmed plans and wrong-country locations are not counted as events.",
+    "Publication date and event date are recorded separately where established; uncertainties are explicit.",
+    "Quoted excerpts are kept short (each under 25 words).",
+    "This is a staging artifact only; the scientific kit was unavailable for canonical workflow/schema review."
+  ]
+}

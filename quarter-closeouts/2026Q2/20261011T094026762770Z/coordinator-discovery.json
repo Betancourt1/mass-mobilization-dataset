@@ -1,0 +1,46 @@
+{
+  "artifact_type": "provisional discovery log, not canonical records",
+  "queried_at_utc": "2026-10-11 03:02:17 UTC",
+  "tool": "web.run search_query",
+  "queries": [
+    "Afghanistan protest demonstration April May June 2026 women Kabul",
+    "Albania protest demonstration April May June 2026 Tirana",
+    "Algeria protest demonstration April May June 2026",
+    "Angola protest demonstration April May June 2026 Luanda"
+  ],
+  "leads_not_yet_verified_by_coordinator": [
+    {
+      "country": "Afghanistan",
+      "event_date_reported_in_search_result": "2026-06-09",
+      "location": "Herat",
+      "topic": "Protest following arrests of women for dress code violations",
+      "urls": [
+        "https://apnews.com/article/17ca4f9cf803a7d83f021203d309637a",
+        "https://www.theguardian.com/global-development/2026/jun/10/two-killed-in-rare-street-demonstration-over-womens-rights-in-afghanistan",
+        "https://monitor.civicus.org/explore/afghanistan-ongoing-repression-of-the-press-and-activists-as-peaceful-protest-in-herat-disrupted-with-excessive-force/"
+      ],
+      "uncertainties": ["Participant and casualty figures differ; preserve attributed variants"]
+    },
+    {
+      "country": "Albania",
+      "event_date_reported_in_search_result": "2026-04-17",
+      "occurrence": "planned only; confirmation needed",
+      "url": "https://al.usembassy.gov/demonstration-alert-u-s-embassy-tirana-albania-friday-april-17-2026-at-1900/"
+    },
+    {
+      "country": "Albania",
+      "event_date_reported_in_search_result": "2026-06-03",
+      "location": "Tirana",
+      "topic": "Protests against coastal resort development",
+      "url": "https://www.reuters.com/world/albanians-protest-over-kushner-linked-luxury-resort-pristine-coastline-2026-06-03/",
+      "additional_lead": "Movement reportedly began May 30; occurrence dates need separate corroboration"
+    }
+  ],
+  "initial_search_limits": {
+    "Algeria": "Mostly historical Hirak results; June2026 subscriber profile is not proof of a current protest",
+    "Angola": "Mostly 2023-2025 events and retrospective reporting; no Q2 event established by these initial results",
+    "no_findings_is_not_absence": true
+  },
+  "no_original_evidence_migrated": true,
+  "no_formal_validation": true
+}

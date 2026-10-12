@@ -1,0 +1,76 @@
+{
+  "country": "Botswana",
+  "country_slug": "botswana",
+  "quarter": "2026Q2",
+  "period_start": "2026-04-01",
+  "period_end": "2026-06-30",
+  "status": "provisional public discovery; not canonical; no formal validation performed",
+  "search_logs": [
+    {
+      "query": "Botswana boipelaetso strike demonstration April 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Botswana protest strike demonstration April 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Botswana boipelaetso strike demonstration May 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Botswana protest strike demonstration May 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Botswana boipelaetso strike demonstration June 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Botswana protest strike demonstration June 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    }
+  ],
+  "events": [
+    {
+      "id": "botswana-2026-04-01-student-protest",
+      "event_date": "2026-04-01",
+      "event_date_precision": "day",
+      "country": "Botswana",
+      "location": "Office of the President, Gaborone",
+      "title": "Students protest commuter fare increases",
+      "publication_date": "2026-04-03",
+      "source_url": "https://www.mmegi.bw/news/students-revolt-against-udc-govt/news",
+      "source_type": "Mmegi Botswana news report",
+      "excerpt": "Students staged a protest at the Office of the President on Wednesday.",
+      "excerpt_word_count": 12,
+      "notes": "Report published April 3 and dates protest to April 1; local physical event in Botswana."
+    }
+  ],
+  "excluded_or_unverified_leads": [
+    {
+      "lead": "June 30 anti-migrant demonstrations",
+      "reason": "Reports concern events in South Africa; Botswana alert addressed citizens there."
+    }
+  ],
+  "source_access_failures": [],
+  "method_notes": [
+    "Bounded search focused on strikes, demonstrations, protests, rallies and mobilizations within the country during Apr-Jun 2026.",
+    "A search-result absence is not evidence that no events occurred. Unconfirmed plans and wrong-country locations are not counted as events.",
+    "Publication date and event date are recorded separately where established; uncertainties are explicit.",
+    "Quoted excerpts are kept short (each under 25 words).",
+    "This is a staging artifact only; the scientific kit was unavailable for canonical workflow/schema review."
+  ]
+}

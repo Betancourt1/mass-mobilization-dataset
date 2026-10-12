@@ -1,0 +1,5 @@
+# Taiwan — Q2 2026 provisional discovery
+
+The pass found an April 18 cannabis-decriminalization rally outside Taiwan’s Legislative Yuan in Taipei (reported by New Bloom), a May 23 central Taipei rally supporting increased defense spending after lawmakers reduced the proposed supplementary budget (Reuters), and a June 4 annual candlelight vigil in Taipei commemorating the Tiananmen crackdown (Focus Taiwan/CNA and Taipei Times search results, around 500 attendees per organizers). The last two sources were visible in managed search results but not separately opened, so that lead is less fully verified. June 4 was a historical commemoration, but the gathering itself was in-period and in Taiwan.
+
+July 25 food-safety rally results were excluded as wrong-period; other June 4 ceremonies abroad were excluded as foreign-located. Exact English/Traditional Chinese queries, provenance, page/event dates, short excerpts, and access limitations are recorded in `discovery.json`. No-findings is limited to this search; no canonical schema or formal validation applied.

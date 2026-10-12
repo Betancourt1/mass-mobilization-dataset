@@ -1,0 +1,139 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Uruguay",
+  "country_slug": "uruguay",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass on reported demonstrations and collective actions. Empty searches do not demonstrate absence. Planned actions are distinguished from verified event occurrence.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:20:02Z",
+    "search_and_open_window_utc": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose request-level timestamps; window records the observed bounded session."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "Spanish",
+      "query": "Uruguay protesta manifestación abril 2026 Montevideo",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable April Q2 event surfaced; results included March 8 International Women’s Day gatherings (outside period)."
+    },
+    {
+      "month_focus": "April",
+      "language": "Spanish",
+      "query": "protesta Uruguay abril 2026 marcha Montevideo 2026",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "No clearly dated April in-country protest in targeted results; no-findings do not establish absence."
+    },
+    {
+      "month_focus": "May",
+      "language": "Spanish",
+      "query": "Uruguay protesta manifestación mayo 2026 Montevideo",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced May 20 Marcha del Silencio in Montevideo."
+    },
+    {
+      "month_focus": "May",
+      "language": "Spanish",
+      "query": "protesta Uruguay mayo 2026 marcha Montevideo 2026",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced official Montevideo traffic notice and national presidency account of May 20 march."
+    },
+    {
+      "month_focus": "June",
+      "language": "Spanish",
+      "query": "Uruguay protesta manifestación junio 2026 Montevideo",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced June 3 Ni Una Menos mobilization in Montevideo."
+    },
+    {
+      "month_focus": "June",
+      "language": "Spanish",
+      "query": "Uruguay 3 junio 2026 marcha Ni Una Menos Montevideo protesta",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced local outlet account of event and an additional planned event in Paysandú."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "lead_id": "URY-2026-05-20-MARCHA-DEL-SILENCIO",
+      "event_date": {
+        "value": "2026-05-20",
+        "uncertainty": ""
+      },
+      "location": "Montevideo, Uruguay; from Jackson and Rivera to Plaza Libertad; other cities also reported.",
+      "action_summary": "Annual silent march demanded memory, truth and justice for dictatorship-era disappeared people.",
+      "provisional_status": "reported by Uruguayan government and Montevideo municipal portal",
+      "sources": [
+        {
+          "url": "https://www.gub.uy/presidencia/comunicacion/noticias/marcha-silencio-2026",
+          "publisher": "Presidencia de Uruguay",
+          "publication_date": "2026-05-20",
+          "accessed_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+          "excerpt": "miles de personas caminaron en silencio por memoria, verdad y justicia",
+          "provenance": "Opened official Presidency page; says thousands walked on May 20, gives route and names/photographs of disappeared.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "event_date_as_reported": "2026-05-20"
+        },
+        {
+          "url": "https://montevideo.gub.uy/noticias/cambios-en-el-transito-y-el-transporte-por-marcha-del-silencio-2026",
+          "publisher": "Intendencia de Montevideo",
+          "publication_date": "2026-05-19; updated 2026-05-20",
+          "accessed_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+          "excerpt": "La 31ª Marcha del Silencio se realizará el miércoles 20 de mayo.",
+          "provenance": "Official logistics notice published May 19, updated May 20, sets route and time; corroborates date/location.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "event_date_as_reported": "2026-05-20"
+        }
+      ]
+    },
+    {
+      "lead_id": "URY-2026-06-03-NI-UNA-MENOS-MONTEVIDEO",
+      "event_date": {
+        "value": "2026-06-03",
+        "uncertainty": "Reported turnout in title is “dozens”; article details are partly behind account access."
+      },
+      "location": "Plaza Libertad, Montevideo, Uruguay.",
+      "action_summary": "Dozens of women mobilized under Ni Una Menos against gender-based violence.",
+      "provisional_status": "reported by local outlet; page partially metered after lead",
+      "sources": [
+        {
+          "url": "https://ladiaria.com.uy/feminismos/articulo/2026/6/ni-una-menos-decenas-de-mujeres-se-movilizaron-en-montevideo-contra-todas-las-violencias/",
+          "publisher": "la diaria",
+          "publication_date": "2026-06-03",
+          "accessed_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+          "excerpt": "En Uruguay, este miércoles, la plaza Libertad –en Montevideo– volvió a ser el…",
+          "provenance": "Opened article; title reports dozens mobilized, text dates publication/event context June 3 and identifies Plaza Libertad. Article has metered continuation.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "event_date_as_reported": "2026-06-03"
+        }
+      ]
+    }
+  ],
+  "excluded_or_deferred_results": [
+    {
+      "item": "International Women’s Day / 8M march in Montevideo",
+      "source_urls": [
+        "https://municipiog.montevideo.gub.uy/d%C3%ADa-internacional-de-la-mujer-2026",
+        "https://flacso.edu.uy/marcha-8m-2026/"
+      ],
+      "reported_event_date": "2026-03-08",
+      "reason": "Outside Q2 period."
+    },
+    {
+      "item": "Ni Una Menos activity at Plaza Ramírez in Paysandú",
+      "source_url": "https://www.lapiramide.net/noticias/2026/06/01/345064-a-11-anos-del-primer-ni-una-menos-convocan-a-una-marcha-en-plaza-ramirez",
+      "reported_event_date": "planned 2026-06-03",
+      "reason": "Located outside Montevideo; potentially in scope as Uruguay-wide but retained for follow-up rather than merged with Montevideo lead."
+    }
+  ],
+  "failures_and_limits": [
+    "Only one local outlet opened for the June 3 event, and the rest of that article requires account access."
+  ],
+  "next_pass_priorities": [
+    "Follow up on announced actions lacking outcome reporting and expand searches for local/national outlets before formal coding."
+  ]
+}

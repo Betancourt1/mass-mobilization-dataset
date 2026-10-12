@@ -1,0 +1,125 @@
+{
+  "country": "Lithuania",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "search_window_utc": "2026-10-11 03:18:29–03:21:01 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+    "targeted_queries": 10,
+    "coverage": "At least two month-specific English/local-language queries per month where local query was feasible, plus focused follow-ups; public search results and relevant accessible pages reviewed.",
+    "limitations": [
+      "This pass is bounded, and no-hit results do not imply no event occurred.",
+      "Search results occasionally surfaced wrong-year or neighboring-country items; these were excluded explicitly.",
+      "Search index snippets are flagged as such and are not treated as equivalent to opened articles."
+    ]
+  },
+  "search_history": [
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Lithuania protests demonstration strike April 2026 Vilnius",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "Lithuanian",
+      "query": "Lietuva protestas demonstracija streikas 2026 balandis",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Lithuania protests demonstration strike May 2026 Vilnius",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "Lithuanian",
+      "query": "Lietuva protestas demonstracija streikas 2026 gegužė",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Lithuania protests demonstration strike June 2026 Vilnius",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "Lithuanian",
+      "query": "Lietuva protestas demonstracija streikas 2026 birželis",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Lithuania protest April 25 2026 Vilnius public broadcaster LRT demonstration",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "Lithuanian",
+      "query": "LRT protestas balandžio 25 2026 Vilnius",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Lithuania protest May 2026 Vilnius demonstration strike",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Lithuania protest June 2026 Vilnius demonstration strike",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "LT-2026-04-25-Vilnius-free-speech-rally",
+      "month": "2026-04",
+      "event_type": "civic protest defending freedom of speech/public broadcaster independence",
+      "status": "reported held",
+      "actors": "Cultural Assembly / civic demonstrators",
+      "locations": [
+        "Cathedral Square, Vilnius"
+      ],
+      "event_date": "2026-04-25",
+      "publication_date": "2026-04-25",
+      "sources": [
+        {
+          "title": "“We will not give up”: 30,000 pack Vilnius square in defence of public broadcaster",
+          "url": "https://www.lrt.lt/en/news-in-english/19/2909100/we-will-not-give-up-30-000-pack-vilnius-square-in-defence-of-public-broadcaster",
+          "accessed_utc_bracket": "2026-10-11 03:18:29 UTC–2026-10-11 03:20:00 UTC",
+          "excerpt": "Around 30,000 people gathered in Cathedral Square in Vilnius on Saturday",
+          "provenance": "LRT English public broadcaster news article, directly opened; by LRT staff and BNS, dated April 25."
+        },
+        {
+          "title": "What is happening in Lithuania?",
+          "url": "https://kulturosasambleja.lt/info-in-english",
+          "accessed_utc_bracket": "2026-10-11 03:18:29 UTC–2026-10-11 03:20:00 UTC",
+          "excerpt": "approximately 25,000 people gather in Cathedral Square",
+          "provenance": "Organizer platform, search result snippet; event page also dates action April 25 and describes demands. Crowd estimates differ."
+        }
+      ],
+      "assessment": "Strongly documented large demonstration; sources give different attendance estimates, so preserve attribution rather than harmonize.",
+      "uncertainty": "LRT reports approximately 30,000 while organizer page reports approximately 25,000."
+    }
+  ],
+  "excluded_or_unverified": [
+    {
+      "item": "An October 3, 2026 immigration protest in Vilnius appeared in search",
+      "url": "https://www.15min.lt/naujiena/aktualu/lietuva/vilniuje-rengiami-trys-protestai-del-migracijos-politikos-56-2776908",
+      "reason": "Wrong quarter; excluded."
+    },
+    {
+      "item": "December 2025 broadcaster protest appeared in search",
+      "url": "https://www.baltictimes.com/around_8_000_protest_in_vilnius_against_new_ruling_coalition/",
+      "reason": "Wrong year; excluded."
+    }
+  ],
+  "assessment": "April 25 large civic protest defending public media and free speech is directly reported. No confidently dated May or June demonstrations were found in this pass.",
+  "limitations_note": "Crowd estimates differ between LRT and organizer page; no assumption is made about continued actions after April.",
+  "access_failures": []
+}

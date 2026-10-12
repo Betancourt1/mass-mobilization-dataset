@@ -1,0 +1,124 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Dominican Republic",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "dominican-republic_2026-04",
+      "dominican-republic_2026-05",
+      "dominican-republic_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Dominican Republic; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Dominican Republic April 2026 protest demonstration march strike labor opposition church República Dominicana protesta manifestación marcha huelga",
+        "searched_at_utc": "2026-10-11 03:13:05 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "República Dominicana April 2026 protestas huelga manifestación oposición trabajo / Dominican Republic April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:13:25 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Dominican Republic May 2026 protest demonstration march strike labor opposition church República Dominicana protesta manifestación marcha huelga",
+        "searched_at_utc": "2026-10-11 03:13:11 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "República Dominicana May 2026 protestas huelga manifestación oposición trabajo / Dominican Republic May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:13:32 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Dominican Republic June 2026 protest demonstration march strike labor opposition church República Dominicana protesta manifestación marcha huelga",
+        "searched_at_utc": "2026-10-11 03:13:17 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "República Dominicana June 2026 protestas huelga manifestación oposición trabajo / Dominican Republic June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:13:38 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "do-san-juan-reuters",
+      "url": "https://www.reuters.com/world/dominican-republic-president-halts-goldquest-mining-project-after-protests-2026-05-05/",
+      "outlet": "Reuters",
+      "provenance": "Reuters wire report; article says Sunday May 3; public protest over mining and water concerns.",
+      "publication_date": "2026-05-05",
+      "event_date": "2026-05-03",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "San Juan province and Sabaneta Dam, Dominican Republic",
+      "bounded_excerpt": "Thousands of people took to the streets to protest on Sunday, walking about 20 kilometers through San Juan to reach the Sabaneta Dam",
+      "excerpt_word_count": 23,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Event date is May 3, inferred from the article’s May 4 dateline and Sunday reference."
+      ]
+    },
+    {
+      "source_id": "do-san-juan-civicus",
+      "url": "https://monitor.civicus.org/explore/protests-met-with-excessive-force-new-penal-code-reform-retains-restrictions-on-civic-freedoms/",
+      "outlet": "CIVICUS Monitor",
+      "provenance": "CIVICUS Monitor public-assembly update; cross-links contemporaneous local and international coverage.",
+      "publication_date": "2026-08-19",
+      "event_date": "2026-05-03",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "San Juan province, Dominican Republic",
+      "bounded_excerpt": "On 3rd May 2026, thousands of residents and members of environmental, community and professional organisations marched about 20 kilometres through San Juan province",
+      "excerpt_word_count": 23,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Post-quarter publication; event date explicitly stated."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "do-2026-05-san-juan-mining-water",
+      "month_unit": "2026-05",
+      "event_date": "2026-05-03",
+      "location": "San Juan province, Dominican Republic",
+      "event_type_signal": "environmental/community protest march",
+      "issue": "Opposition to proposed Romero gold and copper project over water and agricultural risks",
+      "sources": [
+        "do-san-juan-reuters",
+        "do-san-juan-civicus"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Reported confrontations, detentions, and use of tear gas are described in CIVICUS, while Reuters focuses on the march and protest. Counts and responsibility claims are attributed."
+      ]
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

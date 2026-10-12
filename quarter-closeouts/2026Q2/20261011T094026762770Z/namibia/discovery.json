@@ -1,0 +1,98 @@
+{
+  "country": "Namibia",
+  "quarter": "2026Q2",
+  "status": "provisional public-source discovery; kit/schema/formal validation pending",
+  "searches": [
+    {
+      "access_utc": "2026-10-11 03:09:35..03:09:41 UTC",
+      "language": "English",
+      "query": "Namibia protest demonstrations strike April 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:41..03:09:45 UTC",
+      "language": "Afrikaans",
+      "query": "Namibia betoging protes staking April 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:45..03:09:49 UTC",
+      "language": "English",
+      "query": "Namibia protest demonstrations strike May 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:49..03:09:58 UTC",
+      "language": "Afrikaans",
+      "query": "Namibia betoging protes staking May 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:09:58..03:10:05 UTC",
+      "language": "English",
+      "query": "Namibia protest demonstrations strike June 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:10:05..03:10:09 UTC",
+      "language": "Afrikaans",
+      "query": "Namibia betoging protes staking Junie 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    }
+  ],
+  "leads": [
+    {
+      "url": "https://www.facebook.com/namibiansun/videos/pay-us-now-members-of-the-namibia-national-students-organisation-nanso-in-kavang/995858536575217/",
+      "publisher": "Namibian Sun Facebook search listing",
+      "publication_date": "not visible",
+      "event_date": "2026-06-05 scheduled",
+      "event": "Search snippet says NANSO called students and citizens to protest at Government Park over unpaid fees; not confirmed held.",
+      "excerpt": "join a protest at Government Park on Friday, 5 June 2026",
+      "excerpt_word_count": 11,
+      "access_and_provenance": "2026-10-11 03:09:58-03:10:09 search snippet only; not opened; Local media social post listing.",
+      "uncertainty": "Low-confidence lead; verify event and page date."
+    }
+  ],
+  "excluded_or_noisy_results": [
+    "Kenya protests of 2024 excluded."
+  ],
+  "access_failures": [
+    "Both NBC Digital News Threads pages returned not accessible by this tool at 2026-10-11 03:15:43-03:15:44; occurrence evidence remains search listing snippets."
+  ],
+  "note": "Bounded first discovery pass; no findings are not evidence of absence. Planned/scheduled events remain unconfirmed unless a source describes them retrospectively. Claims are attributed to sources; not for canonical integration.",
+  "follow_up_searches": [
+    {
+      "access_utc": "2026-10-11 03:14:55..03:14:58 UTC",
+      "query": "Namibia NANSO protest Government Park 5 June 2026 unpaid fees",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    },
+    {
+      "access_utc": "2026-10-11 03:15:17..03:15:23 UTC",
+      "query": "Namibia NANSO Government Park protest June 5 2026",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    }
+  ],
+  "follow_up_sources": [
+    {
+      "lead_index": 0,
+      "url": "https://www.threads.com/@nbcdigitalnews/post/DZNBfuQANzT/video-students-trainees-and-concerned-citizens-gathered-at-government-park-in/",
+      "publisher": "NBC Digital News",
+      "publication_date": "2026-06-05 (listing timestamp 05:03 AM)",
+      "event_date": "2026-06-05",
+      "excerpt": "students, trainees, and concerned citizens gathered at Government Park",
+      "word_count": 8,
+      "access_utc": "2026-10-11 03:15:17-03:15:23 search listing; open failed 03:15:43-03:15:44",
+      "provenance": "National broadcaster's Threads listing reports attendance at Windhoek Government Park; separate Nampa/Namibian Sun search results refer to the planned protest.",
+      "uncertainty": "Event reported held, but source platform page could not be opened in this tool; date/location/lead stronger than original scheduled snippet, still snippet-level."
+    }
+  ],
+  "follow_up_assessment": "NBC Digital News Threads search listings report that people gathered at Government Park June5; pages failed to open. This upgrades the earlier scheduled lead to a snippet-level reported occurrence, still requiring source access/corroboration."
+}
