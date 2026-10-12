@@ -1,0 +1,66 @@
+[
+  {
+    "gap_id": "CYP07G001",
+    "type": "coverage",
+    "description": "Open-web searches in English and Greek covered month/week and labor, fire, public-gatherings, municipal and transport terms; this is not a systematic LexisNexis archive search. Several local leads remain search-only.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "A later reviewer may search other local and union archives; no completeness claim."
+  },
+  {
+    "gap_id": "CYP07G002",
+    "type": "threshold",
+    "description": "July10 public-gatherings protest is opened and occurred, but no attendance count or qualitative threshold estimate is reported.",
+    "source_ids": [
+      "CYP07S005"
+    ],
+    "affected_candidates": [
+      "CYP07E004"
+    ],
+    "required_followup": "Find a contemporaneous source that counts simultaneous participants, if available."
+  },
+  {
+    "gap_id": "CYP07G003",
+    "type": "state_target",
+    "description": "Larnaca bus workers assembled, but the evidence mainly directs their demand to a private operator; ministry confirmation of a violation alone does not prove a government-directed demand.",
+    "source_ids": [
+      "CYP07S003",
+      "CYP07S004"
+    ],
+    "affected_candidates": [
+      "CYP07E003"
+    ],
+    "required_followup": "Search for an explicit protest demand on a Cyprus authority/policy."
+  },
+  {
+    "gap_id": "CYP07G004",
+    "type": "continuity",
+    "description": "Limassol wildfire rally was followed by a distinct Aug4 Nicosia rally on the same issue; relationship/campaign continuity is not resolved.",
+    "source_ids": [
+      "CYP07S002"
+    ],
+    "affected_candidates": [
+      "CYP07E002"
+    ],
+    "required_followup": "Compare organizers and campaign linkage from contemporary records without assuming merger."
+  },
+  {
+    "gap_id": "CYP07G005",
+    "type": "end_date",
+    "description": "Opened event reports generally do not establish an exact closing time; event end dates remain unknown where not directly stated.",
+    "source_ids": [
+      "CYP07S001",
+      "CYP07S002",
+      "CYP07S003",
+      "CYP07S004",
+      "CYP07S005"
+    ],
+    "affected_candidates": [
+      "CYP07E001",
+      "CYP07E002",
+      "CYP07E003",
+      "CYP07E004"
+    ],
+    "required_followup": "Use direct event reporting only; do not default end_date to publication/month end."
+  }
+]

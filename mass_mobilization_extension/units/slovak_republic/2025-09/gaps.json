@@ -1,0 +1,69 @@
+[
+  {
+    "gap_id": "SVK25-09-G001",
+    "type": "threshold",
+    "description": "Sep11 rally confirmed but size unknown; Poprad is mentioned without details.",
+    "source_ids": [
+      "SVK25-09-S005"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2025-09_E001"
+    ],
+    "required_followup": "Find local attendance evidence and organizer/link for Poprad."
+  },
+  {
+    "gap_id": "SVK25-09-G002",
+    "type": "episode_boundary",
+    "description": "Sep16 and Sep23 share opposition organizers/demands but are distinct dates a week apart; Sep11 is a separate organizing group.",
+    "source_ids": [
+      "SVK25-09-S002",
+      "SVK25-09-S005",
+      "SVK25-09-S006",
+      "SVK25-09-S007"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2025-09_E001",
+      "slovak_republic_2025-09_E002",
+      "slovak_republic_2025-09_E003"
+    ],
+    "required_followup": "Review whether these rallies are separate episode-days versus campaign continuity; no merger assumed."
+  },
+  {
+    "gap_id": "SVK25-09-G003",
+    "type": "state_response",
+    "description": "Sep30 coalition deputy speaker said changes were possible; no concession or outcome tied to protest is documented.",
+    "source_ids": [
+      "SVK25-09-S004"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2025-09_E004"
+    ],
+    "required_followup": "Only follow up if a source documents a concrete response tied to rally."
+  },
+  {
+    "gap_id": "SVK25-09-G004",
+    "type": "access_limit",
+    "description": "Bratislavak exact target returned HTTP 403; Aktuality exact target returned tool Internal Error without HTTP status. AP results remained search-only under known holds.",
+    "source_ids": [
+      "SVK25-09-S001",
+      "SVK25-09-S003",
+      "SVK25-09-S008",
+      "SVK25-09-S009",
+      "SVK25-09-S010"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2025-09_E001",
+      "slovak_republic_2025-09_E002",
+      "slovak_republic_2025-09_E003"
+    ],
+    "required_followup": "No retry or alternate AP route; unrelated sources can proceed only after fresh exact assessment/receipt."
+  },
+  {
+    "gap_id": "SVK25-09-G005",
+    "type": "search_coverage",
+    "description": "Four English/Slovak searches and exact-date follow-up are bounded open-web work, not LexisNexis or exhaustive local archive coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Additional local/regional archive search if available; do not infer zero events."
+  }
+]

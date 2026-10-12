@@ -1,0 +1,82 @@
+[
+  {
+    "gap_id": "thailand_2025-07_G001",
+    "type": "search_scope",
+    "description": "Three queries covered generic English discovery, generic Thai discovery and one Udon Thani follow-up. They do not reproduce Lexis-Nexis or cover all provinces, outlets, weeks or sectors.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If capacity permits, search additional regional Thai media and labor/environment/education groups in sub-month windows; do not claim exhaustiveness."
+  },
+  {
+    "gap_id": "thailand_2025-07_G002",
+    "type": "threshold",
+    "description": "Most July actions in the opened report lack per-site simultaneous headcounts; its monthly total of 24 assemblies is not allocated to each event.",
+    "source_ids": [
+      "thailand_2025-07_S001"
+    ],
+    "affected_candidates": [
+      "thailand_2025-07_E003",
+      "thailand_2025-07_E004",
+      "thailand_2025-07_E005",
+      "thailand_2025-07_E006",
+      "thailand_2025-07_E007",
+      "thailand_2025-07_E008",
+      "thailand_2025-07_E009",
+      "thailand_2025-07_E010",
+      "thailand_2025-07_E011",
+      "thailand_2025-07_E012",
+      "thailand_2025-07_E014"
+    ],
+    "required_followup": "Find contemporaneous event-specific turnout; do not use campaign totals, police numbers or turnout from another day/site."
+  },
+  {
+    "gap_id": "thailand_2025-07_G003",
+    "type": "location",
+    "description": "Udon Thani source identifies village/district/province but not the precise 14 July public gathering site.",
+    "source_ids": [
+      "thailand_2025-07_S001"
+    ],
+    "affected_candidates": [
+      "thailand_2025-07_E001"
+    ],
+    "required_followup": "Seek a local source naming site and addressee; do not assume the 5 June consultation venue was used on 14 July."
+  },
+  {
+    "gap_id": "thailand_2025-07_G004",
+    "type": "state_target",
+    "description": "Kamphaeng Phet assembly is described as anger about an MP's posts on provincial spending, but no state action or remedy is reported.",
+    "source_ids": [
+      "thailand_2025-07_S001"
+    ],
+    "affected_candidates": [
+      "thailand_2025-07_E002"
+    ],
+    "required_followup": "Clarify whether there was a specific demand directed to the provincial/national state or only a grievance about an individual."
+  },
+  {
+    "gap_id": "thailand_2025-07_G005",
+    "type": "state_response",
+    "description": "Violence, arrests, dispersal, accommodation and other responses are generally unknown in opened scopes.",
+    "source_ids": [
+      "thailand_2025-07_S001"
+    ],
+    "affected_candidates": [
+      "thailand_2025-07_E001",
+      "thailand_2025-07_E002",
+      "thailand_2025-07_E003",
+      "thailand_2025-07_E004",
+      "thailand_2025-07_E005",
+      "thailand_2025-07_E006",
+      "thailand_2025-07_E007",
+      "thailand_2025-07_E008",
+      "thailand_2025-07_E009",
+      "thailand_2025-07_E010",
+      "thailand_2025-07_E011",
+      "thailand_2025-07_E012",
+      "thailand_2025-07_E013",
+      "thailand_2025-07_E014",
+      "thailand_2025-07_E015"
+    ],
+    "required_followup": "Seek explicit follow-up reporting; silence remains unknown."
+  }
+]

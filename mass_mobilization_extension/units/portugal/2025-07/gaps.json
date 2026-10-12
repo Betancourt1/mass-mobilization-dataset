@@ -1,0 +1,72 @@
+[
+  {
+    "gap_id": "PRT25-07-G001",
+    "type": "coverage",
+    "description": "15 English/Portuguese queries; weekly and sector search, not LexisNexis/exhaustive.",
+    "source_ids": [
+      "PRT25-07-S001",
+      "PRT25-07-S008"
+    ],
+    "affected_candidates": [
+      "PRT25-07-E001",
+      "PRT25-07-E002",
+      "PRT25-07-E003",
+      "PRT25-07-E004",
+      "PRT25-07-E005",
+      "PRT25-07-E006"
+    ],
+    "required_followup": "Human review/broader regionals."
+  },
+  {
+    "gap_id": "PRT25-07-G002",
+    "type": "date_ownership",
+    "description": "Housing story date ambiguous; RTP reports Jun28 and no July continuation.",
+    "source_ids": [
+      "PRT25-07-S001",
+      "PRT25-07-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No assignment absent event-date proof."
+  },
+  {
+    "gap_id": "PRT25-07-G003",
+    "type": "threshold",
+    "description": "Melides lacks date/count; housing no site-level size.",
+    "source_ids": [
+      "PRT25-07-S001",
+      "PRT25-07-S003"
+    ],
+    "affected_candidates": [
+      "PRT25-07-E006"
+    ],
+    "required_followup": "Find event date/site turnout/state ask."
+  },
+  {
+    "gap_id": "PRT25-07-G004",
+    "type": "provenance",
+    "description": "S009 quarantined; S001 clock correction; native times unknown.",
+    "source_ids": [
+      "PRT25-07-S001",
+      "PRT25-07-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retry; metadata review only."
+  },
+  {
+    "gap_id": "PRT25-07-G005",
+    "type": "response",
+    "description": "End times, independent counts and responses unknown.",
+    "source_ids": [
+      "PRT25-07-S002",
+      "PRT25-07-S008"
+    ],
+    "affected_candidates": [
+      "PRT25-07-E001",
+      "PRT25-07-E002",
+      "PRT25-07-E003",
+      "PRT25-07-E004",
+      "PRT25-07-E005"
+    ],
+    "required_followup": "Preserve unknown/review."
+  }
+]

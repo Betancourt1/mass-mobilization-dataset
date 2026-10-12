@@ -1,0 +1,48 @@
+[
+  {
+    "gap_id": "cambodia-2025-08-G001",
+    "type": "state_target",
+    "description": "The Aug 10 peace walk clearly exceeded 50 but its ceasefire demand addresses Cambodia and Thailand together; explicit release demand addresses Thai authorities. Own-state target unresolved.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "cambodia_2025-08_E001"
+    ],
+    "required_followup": "Review full event context for an explicit demand to the Cambodian state."
+  },
+  {
+    "gap_id": "cambodia-2025-08-G002",
+    "type": "state_target",
+    "description": "Chouk Cheay villagers confronted Thai troops over a fence on disputed land; no Cambodian-state demand established.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "cambodia_2025-08_E002"
+    ],
+    "required_followup": "Check for contemporaneous reporting of demands to Cambodian authorities; resolve whether wire removal constitutes protester violence."
+  },
+  {
+    "gap_id": "cambodia-2025-08-G003",
+    "type": "failed_body_read",
+    "description": "RNK page https://rnk.gov.kh/article/54908 returned zero lines after fresh exact-URL receipt/manual review; no denial was observed and no article body was available. Retain as search-only; do not retry for this package.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "cambodia_2025-08_E001"
+    ],
+    "required_followup": "Seek a distinct source with readable body if further review is needed."
+  },
+  {
+    "gap_id": "cambodia-2025-08-G004",
+    "type": "coverage",
+    "description": "Public web searches in English and Khmer are not an exhaustive archive search. Some result headers were not individually body-checked; August 2 rally demand target remains unknown.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review local Khmer and independent reporting if continuing research."
+  }
+]

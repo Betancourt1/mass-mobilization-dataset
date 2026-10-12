@@ -1,0 +1,57 @@
+[
+  {
+    "gap_id": "sweden_2025-09_G001",
+    "type": "coverage",
+    "description": "Nine English/Swedish queries used broad/submonth windows, local broadcaster terms and climate/labor follow-ups. Findings center on Göteborg and Stockholm; open web is not a systematic national archive search.",
+    "source_ids": [
+      "SE25-09-S001",
+      "SE25-09-S006",
+      "SE25-09-S009"
+    ],
+    "affected_candidates": [
+      "sweden_2025-09_E001",
+      "sweden_2025-09_E002"
+    ],
+    "required_followup": "Reviewer may request local radio/newspaper searches in other regions; no absence claim."
+  },
+  {
+    "gap_id": "sweden_2025-09_G002",
+    "type": "continuity",
+    "description": "Climate march described as a completed one-day route; no continuation/response found. Parliament camp lead has no body/continuity evidence.",
+    "source_ids": [
+      "SE25-09-S001",
+      "SE25-09-S009",
+      "SE25-09-S010"
+    ],
+    "affected_candidates": [
+      "sweden_2025-09_E001",
+      "sweden_2025-09_E002"
+    ],
+    "required_followup": "Check later sources only if needed; do not merge without event-specific evidence."
+  },
+  {
+    "gap_id": "sweden_2025-09_G003",
+    "type": "technical_retrieval",
+    "description": "Socialisterna.org open returned Internal Error (400) timeout; no body or observed site denial; no retry/alternate route.",
+    "source_ids": [
+      "SE25-09-S010"
+    ],
+    "affected_candidates": [
+      "sweden_2025-09_E002"
+    ],
+    "required_followup": "Keep pending_evidence; any later action requires a fresh assessment and may not use bypass."
+  },
+  {
+    "gap_id": "sweden_2025-09_G004",
+    "type": "state_response",
+    "description": "No coded state response to the 13 September march is established. A no-disorder statement is not a coded response; other-event minister statements are not linked.",
+    "source_ids": [
+      "SE25-09-S001",
+      "SE25-09-S009"
+    ],
+    "affected_candidates": [
+      "sweden_2025-09_E001"
+    ],
+    "required_followup": "Keep response values unknown absent event-specific evidence."
+  }
+]

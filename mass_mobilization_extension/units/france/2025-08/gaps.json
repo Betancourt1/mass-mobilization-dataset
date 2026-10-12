@@ -1,0 +1,71 @@
+[
+  {
+    "gap_id": "FR08G001",
+    "topic": "2 August Lyon own-State demand",
+    "description": "A retrospective reports a 600-person gathering and mentions proceedings against the French government, but does not clearly document a gathering demand to the French State.",
+    "impact": "Candidate remains pending_state_target.",
+    "source_ids": [
+      "FR08S001"
+    ],
+    "next_step": "Look for an independent or more explicit event-specific account; do not infer demands from general campaign material."
+  },
+  {
+    "gap_id": "FR08G002",
+    "topic": "2 August Lyon attendance independence and publication timing",
+    "description": "The retrieved entry is on a rolling page with unknown entry publication time and is organizer-network reporting.",
+    "impact": "Attendance estimate and contemporaneousness are limited; no independent confirmation.",
+    "source_ids": [
+      "FR08S001"
+    ],
+    "next_step": "Seek an unrelated contemporaneous local report if available."
+  },
+  {
+    "gap_id": "FR08G003",
+    "topic": "23 August Lyon independent corroboration and response",
+    "description": "The organizer reports >600 and France-directed demands; no independent count or State response was located in opened material.",
+    "impact": "Candidate is a bounded organizer-sourced event; response stays unknown.",
+    "source_ids": [
+      "FR08S002"
+    ],
+    "next_step": "Seek independent corroboration and documented response."
+  },
+  {
+    "gap_id": "FR08G004",
+    "topic": "16 August Lyon announced event occurrence/threshold",
+    "description": "An organizer announcement surfaced but no post-event evidence was opened.",
+    "impact": "No event candidate is coded from the announcement.",
+    "source_ids": [
+      "FR08S004"
+    ],
+    "next_step": "Search for actual occurrence and local crowd count; announcement is not execution evidence."
+  },
+  {
+    "gap_id": "FR08G005",
+    "topic": "12 August Toulouse local lead",
+    "description": "An AFPS search result claims about 100 participants; no body was retrieved and demand toward France is not established.",
+    "impact": "Search-only lead; no event candidate based on the snippet.",
+    "source_ids": [
+      "FR08S003"
+    ],
+    "next_step": "Fresh exact-source assessment and body review if pursued."
+  },
+  {
+    "gap_id": "FR08G006",
+    "topic": "Geographic/sector coverage and baseline",
+    "description": "Searches were strongest for Lyon/Toulouse and Gaza/Palestine; local radio, other sectors/regions and official baseline are incomplete.",
+    "impact": "No claim of no other protest or official completeness.",
+    "source_ids": [
+      "FR08S001",
+      "FR08S002"
+    ],
+    "next_step": "Continue regional/sector search and baseline reconciliation when available."
+  },
+  {
+    "gap_id": "FR08G007",
+    "topic": "Unmatched q006 input",
+    "description": "A q006 input exists without its real raw output.",
+    "impact": "Execution status and result are unknown; output was not reconstructed.",
+    "source_ids": [],
+    "next_step": "Preserve as a gap."
+  }
+]

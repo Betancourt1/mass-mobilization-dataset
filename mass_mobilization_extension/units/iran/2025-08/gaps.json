@@ -1,0 +1,136 @@
+[
+  {
+    "gap_id": "IR08G001",
+    "type": "threshold",
+    "description": "Only Razi Petrochemical has a reported approximate site count (about 500); all other site-level attendance is unknown, and city/site counts must not be pooled.",
+    "source_ids": [
+      "IR08S001",
+      "IR08S002",
+      "IR08S003",
+      "IR08S004"
+    ],
+    "affected_candidates": [
+      "iran_2025-08_E001",
+      "iran_2025-08_E002",
+      "iran_2025-08_E003",
+      "iran_2025-08_E004",
+      "iran_2025-08_E005",
+      "iran_2025-08_E006",
+      "iran_2025-08_E007",
+      "iran_2025-08_E008",
+      "iran_2025-08_E009",
+      "iran_2025-08_E010",
+      "iran_2025-08_E011",
+      "iran_2025-08_E012",
+      "iran_2025-08_E013",
+      "iran_2025-08_E014",
+      "iran_2025-08_E015",
+      "iran_2025-08_E016",
+      "iran_2025-08_E017",
+      "iran_2025-08_E018",
+      "iran_2025-08_E019",
+      "iran_2025-08_E020",
+      "iran_2025-08_E021",
+      "iran_2025-08_E022"
+    ],
+    "required_followup": "Seek site-specific contemporaneous headcounts from local sources without inferring from the number of gatherings."
+  },
+  {
+    "gap_id": "IR08G002",
+    "type": "state_target",
+    "description": "Razi detention/entry-ban actors, some private employment disputes, housing matters, and some worker claims need confirmation of a demand directed to Iran’s government or policy.",
+    "source_ids": [
+      "IR08S001",
+      "IR08S003",
+      "IR08S004"
+    ],
+    "affected_candidates": [
+      "iran_2025-08_E001",
+      "iran_2025-08_E005",
+      "iran_2025-08_E009",
+      "iran_2025-08_E014",
+      "iran_2025-08_E017",
+      "iran_2025-08_E021"
+    ],
+    "required_followup": "Locate event-level reporting that names the state agency or policy; do not infer from venue or employer alone."
+  },
+  {
+    "gap_id": "IR08G003",
+    "type": "continuity",
+    "description": "Recurring retiree and truck-driver gatherings appear at repeated sites/dates; onset and whether they are continuous campaigns versus distinct assemblies remain unresolved.",
+    "source_ids": [
+      "IR08S001",
+      "IR08S003",
+      "IR08S004"
+    ],
+    "affected_candidates": [
+      "iran_2025-08_E006",
+      "iran_2025-08_E007",
+      "iran_2025-08_E008",
+      "iran_2025-08_E010",
+      "iran_2025-08_E011",
+      "iran_2025-08_E012",
+      "iran_2025-08_E013"
+    ],
+    "required_followup": "Use event-specific dates and organizers to determine episode boundaries; do not merge solely by group/topic."
+  },
+  {
+    "gap_id": "IR08G004",
+    "type": "date",
+    "description": "Arak Aluminum lead is undated; Hirmand and health-graduate episodes have incomplete onset/site data.",
+    "source_ids": [
+      "IR08S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find dated local/source-specific event reports before assigning a monthly occurrence."
+  },
+  {
+    "gap_id": "IR08G005",
+    "type": "response",
+    "description": "Sources generally do not specify state response; no arrests/beatings/dispersal/shootings/killings/accommodation/ignore are coded by silence.",
+    "source_ids": [
+      "IR08S001",
+      "IR08S002",
+      "IR08S003",
+      "IR08S004"
+    ],
+    "affected_candidates": [
+      "iran_2025-08_E001",
+      "iran_2025-08_E002",
+      "iran_2025-08_E003",
+      "iran_2025-08_E004",
+      "iran_2025-08_E005",
+      "iran_2025-08_E006",
+      "iran_2025-08_E007",
+      "iran_2025-08_E008",
+      "iran_2025-08_E009",
+      "iran_2025-08_E010",
+      "iran_2025-08_E011",
+      "iran_2025-08_E012",
+      "iran_2025-08_E013",
+      "iran_2025-08_E014",
+      "iran_2025-08_E015",
+      "iran_2025-08_E016",
+      "iran_2025-08_E017",
+      "iran_2025-08_E018",
+      "iran_2025-08_E019",
+      "iran_2025-08_E020",
+      "iran_2025-08_E021",
+      "iran_2025-08_E022"
+    ],
+    "required_followup": "Seek explicit event-level response evidence where material."
+  },
+  {
+    "gap_id": "IR08G006",
+    "type": "search_limit",
+    "description": "Three English/Persian calls covered broad August/Mordad discovery and late-August searches; a subset of body sources was inspected. Open web does not reproduce LexisNexis, local archives or full regional press.",
+    "source_ids": [
+      "IR08S001",
+      "IR08S002",
+      "IR08S003",
+      "IR08S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Regional press, labor organizations and local-language follow-ups remain potential avenues; no exhaustive coverage claim."
+  }
+]

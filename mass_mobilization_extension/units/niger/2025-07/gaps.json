@@ -1,0 +1,30 @@
+[
+  {
+    "gap_id": "niger_2025-07_G001",
+    "type": "execution_followup",
+    "description": "No permitted follow-up established whether a substitute or informal MINNJE gathering occurred after the July 27 ban.",
+    "source_ids": [
+      "NIG25-07-S002"
+    ],
+    "affected_candidates": [
+      "niger_2025-07_X002"
+    ],
+    "required_followup": "Check local reports/organizer statements on same-day execution; do not infer it from the plan."
+  },
+  {
+    "gap_id": "niger_2025-07_G002",
+    "type": "coverage_limit",
+    "description": "Open web only; no LexisNexis/archive access or exhaustive regional press inventory. Searches covered Niamey and regional cities, labor/student/education/justice, French, English and Hausa.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If archive access becomes available, check contemporaneous regional press and feasible local-language sources."
+  },
+  {
+    "gap_id": "niger_2025-07_G003",
+    "type": "capture_format",
+    "description": "The three July raw captures have a trailing literal backslash-n after the JSON object. They are preserved byte-for-byte; logs derive header records from the intact leading object only.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep raw artifacts unchanged and disclose formatting limitation."
+  }
+]

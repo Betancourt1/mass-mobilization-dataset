@@ -1,0 +1,47 @@
+[
+  {
+    "gap_id": "kosovo_2025-07_G001",
+    "type": "coverage",
+    "description": "Four calls in English, Albanian and Serbian included general terms plus a date-window/sector query; results center on Pristina/Assembly and Lipljan. Other municipalities, sectors and local archives remain undercovered; no absence claim.",
+    "source_ids": [
+      "KOS07-S001",
+      "KOS07-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue local-language municipal/sector searches if reopened."
+  },
+  {
+    "gap_id": "kosovo_2025-07_G002",
+    "type": "eligibility",
+    "description": "Lipljan July 12 protest has state-directed demand evidence but no single-site headcount.",
+    "source_ids": [
+      "KOS07-S001"
+    ],
+    "affected_candidates": [
+      "kosovo_2025-07_E001"
+    ],
+    "required_followup": "Find permitted contemporaneous site turnout evidence; do not infer it from the death investigation."
+  },
+  {
+    "gap_id": "kosovo_2025-07_G003",
+    "type": "eligibility",
+    "description": "July 3 civil-society protest has political-process demand evidence but no count, named organizer or clear episode boundaries; result attributes some reporting to KoSSev.",
+    "source_ids": [
+      "KOS07-S002"
+    ],
+    "affected_candidates": [
+      "kosovo_2025-07_E002"
+    ],
+    "required_followup": "Establish attendance, organizer and episode scope from a permitted local source."
+  },
+  {
+    "gap_id": "kosovo_2025-07_G004",
+    "type": "access_workflow_incident",
+    "description": "One body open lacked a required fresh access-check receipt. It is documented only as workflow incident metadata and excluded from science; no retry.",
+    "source_ids": [],
+    "affected_candidates": [
+      "kosovo_2025-07_E001"
+    ],
+    "required_followup": "No retry of exact URL; rely only on captured search result or independent permitted evidence."
+  }
+]

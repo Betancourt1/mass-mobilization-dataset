@@ -1,0 +1,43 @@
+[
+  {
+    "gap_id": "IN07G001",
+    "type": "coverage",
+    "description": "Open-web searches covered English July broad terms, Hindi broad/Bihar electoral-roll terms, and Tamil Nadu terms; only a small number of state/sector windows. This is not a countrywide press-archive search.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "india_2025-07_E001",
+      "india_2025-07_E002"
+    ],
+    "required_followup": "Future review may examine independent local reports by state and week, preserving one-site attendance and distinguishing labor strike from voter-roll protests."
+  },
+  {
+    "gap_id": "IN07G002",
+    "type": "threshold",
+    "description": "Bihar bandh search-only reports describe roadblocks and activity but no simultaneous crowd count at a named site.",
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "india_2025-07_E002"
+    ],
+    "required_followup": "Need an opened contemporary local report documenting at least 50 at one gathering."
+  },
+  {
+    "gap_id": "IN07G003",
+    "type": "origin",
+    "description": "TOI article written origin/byline not established from saved selected lines; no assumption of independent reporting.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "india_2025-07_E001"
+    ],
+    "required_followup": "Review source metadata if available without reopening absent a new access assessment."
+  }
+]

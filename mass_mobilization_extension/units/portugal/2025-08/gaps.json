@@ -1,0 +1,75 @@
+[
+  {
+    "gap_id": "PRT25-08-G001",
+    "type": "coverage",
+    "description": "18 English/Portuguese queries across time windows, health/labor/services/housing/regions; not exhaustive.",
+    "source_ids": [
+      "PRT25-08-S001",
+      "PRT25-08-S002",
+      "PRT25-08-S003"
+    ],
+    "affected_candidates": [
+      "PRT25-08-E001"
+    ],
+    "required_followup": "Human review."
+  },
+  {
+    "gap_id": "PRT25-08-G002",
+    "type": "threshold",
+    "description": "Only opened report says about 50.",
+    "source_ids": [
+      "PRT25-08-S002"
+    ],
+    "affected_candidates": [
+      "PRT25-08-E001"
+    ],
+    "required_followup": "Independent count/reviewer determination."
+  },
+  {
+    "gap_id": "PRT25-08-G003",
+    "type": "followup",
+    "description": "Aug14 action announced but not confirmed held.",
+    "source_ids": [
+      "PRT25-08-S002"
+    ],
+    "affected_candidates": [
+      "PRT25-08-E001"
+    ],
+    "required_followup": "Find occurrence source."
+  },
+  {
+    "gap_id": "PRT25-08-G004",
+    "type": "execution",
+    "description": "Faro concentration announced, not confirmed or counted.",
+    "source_ids": [
+      "PRT25-08-S003",
+      "PRT25-08-S004",
+      "PRT25-08-S005",
+      "PRT25-08-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Confirm actual assembly/turnout."
+  },
+  {
+    "gap_id": "PRT25-08-G005",
+    "type": "access",
+    "description": "O Atual returned Internal Error; r001 receipt followed PRE write failure; r002 PRE/receipt before sole open.",
+    "source_ids": [
+      "PRT25-08-S001"
+    ],
+    "affected_candidates": [
+      "PRT25-08-E001"
+    ],
+    "required_followup": "No retry/alternate route."
+  },
+  {
+    "gap_id": "PRT25-08-G006",
+    "type": "date_mismatch",
+    "description": "WageIndicator title Aug31, snippet July17.",
+    "source_ids": [
+      "PRT25-08-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No Aug assignment without evidence."
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "gap_id": "germany_2025-09-G001",
+    "type": "continuity",
+    "description": "20 Sep climate action is established for the day, but the saved searches do not determine duration or distinct related actions before/after it.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "germany_2025-09_E001"
+    ],
+    "required_followup": "Use nearby-date local sources if continuity matters; avoid inferring closure or duplicating related actions."
+  },
+  {
+    "gap_id": "germany_2025-09-G002",
+    "type": "threshold",
+    "description": "Munich Antikriegstag has organizer call/program but no captured execution evidence or attendance estimate.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "germany_2025-09_E002"
+    ],
+    "required_followup": "Confirm actual public gathering and site-specific count in a permitted contemporaneous source."
+  },
+  {
+    "gap_id": "germany_2025-09-G003",
+    "type": "coverage",
+    "description": "Two grouped calls covered month/sub-month windows, climate/energy, welfare/labor, peace policy and regional terms. DGB/Frankfurt social-cut hits proved dated September 2026 and are outside scope; other Länder/local channels remain partial.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue regional/sector discovery if sources become available; do not import 2026 events or claim national completeness."
+  },
+  {
+    "gap_id": "germany_2025-09-G004",
+    "type": "accessibility",
+    "description": "Open-web discovery is not systematic LexisNexis/news archive coverage; native query clocks unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Consult equivalent archives only if available and preserve access/coverage limits."
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "occurrence_state_target_and_threshold",
+    "description": "The Xtep Jinjiang wage-march lead is search-only after the exact URL returned a restricted-URL failure. Actual occurrence, state target and participant count are not independently verified.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "china_2025-07_E001"
+    ],
+    "required_followup": "Seek an independent source verifying that the march occurred, that the government was a target, and attendance; do not retry the restricted URL or infer turnout from workforce size."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage",
+    "description": "Four English/Chinese searches included broad date windows and labor, land, homeowner and local-news terms. Results were noisy and sometimes out of period; this is not an exhaustive survey of China’s regions or sectors.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Further regional and sector-specific searches may recover other July events; local-source coverage remains incomplete."
+  }
+]

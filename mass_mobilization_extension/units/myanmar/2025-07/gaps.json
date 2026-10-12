@@ -1,0 +1,52 @@
+[
+  {
+    "gap_id": "myanmar_2025-07_G001",
+    "type": "coverage",
+    "description": "Four English/Burmese searches, 124 headers: broad July, Yangon/Sagaing, labor and election; not all-state/week/local radio/union or LexisNexis equivalent; stale results appeared.",
+    "source_ids": [
+      "MM25-07-S003",
+      "MM25-07-S004"
+    ],
+    "affected_candidates": [
+      "myanmar_2025-07_E001",
+      "myanmar_2025-07_E002"
+    ],
+    "required_followup": "Local reports for July 20–31 and other states if feasible."
+  },
+  {
+    "gap_id": "myanmar_2025-07_G002",
+    "type": "threshold",
+    "description": "July 26 Yangon/Sagaing leads lack per-site headcount; exact Ludu open returned tool error.",
+    "source_ids": [
+      "MM25-07-S004"
+    ],
+    "affected_candidates": [
+      "myanmar_2025-07_E001",
+      "myanmar_2025-07_E002"
+    ],
+    "required_followup": "Permitted source with exact site and simultaneous count; do not retry failed target."
+  },
+  {
+    "gap_id": "myanmar_2025-07_G003",
+    "type": "state_target",
+    "description": "Fala Fala is private-employer dispute; no public state-directed protest shown.",
+    "source_ids": [
+      "MM25-07-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only revisit if independent evidence establishes public/state-policy nexus."
+  },
+  {
+    "gap_id": "myanmar_2025-07_G004",
+    "type": "continuity",
+    "description": "No evidence links July 26 leads to September activity or establishes end dates.",
+    "source_ids": [
+      "MM25-07-S004"
+    ],
+    "affected_candidates": [
+      "myanmar_2025-07_E001",
+      "myanmar_2025-07_E002"
+    ],
+    "required_followup": "Compare organizer/site/action evidence before linking."
+  }
+]

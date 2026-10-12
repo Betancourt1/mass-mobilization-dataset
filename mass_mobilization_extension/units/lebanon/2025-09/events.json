@@ -1,0 +1,165 @@
+[
+  {
+    "candidate_id": "lebanon_2025-09_E001",
+    "country": "Lebanon",
+    "ccode": "660",
+    "ccode_provenance": "provisional_legacy_scope in planning/countries_provisional.csv; official baseline pending",
+    "unit_month": "2025-09",
+    "title": "Retired military personnel protest activity with road blockages (reported lead; unitization unresolved)",
+    "start_date": "2025-09-22",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Beirut and the North are named in captured search-result header; separate site-level units not established.",
+    "scope": "Possible multi-location mobilization; common organization, demands, and unit definition require verification.",
+    "organizer": null,
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No simultaneous participant count appears in the captured header/title-level observation; 50-person threshold is unverified.",
+    "state_target": null,
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "LEB09Q013 search-result header gives 22 September 2025 for the L’Orient report; event date is provisional and needs direct source verification."
+      },
+      "location": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Captured L’Orient headline says Beirut and the North; no distinct simultaneous site counts or event units established."
+      },
+      "occurrence": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Search header and An-Nahar page title indicate road-blocking/protest activity by retired military personnel; full details remain unverified."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "No captured evidence establishes at least 50 people simultaneously at a particular local action."
+      },
+      "state_target": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Available headers/title do not establish a demand directed to the Lebanese state."
+      },
+      "state_response": {
+        "source_ids": [
+          "S002"
+        ],
+        "summary": "Page title mentions an agreement associated with roads reopening, but linkage, terms and implementation are unknown; no response dimension is coded."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "lebanon_retired_military_road_protests_2025-09-22_possible",
+    "notes": "Search-only L’Orient lead is subject to named-source hold; An-Nahar opened after exact-target PRE and receipt, but only title metadata is retained. Do not merge multiple regions or infer common organizer, count, or continuation.",
+    "open_questions": [
+      "Were at least 50 people simultaneously present at any one qualifying site?",
+      "What were the specific demands and were they directed at the Lebanese state?",
+      "Do the Beirut and northern sites meet the protocol’s common-group/common-demand basis for one national unit, or need separate local units?",
+      "When did the action begin and end?",
+      "Was the mentioned agreement an event-linked accommodation, and was it implemented?"
+    ]
+  },
+  {
+    "candidate_id": "lebanon_2025-09_E002",
+    "country": "Lebanon",
+    "ccode": "660",
+    "ccode_provenance": "provisional_legacy_scope in planning/countries_provisional.csv; official baseline pending",
+    "unit_month": "2025-09",
+    "title": "Depositors’ Cry sit-in outside the Central Bank, Hamra (reported by NNA; onset and eligibility unresolved)",
+    "start_date": null,
+    "start_precision": "unknown",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the Central Bank, Hamra, Beirut, as stated in concise NNA outcome metadata.",
+    "scope": "Single reported sit-in; exact participant group size and broader episode relation unknown.",
+    "organizer": "Depositors’ Cry named in NNA page title; formal organizing role not established.",
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No crowd-size figure in the permitted concise page outcome; threshold unknown.",
+    "state_target": null,
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S003"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "NNA page outcome records a sit-in by Depositors’ Cry outside the Central Bank in Hamra."
+      },
+      "location": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "NNA outcome locates the sit-in outside the Central Bank in Hamra."
+      },
+      "reported_date": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "NNA page metadata displayed 25 September 2025; this is the report/page date and is not treated as onset."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "No participant count was stated in the concise page outcome."
+      },
+      "state_target": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "The page outcome links timing to a Central Bank governor/IMF delegation meeting but does not establish demands or target."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "lebanon_depositors_cry_hamra_2025-09_possible",
+    "notes": "Possible relationship to the 24 September L’Orient search-only lead is unresolved; do not assign a distinct onset or merge without evidence. Receipt and PRE are exact-target; full body not retained.",
+    "open_questions": [
+      "When did the sit-in begin, and is it the same episode as the 24 September depositors’ lead?",
+      "Were at least 50 people present simultaneously?",
+      "What demand was made and was it directed to a state actor?",
+      "What was the sit-in’s duration and any response?"
+    ]
+  }
+]

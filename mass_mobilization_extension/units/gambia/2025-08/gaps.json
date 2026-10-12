@@ -1,0 +1,57 @@
+[
+  {
+    "gap_id": "gambia_2025-08_G001",
+    "type": "attendance_threshold",
+    "description": "The opened 22 August PURA source reports 19 arrests but not total attendees; >=50 is unresolved.",
+    "source_ids": [
+      "gambia_2025-08_S001"
+    ],
+    "affected_candidates": [
+      "gambia_2025-08_E001"
+    ],
+    "required_followup": "Find a body-read independent crowd estimate; arrest count alone cannot establish threshold."
+  },
+  {
+    "gap_id": "gambia_2025-08_G002",
+    "type": "pending_evidence",
+    "description": "Search results identify separate court gathering on 25 August and march on 26 August. Neither full body nor total attendance was verified; 15 or 23 arrests do not establish >=50.",
+    "source_ids": [
+      "gambia_2025-08_S005",
+      "gambia_2025-08_S006",
+      "gambia_2025-08_S007"
+    ],
+    "affected_candidates": [
+      "gambia_2025-08_E002",
+      "gambia_2025-08_E003"
+    ],
+    "required_followup": "Open exact local-source URLs only after fresh PRE assessment and exact-URL receipt; establish crowd size, event boundaries and response."
+  },
+  {
+    "gap_id": "gambia_2025-08_G003",
+    "type": "access_and_language",
+    "description": "Two English searches covered general protest/march/strike terms and labor/student sectors. French search, Mandinka/Wolof terms, other regions and systematic archives were not covered.",
+    "source_ids": [],
+    "affected_candidates": [
+      "gambia_2025-08_E001",
+      "gambia_2025-08_E002",
+      "gambia_2025-08_E003"
+    ],
+    "required_followup": "Check feasible local-language and regional sources; no exhaustive claim."
+  },
+  {
+    "gap_id": "gambia_2025-08_G004",
+    "type": "continuity",
+    "description": "Arrests/remand proceedings continued after the 22 August demonstration; no later month continuation assessment establishes a single ongoing protest episode.",
+    "source_ids": [
+      "gambia_2025-08_S001",
+      "gambia_2025-08_S005"
+    ],
+    "affected_candidates": [
+      "gambia_2025-08_E001",
+      "gambia_2025-08_E002",
+      "gambia_2025-08_E003"
+    ],
+    "required_followup": "Determine whether later public gatherings were distinct actions or continuation of an episode; do not treat legal proceedings alone as a protest."
+  }
+]
+

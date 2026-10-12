@@ -1,0 +1,89 @@
+[
+  {
+    "candidate_id": "MYS08E001",
+    "country": "Malaysia",
+    "ccode": 820,
+    "unit_month": "2025-08",
+    "title": "Protest at Parliament against the proposed Urban Redevelopment Act",
+    "start_date": "2025-08-28",
+    "start_precision": "day",
+    "end_date": "2025-08-28",
+    "end_precision": "day",
+    "location": "Tugu Negara to Parliament gates, Kuala Lumpur",
+    "scope": "Local march to the national legislature concerning a proposed housing/urban redevelopment bill.",
+    "organizer": null,
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Over a hundred protesters, as reported by The Star",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The concise report explicitly describes over a hundred protesters at the Parliament march.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "MYS08S001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "MYS08S001"
+        ],
+        "summary": "The report dates the gathering to 28 August 2025."
+      },
+      "location": {
+        "source_ids": [
+          "MYS08S001"
+        ],
+        "summary": "March started at Tugu Negara and ended before Parliament gates in Kuala Lumpur."
+      },
+      "state_target": {
+        "source_ids": [
+          "MYS08S001"
+        ],
+        "summary": "Protesters demanded withdrawal of the proposed bill from its second reading at Parliament."
+      },
+      "demands": {
+        "source_ids": [
+          "MYS08S001"
+        ],
+        "summary": "Demand to stop second reading/withdraw the proposed Urban Redevelopment Act; housing impacts are discussed by an opposition MP."
+      },
+      "participants": {
+        "source_ids": [
+          "MYS08S001"
+        ],
+        "summary": "Source says over a hundred; no exact count or maximum."
+      },
+      "organizer": {
+        "source_ids": [
+          "MYS08S001"
+        ],
+        "summary": "Unknown in the concise source observation."
+      },
+      "state_response": {
+        "source_ids": [
+          "MYS08S001"
+        ],
+        "summary": "Opposition MPs addressed the crowd; no government concession or action is documented."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "ura_parliament_protest_2025-08-28",
+    "notes": "The body-derived concise record is available for review; raw output remains quarantined. No verified or official status.",
+    "open_questions": [
+      "Does the concise event report sufficiently establish the gathering and threshold without the quarantined raw output?",
+      "Which organizer/coalition led the march?",
+      "Was this a new episode or part of a broader campaign, and what was the event end beyond same-day dispersal?"
+    ]
+  }
+]

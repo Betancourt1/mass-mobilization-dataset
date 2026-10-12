@@ -1,0 +1,85 @@
+[
+  {
+    "gap_id": "bosnia_2025-09-G001",
+    "type": "coverage_method",
+    "description": "Open web search is not LexisNexis and does not support exhaustive month coverage. Weekly query windows and local-language searches were used, but results remain incomplete.",
+    "source_ids": [],
+    "affected_candidates": [
+      "bosnia_2025-09_E001"
+    ],
+    "required_followup": "Official baseline or systematic local/international newspaper archive review."
+  },
+  {
+    "gap_id": "bosnia_2025-09-G002",
+    "type": "threshold",
+    "description": "About 600 trucks were reported in the blockade, but human attendance was not counted. Vehicles and Logistika membership are not converted to protest participants.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "bosnia_2025-09_E001"
+    ],
+    "required_followup": "Find a direct human attendance estimate or retain pending_threshold."
+  },
+  {
+    "gap_id": "bosnia_2025-09-G003",
+    "type": "ownership_continuity",
+    "description": "Agricultural subsidy-protest announcements in late August refer to a 1 September transport blockade; verified event sources identify truckers as organizers. Check that farmer action is not merged into this separate episode.",
+    "source_ids": [
+      "S001",
+      "S004"
+    ],
+    "affected_candidates": [
+      "bosnia_2025-09_E001"
+    ],
+    "required_followup": "Review organizer and demands against August farm-candidate evidence."
+  },
+  {
+    "gap_id": "bosnia_2025-09-G004",
+    "type": "exclusions",
+    "description": "Several Palestine solidarity and miners’ actions were surfaced only as search results or aggregator entries. Exclusion decisions are provisional where contemporaneous body evidence is absent.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S008",
+      "S011"
+    ],
+    "affected_candidates": [
+      "bosnia_2025-09_X001",
+      "bosnia_2025-09_X002",
+      "bosnia_2025-09_X003",
+      "bosnia_2025-09_X004",
+      "bosnia_2025-09_X005"
+    ],
+    "required_followup": "Verify occurrence, domestic-policy targets and human attendance from contemporary local sources."
+  },
+  {
+    "gap_id": "bosnia_2025-09-G005",
+    "type": "access_history",
+    "description": "Historical source-check ledger was not supplied. Fresh receipts covered currently saved source ledgers and an empty newly initialized review/source_checks.jsonl; no absence of historical matches is claimed.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "bosnia_2025-09_E001"
+    ],
+    "required_followup": "Coordinator review if historical access evidence becomes available."
+  },
+  {
+    "gap_id": "bosnia_2025-09-G006",
+    "type": "publication_scope",
+    "description": "The Reuters start and end stories are from the same agency and cannot be treated as independent source confirmations. RFE/RL page opened with only metadata/excerpt visible.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "bosnia_2025-09_E001"
+    ],
+    "required_followup": "Seek another independent contemporary source with human attendance and location details."
+  }
+]

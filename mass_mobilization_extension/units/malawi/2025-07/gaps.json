@@ -1,0 +1,40 @@
+[
+  {
+    "gap_id": "MW25-07-G001",
+    "type": "technical_access",
+    "description": "The Times Group page returned a generic verification/template response without article content, HTTP status or redirect.",
+    "source_ids": [
+      "MW25-07-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain as a technical retrieval gap; no retry or alternate route."
+  },
+  {
+    "gap_id": "MW25-07-G002",
+    "type": "technical_access",
+    "description": "Malawi24 economic-protest page fetch failed before content; the search result does not separate dates, cities or turnout.",
+    "source_ids": [
+      "MW25-07-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only a newly located independent exact target after fresh access review could clarify episode details."
+  },
+  {
+    "gap_id": "MW25-07-G003",
+    "type": "origin_ambiguity",
+    "description": "Civic-monitor results mention July vigils and gatherings but have no exact date/site/headcount and unresolved underlying source chain.",
+    "source_ids": [
+      "MW25-07-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Locate a direct unrelated local report or primary statement; preserve current uncertainty."
+  },
+  {
+    "gap_id": "MW25-07-G004",
+    "type": "coverage",
+    "description": "Five searches covered broad English/local terms and selected sectors/regions; Chichewa and community-radio/archive coverage remains partial. Q001 raw output was excluded, so no usable header inventory was retained.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Further local radio/district archive research if available; no completeness claim."
+  }
+]

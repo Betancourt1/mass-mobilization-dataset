@@ -1,0 +1,76 @@
+[
+  {
+    "gap_id": "SK09-G001",
+    "affected_candidate_ids": [
+      "south_korea_2025-09_E001"
+    ],
+    "dimension": "threshold",
+    "reason": "No Seoul-specific attendance count.",
+    "next_permitted_action": "Retain pending.",
+    "source_ids": [
+      "SK25-09-S004"
+    ]
+  },
+  {
+    "gap_id": "SK09-G002",
+    "affected_candidate_ids": [
+      "south_korea_2025-09_E002"
+    ],
+    "dimension": "count chain",
+    "reason": "30k is organizer figure; two other reports likely repeat it.",
+    "next_permitted_action": "Do not add six-site 3k; reviewer assess local photo and source chain.",
+    "source_ids": [
+      "SK25-09-S001",
+      "SK25-09-S002",
+      "SK25-09-S003"
+    ]
+  },
+  {
+    "gap_id": "SK09-G003",
+    "affected_candidate_ids": [
+      "south_korea_2025-09_E003"
+    ],
+    "dimension": "count source/site",
+    "reason": "About 270 unattributed; exact Yeouido site unknown.",
+    "next_permitted_action": "Reviewer assess limitations.",
+    "source_ids": [
+      "SK25-09-S005"
+    ]
+  },
+  {
+    "gap_id": "SK09-G004",
+    "affected_candidate_ids": [],
+    "dimension": "Sep 21 migrant workers",
+    "reason": "Announcement surfaced only; execution/count/state target not established.",
+    "next_permitted_action": "Do not code announcement.",
+    "source_ids": []
+  },
+  {
+    "gap_id": "SK09-G005",
+    "affected_candidate_ids": [],
+    "dimension": "regional coverage",
+    "reason": "Queries do not enumerate six other climate sites or all regional events.",
+    "next_permitted_action": "No exhaustive/zero event claim.",
+    "source_ids": [
+      "SK25-09-S001",
+      "SK25-09-S002",
+      "SK25-09-S003"
+    ]
+  },
+  {
+    "gap_id": "SK09-G006",
+    "affected_candidate_ids": [
+      "south_korea_2025-09_E001",
+      "south_korea_2025-09_E002",
+      "south_korea_2025-09_E003"
+    ],
+    "dimension": "end/consequences",
+    "reason": "End time and state response unknown.",
+    "next_permitted_action": "Retain unknown.",
+    "source_ids": [
+      "SK25-09-S001",
+      "SK25-09-S004",
+      "SK25-09-S005"
+    ]
+  }
+]

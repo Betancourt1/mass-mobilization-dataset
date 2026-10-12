@@ -1,0 +1,59 @@
+[
+  {
+    "gap_id": "PL25-07-G001",
+    "type": "threshold",
+    "description": "Official report records railway action at 17 sites but only about 30 at one Podlaskie site; cannot pool sites, and no other site-specific count is established.",
+    "source_ids": [
+      "PL25-07-S002"
+    ],
+    "affected_candidates": [
+      "poland_2025-07_E001"
+    ],
+    "required_followup": "Find permitted contemporaneous local reporting for one or more sites, without using site totals to establish a single-site threshold."
+  },
+  {
+    "gap_id": "PL25-07-G002",
+    "type": "state_target",
+    "description": "Sławków blockade is real, but the visible official report does not clarify whether workers sought government policy change rather than market/employer action.",
+    "source_ids": [
+      "PL25-07-S002"
+    ],
+    "affected_candidates": [
+      "poland_2025-07_E002"
+    ],
+    "required_followup": "Find source that states addressee/remedy and crowd size."
+  },
+  {
+    "gap_id": "PL25-07-G003",
+    "type": "coverage",
+    "description": "Anti-immigration actions and Gaza solidarity are search-only leads; no body-based confirmation, site-specific attendance, or exact demands are available.",
+    "source_ids": [
+      "PL25-07-S004",
+      "PL25-07-S005",
+      "PL25-07-S006",
+      "PL25-07-S007",
+      "PL25-07-S008",
+      "PL25-07-S009",
+      "PL25-07-S010",
+      "PL25-07-S011"
+    ],
+    "affected_candidates": [
+      "poland_2025-07_E003"
+    ],
+    "required_followup": "Permitted non-held contemporaneous local reporting by city; clarify public execution, own-state demand, and independent site-level size."
+  },
+  {
+    "gap_id": "PL25-07-G004",
+    "type": "archive_access",
+    "description": "Open-web search is not systematic LexisNexis coverage. Official July PDF body was only visible through page 6/24; TVN Warszawa exact URL returned 403 after receipt and was not retried.",
+    "source_ids": [
+      "PL25-07-S002",
+      "PL25-07-S003"
+    ],
+    "affected_candidates": [
+      "poland_2025-07_E001",
+      "poland_2025-07_E002"
+    ],
+    "required_followup": "No retries to the exact blocked URL; use unrelated permitted sources only if the review requests it."
+  }
+]

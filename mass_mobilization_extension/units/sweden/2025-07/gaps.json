@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "sweden_2025-07_G001",
+    "type": "coverage",
+    "description": "Three English/Swedish queries covered generic Sweden, Stockholm/Göteborg/Malmö, climate, labor and housing. No systematic county/weekly sweep; results included wrong-year and irrelevant pages.",
+    "source_ids": [
+      "SE25-07-S001",
+      "SE25-07-S002",
+      "SE25-07-S004"
+    ],
+    "affected_candidates": [
+      "sweden_2025-07_E001",
+      "sweden_2025-07_E002",
+      "sweden_2025-07_E003"
+    ],
+    "required_followup": "Reviewer may request regional date-window searches; no absence claim."
+  },
+  {
+    "gap_id": "sweden_2025-07_G002",
+    "type": "state_target",
+    "description": "On 19 July an interviewee called for Swedish parties to boycott Israel and expel its ambassador; whether this was a collective demand is unclear.",
+    "source_ids": [
+      "SE25-07-S004"
+    ],
+    "affected_candidates": [
+      "sweden_2025-07_E002"
+    ],
+    "required_followup": "Seek independent contemporary evidence of collective demand; otherwise retain pending_state_target."
+  },
+  {
+    "gap_id": "sweden_2025-07_G003",
+    "type": "state_target",
+    "description": "The 26 July article describes Gaza solidarity and hundreds in Stockholm but no demand directed to the Swedish state.",
+    "source_ids": [
+      "SE25-07-S001"
+    ],
+    "affected_candidates": [
+      "sweden_2025-07_E003"
+    ],
+    "required_followup": "Seek a contemporaneous Swedish-government demand or retain pending_state_target."
+  },
+  {
+    "gap_id": "sweden_2025-07_G004",
+    "type": "continuity",
+    "description": "No event-specific link among 13, 19 and 26 July or post-event continuation was established.",
+    "source_ids": [
+      "SE25-07-S001",
+      "SE25-07-S002",
+      "SE25-07-S004"
+    ],
+    "affected_candidates": [
+      "sweden_2025-07_E001",
+      "sweden_2025-07_E002",
+      "sweden_2025-07_E003"
+    ],
+    "required_followup": "Link only with event-specific organizer/date evidence."
+  }
+]

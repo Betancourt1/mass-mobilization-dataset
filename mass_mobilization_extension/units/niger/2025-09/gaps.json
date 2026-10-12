@@ -1,0 +1,51 @@
+[
+  {
+    "gap_id": "niger_2025-09_G001",
+    "type": "threshold",
+    "description": "Sep 29 contract-teacher sit-in documented by one opened article, but 'dozens' is not a numeric headcount and does not establish 50 simultaneous people.",
+    "source_ids": [
+      "NIG25-09-S001",
+      "NIG25-09-S002",
+      "NIG25-09-S003",
+      "NIG25-09-S004",
+      "NIG25-09-S005"
+    ],
+    "affected_candidates": [
+      "niger_2025-09_E001"
+    ],
+    "required_followup": "Seek an independent contemporaneous count or organizer record; do not convert 'dozens' into 50."
+  },
+  {
+    "gap_id": "niger_2025-09_G002",
+    "type": "state_target",
+    "description": "Article reports unpaid salaries but does not explicitly name the employer/addressee; state-directed demand remains unknown.",
+    "source_ids": [
+      "NIG25-09-S001"
+    ],
+    "affected_candidates": [
+      "niger_2025-09_E001"
+    ],
+    "required_followup": "Verify employer and whether demand targeted Niger government."
+  },
+  {
+    "gap_id": "niger_2025-09_G003",
+    "type": "strike_execution",
+    "description": "RTN strike notice for Sep 16–17; search results do not establish execution, public assembly, headcount or state target.",
+    "source_ids": [
+      "NIG25-09-S006",
+      "NIG25-09-S007"
+    ],
+    "affected_candidates": [
+      "niger_2025-09_X002"
+    ],
+    "required_followup": "Check permitted contemporaneous RTN/local coverage for outcome; do not code notice as event."
+  },
+  {
+    "gap_id": "niger_2025-09_G004",
+    "type": "coverage_limit",
+    "description": "French, English and Hausa open-web search covered Niamey/regional terms, labor/education and specific follow-up. No LexisNexis/archive access or exhaustive coverage; no other-events absence claim.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If archives become available, review contemporary Nigerien local/regional press and feasible local-language sources."
+  }
+]

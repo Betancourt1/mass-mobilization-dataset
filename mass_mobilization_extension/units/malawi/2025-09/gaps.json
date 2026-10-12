@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "MW25-09-G001",
+    "type": "continuity",
+    "description": "Anadolu says protesters vowed to continue, but no later gathering or event end date is established.",
+    "source_ids": [
+      "MW25-09-S001",
+      "MW25-09-S002"
+    ],
+    "affected_candidates": [
+      "MW25-09-E001"
+    ],
+    "required_followup": "Check contemporaneous Sep24-30 local reports for the same Lilongwe event; do not assume continuation from stated intent."
+  },
+  {
+    "gap_id": "MW25-09-G002",
+    "type": "response_and_violence",
+    "description": "No reviewed source establishes event-level police action, violence, arrests, dispersal, shootings, killings or accommodation. Separate official condemnation does not resolve these fields.",
+    "source_ids": [
+      "MW25-09-S001",
+      "MW25-09-S002"
+    ],
+    "affected_candidates": [
+      "MW25-09-E001"
+    ],
+    "required_followup": "Only event-specific reporting can resolve response/violence fields; silence remains unknown."
+  },
+  {
+    "gap_id": "MW25-09-G003",
+    "type": "other_event_claim",
+    "description": "A search result says an activist thanked people for demonstrations on Sep16, but site, attendance, demand and origin are unavailable.",
+    "source_ids": [
+      "MW25-09-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find an independent exact-date report or original organizer source before coding another event."
+  },
+  {
+    "gap_id": "MW25-09-G004",
+    "type": "labor_execution",
+    "description": "A Sep6 report describes a proposed parastatal strike around Sep9; actual strike/public gathering was not established.",
+    "source_ids": [
+      "MW25-09-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search post-date local radio/labor reporting if available; do not count planned members as attendees."
+  },
+  {
+    "gap_id": "MW25-09-G005",
+    "type": "coverage",
+    "description": "Searches covered election-result contention and public-sector labor but local radio/community and district archives remain partial; public open web is not LexisNexis.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MW25-09-E001"
+    ],
+    "required_followup": "Regional local-radio/archive search; no completeness claim."
+  }
+]

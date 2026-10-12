@@ -1,0 +1,60 @@
+[
+  {
+    "gap_id": "el_salvador_2025-08-G001",
+    "type": "access",
+    "description": "Exact EFE article URL for 10 Aug returned 429; no body or retry/alternate distribution. Snippet reports about 200 people but does not resolve own-state demand recipient.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "el_salvador_2025-08_E001"
+    ],
+    "required_followup": "If access becomes available without restriction, reassess exact URL under a fresh receipt; do not use another distribution of the same EFE story."
+  },
+  {
+    "gap_id": "el_salvador_2025-08-G002",
+    "type": "state_target",
+    "description": "Government/legislative project context appears in separate search-only records but does not establish that 10 Aug participants addressed the relocation request to the Salvadoran State.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "el_salvador_2025-08_E001"
+    ],
+    "required_followup": "Need permitted event-specific evidence of demand recipient; retain pending_evidence."
+  },
+  {
+    "gap_id": "el_salvador_2025-08-G003",
+    "type": "coverage",
+    "description": "Follow-up found distinct 30 and 31 Aug El Espino activities in La Prensa Gráfica snippets. They remain separate snippet-only leads without attendance verification; broader departmental and labor/community completeness is not established.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "el_salvador_2025-08_E002",
+      "el_salvador_2025-08_E003"
+    ],
+    "required_followup": "Use independent local/regional reporting for each date if available; do not combine dates/sites or infer thresholds."
+  },
+  {
+    "gap_id": "el_salvador_2025-08-G004",
+    "type": "coverage",
+    "description": "Saved queries targeted project authority, local environmental/community activity and radio; systematic labor, education, health and department-level survey remains incomplete.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Further regional/sectoral searches may identify other public gatherings; no exhaustiveness claim."
+  },
+  {
+    "gap_id": "el_salvador_2025-08-G005",
+    "type": "accessibility",
+    "description": "Open-web discovery is not systematic LexisNexis/news archive coverage; native query clocks unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use equivalent archives if available; preserve access and coverage limits."
+  }
+]

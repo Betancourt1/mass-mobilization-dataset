@@ -1,0 +1,24 @@
+[
+  {
+    "candidate_id": "FR09X001",
+    "title": "Pharmacy closures and on-call strike activity, separate from public procession",
+    "reason": "Closures/strike activity are not public gathering attendance. Local reporting distinguishes pharmacy strike/closures from the approximately 570-person march; no separate public gathering count is assigned to closures.",
+    "source_ids": [
+      "FR09S001"
+    ],
+    "field_evidence": {
+      "eligibility": {
+        "source_ids": [
+          "FR09S001"
+        ],
+        "summary": "Article mentions pharmacies on strike/closed, but does not describe that work stoppage itself as a separate public assembly."
+      },
+      "participants_min": {
+        "source_ids": [
+          "FR09S001"
+        ],
+        "summary": "No participant count for the work stoppage as a gathering; cannot use store closures or worker totals as event attendance."
+      }
+    }
+  }
+]

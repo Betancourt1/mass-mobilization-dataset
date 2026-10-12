@@ -1,0 +1,70 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold",
+    "description": "Article confirms Dembé protests but gives no participant count or attendance characterization; 50-person threshold unresolved.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "chad_2025-08_E001"
+    ],
+    "required_followup": "Seek another contemporaneous report with a count; do not infer attendance from affected households."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage",
+    "description": "One broad search call was run in French, English and Arabic. Returned evidence is concentrated in N’Djaména; regional labor, student, transport and land-related actions may be missed.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Reviewer may search local outlets and union/community sources for Abéché, Moundou, Sarh, Bol and other provinces."
+  },
+  {
+    "gap_id": "G003",
+    "type": "planned_action_occurrence",
+    "description": "A search result reports a nationwide ban on an MPA march but provides no planned date or evidence of actual action.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek post-notice reporting only if available; do not infer an event from a prohibition notice."
+  },
+  {
+    "gap_id": "G004",
+    "type": "scope_and_threshold",
+    "description": "Health-school graduates reportedly held a press conference across several cities on 30 August, but the search snippet gives no headcount and does not establish a mass public protest.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No protest candidate is coded absent evidence of public action and simultaneous attendance."
+  },
+  {
+    "gap_id": "G005",
+    "type": "submonth_coverage",
+    "description": "A targeted search divided into 1–15 and 16–31 August returned mostly out-of-window or unrelated material and repeated known notices; it did not verify another in-window mass action or resolution of the Dembé protest.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "chad_2025-08_E001"
+    ],
+    "required_followup": "Coverage remains incomplete; do not treat absence in this noisy result set as evidence that no other actions occurred."
+  },
+  {
+    "gap_id": "G006",
+    "type": "source_diversity",
+    "description": "Targeted local-radio and civil-rights searches repeated the Tchadinfos Dembé report but returned no independent radio/rights-group corroboration or additional attendance estimate.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "chad_2025-08_E001"
+    ],
+    "required_followup": "Threshold and local-source corroboration remain unresolved; this result set is not exhaustive."
+  }
+]

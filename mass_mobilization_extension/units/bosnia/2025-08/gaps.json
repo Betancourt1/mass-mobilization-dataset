@@ -1,0 +1,65 @@
+[
+  {
+    "gap_id": "bosnia_2025-08-G001",
+    "type": "coverage_method",
+    "description": "Open web is not LexisNexis and does not support exhaustive country-month coverage. Local-language searches were used; no archival corpus was systematically searched.",
+    "source_ids": [],
+    "affected_candidates": [
+      "bosnia_2025-08_E001",
+      "bosnia_2025-08_E002"
+    ],
+    "required_followup": "Official baseline or systematic local/international newspaper review."
+  },
+  {
+    "gap_id": "bosnia_2025-08-G002",
+    "type": "threshold",
+    "description": "Neither the Donje Vukovije traffic-safety gathering nor the stopped farm convoys have a human attendance count. Tractors/machines were not converted into participants.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "bosnia_2025-08_E001",
+      "bosnia_2025-08_E002"
+    ],
+    "required_followup": "Find direct participant estimate or retain pending_threshold."
+  },
+  {
+    "gap_id": "bosnia_2025-08-G003",
+    "type": "continuity",
+    "description": "July miners said they might camp after a government meeting, but no August report confirming continuation or closure was found.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "bosnia_2025-08_C001"
+    ],
+    "required_followup": "Search for dated updates through August before linking episodes."
+  },
+  {
+    "gap_id": "bosnia_2025-08-G004",
+    "type": "access_history",
+    "description": "Historical source_checks/archive omitted from supplied kit. Fresh receipts refer to newly initialized empty checks and current source files; absence of a match is not a clean historical access inventory.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "bosnia_2025-08_E001",
+      "bosnia_2025-08_E002"
+    ],
+    "required_followup": "Coordinator review if historical access records become available."
+  },
+  {
+    "gap_id": "bosnia_2025-08-G005",
+    "type": "exclusions",
+    "description": "Healthcare strike was discovered through a search result only; no public assembly is described there. Other localized incidents may be missing from open search.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "bosnia_2025-08_X001"
+    ],
+    "required_followup": "Check contemporary local reporting if needed for review."
+  }
+]

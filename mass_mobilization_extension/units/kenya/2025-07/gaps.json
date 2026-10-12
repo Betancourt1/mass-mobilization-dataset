@@ -1,0 +1,49 @@
+[
+  {
+    "gap_id": "kenya_2025-07_G001",
+    "type": "threshold_and_site_scope",
+    "description": "Saba Saba spans towns/counties in reports, but no receipt-compliant source establishes >=50 at an identified site. Do not pool locations.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "kenya_2025-07_E001"
+    ],
+    "required_followup": "Seek contemporaneous site-specific count and demands."
+  },
+  {
+    "gap_id": "kenya_2025-07_G002",
+    "type": "query_capture_process",
+    "description": "Five search calls captured; q005 raw response persisted but no plan was saved before the call.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Do not reconstruct missing pre-query plan."
+  },
+  {
+    "gap_id": "kenya_2025-07_G003",
+    "type": "source_access_procedure",
+    "description": "KNCHR exact URL opened with PRE but no fresh CLI receipt; body artifact excluded from science.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "kenya_2025-07_E001"
+    ],
+    "required_followup": "No retrospective receipt or repeat open."
+  },
+  {
+    "gap_id": "kenya_2025-07_G004",
+    "type": "continuity",
+    "description": "Later July distinct actions/continuity unresolved.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "kenya_2025-07_E001"
+    ],
+    "required_followup": "Seek dated local follow-up."
+  }
+]

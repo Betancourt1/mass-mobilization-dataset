@@ -1,0 +1,34 @@
+[
+  {
+    "gap_id": "slovenia_2025-07_G001",
+    "source_ids": [
+      "SL25-07-S004"
+    ],
+    "topic": "Solčava Petrol-station protest lead",
+    "summary": "Search snippet reports a distinct 13 July residents’ protest over Petrol’s station closure and an appeal to decision-makers. No body was opened; do not merge with protests in other towns or infer a headcount.",
+    "affected_dimensions": [
+      "occurrence",
+      "threshold",
+      "state_target",
+      "source_independence"
+    ],
+    "next_permitted_action": "If material, assess exact Solčava report URL against fresh local controls and obtain a fresh receipt before opening; determine exact attendance and whether the state, private operator, or both were addressed."
+  },
+  {
+    "gap_id": "slovenia_2025-07_G002",
+    "source_ids": [
+      "SL25-07-S001",
+      "SL25-07-S002",
+      "SL25-07-S003"
+    ],
+    "topic": "Ježica episode resolution",
+    "summary": "Three reports refer to one 16 July gathering. Attendance estimates conflict (about 100 versus about 300); all exceed threshold but share possible police-source dependence. No downstream state response is documented.",
+    "affected_dimensions": [
+      "count_conflict",
+      "source_independence",
+      "state_response",
+      "end_date"
+    ],
+    "next_permitted_action": "Independent review can assess sufficiency of contemporaneous evidence and preserve all count/source limitations; no body reread needed."
+  }
+]
