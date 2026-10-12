@@ -1,0 +1,71 @@
+[
+  {
+    "gap_id": "mali_2023-01_G001",
+    "type": "threshold_and_state_target",
+    "description": "Jan 14 Bamako caravan is body-confirmed and tear-gas dispersal is reported, but attendance is unnumbered and the stated purpose was welcoming a traveler, with no demand on Mali’s government identified. The underlying article is credited to L’Essor.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "mali_2023-01_E002"
+    ],
+    "required_followup": "Independent contemporary account identifying purpose/target and simultaneous crowd count; do not treat same-day state commemoration as proof this was anti-state."
+  },
+  {
+    "gap_id": "mali_2023-01_G002",
+    "type": "threshold_and_continuity",
+    "description": "Jan 30 Sénou street demonstration is confirmed by Mali24; no count or physical ending is provided. Mali Actu search result describes a student delegation after Jan 26 teacher arrests, but exact body retrieval returned a tool restriction. Relation to the Jan 30 event is uncertain.",
+    "source_ids": [
+      "S002",
+      "S004"
+    ],
+    "affected_candidates": [
+      "mali_2023-01_E001"
+    ],
+    "required_followup": "Independent accessible reporting with attendance at one time, physical end and chronology of any Jan 26 student action. No retry or URL variant for blocked Mali Actu story."
+  },
+  {
+    "gap_id": "mali_2023-01_G003",
+    "type": "public_assembly_and_target",
+    "description": "Studio Tamani reports local-authority teachers in Bamako stopped work Jan 31 over salary arrears but does not describe public assembly or direct addressee.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "mali_2023-01_E003"
+    ],
+    "required_followup": "Independent report of any associated public demonstration, place, target, participant count and duration."
+  },
+  {
+    "gap_id": "mali_2023-01_G004",
+    "type": "access_restriction_and_independence",
+    "description": "Mali Actu exact URL returned tool text “Failed to fetch restricted URL”; no HTTP status or publisher-side denial was exposed. The source remains exact-URL blocked only. Its search result may describe a student delegation on an earlier date; no body evidence is used.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "mali_2023-01_E001"
+    ],
+    "required_followup": "No retry, variant or bypass of this URL/story. Use unrelated independent permitted reporting if available."
+  },
+  {
+    "gap_id": "mali_2023-01_G005",
+    "type": "coverage",
+    "description": "Eight captured French/English searches returned mixed-year results, many for the Jan 2022 sovereignty mobilization. Other regions/sectors and Bambara/local-language media remain incompletely covered; web search is not LexisNexis or a comprehensive archive.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "mali_2023-01_E001",
+      "mali_2023-01_E002",
+      "mali_2023-01_E003"
+    ],
+    "required_followup": "Further feasible search should inspect unrelated local/regional outlets and language coverage with genuine date-specific windows, while preserving event-specific uncertainty."
+  }
+]

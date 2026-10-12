@@ -1,0 +1,48 @@
+[
+  {
+    "candidate_id": "netherlands_2023-01_X001",
+    "title": "Regional public-transport work stoppage beginning 19 January",
+    "source_ids": [
+      "S007",
+      "S003"
+    ],
+    "reason": "DutchNews body describes a two-day strike by regional bus/train workers over pay negotiations and service disruption; it does not report a public protest assembly or simultaneous crowd. A stoppage by itself does not meet the mass-gathering definition. The NOS follow-up search lead is separate and its body could not be retrieved.",
+    "date": "2023-01-19",
+    "date_precision": "day",
+    "location": "Regional bus/train services, including some services in Utrecht and Eindhoven; no public gathering site reported.",
+    "open_question": "Whether any separate public assembly occurred in connection with this labor dispute is not established by this report; this exclusion applies to the reported work stoppage only.",
+    "eligibility": "excluded_no_public_assembly_evidence",
+    "coding_status": "excluded",
+    "notes": "Photo credit ANP is not treated as written-story origin; DutchNews article body has no written origin claim. No crowd pooled from affected service areas."
+  },
+  {
+    "candidate_id": "netherlands_2023-01_X002",
+    "title": "Protest against eviction of Lützerath",
+    "source_ids": [
+      "S008"
+    ],
+    "reason": "Search-only header names Lützerath and points to an event outside Netherlands; no in-country event is supported by the captured header.",
+    "date": null,
+    "date_precision": "unknown",
+    "location": "Lützerath (outside Netherlands; no body opened).",
+    "open_question": "No event details or count used; no Dutch participation/location indicated.",
+    "eligibility": "excluded_outside_country",
+    "coding_status": "excluded",
+    "notes": "Screened from the January Netherlands corpus based on captured title/location only; no body evidence."
+  },
+  {
+    "candidate_id": "netherlands_2023-01_X003",
+    "title": "Iranian diaspora demonstration against executions in The Hague",
+    "source_ids": [
+      "S010"
+    ],
+    "reason": "The contemporary report describes “enkele tientallen” (a few dozen) participants outside the Foreign Affairs Ministry, below the dataset threshold of 50. The state-directed demand is separately documented; exclusion is based on reported attendance.",
+    "date": "2023-01-07",
+    "date_precision": "day",
+    "location": "Outside the Ministry of Foreign Affairs, The Hague.",
+    "open_question": "No exact headcount or estimate method is provided; the report’s “few dozen” remains below 50.",
+    "eligibility": "excluded_threshold",
+    "coding_status": "excluded",
+    "notes": "The story attribution is ANP, distinct from Associated Press. Organizer’s reported demand was for the Netherlands and EU to take stronger action over executions in Iran."
+  }
+]

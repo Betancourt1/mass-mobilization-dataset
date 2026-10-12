@@ -1,0 +1,56 @@
+[
+  {
+    "gap_id": "madagascar_2023-03_G001",
+    "type": "threshold",
+    "description": "The 7 March Vontovorona student protest is body-confirmed with exact location, demands, tear-gas dispersal and reported end time, but no crowd count supports the ≥50 threshold.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "madagascar_2023-03_E001"
+    ],
+    "required_followup": "Independent attendance estimate for the Vontovorona site at one time."
+  },
+  {
+    "gap_id": "madagascar_2023-03_G002",
+    "type": "occurrence_date_threshold_and_continuity",
+    "description": "Newsmada and Midi search-rendered excerpts indicate students returned to the street at Vontovorona on 22 March and mention relative crowd decline only. Both body retrievals failed (Newsmada internal error text includes 406; Midi PDF returned maintenance mode after redirect). No absolute count or continuous chronology is established.",
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "madagascar_2023-03_E002"
+    ],
+    "required_followup": "Independent accessible report with actual event date, absolute site count, physical end and continuity details. Do not retry the same body URLs or variants."
+  },
+  {
+    "gap_id": "madagascar_2023-03_G003",
+    "type": "threshold_and_continuity",
+    "description": "The 30 March body confirms a separate in-campus Vontovorona student demonstration over scholarships and facilities, but attendance is unknown. Language of resumption indicates recurrence, not an uninterrupted campaign.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "madagascar_2023-03_E003"
+    ],
+    "required_followup": "Site-level attendance estimate and evidence on whether separate March dates formed a continuous episode."
+  },
+  {
+    "gap_id": "madagascar_2023-03_G004",
+    "type": "coverage",
+    "description": "Four French-led searches covered month/general social issues, 1–15 March, 22 March, English broad terms and Vontovorona. Search effort found concentrated student activity and one cancelled cost-of-living march lead; other provinces/sectors and non-French media remain under-covered.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Distinct regional and sector coverage searches if feasible; current negative results do not establish absence."
+  }
+]

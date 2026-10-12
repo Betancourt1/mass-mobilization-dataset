@@ -1,0 +1,122 @@
+[
+  {
+    "gap_id": "MRT23MAR-G001",
+    "type": "threshold",
+    "description": "March 30 COVID contract workers’ sit-in before the Prime Ministry is confirmed by El Hadeth and Le Calame, but neither reports simultaneous attendance.",
+    "candidate_id": "mauritania_2023-03_E001",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-03_E001"
+    ],
+    "required_followup": "Seek permitted location-specific count evidence; keep pending_threshold."
+  },
+  {
+    "gap_id": "MRT23MAR-G002",
+    "type": "state_target_and_threshold",
+    "description": "The March 16 student sit-in at the Professional University Institute is confirmed, but the opened story gives no attendance count, city, petition demands, or evidence that the institute/target is state-owned or a government policy.",
+    "candidate_id": "mauritania_2023-03_E002",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-03_E002"
+    ],
+    "required_followup": "Identify the petition’s contents, institution status and city from a distinct permitted source; find a simultaneous attendance count."
+  },
+  {
+    "gap_id": "MRT23MAR-G003",
+    "type": "threshold_and_continuity",
+    "description": "The Nouadhibou Regional Hospital worker strike began March 1 and included daily protests and a March 25 sit-in, but attendance at any gathering is not reported. A search-only February 20 report of “dozens” is out of month and cannot be assigned to the March action.",
+    "candidate_id": "mauritania_2023-03_E003",
+    "source_ids": [
+      "S004",
+      "S008"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-03_E003"
+    ],
+    "required_followup": "Seek March-specific count and establish whether the daily protests/strike/sit-in form one action; keep unknown end pending."
+  },
+  {
+    "gap_id": "MRT23MAR-G004",
+    "type": "continuity",
+    "description": "February COVID-worker action and March 30 action involve broadly the same worker group and issue, but the sources do not say they are one continuous campaign. March’s event was at a different government site.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-03_E001"
+    ],
+    "required_followup": "Look for an explicit organizer/source link before merging or carrying any attendance across months."
+  },
+  {
+    "gap_id": "MRT23MAR-G005",
+    "type": "post_month_followup",
+    "description": "Search results report Nouadhibou hospital workers ending their strike after a meeting with the regional governor on April 4, but the result is search-only and the body was not opened. March candidate end/response therefore remain unknown except for the worker’s March 25 report of no response.",
+    "candidate_id": "mauritania_2023-03_E003",
+    "source_ids": [
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-03_E003"
+    ],
+    "required_followup": "A later permitted, freshly assessed access action may establish closure; do not reopen these search-only leads without assessment."
+  },
+  {
+    "gap_id": "MRT23MAR-G006",
+    "type": "pending_origin_and_independence",
+    "description": "Cridem search results show additional Nouadhibou hospital reports and student protests, but exact publication dates and story origins are not established. They are not treated as independent corroboration.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-03_E002",
+      "mauritania_2023-03_E003"
+    ],
+    "required_followup": "Resolve publisher/written-origin relationship only through explicit evidence and fresh exact-target assessment before any body request."
+  },
+  {
+    "gap_id": "MRT23MAR-G007",
+    "type": "search_capture_loss",
+    "description": "Three identical Q019 search calls were executed, but their full tool outputs were not durably saved: one output was truncated in the tool handoff, and two subsequent attempts to save the output failed because btoa/TextEncoder were unavailable. Search-log rows preserve the exact known prompt and mark result headers unavailable; empty returned_urls must not be read as zero results. No evidence claim is based on these calls; do not retry.",
+    "query_ids": [
+      "MRT23MAR-Q019-a",
+      "MRT23MAR-Q019-b",
+      "MRT23MAR-Q019-c"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-03_E003"
+    ],
+    "required_followup": "Do not repeat the query or reconstruct results. Use only durable Q001–Q018 and Q020 captures; if a future scope reopens research, choose distinct queries."
+  },
+  {
+    "gap_id": "MRT23MAR-G008",
+    "type": "coverage",
+    "description": "Searches sampled French, Arabic and English for monthly protests, workers, education, women’s events, COVID workers, Nouadhibou, Nouakchott, Zouerate, Rosso, Kaédi and Kiffa, including AMI, Al Akhbar, Cridem and local/international sources. Coverage remains partial: several results were unrelated/out-of-month; no site-specific turnout emerged; regional and sector coverage is not exhaustive. Searches do not establish that other events did not occur. The open web cannot replicate LexisNexis.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S008",
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-03_E001",
+      "mauritania_2023-03_E002",
+      "mauritania_2023-03_E003"
+    ],
+    "required_followup": "At any future extension, target additional independent regional press/union records with week- and sector-specific queries; do not repeat these exact prompts."
+  }
+]

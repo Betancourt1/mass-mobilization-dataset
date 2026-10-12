@@ -1,0 +1,27 @@
+{
+  "unit_id": "jamaica_2023-01",
+  "country": "Jamaica",
+  "month": "2023-01",
+  "status": "researched_open_web_pending_review",
+  "firstpass_complete": true,
+  "official_approved": false,
+  "baseline_gate": "pending_official_baseline",
+  "n_queries": 5,
+  "n_sources": 7,
+  "n_candidates": 2,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 6,
+  "source_access_counts": {
+    "opened": 3,
+    "search_only": 4,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "metadata_unknown": true,
+  "started_at": "2026-10-11T08:11:00Z",
+  "research_model": "gpt-6-luna/high",
+  "completion_scope_note": "First pass complete for this version; two pending-threshold candidates and named follow-ups remain. Official baseline gate remains pending.",
+  "finished_at": "2026-10-11T08:19:00Z",
+  "coverage_assessment": "Bounded initial English open-web pass. Two actual local roadblock candidates were found, both pending threshold; systematic parish/week and sector follow-up remains unfinished. No exhaustive or official completion claim."
+}

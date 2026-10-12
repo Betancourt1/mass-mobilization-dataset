@@ -1,0 +1,66 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold",
+    "description": "The 3-Feb action outside the Interior Ministry is documented but the article says 42 organizations acted at representatives level and there were more police than participants; it does not give 50 or more attendees. Organization count cannot be converted into people.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-02_E001"
+    ],
+    "required_followup": "Find an event-specific simultaneous crowd estimate, and independently review inclusion of demands directed at Northern Cyprus de facto authorities in the Cyprus unit."
+  },
+  {
+    "gap_id": "G002",
+    "type": "evidence",
+    "description": "Dialogos search snippet describes a women’s protest at the northern legislature against religious-affairs chair Ahmet Ünsal and a resignation demand, but article body open returned a tool error and the snippet does not expose the article date, attendance or full details. MyKibris announces a separate 7-Feb Presidency protest, but the saved body does not confirm it occurred; these may be distinct or related actions.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-02_E002"
+    ],
+    "required_followup": "No URL retries/variants were made. Seek a separate accessible public report about exact occurrence date/location and whether the 7-Feb announced event occurred; do not merge until relation verified."
+  },
+  {
+    "gap_id": "G003",
+    "type": "threshold",
+    "description": "The 22-Feb quarry/concrete manufacturers protest is reported outside the Presidential Palace, but the article says about 60 heavy vehicles travelled from Paphos and supplies no number of people. The body also says the vehicles were just outside Nicosia at 09:15, leaving exact arrival/location chronology unclear.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-02_E003"
+    ],
+    "required_followup": "Seek event-specific attendee count and follow-up confirming arrival and physical action at the Palace; never count vehicles as people."
+  },
+  {
+    "gap_id": "G004",
+    "type": "coverage",
+    "description": "Ten actual query batches and 236 result headers are captured across English, Greek and Turkish, with broad and approximate weekly/date searches and local Cyprus/Turkish-Cypriot sources. Date filters were not reliably respected, and results surfaced old, future and out-of-window material. Specific leads on hotel/port work stoppages need public-gathering/state-target verification. This is partial open-web coverage, not evidence of absence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search more local archives for under-covered dates/regions and education, health, agriculture and transport sectors; validate public gathering and state linkage before coding workplace-only stoppages."
+  },
+  {
+    "gap_id": "G005",
+    "type": "continuity",
+    "description": "MyKibris recounts January protest actions in the same Ünsal campaign, but this does not establish that the 3-Feb action was physically continuous from January. The 7-Feb event is announced, not confirmed. An opened Cyprus Times story dated 10 April reports later electricity/procurement protests, but it does not establish any February action or continuity. No February candidate is merged across dates or into March.",
+    "source_ids": [
+      "S002",
+      "S004"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-02_E001",
+      "cyprus_2023-02_E002",
+      "cyprus_2023-02_E003"
+    ],
+    "required_followup": "Review adjacent-month records for same-campaign continuity and actual intervening activity; preserve the 10-Apr story as out-of-window only."
+  }
+]

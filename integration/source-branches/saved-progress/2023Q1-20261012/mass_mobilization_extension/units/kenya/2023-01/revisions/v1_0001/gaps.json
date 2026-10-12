@@ -1,0 +1,37 @@
+[
+  {
+    "gap_id": "KENJAN-G001",
+    "type": "eligibility_threshold",
+    "description": "The intact Jan 23 report establishes rally occurrence, location and state-directed demands but gives no simultaneous attendance estimate. The prior The Star rendered body was observed but its complete raw bytes were lost in a filename collision; this revision treats it as search-only and does not rely on it for threshold or field coding.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "kenya_2023-01-E001"
+    ],
+    "required_followup": "Use a distinct permitted source with a documented site-level count; do not retry The Star or infer attendance from a photograph/headline."
+  },
+  {
+    "gap_id": "KENJAN-G002",
+    "type": "search_coverage",
+    "description": "Twelve captured open-web search calls in English and Swahili covered four January date-window prompts and targeted the Jan 23 rally. Results were pooled/noisy; no systematic print/archive or LexisNexis search and no exhaustive claim.",
+    "source_ids": [],
+    "affected_candidates": [
+      "kenya_2023-01-E001"
+    ],
+    "required_followup": "If further bounded coverage is required, search distinct local/regional sources and sectors; preserve search-only leads and use exact-URL assessment before any new body."
+  },
+  {
+    "gap_id": "KENJAN-G003",
+    "type": "source_integrity",
+    "description": "The Star full raw response at the prior path is unavailable; only prior observed SHA256 and a limited paraphrase are preserved in the canonical audit. No retry/reconstruction was made.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "kenya_2023-01-E001"
+    ],
+    "required_followup": "Keep the loss audit and current raw bytes intact; exclude The Star from decisive field evidence."
+  }
+]

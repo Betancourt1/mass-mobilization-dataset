@@ -1,0 +1,60 @@
+[
+  {
+    "gap_id": "china_2023-03_G001",
+    "type": "eligibility_evidence",
+    "description": "Search-result chronology snippets list 7 March 2023 under the China health-insurance protests, but queries Q001–Q011 located no contemporaneous report identifying an actual March gathering, city/site, simultaneous attendance or own-state demand. The lead may be an unsupported chronology entry or a continuation of February; no March event is established.",
+    "source_ids": [
+      "CN23-03-S002"
+    ],
+    "affected_candidates": [
+      "china_2023-03_E001"
+    ],
+    "required_followup": "If a future pass is authorized, seek a distinct contemporaneous local/organizer report or cited underlying source for the 7 March entry; verify occurrence, location, count, demand and relationship to February before coding."
+  },
+  {
+    "gap_id": "china_2023-03_G002",
+    "type": "eligibility_evidence",
+    "description": "A regional query Q013 surfaced search-only leads for Foshan factory workers, Guangxi construction workers, Zigong homeowners, Xuchang homeowners and Zhanjiang homeowners. The exact YouTube page was assessed and opened once; it returned a technical Internal Error with no HTTP status, and no body was read or retried. These leads lack underlying body evidence, precise dates, attendance counts and/or a demonstrated state-policy target.",
+    "source_ids": [
+      "CN23-03-S003"
+    ],
+    "affected_candidates": [
+      "china_2023-03_E002",
+      "china_2023-03_E003",
+      "china_2023-03_E004",
+      "china_2023-03_E005",
+      "china_2023-03_E006"
+    ],
+    "required_followup": "If material in a later bounded pass, identify distinct local reporting, organizer or public-authority sources for individual leads; assess each exact URL before action. Do not retry or vary the failed YouTube target, and do not use its snippet as verified event evidence."
+  },
+  {
+    "gap_id": "china_2023-03_G003",
+    "type": "episode_ownership",
+    "description": "The March 7 chronology lead could be related to February Wuhan retiree health-insurance demonstrations, but the search-only result does not establish place, participants, issue or whether any gathering occurred. It cannot be grouped as a continuation or counted as a new March onset.",
+    "source_ids": [
+      "CN23-03-S002"
+    ],
+    "affected_candidates": [
+      "china_2023-03_E001"
+    ],
+    "required_followup": "Resolve the source and event facts first; only then assess onset month and whether the March report is a separate gathering or continuation of the February campaign."
+  },
+  {
+    "gap_id": "china_2023-03_G004",
+    "type": "search_coverage",
+    "description": "Thirteen captured open-web queries covered four weekly date windows in Chinese and English, a Chinese March 7 Wuhan follow-up, Chinese and English labor/wage/property/environment/education searches, a regional query for Beijing, Shanghai, Guangdong, Henan and Sichuan, and a quarterly Freedom House monitoring overview. Results were noisy, concentrated on the February health-insurance episode and broad monitor aggregates; this was not province-by-province coverage and did not access a structured event-level archive.",
+    "source_ids": [
+      "CN23-03-S001",
+      "CN23-03-S003"
+    ],
+    "affected_candidates": [
+      "china_2023-03_E001",
+      "china_2023-03_E002",
+      "china_2023-03_E003",
+      "china_2023-03_E004",
+      "china_2023-03_E005",
+      "china_2023-03_E006"
+    ],
+    "required_followup": "A future bounded pass can extend local-language searches to additional regions and seek original local accounts for the five Q013 leads; current results support no exhaustive or zero-protest claim."
+  }
+]

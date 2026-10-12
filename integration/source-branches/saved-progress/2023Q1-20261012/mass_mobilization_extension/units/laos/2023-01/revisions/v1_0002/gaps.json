@@ -1,0 +1,30 @@
+[
+  {
+    "gap_id": "laos_2023-01_G001",
+    "type": "retrieval_failure_and_year_uncertainty",
+    "description": "Q001/Q003/Q013 surfaced a 2022 State Department human-rights report snippet about Chinese workers protesting unpaid wages and a January dispersal in Khammouane. The exact report open returned a rendered technical/forbidden message with no HTTP status or report body; the incident year is not confirmed from a readable report and is not coded as a 2023 event.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry the exact URL or variants; only a distinct independently permitted source with clear date and event details could resolve the year/turnout."
+  },
+  {
+    "gap_id": "laos_2023-01_G002",
+    "type": "archive_coverage",
+    "description": "Q013/Q014 surfaced a selected Vientiane Times 3 January page with a limited set of headlines. No event body was read; it cannot represent the full issue or month archive.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Broader local archive and provincial reporting remain unreviewed; do not infer no protests from the selected page."
+  },
+  {
+    "gap_id": "laos_2023-01_G003",
+    "type": "coverage",
+    "description": "Fifteen English/Lao open-web queries returned saved search-result headers, but coverage of non-indexed Lao-language media, provincial sources and systematic newspaper archives remains incomplete. Q013’s January 2023 public-assembly result concerned Thailand and is outside the Laos country scope.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent provincial/local-language archive coverage if available; no exhaustive or zero-event claim."
+  }
+]

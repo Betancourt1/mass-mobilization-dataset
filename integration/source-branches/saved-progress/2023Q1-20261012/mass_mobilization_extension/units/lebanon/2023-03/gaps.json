@@ -1,0 +1,205 @@
+[
+  {
+    "gap_id": "lebanon_2023-03_G001",
+    "type": "threshold",
+    "description": "March 6 Beirut and Tripoli teacher sit-ins and the March 13 Beirut secondary-teacher sit-in are confirmed, but the opened contemporaneous reports give no site-specific headcount. L’Orient snippets that say “dozens” are held/search-only and were not used.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-03_E001",
+      "lebanon_2023-03_E002",
+      "lebanon_2023-03_E003"
+    ],
+    "required_followup": "Find a permitted non-held body or primary record with simultaneous headcount for each actual site; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "lebanon_2023-03_G002",
+    "type": "threshold_and_state_target",
+    "description": "March 21 roadblocks are reported at separate sites in Beirut, Tripoli, Akkar, Bekaa, north Lebanon and Tyre. There is no per-site count. Arab News says “hundreds” across Beirut, Tripoli and Bekaa collectively; this cannot be assigned to any single site. Several reports frame the grievance as economic conditions/currency without a clear state-policy addressee at each site.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-03_E004",
+      "lebanon_2023-03_E005",
+      "lebanon_2023-03_E006",
+      "lebanon_2023-03_E007",
+      "lebanon_2023-03_E008",
+      "lebanon_2023-03_E009",
+      "lebanon_2023-03_E010",
+      "lebanon_2023-03_E011"
+    ],
+    "required_followup": "Seek site-specific contemporary reporting or records, especially attendance and direct demands; preserve local candidates separately and do not allocate aggregate estimates."
+  },
+  {
+    "gap_id": "lebanon_2023-03_G003",
+    "type": "threshold",
+    "description": "March 22 Beirut retired military/depositor crowd is reported as “hundreds” by The National, enough for a provisional threshold, but exact number and method are absent. LBCI corroborates occurrence and response but does not independently count.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S016"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-03_E012"
+    ],
+    "required_followup": "Independent permitted numeric or qualitative count and fuller organizer/episode context."
+  },
+  {
+    "gap_id": "lebanon_2023-03_G004",
+    "type": "threshold_and_date_precision",
+    "description": "The Saida public-administration employees’ sit-in is documented by three reports, but no count establishes 50 at that courtyard. Daily Beirut labels the article Thursday March 23, while Janobiyat and IMLebanon date the action March 22; maintain March 22 provisionally with the publication/event-date mismatch visible.",
+    "source_ids": [
+      "S005",
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-03_E013"
+    ],
+    "required_followup": "Resolve exact event date if possible and obtain a simultaneous crowd estimate at Saida; do not aggregate attendees or actions in other governorates."
+  },
+  {
+    "gap_id": "lebanon_2023-03_G005",
+    "type": "continuity_and_end",
+    "description": "None of the March bodies gives a clear physical end date/time for the teacher gatherings, March 21 blockades or March 22 demonstrations. The ongoing teachers’ strike/public-administration strike is contextual, not evidence that a street assembly remained continuous.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-03_E001",
+      "lebanon_2023-03_E002",
+      "lebanon_2023-03_E003",
+      "lebanon_2023-03_E004",
+      "lebanon_2023-03_E005",
+      "lebanon_2023-03_E006",
+      "lebanon_2023-03_E007",
+      "lebanon_2023-03_E008",
+      "lebanon_2023-03_E009",
+      "lebanon_2023-03_E010",
+      "lebanon_2023-03_E011",
+      "lebanon_2023-03_E012",
+      "lebanon_2023-03_E013"
+    ],
+    "required_followup": "Retrospective or follow-up reporting explicitly establishing closure or sustained public assembly; do not set same-day end by default."
+  },
+  {
+    "gap_id": "lebanon_2023-03_G006",
+    "type": "held_source",
+    "description": "L’Orient/L’Orient Today results on March 6 and March 13 teacher protests, March 22 Beirut protests and Tripoli road actions remain search-only under the held source-family restriction. No bodies or variants were requested; all snippets remain discovery only.",
+    "source_ids": [
+      "S013",
+      "S014",
+      "S016",
+      "S017"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-03_E001",
+      "lebanon_2023-03_E002",
+      "lebanon_2023-03_E003",
+      "lebanon_2023-03_E004",
+      "lebanon_2023-03_E012"
+    ],
+    "required_followup": "No follow-up to held sources; use separately permitted sources only."
+  },
+  {
+    "gap_id": "lebanon_2023-03_G007",
+    "type": "source_independence",
+    "description": "Saida City Net’s search result carries near-identical headline and long text to Daily Beirut S005, while IMLebanon S011 explicitly attributes its shorter story to NNA. No explicit origin/republishing relationship was resolved for Saida City Net or between Daily Beirut and Janobiyat. Do not count these as independent attendance confirmation; none supplies a number.",
+    "source_ids": [
+      "S005",
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-03_E013"
+    ],
+    "required_followup": "Check explicit article/source attribution in any permitted further record; do not infer independence from different domains."
+  },
+  {
+    "gap_id": "lebanon_2023-03_G008",
+    "type": "announcement_or_work_stoppage",
+    "description": "Search outputs surfaced a private-school teachers’ strike on March 14 and an undated/unclear-year prospective teachers’ sit-in plan. A strike or announcement alone does not verify a qualifying public gathering. The March 9 Saida women’s vigil was body-opened and is separately coded as E014 pending threshold.",
+    "source_ids": [
+      "S015",
+      "S019"
+    ],
+    "affected_candidates": [],
+    "required_followup": "For dated leads, seek allowed post-event sources that establish occurrence, date, site, state demand and simultaneous attendance; otherwise retain discovery-only."
+  },
+  {
+    "gap_id": "lebanon_2023-03_G009",
+    "type": "coverage",
+    "description": "Eleven captured searches cover English and Arabic, with queries about general March mobilization, teachers, public employees, retirees, roadblocks and regional sites. Coverage is partial, not exhaustive: no Lexis-Nexis equivalent, no systematic official/union archive review, limited French-language searching, and many sectors/dates/governorates remain under-covered. Native search clocks are unavailable; captures preserve exact query/returned headers and rendered outputs.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Further date-window, sector and governorate searches across permitted local/international sources; baseline and archive gates remain open."
+  },
+  {
+    "gap_id": "lebanon_2023-03_G010",
+    "type": "continuity",
+    "description": "March teacher sit-ins are possibly related to the January public-teacher mobilization/strike, but the evidence establishes new dated assemblies, not a continuous physical gathering. March public-employee sit-in may relate to the ongoing sector strike, but direct link to any earlier candidate is not demonstrated.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-03_E001",
+      "lebanon_2023-03_E002",
+      "lebanon_2023-03_E003",
+      "lebanon_2023-03_E013"
+    ],
+    "required_followup": "Compare neighboring-month evidence during review; do not duplicate continuing physical events or merge separate action days without direct linkage."
+  },
+  {
+    "gap_id": "lebanon_2023-03_G011",
+    "type": "threshold",
+    "description": "SaidaOnline body confirms a March 9 solidarity vigil at Ilya Square with own-state political/economic criticism, but reports only “a number of mothers and women” and no count; >=50 simultaneous attendance is unproven.",
+    "source_ids": [
+      "S018"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-03_E014"
+    ],
+    "required_followup": "Find a permitted contemporaneous source with a site-specific attendance estimate; otherwise retain pending_threshold."
+  }
+]

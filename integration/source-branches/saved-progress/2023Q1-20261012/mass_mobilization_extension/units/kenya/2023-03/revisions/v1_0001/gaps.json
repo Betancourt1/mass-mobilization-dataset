@@ -1,0 +1,69 @@
+[
+  {
+    "gap_id": "KENMAR-G001",
+    "type": "episode_continuity",
+    "description": "The Mar 10 Kisumu action, Mar 20 national call/actions, Mar 27 protests and Mar 30 third round may belong to one continuing sequence, but reporting does not establish daily execution or exact episode boundaries. Keep dates/candidates separate pending review.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "kenya_2023-03-E001",
+      "kenya_2023-03-E002",
+      "kenya_2023-03-E003",
+      "kenya_2023-03-E004"
+    ],
+    "required_followup": "Seek explicit accounts of actual intervening activity and episode boundaries; announcements/intended daily actions do not establish occurrence or end dates."
+  },
+  {
+    "gap_id": "KENMAR-G002",
+    "type": "eligibility_threshold",
+    "description": "Counts are site-specific: Mar 20 “hundreds” in Kibera and Mar 27 “thousands” in Nairobi support those gatherings; Mar 30 reports crowds in Nairobi/Kisumu without site-level participant totals, so E004 remains pending threshold.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "kenya_2023-03-E004"
+    ],
+    "required_followup": "Find a permitted site-specific simultaneous count for Mar 30; do not pool Nairobi and Kisumu or use crowd language as an exact threshold."
+  },
+  {
+    "gap_id": "KENMAR-G003",
+    "type": "source_origin_and_scope",
+    "description": "S003 is explicitly Reuters-origin; S005 is also Reuters-origin and is not independent corroboration. S004 has a News Agencies byline and mixed photo credits, which do not establish written-story origin. S001 is partial behind a subscription prompt.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "kenya_2023-03-E001",
+      "kenya_2023-03-E002",
+      "kenya_2023-03-E003",
+      "kenya_2023-03-E004"
+    ],
+    "required_followup": "Treat origin and independence conservatively; seek distinct local written reporting where it materially adds evidence."
+  },
+  {
+    "gap_id": "KENMAR-G004",
+    "type": "search_coverage",
+    "description": "Fifteen captured open-web searches in English and Swahili covered four windows, targeted March 10/20/27/30, Nairobi/Kisumu/Mombasa/Nakuru and local turnout searches. Search results were pooled/noisy; no systematic archive/print or LexisNexis search; CrisisWatch exact URL returned a tool internal error with no HTTP status and was not retried.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "kenya_2023-03-E001",
+      "kenya_2023-03-E002",
+      "kenya_2023-03-E003",
+      "kenya_2023-03-E004"
+    ],
+    "required_followup": "Additional distinct local/regional sources and sectors may be searched if needed; preserve the CrisisWatch technical gap and do not infer a site denial."
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "gap_id": "G001",
+    "topic": "E001 18-Mar attendance at threshold",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "summary": "L’Express says approximately “une cinquantaine” gathered near Jardin de la Compagnie. That is near 50 but not an exact or explicitly bounded minimum; Defi Media confirms the event without a count.",
+    "follow_up": "Have reviewer decide whether the approximate local count supports ≥50 simultaneously at one site; otherwise retain pending_threshold. Do not pool route participants, other event dates, or FPU turnout."
+  },
+  {
+    "gap_id": "G002",
+    "topic": "E002 3-Mar attendance threshold and crowd scope",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "summary": "Eight arrests and reports of more than ten/twelve including journalists establish an actual small gathering but not a complete headcount or ≥50.",
+    "follow_up": "Seek another permitted independent local report with an explicit event-site total if useful; otherwise preserve null upper bound and pending_threshold. Do not infer 50 from legal threshold or journalist presence."
+  },
+  {
+    "gap_id": "G003",
+    "topic": "E003 FPU pension demonstration lead",
+    "source_ids": [
+      "S005"
+    ],
+    "summary": "Search excerpt reports a 17-Mar FPU demonstration at Government House around pension funds. The exact Sunday Times issue PDF returned 403; body, count and specific state demand are unavailable.",
+    "follow_up": "No retry or URL variant. Seek another independent permitted report on whether a public gathering occurred, site-specific attendance and demand-to-state linkage; otherwise retain pending_evidence."
+  },
+  {
+    "gap_id": "G004",
+    "topic": "E001 possible next action on 24-Mar",
+    "source_ids": [
+      "S003",
+      "S008"
+    ],
+    "summary": "L’Express says LPM promised another march the following Friday. Searches Q005 and Q010/Q011/Q012 did not establish that a further March 24 gathering occurred; Q010’s result is legal follow-up to the 3-Mar arrests, not protest continuation.",
+    "follow_up": "Keep the promised action separate and unverified unless a permitted after-action report is found. Do not treat court proceedings as protest continuity."
+  },
+  {
+    "gap_id": "G005",
+    "topic": "March regional and sector coverage",
+    "source_ids": [
+      "S005",
+      "S007"
+    ],
+    "summary": "Queries covered Port-Louis and Rodrigues, plus public services/health/education/transport and port/union terms. Rodrigues-targeted results mainly surfaced May or historical items; the health/worker query returned a South African strike first; no verified Mauritius district-specific event emerged from this bounded pass.",
+    "follow_up": "A resumed pass can target district/island reporting and unions/sectors more narrowly in Mauritian French, English and Creole spellings; non-discovery is not evidence of no event."
+  },
+  {
+    "gap_id": "G006",
+    "topic": "Coverage and baseline limitations",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "summary": "Twelve saved web search responses expose 282 result headers but no native total-result counts or execution timestamps. No systematic every-district search, LexisNexis/archive search, official baseline comparison or comprehensive Creole coverage was available.",
+    "follow_up": "Keep official baseline/licensing and broader source coverage pending; do not claim exhaustiveness or official completion."
+  }
+]
+

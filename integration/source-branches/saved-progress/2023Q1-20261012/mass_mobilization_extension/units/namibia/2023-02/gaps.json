@@ -1,0 +1,48 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "origin_and_threshold",
+    "description": "CIVICUS body states at least 500 participants in February, while its link targets are not exposed as exact URLs in the saved body. Opened Observer follow-up says close 500 ward cleaners went on strike in February but does not count a specific gathering. Count provenance and independent corroboration are unresolved.",
+    "source_ids": [
+      "S001",
+      "S024"
+    ],
+    "affected_candidates": [
+      "namibia_2023-02_E001"
+    ],
+    "required_followup": "Identify the exact linked contemporaneous report only through a new search or exact recorded link; assess origin and whether an estimate refers to a simultaneous public gathering. Do not use un-opened snippets as verification."
+  },
+  {
+    "gap_id": "G002",
+    "type": "date_site_end_continuity",
+    "description": "February event day, specific site, duration/end, and relation to the 1 March repeat action are unknown; no date is inferred from a search-result-only New Era snippet.",
+    "source_ids": [
+      "S001",
+      "S024"
+    ],
+    "affected_candidates": [
+      "namibia_2023-02_E001"
+    ],
+    "required_followup": "Seek a distinct contemporaneous account for day/site and explicit episode close; no follow-up by reopening the New Era URL after its verification challenge."
+  },
+  {
+    "gap_id": "G003",
+    "type": "retrieval_and_capture_integrity",
+    "description": "The exact New Era article URL returned only a verification-loader challenge with no HTTP status exposed. Its first raw output was overwritten when a subsequent body capture reused the same filename; no retry/reconstruction was made. This is a retrieval/capture gap, not an established HTTP denial.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "namibia_2023-02_E001"
+    ],
+    "required_followup": "Use other separately assessed public sources; preserve the existing receipt and challenge metadata. Do not retry the exact URL."
+  },
+  {
+    "gap_id": "G004",
+    "type": "coverage",
+    "description": "Two English search-response records were captured, but province/sector and local-language coverage is incomplete; open-web search does not reproduce LexisNexis.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with distinct local/regional and sector coverage searches; do not claim exhaustive absence."
+  }
+]

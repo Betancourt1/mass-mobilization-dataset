@@ -1,0 +1,145 @@
+[
+  {
+    "gap_id": "CRI-MAR-G001",
+    "type": "query_capture",
+    "description": "Se conserva la salida raw de una consulta ejecutada (Q017), pero se perdió su texto exacto. No se reconstruyó ni se creó una fila; su resultado solo produjo una pista search-only (S029), no usada como prueba.",
+    "source_ids": [
+      "S029"
+    ],
+    "affected_candidates": [
+      "costa_rica_2023-03_E004"
+    ],
+    "required_followup": "Si se autoriza una revisión posterior, iniciar nuevas consultas identificables; no atribuir retrospectivamente un prompt a Q017 ni usar S029 para codificar."
+  },
+  {
+    "gap_id": "CRI-MAR-G002",
+    "type": "eligibility_evidence",
+    "description": "El plantón del Colegio Humanístico (E006) está documentado por Delfino y CR Hoy, pero las fuentes abiertas no aportan un conteo simultáneo. Una acción para el 2 de marzo en Hacienda aparece solo como condicional/anunciada; no hay prueba de ejecución.",
+    "source_ids": [
+      "S015",
+      "S016",
+      "S017"
+    ],
+    "affected_candidates": [
+      "costa_rica_2023-03_E006"
+    ],
+    "required_followup": "Buscar evidencia permitida de asistencia simultánea en el sitio y verificar por separado si se realizó la acción anunciada para el 2 de marzo."
+  },
+  {
+    "gap_id": "CRI-MAR-G003",
+    "type": "eligibility_evidence",
+    "description": "El cierre de portones del CTP La Fortuna se reportó durante dos días y la respuesta del MEP está documentada, pero no hay cifra de participantes reunidos simultáneamente.",
+    "source_ids": [
+      "S018",
+      "S019"
+    ],
+    "affected_candidates": [
+      "costa_rica_2023-03_E008"
+    ],
+    "required_followup": "Buscar una fuente permitida independiente con conteo de asistentes en el sitio; no inferir tamaño desde estudiantes, familias o personal matriculado."
+  },
+  {
+    "gap_id": "CRI-MAR-G004",
+    "type": "eligibility_evidence",
+    "description": "La acción coordinada de estudiantes del 10 de marzo tuvo bloqueos en San Pedro y Heredia, pero las fuentes no dan conteos para cada punto ni un total simultáneo. No se suman localidades.",
+    "source_ids": [
+      "S020",
+      "S021"
+    ],
+    "affected_candidates": [
+      "costa_rica_2023-03_E009"
+    ],
+    "required_followup": "Buscar recuentos por sitio y aclarar si se trató de puntos simultáneos de una misma acción; nunca sumar cifras de sitios sin base de simultaneidad."
+  },
+  {
+    "gap_id": "CRI-MAR-G005",
+    "type": "eligibility_evidence",
+    "description": "Para la protesta del CTP Santa Ana del 13 de marzo, Telediario aporta solo título, subtítulo, fecha y etiquetas; Repretel devolvió HTTP 403 en la URL exacta y una página de consulta del IIS-UCR agotó el tiempo. La evidencia abierta no resuelve aforo ni demanda concreta al Estado.",
+    "source_ids": [
+      "S022",
+      "S023",
+      "S024"
+    ],
+    "affected_candidates": [
+      "costa_rica_2023-03_E010"
+    ],
+    "required_followup": "Usar fuentes públicas permitidas distintas para confirmar asistencia simultánea y demanda/decisor. No reintentar Repretel ni una variante de esa URL; el timeout UCR es brecha técnica, no denegación."
+  },
+  {
+    "gap_id": "CRI-MAR-G006",
+    "type": "eligibility_evidence",
+    "description": "Semanario describe un 'grupo de jóvenes' en la protesta del 17 de marzo frente a Casa Presidencial, sin cifra. La noticia la presenta como segunda acción de la campaña contra tarifas y servicio, pero no establece aforo simultáneo.",
+    "source_ids": [
+      "S025",
+      "S026",
+      "S027"
+    ],
+    "affected_candidates": [
+      "costa_rica_2023-03_E011"
+    ],
+    "required_followup": "Buscar conteo para el acto concreto del 17 de marzo. Mantenerlo distinto de la acción del 10; no tratar el anuncio de Movimiento del Este como ejecución independiente."
+  },
+  {
+    "gap_id": "CRI-MAR-G007",
+    "type": "eligibility_evidence",
+    "description": "La caminata agrícola del 2 de marzo en San Isidro/Vázquez de Coronado solo aparece en un resultado de la base IIS-UCR; no se obtuvo una narración abierta para verificar aforo, demanda detallada o carácter público.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [
+      "costa_rica_2023-03_E007"
+    ],
+    "required_followup": "Buscar cobertura pública local o institucional permitida que confirme acto, sitio, demanda y participantes simultáneos; no elevar el snippet a evento verificado."
+  },
+  {
+    "gap_id": "CRI-MAR-G008",
+    "type": "search_coverage",
+    "description": "La primera pasada fue búsqueda web abierta en español e inglés con ventanas de marzo y noticias nacionales/locales; búsquedas dirigidas a 8M, agricultura, empleo público/sindicatos, policía, centros educativos y transporte. Cobertura concentrada en San José, Heredia y Limón; no es exhaustiva por provincia, sector o archivo. El recuento tiene 31 filas exactas y una salida raw sin prompt recuperable.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S014",
+      "S020",
+      "S027",
+      "S029"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Una revisión adicional puede dirigirse a archivos locales/provinciales y sectores no cubiertos. No inferir ausencia de protestas; no se consultó Lexis ni un archivo sistemático de prensa."
+  },
+  {
+    "gap_id": "CRI-MAR-G009",
+    "type": "event_closure",
+    "description": "Las notas contemporáneas no documentan explícitamente el cierre o duración completa de la mayoría de las acciones; fecha del reporte o último día reportado no se codifica como finalización. En 8M solo se documenta el cierre de la marcha, no el fin de actividades culturales.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S007",
+      "S008",
+      "S009",
+      "S015",
+      "S018",
+      "S020",
+      "S027"
+    ],
+    "affected_candidates": [
+      "costa_rica_2023-03_E001",
+      "costa_rica_2023-03_E002",
+      "costa_rica_2023-03_E003",
+      "costa_rica_2023-03_E005",
+      "costa_rica_2023-03_E006",
+      "costa_rica_2023-03_E009",
+      "costa_rica_2023-03_E011"
+    ],
+    "required_followup": "Registrar fechas finales solo si una fuente documenta cierre explícito o un relato retrospectivo completo."
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "gap_id": "mozambique_2023-03_G001",
+    "type": "state_target",
+    "description": "The 18 March Maputo crowd is reported as an Azagaia homage march. CDD says Parlamento Juvenil notified authorities of the march objective but does not reproduce that objective; the evidence therefore does not establish a demand directed at the Mozambican state/policy.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-03_E001"
+    ],
+    "required_followup": "Seek the actual notice or organizer statement, if publicly available and permitted, to determine whether the march included a government-directed demand."
+  },
+  {
+    "gap_id": "mozambique_2023-03_G002",
+    "type": "event_unitization",
+    "description": "CDD reports marches in Maputo and several provincial capitals, while the contemporaneous Lusa article only lists additional planned cities. This checkpoint codes only the Maputo site and does not merge unidentified provincial gatherings into it.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-03_E001"
+    ],
+    "required_followup": "Identify actual activity by city and organizer/route; evaluate each site’s crowd separately before deciding whether a national organized action is one event."
+  },
+  {
+    "gap_id": "mozambique_2023-03_G003",
+    "type": "attendance",
+    "description": "Maputo is qualitatively described as hundreds; no numeric estimate or count is available. Other city sites have no individual attendance counts.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-03_E001"
+    ],
+    "required_followup": "Seek site-specific contemporary counts without pooling across cities."
+  },
+  {
+    "gap_id": "mozambique_2023-03_G004",
+    "type": "event_continuity",
+    "description": "Reports identify police repression on 18 March but do not document the physical close/last protest activity. The end date remains unknown; the 14 March funeral procession is treated as a distinct lead, not an assumed continuation.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-03_E001"
+    ],
+    "required_followup": "Search follow-up reporting and organizer accounts for the end or any later continuation; do not infer end from article date or dispersal alone."
+  },
+  {
+    "gap_id": "mozambique_2023-03_G005",
+    "type": "source_independence_and_coverage",
+    "description": "RTP and Renascença carry Lusa-attributed versions of the same story and do not count as independent corroboration. CDD is a retrospective report with its own monitoring/mixed-source methodology. Only two March search calls are currently captured; regional/sector/weekly and post-event follow-ups remain incomplete.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-03_E001"
+    ],
+    "required_followup": "Continue searches for contemporaneous local and international reports, identify additional actual locations, and preserve written-origin links."
+  },
+  {
+    "gap_id": "mozambique_2023-03_G006",
+    "type": "baseline_and_method",
+    "description": "Open-web search does not reproduce Lexis-Nexis or establish exhaustive coverage; official baseline/universe and Polity code mapping remain pending.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator baseline gate remains pending; continue bounded research and preserve open gaps."
+  },
+  {
+    "gap_id": "mozambique_2023-03_G007",
+    "type": "state_target_and_event_unitization",
+    "description": "A search result says thousands gathered outside Maputo Municipal Council at Azagaia’s wake on 14 March and chanted “Povo no Poder.” It is not yet clear whether this is a distinct public protest action, what demand the chant expressed, or whether it targeted state policy. No body was opened.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-03_E002"
+    ],
+    "required_followup": "If permitted, exact-URL assessment and body review of VOA to establish the gathering, contextual meaning, and event relation; do not retry any held source or transfer police response from the funeral procession."
+  }
+]

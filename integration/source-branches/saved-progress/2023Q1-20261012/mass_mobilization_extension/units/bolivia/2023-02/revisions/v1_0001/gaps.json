@@ -1,0 +1,77 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "Partial open-web event-led sweep: five captured individual queries in Spanish and English across national/local terms; captured headers include national, regional and official material. Research covered teachers/education and campesino infrastructure, but did not systematically search every week, city, sector or source, nor review full newspaper/archive/official conflict records. Historical access inventory is omitted, not clean. Unknown is not zero and coverage is not exhaustive.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue week-windowed searches for each city and sectors (labor, health, transport, students, farmers, Indigenous communities, mining, prices/pensions, civil/political demands), and review permitted local outlets, organizers, authorities and retrospective conflict sources."
+  },
+  {
+    "gap_id": "G002",
+    "type": "threshold",
+    "description": "The Feb 8 teacher demonstrations are actual and state-targeted, but no numerical attendance for any individual city is established. El Deber says “miles” nationally and reports 37 federations; ANF calls the La Paz group numerous and reports 31 federations/60 unions. These are not site-level simultaneous participant counts.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "bolivia_2023-02_E002"
+    ],
+    "required_followup": "Find independent contemporaneous city-specific attendance counts; distinguish actual La Paz gathering from planned “thousand corners” action and keep each city separate."
+  },
+  {
+    "gap_id": "G003",
+    "type": "threshold",
+    "description": "El País confirms a public campesino group arrived at Tarija plaza on 6 February to demand local public projects but gives only a qualitative “nutrido” description and no headcount.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "bolivia_2023-02_E003"
+    ],
+    "required_followup": "Seek a distinct permitted source with actual simultaneous attendance; do not infer size from federation membership or number of leaders."
+  },
+  {
+    "gap_id": "G004",
+    "type": "continuity",
+    "description": "The La Guardia blockade on Feb 13 was described as indefinite and four hours old; there is no verified physical closure date or report establishing persistence into March. Teacher actions on Feb 8 similarly lack closure evidence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "bolivia_2023-02_E001",
+      "bolivia_2023-02_E002",
+      "bolivia_2023-02_E003"
+    ],
+    "required_followup": "Search adjacent March sources for actual continuation/closure before linking episodes; do not treat intent or last report date as end."
+  },
+  {
+    "gap_id": "G005",
+    "type": "response",
+    "description": "The source descriptions do not establish whether the Feb 13 meeting summons produced accommodation, or whether any police action, arrests, beatings, dispersal, killings or shootings occurred. For the other candidate gatherings, no response is reported.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "bolivia_2023-02_E001",
+      "bolivia_2023-02_E002",
+      "bolivia_2023-02_E003"
+    ],
+    "required_followup": "Seek documented responses for these specific gatherings; preserve unknown absent explicit evidence."
+  }
+]

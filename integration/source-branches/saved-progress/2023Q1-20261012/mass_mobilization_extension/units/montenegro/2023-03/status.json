@@ -1,0 +1,28 @@
+{
+  "unit_id": "montenegro_2023-03",
+  "country": "Montenegro",
+  "month": "2023-03",
+  "status": "researched_open_web_pending_review",
+  "firstpass_complete": true,
+  "official_approved": false,
+  "baseline_gate": "pending_official_baseline",
+  "n_queries": 7,
+  "executed_query_strings_count": 40,
+  "captured_query_strings_count": 28,
+  "n_sources": 10,
+  "n_candidates": 8,
+  "n_excluded": 0,
+  "n_continuations": 1,
+  "n_gaps": 11,
+  "source_access_counts": {
+    "opened": 9,
+    "search_only": 1,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "metadata_unknown": true,
+  "scope_note": "Bounded English and Montenegrin/Serbian web first pass; not exhaustive all-municipality coverage. Seven durable response records preserve 28 exact prompts; 3 additional calls lacked durable outputs after local serialization failures, with 2 accidental prompt repetitions, documented in G008; only Q009’s last output is captured. Nine bodies opened; AMP March3 student body returned Internal Error without HTTP status. Child-safety sites remain separate and no counts are summed.",
+  "body_open_note": "9 requested article pages returned as body reads with exact URL/title verification. Native request clocks unknown. Failed/non-body and search-only items are documented per source.",
+  "first_pass_result": "8 candidates remain pending. Attendance, state response and eligibility are unknown where sources do not support a value. This is not official approval or a zero-event finding.",
+  "coverage_assessment": "9 current-unit body opens 0 prior-unit-only"
+}

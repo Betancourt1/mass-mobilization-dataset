@@ -1,0 +1,25 @@
+{
+  "unit_id": "mexico_2023-01",
+  "country": "Mexico",
+  "month": "2023-01",
+  "status": "researched_open_web_pending_review",
+  "firstpass_complete": false,
+  "official_approved": false,
+  "baseline_gate": "pending_official_baseline",
+  "n_queries": 30,
+  "n_sources": 30,
+  "n_candidates": 11,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 13,
+  "source_access_counts": {
+    "opened": 20,
+    "search_only": 8,
+    "blocked": 1,
+    "not_found": 1
+  },
+  "metadata_unknown": true,
+  "coverage_assessment": "Bounded open-web checkpoint with 30 actual captured query records (743 rendered result headers); 30 source cards, 11 candidates, 0 exclusions, 0 continuations and 13 unresolved gaps. Search results and opened-source outcomes are limited to the specific queries/month documented in report.txt and gaps.json. Candidate decisions remain pending where thresholds, source origin, event end, political-rally exclusion, or state response are unresolved; no exhaustive/zero-event or official approval claim.",
+  "finished_at": null,
+  "started_at": "2026-10-11T11:26:51.931156+00:00"
+}

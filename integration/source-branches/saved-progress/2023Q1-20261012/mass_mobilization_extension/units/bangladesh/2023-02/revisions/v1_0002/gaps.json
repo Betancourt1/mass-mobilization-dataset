@@ -1,0 +1,138 @@
+[
+  {
+    "gap_id": "G001",
+    "dimension": "attendance_threshold",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "E003"
+    ],
+    "reason": "Financial Express supplies only a photo caption; no participant count or clear qualitative threshold.",
+    "next_permitted_action": "Search additional permitted local-language and English reporting for this exact 13 February rally and its attendance; do not infer from organizer size."
+  },
+  {
+    "gap_id": "G002",
+    "dimension": "attendance_and_state_target",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "E005"
+    ],
+    "reason": "Dhaka Post documents the 23 February rally and wage demands but no size and no explicit recipient/decision authority.",
+    "next_permitted_action": "Locate contemporaneous reporting or organizer/state records for attendance and wage-policy decision target."
+  },
+  {
+    "gap_id": "G003",
+    "dimension": "attendance_threshold",
+    "source_ids": [
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "E006"
+    ],
+    "reason": "Reports establish a coordinated 66-district action and demands, but provide no simultaneous turnout for a specified gathering.",
+    "next_permitted_action": "Search site-specific local reports for a count at one gathering; do not sum sites or infer from injuries/arrests."
+  },
+  {
+    "gap_id": "G004",
+    "dimension": "attendance_threshold",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [
+      "E007"
+    ],
+    "reason": "Odhikarbd reports the 28 February public rally and march, but no participant count.",
+    "next_permitted_action": "Search other permitted reporting for a count at this exact Dhaka gathering."
+  },
+  {
+    "gap_id": "G005",
+    "dimension": "february_17_18_event_specific_evidence",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "E004"
+    ],
+    "reason": "Prothom Alo retrospective paragraph confirms 17 February Dhaka marches and 18 February marches in eleven other cities, but gives no event-specific demand, count, or closure.",
+    "next_permitted_action": "Search contemporaneous city-level reporting separately by date and city; keep 17 and 18 February actions distinct unless evidence supports an episode."
+  },
+  {
+    "gap_id": "G006",
+    "dimension": "restricted_or_inaccessible_body",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [],
+    "reason": "Samakal exact article returned HTTP 403. It concerns a 15 February Rajshahi University student march; body cannot be used and exact URL/variants must not be retried. Search snippet does not establish attendance or a state target.",
+    "next_permitted_action": "Use distinct permitted public sources with independently documented origin for the same reported activity; do not open Samakal variants."
+  },
+  {
+    "gap_id": "G007",
+    "dimension": "inaccessible_body_and_announced_action",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [],
+    "reason": "Dhaka Tribune Bangla result is an announcement of a nationwide 11 February march; exact page was not accessible through the tool and no body/HTTP status was returned. Search title cannot establish execution.",
+    "next_permitted_action": "Use already opened independent reports for actual occurrence (S004/S005); do not retry this body or infer facts from announcement."
+  },
+  {
+    "gap_id": "G008",
+    "dimension": "native_metadata_and_search_scope",
+    "source_ids": [],
+    "affected_candidates": [],
+    "reason": "The search tool exposes rendered results without native execution clocks or a complete result-total count; only preserved outputs are available. Open-web searches do not reproduce the official LexisNexis/All News baseline or prove exhaustive coverage.",
+    "next_permitted_action": "Retain unknown native metadata; use official baseline comparison and any later source additions as separate authorized work."
+  },
+  {
+    "gap_id": "BD23F-G009",
+    "topic": "Three raw outputs lost in one-path capture collision",
+    "affected_candidate_ids": [
+      "E004",
+      "E006"
+    ],
+    "source_ids": [],
+    "description": "The known prompts targeted 17 February north/south Dhaka and 18 February city rallies; all three response payloads were overwritten at the same Q016 path before result headers could be preserved. They are excluded from the retained query count and are not treated as zero-result searches or evidence. No retry was made.",
+    "next_step": "Retain capture loss as a method limitation; use already saved distinct reports and any later non-duplicative permitted discovery rather than replaying these exact queries."
+  },
+  {
+    "gap_id": "BD23F-G010",
+    "topic": "Prothom Alo search-result page mismatch for 28 February LDA lead",
+    "affected_candidate_ids": [
+      "E007"
+    ],
+    "source_ids": [
+      "S010"
+    ],
+    "description": "Search result Q021 appeared to identify a 28 February 2023 Dhaka LDA report, but the exact opened URL returned a body dated 1 March 2024 describing a 2024 electricity-price protest. This body does not support the February 2023 candidate; the apparent discrepancy is preserved.",
+    "next_step": "Use only a distinct contemporaneous 2023 source if needed; do not treat the 2024 body as evidence for the old lead."
+  },
+  {
+    "gap_id": "BD23F-G011",
+    "topic": "Gaibandha LDA site turnout and rally classification",
+    "affected_candidate_ids": [
+      "E008"
+    ],
+    "source_ids": [
+      "S012"
+    ],
+    "description": "Samakal’s Q021 search excerpt supports an actual 28 February district rally and domestic price/political-process demands, but it supplies no simultaneous turnout and the body was not opened. Coalition/election context may require the manual political-rally exclusion review.",
+    "next_step": "Search/open a distinct permitted local source after exact-URL manual assessment; keep pending unless threshold and codebook eligibility are supported."
+  },
+  {
+    "gap_id": "BD23F-G012",
+    "topic": "25 February BNP district-site headcounts and scope",
+    "affected_candidate_ids": [
+      "E006"
+    ],
+    "source_ids": [
+      "S011"
+    ],
+    "description": "Prothom Alo confirms the 66-district program and reports actual sites/clashes/obstruction in several towns, but gives no attendance at any individual site. Detentions and injuries do not establish turnout. Jhalokathi brick-throwing is reported but applicability to an aggregated multi-site event remains unresolved.",
+    "next_step": "Keep sites separate and seek a permitted local report with site-specific turnout; do not aggregate the 66 districts or injuries/detainees."
+  }
+]

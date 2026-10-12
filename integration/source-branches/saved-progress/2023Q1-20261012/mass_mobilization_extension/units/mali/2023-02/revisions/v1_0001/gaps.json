@@ -1,0 +1,71 @@
+[
+  {
+    "gap_id": "mali_2023-02_G001",
+    "type": "public_assembly_and_scope",
+    "description": "Le Pays reports an actual Feb. 20 gathering at IUG with more than 100 students and demands addressed to national authorities, but it does not establish whether the gathering was in public-access space or left the campus. The single-source estimate is not independently corroborated.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "mali_2023-02_E001"
+    ],
+    "required_followup": "If feasible, seek independent contemporary reporting on campus accessibility, the event's footprint, simultaneous count and any authorities' response; keep eligibility pending evidence if these remain unclear."
+  },
+  {
+    "gap_id": "mali_2023-02_G002",
+    "type": "event_end_and_response",
+    "description": "The Feb. 20 IUG report does not give a physical ending time or describe a state response during the gathering.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "mali_2023-02_E001"
+    ],
+    "required_followup": "Do not infer an end date from the article's publication date or from the continuing faculty strike; only code a documented physical ending/response."
+  },
+  {
+    "gap_id": "mali_2023-02_G003",
+    "type": "access_error",
+    "description": "One exact body attempt to 5 Minutes Infos/Info-Matin after local receipt and assessment returned a generic web-tool fetch error, with no HTTP status or publisher response. No body was read and no retry or variant was attempted.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retry or URL variant for this exact story; use unrelated permitted reporting if needed."
+  },
+  {
+    "gap_id": "mali_2023-02_G004",
+    "type": "date_disambiguation",
+    "description": "Searches surfaced Sitata's undated 27–28 February alert and old notices for a Platform march and police sit-ins. The opened Sitata body references a 2020 embassy alert; Malijet and Studio Tamani results date related notices to 2020. None is evidence of a 2023 occurrence or plan.",
+    "source_ids": [
+      "S004",
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not code the 2020 notices as Feb. 2023 events; any later candidate needs a source with explicit 2023 attribution and occurrence evidence."
+  },
+  {
+    "gap_id": "mali_2023-02_G005",
+    "type": "coverage",
+    "description": "Ten captured French and English searches returned 245 rendered headers, many mixed-year and unrelated. They surfaced Bamako/IUG and labor leads but did not establish complete coverage across Mali's regions, local-language media or all sectors; no systematic archive was used. Search-result windows were not independently verified as comprehensive.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "mali_2023-02_E001"
+    ],
+    "required_followup": "At a feasible later pass, search distinct date-specific local/regional and sector terms, preserving separate locations/actions and documenting language and date-window limits."
+  }
+]

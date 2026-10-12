@@ -1,0 +1,83 @@
+[
+  {
+    "gap_id": "bahrain_2023-03_G001",
+    "type": "threshold",
+    "description": "E001 is a reported actual protest with a domestic demand, but the body reports four arrests, not total crowd size. Arrest count cannot establish total attendance or a minimum.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "bahrain_2023-03_E001"
+    ],
+    "required_followup": "Seek permitted independent contemporaneous coverage with total/site attendance; leave pending_threshold without it."
+  },
+  {
+    "gap_id": "bahrain_2023-03_G002",
+    "type": "unit_scope_and_state_target",
+    "description": "E002 is a 20 March speech festival in Qom, Iran attended by Bahraini diaspora, with no stated number or explicit demand to Bahrain’s state. Country-unit ownership is unresolved.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "bahrain_2023-03_E002"
+    ],
+    "required_followup": "Review the project home-grown/country assignment rule and seek direct event materials or independent coverage only if permitted; otherwise keep pending_unit/pending_evidence."
+  },
+  {
+    "gap_id": "bahrain_2023-03_G003",
+    "type": "threshold",
+    "description": "E003 is supported as an actual local demonstration with a domestic political demand, but the only body-read source is a movement-affiliated retrospective calling it “massive” without a number or other crowd details.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "bahrain_2023-03_E003"
+    ],
+    "required_followup": "Search permitted independent contemporary/local reporting for 31 March South Sahlah and a site-specific crowd estimate; independent reviewer to decide whether the qualitative description supports >=50."
+  },
+  {
+    "gap_id": "bahrain_2023-03_G004",
+    "type": "coverage",
+    "description": "Open-web coverage is partial and search results skew to movement-affiliated sources; local/regional media, international coverage, official sources, rights groups and date windows were queried, but no systematic newspaper archive/LexisNexis access was available. Search output clocks and native per-query order metadata were not exposed.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "bahrain_2023-03_E001",
+      "bahrain_2023-03_E002",
+      "bahrain_2023-03_E003"
+    ],
+    "required_followup": "Continue feasible source-diverse and language-specific discovery around candidate dates and assess adjacent-month continuity. Do not claim exhaustive coverage."
+  },
+  {
+    "gap_id": "bahrain_2023-03_G005",
+    "type": "retrieval_audit",
+    "description": "A first open mistakenly omitted the “South Sahlah” slug segment and returned a tool-level internal error with no HTTP status/body. It was not the target URL and is not evidence or a denial for E003. The exact captured URL was then opened successfully; retain the error for audit.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "bahrain_2023-03_E003"
+    ],
+    "required_followup": "No retry of the mistyped URL. Use only the correctly opened target body for coding; request time for the failed attempt remains unknown."
+  },
+  {
+    "gap_id": "bahrain_2023-03_G006",
+    "type": "end_date_and_consequences",
+    "description": "For E001 and E003, sources do not establish the event close or protester violence; silence is not evidence of no violence. For E002, consequences are also not reported.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "bahrain_2023-03_E001",
+      "bahrain_2023-03_E002",
+      "bahrain_2023-03_E003"
+    ],
+    "required_followup": "Keep end dates and unreported violence unknown unless direct event-specific reporting is found."
+  }
+]

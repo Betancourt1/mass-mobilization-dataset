@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "morocco_2023-02_G001",
+    "type": "threshold",
+    "description": "Rabat 19 Feb event is confirmed, but no source establishes >=50 simultaneous attendees. Roya says ‘dozens’; Hespress provides no crowd count.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "morocco_2023-02_E001"
+    ],
+    "required_followup": "Search independent contemporaneous local/international reporting for an explicit estimate at the Rabat site; do not convert ‘dozens’ or aggregate other cities."
+  },
+  {
+    "gap_id": "morocco_2023-02_G002",
+    "type": "coverage",
+    "description": "First Feb queries cover 1-28 windowed searches in French/Arabic/English and have begun investigating the CDT 19 Feb lead; additional sectors, regions, local outlets, and continuity remain.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue language and sector searches; distinguish local site actions from calls/national actions and check continuation across month boundaries."
+  },
+  {
+    "gap_id": "morocco_2023-02_G003",
+    "type": "threshold",
+    "description": "The 1 Feb sit-in outside Parliament opposing Moroccan normalization is directly reported, but Roya does not estimate attendance.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "morocco_2023-02_E002"
+    ],
+    "required_followup": "Seek independent contemporary reporting for single-site crowd size and duration; do not infer 50."
+  },
+  {
+    "gap_id": "morocco_2023-02_G004",
+    "type": "source_access",
+    "description": "CDT first-party statement on planned 19-Feb regional marches/general public-sector strike was captured in search output but its exact URL returned 403 on one assessed body attempt.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "morocco_2023-02_E001"
+    ],
+    "required_followup": "No retry or URL variant; preserve search snippet as planning-only context and use unrelated permitted reporting."
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold",
+    "description": "Telekom Jan 25 march is body-confirmed, but attendance at the march is not reported. The ≈200 employee figure is strike membership since November 2022 and cannot be transferred to the public action.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "E001"
+    ],
+    "required_followup": "Independent contemporaneous count of march attendees at a single time/site."
+  },
+  {
+    "gap_id": "G002",
+    "type": "threshold",
+    "description": "Emergency personnel held a coordinated 30-minute action across separate units, but there is no count for any site. Do not add unit or workforce figures together.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "E002"
+    ],
+    "required_followup": "Site-specific simultaneous attendee estimate for one emergency unit."
+  },
+  {
+    "gap_id": "G003",
+    "type": "state_target",
+    "description": "Telekom workers asked the Government to intervene, but the underlying wage/coercion dispute centers on private-company management. Whether the action meets the own-state-policy target criterion requires review.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "E001"
+    ],
+    "required_followup": "Evidence of a concrete government-level policy or decision demand."
+  },
+  {
+    "gap_id": "G004",
+    "type": "state_target",
+    "description": "The RTCG protest targeted a public-service broadcaster director and alleged institutional discrimination; the direct relationship to national government policy is not fully established.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "E003"
+    ],
+    "required_followup": "Source or review clarifying public-broadcaster institutional status and whether the demand was directed to the state."
+  },
+  {
+    "gap_id": "G005",
+    "type": "coverage",
+    "description": "First pass covered English and Montenegrin/Serbian searches and national/local reporting across Podgorica, Nikšić, Bar and other municipal EMS units. It does not establish exhaustive coverage across all municipalities or Chichewa-equivalent local-language variants beyond the executed prompts.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review additional local-language and regional coverage if feasible; check cross-month candidate continuity without reusing the same discovery strings."
+  }
+]

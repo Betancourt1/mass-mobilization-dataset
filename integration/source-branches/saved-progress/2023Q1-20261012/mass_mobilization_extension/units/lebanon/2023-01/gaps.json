@@ -1,0 +1,141 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline",
+    "description": "Official MM baseline, current universe, licensing and official IDs remain pending; this is a research draft only. The recovered 2015 codebook is not an official 2023 baseline.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review against official baseline and licensing/universe once available."
+  },
+  {
+    "gap_id": "G002",
+    "type": "access",
+    "description": "Affected L’Orient-Le Jour/L’Orient Today hold prevents body review of alternate Jan. 9–17 teacher, depositor, vehicle-importer and public-sector items. This leaves the listed events without L’Orient-based independent corroboration; open MTV/National bodies, where available, are the evidence actually used.",
+    "source_ids": [
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-01_E001",
+      "lebanon_2023-01_E002",
+      "lebanon_2023-01_E005",
+      "lebanon_2023-01_E006",
+      "lebanon_2023-01_E007"
+    ],
+    "required_followup": "Only coordinator-permitted exact-scope/origin review or independently available sources; do not retry these held URLs or infer publisher variants."
+  },
+  {
+    "gap_id": "G003",
+    "type": "retrieval",
+    "description": "Exact body requests for Anadolu Agency Jan. 26 teacher report and Naharnet Jan. 14 port-activist protest returned internal tool errors / “not accessible via this tool,” with no HTTP status. These are technical gaps, not observed denials.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-01_E004",
+      "lebanon_2023-01_E010"
+    ],
+    "required_followup": "No retries or variants; proceed only from separately permitted sources."
+  },
+  {
+    "gap_id": "G004",
+    "type": "threshold",
+    "description": "Jan. 9 Tripoli teachers sit-in has no headcount in opened body; no simultaneous threshold can be inferred from union size, nationwide strike notice or multiple locations.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-01_E001"
+    ],
+    "required_followup": "Independent contemporary local report with site-level simultaneous attendance, if available."
+  },
+  {
+    "gap_id": "G005",
+    "type": "continuity",
+    "description": "Jan. 9 Tripoli and Jan. 11 Beirut teacher gatherings occurred during the same national public-school strike, but whether they are separate protest episodes or multi-site phases of one organized action is unresolved. Strike alone is not a gathering; no automatic merger.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S006"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-01_E001",
+      "lebanon_2023-01_E002"
+    ],
+    "required_followup": "Review event-level organizer, exact onset, and distinct action reporting; examine before/after months without duplicating strike-only activity."
+  },
+  {
+    "gap_id": "G006",
+    "type": "threshold",
+    "description": "Jan. 26 Justice Palace protest has an approximate “hundreds of families” count from one Arab News body; exact method and independent numerical count are absent.",
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-01_E009"
+    ],
+    "required_followup": "Reviewer may assess the approximate count and source independence; no further count conversion."
+  },
+  {
+    "gap_id": "G007",
+    "type": "geographic",
+    "description": "Several January leads mention multiple cities or road locations but no usable site-by-site count/relationship evidence; no aggregation across locations was performed.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S011"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-01_E004",
+      "lebanon_2023-01_E007",
+      "lebanon_2023-01_E010"
+    ],
+    "required_followup": "Only separately permitted contemporaneous reporting can establish specific site/events and simultaneous turnout."
+  },
+  {
+    "gap_id": "G008",
+    "type": "coverage",
+    "description": "Fourteen actual web searches were captured in English, French and Arabic. Coverage included broad Jan. 1–31 terms and targeted teacher, depositors, car-importer/public-sector and judicial-protest leads, but not a systematic archive or LexisNexis search; regional/sector coverage remains incomplete. Search returned many historical/unrelated results.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review any accessible national/local newspaper archives, sector-specific sources and late-month/early-month windows if further research time permits."
+  },
+  {
+    "gap_id": "G009",
+    "type": "event_end",
+    "description": "No opened report explicitly establishes physical end times/closure for Jan. 9, Jan. 11 or Jan. 26 protest gatherings; end dates remain unknown rather than assumed to equal report date or month-end.",
+    "source_ids": [
+      "S001",
+      "S006",
+      "S008"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-01_E001",
+      "lebanon_2023-01_E002",
+      "lebanon_2023-01_E009"
+    ],
+    "required_followup": "Contemporaneous event-ending or retrospective complete-activity account; absent that, keep end unknown."
+  },
+  {
+    "gap_id": "G010",
+    "type": "unknown_response",
+    "description": "State response and protester violence remain unknown where bodies do not report them; this is not zero or an inference of absence. Jan. 26 records only direct reported rock throwing, police pushback and batons.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S006",
+      "S008"
+    ],
+    "affected_candidates": [
+      "lebanon_2023-01_E001",
+      "lebanon_2023-01_E002",
+      "lebanon_2023-01_E009"
+    ],
+    "required_followup": "Event-specific reporting for any unreported response/violence fields."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "CGB23M-G001",
+    "type": "unit_boundary_and_threshold",
+    "description": "The actual MR press conference reported by L’Horizon occurred after the March 23 prefectural refusal, but the story gives no exact event date and was published April 1. It may lie in March or after the monthly boundary. No count or open-public attendance conditions are given for the press conference.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [
+      "congo_brazzaville_2023-03_E001"
+    ],
+    "required_followup": "Find a contemporaneous source that states the conference date and attendance/open-public scope; otherwise retain pending_unit and unknown threshold."
+  },
+  {
+    "gap_id": "CGB23M-G002",
+    "type": "content_mismatch",
+    "description": "The exact L’Horizon N°194 PDF URL returned a March 30 2023 newspaper issue but did not expose the expected Destin Gavet article text that appeared in search snippets. The body is preserved but quarantined from event coding; no repeat/variant request was made.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "congo_brazzaville_2023-03_E001"
+    ],
+    "required_followup": "Use the separately assessed exact HTML report S007 for event evidence; keep S001 as a retrieval/search-content mismatch and do not treat its snippet as independent corroboration."
+  },
+  {
+    "gap_id": "CGB23M-G003",
+    "type": "technical_retrieval",
+    "description": "The exact U.S. State Department report URL returned a ‘Technical Difficulties’ tool result with ‘Exception: forbidden’ but no HTTP status or report body. It is not classified as an observed HTTP denial; no retry was made.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "congo_brazzaville_2023-03_E001"
+    ],
+    "required_followup": "No further request to this URL in this pass; use the exact CAD/CIVICUS/L’Horizon sources and keep the official report search-only."
+  },
+  {
+    "gap_id": "CGB23M-G004",
+    "type": "country_scope_and_coverage",
+    "description": "Some English/French searches returned DRC stories and the March 5 CongoQuotidien report about university professors has ambiguous ‘Congo’ wording and an explicit MediaCongo origin. Only own-country evidence is coded. French and English searches covered all weekly windows; Lingala/Kituba and systematic provincial/local archives were not searched, and open web results were noisy.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "congo_brazzaville_2023-03_X003"
+    ],
+    "required_followup": "If feasible in a later coverage review, search local-language and provincial reporting; verify territory for ambiguous Congo results before coding. No LexisNexis-equivalent archive review was available."
+  }
+]

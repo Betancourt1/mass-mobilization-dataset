@@ -1,0 +1,76 @@
+[
+  {
+    "gap_id": "italy_2023-03_G001",
+    "dimension": "date_window",
+    "description": "Late-March searches Q005–Q007 and Q010–Q014 returned substantial stale/future-date noise. Captured advance notice for the 24 March Rome school-cafeteria strike/picket does not confirm the Campidoglio gathering occurred or its headcount. Search a retrospective result and count the local public gathering if feasible.",
+    "source_ids": [
+      "ITA2023-03-S014"
+    ],
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "gap_id": "italy_2023-03_G002",
+    "dimension": "region",
+    "description": "Southern and island coverage remains thin. Palermo 3 March climate march is a search-only event lead without a simultaneous crowd count; the broader 22–31 March searches did not yield strong retrospective local coverage for Sicily, Sardinia, Calabria, Puglia or Campania.",
+    "source_ids": [
+      "ITA2023-03-S015"
+    ],
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "gap_id": "italy_2023-03_G003",
+    "dimension": "source_access",
+    "description": "Exact body requests for selected Turin FFF, Milan Mi-Tomorrow, Rome 8 March, Comune Milano anti-mafia, and two distinct Corriere Torino Cospito URLs failed or were blocked. Mi-Tomorrow exact URL returned 403 and remains restricted; others returned tool-level Internal Error/not-accessible without HTTP status and were not retried.",
+    "source_ids": [
+      "ITA2023-03-S002",
+      "ITA2023-03-S003",
+      "ITA2023-03-S008",
+      "ITA2023-03-S010",
+      "ITA2023-03-S011",
+      "ITA2023-03-S013"
+    ],
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "gap_id": "italy_2023-03_G004",
+    "dimension": "state_target",
+    "description": "Florence 4 March school/Constitution march was large and event-day reporting connects it to Minister Valditara’s threatened disciplinary action against a principal; whether the gathering demanded a specific action from the state needs clearer source evidence.",
+    "source_ids": [
+      "ITA2023-03-S009"
+    ],
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "gap_id": "italy_2023-03_G005",
+    "dimension": "state_target",
+    "description": "Milan 21 March anti-mafia memorial procession is reported at 70,000, but the saved municipal result describes commemoration/testimony rather than a concrete state-policy demand. Verify demands before eligibility decision.",
+    "source_ids": [
+      "ITA2023-03-S013"
+    ],
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "gap_id": "italy_2023-03_G006",
+    "dimension": "threshold",
+    "description": "Rome 8 March result says over 4,000 but body was inaccessible; verify event details, exact local attendance basis, and direct state target. Turin 3 March result reports thousands but body did not load.",
+    "source_ids": [
+      "ITA2023-03-S002",
+      "ITA2023-03-S008"
+    ],
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "gap_id": "italy_2023-03_G007",
+    "dimension": "coverage",
+    "description": "Queries covered broad national windows, FFF, 8 March feminist actions, Cospito mobilizations, March 18 Dax, March 21 anti-mafia, and selected late-March sectors. This is a candidate-led open-web pass, not an exhaustive region-by-region or sector-by-sector census; continue local searches for transport, health, schools, housing, labor and regional issues.",
+    "source_ids": [],
+    "status": "open",
+    "priority": "high"
+  }
+]

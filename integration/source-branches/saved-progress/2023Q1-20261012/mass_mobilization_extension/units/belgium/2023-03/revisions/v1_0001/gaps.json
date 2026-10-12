@@ -1,0 +1,131 @@
+[
+  {
+    "gap_id": "BE23M-G001",
+    "topic": "3 March farmers protest closure and scope",
+    "affected_candidate_ids": [
+      "belgium_2023-03_E001"
+    ],
+    "source_ids": [
+      "BE23M-S001",
+      "BE23M-S002",
+      "BE23M-S003"
+    ],
+    "description": "NOS gives a planned 14:00 departure, while VILT later reports most left after a call but some remained. No complete final physical closure time; Nieuwsblad exact story returned a restricted-URL fetch failure. Participant total is distinct from 2,850 organizer registrations and 2,700–3,000 tractors.",
+    "next_step": "Only a distinct permitted source or complete retrospective account could resolve actual closure/headcount; do not retry the failed URL."
+  },
+  {
+    "gap_id": "BE23M-G002",
+    "topic": "8 March World March completion and cross-source confirmation",
+    "affected_candidate_ids": [
+      "belgium_2023-03_E002"
+    ],
+    "source_ids": [
+      "BE23M-S009",
+      "BE23M-S016",
+      "BE23M-S006"
+    ],
+    "description": "DeWereldMorgen reports about 8,000 preparing for the march at Albertinaplein; The Brussels Times preview confirms planned 17:30 start and organizer policy demands. BRUZZ search result also reports about 8,000 but its exact body URL returned HTTP 403. Physical procession completion/end and authority response remain unreported.",
+    "next_step": "Use a distinct independent permitted post-event account if found; do not retry the BRUZZ URL."
+  },
+  {
+    "gap_id": "BE23M-G003",
+    "topic": "Firefighters count and closure",
+    "affected_candidate_ids": [
+      "belgium_2023-03_E003"
+    ],
+    "source_ids": [
+      "BE23M-S010",
+      "BE23M-S011"
+    ],
+    "description": "Two reports confirm the 7 March gathering and threshold, but count is only “hundreds”; neither states event end. Euractiv describes police pushing some people out of the European Commission building with tear gas; no other response dimensions are established.",
+    "next_step": "A separate permitted source may refine count and physical end; do not infer from 6–10 March union schedule."
+  },
+  {
+    "gap_id": "BE23M-G004",
+    "topic": "Brussels 19 March antiracism state target",
+    "affected_candidate_ids": [
+      "belgium_2023-03_E004"
+    ],
+    "source_ids": [
+      "BE23M-S017",
+      "BE23M-S013",
+      "BE23M-S014"
+    ],
+    "description": "BX1 confirms >500 and equal-rights demands, with a speech about refugee reception, but does not explicitly identify a Belgian state or policy target. Exact RTBF/Belga target returned “Failed to fetch restricted URL”; no retry. Brussels Times search lead attributes Brussels count to VRT, so it is not independent confirmation unless origin is established.",
+    "next_step": "Organizer/independent evidence explicitly linking demands to Belgian public policy could resolve; preserve pending_state_target."
+  },
+  {
+    "gap_id": "BE23M-G005",
+    "topic": "Antwerp 19 March antiracism candidate",
+    "affected_candidate_ids": [
+      "belgium_2023-03_E005"
+    ],
+    "source_ids": [
+      "BE23M-S014"
+    ],
+    "description": "Search-only report says police counted >500 at Sint-Willibrordusplein and a Platform speaker called for decent wages, housing and social protection. Exact report body was not opened; state actor and event end unknown. Other city actions remain separate.",
+    "next_step": "Exact source body/independent or organizer account could validate target, threshold and end; never sum locations."
+  },
+  {
+    "gap_id": "BE23M-G006",
+    "topic": "8 March CSC–FGTB afternoon rally target",
+    "affected_candidate_ids": [
+      "belgium_2023-03_E006"
+    ],
+    "source_ids": [
+      "BE23M-S018",
+      "BE23M-S008"
+    ],
+    "description": "BX1 reports nearly 400 at the union-called Albertinaplein gathering and demands on wages, violence prevention, public services/childcare and work time. Its body does not explicitly name the Belgian government as addressee. It is distinct from the evening World March; no start time or actual end is documented.",
+    "next_step": "An organizer statement explicitly tying those demands to public policy could resolve; keep pending_state_target."
+  },
+  {
+    "gap_id": "BE23M-G007",
+    "topic": "Public-service protest week and strike actions",
+    "affected_candidate_ids": [],
+    "source_ids": [
+      "BE23M-S010",
+      "BE23M-S015"
+    ],
+    "description": "Euractiv describes the 6–10 March public-services week, with a planned 10 March 24-hour strike and 9 March leaflet distribution. The only actual assembly established in this package is the firefighters’ 7 March action. Searches did not establish a separate qualifying 6 March gathering or a 10 March street assembly; a strike alone is not coded as a protest event.",
+    "next_step": "Search/result candidates can be followed only if evidence of a real qualifying gathering appears."
+  },
+  {
+    "gap_id": "BE23M-G008",
+    "topic": "Search-result date mismatch and out-of-month noise",
+    "affected_candidate_ids": [],
+    "source_ids": [
+      "BE23M-S007"
+    ],
+    "description": "Broad results included unrelated 2023 May/December events, later 2026 coverage and preview pages that point to other years. The 23 March non-market result was dated June 2023, not March; it is not coded. Native query clocks are unavailable.",
+    "next_step": "Maintain month-boundary checks and do not transfer later/year-mismatched events."
+  },
+  {
+    "gap_id": "BE23M-G009",
+    "topic": "Coverage and source-access limits",
+    "affected_candidate_ids": [
+      "belgium_2023-03_E001",
+      "belgium_2023-03_E002",
+      "belgium_2023-03_E003",
+      "belgium_2023-03_E004",
+      "belgium_2023-03_E005",
+      "belgium_2023-03_E006"
+    ],
+    "source_ids": [
+      "BE23M-S003",
+      "BE23M-S005",
+      "BE23M-S006",
+      "BE23M-S013"
+    ],
+    "description": "Eight search calls yielded 233 result headers across English, French and Dutch. Only selected candidates received manual exact-URL body checks. AP is an existing hold; exact Nieuwsblad, BRUZZ and RTBF/Belga requests were stopped after observed failures. No variants or retries. Search scope is not exhaustive; historical ledgers are omitted, and absence of a new-ledger match is not proof of a clean access inventory.",
+    "next_step": "No further attempt at failed/held targets. Use distinct public sources where possible; preserve retrieval gaps."
+  },
+  {
+    "gap_id": "BE23M-G010",
+    "topic": "Baseline and official review gates",
+    "affected_candidate_ids": [],
+    "source_ids": [],
+    "description": "Official baseline, licensing and universe gates remain open. All event records are agent-coded candidate proposals only; none is an official approval. State-response fields are unknown where reports are silent.",
+    "next_step": "Coordinator review and baseline/licensing resolution are still required."
+  }
+]

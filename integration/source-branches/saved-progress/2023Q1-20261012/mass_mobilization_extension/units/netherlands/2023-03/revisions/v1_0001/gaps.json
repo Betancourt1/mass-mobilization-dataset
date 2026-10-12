@@ -1,0 +1,140 @@
+[
+  {
+    "gap_id": "NL23MAR-G001",
+    "type": "threshold_and_eligibility",
+    "description": "Zuiderpark FDF/Samen voor Nederland gathering occurred, but the only numeric estimate is an FDF spokesperson’s 60,000+ claim that other parties could not confirm. Political-party speeches and a call to vote preceded the 15 March provincial election, so political-rally exclusion also requires review.",
+    "source_ids": [
+      "S001",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-03_E001"
+    ],
+    "required_followup": "Seek independent contemporaneous attendance evidence and clarify whether the event was a mixed policy protest or an excluded election rally; keep citywide arrests separate."
+  },
+  {
+    "gap_id": "NL23MAR-G002",
+    "type": "state_response_and_violence_attribution",
+    "description": "For 11 March city demonstrations the police reported 700 arrests in total, but the total is not attributable to either the A12 or Zuiderpark event. A specific Zuiderpark shovel driver injured two officers; A12 participant arrest counts remain unclear.",
+    "source_ids": [
+      "S001",
+      "S008"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-03_E001",
+      "netherlands_2023-03_E002"
+    ],
+    "required_followup": "Use only event-specific arrest counts and response facts; do not divide or pool the citywide total."
+  },
+  {
+    "gap_id": "NL23MAR-G003",
+    "type": "target_and_threshold",
+    "description": "Hospital action at St Antonius Nieuwegein is described, but neither a site-specific crowd count nor direct government target is established; nationwide hospital strikes at 63 hospitals cannot substitute for a public gathering count.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-03_E003"
+    ],
+    "required_followup": "Find a contemporaneous source identifying same-site turnout and a government/state-policy demand, or leave pending."
+  },
+  {
+    "gap_id": "NL23MAR-G004",
+    "type": "state_target",
+    "description": "The 18 March Amsterdam anti-racism march had several hundred participants, but the accessible ANP-origin account does not name a specific state office or government act as target.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-03_E004"
+    ],
+    "required_followup": "Find organizer or contemporaneous report identifying a direct domestic government/agency demand; do not treat a general anti-discrimination message as automatically state-directed."
+  },
+  {
+    "gap_id": "NL23MAR-G005",
+    "type": "threshold",
+    "description": "FNV confirms the 14 March Utrecht public-transport manifestation occurred and that a state secretary received a white paper; no post-event body provides a same-site headcount. The exact CNV post-event URL timed out in the tool; the CNV pre-event expectation and nationwide strike notices are not actual turnout.",
+    "source_ids": [
+      "S009",
+      "S010",
+      "S019",
+      "S020"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-03_E005"
+    ],
+    "required_followup": "A distinct permitted local post-event source with a site-specific count would resolve threshold; do not retry the CNV timeout or pool transport depots."
+  },
+  {
+    "gap_id": "NL23MAR-G006",
+    "type": "threshold_and_ownership",
+    "description": "Official and XR reports confirm a separate terminal support protest at Eindhoven Airport on 25 March, but give no count, exact local organizer or independent demand from terminal participants. The 104 airfield arrests belong to a different event/site.",
+    "source_ids": [
+      "S011",
+      "S013"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-03_E006"
+    ],
+    "required_followup": "Find a source for the terminal gathering’s attendance and organizer, or retain as pending threshold."
+  },
+  {
+    "gap_id": "NL23MAR-G007",
+    "type": "state_target",
+    "description": "The Feminist March had an organizer estimate above 4,000, but the accessible NOS/NH body reports an inclusive feminist message rather than an explicit Dutch-government demand.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-03_E008"
+    ],
+    "required_followup": "Verify whether organizers issued a concrete state-directed demand; otherwise exclude under the state-target rule."
+  },
+  {
+    "gap_id": "NL23MAR-G008",
+    "type": "source_access_and_origin",
+    "description": "Exact VRT and RTL body opens were refused by the retrieval tool without an HTTP status; the CNV transit article timed out and BVM2 returned a generic fetch error. The NOS Hague planning story is held because search output links it to Omroep West; OOGTV remains a capture-loss incident with entirely unknown result. These are action-specific access/capture limits, not broad publisher denials.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S009",
+      "S012",
+      "S016"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-03_E001",
+      "netherlands_2023-03_E002",
+      "netherlands_2023-03_E005",
+      "netherlands_2023-03_E006",
+      "netherlands_2023-03_E007"
+    ],
+    "required_followup": "Do not retry exact refused/timed-out/held actions or reconstruct the OOGTV output. Use distinct unrelated public sources if available."
+  },
+  {
+    "gap_id": "NL23MAR-G009",
+    "type": "search_coverage",
+    "description": "Twenty-one Dutch-language or Dutch-English mixed searches and one fully English search cover date windows, regions, union activity, feminist/racism marches, farmers, climate and local sources. This is a bounded open-web pass, not LexisNexis or a complete local-language/regional archive search; historic source-check inventory was omitted and is not a clean inventory. Potential regional and sector events may remain undiscovered.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "A reviewer may target feasible regional/sector searches, especially outside the Randstad, without treating no results as proof of no events."
+  },
+  {
+    "gap_id": "NL23MAR-G010",
+    "type": "unknown_response",
+    "description": "Silence in the opened sources does not establish no arrests, violence, accommodation, dispersal, injury or other response for candidates where the field is unknown.",
+    "source_ids": [
+      "S002",
+      "S006",
+      "S010",
+      "S014"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-03_E003",
+      "netherlands_2023-03_E004",
+      "netherlands_2023-03_E005",
+      "netherlands_2023-03_E008"
+    ],
+    "required_followup": "Retain unknown until an event-specific source establishes a response."
+  }
+]

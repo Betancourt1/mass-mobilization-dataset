@@ -1,0 +1,54 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold",
+    "description": "The March 15 protest outside Government House is confirmed by TV3 but the body gives no crowd estimate or evidence that 50 people were simultaneously present. It remains pending_threshold; the broader campaign duration cannot substitute for site-level turnout.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "lithuania_2023-03_E001"
+    ],
+    "required_followup": "Contemporaneous independent report or reliable site-specific estimate for the March 15 gathering."
+  },
+  {
+    "gap_id": "G002",
+    "type": "duration_and_response",
+    "description": "For the March 23 Parliament rally, 15min/BNS reports that the action was expected to last until 16:00, which is a schedule and not a confirmed close. Euronews quotes a Ministry statement, and 15min mentions planned delegation meetings; actual meetings and demand outcomes are not confirmed.",
+    "source_ids": [
+      "S002",
+      "S004"
+    ],
+    "affected_candidates": [
+      "lithuania_2023-03_E002"
+    ],
+    "required_followup": "Post-event account confirming the gathering’s end and whether meetings or state measures accommodated any demand."
+  },
+  {
+    "gap_id": "G003",
+    "type": "episode_linkage",
+    "description": "TV3 and Euronews describe ongoing dairy-farmer protest activity over low milk prices, linking the March actions to a recurring campaign. The sources do not say the Feb 24 Ministry gathering was continuous through March or establish identical organizers for all dates. March 15 and March 23 remain distinct public events.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "lithuania_2023-03_E001",
+      "lithuania_2023-03_E002"
+    ],
+    "required_followup": "Reports identifying explicit links among February and March gatherings or organizer identity; do not merge events or transfer attendance."
+  },
+  {
+    "gap_id": "G004",
+    "type": "coverage",
+    "description": "Eight search calls captured ten exact English/Lithuanian query strings and 181 result headers across national outlets, Vilnius dairy-farmer coverage, Kaunas/local reporting, women’s day, and labor/union searches. Three bodies were opened after fresh exact-target receipts and manual assessments; an LRT target body open failed with a tool-level restricted-URL error without HTTP status, and the Q005 batched search reported robots blocking for lrt.lt. LRT and Delfi historical restrictions remain action-scoped. This is not a systematic archive or exhaustive province-by-province sweep.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If useful, seek permitted regional reporting and independent site-level information; do not retry the observed LRT query/open actions or infer host-wide denials."
+  }
+]

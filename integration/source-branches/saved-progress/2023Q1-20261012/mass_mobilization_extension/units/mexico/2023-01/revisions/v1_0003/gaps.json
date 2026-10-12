@@ -1,0 +1,102 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "Partial open-web pass only. Nine in-scope searches are recorded in search_log.jsonl (Q001 and Q003–Q010); discovery and follow-up are heavily weighted to CDMX and Oaxaca, with event-led checks for Jan 6, Jan 20 and Jan 27. Q004 returned mostly stale/off-date material. No systematic day-by-day sweep or broad state/sector sweep has been completed. Do not infer absence of protests.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "mexico_2023-01_E001",
+      "mexico_2023-01_E002",
+      "mexico_2023-01_E003"
+    ],
+    "required_followup": "Complete distinct Jan 1–15 and Jan 16–31 local/regional searches across additional states and labor, education, Indigenous, farm, student, transport and public-service sectors; follow event onset/closure and adjacent-month continuity."
+  },
+  {
+    "gap_id": "G002",
+    "type": "threshold",
+    "description": "Actual simultaneous attendance remains unknown for the Jan 27 Oaxaca march, Jan 6 health-worker rally, and anti-GN contingent at the Jan 20 CDMX march. El Piñero's “massive” is search-result language only. The health-worker listing's 400 is a forecast, not actual turnout. N+ reports “hundreds” for the broader Metro mobilization, but Milenio separates the Yaretzi family contingent—which was not protesting GN—from the anti-GN contingent and gives no count for that specific group.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S006",
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "mexico_2023-01_E001",
+      "mexico_2023-01_E002",
+      "mexico_2023-01_E003"
+    ],
+    "required_followup": "Search permitted independent contemporaneous reports or official post-event records for actual counts of each distinct contingent; do not count unrelated participants, forecasts or organization membership."
+  },
+  {
+    "gap_id": "G003",
+    "type": "access",
+    "description": "The exact El Piñero URL for the Jan 27 Oaxaca Sección 22 march returned an observed 403 Forbidden and is restricted at exact URL/action scope by coordinator restriction 0042. Raw attempt is preserved; that article body remains unread. A separate Entidad Noticias body reports a Jan 27 family/teacher march but gives no attendance.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "mexico_2023-01_E001"
+    ],
+    "required_followup": "Use only unrelated permitted independent sources about the Jan 27 Oaxaca action. Do not retry or vary the El Piñero URL; cite the contemporaneous assessment addendum and exact-scope restriction."
+  },
+  {
+    "gap_id": "G004",
+    "type": "continuity_and_identity",
+    "description": "Same-day Jan 27 reporting may describe the same or overlapping Oaxaca march: Entidad Noticias reports relatives and Section 22 members seeking justice; El Piñero search results report a Sección 22 march for leadership registration and state-government demands. Identity/route and potential multiple demands are unresolved. For Jan 20, Milenio distinguishes two contingents with different aims; the family group was not protesting GN, and violence attribution to a black bloc described as infiltrators remains uncertain.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "mexico_2023-01_E001",
+      "mexico_2023-01_E003"
+    ],
+    "required_followup": "Seek permitted contemporaneous reporting to resolve same-event identity, routes, specific contingent sizes and links across January/adjacent months; keep differing aims and actors separate without evidence."
+  },
+  {
+    "gap_id": "G005",
+    "type": "source_scope",
+    "description": "N+ says its Jan 20 account used information from EFE and N+; Milenio separately quotes a city government official. Other EFE/N+ republications may repeat the N+ account and are not independent without documented origin review. The short La Izquierda Diario Jan 6 report, official-minutes search excerpt and advance schedule do not establish independent attendance counts.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "mexico_2023-01_E002",
+      "mexico_2023-01_E003"
+    ],
+    "required_followup": "Check explicit byline/origin notices in any new permitted target and avoid treating syndication or shared reporting as independent."
+  },
+  {
+    "gap_id": "G006",
+    "type": "scope_error",
+    "description": "An extra actual query Q002 was accidentally issued for the out-of-month Feb 1–14 window; its full raw response is preserved in raw_captures/Q002-raw.json. It is intentionally absent from the corrected January search log and is not used as January coverage/evidence. This is one captured search call beyond the nine logged in-scope searches.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Do not repeat Q002. Keep it excluded from January; if referenced in February, cite the original capture path and disclose the out-of-month provenance and limited query attribution."
+  },
+  {
+    "gap_id": "G007",
+    "type": "baseline",
+    "description": "Official Mass Mobilization baseline/universe verification remains pending. Country code 70 is provisional legacy planning metadata only; this dossier does not claim an official country ID or baseline equivalence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve against the official baseline and coding manual before any public integration."
+  }
+]

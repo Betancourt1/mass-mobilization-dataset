@@ -1,0 +1,63 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold",
+    "description": "RIK reports citizens actually protested outside Parliament on 27 March; Cyprus Mail reports an actual nationwide teachers’ protest outside the Education Ministry on 29 March. Neither article reports a turnout figure or proves 50 simultaneous attendees.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-03_E001",
+      "cyprus_2023-03_E002"
+    ],
+    "required_followup": "Seek contemporaneous independent/local coverage or organizer/official documentation with event-specific simultaneous attendance; do not treat “group” or “nationwide” as a count."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage",
+    "description": "Six actual search batches Q001–Q006 cover Greek and English broad/national and approximate date windows (1–7, 8–14, 15–21, 22–31), plus Turkish-language local press and sector-focused queries for labor, teachers, students, refugees and protests in Nicosia/Limassol/Larnaca/Paphos. Search results repeatedly include out-of-window items; strict date-filter behavior and native totals are unavailable. Coverage is partial and does not establish absence of events.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue distinct local/archive searches for March, particularly smaller towns/island districts, health, transport, agriculture, university/school, housing and migration sectors; use explicit date constraints when available and preserve query outputs."
+  },
+  {
+    "gap_id": "G003",
+    "type": "continuity",
+    "description": "Current captured evidence does not establish whether the late-March foreclosure or teachers’ actions were part of campaigns beginning in February or continuing into April. Q006 also surfaced a 30 March report about Cypriot students protesting Turkish Cypriot leader Ersin Tatar in London; location is outside the island and its attribution to Cyprus unit scope remains unresolved from search-only material.",
+    "source_ids": [],
+    "affected_candidates": [
+      "cyprus_2023-03_E001",
+      "cyprus_2023-03_E002"
+    ],
+    "required_followup": "Check February/April source records for explicit same-campaign continuity without duplicate coding; assess whether diaspora protest in London falls within the country-location scope only if further evidence supports it."
+  },
+  {
+    "gap_id": "G004",
+    "type": "threshold",
+    "description": "Two additional March leads remain unresolved: MyKibris says the El-Sen action outside the Republic Assembly on 31 March was at management/union-leadership level and reports no crowd count; the indefinite regional strike is not a count of public demonstrators. Philenews describes a small number of delivery riders gathered in Nicosia on 27 March but gives no numeric estimate. Neither supports >=50; the rider gathering is likely below criterion but retained without numerical inference.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-03_E003",
+      "cyprus_2023-03_E004"
+    ],
+    "required_followup": "Seek event-specific contemporaneous crowd estimates; keep strike-only headcounts and unrelated December activity separate."
+  },
+  {
+    "gap_id": "G005",
+    "type": "state_target",
+    "description": "E003 was a union action directed at Northern Cyprus de facto Republic Assembly, ministers and administration; whether this state/action belongs in the single Cyprus national unit is unresolved. E004 riders sought support/protection and unions explicitly urged the Cyprus Ministry of Labour to accelerate a collective-agreement and safety process; whether riders’ demand was directed at the state or primarily at the employer/union channel remains reviewable.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "cyprus_2023-03_E003",
+      "cyprus_2023-03_E004"
+    ],
+    "required_followup": "Human review of country/territorial assignment for northern de facto authorities and directness of state demand for delivery-rider action."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold",
+    "description": "Three body/snippet-supported February leads have unknown or ambiguous simultaneous turnout: health-union gathering (“about fifty”), Wolt procession and Javno je dobro coast-law protest. A fourth counterprotest says “more than several dozen,” still not a ≥50 lower bound.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "croatia_2023-02_E001",
+      "croatia_2023-02_E002",
+      "croatia_2023-02_E003",
+      "croatia_2023-02_E004"
+    ],
+    "required_followup": "Find independent contemporaneous local reporting, an organizer account or public document with event-specific turnout; do not use membership or related-group totals."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage",
+    "description": "Searches covered broad Croatian and English discovery plus approximate 1–7, 8–14, 15–21 and 22–28 February windows and named cities/sectors. Search results repeatedly ignored dates and returned 2024, 2026, older or future items; no true search engine date-bound guarantee or result totals were exposed. Coverage is therefore partial.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use local outlet/archive date filters and region-specific searches for Slavonia, Istria, Dalmatia and inland counties; inspect exact publication/event dates."
+  },
+  {
+    "gap_id": "G003",
+    "type": "continuity",
+    "description": "The maritime-law result refers to several earlier coastal-city protests but does not identify each event, date, city, crowd or whether any episode continued across dates. January is out of scope and no preceding-month unit was coded here.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "croatia_2023-02_E003"
+    ],
+    "required_followup": "Identify each distinct coastal protest and establish whether it was a separate one-day gathering or a continuation; keep counts location-specific."
+  },
+  {
+    "gap_id": "G004",
+    "type": "baseline_archive",
+    "description": "Only open web search was used; licensed LexisNexis, newspaper archives, the official 2023 baseline and systematic event data were unavailable in this research partition. No claim of exhaustive coverage or zero protests is made.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to compare against official baseline and permitted archive when available."
+  },
+  {
+    "gap_id": "G005",
+    "type": "continuity",
+    "description": "No captured result demonstrates continuation into March for these February actions. The health-sector and doctors’ protests involved distinct named organizations and dates; they are not merged absent evidence of one continuous episode.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "croatia_2023-02_E001",
+      "croatia_2023-02_E002"
+    ],
+    "required_followup": "Review cross-month reporting/organizer links if discovered; retain separate actions pending proof of common episode."
+  }
+]

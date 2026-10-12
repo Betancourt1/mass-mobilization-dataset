@@ -1,0 +1,49 @@
+[
+  {
+    "gap_id": "COM23M-G001",
+    "type": "candidate state target / demand",
+    "description": "E001 has documented occurrence, date, Vouvouni location and a “hundreds” estimate. Both reports say participants sought justice for Ayman. The Gazette context says he had been arrested and held at a military barracks, had apparent physical-abuse injuries, was returned by gendarmes, and an inquiry was opened, but the protest story does not explicitly quote a request to a government institution or specify official action. The demanded domestic-state target remains unresolved.",
+    "source_ids": [
+      "COM23M-S001",
+      "COM23M-S002"
+    ],
+    "affected_candidates": [
+      "comoros_2023-03_E001"
+    ],
+    "required_followup": "Find a distinct contemporaneous account or direct statement that specifies whether participants demanded investigation/prosecution or other action by Comorian state authorities; otherwise retain pending_state_target."
+  },
+  {
+    "gap_id": "COM23M-G002",
+    "type": "youth gathering threshold and site",
+    "description": "E002 is a separate youth demonstration on 2 March mentioned in S001 as spontaneous and on the preceding day. No attendance, exact site, direct demand by youth, or duration is reported. Do not pool it with E001.",
+    "source_ids": [
+      "COM23M-S001"
+    ],
+    "affected_candidates": [
+      "comoros_2023-03_E002"
+    ],
+    "required_followup": "Seek a distinct dated report or source describing the 2 March gathering, site, simultaneous turnout and youth demands; keep pending_threshold absent evidence."
+  },
+  {
+    "gap_id": "COM23M-G003",
+    "type": "retiree campaign continuation / protest activity",
+    "description": "March search Q017 found a 15 March search result about the retirees’ pension arrears campaign, apparently from the La Gazette interview already reviewed as COM23F-S004. Neither the new snippet nor prior body establishes a dated March public gathering; no body was re-opened.",
+    "source_ids": [
+      "COM23M-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only if a new lead arises, search for a distinct March event report with public-gathering date, site and attendance; do not treat negotiations, campaign membership or the reused interview as a protest event."
+  },
+  {
+    "gap_id": "COM23M-G004",
+    "type": "bounded source, region, sector and language coverage",
+    "description": "Captured French and English general searches and all four March date windows. Local follow-ups covered Ayman/Vouvouni, pension continuity, islands (Ngazidja, Anjouan, Mohéli) and education, transport, health and strikes. Arabic search returned date-noisy unrelated material; no feasible indexed Shikomori query was identified. Search results were heavily contaminated by France, Mayotte, out-of-month items and older stories. Local public searches did not reproduce the codebook’s Lexis-Nexis method or systematically examine all island radio/print archives.",
+    "source_ids": [
+      "COM23M-S001",
+      "COM23M-S002",
+      "COM23M-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "A material remaining step is targeted reporting for E001 state-demand specificity and E002 turnout/site; for broad coverage, consult native Shikomori/Arabic or island archives only if a concrete index/source can be located. No absence/exhaustiveness conclusion."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "participants",
+    "description": "All six January 13 gathering/campaign leads in S001 lack individual crowd counts. A national, multi-site or campaign total is not available, and none can be declared eligible at the 50-simultaneous-person threshold.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-01_E001",
+      "myanmar_2023-01_E002",
+      "myanmar_2023-01_E003",
+      "myanmar_2023-01_E004",
+      "myanmar_2023-01_E005",
+      "myanmar_2023-01_E006"
+    ],
+    "required_followup": "Seek independently reported site-specific simultaneous counts for each locality and determine whether the Longlone report was an executed gathering."
+  },
+  {
+    "gap_id": "G002",
+    "type": "state_target",
+    "description": "Longlone item describes a boycott of junta-army products but does not clearly state a demand directed to the domestic government or government policy.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-01_E006"
+    ],
+    "required_followup": "Find an original or independent source explaining the campaign demand and whether a public rally occurred."
+  },
+  {
+    "gap_id": "G003",
+    "type": "source_independence",
+    "description": "The five anti-dictatorship/election march leads and the Longlone item all derive from one Mizzima roundup; no independent contemporary corroboration has been found in the captured search batch.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-01_E001",
+      "myanmar_2023-01_E002",
+      "myanmar_2023-01_E003",
+      "myanmar_2023-01_E004",
+      "myanmar_2023-01_E005",
+      "myanmar_2023-01_E006"
+    ],
+    "required_followup": "Search independent local, regional and international outlets for each reported 13 January gathering without merging sites."
+  },
+  {
+    "gap_id": "G004",
+    "type": "state_response",
+    "description": "Mizzima's event entries do not report protester violence or event-specific arrests, beatings, dispersal, accommodation, killings, shootings or official ignoring. Each response remains unknown, not no.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-01_E001",
+      "myanmar_2023-01_E002",
+      "myanmar_2023-01_E003",
+      "myanmar_2023-01_E004",
+      "myanmar_2023-01_E005",
+      "myanmar_2023-01_E006"
+    ],
+    "required_followup": "Seek event-linked accounts of state response; attribute only actions explicitly tied to a particular gathering."
+  },
+  {
+    "gap_id": "G005",
+    "type": "episode_unit",
+    "description": "Exact sites and boundaries are incomplete for all January 13 leads, especially the named-group student march (locality absent) and the Monywa, Salingyi/Yinmabin, Pyigyi Dagun and Longlone items (site not specified). No opening or closing time is given, and no continuity from or into an adjacent month is established.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-01_E001",
+      "myanmar_2023-01_E002",
+      "myanmar_2023-01_E003",
+      "myanmar_2023-01_E004",
+      "myanmar_2023-01_E005",
+      "myanmar_2023-01_E006"
+    ],
+    "required_followup": "Locate event-specific follow-up and preceding reports for exact site, dates, single-day duration and any continuity/duplicate episode."
+  },
+  {
+    "gap_id": "G006",
+    "type": "source_access",
+    "description": "Mizzima's 30 January roundup exact URL returned a 403 in the web tool; OHCHR's A/HRC/52/CRP.2 exact PDF returned a 403; Myanmar Now's retrospective Pathein Prison story produced a web-tool redirect-loop error and an ordinary direct HTTPS attempt failed at the configured proxy before an HTTP response. These outcomes are respectively an exact target denial and technical retrieval failures; they do not establish broader publisher restrictions.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-01_E001",
+      "myanmar_2023-01_E002",
+      "myanmar_2023-01_E003",
+      "myanmar_2023-01_E004",
+      "myanmar_2023-01_E005",
+      "myanmar_2023-01_E006",
+      "myanmar_2023-01_X001"
+    ],
+    "required_followup": "Respect exact action/URL restrictions and retain technical errors as gaps; do not retry the Mizzima or OHCHR targets or use alternate paths. New unrelated public sources may be assessed separately."
+  },
+  {
+    "gap_id": "G007",
+    "type": "coverage",
+    "description": "A bounded open-web sweep used 14 English and Burmese query formulations, including early/late month and 1–7, 15–21, 22–31 windows, but search results were noisy and often returned February, 2021 or conflict material. Only one relevant January roundup body was available. Open web is not LexisNexis, archived local coverage or an exhaustive event register; the official baseline and original ccode are still pending.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-01_E001",
+      "myanmar_2023-01_E002",
+      "myanmar_2023-01_E003",
+      "myanmar_2023-01_E004",
+      "myanmar_2023-01_E005",
+      "myanmar_2023-01_E006"
+    ],
+    "required_followup": "Continue with feasible non-held local language, regional, international, official and rights-reporting coverage before declaring this a bounded monthly first pass; no completeness claim."
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "gap_id": "mozambique_2023-01_G001",
+    "type": "eligibility_and_threshold",
+    "description": "The Namaacha municipal-workers march is supported only by search-rendered snippets; the exact Evidências body request timed out before HTTP status/content. Whether a public gathering occurred and whether >=50 people were present are unknown. DW confirms multiple recent municipal strikes including Namaacha but not this action’s date or attendance.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-01_E001"
+    ],
+    "required_followup": "Use independent permitted reporting if available; do not repeat the timed-out URL or infer attendance from worker numbers."
+  },
+  {
+    "gap_id": "mozambique_2023-01_G002",
+    "type": "access",
+    "description": "Exact Evidências URL body attempt returned a tool timeout, not an HTTP denial; no body was retrieved and source remains search_only.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-01_E001"
+    ],
+    "required_followup": "No retry/variant was made; follow other independent sources. Preserve technical gap."
+  },
+  {
+    "gap_id": "mozambique_2023-01_G003",
+    "type": "coverage",
+    "description": "Eleven open-web searches covered Portuguese/English broad and weekly Jan windows, but the search service returned many stale/off-window pages and did not reliably honor date constraints. Local reporting coverage outside the surfaced Namaacha lead remains incomplete.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue bounded searches by local outlet, region and public-sector wage topics; verify publication/event dates in readable sources."
+  },
+  {
+    "gap_id": "mozambique_2023-01_G004",
+    "type": "baseline_and_method",
+    "description": "Open web does not reproduce Lexis-Nexis. Official baseline/universe and original Polity country code remain pending coordinator gates; no official completion claim is possible.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve official baseline/licensing/schema gates; researcher coverage remains non-exhaustive."
+  },
+  {
+    "gap_id": "mozambique_2023-01_G005",
+    "type": "announced_action_occurrence_and_threshold",
+    "description": "Integrity search result reports an announced Jan 11 Malema municipal employee strike over salary arrears and planned office closure, but does not establish execution, public gathering or attendance. The text has weekday/date inconsistency. A separate Jan 11 Ikweli search result also reports an announced Malema police-worker strike but does not confirm execution.",
+    "source_ids": [
+      "S004",
+      "S012"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-01_E002"
+    ],
+    "required_followup": "No execution assumption; seek independent contemporaneous reporting if available and distinguish workplace work stoppage from a public gathering."
+  },
+  {
+    "gap_id": "mozambique_2023-01_G006",
+    "type": "work_stoppage_public_gathering_and_continuity",
+    "description": "O País search result says Namaacha municipal workers stopped activities on Jan 6 and returned to demonstrate in front of the municipal building almost a month later. The Jan 6 report does not establish a public gathering; the later action likely falls around early Feb but exact day and same-episode relationship are unknown.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-01_E003"
+    ],
+    "required_followup": "Assess any body action only after exact-URL receipt/manual review; verify whether Jan stoppage involved a public gathering and unitize the later action without inferring an exact date/threshold."
+  },
+  {
+    "gap_id": "mozambique_2023-01_G007",
+    "type": "attendance_threshold_and_protest_duration",
+    "description": "Evidências and VOA body confirm a 4 Jan Nacala-Porto demonstration, but neither reports simultaneous attendance. VOA says about 600 employees/collaborators were affected; Carta says 613 employees, both workforce totals rather than turnout. Search-only follow-ups say the January strike lasted 18 days and mention a later citywide strike/paralysis, but exact physical close and episode relation remain unresolved. A WSWS PDF search excerpt instead dates a Nacala walkout to Jan 17; relation to the Jan 4 event and 18-day duration remains unresolved.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S013"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-01_E004"
+    ],
+    "required_followup": "Resolve whether the Jan 4 and Jan 17 accounts refer to one ongoing Nacala strike or different actions; no date or duration inference from search snippets. Quantify one-site attendance."
+  },
+  {
+    "gap_id": "mozambique_2023-01_G008",
+    "type": "access",
+    "description": "The Ikweli 22 March Nacala follow-up body was attempted once after a fresh exact-URL receipt/manual assessment; the tool returned TimeoutError with no status/body. This is a technical retrieval failure, not a denial.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-01_E004"
+    ],
+    "required_followup": "Do not retry this exact article or use variants; retain the search-only duration claim as unverified and resolve attendance/close through independent permitted sources if available."
+  },
+  {
+    "gap_id": "mozambique_2023-01_G009",
+    "type": "access",
+    "description": "One exact-URL Carta de Moçambique body request for the Jan 5 Nacala follow-up returned “not accessible via this tool” without HTTP status or body. The source remains search-only; this is not an HTTP denial and there was no retry.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-01_E004"
+    ],
+    "required_followup": "Do not retry this exact URL or request variants; use the VOA body and independent permitted source leads for field verification."
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "First-pass public-web search used Lithuanian and English query strings for protest, demonstration, picket, rally and strike across Vilnius/Kaunas and national results; no LexisNexis or systematic archive search, and no province-by-province source sweep was available. No qualifying January event was established.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent reviewer may assess whether additional national/regional outlets or archive searches materially improve January coverage."
+  },
+  {
+    "gap_id": "G002",
+    "type": "access",
+    "description": "Search output Q005 identified a Jan 13, 2023 LRT/BNS article about the Freedom Defenders’ Day commemoration. Exact-URL access was assessed (MA001/A001), but the ordinary open returned a connector 'Failed to fetch restricted URL' error with no HTTP status. Q006 separately returned a non-retryable robots.txt block for an LRT search action. No body evidence is used; these are distinct technical/search-action gaps, not a broad HTTP denial.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use another independently permitted source or archival access to determine whether a separate protest occurred at the Jan 13 commemoration; do not retry the LRT action."
+  },
+  {
+    "gap_id": "G003",
+    "type": "continuity",
+    "description": "VVT strike began Dec 5, 2022; Dec 19 body says some workers returned while termination talks continued. The available sources do not establish final strike termination, any January continuation, or a public gathering. January onset/continuity is unknown.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find a distinct permitted source reporting any January public assembly or explicit strike close; do not treat workplace strike headcount as crowd turnout."
+  },
+  {
+    "gap_id": "G004",
+    "type": "access",
+    "description": "Q009 search on delfi.lt returned an explicit robots.txt non-retryable block. Root recorded restriction 0031 for LRT Q006 and noted exact scope; Q009 raw is preserved and this Delfi action was not repeated. Other sources were searched.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No retry or bypass; use other independently permitted national and regional outlets if follow-up coverage is warranted."
+  }
+]

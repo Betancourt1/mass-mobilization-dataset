@@ -1,0 +1,101 @@
+[
+  {
+    "gap_id": "LVA2023-02-G001",
+    "type": "state_target",
+    "description": "The 24 February Freedom Monument assembly clearly supported Ukraine and opposed Russia's invasion, but the sole opened LETA-origin report does not establish an explicit Latvian-government demand. One participant expressed concern that Latvia/European countries might end support and said they had come to express continued support; the political target remains ambiguous.",
+    "source_ids": [
+      "LVA2023-02-S001",
+      "LVA2023-02-S002"
+    ],
+    "affected_candidates": [
+      "LVA2023-02-E001"
+    ],
+    "required_followup": "Find an organizer statement or independently written account specifying whether the gathering demanded Latvian government/parliament action; otherwise keep pending_state_target."
+  },
+  {
+    "gap_id": "LVA2023-02-G002",
+    "type": "source_independence",
+    "description": "The only opened article on the 24 February assembly is explicitly LETA-origin and carried by TV3. Baltic Times search results corroborate date/site/crowd but were not body-opened; independence and any additional target details remain uncertain.",
+    "source_ids": [
+      "LVA2023-02-S001",
+      "LVA2023-02-S002"
+    ],
+    "affected_candidates": [
+      "LVA2023-02-E001"
+    ],
+    "required_followup": "Seek a permitted independently written organizer or local outlet account only if needed; do not treat multiple LETA republications as independent corroboration."
+  },
+  {
+    "gap_id": "LVA2023-02-G003",
+    "type": "planned_action_outcome",
+    "description": "A February search result about dairy producers’ readiness to organize wider protests was only intent. Q009 led to an official Ministry of Agriculture page, but the body is dated 5 February 2024 and describes a 2024 action, not February 2023. A separate 1 March 2023 Latvian Radio report says producers were then waiting for March price information and had only conditional future plans; it does not document an earlier February gathering. The distinct 11 February free-milk protest is now a separate E002 candidate.",
+    "source_ids": [
+      "LVA2023-02-S005",
+      "LVA2023-02-S009",
+      "LVA2023-02-S010",
+      "LVA2023-02-S011"
+    ],
+    "affected_candidates": [
+      "LVA2023-02-E002"
+    ],
+    "required_followup": "Keep E002 separate from conditional plans; seek any independent account of its per-site simultaneous attendance and exact government ask. No evidence found here supports a separate broad dairy-farmer gathering in February."
+  },
+  {
+    "gap_id": "LVA2023-02-G004",
+    "type": "onset_month",
+    "description": "A 28 February announcement describes a planned anti-conscription march for 4 March. It is a March lead, not an event whose onset belongs to February.",
+    "source_ids": [
+      "LVA2023-02-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "In March unit, determine whether the march occurred and its actual crowd size; do not infer execution from announcement."
+  },
+  {
+    "gap_id": "LVA2023-02-G005",
+    "type": "archive_limit",
+    "description": "The bounded public-web search is not a systematic licensed local newspaper archive or LexisNexis/all-news pass; results include many historical and later-month actions. Candidate search is not exhaustive, especially for smaller regional or sectoral events.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If full coverage is required, compare against licensed Latvian press/LETA archives and municipal event records; no absence inference is warranted from this search."
+  },
+  {
+    "gap_id": "LVA2023-02-G006",
+    "type": "threshold",
+    "description": "E002 is a documented public protest with up to 400 people reported in Grobiņa and an estimated queue up to 1,500 in Liepāja. The story does not say whether either site estimate is simultaneous rather than cumulative; the two sites are not combined.",
+    "source_ids": [
+      "LVA2023-02-S011"
+    ],
+    "affected_candidates": [
+      "LVA2023-02-E002"
+    ],
+    "required_followup": "Seek a direct organizer/local report that clarifies simultaneous peak crowd at one site; otherwise keep pending_threshold."
+  },
+  {
+    "gap_id": "LVA2023-02-G007",
+    "type": "state_target",
+    "description": "E002 is described as a protest against low milk purchase prices, retail markups and government inaction; the exact policy remedy requested from Latvia’s government and category remain unspecified. E003 and E004 mainly express Ukraine support/anti-Russia views; references to mayors’ silence do not yet establish an explicit domestic demand.",
+    "source_ids": [
+      "LVA2023-02-S011",
+      "LVA2023-02-S012"
+    ],
+    "affected_candidates": [
+      "LVA2023-02-E002",
+      "LVA2023-02-E003",
+      "LVA2023-02-E004"
+    ],
+    "required_followup": "Keep state-target and demand coding pending unless a source names an explicit government/municipal ask; distinguish Russian state policy from Latvia’s own state."
+  },
+  {
+    "gap_id": "LVA2023-02-G008",
+    "type": "threshold",
+    "description": "LSM/LTV’s regional compilation confirms separate 24 February activities in Daugavpils and Rēzekne but gives no site-level crowd size for either. It also does not establish that these regional events were a single nationally organized episode.",
+    "source_ids": [
+      "LVA2023-02-S012"
+    ],
+    "affected_candidates": [
+      "LVA2023-02-E003",
+      "LVA2023-02-E004"
+    ],
+    "required_followup": "Seek permitted city-specific contemporary reporting with attendance and organizer details; do not combine locations solely because they share an anniversary date."
+  }
+]

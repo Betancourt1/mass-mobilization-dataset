@@ -1,0 +1,64 @@
+[
+  {
+    "gap_id": "COM23F-G001",
+    "type": "candidate eligibility / threshold",
+    "description": "E001 has an exact reported date and state-directed pension demands, but LGDC calls it a press conference and gives neither venue nor attendance. It is unclear whether it was a protest action or a small press briefing; threshold >=50 is not supported.",
+    "source_ids": [
+      "COM23F-S003"
+    ],
+    "affected_candidates": [
+      "comoros_2023-02_E001"
+    ],
+    "required_followup": "Seek a distinct contemporaneous source or direct report giving venue, public/action character and simultaneous attendance; otherwise retain pending_evidence."
+  },
+  {
+    "gap_id": "COM23F-G002",
+    "type": "retiree protest series / date and continuity",
+    "description": "Comores Infos reports a series of retiree demonstrations and government demands (S001) without event dates, locations, turnout or number of actions. LGDC says the collective voiced concerns since 14 October 2022 (S003), while a March 15 issue says negotiations began 7 August 2022 (S004). These may describe different campaign phases; no specific February qualifying demonstration is established.",
+    "source_ids": [
+      "COM23F-S001",
+      "COM23F-S003",
+      "COM23F-S004"
+    ],
+    "affected_candidates": [
+      "comoros_2023-02_E001"
+    ],
+    "required_followup": "Find date/site/count for any specific February gathering and distinguish it from the older campaign and press conference; check March continuation without duplicating an ongoing action."
+  },
+  {
+    "gap_id": "COM23F-G003",
+    "type": "late-February incident / March continuity",
+    "description": "Comores Infos February archive page reports Ayman Nourdine’s death after gendarme arrest/violence on 27–28 February (S006). A search-only March 3 Habariza result says residents demonstrated in Vouvouni on 3 March after youth protested the previous day (S007). The available February page does not report a protest gathering.",
+    "source_ids": [
+      "COM23F-S006",
+      "COM23F-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Investigate the March 2–3 demonstrations in the March dossier using fresh exact-URL assessment before any body request; do not backdate them into February."
+  },
+  {
+    "gap_id": "COM23F-G004",
+    "type": "geography / sector coverage",
+    "description": "Captured searches cover French and English general discovery and all four weekly windows, local Comorian outlets, Moroni/Grande Comore, Anjouan and Mohéli leads, retirement, market, university/education, health, transport, politics, prices and public-service issues. Search results are highly date-noisy and often return France, Morocco, older Comorian stories or unrelated material. Arabic and Swahili-oriented queries yielded mostly non-Comorian results; no Shikomori-native query was captured.",
+    "source_ids": [
+      "COM23F-S001",
+      "COM23F-S002",
+      "COM23F-S003",
+      "COM23F-S004",
+      "COM23F-S005",
+      "COM23F-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If feasible, consult Shikomori-language/local-island sources and the broader LGDC/Comores Infos archives; preserve this bounded web-search scope and make no absence/exhaustiveness claim."
+  },
+  {
+    "gap_id": "COM23F-G005",
+    "type": "method / archive equivalence",
+    "description": "Research used open-web search and captured local news pages; it did not reproduce the codebook’s Lexis-Nexis newspaper search or systematically examine all local print/radio archives. One Comores Infos archive page covered only page 1 of 14.",
+    "source_ids": [
+      "COM23F-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue only with feasible targeted source/archive searches for specific unresolved claims; report unavailable archives as a method limitation, not evidence of no protests."
+  }
+]

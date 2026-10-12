@@ -1,0 +1,156 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline_mapping",
+    "description": "The assignment does not provide the original Polity country code/crosswalk; all ccode values remain null.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MKD23MAR_E001",
+      "MKD23MAR_E002",
+      "MKD23MAR_E003",
+      "MKD23MAR_E004",
+      "MKD23MAR_E005",
+      "MKD23MAR_E006"
+    ],
+    "required_followup": "Coordinator/baseline owner to confirm the official mapping before official use."
+  },
+  {
+    "gap_id": "G002",
+    "type": "archive_access",
+    "description": "This is bounded open-web searching, not the original archival search universe; no equivalent historical archive is present in the worktree.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If authorized historical archive access becomes available, conduct the prescribed search independently."
+  },
+  {
+    "gap_id": "G003",
+    "type": "attendance_threshold",
+    "description": "The March8 women’s-rights march is documented by two open reports with qualitative “large number” wording but neither gives a numeric/bounded simultaneous count. An AP Archive result mentions around 1,000; body was not requested under standing AP hold and its figure is not used.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "MKD23MAR_E001"
+    ],
+    "required_followup": "Seek event-specific turnout from an unrelated permitted source; no AP body/variant access."
+  },
+  {
+    "gap_id": "G004",
+    "type": "attendance_threshold",
+    "description": "March17 student/high-school protest outside MON is actual and state-targeted, but no report gives simultaneous attendance.",
+    "source_ids": [
+      "S011",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "MKD23MAR_E002"
+    ],
+    "required_followup": "Seek event-specific count from a permitted source; do not infer from enrollment or organizer membership."
+  },
+  {
+    "gap_id": "G005",
+    "type": "threshold_and_target_scope",
+    "description": "March29 Bitola “Justice for Jana” gathering is reported as hundreds at one site and state-health-system demands; exact headcount and event end/official response remain unknown.",
+    "source_ids": [
+      "S004",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "MKD23MAR_E003"
+    ],
+    "required_followup": "Human review of qualitative hundreds and political_behavior_process mapping; retain exact count/end unknown."
+  },
+  {
+    "gap_id": "G006",
+    "type": "attendance_threshold",
+    "description": "Separate March29 gathering before Ministry of Health in Skopje has no location-specific turnout count; Bitola count cannot be pooled.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "MKD23MAR_E004"
+    ],
+    "required_followup": "Find a count for the Skopje site only."
+  },
+  {
+    "gap_id": "G007",
+    "type": "attendance_threshold",
+    "description": "March31 public cultural-sector action before Government lacks attendance evidence; number of employees in the institutions does not establish turnout.",
+    "source_ids": [
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "MKD23MAR_E005"
+    ],
+    "required_followup": "Locate a same-site simultaneous headcount and resolve multi-day series boundaries separately."
+  },
+  {
+    "gap_id": "G008",
+    "type": "continuity_dates",
+    "description": "Culture-sector reporting describes prior actions before Finance and a March31 Government action; exact start date, daily cadence and whether these form one episode are unresolved.",
+    "source_ids": [
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "MKD23MAR_E005"
+    ],
+    "required_followup": "Use only date-specific reports and keep unverified prior actions outside E005’s single dated March31 row until reconciled."
+  },
+  {
+    "gap_id": "G009",
+    "type": "attendance_threshold",
+    "description": "March30 health-worker protest before the Ministry of Health is supported as an actual gathering and state wage demand; no simultaneous attendance figure is reported.",
+    "source_ids": [
+      "S012"
+    ],
+    "affected_candidates": [
+      "MKD23MAR_E006"
+    ],
+    "required_followup": "Seek site-specific turnout evidence; keep state accommodation evidence separate from eligibility."
+  },
+  {
+    "gap_id": "G010",
+    "type": "continuity_episode",
+    "description": "The March30 health protest follows a March29 conditional announcement and results in a same-day wage agreement; no body establishes continuity with February22 health actions or an event duration/end.",
+    "source_ids": [
+      "S008",
+      "S012"
+    ],
+    "affected_candidates": [
+      "MKD23MAR_E006"
+    ],
+    "required_followup": "Do not merge with February22 or infer closure; review only if exact episode linkage evidence appears."
+  },
+  {
+    "gap_id": "G011",
+    "type": "geographic_language_coverage",
+    "description": "Searches targeted Skopje plus Bitola/Tetovo/Kumanovo/Ohrid/Prilep/Štip and included Macedonian, English and an Albanian query. Regional results were sparse; Serbian-language press and systematic local outlet sweeps were not covered.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "A future bounded pass may search additional local outlets and municipalities; no countrywide absence claim."
+  },
+  {
+    "gap_id": "G012",
+    "type": "demand_mapping",
+    "description": "Women’s rights, educational/student-standard and health accountability demands are mapped tentatively to political_behavior_process because no narrower supported codebook category fits. State accommodation on March30 is evidenced separately from threshold.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [
+      "MKD23MAR_E001",
+      "MKD23MAR_E002",
+      "MKD23MAR_E003",
+      "MKD23MAR_E004"
+    ],
+    "required_followup": "Reviewer to confirm codebook mapping and response coding without converting uncertainty to a positive/negative undocumented response."
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "gap_id": "LVA2023-01-G001",
+    "type": "archive_limit",
+    "description": "The bounded public-web searches do not reproduce LexisNexis/all-news or a systematic local-print archive. Search results were noisy and often surfaced historical, later-month or later-year actions. No claim that no additional domestic protest occurred is supported.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If official completeness is needed, compare against licensed newspaper archives, LETA/local print databases and public assembly records; this unit remains open to review."
+  },
+  {
+    "gap_id": "LVA2023-01-G002",
+    "type": "planned_action_outcome",
+    "description": "Latvian Radio's 20/22 January coverage references family doctors warning of possible protest action; the captured search result does not establish a public gathering or execution during January.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search dated local coverage for any actual public doctor/health-worker gathering in January; do not code a threat or strike warning as a gathering."
+  },
+  {
+    "gap_id": "LVA2023-01-G003",
+    "type": "source_independence",
+    "description": "The 21 January Russian-political-prisoner/anti-war action appears in TVNET and Chayka search results. Both support an out-of-scope foreign-state target, but independent reporting and exact attendance detail beyond TVNET's rendered snippet remain unverified.",
+    "source_ids": [
+      "LVA2023-01-S002",
+      "LVA2023-01-S003"
+    ],
+    "affected_candidates": [
+      "LVA2023-01-X001"
+    ],
+    "required_followup": "No follow-up is needed for provisional exclusion by target; seek source bodies only if a later review needs to resolve independence or event details, after fresh exact-URL assessments."
+  },
+  {
+    "gap_id": "LVA2023-01-G004",
+    "type": "coverage_scope",
+    "description": "Queries covered Latvian, Russian and English language results, mainly Riga and named regional centers, plus schools/health workers, agriculture, transport, unions, prices, political demonstrations and foreign-policy actions. No evidence found in this bounded pass establishes a January domestic own-state protest meeting the threshold; this remains a search finding, not an absence claim.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with local outlet/municipal event-calendar review and targeted regional searches if feasible; resolve new leads without treating search-only snippets as body-read evidence."
+  }
+]

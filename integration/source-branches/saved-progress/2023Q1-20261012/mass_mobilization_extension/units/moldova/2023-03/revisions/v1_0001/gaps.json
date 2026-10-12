@@ -1,0 +1,98 @@
+[
+  {
+    "gap_id": "moldova_2023-03_G001",
+    "type": "baseline_and_archive_scope",
+    "description": "The official historical baseline and an equivalent archival corpus are absent; rendered open-web searches are not exhaustive and do not reproduce LexisNexis/all-news coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review of the official baseline/archive scope; retain bounded open-web status."
+  },
+  {
+    "gap_id": "moldova_2023-03_G002",
+    "type": "late_month_geographic_sector_coverage",
+    "description": "Queries Q008–Q013 extended search through March 31 and checked later-month worker/transport/region leads in Romanian, English and Russian, but results often recycled March 12–16 stories or surfaced out-of-month material. No systematic primary local coverage inventory exists for each raion, Transnistria, Gagauzia, or separate labor/education/health sectors.",
+    "source_ids": [],
+    "affected_candidates": [
+      "moldova_2023-03_E001",
+      "moldova_2023-03_E002",
+      "moldova_2023-03_E003",
+      "moldova_2023-03_E004",
+      "moldova_2023-03_E005",
+      "moldova_2023-03_E006",
+      "moldova_2023-03_E007",
+      "moldova_2023-03_E008"
+    ],
+    "required_followup": "Further allowed local/regional and sector sources may resolve attendance, source independence and event occurrence; do not claim complete monthly or geographic coverage."
+  },
+  {
+    "gap_id": "moldova_2023-03_G003",
+    "type": "candidate_threshold_and_target",
+    "description": "The March 21 transporter gathering is confirmed, but Radio Moldova reports only approximately 40–50 and Moldova 1 says ‘dozens’; the simultaneous 50-person threshold is unresolved. The two Teleradio-Moldova outlets share a publisher organization.",
+    "source_ids": [
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [
+      "moldova_2023-03_E006"
+    ],
+    "required_followup": "Seek an independent contemporary attendance estimate if feasible; keep participant bounds null and status pending_threshold unless 50+ simultaneous attendance is established."
+  },
+  {
+    "gap_id": "moldova_2023-03_G004",
+    "type": "candidate_state_target_and_threshold",
+    "description": "March 26 unionist gathering is described as ‘dozens’ by NewsMaker relaying TV8; its direct target toward the Moldovan state is not established. A separate counter-protest invoked neutrality and independence but has no attendance estimate or formal demand to authorities.",
+    "source_ids": [
+      "S013",
+      "S019"
+    ],
+    "affected_candidates": [
+      "moldova_2023-03_E007",
+      "moldova_2023-03_E008"
+    ],
+    "required_followup": "Preserve the two gatherings separately; identify any direct state-directed demand and independent group-specific headcount before considering inclusion."
+  },
+  {
+    "gap_id": "moldova_2023-03_G005",
+    "type": "event_threshold",
+    "description": "The March 12, 13 and 15 Șor/Movement actions have no reliable site-level simultaneous attendance estimates in the opened material. Detentions, paid transport or road-block reports are not participant counts.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "moldova_2023-03_E001",
+      "moldova_2023-03_E003",
+      "moldova_2023-03_E004"
+    ],
+    "required_followup": "Keep candidates pending threshold unless a saved contemporaneous account supplies a valid site/time attendance figure."
+  },
+  {
+    "gap_id": "moldova_2023-03_G006",
+    "type": "event_response_and_end",
+    "description": "For several dated gatherings, reports do not establish physical end times or full endings; police warnings, identification/detention claims and crowd dispersal need to stay event-specific and distinguishable.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [
+      "moldova_2023-03_E001",
+      "moldova_2023-03_E002",
+      "moldova_2023-03_E003",
+      "moldova_2023-03_E004",
+      "moldova_2023-03_E005",
+      "moldova_2023-03_E006"
+    ],
+    "required_followup": "Retain unknown end/response fields unless existing source text explicitly establishes a physical ending or response."
+  }
+]

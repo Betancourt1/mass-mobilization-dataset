@@ -1,0 +1,121 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline_mapping",
+    "description": "Assignment identifies country/month but does not expose the original Polity ccode; official baseline crosswalk is pending, so event ccode is null.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MKD23JAN_E001",
+      "MKD23JAN_E002",
+      "MKD23JAN_E003"
+    ],
+    "required_followup": "Coordinator/baseline owner to confirm the original code before official use."
+  },
+  {
+    "gap_id": "G002",
+    "type": "archive_access",
+    "description": "Open web search is not a substitute for the historical LexisNexis/news archive procedure; no equivalent indexed archive is available in this worktree.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If authorized archive access becomes available, run the baseline-prescribed source/date search."
+  },
+  {
+    "gap_id": "G003",
+    "type": "continuity_end_date",
+    "description": "No opened source explicitly establishes the physical end of the Jan 22 YCC/MKC protest; post-event reporting does not define closure.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "MKD23JAN_E001"
+    ],
+    "required_followup": "Check contemporaneous Feb reporting/organizer records for explicit continuation or closure without treating silence as an end."
+  },
+  {
+    "gap_id": "G004",
+    "type": "occurrence_threshold_access",
+    "description": "Jan 26 All for MKC gathering was imminent/planned in S004, but execution and co-present count are not established. Sloboden Pechat result S007 has an exact 403; its snippet count of 1,000 cannot be interpreted as turnout and no retry/variant is allowed.",
+    "source_ids": [
+      "S004",
+      "S007"
+    ],
+    "affected_candidates": [
+      "MKD23JAN_E002"
+    ],
+    "required_followup": "Use only a distinct permitted source to verify physical occurrence and simultaneous attendance."
+  },
+  {
+    "gap_id": "G005",
+    "type": "threshold_state_target",
+    "description": "Jan 30 private-carrier protest occurred, but sources give no participant count and the direct payment/contract demand may be commercial rather than a policy demand despite requests for government involvement.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S008"
+    ],
+    "affected_candidates": [
+      "MKD23JAN_E003"
+    ],
+    "required_followup": "Seek an independent permitted report with turnout and specific state-policy demands; otherwise retain pending_state_target."
+  },
+  {
+    "gap_id": "G006",
+    "type": "event_variables",
+    "description": "The available Jan reports do not establish protester violence or event-specific state responses; do not infer no response/violence from silence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "MKD23JAN_E001",
+      "MKD23JAN_E002",
+      "MKD23JAN_E003"
+    ],
+    "required_followup": "Only add response/violence if a source explicitly documents the event-specific fact."
+  },
+  {
+    "gap_id": "G007",
+    "type": "geographic_coverage",
+    "description": "Search coverage sampled Skopje extensively and included a country-wide English regional query, but did not systematically cover every municipality or local outlet; no reliable national absence conclusion.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Further region-specific local-language searches for non-Skopje municipalities if feasible."
+  },
+  {
+    "gap_id": "G008",
+    "type": "language_coverage",
+    "description": "Searches included Macedonian and English, but transliteration variants and Albanian/Serbian-language local coverage were not systematically exhausted.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search Albanian and Serbian local press for municipality/sector gaps when feasible."
+  },
+  {
+    "gap_id": "G009",
+    "type": "search_noise",
+    "description": "Search service returned out-of-period and unrelated items despite date-bounded prompts; dates were checked against item headers where present. January 1–21 window searches yielded no further verified assembly lead beyond the Jan 22 item.",
+    "source_ids": [
+      "S008",
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Treat this as bounded search result only, not proof no other events occurred."
+  },
+  {
+    "gap_id": "G010",
+    "type": "foreign_target_lead",
+    "description": "BNT search-only lead S009 describes road blockades directed at Bulgarian visitors/commemoration; date, occurrence, threshold and any own-state demand are unknown, so it is not included as a candidate event.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If later evidence shows an own-state policy demand, reassess; otherwise exclude as foreign-targeted or not a qualifying gathering."
+  }
+]
