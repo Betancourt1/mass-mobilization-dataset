@@ -22,6 +22,13 @@ def git(*args):
     return subprocess.check_output(["git", *args], cwd=ROOT, text=True).strip()
 
 
+def git_optional(*args):
+    result = subprocess.run(
+        ["git", *args], cwd=ROOT, text=True, capture_output=True
+    )
+    return result.stdout.strip() if result.returncode == 0 else None
+
+
 def verify_manifest(manifest_path, base, path_key, size_key="bytes"):
     data = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
     files = data.get("files", [])
@@ -47,15 +54,51 @@ def main():
     branches = list(csv.DictReader((ROOT / "integration/BRANCH_REGISTER.csv").open(encoding="utf-8")))
     if not branches:
         raise SystemExit("empty branch register")
+    retirement_path = ROOT / "integration/REMOTE_BRANCH_RETIREMENT.csv"
+    retirements = {
+        row["remote_ref"]: row
+        for row in csv.DictReader(retirement_path.open(encoding="utf-8"))
+    } if retirement_path.exists() else {}
     branch_results = []
     for row in branches:
         ref = row["source_ref"]
+        source_head = row["source_head"]
         archive = row["archive_path"].rstrip("/")
         source_tree = row["source_tree"]
         archived_tree = git("rev-parse", f"HEAD:{archive}")
-        reachable = subprocess.run(["git", "merge-base", "--is-ancestor", ref, "HEAD"], cwd=ROOT).returncode == 0
-        if archived_tree != source_tree or not reachable:
-            raise SystemExit(f"branch tree/history mismatch: {ref}; {archived_tree} vs {source_tree}, reachable={reachable}")
+        source_commit_type = git_optional("cat-file", "-t", source_head)
+        source_commit_tree = git_optional("rev-parse", f"{source_head}^{{tree}}")
+        reachable = subprocess.run(
+            ["git", "merge-base", "--is-ancestor", source_head, "HEAD"], cwd=ROOT
+        ).returncode == 0
+        tracked_head = git_optional("rev-parse", "--verify", "--quiet", ref)
+        remote_ref_matches = tracked_head is None or tracked_head == source_head
+        remote_ref_name = f"refs/heads/{ref.removeprefix('origin/')}"
+        retirement = retirements.get(remote_ref_name)
+        if tracked_head is None:
+            retired_and_verified = bool(
+                retirement
+                and retirement.get("remote_absence_verified") == "true"
+                and retirement.get("retirement_status") == "remote_ref_deleted_and_absence_verified"
+                and retirement.get("source_head") == source_head
+                and retirement.get("source_tree") == source_tree
+            )
+        else:
+            retired_and_verified = True
+        if (
+            source_commit_type != "commit"
+            or source_commit_tree != source_tree
+            or archived_tree != source_tree
+            or not reachable
+            or not remote_ref_matches
+            or not retired_and_verified
+        ):
+            raise SystemExit(
+                f"branch preservation mismatch: {ref}; source_commit={source_commit_type}, "
+                f"source_tree={source_commit_tree}, registered_tree={source_tree}, "
+                f"archived_tree={archived_tree}, reachable={reachable}, "
+                f"tracked_ref_matches={remote_ref_matches}, retirement_receipt={retired_and_verified}"
+            )
         branch_root = ROOT / archive
         branch_manifest_count = 0
         pub = branch_root / "PUBLICATION_MANIFEST.json"
@@ -75,6 +118,9 @@ def main():
             "source_tree": source_tree,
             "archived_tree": archived_tree,
             "source_head_is_ancestor": reachable,
+            "remote_tracking_ref_present": tracked_head is not None,
+            "remote_tracking_ref_matches_registered_head": remote_ref_matches,
+            "remote_ref_retirement_verified": retired_and_verified,
             "verified_manifest_file_entries": branch_manifest_count,
         })
 
