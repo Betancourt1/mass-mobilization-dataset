@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "GIN202010GAP-COVERAGE-WEEKLY-REGIONAL",
+    "dimension": "material coverage",
+    "status": "pending",
+    "detail": "Searches cover broad October and late-month election protest terms, but do not close remaining regional weekly/sector searches (Mamou, Labé, Pita, Mali and other regions have leads, not complete site-specific review).",
+    "next_permitted_action": "Continue exact regional/local-language searches by week and sector; locally assess each exact URL before any body request."
+  },
+  {
+    "gap_id": "GIN202010GAP-THRESHOLD",
+    "dimension": "candidate threshold",
+    "candidate_ids": [
+      "GIN202010CAND-OCT21-CONAKRY",
+      "GIN202010CAND-OCT23-CONAKRY"
+    ],
+    "status": "pending",
+    "detail": "Saved opened sources do not establish >=50 simultaneous participants at either named site. Do not pool reports across days or cities.",
+    "next_permitted_action": "Search exact city/date local reporting for explicit crowd count or directly comparable count evidence."
+  },
+  {
+    "gap_id": "GIN202010GAP-SOURCE-ORIGIN",
+    "dimension": "source origin/dependence",
+    "candidate_ids": [
+      "GIN202010CAND-OCT23-CONAKRY"
+    ],
+    "status": "pending",
+    "detail": "Al Jazeera byline says News Agencies and body references Reuters; independent authorship not established. Guardian body is excluded because AP byline conflicts with AP-origin hold.",
+    "next_permitted_action": "Retain the exclusion and seek distinct local-origin reporting; no AP/Guardian follow-up."
+  },
+  {
+    "gap_id": "GIN202010GAP-OTHER-SITES",
+    "dimension": "site-specific claims",
+    "status": "pending",
+    "detail": "Named regional locations in broad reports have no independent site-specific threshold evidence in this dossier.",
+    "next_permitted_action": "Assess search-only Mamou/Le Monde leads and other region/date queries."
+  },
+  {
+    "gap_id": "GIN2010GAP-MISSING-LOCAL-BODY-CAPTURES",
+    "dimension": "evidence retention / assessed source follow-up",
+    "status": "pending",
+    "detail": "Pre-body assessments exist for one or more exact URLs without corresponding rendered body captures in this current version. No body claims from those targets are used here.",
+    "next_permitted_action": "Preserve current records; if a future task authorizes another request, first make a fresh exact-target assessment and save a new uniquely named capture without altering these files."
+  }
+]

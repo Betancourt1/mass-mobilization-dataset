@@ -1,0 +1,45 @@
+{
+  "quarter": "2020Q4",
+  "state": "STOPPED_SAVED",
+  "research_cutoff": "2026-10-07",
+  "event_timezone": "America/Mexico_City",
+  "official_complete_units": 0,
+  "export_status": "PUBLICATION_SAFETY_FILTERED_SNAPSHOT",
+  "history_status": "fresh parentless export; source evidence and original repositories untouched",
+  "safe_source_files": 3066,
+  "private_preserved_files": 15917,
+  "private_archive_sha256": "7176138ad667baa6f578dfa34979ad3dd007d45704daf4a703e286fd5502c677",
+  "source_stop_checkpoint_sha256": "674c599905e7ec6f28408c47386fc416450198c5fad8befb54d102fe6b7c49cc",
+  "existing_manifest_counts": {
+    "queue_unique_ids": 480,
+    "ids_represented": 181,
+    "dossier_8_core_files_manifested": 172,
+    "partial_core_manifested": 3,
+    "notes_or_evidence_only_manifested": 6,
+    "ids_without_countable_manifest": 299,
+    "units_with_distinct_review_current_bound_hashes": 90,
+    "units_with_current_ACCEPT_BOUNDED_WITH_GAPS": 22,
+    "ids_with_multiple_manifests": 94,
+    "extra_manifest_documents": 197,
+    "unparseable_input_json": 18
+  },
+  "count_limit": "Counts from existing checkpoint, not scientific re-review or official completion. Hash checks bind the cited versions, not a guarantee of newest-version selection. Missing manifest does not prove missing local work.",
+  "omission_reasons": {
+    "local_workstation_or_runtime_path": 581,
+    "outside_safe_allowlist": 15312,
+    "possible_verbatim_quotation": 1,
+    "raw_or_access_control_location": 6,
+    "raw_or_excerpt_field": 3,
+    "raw_or_excerpt_prose": 3,
+    "unparseable_structured_file": 11
+  },
+  "source_search_ledger_policy": "All source and search ledgers omitted, including evidence/runtime/control locations; original bytes preserved privately where in owned scope and credential-free.",
+  "policy_reference": {
+    "repository": "Betancourt1/mass-mobilization-dataset",
+    "branch": "saved-progress/2026-20261011",
+    "commit": "87dc8fc355c9ac413493e9e6d54e0138e5637347",
+    "manifest_sha256": "da1104ad30871a5f63077d1f6408ae1f014561f093341a7cd0586cd508aa85eb",
+    "kind": "byte_identical_safe_file_selection"
+  },
+  "workers": "No research workers activated; research remains stopped."
+}

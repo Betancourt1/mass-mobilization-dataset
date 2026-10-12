@@ -1,0 +1,129 @@
+[
+  {
+    "candidate_id": "DJI202012-CAND-ARHIBA-DEC18",
+    "country": "Djibouti",
+    "unit_month": "2020-12",
+    "title": "Arhiba 29th commemoration of 1991 massacre, Djibouti City",
+    "start_date": "2020-12-18",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Place des Martyrs / Arhiba, Djibouti City (LDDH report); cemetery of martyrs in Arhiba (search-result call)",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "crowd_size": null,
+    "crowd_size_evidence": "LDDH report characterizes attendance as large/massive but gives no numerical estimate. The separate ARD search-result call asks for remembrance in peace and justice; its page body request returned 502. The evidence does not yet establish a qualifying threshold at this gathering.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "LDDH_ANNUAL_REPORT_2020",
+      "ARD_ARHIBA_CALL"
+    ],
+    "field_evidence": {
+      "occurrence_and_date": {
+        "value": "LDDH annual report describes Dec 18 commemoration in Djibouti City",
+        "source_ids": [
+          "LDDH_ANNUAL_REPORT_2020"
+        ]
+      },
+      "location": {
+        "value": "Place des Martyrs in Djibouti City; ARD call search result specifies Arhiba cemetery",
+        "source_ids": [
+          "LDDH_ANNUAL_REPORT_2020",
+          "ARD_ARHIBA_CALL"
+        ]
+      },
+      "attendance": {
+        "value": "qualitatively large/massive; no count; threshold unverified",
+        "source_ids": [
+          "LDDH_ANNUAL_REPORT_2020",
+          "ARD_ARHIBA_CALL"
+        ]
+      },
+      "state_targeted_demand": {
+        "value": "unclear; remembrance/peace/justice call does not by itself establish demand directed at domestic state/policy",
+        "source_ids": [
+          "LDDH_ANNUAL_REPORT_2020",
+          "ARD_ARHIBA_CALL"
+        ]
+      },
+      "independence": {
+        "value": "source independence and relationship between call and report not resolved",
+        "source_ids": [
+          "LDDH_ANNUAL_REPORT_2020",
+          "ARD_ARHIBA_CALL"
+        ]
+      }
+    },
+    "eligibility": "pending_state_target",
+    "coding_status": "agent_coded_pending_review",
+    "decision_note": "Potential executed gathering only. Do not count as verified candidate pending review of state target, qualifying size, and relationship between sources. The ARD page itself was unavailable with HTTP 502 and was not retried."
+  },
+  {
+    "candidate_id": "DJI202012-CAND-RADDE-DATE-AMBIGUOUS",
+    "country": "Djibouti",
+    "unit_month": "2020-12",
+    "title": "RADDE opposition march referenced as “Sunday 31 December” in Feb 2021 article; month/year unresolved",
+    "start_date": null,
+    "start_precision": "unknown",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": null,
+    "demands": [
+      "political_behavior_process"
+    ],
+    "crowd_size": null,
+    "crowd_size_evidence": "No attendance estimate in the reviewed exact article passage or follow-up search results.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "AGENCE_AFRIQUE_RADDE_AMBIGUOUS"
+    ],
+    "field_evidence": {
+      "date_and_month": {
+        "value": "Article phrase “Sunday 31 December” is ambiguous; 31 Dec 2020 was Thursday; source and follow-up do not resolve intended date/year.",
+        "source_ids": [
+          "AGENCE_AFRIQUE_RADDE_AMBIGUOUS"
+        ]
+      },
+      "occurrence": {
+        "value": "Article refers to a peaceful RADDE march, but date/month not resolved to this unit.",
+        "source_ids": [
+          "AGENCE_AFRIQUE_RADDE_AMBIGUOUS"
+        ]
+      },
+      "attendance": {
+        "value": "no participant count or supported estimate",
+        "source_ids": [
+          "AGENCE_AFRIQUE_RADDE_AMBIGUOUS"
+        ]
+      },
+      "state_targeted_demand": {
+        "value": "anti-fifth-term opposition context, but specific demand evidence and unit placement remain unresolved",
+        "source_ids": [
+          "AGENCE_AFRIQUE_RADDE_AMBIGUOUS"
+        ]
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "decision_note": "Do not assign to December or count. Candidate kept undated and pending exact event date/month and essential eligibility evidence."
+  }
+]

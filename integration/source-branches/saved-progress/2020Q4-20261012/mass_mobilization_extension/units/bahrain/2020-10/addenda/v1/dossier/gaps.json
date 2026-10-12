@@ -1,0 +1,33 @@
+[
+  {
+    "gap_id": "BHR202010_G001",
+    "source_ids": [
+      "BHR202010_S001",
+      "BHR202010_S002",
+      "BHR202010_S005",
+      "BHR202010_S006",
+      "BHR202010_S007"
+    ],
+    "dimension": "eligibility/threshold and occurrence verification",
+    "reason": "No opened source establishes >=50 simultaneous participants at a single gathering for the 2, 19, or 23 October reports; 19 October video is explicitly unverified and the 23 October total is aggregated over multiple sites.",
+    "required_followup": "Search contemporaneous local Arabic and regional reports, event image captions or first-hand records by named location; do not infer counts from “dozens” or nationwide aggregates."
+  },
+  {
+    "gap_id": "BHR202010_G002",
+    "source_ids": [
+      "BHR202010_S005",
+      "BHR202010_S006",
+      "BHR202010_S007"
+    ],
+    "dimension": "onset/episode continuity",
+    "reason": "September search results report earlier anti-normalization protests; Oct 1/8/18 actions and November continuity remain only partly searched or search-only.",
+    "required_followup": "Check September 2020 and November 2020 in English and Arabic, including named towns, date-level follow-up and source-origin overlap."
+  },
+  {
+    "gap_id": "BHR202010_G003",
+    "source_ids": [],
+    "dimension": "coverage/capture",
+    "reason": "Thirty-seven query actions were issued across the three assigned months (18 October, 12 November, 7 December), but only the first two October query records retain the complete shared header set. Later combined responses were not immediately persisted and are represented only by a partial session-derived index; date operators may be ignored.",
+    "required_followup": "Recover or rerun only ordinary permitted open-web searches for the specific missing date/source dimensions, save exact query outputs promptly, and record that any recovered result is new—not historical."
+  }
+]

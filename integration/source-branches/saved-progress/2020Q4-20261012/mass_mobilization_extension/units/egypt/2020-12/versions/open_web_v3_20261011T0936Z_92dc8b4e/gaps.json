@@ -1,0 +1,53 @@
+[
+  {
+    "gap_id": "EG202012_G001",
+    "type": "date_disagreement",
+    "description": "Talkha onset varies across sources: Egypt Independent Dec 5 says Friday Dec 4; search-only Al-Araby Dec 16 says Dec 3; Al-Manassa Jan 3 says day 33, implying roughly Dec 2. Candidate date preserved at Dec 4 per task steering; no false precision claim.",
+    "source_ids": [
+      "EG202012_S001",
+      "EG202012_S004",
+      "EG202012_S006"
+    ],
+    "affected_candidates": [
+      "EG202012_E001"
+    ],
+    "required_followup": "Additional contemporaneous source that gives explicit calendar onset/date and clarifies whether day-count includes the start day."
+  },
+  {
+    "gap_id": "EG202012_G002",
+    "type": "cross_month_continuity_and_response",
+    "description": "Talkha sit-in is confirmed ongoing Jan 3; the Jan article says nine workers were arrested from homes but does not establish arrest dates. Exact event end and arrest timing remain unknown.",
+    "source_ids": [
+      "EG202012_S004"
+    ],
+    "affected_candidates": [
+      "EG202012_E001"
+    ],
+    "required_followup": "January owner should trace arrest dates, event end and state response without creating a duplicate onset event."
+  },
+  {
+    "gap_id": "EG202012_G003",
+    "type": "event_endpoint",
+    "description": "Kafr El Dawar sit-in clearly began Dec 26 and continued Dec 28. A Dec 29 DARB search snippet says it ended after four days, but that exact body has not been retrieved; do not assign Dec 29 end yet.",
+    "source_ids": [
+      "EG202012_S002",
+      "EG202012_S003",
+      "EG202012_S007"
+    ],
+    "affected_candidates": [
+      "EG202012_E002"
+    ],
+    "required_followup": "Fresh exact assessment then public body request of DARB Dec 29 follow-up if still needed; do not use snippet as a final endpoint."
+  },
+  {
+    "gap_id": "EG202012_G004",
+    "type": "coverage",
+    "description": "English/Arabic searches covered generic December protest terms, weekly labour/social monitoring, Talkha, Kafr El Dawar, and cross-boundary follow-ups. They surfaced Cairo, Dakahlia, Beheira, Qena, Alexandria and Qalyubia reports but weekly regional/social-sector coverage is not exhaustive. ANHRI first-half December body attempt had a managed-tool fetch timeout. Open web is not a substitute for LexisNexis.",
+    "source_ids": [
+      "EG202012_S005",
+      "EG202012_S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue weekly regional/sector searches, including non-labor resident, student and climate/asylum organizations; do not infer no events from absence of captured hits."
+  }
+]

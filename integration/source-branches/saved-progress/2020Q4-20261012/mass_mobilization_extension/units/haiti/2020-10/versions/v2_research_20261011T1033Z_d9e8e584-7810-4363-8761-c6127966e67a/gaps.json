@@ -1,0 +1,33 @@
+[
+  {
+    "gap_id": "HAI202010-G01",
+    "dimension": "October weekly/local-source and event-count coverage",
+    "reason": "Searches in English, French, and Haitian Creole covered broad month and date windows; opened evidence is concentrated in Port-au-Prince and Gonaïves. Counts remain unknown for Oct. 2/6/7 and locally unallocated Oct. 17 activity; additional department-level reporting and first-half/last-week checks remain feasible.",
+    "next_permitted_action": "Search permitted Haitian local outlets and labor/civic sectors by department and week; resolve whether reported city gatherings independently meet threshold.",
+    "source_ids": [
+      "HAI202010_Q001",
+      "HAI202010_Q002",
+      "HAI202010_Q003",
+      "hai_lenouvelliste_cayes17"
+    ]
+  },
+  {
+    "gap_id": "HAI202010-G02",
+    "dimension": "October labor, campus, and regional source diversity",
+    "reason": "Student mobilization is documented, but the available opened source set is weighted to metropolitan and university protests; other sectoral and departmental actions have not been systematically resolved.",
+    "next_permitted_action": "Run remaining permitted French/Kreyòl sector and department/date-window searches, preserving unrelated source restrictions.",
+    "source_ids": [
+      "HAI202010_Q001",
+      "HAI202010_Q003"
+    ]
+  },
+  {
+    "gap_id": "HAI202010-G03",
+    "dimension": "specific Les Cayes Oct. 17 source retrieval",
+    "reason": "Le Nouvelliste exact URL returned managed-open timeout/Internal Error 400 and no body; no retry or bypass was attempted. The city-level count remains unknown.",
+    "next_permitted_action": "Use other permitted contemporaneous local sources for Les Cayes if available; do not retry the failed URL.",
+    "source_ids": [
+      "hai_lenouvelliste_cayes17"
+    ]
+  }
+]

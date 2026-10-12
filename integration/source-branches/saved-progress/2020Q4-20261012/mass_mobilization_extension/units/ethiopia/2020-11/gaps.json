@@ -1,0 +1,76 @@
+[
+  {
+    "gap_id": "ET202011_G001_NOV_SERIES_EPISODE",
+    "dimension": "series onset, organization and episode ownership",
+    "candidate_ids": [
+      "ET202011_E001_HAWASSA_NOV11",
+      "ET202011_E002_MULTITOWN_NOV12",
+      "ET202011_E003_ADAMA_NOV13",
+      "ET202011_E004_SODO_NOV14",
+      "ET202011_E005_HARAMAYA_NOV14"
+    ],
+    "reason": "Fana labels Nov11 as initial day, Nov13 as second day and Nov14 as third day, and ENA names multiple Nov12 towns. Available reports do not establish who organized the multi-town demonstrations, site overlap, whether they form one nationally organized episode or separate local actions, or complete beginning/end.",
+    "evidence": [
+      "ET202011_S001_FANA_HAWASSA",
+      "ET202011_S002_ENA_MULTITOWN",
+      "ET202011_S003_FANA_ADAMA",
+      "ET202011_S005_FANA_SODO_HARAMAYA",
+      "ET202011_Q007",
+      "ET202011_Q011"
+    ],
+    "next_permitted_action": "Search contemporaneous Fana/ENA/local reporting for Nov10–15 for organizers, town-by-town dates and overlap; seek permitted independent regional reporting and compare demands/group identity before assigning episode IDs or merging sites."
+  },
+  {
+    "gap_id": "ET202011_G002_SITE_THRESHOLD_AND_DEMAND",
+    "dimension": "site-specific threshold and state target",
+    "candidate_ids": [
+      "ET202011_E002_MULTITOWN_NOV12",
+      "ET202011_E004_SODO_NOV14",
+      "ET202011_E005_HARAMAYA_NOV14"
+    ],
+    "reason": "ENA Nov12 has no headcount by named site. Sodo and Haramaya Nov14 each have 'hundreds' but describe support for ongoing government policy, not clearly a request for redress or an explicit demand directed to government. These points cannot be pooled across dates or towns.",
+    "evidence": [
+      "ET202011_S002_ENA_MULTITOWN",
+      "ET202011_S005_FANA_SODO_HARAMAYA"
+    ],
+    "next_permitted_action": "Seek per-town attendance and exact participant slogans/requests for Nov12 sites; determine whether Nov14 support rallies explicitly demanded continued/changed domestic state policy. Keep support-only accounts pending unless a state-directed demand is supported."
+  },
+  {
+    "gap_id": "ET202011_G003_INDEPENDENT_SOURCE_AND_COVERAGE",
+    "dimension": "regional/source diversity and source origin",
+    "candidate_ids": [
+      "ET202011_E001_HAWASSA_NOV11",
+      "ET202011_E003_ADAMA_NOV13",
+      "ET202011_E004_SODO_NOV14",
+      "ET202011_E005_HARAMAYA_NOV14"
+    ],
+    "reason": "The site/count/demand reports opened are all from Fana/FBC, a state-affiliated outlet; ENA is also an official state news agency. The targeted English, Amharic and Afaan Oromo searches did not surface independent contemporaneous accounts of those exact gatherings. This is a source-diversity limitation, not a universal two-source quota.",
+    "evidence": [
+      "ET202011_Q004",
+      "ET202011_Q007",
+      "ET202011_Q009",
+      "ET202011_Q011",
+      "ET202011_Q012"
+    ],
+    "next_permitted_action": "Search local Sidama, Oromia and Wolayta/West Hararghe outlets or independent reporting for the exact Nov11–14 site events, source origin and site-level counts; do not treat ENA/Fana as independent of one another without documented evidence."
+  },
+  {
+    "gap_id": "ET202011_G004_ADJACENT_MONTH",
+    "dimension": "adjacent-month continuity",
+    "candidate_ids": [
+      "ET202011_E001_HAWASSA_NOV11",
+      "ET202011_E003_ADAMA_NOV13",
+      "ET202011_E004_SODO_NOV14",
+      "ET202011_E005_HARAMAYA_NOV14"
+    ],
+    "reason": "December-specific searches including local-language and student/labor terms surfaced no clear continuation, but current coverage does not establish a definitive break or continuation of the Nov campaign.",
+    "evidence": [
+      "ET202011_Q005",
+      "ET202011_Q006",
+      "ET202011_Q010",
+      "ET202011_Q012",
+      "ET202011_Q013"
+    ],
+    "next_permitted_action": "Continue a focused Dec1–7, Dec8–14, Dec15–21 and Dec22–31 follow-up of the named organizer/demands and towns in permitted local sources; no result is not proof of no continuation."
+  }
+]

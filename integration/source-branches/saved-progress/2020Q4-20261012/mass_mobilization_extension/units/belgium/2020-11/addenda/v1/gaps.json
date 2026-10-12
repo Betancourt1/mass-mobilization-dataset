@@ -1,0 +1,64 @@
+[
+  {
+    "gap_id": "BEL202011_G001",
+    "type": "eligibility_fields_pending",
+    "description": "Finance Tower gathering on 6 November is documented but BRUZZ gives no crowd count or qualitative threshold. Climate relay on 30 November is confirmed underway by organizer follow-up, but 60 participants relayed across 60 hours and do not establish 50 simultaneously present at one site.",
+    "source_ids": [
+      "BEL202011_S001",
+      "BEL202011_S004",
+      "BEL202011_S005",
+      "BEL202011_S003"
+    ],
+    "affected_candidates": [
+      "BEL202011_E001",
+      "BEL202011_E002"
+    ],
+    "required_followup": "Seek exact-action permitted reporting for a crowd estimate at Finance Tower and simultaneous crowd/site evidence for the climate relay. Keep pending; do not infer turnout from total relays."
+  },
+  {
+    "gap_id": "BEL202011_G002",
+    "type": "estimate_and_event_detail_conflict",
+    "description": "For the 28 November Liège march, Today in Liège S006 reports over 1,000; Qu4tre S008 reports about 500. Both exceed 50, but the counts, route descriptions and bridge where police contained demonstrators differ. Qu4tre details administrative identifications/detentions and arrests; some categories may overlap. Reported damage has unclear perpetrator attribution.",
+    "source_ids": [
+      "BEL202011_S006",
+      "BEL202011_S008"
+    ],
+    "affected_candidates": [
+      "BEL202011_E004"
+    ],
+    "required_followup": "Reviewer should retain both source estimates and lower-estimate provisional count, assess event-detail conflict, and avoid summing arrest/identity-check categories. Seek a permitted exact-event source only if attribution/route differences materially change coding."
+  },
+  {
+    "gap_id": "BEL202011_G003",
+    "type": "coverage_and_access_limit",
+    "description": "Thirty-two actual managed-search queries span English/French/Dutch, weekly/date windows, sector/regional and adjacent-month searches. The combined response had a non-retryable robots.txt block for rtbf.be; per-query mapping was unavailable. A different Le Vif climate URL returned an actual technical Internal Error with no HTTP status and no denial; it was not retried.",
+    "source_ids": [
+      "BEL202011_S003"
+    ],
+    "affected_candidates": [
+      "BEL202011_E001",
+      "BEL202011_E002",
+      "BEL202011_E003",
+      "BEL202011_E004"
+    ],
+    "required_followup": "Do not retry or bypass the RTBF robots block or the failed Le Vif URL. Use separate permitted local/regional sources for any still-material unresolved fields. Coverage remains non-exhaustive and not equivalent to LexisNexis."
+  },
+  {
+    "gap_id": "BEL202011_G004",
+    "type": "coverage_pending",
+    "description": "October/November/December continuity searches surfaced climate and curfew-related leads, but exact continuity/episode boundaries beyond dated gatherings remain limited. The 17 and 28 November Liège actions are kept as separate dated gatherings despite a shared campaign.",
+    "source_ids": [
+      "BEL202011_S006",
+      "BEL202011_S007",
+      "BEL202011_S008",
+      "BEL202011_S004",
+      "BEL202011_S005"
+    ],
+    "affected_candidates": [
+      "BEL202011_E002",
+      "BEL202011_E003",
+      "BEL202011_E004"
+    ],
+    "required_followup": "Review adjacent-month contextual material without moving event ownership outside assigned month or merging distinct dates. Keep 60-hour action under November onset and continue only as a cross-month note."
+  }
+]

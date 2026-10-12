@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "JPN202011-G001",
+    "affected_candidate_id": "JPN202011-E002",
+    "dimension": "threshold/site/state target",
+    "reason": "Euronews reports a small Tokyo anti-Olympics group but no number, exact site or explicit domestic government-policy demand.",
+    "next_permitted_action": "Search a distinct permitted local report/organizer account for count, site and the target of the protest; do not infer these from video context.",
+    "source_ids": [
+      "JPN202011-S04"
+    ]
+  },
+  {
+    "gap_id": "JPN202011-G002",
+    "affected_candidate_id": "JPN202011-E003",
+    "dimension": "execution/threshold coverage",
+    "reason": "The Chitofuna and Yokota items are calendar listings only; no outcome/attendance source was retained.",
+    "next_permitted_action": "Search local-language contemporaneous reports for each event’s actual execution, place, count and demand; listings alone remain leads.",
+    "source_ids": [
+      "JPN202011-S01"
+    ]
+  },
+  {
+    "gap_id": "JPN202011-G003",
+    "affected_candidate_id": null,
+    "dimension": "regional/sector/date-window coverage",
+    "reason": "Generic, Japanese-language and Nov 1–10/11–20/21–30 searches ran, but regional and sector coverage remains bounded; the retrieved material is concentrated in Tokyo and a national union event.",
+    "next_permitted_action": "Continue local-language searches for regional labor, base/environment, social-policy and civic actions across all three date windows; capture actual results and assess local sources before body requests.",
+    "source_ids": [
+      "JPN202011-S01",
+      "JPN202011-S02"
+    ]
+  },
+  {
+    "gap_id": "JPN202011-G004",
+    "affected_candidate_id": "JPN202011-E001",
+    "dimension": "source diversity and episode continuity",
+    "reason": "Only the union’s body supports the Nov 1 event count/demands; IWJ exact page returned 403 and no retry. Annual recurrence is not proof of a continuous episode.",
+    "next_permitted_action": "Seek another permitted contemporaneous account and check adjacent-month reporting for the 2020 episode; preserve the IWJ denial and do not infer source independence.",
+    "source_ids": [
+      "JPN202011-S02",
+      "JPN202011-S03"
+    ]
+  }
+]

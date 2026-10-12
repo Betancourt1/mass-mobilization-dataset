@@ -1,0 +1,40 @@
+[
+  {
+    "gap_id": "IRQ202012_G001",
+    "type": "coverage",
+    "candidate_ids": [
+      "IRQ202012_E001"
+    ],
+    "dimension": "exact site and episode boundaries",
+    "reason": "NINA identifies public park while Rudaw identifies Saraa Square for the same day/city/demand; subsequent reports describe continued multi-town action, without resolving whether actions are one episode or distinct gatherings.",
+    "next_permitted_action": "Check contemporaneous Sulaimani local-language sources and maps/report wording for site equivalence, and follow dated city/town actions individually through end-of-month and January boundary."
+  },
+  {
+    "gap_id": "IRQ202012_G002",
+    "type": "coverage",
+    "candidate_ids": [
+      "IRQ202012_E002"
+    ],
+    "dimension": "Said Sadiq headcount and event date/boundary",
+    "reason": "Rudaw supports a protest-related event/fire dated Dec7 but gives no crowd count at this town and no exact assembly site.",
+    "next_permitted_action": "Search a permitted local contemporaneous Sulaimani/Said Sadiq source for people gathered, site, date and demands; do not transfer province-level totals."
+  },
+  {
+    "gap_id": "IRQ202012_G003",
+    "type": "source",
+    "candidate_ids": [
+      "IRQ202012_E003"
+    ],
+    "dimension": "Al Jazeera Arabic source origin and independent evidence",
+    "reason": "The opened page reports hundreds outside the provincial council but credits “Al Jazeera + agencies” without naming agencies; potential source dependency cannot be resolved.",
+    "next_permitted_action": "Use a different permitted local source with named authors/origin for Dec11 and site-specific count; do not rely on unnamed agency text until provenance is clarified. DW Arabic page returned inaccessible via tool and was not retried."
+  },
+  {
+    "gap_id": "IRQ202012_G004",
+    "type": "coverage",
+    "candidate_ids": [],
+    "dimension": "weekly/region/local-language coverage",
+    "reason": "Four query batches and selected opened reports focus on Baghdad, Basra and Sulaimani; feasible systematic weekly searches across governorates and Kurdish-language outlets remain incomplete.",
+    "next_permitted_action": "Continue week-by-week region and sector discovery in Arabic, Kurdish and permitted local English outlets, preserving each actual result and source assessment."
+  }
+]

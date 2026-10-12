@@ -1,0 +1,79 @@
+[
+  {
+    "gap_id": "AZNOV-G001",
+    "dimension": "attendance_threshold",
+    "candidate_ids": [
+      "AZNOV-E001"
+    ],
+    "reason": "The Nov 17 Baku report gives no crowd count or evidence of 50 simultaneous participants.",
+    "next_permitted_action": "Search for a contemporaneous local report or original organizer record if surfaced; keep pending otherwise."
+  },
+  {
+    "gap_id": "AZNOV-G002",
+    "dimension": "state_target",
+    "candidate_ids": [
+      "AZNOV-E001"
+    ],
+    "reason": "The reported demand to remove Russian peacekeepers may target Azerbaijan’s hosting policy or Russia; source does not resolve target.",
+    "next_permitted_action": "Seek direct statement/organizer account or independent contemporaneous report; do not infer target from location."
+  },
+  {
+    "gap_id": "AZNOV-G003",
+    "dimension": "source_origin",
+    "candidate_ids": [
+      "AZNOV-E001"
+    ],
+    "reason": "Rambler explicitly attributes/links story provenance to Kadara.ru, but the exact original story URL and independent original body were not recovered.",
+    "next_permitted_action": "Locate exact Kadara story through permitted public search; do not assume a syndication relationship beyond the article’s explicit attribution."
+  },
+  {
+    "gap_id": "AZNOV-G004",
+    "dimension": "continuity_and_onset",
+    "candidate_ids": [
+      "AZNOV-E001"
+    ],
+    "reason": "December follow-up searches found no continuation; October antecedent checks were limited and do not resolve whether the Nov 17 event was part of a broader episode.",
+    "next_permitted_action": "A targeted October/December search for the exact demand and organizer, if further research is resumed."
+  },
+  {
+    "gap_id": "AZNOV-G005",
+    "dimension": "regional_and_sector_coverage",
+    "reason": "Regional-city and sector-specific web searches in Azerbaijani/Russian/English returned mostly unrelated or incomplete results; no separate province-by-province or organization-specific archive review was completed.",
+    "next_permitted_action": "If further coverage is required, search named regional outlets and local labor, transport, education, health, and farming organizations."
+  },
+  {
+    "gap_id": "AZNOV-G006",
+    "dimension": "archive_method",
+    "reason": "Only public web search/open methods were available; no LexisNexis or equivalent full newspaper archive access was used. This is a method limitation, not evidence of no protests.",
+    "next_permitted_action": "Consider a permitted equivalent archive only for a stated unresolved dimension; no universal archive gate is claimed."
+  },
+  {
+    "gap_id": "AZNOV-G007",
+    "dimension": "S019_body_access",
+    "reason": "The Report.az article about the Kelbajar procession could not be opened due to web-tool Internal Error after its saved access receipt; this is technical failure, not denial. No body was retried.",
+    "source_ids": [
+      "S019"
+    ],
+    "next_permitted_action": "Ordinary permitted retrieval only if this source becomes material; preserve existing receipt and no retry under current task."
+  },
+  {
+    "gap_id": "AZNOV-G008",
+    "dimension": "Sydney_source_identity",
+    "reason": "S028 displayed APA title describes Sydney diaspora action but its URL slug appears unrelated; title/URL relationship remains unverified.",
+    "source_ids": [
+      "S028"
+    ],
+    "next_permitted_action": "Verify exact page/title relationship with a permitted public source if exclusion is material."
+  },
+  {
+    "gap_id": "AZNOV-G009",
+    "dimension": "contemporaneous_local_assessment",
+    "reason": "The three pre-amendment opened sources retain contemporaneous access-check receipts but no separately saved contemporaneous local assessment artifact. A versioned retrospective note will preserve provenance without representing it as an assessment made at the time. No new body request was made after Amendment V1.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "next_permitted_action": "For any future new target, write a local exact-URL/publisher/origin/control/hold/decision assessment before requesting the body."
+  }
+]

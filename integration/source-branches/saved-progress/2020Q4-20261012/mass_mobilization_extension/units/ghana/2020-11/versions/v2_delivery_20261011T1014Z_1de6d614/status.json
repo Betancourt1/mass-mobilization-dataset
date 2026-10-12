@@ -1,0 +1,32 @@
+{
+  "unit_id": "ghana_2020-11",
+  "country": "Ghana",
+  "month": "2020-11",
+  "status": "researched_open_web_pending_review",
+  "baseline_gate": "pending_official_baseline",
+  "firstpass_complete": false,
+  "date_cutoff": "2026-10-07",
+  "cutoff_timezone": "America/Mexico_City",
+  "research_current_date": "2026-10-11",
+  "research_method": "managed open-web search and individually assessed public URL opens; English only",
+  "n_queries": 5,
+  "n_sources": 3,
+  "n_candidates": 0,
+  "n_excluded": 2,
+  "n_continuations": 1,
+  "n_gaps": 3,
+  "source_access_counts": {
+    "opened": 2,
+    "search_only": 1,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 27,
+    "note": "Counts are only saved selected headers from actual response captures, not native total results."
+  },
+  "coverage_assessment": "Monthly English generic and regional/sector queries plus week/date-window searches and adjacent-month follow-ups were executed and saved. The results do not demonstrate exhaustive coverage. Current body read cards versus prior-unit-only cards are not claimed by count here. Feasible local-language, event-specific count, source-independence and continuity tasks remain.",
+  "candidate_review_state": "awaiting_distinct_scientific_review",
+  "verified_provisional_candidates": 0,
+  "runtime_model_observability": "Requested gpt-6-luna/high is not natively observable in this workspace."
+}

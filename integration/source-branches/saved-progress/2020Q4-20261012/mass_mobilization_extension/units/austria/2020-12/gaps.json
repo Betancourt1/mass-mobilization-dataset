@@ -1,0 +1,107 @@
+[
+  {
+    "gap_id": "AT202012_G001",
+    "type": "threshold",
+    "description": "Vienna Rossauer Lände demonstration on 15 Dec: police count of 23 describes people blocking the detention center, but total attendance is unstated; eligibility remains pending threshold.",
+    "source_ids": [
+      "AT202012_S005"
+    ],
+    "affected_candidates": [
+      "AT202012_E002"
+    ],
+    "required_followup": "Search additional contemporary reporting and organizer records for the total simultaneous public gathering; do not infer below-threshold from 23 blockaders."
+  },
+  {
+    "gap_id": "AT202012_G002",
+    "type": "coverage",
+    "description": "Searches have so far surfaced events in Graz, Vienna and Salzburg; regional, sectoral, weekly, English-language and local-language coverage for Austria remains incomplete. Open web search is not equivalent to LexisNexis.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue weekly and regional searches across Austria in German and English, including local press, unions, student, climate, asylum, official, and civil-society sources."
+  },
+  {
+    "gap_id": "AT202012_G003",
+    "type": "baseline_mapping",
+    "description": "No verified official Polity ccode mapping is present in the unit plan, so candidate ccode values remain null.",
+    "source_ids": [],
+    "affected_candidates": [
+      "AT202012_E001",
+      "AT202012_E002",
+      "AT202012_E003",
+      "AT202012_E004"
+    ],
+    "required_followup": "Coordinator to verify against official baseline before assigning any ccode."
+  },
+  {
+    "gap_id": "AT202012_G004",
+    "type": "state_response",
+    "description": "For several candidates there is no opened evidence establishing government accommodation, arrests, beatings, killings, shootings, or police inaction; fields remain unknown.",
+    "source_ids": [],
+    "affected_candidates": [
+      "AT202012_E001",
+      "AT202012_E002",
+      "AT202012_E003",
+      "AT202012_E004"
+    ],
+    "required_followup": "Search follow-up reporting for each event; unknown is not absence."
+  },
+  {
+    "gap_id": "AT202012_G005",
+    "type": "state_target",
+    "description": "Vienna FightFor1Point5 action on 11 Dec has a documented Paris 1.5°C demand and a physical local gathering, but the direct Austrian state/policy target remains unclear.",
+    "source_ids": [
+      "AT202012_S010",
+      "AT202012_S014"
+    ],
+    "affected_candidates": [
+      "AT202012_E006"
+    ],
+    "required_followup": "Look for organizer or contemporaneous sources that name Austrian federal/city policy or decisionmakers; otherwise retain pending_state_target."
+  },
+  {
+    "gap_id": "AT202012_G006",
+    "type": "threshold",
+    "description": "Akin chronology reports a separate march to the Interior Ministry at around 17:00 on 15 Dec after the PAZ blockade, but gives no participant count.",
+    "source_ids": [
+      "AT202012_S010"
+    ],
+    "affected_candidates": [
+      "AT202012_E007"
+    ],
+    "required_followup": "Search contemporaneous reports or organizer material for actual count and whether it was distinct from the blockade."
+  },
+  {
+    "gap_id": "AT202012_G007",
+    "type": "event_evidence",
+    "description": "The 10 Dec Vienna deportation protest is described as completed by a contemporaneous Akin chronology and separately announced by organizers; independent press confirmation remains unverified.",
+    "source_ids": [
+      "AT202012_S008",
+      "AT202012_S010",
+      "AT202012_S011"
+    ],
+    "affected_candidates": [
+      "AT202012_E005"
+    ],
+    "required_followup": "Open organizer announcement and seek independent contemporary coverage; record access status and limitations."
+  },
+  {
+    "gap_id": "AT202012_G008",
+    "type": "threshold",
+    "description": "An official Ombudsman Board search-result excerpt documents a second “basic rights” demonstration at Residenzplatz in Salzburg at the end of Dec 2020, but exact date and attendance are unstated; PDF body was inaccessible via the available open tool.",
+    "source_ids": [
+      "AT202012_S015"
+    ],
+    "affected_candidates": [
+      "AT202012_E008"
+    ],
+    "required_followup": "Seek accessible German/English official, organizer, or contemporaneous reporting to establish day, attendance, target, organizer, and detailed police response; retain unknowns."
+  },
+  {
+    "gap_id": "AT202012_G009",
+    "type": "provenance",
+    "description": "The formal search inventory contains 15 query-response records with aligned returned URL headers. A small set of earlier exploratory web searches was not durably captured per-query and its merged results are not attributed or relied upon; the formal query count excludes those unarchived exploratory calls.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "For future batches, capture each search response before issuing another query; do not reconstruct results or treat missing exploratory records as zero-results."
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "candidate_id": "BWA202012_E001",
+    "country": "Botswana",
+    "ccode": null,
+    "unit_month": "2020-12",
+    "title": "Creative-industry meeting at Old Naledi grounds over closure and livelihood",
+    "start_date": "2020-12-08",
+    "start_precision": "day",
+    "end_date": "2020-12-08",
+    "end_precision": "day",
+    "location": "Old Naledi Grounds, Gaborone",
+    "scope": "One reported public meeting on 8 Dec. No counts from the separate GSS Grounds gathering are carried over.",
+    "organizer": "Creative sector conveners; musician Vee Mampeezy named as convenor",
+    "demands": [
+      "Reopen performing/creative industry following state COVID closure; engage government and Presidential Task Force; a Gazette account also reports a call for Culture Minister to step down."
+    ],
+    "demand_category": "pending scientific review; possible social restrictions/policy response",
+    "participants_original": "Government ministry statement says attendance exceeded the 50-person limit including young children; exact total and adult-only count unknown.",
+    "participants_min": 51,
+    "participants_max": null,
+    "threshold_50_evidence": "DailyNews quoting Ministry press release: attendance at Old Naledi public gathering on 8 Dec exceeded 50, including children. Exact total unknown; no other gatherings pooled.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown; ministry reported ongoing stakeholder engagement and relief program, but whether this was a response to the gathering is unclear",
+      "arrests": "unknown for the gathering; later Gazette report says Vee and other artists were charged, with Vee fined P10,000",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown for this Old Naledi gathering; police dispersal is reported for separate GSS gathering",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "BWA202012_S001",
+      "BWA202012_S002",
+      "BWA202012_S003"
+    ],
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "scientific_verification": "pending independent scientific review; writer has not verified provisional",
+    "episode_ownership": "pending review: same creative-industry campaign also had a separate reported GSS Grounds gathering on 7 Dec; do not combine its crowd or state-action details.",
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "BWA202012_S001",
+          "BWA202012_S003"
+        ],
+        "summary": "Gazette Dec 9 describes Tuesday's Old Naledi meeting; ministry DailyNews report explicitly dates meeting 8 Dec."
+      },
+      "end_date": {
+        "source_ids": [
+          "BWA202012_S003"
+        ],
+        "summary": "One event date reported; no end time/next-day continuation of this gathering established."
+      },
+      "location": {
+        "source_ids": [
+          "BWA202012_S001",
+          "BWA202012_S003"
+        ],
+        "summary": "Both Gazette and Ministry account place the relevant meeting at Old Naledi grounds; Gaborone is stated in one article/page metadata."
+      },
+      "demands": {
+        "source_ids": [
+          "BWA202012_S001"
+        ],
+        "summary": "Gazette reports a campaign to reopen creative industry and seek Presidential Task Force/MP intervention; one speaker calls for minister resignation."
+      },
+      "participants_min": {
+        "source_ids": [
+          "BWA202012_S003"
+        ],
+        "summary": "Ministry press release states attendance exceeded the 50 limit, including young children; exact number unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "BWA202012_S002",
+          "BWA202012_S003"
+        ],
+        "summary": "Later Gazette reports charges/fine linked to open Old Naledi creatives meeting; Ministry statement records protocol violation and ongoing engagement. No same-day police dispersal at Old Naledi established."
+      }
+    }
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "GHA202012_GAP_THRESHOLD_ALL_CANDIDATES",
+    "source_ids": [
+      "dec_myjoy_accra9",
+      "tamale_gna",
+      "dec_gna_wing12",
+      "dec_gna_tamale16",
+      "dec_myjoy_accra17",
+      "dec_gna_kumasi20"
+    ],
+    "dimension": "participant threshold",
+    "reason": "None of the opened accounts gives a supported >=50 count for its particular gathering; qualitative descriptions cannot be pooled across dates or cities.",
+    "next_permitted_action": "Seek contemporaneous independent reports or records with event-specific counts for each candidate; keep each pending until threshold is evidenced."
+  },
+  {
+    "gap_id": "GHA202012_GAP_EPISODE_LINKAGE",
+    "source_ids": [
+      "dec_myjoy_accra9",
+      "tamale_gna",
+      "dec_gna_wing12",
+      "dec_gna_tamale16",
+      "dec_myjoy_accra17",
+      "dec_gna_kumasi20"
+    ],
+    "dimension": "episode/onset/ownership",
+    "reason": "Accounts call these a series after the EC declaration, but independence, shared organization, episode boundaries and whether Accra 9 December began earlier are unresolved. Separate city/date rows are provisional research candidates, not verified episode units.",
+    "next_permitted_action": "Compare original reports and independent accounts across the campaign, preserving each local gathering and dates."
+  },
+  {
+    "gap_id": "GHA202012_GAP_DEC22_LEAD",
+    "source_ids": [
+      "dec_newsghana_ec22",
+      "dec_graphic_dec23petition",
+      "dec_pulse_ec22"
+    ],
+    "dimension": "December 22 Accra march evidence",
+    "reason": "Search leads describe a minority march/petition to the EC, but managed page opens returned tool errors or only headers; current body evidence does not establish gathering, date, scale or outcome.",
+    "next_permitted_action": "Use another permitted source for the exact event; do not retry current tool-error/partial targets as a workaround."
+  },
+  {
+    "gap_id": "GHA202012_GAP_BAN_AND_JAN_CONTINUITY",
+    "source_ids": [
+      "africanews_ban",
+      "state2021"
+    ],
+    "dimension": "late December/January continuity and restriction",
+    "reason": "Search-only reporting describes planned daily protests and a restriction, while body opens had tool errors; an announced schedule/order is not proof of actual December/January gatherings. January continuation leads are outside this unit.",
+    "next_permitted_action": "Verify any specific restriction and actual Dec/Jan gatherings with other permitted contemporaneous sources; preserve January events in January unit."
+  },
+  {
+    "gap_id": "GHA202012_GAP_LOCAL_REGIONAL",
+    "source_ids": [
+      "tamale_gna",
+      "dec_gna_kumasi20"
+    ],
+    "dimension": "language/sector/regional discovery",
+    "reason": "Searches were English and concentrated on election-related Accra, Tamale and Kumasi leads; local-language and non-election sectoral reporting is not exhausted.",
+    "next_permitted_action": "Search Twi, Ewe, Dagbani and other appropriate Ghana-language/local outlets with week-by-week and regional/sector variants."
+  }
+]

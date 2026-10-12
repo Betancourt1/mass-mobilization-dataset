@@ -1,0 +1,83 @@
+[
+  {
+    "gap_id": "BIH202011_G001",
+    "type": "coverage",
+    "description": "English and BHS broad searches and focused follow-ups surfaced several events but did not complete regional/sectoral coverage across Federation, RS, Brčko and localities.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search each week and region, including labor/union, students, environmental/climate, migration/asylum, civil society and official pages. Follow adjacent-month onset/continuation where relevant."
+  },
+  {
+    "gap_id": "BIH202011_G002",
+    "type": "event_qualification",
+    "description": "Otes protest reports followed a killing; exact demands, state target and attendance are unavailable in retained search capture, so private/conflict versus government-policy action remains unresolved.",
+    "source_ids": [
+      "BIH202011_S001",
+      "BIH202011_S002",
+      "BIH202011_S003"
+    ],
+    "affected_candidates": [
+      "BIH202011_E001"
+    ],
+    "required_followup": "Obtain a permitted contemporary body or organizer account of each date’s demand/target and turnout. Do not infer who committed the crime from rumor or combine with Blažuj."
+  },
+  {
+    "gap_id": "BIH202011_G003",
+    "type": "threshold",
+    "description": "Blažuj camp-relocation protest is reported as a smaller group, without a numerical count.",
+    "source_ids": [
+      "BIH202011_S004",
+      "BIH202011_S007"
+    ],
+    "affected_candidates": [
+      "BIH202011_E002"
+    ],
+    "required_followup": "Seek a distinct independent account with numerical or threshold-capable attendance; preserve “smaller group” as qualitative only."
+  },
+  {
+    "gap_id": "BIH202011_G004",
+    "type": "threshold",
+    "description": "Medical-student protest on 4 Nov has no retained attendance or state-target details.",
+    "source_ids": [
+      "BIH202011_S005"
+    ],
+    "affected_candidates": [
+      "BIH202011_E003"
+    ],
+    "required_followup": "Seek a body source/organizer account on headcount, location and institution addressed."
+  },
+  {
+    "gap_id": "BIH202011_G005",
+    "type": "threshold",
+    "description": "Official notice verifies Brčko hospitality gatherings on 23 and 25 Nov against emergency-headquarters measures but gives no per-date counts or locations.",
+    "source_ids": [
+      "BIH202011_S006"
+    ],
+    "affected_candidates": [
+      "BIH202011_E004",
+      "BIH202011_E005"
+    ],
+    "required_followup": "Seek contemporary reporting or organizer information giving separate counts, locations and police response for each date; never pool."
+  },
+  {
+    "gap_id": "BIH202011_G006",
+    "type": "capture_loss",
+    "description": "Six pre-assessed exact-URL page opens yielded response objects that were not serialized by the wrapper; no body or outcome details were retained.",
+    "source_ids": [
+      "BIH202011_S001",
+      "BIH202011_S002",
+      "BIH202011_S003",
+      "BIH202011_S004",
+      "BIH202011_S005",
+      "BIH202011_S006"
+    ],
+    "affected_candidates": [
+      "BIH202011_E001",
+      "BIH202011_E002",
+      "BIH202011_E003",
+      "BIH202011_E004",
+      "BIH202011_E005"
+    ],
+    "required_followup": "Treat the body evidence as unavailable; do not infer a denial or no body. No retry was made."
+  }
+]

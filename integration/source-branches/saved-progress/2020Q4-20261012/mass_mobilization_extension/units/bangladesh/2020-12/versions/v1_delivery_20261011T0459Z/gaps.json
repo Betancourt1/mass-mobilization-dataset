@@ -1,0 +1,65 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "Open-web method: 10 captured English/Bengali prompts, broad monthly and four weekly December windows, garment/labor, sculpture-policy and election searches, event follow-ups and November/January boundary leads. Sources cover Dhaka and national/regional story discovery. Search is not LexisNexis; no search totals/native timestamps; not exhaustive.",
+    "source_ids": [
+      "BGD202012_S001",
+      "BGD202012_S003",
+      "BGD202012_S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use accessible regional archives for any material unresolved event; do not infer no protests from results."
+  },
+  {
+    "gap_id": "G002",
+    "type": "threshold",
+    "description": "The 30 December BNP rally occurred and has an explicit state election demand, but no participant count is reported.",
+    "source_ids": [
+      "BGD202012_S001",
+      "BGD202012_S002"
+    ],
+    "affected_candidates": [
+      "bangladesh_2020-12_E001"
+    ],
+    "required_followup": "Find a contemporaneous attendance estimate and event end/response; do not infer from police presence or traffic."
+  },
+  {
+    "gap_id": "G003",
+    "type": "state_target",
+    "description": "The 11 December government-official program gathered several thousand in Dhaka, but the article describes opposition to vandalism/pro-state statements and does not clearly direct a demand to Bangladesh government. Related New Age follow-up page returned HTTP 403; no content was used.",
+    "source_ids": [
+      "BGD202012_S005",
+      "BGD202012_S006"
+    ],
+    "affected_candidates": [
+      "bangladesh_2020-12_E002"
+    ],
+    "required_followup": "A permitted independent source is needed to resolve whether the program demanded state action/policy and whether its campaigns form one episode. No retry to the restricted exact URL."
+  },
+  {
+    "gap_id": "G004",
+    "type": "continuity",
+    "description": "September and December reports describe A-One/Tazreen worker claims across months, but no November-specific gathering or continuous public assembly is established; private wage claim alone does not qualify.",
+    "source_ids": [
+      "BGD202012_S003",
+      "BGD202012_S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find dated public actions and explicit state-policy demands; resolve onset before placing any action in December."
+  },
+  {
+    "gap_id": "G005",
+    "type": "review",
+    "description": "No independent scientific reviewer examined current evidence hashes; proposed/pending states are not verified provisional. Official baseline remains pending.",
+    "source_ids": [
+      "BGD202012_S001",
+      "BGD202012_S005"
+    ],
+    "affected_candidates": [
+      "bangladesh_2020-12_E001",
+      "bangladesh_2020-12_E002"
+    ],
+    "required_followup": "A distinct reviewer should resolve thresholds/target and coverage; coordinator must compare with official baseline before integration."
+  }
+]

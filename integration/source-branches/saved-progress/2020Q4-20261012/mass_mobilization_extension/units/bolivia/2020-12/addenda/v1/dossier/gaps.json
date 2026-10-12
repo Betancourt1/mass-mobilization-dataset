@@ -1,0 +1,66 @@
+[
+  {
+    "gap_id": "BOL202012_G001",
+    "candidate_ids": [
+      "BOL202012_E001"
+    ],
+    "dimension": "attendance threshold",
+    "reason": "Regional affiliation count (roughly 10,000) is not attendance at the actual bridge blockade; no simultaneous site headcount found.",
+    "evidence": [
+      "BOL202012_S004",
+      "BOL202012_S005"
+    ],
+    "next_permitted_action": "Search for a contemporaneous site-specific attendance report at the bridge or separately documented other block points; do not use vehicle queues or membership counts."
+  },
+  {
+    "gap_id": "BOL202012_G002",
+    "candidate_ids": [
+      "BOL202012_E002"
+    ],
+    "dimension": "source access, occurrence, attendance, demand/target",
+    "reason": "Exact URL returned a fetch error; the search header alone does not establish body-level facts or threshold.",
+    "evidence": [
+      "BOL202012_S003"
+    ],
+    "next_permitted_action": "Use another permitted contemporaneous accessible local source; do not retry the failed URL or bypass restrictions."
+  },
+  {
+    "gap_id": "BOL202012_G003",
+    "candidate_ids": [
+      "BOL202012_E003"
+    ],
+    "dimension": "article body, attendance, state target",
+    "reason": "Rendered page returned navigation/boilerplate only; no event body was available.",
+    "evidence": [
+      "BOL202012_S002"
+    ],
+    "next_permitted_action": "Find another accessible exact source if the lead remains material; do not reopen incomplete page."
+  },
+  {
+    "gap_id": "BOL202012_G004",
+    "candidate_ids": [
+      "BOL202012_E001"
+    ],
+    "dimension": "violence, response, exact local organizer",
+    "reason": "Reviewed reports do not establish violence, police response or a named site-level convening body.",
+    "evidence": [
+      "BOL202012_S004",
+      "BOL202012_S005"
+    ],
+    "next_permitted_action": "Record only if a contemporaneous local source supplies these details; unknowns remain unknown."
+  },
+  {
+    "gap_id": "BOL202012_G005",
+    "candidate_ids": [
+      "BOL202012_E002",
+      "BOL202012_E003"
+    ],
+    "dimension": "local source diversity and threshold",
+    "reason": "Potential December local events surfaced in discovery, but current body evidence cannot resolve their eligibility.",
+    "evidence": [
+      "BOL202012_S002",
+      "BOL202012_S003"
+    ],
+    "next_permitted_action": "Seek accessible nonduplicate local reports with body-level occurrence and per-site count evidence."
+  }
+]

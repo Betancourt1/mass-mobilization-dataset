@@ -1,0 +1,141 @@
+[
+  {
+    "gap_id": "ARG202010_G001",
+    "type": "search_capture_loss",
+    "description": "The first multi-query response and a later single-query response were returned but not saved with aligned headers. Five exact queries are logged with empty headers to denote lost capture, not zero results. Other four-query batches share a common result set with unknown per-query attribution; do not reconstruct results or infer query-specific coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain these as capture gaps. If further searches are made, capture the actual headers immediately and label shared-result attribution limits."
+  },
+  {
+    "gap_id": "ARG202010_G002",
+    "type": "threshold_and_scope",
+    "description": "The 12 October #12O Banderazo was a multi-city national action. El Territorio describes thousands at the national action and identifies the Buenos Aires Obelisk as the epicenter but gives no venue-level count; local attendance and event boundaries remain unresolved.",
+    "source_ids": [
+      "S001",
+      "S006"
+    ],
+    "affected_candidates": [
+      "ARG202010_E001"
+    ],
+    "required_followup": "Locate contemporaneous venue-specific attendance and organization evidence for Buenos Aires and each relevant city; review whether this was one national event or coordinated local events."
+  },
+  {
+    "gap_id": "ARG202010_G003",
+    "type": "threshold",
+    "description": "ATE's 6 October street action is confirmed, but the only figure of 354 applies to planning-meeting delegates, not demonstrators. The report does not quantify the Obelisk/caravan or provincial gatherings.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "ARG202010_E002"
+    ],
+    "required_followup": "Find contemporaneous attendance evidence for a public gathering; do not use the planning meeting or work stoppage as a crowd count."
+  },
+  {
+    "gap_id": "ARG202010_G004",
+    "type": "state_target_and_threshold",
+    "description": "The October 15-19 El Foyel occupation concerned land held by a private family and ended under a court order. TN reports about 40 occupants initially but does not establish a state-policy land demand or later attendance above 50.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [
+      "ARG202010_E004"
+    ],
+    "required_followup": "Check contemporary community statements and independent local reporting for the land-policy demand, venue-specific attendance and later crowd size."
+  },
+  {
+    "gap_id": "ARG202010_G005",
+    "type": "threshold_and_eligibility",
+    "description": "The October 19 Route 40 blockade is reported as involving about ten people, and the El Bolsón police-station release protest is described only as a group. The first has an unresolved state-policy target; the second has no attendance estimate. A Bariloche protest was called for October 20 but occurrence is unconfirmed.",
+    "source_ids": [
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "ARG202010_E005",
+      "ARG202010_E006"
+    ],
+    "required_followup": "Locate body-read follow-up for the exact location, number, demands and response; verify whether the October 20 Bariloche call occurred."
+  },
+  {
+    "gap_id": "ARG202010_G006",
+    "type": "continuity_and_month_ownership",
+    "description": "San Luis agricultural road blockades began September 29 and were still active October 1. The only body-read report says they intended to continue indefinitely; a separate October 19 search-result lead suggests later activity but has not been opened. Onset belongs to the September unit, and the episode endpoint/threshold remain unknown.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check September ownership and follow contemporary follow-up through closure; do not duplicate this ongoing action as a new October event without evidence of a distinct action."
+  },
+  {
+    "gap_id": "ARG202010_G007",
+    "type": "retrieval_and_evidence",
+    "description": "Several relevant search-only leads had no rendered article body: Reuters Screenocean returned an Internal Error; APFDigital and La Revista del Chaco returned no article text; two Infobae Guernica-eviction opens exposed no body. These are technical/rendering failures, not documented access denials.",
+    "source_ids": [
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "ARG202010_E004"
+    ],
+    "required_followup": "Use a fresh exact-URL access receipt before any further body attempt; if the public page remains unreadable, retain as search-only and seek other accessible contemporary sources. Do not bypass restrictions."
+  },
+  {
+    "gap_id": "ARG202010_G008",
+    "type": "source_origin",
+    "description": "Buenos Aires Times includes mixed TIMES/NA/AFP story credits and a separate AP image credit; Canal 26 includes NA credits despite its byline. Their written-story origins are unresolved, so both are excluded from event evidence and independent-source counts.",
+    "source_ids": [
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "ARG202010_E001"
+    ],
+    "required_followup": "Resolve the written-story origin from permitted explicit source evidence or leave these records discovery-only."
+  },
+  {
+    "gap_id": "ARG202010_G009",
+    "type": "threshold_and_state_target",
+    "description": "A Reuters video search result identifies a delivery-app workers' street protest in Buenos Aires on October 8, but its page open failed and no crowd size or state-policy demand is established.",
+    "source_ids": [
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find readable contemporaneous sources to establish public occurrence, participant threshold, organizer and whether demands addressed government policy."
+  },
+  {
+    "gap_id": "ARG202010_G010",
+    "type": "continuity_and_coverage",
+    "description": "Searches found possible protest series and nearby events including November 8 demonstrations, October 17 partisan caravans, local labor actions and Guernica's October eviction. Search-only titles do not establish event occurrence, a continuous episode or an October onset; no full local newspaper/archive review has been completed.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ARG202010_E001",
+      "ARG202010_E002"
+    ],
+    "required_followup": "Continue source-by-source review of distinct local labor/social episodes and adjacent-month reporting; distinguish discrete actions from continuous campaigns and partisan-support rallies."
+  },
+  {
+    "gap_id": "ARG202010_G011",
+    "type": "language_and_archive_coverage",
+    "description": "Research used Spanish and English open-web queries across national and provincial terms, but did not reproduce LexisNexis or systematically review local archives. No Indigenous-language searches, complete provincial paper archive, or independently verified official baseline mapping was available in this pass.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Expand local/independent and official-source coverage as accessible; record language, archive and source-access limits. Do not interpret missing results as no protest."
+  },
+{
+  "gap_id": "ARG202010_G012",
+  "type": "cross_month_ownership",
+  "description": "A24 and a Télam-credited report in La Nueva document the Guernica occupation from 20 July to its police eviction on 29 October. They report about 2,000 families initially and 1,500 families remaining in the final census, with provincial housing negotiations and assistance. This belongs to a prior onset month and has been recorded only as a continuation here.",
+  "source_ids": [
+    "S090",
+    "S091"
+  ],
+  "affected_candidates": [],
+  "required_followup": "The July unit owner should assess the episode under the original rules, especially whether household figures establish the 50-person threshold and whether the housing demand qualifies as state-policy redress. Do not duplicate as an October event."
+}
+]

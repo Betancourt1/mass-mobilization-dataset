@@ -1,0 +1,46 @@
+[
+  {
+    "gap_id": "GIN202012GAP-THRESHOLD-KANKAN-SONFONIA",
+    "dimension": "candidate threshold",
+    "candidate_ids": [
+      "GIN202012CAND-DEC17-KANKAN",
+      "GIN202012CAND-DEC17-SONFONIA"
+    ],
+    "status": "pending",
+    "detail": "Opened reports establish gatherings/demands but not >=50 simultaneous people at each individual site; no pooling between Kankan, Sonfonia or other cities.",
+    "next_permitted_action": "Search exact-site attendance reporting for Dec17 in French/local news; assess each exact target before body requests."
+  },
+  {
+    "gap_id": "GIN202012GAP-ERROR-REGIONAL-BODIES",
+    "dimension": "source access / evidence",
+    "candidate_ids": [
+      "GIN202012CAND-DEC17-KANKAN",
+      "GIN202012CAND-DEC17-KINDIA",
+      "GIN202012CAND-DEC17-LABE"
+    ],
+    "status": "pending",
+    "detail": "First body attempts to Mediaguinee Kankan/Kindia and GuineeTime Labé returned internal errors in the retained captures; no retry. Search-result leads remain leads only.",
+    "next_permitted_action": "Seek alternative distinct local-origin body sources for Kindia and Labé, with exact-target assessments; do not retry failed URLs."
+  },
+  {
+    "gap_id": "GIN202012GAP-WEEKLY-REGIONAL",
+    "dimension": "material coverage",
+    "status": "pending",
+    "detail": "December coverage is incomplete across weekly, regional, campus/sector terms; December 15 calls are not evidence of action, and December 17 named cities must stay separate.",
+    "next_permitted_action": "Continue feasible weekly/regional education, labor and political-action searches for the month, preserving city-level counts."
+  },
+  {
+    "gap_id": "GIN202012GAP-DEC15-OUTCOME",
+    "dimension": "candidate/source follow-up",
+    "status": "pending",
+    "detail": "Search logs retain calls/announcements and an attempted Guinee7 body request is not present in the current capture set. Do not infer event or non-event; no actual outcome body is retained.",
+    "next_permitted_action": "Use alternative accessible contemporaneous reporting for actual Dec15 outcomes after local assessment."
+  },
+  {
+    "gap_id": "GIN2012GAP-MISSING-LOCAL-BODY-CAPTURES",
+    "dimension": "evidence retention / assessed source follow-up",
+    "status": "pending",
+    "detail": "Pre-body assessments exist for one or more exact URLs without corresponding rendered body captures in this current version. No body claims from those targets are used here.",
+    "next_permitted_action": "Preserve current records; if a future task authorizes another request, first make a fresh exact-target assessment and save a new uniquely named capture without altering these files."
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "gap_id": "KHM202011_G001",
+    "type": "pending_threshold",
+    "description": "Nov. 13 palace petition occurred but no participant count was reported.",
+    "source_ids": [
+      "KHM202011_S002"
+    ],
+    "affected_candidates": [
+      "KHM202011_E001"
+    ],
+    "required_followup": "Seek permitted contemporaneous report with event-specific count; do not infer from other Fridays."
+  },
+  {
+    "gap_id": "KHM202011_G002",
+    "type": "pending_threshold",
+    "description": "Nov. 20 report says more than a dozen wives/relatives; about 50 security officers are not demonstrators.",
+    "source_ids": [
+      "KHM202011_S003"
+    ],
+    "affected_candidates": [
+      "KHM202011_E002"
+    ],
+    "required_followup": "Seek permitted event-specific participant estimate; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "KHM202011_G003",
+    "type": "capture_limit",
+    "description": "An earlier Nov. 9-12 search action ran, but its exact queries/results were not retained after output truncation and cannot be reconstructed. A fresh captured Nov. 9-19 regional/sector batch ran; visible shared headers were largely out-of-period/historical and added no demonstrated in-month candidate.",
+    "source_ids": [],
+    "affected_candidates": [
+      "KHM202011_E001",
+      "KHM202011_E002"
+    ],
+    "required_followup": "Treat the original response as lost; do not recreate it. No further action is currently tied to a specific unresolved candidate field."
+  },
+  {
+    "gap_id": "KHM202011_G004",
+    "type": "method_limit",
+    "description": "Open-web only, not LexisNexis. Khmer/English/French early, broad/later and fresh mid-month regional/sector searches are documented; search scope is bounded, not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No specific unattempted material search identified; reviewer may request a focused extension if needed."
+  },
+  {
+    "gap_id": "KHM202011_G005",
+    "type": "pending_evidence",
+    "description": "No end date/time supported for Nov. 13 or Nov. 20; recurring Friday group activity does not prove one continuous event.",
+    "source_ids": [
+      "KHM202011_S002",
+      "KHM202011_S003"
+    ],
+    "affected_candidates": [
+      "KHM202011_E001",
+      "KHM202011_E002"
+    ],
+    "required_followup": "Follow up only for exact episodes; retain unknown ends otherwise."
+  }
+]

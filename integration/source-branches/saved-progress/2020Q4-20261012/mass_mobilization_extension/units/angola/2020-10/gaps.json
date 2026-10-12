@@ -1,0 +1,150 @@
+[
+  {
+    "gap_id": "angola_2020-10-G001",
+    "type": "missing_original_manual",
+    "description": "The original Mass Mobilization codebook PDF is not present at baseline/mm_codebook.txt. Inclusion categories used here come only from the documented protocol; do not invent rules from the original manual.",
+    "source_ids": [],
+    "affected_candidates": [
+      "angola_2020-10-E001",
+      "angola_2020-10-E002",
+      "angola_2020-10-E003"
+    ],
+    "required_followup": "Coordinator should recover the referenced codebook through permitted means and review demand-category mapping."
+  },
+  {
+    "gap_id": "angola_2020-10-G002",
+    "type": "ccode_mapping",
+    "description": "No original ccode mapping is available in the assignment or supplied quarter files. ccode is null; no ISO code was substituted.",
+    "source_ids": [],
+    "affected_candidates": [
+      "angola_2020-10-E001",
+      "angola_2020-10-E002",
+      "angola_2020-10-E003"
+    ],
+    "required_followup": "Verify the original study ccode mapping before any integration."
+  },
+  {
+    "gap_id": "angola_2020-10-G003",
+    "type": "threshold",
+    "description": "The October 24 Luanda/Huambo protests are verified, but no opened source gives crowd attendance. Arrest counts include passersby, while the only roughly 2,000 estimate is a search excerpt attributing the count to Novo Jornal.",
+    "source_ids": [
+      "AGO202010_S002",
+      "AGO202010_S003",
+      "AGO202010_S004",
+      "AGO202010_S009",
+      "AGO202010_S010"
+    ],
+    "affected_candidates": [
+      "angola_2020-10-E002"
+    ],
+    "required_followup": "Read an accessible contemporaneous attendance report and verify threshold separately by location."
+  },
+  {
+    "gap_id": "angola_2020-10-G004",
+    "type": "alleged_deaths_and_response",
+    "description": "Radio Angola attributes gunfire and one death to organizers; later snippets report two deaths, while Amnesty does not confirm a protester death in its October account. Arrest numbers also conflict. A state-attributed killing remains unknown.",
+    "source_ids": [
+      "AGO202010_S002",
+      "AGO202010_S003",
+      "AGO202010_S013",
+      "AGO202010_S014"
+    ],
+    "affected_candidates": [
+      "angola_2020-10-E002"
+    ],
+    "required_followup": "Seek independently reported or documentary evidence for deaths, shooter identity, injuries, detentions and state response; preserve the present uncertainty."
+  },
+  {
+    "gap_id": "angola_2020-10-G005",
+    "type": "blocked_source",
+    "description": "Ver Angola's 26 October article about a courthouse gathering returned HTTP 403 on the managed web open. No retry or bypass was attempted; its search excerpt alone does not show 50 participants.",
+    "source_ids": [
+      "AGO202010_S008"
+    ],
+    "affected_candidates": [
+      "angola_2020-10-E003"
+    ],
+    "required_followup": "Use another permitted source to establish occurrence, attendance and response; do not revisit this URL absent a fresh access review."
+  },
+  {
+    "gap_id": "angola_2020-10-G006",
+    "type": "technical_retrieval",
+    "description": "Esquerda returned HTTP 502; News24 and DW body opens failed in the managed web tool without an HTTP status. These are technical/tool failures, not observed site denials. Their snippets remain discovery-only.",
+    "source_ids": [
+      "AGO202010_S009",
+      "AGO202010_S010",
+      "AGO202010_S011",
+      "AGO202010_S012"
+    ],
+    "affected_candidates": [
+      "angola_2020-10-E002"
+    ],
+    "required_followup": "A fresh exact-URL access check is required before any later body attempt; do not infer denial from the tool errors."
+  },
+  {
+    "gap_id": "angola_2020-10-G007",
+    "type": "historical_scope",
+    "description": "The inherited protocol mentions an Observador hold, but the exact historical source ledger was not supplied. The October 3 Observador result remains search-only; no publisher-wide clearance is inferred.",
+    "source_ids": [
+      "AGO202010_S017"
+    ],
+    "affected_candidates": [
+      "angola_2020-10-E001"
+    ],
+    "required_followup": "Coordinator can review the original permitted ledger and exact URL/origin scope; until then do not request the Observador body."
+  },
+  {
+    "gap_id": "angola_2020-10-G008",
+    "type": "language_and_geography",
+    "description": "Searches covered Portuguese and English and named Luanda, Huambo and other provinces, but no systematic Kimbundu, Umbundu or other Angolan-language searches or provincial radio archive searches were completed.",
+    "source_ids": [],
+    "affected_candidates": [
+      "angola_2020-10-E001",
+      "angola_2020-10-E002",
+      "angola_2020-10-E003"
+    ],
+    "required_followup": "Search local-language terms and provincial reporting; check separately whether the Luanda/Huambo October 24 events were coordinated."
+  },
+  {
+    "gap_id": "angola_2020-10-G009",
+    "type": "archive_access",
+    "description": "Research used open web search rather than LexisNexis or equivalent systematic newspaper archives; search engines may ignore date operators and can return wrong-year results, as the October 2019 lead demonstrates.",
+    "source_ids": [
+      "AGO202010_S006",
+      "AGO202010_S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review against accessible press archives and verify dates in article bodies; do not claim exhaustive coverage."
+  },
+  {
+    "gap_id": "angola_2020-10-G010",
+    "type": "neighboring_months",
+    "description": "Search identified 12 September protests and a distinct planned 11 November protest after the 24 October events. Full prior/following unit dossiers were not available for episode-boundary review; no continuation beginning before October was confirmed.",
+    "source_ids": [
+      "AGO202010_S002",
+      "AGO202010_S016"
+    ],
+    "affected_candidates": [
+      "angola_2020-10-E001",
+      "angola_2020-10-E002"
+    ],
+    "required_followup": "Compare September, November and December dossiers for distinct action, onset, closure and cross-month links; do not code the planned 11 November event as October continuity."
+  },
+  {
+    "gap_id": "angola_2020-10-G011",
+    "type": "scope_and_independence",
+    "description": "Several reports appear to use organizer statements or repeat common event facts; source independence and the exact relationship between provincial actions are not fully established.",
+    "source_ids": [
+      "AGO202010_S002",
+      "AGO202010_S003",
+      "AGO202010_S004",
+      "AGO202010_S005",
+      "AGO202010_S009",
+      "AGO202010_S010"
+    ],
+    "affected_candidates": [
+      "angola_2020-10-E002"
+    ],
+    "required_followup": "Record written-origin/syndication links only when explicitly documented and distinguish state-media framing from independently verified facts."
+  }
+]

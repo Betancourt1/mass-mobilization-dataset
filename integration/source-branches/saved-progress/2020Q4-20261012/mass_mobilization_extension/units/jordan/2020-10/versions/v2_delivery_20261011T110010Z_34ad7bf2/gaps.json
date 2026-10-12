@@ -1,0 +1,33 @@
+[
+  {
+    "gap_id": "JO202010_G001",
+    "type": "coverage",
+    "description": "Actual EN/AR/FR monthly and October window/region/sector searches were captured, but local publisher and source diversity remains incomplete; first Oct search returned 28 headers but its persistence failed and only an incident record survives.",
+    "source_ids": [
+      "JO202010_S001",
+      "JO202010_S002"
+    ],
+    "affected_candidates": [
+      "JO202010_E001",
+      "JO202010_E002",
+      "JO202010_E003"
+    ],
+    "required_followup": "Seek original event reports and counts for Irbid/Yarmouk/nursery actions; search remaining regional and student/worker/women sectors with actual dated windows."
+  },
+  {
+    "gap_id": "JO202010_G002",
+    "type": "source",
+    "description": "CSKC entries lack record-level origin and headcount. Alghad Yarmouk article has no visible publication date and cannot support the Oct11 candidate. Nursery crowd remains below confirmed threshold.",
+    "source_ids": [
+      "JO202010_S001",
+      "JO202010_S002",
+      "JO202010_S003"
+    ],
+    "affected_candidates": [
+      "JO202010_E001",
+      "JO202010_E002",
+      "JO202010_E003"
+    ],
+    "required_followup": "Locate contemporaneous original sources and event-level attendance; verify Alghad date before any unit assignment."
+  }
+]

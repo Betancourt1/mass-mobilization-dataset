@@ -1,0 +1,26 @@
+[
+  {
+    "candidate_id": "DR202010_X001",
+    "title": "El Día search result about Oct 15 march",
+    "reason": "Opened target page is dated 2015 and concerns a 2015 event, outside 2020Q4 cutoff; false positive, not an October 2020 event.",
+    "source_ids": [
+      "DR202010_S007"
+    ],
+    "field_evidence": {
+      "publication_date": {
+        "source_ids": [
+          "DR202010_S007"
+        ],
+        "summary": "Actual opened page metadata is 2015."
+      }
+    }
+  },
+  {
+    "candidate_id": "DR202010_X002",
+    "title": "Unexpected 406 outcome on unrelated HOY URL",
+    "reason": "Unexpected mismatched tool response, HTTP 406, unusable; not an event source and not retried.",
+    "source_ids": [
+      "DR202010_S008"
+    ]
+  }
+]

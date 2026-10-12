@@ -1,0 +1,59 @@
+[
+  {
+    "gap_id": "KHM202011_G001",
+    "type": "pending_threshold",
+    "description": "Nov. 13 palace petition occurred but no participant count was reported.",
+    "source_ids": [
+      "KHM202011_S002"
+    ],
+    "affected_candidates": [
+      "KHM202011_E001"
+    ],
+    "required_followup": "Seek permitted contemporaneous report with event-specific count; do not infer from other Fridays."
+  },
+  {
+    "gap_id": "KHM202011_G002",
+    "type": "pending_threshold",
+    "description": "Nov. 20 report says more than a dozen wives/relatives; about 50 security officers are not demonstrators.",
+    "source_ids": [
+      "KHM202011_S003"
+    ],
+    "affected_candidates": [
+      "KHM202011_E002"
+    ],
+    "required_followup": "Seek permitted event-specific participant estimate; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "KHM202011_G003",
+    "type": "pending_coverage",
+    "description": "A Nov. 9-12 batch search ran but its exact query strings and result output were not retained after output truncation; they cannot be reconstructed. Saved searches cover Nov. 1-15 and a separate later broad multilingual batch.",
+    "source_ids": [],
+    "affected_candidates": [
+      "KHM202011_E001",
+      "KHM202011_E002"
+    ],
+    "required_followup": "Run a fresh, explicitly captured Nov. 9-12 and provincial/sector search if still material; missing output is not no results."
+  },
+  {
+    "gap_id": "KHM202011_G004",
+    "type": "pending_coverage",
+    "description": "Open-web only, not LexisNexis; Khmer/English/French searches covered early and broad/later leads, but provincial and sector searches remain partial.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Target permitted provincial/sector sources in Khmer; no bypass or exhaustive claim."
+  },
+  {
+    "gap_id": "KHM202011_G005",
+    "type": "pending_evidence",
+    "description": "No end date/time supported for Nov. 13 or Nov. 20; recurring Friday group activity does not prove one continuous event.",
+    "source_ids": [
+      "KHM202011_S002",
+      "KHM202011_S003"
+    ],
+    "affected_candidates": [
+      "KHM202011_E001",
+      "KHM202011_E002"
+    ],
+    "required_followup": "Follow up only for exact episodes; retain unknown ends otherwise."
+  }
+]

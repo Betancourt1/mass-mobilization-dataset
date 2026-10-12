@@ -1,0 +1,50 @@
+[
+  {
+    "candidate_id": "IRL202012_X001",
+    "source_ids": [
+      "irl_q102_debenhams_dec15"
+    ],
+    "title": "Debenhams 250th-day picket/rally, Henry Street",
+    "reason": "Accessible report describes a recurring private-employer redundancy dispute and no state-directed demand or event headcount for this specific Dec15 rally; not coded as qualifying state-directed mass mobilization.",
+    "field_evidence": {
+      "private_target": {
+        "source_ids": [
+          "irl_q102_debenhams_dec15"
+        ],
+        "summary": "Source states dispute with retailer over redundancy deal."
+      }
+    }
+  },
+  {
+    "candidate_id": "IRL202012_X002",
+    "source_ids": [
+      "irl_siptu_housing_dec1"
+    ],
+    "title": "SIPTU housing demonstration result likely belongs to older publication",
+    "reason": "Search result metadata showed an apparent publication age of 10.9 years despite appearing in a 2020 query. No exact page body opened; not treated as a Dec2020 event.",
+    "field_evidence": {
+      "date_conflict": {
+        "source_ids": [
+          "irl_siptu_housing_dec1"
+        ],
+        "summary": "Search-result age conflicts with the apparent Dec1 date; requires exact-source verification before any use."
+      }
+    }
+  },
+  {
+    "candidate_id": "IRL202012_X003",
+    "source_ids": [
+      "irl_wikipedia_car_meet_dec19"
+    ],
+    "title": "Little Island car meet is not established as a protest",
+    "reason": "Secondary timeline result describes a vehicle meet and Garda breakup, with no public demand or protest purpose established; 800 people/250 cars are not an event count for protest coding.",
+    "field_evidence": {
+      "classification": {
+        "source_ids": [
+          "irl_wikipedia_car_meet_dec19"
+        ],
+        "summary": "Search result describes car meet/enforcement, no demand."
+      }
+    }
+  }
+]

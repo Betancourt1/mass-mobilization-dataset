@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "IDN202010_G001",
+    "dimension": "Oct window and regional coverage",
+    "reason": "Q001/Q002 results and three date-window queries were attempted, but search results repeatedly surface national Cipta Kerja stories; coverage is not complete across regions, sectors, or date-specific local sources. Makassar detention counts are pooled; Surabaya/ Maluku counts and event boundaries need better local reporting. Oct 20 Suara Surabaya and ANTARA both describe a Patung Kuda/Monas action but differ in turnout; ANTARA’s total conflicts with its subgroup sum.",
+    "next_permitted_action": "Run further Bahasa Indonesia date-window searches against named regional outlets for Makassar, Surabaya, Maluku and other provinces; look for per-site turnout and local event timing. Exact-source assess before body opens.",
+    "candidate_ids": [
+      "IDN202010_E001",
+      "IDN202010_E002",
+      "IDN202010_E004",
+      "IDN202010_E003"
+    ],
+    "source_ids": [
+      "IDN202010_S001",
+      "IDN202010_S004",
+      "IDN202010_S005",
+      "IDN202010_S006",
+      "IDN202010_S007"
+    ]
+  },
+  {
+    "gap_id": "IDN202010_G002",
+    "dimension": "Cipta Kerja episode ownership and adjacent-month continuity",
+    "reason": "National Cipta Kerja mobilization spans reported Oct and Nov actions, but local onset/cessation and whether stages are same gathering or distinct events remain untested. Oct 20 attendance and event purpose differ across same-date/site reports and need event-identity/count-denominator reconciliation.",
+    "next_permitted_action": "Search permitted local reports in late September/October and November by region/group; record locality-specific recurrence/cessation and do not combine separate sites.",
+    "candidate_ids": [
+      "IDN202010_E001",
+      "IDN202010_E002",
+      "IDN202010_E003",
+      "IDN202010_E004"
+    ],
+    "source_ids": [
+      "IDN202010_S001",
+      "IDN202010_S002",
+      "IDN202010_S007"
+    ]
+  },
+  {
+    "gap_id": "IDN202010_G003",
+    "dimension": "Blocked Kompas body evidence",
+    "reason": "The exact Kompas page produced an anti-bot verification wall; its result snippet is not body evidence and remains unavailable.",
+    "next_permitted_action": "Do not retry/bypass Kompas. Use other permitted independent regional sources for the specific missing Makassar/site or threshold facts.",
+    "candidate_ids": [
+      "IDN202010_E004"
+    ],
+    "source_ids": [
+      "IDN202010_S003"
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "gap_id": "IDN202012_G001",
+    "dimension": "December windows and province/sector coverage",
+    "reason": "Broad and three date-window searches returned many stale October results; current opened sources cover a small set of events only. Regional, language, labor, student and local-policy coverage remains materially incomplete. Indoleft’s translated/abridged Arah Juang text names additional Dec 1 actions in Jakarta and Yogyakarta and mentions Ternate/Sinjai; no per-site attendance is provided in the reviewed excerpt.",
+    "next_permitted_action": "Run additional Indonesian-language local searches per remaining date windows and relevant regional/sector outlets; maintain actual result capture and exact assessments.",
+    "candidate_ids": [
+      "IDN202012_E001",
+      "IDN202012_E002",
+      "IDN202012_E003",
+      "IDN202012_E004",
+      "IDN202012_E005"
+    ],
+    "source_ids": [
+      "IDN202012_S001",
+      "IDN202012_S002",
+      "IDN202012_S003",
+      "IDN202012_S005",
+      "IDN202012_S006",
+      "IDN202012_S008"
+    ]
+  },
+  {
+    "gap_id": "IDN202012_G002",
+    "dimension": "Threshold by exact site",
+    "reason": "Bogor and Jakarta Dec 16 lack any count; Purbalingga and Dec 17 use “dozens” without clear >=50; Dec 17 combines two separate sites. Tirto reports 15 arrested at Sinjai, not total turnout; the Ternate action has no attendance estimate.",
+    "next_permitted_action": "Find permitted contemporaneous site-specific attendance evidence. Do not aggregate across sites, forecast announcements, or infer from arrests.",
+    "candidate_ids": [
+      "IDN202012_E002",
+      "IDN202012_E003",
+      "IDN202012_E004",
+      "IDN202012_E005",
+      "IDN202012_E006",
+      "IDN202012_E007"
+    ],
+    "source_ids": [
+      "IDN202012_S001",
+      "IDN202012_S002",
+      "IDN202012_S003",
+      "IDN202012_S005",
+      "IDN202012_S007"
+    ]
+  },
+  {
+    "gap_id": "IDN202012_G003",
+    "dimension": "Dec 16 failed body retrieval",
+    "reason": "Suara.com exact page timed out and is not usable as body evidence; no retry was made. Detik report lacks numeric attendance.",
+    "next_permitted_action": "Do not retry Suara.com; seek a distinct permitted contemporaneous source for actual Patung Kuda site count.",
+    "candidate_ids": [
+      "IDN202012_E004"
+    ],
+    "source_ids": [
+      "IDN202012_S004",
+      "IDN202012_S005"
+    ]
+  },
+  {
+    "gap_id": "IDN202012_G004",
+    "dimension": "Episode ownership/adjacent-month continuity",
+    "reason": "Papua commemoration has a clear commemorative anchor; Cipta Kerja actions and local anti-corruption events need separate episode treatment and explicit continuity checks.",
+    "next_permitted_action": "Search local December/November/January reports for same group/site recurrence and onset/cessation; do not infer continuity from common national issue.",
+    "candidate_ids": [
+      "IDN202012_E001",
+      "IDN202012_E003",
+      "IDN202012_E004",
+      "IDN202012_E005"
+    ],
+    "source_ids": [
+      "IDN202012_S002",
+      "IDN202012_S005",
+      "IDN202012_S006"
+    ]
+  },
+  {
+    "gap_id": "IDN202012_G005",
+    "dimension": "Dec 1 Sinjai and Ternate site counts",
+    "reason": "Tirto identifies separate Sinjai and Ternate actions, their demands and locations, but gives no total count; Sinjai has 15 arrests, which is not total attendance.",
+    "next_permitted_action": "Seek permitted local Sulawesi/Maluku reporting or organizer/public records with separate site totals; exact-URL assess before any new body request. Do not pool the cities.",
+    "candidate_ids": [
+      "IDN202012_E006",
+      "IDN202012_E007"
+    ],
+    "source_ids": [
+      "IDN202012_S007"
+    ]
+  },
+  {
+    "gap_id": "IDN202012_G006",
+    "dimension": "December 1 Jakarta/Yogyakarta reports and publication provenance",
+    "reason": "Indoleft reproduces an abridged Arah Juang report and names Jakarta/Yogyakarta gatherings, but reviewed material has no per-site count and is not independent of Arah Juang; event site-level facts need the source text.",
+    "next_permitted_action": "Assess the exact Arah Juang original URL and any distinct local contemporaneous reports before requesting a body; verify location/site, actual execution and count separately. Do not use Indoleft/Arah Juang republication as independent corroboration or pool city counts.",
+    "candidate_ids": [],
+    "source_ids": [
+      "IDN202012_S008"
+    ]
+  }
+]

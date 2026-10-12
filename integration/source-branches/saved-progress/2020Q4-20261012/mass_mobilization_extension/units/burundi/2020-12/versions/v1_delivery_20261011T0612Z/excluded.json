@@ -1,0 +1,46 @@
+[
+  {
+    "candidate_id": "BDI202012_X001",
+    "unit_id": "burundi_2020-12",
+    "country": "Burundi",
+    "date": "2020-12-12",
+    "location": "Bujumbura; a separate Gitega march is also reported, with no Gitega attendance count in the consulted passage",
+    "category": "pro-government_action_demand_to_external_UN_body",
+    "source_ids": [
+      "BDI202012_S001"
+    ],
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "BDI202012_S001"
+        ],
+        "summary": "APRODH dates the march to 12 December 2020."
+      },
+      "location": {
+        "source_ids": [
+          "BDI202012_S001"
+        ],
+        "summary": "APRODH describes the Bujumbura march and separately mentions a march taking place in Gitega."
+      },
+      "threshold": {
+        "source_ids": [
+          "BDI202012_S001"
+        ],
+        "summary": "APRODH reports several thousand at Bujumbura; no Gitega number is reported in the consulted passage. Never transfer or aggregate counts."
+      },
+      "organizer": {
+        "source_ids": [
+          "BDI202012_S001"
+        ],
+        "summary": "APRODH describes the organizers as pro-government civil-society organizations and government/city actors."
+      },
+      "demand": {
+        "source_ids": [
+          "BDI202012_S001"
+        ],
+        "summary": "The march thanked the UN Security Council for removing Burundi from its political agenda; this is not a demand to the domestic state."
+      }
+    },
+    "decision": "Exclude from the domestic-state protest dataset: source identifies pro-government organizers and an external UN-directed thank-you demonstration, not an anti-state demand."
+  }
+]

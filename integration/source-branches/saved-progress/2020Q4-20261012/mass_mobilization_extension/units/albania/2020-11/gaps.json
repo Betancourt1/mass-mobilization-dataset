@@ -1,0 +1,128 @@
+[
+  {
+    "gap_id": "ALB202011_G001",
+    "type": "participant_threshold",
+    "description": "The 2 November Ministry student gathering is reported as “dozens”; the 3 November gathering is smaller, but neither has an exact count. The separate PM Office march has no count. The Bulqiza petition activity is described as “dozens” over three days, with no daily figures. These candidates cannot be confirmed at >=50.",
+    "source_ids": [
+      "ALB202011_S001",
+      "ALB202011_S003",
+      "ALB202011_S019",
+      "ALB202011_S023"
+    ],
+    "affected_candidates": [
+      "ALB202011_E001",
+      "ALB202011_E002",
+      "ALB202011_E004"
+    ],
+    "required_followup": "Find contemporaneous attendance estimates or primary organizer documentation; do not infer participant counts from unrelated group sizes."
+  },
+  {
+    "gap_id": "ALB202011_G002",
+    "type": "continuity_and_end_date",
+    "description": "Student reporting supports a 2 November first day and a smaller 3 November second day. A 4 November search result calls it a third day, but the article returned HTTP 404. The final day/end date and whether the series remained one event are unknown.",
+    "source_ids": [
+      "ALB202011_S001",
+      "ALB202011_S019",
+      "ALB202011_S018"
+    ],
+    "affected_candidates": [
+      "ALB202011_E001"
+    ],
+    "required_followup": "If a permitted contemporaneous copy or separate outlet is located, verify the 4 November gathering, turnout and closure."
+  },
+  {
+    "gap_id": "ALB202011_G003",
+    "type": "event_form",
+    "description": "The 5 November ASCS newsletter identifies a Tirana activity and a demand to restore assembly/protest rights but gives no venue, format, public-gathering status or headcount.",
+    "source_ids": [
+      "ALB202011_S010"
+    ],
+    "affected_candidates": [
+      "ALB202011_E003"
+    ],
+    "required_followup": "Locate the organizers’ open letter or event record to establish format, public access and attendance."
+  },
+  {
+    "gap_id": "ALB202011_G004",
+    "type": "continuity",
+    "description": "Ballsh workers’ public protest, hunger strike, October marches/roadblocks and November strike pause/meeting may be campaign phases or distinct actions. November sources do not establish a new qualifying public gathering. Earlier-unit ownership and first >=50 action remain open.",
+    "source_ids": [
+      "ALB202011_S012",
+      "ALB202011_S013",
+      "ALB202011_S011",
+      "ALB202011_S016"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Compare contemporaneous September–November reports and prior-unit candidate records; resolve action boundaries and episode ownership before assigning official event IDs."
+  },
+  {
+    "gap_id": "ALB202011_G005",
+    "type": "retrieval",
+    "description": "An Exit.al search result titled as a third day of the student protest could not be reviewed because the ordinary web open returned HTTP 404. No workaround was attempted.",
+    "source_ids": [
+      "ALB202011_S018"
+    ],
+    "affected_candidates": [
+      "ALB202011_E001"
+    ],
+    "required_followup": "Seek an unrelated contemporaneous report or accessible archive only after fresh source-specific access review."
+  },
+  {
+    "gap_id": "ALB202011_G006",
+    "type": "coverage_method",
+    "description": "Search was open web and cannot reproduce LexisNexis or a systematic newspaper archive. Searches covered broad English and Albanian-language query variants, weekly date windows, student demands, oil/labor actions, government offices, civil-society activity, and miners; they do not demonstrate exhaustive coverage of all sectors, regions or local outlets.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "When access permits, consult systematic local-language newspaper archives and official/union records; expand regional and sector-specific searches."
+  },
+  {
+    "gap_id": "ALB202011_G007",
+    "type": "baseline",
+    "description": "The official historical baseline is pending. This dossier contains provisional candidates only and assigns no official MM IDs.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ALB202011_E001",
+      "ALB202011_E002",
+      "ALB202011_E003",
+      "ALB202011_E004"
+    ],
+    "required_followup": "Coordinator review against the official baseline before integration."
+  },
+  {
+    "gap_id": "ALB202011_G008",
+    "type": "access_inventory",
+    "description": "The inherited historical source-access inventory is incomplete. Exact known AP, Human Rights Watch, New Arab, Facebook and L’Orient-Le Jour holds/origin ambiguities remain unresolved and affected bodies or variants were avoided. Unrelated public sources were assessed individually; this missing inventory was not treated as permission.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ALB202011_E001",
+      "ALB202011_E004"
+    ],
+    "required_followup": "Coordinator should resolve affected-source holds and origin relationships; use unrelated accessible sources meanwhile."
+  },
+  {
+    "gap_id": "ALB202011_G009",
+    "type": "capture_loss",
+    "description": "Two initial executions of the same broad Albania November query produced responses that were not durably captured. Their search-log entries explicitly mark payload loss and empty arrays as unretained output, not zero-result evidence. A later response to the same query was captured.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No reconstruction is possible from retained evidence; rely only on the later retained Q001 response and subsequent captured searches."
+  },
+  {
+    "gap_id": "ALB202011_G010",
+    "type": "search_log_metadata",
+    "description": "The web search tool did not expose native query execution or response clocks in retained objects. Search-log clock fields therefore remain null; they were not reconstructed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "None for this batch; retain unknown metadata."
+  },
+  {
+    "gap_id": "ALB202011_G011",
+    "type": "provenance_and_access",
+    "description": "The search reference initially attached to S023 resolved to a different Business & Human Rights Resource Centre page (S024), not the Citizens.al miners petition. The actual accidental read scope was recorded. No pre-open receipt existed for S024; the subsequent post-open scan returned manual_review and cannot retroactively authorize the retrieval. S024 is not used as candidate evidence.",
+    "source_ids": [
+      "ALB202011_S024"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep S023 and S024 distinct; human review should decide whether any use of the accidentally opened BHR page is appropriate. No further retrieval was attempted."
+  }
+]

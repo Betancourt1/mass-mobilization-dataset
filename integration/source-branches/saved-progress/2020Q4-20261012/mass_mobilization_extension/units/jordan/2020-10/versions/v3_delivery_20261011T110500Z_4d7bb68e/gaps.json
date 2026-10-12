@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "JO202010_G001",
+    "type": "coverage",
+    "description": "Saved searches include English generic/date/region/sector queries and an Arabic October-specific query, plus separate September context. An initial bilingual Oct query returned 28 headers but persistence failed; see captured incident. No French query was performed. Remaining local publisher and weekly/regional/student/worker coverage is incomplete.",
+    "source_ids": [
+      "JO202010_S001",
+      "JO202010_S002",
+      "JO202010_S004",
+      "JO202010_S005"
+    ],
+    "affected_candidates": [
+      "JO202010_E001",
+      "JO202010_E002",
+      "JO202010_E003",
+      "JO202010_E004",
+      "JO202010_E005"
+    ],
+    "required_followup": "Use permitted local source searches for school, university, nursery, health and labor actions across distinct dates/regions; record any new exact target and assess before opening."
+  },
+  {
+    "gap_id": "JO202010_G002",
+    "type": "source",
+    "description": "CSKC lacks record-level origins and counts. Amman and Irbid nursery sit-ins have no verified participant counts. The Oct11 Yarmouk Alghad source remains search-only after exact target was not accessible via tool; the other Alghad opened story lacks visible date.",
+    "source_ids": [
+      "JO202010_S001",
+      "JO202010_S002",
+      "JO202010_S003",
+      "JO202010_S004",
+      "JO202010_S006"
+    ],
+    "affected_candidates": [
+      "JO202010_E001",
+      "JO202010_E002",
+      "JO202010_E003",
+      "JO202010_E004"
+    ],
+    "required_followup": "Find permitted original contemporaneous attendance and demand evidence. Do not retry the inaccessible Alghad exact URL or count nurseries/affected women as attendees."
+  },
+  {
+    "gap_id": "JO202010_G003",
+    "type": "continuity",
+    "description": "Oct11 and Oct19 Yarmouk sit-ins concern similar staff admissions/equity grievances; Oct21 Amman and Oct22 Irbid nursery actions concern the same closure policy on consecutive days. Available sources do not establish whether each pair is separate recurrent actions or one nationally coordinated/continuous episode.",
+    "source_ids": [
+      "JO202010_S001",
+      "JO202010_S004",
+      "JO202010_S005",
+      "JO202010_S006"
+    ],
+    "affected_candidates": [
+      "JO202010_E002",
+      "JO202010_E003",
+      "JO202010_E004",
+      "JO202010_E005"
+    ],
+    "required_followup": "Seek permitted organizer statements/reporting that explicitly resolves continuity and coordination; retain distinct dates and locations and never sum turnout across sites without evidence."
+  }
+]

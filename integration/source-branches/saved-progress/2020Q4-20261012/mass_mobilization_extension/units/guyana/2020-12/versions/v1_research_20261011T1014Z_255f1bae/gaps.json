@@ -1,0 +1,30 @@
+[
+  {
+    "gap_id": "GYA202012_G001",
+    "type": "source",
+    "candidate_ids": [
+      "GYA202012_E001"
+    ],
+    "dimension": "contemporaneous Dec 7 NDC protest article body",
+    "reason": "Stabroek News exact body request returned a technical HTTP-tool 400 timeout. No retry was made. Header/snippet and 2025 retrospective do not resolve threshold or detailed facts.",
+    "next_permitted_action": "Use a different permitted contemporaneous local source/archive for the exact Dec 7 NDC protest and count; do not retry the timed-out URL unless an applicable ordinary retry is separately permitted."
+  },
+  {
+    "gap_id": "GYA202012_G002",
+    "type": "coverage",
+    "candidate_ids": [
+      "GYA202012_E001"
+    ],
+    "dimension": "threshold, exact onset and neighboring-month ownership",
+    "reason": "No Dec-specific attendance count or resolved episode onset/continuity. The retrospective mentions Nov-Dec without precise boundaries.",
+    "next_permitted_action": "Find contemporaneous November/December local reports for Crabwood NDC protest sequence and site-specific headcount; preserve Nov and Dec actions separately unless evidence establishes same continuous episode."
+  },
+  {
+    "gap_id": "GYA202012_G003",
+    "type": "coverage",
+    "candidate_ids": [],
+    "dimension": "weekly/regional/sector discovery",
+    "reason": "Four captured searches focused on general Guyana, labor, Crabwood/NDC and local reporting; systematic week-by-week search across regions and non-labor sectors remains incomplete.",
+    "next_permitted_action": "Run feasible English-language weekly/local regional searches across Guyana and public-sector/civic source types; record no-result outcomes as searches, not proof of absence."
+  }
+]

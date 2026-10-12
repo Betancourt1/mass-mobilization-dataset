@@ -1,0 +1,81 @@
+[
+  {
+    "gap_id": "kenya_2020-12-G001",
+    "candidate_ids": [
+      "kenya_2020-12-E001",
+      "kenya_2020-12-E002"
+    ],
+    "dimensions": [
+      "threshold_50",
+      "independent_source"
+    ],
+    "reason": "Opened The Star articles confirm separate physical public actions, but neither gives a count or clear 50-person qualitative description.",
+    "evidence": [
+      "KEN202012_STAR_AFYA",
+      "KEN202012_STAR_ELDORET"
+    ],
+    "next_permitted_action": "Seek independent contemporaneous attendance/source corroboration for each site without pooling or inferring a threshold from the number on strike."
+  },
+  {
+    "gap_id": "kenya_2020-12-G002",
+    "candidate_ids": [],
+    "dimensions": [
+      "Makueni_body_access",
+      "regional_coverage"
+    ],
+    "reason": "KNA search result describes a Makueni nurse demonstration, but body fetch timed out; exact day/attendance cannot be confirmed. A Kitengela rider protest is also search-only and its state target/scale are not established.",
+    "evidence": [
+      "KEN202012_KNA_MAKUENI",
+      "KEN202012_KNA_KITENGELA"
+    ],
+    "next_permitted_action": "Find distinct permitted coverage of these events; do not retry KNA timeout URL or code from snippet alone."
+  },
+  {
+    "gap_id": "kenya_2020-12-G003",
+    "candidate_ids": [
+      "kenya_2020-12-E001",
+      "kenya_2020-12-E002"
+    ],
+    "dimensions": [
+      "strike_episode_and_January_boundary",
+      "event_end"
+    ],
+    "reason": "Search-only continuity results indicate health-worker industrial action beginning Dec7 continued into January, but strike continuity is not public-gathering continuity. Doctors, nurses and clinicians had distinct return-to-work paths.",
+    "evidence": [
+      "KEN202012_STAR_AFYA",
+      "KEN202012_STAR_ELDORET"
+    ],
+    "next_permitted_action": "Resolve only any named candidate’s physical-assembly timeline in Jan follow-ups; do not extend dates based solely on ongoing strike."
+  },
+  {
+    "gap_id": "kenya_2020-12-G004",
+    "candidate_ids": [],
+    "dimensions": [
+      "regional_sector_weekly_coverage"
+    ],
+    "reason": "English and Swahili discovery yielded health-sector candidates; no systematic all-county or full weekly/local-language search was completed.",
+    "evidence": [
+      "KEN202012_Q007",
+      "KEN202011_Q008"
+    ],
+    "next_permitted_action": "Continue county, transport, education, land, labor and civic issue searches by week and region in English/Swahili."
+  },
+  {
+    "gap_id": "kenya_2020-12-G006",
+    "candidate_ids": [
+      "kenya_2020-12-E004"
+    ],
+    "dimensions": [
+      "exact_date",
+      "location",
+      "threshold_50",
+      "duplicate_resolution",
+      "independent_source"
+    ],
+    "reason": "People Daily photo caption reports Mombasa healthcare workers demonstrating “last week” before 23 Dec, over salary delay and PPE, without exact event day, site, count, or corroboration.",
+    "evidence": [
+      "KEN202012_PD_MOMBASA"
+    ],
+    "next_permitted_action": "Search permitted contemporary local sources for the exact Mombasa event/date, attendance and site; compare with 22 Dec Digo Road event before any merge."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "gap_id": "CRO202011_G001",
+    "candidate_id": "CRO202011_E002",
+    "source_ids": [
+      "NOV_S002",
+      "NOV_S003"
+    ],
+    "gap_type": "pending_threshold",
+    "reason": "The teacher protest is confirmed but the source says only a small number and no estimate, so >=50 is not supported.",
+    "next_permitted_action": "Permitted follow-up to distinct contemporaneous local reporting, union records or images with credible site-specific count; do not infer from national workforce.",
+    "unit_pending_sources": true,
+    "unit_pending_coverage": false
+  },
+  {
+    "gap_id": "CRO202011_G002",
+    "candidate_id": "CRO202011_E003",
+    "source_ids": [
+      "NOV_S004",
+      "NOV_S005",
+      "NOV_S006"
+    ],
+    "gap_type": "pending_threshold",
+    "reason": "The multi-city action is supported only partially; Zagreb described as small and Rijeka body request returned 403. Other site counts absent.",
+    "next_permitted_action": "No retry for Riportal 403. Seek permitted contemporaneous site-specific public reporting for each town; do not combine site totals.",
+    "unit_pending_sources": true,
+    "unit_pending_coverage": false
+  },
+  {
+    "gap_id": "CRO202011_G003",
+    "candidate_id": "CRO202011_E004",
+    "source_ids": [
+      "NOV_S007",
+      "NOV_S008"
+    ],
+    "gap_type": "pending_threshold",
+    "reason": "N1/HINA’s several-dozen estimate conflicts with Riportal’s organizer figure of 1,500–2,000. Independence/origin and basis of estimates are unclear.",
+    "next_permitted_action": "Seek distinct permitted local reporting or event images with dated, site-specific count; preserve both reports and do not average.",
+    "unit_pending_sources": true,
+    "unit_pending_coverage": false
+  },
+  {
+    "gap_id": "CRO202011_G004",
+    "candidate_id": null,
+    "source_ids": [],
+    "gap_type": "pending_coverage",
+    "reason": "Regional and sector coverage is incomplete; surfaced search results skew toward Zagreb and pandemic measures.",
+    "next_permitted_action": "Complete feasible week-based Croatian-language searches for unions, public workers, women, students and retirees in regional/local outlets.",
+    "unit_pending_sources": false,
+    "unit_pending_coverage": true
+  },
+  {
+    "gap_id": "CRO202011_G005",
+    "candidate_id": null,
+    "source_ids": [],
+    "gap_type": "pending_neighbor_continuity",
+    "reason": "January follow-up query returned only broad leads in retained records; no documented continuity resolution for these separate November actions.",
+    "next_permitted_action": "Target permitted December/January organizer and contemporary reports for recurrence/episode ownership.",
+    "unit_pending_sources": false,
+    "unit_pending_coverage": true
+  }
+]

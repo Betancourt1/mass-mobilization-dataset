@@ -1,0 +1,83 @@
+[
+  {
+    "candidate_id": "ET202010_E001_ROBE_OCT11",
+    "country": "Ethiopia",
+    "unit_month": "2020-10",
+    "title": "Robe youth protest for political-prisoner release",
+    "start_date": "2020-10-11",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Robe (Roobee), Bale Zone, Oromia Regional State, Ethiopia",
+    "demands": [
+      "political_behavior_process",
+      "police_brutality"
+    ],
+    "crowd_size": null,
+    "crowd_size_evidence": "No numeric attendance estimate. VICE describes video footage showing a dozen young men at one moment; WardheerNews title calls it a small protest but provides no count; neither establishes total gathering below or above 50. Threshold remains pending.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "yes",
+      "shootings": "yes"
+    },
+    "source_ids": [
+      "ET202010_S001_HRLHA_ROBE",
+      "ET202010_S002_WARDHEER_ADDISSTANDARD_REPRINT",
+      "ET202010_S004_VICE_ROBE"
+    ],
+    "field_evidence": {
+      "occurrence_and_date": {
+        "value": "Executed public protest on 2020-10-11 in Robe; contemporary accounts and body-captured footage descriptions agree",
+        "source_ids": [
+          "ET202010_S001_HRLHA_ROBE",
+          "ET202010_S002_WARDHEER_ADDISSTANDARD_REPRINT",
+          "ET202010_S004_VICE_ROBE"
+        ]
+      },
+      "location": {
+        "value": "Robe/Roobee, Bale Zone, Oromia",
+        "source_ids": [
+          "ET202010_S001_HRLHA_ROBE",
+          "ET202010_S002_WARDHEER_ADDISSTANDARD_REPRINT",
+          "ET202010_S004_VICE_ROBE"
+        ]
+      },
+      "attendance": {
+        "value": "unknown; one captured video segment described as a dozen young men; no total qualifying count",
+        "source_ids": [
+          "ET202010_S002_WARDHEER_ADDISSTANDARD_REPRINT",
+          "ET202010_S004_VICE_ROBE"
+        ]
+      },
+      "state_targeted_demand": {
+        "value": "release political prisoners including Hamza Borana; HRLHA also makes a direct appeal to Ethiopian government to respect assembly rights",
+        "source_ids": [
+          "ET202010_S001_HRLHA_ROBE",
+          "ET202010_S002_WARDHEER_ADDISSTANDARD_REPRINT"
+        ]
+      },
+      "inclusion_exclusion": {
+        "value": "Public protest is distinct from the planned NAMA protests later in October; no election rally or rebel armed action indicated.",
+        "source_ids": [
+          "ET202010_S001_HRLHA_ROBE",
+          "ET202010_S002_WARDHEER_ADDISSTANDARD_REPRINT",
+          "ET202010_S003_AMNESTY_NAMA_CANCELLED"
+        ]
+      },
+      "episode_onset_neighbor": {
+        "value": "Robe onset evidenced Oct11. Searches found no supported continuity to Nov pro-war rallies with different reported demands/group identity; related episode boundary not established beyond current coverage.",
+        "source_ids": [
+          "ET202010_S004_VICE_ROBE"
+        ]
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "decision_note": "Keep pending threshold. Accounts identify an executed gathering and domestic political demand, but do not establish 50 participants. WardheerNews credits Addis Standard and therefore is not independent corroboration from Addis Standard; HRLHA's underlying source is unnamed. No crowd count is transferred from unrelated events."
+  }
+]

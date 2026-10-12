@@ -1,0 +1,127 @@
+[
+  {
+    "gap_id": "BG202011_G001",
+    "type": "threshold",
+    "description": "Attendance is unreported for police rallies on November 8 and November 29. The union membership figure and geographic representation do not establish rally turnout.",
+    "source_ids": [
+      "S001",
+      "S006",
+      "S008"
+    ],
+    "affected_candidates": [
+      "BG202011_E001",
+      "BG202011_E003"
+    ],
+    "required_followup": "Find a contemporaneous attendee estimate for each Sofia rally."
+  },
+  {
+    "gap_id": "BG202011_G002",
+    "type": "threshold",
+    "description": "Transport/taxi assembly on November 25 and taxi action on November 26 are physically documented, but opened accounts provide no participant count for the transport group. An inaccessible BNT English open timed out; its search-only “hundreds” snippet is not used to establish eligibility.",
+    "source_ids": [
+      "S009",
+      "S011",
+      "S013",
+      "S015"
+    ],
+    "affected_candidates": [
+      "BG202011_E002"
+    ],
+    "required_followup": "Use a separate permitted contemporaneous report to establish attendee count for the taxi/carrier group and clarify whether the consecutive days form one event."
+  },
+  {
+    "gap_id": "BG202011_G003",
+    "type": "execution",
+    "description": "BNT describes a police-union demonstration and tent display planned on November 17, but the opened text does not confirm that the tent or qualifying public gathering occurred.",
+    "source_ids": [
+      "S005",
+      "S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search other permitted contemporaneous reports for execution; do not equate announcement with event."
+  },
+  {
+    "gap_id": "BG202011_G004",
+    "type": "threshold",
+    "description": "The separate anti-COVID-restrictions gathering on November 25 is described only as “tens”; this does not establish a minimum of 50. It physically overlapped with the taxi/carrier gathering later, but cannot be combined without evidence of shared participants.",
+    "source_ids": [
+      "S015"
+    ],
+    "affected_candidates": [
+      "BG202011_E004"
+    ],
+    "required_followup": "Seek a count specific to this anti-restrictions group."
+  },
+  {
+    "gap_id": "BG202011_G005",
+    "type": "threshold_and_state_target",
+    "description": "Varna conductor actions are evidenced in later December reports, but no protest-attendee count is available and it is unclear whether the demand concerned state policy or a municipal-transit employer’s electronic ticketing/layoffs.",
+    "source_ids": [
+      "S017",
+      "S019",
+      "S021"
+    ],
+    "affected_candidates": [
+      "BG202011_E005"
+    ],
+    "required_followup": "Find direct documentation of attendance, municipal ownership/policy responsibility and the demands directed to state or city authorities."
+  },
+  {
+    "gap_id": "BG202011_G006",
+    "type": "threshold",
+    "description": "Restaurant/chef workers’ November 27 public action in Varna is reported, but attendance is not quantified.",
+    "source_ids": [
+      "S021"
+    ],
+    "affected_candidates": [
+      "BG202011_E006"
+    ],
+    "required_followup": "Seek contemporaneous local attendance and organizer/demand confirmation."
+  },
+  {
+    "gap_id": "BG202011_G007",
+    "type": "source_access",
+    "description": "BTA exact-page open returned HTTP 429 Too Many Requests. This is a real target rate limit, separate from technical timeout failures; the affected request stopped with no retry or bypass.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use other permitted sources for the salary-policy context; do not repeat the BTA request."
+  },
+  {
+    "gap_id": "BG202011_G008",
+    "type": "continuity",
+    "description": "Anti-government campaign reporting describes activity since July and small groups continuing after organizers ended the prior large-protest format; the month’s physical size and episode boundaries are not established. Police pay rallies in October/November share demands but event/episode boundaries are unresolved.",
+    "source_ids": [
+      "S001",
+      "S006",
+      "S008"
+    ],
+    "affected_candidates": [
+      "BG202011_E001",
+      "BG202011_E003"
+    ],
+    "required_followup": "Check neighboring-month physical action reports and do not use elapsed campaign day or membership totals as event attendance."
+  },
+  {
+    "gap_id": "BG202011_G009",
+    "type": "coverage",
+    "description": "Ten recorded queries include four weekly Bulgarian windows, generic English/Bulgarian searches and targeted police, taxi/transport, Varna and regional follow-ups. Search coverage is bounded; no LexisNexis-equivalent archive or native result totals were available.",
+    "source_ids": [
+      "S001",
+      "S005",
+      "S009",
+      "S015",
+      "S021"
+    ],
+    "affected_candidates": [
+      "BG202011_E001",
+      "BG202011_E002",
+      "BG202011_E003",
+      "BG202011_E004",
+      "BG202011_E005",
+      "BG202011_E006"
+    ],
+    "required_followup": "An independent reviewer can identify any material feasible local/regional/sector follow-up still missing; absence of a query hit is not evidence no action occurred."
+  }
+]

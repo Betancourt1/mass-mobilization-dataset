@@ -1,0 +1,53 @@
+[
+  {
+    "gap_id": "KHM202012_G001",
+    "type": "pending_threshold",
+    "description": "Dec. 29 court gathering is documented but has no participant estimate.",
+    "source_ids": [
+      "KHM202012_S001",
+      "KHM202012_S002"
+    ],
+    "affected_candidates": [
+      "KHM202012_E002"
+    ],
+    "required_followup": "Seek permitted event-specific crowd estimate; keep pending_threshold if none."
+  },
+  {
+    "gap_id": "KHM202012_G002",
+    "type": "method_limit",
+    "description": "Open web only; full-month and separate Khmer/English/French provincial/sector queries were executed. Search output contained retrospective and out-of-window material but no new in-month event lead. LexisNexis remains outside access.",
+    "source_ids": [],
+    "affected_candidates": [
+      "KHM202012_E001",
+      "KHM202012_E002"
+    ],
+    "required_followup": "No specific unattempted material task identified; reviewer can request a targeted extension."
+  },
+  {
+    "gap_id": "KHM202012_G003",
+    "type": "pending_coverage",
+    "description": "Jan. 8 neighbor-month result is a later Friday Wives episode. Exact Jan. 22 hearing-day and group-specific queries were executed; no result established continuity of either December event.",
+    "source_ids": [
+      "KHM202012_S005"
+    ],
+    "affected_candidates": [
+      "KHM202012_E002"
+    ],
+    "required_followup": "Keep each dated action separate unless new event-specific continuity evidence appears."
+  },
+  {
+    "gap_id": "KHM202012_G004",
+    "type": "unresolved_fields",
+    "description": "Event end dates/times remain unsupported and are correctly unknown. Phnom Penh Post exact open returned Internal Error; the existing RFA report already supports event occurrence, and no retry was made.",
+    "source_ids": [
+      "KHM202012_S001",
+      "KHM202012_S003",
+      "KHM202012_S004"
+    ],
+    "affected_candidates": [
+      "KHM202012_E001",
+      "KHM202012_E002"
+    ],
+    "required_followup": "Retain unknown end values; no material source follow-up currently required."
+  }
+]

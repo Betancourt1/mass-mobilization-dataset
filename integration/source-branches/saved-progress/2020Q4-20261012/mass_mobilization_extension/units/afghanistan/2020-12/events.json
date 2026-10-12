@@ -1,0 +1,124 @@
+[
+  {
+    "candidate_id": "afghanistan_2020-12_E001",
+    "country": "Afghanistan",
+    "ccode": null,
+    "unit_month": "2020-12",
+    "title": "MoMP workers protest staffing reductions and demand reemployment",
+    "start_date": "2020-12",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Kabul, in front of the Ministry of Mines and Petroleum",
+    "scope": "Single reported ministry-site gathering; national scope not established",
+    "organizer": "Unknown; participants identified as dismissed MoMP employees",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "Madanyat: a quoted protester said 400–500 dismissed employees participated in the protest; Pajhwok English: ‘dozens’ of sacked workers gathered.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Madanyat body reports a protester's 400–500 participants estimate, but does not clarify whether this is a simultaneous crowd count at the tent. Pajhwok English only says ‘dozens’. Pending threshold review; the 1,209 figure refers to reported posts removed, not participants.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S002",
+      "S006"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Pajhwok dates an outdoor ministry protest to Dec 14. Madanyat says on Dec 14 that the protests had entered their fourth day, which implies an earlier start but does not state the exact first date. Start is conservatively recorded at month precision."
+      },
+      "end_date": {
+        "source_ids": [
+          "S002",
+          "S006"
+        ],
+        "summary": "Madanyat reports the protest continuing on Dec 14; the Jan 21 TOLOnews result refers to recent protests over staff firings but gives no date and cannot establish whether this event continued into January. No end date is reported."
+      },
+      "location": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Kabul, outside/in front of the Ministry of Mines and Petroleum."
+      },
+      "scope": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Reported gathering at one ministry location; no evidence of a national multi-location action."
+      },
+      "organizer": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Organizers are not identified; participants are dismissed ministry workers."
+      },
+      "state_target": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Demand asks the Afghan Ministry of Mines and Petroleum to reemploy staff and review its state-controlled staffing structure/reductions."
+      },
+      "demands": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Participants seek reemployment and reconsideration/restoration of MoMP staffing structure following post reductions."
+      },
+      "participants": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Madanyat quotes a protester estimating 400–500 dismissed employees participated in the protest. Pajhwok English describes those gathered qualitatively as ‘dozens’; preserve both reports and do not convert the qualitative wording into a numerical range."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "S002"
+        ],
+        "summary": "A protester quoted by Madanyat says 400–500 dismissed employees participated in the protest. The article does not state the number simultaneously present at the tent at a particular moment; keep the threshold judgment pending review."
+      },
+      "protester_violence": {
+        "source_ids": [],
+        "summary": "Unknown; neither opened article reports whether protesters used violence."
+      },
+      "state_response": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Articles report a ministry spokesperson's account of staff restructuring, but no meeting, negotiation, arrest, beating, dispersal, ignoring, killing or shooting. Response fields remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "candidate",
+    "episode_key": "afghanistan_momp_staff_reduction_protest_2020-12",
+    "notes": "One protest episode is indicated across Dec 14 reports. Madanyat says the protest had entered its fourth day on Dec 14, implying an approximate Dec 11 start only if counted inclusively; the exact first date is not explicit. Pajhwok's English account says a protest took place on Monday Dec 14. Preserve the month-level start and investigate whether an earlier phase began before this gathering and whether the crowd estimate describes people simultaneously present. Do not code the ministry spokesperson's explanation as accommodation. The assigned plan row contains no ccode field; ccode remains null pending coordinator mapping rather than using an inferred code.",
+    "open_questions": [
+      "Did 400–500 people attend the public gathering at once or is this a broader participating/affected group estimate?",
+      "What is the earliest date when at least 50 people gathered, and does ‘fourth day’ mean a Dec 11 start?",
+      "When did the sit-in end, and did it continue into January 2021?",
+      "Did authorities meet, negotiate, disperse, arrest or otherwise respond directly to the protesters?",
+      "Does TOLOnews’ later reference describe this same sit-in, and if so when did it end?"
+    ]
+  }
+]

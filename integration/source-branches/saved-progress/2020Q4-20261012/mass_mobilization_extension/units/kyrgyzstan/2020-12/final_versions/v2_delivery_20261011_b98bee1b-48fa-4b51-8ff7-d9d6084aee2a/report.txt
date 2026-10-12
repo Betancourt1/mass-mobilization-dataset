@@ -1,0 +1,20 @@
+Kyrgyzstan 2020-12; researcher delivery, pending independent review.
+Cutoff 2026-10-07 America/Mexico_City. Baseline pending. 2 query batches, 6 source cards, 6 candidates, 0 explicit exclusions. Query-result mapping is aggregate; native request timestamps not exposed.
+
+- KYR202012_C001 Bishkek protest against referendum 2020-12-06: pending_threshold; attendance unknown; Search lead only; exact URL returned 403 and attendance unknown
+- KYR202012_C002 Bishkek march against gender violence/judicial arbitrariness 2020-12-12: pending_threshold; attendance unknown; Judiciary and gender violence; article states count absent
+- KYR202012_C003 Bishkek counter-rally against rallies 2020-12-12: pending_threshold; attendance unknown; Search-only; 24.kg body returned Internal Error, count unknown
+- KYR202012_C004 Ak-Zhar protest over power cuts 2020-12-15: proposed_include; attendance several hundred (Kloop account of Kaktus feed); Residents demanded authorities resolve repeated outages; road blocked, tires burned
+- KYR202012_C005 Bishkek lawfulness march against referendum 2020-12-20: proposed_include; attendance slightly above 50; Peaceful, slightly above 50; opposed referendum on form of government
+- KYR202012_C006 Bishkek weekly lawfulness march 2020-12-27: pending_threshold; attendance unknown; Weekly series reached eight weeks; Dec 27 count absent. Body is Dec 27 though assessment label Dec 6 reflects photo-caption lead.
+
+Gaps:
+- KYR202012_001 Find another permitted source for Dec 6 rally; exact 24.kg target returned 403, no retry. Next step: New permitted local-language search or independent review, with exact URL assessment before any body open.
+- KYR202012_002 Resolve count/details for two Dec 12 gatherings; Current Time count absent and 24.kg returned Internal Error, no retry. Next step: New permitted local-language search or independent review, with exact URL assessment before any body open.
+- KYR202012_003 Find count for Dec 27 march. Next step: New permitted local-language search or independent review, with exact URL assessment before any body open.
+- KYR202012_004 Search remaining Dec weeks, regions, sectors; current evidence concentrated in Bishkek/Ak-Zhar. Next step: New permitted local-language search or independent review, with exact URL assessment before any body open.
+- KYR202012_005 Resolve Dec 27 assessment filename/date mismatch additively. Next step: New permitted local-language search or independent review, with exact URL assessment before any body open.
+
+Candidates are unverified and unaccepted. A Dec 6 exact 24.kg request returned HTTP 403; a Dec 12 exact 24.kg request returned Internal Error; neither was retried. Dec 27 article body is for Dec 27 despite original assessment filename based on a Dec 6 photo-caption lead. No complete coverage or event absence is claimed.
+
+Additive v2 correction: access statuses and body scopes for direct-outcome captures were recalculated from preserved capture payloads. Dec 7 exact 24.kg request is blocked (HTTP 403); Dec 12 exact 24.kg request is blocked (Internal Error); no retry. Other successful opens remain opened. v1 is preserved byte-for-byte.

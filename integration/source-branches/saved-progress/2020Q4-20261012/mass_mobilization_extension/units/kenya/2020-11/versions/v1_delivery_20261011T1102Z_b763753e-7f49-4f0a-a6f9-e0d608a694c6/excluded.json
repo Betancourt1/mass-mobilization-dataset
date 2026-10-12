@@ -1,0 +1,42 @@
+[
+  {
+    "candidate_id": "kenya_2020-11-X001",
+    "title": "Nairobi health-worker work stoppage/strike reported 2 Nov",
+    "source_ids": [
+      "KEN202011_STAR_HEALTH_STRIKE"
+    ],
+    "reason": "The opened report primarily documents a labor strike and does not describe an independently dated, sized executed public gathering. “On the streets” is insufficient to code an assembly.",
+    "eligibility": "excluded_strike_only_pending_distinct_gathering_evidence",
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "KEN202011_STAR_HEALTH_STRIKE"
+        ],
+        "summary": "Work stoppage confirmed; separate assembly not described with particulars."
+      }
+    }
+  },
+  {
+    "candidate_id": "kenya_2020-11-X002",
+    "title": "Mai Mahiu sand-harvester demonstration over Kedong Ranch fees",
+    "source_ids": [
+      "KEN202011_CIVICUS_MAI_MAHIU"
+    ],
+    "reason": "CIVICUS reports a two-day demonstration and casualties beginning 10 Nov, but attributed grievance concerns fees charged by private Kedong Ranch, not a domestic state policy/target; participant threshold also absent. Not eligible on current evidence.",
+    "eligibility": "excluded_private_target_and_pending_threshold",
+    "field_evidence": {
+      "target": {
+        "source_ids": [
+          "KEN202011_CIVICUS_MAI_MAHIU"
+        ],
+        "summary": "Private ranch owners reportedly charged sand harvesting fees; no state-directed demand evidenced."
+      },
+      "participants": {
+        "source_ids": [
+          "KEN202011_CIVICUS_MAI_MAHIU"
+        ],
+        "summary": "No attendance count."
+      }
+    }
+  }
+]

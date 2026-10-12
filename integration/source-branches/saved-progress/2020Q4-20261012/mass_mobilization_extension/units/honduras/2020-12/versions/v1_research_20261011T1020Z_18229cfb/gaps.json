@@ -1,0 +1,36 @@
+[
+  {
+    "gap_id": "HND202012_G001",
+    "kind": "candidate_eligibility",
+    "candidate_ids": [
+      "HND202012_E001"
+    ],
+    "dimensions": [
+      "participants",
+      "location",
+      "episode_ownership"
+    ],
+    "evidence": [
+      "HND202012_S001"
+    ],
+    "reason": "Criterio reports hundreds across several route segments but gives no per-site count; prior transport strike history is mentioned without establishing continuity.",
+    "next_permitted_action": "Search Spanish city/local transport and municipal reporting for Dec. 16 route-by-route counts and check late-November/January transport actions for continuity; do not pool separate route gatherings.",
+    "material": true
+  },
+  {
+    "gap_id": "HND202012_G002",
+    "kind": "coverage",
+    "candidate_ids": [],
+    "dimensions": [
+      "regional",
+      "sector",
+      "continuity"
+    ],
+    "evidence": [
+      "HND202012_Q001-HND202012_Q007"
+    ],
+    "reason": "Spanish broad, date-window, transport and public-health searches were run, but further regional/local searches and episode checks remain feasible. Health-worker/Choloma search lead has publication/body date unresolved.",
+    "next_permitted_action": "Search local outlets for dated protests by public health workers, public workers, transporters and storm-affected residents during Dec. 1-31; establish date/site and target before coding. Check adjacent-month continuity for candidates found.",
+    "material": true
+  }
+]

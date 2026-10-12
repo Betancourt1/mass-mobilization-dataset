@@ -1,0 +1,68 @@
+[
+  {
+    "gap_id": "CZ202012_G001",
+    "type": "coverage",
+    "description": "12 captured queries cover English/Czech weekly windows, Prague/region/sector topics, 6 and 20 December follow-ups and January continuity. Dec31 page opened before required local assessment; body claims excluded. Lidovky 6 Dec attempted body open returned HTTP 400 Unicode error with no retry. Versioned identity check resolves the Týdeník Policie capture alias: exact URL and S006 receipt match source card S006, not S001 (Novinky). Capture remains paraphrase metadata, not full body.",
+    "source_ids": [
+      "S001",
+      "S006",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "CZ202012_E001",
+      "CZ202012_E002",
+      "CZ202012_E003",
+      "CZ202012_E004"
+    ],
+    "required_followup": "Do not use Dec31 accidental body. Any new target gets exact local assessment first; do not retry failed Lidovky Dec6 URL."
+  },
+  {
+    "gap_id": "CZ202012_G002",
+    "type": "threshold",
+    "description": "Palacký actual headcount is unknown; bus count may refer to businesses/operators; Dec22 “dozens” is search-only; Dec31 body is unusable.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "CZ202012_E002",
+      "CZ202012_E003",
+      "CZ202012_E004"
+    ],
+    "required_followup": "Seek permitted site-specific counts for Palacký and individual participants at Letňany; retain Dec22/31 as pending without clean evidence."
+  },
+  {
+    "gap_id": "CZ202012_G003",
+    "type": "episode_ownership",
+    "description": "Wenceslas and Palacký were distinct initial gatherings on 6 December before a combined march. Dec20 bus event and Dec22/31 leads are separate dates; links with October/November campaign not resolved.",
+    "source_ids": [
+      "S001",
+      "S006",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "CZ202012_E001",
+      "CZ202012_E002",
+      "CZ202012_E003",
+      "CZ202012_E004"
+    ],
+    "required_followup": "Check adjacent November/January reports for onset/continuity while preserving initial-site counts."
+  },
+  {
+    "gap_id": "CZ202012_G004",
+    "type": "source_access",
+    "description": "The exact Lidovky 6 December open failed with tool HTTP 400 Unicode decoding error; no denial observed and no retry. It also lacked a saved pre-open receipt. The only Lidovky receipt on file is for a different Dec22 URL and is not applicable. Separate from the Týdeník Policie identity correction: its capture URL and S006 receipt match; this does not authorize retrying the failed Lidovky Dec6 target.",
+    "source_ids": [
+      "S007",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry the exact Dec6 URL. Use permitted Novinky/ČTK and Týdeník Policie reports for Wenceslas facts."
+  }
+]

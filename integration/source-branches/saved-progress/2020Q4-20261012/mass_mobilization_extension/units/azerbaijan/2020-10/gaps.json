@@ -1,0 +1,101 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "The open web searches and five substantive body reads did not establish any October 2020 gathering in Azerbaijan with both an evidenced crowd of at least 50 and a concrete demand directed at Azerbaijan’s own state or policy. This is a research result, not evidence that no such event occurred.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "AZE2020-10-X001"
+    ],
+    "required_followup": "Independent local, regional and international reporting or systematic newspaper/archive searches."
+  },
+  {
+    "gap_id": "G002",
+    "type": "capture_loss",
+    "description": "Twelve of 40 submitted queries were not captured with their actual result headers: Q001–Q004 and Q021–Q028. Their query strings are retained; logs have empty returned_results/returned_urls with output_status=lost. Those arrays mean unknown output, not zero results.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Rerun only if needed in a future authorized session, capturing the actual outputs promptly."
+  },
+  {
+    "gap_id": "G003",
+    "type": "search_method",
+    "description": "Managed public web search is not LexisNexis All News or a systematic newspaper search; query date windows are not guaranteed to be honored. Search returns repeatedly surfaced October 2019 Baku demonstrations and July 2020 rallies. Regional/local outlet coverage and result-ranking limitations remain.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Systematic contemporaneous newspaper/archive searches and source-level date review."
+  },
+  {
+    "gap_id": "G004",
+    "type": "access",
+    "description": "The exact Oxu.az article body could not be opened: managed open returned Internal Error and URL inaccessible. This is recorded as a technical failure, not a denial; it remains search_only and was not retried.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "AZE2020-10-X001"
+    ],
+    "required_followup": "If future work needs its details, use a fresh access check and only ordinary public retrieval."
+  },
+  {
+    "gap_id": "G005",
+    "type": "threshold",
+    "description": "The 6 October Azneft Square support action report gives no attendance estimate. It is excluded because no own-state demand is reported; the threshold remains unknown.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "AZE2020-10-X001"
+    ],
+    "required_followup": "Reassess only if a source establishes a distinct concrete demand to Azerbaijan’s government/policy and simultaneous attendance."
+  },
+  {
+    "gap_id": "G006",
+    "type": "exclusion_evidence",
+    "description": "Searches found support rallies and protests outside Azerbaijan, including Iran and German diaspora events. These are not observations for Azerbaijan’s unit. Some other foreign/embassy-related results remained search-only and were not coded as candidates.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "AZE2020-10-X002",
+      "AZE2020-10-X003",
+      "AZE2020-10-X004"
+    ],
+    "required_followup": "None for Azerbaijan ownership; refer to country-specific research only under its separate assignment."
+  },
+  {
+    "gap_id": "G007",
+    "type": "false_lead",
+    "description": "A 31 October Reddit post claimed Russian residents staged a mass rally but was tagged HUMOR and used a meme; the opened post supplied no evidence of a real gathering. It is retained as a false lead, not an event.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "None unless contemporaneous independent evidence of an actual gathering appears."
+  },
+  {
+    "gap_id": "G008",
+    "type": "continuity",
+    "description": "No October-starting eligible protest episode was established, so no continuation was coded. Searches into 1–7 November returned mainly unrelated 2019 material and did not establish an October event continuing into November.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Recheck neighboring-month local reporting if a qualifying October start is later discovered."
+  },
+  {
+    "gap_id": "G009",
+    "type": "baseline",
+    "description": "The official baseline, schema, ccode mapping and country code remain unverified; ccode was therefore not assigned.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator baseline review."
+  }
+]

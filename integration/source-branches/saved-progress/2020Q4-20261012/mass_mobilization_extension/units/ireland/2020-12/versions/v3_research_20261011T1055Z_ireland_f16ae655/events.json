@@ -1,0 +1,127 @@
+[
+  {
+    "candidate_id": "IRL202012_E001",
+    "country": "Ireland",
+    "unit_month": "2020-12",
+    "title": "Demonstration after fatal Garda shooting of George Nkencho",
+    "start_date": "2020-12-31",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside Blanchardstown Garda Station, Dublin",
+    "source_ids": [
+      "irl_irishtimes_nkencho_dec31",
+      "irl_q102_nkencho_dec31",
+      "irl_lmfm_nkencho_dec31"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "irl_irishtimes_nkencho_dec31",
+          "irl_q102_nkencho_dec31",
+          "irl_lmfm_nkencho_dec31"
+        ],
+        "summary": "Three accessible reports identify the Dec31 gathering."
+      },
+      "attendance_threshold": {
+        "source_ids": [
+          "irl_irishtimes_nkencho_dec31",
+          "irl_q102_nkencho_dec31",
+          "irl_lmfm_nkencho_dec31"
+        ],
+        "summary": "Irish Times estimates around 200; Q102 and LMFM report over 100."
+      },
+      "state_target": {
+        "source_ids": [
+          "irl_q102_nkencho_dec31",
+          "irl_lmfm_nkencho_dec31"
+        ],
+        "summary": "Calls for arrest of shooting officer and regular GSOC investigation updates; Irish Times reports justice/transparency and suspension calls."
+      },
+      "trigger": {
+        "source_ids": [
+          "irl_irishtimes_nkencho_dec31"
+        ],
+        "summary": "The fatal shooting was by members of the Garda Armed Support Unit on Dec30; it preceded the demonstration."
+      },
+      "end_and_continuity": {
+        "source_ids": [
+          "irl_irishtimes_nkencho_dec31"
+        ],
+        "summary": "Article says attendees committed to continuing protest outside station for next 14 days; this gathering’s own ending and January follow-up unverified."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "demands": [
+      "police_brutality"
+    ],
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    }
+  },
+  {
+    "candidate_id": "IRL202012_E002",
+    "country": "Ireland",
+    "unit_month": "2020-12",
+    "title": "Anti-mask / anti-restrictions protest on Cork Grand Parade",
+    "start_date": "2020-12-12",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Grand Parade to RTÉ Cork offices / Taoiseach constituency office, Cork",
+    "source_ids": [
+      "irl_irishexaminer_cork_dec12_followup",
+      "irl_rte_cork_dec12_followup"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "irl_irishexaminer_cork_dec12_followup"
+        ],
+        "summary": "Later court report records Garda testimony that protest took place Dec12."
+      },
+      "attendance_threshold": {
+        "source_ids": [
+          "irl_irishexaminer_cork_dec12_followup",
+          "irl_rte_cork_dec12_followup"
+        ],
+        "summary": "No count in accessible Irish Examiner report; RTÉ exact page 403."
+      },
+      "state_target": {
+        "source_ids": [
+          "irl_irishexaminer_cork_dec12_followup"
+        ],
+        "summary": "Anti-mask speakers called Covid a hoax and alleged RTÉ relayed government lies; route included Taoiseach office, but crowd demand framing needs contemporaneous corroboration."
+      },
+      "source_temporality": {
+        "source_ids": [
+          "irl_irishexaminer_cork_dec12_followup"
+        ],
+        "summary": "Evidence is a 2022 court report, not contemporaneous 2020 coverage."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "demands": [
+      "social_restrictions"
+    ],
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "gap_id": "canada_2020-10_G001",
+    "type": "coverage",
+    "description": "Open-web searches included monthly Canada terms, French terms for Quebec, Montreal, Toronto, and several targeted weeks, but October 8–14 and the final week were not resolved by dedicated, effective date-bounded searches. Search operators may not have honored date windows.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [
+      "canada_2020-10_E002",
+      "canada_2020-10_E003"
+    ],
+    "required_followup": "Run targeted English/French date-window searches for 8–14 and 22–31 October across additional provinces and local outlets."
+  },
+  {
+    "gap_id": "canada_2020-10_G002",
+    "type": "coverage",
+    "description": "Regional coverage is concentrated in Montreal and Toronto/Ontario. No systematic local reporting sweep was completed for Atlantic Canada, the Prairies, northern territories, or most BC cities.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search province/city local sources and sector groups; current findings do not support any completeness claim."
+  },
+  {
+    "gap_id": "canada_2020-10_G003",
+    "type": "threshold",
+    "description": "The 21 October Queen’s Park gathering occurred and opposed Ontario measures, but CityNews describes its crowd only as relatively small, leaving the simultaneous 50-person threshold unresolved.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "canada_2020-10_E003"
+    ],
+    "required_followup": "Find a permitted contemporaneous attendance estimate; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "canada_2020-10_G004",
+    "type": "execution",
+    "description": "A 21 October media advisory announced hospitality-worker actions on 22 October in Toronto, Ottawa and Vancouver seeking government prioritization in bailouts; actual gatherings and attendance were not verified.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search post-event regional reporting or union releases; announcement alone is not event evidence."
+  },
+  {
+    "gap_id": "canada_2020-10_G005",
+    "type": "continuity",
+    "description": "CityNews says the 17 October Toronto demonstration followed similar recent rallies; another query surfaced a 26 September Toronto event. These are dated actions, not evidence of uninterrupted protest. January boundary and fuller October sequence were not resolved.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "canada_2020-10_E002"
+    ],
+    "required_followup": "Check late September and November/January reporting to resolve campaign versus discrete-event scope."
+  },
+  {
+    "gap_id": "canada_2020-10_G006",
+    "type": "archive_access",
+    "description": "Only public open-web searching was used; no LexisNexis-equivalent archive or comprehensive local press corpus was available in this work.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain as a method limitation; do not infer no other events occurred."
+  }
+]

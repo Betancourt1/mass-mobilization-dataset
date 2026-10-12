@@ -1,0 +1,90 @@
+[
+  {
+    "candidate_id": "FIN202012_E001",
+    "country": "Finland",
+    "ccode": null,
+    "unit_month": "2020-12",
+    "title": "Helsinki demonstration against COVID-19 gathering restrictions at Kansalaistori",
+    "start_date": "2020-12-12",
+    "start_precision": "day",
+    "end_date": "2020-12-12",
+    "end_precision": "day",
+    "location": "Kansalaistori, Helsinki",
+    "scope": "local",
+    "organizer": "not identified in the accessed report",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Police and a Lehtikuva photographer estimated about 50 participants. After a dispersal order, about ten remained. The estimate is approximate and at the threshold.",
+    "participants_min": 50,
+    "participants_max": null,
+    "threshold_50_evidence": "STT report relays police and Lehtikuva photographer estimate of about 50 at the gathering; an approximate single-source estimate exactly at threshold.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "FIN202012_S003"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "FIN202012_S003"
+        ],
+        "summary": "STT report published 12 December 2020 at 17:45 says police intervened that afternoon."
+      },
+      "end_date": {
+        "source_ids": [
+          "FIN202012_S003"
+        ],
+        "summary": "Police order dispersed most of the group; about ten remained and the demonstration ended."
+      },
+      "location": {
+        "source_ids": [
+          "FIN202012_S003"
+        ],
+        "summary": "Helsinki Kansalaistori."
+      },
+      "demands": {
+        "source_ids": [
+          "FIN202012_S003"
+        ],
+        "summary": "Demonstrators opposed gathering restrictions imposed in response to coronavirus; these were domestic public-event restrictions."
+      },
+      "participants": {
+        "source_ids": [
+          "FIN202012_S003"
+        ],
+        "summary": "Police and Lehtikuva photographer estimate about 50; about ten remained after the dispersal order. Approximate count retained as reported."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "FIN202012_S003"
+        ],
+        "summary": "The one accessed STT report says police and a Lehtikuva photographer estimated about 50 at the protest. Borderline and not independently corroborated."
+      },
+      "state_target": {
+        "source_ids": [
+          "FIN202012_S003"
+        ],
+        "summary": "The demonstration protested domestic public-assembly restrictions; Helsinki police enforced a Southern Finland AVI cap on public events/meetings."
+      },
+      "state_response": {
+        "source_ids": [
+          "FIN202012_S003"
+        ],
+        "summary": "Police issued a dispersal order; the gathering ended after most participants left."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "FIN202012_E001",
+    "notes": "Single report with approximate turnout exactly at minimum. Not accepted; reviewer should assess threshold. Do not merge with planned Dec 31 listing or other anti-restriction actions."
+  }
+]

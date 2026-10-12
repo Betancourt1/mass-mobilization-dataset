@@ -1,0 +1,49 @@
+[
+  {
+    "gap_id": "burkina_faso_2020-10-G001",
+    "type": "threshold",
+    "description": "Housing march count is qualitative/approximate across sources; only NetAfrique explicitly says hundreds.",
+    "source_ids": [
+      "BFA202010_S001",
+      "BFA202010_S006"
+    ],
+    "affected_candidates": [
+      "BFA202010_E001"
+    ],
+    "required_followup": "Review source wording; seek contemporaneous independent attendance estimate if available."
+  },
+  {
+    "gap_id": "burkina_faso_2020-10-G002",
+    "type": "occurrence_and_threshold",
+    "description": "Truck action has conflicting reports: suspension after about half a day versus Bobo road blockage through 18 October. No people count or clear evidence of a 50-person gathering.",
+    "source_ids": [
+      "BFA202010_S003",
+      "BFA202010_S004",
+      "BFA202010_S005"
+    ],
+    "affected_candidates": [
+      "BFA202010_E002"
+    ],
+    "required_followup": "Seek a contemporaneous Bobo source on actual gathering/participants; do not infer people from trucks or strike workforce."
+  },
+  {
+    "gap_id": "burkina_faso_2020-10-G003",
+    "type": "threshold",
+    "description": "31 October CDAIP meeting has no attendance count.",
+    "source_ids": [
+      "BFA202010_S007"
+    ],
+    "affected_candidates": [
+      "BFA202010_E003"
+    ],
+    "required_followup": "Seek same-event attendance/source documentation."
+  },
+  {
+    "gap_id": "burkina_faso_2020-10-G004",
+    "type": "search_coverage",
+    "description": "Discovery used French and English broad, weekly and candidate-follow-up searches across Ouagadougou/Bobo plus labor, education, housing, land, transport and civic/political topics; indexing/date operators produced false positives. This is not exhaustive and does not substitute for LexisNexis or systematic archives.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with feasible local/outlet/archive searches; document actual date windows, source coverage and remaining geographic/sector gaps; LexisNexis is not a universal gate."
+  }
+]

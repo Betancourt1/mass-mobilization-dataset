@@ -1,0 +1,150 @@
+[
+  {
+    "gap_id": "AT202012_G001",
+    "type": "threshold",
+    "description": "Vienna Rossauer Lände demonstration on 15 Dec: police count of 23 describes people blocking the detention center, but total attendance is unstated; eligibility remains pending threshold.",
+    "source_ids": [
+      "AT202012_S005"
+    ],
+    "affected_candidates": [
+      "AT202012_E002"
+    ],
+    "required_followup": "Search additional contemporary reporting and organizer records for the total simultaneous public gathering; do not infer below-threshold from 23 blockaders."
+  },
+  {
+    "gap_id": "AT202012_G002",
+    "type": "coverage",
+    "description": "The assigned late-month material discovery task for 22–31 December was carried out in the new version: 13 captured German/English searches covered weekly windows, all Austrian regions, union/student/climate/asylum/official/civil-society dimensions and follow-up around surfaced late-month events. This is a bounded search result, not an exhaustive archive or absence finding.",
+    "source_ids": [
+      "AT202012_S017",
+      "AT202012_S018",
+      "AT202012_S019",
+      "AT202012_S020",
+      "AT202012_S021",
+      "AT202012_S022",
+      "AT202012_S023",
+      "AT202012_S024"
+    ],
+    "affected_candidates": [
+      "AT202012_E008",
+      "AT202012_E009"
+    ],
+    "required_followup": "Reviewer should assess the documented late-month scope and limits. Where a source is selective or unavailable, retain the stated limitation; no claim that no other protest occurred.",
+    "resolution_state": "bounded_late_month_pass_completed_pending_review",
+    "queries_completed": [
+      "AT202012_Q016",
+      "AT202012_Q017",
+      "AT202012_Q018",
+      "AT202012_Q019",
+      "AT202012_Q020",
+      "AT202012_Q021",
+      "AT202012_Q022",
+      "AT202012_Q023",
+      "AT202012_Q024",
+      "AT202012_Q025",
+      "AT202012_Q026",
+      "AT202012_Q027",
+      "AT202012_Q028"
+    ]
+  },
+  {
+    "gap_id": "AT202012_G003",
+    "type": "baseline_mapping",
+    "description": "No verified official Polity ccode mapping is present in the unit plan, so candidate ccode values remain null.",
+    "source_ids": [],
+    "affected_candidates": [
+      "AT202012_E001",
+      "AT202012_E002",
+      "AT202012_E003",
+      "AT202012_E004"
+    ],
+    "required_followup": "Coordinator to verify against official baseline before assigning any ccode."
+  },
+  {
+    "gap_id": "AT202012_G004",
+    "type": "state_response",
+    "description": "For several candidates there is no opened evidence establishing government accommodation, arrests, beatings, killings, shootings, or police inaction; fields remain unknown.",
+    "source_ids": [],
+    "affected_candidates": [
+      "AT202012_E001",
+      "AT202012_E002",
+      "AT202012_E003",
+      "AT202012_E004"
+    ],
+    "required_followup": "Search follow-up reporting for each event; unknown is not absence."
+  },
+  {
+    "gap_id": "AT202012_G005",
+    "type": "state_target",
+    "description": "Vienna FightFor1Point5 action on 11 Dec has a documented Paris 1.5°C demand and a physical local gathering, but the direct Austrian state/policy target remains unclear.",
+    "source_ids": [
+      "AT202012_S010",
+      "AT202012_S014"
+    ],
+    "affected_candidates": [
+      "AT202012_E006"
+    ],
+    "required_followup": "Look for organizer or contemporaneous sources that name Austrian federal/city policy or decisionmakers; otherwise retain pending_state_target."
+  },
+  {
+    "gap_id": "AT202012_G006",
+    "type": "threshold",
+    "description": "Akin chronology reports a separate march to the Interior Ministry at around 17:00 on 15 Dec after the PAZ blockade, but gives no participant count.",
+    "source_ids": [
+      "AT202012_S010"
+    ],
+    "affected_candidates": [
+      "AT202012_E007"
+    ],
+    "required_followup": "Search contemporaneous reports or organizer material for actual count and whether it was distinct from the blockade."
+  },
+  {
+    "gap_id": "AT202012_G007",
+    "type": "event_evidence",
+    "description": "The 10 Dec Vienna deportation protest is described as completed by a contemporaneous Akin chronology and separately announced by organizers; independent press confirmation remains unverified.",
+    "source_ids": [
+      "AT202012_S008",
+      "AT202012_S010",
+      "AT202012_S011"
+    ],
+    "affected_candidates": [
+      "AT202012_E005"
+    ],
+    "required_followup": "Open organizer announcement and seek independent contemporary coverage; record access status and limitations."
+  },
+  {
+    "gap_id": "AT202012_G008",
+    "type": "threshold",
+    "description": "An official search-result excerpt and a separately hosted German copy of the Volksanwaltschaft report confirm a second basic-rights demonstration at Residenzplatz in Salzburg at the end of December 2020. The German body describes calm/restraint and orderly conduct, but exact date, attendance, organizer and specific state-policy target remain unstated.",
+    "source_ids": [
+      "AT202012_S015",
+      "AT202012_S017"
+    ],
+    "affected_candidates": [
+      "AT202012_E008"
+    ],
+    "required_followup": "Seek a distinct permitted organizer or contemporaneous source only if needed to resolve day, attendance, organizer or target; retain pending_threshold until at least 50 attendees and exact date are supported. Do not retry the inaccessible English exact URL S015.",
+    "resolution_state": "partially_resolved_by_opened_german_copy"
+  },
+  {
+    "gap_id": "AT202012_G009",
+    "type": "provenance",
+    "description": "The formal search inventory contains 15 query-response records with aligned returned URL headers. A small set of earlier exploratory web searches was not durably captured per-query and its merged results are not attributed or relied upon; the formal query count excludes those unarchived exploratory calls.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "For future batches, capture each search response before issuing another query; do not reconstruct results or treat missing exploratory records as zero-results."
+  },
+  {
+    "gap_id": "AT202012_G010",
+    "type": "event_evidence",
+    "description": "A 31 December Vienna report about opposition to deportations to Chechnya is surfaced only in a managed-search snippet. The exact URL open returned an inaccessible-via-tool error; the snippet reports about 20 people, but does not provide sufficient body evidence to verify event details or eligibility.",
+    "source_ids": [
+      "AT202012_S018"
+    ],
+    "affected_candidates": [
+      "AT202012_E009"
+    ],
+    "required_followup": "If a distinct permitted source or organizer/official record is surfaced, assess that exact target locally and use an ordinary initial open only if no applicable restriction or hold exists. Do not retry the same exact inaccessible URL absent changed conditions; retain pending_evidence and unknown threshold meanwhile.",
+    "resolution_state": "pending_material_source"
+  }
+]

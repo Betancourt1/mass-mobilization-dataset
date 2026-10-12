@@ -1,0 +1,17 @@
+Albania, December 2020 — open-web research handoff
+
+Coverage and method
+I captured 14 actual search responses (419 displayed result headers) in search_log.jsonl. Queries covered English and Albanian generic protest terms, weekly windows, sector/labor terms, named episodes, localities/regions, and January 2021 continuity. The searches are a documented open-web first pass, not a LexisNexis-equivalent archive search or exhaustive event census. Snippets were used for discovery only. Relevant URLs are listed in sources.jsonl whether opened or not.
+
+There are 14 source cards: 8 opened, 5 search_only, and 1 not_found. The five search-only cards include three AP-origin items retained under an unresolved hold, Citizens.al after a web-tool Internal Error, and a Shqiptarja result whose exact-URL access check deferred; no body was requested for the latter. One requested PDF issue redirected to an unrelated current homepage. These failures are not treated as evidence that no event occurred. No AP, HRW, NewArab, Facebook or L’Orient bodies/variants were accessed. Opened Euronews stories were reviewed for byline and textual-origin cues; no restricted AP/Reuters/AFP written origin was identified.
+
+Candidate events
+ALB202012_E001: Tirana demonstrations following Klodian Rasha’s fatal police shooting began Dec 9. Euronews Albania’s Dec 10 report says hundreds rallied on Dec 9, establishing the >=50 threshold. RFE/RL describes “several dozen” clashing that day; the scope may be the subset involved in clashes rather than all attendees and remains a count discrepancy. Reports describe demands for ministerial resignation/accountability and police reform, plus clashes, property damage, arrests, tear gas and water cannon. The prior killing of Rasha is not coded as a protest-time killing. Rubber bullets appear in a Euronews headline, but the opened body does not substantiate fired projectiles; shootings remains unknown. The interior minister’s later resignation is coded as accommodation with review pending. No end date is assigned.
+
+ALB202012_E002: a distinct local Shkodër gathering on Dec 19 seeking justice for Rasha and the police director’s resignation. Euronews says it lasted about 30 minutes and had “low presence,” with no count. It is kept pending_threshold. A separate prior-week march is recalled as turning violent and damaging a Socialist Party branch, but has no count and is not merged into this event.
+
+Exclusion and continuity
+ALB202012_X001: Reporter.al/BIRN reports a Dec 1 local anti-Skavica hydropower gathering in Dibër with a police estimate of about 40, below threshold. No continuation beginning before December was verified. Ballsh oil strike continuity remains a lead only, with no December evidence. January searches did not confirm continuation or closure; no continuation is recorded, and this absence of surfaced follow-up is not a zero-event finding.
+
+Review gaps
+See gaps.json for archive limits, event threshold/identity, retrieval and access-review defer, held AP results, regional coverage, and endpoint follow-up. Current body scope is limited to the eight opened source cards and paraphrases in the dossier; full article text was not saved. Status remains researched_open_web_pending_review with baseline_gate pending_official_baseline.

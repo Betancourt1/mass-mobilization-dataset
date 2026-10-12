@@ -1,0 +1,131 @@
+[
+  {
+    "candidate_id": "IC202010_E001",
+    "country": "Ivory Coast",
+    "unit_month": "2020-10",
+    "title": "Opposition rally against President Ouattara’s third-term bid, Abidjan stadium",
+    "start_date": "2020-10-10",
+    "start_precision": "day",
+    "end_date": "2020-10-10",
+    "end_precision": "day",
+    "location": "stadium, Abidjan; exact venue name not resolved in retained pages",
+    "scope": "local",
+    "organizer": "opposition parties / coalition (exact organizing body unresolved)",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Al Jazeera estimates about 20,000 by early afternoon; Euronews reports about 30,000. These are separate source estimates for the same rally, not additive.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Both opened reports describe a stadium rally and give estimates in the tens of thousands, comfortably above 50; figures remain source-specific.",
+    "crowd_size": null,
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "IC202010_S036",
+      "IC202010_S037"
+    ],
+    "field_evidence": {
+      "occurrence_and_date": {
+        "value": "Both pages describe opposition rally in Abidjan on 10 October 2020.",
+        "source_ids": [
+          "IC202010_S036",
+          "IC202010_S037"
+        ]
+      },
+      "attendance": {
+        "value": "Al Jazeera ~20,000 by early afternoon; Euronews ~30,000; distinct estimates, not summed.",
+        "source_ids": [
+          "IC202010_S036",
+          "IC202010_S037"
+        ]
+      },
+      "demand": {
+        "value": "Opposition rally against incumbent’s third-term bid; Euronews reports requests concerning the constitutional council and electoral commission.",
+        "source_ids": [
+          "IC202010_S036",
+          "IC202010_S037"
+        ]
+      },
+      "state_response": {
+        "value": "No action by state directed at this rally verified; broader violence in surrounding weeks is not attributed to it.",
+        "source_ids": [
+          "IC202010_S036",
+          "IC202010_S037"
+        ]
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review"
+  },
+  {
+    "candidate_id": "IC202010_E002",
+    "country": "Ivory Coast",
+    "unit_month": "2020-10",
+    "title": "INFAS health-training students demonstrate over scholarship arrears and LMD implementation, Bouaké",
+    "start_date": "2020-10-13",
+    "start_precision": "day",
+    "end_date": "2020-10-13",
+    "end_precision": "day",
+    "location": "outside CHU de Bouaké / INFAS Bouaké; KOACI also mentions classmates in Daloa and other towns, without distinct dates or counts",
+    "scope": "local",
+    "organizer": "INFAS students, organizer not further identified",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No attendee count in opened KOACI body; threshold unresolved. Other towns are not aggregated.",
+    "crowd_size": null,
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "IC202010_S040"
+    ],
+    "field_evidence": {
+      "occurrence_and_date": {
+        "value": "KOACI reports student manifestations beginning in Bouaké on 13 October; other towns not separable.",
+        "source_ids": [
+          "IC202010_S040"
+        ]
+      },
+      "demand": {
+        "value": "Ten months scholarship arrears, internship stipend, LMD qualification system.",
+        "source_ids": [
+          "IC202010_S040"
+        ]
+      },
+      "attendance": {
+        "value": "No numerical attendance estimate.",
+        "source_ids": [
+          "IC202010_S040"
+        ]
+      },
+      "state_response": {
+        "value": "Tear gas dispersion and more than ten student detentions reported; attribution beyond KOACI uncorroborated.",
+        "source_ids": [
+          "IC202010_S040"
+        ]
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "candidate"
+  }
+]

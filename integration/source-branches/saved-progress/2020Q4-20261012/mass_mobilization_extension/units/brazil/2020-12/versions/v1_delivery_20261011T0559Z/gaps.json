@@ -1,0 +1,60 @@
+[
+  {
+    "gap_id": "BRA202012_G001",
+    "type": "threshold",
+    "description": "Jornal Correio reports 60 vehicles at the Salvador motorcade but no person count. São Paulo demonstration has no attendance estimate.",
+    "source_ids": [
+      "BRA202012_S001",
+      "BRA202012_S002"
+    ],
+    "affected_candidates": [
+      "BRA202012_E001",
+      "BRA202012_E002"
+    ],
+    "required_followup": "Reviewer assess whether 60 vehicles establish ≥50 people; seek event-specific headcount for Salvador and São Paulo."
+  },
+  {
+    "gap_id": "BRA202012_G002",
+    "type": "threshold",
+    "description": "Rio de Paz symbolic action occurred and targeted federal emergency aid, but source gives no crowd size.",
+    "source_ids": [
+      "BRA202012_S003"
+    ],
+    "affected_candidates": [
+      "BRA202012_E003"
+    ],
+    "required_followup": "Find trustworthy contemporary count; do not infer crowd from installation props."
+  },
+  {
+    "gap_id": "BRA202012_G003",
+    "type": "coverage",
+    "description": "Four managed search actions covered 15 PT/EN query strings across generic, regional/sector, Dec9–10, Brasília welfare, and Oct/Nov neighboring-month follow-ups; three body targets opened. Search is bounded, not exhaustive.",
+    "source_ids": [
+      "BRA202012_S001",
+      "BRA202012_S002",
+      "BRA202012_S003"
+    ],
+    "affected_candidates": [
+      "BRA202012_E001",
+      "BRA202012_E002",
+      "BRA202012_E003"
+    ],
+    "required_followup": "Continue actual local date-window searches outside Dec9–10 and across additional states/sectors."
+  },
+  {
+    "gap_id": "BRA202012_G004",
+    "type": "review",
+    "description": "Distinct scientific review and official baseline comparison pending.",
+    "source_ids": [
+      "BRA202012_S001",
+      "BRA202012_S002",
+      "BRA202012_S003"
+    ],
+    "affected_candidates": [
+      "BRA202012_E001",
+      "BRA202012_E002",
+      "BRA202012_E003"
+    ],
+    "required_followup": "Independent reviewer assess threshold, source sufficiency, campaign boundaries and response coding."
+  }
+]

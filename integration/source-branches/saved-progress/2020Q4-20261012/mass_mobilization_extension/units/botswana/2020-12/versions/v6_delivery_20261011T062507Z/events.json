@@ -1,0 +1,158 @@
+[
+  {
+    "candidate_id": "BWA202012_E001",
+    "country": "Botswana",
+    "ccode": null,
+    "unit_month": "2020-12",
+    "title": "Creative-industry meeting at Old Naledi grounds over closure and livelihood",
+    "start_date": "2020-12-08",
+    "start_precision": "day",
+    "end_date": "2020-12-08",
+    "end_precision": "day",
+    "location": "Old Naledi Grounds, Gaborone",
+    "scope": "One reported public meeting on 8 Dec. No counts from the separate GSS Grounds gathering are carried over.",
+    "organizer": "Creative sector conveners; musician Vee Mampeezy named as convenor",
+    "demands": [
+      "social_restrictions"
+    ],
+    "demand_category": "social_restrictions; independently review whether industry-reopening demand fits codebook",
+    "participants_original": "Government ministry statement says attendance exceeded the 50-person limit including young children; exact total and adult-only count unknown.",
+    "participants_min": 51,
+    "participants_max": null,
+    "threshold_50_evidence": "DailyNews quoting Ministry press release: attendance at Old Naledi public gathering on 8 Dec exceeded 50, including children. Exact total unknown; no other gatherings pooled.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "BWA202012_S001",
+      "BWA202012_S002",
+      "BWA202012_S003"
+    ],
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "scientific_verification": "prior separate reviewer noted verified_provisional; not renewed in this writer version; distinct scientific review pending",
+    "episode_ownership": "Two linked campaign meetings remain separate: GSS Grounds Dec 7 and Old Naledi Dec 8; no attendance/state-action transfer.",
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "BWA202012_S001",
+          "BWA202012_S003"
+        ],
+        "summary": "Gazette Dec 9 describes Tuesday's Old Naledi meeting; ministry DailyNews report explicitly dates meeting 8 Dec."
+      },
+      "end_date": {
+        "source_ids": [
+          "BWA202012_S003"
+        ],
+        "summary": "One event date reported; no end time/next-day continuation of this gathering established."
+      },
+      "location": {
+        "source_ids": [
+          "BWA202012_S001",
+          "BWA202012_S003"
+        ],
+        "summary": "Both Gazette and Ministry account place the relevant meeting at Old Naledi grounds; Gaborone is stated in one article/page metadata."
+      },
+      "demands": {
+        "source_ids": [
+          "BWA202012_S001"
+        ],
+        "summary": "Gazette reports a campaign to reopen creative industry and seek Presidential Task Force/MP intervention; one speaker calls for minister resignation."
+      },
+      "participants_min": {
+        "source_ids": [
+          "BWA202012_S003"
+        ],
+        "summary": "Ministry press release states attendance exceeded the 50 limit, including young children; exact number unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "BWA202012_S002",
+          "BWA202012_S003"
+        ],
+        "summary": "Later Gazette reports charges/fine linked to open Old Naledi creatives meeting; Ministry statement records protocol violation and ongoing engagement. No same-day police dispersal at Old Naledi established."
+      }
+    }
+  },
+  {
+    "candidate_id": "BWA202012_E002",
+    "country": "Botswana",
+    "ccode": null,
+    "unit_month": "2020-12",
+    "title": "Creatives meeting at GSS Grounds dispersed before Old Naledi follow-up",
+    "start_date": "2020-12-07",
+    "start_precision": "day",
+    "end_date": "2020-12-07",
+    "end_precision": "day",
+    "location": "GSS Grounds, Gaborone",
+    "scope": "Separate earlier meeting; no Old Naledi count or action attributed.",
+    "organizer": "Vee Mampeezy named as convenor",
+    "demands": [
+      "social_restrictions"
+    ],
+    "demand_category": "social_restrictions; independent category review pending",
+    "participants_original": "Botswana Gazette calls attendance 'scores'; exact count and whether at least 50 unknown.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Not established: qualitative 'scores' is ambiguous; do not transfer >50 from the next day's Old Naledi meeting.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "BWA202012_S001",
+      "BWA202012_S002"
+    ],
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "scientific_verification": "independent review pending; count threshold not established; no count transferred from Dec 8",
+    "episode_ownership": "Related to Dec 8 Old Naledi gathering under same creative-industry campaign; separate date/location and no count transfer.",
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "BWA202012_S001",
+          "BWA202012_S002"
+        ],
+        "summary": "Gazette Dec 9 identifies a Monday GSS meeting; Dec 11 calls the police interruption earlier that week; inferred Monday 7 Dec."
+      },
+      "location": {
+        "source_ids": [
+          "BWA202012_S001",
+          "BWA202012_S002"
+        ],
+        "summary": "GSS Grounds in Gaborone reported separately from Old Naledi Grounds."
+      },
+      "demands": {
+        "source_ids": [
+          "BWA202012_S002"
+        ],
+        "summary": "Gazette describes creatives' campaign to reopen the industry and seek public/government support."
+      },
+      "participants_min": {
+        "source_ids": [
+          "BWA202012_S002"
+        ],
+        "summary": "Only 'scores' reported; at least 50 not established."
+      },
+      "state_response": {
+        "source_ids": [
+          "BWA202012_S002"
+        ],
+        "summary": "Gazette reports police cut this GSS meeting short for lack of a permit."
+      }
+    }
+  }
+]

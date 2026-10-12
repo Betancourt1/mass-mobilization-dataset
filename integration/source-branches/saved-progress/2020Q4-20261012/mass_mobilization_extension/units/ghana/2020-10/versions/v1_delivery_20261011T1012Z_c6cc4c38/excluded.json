@@ -1,0 +1,41 @@
+[
+  {
+    "candidate_id": "GHA202010_MORTUARY_STRIKE_NOT_HELD",
+    "source_ids": [
+      "myjoy_cancel"
+    ],
+    "reason": "Planned nationwide mortuary-workers strike was called off before the scheduled action; no gathering occurred per opened report.",
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "myjoy_cancel"
+        ],
+        "summary": "Report says planned action was called off before proceeding."
+      }
+    }
+  },
+  {
+    "candidate_id": "GHA202010_UNIVERSITY_STAFF_STRIKE",
+    "source_ids": [
+      "graphic_u_staff",
+      "citi_u_staff"
+    ],
+    "reason": "Workplace labor stoppage/injunction account; available opened coverage does not establish a public street gathering or participant count.",
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "graphic_u_staff",
+          "citi_u_staff"
+        ],
+        "summary": "Strike reported, no street gathering established."
+      },
+      "exclusion": {
+        "source_ids": [
+          "graphic_u_staff",
+          "citi_u_staff"
+        ],
+        "summary": "Private/workplace labor action without documented qualifying public gathering."
+      }
+    }
+  }
+]

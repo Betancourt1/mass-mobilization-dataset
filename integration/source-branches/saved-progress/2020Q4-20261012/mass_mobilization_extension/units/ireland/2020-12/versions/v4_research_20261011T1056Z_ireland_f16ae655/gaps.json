@@ -1,0 +1,55 @@
+[
+  {
+    "gap_id": "IRL202012_G001",
+    "type": "coverage",
+    "candidate_ids": [
+      "IRL202012_E002"
+    ],
+    "source_ids": [
+      "irl_irishexaminer_cork_dec12_followup",
+      "irl_rte_cork_dec12_followup"
+    ],
+    "dimension": "Cork Dec12 attendance threshold and contemporaneous reporting",
+    "reason": "Later 2022 court report confirms the Dec12 event/demand context but no crowd count; exact RTÉ 2022 target returned 403.",
+    "next_permitted_action": "Search permitted contemporaneous Cork local/national reporting for Dec12 attendance and demand; no retry of the RTÉ 403 URL."
+  },
+  {
+    "gap_id": "IRL202012_G002",
+    "type": "coverage",
+    "candidate_ids": [
+      "IRL202012_E001"
+    ],
+    "source_ids": [
+      "irl_irishtimes_nkencho_dec31",
+      "irl_q102_nkencho_dec31",
+      "irl_lmfm_nkencho_dec31"
+    ],
+    "dimension": "January continuation and event boundary",
+    "reason": "Reports say participants committed to continue the station protest for 14 days; no January follow-up search yet, so exact duration/end and additional actions unknown.",
+    "next_permitted_action": "Search permitted Jan2021 adjacent-month reports for actual follow-up gatherings and code them only in their assigned month; do not infer Dec event end date."
+  },
+  {
+    "gap_id": "IRL202012_G003",
+    "type": "coverage",
+    "candidate_ids": [],
+    "source_ids": [
+      "irl_siptu_housing_dec1"
+    ],
+    "dimension": "Dec1 SIPTU result dating, sector/local coverage, and Irish-language coverage",
+    "reason": "Result likely old based on displayed publication-age metadata; remaining local/regional and Gaeilge discovery is incomplete.",
+    "next_permitted_action": "Assess exact SIPTU page only after a fresh exact-target restriction review, if material; run additional date-window queries across local outlets/sectors and Irish-language sources."
+  },
+  {
+    "gap_id": "IRL202012_G004",
+    "type": "incident",
+    "candidate_ids": [
+      "IRL202012_E002"
+    ],
+    "source_ids": [
+      "irl_rte_cork_dec12_followup"
+    ],
+    "dimension": "Managed-open mismatch and RTÉ page access",
+    "reason": "One batched open returned a different RTÉ Dec31 URL (403) than the assessed Dec12 Cork court-report URL; the direct exact Dec12 URL also returned 403. Both outputs preserved; no retry.",
+    "next_permitted_action": "Use other permitted local sources for the missing court/attendance details; no further RTÉ attempt."
+  }
+]

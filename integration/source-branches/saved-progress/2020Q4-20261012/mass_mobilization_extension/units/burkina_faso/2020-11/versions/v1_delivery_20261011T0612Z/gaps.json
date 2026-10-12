@@ -1,0 +1,46 @@
+[
+  {
+    "gap_id": "burkina_faso_2020-11-G001",
+    "type": "threshold_and_event_form",
+    "description": "Nov 5 municipal strike report gives 700+ workers as strike participants, not a simultaneous public gathering; Maison des jeunes reference is undated and uncounted.",
+    "source_ids": [
+      "BFA202011_S001",
+      "BFA202011_S002"
+    ],
+    "affected_candidates": [
+      "BFA202011_E001"
+    ],
+    "required_followup": "Find dated public-event evidence with per-site headcount; do not retry the prior exact URL that returned a tool timeout."
+  },
+  {
+    "gap_id": "burkina_faso_2020-11-G002",
+    "type": "threshold_and_event_form",
+    "description": "Nov 17 union coalition meeting is corroborated by two opened reports but neither gives attendance or confirms a public demonstration rather than a coalition meeting.",
+    "source_ids": [
+      "BFA202011_S003",
+      "BFA202011_S005"
+    ],
+    "affected_candidates": [
+      "BFA202011_E002"
+    ],
+    "required_followup": "Seek direct meeting attendance and format evidence; keep one event, not two."
+  },
+  {
+    "gap_id": "burkina_faso_2020-11-G003",
+    "type": "electoral_distinction",
+    "description": "Dori campaign event is excluded from protest candidate set based on search-result title only.",
+    "source_ids": [
+      "BFA202011_S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a non-campaign state-demand protest lead surfaces, assess it separately; do not infer protest from campaign crowd size."
+  },
+  {
+    "gap_id": "burkina_faso_2020-11-G004",
+    "type": "search_coverage",
+    "description": "Discovery used French and English generic, weekly and targeted queries (transport, labor, elections, sectors, regions); shared search results were not attributable per query and produced year/date false positives. No confirmed Nov 27 protest in 2020; prominent matching results were 2021.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue local archives and feasible sector-specific searches; no exhaustive coverage claimed; source/date attribution limitations remain."
+  }
+]

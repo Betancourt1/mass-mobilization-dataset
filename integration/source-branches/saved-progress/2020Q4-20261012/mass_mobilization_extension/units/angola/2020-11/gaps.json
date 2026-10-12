@@ -1,0 +1,106 @@
+[
+  {
+    "gap_id": "ANG202011_G001",
+    "type": "coverage",
+    "description": "Open-web search does not replicate LexisNexis All News or its major-publication query. The quarter includes no systematic LexisNexis/newspaper archive access; 2020 November coverage therefore remains incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Compare with permitted contemporaneous major newspaper and regional archive results if available; retain unavailable-access notes."
+  },
+  {
+    "gap_id": "ANG202011_G002",
+    "type": "threshold",
+    "description": "The Ndalatando report confirms a gathering but supplies no attendance estimate. The reported 16 detained are from Kizenga, over 60 km away, and cannot establish Ndalatando crowd size or their exact relation to it.",
+    "source_ids": [
+      "S018"
+    ],
+    "affected_candidates": [
+      "AGO202011_E002"
+    ],
+    "required_followup": "Find another contemporaneous account with an attendance estimate and clarify the Kizenga detentions."
+  },
+  {
+    "gap_id": "ANG202011_G003",
+    "type": "ownership_continuity",
+    "description": "The 11 November demonstrations were called across multiple provinces. Current reports establish activity in Luanda and Ndalatando, but do not settle whether these are one nationally organized event or separate local gatherings. E002 and E003 are an explicit unresolved alternative; do not count both as approved events.",
+    "source_ids": [
+      "S018",
+      "S020",
+      "S021"
+    ],
+    "affected_candidates": [
+      "AGO202011_E002",
+      "AGO202011_E003"
+    ],
+    "required_followup": "Inspect organizer statements and local reporting from announced provinces; document any merge or split decision."
+  },
+  {
+    "gap_id": "ANG202011_G004",
+    "type": "search_scope",
+    "description": "No LexisNexis-equivalent systematic archive searches or full provincial local-press sweep have been completed. Queries include broad Portuguese and English terms, labour-sector terms, and four week windows, but grouped searches returned shared lists without query-result attribution.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue province-specific searches and review each full candidate article where access allows; record additional executed queries."
+  },
+  {
+    "gap_id": "ANG202011_G005",
+    "type": "source_attribution",
+    "description": "The 11 November death claim is not causally resolved in currently body-read contemporaneous reports. The DW story attributes a death report to protesters; a later report should not be treated as proof of state killing without explicit causal evidence.",
+    "source_ids": [
+      "S021"
+    ],
+    "affected_candidates": [
+      "AGO202011_E003"
+    ],
+    "required_followup": "Review contemporaneous follow-up accounts and preserve conflicting cause-of-death claims with exact attribution."
+  },
+  {
+    "gap_id": "ANG202011_G006",
+    "type": "threshold",
+    "description": "The Cabinda march was called for 28 November and VOA reports nine activists arrested while preparing; the attended crowd size is unknown. A second outlet's search excerpt says the march occurred, but its page returned HTTP 403 and the required exact-URL access check returned hold, so no body retry was made.",
+    "source_ids": [
+      "S024",
+      "S025"
+    ],
+    "affected_candidates": [
+      "AGO202011_E005"
+    ],
+    "required_followup": "Obtain a permitted independent account of whether the march occurred and attendance, or retain as an unresolved sub-threshold candidate; do not use arrest count or organizer estimate as attendance."
+  },
+  {
+    "gap_id": "ANG202011_G007",
+    "type": "coverage",
+    "description": "Provincial coverage is incomplete. Searches and opened reports establish candidate activity in Luanda, Ndalatando and Cabinda, but no full province-by-province newspaper/archive review or validated account of all announced locations was completed.",
+    "source_ids": [
+      "S018",
+      "S021",
+      "S024"
+    ],
+    "affected_candidates": [
+      "AGO202011_E002",
+      "AGO202011_E003",
+      "AGO202011_E005"
+    ],
+    "required_followup": "Continue province-specific searches across all announced locations and distinguish failed retrieval, no results, and unreviewed coverage."
+  },
+  {
+    "gap_id": "ANG202011_G008",
+    "type": "sectoral_coverage",
+    "description": "English and Portuguese labor/sector queries covered strikes, workers, teachers, health workers, oil workers and municipal employees, but yielded no body-read verified worker-sector event in this unit. Shared batched search-result lists have unknown query-level attribution, and search hits alone do not establish either presence or absence of events.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review local labor reporting and union statements if access permits; treat this as a coverage gap rather than a zero-event finding."
+  },
+  {
+    "gap_id": "ANG202011_G009",
+    "type": "source_access",
+    "description": "One relevant Cabinda article remained search-only after an observed HTTP 403 and exact URL access-check hold. Search-result text is retained only to document the lead; the article body was not retried or used as verified event evidence.",
+    "source_ids": [
+      "S025"
+    ],
+    "affected_candidates": [
+      "AGO202011_E005"
+    ],
+    "required_followup": "Use another permitted independent source, or leave march execution and attendance unresolved."
+  }
+]

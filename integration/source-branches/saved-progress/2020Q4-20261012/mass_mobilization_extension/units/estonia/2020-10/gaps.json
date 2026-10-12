@@ -1,0 +1,37 @@
+[
+  {
+    "gap_id": "estonia_2020-10_G001",
+    "type": "field_precision",
+    "description": "ERR reports the separate Tartu marriage-equality demonstration only as occurring at the beginning of October; exact day and organizers remain unknown. The month, location, approximate count (~150) and same policy issue are supported by opened ERR reporting.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "estonia_2020-10_E002"
+    ],
+    "required_followup": "No repair needed for month ownership or threshold. If day-level episode analysis is later required, run a targeted Tartu/ERR local archive search; otherwise retain month precision."
+  },
+  {
+    "gap_id": "estonia_2020-10_G002",
+    "type": "source_access_limit",
+    "description": "Two exact URLs concerning teacher strike threats could not be opened: Postimees request failed at the web tool as 'restricted URL' without an HTTP status; EHL exact URL returned HTTP 403. These were not event-body evidence. Accessible ERR S007 reports a threat, not an executed gathering; no public teacher action was located in the monthly and weekly searches.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry either exact URL or bypass the platform result. Use opened ERR S007 and existing captured searches; pursue a different public source only if a specific executed gathering is later identified."
+  },
+  {
+    "gap_id": "estonia_2020-10_G003",
+    "type": "capture_deviation",
+    "description": "A preliminary 3-query exploratory batch was not durably captured after capture-helper encoding failures. The exact three searches were rerun and saved together as EST202010Q016; the search tool returned a consolidated response with no per-query attribution. Do not treat the first response as preserved evidence.",
+    "source_ids": [],
+    "affected_candidates": [
+      "estonia_2020-10_E001",
+      "estonia_2020-10_E002"
+    ],
+    "required_followup": "No re-capture of the original response is possible; rely on Q016 plus the 17 other individually captured query responses. This is disclosed in report.txt."
+  }
+]

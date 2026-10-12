@@ -1,0 +1,37 @@
+{
+  "unit_id": "cyprus_2020-11",
+  "country": "Cyprus",
+  "month": "2020-11",
+  "status": "researched_open_web_pending_review",
+  "firstpass_complete": false,
+  "official_approved": false,
+  "baseline_gate": "pending_official_baseline",
+  "n_queries": 9,
+  "n_sources": 7,
+  "n_candidates": 5,
+  "n_excluded": 0,
+  "n_continuations": 1,
+  "n_gaps": 5,
+  "source_access_counts": {
+    "opened": 7,
+    "search_only": 0,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "metadata_unknown": true,
+  "query_capture_integrity": {
+    "captured_header_count": 211,
+    "native_request_times_available": false,
+    "query_outputs_unretained_count": 0,
+    "query_mapping_notes": "Combined searches are retained as a single actual call projection when the tool returned grouped results; query strings preserved; no native clocks exposed. Some projections selected headers only."
+  },
+  "coverage_review": "pending; feasible regional/weekly/sector follow-ups remain incomplete",
+  "scientific_review": "pending distinct reviewer",
+  "candidate_review_dispositions": {
+    "CYP202011_E001": "pending independent scientific review",
+    "CYP202011_E002": "pending independent scientific review",
+    "CYP202011_E003": "pending independent scientific review",
+    "CYP202011_E004": "pending independent scientific review",
+    "CYP202011_E005": "pending independent scientific review"
+  }
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "gap_id": "afghanistan_2020-11_G001",
+    "type": "threshold",
+    "description": "The 3 November Kabul University protest is established by one opened local report, but no crowd estimate appears; the 50-person threshold remains unknown.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-11_E001"
+    ],
+    "required_followup": "Find contemporaneous independent reporting, images with a defensible count, or other direct evidence of attendance."
+  },
+  {
+    "gap_id": "afghanistan_2020-11_G002",
+    "type": "threshold",
+    "description": "Radio Azadi calls the 8 November attendees 'dozens' without a count or numeric range, so at least 50 is not demonstrated.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-11_E002"
+    ],
+    "required_followup": "Search for attendance estimates from independent contemporaneous outlets or original images/video."
+  },
+  {
+    "gap_id": "afghanistan_2020-11_G003",
+    "type": "access_evidence",
+    "description": "The Killid Group page found for 5 November returned an actual 403 Forbidden when opened; it was not retried. Its search result gives a title/date only, leaving target, size and relation to nearby student protests unresolved.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-11_E003"
+    ],
+    "required_followup": "Do not retry the denied URL. Seek unrelated permitted reporting or retain the lead as unresolved."
+  },
+  {
+    "gap_id": "afghanistan_2020-11_G004",
+    "type": "access_inventory",
+    "description": "The historical source-access ledger is omitted. The new source_checks ledger is empty and is not a clean inventory. Known AP, HRW, NewArab, Facebook and LOrient holds remain unresolved; AP/Reuters ambiguous wire variants were not used.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-11_E001",
+      "afghanistan_2020-11_E002"
+    ],
+    "required_followup": "Coordinator to reconcile exact historical restrictions and documented origin relationships before any affected body or variant is considered."
+  },
+  {
+    "gap_id": "afghanistan_2020-11_G005",
+    "type": "search_coverage",
+    "description": "Open-web discovery covered English, Dari and Pashto with broad and weekly/date-specific queries and limited education, security and transport/labor terms. It did not reproduce LexisNexis All News, systematically inspect all local outlets, or verify every sector/province; search engine date behavior and indexing are opaque.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with systematic outlet/archive searches and original records where available; preserve the current non-exhaustive scope."
+  },
+  {
+    "gap_id": "afghanistan_2020-11_G006",
+    "type": "continuity",
+    "description": "The 3, 5 and 8 November Kabul University protest leads may be one continuing campaign or separate gatherings. Start and end boundaries are not settled, and follow-on coverage into later weeks/months is incomplete.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-11_E001",
+      "afghanistan_2020-11_E002",
+      "afghanistan_2020-11_E003"
+    ],
+    "required_followup": "Review neighboring October and December reporting and compare organizers, dates, demands and pauses before merging or assigning continuation ownership."
+  },
+  {
+    "gap_id": "afghanistan_2020-11_G007",
+    "type": "code_provenance",
+    "description": "No supplied assignment row provides the original country code. The planning list has only a provisional legacy code, so candidate ccode values are null.",
+    "source_ids": [],
+    "affected_candidates": [
+      "afghanistan_2020-11_E001",
+      "afghanistan_2020-11_E002",
+      "afghanistan_2020-11_E003"
+    ],
+    "required_followup": "Coordinator to verify country code against the official baseline/code mapping before any delivery."
+  }
+]

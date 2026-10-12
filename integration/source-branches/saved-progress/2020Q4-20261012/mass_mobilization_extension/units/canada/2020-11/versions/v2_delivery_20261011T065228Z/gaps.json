@@ -1,0 +1,83 @@
+[
+  {
+    "gap_id": "canada_2020-11_G001",
+    "type": "source",
+    "description": "Aylmer, St. Thomas and Montreal event summaries cite CBC reporting, but the underlying contemporaneous pieces have not been retrieved or opened; actual occurrence/attendance remain pending against the contemporary-source criterion.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "canada_2020-11_E003",
+      "canada_2020-11_E004",
+      "canada_2020-11_E005"
+    ],
+    "required_followup": "Search named CBC articles by date/headline; run fresh exact-target assessments before any open."
+  },
+  {
+    "gap_id": "canada_2020-11_G002",
+    "type": "threshold",
+    "description": "Ottawa’s 19-Nov camp has no total crowd estimate; 12 charges do not establish a ≥50 crowd.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "canada_2020-11_E001"
+    ],
+    "required_followup": "Search an allowed contemporary organizer/police/news estimate."
+  },
+  {
+    "gap_id": "canada_2020-11_G003",
+    "type": "threshold_and_state_target",
+    "description": "Vancouver Port action has no count, and campaign language does not establish a Canadian-government policy target for the particular access-road gathering. A Facebook campaign link is held and was not followed.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "canada_2020-11_E006"
+    ],
+    "required_followup": "Use unrelated permitted contemporaneous sources for crowd and state-target; do not access Facebook."
+  },
+  {
+    "gap_id": "canada_2020-11_G004",
+    "type": "threshold",
+    "description": "PEI event is reported as “dozens”; no precise estimate shows whether it crossed 50.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "canada_2020-11_E007"
+    ],
+    "required_followup": "Find permitted local report or retain pending threshold."
+  },
+  {
+    "gap_id": "canada_2020-11_G005",
+    "type": "continuity",
+    "description": "Hamilton camp was reported on 23 and 30 November, but endpoint and continuity into the separate 30 December tent-removal report remain uncertain.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "canada_2020-11_E002"
+    ],
+    "required_followup": "Compare dates, occupancy, organizer and gaps using contemporaneous December reporting."
+  },
+  {
+    "gap_id": "canada_2020-11_G006",
+    "type": "coverage",
+    "description": "Open-web search covered English/French national discovery and localized Ontario, Quebec, BC, and PEI reports, but systematic province-by-province weekly sweeps were not completed; some regions rely only on CIVICUS summary.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted local-language and province/sector searches in additional outlets."
+  },
+  {
+    "gap_id": "canada_2020-11_G007",
+    "type": "archive_access",
+    "description": "No LexisNexis-equivalent or complete Canadian local-news archive was searched.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve as open-web limitation, not as a finding of no other events."
+  }
+]

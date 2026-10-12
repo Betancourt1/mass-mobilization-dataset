@@ -1,0 +1,111 @@
+[
+  {
+    "gap_id": "BLR202011_G001",
+    "type": "episode_ownership",
+    "description": "Monday pensioner/medical-worker marches (Nov9, Nov16 and Nov30) and Sunday actions (Nov1, Nov22 and Nov29) are recurrent. Their dated gatherings are described, but onset/episode boundaries relative to the August 2020 protest campaign remain unresolved.",
+    "source_ids": [
+      "BLR202011_S002",
+      "BLR202011_S003",
+      "BLR202011_S004",
+      "BLR202011_S005",
+      "BLR202011_S007",
+      "BLR202011_S008",
+      "BLR202011_S009"
+    ],
+    "affected_candidates": [
+      "BLR202011_E001",
+      "BLR202011_E003",
+      "BLR202011_E004",
+      "BLR202011_E005",
+      "BLR202011_E006",
+      "BLR202011_E007"
+    ],
+    "required_followup": "Compare exact actions in October and December and any September onset material; distinguish separate dated gatherings from one continuous campaign and series. Do not transfer turnout across dates."
+  },
+  {
+    "gap_id": "BLR202011_G002",
+    "type": "eligibility_fields_pending",
+    "description": "Nov1 and Nov30 reports establish dated Minsk protest action but not a single-gathering count; Nov15 Current Time coverage identifies a March of Courage but gives no city-specific threshold; Nov29 Uruchye has a supported count but the state-directed chant is assigned to a different unidentified column. Nov22 district-level counts should remain tied to their named gathering.",
+    "source_ids": [
+      "BLR202011_S002",
+      "BLR202011_S007",
+      "BLR202011_S008",
+      "BLR202011_S009"
+    ],
+    "affected_candidates": [
+      "BLR202011_E002",
+      "BLR202011_E004",
+      "BLR202011_E005",
+      "BLR202011_E006",
+      "BLR202011_E007"
+    ],
+    "required_followup": "Seek separately originated exact-action evidence only for the specific unresolved field. Keep pending status if unavailable; never infer count from arrests or borrow demands from neighboring columns."
+  },
+  {
+    "gap_id": "BLR202011_G003",
+    "type": "access_restriction",
+    "description": "The exact Human Rights Center Viasna page for Nov1 returned HTTP 403; Al Jazeera Nov29 page has a generic agency byline and AP-attributed image, leaving article-level origin ambiguous. Neither source is used for evidence.",
+    "source_ids": [
+      "BLR202011_S001",
+      "BLR202011_S006"
+    ],
+    "affected_candidates": [
+      "BLR202011_E006",
+      "BLR202011_E005"
+    ],
+    "required_followup": "No retry/mirror on Viasna exact URL and no derivative/alternate rendition of Al Jazeera. Independently originated Sputnik and Charter'97 targets support bounded facts where available."
+  },
+  {
+    "gap_id": "BLR202011_G004",
+    "type": "coverage_pending",
+    "description": "Nine actual queries cover four weekly windows and targeted sector/date searches, but daily/local coverage is uneven: no separately sourced Nov23 medical/pensioner body was opened; women's and worker activity is covered mainly through searches and recurring-series context. At cutoff 2026-10-07 no actual searches existed; all queries were executed 2026-10-11.",
+    "source_ids": [
+      "BLR202011_S002",
+      "BLR202011_S003",
+      "BLR202011_S004",
+      "BLR202011_S005",
+      "BLR202011_S007"
+    ],
+    "affected_candidates": [
+      "BLR202011_E001",
+      "BLR202011_E003",
+      "BLR202011_E004",
+      "BLR202011_E007"
+    ],
+    "required_followup": "Use owned December searches for adjacent continuity and any justified missing exact fields. Do not claim exhaustive monthly coverage."
+  },
+  {
+    "gap_id": "BLR202011_G005",
+    "type": "source_origin_ambiguity",
+    "description": "A Nov8 Current Time search-result reference resolved to an unrelated Serbian Wikipedia mirror page. It is captured as an accidental wrong-reference action and not used; the assessed Current Time exact URL was then opened directly and documented as Nov15 coverage.",
+    "source_ids": [
+      "BLR202011_S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No follow-up on the accidental mirror/ref target; use exact URLs and capture full tool responses when obtained."
+  },
+  {
+    "gap_id": "BLR202011_G006",
+    "type": "capture_storage_limit",
+    "description": "Before the parent’s later direction to save full returned page responses, open metadata and paraphrases were captured locally but full rendered page-body responses were not saved. No response body is reconstructed or re-requested.",
+    "source_ids": [
+      "BLR202011_S002",
+      "BLR202011_S003",
+      "BLR202011_S004",
+      "BLR202011_S005",
+      "BLR202011_S007",
+      "BLR202011_S008",
+      "BLR202011_S009"
+    ],
+    "affected_candidates": [
+      "BLR202011_E001",
+      "BLR202011_E002",
+      "BLR202011_E003",
+      "BLR202011_E004",
+      "BLR202011_E005",
+      "BLR202011_E006",
+      "BLR202011_E007"
+    ],
+    "required_followup": "For future actual opens, save the tool-returned response verbatim at request time and hash it. Do not retry already opened pages solely to recreate missing raw response files."
+  }
+]

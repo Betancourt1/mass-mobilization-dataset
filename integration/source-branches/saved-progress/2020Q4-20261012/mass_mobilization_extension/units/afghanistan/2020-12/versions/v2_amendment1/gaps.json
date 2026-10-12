@@ -1,0 +1,97 @@
+[
+  {
+    "gap_id": "afghanistan_2020-12_G001",
+    "type": "prior_search_capture_loss",
+    "description": "A first managed web call executed four queries before durable capture code was working. The actual query strings are now recorded as four query rows, but the aggregate result block was lost during a failed capture attempt; response headers/results are unknown. The empty result arrays in those rows mean not captured, not no results. No output or metadata is reconstructed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep all four executed queries in the actual-query count and all four lost responses excluded from captured-result counts. Repeat any needed discovery only as new individually captured queries; do not recreate the original output."
+  },
+  {
+    "gap_id": "afghanistan_2020-12_G002",
+    "type": "retrieval_failure",
+    "description": "8AM Media result S003 was discoverable in search output, but managed-tool open returned Internal Error without an HTTP status or article body. No denial, login, paywall, robots or anti-bot response was observed.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-12_E001"
+    ],
+    "required_followup": "If needed, retry only through ordinary permitted public retrieval and record the actual result; otherwise retain as search_only and do not treat as body evidence."
+  },
+  {
+    "gap_id": "afghanistan_2020-12_G003",
+    "type": "event_onset_and_closure",
+    "description": "Madanyat S002 says the protest was in its fourth day on Dec 14, while Pajhwok S001 dates a protest to Dec 14. Exact onset day, end date, and whether the sit-in continued beyond December remain unresolved. Supplemental evidence now includes Etilaat Roz (Dec 13, “in recent days”) and Samsoor (Dec 14, “four days since start”); exact first date, any November phase and closure remain unknown.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-12_E001"
+    ],
+    "required_followup": "Search adjacent November 2020 and January 2021 coverage; verify whether reports describe one continuous protest, its first threshold-qualified day and closure."
+  },
+  {
+    "gap_id": "afghanistan_2020-12_G004",
+    "type": "historical_access_inventory",
+    "description": "The supplied tree contains only current 2020Q4 source ledgers and an initially empty review/source_checks.jsonl; separate historical source approvals/ledgers are omitted as recorded in planning/access_inventory_limits.json. Stable exact checks plus manual review covered only inputs present in this workspace; an empty ledger is not a clean historical access inventory. Known AP, HRW, New Arab, Facebook and L'Orient-Le Jour hold/origin questions remain unresolved and were not used for body retrieval.",
+    "source_ids": [],
+    "affected_candidates": [
+      "afghanistan_2020-12_E001"
+    ],
+    "required_followup": "Coordinator may supply permitted historical access evidence if available. Avoid held names and ambiguous origins; continue only with unrelated sources after current exact checks/manual review."
+  },
+  {
+    "gap_id": "afghanistan_2020-12_G005",
+    "type": "search_date_reliability",
+    "description": "Weekly date-window and sector searches often returned pages from 2019, 2021, 2022 or later despite explicit Dec 2020 query dates. Search-engine date operators are not reliable evidence that an event occurred in this unit; most candidate-looking results require actual publication/event-date verification.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue date-specific local-source searches and verify both publication date and event date for any candidate before coding; do not treat search ranking as month evidence."
+  },
+  {
+    "gap_id": "afghanistan_2020-12_G006",
+    "type": "local_language_coverage",
+    "description": "Dari and Pashto queries have been run, but result sets were noisy and do not represent systematic coverage of local Afghan outlets or archives. No equivalent to LexisNexis or a comprehensive local-language corpus was available.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted Dari/Pashto searches across local/regional media and available public archives; keep absences as unknown rather than zero."
+  },
+  {
+    "gap_id": "afghanistan_2020-12_G007",
+    "type": "missing_official_country_code",
+    "description": "The assigned planning row does not provide an official country code. The event card therefore retains ccode=null; no code has been inferred or mapped.",
+    "source_ids": [],
+    "affected_candidates": [
+      "afghanistan_2020-12_E001"
+    ],
+    "required_followup": "Coordinator should provide or verify the official country-code mapping before baseline reconciliation; retain null until then."
+  },
+  {
+    "gap_id": "afghanistan_2020-12_G008",
+    "type": "supplemental_search_capture_loss",
+    "description": "Four amendment follow-up queries were executed in two calls (one three-query aggregate batch and one single-query call), but their result outputs were not durably captured: the aggregate response was not written to the filesystem and the single-query capture helper failed because btoa was unavailable. Exact query strings are logged; empty result arrays mean output lost/unknown, not no results. No results or headers have been reconstructed. Four later single-query responses (V2Q005–V2Q008) are captured in full.",
+    "source_ids": [],
+    "affected_candidates": [
+      "afghanistan_2020-12_E001"
+    ],
+    "required_followup": "Do not reconstruct the lost outputs. If needed, any future discovery must be a distinct, newly logged search, not a repeated query to recreate these responses."
+  },
+  {
+    "gap_id": "afghanistan_2020-12_G009",
+    "type": "november_neighbor_month_continuity",
+    "description": "Targeted English, Dari and Pashto searches for a November 2020 onset/continuity account did not yield a contemporaneous November-dated report tied to this episode in the captured result sets. Captured body reports date activity to Dec 13/14 and describe protests in preceding days/four days since start. No claim that a November phase did not occur is warranted.",
+    "source_ids": [
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-12_E001"
+    ],
+    "required_followup": "Keep episode onset month-level pending independent review. If review finds a specific feasible local archive/date window materially necessary, perform that targeted search under a fresh local assessment; do not treat search absence as zero."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "gap_id": "KSV202012-G001",
+    "affected_candidate_id": "KSV202012-E001",
+    "dimension": "attendance threshold",
+    "reason": "RTS says “several tens” of family representatives; BIRN/Prishtina Insight mention relatives of dozens but do not count attendees; Lajmi gives no count. BIRN pages may share origin.",
+    "next_permitted_action": "Seek a permitted contemporaneous attendance estimate or organizer record for Dec 3; do not treat relatives of victims as participant count or assume BIRN republications independent.",
+    "source_ids": [
+      "KSV202012-S008",
+      "KSV202012-S009",
+      "KSV202012-S011",
+      "KSV202012-S012"
+    ]
+  },
+  {
+    "gap_id": "KSV202012-G002",
+    "affected_candidate_id": "KSV202012-E002",
+    "dimension": "attendance threshold and source relationship",
+    "reason": "Dec 7 cystic-fibrosis protest is confirmed at the Ministry, but no source gives attendance. KOHA returned 403 and Gazeta Express an anti-bot challenge.",
+    "next_permitted_action": "Search another permitted contemporaneous report or organizer account that documents the gathering scale; do not retry the denied/challenged URLs.",
+    "source_ids": [
+      "KSV202012-S003",
+      "KSV202012-S004",
+      "KSV202012-S007",
+      "KSV202012-S010"
+    ]
+  },
+  {
+    "gap_id": "KSV202012-G003",
+    "affected_candidate_id": "KSV202012-E003",
+    "dimension": "public gathering/site",
+    "reason": "The Dec 14 reports document a strike spread across clinical centres, not a single public assembly. KOHA technical-workers exact body request failed.",
+    "next_permitted_action": "Search permitted sources for a separate street demonstration/site and simultaneous attendance if one occurred; do not retry the failed KOHA URL.",
+    "source_ids": [
+      "KSV202012-S001",
+      "KSV202012-S002",
+      "KSV202012-S006"
+    ]
+  },
+  {
+    "gap_id": "KSV202012-G004",
+    "affected_candidate_id": null,
+    "dimension": "regional/sector/date-window and adjacent continuity",
+    "reason": "English and Albanian/Serbian searches, three Dec date windows and episode follow-ups were run. Candidate body evidence is concentrated in Pristina; other regions/sectors and Jan 2021 continuity remain unfinished.",
+    "next_permitted_action": "Continue specific local-language searches in Prizren/Krusha, Peja, Mitrovica, Gjilan and other municipalities across labor, health, women’s, environmental and municipal issues; check January only for episode continuity, keeping event cutoff at Dec 31 for included events.",
+    "source_ids": [
+      "KSV202012-S004",
+      "KSV202012-S008",
+      "KSV202012-S009"
+    ]
+  }
+]

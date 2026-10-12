@@ -1,0 +1,175 @@
+[
+  {
+    "candidate_id": "HAI202012-C01",
+    "country": "Haiti",
+    "unit_month": "2020-12",
+    "title": "Port-au-Prince march against insecurity and state response",
+    "start_date": "2020-12-10",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "source_ids": [
+      "hai_vbi_dec10",
+      "hai_rhinews_dec10"
+    ],
+    "field_evidence": {
+      "occurrence_and_threshold": {
+        "finding": "Vant Bèf Info reports several hundred people marching in Port-au-Prince; Rhinews independently reports a citizen march but no count.",
+        "source_ids": [
+          "hai_vbi_dec10",
+          "hai_rhinews_dec10"
+        ]
+      },
+      "demands": {
+        "finding": "Participants opposed insecurity/kidnapping and criticized state decrees; source describes a demand for authorities to address insecurity.",
+        "source_ids": [
+          "hai_vbi_dec10",
+          "hai_rhinews_dec10"
+        ]
+      },
+      "response": {
+        "finding": "VBI says police prevented marchers reaching Ministry of Justice; Rhinews describes tear gas after stones were thrown at a patrol.",
+        "source_ids": [
+          "hai_vbi_dec10",
+          "hai_rhinews_dec10"
+        ]
+      },
+      "episode_boundary": {
+        "finding": "Separate same-day Gonaïves march reported; no evidence establishes a single nationwide episode.",
+        "source_ids": [
+          "hai_vbi_dec10",
+          "hai_rhinews_dec10"
+        ]
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "demands": [
+      "political_behavior_process",
+      "police_brutality"
+    ],
+    "location_precision": "as reported; not independently geocoded",
+    "review_disposition": "pending_distinct_scientific_review",
+    "official_mm_id": null,
+    "notes": "Candidate pending review; sources are distinct outlets but source dependency/independence should be checked."
+  },
+  {
+    "candidate_id": "HAI202012-C02",
+    "country": "Haiti",
+    "unit_month": "2020-12",
+    "title": "Gonaïves march against insecurity and for President Moïse to leave",
+    "start_date": "2020-12-10",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "source_ids": [
+      "hai_gazette_dec10",
+      "hai_rhinews_dec10"
+    ],
+    "field_evidence": {
+      "occurrence_and_threshold": {
+        "finding": "Gazette Haiti reports thousands marching in Gonaïves; Rhinews also describes a Gonaïves march without a count.",
+        "source_ids": [
+          "hai_gazette_dec10",
+          "hai_rhinews_dec10"
+        ]
+      },
+      "demands": {
+        "finding": "Opposition to insecurity and demand that the president leave before Feb. 7.",
+        "source_ids": [
+          "hai_gazette_dec10",
+          "hai_rhinews_dec10"
+        ]
+      },
+      "violence": {
+        "finding": "Gazette describes fires and barricades along the route.",
+        "source_ids": [
+          "hai_gazette_dec10"
+        ]
+      },
+      "episode_boundary": {
+        "finding": "Do not merge with the Port-au-Prince action absent evidence of same gathering/organizer.",
+        "source_ids": [
+          "hai_gazette_dec10",
+          "hai_rhinews_dec10"
+        ]
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "demands": [
+      "removal_of_politician",
+      "political_behavior_process"
+    ],
+    "location_precision": "as reported; not independently geocoded",
+    "review_disposition": "pending_distinct_scientific_review",
+    "official_mm_id": null,
+    "notes": "Candidate pending review; city-specific threshold is described by the contemporaneous Gazette report."
+  },
+  {
+    "candidate_id": "HAI202012-C03",
+    "country": "Haiti",
+    "unit_month": "2020-12",
+    "title": "Attempted Village de Dieu residents demonstration against police operation",
+    "start_date": "2020-12-14",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "source_ids": [
+      "hai_haitistandard_vdg_dec14"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "finding": "Search-result summary describes a few dozen residents attempting a demonstration and police preventing it; exact body retrieval timed out, so occurrence details are search-only.",
+        "source_ids": [
+          "hai_haitistandard_vdg_dec14"
+        ]
+      },
+      "threshold": {
+        "finding": "Search summary says a few dozen, suggesting below 50, but the body was not obtained; exclude only provisionally on search-only evidence.",
+        "source_ids": [
+          "hai_haitistandard_vdg_dec14"
+        ]
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "demands": [
+      "police_brutality"
+    ],
+    "location_precision": "as reported; not independently geocoded",
+    "review_disposition": "pending_distinct_scientific_review",
+    "official_mm_id": null,
+    "notes": "No body evidence; retained as an unresolved lead, not counted as a qualifying event."
+  }
+]

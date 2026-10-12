@@ -1,0 +1,35 @@
+[
+  {
+    "gap_id": "FR2020-10-GAP-OCT17-ONSET",
+    "gap_type": "pending_unit",
+    "affected_candidate_ids": [
+      "FR2020-10-CAND-OCT17-PARIS"
+    ],
+    "reason": "Multi-city routes began Sep 19; cross-month onset ownership unresolved.",
+    "source_ids": [
+      "SRC_67BA3C257D4E",
+      "SRC_E9DC507FAA6E"
+    ],
+    "next_permitted_action": "Distinct reviewer/coordinator reconciles with September unit."
+  },
+  {
+    "gap_id": "FR2020-10-GAP-OCT12-THRESHOLD",
+    "gap_type": "pending_threshold",
+    "affected_candidate_ids": [],
+    "reason": "Oct12 sector convoys/gatherings occurred but actual single-crowd count absent; 300 coaches was forecast.",
+    "source_ids": [
+      "SRC_785280E36ED1"
+    ],
+    "next_permitted_action": "Permitted regional reporting follow-up for actual turnout."
+  },
+  {
+    "gap_id": "FR2020-10-GAP-SCOPE",
+    "gap_type": "pending_coverage",
+    "affected_candidate_ids": [],
+    "reason": "Late Oct queries contaminated with future dates; feasible regional/sector follow-up remains. Some earlier multi-query batch results were curated/un-aligned; per-query captures are in search_log.",
+    "source_ids": [
+      "SRC_E9DC507FAA6E"
+    ],
+    "next_permitted_action": "Target permitted October regional/sector coverage, especially Oct19–31."
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "gap_id": "GEO202010-G01",
+    "dimension": "weekly/regional/sector/source coverage",
+    "reason": "Five rendered batches (20 query strings) in English, Georgian and Russian covered general/date-specific election protest searches, Tbilisi and selected regional leads. Feasible remaining weeks, regions, sectors and local sources have not reached a documented stopping point; results do not show absence.",
+    "next_permitted_action": "Continue feasible local-language, regional and sector-specific discovery by remaining week; conduct exact target assessment before every new body request."
+  },
+  {
+    "gap_id": "GEO202010-G02",
+    "dimension": "episode onset and adjacent-month continuity",
+    "reason": "Repeated post-election protests and announced follow-ups may represent related episodes; exact executed action ownership is not resolved.",
+    "next_permitted_action": "Check dated contemporaneous reports for adjacent dates in neighboring assigned months; do not treat announcements as events or pool separate sites/times."
+  },
+  {
+    "gap_id": "GEO202010-G03",
+    "affected_candidate_id": "GEO202010-CAND-HONK-21",
+    "dimension": "threshold/person count",
+    "reason": "Reports count thousands of cars, not persons at one gathering.",
+    "next_permitted_action": "Find a permitted contemporaneous site-specific attendee count; do not convert vehicles to people."
+  },
+  {
+    "gap_id": "GEO202010-G04",
+    "dimension": "protocol incident",
+    "reason": "At 09:54:59 UTC base URL Civil /archives/379581 was accidentally opened without exact local assessment after /amp was inaccessible. Exclude base-body response.",
+    "next_permitted_action": "Do not reopen either Civil URL in this pass; retain incident and use other permitted sources."
+  }
+]

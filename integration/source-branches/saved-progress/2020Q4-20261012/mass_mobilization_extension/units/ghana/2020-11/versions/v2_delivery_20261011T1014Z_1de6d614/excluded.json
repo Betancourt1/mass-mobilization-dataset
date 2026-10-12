@@ -1,0 +1,38 @@
+[
+  {
+    "candidate_id": "GHA202011_NDC_YE_GYE_YE_SIKA_MARCH",
+    "source_ids": [
+      "ndc_nov30"
+    ],
+    "reason": "Opened coverage places the 30 November multi-party NDC-led march in electoral mobilization immediately before the 7 December election; excluded under manual exclusion for election-associated campaign rallies.",
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "ndc_nov30"
+        ],
+        "summary": "Accra march held."
+      },
+      "exclusion": {
+        "source_ids": [
+          "ndc_nov30"
+        ],
+        "summary": "Article associates event with upcoming election campaign mobilization."
+      }
+    }
+  },
+  {
+    "candidate_id": "GHA202011_NCCE_PEACE_ROUTE_MARCH",
+    "source_ids": [
+      "ncce_notice"
+    ],
+    "reason": "Only a pre-event official notice was available, describing a security-service peace march; no anti-state public demand or actual gathering evidence.",
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "ncce_notice"
+        ],
+        "summary": "Search-only notice, body open returned tool error."
+      }
+    }
+  }
+]
