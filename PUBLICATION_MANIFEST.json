@@ -1,0 +1,36 @@
+{
+  "kind": "byte_identical_safe_file_selection",
+  "source_revision": "ee1b50b37d55e057e8c1644903f1367f5f2d9d9f",
+  "policy_reference_revision": "87dc8fc355c9ac413493e9e6d54e0138e5637347",
+  "files": [
+    {
+      "path": "closeout/2025Q1/CLOSEOUT.md",
+      "bytes": 1318,
+      "sha256": "e5579678a2ca872c668c8e895b07e5c0106904fb63865a47f98c560f15164acd"
+    },
+    {
+      "path": "closeout/2025Q1/INVENTORY.json",
+      "bytes": 656403,
+      "sha256": "032a56e097d8f4b951caa77716be4f98c5b792cd13c097fbf7e26334b320d1d1"
+    },
+    {
+      "path": "closeout/2025Q1/PRIVATE_EXPORT_HASHES.json",
+      "bytes": 341,
+      "sha256": "91c69e37bc5e51ffcba109164fb5cf0c90575160712017b885132853d0f0f4ce"
+    },
+    {
+      "path": "closeout/2025Q1/inventory.py",
+      "bytes": 6094,
+      "sha256": "03122e276a053041e74f1759ad0493abc2c6bb37a4fee5e1b9bf0af6e70b186d"
+    }
+  ],
+  "exclusions": [
+    "All scientific dossiers, sources, search ledgers, raw/body text, access controls, private identifiers and original checkpoint history retained privately; only nonpersonal inventory IDs/counts/hash metadata and reproducible code selected."
+  ],
+  "research_stopped": true,
+  "official_complete_units": 0,
+  "generated_closeout_files": [
+    "closeout/2025Q1/CLOSEOUT.md",
+    "closeout/2025Q1/PRIVATE_EXPORT_HASHES.json"
+  ]
+}
