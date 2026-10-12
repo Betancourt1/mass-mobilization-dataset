@@ -1,0 +1,444 @@
+[
+  {
+    "gap_id": "SRI202101-G001",
+    "type": "participants",
+    "description": "The strongest contemporary reports describe the Jaffna crowd as “dozens” and identify students/residents but give no exact count or lower bound proving 50.",
+    "source_ids": [
+      "SRI202101-S034",
+      "SRI202101-S035",
+      "SRI202101-S062"
+    ],
+    "affected_candidates": [
+      "SRI202101-E001"
+    ],
+    "required_followup": "Find a contemporary estimate or other direct evidence of the number physically assembled; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "SRI202101-G002",
+    "type": "dates",
+    "description": "The Jaffna protest was observed overnight and a student hunger strike ended after a rebuilding promise on 11 January, but no source establishes when the wider physical assembly ended. A separate Pottuvil–Polikandy march began on 3 February, but its different route and organizers do not establish a physical continuation of the Jaffna University protest.",
+    "source_ids": [
+      "SRI202101-S034",
+      "SRI202101-S035",
+      "SRI202101-S062",
+      "SRI202101-S064",
+      "SRI202101-S004"
+    ],
+    "affected_candidates": [
+      "SRI202101-E001"
+    ],
+    "required_followup": "Use contemporary January reporting to identify when the Jaffna-campus assembly or any continuous encampment physically ended; do not treat the separate Pottuvil–Polikandy march as a continuation without direct evidence."
+  },
+  {
+    "gap_id": "SRI202101-G003",
+    "type": "episode_unit",
+    "description": "The 11 January North-East hartal is documented as business, school and service closures in support of the Jaffna students, but no independent region-wide assembly is documented. Its relation to the campus protest is not a basis for automatic splitting or merging. Daily Mirror reports Batticaloa District protests and closures in several towns, but does not specify a separate assembly or turnout. The separately reported Siththandi farmer demonstration is dated by relative wording to 10 January and is not evidence of an assembly during the 11 January hartal. The Sunday Times account also reports institutional closures; Hiru reports a planned shutdown and Tamil Guardian records calls to join, neither documenting a distinct public assembly.",
+    "source_ids": [
+      "SRI202101-S062",
+      "SRI202101-S064",
+      "SRI202101-S275",
+      "SRI202101-S299",
+      "SRI202101-S038",
+      "SRI202101-S067",
+      "SRI202101-S302"
+    ],
+    "affected_candidates": [
+      "SRI202101-E001",
+      "SRI202101-X001"
+    ],
+    "required_followup": "Check local reporting for physical assemblies connected to the 11 January hartal, including the Batticaloa towns; preserve closures as excluded if no qualifying gathering is evidenced."
+  },
+  {
+    "gap_id": "SRI202101-G004",
+    "type": "baseline",
+    "description": "The current official MM bytes/universe and additional Coding Procedure remain unresolved; this unit uses the documented provisional code 780 and cannot claim official compatibility.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resolve the existing official-baseline and procedure access gaps before official compatibility, integration, or approval; provisional research, consolidation, and working exports may proceed while the gate remains pending."
+  },
+  {
+    "gap_id": "SRI202101-G005",
+    "type": "source_independence",
+    "description": "Tamil Guardian's Jan 8, Jan 9 and Jan 11 reports are from one outlet. The Al Jazeera Jan 12 page credits AFP; avoid counting AFP republications as independent corroboration. Ada Derana and Adayaalam provide distinct publication records but differing scope and detail. Additional coverage comes from Peoples Dispatch, News 1st, Daily Mirror and The Sunday Times; a Tamil Guardian photo credit on the Peoples Dispatch page alone does not establish written syndication. The 10 January Tamil Guardian hartal call is from that same outlet and is not independent event corroboration.",
+    "source_ids": [
+      "SRI202101-S034",
+      "SRI202101-S035",
+      "SRI202101-S037",
+      "SRI202101-S041",
+      "SRI202101-S062",
+      "SRI202101-S064",
+      "SRI202101-S042",
+      "SRI202101-S272",
+      "SRI202101-S275",
+      "SRI202101-S299",
+      "SRI202101-S067"
+    ],
+    "affected_candidates": [
+      "SRI202101-E001",
+      "SRI202101-X001"
+    ],
+    "required_followup": "Compare written bylines, underlying agency and direct statement sources for each additional article before describing corroboration."
+  },
+  {
+    "gap_id": "SRI202101-G006",
+    "type": "source_access",
+    "description": "Hiru's English hartal page had an open-tool Cache miss. One ordinary HTTPS GET returned HTTP 200 on the same URL, but the response parser exposed only title/scripts and did not extract the article body; the card remains search_only.",
+    "source_ids": [
+      "SRI202101-S039"
+    ],
+    "affected_candidates": [
+      "SRI202101-X001"
+    ],
+    "required_followup": "Use another accessible contemporary report for event facts; do not rely on the Hiru article beyond its search-result title."
+  },
+  {
+    "gap_id": "SRI202101-G007",
+    "type": "participants",
+    "description": "The ECT-related assembly leads have no numeric crowd estimate; the newly opened 8 January Sunday Times report confirms the 7 January picket but no threshold, and other reports identify groups without establishing 50.",
+    "source_ids": [
+      "SRI202101-S164",
+      "SRI202101-S172",
+      "SRI202101-S173",
+      "SRI202101-S175",
+      "SRI202101-S166"
+    ],
+    "affected_candidates": [
+      "SRI202101-E002",
+      "SRI202101-E003",
+      "SRI202101-E004",
+      "SRI202101-E005"
+    ],
+    "required_followup": "Find direct attendance estimates or other reliable evidence of at least 50 people for each distinct physical action; otherwise retain pending_threshold/pending_evidence."
+  },
+  {
+    "gap_id": "SRI202101-G008",
+    "type": "episode_unit",
+    "description": "Several dates and organizers relate to the same ECT public-policy controversy, including a port-worker picket, JVP protest, Ceylon Teachers Union protest and possibly repeated port agitation. The record does not establish whether any belong to one ongoing episode or distinct episodes. February follow-up reports describe a broader port-union campaign and 1 February talks, but do not show physical continuity or resolve whether the January site/day actions are one event.",
+    "source_ids": [
+      "SRI202101-S164",
+      "SRI202101-S172",
+      "SRI202101-S173",
+      "SRI202101-S174",
+      "SRI202101-S175",
+      "SRI202101-S291",
+      "SRI202101-S292",
+      "SRI202101-S295"
+    ],
+    "affected_candidates": [
+      "SRI202101-E002",
+      "SRI202101-E003",
+      "SRI202101-E004",
+      "SRI202101-E005"
+    ],
+    "required_followup": "Apply the missing original Coding Procedure and compare organizers, locations, continuity and dates. Treat February 1 agreement as campaign-level unless a source ties it to a particular January assembly; do not merge by shared issue or split by report/date alone."
+  },
+  {
+    "gap_id": "SRI202101-G009",
+    "type": "dates",
+    "description": "The 7 January picket date is now explicitly confirmed by the 8 January Sunday Times photo report. The 22 January CTU protest and Gate 3 agitation remain derived from weekday references in articles dated 27 and 24 January; the Gate 3 wording still mixes completed agitation with a planned demonstration.",
+    "source_ids": [
+      "SRI202101-S164",
+      "SRI202101-S173",
+      "SRI202101-S175",
+      "SRI202101-S166"
+    ],
+    "affected_candidates": [
+      "SRI202101-E004",
+      "SRI202101-E005"
+    ],
+    "required_followup": "Seek independent contemporaneous numeric dates for the 22 January actions and verify whether the planned Gate 3 demonstration occurred."
+  },
+  {
+    "gap_id": "SRI202101-G010",
+    "type": "source_independence",
+    "description": "ECT coverage is from several local outlets, with union-leader quotes repeated in later reporting. No formal agency is identified in these opened pages; repeated coverage of one campaign does not establish independent attendance corroboration. A second Sunday Times account confirms the 7 January picket, but it is from the same outlet and does not provide independent-outlet turnout corroboration.",
+    "source_ids": [
+      "SRI202101-S164",
+      "SRI202101-S169",
+      "SRI202101-S172",
+      "SRI202101-S173",
+      "SRI202101-S174",
+      "SRI202101-S175",
+      "SRI202101-S291",
+      "SRI202101-S292",
+      "SRI202101-S295",
+      "SRI202101-S166"
+    ],
+    "affected_candidates": [
+      "SRI202101-E002",
+      "SRI202101-E003",
+      "SRI202101-E004",
+      "SRI202101-E005"
+    ],
+    "required_followup": "Check bylines, direct witnesses and shared press releases before treating separate articles as independent evidence."
+  },
+  {
+    "gap_id": "SRI202101-G012",
+    "type": "language",
+    "description": "Focused Sinhala searches returned mostly unrelated/current-period material. A focused Tamil-language query found later protest coverage, including a TamilWin search result for a September 2026 action marking the third anniversary of a later Siththandi protest sequence; it does not document a January 2021 gathering. Local-language coverage of January 2021 remains weak.",
+    "source_ids": [
+      "SRI202101-S304"
+    ],
+    "affected_candidates": [
+      "SRI202101-E001",
+      "SRI202101-E002",
+      "SRI202101-E003",
+      "SRI202101-E004",
+      "SRI202101-E005",
+      "SRI202101-E010",
+      "SRI202101-E011",
+      "SRI202101-E012"
+    ],
+    "required_followup": "Continue focused Sinhala and Tamil searches for January 2021 local reporting on students, port labor, farmers, fishing, environment and political actions; verify dates and bodies in accessible originals, and do not treat later campaign coverage as January evidence."
+  },
+  {
+    "gap_id": "SRI202101-G013",
+    "type": "participants",
+    "description": "The 29 January Galle Port protest is directly reported as a one-hour public blockade but attendance is uncounted.",
+    "source_ids": [
+      "SRI202101-S167"
+    ],
+    "affected_candidates": [
+      "SRI202101-E006"
+    ],
+    "required_followup": "Seek a contemporary numeric or explicit qualitative estimate showing whether 50 or more people were present."
+  },
+  {
+    "gap_id": "SRI202101-G014",
+    "type": "dates",
+    "description": "News First's 26 January report describes protests at Trincomalee, Hatton, Kandy and Negombo but does not state separate event dates; the publication date is not treated as the event date.",
+    "source_ids": [
+      "SRI202101-S201"
+    ],
+    "affected_candidates": [
+      "SRI202101-E007",
+      "SRI202101-E008",
+      "SRI202101-E009",
+      "SRI202101-X003"
+    ],
+    "required_followup": "Seek contemporary site-level reports that establish each gathering's actual date and physical closure."
+  },
+  {
+    "gap_id": "SRI202101-G015",
+    "type": "participants",
+    "description": "The News First multi-site report gives no attendance estimate at any site, so the ≥50 threshold is unknown for the Trincomalee, Hatton and Negombo candidates.",
+    "source_ids": [
+      "SRI202101-S201"
+    ],
+    "affected_candidates": [
+      "SRI202101-E007",
+      "SRI202101-E008",
+      "SRI202101-E009"
+    ],
+    "required_followup": "Find site-level counts or explicit crowd descriptions; do not infer attendance from the word protest or site count."
+  },
+  {
+    "gap_id": "SRI202101-G016",
+    "type": "state_target",
+    "description": "The News First report directly records a domestic ECT/Adani policy demand in Trincomalee but does not specify a Sri Lankan government demand for Hatton or Negombo. The Kandy action is reported opposite the Indian mission and appears foreign-targeted.",
+    "source_ids": [
+      "SRI202101-S201"
+    ],
+    "affected_candidates": [
+      "SRI202101-E007",
+      "SRI202101-E008",
+      "SRI202101-E009",
+      "SRI202101-X003"
+    ],
+    "required_followup": "Verify the exact demand and target separately at each site before considering inclusion."
+  },
+  {
+    "gap_id": "SRI202101-G017",
+    "type": "source_access",
+    "description": "The Ada Derana Trincomalee port-workers story returned actual HTTP 403 Forbidden; the separate Hiru meeting page returned Cache miss and remains unverified.",
+    "source_ids": [
+      "SRI202101-S236",
+      "SRI202101-S241"
+    ],
+    "affected_candidates": [
+      "SRI202101-E002",
+      "SRI202101-E003",
+      "SRI202101-E004",
+      "SRI202101-E005",
+      "SRI202101-E006"
+    ],
+    "required_followup": "Respect the saved Ada Derana HTTP 403: do not retry, bypass access controls, or use an alternate route; use other already accessible contemporary reports. Preserve the Ada Derana lead as blocked."
+  },
+  {
+    "gap_id": "SRI202101-G018",
+    "type": "source_access",
+    "description": "Focused Sinhala search results identified a government report of a president-union meeting and Lankadeepa port-protest coverage. Open-tool Cache misses prevented reading the government, Trincomalee and related feature pages; one exact Lankadeepa protest-page HTTPS request returned HTTP 200 but did not expose the titled article body in the limited extraction.",
+    "source_ids": [
+      "SRI202101-S276",
+      "SRI202101-S277",
+      "SRI202101-S278",
+      "SRI202101-S279",
+      "SRI202101-S280",
+      "SRI202101-S281",
+      "SRI202101-S282",
+      "SRI202101-S284"
+    ],
+    "affected_candidates": [
+      "SRI202101-E002",
+      "SRI202101-E003",
+      "SRI202101-E004",
+      "SRI202101-E005",
+      "SRI202101-E006",
+      "SRI202101-E007"
+    ],
+    "required_followup": "Use already-accessible contemporary reports for factual fields; retain search-only Sinhala leads without coding their headlines as event evidence or repeating the exact requests."
+  },
+  {
+    "gap_id": "SRI202101-G019",
+    "type": "source_access",
+    "description": "A Thinakaran January 2021 issue PDF and a separate Tamil-language World Socialist Web Site article dated 22 February about Colombo Port privatization returned HTTP 403 Forbidden. Their contents remain inaccessible and were not used for event coding.",
+    "source_ids": [
+      "SRI202101-S285",
+      "SRI202101-S286"
+    ],
+    "affected_candidates": [
+      "SRI202101-E001",
+      "SRI202101-E002",
+      "SRI202101-E003",
+      "SRI202101-E004",
+      "SRI202101-E005",
+      "SRI202101-E006",
+      "SRI202101-E007",
+      "SRI202101-E008",
+      "SRI202101-E009"
+    ],
+    "required_followup": "Respect both 403 denials; use accessible contemporary reports and do not retry or route around either URL."
+  },
+  {
+    "gap_id": "SRI202101-G020",
+    "type": "episode_unit",
+    "description": "ECT-related public actions occurred before January, including a July 2020 Black Week demonstration described by The Sunday Times. December 2020 search results identify two silent/picket protest reports, but one is blocked by HTTP 429 and the other yielded HTTP 200 without accessible article text. No available evidence establishes physical continuity from those actions into January. A related later Telo port-workers page also returned Cache miss and provides no verified date or body evidence. A Tamil-language World Socialist Web Site article dated 22 February about port privatization also returned HTTP 403 and does not establish physical continuity.",
+    "source_ids": [
+      "SRI202101-S254",
+      "SRI202101-S256",
+      "SRI202101-S263",
+      "SRI202101-S291",
+      "SRI202101-S292",
+      "SRI202101-S295",
+      "SRI202101-S298",
+      "SRI202101-S255",
+      "SRI202101-S239",
+      "SRI202101-S286"
+    ],
+    "affected_candidates": [
+      "SRI202101-E002",
+      "SRI202101-E003",
+      "SRI202101-E004",
+      "SRI202101-E005",
+      "SRI202101-E006"
+    ],
+    "required_followup": "Compare accessible December and January reports and apply the original Coding Procedure to decide separate rallies versus a continuing episode; do not infer continuity from a shared ECT demand or campaign label. No additional request to blocked/unreadable pages is authorized."
+  },
+  {
+    "gap_id": "SRI202101-G021",
+    "type": "source_access",
+    "description": "Two Hiru pages on port work-to-rule and planned strike action returned Cache miss; a Sunday Times ECT political article returned a JavaScript-required gate. These are campaign/context leads without accessible article content.",
+    "source_ids": [
+      "SRI202101-S165",
+      "SRI202101-S168",
+      "SRI202101-S171"
+    ],
+    "affected_candidates": [
+      "SRI202101-E002",
+      "SRI202101-E004",
+      "SRI202101-E005",
+      "SRI202101-E006"
+    ],
+    "required_followup": "Use accessible opened sources for coding; retain these as search_only or blocked and do not bypass the JavaScript gate or infer execution from announcement headlines."
+  },
+  {
+    "gap_id": "SRI202101-G022",
+    "type": "source_access",
+    "description": "Relevant Jaffna/memorial and general protest-search leads returned Cache miss or timeout: the INFORM Jan–March PDF, SATP 2021 protests page, JDS Lanka, Lankasara, TamilNet January archive, The Island and Yarlosai. Their bodies remain unread and no event facts are based on their search headers.",
+    "source_ids": [
+      "SRI202101-S002",
+      "SRI202101-S012",
+      "SRI202101-S040",
+      "SRI202101-S044",
+      "SRI202101-S045",
+      "SRI202101-S273",
+      "SRI202101-S274"
+    ],
+    "affected_candidates": [
+      "SRI202101-E001",
+      "SRI202101-E002",
+      "SRI202101-E003",
+      "SRI202101-E004",
+      "SRI202101-E005",
+      "SRI202101-E006",
+      "SRI202101-E007",
+      "SRI202101-E008",
+      "SRI202101-E009"
+    ],
+    "required_followup": "Use the opened contemporary sources already captured; do not infer event facts from these headers. Respect the ordinary public access outcome and preserve this coverage limitation."
+  },
+  {
+    "gap_id": "SRI202101-G023",
+    "type": "participants",
+    "description": "The Jan10 Siththandi demonstration and Jan15 land rally are reported without any turnout estimate or qualitative crowd scale. The Jan20 march is described as attended by named representatives and “hundred others,” which supports a qualitative >50 threshold but not an exact interval.",
+    "source_ids": [
+      "SRI202101-S300",
+      "SRI202101-S301",
+      "SRI202101-S302"
+    ],
+    "affected_candidates": [
+      "SRI202101-E010",
+      "SRI202101-E011",
+      "SRI202101-E012"
+    ],
+    "required_followup": "Seek independent contemporary crowd estimates for each dated gathering; keep the Jan10 and Jan15 thresholds pending and do not turn the Jan20 qualitative wording into an exact count."
+  },
+  {
+    "gap_id": "SRI202101-G024",
+    "type": "episode_unit",
+    "description": "A Jan10 demonstration, Jan15 rally and Jan20 march in Batticaloa concern cattle farmers land and pasture grievances, but no opened source or original Coding Procedure resolves whether the physical actions are distinct episodes or repeated parts of one episode. A later TamilWin search result describes a separate 2026 protest marking a three-year anniversary of a later Siththandi protest sequence; it does not establish continuity from January 2021. The Jan22 CHRD search lead concerns a related court case, not an event boundary.",
+    "source_ids": [
+      "SRI202101-S300",
+      "SRI202101-S301",
+      "SRI202101-S302",
+      "SRI202101-S303",
+      "SRI202101-S304"
+    ],
+    "affected_candidates": [
+      "SRI202101-E010",
+      "SRI202101-E011",
+      "SRI202101-E012"
+    ],
+    "required_followup": "Compare January organizers, places, physical continuity and direct demands, then apply the missing original episode rule. Treat the later 2023-onward protest lead as a separate temporal sequence unless direct evidence connects it to January 2021; do not merge by shared issue or split solely by date proximity."
+  },
+  {
+    "gap_id": "SRI202101-G025",
+    "type": "state_target",
+    "description": "The Jan15 Tamil Guardian account describes opposition to land occupation by Sinhala settlers but does not identify a demand to the Sri Lankan government or a state policy. The Jan20 report later says the government helped designate pastureland for army occupation; that later report is not used to infer the Jan15 rally's target.",
+    "source_ids": [
+      "SRI202101-S300",
+      "SRI202101-S301"
+    ],
+    "affected_candidates": [
+      "SRI202101-E012"
+    ],
+    "required_followup": "Find an event-specific contemporary account or organizer statement identifying whether the Jan15 rally addressed a Sri Lankan authority or policy."
+  },
+  {
+    "gap_id": "SRI202101-G026",
+    "type": "source_independence",
+    "description": "The newly identified Jan10, Jan15 and Jan20 Batticaloa farmer actions are described in separate Tamil Guardian articles from the same outlet. A CHRD search-only legal-case item provides related case context but not independent reporting on the gatherings.",
+    "source_ids": [
+      "SRI202101-S300",
+      "SRI202101-S301",
+      "SRI202101-S302",
+      "SRI202101-S303"
+    ],
+    "affected_candidates": [
+      "SRI202101-E010",
+      "SRI202101-E011",
+      "SRI202101-E012"
+    ],
+    "required_followup": "Seek accessible independent Tamil/Sinhala/English reports or direct primary documentation for the gatherings; preserve the single-outlet limitation if none is found."
+  }
+]

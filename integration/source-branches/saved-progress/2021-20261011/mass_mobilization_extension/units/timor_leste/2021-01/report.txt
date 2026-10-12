@@ -1,0 +1,25 @@
+Timor Leste — January 2021
+Status: researched_open_web_pending_review
+Fixed event cutoff: 2026-10-07 inclusive, America/Mexico_City.
+Country code: 860 (provisional). Baseline gate: pending_official_baseline.
+
+Scope and method
+The unit covers 1–31 January 2021. I logged 22 separate open-web searches in English, Portuguese, Tetum/Tetun-style spellings, and Indonesian. Searches covered all four January weekly windows, Dili and the district names Baucau, Ermera, Covalima and Manatuto, and student, veteran/pension, worker/union, farmer/land and public-policy terms. I also searched December 2020 and February 2021 for possible physical continuity, and queried TATOLI, Timor Post, Tempo Timor, Lusa and Suara Timor Lorosae. Search result title, URL and reference headers are preserved in search_log.jsonl; the tool exposed no overall result totals.
+
+Findings
+No January 2021 public gathering meeting the dataset threshold and own-state demand criteria was verified in this open-web pass. events.json, excluded.json and continuations.json are empty. This records an unresolved research result, not evidence that no protest occurred.
+
+One January source body was opened: TATOLI's 4 January report says Dili police recorded 50 incidents over 31 December–1 January, including disturbances attributed to intoxicated youths and traffic infractions. The 50 refers to police-recorded cases, not protesters; the article does not report a protest or a demonstrator count. Three other saved cards are search-only context: a government decree dated 15 January, a TATOLI report about parliamentary renewal of the state of emergency, and a February 16 mobility-restriction snippet from Tempo Timor. None is evidence of a public gathering. No source denial or anti-bot challenge was encountered; no body was opened for these context records.
+
+Search results surfaced 2025 student-protest reports and older RTP archive items whose event dates were not fully captured, as well as a search-only February 16 mobility-restriction snippet. These were not counted as January events or continuations. December and February searches did not identify a specific episode crossing the boundary, but their limited search coverage cannot establish that no continuing event existed.
+
+Limitations and follow-up
+Open-web searching does not reproduce LexisNexis or a systematic newspaper archive. Results often ignored the requested dates, and district or sector queries do not establish complete coverage. The Tetum, Portuguese and Indonesian searches do not replace fluent review of local-language archives; Suara Timor Lorosae's named-site query returned no result headers. More local reporting, archive and language review is needed before claiming comprehensive coverage.
+
+All seven state-response dimensions remain uncoded because no qualifying event was established. No official Mass Mobilization ID or approval is claimed. Baseline version, universe, current schema and additional Coding Procedure remain unresolved centrally.
+
+Capture repairs
+The Q002 time field's duplicated UTC suffix was corrected using the captured pre-query clock value without rerunning the search. A PDF cover/page header and a PDF page-number/body heading were set to null titles in Q002 and Q013, respectively, while preserving their URLs, references and order. The Q014 sixth returned header (ref turn5446search6; URL https://timor-leste.gov.tl/?lang=en&p=29249&print=1) also has title:null in the saved capture. Its known raw response was unavailable during correction, so the exact cause is unknown; the title remains uncaptured. The query was not rerun and no title was guessed. No raw search output or article body was saved in the repository.
+
+Resources
+No temporary server, browser automation, container, VM or background process was started by this worker.

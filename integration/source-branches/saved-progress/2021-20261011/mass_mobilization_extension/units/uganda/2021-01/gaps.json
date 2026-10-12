@@ -1,0 +1,38 @@
+[
+  {
+    "gap_id": "uganda_2021-01_G001",
+    "type": "occurrence_threshold_unit",
+    "description": "The opened VOA Swahili report records a January 22 call for nationwide peaceful demonstrations over alleged election-result fraud but gives no physical date, venue, attendance, or evidence that a gathering occurred. The announcement remains pending evidence and physical unit ownership.",
+    "source_ids": [
+      "UGA-S117"
+    ],
+    "affected_candidates": [
+      "uganda_2021-01_E001"
+    ],
+    "required_followup": "Search contemporaneous English, Swahili and Luganda reports after January 22 for executed gatherings; if found, establish date, place, attendance of at least 50, domestic state target, episode onset and event-specific responses."
+  },
+  {
+    "gap_id": "uganda_2021-01_G002",
+    "type": "source_access_unverified_lead",
+    "description": "Two search-result headlines mention possible Jinja protest activity: UGA-S162 says protests occurred as security blocked pedestrians, but its body returned HTTP 403; UGA-S161 says residents demonstrated over a dusty road, but the HTTP 200 page yielded only title metadata and no article paragraphs/date. The titles do not establish January timing, actual occurrence details, attendance of at least 50, own-state demand, episode boundaries, or responses. The leads may be unrelated; no candidate or merge is created.",
+    "source_ids": [
+      "UGA-S162",
+      "UGA-S161"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry or mirror the blocked Uganda Radio Network item in this run. A later review may resolve each lead only from independently authored, dated, substantive reporting; until then no event is coded from these headlines."
+  },
+  {
+    "gap_id": "uganda_2021-01_G003",
+    "type": "participants_episode_unit_source_independence",
+    "description": "The opened January 18 Reuters report says protests occurred on January 16 in Luwero and Masaka and attributes two deaths and 23 arrests to NTV Uganda/local police, but gives no crowd size, venue or further details. The report does not resolve whether the two district actions are separate events or one coordinated episode, whether either site reached 50 people, or which site the deaths/arrests concern. Fiji Times and DefenceWeb copies share one Reuters origin; Reddit leads do not independently corroborate it.",
+    "source_ids": [
+      "UGA-S206",
+      "UGA-S249"
+    ],
+    "affected_candidates": [
+      "uganda_2021-01_E002"
+    ],
+    "required_followup": "Seek contemporaneous NTV or other independently authored local reporting for Luwero and Masaka separately; establish exact sites, attendance threshold, episode separation and attribution of state actions. Do not count Reuters copies as independent. Respect the existing HRW, AP and Uganda Radio Network no-request boundaries."
+  }
+]

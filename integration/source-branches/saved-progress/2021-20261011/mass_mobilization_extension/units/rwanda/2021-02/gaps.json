@@ -1,0 +1,192 @@
+[
+  {
+    "gap_id": "rwanda_2021-02-G001",
+    "type": "search_method",
+    "description": "The open-web search log records 18 native search actions, 72 query terms, and 433 ordered result headers. This does not reproduce the original LexisNexis/source universe, and result counts cannot establish that no other protest occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Compare with the original search protocol and accessible systematic news archives if available; retain this as an open-web first pass."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G002",
+    "type": "language",
+    "description": "Searches included English, Kinyarwanda, French and a limited Swahili-term check. The MUHAZI YACU article was read in Kinyarwanda, but interpretation has not received independent linguistic review; other-language/local indexing may be incomplete.",
+    "source_ids": [
+      "RW202102-S002"
+    ],
+    "affected_candidates": [
+      "rwanda_2021-02_E001"
+    ],
+    "required_followup": "Have the relevant Kinyarwanda passages independently reviewed and document additional language/archive coverage before eligibility review."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G003",
+    "type": "coverage",
+    "description": "Queries included local Gatsibo/Gakoni and Kigali terms, official and rights-report domains, national news, and student, labor, transport, health, teacher, farmer/vendor and land topics. They do not amount to systematic district-by-district or sector-by-sector coverage; most event-specific evidence concerns Gakoni.",
+    "source_ids": [
+      "RW202102-S016",
+      "RW202102-S017",
+      "RW202102-S018",
+      "RW202102-S019",
+      "RW202102-S020",
+      "RW202102-S023",
+      "RW202102-S024",
+      "RW202102-S025",
+      "RW202102-S026"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Extend local/regional and official-source checks across Rwanda’s districts and document which sectors and regions were actually searched; do not infer national absence from this batch."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G004",
+    "type": "baseline",
+    "description": "The official current MM dataset, universe, additional Coding Procedure and compatibility gate remain unresolved at the project level.",
+    "source_ids": [],
+    "affected_candidates": [
+      "rwanda_2021-02_E001"
+    ],
+    "required_followup": "Coordinator must complete the official-baseline and protocol review before any export or official eligibility claim."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G005",
+    "type": "participants",
+    "description": "No simultaneous protest-attendance estimate is reported. The “all students” wording, 16 arrests, enrollment of 372 (including 288 refugees), and the “15 students” photo caption do not establish a count at the protest. Public-meeting character and the 50-person threshold remain unknown.",
+    "source_ids": [
+      "RW202102-S001",
+      "RW202102-S002",
+      "RW202102-S006"
+    ],
+    "affected_candidates": [
+      "rwanda_2021-02_E001"
+    ],
+    "required_followup": "Seek direct event-specific attendance evidence and verify that at least 50 people participated in a public meeting before considering inclusion."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G006",
+    "type": "state_target",
+    "description": "The student account describes a condition that a peer be released and returned before students resume classes, while KT Press frames the strike against a suspension. Neither opened report clearly establishes whether protesters directed a demand to school management, local police or another competent Rwanda state authority, or government policy. No listed demand category clearly maps to the school-level condition.",
+    "source_ids": [
+      "RW202102-S001",
+      "RW202102-S002"
+    ],
+    "affected_candidates": [
+      "rwanda_2021-02_E001"
+    ],
+    "required_followup": "Verify the exact stated demand and its recipient, including whether it was directed to a competent state authority such as local police or to government policy, from direct contemporaneous reporting or records; retain the candidate as pending evidence until then."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G007",
+    "type": "contested_evidence",
+    "description": "The trigger accounts differ: KT Press attributes the suspension to repeated dormitory departures to drink; MUHAZI YACU reports different alleged conduct and a COVID-rules briefing. Both cite Mayor Richard Gasana, leaving a shared official-source dependency and unresolved account conflict.",
+    "source_ids": [
+      "RW202102-S001",
+      "RW202102-S002"
+    ],
+    "affected_candidates": [
+      "rwanda_2021-02_E001"
+    ],
+    "required_followup": "Look for original student/school/police/official statements or an independent contemporary account; preserve both reports and do not resolve by outlet count."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G008",
+    "type": "dates",
+    "description": "KT Press dates the strike to 7 February; the reports separately describe class refusal on 8 February and closure on 9 February. The 26 February reopening report is a later response, not an event end. The physical end of protest activity and whether the refusal was continuous remain unknown.",
+    "source_ids": [
+      "RW202102-S001",
+      "RW202102-S002",
+      "RW202102-S006"
+    ],
+    "affected_candidates": [
+      "rwanda_2021-02_E001"
+    ],
+    "required_followup": "Find an event-specific source for the physical end and distinguish strike, later class refusal, school closure and ministerial response."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G009",
+    "type": "source_independence",
+    "description": "S001 and S002 are separately published local reports, but both cite the same mayor and disagree on the trigger. S006 is the same KT Press publisher/byline as S001 and repeats event details; it adds a ministerial response but is not independent event corroboration.",
+    "source_ids": [
+      "RW202102-S001",
+      "RW202102-S002",
+      "RW202102-S006"
+    ],
+    "affected_candidates": [
+      "rwanda_2021-02_E001"
+    ],
+    "required_followup": "Search for an original or independent event-specific account; do not count S006 as an independent confirmation or equate separate outlets with fully independent origins."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G010",
+    "type": "state_response",
+    "description": "The reports support arrests (16 students); accommodation, beatings, crowd dispersal, ignore, killings and shootings remain unknown. Student-reported protester property damage is coded yes, but is not independently corroborated. No silence is coded as explicit absence.",
+    "source_ids": [
+      "RW202102-S001",
+      "RW202102-S002",
+      "RW202102-S006"
+    ],
+    "affected_candidates": [
+      "rwanda_2021-02_E001"
+    ],
+    "required_followup": "Check event-specific sources for each response dimension separately; do not infer dispersal, beatings or state accommodation from arrests, school closure or later reopening."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G011",
+    "type": "source_access",
+    "description": "The exact UNHCR February operational-update PDF URL passed the saved gate/manual process, but the web tool returned Internal Error and said the URL was inaccessible via the tool. No HTTP status or publisher-origin denial was exposed and no PDF content was retrieved.",
+    "source_ids": [
+      "RW202102-S005"
+    ],
+    "affected_candidates": [
+      "rwanda_2021-02_E001"
+    ],
+    "required_followup": "Preserve as technically inaccessible with unknown HTTP; any later attempt requires a fresh authorized phase and exact-URL gate. Do not retry or use an alternate URL under this record."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G012",
+    "type": "prior_unit",
+    "description": "The exact Kigali Today URL represented by S003 matches January source RW202101-S006, whose body was already opened in the January dossier. S003 is prior-unit-only here and is not a new February read or corroboration.",
+    "source_ids": [
+      "RW202102-S003"
+    ],
+    "affected_candidates": [
+      "rwanda_2021-02_E001"
+    ],
+    "required_followup": "Use the saved January record only as prior-unit context; do not repeat the body request. Preserve February source evidence independently."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G013",
+    "type": "geographic_scope",
+    "description": "Search-title leads name Brussels, Paris, Geneva, The Hague, Lyon (S011–S013) and a separate embassy demonstration in Kinshasa (S014), all outside Rwanda. They are kept separate from the domestic Gakoni candidate; their bodies, dates, turnout and demands were not reviewed. S011–S013 may be related/reprinted, but relationship and independence are unverified.",
+    "source_ids": [
+      "RW202102-S011",
+      "RW202102-S012",
+      "RW202102-S013",
+      "RW202102-S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a separate diaspora/foreign-territory study is in scope, verify each city/action independently and trace Jambo News republication/origin; do not aggregate with Rwanda-territory attendance."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G014",
+    "type": "unverified_lead",
+    "description": "S009’s title describes support for Yvonne Idamange, S010 is a security alert, and S015 is a march against a Rwandan ambassador; title-only evidence does not establish location, an executed gathering, country target, turnout or relationship among them.",
+    "source_ids": [
+      "RW202102-S009",
+      "RW202102-S010",
+      "RW202102-S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep as separate context/search leads unless later authorized body review establishes a specific event, location and relevant demand."
+  },
+  {
+    "gap_id": "rwanda_2021-02-G015",
+    "type": "episode_unit",
+    "description": "S021 and S022 are taxi/taxi-moto protest search titles; body, exact date, sector, relation to one another and any continuation of January’s unresolved metering lead are unknown. No prior-month continuation is established for this unit.",
+    "source_ids": [
+      "RW202102-S021",
+      "RW202102-S022"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If these leads are revisited in an authorized phase, establish the event date and identity before linking to January or treating them as February continuations."
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "gap_id": "IRL202102-G001",
+    "type": "participants",
+    "description": "The Dublin event crosses the 50-person threshold qualitatively because S005 reports “hundreds”, but there is no exact crowd estimate, method, or independent count. S001 supplies no attendance estimate.",
+    "source_ids": [
+      "IRL202102-S001",
+      "IRL202102-S005"
+    ],
+    "affected_candidates": [
+      "ireland_2021-02-E001"
+    ],
+    "required_followup": "Seek an accessible contemporaneous independent attendance estimate and record its attribution; keep numeric participant bounds null unless explicitly supported."
+  },
+  {
+    "gap_id": "IRL202102-G002",
+    "type": "state_target",
+    "description": "S005 says the gathering protested current Covid-19 restrictions, supporting a broad social_restrictions demand directed at Irish policy; the exact regulations, organizers and stated demands are not identified in either read source.",
+    "source_ids": [
+      "IRL202102-S005"
+    ],
+    "affected_candidates": [
+      "ireland_2021-02-E001"
+    ],
+    "required_followup": "Review accessible participant or organizer statements and independent reporting for specific demands and organizer identity; do not infer concessions."
+  },
+  {
+    "gap_id": "IRL202102-G003",
+    "type": "dates",
+    "description": "The start day is reported as 27 February, with Garda placing assembly at about 1:30 p.m. and BreakingNews describing a protest scheduled for 2 p.m.; no source establishes the physical end.",
+    "source_ids": [
+      "IRL202102-S001",
+      "IRL202102-S005"
+    ],
+    "affected_candidates": [
+      "ireland_2021-02-E001"
+    ],
+    "required_followup": "Find contemporaneous reporting on the crowd’s dispersal and determine whether any later Dublin action is a separate event or part of a linked episode."
+  },
+  {
+    "gap_id": "IRL202102-G004",
+    "type": "state_response",
+    "description": "Arrests are supported (23 in the Garda release), while accommodation, beatings, crowd dispersal, ignore, killings and shootings remain unknown. Garda injuries do not identify harm to protesters. The official account of violence and arrests needs independent corroboration.",
+    "source_ids": [
+      "IRL202102-S001",
+      "IRL202102-S005"
+    ],
+    "affected_candidates": [
+      "ireland_2021-02-E001"
+    ],
+    "required_followup": "Review independent reports for event-specific state actions and participant casualties; retain unsupported response variables as unknown."
+  },
+  {
+    "gap_id": "IRL202102-G005",
+    "type": "source_access",
+    "description": "The Cork Debenhams RTÉ URL in S014 is an exact duplicate of Ireland January S004, which records an actual HTTP 403 with no body read. No request was made. Occurrence, turnout, demands, exact date and relationship to the wider dispute remain unverified.",
+    "source_ids": [
+      "IRL202102-S014",
+      "IRL202102-S018"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use a separately sourced accessible report to verify any February Cork picket and its attendance; establish campaign onset/continuity and state-directed demand before assigning an event or continuation. Do not retry the blocked URL or infer attendance from workforce totals."
+  },
+  {
+    "gap_id": "IRL202102-G006",
+    "type": "episode_unit",
+    "description": "S015 is an unopened Oireachtas-record discovery lead summarized as a planned Cork Topshop action on 23 February; execution, attendance and demand remain unverified.",
+    "source_ids": [
+      "IRL202102-S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If appropriate, review the saved record under the access workflow and seek independent reporting that an actual public gathering occurred and met the threshold."
+  },
+  {
+    "gap_id": "IRL202102-G007",
+    "type": "search_method",
+    "description": "Seven batched web search actions (28 query strings) produced 239 ordered result headers, but date-window queries returned unrelated/current results, so date filtering is unreliable. Regional, language and archive coverage is incomplete; no claim of absence follows from unreturned results.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with accessible regional archives and additional language-specific searches; capture every new original search action and keep each lead source-only until reviewed."
+  },
+  {
+    "gap_id": "IRL202102-G008",
+    "type": "source_access",
+    "description": "S002 is a search-only Deutsche Welle report and remains unopened under the saved publisher-wide hold; it could offer independent event coverage but no body evidence is used.",
+    "source_ids": [
+      "IRL202102-S002"
+    ],
+    "affected_candidates": [
+      "ireland_2021-02-E001"
+    ],
+    "required_followup": "Seek accessible independent coverage from a source without an applicable hold; do not open S002 while the hold remains active."
+  }
+]

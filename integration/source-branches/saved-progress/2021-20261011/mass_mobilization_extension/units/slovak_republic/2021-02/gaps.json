@@ -1,0 +1,125 @@
+[
+  {
+    "gap_id": "slovak_republic_2021-02-G001",
+    "type": "participants",
+    "description": "The 20 February Bratislava march lead has no visible crowd count or qualitative size estimate. The separate 19-person detention claim is not a turnout measure.",
+    "source_ids": [
+      "STG001",
+      "STG002",
+      "STG003"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2021-02-E001"
+    ],
+    "required_followup": "Seek an independent contemporaneous count, official attendance estimate, or credible crowd description; do not infer the threshold from detentions."
+  },
+  {
+    "gap_id": "slovak_republic_2021-02-G002",
+    "type": "state_target",
+    "description": "The captured titles refer to a freedom march and an invitation to police, but do not identify a sufficiently specific demand directed to the Slovak state or policy.",
+    "source_ids": [
+      "STG001",
+      "STG002"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2021-02-E001"
+    ],
+    "required_followup": "Review accessible full reporting and organizer material for the demand, recipient, and policy target; leave demand categories empty until established."
+  },
+  {
+    "gap_id": "slovak_republic_2021-02-G003",
+    "type": "state_response",
+    "description": "All seven response values remain unknown. A search-only snippet mentions police encircling/blocking movement; a separate archive repeats a 19-detention claim whose date, original source/origin, and event link are unknown. Neither supports coding a response yet.",
+    "source_ids": [
+      "STG001",
+      "STG003"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2021-02-E001"
+    ],
+    "required_followup": "Identify the original contemporaneous report and official police record, establish whether the 19-person claim concerns this event, and verify each response category separately."
+  },
+  {
+    "gap_id": "slovak_republic_2021-02-G004",
+    "type": "source_access",
+    "description": "All eight source cards remain search_only. The exact SHO URL produced one ordinary retrieval cache miss with no HTTP response/status or article body. The later fresh receipt/manual-review pair was not followed by a request after phase closure. No denial was observed.",
+    "source_ids": [
+      "STG001",
+      "STG002",
+      "STG003",
+      "STG004",
+      "STG005",
+      "STG006",
+      "STG007",
+      "STG008"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2021-02-E001"
+    ],
+    "required_followup": "Only if a future source-access phase is authorized, use a new exact-URL check/review chain and ordinary request; do not treat this cache miss as a denial or rely on the unused chain as a read."
+  },
+  {
+    "gap_id": "slovak_republic_2021-02-G005",
+    "type": "source_independence",
+    "description": "STG001 is published by a participant-affiliated organization. STG002 is a pre-event announcement that may refer to the same march, but identity is unverified. STG003 repeats a 19-detention claim without identifying its original reporting source. Independent corroboration and source-origin relationships are not established.",
+    "source_ids": [
+      "STG001",
+      "STG002",
+      "STG003"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2021-02-E001"
+    ],
+    "required_followup": "Find independent contemporary reporting or official records and trace any syndicated/copied origin before treating the leads as corroboration."
+  },
+  {
+    "gap_id": "slovak_republic_2021-02-G006",
+    "type": "episode_unit",
+    "description": "January 2021 Slovak events and continuations files are empty; no cross-month continuation into February is established. Whether the pre-event announcement, SHO post-event report, and possible detention item describe one event is unresolved; geographic ownership beyond Bratislava is also unknown.",
+    "source_ids": [
+      "STG001",
+      "STG002",
+      "STG003"
+    ],
+    "affected_candidates": [
+      "slovak_republic_2021-02-E001"
+    ],
+    "required_followup": "Compare neighboring-month evidence and identify event organization, participant group, date, venue, and multi-site coordination before linking or assigning ownership."
+  },
+  {
+    "gap_id": "slovak_republic_2021-02-G007",
+    "type": "coverage",
+    "description": "The 28 captured search actions cover English and Slovak, four weekly windows, nationwide terms, Bratislava and several other cities, official/municipal/public-broadcaster domains, rights/university queries, and farmer, union, student, health, police, referendum, and COVID-restriction themes. Returned headers include date/geography noise; this is not a systematic inventory of all regional archives or sectors.",
+    "source_ids": [],
+    "affected_candidates": [
+      "slovak_republic_2021-02-E001"
+    ],
+    "required_followup": "Continue regional and sector-specific review, including local reporting and official/rights records for cities and groups not resolved by the captured search results; preserve empty-result and relevance limits."
+  },
+  {
+    "gap_id": "slovak_republic_2021-02-G008",
+    "type": "language",
+    "description": "Searches were run in Slovak and English, but there was no independent human-language review or systematic check of regional variants and relevant neighboring-language coverage.",
+    "source_ids": [],
+    "affected_candidates": [
+      "slovak_republic_2021-02-E001"
+    ],
+    "required_followup": "Obtain human review of Slovak-language leads and assess whether neighboring-language or regional sources are needed for cross-border and minority reporting."
+  },
+  {
+    "gap_id": "slovak_republic_2021-02-G009",
+    "type": "search_method",
+    "description": "Open-web discovery is not equivalent to the source expansion and coverage described for LexisNexis in the original methodology; search result totals and comprehensive archive coverage are unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain the method limitation and compare against equivalent archived news coverage if available; do not infer no events from an empty/noisy result set."
+  },
+  {
+    "gap_id": "slovak_republic_2021-02-G010",
+    "type": "baseline",
+    "description": "The current official Mass Mobilization baseline, coding procedure, universe, and reuse conditions remain unverified for this provisional extension.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve official version/universe/schema/licensing and human-review requirements before any export or official compatibility claim."
+  }
+]

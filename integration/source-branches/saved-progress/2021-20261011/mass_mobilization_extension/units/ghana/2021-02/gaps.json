@@ -1,0 +1,151 @@
+[
+  {
+    "gap_id": "GHA202102-G001",
+    "type": "threshold",
+    "description": "S022 confirms COMOG held a Feb. 24 press conference in Accra and made a domestic-state call, but it gives no attendance figure or evidence of >=50 members of the public.",
+    "source_ids": [
+      "GHA202102-S022"
+    ],
+    "affected_candidates": [
+      "GHA202102-E001"
+    ],
+    "required_followup": "Find contemporary attendance evidence and establish whether the meeting was a qualifying public meeting under the historical manual."
+  },
+  {
+    "gap_id": "GHA202102-G002",
+    "type": "eligibility",
+    "description": "For the Feb. 5 Ada lead, only search-result evidence (especially S023) calls the event a protest; the opened retrospective S024 describes a petition allegation of an invasion and does not establish an assembly or a demand to Ghanaian state policy.",
+    "source_ids": [
+      "GHA202102-S023",
+      "GHA202102-S024",
+      "GHA202102-S025",
+      "GHA202102-S026",
+      "GHA202102-S027"
+    ],
+    "affected_candidates": [
+      "GHA202102-E002"
+    ],
+    "required_followup": "Obtain contemporaneous readable reporting or an original local record establishing whether people publicly assembled and what demand they directed to the state."
+  },
+  {
+    "gap_id": "GHA202102-G003",
+    "type": "threshold",
+    "description": "No source in the Feb. 5 Ada dossier gives total attendance; casualties, arrests and persons accused of attacking residents cannot substitute for turnout.",
+    "source_ids": [
+      "GHA202102-S023",
+      "GHA202102-S024",
+      "GHA202102-S025",
+      "GHA202102-S026",
+      "GHA202102-S027"
+    ],
+    "affected_candidates": [
+      "GHA202102-E002"
+    ],
+    "required_followup": "Find event-level attendance evidence; keep participants and threshold unknown until then."
+  },
+  {
+    "gap_id": "GHA202102-G004",
+    "type": "continuity",
+    "description": "The Feb. 5 Ada action may relate to January candidate GHA202101-E002, but the available material does not establish one continuous physical action. S024 separately discusses Jan. 27 shootings and a Feb. 5 allegation.",
+    "source_ids": [
+      "GHA202102-S023",
+      "GHA202102-S024",
+      "GHA202102-S025",
+      "GHA202102-S026",
+      "GHA202102-S027"
+    ],
+    "affected_candidates": [
+      "GHA202102-E002"
+    ],
+    "required_followup": "Compare the January and February source bodies and local event chronology; retain distinct dates unless continuity is directly supported."
+  },
+  {
+    "gap_id": "GHA202102-G005",
+    "type": "continuity",
+    "description": "Senior-staff strike reports conflict on its January start day (Jan. 2 versus Jan. 21), describe a February suspension/return call, and do not identify a February public gathering.",
+    "source_ids": [
+      "GHA202102-S001",
+      "GHA202102-S002",
+      "GHA202102-S005",
+      "GHA202102-S006",
+      "GHA202102-S007",
+      "GHA202102-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Reconcile the original January sources and search for any separately organized public action; do not convert the workforce into an attendance count."
+  },
+  {
+    "gap_id": "GHA202102-G006",
+    "type": "discovery",
+    "description": "June KNUST/Senior Staff reporting refers generally to “various protests since February” without dates, locations, organizers or crowd details that identify a specific February event.",
+    "source_ids": [
+      "GHA202102-S004",
+      "GHA202102-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Trace the original report and identify dated events, if any, before adding candidates."
+  },
+  {
+    "gap_id": "GHA202102-G007",
+    "type": "language",
+    "description": "The saved searches are English-language queries; Ghanaian-language terms and local-language news archives were not systematically searched.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search relevant local-language archives using verified terms and document the language and archive coverage."
+  },
+  {
+    "gap_id": "GHA202102-G008",
+    "type": "method",
+    "description": "Open-web searching does not reproduce the historical manual’s systematic LexisNexis “All News” search of selected major, regional and wire sources.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use comparable systematic archives when available; do not claim exhaustive coverage from the open-web pass."
+  },
+  {
+    "gap_id": "GHA202102-G009",
+    "type": "baseline",
+    "description": "The May 2015 manual PDF/text is available and was read, but the additional “Mass Mobilization Coding Procedure,” latest official event-file version, current schema and universe remain unverified at project level.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GHA202102-E001",
+      "GHA202102-E002"
+    ],
+    "required_followup": "Resolve the additional procedure and coordinator-owned official-baseline gate before any official integration."
+  },
+  {
+    "gap_id": "GHA202102-G010",
+    "type": "access",
+    "description": "NewsGhana S020 returned a cache miss; MFWA S023 timed out before article text on two attempts. These are technical retrieval failures, not observed HTTP denials or publisher holds.",
+    "source_ids": [
+      "GHA202102-S020",
+      "GHA202102-S023"
+    ],
+    "affected_candidates": [
+      "GHA202102-E001",
+      "GHA202102-E002"
+    ],
+    "required_followup": "If additional body evidence is needed, make a fresh exact-URL receipt and full saved manual publisher/origin review immediately before each permitted request; do not infer a denial from these failures."
+  },
+  {
+    "gap_id": "GHA202102-G011",
+    "type": "source_independence",
+    "description": "COMOG coverage includes a GNA-byline NewsGhana story (S020), an organizer statement (S021) and Graphic Online (S022); source independence or written-origin relationships are not fully established.",
+    "source_ids": [
+      "GHA202102-S020",
+      "GHA202102-S021",
+      "GHA202102-S022"
+    ],
+    "affected_candidates": [
+      "GHA202102-E001"
+    ],
+    "required_followup": "Review the exact original pages and any explicit written-origin links; do not count syndicated or organizer material as independent corroboration."
+  },
+  {
+    "gap_id": "GHA202102-G012",
+    "type": "discovery",
+    "description": "The targeted Menzgold query Q017 surfaced petition and dispute reports from other dates but no dated February 2021 public gathering. This search result is a gap marker, not evidence that none occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use local archives or systematic news databases to check whether customers held a February public assembly; preserve no-event uncertainty."
+  }
+]

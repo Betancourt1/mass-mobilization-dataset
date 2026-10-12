@@ -1,0 +1,30 @@
+{
+  "unit_id": "luxembourg_2021-02",
+  "country": "Luxembourg",
+  "month": "2021-02",
+  "agent_task": "/root/luxembourg_2021_02_batch59",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T16:35:51Z",
+  "finished_at": "2026-10-10T17:28:24Z",
+  "n_queries": 36,
+  "n_sources": 18,
+  "n_candidates": 3,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 12,
+  "coverage_assessment": "Bounded open-web first pass: 36 registered search invocations with 903 ordered headers/URLs, including single and batched queries in English, French, German and Luxembourgish and week/date plus sector searches. The rollout reconciliation matches every action ID, exact query, timestamp, ordered header and URL array. 18 exact-URL cards comprise 1 opened written article and 17 search-only leads. Three provisional candidates remain pending evidence; there is no supported qualifying threshold/state-demand record, no established continuation and no confidently excluded action. LexisNexis/systematic local archive coverage and the official baseline remain unavailable; no completeness or non-occurrence claim is made.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 1,
+    "search_only_cards": 17,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "physical_body_reads": 1,
+  "query_capture_integrity": {
+    "rollout_id": "01a126a9-00f6-7602-ae42-a2a4bc36d9fa",
+    "search_actions_reconciled": 36,
+    "captured_header_count": 903,
+    "method": "extract_search_captures.py pass036; exact original event ID, query, execution/capture clocks, ordered result headers and URL arrays compared to every saved search_log row."
+  }
+}

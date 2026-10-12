@@ -1,0 +1,134 @@
+[
+  {
+    "gap_id": "SL202102-G001",
+    "type": "baseline",
+    "description": "The current official Mass Mobilization dataset version, universe, codebook/additional Coding Procedure, and reuse conditions remain unverified for this extension.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should verify official bytes, period, universe, schema and reuse terms before any final eligibility or export decision."
+  },
+  {
+    "gap_id": "SL202102-G002",
+    "type": "coverage",
+    "description": "The 54 captured searches used open-web discovery and cannot reproduce LexisNexis or establish exhaustive coverage of Sierra Leonean reporting. Search result dates and engine date filters were not independently verified against article bodies.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Maintain the open-web coverage limit; when authorized, compare accessible contemporary archives and clearly report remaining gaps rather than treating searches as proof of absence."
+  },
+  {
+    "gap_id": "SL202102-G003",
+    "type": "language",
+    "description": "Search coverage included English queries, a Krio-oriented probe and one French-language probe, but no fluent/manual Krio or French source review was completed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review relevant local-language reporting with qualified language coverage when available; do not infer silence from the limited probes."
+  },
+  {
+    "gap_id": "SL202102-G004",
+    "type": "coverage",
+    "description": "Searches named Freetown, Bo, Kenema, Makeni and Koidu and included local/regional outlets and sector probes, but region-level archive coverage is uneven and does not establish nationwide absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Follow accessible regional/local reporting in the named areas and any additional locations surfaced by evidence; retain the current non-exhaustive scope."
+  },
+  {
+    "gap_id": "SL202102-G005",
+    "type": "source_access",
+    "description": "The CID/youth lead from S001 remains unverified. The exact attempted Calabash URL returned HTTP 403 (native ref turn2807view0); no article body was read and the native trace does not expose a final URL. The restriction is scoped to this exact URL only. S008 is an unopened search-result headline that may relate to the same report/event; it does not establish independent corroboration. Arrested people are not turnout.",
+    "source_ids": [
+      "SL202102-S001",
+      "SL202102-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry the denied URL during the closed phase. Seek a legitimately accessible independent contemporary account in a future authorized review, verifying event date, actual gathering, turnout, state-directed demand and source independence before coding."
+  },
+  {
+    "gap_id": "SL202102-G006",
+    "type": "source_access",
+    "description": "S002’s exact PDF request was dispatched after a passing gate, but the captured web-wrapper output is opaque/unparsed; status, final URL, and read extent are unknown and no text is verified. This is not an observed denial and the card remains search_only.",
+    "source_ids": [
+      "SL202102-S002"
+    ],
+    "affected_candidates": [
+      "SL202102-C001"
+    ],
+    "required_followup": "Do not mark the statement opened or retry in the closed phase. Reconcile only from any already-saved actual serialized response if it becomes locally parseable; otherwise leave unresolved pending a separately authorized phase."
+  },
+  {
+    "gap_id": "SL202102-G007",
+    "type": "source_access",
+    "description": "S003 and S004 are search-only Sierra Leone Observatory digest PDFs; the URL filenames indicate 1–15 and 16–28 February intervals, but their contents and any underlying stories are unread. They are indexes, not independent corroboration.",
+    "source_ids": [
+      "SL202102-S003",
+      "SL202102-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a later authorized review legitimately reads them, trace any relevant underlying contemporary sources and their origin; do not infer events from the digest listings or filenames."
+  },
+  {
+    "gap_id": "SL202102-G008",
+    "type": "source_access",
+    "description": "S005 is a search-only Human Rights Commission inquiry report concerning law-enforcement conduct in 2015–2021; whether it discusses the CID or any February lead is unknown.",
+    "source_ids": [
+      "SL202102-S005",
+      "SL202102-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not infer incident details from the report title. In a future authorized review, establish relevance and date/scope before treating it as evidence."
+  },
+  {
+    "gap_id": "SL202102-G009",
+    "type": "participants",
+    "description": "The Njala University lead E001 rests on the Politico search-result title only. Whether a public gathering formed, event date, exact location, demand, turnout and state response are unknown; the two host variants are not independent reports.",
+    "source_ids": [
+      "SL202102-S006",
+      "SL202102-S007"
+    ],
+    "affected_candidates": [
+      "SL202102-E001"
+    ],
+    "required_followup": "Verify whether an assembly actually occurred, its date/month, a government-directed demand, attendance at or above 50, actual police action, and independent contemporary corroboration before changing pending_evidence."
+  },
+  {
+    "gap_id": "SL202102-G010",
+    "type": "episode_unit",
+    "description": "The February lecturer/academic-resumption headers S002 and S009 may relate to the January lecturer-strike context, but no February article body or new meeting is verified. The January agreement/class-resumption record is continuity context only; it does not establish a February protest or its physical start/end.",
+    "source_ids": [
+      "SL202102-S002",
+      "SL202102-S009"
+    ],
+    "affected_candidates": [
+      "SL202102-C001"
+    ],
+    "required_followup": "Keep the January strike record as cross-month context. Assign physical protest ownership only if a distinct, dated public gathering is established; do not treat agreement or class resumption as protest evidence."
+  },
+  {
+    "gap_id": "SL202102-G011",
+    "type": "state_target",
+    "description": "Captured Water Quay/Bollore headlines S012–S020 suggest several wage/benefit strikes and interventions, including conflicting reports about port operations. Bodies, dates, event relationships, attendance, public-assembly status, target of demands, and whether demands were directed to government versus private employers remain unresolved. Similar headlines do not prove a single episode or independent corroboration.",
+    "source_ids": [
+      "SL202102-S012",
+      "SL202102-S013",
+      "SL202102-S014",
+      "SL202102-S015",
+      "SL202102-S016",
+      "SL202102-S017",
+      "SL202102-S018",
+      "SL202102-S019",
+      "SL202102-S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Treat as search-only labor leads, not eligible public assemblies. If later reviewed, establish the actual date, participants assembled, government/policy target, turnouts and links/syndication across outlets; keep private-employer disputes distinct."
+  },
+  {
+    "gap_id": "SL202102-G012",
+    "type": "episode_unit",
+    "description": "Politico headline variants S010–S011 refer to protest calls over hardship/fuel prices, not an executed gathering. Date, organizer, attendance, demand target, event status and relationship between URL variants are unknown.",
+    "source_ids": [
+      "SL202102-S010",
+      "SL202102-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not code a call as an event. Verify an executed public gathering and its month, state/policy target and turnout from contemporary sources if later evidence is found."
+  }
+]

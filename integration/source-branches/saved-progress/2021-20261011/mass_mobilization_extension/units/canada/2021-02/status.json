@@ -1,0 +1,45 @@
+{
+  "unit_id": "canada_2021-02",
+  "country": "Canada",
+  "month": "2021-02",
+  "agent_task": "/root/canada_2021_02_batch55",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T05:43:22.350029+00:00",
+  "finished_at": "2026-10-10T06:59:59Z",
+  "n_queries": 37,
+  "n_sources": 31,
+  "n_candidates": 17,
+  "n_excluded": 4,
+  "n_continuations": 0,
+  "n_gaps": 28,
+  "coverage_assessment": "37 actual captured open-web searches produced 1239 ordered result headers across English- and French-language general, weekly, city and topic searches. The fresh exact extraction matched all 37 query-result arrays, returned URL arrays, ordered refs/titles/URLs and clocks, with zero mismatches; Q001 has one normalized descriptive wrapper label while its four actual query terms match. The dossier contains 31 source cards: 28 marked opened, two search-only and one blocked. 27 current-unit body opens and 1 prior-unit-only body consultation are recorded; S005 is the saved January body review. S005 was not requested again in February. This is not an exhaustive archive search. LexisNexis and systematic newspaper archives were not available, adjacent-month continuity remains open, and the official baseline gate is pending. See report.txt and the comparison artifact for limits and detail.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 28,
+    "blocked_cards": 1,
+    "search_only_cards": 2,
+    "not_found_cards": 0
+  },
+  "eligibility_counts": {
+    "proposed_include": 5,
+    "pending_threshold": 8,
+    "pending_evidence": 3,
+    "pending_unit": 1
+  },
+  "receipt_manifest": "access_receipts/manifest.json",
+  "receipt_manifest_sha256": "496115d16f0f30dc3048bdeaeb408116260be827bc56092e282f189ea8504789",
+  "query_capture_integrity": {
+    "captured_header_count": 1239,
+    "actual_invocations": 37,
+    "exact_matches_after_fresh_extraction": 37,
+    "mismatches": 0,
+    "metadata_label_variations": [
+      {
+        "query_id": "Q001",
+        "detail": "The mapped descriptive prefix says One original invocation while the raw extractor says Original batched invocation; the same four structured original_action.queries are preserved."
+      }
+    ],
+    "comparison_artifact": "captures/search/capture-history/final-response-comparison-20261010.json",
+    "comparison_sha256": "e79d514413ad064b5d2cd52ccc269b00cbe67020ed396f6ab8893f043a04b02c"
+  }
+}

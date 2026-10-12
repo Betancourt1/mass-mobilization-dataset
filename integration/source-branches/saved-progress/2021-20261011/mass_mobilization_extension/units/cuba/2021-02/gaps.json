@@ -1,0 +1,154 @@
+[
+  {
+    "gap_id": "CU202102-G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization baseline, dataset version, and eligibility decisions for these candidates remain pending coordinator verification; this dossier makes no official update.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to verify the official baseline and source procedure before any consolidation or eligibility decision."
+  },
+  {
+    "gap_id": "CU202102-G002",
+    "type": "search_method coverage",
+    "description": "Open-web discovery is not the original LexisNexis method. Eight captured batched calls contain 31 query clauses and 237 returned URL/header entries, but no systematic licensed-archive search was available; results are not an event census.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use authorized systematic archives and continue source discovery while retaining the method and archive limits."
+  },
+  {
+    "gap_id": "CU202102-G003",
+    "type": "participants",
+    "description": "Caibarién reports use several dozen or dozens for gatherings around a fined seller and at a municipal office. Neither opened account provides a numeric total or proves at least 50 actual demonstrators.",
+    "source_ids": [
+      "S002",
+      "S005"
+    ],
+    "affected_candidates": [
+      "CU202102-E001"
+    ],
+    "required_followup": "Find a reliable actual attendance estimate for each location; keep witness, bystander, and demonstrator counts distinct."
+  },
+  {
+    "gap_id": "CU202102-G004",
+    "type": "dates episode_unit",
+    "description": "The opened Caibarién reports differ by one day and describe activity at the seller and municipal office. Whether the latter was a continuation, a separate assembly, or a report-date discrepancy is unresolved.",
+    "source_ids": [
+      "S002",
+      "S005"
+    ],
+    "affected_candidates": [
+      "CU202102-E001"
+    ],
+    "required_followup": "Verify the exact physical date and sequence using original video, dated reporting, or a direct report; do not assign the later office gathering as the first day without evidence."
+  },
+  {
+    "gap_id": "CU202102-G005",
+    "type": "state_response origin",
+    "description": "ADN Cuba reports that the fine was removed after the February 28 municipal-office action. The outcome must not be transferred to the February 27 seller-side gathering unless the two boundaries are established as one episode. The article credits Yolanda Huerga at Radio Televisión Martí without identifying the specific originating story URL.",
+    "source_ids": [
+      "S002",
+      "S005",
+      "S010"
+    ],
+    "affected_candidates": [
+      "CU202102-E001"
+    ],
+    "required_followup": "Verify the outcome and recover the specific Radio Televisión Martí or other originating account; preserve the distinction between direct and retrospective reporting."
+  },
+  {
+    "gap_id": "CU202102-G006",
+    "type": "participants",
+    "description": "For the Camagüey leaflet episode, the report gives an approximate number arrested and says queue members objected, but no total attendance or participating-bystander count.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [
+      "CU202102-E002"
+    ],
+    "required_followup": "Locate an actual participant estimate and determine whether bystanders joined; do not substitute the queue size or arrests for turnout."
+  },
+  {
+    "gap_id": "CU202102-G007",
+    "type": "state_target demands",
+    "description": "The exact Camagüey leaflet text is not reproduced in the opened report. The story associates the action with long queues and a slogan, but an explicit demand directed at Cuban government behavior or policy is not established.",
+    "source_ids": [
+      "S014",
+      "S015"
+    ],
+    "affected_candidates": [
+      "CU202102-E002"
+    ],
+    "required_followup": "Recover the leaflets or a direct organizer account, then decide whether a named demand category and state target are supported."
+  },
+  {
+    "gap_id": "CU202102-G008",
+    "type": "dates episode_unit source_relationship",
+    "description": "The opened Camagüey report dates leafleting to February 27; other search-only records describe a February 28 demonstration, queue protest, or arrests. It is unresolved whether these are variants of one episode or separate actions.",
+    "source_ids": [
+      "S012",
+      "S014",
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "CU202102-E002"
+    ],
+    "required_followup": "Read permitted contemporaneous source bodies under the fresh-receipt workflow and compare exact locations, actors, timing, and originating links before merging or splitting."
+  },
+  {
+    "gap_id": "CU202102-G009",
+    "type": "continuity closure",
+    "description": "Neither candidate has a verified physical end date or body-read evidence establishing a pre-month or post-month continuation. Search-only references and monthly totals do not establish continuity or closure.",
+    "source_ids": [
+      "S002",
+      "S005",
+      "S014",
+      "S015"
+    ],
+    "affected_candidates": [
+      "CU202102-E001",
+      "CU202102-E002"
+    ],
+    "required_followup": "Seek event-specific dated accounts before and after the reported actions; retain null end dates and do not equate later reporting with continued assembly."
+  },
+  {
+    "gap_id": "CU202102-G010",
+    "type": "access",
+    "description": "The 14ymedio March 5 edition PDF contains a search-result lead about Caibarién, but the reader returned a one-line tool error and a separately gated ordinary request failed DNS before HTTP. No publisher denial or article body was observed.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [
+      "CU202102-E001"
+    ],
+    "required_followup": "Retry only under a new gate if permitted; otherwise retain the PDF as search-only and do not use its snippet as event evidence."
+  },
+  {
+    "gap_id": "CU202102-G011",
+    "type": "source independence",
+    "description": "Some Caibarién reports cite unnamed witnesses, social-network videos, or a later Radio Televisión Martí credit; the originating media and independence among search-only accounts are not established. CiberCuba also references user posts and videos without independent authentication.",
+    "source_ids": [
+      "S002",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S014"
+    ],
+    "affected_candidates": [
+      "CU202102-E001",
+      "CU202102-E002"
+    ],
+    "required_followup": "Recover documented original links where allowed and map syndication or shared-origin relationships without inferring them from topic or byline."
+  },
+  {
+    "gap_id": "CU202102-G012",
+    "type": "language regional archive coverage",
+    "description": "Searches included generic and weekly Spanish/English queries and episode-specific terms, but Cuba's regional press, non-Spanish-language reporting, radio archives, and official or rights-organization incident records were not searched systematically.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Extend discovery with authorized regional, official, international, and human-rights archives; distinguish no located account from no event."
+  }
+]

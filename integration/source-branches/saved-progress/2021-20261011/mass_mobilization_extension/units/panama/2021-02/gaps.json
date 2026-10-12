@@ -1,0 +1,77 @@
+[
+  {
+    "gap_id": "PAN202102-G001",
+    "type": "participants",
+    "description": "The 16 February SENNIAF gathering is described as hundreds of people and clears the 50-person threshold without an exact range. The 17 February report and the 19 February Defensoría monitor do not establish total turnout; the small group remaining at 6:30 p.m. on the 19th is not a count of the day's full gathering.",
+    "source_ids": [
+      "PAN202102-S004",
+      "PAN202102-S006",
+      "PAN202102-S012"
+    ],
+    "affected_candidates": [
+      "PAN202102-E002",
+      "PAN202102-E003"
+    ],
+    "required_followup": "Seek contemporaneous body evidence that explicitly estimates attendance on 17 and 19 February. Keep both candidates below threshold until evidence establishes 50 or more participants; do not infer turnout from detentions or a later small group."
+  },
+  {
+    "gap_id": "PAN202102-G002",
+    "type": "source_access",
+    "description": "No substantive article body was obtained for TVN S001, La Prensa S002, La Jornada S015 or Foco Panamá S013. Separate gated web opens for all four produced a cache miss; separate gated sandbox HTTPS GETs for all four produced DNS failures (curl exit 6, HTTP 000, zero bytes). Telemetro S010 returned a page shell with headline and publication timestamp but no article prose. These are technical retrieval outcomes, not publisher denials, and none supplies event details.",
+    "source_ids": [
+      "PAN202102-S001",
+      "PAN202102-S002",
+      "PAN202102-S010",
+      "PAN202102-S013",
+      "PAN202102-S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Any further body attempt needs its own fresh exact-URL receipt, full matching publisher/origin/restriction review, byte-identical note readback and immediate full live-input hash comparison. Preserve the existing failures and partial Telemetro page as non-denials; do not retry using a prior receipt."
+  },
+  {
+    "gap_id": "PAN202102-G003",
+    "type": "continuity",
+    "description": "Reports describe second and third consecutive days outside SENNIAF and a later 19 February monitored gathering. It remains unclear whether those are separate daily actions or one continuous episode, whether activity continued at the University of Panama after 17 February, and how later MIDES and cacerolazo protest leads relate. Search headers alone do not establish continuity or qualify later events.",
+    "source_ids": [
+      "PAN202102-S004",
+      "PAN202102-S005",
+      "PAN202102-S006",
+      "PAN202102-S007",
+      "PAN202102-S008",
+      "PAN202102-S011",
+      "PAN202102-S012",
+      "PAN202102-S013",
+      "PAN202102-S014",
+      "PAN202102-S015",
+      "PAN202102-S017"
+    ],
+    "affected_candidates": [
+      "PAN202102-E001",
+      "PAN202102-E002",
+      "PAN202102-E003"
+    ],
+    "required_followup": "Review remaining relevant bodies after source-ledger freeze ends, preserving each gathering's own date, location, attendance, demand and state responses. Keep event boundaries and eligibility separate until evidence supports a link or merge."
+  },
+  {
+    "gap_id": "PAN202102-G004",
+    "type": "event_evidence",
+    "description": "A TVN search-only lead reports students protesting near the National Assembly in February, but its article body could not be retrieved because of a DNS resolution failure. No date, demand, turnout or event response is coded from the headline.",
+    "source_ids": [
+      "PAN202102-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "After the source-ledger pause, try a new fully gated exact-URL request if the lead remains relevant; otherwise retain it as a search-only, unqualified lead."
+  },
+  {
+    "gap_id": "PAN202102-G005",
+    "type": "baseline",
+    "description": "The local May 2015 Clark–Regan manual was consulted. The latest official Mass Mobilization dataset version, current schema/universe and separate Coding Procedure remain unverified; candidate codes therefore remain proposed and pending review.",
+    "source_ids": [],
+    "affected_candidates": [
+      "PAN202102-E001",
+      "PAN202102-E002",
+      "PAN202102-E003"
+    ],
+    "required_followup": "Coordinator baseline review must resolve the official dataset/version, universe, schema, use conditions and any additional Coding Procedure before integration or official approval."
+  }
+]

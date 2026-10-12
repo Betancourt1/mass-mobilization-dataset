@@ -1,0 +1,42 @@
+{
+  "unit_id": "portugal_2021-02",
+  "country": "Portugal",
+  "month": "2021-02",
+  "agent_task": "/root/portugal_2021_02_batch60",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T20:51:43.037479+00:00",
+  "finished_at": "2026-10-10T21:51:56.627+00:00",
+  "n_queries": 11,
+  "n_sources": 20,
+  "n_candidates": 1,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 7,
+  "source_access_counts": {
+    "opened": 2,
+    "search_only": 17,
+    "blocked": 1,
+    "not_found": 0
+  },
+  "query_capture_integrity": {
+    "registered_rollout_captures_compared": 11,
+    "captured_header_count": 280,
+    "all_query_batches_ordered_headers_refs_and_native_clocks_match": true
+  },
+  "current_body_read_cards": 1,
+  "prior_consultation_cards": 1,
+  "coverage_assessment": "An initial Portuguese-language web sweep used 11 general, weekly and sector queries returning 280 ordered result headers. It covered labor/CGTP actions, health, education, hotel/restaurant, cultural work, shop reopening, football supporters and selected Lisbon, Porto, Coimbra and Loures leads. Twenty source cards are preserved; only one current article body was read and one prior Portugal-January card was consulted. The Petrogal 2 February candidate remains pending because the scoped body establishes neither a 50-person gathering nor a state-directed demand. Seventeen cards remain search-only; JPN returned an exact-URL 403 and CGTP post-action access had technical retrieval failures. This is not exhaustive: local event detail, turnout, state targeting, ends/responses, other regions/sectors, independent corroboration and LexisNexis remain open. No protest absence is inferred. The official baseline/version and final inclusion review remain pending.",
+  "baseline_gate": "pending_official_baseline",
+  "validation": {
+    "command": "python3 mass_mobilization_extension/scripts/research.py validate-unit mass_mobilization_extension/units/portugal/2021-02",
+    "exit_code": 0,
+    "result": "valid",
+    "n_queries": 11,
+    "n_sources": 20,
+    "n_candidates": 1,
+    "n_excluded": 0,
+    "n_continuations": 0,
+    "n_gaps": 7,
+    "result_headers": 280
+  }
+}

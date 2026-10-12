@@ -1,0 +1,29 @@
+{
+  "unit_id": "saudi_arabia_2021-02",
+  "country": "Saudi Arabia",
+  "month": "2021-02",
+  "agent_task": "/root/saudi_arabia_2021_02_batch61",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T23:46:14.919000+00:00",
+  "finished_at": "2026-10-11T01:25:08.030161+00:00",
+  "n_queries": 12,
+  "n_sources": 12,
+  "n_candidates": 2,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 11,
+  "source_access_counts": {
+    "opened_cards": 0,
+    "search_only_cards": 12,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 238,
+    "query_string_count": 48,
+    "search_log_sha256": "403b301d7d34e4de91df4502ca9bb1c45f97360da7211a3c87a0661376ec58f5"
+  },
+  "coverage_assessment": "Twelve captured open-web search calls contain 48 actual query strings and 238 ordered result headers. They cover English and Arabic general searches, all four February weekly windows, targeted Buraidah/Qassim reports, official-site and human-rights/wire checks, a Persian query, and a post-February continuity check. Twelve source cards remain search_only. Two unverified leads remain pending_evidence; one title-only online post is excluded as a standalone event and no continuation is verified. No source body was reviewed, and the search does not establish exhaustive, local-archive or regional/language coverage or absence of events.",
+  "baseline_gate": "pending_official_baseline",
+  "body_access_note": "No Saudi source body was dispatched/read in this phase. S001 chain aborts were preflight/mechanical, with zero body dispatch and no observed HTTP denial; S001 remains search_only. No Saudi URL is classified blocked or inaccessible."
+}

@@ -1,0 +1,27 @@
+Philippines — February 2021 research handoff
+
+Status: researched_open_web_pending_review. This dossier records three provisional event candidates from two opened article bodies, one contextual support rally, and documented access/search gaps. It is not an official catalogue update or exhaustive month inventory.
+
+Method and coverage
+- Saved 12 original open-web search actions and all 361 ordered result headers from the registered rollout. Native query and header order matched Q001–Q012; no search was rerun for bookkeeping.
+- Preserved 18 relevant source cards: 2 opened body reads, 14 search_only, and 2 blocked for exact URLs. Nine exact-URL body-request actions were recorded across S001, S002, S003, S004, S008 and S016. S002 returned HTTP 200 after a separately gated exact HTTPS GET following a native web-tool retrieval error; S003 returned article text through web.open. Other cache/DNS failures are technical retrieval failures, not site denials.
+- The only observed HTTP 403 restrictions are the exact S001 PNA URL and exact S004 The POST URL. Neither was retried or varied; no publisher-wide or origin-wide restriction is inferred.
+- The open-web first pass is a discovery sample, not proof of absence or exhaustive coverage. It does not reproduce systematic LexisNexis or comprehensive local-language/local-archive searching.
+
+Opened-source evidence and coding
+- S002 (Digicast Negros) is dated February 2, 2021. The article reports: (1) a small youth/Hilway counterprotest against the Anti-Terrorism Act at/near the state-forces rally at the Fountain of Justice, Araneta Street, Bacolod City; and (2) a separate afternoon indignation rally by unnamed militant groups in Bacolod calling on the government to junk the law. These are separate gatherings. The article gives no numerical attendance for either; “small group”/“only a few” is not converted into a numeric threshold decision, and no attendance is pooled. The same article reports a state-forces peace rally in support of the law; this remains contextual and is not coded as an anti-state demand event on current evidence.
+- S003 (Interaksyon) is dated February 2, 2021. Its caption reports Lumad taking part in a protest near the Supreme Court in Manila before oral arguments on the Anti-Terrorism Act. No count is provided. The article discusses renewed calls to junk the law, but it does not clearly attribute a specific state-directed demand to the captioned participants. Reuters/Lisa Marie David is credited for the photograph only; no written-origin or syndication relation is inferred.
+- events.json records three distinct provisional candidates: E001 Bacolod youth/Hilway action and E002 separate Bacolod afternoon rally (both pending_threshold), plus E003 Manila captioned protest (pending_state_target, with threshold also unknown). None has a numeric attendance count or evidence establishing at least 50 people. No same-day actions are merged merely because they share a topic/date.
+- All seven state-response fields and protester violence remain unknown for each candidate because no positive event-specific evidence establishes them. excluded.json and continuations.json remain empty; no prior-month episode start is verified. Gaps.json has eight entries, including the open eligibility questions and exact-URL restrictions.
+
+Prioritized follow-up
+1. For E001 and E002, independently establish separate attendance estimates, exact sites and organizers; never pool the two gatherings or use the state-forces rally as attendance evidence.
+2. For E003, verify whether the photographed Manila participants themselves made an own-Philippine-state/policy demand and seek attendance evidence.
+3. For S008–S010, establish whether a fisherfolk public gathering occurred and whether participants made an own-Philippine-state or policy demand; opposition directed only to China does not establish eligibility.
+4. For S014–S018, determine whether the pork-holiday activity involved a public gathering of at least 50 people and a state-directed demand; refusal to sell alone is insufficient.
+5. Continue targeted review of S005–S007, S011–S013 and other captured leads for occurrence, date, attendance, demand, continuity and response.
+
+Baseline and review
+The official baseline gate remains pending. Candidate decisions are for independent coordinator review. No official Mass Mobilization IDs, integration, publication or official approval are asserted.
+
+2 current-unit body opens, 0 prior-unit-only body opens.

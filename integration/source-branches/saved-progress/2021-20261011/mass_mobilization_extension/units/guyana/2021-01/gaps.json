@@ -1,0 +1,205 @@
+[
+  {
+    "gap_id": "GUY202101-G001",
+    "type": "participants",
+    "description": "No opened January gathering report verifies at least50 people at one time. No count was inferred from photographs, relatives/friends labels, vehicles, criminal detainees or participating workforce.",
+    "source_ids": [
+      "GUY202101-S199",
+      "GUY202101-S206",
+      "GUY202101-S207",
+      "GUY202101-S260",
+      "GUY202101-S307"
+    ],
+    "affected_candidates": [
+      "GUY202101-E001",
+      "GUY202101-E002",
+      "GUY202101-E003"
+    ],
+    "required_followup": "Find contemporaneous attributed crowd estimates for each actual January action; retain pending_threshold until resolved."
+  },
+  {
+    "gap_id": "GUY202101-G002",
+    "type": "episode_unit",
+    "description": "January11 Henry protest physically ended; January25 two-site picket and February2 search-only court protest may belong a campaign. Shared campaign label alone cannot define one continuous event.",
+    "source_ids": [
+      "GUY202101-S307",
+      "GUY202101-S207",
+      "GUY202101-S320"
+    ],
+    "affected_candidates": [
+      "GUY202101-E001",
+      "GUY202101-E002"
+    ],
+    "required_followup": "Review action continuity and national/local unit against full contemporaneous chronology; do not automatically split or merge by article/date/month."
+  },
+  {
+    "gap_id": "GUY202101-G003",
+    "type": "dates",
+    "description": "January25 Henry and Patterson gatherings have no sourced physical closure date; publication dates and scheduled court appearances cannot substitute.",
+    "source_ids": [
+      "GUY202101-S206",
+      "GUY202101-S207",
+      "GUY202101-S260"
+    ],
+    "affected_candidates": [
+      "GUY202101-E002",
+      "GUY202101-E003"
+    ],
+    "required_followup": "Find physical ending/dispersion evidence; preserve null end dates meanwhile."
+  },
+  {
+    "gap_id": "GUY202101-G004",
+    "type": "state_response",
+    "description": "January11 non-reception is explicit and coded ignore=yes. Other responses to that gathering and all responses to January25 gatherings remain unknown. Prior meetings, criminal defendant bail and murder-suspect arrests are not responses to these assemblies.",
+    "source_ids": [
+      "GUY202101-S199",
+      "GUY202101-S206",
+      "GUY202101-S207",
+      "GUY202101-S260",
+      "GUY202101-S307"
+    ],
+    "affected_candidates": [
+      "GUY202101-E001",
+      "GUY202101-E002",
+      "GUY202101-E003"
+    ],
+    "required_followup": "Seek reports/police statements explicitly tied to each gathering; apply any attempted breakup rule and formal reception rule."
+  },
+  {
+    "gap_id": "GUY202101-G005",
+    "type": "violence_casualties",
+    "description": "Opened January texts do not explicitly assess demonstrators' physical violence against state. Motivating Henry deaths are background civilian murders, not killings in response to January protests.",
+    "source_ids": [
+      "GUY202101-S199",
+      "GUY202101-S206",
+      "GUY202101-S260"
+    ],
+    "affected_candidates": [
+      "GUY202101-E001",
+      "GUY202101-E002",
+      "GUY202101-E003"
+    ],
+    "required_followup": "Check direct contemporaneous reporting of conduct during each action; retain unknown rather than silence-based negatives."
+  },
+  {
+    "gap_id": "GUY202101-G006",
+    "type": "source_access",
+    "description": "GUYOIL January1 article was read only in its publicly accessible partial body lines109–120. Subscriber text was not bypassed; search snippets beyond the public body were not promoted to evidence.",
+    "source_ids": [
+      "GUY202101-S156"
+    ],
+    "affected_candidates": [
+      "GUY202101-C001"
+    ],
+    "required_followup": "Obtain lawfully accessible contemporaneous reporting to resolve crowd, January physical continuity and closure."
+  },
+  {
+    "gap_id": "GUY202101-G007",
+    "type": "source_access",
+    "description": "GAWU January archive page1 failed web-cache reads, local DNS and ordinary HTTPS returned406. Page2 was readable. Linked DTL article also failed web fetch; no body obtained.",
+    "source_ids": [
+      "GUY202101-S372",
+      "GUY202101-S146"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Revisit normally accessible archive/linked originals without bypassing access restrictions; verify whether any dated public assembly occurred."
+  },
+  {
+    "gap_id": "GUY202101-G008",
+    "type": "source_access",
+    "description": "February2 Henry court protest is search-only after two timeout failures. January12 Stabroek archive listing was read as a discovery path; direct January12 article was then opened.",
+    "source_ids": [
+      "GUY202101-S320",
+      "GUY202101-S307"
+    ],
+    "affected_candidates": [
+      "GUY202101-E001",
+      "GUY202101-E002"
+    ],
+    "required_followup": "Read lawful original February2 body before using it to define continuity; verify independent subsequent chronology."
+  },
+  {
+    "gap_id": "GUY202101-G009",
+    "type": "source_independence",
+    "description": "Distinct publishers and matching quoted family demands do not establish independent observations. BlackFacts and Reddit links may relay originals; no syndication count was treated as independent confirmation.",
+    "source_ids": [
+      "GUY202101-S206",
+      "GUY202101-S207",
+      "GUY202101-S221",
+      "GUY202101-S307"
+    ],
+    "affected_candidates": [
+      "GUY202101-E001",
+      "GUY202101-E002"
+    ],
+    "required_followup": "Compare authors, photos, wording and original publication times before claiming corroboration."
+  },
+  {
+    "gap_id": "GUY202101-G010",
+    "type": "episode_unit dates participants",
+    "description": "GUYOIL earlier industrial onset December23 is verified, but simultaneous public assembly and January continuation are not. Success protest occurred at least September30/October2; campaign onset and January continuation remain unknown.",
+    "source_ids": [
+      "GUY202101-S155",
+      "GUY202101-S156",
+      "GUY202101-S308",
+      "GUY202101-S050"
+    ],
+    "affected_candidates": [
+      "GUY202101-C001",
+      "GUY202101-C002"
+    ],
+    "required_followup": "Resolve earliest physical public gathering, crowd and uninterrupted activity; do not create January event from news publication or mediation."
+  },
+  {
+    "gap_id": "GUY202101-G011",
+    "type": "coverage language",
+    "description": "English local reporting and local usage including picket, down tools and downing tools were searched. Interior and Indigenous/Creole reporting were not systematically reviewed; accessible findings cluster around Georgetown and Berbice.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GUY202101-E001",
+      "GUY202101-E002",
+      "GUY202101-E003"
+    ],
+    "required_followup": "Search additional regional/local archives and relevant language/community reporting; do not infer national absence."
+  },
+  {
+    "gap_id": "GUY202101-G012",
+    "type": "search_method coverage",
+    "description": "Week/date operators and exact quoted dates frequently returned historical/current unrelated results. All actual searches and returned candidate URLs were retained, including noise. Batch query-to-result mapping was not exposed and is explicitly unresolved.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Revisit dated archives directly and use adaptive episode queries; interpret source-card count as discovery inventory rather than confirmations."
+  },
+  {
+    "gap_id": "GUY202101-G013",
+    "type": "baseline",
+    "description": "Official MM baseline universe/version/schema/conditions have not been reconciled for this unit. Local manual extraction and project rules were read; original IDs remain untouched.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GUY202101-E001",
+      "GUY202101-E002",
+      "GUY202101-E003"
+    ],
+    "required_followup": "Coordinator must resolve official baseline gate before any official update or duplicate claim."
+  },
+  {
+    "gap_id": "GUY202101-G014",
+    "type": "coverage search_method",
+    "description": "This is open-web research, not original LexisNexis reproduction or systematic archive census. Generic, weekly, sectoral, regional and boundary queries do not warrant exhaustive coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Extend hemeroteca coverage as available and document retrieval limitations; no zero-event inference from search."
+  },
+  {
+    "gap_id": "GUY202101-G015",
+    "type": "state_target location",
+    "description": "Patterson gathering opposes domestic police charges and is retained as potential political-process demand, rather than pure electoral support. Precise courthouse/city and crowd not verified in opened text.",
+    "source_ids": [
+      "GUY202101-S260"
+    ],
+    "affected_candidates": [
+      "GUY202101-E003"
+    ],
+    "required_followup": "Confirm location and any articulated government demand in contemporaneous report; reassess support-only exclusion if warranted."
+  }
+]

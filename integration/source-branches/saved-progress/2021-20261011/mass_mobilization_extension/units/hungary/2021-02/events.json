@@ -1,0 +1,331 @@
+[
+  {
+    "candidate_id": "HUN202102-E001",
+    "country": "Hungary",
+    "ccode": 310,
+    "unit_month": "2021-02",
+    "title": "Hospitality reopening rally at Heroes’ Square",
+    "start_date": "2021-02-01",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Heroes’ Square (Hősök tere), Budapest",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": null,
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "HUN202102-S001",
+      "HUN202102-S002"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "HUN202102-S001",
+          "HUN202102-S002"
+        ],
+        "summary": "Captured search-result titles report a February 1 reopening protest at Heroes’ Square. The article bodies remain unread."
+      },
+      "start_date": {
+        "source_ids": [
+          "HUN202102-S002"
+        ],
+        "summary": "The captured Index title is dated to the Monday continuation, but the original page body has not been reviewed in this dossier."
+      },
+      "location": {
+        "source_ids": [
+          "HUN202102-S001",
+          "HUN202102-S002"
+        ],
+        "summary": "Both captured titles name Heroes’ Square; precise event boundaries and other details await body review."
+      },
+      "demands": {
+        "source_ids": [
+          "HUN202102-S001",
+          "HUN202102-S002"
+        ],
+        "summary": "The captured titles describe a protest for reopening; specific demands and state target require body review."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "hungary-hospitality-reopening-2021-01-31-02-01",
+    "notes": "Search-only February lead. January dossier already has a separate January 31 Heroes’ Square event; shared episode membership remains unresolved. Do not merge events or assign turnout from search headlines.",
+    "open_questions": [
+      "Retrieve permitted body evidence for date, crowd, organizer, demands and responses.",
+      "Resolve episode grouping with HUN202101-E001 under the additional Coding Procedure."
+    ]
+  },
+  {
+    "candidate_id": "HUN202102-E002",
+    "country": "Hungary",
+    "ccode": 310,
+    "unit_month": "2021-02",
+    "title": "SZTE model-change protest walk at Dugonics Square",
+    "start_date": "2021-02-03",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the SZTE Dugonics Square building, Szeged",
+    "scope": "local",
+    "organizer": null,
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": null,
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "HUN202102-S006"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "HUN202102-S006"
+        ],
+        "summary": "The captured search-result title describes a repeat protest walk outside an SZTE building on February 3, with participants in small groups; the article body has not been read."
+      },
+      "start_date": {
+        "source_ids": [
+          "HUN202102-S006"
+        ],
+        "summary": "The captured title and URL identify February 3, but no article body has verified the occurrence or precise time."
+      },
+      "location": {
+        "source_ids": [
+          "HUN202102-S006"
+        ],
+        "summary": "The search-result title identifies the SZTE building at Dugonics Square in Szeged; this remains a search-only lead."
+      },
+      "demands": {
+        "source_ids": [
+          "HUN202102-S006"
+        ],
+        "summary": "The captured title identifies the SZTE model-change issue, but no full body establishes a specific demand or state target; no demand category is coded."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "hungary-szeged-university-autonomy-2021-01-30",
+    "notes": "Physical-walk lead only. Search title characterizes participants as small groups, with no numeric attendance count; at least 50 is not established. Episode relationship with HUN202101-E002 is unresolved.",
+    "open_questions": [
+      "Review the exact article body and independent coverage for a participant count reaching 50.",
+      "Verify the specific demand and domestic state target from the body.",
+      "Resolve episode grouping with HUN202101-E002; do not infer continuity from a shared issue alone."
+    ]
+  },
+  {
+    "candidate_id": "HUN202102-E003",
+    "country": "Hungary",
+    "ccode": 310,
+    "unit_month": "2021-02",
+    "title": "Anti-restrictions gathering at Heroes’ Square",
+    "start_date": "2021-02-28",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Heroes’ Square (Hősök tere), Budapest",
+    "scope": "local",
+    "organizer": "György Gődény",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "24.hu estimated about 1,000 participants at Hősök tere; it said most did not wear masks.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "24.hu reports approximately 1,000 participants at the Hősök tere rally. Telex independently describes the square toward Oktogon as nearly full but gives no numeric count. The approximate 24.hu estimate supports the >=50 threshold; no interval is derived.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "HUN202102-S007",
+      "HUN202102-S008",
+      "HUN202102-S009",
+      "HUN202102-S010"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "HUN202102-S007",
+          "HUN202102-S009"
+        ],
+        "summary": "Opened Telex and 24.hu reporting confirms the February 28 Gődény rally at Hősök tere, Budapest."
+      },
+      "start_date": {
+        "source_ids": [
+          "HUN202102-S009"
+        ],
+        "summary": "24.hu dates the report to February 28 and says the rally was held Sunday morning; no exact event start time is given."
+      },
+      "location": {
+        "source_ids": [
+          "HUN202102-S007",
+          "HUN202102-S009"
+        ],
+        "summary": "Both opened reports identify Heroes’ Square (Hősök tere), Budapest; Telex locates the main gathering on the side toward Oktogon."
+      },
+      "organizer": {
+        "source_ids": [
+          "HUN202102-S007",
+          "HUN202102-S009"
+        ],
+        "summary": "Both opened reports identify György Gődény as organizer."
+      },
+      "demands": {
+        "source_ids": [
+          "HUN202102-S007",
+          "HUN202102-S009"
+        ],
+        "summary": "The event call opposed compulsory vaccination and mask wearing; 24.hu reports Gődény said he would deliver a letter to the Prime Minister’s Office and expected a reply."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "HUN202102-S009"
+        ],
+        "summary": "24.hu estimates about 1,000 participants; the original wording is approximate and no min/max interval is inferred."
+      },
+      "state_response": {
+        "source_ids": [
+          "HUN202102-S007",
+          "HUN202102-S009"
+        ],
+        "summary": "24.hu reports police identity checks and Gődény being identified for event organization and mask-rule violations. Gődény then declared the gathering over and asked attendees to go home. The sources do not establish arrest or forceful dispersal."
+      },
+      "end_date": {
+        "source_ids": [
+          "HUN202102-S007",
+          "HUN202102-S009"
+        ],
+        "summary": "24.hu reports Gődény announced the event was over after police arrived and asked people to go home; Telex says the main gathering ended before a smaller group moved to Vajdahunyad Castle. Neither source establishes exact time or complete physical clearance, so end date remains unknown."
+      },
+      "participants_precision": {
+        "source_ids": [
+          "HUN202102-S009"
+        ],
+        "summary": "24.hu uses an approximate estimate (“about 1,000”); the numeric participants_estimate is a reported approximation, not an exact count or range."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "hungary-pandemic-restrictions-protests-2021-02-28-budapest",
+    "notes": "Opened 24.hu reporting supplies an approximate estimate of about 1,000 at this assembly; Telex independently describes a near-full square without a number. Do not pool this estimate with the later Vajdahunyad Castle group. Police identification checks are not coded as arrests or forceful dispersal. Episode linkage with the later physical assembly remains coordinator-reviewable.",
+    "open_questions": [
+      "Review the episode relationship with HUN202102-E004 while keeping each physical assembly and its headcount separate.",
+      "Review the remaining state-response unknowns under the coding manual; do not infer actions from the reported police checks."
+    ],
+    "participants_estimate": 1000,
+    "participants_precision": "approximate_reported_estimate"
+  },
+  {
+    "candidate_id": "HUN202102-E004",
+    "country": "Hungary",
+    "ccode": 310,
+    "unit_month": "2021-02",
+    "title": "Subsequent gathering near Vajdahunyad Castle",
+    "start_date": "2021-02-28",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Near Vajdahunyad Castle, Budapest",
+    "scope": "local",
+    "organizer": null,
+    "demands": [],
+    "participants_original": "Telex describes a smaller group moving to Vajdahunyad Castle and beginning a new gathering; no headcount is given.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": null,
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "HUN202102-S007"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "HUN202102-S007"
+        ],
+        "summary": "Telex says that after the main Hősök tere rally ended, a smaller group moved to Vajdahunyad Castle and began a new gathering."
+      },
+      "start_date": {
+        "source_ids": [
+          "HUN202102-S007"
+        ],
+        "summary": "The article places the subsequent gathering on February 28, after the Hősök tere event; exact time is not stated."
+      },
+      "location": {
+        "source_ids": [
+          "HUN202102-S007"
+        ],
+        "summary": "Telex identifies Vajdahunyad Castle as the location of the new gathering."
+      },
+      "participants_original": {
+        "source_ids": [
+          "HUN202102-S007"
+        ],
+        "summary": "Telex calls the group smaller but supplies no number; the >=50 threshold remains unknown."
+      },
+      "demands": {
+        "source_ids": [
+          "HUN202102-S007"
+        ],
+        "summary": "The report does not state this second gathering’s specific demands; no separate demand category is coded."
+      },
+      "state_response": {
+        "source_ids": [
+          "HUN202102-S007"
+        ],
+        "summary": "Telex says police acted again after the group began gathering but does not specify a response dimension; all coded dimensions remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "hungary-pandemic-restrictions-protests-2021-02-28-budapest",
+    "notes": "Opened Telex reporting distinguishes a new gathering after the main rally ended. Keep this physical assembly separate from HUN202102-E003 and do not carry over the main rally’s approximately 1,000 estimate. Attendance, specific demands, organizer, and event-specific police action remain unresolved.",
+    "open_questions": [
+      "Check independent opened reporting for a participant count and whether this assembly independently met 50.",
+      "Verify the specific demand and organizer for this second assembly.",
+      "Resolve episode grouping with HUN202102-E003 without merging physical events or attendance."
+    ],
+    "participants_estimate": null,
+    "participants_precision": "unknown"
+  }
+]

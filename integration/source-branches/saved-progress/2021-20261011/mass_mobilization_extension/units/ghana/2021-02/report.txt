@@ -1,0 +1,33 @@
+Ghana, February 2021 — open-web first pass, pending coordinator review
+
+Scope and method
+
+This dossier covers Ghana and events whose possible start falls in February 2021, with the fixed project cutoff of 2026-10-07. Searches covered four weekly date windows and countrywide terms; labor/university staff, LGBTQI/COMOG, Ada Songor/Electrochem, Menzgold, local news domains and geographic follow-ups were also searched. The final discovery call preserved its four original query strings as one batched response; it was not split into invented per-query result arrays. Search snippets were used only as discovery leads.
+
+The registered worker rollout was re-extracted to compare every actual search action with the saved log. Twenty-two response captures preserve 26 query strings and 482 ordered result headers, including one empty result. The comparison found the original COMOG Q012 response missing from the log; it was recovered from the actual rollout without rerunning the search, then compared by original event ID, query, header order and URL. The new Q022 batch is likewise preserved as the exact single response.
+
+This was open-web English-language searching, not the historical manual’s systematic LexisNexis “All News” procedure. Ghanaian-language searches and local-language archive coverage remain undone. Search-engine coverage, including the empty GhanaWeb-filtered search, is not evidence that an event did not occur.
+
+Candidate leads
+
+1. GHA202102-E001: Graphic Online’s Feb. 25 story reports that COMOG held a press conference in Accra on Feb. 24. The limited body read identifies calls to the Ghanaian government and Parliament on LGBTQI-related policy, provisionally coded as social_restrictions. It reports no attendance figure, so the >=50 public-meeting threshold remains pending. The story also describes a conditional future “mammoth demonstration”; no evidence of its execution was found, and it is kept separately in excluded.json. All seven state-response fields and protester violence remain unknown. The NewsGhana page returned a cache miss; that is a technical failure, not an HTTP denial.
+
+2. GHA202102-E002: Search-only MFWA reporting calls a Feb. 5 event at Electrochem’s operations a protest. A limited 2026 retrospective body read describes a petition allegation of an invasion at Salom-Madagber and separately dates the Jan. 27 shootings. Two attempts to open the MFWA page timed out before article text; no body was retrieved. The Feb. 5 event’s public-gathering status, precise state-directed demand, turnout, actor attribution and end remain unestablished. Alleged shootings, injuries and arrests are not turnout and do not establish a government response or protester violence. The Jan. 27 Ada candidate in the January dossier is not merged with this Feb. 5 lead; no continuous action is established.
+
+A university senior-staff work stoppage reported during February is documented as a continuation, not a new February crowd event. Reports conflict on whether it began Jan. 2 or Jan. 21 and describe a February suspension/return-to-work call. The sources do not establish a public gathering. June reports’ phrase “various protests since February” lacks dates, locations and event details.
+
+Excluded and continuity notes
+
+Three traceable non-candidates are retained: the announced but unverified future COMOG demonstration; the reported police closure of an LGBTQI support office (a state action, not itself a public protest gathering); and the January-started university work stoppage (linked to the January dossier, without evidence of a distinct February public assembly). The Menzgold-focused query surfaced petition and dispute material from other dates, not a dated February public gathering; this remains a discovery gap, not a finding that none occurred.
+
+Sources and access
+
+There are 27 source cards: 2 opened and read within this unit’s limited stated scope, 25 search-only, and none marked blocked or not found. Five body requests were made after fresh exact-URL receipts, saved full manual publisher/origin reviews and immediate whole-input hash checks. Two returned readable bodies (Graphic Online S022 and The Fourth Estate S024); three failed technically before body text (one NewsGhana cache miss and two MFWA timeouts). No HTTP denial or publisher-wide hold was observed in these attempts. Six receipt files and five manual-review notes are preserved in access_receipts/.
+
+S022 read scope: headline/byline/date, caption and written lines 21–28 and 40–43. S024 read scope: headline/byline/date and written lines 17–23, 27–28 and 68–82. The Fourth Estate identifies itself as an MFWA project; its retrospective allegations are not independent of MFWA reporting. NewsGhana S020 has a GNA byline and may be syndicated; no independence claim is made. Source cards contain short paraphrases and no full article copies.
+
+Unresolved gaps and next work
+
+The principal follow-up is contemporaneous attendance evidence for the COMOG press conference; readable original/current reporting on the Feb. 5 Ada episode and its state target, public format, turnout and actors; cross-month comparison with the Jan. 27 Ada action; and a dated reconstruction of university-staff actions. Targeted Menzgold, regional, sectoral and post-event searches need systematic archive follow-up. English-only open-web coverage, local-language press, LexisNexis, the unavailable additional Mass Mobilization Coding Procedure, and coordinator-owned verification of the latest official baseline remain open. The May 2015 manual and its text extraction exist locally and were consulted, but do not replace those missing gates.
+
+This dossier has two provisional event leads, three exclusions/continuity notes, one cross-month continuation and twelve gaps. It does not establish a complete event count, exhaustive coverage, human approval or official eligibility. status.json remains researched_open_web_pending_review with baseline_gate pending_official_baseline.

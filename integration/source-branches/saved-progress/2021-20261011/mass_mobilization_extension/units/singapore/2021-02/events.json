@@ -1,0 +1,126 @@
+[
+  {
+    "candidate_id": "singapore_2021-02-E001",
+    "country": "Singapore",
+    "ccode": 830,
+    "unit_month": "2021-02",
+    "title": "Assembly outside the Myanmar Embassy reported by police",
+    "start_date": "2021-02-10",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the Embassy of Myanmar in Singapore; the opened release gives no street address.",
+    "scope": "A reported local assembly at one location. No wider multi-site organization is established.",
+    "organizer": "No organizer identified in the opened police release.",
+    "demands": [],
+    "participants_original": "Police identified three men allegedly participating; the release does not state the full assembly attendance.",
+    "participants_min": 3,
+    "participants_max": null,
+    "threshold_50_evidence": "The official release identifies three men, which supports a minimum of three reported participants, but it gives no total crowd size and does not say the three were the only attendees. Evidence for at least 50 is absent from the read scope; the threshold remains unresolved rather than disproved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "singapore_2021-02-S001"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "The opened police release concerns three men investigated over an alleged assembly outside the Myanmar Embassy."
+      },
+      "start_date": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "The release says police were alerted at about 3:45pm on 10 February 2021; day precision is supported."
+      },
+      "end_date": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "The read scope gives no physical end time or date; leave unknown rather than using the publication date."
+      },
+      "location": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "The release places the alleged assembly outside the Embassy of Myanmar in Singapore but gives no street address."
+      },
+      "scope": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "The source describes one embassy location and does not report a multi-site action."
+      },
+      "organizer": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "No organizer is identified in the read scope."
+      },
+      "demands": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "The stated purpose is to show support for the people of Myanmar; no specific demand or target government is stated. No demand category is assigned."
+      },
+      "participants_original": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "The release identifies three men allegedly participating but does not say this is the total attendance."
+      },
+      "participants_min": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "Three identified men provide a reported lower bound of three; total attendance is unknown."
+      },
+      "participants_max": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "No upper bound or full crowd count is stated."
+      },
+      "threshold_50_evidence": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "The police account does not establish whether the assembly reached 50 participants."
+      },
+      "protester_violence": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "Protester violence is not stated in the read scope; unknown."
+      },
+      "state_response.accommodation": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "No accommodation evidence in the read scope; unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "The release says investigations were ongoing but does not report an arrest; arrests remain unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "No beating evidence in the read scope; unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "The read scope does not establish a dispersal action; unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "Police investigation is reported, so ignore is not coded; the dataset response value remains unknown because no ignore finding is established."
+      },
+      "state_response.killings": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "No killing evidence in the read scope; unknown."
+      },
+      "state_response.shootings": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "No shooting evidence in the read scope; unknown."
+      },
+      "eligibility": {
+        "source_ids": ["singapore_2021-02-S001"],
+        "summary": "Both the 50-person threshold and a demand directed at Singapore's government or policy remain unestablished; pending evidence."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "singapore-2021-02-myanmar-embassy-assembly-2021-02-10",
+    "notes": "The opened official account says the men allegedly assembled to show support for the people of Myanmar; it does not specify a policy demand, identify Singapore as the target, or say that Myanmar's government was the sole target. Do not infer a foreign-state-only exclusion from the embassy location or police permit rule. The source reports an investigation, not an arrest. This February action is distinct from the January MOE assembly and from the reported protest outside Singapore's embassy in Yangon.",
+    "open_questions": [
+      "Was the total assembly attendance at least 50?",
+      "Was a specific demand made to Singapore's government or about Singapore policy, or is any foreign-state target explicit in fuller evidence?",
+      "Is there an independent contemporary account of the assembly, its full attendance, or its stated demands?",
+      "What was the physical end of the assembly, and did any of the seven coded state responses occur?"
+    ]
+  }
+]

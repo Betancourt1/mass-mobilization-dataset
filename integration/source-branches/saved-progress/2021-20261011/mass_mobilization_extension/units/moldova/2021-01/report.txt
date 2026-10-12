@@ -1,0 +1,27 @@
+Moldova, January 2021 — first-pass research report
+
+Status: researched_open_web_pending_review. This is a non-exhaustive, locally prepared candidate dossier; it is not an official Mass Mobilization update or human double coding.
+
+Search method and coverage
+
+I ran 20 literal web-search queries in Romanian, Russian and English, with broad country/month searches, Jan 1–10, Jan 11–20 and Jan 21–31 windows, sector terms, event-specific follow-up, and December/February boundary checks. Search results were often pooled across queries, so the log states where individual query mapping and result totals were unavailable. A tag archive and exact-title searches exposed additional leads missed by broad queries. The first pass did not search Gagauz-language sources or systematically cover newspaper archives.
+
+Open-web discovery is not equivalent to the original LexisNexis newspaper method. No empty query result is treated as evidence that no event happened. The current official baseline and the additional Coding Procedure remain unresolved. Some public URLs returned Cache miss/Internal Error/timeout in the web reader. An ordinary HTTPS recovery attempt for public Noi.md URLs failed at local DNS resolution before receiving a server response; those records stay search_only rather than blocked. A final access-metadata audit found S004, S005 and S010 marked opened despite only search references and conflicting limitations; these are corrected to search_only with accessed_at null. Their former timestamps are preserved only as prior_unverified_timestamp and cannot be confirmed as actual request times. S015 now cites a verified direct open of the exact Noi.md archive URL, with archive-only read scope; its former search reference and unverified timestamp remain preserved, and the new verification observation is recorded separately rather than as an original request time. After correction, 7 source cards are opened, 25 are search_only, and 0 are blocked or not_found. Linked archive items and the HoReCa exclusion use listing snippets, not full event pages. No protected content was bypassed or stored.
+
+Candidate events
+
+1. Jan 25: a group of farmers protested outside the Ministry of Internal Affairs after receiving police citations tied to the December 2020 Parliament protest. TV8 reports the gathering and request for an audience. NewsMaker reports that farmers obtained an audience with a state secretary on Jan 25; MAI separately confirms a meeting with the interim minister on Feb 1 after the prior-week visit and petition. None gives a numerical crowd estimate, so E001 is pending_threshold. Police actions documented for the December protest are not attributed to this January action.
+
+2. Jan 5: railway workers in Ocnița protested unpaid wages at state enterprise Calea Ferată din Moldova. NewsMaker identifies the date, location and state-enterprise wage dispute. Attendance and the exact public gathering site are not reported, so E002 is pending_threshold. A distinct Dec 22 Basarabeasca action is recorded as a possible continuation, not merged into the Ocnița candidate.
+
+3. Jan 21: Radu Rebeja and football supporters protested the Football Federation’s leadership election. Moldfootball confirms the protest occurred; a Știri.md/Infotag item says “about 50” in its headline and “over 50” in the body. UNIMEDIA’s search result reports a march to the Presidency and Prosecutor General to seek action on match-fixing investigations, but the direct page could not be opened. Because the immediate grievance concerns a private federation and the state-directed demand and threshold count remain supported only by search-result text, E003 is pending_evidence; state-target and threshold questions remain open.
+
+Continuations, exclusions and unresolved items
+
+The Basarabeasca railway workers’ wage protest appears to have begun on Dec 22 and resumed in January; it is listed as C001 with December as the possible owner. January 25 farmers’ gathering is treated as physically distinct from the December tractor campaign, while its episode relationship remains open.
+
+Two leads are retained in excluded.json: the HoReCa two-minute lights-off action at restaurant/bar venues (no public gathering of at least 50 is documented; a Jan 15 repeat was announced but not confirmed), and the Jan 23 Navalny solidarity/counter-rally outside the Russian Embassy (foreign-government target; the counter-rally was around a dozen people).
+
+The main open gaps are crowd thresholds for E001–E003; whether E002 was a qualifying public assembly; the domestic-state target and route of E003; physical end dates and response fields; December/January episode ownership; source-access limitations; incomplete local-language and regional coverage; open-web versus LexisNexis differences; and the pending official baseline/Coding Procedure.
+
+Counts in the persisted files: 20 search queries, 32 source cards (7 opened, 25 search_only, 0 blocked, 0 not_found), 3 candidate events, 2 exclusions, 1 possible continuation, and 12 gaps. These counts describe this first pass, not protest prevalence or coverage completeness.

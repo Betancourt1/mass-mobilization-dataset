@@ -1,0 +1,27 @@
+Peru | February 2021 | first-pass open-web dossier; coordinator review pending
+
+Scope and method
+This dossier covers Peru, 1–28 February 2021, under the fixed 2026-10-07 cutoff. It is separate from the integrated catalogue. The local May 2015 codebook is present; the current official baseline/schema and additional Coding Procedure remain unverified. Provisional ccode 135 is not an official verified assignment. No official event IDs or final inclusion decisions are made here.
+
+Four actual batched web-search actions were captured once, with 16 query strings total and 112 ordered result headers. Searches covered English and Spanish, selected Arequipa/Cusco/Puno leads, transport and COVID restrictions, the Defensoría conflict report, and four within-month weekly windows. No dedicated adjacent-month boundary query is among the four captured actions; continuity remains open. The search log preserves the original action IDs, query batches, response headers, ordered refs/URLs and available clocks. Search snippets and headers are discovery only. This is a selective open-web first pass, not a LexisNexis-equivalent, exhaustive countrywide or regional-language survey. No search was rerun for bookkeeping.
+
+The saved scope count is 1 current-unit body opens and 0 prior-unit-only body opens.
+
+Source and candidate assessment
+Sixteen source cards are preserved: one opened body-read card and fifteen search-only cards; there are no observed access-denial cards. PER202102-S002 (Arequipa Misti Press) is the one body-read source. The full four-paragraph article text says hundreds of citizens associated with guilds marched in Arequipa’s historic center against quarantine and for work/employment, reaching Plaza de Armas; it also names representatives asking for a meeting with President Sagasti and urging alternative COVID measures. The article reports that municipal Serenazgo barriers were placed around the square to prevent movement against the measure scheduled to begin on 15 February.
+
+The source gives no counting method, bounded estimate or merchant-only count. It is one report; written origin/syndication and independent corroboration are unresolved. Its publication date, 13 February 2021, is not treated as the march’s physical start date. No exact route, physical event end, barrier effect, violence, arrests, dispersal, concession or policy change is inferred. E001 cites S002 alone for body-supported facts and remains pending_unit because the event month is not established. “Hundreds” is recorded qualitatively as reported threshold evidence; numeric participant bounds remain null.
+
+PER202102-S001 (Diario Correo) remains search_only. Its “more than 500 merchants” claim is a search-result headline only. Its first exact-URL attempt returned a technical Cache miss with no page content. A second attempt also returned no content, but the coordinator confirmed that closure had been persisted before dispatch; that attempt is preserved as quarantined/noncompliant and contributes no evidence. No denial is inferred.
+
+Five candidate records remain: E001 is pending_unit; E002–E005 remain pending_evidence. No exclusion or established cross-month continuation is recorded. E002 groups search-only Arequipa reports around 15–17 February whose relationship to E001 is unresolved. E003’s former 16 February date was based on discovery metadata, not body evidence, and is now null/unknown. Cusco and Puno leads remain unverified.
+
+Limits and follow-up
+Open gaps cover the physical date/month ownership of E001, turnout method and independent corroboration, source lineage, Arequipa episode boundaries, Cusco/Puno public action and turnout, state response/event ending, geographic/language/search coverage, official baseline, and cross-month continuity. `gaps.json` records the concrete next step for each. Empty `excluded.json` and `continuations.json` mean no such record is supported from this first pass, not that no such event exists.
+
+Access history and resources
+The two S001 Cache-miss outcomes and two S002 attempts are preserved with their original receipts, manual reviews and outcome notes. S002 body retrieval was one synchronous exact public HTTPS GET with standard TLS verification, HTTP 200, no redirect-follow, retry, credentials or cookies. Its response hash and read-scope note are in sources.jsonl and access_receipts. The body was parsed locally; no second page request was made. The body read was distinct from the quarantined S001 no-content attempt.
+
+No background server, watcher, container, VM or browser automation was started. The body GET completed synchronously with exit code 0. The owned temporary receipt/cache/body/header files and search-capture directory were removed and their absence was verified; hashes, sizes and absent paths are recorded in status.json. Durable request evidence remains inventoried in access_receipts/manifest.json. No temporary access authorization is implied by the saved historical receipts.
+
+This is an open-web research handoff only. Eligibility, episode links, baseline mapping, and all source-level judgments remain pending coordinator/independent review; there is no catalogue integration, publication, or official approval.

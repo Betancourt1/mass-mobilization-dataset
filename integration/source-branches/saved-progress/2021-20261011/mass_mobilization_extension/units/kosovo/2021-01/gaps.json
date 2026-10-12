@@ -1,0 +1,186 @@
+[
+  {
+    "gap_id": "KOSO_JAN2021_G001",
+    "type": "crowd_size",
+    "description": "The 12 Jan PSD action clearly occurred and targeted Kosovo institutional behavior, but no opened source reports total attendance. A search-only lead says about 20; the 16 people taken to the station are not a crowd count. The 30 Jan crowd is described as “dozens/several dozen,” which does not establish >=50.",
+    "source_ids": [
+      "KOSO_JAN2021_S001",
+      "KOSO_JAN2021_S004",
+      "KOSO_JAN2021_S017",
+      "KOSO_JAN2021_S018"
+    ],
+    "affected_candidates": [
+      "kosovo_2021-01_E001",
+      "kosovo_2021-01_E003"
+    ],
+    "required_followup": "Read contemporaneous original reports and look for explicit crowd estimates or photos with reliable counts; do not turn vague “dozens” into a number."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G002",
+    "type": "source_access",
+    "description": "Several relevant KoSSev and KOHA pages returned Cache miss; one KoSSev Albanian page returned 403. An ordinary HTTPS fetch of the public KoSSev English URL failed with DNS resolution error. No retry bypass or alternate route was used. These event claims remain search-only.",
+    "source_ids": [
+      "KOSO_JAN2021_S007",
+      "KOSO_JAN2021_S010",
+      "KOSO_JAN2021_S012",
+      "KOSO_JAN2021_S013",
+      "KOSO_JAN2021_S017",
+      "KOSO_JAN2021_S018"
+    ],
+    "affected_candidates": [
+      "kosovo_2021-01_E002",
+      "kosovo_2021-01_E003",
+      "kosovo_2021-01_E004"
+    ],
+    "required_followup": "Retry only ordinary HTTPS to the same public URLs in a later session if network access permits; preserve 403/DNS/cache outcomes as access gaps."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G003",
+    "type": "state_target",
+    "description": "The 25 Jan health-worker march was reportedly directed at Kosovo’s Basic Prosecutor’s Office and criticized Pristina authorities, but participants worked in a Serbian health system. The named target is more specific than participant identity, but Kosovo/Serbia state-target coding still needs source-body review.",
+    "source_ids": [
+      "KOSO_JAN2021_S012",
+      "KOSO_JAN2021_S014",
+      "KOSO_JAN2021_S015"
+    ],
+    "affected_candidates": [
+      "kosovo_2021-01_E002"
+    ],
+    "required_followup": "Read the letter or full article and separate the protested Kosovo authorities from the health system employer/authority; decide state target from explicit demands."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G004",
+    "type": "state_target",
+    "description": "The 30 Jan gathering opposed a visit by an acting president and an opposition/campaign candidate during the election period. “Here is Serbia” and calls to leave the north may express sovereignty demands, but the available excerpts do not establish a policy demand or resolve election-campaign framing.",
+    "source_ids": [
+      "KOSO_JAN2021_S017",
+      "KOSO_JAN2021_S018",
+      "KOSO_JAN2021_S019",
+      "KOSO_JAN2021_S020"
+    ],
+    "affected_candidates": [
+      "kosovo_2021-01_E003"
+    ],
+    "required_followup": "Read contemporaneous body/video reporting for signs, chants, organizer statements and the visitors’ roles at the exact location; distinguish a public policy demand from opposition to a campaign visit."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G005",
+    "type": "state_response",
+    "description": "For 12 Jan, police alleged aggressive conduct while PSD alleged forceful interruption; neither allegation is independently resolved. The 30 Jan accounts conflict over whether any incident occurred. No event-specific evidence supports beating, crowd dispersal, accommodation, ignoring, shootings or killings.",
+    "source_ids": [
+      "KOSO_JAN2021_S001",
+      "KOSO_JAN2021_S018",
+      "KOSO_JAN2021_S019",
+      "KOSO_JAN2021_S020",
+      "KOSO_JAN2021_S022"
+    ],
+    "affected_candidates": [
+      "kosovo_2021-01_E001",
+      "kosovo_2021-01_E003"
+    ],
+    "required_followup": "Seek independent body accounts and official follow-up; preserve unknown values unless they address the specific gathering."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G006",
+    "type": "execution",
+    "description": "The Police Union announced possible protests on 21 Jan over allowance demands, but no execution, location, onset or crowd size was found. An announcement does not count as an event.",
+    "source_ids": [
+      "KOSO_JAN2021_S010",
+      "KOSO_JAN2021_S011"
+    ],
+    "affected_candidates": [
+      "kosovo_2021-01_E004"
+    ],
+    "required_followup": "Find follow-up coverage after 21 Jan through February and verify any actual gathering or strike separately."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G007",
+    "type": "month_boundary",
+    "description": "CIVICUS describes the Association of Gastronomists of Kosovo as having continuously protested COVID restrictions in a coverage window spanning 26 Nov 2020–20 Jan 2021, but does not give onset or event dates. It may be a pre-January continuation, but the start is not established.",
+    "source_ids": [
+      "KOSO_JAN2021_S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Trace the linked original Koha chronology to establish physical onset, whether any assembly occurred in January, and the episode owner; do not assign an onset to this unit from the broad summary window."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G008",
+    "type": "month_boundary",
+    "description": "CIVICUS says part of the Office of the Prime Minister staff went on strike within its 26 Nov 2020–20 Jan 2021 overview, without an exact date, public assembly evidence or crowd size. The item cannot yet be allocated to January.",
+    "source_ids": [
+      "KOSO_JAN2021_S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retrieve the original Koha report and verify date, public assembly, demands and number of participants."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G009",
+    "type": "month_boundary",
+    "description": "A cystic fibrosis association protest is dated 7 Dec 2020; no evidence of continuity into January was located. February 2021 boundary coverage remains limited and no qualifying Feb onset continuation linked to these candidates was established.",
+    "source_ids": [
+      "KOSO_JAN2021_S002",
+      "KOSO_JAN2021_S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search December/February local-language media for continuations or new phases of each candidate. Do not infer continuity from later publication dates."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G010",
+    "type": "coverage",
+    "description": "Open-web search is not equivalent to the original LexisNexis archive. Search results were pooled with no per-query result counts; several results are syndications, translations or snippets. English, Albanian and Serbian queries surfaced leads, but the language/weekly/sector/region pass is not exhaustive.",
+    "source_ids": [
+      "KOSO_JAN2021_S001",
+      "KOSO_JAN2021_S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue systematic weekly and sector searches in Albanian, Serbian and English, including local sources and official/rights-monitor archives; record results, noise and access blocks."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G011",
+    "type": "baseline",
+    "description": "The official baseline/codebook verification gate remains pending. This research uses the local protocol categories and does not create official MM IDs or dataset updates.",
+    "source_ids": [],
+    "affected_candidates": [
+      "kosovo_2021-01_E001",
+      "kosovo_2021-01_E002",
+      "kosovo_2021-01_E003",
+      "kosovo_2021-01_E004"
+    ],
+    "required_followup": "Coordinator to complete the official baseline gate and independent review before any consolidation."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G012",
+    "type": "month_boundary",
+    "description": "A FrontOnline search excerpt says the gastronomers began protesting on 7 Nov 2020; CIVICUS says they continuously protested sometime in its 26 Nov 2020–20 Jan 2021 overview. The FrontOnline body was not opened, and CIVICUS gives no dates of any physical assembly. No January onset or known-start continuation can be coded.",
+    "source_ids": [
+      "KOSO_JAN2021_S002",
+      "KOSO_JAN2021_S030",
+      "KOSO_JAN2021_S031"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Open the linked original reports if accessible and establish the first and last physical assembly dates, whether any occurred in January, and whether activity was continuous or a sequence of distinct actions."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G013",
+    "type": "month_boundary",
+    "description": "A separate protest by Gjakova occupational-medicine specialists outside the Ministry of Health in Pristina was reported for 18 Feb 2021, after the January unit. It had distinct organizers and demands from the 25 Jan North Mitrovica march and cannot be treated as its continuation.",
+    "source_ids": [
+      "KOSO_JAN2021_S032"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Leave the Feb 18 event to its February unit; that unit should verify attendance and details. Check for any separate post-Jan 25 continuation of the North Mitrovica march before splitting or merging episodes."
+  },
+  {
+    "gap_id": "KOSO_JAN2021_G014",
+    "type": "date_and_eligibility",
+    "description": "CIVICUS says part of the Prime Minister’s Office staff went on strike sometime in its 26 Nov 2020–20 Jan 2021 reporting window, while the linked KOHA article and a Reporteri search result provide a strike lead. No exact physical onset, public assembly, location or attendance is verified; the Reporteri result’s publication date is not event onset.",
+    "source_ids": [
+      "KOSO_JAN2021_S002",
+      "KOSO_JAN2021_S034",
+      "KOSO_JAN2021_S035",
+      "KOSO_JAN2021_S036"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read an accessible body source, determine the physical start date and whether there was a public assembly of at least 50 people. Assign to a month only if event onset is established."
+  }
+]

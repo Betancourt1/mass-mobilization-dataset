@@ -1,0 +1,139 @@
+[
+  {
+    "gap_id": "PER202102-G001",
+    "type": "event_date_and_month_ownership",
+    "status": "open",
+    "description": "PER202102-S002 reports a completed Arequipa march but does not give its physical date. Its 2021-02-13 publication date is not the onset. The march may not be assigned to February without dated event evidence.",
+    "source_ids": [
+      "PER202102-S002"
+    ],
+    "affected_candidates": [
+      "PER202102-E001"
+    ],
+    "required_followup": "Seek a body source that dates the physical action; keep start_date null and eligibility pending_unit until month ownership is established."
+  },
+  {
+    "gap_id": "PER202102-G002",
+    "type": "crowd_estimate_and_threshold",
+    "status": "open",
+    "description": "PER202102-S002 calls the crowd “hundreds of citizens,” a qualitative report above 50, but gives no counting method, bounded estimate, or merchant-only count. PER202102-S001 has a search-only “more than 500” headline and cannot corroborate the figure.",
+    "source_ids": [
+      "PER202102-S001",
+      "PER202102-S002"
+    ],
+    "affected_candidates": [
+      "PER202102-E001"
+    ],
+    "required_followup": "Keep participants_min/max null, attribute the qualitative claim to S002, and seek independent/event-specific turnout evidence without converting either wording to an unsupported numeric range."
+  },
+  {
+    "gap_id": "PER202102-G003",
+    "type": "source_origin_and_independence",
+    "status": "open",
+    "description": "S002 lists a byline, but its written origin/syndication and independence remain unverified. S001 has not yielded body text; its second Cache-miss attempt is explicitly quarantined because the gate was stale at dispatch and contributes no evidence.",
+    "source_ids": [
+      "PER202102-S001",
+      "PER202102-S002"
+    ],
+    "affected_candidates": [
+      "PER202102-E001"
+    ],
+    "required_followup": "Check explicit written-origin evidence and a compliant S001 body retrieval only in a future authorized phase; do not infer a relationship from topic or date."
+  },
+  {
+    "gap_id": "PER202102-G004",
+    "type": "arequipa_episode_boundaries",
+    "status": "open",
+    "description": "E002 groups search-only Arequipa reports around 15–17 February; they may describe distinct actions, policy effects, or the same action as E001. No body reviewed for E002 establishes event dates, physical assemblies, participant groups, or independent source relationships.",
+    "source_ids": [
+      "PER202102-S003",
+      "PER202102-S004",
+      "PER202102-S005",
+      "PER202102-S006",
+      "PER202102-S002"
+    ],
+    "affected_candidates": [
+      "PER202102-E001",
+      "PER202102-E002"
+    ],
+    "required_followup": "Read individual reports under a future fresh gate, compare reported physical action/date/participants and source lineage, and split or link only on direct evidence."
+  },
+  {
+    "gap_id": "PER202102-G005",
+    "type": "cusco_puno_event_unit_and_threshold",
+    "status": "open",
+    "description": "Search-only leads point to a Cusco strike/march and Puno/Cusco protests or a Puno strike, but public-assembly execution, physical dates, locations, domestic-government demands, attendance, and relationships are not verified.",
+    "source_ids": [
+      "PER202102-S007",
+      "PER202102-S008",
+      "PER202102-S009"
+    ],
+    "affected_candidates": [
+      "PER202102-E003",
+      "PER202102-E004",
+      "PER202102-E005"
+    ],
+    "required_followup": "Review each source body separately; establish public action and 50-person threshold at each location, exact onset, state target and whether distinct episodes exist. Do not treat strike duration as a crowd or event boundary."
+  },
+  {
+    "gap_id": "PER202102-G006",
+    "type": "state_response_and_event_boundaries",
+    "status": "open",
+    "description": "S002 reports that municipal Serenazgo barriers were placed around Plaza de Armas to prevent movement against the scheduled quarantine, but does not establish their effect on the march, any dispersal, violence, arrests, accommodation, or when the march physically ended.",
+    "source_ids": [
+      "PER202102-S002"
+    ],
+    "affected_candidates": [
+      "PER202102-E001"
+    ],
+    "required_followup": "Keep response dimensions and end date unknown unless a report directly documents the action and its effect or the physical event end."
+  },
+  {
+    "gap_id": "PER202102-G007",
+    "type": "open_web_and_regional_coverage",
+    "status": "open",
+    "description": "Four actual batched search actions provide 16 English/Spanish query strings and 112 raw headers, with selected Arequipa/Cusco/Puno, transport, COVID restriction, official-report and boundary terms. They are a targeted open-web first pass, not comprehensive countrywide, local-press, regional-language, archive, or LexisNexis coverage.",
+    "source_ids": [],
+    "affected_candidates": [
+      "PER202102-E001",
+      "PER202102-E002",
+      "PER202102-E003",
+      "PER202102-E004",
+      "PER202102-E005"
+    ],
+    "required_followup": "If extended, search additional regions/sectors and local or regional-language outlets, capture every actual response, and compare with the official monthly Defensoría and labor sources; do not infer event absence from this pass."
+  },
+  {
+    "gap_id": "PER202102-G008",
+    "type": "official_baseline_and_method",
+    "status": "open",
+    "description": "The local May 2015 codebook is present, but the latest official Mass Mobilization baseline/version and the additional Coding Procedure are not verified. The country code 135 is provisional and no official event IDs or final approvals are assigned.",
+    "source_ids": [],
+    "affected_candidates": [
+      "PER202102-E001",
+      "PER202102-E002",
+      "PER202102-E003",
+      "PER202102-E004",
+      "PER202102-E005"
+    ],
+    "required_followup": "Coordinator to verify official baseline/schema and relevant procedure before final eligibility approval or integration; preserve this dossier as separate, pending-review extension material."
+  },
+  {
+    "gap_id": "PER202102-G009",
+    "type": "cross_month_continuity",
+    "status": "open",
+    "description": "No dedicated January/February or February/March boundary query appears among the four actual captured search actions, and no body evidence establishes whether any candidate continues from January or into March. The initial discovery note references the January Peru dossier as context, but this unit has not verified an episode link. E001 physical start remains unknown.",
+    "source_ids": [
+      "PER202102-S001",
+      "PER202102-S002"
+    ],
+    "affected_candidates": [
+      "PER202102-E001",
+      "PER202102-E002",
+      "PER202102-E003",
+      "PER202102-E004",
+      "PER202102-E005"
+    ],
+    "required_followup": "If extending the unit, run and capture explicit adjacent-month searches and review the relevant January/March dossier evidence after event dates and identities are established; use continuations for an onset before February and do not infer continuity from shared policy topic."
+  }
+]

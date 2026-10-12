@@ -1,0 +1,189 @@
+[
+  {
+    "gap_id": "IRQ202102-G001",
+    "type": "coverage",
+    "description": "Open-web discovery is not an exhaustive month census. The registered run contains 21 captured English, Arabic and Sorani searches with 487 result headers, but only 31 relevant URL cards. LexisNexis and the official MM baseline were not available in this worker scope.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should compare this bounded discovery set against the official baseline and continue source discovery; do not infer that unlocated events did not occur."
+  },
+  {
+    "gap_id": "IRQ202102-G002",
+    "type": "access",
+    "description": "Only the Shafaq Dukan Dam article (S002) was body-read. The other 30 cards are search_only; none is classified blocked or not_found. Three Rudaw attempts ended before a body request because complete-input path/hash checks changed.",
+    "source_ids": [
+      "IRQ202102-S001",
+      "IRQ202102-S002"
+    ],
+    "affected_candidates": [
+      "iraq_2021-02_E003"
+    ],
+    "required_followup": "For each desired body, obtain a fresh exact-URL receipt, save full matching publisher/domain and written-origin review, then immediately recheck the full corpus path set and every hash. Stop on any mismatch."
+  },
+  {
+    "gap_id": "IRQ202102-G003",
+    "type": "threshold",
+    "description": "The Dhi Qar Electricity result says “dozens,” which does not establish at least 50 participants; body and exact count are unknown.",
+    "source_ids": [
+      "IRQ202102-S010"
+    ],
+    "affected_candidates": [
+      "iraq_2021-02_E001"
+    ],
+    "required_followup": "Review the publisher body and seek a credible event-specific attendance estimate."
+  },
+  {
+    "gap_id": "IRQ202102-G004",
+    "type": "state_target",
+    "description": "The Dhi Qar salary result does not identify the responsible government authority or all event-linked response details.",
+    "source_ids": [
+      "IRQ202102-S010"
+    ],
+    "affected_candidates": [
+      "iraq_2021-02_E001"
+    ],
+    "required_followup": "Verify who was asked to pay and whether any direct state response occurred in the seven coded dimensions."
+  },
+  {
+    "gap_id": "IRQ202102-G005",
+    "type": "unit_boundary",
+    "description": "The AP excerpt says hundreds demanded release of activists in Nasiriyah on Friday, while Shafaq describes a 5 February bridge blockade and security clash. Their date and episode relationship require body review.",
+    "source_ids": [
+      "IRQ202102-S006",
+      "IRQ202102-S007"
+    ],
+    "affected_candidates": [
+      "iraq_2021-02_E002"
+    ],
+    "required_followup": "Read both bodies, verify exact dates and sites, and determine whether the crowd count belongs to the same gathering."
+  },
+  {
+    "gap_id": "IRQ202102-G006",
+    "type": "end_date_and_response",
+    "description": "The 5 February Nasiriyah episode has no physical end date. Shafaq’s search excerpt reports live fire, but article text, details and the remaining response dimensions were not reviewed.",
+    "source_ids": [
+      "IRQ202102-S006",
+      "IRQ202102-S007"
+    ],
+    "affected_candidates": [
+      "iraq_2021-02_E002"
+    ],
+    "required_followup": "Review reporting on event end, event-linked security conduct, protester violence and continuation without inferring from injury or casualty counts."
+  },
+  {
+    "gap_id": "IRQ202102-G007",
+    "type": "threshold_and_continuity",
+    "description": "Shafaq’s opened Dukan story says the entire workforce struck but gives no count; a separate Rudaw search result estimates nearly 100, which is not adopted. A work stoppage is not by itself evidence of a ≥50 public gathering. The story says the strike was to continue until payment but reports no physical end.",
+    "source_ids": [
+      "IRQ202102-S001",
+      "IRQ202102-S002"
+    ],
+    "affected_candidates": [
+      "iraq_2021-02_E003"
+    ],
+    "required_followup": "Seek a reliable headcount and public-action evidence, then verify when the work stoppage physically ended and whether salary settlement followed."
+  },
+  {
+    "gap_id": "IRQ202102-G008",
+    "type": "unit_boundary",
+    "description": "Reports about Kurdistan Region salary strikes refer to Dukan, Sulaymaniyah information offices, teachers and other employees, with dates around 9–15 February. Workplaces, starts, participant counts and overlap are unresolved; cities/workplaces must not be pooled.",
+    "source_ids": [
+      "IRQ202102-S003",
+      "IRQ202102-S004",
+      "IRQ202102-S005",
+      "IRQ202102-S028",
+      "IRQ202102-S029",
+      "IRQ202102-S030"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review each body, assign distinct locations and action dates, check public-gathering eligibility, compare any claimed totals to site-specific counts, and investigate syndication/origin."
+  },
+  {
+    "gap_id": "IRQ202102-G009",
+    "type": "unit_boundary",
+    "description": "Employment-policy/job-scarcity results include an Independent Press headline, Peoples Dispatch, and a Baghdad graduates report. The exact calendar date of the Tuesday march, Dhi Qar or other sites, crowd linkage, and whether a referenced action began before February are not verified. No continuation is coded.",
+    "source_ids": [
+      "IRQ202102-S008",
+      "IRQ202102-S009",
+      "IRQ202102-S018"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the source bodies, verify all action dates and locations, identify cross-city organization, and establish any January-to-February continuation before assigning unit ownership."
+  },
+  {
+    "gap_id": "IRQ202102-G010",
+    "type": "unit_boundary",
+    "description": "A search result reports top graduates rallying at Erbil’s Council of Ministers, but the actual date is not present in the exposed excerpt. Other public employment reports may refer to different dates or locations.",
+    "source_ids": [
+      "IRQ202102-S019"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the source body and verify the event date, physical location, count and target before considering a February candidate."
+  },
+  {
+    "gap_id": "IRQ202102-G011",
+    "type": "threshold_and_event_boundary",
+    "description": "The local-party statement result says Nasiriyah demonstrations began 22 February and demanded the governor’s removal; Al Jazeera and Anadolu headlines concern later southern protests. Event boundaries, turnout, sites, precise demands, origin relations and the state response remain unverified. The Arabic descriptor عارمة is not a validated attendance count.",
+    "source_ids": [
+      "IRQ202102-S012",
+      "IRQ202102-S013",
+      "IRQ202102-S014",
+      "IRQ202102-S022",
+      "IRQ202102-S023",
+      "IRQ202102-S024",
+      "IRQ202102-S025",
+      "IRQ202102-S026",
+      "IRQ202102-S027"
+    ],
+    "affected_candidates": [
+      "iraq_2021-02_E004"
+    ],
+    "required_followup": "Review primary statement and independent contemporary reports; establish crowd/site/day evidence, attribution, physical end and response without transferring casualty totals into turnout."
+  },
+  {
+    "gap_id": "IRQ202102-G012",
+    "type": "continuity_and_month_boundary",
+    "description": "Solidarity reports mention Nasiriyah and demonstrations in other Iraqi cities. The Shafaq Basra story was published 1 March, while a Rudaw image caption dates a Nasiriyah gathering 27 February; neither establishes a February 28 Baghdad gathering or complete cross-city unit boundaries.",
+    "source_ids": [
+      "IRQ202102-S015",
+      "IRQ202102-S016"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read each body; distinguish article date from gathering date, identify each city/site, and determine whether actions were organized collectively or locally. Do not code a Baghdad event without direct date and attendance evidence."
+  },
+  {
+    "gap_id": "IRQ202102-G013",
+    "type": "location_and_state_target",
+    "description": "Searches targeting Wasit/Kut returned a Dhi Qar-and-Wasit Shafaq lead and a broader central/southern Iraq Rudaw report, but did not establish a Kut gathering. Exact dates, sites, demands and whether the actions were separate remain unknown.",
+    "source_ids": [
+      "IRQ202102-S011",
+      "IRQ202102-S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the Shafaq and Rudaw bodies; identify each locality, date, crowd threshold, state target and relation to Nasiriyah. Treat the searches for Kut as discovery queries, not confirmation."
+  },
+  {
+    "gap_id": "IRQ202102-G014",
+    "type": "continuity",
+    "description": "Search results about job-policy protests do not establish whether an action began before 1 February or continued physically into February. No continuation is coded.",
+    "source_ids": [
+      "IRQ202102-S008",
+      "IRQ202102-S018"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the contemporary source bodies and verify any prior-month start and February physical presence before creating a continuation record."
+  },
+  {
+    "gap_id": "IRQ202102-G015",
+    "type": "baseline",
+    "description": "No official Mass Mobilization baseline record was available to this worker; all four entries are unapproved research candidates.",
+    "source_ids": [],
+    "affected_candidates": [
+      "iraq_2021-02_E001",
+      "iraq_2021-02_E002",
+      "iraq_2021-02_E003",
+      "iraq_2021-02_E004"
+    ],
+    "required_followup": "Coordinator must compare candidates and source references against the official baseline before review/approval."
+  }
+]

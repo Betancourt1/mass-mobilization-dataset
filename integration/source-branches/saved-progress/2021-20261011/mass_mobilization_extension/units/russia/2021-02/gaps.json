@@ -1,0 +1,238 @@
+[
+  {
+    "gap_id": "russia_2021-02_G001",
+    "type": "baseline",
+    "description": "The latest official MM source files, current event universe/schema, and additional Coding Procedure remain unverified; provisional ccode 365 and candidate coding are not official.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resolve the official baseline, universe, inclusion rules and license before official IDs or consolidation."
+  },
+  {
+    "gap_id": "russia_2021-02_G002",
+    "type": "threshold_turnout",
+    "description": "Feb. 2 Moscow City Court report says >300 by evening but does not resolve simultaneous attendance; the Feb. 14 Kazan fenced-area 150–200 report is distinct from larger visitor estimates that may count flow.",
+    "source_ids": [
+      "russia_2021-02_S004",
+      "russia_2021-02_S023"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_E001",
+      "russia_2021-02_E002",
+      "russia_2021-02_E003",
+      "russia_2021-02_E004",
+      "russia_2021-02_E005",
+      "russia_2021-02_E006"
+    ],
+    "required_followup": "Find same-site counts and distinguish simultaneous participants from arrivals/visitors; keep local sites separate."
+  },
+  {
+    "gap_id": "russia_2021-02_G003",
+    "type": "state_target",
+    "description": "The exact state-directed demand at the Feb. 2 court gathering and some search-only local actions remains incomplete. Radiopribor is a private/state target boundary case: wage arrears or layoffs alone do not establish a demand to the Russian state.",
+    "source_ids": [
+      "russia_2021-02_S004",
+      "russia_2021-02_S019",
+      "russia_2021-02_S027",
+      "russia_2021-02_S036",
+      "russia_2021-02_S037",
+      "russia_2021-02_S039",
+      "russia_2021-02_S040"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_E001",
+      "russia_2021-02_E004",
+      "russia_2021-02_E005",
+      "russia_2021-02_E006"
+    ],
+    "required_followup": "Open eligible source bodies and identify the addressee of each demand; do not infer state target from workplace or activist labels."
+  },
+  {
+    "gap_id": "russia_2021-02_G004",
+    "type": "episode_unit",
+    "description": "Feb. 14 Kazan approved rally, broader flashlight actions, Old Arbat solidarity chain, Kirov rally lead, and the women’s-strike banner may be separate or related; no event is merged based on headlines.",
+    "source_ids": [
+      "russia_2021-02_S010",
+      "russia_2021-02_S019",
+      "russia_2021-02_S020",
+      "russia_2021-02_S023",
+      "russia_2021-02_S027"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_E002",
+      "russia_2021-02_E003",
+      "russia_2021-02_E004",
+      "russia_2021-02_E005"
+    ],
+    "required_followup": "Compare contemporary full reports and map local actions before treating them as distinct or coordinated episodes."
+  },
+  {
+    "gap_id": "russia_2021-02_G005",
+    "type": "dates",
+    "description": "Exact end times are unavailable for opened Feb. 2 and Feb. 14 records. Several search-only action dates come from titles and are not verified. Radiopribor event date remains unknown.",
+    "source_ids": [
+      "russia_2021-02_S004",
+      "russia_2021-02_S019",
+      "russia_2021-02_S023",
+      "russia_2021-02_S027",
+      "russia_2021-02_S036",
+      "russia_2021-02_S037",
+      "russia_2021-02_S039",
+      "russia_2021-02_S040"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_E001",
+      "russia_2021-02_E002",
+      "russia_2021-02_E003",
+      "russia_2021-02_E004",
+      "russia_2021-02_E005",
+      "russia_2021-02_E006"
+    ],
+    "required_followup": "Verify dates and physical start/end from opened contemporaneous accounts; article date, stream schedule, and month end are not substitutes."
+  },
+  {
+    "gap_id": "russia_2021-02_G006",
+    "type": "state_response",
+    "description": "Only OVD-Info’s broad Feb. 2 report and NEWSru’s post-event Kazan detention report support arrests; attribution of force to each exact site and remaining response categories is unresolved.",
+    "source_ids": [
+      "russia_2021-02_S004",
+      "russia_2021-02_S023"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_E001",
+      "russia_2021-02_E002",
+      "russia_2021-02_E003",
+      "russia_2021-02_E004",
+      "russia_2021-02_E005",
+      "russia_2021-02_E006"
+    ],
+    "required_followup": "Find event-specific reports for accommodation, arrests, beatings, dispersal, ignore, killings and shootings; retain unknown where silent."
+  },
+  {
+    "gap_id": "russia_2021-02_G007",
+    "type": "source_access",
+    "description": "OVD-Info and NEWSru returned readable excerpts only; AIF Kazan exact URL produced two separately gated technical Cache misses without HTTP status or readable body, not a denial. Other relevant cards remain unopened.",
+    "source_ids": [
+      "russia_2021-02_S004",
+      "russia_2021-02_S023",
+      "russia_2021-02_S024"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_E001",
+      "russia_2021-02_E002"
+    ],
+    "required_followup": "Retain the access/review/outcome hashes and read extents; any later AIF access must use a fresh authorized access chain."
+  },
+  {
+    "gap_id": "russia_2021-02_G008",
+    "type": "source_independence",
+    "description": "NEWSru references Kommersant, Dozhd and OVD-Info figures, but the underlying linked reporting and video were not inspected; the OVD-Info report cannot independently confirm itself.",
+    "source_ids": [
+      "russia_2021-02_S004",
+      "russia_2021-02_S018",
+      "russia_2021-02_S023"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_E001",
+      "russia_2021-02_E002"
+    ],
+    "required_followup": "Inspect the underlying source links and record syndication/origin before claiming independent corroboration."
+  },
+  {
+    "gap_id": "russia_2021-02_G009",
+    "type": "language",
+    "description": "Most discovery and accessible material is Russian-language. English queries are supplementary; machine translation/human translation and equivalent local-language archives are not systematic.",
+    "source_ids": [
+      "russia_2021-02_S001",
+      "russia_2021-02_S004",
+      "russia_2021-02_S023"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review Russian originals and add human translation where needed; expand language coverage only with source-level provenance."
+  },
+  {
+    "gap_id": "russia_2021-02_G010",
+    "type": "coverage",
+    "description": "Searches cover weekly February windows, major Navalny-related calls, Kazan, Far Eastern actions, Kirov, Khabarovsk continuity and workplace/sector terms, but do not establish full regional or sectoral coverage.",
+    "source_ids": [
+      "russia_2021-02_S001",
+      "russia_2021-02_S027",
+      "russia_2021-02_S036",
+      "russia_2021-02_S041",
+      "russia_2021-02_S043",
+      "russia_2021-02_S045"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_E003",
+      "russia_2021-02_E004",
+      "russia_2021-02_E005",
+      "russia_2021-02_E006"
+    ],
+    "required_followup": "Continue regional reporting discovery, especially smaller cities, labor, teachers/health, prices, housing and ecological actions; non-discovery is not absence."
+  },
+  {
+    "gap_id": "russia_2021-02_G011",
+    "type": "search_method",
+    "description": "The 13 saved search captures provide ordered returned result headers, but this open-web search is not a LexisNexis-equivalent systematic archive search; capture/search ranking and incomplete snippets limit inference.",
+    "source_ids": [
+      "russia_2021-02_S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain queries and returned headers, note search-engine limitations and compare with systematic news archives if available."
+  },
+  {
+    "gap_id": "russia_2021-02_G012",
+    "type": "contested_evidence",
+    "description": "Kazan turnout attributions differ sharply and may mix a fenced-area count with square visitors; reported participant belief that loud music was intentional is not independently established.",
+    "source_ids": [
+      "russia_2021-02_S023"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_E002"
+    ],
+    "required_followup": "Inspect Kommersant/Dozhd and event recordings, preserve each source attribution, and do not collapse estimates or report belief as verified intent."
+  },
+  {
+    "gap_id": "russia_2021-02_G013",
+    "type": "ownership",
+    "description": "The January dossier’s C001 leaves the Khabarovsk Furgal campaign owner unresolved between July 2020 and January 2021; Feb. 6 stream and Feb. 14 weekly-rally headlines do not establish occurrence or physical continuity.",
+    "source_ids": [
+      "russia_2021-02_S044",
+      "russia_2021-02_S045"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_C001"
+    ],
+    "required_followup": "Coordinator should resolve cross-month ownership after verifying February dates, recurrence and episode rules; do not transfer attendance across actions."
+  },
+  {
+    "gap_id": "russia_2021-02_G014",
+    "type": "workplace_episode",
+    "description": "Radiopribor search cards refer to a Feb. 5 plant-closure story, a Feb. 8 management meeting, planned rally reporting, a reported rally, and labor-monitoring material. Their dates, occurrence, sites, and relation are unresolved.",
+    "source_ids": [
+      "russia_2021-02_S036",
+      "russia_2021-02_S037",
+      "russia_2021-02_S038",
+      "russia_2021-02_S039",
+      "russia_2021-02_S040",
+      "russia_2021-02_S041"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_E006"
+    ],
+    "required_followup": "Verify each exact item and avoid merging announcements, private workplace meetings, and public gatherings."
+  },
+  {
+    "gap_id": "russia_2021-02_G015",
+    "type": "event_end",
+    "description": "No exact event-ending time or full dissolution is supported for opened records; do not use article publication, reported post-event detentions, or month boundary as an exact event end.",
+    "source_ids": [
+      "russia_2021-02_S004",
+      "russia_2021-02_S023"
+    ],
+    "affected_candidates": [
+      "russia_2021-02_E001",
+      "russia_2021-02_E002"
+    ],
+    "required_followup": "Seek contemporaneous site reports that document the physical end and note remaining uncertainty."
+  }
+]

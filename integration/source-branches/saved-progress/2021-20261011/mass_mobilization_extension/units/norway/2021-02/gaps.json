@@ -1,0 +1,96 @@
+[
+  {
+    "gap_id": "NOR2021-02-G001",
+    "type": "participants",
+    "description": "The 20 February gathering is retrospectively confirmed by the organizer archive, but no attendance or qualitative crowd-size description is supplied; eligibility remains below the evidence needed to establish the 50-person threshold.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "NOR2021-02-E002"
+    ],
+    "required_followup": "Seek independent contemporaneous reporting or a fuller dated organizer record that gives an event-specific crowd estimate; keep pending_threshold until then."
+  },
+  {
+    "gap_id": "NOR2021-02-G002",
+    "type": "contested_evidence",
+    "description": "The approximate 100-person attendance for 13 February and the account of several arrests are found only in one strongly partisan anonymous Tjen Folket Media submission, represented here through the prior January dossier summary; no independent contemporary corroboration was found in targeted searches.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "NOR2021-02-E001"
+    ],
+    "required_followup": "Locate an independent contemporaneous report or primary police/event record; preserve the estimate as approximate and do not widen it into exact bounds."
+  },
+  {
+    "gap_id": "NOR2021-02-G003",
+    "type": "dates",
+    "description": "Neither confirmed February gathering has an observed physical dispersal date/time. Organizer event hours are scheduled times, not actual ends.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "NOR2021-02-E001",
+      "NOR2021-02-E002"
+    ],
+    "required_followup": "Find event-specific contemporaneous post-event reporting or a complete organizer retrospective that documents physical ending; keep end_date null otherwise."
+  },
+  {
+    "gap_id": "NOR2021-02-G004",
+    "type": "state_response",
+    "description": "For 13 February, only an uncorroborated partisan account alleges arrests of counter-protesters; it does not establish action against Røde Luer participants or protesters’ violence against the state. The organizer archive reports no response detail for either date.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "NOR2021-02-E001",
+      "NOR2021-02-E002"
+    ],
+    "required_followup": "Seek independent event-specific accounts for arrests, accommodation, beatings, crowd dispersal, ignore, killings and shootings; retain all unsupported dimensions as unknown."
+  },
+  {
+    "gap_id": "NOR2021-02-G005",
+    "type": "episode_unit",
+    "description": "The organizer archive announces 6 February and 27 February gatherings without a confirming retrospective entry in the opened scope. The weekly schedule does not prove a continuous physical assembly or execution on each date.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search event-specific sources for each date; do not add an event or continuation unless execution and episode ownership are evidenced."
+  },
+  {
+    "gap_id": "NOR2021-02-G006",
+    "type": "source_access",
+    "description": "The Fagforeninga annual-report PDF may clarify a 4 February Steinkjer strike marking, but the current reader could not return the 11,440,773-byte body; a prior unit’s capped HTTP 200 retrieval was also truncated with no text. The snippet does not establish crowd size or a state-directed demand.",
+    "source_ids": [
+      "S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only if needed, reconsider the exact PDF through a fresh receipt and full manual gate after any input change; do not use a mirror or treat the tool-size failure as a publisher denial."
+  },
+  {
+    "gap_id": "NOR2021-02-G007",
+    "type": "search_method",
+    "description": "Searches used open-web English and Norwegian queries across news, organizer, regional, union, government and rights-organization leads; this is not LexisNexis and does not establish exhaustive Norwegian press or language coverage.",
+    "source_ids": [],
+    "affected_candidates": [
+      "NOR2021-02-E001",
+      "NOR2021-02-E002"
+    ],
+    "required_followup": "Human review should assess Norwegian-language and local archive coverage, especially independent evidence for the two gatherings and the unconfirmed dates."
+  },
+  {
+    "gap_id": "NOR2021-02-G008",
+    "type": "baseline",
+    "description": "The local May 2015 Clark–Regan manual was consulted, but the latest official event-data version, universe, schema, cutoff and use conditions are not verified; the additional Coding Procedure remains unresolved.",
+    "source_ids": [],
+    "affected_candidates": [
+      "NOR2021-02-E001",
+      "NOR2021-02-E002"
+    ],
+    "required_followup": "Coordinator must resolve the official-baseline and procedure gates before any integration or official IDs are assigned."
+  }
+]

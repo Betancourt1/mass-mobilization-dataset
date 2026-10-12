@@ -1,0 +1,29 @@
+{
+  "unit_id": "namibia_2021-02",
+  "country": "Namibia",
+  "month": "2021-02",
+  "agent_task": "/root/namibia_2021_02_batch59",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T17:44:13.647055+00:00",
+  "finished_at": "2026-10-10T18:40:36.945595+00:00",
+  "n_queries": 30,
+  "n_sources": 27,
+  "n_candidates": 5,
+  "n_excluded": 8,
+  "n_continuations": 0,
+  "n_gaps": 11,
+  "coverage_assessment": "Open-web first pass: 30 actual search actions and 739 ordered result headers were captured and checked against the registered rollout. One current-unit body opens; four prior-unit-only source consultations. Five candidates remain provisional; search-only leads are not verified attendance or occurrence evidence. Coverage used English and Afrikaans queries and selected local, regional, international and official-source results, but no systematic LexisNexis or comprehensive local-language archive access. No absence claim; coordinator review and official baseline verification remain pending.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 4,
+    "search_only_cards": 23,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_action_count": 30,
+    "captured_header_count": 739,
+    "registered_original_event_ids_verified": 30,
+    "exact_query_and_ordered_header_url_comparison": "all 30 action IDs, batched query strings, ordered header arrays and ordered URL arrays matched the rollout extraction; zero mismatches."
+  }
+}

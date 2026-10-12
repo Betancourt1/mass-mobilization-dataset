@@ -1,0 +1,30 @@
+{
+  "unit_id": "russia_2021-02",
+  "country": "Russia",
+  "month": "2021-02",
+  "agent_task": "/root/russia_2021_02_batch61",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T23:47:55.740000+00:00",
+  "finished_at": "2026-10-11T01:22:49+00:00",
+  "n_queries": 13,
+  "n_sources": 45,
+  "n_candidates": 6,
+  "n_excluded": 0,
+  "n_continuations": 1,
+  "n_gaps": 15,
+  "coverage_assessment": "Thirteen saved open-web query captures cover all four February weekly windows and targeted Feb. 2 Navalny, Feb. 14 Kazan/solidarity/flashlight actions, Kirov, Far East, Radiopribor and Khabarovsk/Furgal leads. Forty-five unique cards are retained; two source bodies were opened and 43 cards remain search_only. Six provisional records comprise one Feb. 2 Moscow City Court candidate pending concurrent-threshold clarification, one Feb. 14 Kazan gathering proposed for inclusion on its separately reported 150–200 fenced-area group, and four discovery-only leads (flashlight actions, Old Arbat chain, Kirov rally, Radiopribor workplace activity). One Khabarovsk/Furgal cross-month continuation record remains pending owner review. The dossier is not exhaustive: attendance and state response are site-specific and partly unknown, regional/sector/language coverage is uneven, search headers are discovery-only, open-web search is not LexisNexis-equivalent, two readable reports supplied excerpts without fresh status/final URL, and the AIF exact URL returned two technical cache misses. No missing result is evidence of absence and no official baseline has been verified. The saved metadata records 2 current-unit body opens and 0 prior-unit-only cards.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened": 2,
+    "search_only": 43,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 360,
+    "unique_source_card_count": 45,
+    "note": "Saved search_log.jsonl contains 13 query records and 360 returned headers; sources.jsonl preserves 45 unique relevant URL cards."
+  },
+  "current_unit_body_reads": 2,
+  "prior_unit_only_reads": 0
+}

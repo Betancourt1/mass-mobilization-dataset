@@ -1,0 +1,127 @@
+[
+  {
+    "gap_id": "CAR202102-G001",
+    "type": "official_baseline",
+    "description": "The unit uses provisional ccode 482; no official baseline/version or use conditions were available to this worker.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should resolve the official baseline gate and preserve provisional IDs until then."
+  },
+  {
+    "gap_id": "CAR202102-G002",
+    "type": "event_occurrence_turnout",
+    "description": "The February 3 and February 6 anti-dialogue leads depend on NouvellesPlus search results. Both exact URLs returned HTTP 404; occurrence, precise event dates, same-time attendance, thresholds and state targets remain unverified. The February 3 headline count is not coded.",
+    "source_ids": [
+      "CAR202102-S001",
+      "CAR202102-S002"
+    ],
+    "affected_candidates": [
+      "CAR202102-E001",
+      "CAR202102-E002"
+    ],
+    "required_followup": "Find accessible contemporaneous evidence for occurrence, date, location, attendance and demand target; retain no count unless directly supported."
+  },
+  {
+    "gap_id": "CAR202102-G003",
+    "type": "episode_boundary_cross_month",
+    "description": "The January 30 rally, the search-only February 3 “second action,” and February 6 recurring-protest wording may represent distinct gatherings or an episode relationship. The January dossier already carries a forward lead; no automatic split or merge is warranted.",
+    "source_ids": [
+      "CAR202102-S001",
+      "CAR202102-S002"
+    ],
+    "affected_candidates": [
+      "CAR202102-E001",
+      "CAR202102-E002"
+    ],
+    "required_followup": "Review CAR202101-E001 and CAR202101-C003 alongside an accessible contemporaneous source; establish event starts and do not allocate cumulative attendance across dates."
+  },
+  {
+    "gap_id": "CAR202102-G004",
+    "type": "state_target_and_source_lineage",
+    "description": "The February 12 rally body reports more than 100 people but says placards addressed CEEAC. A separate demand to the Central African government is not established; the Corbeau News credit names Radio Ndeke Luka, whose original was not found in captured searches.",
+    "source_ids": [
+      "CAR202102-S003"
+    ],
+    "affected_candidates": [
+      "CAR202102-E003"
+    ],
+    "required_followup": "Find the RNL original or another independent report and establish any explicit domestic government target; retain pending_state_target until then."
+  },
+  {
+    "gap_id": "CAR202102-G005",
+    "type": "corroboration_and_campaign_boundary",
+    "description": "The February 13 mass march is supported by one opened Pagesafrik account. A YECLO search-only result with a similar headline may be related; its origin and independence are unresolved. The day-after relation to the CEEAC rally does not make the two events one.",
+    "source_ids": [
+      "CAR202102-S005",
+      "CAR202102-S006"
+    ],
+    "affected_candidates": [
+      "CAR202102-E003",
+      "CAR202102-E004"
+    ],
+    "required_followup": "Seek independent contemporaneous reporting and review whether the anti-dialogue events form one campaign while preserving separate physical-event candidates."
+  },
+  {
+    "gap_id": "CAR202102-G006",
+    "type": "blocked_source_and_threshold",
+    "description": "The February 21 Ndjoni Sango exact URL returned HTTP 403 after a fresh receipt; no body or copy was requested. Search title alone does not establish attendance, event target, physical boundaries or state response.",
+    "source_ids": [
+      "CAR202102-S007"
+    ],
+    "affected_candidates": [
+      "CAR202102-E005"
+    ],
+    "required_followup": "Do not retry the denied URL or request a same-story copy. Reassess only if an independent, permitted source establishes the necessary fields."
+  },
+  {
+    "gap_id": "CAR202102-G007",
+    "type": "strike_public_assembly",
+    "description": "An Education International retrospective lead about teachers’ strike dates returned HTTP 403; a separate RNL strike lead is search-only and not reliably tied to February 2021. The available material does not establish a public assembly or threshold, so the strike is not coded as a mass event.",
+    "source_ids": [
+      "CAR202102-S008",
+      "CAR202102-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve the exact-source 403; use permitted independent evidence to date the action and determine whether any qualifying public gathering occurred."
+  },
+  {
+    "gap_id": "CAR202102-G008",
+    "type": "publisher_hold_student_action",
+    "description": "Africa-Press search title suggests a possible student demonstration at Lycée Barthélemy Boganda, but its date, event content and threshold are unknown. The fresh source-access receipt matched the saved Africa-Press publisher-wide hold; no target body or same-story copy was requested.",
+    "source_ids": [
+      "CAR202102-S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep search-only under the saved publisher hold; do not request this page or same-story copies. Use independently sourced evidence if it becomes available."
+  },
+  {
+    "gap_id": "CAR202102-G009",
+    "type": "language_geographic_and_archive_coverage",
+    "description": "Captured searches covered French and English weekly/monthly windows, selected local sources, sectors and regional leads, international-wire retrospect, and limited Sango vocabulary. Sango searches produced no useful local protest lead; Bouar/Bambari/Bangassou/Bossangoa/Berbérati results were contextual rather than event evidence. Web indexing cannot establish LexisNexis or local-archive coverage.",
+    "source_ids": [
+      "CAR202102-S004",
+      "CAR202102-S007",
+      "CAR202102-S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may prioritize local-language archives and provincial media. Treat this open-web first pass as bounded discovery, not an exhaustive search."
+  },
+  {
+    "gap_id": "CAR202102-G010",
+    "type": "physical_end_and_response",
+    "description": "Physical closure is established only for the February 13 march. End dates and event-specific state responses remain unknown for the NouvellesPlus and CEEAC leads and the interfaith-march lead; silence is not coded as ignore or no response.",
+    "source_ids": [
+      "CAR202102-S001",
+      "CAR202102-S002",
+      "CAR202102-S003",
+      "CAR202102-S007"
+    ],
+    "affected_candidates": [
+      "CAR202102-E001",
+      "CAR202102-E002",
+      "CAR202102-E003",
+      "CAR202102-E005"
+    ],
+    "required_followup": "Seek event-specific reporting for physical ends and each of the seven response dimensions; keep unsupported dimensions unknown."
+  }
+]

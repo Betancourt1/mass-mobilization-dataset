@@ -1,0 +1,101 @@
+[
+  {
+    "gap_id": "singapore_2021-02-G001",
+    "type": "threshold",
+    "description": "The opened Singapore Police Force release identifies three men allegedly participating in the 10 February assembly but does not give a full attendance count or say that only three people were present. The at-least-50 threshold is unresolved.",
+    "source_ids": ["singapore_2021-02-S001"],
+    "affected_candidates": ["singapore_2021-02-E001"],
+    "required_followup": "Seek a contemporary source that reports total attendance; do not infer either a three-person total or attendance of at least 50 from the three identified men."
+  },
+  {
+    "gap_id": "singapore_2021-02-G002",
+    "type": "state_target",
+    "description": "The police release describes the men as acting to show support for the people of Myanmar. It does not state a specific demand or identify the government or policy targeted. Neither a Singapore-directed demand nor an explicit foreign-state-only target is established.",
+    "source_ids": ["singapore_2021-02-S001"],
+    "affected_candidates": ["singapore_2021-02-E001"],
+    "required_followup": "Review an independent contemporary account or participant statement for the exact demand and intended target before inclusion or foreign-state-only exclusion."
+  },
+  {
+    "gap_id": "singapore_2021-02-G003",
+    "type": "state_response",
+    "description": "The opened police release says an investigation was ongoing. The seven coded response dimensions—accommodation, arrests, beatings, crowd dispersal, ignore, killings, and shootings—remain unknown; investigation is not itself an arrest finding, and silence is not coded as absence.",
+    "source_ids": ["singapore_2021-02-S001"],
+    "affected_candidates": ["singapore_2021-02-E001"],
+    "required_followup": "Use a source that describes the event-specific response before changing any of the seven unknown values."
+  },
+  {
+    "gap_id": "singapore_2021-02-G004",
+    "type": "source_independence",
+    "description": "Search-only outlets report the same three-men/police-investigation story, but no independent outlet body was opened. Repeated headlines or reports of the police account do not independently corroborate turnout, demands, or responses.",
+    "source_ids": [
+      "singapore_2021-02-S001",
+      "singapore_2021-02-S004",
+      "singapore_2021-02-S005",
+      "singapore_2021-02-S006",
+      "singapore_2021-02-S007",
+      "singapore_2021-02-S009",
+      "singapore_2021-02-S010",
+      "singapore_2021-02-S011"
+    ],
+    "affected_candidates": ["singapore_2021-02-E001"],
+    "required_followup": "If later authorized review opens an independent contemporary report, record its origin and determine which fields it independently supports."
+  },
+  {
+    "gap_id": "singapore_2021-02-G005",
+    "type": "coverage",
+    "description": "Thirty-two native web searches preserve 639 ordered result headers, including three empty-result searches. Coverage included four disjoint February week windows, broad national protest queries, event-specific Myanmar Embassy searches, labor/migrant-worker queries, official and rights-source queries, major international publications, and targeted location/outcome checks. Open-web discovery cannot reproduce LexisNexis or local newspaper archives and does not show that no other protest occurred.",
+    "source_ids": [],
+    "affected_candidates": ["singapore_2021-02-E001"],
+    "required_followup": "Retain the complete capture log and use additional archive access only if available; do not interpret search-result volume as exhaustive coverage."
+  },
+  {
+    "gap_id": "singapore_2021-02-G006",
+    "type": "language_and_region",
+    "description": "Searches used English, Chinese, Malay, Tamil, and Burmese terms. Geographic targeting centered on Singapore, with embassy-related Myanmar/Yangon and Ang Mo Kio worker queries. Only an English-language official police body was read; Malay, Tamil, Chinese, and Burmese results were not independently reviewed as article bodies, and indexing/translation coverage remains limited.",
+    "source_ids": ["singapore_2021-02-S001", "singapore_2021-02-S006", "singapore_2021-02-S007", "singapore_2021-02-S008"],
+    "affected_candidates": ["singapore_2021-02-E001"],
+    "required_followup": "A later reviewer with language and local-archive access can verify whether other Singapore gatherings or independent descriptions were reported."
+  },
+  {
+    "gap_id": "singapore_2021-02-G007",
+    "type": "continuity_and_ownership",
+    "description": "The January Singapore dossier was consulted read-only: its 26 January MOE assembly is a different issue and location, not a continuation of the 10 February Myanmar Embassy lead. Searches also surfaced Yangon and Myanmar-related boycott/protest leads with varying location clarity; these are not assigned to Singapore without evidence of a Singapore event. No systematic January-to-March continuity sweep was captured.",
+    "source_ids": ["singapore_2021-02-S001", "singapore_2021-02-S015", "singapore_2021-02-S016", "singapore_2021-02-S017"],
+    "affected_candidates": ["singapore_2021-02-E001"],
+    "required_followup": "Keep the January MOE action in its owning unit; resolve location and episode links for the Myanmar-related search-only leads before assigning them to another country-month."
+  },
+  {
+    "gap_id": "singapore_2021-02-G008",
+    "type": "source_access",
+    "description": "One exact Singapore Police Force page was opened and its relevant body lines read; the web tool exposed no numeric HTTP status. The access receipts and source-specific external review are preserved. The other 16 source cards remain search_only; their snippets and titles are not used as verified event evidence. No source was marked blocked or not_found.",
+    "source_ids": [
+      "singapore_2021-02-S001",
+      "singapore_2021-02-S002",
+      "singapore_2021-02-S003",
+      "singapore_2021-02-S004",
+      "singapore_2021-02-S005",
+      "singapore_2021-02-S006",
+      "singapore_2021-02-S007",
+      "singapore_2021-02-S008",
+      "singapore_2021-02-S009",
+      "singapore_2021-02-S010",
+      "singapore_2021-02-S011",
+      "singapore_2021-02-S012",
+      "singapore_2021-02-S013",
+      "singapore_2021-02-S014",
+      "singapore_2021-02-S015",
+      "singapore_2021-02-S016",
+      "singapore_2021-02-S017"
+    ],
+    "affected_candidates": ["singapore_2021-02-E001"],
+    "required_followup": "Treat the saved body outcome as one official account only; no retry, alternate route, or mirror is part of this closed source phase."
+  },
+  {
+    "gap_id": "singapore_2021-02-G009",
+    "type": "baseline_and_codebook",
+    "description": "The available MM Codebook states the project's 50-person and home-state/state-policy criteria, but the coordinator's official current baseline and reuse conditions remain pending. The supplemental Mass Mobilization Coding Procedure and LexisNexis workflow are not available in this worker dossier.",
+    "source_ids": [],
+    "affected_candidates": ["singapore_2021-02-E001"],
+    "required_followup": "Coordinator verifies the authoritative current baseline, universe, schema, reuse terms, and any supplemental procedure before official integration."
+  }
+]

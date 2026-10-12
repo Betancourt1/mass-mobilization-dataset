@@ -1,0 +1,236 @@
+[
+  {
+    "gap_id": "HR202101-G001",
+    "type": "baseline_coding_procedure",
+    "description": "Local manual baseline/mm_codebook.txt was read, but additional Coding Procedure and official baseline comparison remain unavailable. No candidate approval or episode rule is inferred.",
+    "source_ids": [],
+    "affected_candidates": [
+      "HR202101-E001",
+      "HR202101-E002",
+      "HR202101-E003",
+      "HR202101-E004",
+      "HR202101-E005"
+    ],
+    "required_followup": "Coordinator/manual specialist must recover missing procedure and compare official baseline before integration."
+  },
+  {
+    "gap_id": "HR202101-G002",
+    "type": "coverage_search_method",
+    "description": "Open web search cannot reproduce LexisNexis. English/Croatian broad, weekly-window, sector, regional and boundary queries yielded uneven coverage; query quota does not establish exhaustiveness.",
+    "source_ids": [],
+    "affected_candidates": [
+      "HR202101-E001",
+      "HR202101-E002",
+      "HR202101-E003",
+      "HR202101-E004",
+      "HR202101-E005"
+    ],
+    "required_followup": "Search systematic contemporary news archives, unions, rights organizations and official records; document unavailable archives."
+  },
+  {
+    "gap_id": "HR202101-G003",
+    "type": "search_method_dates",
+    "description": "Search engines often ignored date operators and returned later years or older events. Early20 query clocks and result-to-query mapping were not captured; retained null clocks and pooled batched URLs accurately rather than fabricated precision.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Re-run high-priority weekly and boundary searches with dated archive indexes; verify article and action dates in body."
+  },
+  {
+    "gap_id": "HR202101-G004",
+    "type": "coverage_language_regions",
+    "description": "Croatian and English searches covered Zagreb, Split/Trogir, Dubrovnik, Vukovar/Slavonia and other regional terms, but translation and regional indexing are incomplete. No January lead in a query is not evidence of no action.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Extend Croatian regional archives for Istria/Rijeka, northern counties, central earthquake area, Zadar/Šibenik, workers, farmers, healthcare, students and minorities."
+  },
+  {
+    "gap_id": "HR202101-G005",
+    "type": "participants_state_target_dates_source_access",
+    "description": "Brodotrogir January mass action remains based on blocked retrospective and contemporary search discoveries. Workforce counts, few-worker headquarters and two-worker delegation do not meet protest threshold.",
+    "source_ids": [
+      "HR202101-S005",
+      "HR202101-S006",
+      "HR202101-S007",
+      "HR202101-S009",
+      "HR202101-S021"
+    ],
+    "affected_candidates": [
+      "HR202101-E001"
+    ],
+    "required_followup": "Recover contemporary original public action date, crowd size, state demand and organizing details; do not infer from employment numbers."
+  },
+  {
+    "gap_id": "HR202101-G006",
+    "type": "source_access",
+    "description": "Portal.hr, Narod and DalmacijaDanas follow-up pages returned browser cache misses and ordinary HTTPS403. Index's linked Dubrovački Dnevnik original could not be opened. Other discoveries remain search-only.",
+    "source_ids": [
+      "HR202101-S005",
+      "HR202101-S006",
+      "HR202101-S009",
+      "HR202101-S014",
+      "HR202101-S015",
+      "HR202101-S016",
+      "HR202101-S017",
+      "HR202101-S018",
+      "HR202101-S019",
+      "HR202101-S020",
+      "HR202101-S021",
+      "HR202101-S022",
+      "HR202101-S023",
+      "HR202101-S024",
+      "HR202101-S025",
+      "HR202101-S026",
+      "HR202101-S028",
+      "HR202101-S029"
+    ],
+    "affected_candidates": [
+      "HR202101-E001",
+      "HR202101-E002",
+      "HR202101-E003",
+      "HR202101-E004"
+    ],
+    "required_followup": "Use accessible contemporary originals or archives without bypassing site controls, and record actual body access."
+  },
+  {
+    "gap_id": "HR202101-G007",
+    "type": "participants",
+    "description": "Antifascist Jan27 gathering has no attendance count. Twenty/thirty NGO figures represent organizations, not participants.",
+    "source_ids": [
+      "HR202101-S001",
+      "HR202101-S029"
+    ],
+    "affected_candidates": [
+      "HR202101-E003"
+    ],
+    "required_followup": "Find contemporary attendance estimate, public photos with documented counting method, or organizer/police count."
+  },
+  {
+    "gap_id": "HR202101-G008",
+    "type": "episode_unit_state_target",
+    "description": "Jan30 hospitality carpark meeting has approximate80 attendance and domestic COVID-policy demands, but public protest character is unresolved.",
+    "source_ids": [
+      "HR202101-S004",
+      "HR202101-S028"
+    ],
+    "affected_candidates": [
+      "HR202101-E004"
+    ],
+    "required_followup": "Verify public access, purpose, state-facing protest action and named site; apply missing Coding Procedure."
+  },
+  {
+    "gap_id": "HR202101-G009",
+    "type": "source_independence",
+    "description": "HINA syndications and secondary local attributions do not constitute independent confirmation. Index credits Dubrovački Dnevnik; Braniteljski portal credits RadioVukovar and reproduces BBB statement.",
+    "source_ids": [
+      "HR202101-S002",
+      "HR202101-S003",
+      "HR202101-S004",
+      "HR202101-S012",
+      "HR202101-S014",
+      "HR202101-S016",
+      "HR202101-S027",
+      "HR202101-S028",
+      "HR202101-S029",
+      "HR202101-S030"
+    ],
+    "affected_candidates": [
+      "HR202101-E002",
+      "HR202101-E003",
+      "HR202101-E004",
+      "HR202101-E005"
+    ],
+    "required_followup": "Retrieve original dispatches and local reports; map shared agency/spokesperson/participant origins before treating as corroboration."
+  },
+  {
+    "gap_id": "HR202101-G010",
+    "type": "contested_evidence_dates_participants",
+    "description": "Vukovar contemporary Jan30 report says about80; Jan31 reproduced supporter statement says roughly100. Jan31 main text says Saturday, image caption Sunday. March described in smaller groups with collective photograph.",
+    "source_ids": [
+      "HR202101-S027",
+      "HR202101-S030"
+    ],
+    "affected_candidates": [
+      "HR202101-E005"
+    ],
+    "required_followup": "Recover RadioVukovar and original dated participant statement; review calendar conflict and whether gathering meets event unit throughout."
+  },
+  {
+    "gap_id": "HR202101-G011",
+    "type": "violence_casualties_state_response",
+    "description": "BBB allegations and police counterclaims concern an earlier detention. Dubrovnik disciplinary case is grievance context. Wage/pandemic hardship statements and earlier harms are not gathering responses.",
+    "source_ids": [
+      "HR202101-S002",
+      "HR202101-S003",
+      "HR202101-S013",
+      "HR202101-S027",
+      "HR202101-S030"
+    ],
+    "affected_candidates": [
+      "HR202101-E001",
+      "HR202101-E002",
+      "HR202101-E004",
+      "HR202101-E005"
+    ],
+    "required_followup": "Seek event-specific evidence for violence and each response; retain unknown when linkage or timing is unverified."
+  },
+  {
+    "gap_id": "HR202101-G012",
+    "type": "state_response",
+    "description": "All35 state-response fields remain unknown. Police monitoring, non-prevention, municipal support, broader restrictions and related wage promises do not by themselves establish a coded response.",
+    "source_ids": [
+      "HR202101-S001",
+      "HR202101-S002",
+      "HR202101-S003",
+      "HR202101-S004",
+      "HR202101-S007",
+      "HR202101-S008",
+      "HR202101-S013",
+      "HR202101-S027",
+      "HR202101-S030"
+    ],
+    "affected_candidates": [
+      "HR202101-E001",
+      "HR202101-E002",
+      "HR202101-E003",
+      "HR202101-E004",
+      "HR202101-E005"
+    ],
+    "required_followup": "Review contemporary follow-up for specific accommodation, arrests, beatings, dispersal, ignoring, killings or shootings attributable to each gathering."
+  },
+  {
+    "gap_id": "HR202101-G013",
+    "type": "dates_episode_unit_continuity",
+    "description": "All five end dates remain unknown; no verified final public action/episode closure or complete Dec/Feb continuity chain. January planning is kept separate from Feb1/3/20 leads.",
+    "source_ids": [
+      "HR202101-S004",
+      "HR202101-S005",
+      "HR202101-S009",
+      "HR202101-S010",
+      "HR202101-S012",
+      "HR202101-S018",
+      "HR202101-S022",
+      "HR202101-S027",
+      "HR202101-S030"
+    ],
+    "affected_candidates": [
+      "HR202101-E001",
+      "HR202101-E002",
+      "HR202101-E003",
+      "HR202101-E004",
+      "HR202101-E005"
+    ],
+    "required_followup": "Check Dec2020 originals, Feb2021 follow-ups and missing Coding Procedure; assign start-month ownership without automatic campaign merging."
+  },
+  {
+    "gap_id": "HR202101-G014",
+    "type": "source_access_partial",
+    "description": "Jutarnji January13 Brodotrogir story exposed only a partial body/subscription boundary. It establishes related statements and a two-worker delegation, not full protest chronology.",
+    "source_ids": [
+      "HR202101-S007"
+    ],
+    "affected_candidates": [
+      "HR202101-E001"
+    ],
+    "required_followup": "Recover accessible independent contemporaneous action report; preserve partial read scope."
+  }
+]

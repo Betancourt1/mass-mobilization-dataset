@@ -1,0 +1,150 @@
+[
+  {
+    "candidate_id": "EG202102-E001",
+    "country": "Egypt",
+    "ccode": 651,
+    "unit_month": "2021-02",
+    "title": "Tanta tutoring-center closure gathering (search-only lead)",
+    "start_date": "2021-02-21",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Tanta; tutoring center not named in the search previews",
+    "scope": "local",
+    "organizer": null,
+    "demands": [],
+    "participants_original": "Search previews describe “hundreds of students”; no article body was read.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The previews use “hundreds,” which would exceed 50 if accurate and complete; without article text and with possible story overlap, the threshold is unverified.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "EG202102-S016",
+      "EG202102-S017"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "EG202102-S016",
+          "EG202102-S017"
+        ],
+        "summary": "Both search-result previews report students gathering outside a tutoring center in Tanta; neither article body was retrieved."
+      },
+      "start_date": {
+        "source_ids": [
+          "EG202102-S016",
+          "EG202102-S017"
+        ],
+        "summary": "Both search previews date the gathering to 21 February 2021; date remains search-only."
+      },
+      "location": {
+        "source_ids": [
+          "EG202102-S016",
+          "EG202102-S017"
+        ],
+        "summary": "Previews identify Tanta and an unnamed tutoring center."
+      },
+      "participants": {
+        "source_ids": [
+          "EG202102-S016",
+          "EG202102-S017"
+        ],
+        "summary": "Both previews say “hundreds”; no turnout basis was available and the stories may overlap."
+      },
+      "demand_and_state_target": {
+        "source_ids": [
+          "EG202102-S016",
+          "EG202102-S017"
+        ],
+        "summary": "Previews say students objected to a center closure following enforcement linked to COVID measures; the exact demand and whether the gathering targeted state policy are unverified."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "tanta_students_tutoring_center_closure",
+    "notes": "Discovery lead only. S016 and S017 may describe the same story; do not treat them as independent corroboration. The S016 body open returned Cache miss. A second S016 attempt was stopped before request after its immediate full-input fingerprint check changed; the S017 open also returned Cache miss. No body content or HTTP status was obtained.",
+    "open_questions": [
+      "Read a permitted article body or independent contemporary report.",
+      "Verify the exact state-policy demand and whether the action was directed at authorities rather than only the center.",
+      "Verify actual turnout and the basis for “hundreds.”",
+      "Verify occurrence, exact location, duration and any state response.",
+      "Resolve whether S016 and S017 share a written origin or same story."
+    ]
+  },
+  {
+    "candidate_id": "EG202102-E002",
+    "country": "Egypt",
+    "ccode": 651,
+    "unit_month": "2021-02",
+    "title": "Beila lawyers’ sit-in after reported police-guard assault (search-only roster lead)",
+    "start_date": null,
+    "start_precision": "unknown",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Beila, Kafr el-Sheikh (location appears in the report preview)",
+    "scope": "local",
+    "organizer": null,
+    "demands": [],
+    "participants_original": "The ANHRI search preview describes “dozens” of lawyers.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "“Dozens” does not establish at least 50. The report body and any event-specific count remain unread.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "EG202102-S009"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "EG202102-S009"
+        ],
+        "summary": "A search preview of ANHRI’s 15–28 February roster mentions a Beila lawyers’ sit-in after a reported assault by a police guard; exact occurrence details are unverified."
+      },
+      "location": {
+        "source_ids": [
+          "EG202102-S009"
+        ],
+        "summary": "Beila is identified in the discovery lead only."
+      },
+      "participants": {
+        "source_ids": [
+          "EG202102-S009"
+        ],
+        "summary": "The preview says “dozens”; no threshold conclusion is supported."
+      },
+      "demands_and_state_target": {
+        "source_ids": [
+          "EG202102-S009"
+        ],
+        "summary": "The preview links the sit-in to a reported police-guard assault, but gives no body-verified statement of demand or state-policy target."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "beila_lawyers_sit_in_police_guard_assault",
+    "notes": "Search-only lead from the second-half ANHRI monitor. The exact event date, attendance, demand, government target and response are not established from the preview.",
+    "open_questions": [
+      "Read the ANHRI report body and underlying contemporaneous report.",
+      "Verify date, public gathering, attendance at or above 50 and exact demand/state target.",
+      "Verify event duration and state response."
+    ]
+  }
+]

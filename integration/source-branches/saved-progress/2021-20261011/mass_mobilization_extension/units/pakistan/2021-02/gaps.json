@@ -1,0 +1,243 @@
+[
+  {
+    "gap_id": "PAK202102-G001",
+    "type": "baseline",
+    "description": "The current official dataset version, schema, country universe and any additional Coding Procedure remain unverified; ccode 770 and unit mapping are provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator must refresh the official-baseline gate before official mapping, compatibility claims or approval."
+  },
+  {
+    "gap_id": "PAK202102-G002",
+    "type": "search_method",
+    "description": "The dossier stores 36 actual search actions (Q001–Q036) and 1,107 ordered result headers. Their registered-rollout action IDs, exact query batches, clocks, and full ordered headers/refs/titles/URLs were compared and matched. Open-web discovery is not a LexisNexis census; captured headers/snippets remain provisional leads.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search-action parity is verified for Q001–Q036 and all Q035–Q036 source leads are reconciled into the ledger. Continue material searches only in a later authorized phase; capture any new actions and rerun full rollout-to-search_log parity. Retain the open-web/coverage limitation and do not rerun searches for bookkeeping."
+  },
+  {
+    "gap_id": "PAK202102-G003",
+    "type": "language",
+    "description": "English-language and some Urdu discovery are present, but systematic searches in Pashto, Balochi, Sindhi, Punjabi and regional/local print archives remain limited.",
+    "source_ids": [
+      "PAK-S131",
+      "PAK-S134",
+      "PAK-S184",
+      "PAK-S192"
+    ],
+    "affected_candidates": [
+      "PAK202102-E002",
+      "PAK202102-E003"
+    ],
+    "required_followup": "Add region-specific-language searches and local outlets; do not treat current English/Urdu results as complete coverage."
+  },
+  {
+    "gap_id": "PAK202102-G004",
+    "type": "threshold",
+    "description": "Attendance remains unverified for the missing-persons camp/march, lawyers’ protest, and PTM rally; event size cannot be inferred from leaders, injured/arrested counts, or a headline. Other search-only leads also lack opened size evidence.",
+    "source_ids": [
+      "PAK-S134",
+      "PAK-S141",
+      "PAK-S195",
+      "PAK-S150",
+      "PAK-S156",
+      "PAK-S194",
+      "PAK-S197",
+      "PAK-S199",
+      "PAK-S200",
+      "PAK-S201",
+      "PAK-S202",
+      "PAK-S203"
+    ],
+    "affected_candidates": [
+      "PAK202102-E003",
+      "PAK202102-E004",
+      "PAK202102-E005"
+    ],
+    "required_followup": "Seek event-specific attendee estimates and keep location-level counts separate; retain pending_threshold/pending_evidence until each candidate independently meets >=50."
+  },
+  {
+    "gap_id": "PAK202102-G005",
+    "type": "closure",
+    "description": "Physical departure/end is unreported for the Feb. 10 pay protest, PAK-S134 camp/march, lawyers’ protest, and PTM rally. Negotiations, a return-to-work announcement, a later article or month boundary do not establish the end of a physical gathering.",
+    "source_ids": [
+      "PAK-S124",
+      "PAK-S134",
+      "PAK-S141",
+      "PAK-S195"
+    ],
+    "affected_candidates": [
+      "PAK202102-E001",
+      "PAK202102-E003",
+      "PAK202102-E004",
+      "PAK202102-E005"
+    ],
+    "required_followup": "Find follow-up reporting that directly documents departure or keep end_date null/unknown."
+  },
+  {
+    "gap_id": "PAK202102-G006",
+    "type": "state_response",
+    "description": "Several protest-response dimensions remain unknown. For the Voicepk camp/march and PTM rally there is limited response reporting; for the other actions, no unreported response may be coded as absence.",
+    "source_ids": [
+      "PAK-S131",
+      "PAK-S134",
+      "PAK-S141",
+      "PAK-S195",
+      "PAK-S203"
+    ],
+    "affected_candidates": [
+      "PAK202102-E002",
+      "PAK202102-E003",
+      "PAK202102-E004",
+      "PAK202102-E005"
+    ],
+    "required_followup": "Seek event-specific follow-up for arrests, force, dispersal, shootings/killings, accommodation and nonresponse; preserve unknown unless a report explicitly supports a value."
+  },
+  {
+    "gap_id": "PAK202102-G007",
+    "type": "episode_grouping",
+    "description": "The Feb. 22 Reuters/Dawn missing-persons sit-in (PAK-S131) and the retrospective Voicepk Press Club/D-Chowk camp (PAK-S134) may overlap, but shared issue, city and timing do not establish that they are the same families or one continuous assembly. The Feb. 10 pay protest is a distinct recurrence from the Jan. 12 pay action; it is not an uninterrupted crowd.",
+    "source_ids": [
+      "PAK-S124",
+      "PAK-S131",
+      "PAK-S134"
+    ],
+    "affected_candidates": [
+      "PAK202102-E001",
+      "PAK202102-E002",
+      "PAK202102-E003"
+    ],
+    "required_followup": "Find group/venue/date identifiers before merging missing-persons records. Preserve the January C002 recurrence distinction and never transfer its date or physical crowd to February."
+  },
+  {
+    "gap_id": "PAK202102-G008",
+    "type": "continuity",
+    "description": "A prior PIMS MTI Ordinance strike began Nov. 30 according to Pakistan 2021-01 continuation PAK202101-C001; the Feb. 10 Dawn report separately mentions PIMS strike/call-off context. The February report does not establish a physical assembly endpoint.",
+    "source_ids": [
+      "PAK-S124"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should cross-check the linked November/January episode record and any direct return-to-work/departure evidence; do not merge with candidate PAK202102-E001."
+  },
+  {
+    "gap_id": "PAK202102-G009",
+    "type": "state_target",
+    "description": "Student protest leads about online/on-campus examinations name university administrators, the education minister and government policy in different headlines. No article body has yet resolved each action’s actual target, date, attendance or whether it is a public protest rather than an institutional dispute.",
+    "source_ids": [
+      "PAK-S156",
+      "PAK-S157",
+      "PAK-S158",
+      "PAK-S159",
+      "PAK-S160",
+      "PAK-S161",
+      "PAK-S162",
+      "PAK-S163"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Open priority contemporaneous student reports and identify each assembly, demand addressee, site-specific attendance and event-level police response; do not combine the university actions automatically."
+  },
+  {
+    "gap_id": "PAK202102-G010",
+    "type": "access",
+    "description": "WAPDA/Disco privatization protest leads remain search-only. Exact attempts for S152 and S155 returned tool Cache miss, not a publisher denial; no article content was obtained.",
+    "source_ids": [
+      "PAK-S148",
+      "PAK-S149",
+      "PAK-S150",
+      "PAK-S151",
+      "PAK-S152",
+      "PAK-S153",
+      "PAK-S154",
+      "PAK-S155",
+      "PAK-S197",
+      "PAK-S199"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Q035–Q036 leads are now reconciled as search-only cards, including Business Recorder S197 and Daily Times S199; Dawn S152 retains its exact-URL Cache miss. In a later authorized phase, use fresh exact-URL gates to establish whether the Feb. 15 sit-in occurred, its separate sites/demands, crowd sizes, and relation to the Feb. 10 employee protest. Preserve prior technical failures."
+  },
+  {
+    "gap_id": "PAK202102-G011",
+    "type": "event_boundary",
+    "description": "Search-only reports concern lawyers’ chamber-demolition actions, strikes and later chamber construction statements. Only the Feb. 8 Geo body (S141) has been read; attendance and relation among later lawyers’ actions are unresolved.",
+    "source_ids": [
+      "PAK-S140",
+      "PAK-S141",
+      "PAK-S142",
+      "PAK-S143",
+      "PAK-S144",
+      "PAK-S145",
+      "PAK-S146",
+      "PAK-S147"
+    ],
+    "affected_candidates": [
+      "PAK202102-E004"
+    ],
+    "required_followup": "Open priority contemporaneous reports, distinguish strike calls from executed gatherings, and obtain attendee counts, start/end and event-specific state response."
+  },
+  {
+    "gap_id": "PAK202102-G012",
+    "type": "state_target",
+    "description": "Search-only leads cover JUI-F protests after the killing of three activists, TLP demonstrations/cancellations, PDM rallies, and Kashmir Solidarity events. Headlines alone do not establish actual February assemblies, domestic-state demands, threshold, or whether an event was a party ceremony/support action or a qualifying protest.",
+    "source_ids": [
+      "PAK-S164",
+      "PAK-S165",
+      "PAK-S166",
+      "PAK-S167",
+      "PAK-S168",
+      "PAK-S169",
+      "PAK-S170",
+      "PAK-S171",
+      "PAK-S172",
+      "PAK-S173",
+      "PAK-S174",
+      "PAK-S175",
+      "PAK-S176",
+      "PAK-S177",
+      "PAK-S178",
+      "PAK-S179",
+      "PAK-S180",
+      "PAK-S181",
+      "PAK-S182",
+      "PAK-S183",
+      "PAK-S184",
+      "PAK-S185",
+      "PAK-S186",
+      "PAK-S187",
+      "PAK-S188",
+      "PAK-S198",
+      "PAK-S201",
+      "PAK-S202"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Prioritize fresh exact-body review of Geo S186 and the reconciled Dawn S201/Express Tribune S202 reports on the JUI-F-related road protest, and Dawn S181/S198 on TLP protest/call-off claims. These remain search-only; establish executed event, date, local crowd, target, demand and responses from bodies. Treat PDM/Kashmir leads separately and exclude only when body evidence supports it."
+  },
+  {
+    "gap_id": "PAK202102-G013",
+    "type": "event_boundary",
+    "description": "The Karachi University teachers’ protest leads report an alleged attack on faculty by IBA students and guards; available source cards are search-only, including S193 which the tool could not access. It is unclear whether demands target an employer, private actors, police, or government policy.",
+    "source_ids": [
+      "PAK-S189",
+      "PAK-S190",
+      "PAK-S191",
+      "PAK-S192",
+      "PAK-S193",
+      "PAK-S194",
+      "PAK-S196",
+      "PAK-S200"
+    ],
+    "affected_candidates": [],
+    "required_followup": "In a later authorized phase, read an accessible contemporaneous account under a fresh gate and verify date/crowd and exact demands/target. Retain S193’s prior tool-inaccessible outcome. Q035–Q036 are reconciled: S200 is a new Urdu Express header, with S191/S192 and other coverage still header-only; none resolves target or crowd."
+  },
+  {
+    "gap_id": "PAK202102-G014",
+    "type": "event_boundary",
+    "description": "The Feb. 7 PTM rally (S195) is a documented commemoration with comments about detention of peaceful activists, but no source-supported crowd size or specific policy request. An overnight move after unnamed locals tried to disrupt it is not attributed to state action.",
+    "source_ids": [
+      "PAK-S195"
+    ],
+    "affected_candidates": [
+      "PAK202102-E005"
+    ],
+    "required_followup": "Seek specific attendance and demand evidence before moving from pending_evidence; establish whether further state response or physical end was reported."
+  }
+]

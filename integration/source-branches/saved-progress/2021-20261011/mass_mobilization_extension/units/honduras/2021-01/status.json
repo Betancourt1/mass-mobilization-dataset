@@ -1,0 +1,30 @@
+{
+  "unit_id": "honduras_2021-01",
+  "country": "Honduras",
+  "month": "2021-01",
+  "agent_task": "/root/honduras_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T12:21:35.926780+00:00",
+  "finished_at": "2026-10-08T12:36:02.452Z",
+  "n_queries": 64,
+  "n_sources": 305,
+  "n_candidates": 16,
+  "n_excluded": 3,
+  "n_continuations": 3,
+  "n_gaps": 20,
+  "coverage_assessment": "Adaptive English/Spanish open-web first pass with weekly, regional, sector and episode follow-ups. Uneven local indexing, blocked bodies, incomplete early pooled URL logs and unresolved dates/units preclude exhaustive coverage.",
+  "baseline_gate": "pending_official_baseline",
+  "eligibility_counts": {
+    "pending_threshold": 6,
+    "proposed_include": 1,
+    "pending_unit": 4,
+    "pending_evidence": 5
+  },
+  "source_access_counts": {
+    "opened": 22,
+    "search_only": 278,
+    "blocked": 5
+  },
+  "temporary_resources": "All own finite HTTPS readers exited 0, including sessions 46413, 96325 and 66976; foreground caption/date readers exited 0. No persistent server, browser, watcher or container started.",
+  "validation": "Passed local JSON parsing, unique IDs/URLs, source references, country/month dates, null closures, seven demand categories, response enums, null-start response rules and persisted counts. Independent coordinator audit pending."
+}

@@ -1,0 +1,47 @@
+Bulgaria, January 1–31, 2021 — provisional open-web research
+Fixed event cutoff: October 7, 2026 inclusive, America/Mexico_City.
+Unit: bulgaria_2021-01; provisional country code 355. Official baseline remains unverified.
+Source revision for this assigned work: ff07742b64f0c3b1701a7b57d92ae94d4bded3ed.
+
+Method and coverage
+Executed 36 actual queries in English and Bulgarian Cyrillic. The search log retains every query and its returned URLs, including irrelevant and empty results. General country/month searches were followed by weekly windows, topic and episode searches, regional searches and December 2020/February 2021 boundary searches. Topics included anti-government and judicial-reform actions, restaurant/hospitality restrictions and compensation, arts/education, labor/health, water, environment, agriculture and transport. Regional terms included Sofia, Plovdiv, Varna, Burgas, Ruse, Vidin and Vratsa.
+Search date operators repeatedly returned other years; literal month/date phrases also produced unrelated results. Queries do not establish exhaustive coverage. Open-web access does not reproduce LexisNexis or systematic local newspaper archives. No additional verified protest in a search means that none was found, not that none occurred. Bulgarian-language passages were read and paraphrased; no independent human linguistic review is claimed.
+The first four queries were one combined request. Its request-start time was recorded, but exact per-query engine time and result-to-query association were unavailable. Later queries record an actual pre-request timestamp; exact internal engine execution remains unknown. Recorded-at timestamps are separate.
+Sources were opened through the web tool where possible. Tool internal/cache errors were sometimes recovered through ordinary public HTTPS. Actual HTTP403 denials from bTV/OFFNews were respected. Source cards state whether the article, a short passage, only a headline or only search results were assessed. No full articles were stored. The curated 82 source cards retain relevant evidence, boundary/discovery leads and methodological context; other returned URLs remain in the search log. A source-card total does not count independent confirmations.
+
+Candidates and decisions
+Fourteen candidate records: one proposed_include, five pending_threshold, three pending_unit, one pending_state_target and four pending_evidence.
+E001 January 13 old-parliament fair-election/government-change assembly: occurrence observed, crowd and relation to the 2020 campaign unresolved.
+E002 January 16 arts/dance-school protests in Sofia and Varna: occurrence and ministers' reception of SOLI representatives supported; turnout and national/local relationship unresolved. School enrollment is not attendance.
+E003 January 24 daytime compensation gathering outside Council of Ministers: occurrence and domestic-policy demands supported; turnout unknown.
+E004 January 27 national restaurant owners/staff gathering in Sofia: proposed inclusion. Bulgaria ON AIR headline says hundreds, supporting the 50-person threshold qualitatively without inventing a numeric bound. BNR identifies organizers, demands and arrivals from several cities; arrivals do not prove separate local protests. March started at 17h; physical end unknown. Earlier minister meetings and prior compensation measures are not current accommodation.
+E005 January 15 Vazrazhdane restriction/information protest: opened account supports named government officials receiving representatives, coded accommodation yes. Turnout unresolved.
+E006 January 16 Brestovitsa water-quality/price protest: second assembly reported. Groups limited to 15 and village population are not a total crowd. Prior assembly date unknown.
+E007 January 30 Chengene Skele fishermen boat/shore protest: legalization demand supported. Boats, dozens on shore and settlement population cannot establish a combined person count.
+E008 January 24 evening Day 200 anti-government/prosecutor assembly: occurrence observed; action-level relation to campaign pending. Distinct from E003 daytime compensation gathering. Two entry attempts blocked by police cordon and unspecified clashes do not alone establish crowd dispersal or beatings.
+E009 January 13 Justice for All judicial-reform assembly: fifteenth assembly reported; turnout and relationship to weekly/campaign actions pending.
+E010 January 13 Mezdra private-house assault: about 70 people and five arrests reported. A prosecutor-jurisdiction demand appears in the account, but connection to the assembly's primary target remains unresolved. Private property damage is documented; original protester_violence remains unknown for coordinator interpretation. Child's earlier death is not an event killing.
+E011 January 11 Varna anti-government rally: announcement only; pending occurrence and turnout.
+E012 January 15 BNT / Eagles Bridge lead: search-index account only; pending original evidence, demands and turnout. Index date is explicitly qualified.
+E013 January 10 peaceful Mezdra police-station protest: opened report says today's protest and metadata supports January 10. Exact state demand and turnout unresolved; relation to E010 pending.
+E014 Eagles Bridge protest lead: assessed headline only; physical date unknown. January 16 search-index date is not used as a verified physical start.
+
+Continuations and exclusions
+C001 records the anti-government/chief-prosecutor campaign begun July 9,2020 and January observations. Campaign longevity does not automatically make every assembly a single continuous event or justify new monthly starts. Possible owner: bulgaria_2020-07. No campaign turnout or responses were copied to January.
+C002 records a New Year gathering reported as welcoming 2021 outside government buildings. December 31 announcement supplied a scheduled 21h start; physical start/end remain unknown. Possible owner: bulgaria_2020-12. No invented January 1 start.
+Two January 23 Navalny-release gatherings in Sofia and Varna are excluded because demands targeted Russia. No Russian arrests elsewhere were coded as Bulgarian state responses.
+
+Gaps and coding limits
+Seventeen gap records cover baseline, search method, participants, domestic state target, action units, cross-month ownership, unknown dates, state responses, access, source independence, language, coverage and contested allegations.
+All candidate physical ends remain null/unknown. Publication/update dates, planned times, deadlines, reopening dates and a march start are not physical end dates.
+All seven response categories remain yes/no_explicit/unknown. Positive original coding is limited to the January 15 reception, January 16 SOLI reception and January 13 Mezdra arrests. Silence is never no_explicit or ignore. No victory is inferred from reception, and prior/future meetings are not transferred.
+BNR/NOVA/ministry reprints are identified where known. Agency-linked reports are not independent confirmations.
+These are research candidates, not official MM updates, human-approved rows or a consolidated dataset.
+
+Checks and resources
+All required files are present. Local checks cover JSON/JSONL parsing, counts, IDs, source references, response values, dates, positive-field evidence and pending-evidence qualifications. Root handles independent read-only audit, repository validation, consolidation and any authorized local commit.
+No browsers, servers, containers or lasting background services were started. Short public-source reader sessions 29843, 74329, 95409, 57198, 46518, 37502, 34481 and 51477 all completed with observed exit code 0. Temporary article contents were not written to disk.
+This work took more than ten minutes. No new skill or CLI was created: the existing portable CLI/protocol already covers persistence and review; the remaining work was source interpretation, with no reusable tooling gap that justified extra machinery.
+
+Next review
+Review candidate crowd thresholds, campaign/action ownership, multi-city arts relationship and Mezdra state target; trace agency dependence and inaccessible originals. Preserve null ends and all uncertainty. Do not automatically append these candidates to an official baseline.

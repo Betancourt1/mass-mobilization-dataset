@@ -1,0 +1,27 @@
+{
+  "unit_id": "kuwait_2021-01",
+  "country": "Kuwait",
+  "month": "2021-01",
+  "agent_task": "/root/kuwait_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T14:33:30.625023Z",
+  "finished_at": "2026-10-08T14:47:51Z",
+  "n_queries": 58,
+  "n_sources": 18,
+  "n_candidates": 0,
+  "n_excluded": 4,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "coverage_assessment": "Documented open-web English/Arabic first pass with weekly, regional, local outlet/issue discovery, sector searches and December/February boundaries. No January candidate recovered in opened evidence; not exhaustive and not evidence of zero events.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_status_counts": {
+    "opened": 4,
+    "search_only": 14
+  },
+  "eligibility_counts": {},
+  "validation": "JSON/JSONL syntax, unique IDs, source references, source-access counts and status counts checked; coordinator and independent read-only review remain pending.",
+  "temporary_resources": {
+    "started": [],
+    "closure": "No persistent resources started; web calls were finite foreground requests."
+  }
+}

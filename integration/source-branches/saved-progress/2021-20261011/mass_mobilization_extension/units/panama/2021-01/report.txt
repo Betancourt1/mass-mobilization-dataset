@@ -1,0 +1,67 @@
+Panama, January 2021 — research in progress.
+
+The batch acceptance contract, worker protocol, review policy, data dictionary, deviations, gap dimensions, month ownership plan, persisted assignment, and historical baseline codebook have been read. No web searches have been run yet. This is an initial liveness checkpoint, not a research result.
+
+Search checkpoint 1: broad query found three URLs for the reported January 18 Causa Justa road closures in Colón. Two Panamá América URLs appear to be alternate/duplicate versions; La Prensa reports arrests. Search excerpts alone do not establish attendance threshold, exact demands, episode boundary, or state-response coding. Body review pending.
+
+Article-body checkpoint: La Prensa's January 18 report identifies Causa Justa, demands and locations, a government petition, about 15 police-reported detentions, and police reopening streets. It does not count protesters; motorists affected by closures are not treated as attendees. The action remains pending the >=50 threshold and review of its multi-site episode boundary. A Panamá América page returned a web-tool cache miss; an ordinary HTTPS retrieval failed before HTTP response due DNS resolution, so no denial is inferred.
+
+Search checkpoint 2: Spanish-language broad search returned a TVN report describing several expected actions in Colón and a short street closure by an action called 'rebelión' near Calle 5/Avenida Bolívar. Its relationship to Causa Justa's reported action is unresolved; it is a separate search-only source pending body review. Panama América's result adds search-only claims about Colón Solidario jobs, which are not treated as protest size or accommodation.
+
+Retrieval checkpoint: web-tool opens of the TVN and older-host Panamá América URLs returned cache misses. A single ordinary HTTPS GET to each exact URL failed before an HTTP response because DNS resolution failed in this environment. Both remain search_only; this is not classified as site denial.
+
+Search checkpoint 3: exact-name follow-up located a separate reported Causa Justa protest on January 21 and a later February 18 action. A January 2020 Causa Justa road closure is contextual evidence of recurring movement activity, not a continuation into this unit. A January 17 governor story is pre-event evidence only. Jan 21 article body and attendance remain unverified.
+
+Opened follow-up articles: Metro Libre's Jan 17 report confirms a plan for Causa Justa actions on Jan 18 but is pre-event only. La Prensa's Jan 21 body reports a new Causa Justa protest, at least 12 arrests, and an officer's Taser discharge at deputy Carlos Outten; attendance remains unknown. Panamá América's Feb 18 body reports a later Causa Justa road closure with new stated demands, not physical continuity from January. January 21 is retained as a second provisional candidate pending threshold and episode-rule review.
+
+Response coding clarification: the January 21 La Prensa body says a police officer discharged a Taser against Carlos Outten, who then received medical attention; it does not specify an injury, describe firearm use, or say police moved participants/broke up the protest. Accordingly, Taser is preserved in evidence/notes, while shootings, beatings and crowd dispersal remain unknown pending the original category rule and clearer reporting.
+
+Coverage checkpoint: a week-one English search returned no protest result dated Jan 1–7, but returned off-window Jan 18 stories and a Jan 25 TVN item near the National Assembly. The Jan 25 item is captured as a separate potential event, search-only, with no eligibility fields inferred. Search-engine date filtering is visibly unreliable.
+
+A third January candidate was added from an opened TVN report: Jóvenes por Panamá demonstrated at the National Assembly on Jan 25 over public spending/vaccine transparency and the CSS director. The article explicitly describes the protest as peaceful but provides no crowd estimate. Police presence alone is not coded as a response; the case remains pending threshold.
+
+Week-one Spanish checkpoint: no Jan 1–7, 2021 protest URL surfaced. Results included Jan 7, 2020 Causa Justa closures in Colón; three old reports now document a distinct historic gathering with job/water/property-title demands and reported road reopening. This is campaign context only, not a continuation into 2021. Search-engine date filters ignored the query window.
+
+Week-two English checkpoint: no Jan 8–14, 2021 protest report surfaced. The search returned known Jan 18 Colón coverage, off-window Jan 2020 Causa Justa reporting and COVID restriction announcements. This is a search result limit, not evidence that no protests occurred.
+
+Week-two Spanish checkpoint: no Jan 8–14 protest report surfaced. Search results were dominated by COVID mobility measures and off-window Jan 18 Colón reports. This is not treated as a protest absence finding.
+
+Week-three English checkpoint: the query returned the known Jan 18 Colón articles but no additional dated report in Jan 15–21. Later-month and later-year results were excluded from this week’s candidate list.
+
+Week-three Spanish checkpoint: the TVN result again describes a brief Jan 18 road closure at Calle 5/Avenida Bolívar by a group labeled 'rebelión,' followed by quick movement by crowd-control police. It shares Colón and some demands with the Causa Justa reporting, but the organizer/group relationship is unresolved. The TVN URL remains search-only pending actual body retrieval; no candidate split or merge is treated as settled yet.
+
+TVN search-only lead retained as PAN202101-E004 pending_evidence: its result describes a brief Jan 18 closure near Calle 5/Avenida Bolívar under the label 'rebelión,' but the report body could not be fetched after two cache misses and an ordinary DNS failure. It may overlap with the Causa Justa action, so no split/merge is assumed and no response field is coded.
+
+Week-four English checkpoint: no new Jan 22–31 protest URL surfaced; the result set again surfaced known Jan 18 Colón articles and unrelated later-year items. The opened Jan 25 TVN story remains the only report currently identified for that date.
+
+Week-four Spanish checkpoint: no additional Jan 22–31 protest URL surfaced. Results repeated the known Jan 18 and Jan 25 reports; curfew-enforcement reports were not treated as protest evidence.
+
+
+Research freeze — 2026-10-08 15:59 America/Mexico_City
+
+Coverage and limits
+Nineteen literal English and Spanish queries were logged: the month and weekly windows, the January 18/21 Causa Justa boundary, health workers and vaccine allocation, transport workers, retirees, agriculture, education and students, Darién migrants, and Indigenous areas including Ngäbe-Buglé. Searches targeted Panama City, Colón, Chiriquí/David, Panamá Oeste/Arraiján, Darién and Bocas del Toro. Search-engine date filters repeatedly returned off-window items; no-results are not treated as proof that no protests occurred. Available search queries, selected returned URL/title/ref mappings, page opens, and retrieval limits are in search_log.jsonl and sources.jsonl.
+
+The dossier contains 25 source cards: 10 pages whose article or official-page bodies were opened, and 15 search-only cards. Several TVN, Panamá América, Foco Panamá, La Verdad Panamá, La Prensa and MINSA pages returned reader cache misses; one ordinary HTTPS request was attempted for each affected address, and the requests failed at DNS resolution before an HTTP status. These are not recorded as server denials. Search-result text is labeled search-only and is used only for provisional leads. No full articles were saved.
+
+Nine candidate records remain provisional. Every candidate lacks verified attendance of at least 50; no workforce, vaccination-queue, arrest, police-presence, image, organizational or population figure is used as demonstrator turnout.
+
+- PAN202101-E001: La Prensa’s opened Jan. 18 account attributes several Colón road closures to Causa Justa and reports jobs, economic reactivation, water and other social demands. Police reportedly detained about 15 people and reopened three named roads. The article gives no protester count, no exact end time for all locations and no evidence that protesters remained in place after the roads reopened. Multi-site grouping remains unresolved.
+- PAN202101-E002: La Prensa’s opened Jan. 21 account reports a separate Causa Justa action at the DAS office and Panama Port, at least 12 arrests, and police intervention after participants entered the freight area. It does not say the intervention moved participants or broke up the protest. The article reports that a police officer used a Taser pistol to deliver an electrical discharge to Carlos Outten, who was taken for medical attention. It names no specific injury and does not separately describe aiming. This is not coded as firearm shooting or a separate beating; the Taser/beating mapping remains unresolved.
+- PAN202101-E003: TVN’s opened Jan. 25 report confirms a peaceful Jóvenes por Panamá gathering at the National Assembly over public-spending/vaccine transparency and the Social Security Fund director. It gives no turnout; police presence alone is not treated as a response.
+- PAN202101-E004: A TVN search result describes a brief Jan. 18 “rebelión” road closure at Calle 5/Avenida Bolívar. Two cache misses and one normal HTTPS DNS failure prevented body access. It may overlap E001; identity, turnout, response and episode boundary remain pending evidence.
+- PAN202101-E005: A Jan. 22 Panamá América search-result article says doctors protested the previous day, Jan. 21, at Complejo Hospitalario Arnulfo Arias Madrid and Hospital Santo Tomás over vaccine allocation. The body was inaccessible. Its reported roughly 60 doctors are people said not to have been vaccinated, not demonstrator attendance. The hospitals may represent coordinated or separate gatherings.
+- PAN202101-E006: La Prensa’s opened Jan. 22 article confirms a peaceful protest by internal doctors outside Santo Tomás. No attendance estimate, physical end time or state response is reported.
+- PAN202101-E007: Crítica’s opened Jan. 23 report describes Jan. 22 vaccine-allocation protests at the Complejo Hospitalario and at unspecified CSS polyclinics in Panama Oeste and Chiriquí; it calls the Santo Tomás gathering another protest. Its approximately 150 doctors were in a vaccination queue, not a confirmed protest count. Site-level grouping and attendance are unresolved.
+- PAN202101-E008: A TVN search result reports a Jan. 23 demonstration by internal doctors outside Hospital Regional Rafael Hernández in David. The body and one ordinary HTTPS request failed (cache miss and DNS failure). Turnout and relation to Jan. 22 Chiriquí reporting remain unresolved.
+- PAN202101-E009: TVN and La Verdad search results report a Jan. 25 vaccine-allocation protest at CSS Polyclinic Blas Gómez Chetro in Arraiján. The TVN title says the protest continued, but its first physical day is unknown. Both bodies were inaccessible after cache misses and normal HTTPS DNS failures. It is not merged with the Jan. 22 Panama Oeste lead without facility and physical-continuity evidence.
+
+The Jan. 13 Lajas Blancas item is excluded as PAN202101-X001: the opened TVN report describes an individual assault between migrants inside a reception camp and official verification, not a public gathering making a demand of the state. The Defensoría’s February report is contextual: it describes monitoring and visits principally from March through December 2020, not a January protest. An Aug. 24, 2021 teacher protest was body-read and excluded as off-window.
+
+Episode boundaries and continuity
+The Jan. 18 and Jan. 21 Colón reports concern separate dated actions by the same movement. The Jan. 18 article reports police reopening streets but does not document the protesters’ physical departure from all sites. Dedicated follow-up found no report establishing Causa Justa physical presence on Jan. 19–20 or resolving whether the Jan. 21 action was continuous with Jan. 18. A Feb. 18 Causa Justa road closure is a later recurrence with renewed demands, not evidence of physical continuity from January. No December-to-January physical continuation was substantiated. Likewise, the Jan. 21–25 medical-worker reports describe activity on multiple days and sites but establish no uninterrupted physical occupation; “continued protest” headlines or planned further action do not settle onset, departure or episode boundaries. continuations.json is therefore empty.
+
+Response coding
+Each event’s response fields remain source-scoped. E001 codes arrests and crowd dispersal because La Prensa reports arrests and police reopening roads; other response categories and protester violence remain unknown. E002 codes arrests; Taser use is preserved in its evidence and notes as above, while beatings, firearm shootings and crowd dispersal remain unknown. The Jan. 25 National Assembly report says police units guarded the peaceful gathering but does not describe an action in response. Search-only health-worker leads do not establish state responses. No silence is coded as ignore or no_explicit.
+
+All nine entries remain candidates pending review; five are pending_threshold and four are pending_evidence. No official IDs, baseline clearance or approval is assigned. No long-running process, service, browser or other persistent resource was started; the one-off retrieval attempts exited after their DNS failures.

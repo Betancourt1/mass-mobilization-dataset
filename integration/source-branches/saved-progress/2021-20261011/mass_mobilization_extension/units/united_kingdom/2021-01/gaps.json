@@ -1,0 +1,156 @@
+[
+  {
+    "gap_id": "GBR202101-G001",
+    "type": "participants",
+    "description": "The 6 January Parliament Square demonstration is dated and located by the opened ITV body, but the article reports 21 arrests rather than an attendee count. Human turnout and whether at least 50 people were present remain unknown.",
+    "source_ids": [
+      "GBR202101-S009"
+    ],
+    "affected_candidates": [
+      "GBR202101-E001"
+    ],
+    "required_followup": "Seek accessible contemporaneous reporting, footage or an explicit crowd estimate for Parliament Square. Do not use the 21 arrests as attendance."
+  },
+  {
+    "gap_id": "GBR202101-G002",
+    "type": "episode_unit",
+    "description": "ITV describes a separate small gathering outside Westminster Magistrates’ Court but does not state its exact date or demand. It is kept separate from Parliament Square; seven detentions and fixed-penalty notices are not attendance, and the source does not explicitly call the detentions arrests.",
+    "source_ids": [
+      "GBR202101-S009"
+    ],
+    "affected_candidates": [
+      "GBR202101-E002"
+    ],
+    "required_followup": "Verify the court-site gathering date, demand, human attendance and physical end from an accessible source; retain the site boundary and do not merge it with Parliament Square without evidence."
+  },
+  {
+    "gap_id": "GBR202101-G003",
+    "type": "episode_unit",
+    "description": "LBC separately reports a protest in Bournemouth town centre but gives no event date, attendance or specific demand. Its relationship to the 9 January Clapham action is not established.",
+    "source_ids": [
+      "GBR202101-S042"
+    ],
+    "affected_candidates": [
+      "GBR202101-E004"
+    ],
+    "required_followup": "Find a dated contemporary report that establishes the Bournemouth event date, human turnout, demand and end; do not assign 9 January from the article date or merge it with Clapham."
+  },
+  {
+    "gap_id": "GBR202101-G004",
+    "type": "dates",
+    "description": "Neither the full physical end of the 6 January Parliament Square demonstration nor the departure/end of the 18 January seafood-lorry protest is established. Some Parliament Square demonstrators were removed and a dispersal plan was described; the Guardian reports trucks parked Monday but not when they left.",
+    "source_ids": [
+      "GBR202101-S009",
+      "GBR202101-S022"
+    ],
+    "affected_candidates": [
+      "GBR202101-E001",
+      "GBR202101-E005"
+    ],
+    "required_followup": "Seek a contemporary account of full crowd dissolution or vehicle and participant departure. Do not infer an end from a warning, partial removal, last article or next-month boundary."
+  },
+  {
+    "gap_id": "GBR202101-G005",
+    "type": "participants",
+    "description": "The Guardian confirms a Westminster fish-lorry protest by operators from Scotland and Devon but reports neither a number of vehicles nor a number of active human participants. The 50-person threshold is unresolved.",
+    "source_ids": [
+      "GBR202101-S022"
+    ],
+    "affected_candidates": [
+      "GBR202101-E005"
+    ],
+    "required_followup": "Find a contemporary report with an explicit human attendance figure. Keep vehicle counts separate from the number of people present."
+  },
+  {
+    "gap_id": "GBR202101-G006",
+    "type": "source_independence",
+    "description": "Search-only seafood-protest reports and alternate regional accounts may describe the same 18 January Westminster event. Their written origins and independence are not established. The opened Guardian article includes a Reuters-attributed interview, which does not by itself establish Reuters as the written story origin.",
+    "source_ids": [
+      "GBR202101-S021",
+      "GBR202101-S022",
+      "GBR202101-S023",
+      "GBR202101-S024",
+      "GBR202101-S025",
+      "GBR202101-S026",
+      "GBR202101-S027",
+      "GBR202101-S028",
+      "GBR202101-S029",
+      "GBR202101-S030"
+    ],
+    "affected_candidates": [
+      "GBR202101-E005"
+    ],
+    "required_followup": "Compare accessible full written accounts and bylines before calling reports independent; avoid repeating any publisher denial recorded in the source cards."
+  },
+  {
+    "gap_id": "GBR202101-G007",
+    "type": "source_access",
+    "description": "The exact South Wales Police Welsh-language source for a Cardiff Bay protest lead returned HTTP 403 with Cf-Mitigated: challenge after the default sandbox DNS failure. No article body was read; the search lead may concern an earlier event.",
+    "source_ids": [
+      "GBR202101-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use an independently accessible contemporary source, if available, to verify event occurrence/date, human turnout, demand, response and boundaries. Do not retry, mirror or bypass the blocked original."
+  },
+  {
+    "gap_id": "GBR202101-G008",
+    "type": "source_access",
+    "description": "An Edinburgh anti-lockdown report lead (S034) has an incomplete captured title and its exact Inkl URL returned HTTP 403; the body and written origin remain unavailable. Separate search-only material includes a planned Edinburgh protest and other weak leads, none of which establishes execution or a qualifying crowd.",
+    "source_ids": [
+      "GBR202101-S007",
+      "GBR202101-S017",
+      "GBR202101-S018",
+      "GBR202101-S034"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek an independent accessible report to establish whether and when an Edinburgh gathering occurred, its human attendance and domestic demand. Do not retry or use a copy of the denied Inkl story."
+  },
+  {
+    "gap_id": "GBR202101-G009",
+    "type": "state_target",
+    "description": "Search-only student rent-strike leads identify boycotts and rent action, but do not establish a public gathering, human turnout or a demand directed to the UK government. December/February physical continuity is not verified.",
+    "source_ids": [
+      "GBR202101-S019",
+      "GBR202101-S020",
+      "GBR202101-S036",
+      "GBR202101-S037",
+      "GBR202101-S038",
+      "GBR202101-S039",
+      "GBR202101-S040"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify any physical public assembly, its date, number of participants, government addressee and uninterrupted episode boundaries before coding."
+  },
+  {
+    "gap_id": "GBR202101-G010",
+    "type": "search_method",
+    "description": "This is a bounded open-web first pass, not an exhaustive census. Thirty-one one-query calls covered all five weekly windows, UK regions, local-language leads and selected labor, health, housing, environment, COVID-restriction and seafood topics. Systematic LexisNexis/newspaper archive access was not available; most captured bodies remain search-only.",
+    "source_ids": [
+      "GBR202101-S001",
+      "GBR202101-S003",
+      "GBR202101-S008",
+      "GBR202101-S022",
+      "GBR202101-S034"
+    ],
+    "affected_candidates": [
+      "GBR202101-E001",
+      "GBR202101-E002",
+      "GBR202101-E003",
+      "GBR202101-E004",
+      "GBR202101-E005"
+    ],
+    "required_followup": "Extend with accessible national and local reporting and systematic newspaper archives if available, while preserving the current source/date and title-capture limits. Do not interpret undiscovered or unverified events as absent."
+  },
+  {
+    "gap_id": "GBR202101-G011",
+    "type": "contested_evidence",
+    "description": "The LBC article’s main body reports 16 arrests at Clapham; an embedded Met post says 12 had been arrested “so far.” The article does not provide a synchronized reconciliation. The reported crowd of about 30 remains below threshold regardless.",
+    "source_ids": [
+      "GBR202101-S042"
+    ],
+    "affected_candidates": [
+      "GBR202101-E003"
+    ],
+    "required_followup": "If the exact arrest total is needed, check the time-stamped original Met post or a later official tally; retain the approximately 30-person turnout separately."
+  }
+]
