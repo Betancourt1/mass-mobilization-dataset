@@ -1,0 +1,62 @@
+[
+  {
+    "gap_id": "BEL202012_G001",
+    "type": "episode_boundary_and_review",
+    "description": "Qu4tre documents 500 in a Liège courthouse gathering on 10 December; BX1 documents about 150 at a separate Brussels Place de la Liberté gathering the same day, within an FGTB multi-city campaign. A retrospective local assessment artifact for S003 is missing; an explicitly retrospective v2/outcome records that lapse and the actual open.",
+    "source_ids": [
+      "BEL202012_S001",
+      "BEL202012_S003"
+    ],
+    "affected_candidates": [
+      "BEL202012_E001",
+      "BEL202012_E003"
+    ],
+    "required_followup": "Distinct reviewer should decide whether these simultaneously separate local assemblies are coded as separate local events or one nationally coordinated multi-location event. Keep E003 pending_unit and never add the separate crowd counts together. Review its retrospective assessment gap; do not fabricate a pre-open record or reopen."
+  },
+  {
+    "gap_id": "BEL202012_G002",
+    "type": "threshold_and_source_body_pending",
+    "description": "Le Vif search-result evidence identifies a separate Liège 13 December demonstration concerning crisis effects on precarious people, likely distinct from the same-day anti-curfew action. Exact Le Vif page returned a managed-tool Internal Error; no body/status, no retry. No count or exact site is known.",
+    "source_ids": [
+      "BEL202012_S005"
+    ],
+    "affected_candidates": [
+      "BEL202012_E005"
+    ],
+    "required_followup": "Search a separately originated, permitted local report for this exact precarity gathering if available; otherwise retain pending_threshold and unknown location/count. Do not conflate it with S006 anti-curfew gathering (~30)."
+  },
+  {
+    "gap_id": "BEL202012_G003",
+    "type": "below_threshold_exclusion",
+    "description": "Today in Liège reports a 13 December anti-curfew gathering in Liège with nearly 30 people and about ten administrative arrests. It is distinct from the Brussels precarity gathering and from the Liège precarity search-only lead.",
+    "source_ids": [
+      "BEL202012_S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No threshold follow-up is needed unless independent evidence changes the participant count; keep excluded X001 below 50. Arrests do not substitute for the attendance threshold."
+  },
+  {
+    "gap_id": "BEL202012_G004",
+    "type": "search_capture_and_access_scope",
+    "description": "Sixteen actual queries include generic English/French/Dutch, weekly windows and regional/sector leads. Four regional queries were submitted in one batch; the web tool provided no per-query result mapping, so Q013-Q016 retain zero assigned headers and a separate combined-header envelope preserves actual results. The combined response included a non-retryable robots.txt block for rtbf.be; no retry/bypass.",
+    "source_ids": [
+      "BEL202012_S005"
+    ],
+    "affected_candidates": [
+      "BEL202012_E003",
+      "BEL202012_E004",
+      "BEL202012_E005"
+    ],
+    "required_followup": "Treat batch results only as combined discovery, not query-specific hits. Preserve method limits; if a material exact lead remains, run a new query and capture its own response. Keep RTBF block unresolved."
+  },
+  {
+    "gap_id": "BEL202012_G005",
+    "type": "cross_month_continuation",
+    "description": "The climate 60-hour action began 30 November and was underway on 1 December according to reused organizer follow-up S007. Planned completion on 2 December is not confirmed. Simultaneous crowd threshold and precise daily location remain unknown.",
+    "source_ids": [
+      "BEL202012_S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep as December continuation only, owned by November onset; do not create a December event or infer a concurrent 50-person crowd. Verify end only with permitted source if material."
+  }
+]

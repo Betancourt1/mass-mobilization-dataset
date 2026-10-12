@@ -1,0 +1,69 @@
+[
+  {
+    "gap_id": "CZ202010_G001",
+    "type": "episode_ownership",
+    "description": "18 October Old Town Square and 28 October National Day events are separate gatherings; relation to November/December anti-measures actions is unestablished. The 1 October XR action belongs to a Sep 29-Oct 2 campaign but onset/ownership needs resolution.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "CZ202010_E001",
+      "CZ202010_E003",
+      "CZ202010_E004",
+      "CZ202010_E005"
+    ],
+    "required_followup": "Check contemporaneous late-September/November reporting for event-specific start/end and whether dates are distinct rallies; preserve dates/sites."
+  },
+  {
+    "gap_id": "CZ202010_G002",
+    "type": "state_target",
+    "description": "Ostrava steelworkers report mentions Czech government and EU bodies; domestic-policy object needs clearer evidence.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "CZ202010_E002"
+    ],
+    "required_followup": "Find permitted contemporaneous local report or organizer statement specifying the request to Czech government; do not count EU-level demand alone."
+  },
+  {
+    "gap_id": "CZ202010_G003",
+    "type": "coverage",
+    "description": "Coverage remains open. Existing search record includes Czech/English windows and several Prague/sector leads, but feasible local follow-ups for Ostrava/Brno/Plzeň unions and 31 October are incomplete. Historical body opens have no local response captures.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "CZ202010_E001",
+      "CZ202010_E002",
+      "CZ202010_E003",
+      "CZ202010_E004",
+      "CZ202010_E005",
+      "CZ202010_E006"
+    ],
+    "required_followup": "If material, run one permitted local query focused on Ostrava/Brno/Plzeň unions and 31 October; no blanket archive gate.",
+    "next_permitted_action": "Run only a bounded, permitted local query for Ostrava/Brno/Plzeň unions and 31 October if work continues; retain any unavailable body as pending."
+  },
+  {
+    "gap_id": "CZ202010_G004",
+    "type": "threshold",
+    "description": "1 October XR source gives 44 arrests, not attendance; Klárov crowd is not directly counted at that site.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "CZ202010_E003",
+      "CZ202010_E005"
+    ],
+    "required_followup": "Seek permitted site-specific attendance estimates; do not infer from arrests or another site."
+  }
+]

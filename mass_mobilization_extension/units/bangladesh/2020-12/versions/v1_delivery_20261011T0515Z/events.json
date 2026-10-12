@@ -1,0 +1,161 @@
+[
+  {
+    "candidate_id": "bangladesh_2020-12_E001",
+    "country": "Bangladesh",
+    "ccode": "BGD",
+    "unit_month": "2020-12",
+    "title": "BNP rally in front of National Press Club on the anniversary of the 2018 election",
+    "start_date": "2020-12-30",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "National Press Club, Dhaka",
+    "scope": "Local party-organized protest/rally with state-directed election demand",
+    "organizer": "Bangladesh Nationalist Party (BNP)",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "No participant estimate in JagoNews body.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "A contemporaneous report verifies actual gathering and multiple incoming processions but provides no crowd size. Announcement source describes intended event but cannot establish attendance.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "BGD202012_S001",
+      "BGD202012_S002"
+    ],
+    "field_evidence": {
+      "threshold_50_evidence": {
+        "source_ids": [
+          "BGD202012_S001",
+          "BGD202012_S002"
+        ],
+        "summary": "JagoNews reports arrivals and a rally but no attendance count. Traffic congestion and police presence are not substitutes for crowd evidence."
+      },
+      "demands": {
+        "source_ids": [
+          "BGD202012_S001",
+          "BGD202012_S002"
+        ],
+        "summary": "UNB announcement documents demand to cancel/re-run the 2018 election; JagoNews verifies execution of the rally."
+      },
+      "start_date": {
+        "source_ids": [
+          "BGD202012_S001",
+          "BGD202012_S002"
+        ],
+        "summary": "JagoNews reports the rally started at 11am on 30 December."
+      },
+      "location": {
+        "source_ids": [
+          "BGD202012_S001",
+          "BGD202012_S002"
+        ],
+        "summary": "National Press Club, Dhaka."
+      },
+      "state_response": {
+        "source_ids": [
+          "BGD202012_S001",
+          "BGD202012_S002"
+        ],
+        "summary": "Mild tension with police, traffic delay and police presence reported; no arrest/dispersal/force evidence in opened body."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "bangladesh_bnp_2018_election_anniversary_2020_12",
+    "notes": "This was not coded as support for a party position alone: the announced demand was cancellation of the 2018 election and a re-election. Actual event is supported by JagoNews; the threshold remains unresolved.",
+    "open_questions": [
+      "Find contemporaneous attendee estimate and end/response of 30 December rally."
+    ]
+  },
+  {
+    "candidate_id": "bangladesh_2020-12_E002",
+    "country": "Bangladesh",
+    "ccode": "BGD",
+    "unit_month": "2020-12",
+    "title": "Government Official Forum / BASA program against vandalism of Bangabandhu’s sculpture",
+    "start_date": "2020-12-11",
+    "start_precision": "day",
+    "end_date": "2020-12-11",
+    "end_precision": "unknown",
+    "location": "Dhaka Bangabandhu International Conference Centre; related rallies/human chains reported elsewhere",
+    "scope": "Government-official-led program with reported associated local rallies",
+    "organizer": "Government Official Forum, coordinated by Bangladesh Administrative Service Association (BASA)",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Daily Star reports several thousand government officials at the Dhaka program; no exact count.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The report describes several thousand officials at the Dhaka gathering.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "BGD202012_S005",
+      "BGD202012_S006"
+    ],
+    "field_evidence": {
+      "threshold_50_evidence": {
+        "source_ids": [
+          "BGD202012_S005",
+          "BGD202012_S006"
+        ],
+        "summary": "Daily Star reports several thousand government officials attended the Dhaka program."
+      },
+      "demands": {
+        "source_ids": [
+          "BGD202012_S005",
+          "BGD202012_S006"
+        ],
+        "summary": "The page reports opposition to vandalism and official speeches, but no clear call addressed to government."
+      },
+      "start_date": {
+        "source_ids": [
+          "BGD202012_S005",
+          "BGD202012_S006"
+        ],
+        "summary": "The program described as occurring “yesterday” in a 12 December report; start day is 11 December."
+      },
+      "location": {
+        "source_ids": [
+          "BGD202012_S005",
+          "BGD202012_S006"
+        ],
+        "summary": "Dhaka BICC; local human chains/rallies elsewhere are mentioned but not individually specified."
+      },
+      "state_response": {
+        "source_ids": [
+          "BGD202012_S005",
+          "BGD202012_S006"
+        ],
+        "summary": "No response/repression at the gathering reported; all consequence fields unknown."
+      }
+    },
+    "eligibility": "pending_state_target",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "bangladesh_government_official_sculpture_program_2020_12",
+    "notes": "The action opposed sculpture vandalism and officials stated an attack on the statue was an attack on state/constitution. The opened report does not clearly show the gathering making a demand of Bangladesh’s government; state target is unresolved. Related anti-sculpture coverage returned HTTP 403 at the exact New Age page and is not used for body evidence.",
+    "open_questions": [
+      "Review whether the officials’ demonstration was directed at state policy or was only a supportive/counter-mobilization.",
+      "Resolve event boundaries across programmes beginning around 5 December."
+    ]
+  }
+]

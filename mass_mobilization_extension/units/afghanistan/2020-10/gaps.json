@@ -1,0 +1,127 @@
+[
+  {
+    "gap_id": "afghanistan_2020-10_G001",
+    "type": "historical_access_inventory",
+    "description": "The workspace contains an initially empty review/source_checks ledger and an access-inventory-limits notice rather than a complete historical access record. Known AP, HRW, New Arab, Facebook and L'Orient-Le Jour holds remain unresolved. RFE/RL card S005 has mixed reporting credits including AP, so it is retained for provenance/discovery only and is not used as event evidence; no further related opens or body coding were made.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue only with unrelated sources after a fresh exact-URL access check. Do not use held-origin bodies or variants until source-specific review resolves them."
+  },
+  {
+    "gap_id": "afghanistan_2020-10_G002",
+    "type": "paywall_or_login",
+    "description": "Pajhwok S006 is login-gated after a short lead about a western-zone civil-disobedience campaign. The accessible text does not establish event onset, location, demand, participants, threshold, or continuity.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-10_E008"
+    ],
+    "required_followup": "Use only permitted public evidence to establish event date, location, demand, turnout and continuity; do not attempt login or access circumvention."
+  },
+  {
+    "gap_id": "afghanistan_2020-10_G003",
+    "type": "undated_source",
+    "description": "TOLOnews S008 reports a Herat electricity-tariff protest and a DABS response, and says it was the second protest in a week, but the rendered page exposes no publication or event date.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find an independently dated accessible account before assigning a month or adding a candidate."
+  },
+  {
+    "gap_id": "afghanistan_2020-10_G004",
+    "type": "retrieval_failure",
+    "description": "Afghanistan Times S011 returned HTTP 403 with no body or publication date. Its title suggests a Balkh protest over power prices, but its relation to the September DABS protest S007 is unverified.",
+    "source_ids": [
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry through bypass methods; seek an unrelated accessible source to establish date, event identity and demand."
+  },
+  {
+    "gap_id": "afghanistan_2020-10_G005",
+    "type": "threshold_uncertainty",
+    "description": "The Kabul teacher-shortage press conference S001, Jalalabad peace demonstration briefly noted in S003, and Kabul anti-France gathering E006 lack a secure city-specific numeric turnout. Anadolu's S013 estimate pools Kabul and Herat, while TOLO describes Kabul turnout qualitatively.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-10_E001",
+      "afghanistan_2020-10_E005",
+      "afghanistan_2020-10_E006"
+    ],
+    "required_followup": "Find contemporary reporting that establishes the number physically present at each distinct gathering; do not transfer counts across cities."
+  },
+  {
+    "gap_id": "afghanistan_2020-10_G006",
+    "type": "state_target_uncertainty",
+    "description": "Pajhwok S002 reports a roughly 2,000-person counter-rally against a planned memorial and says the government had already blocked the event, but does not show whether the 1 October gathering itself demanded Afghan government action or targeted memorial organizers.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-10_E002"
+    ],
+    "required_followup": "Review another contemporary account or organizer statement to resolve the demand target; retain as pending_state_target until then."
+  },
+  {
+    "gap_id": "afghanistan_2020-10_G007",
+    "type": "episode_identity",
+    "description": "TOLOnews S012 says a large number of Kabul residents protested on Friday and reports Hekmatyar's call for Kabul to sever ties with France, but its page has no displayed calendar date. Anadolu S013 and EslahtOnline S016 date related Kabul material to 30 October; whether all accounts describe the same gathering is not established.",
+    "source_ids": [
+      "S012",
+      "S013",
+      "S016"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-10_E006"
+    ],
+    "required_followup": "Find a dated TOLO archive or additional contemporary local report and compare venue, organizer and gathering details before merging accounts."
+  },
+  {
+    "gap_id": "afghanistan_2020-10_G008",
+    "type": "event_onset_and_closure",
+    "description": "Most accounts do not report event closure or duration. No verified November continuation surfaced in the post-month search q036; the returned related result was the separate 28 October report. The October 31 Jalalabad event and other candidates remain without documented later closure.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S012",
+      "S013",
+      "S016"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-10_E003",
+      "afghanistan_2020-10_E004",
+      "afghanistan_2020-10_E005",
+      "afghanistan_2020-10_E006",
+      "afghanistan_2020-10_E007"
+    ],
+    "required_followup": "Check adjacent-month local reporting for each action if establishing exact end dates or campaign continuity becomes necessary; do not infer closure from the last publication or month end."
+  },
+  {
+    "gap_id": "afghanistan_2020-10_G009",
+    "type": "retrieval_challenge",
+    "description": "Ariana News S015 returned a JavaScript-required page challenge while attempting to check a related Kabul protest report. The page body was not accessed.",
+    "source_ids": [
+      "S015"
+    ],
+    "affected_candidates": [
+      "afghanistan_2020-10_X001"
+    ],
+    "required_followup": "No challenge bypass attempted. Use accessible independent reporting if needed to confirm details."
+  },
+  {
+    "gap_id": "afghanistan_2020-10_G010",
+    "type": "search_coverage_limit",
+    "description": "Open-web search was used instead of the codebook's LexisNexis workflow. Searches covered English, Dari and Pashto broad monthly terms, local publishers, sector terms and weekly windows, followed by candidate-specific searches; result ranking, local-language indexing and historical archives remain incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat this as open-web pending review, not exhaustive coverage. Official baseline comparison and any systematic archive access remain outstanding."
+  }
+]

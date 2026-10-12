@@ -1,0 +1,25 @@
+[
+  {
+    "gap_id": "FR2020-11-GAP-NOV21-PARIS",
+    "gap_type": "pending_threshold",
+    "affected_candidate_ids": [
+      "FR2020-11-CAND-NOV21-PARIS"
+    ],
+    "reason": "No Paris-specific attendance count; aggregate 15,000 explicitly excludes Paris. TF1 exact open returned 403.",
+    "source_ids": [
+      "SRC_1CD3B67B23C8"
+    ],
+    "next_permitted_action": "Seek permitted Paris-specific contemporary report; no TF1 retry."
+  },
+  {
+    "gap_id": "FR2020-11-GAP-SCOPE",
+    "gap_type": "pending_coverage",
+    "affected_candidate_ids": [],
+    "reason": "Window and sector/city searches were done; further regional and adjacent date checks remain feasible.",
+    "source_ids": [
+      "SRC_1CD3B67B23C8",
+      "SRC_DBABC658FBDE"
+    ],
+    "next_permitted_action": "Continue permitted regional/sector coverage."
+  }
+]

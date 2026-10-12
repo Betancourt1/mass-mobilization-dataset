@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "cr2020-12_G001",
+    "type": "pending_threshold",
+    "description": "No opened source gives turnout for Dec. 8, 9, 10, 15, 18, 21 events.",
+    "source_ids": [
+      "CR202012_UCR_DEC_PDF"
+    ],
+    "affected_candidates": [
+      "cr2020-12_E001",
+      "cr2020-12_E002",
+      "cr2020-12_E003",
+      "cr2020-12_E004",
+      "cr2020-12_E005",
+      "cr2020-12_E006"
+    ],
+    "required_followup": "Search exact date/local sources; do not transfer affected populations into turnout."
+  },
+  {
+    "gap_id": "cr2020-12_G002",
+    "type": "pending_coverage",
+    "description": "Late Dec. 22-31 windows and comprehensive January continuity checks remain unfinished.",
+    "source_ids": [
+      "CR202012_Q001_SEARCH_NOV_DEC_JAN_WINDOW",
+      "CR202012_Q002_SEARCH_DECEMBER_EPISODE",
+      "CR202012_Q003_SEARCH_EXACT_UCR_PDF",
+      "CR202012_Q004_SEARCH_EVENTS"
+    ],
+    "affected_candidates": [
+      "cr2020-12_E005"
+    ],
+    "required_followup": "Search final-week December and Jan. 2021 continuity/closure."
+  },
+  {
+    "gap_id": "cr2020-12_G003",
+    "type": "pending_unit",
+    "description": "Dec. 18 transporters may be new or related to November MOPT camp; overlap unknown.",
+    "source_ids": [
+      "CR202012_UCR_DEC_PDF",
+      "CR202011_UCR_NOV_PDF",
+      "CR202012_DIARIOEXTRA_MOPT_SEARCH"
+    ],
+    "affected_candidates": [
+      "cr2020-12_E005"
+    ],
+    "required_followup": "Seek permitted source on organizers and stop/resumption dates."
+  },
+  {
+    "gap_id": "cr2020-12_G004",
+    "type": "pending_unit",
+    "description": "Coto Brus water disruption affected households but Dec. 15 protest turnout unknown; January source describes later action.",
+    "source_ids": [
+      "CR202012_UCR_DEC_PDF",
+      "CR202012_CRHOY_WATER_JAN_SEARCH"
+    ],
+    "affected_candidates": [
+      "cr2020-12_E004"
+    ],
+    "required_followup": "Search Dec. 15 local coverage separate from January protest."
+  }
+]

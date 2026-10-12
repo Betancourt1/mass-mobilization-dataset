@@ -1,0 +1,27 @@
+[
+  {
+    "gap_id": "COM202011_G001",
+    "candidate_id": "COM202011_E001",
+    "source_ids": [
+      "COM202011_S002"
+    ],
+    "gap_type": "pending_threshold",
+    "reason": "Opened report gives no attendance count; ‘large mobilization’ is uncalibrated and does not establish >=50.",
+    "required_followup": "Seek separately assessed local contemporaneous or association/official source that counts participants at this exact site/time. Do not infer from pensioner population, meeting, or blocked Habariza lead.",
+    "unit_pending_sources": true,
+    "unit_pending_coverage": false
+  },
+  {
+    "gap_id": "COM202011_G002",
+    "candidate_id": "COM202011_E001",
+    "source_ids": [
+      "COM202011_S001",
+      "COM202011_S002"
+    ],
+    "gap_type": "bounded_source_diversity_and_review",
+    "reason": "Weekly/sector/island searches are logged but only one body source describes event; distinct scientific review has not occurred. Habariza open stopped after tool challenge.",
+    "required_followup": "Distinct reviewer may assess current evidence hashes; seek separately assessed local source only if it resolves turnout or eligibility.",
+    "unit_pending_sources": false,
+    "unit_pending_coverage": true
+  }
+]

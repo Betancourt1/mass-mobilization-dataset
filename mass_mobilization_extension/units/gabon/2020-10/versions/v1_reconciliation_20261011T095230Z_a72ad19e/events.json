@@ -1,0 +1,156 @@
+[
+  {
+    "candidate_id": "GAB202010_E001",
+    "country": "Gabon",
+    "ccode": null,
+    "unit_month": "2020-10",
+    "title": "SYNAPEF one-day warning strike at Water and Forests ministry",
+    "start_date": "2020-10-07",
+    "start_precision": "day",
+    "end_date": "2020-10-07",
+    "end_precision": "day",
+    "location": "Main gate of Ministry of Water and Forests headquarters; city unknown in body",
+    "scope": "local",
+    "organizer": "SYNAPEF",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "SYNAPEF agents; number unspecified",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Article reports a general assembly and agents barricading a ministry gate, but no number or qualitative threshold estimate; >=50 remains unknown.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "GAB202010_S001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "GAB202010_S001"
+        ],
+        "summary": "Article printed 8 Oct 2020 and says action was Wednesday; 7 Oct inferred, not explicitly printed in body."
+      },
+      "location": {
+        "source_ids": [
+          "GAB202010_S001"
+        ],
+        "summary": "Main gate at headquarters of ministry; town not identified."
+      },
+      "demands": {
+        "source_ids": [
+          "GAB202010_S001"
+        ],
+        "summary": "Payment of third-quarter bonus and arrears; strike explicitly linked to alleged breach of agreement with minister."
+      },
+      "participants": {
+        "source_ids": [
+          "GAB202010_S001"
+        ],
+        "summary": "Agents held an assembly and barricaded the main gate until 18:00; no count."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "GAB202010_S001"
+        ],
+        "summary": "No numerical or clearly sufficient qualitative estimate."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "GABON-2020-10-SYNAPEF-WATER-FORESTS-STRIKE",
+    "notes": "One account only; do not infer agent count from ministry-wide membership or strike status.",
+    "open_questions": [
+      "Can a permitted report establish at least 50 participants at the gate?",
+      "Can the exact event locality/city be supported?",
+      "Was the described one-day strike a distinct assembly/action or part of a longer episode, and is there a next-month continuation?"
+    ]
+  },
+  {
+    "candidate_id": "GAB202010_E002",
+    "country": "Gabon",
+    "ccode": null,
+    "unit_month": "2020-10",
+    "title": "Transport-ministry workers' strike picket with symbolic coffin",
+    "start_date": "2020-10",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Courtyard of the Ministry in charge of Transport and Civil Aviation, Libreville (city from article metadata/tag; exact event site not named in body)",
+    "scope": "local",
+    "organizer": "SAMTAC",
+    "demands": [],
+    "participants_original": "Workers on strike; number unspecified",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No number or qualitative estimate reported; cannot establish at least 50 at this picket.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "GAB202010_S002"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "GAB202010_S002"
+        ],
+        "summary": "Article says union leader was arrested Thursday and picket was among reasons; it gives release Monday 26 Oct but not picket's exact onset."
+      },
+      "location": {
+        "source_ids": [
+          "GAB202010_S002"
+        ],
+        "summary": "Article places a picket in ministry courtyard; Libreville is supported by prosecutor context/tag, not directly as courtyard address."
+      },
+      "demands": {
+        "source_ids": [
+          "GAB202010_S002"
+        ],
+        "summary": "Article describes a symbolic coffin and arrest but no clear demand."
+      },
+      "participants": {
+        "source_ids": [
+          "GAB202010_S002"
+        ],
+        "summary": "Ministry personnel on strike are mentioned, no attendance count."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "GAB202010_S002"
+        ],
+        "summary": "Unreported."
+      },
+      "state_response": {
+        "source_ids": [
+          "GAB202010_S002"
+        ],
+        "summary": "Article reports arrest of SAMTAC leader and charges of insult/premeditation."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "GABON-2020-10-SAMTAC-TRANSPORT-MINISTRY-PICKET",
+    "notes": "Keep distinct from SYNAPEF/Water and Forests strike; no basis to infer same episode.",
+    "open_questions": [
+      "Can permitted reporting establish >=50 at this picket?",
+      "What demand, if any, did participants direct to the state/policy?",
+      "When did this picket begin, and was it a distinct action or part of a continuous strike?"
+    ]
+  }
+]

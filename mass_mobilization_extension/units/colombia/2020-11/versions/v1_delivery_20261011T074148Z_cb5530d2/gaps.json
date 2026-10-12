@@ -1,0 +1,53 @@
+[
+  {
+    "gap_id": "COL202011_G001",
+    "source_ids": [
+      "S002",
+      "S006",
+      "S007",
+      "S010",
+      "S012"
+    ],
+    "affected_candidates": [
+      "COL202011_E001",
+      "COL202011_E002",
+      "COL202011_E003",
+      "COL202011_E004"
+    ],
+    "dimension": "failed exact-target body retrievals",
+    "reason": "Tool timeouts/inaccessibility left these exact body requests without content; no site denial inferred except no explicit such denial was surfaced, and no retries occurred.",
+    "next_permitted_action": "Use other permitted publishers/original records for missing event fields."
+  },
+  {
+    "gap_id": "COL202011_G002",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S011",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "COL202011_E001",
+      "COL202011_E002",
+      "COL202011_E006"
+    ],
+    "dimension": "venue thresholds and city-specific demands",
+    "reason": "Available counts are absent or aggregate multiple points; eligibility requires 50+ at one gathering and a domestic state-policy demand.",
+    "next_permitted_action": "Search contemporaneous venue-level reporting for Nov 19/21 and check October/December continuity."
+  },
+  {
+    "gap_id": "COL202011_G003",
+    "source_ids": [
+      "S005",
+      "S008"
+    ],
+    "affected_candidates": [
+      "COL202011_E004",
+      "COL202011_E005"
+    ],
+    "dimension": "women’s demonstrations state target/threshold",
+    "reason": "Bogotá source gives a crowd size but no explicit remedy to government; Bucaramanga source has justice-system target but no count.",
+    "next_permitted_action": "Seek one permitted source per city that supplies missing fields; no cross-city pooling."
+  }
+]

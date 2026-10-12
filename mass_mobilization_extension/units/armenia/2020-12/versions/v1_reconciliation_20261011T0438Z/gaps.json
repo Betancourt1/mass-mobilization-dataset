@@ -1,0 +1,361 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "La búsqueda abierta no reproduce el procedimiento Lexis-Nexis del manual. Se enviaron 21 consultas reales: búsquedas generales, cuatro ventanas semanales en inglés y armenio, consultas ruso/regionales, policiales y de derechos humanos, y continuidad posterior al mes. El buscador no expuso totales ni timestamps nativos y varias consultas concurrentes devolvieron un solo sobre compartido; se capturó un subconjunto relevante de encabezados, repetido de modo explícito cuando no podía atribuirse a consultas individuales. No constituye una medición de exhaustividad.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Ampliar con hemerotecas accesibles y consultas regionales/sectoriales independientes; verificar operadores/fechas y conservar envelopes completos."
+  },
+  {
+    "gap_id": "G002",
+    "type": "baseline",
+    "description": "Falta el baseline oficial vigente, esquema original, universe/version control y asignación de ccode. ccode permanece null; no asignar ID oficial ni declarar compatibilidad.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinación debe verificar baseline, mapa de códigos y reglas originales antes de cualquier integración."
+  },
+  {
+    "gap_id": "G003",
+    "type": "continuity",
+    "description": "Las fuentes describen una campaña de renuncia iniciada antes de diciembre (desde el acuerdo de noviembre), pero no fijan la primera fecha con una reunión de ≥50. Los eventos de diciembre se registran por fechas/demandas propias sin fijar el inicio de la campaña al primer resultado. The new local review distinguishes political-campaign continuity from physical gathering continuity; no uninterrupted occupation or assembly is inferred.",
+    "source_ids": [
+      "S008",
+      "S030"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E003"
+    ],
+    "required_followup": "Revisar la continuidad con el dossier de noviembre y fuentes originales; mantener la fecha de inicio de la campaña como desconocida."
+  },
+  {
+    "gap_id": "G004",
+    "type": "threshold",
+    "description": "Las acciones de 1 y 3 de diciembre en Yerevan están documentadas sólo por resultados de búsqueda; hay cierres de calles y arrestos, pero no conteo simultáneo. Número detenido no equivale a participantes.",
+    "source_ids": [
+      "S018",
+      "S019",
+      "S023",
+      "S039"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E001",
+      "armenia_2020-12_E002"
+    ],
+    "required_followup": "Buscar reportes contemporáneos abiertos que aporten tamaño, ubicación simultánea y relación con las acciones de noviembre."
+  },
+  {
+    "gap_id": "G005",
+    "type": "threshold_scope",
+    "description": "El 8 de diciembre hubo varios cientos en el centro de Yerevan según CivilNet; búsquedas sitúan también acciones en Gyumri, Vanadzor y otras ciudades, sin cuentas por ciudad. No se sumaron multiciudad ni se atribuyó automáticamente una cifra al alcance nacional.",
+    "source_ids": [
+      "S006",
+      "S030",
+      "S037",
+      "S036"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E004"
+    ],
+    "required_followup": "Verificar cada acción provincial por separado y la organización nacional antes de decidir su ownership."
+  },
+  {
+    "gap_id": "G006",
+    "type": "threshold",
+    "description": "El rally ante el Parlamento del 9 de diciembre está documentado y organizado, pero las fuentes permitidas abiertas no dan conteo de asistentes. Estimaciones de AP y agregadores no se usaron.",
+    "source_ids": [
+      "S055",
+      "S056",
+      "S057"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E005"
+    ],
+    "required_followup": "Buscar cobertura contemporánea independiente de AP con conteo simultáneo y respuesta estatal."
+  },
+  {
+    "gap_id": "G007",
+    "type": "threshold_response",
+    "description": "Para las acciones del 11 de diciembre se reportan bloqueos de calles y, en resultados de búsqueda, hasta 101 detenciones; no se conoce el total reunido ni si esa cifra se refiere al mismo lugar y momento.",
+    "source_ids": [
+      "S008",
+      "S059",
+      "S060"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E007"
+    ],
+    "required_followup": "Aclarar el alcance del reporte policial, sitios/horarios, tamaño y respuesta específicamente vinculada a la acción."
+  },
+  {
+    "gap_id": "G008",
+    "type": "threshold_origin",
+    "description": "En Gyumri el 14 de diciembre varios resultados describen cierre de Sayat-Nova/calles, pero no reportan participantes. Las fuentes pueden referirse a una única acción y algunos republican/atribuyen relatos de terceros. The opened Aravot local account provides the route and an organizer quote but still no total crowd count; a handful of motorists joining is not a population total.",
+    "source_ids": [
+      "S041",
+      "S044",
+      "S046",
+      "S053",
+      "S067"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E008"
+    ],
+    "required_followup": "Comprobar cuerpo y origen escrito de cada noticia; no contar arrestos ni varias versiones de una misma historia como corroboraciones independientes."
+  },
+  {
+    "gap_id": "G009",
+    "type": "episode_link",
+    "description": "El March of Dignity del 15 de diciembre comenzó cerca de Sasuntsi David; UIC contó 2.700–2.800 en French Square a las 18:55. No hay evidencia abierta que vincule directamente la procesión con el grupo contado en la plaza.",
+    "source_ids": [
+      "S024",
+      "S025"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E009",
+      "armenia_2020-12_E010"
+    ],
+    "required_followup": "Determinar si fue una marcha seguida por una concentración o dos acciones distintas, sin duplicar participantes."
+  },
+  {
+    "gap_id": "G010",
+    "type": "state_target_threshold",
+    "description": "El 21 de diciembre se reporta que residentes de Syunik bloquearon rutas para impedir una visita del primer ministro; el motivo político, demanda explícita, tamaño por localidad y relación entre Goris, Kapan y Meghri no se establecieron. Opened Azatutyun coverage documents Goris and a visit-blocking statement, but no crowd count or evidence that other towns formed one gathering.",
+    "source_ids": [
+      "S045",
+      "S052",
+      "S068"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E011"
+    ],
+    "required_followup": "Abrir fuentes locales/originales para precisar demandas estatales, simultaneidad, tamaño y coordinación de municipios."
+  },
+  {
+    "gap_id": "G011",
+    "type": "threshold_labor",
+    "description": "Para el 22 de diciembre se anunciaron huelga y boicot de clases; se publicaron reclamaciones sobre abogados, estaciones de servicio y un bloqueo vial. No se verificó cuántos trabajadores secundaron la huelga ni se contaron trabajadores o alumnado como asistentes a la concentración.",
+    "source_ids": [
+      "S011",
+      "S028",
+      "S031",
+      "S032",
+      "S050"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E012",
+      "armenia_2020-12_E013"
+    ],
+    "required_followup": "Verificar ejecución, alcance temporal/local y si hubo reuniones públicas de trabajadores separables del mitin."
+  },
+  {
+    "gap_id": "G012",
+    "type": "threshold",
+    "description": "La ruta Vanadzor–Yerevan se reporta bloqueada el 22 de diciembre, sin estimación de participantes ni duración. Supplemental Armenian-language NEWS.am/Yerkir results repeat the route and resignation demand, without crowd counts or an established independent written origin.",
+    "source_ids": [
+      "S049",
+      "S072",
+      "S073"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E013"
+    ],
+    "required_followup": "Buscar recuento contemporáneo/local y distinción entre bloqueo vial y concentración pública."
+  },
+  {
+    "gap_id": "G013",
+    "type": "threshold_episode",
+    "description": "El 24 de diciembre se reportan 69 detenciones fuera de la sede del gobierno y un bloqueo de más de cinco horas, pero no un conteo simultáneo de manifestantes ni la relación con el bloqueo de Baghramyan Avenue. Hetq confirms 69 detainees by 1pm and mentions minor scuffles; this still does not establish total attendance or scuffle initiation.",
+    "source_ids": [
+      "S047",
+      "S048",
+      "S058",
+      "S071"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E014"
+    ],
+    "required_followup": "Encontrar conteo de crowd, secuencia y ubicaciones; 69 detenidos no es la población del evento."
+  },
+  {
+    "gap_id": "G014",
+    "type": "threshold_episode",
+    "description": "El 25 de diciembre se documentan cierres viales y 15 arrestos; otro resultado reporta una marcha a Republic Square. No está claro si ambos describen una sola acción y no hay tamaño total.",
+    "source_ids": [
+      "S020",
+      "S029",
+      "S034"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E015"
+    ],
+    "required_followup": "Identificar cuántas personas reunieron simultáneamente y si marcha/bloqueos fueron la misma acción."
+  },
+  {
+    "gap_id": "G015",
+    "type": "continuation_end",
+    "description": "La carpa/sit-in iniciada con el rally de 22 de diciembre aparece en una nota posterior como desmontada alrededor de dos meses después; la nota está sólo en resultado de búsqueda y no fija la fecha exacta de desmontaje.",
+    "source_ids": [
+      "S011",
+      "S064",
+      "S065"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E012"
+    ],
+    "required_followup": "Verificar la nota posterior y registrar su fecha/continuidad sin fijar fin en 31 de diciembre."
+  },
+  {
+    "gap_id": "G016",
+    "type": "response_violence",
+    "description": "La respuesta estatal y violencia de manifestantes no se informan de forma uniforme. Para el 10 de diciembre RFE/RL describe fuerza policial al despejar una calle y más de 40 detenciones; el 22 de diciembre relata presencia policial y un breve forcejeo sin iniciador claro. Esos hechos no se generalizan a otras jornadas.",
+    "source_ids": [
+      "S008",
+      "S011",
+      "S031"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E006",
+      "armenia_2020-12_E012"
+    ],
+    "required_followup": "Contrastar hechos por evento y distinguir dispersión, arrestos, golpes, disparos y violencia de manifestantes."
+  },
+  {
+    "gap_id": "G017",
+    "type": "origin_access",
+    "description": "El artículo de Guardian S001 se abrió accidentalmente después de manual_review; el cuerpo reveló origen AP. No se conserva ni usa contenido factual de ese artículo y queda pendiente bajo la restricción AP heredada. El resultado PBS/AP no se abrió; el origen del artículo de LA Times S057 sigue sin resolver. No se contaron como fuentes independientes.",
+    "source_ids": [
+      "S001",
+      "S015",
+      "S057"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E003",
+      "armenia_2020-12_E005",
+      "armenia_2020-12_E012"
+    ],
+    "required_followup": "Mantener el origen AP como hold pendiente de revisión exacta; no reabrir variantes."
+  },
+  {
+    "gap_id": "G018",
+    "type": "access_procedure",
+    "description": "El resultado Panorama S012 fue objeto de un open accidental sin access-check previo; sólo devolvió la cabecera y total-lines 0. No se leyó ni usó contenido y no se reintentó.",
+    "source_ids": [
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Conservar el incidente de procedimiento; no reabrir sin nueva autorización/procedimiento revisado."
+  },
+  {
+    "gap_id": "G019",
+    "type": "source_independence",
+    "description": "Varias versiones de Azatutyun/RFE-RL y reportes locales pueden describir la misma campaña o el mismo hecho; un artículo de RFE/RL declara aportes de Reuters y AFP, y PAN atribuye el relato del 22-dic a Para TV. No todas las fuentes son independientes.",
+    "source_ids": [
+      "S004",
+      "S006",
+      "S007",
+      "S008",
+      "S011",
+      "S028",
+      "S031",
+      "S043",
+      "S054"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E004",
+      "armenia_2020-12_E008",
+      "armenia_2020-12_E012"
+    ],
+    "required_followup": "Resolver explícitamente variantes y orígenes antes de contar corroboraciones independientes."
+  },
+  {
+    "gap_id": "G020",
+    "type": "language_sector",
+    "description": "Se buscaron prensa y términos generales en inglés, armenio y ruso, además de ciudades/provincia, policías, huelga y universitarios. No se consiguió búsqueda sistemática en hemerotecas locales, registros completos de policía/Ombudsman ni un reporte local de derechos humanos específico del mes; resultados Amnesty fueron globales y los resultados HRW no eran fuentes pertinentes verificadas para estos eventos.",
+    "source_ids": [
+      "S039",
+      "S058",
+      "S059",
+      "S060",
+      "S061",
+      "S062",
+      "S063"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Ampliar con archivo local y registros públicos/defensoría, revisar fuentes de derechos humanos con alcance preciso."
+  },
+  {
+    "gap_id": "G021",
+    "type": "date_coverage",
+    "description": "Búsquedas abiertas devolvieron materiales fuera de las fechas consultadas; operadores semanales no demuestran cobertura temporal y noticias retrospectivas pueden repetir una sola nota de agencia.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Verificar fechas de evento en cuerpo, no tratar retorno/omisión de buscador como presencia/ausencia."
+  },
+  {
+    "gap_id": "G022",
+    "type": "official_police_source",
+    "description": "Targeted police-site search found a Dec 17 official response to a News.am Dec 1 report, plus official daily summaries for Dec 4–7, Dec 9–10, Dec 18–21 and Dec 28–29. Each exact URL open timed out or returned 502; one same-URL retry of the Dec 4–7 summary also timed out. These are technical failures, not denials, and no bulletin body was used. The official police search aimed at Dec 22–25 did not surface a matching dated report.",
+    "source_ids": [
+      "S074",
+      "S075",
+      "S076",
+      "S077",
+      "S078"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E001",
+      "armenia_2020-12_E003",
+      "armenia_2020-12_E006",
+      "armenia_2020-12_E011",
+      "armenia_2020-12_E014",
+      "armenia_2020-12_E015"
+    ],
+    "required_followup": "Use another permitted contemporaneous outlet/public record for any specific police-response claim still material; do not infer police actions from arrest totals or retry alternate police URL variants."
+  },
+  {
+    "gap_id": "G023",
+    "type": "rights_oversight_coverage",
+    "description": "A targeted Ombudsman search surfaced mainly 2015/2017 or unrelated human-rights materials; the exact 2020 Annual Report PDF result returned a generic page-not-found response. HCAV’s accessible 2022 summary reports aggregate 2020 media-monitoring counts (192 police violation cases, including 101 peaceful-assembly cases), but contains no candidate-specific December incidents. No event-specific Ombudsman/rights report was found in this bounded local public search.",
+    "source_ids": [
+      "S069",
+      "S070"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E001",
+      "armenia_2020-12_E006",
+      "armenia_2020-12_E012",
+      "armenia_2020-12_E014"
+    ],
+    "required_followup": "If a specific police-response or rights-violation field remains material, search an accessible exact public HCAV/Ombudsman document for that date/event; do not infer event facts from annual aggregate counts or retry the not-found Ombudsman PDF variant."
+  },
+  {
+    "gap_id": "G024",
+    "type": "event_boundary_review",
+    "description": "New NEWS.am body says a short French Square rally followed the March of Dignity and ended the day demonstration. This makes E009 and the UIC-counted E010 a likely single sequence with march and square phases; the 18:55 UIC count is still bounded to the square and does not measure everyone who marched. Candidate status/eligibility is unchanged pending independent review.",
+    "source_ids": [
+      "S024",
+      "S025",
+      "S066"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E009",
+      "armenia_2020-12_E010"
+    ],
+    "required_followup": "Independent reviewer should decide whether E009 is a phase/component of E010 or a separate record; ensure one event count and no transfer of the French Square total to route participants."
+  },
+  {
+    "gap_id": "G025",
+    "type": "regional_action_scope",
+    "description": "The opened Azatutyun report documents a Goris road blockade on 21 Dec, with opposition to the Prime Minister’s entry and regional border/security context, but no attendance. Kapan/Meghri and other route reports are not shown to be simultaneous with the Goris blockade or to share one participant pool.",
+    "source_ids": [
+      "S045",
+      "S052",
+      "S068"
+    ],
+    "affected_candidates": [
+      "armenia_2020-12_E011"
+    ],
+    "required_followup": "Keep Goris and other municipalities separate; locate contemporaneous local count and explicit demand for each before coding threshold/ownership."
+  }
+]

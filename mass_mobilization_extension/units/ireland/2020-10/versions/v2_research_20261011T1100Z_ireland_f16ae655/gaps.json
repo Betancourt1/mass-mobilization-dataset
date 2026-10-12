@@ -1,0 +1,60 @@
+[
+  {
+    "gap_id": "IRL202010_G001",
+    "type": "coverage",
+    "candidate_ids": [
+      "IRL202010_E002",
+      "IRL202010_E003",
+      "IRL202010_E005"
+    ],
+    "source_ids": [
+      "irl_irishtimes_oct10",
+      "irl_garda_oct10",
+      "irl_garda_oct22",
+      "irl_echolive_truckers_oct9"
+    ],
+    "dimension": "participant thresholds and group-specific counts",
+    "reason": "Oct10 reports describe combined rival groups without the anti-lockdown faction count; Oct22 official report gives no count; Oct9 gives vehicles rather than persons.",
+    "next_permitted_action": "Search permitted contemporaneous local/official reporting for those named events and exact participant counts; do not infer persons from arrests or vehicles."
+  },
+  {
+    "gap_id": "IRL202010_G002",
+    "type": "source",
+    "candidate_ids": [
+      "IRL202010_E003"
+    ],
+    "source_ids": [
+      "irl_breakingnews_oct22"
+    ],
+    "dimension": "Oct22 explicit state demand and source body",
+    "reason": "Opened Garda statement confirms gathering/arrests but does not describe group demand; search lead says reopening.",
+    "next_permitted_action": "Use another permitted exact-source body or contemporaneous independent report if available; do not retry held/denied sources."
+  },
+  {
+    "gap_id": "IRL202010_G003",
+    "type": "coverage",
+    "candidate_ids": [],
+    "source_ids": [
+      "irl_limerickpost_oct30"
+    ],
+    "dimension": "Limerick Oct30 planned demonstration, plus wider regional/sector coverage",
+    "reason": "Limerick Post result announced an event but exact page returned 403, so execution/count unknown; Galway/Waterford and non-labor sectors were not systematically covered.",
+    "next_permitted_action": "Search other permitted Limerick outlets for the Oct30 action and continue week-bounded local/regional searches in Galway, Waterford and sector sources; do not revisit the denied URL."
+  },
+  {
+    "gap_id": "IRL202010_G004",
+    "type": "coverage",
+    "candidate_ids": [
+      "IRL202010_E001",
+      "IRL202010_E004"
+    ],
+    "source_ids": [
+      "irl_rte_oct3",
+      "irl_irishtimes_oct3",
+      "irl_irishtimes_oct24"
+    ],
+    "dimension": "onset/adjacent-month continuity and local-language coverage",
+    "reason": "Two Dublin anti-restrictions actions are established, but September/November episode relations and Irish-language/local coverage remain incomplete; RTÉ exact Oct3 URL returned 403.",
+    "next_permitted_action": "Search permitted September/November reports for same organizers/actions and perform feasible Gaeilge follow-ups; do not retry the RTÉ 403 URL."
+  }
+]

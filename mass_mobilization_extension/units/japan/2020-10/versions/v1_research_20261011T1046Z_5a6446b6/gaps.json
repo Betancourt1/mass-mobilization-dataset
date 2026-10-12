@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "JPN202010-G001",
+    "affected_candidate_id": "JPN202010-E006",
+    "dimension": "source/body evidence",
+    "reason": "Ryukyu Shimpo exact article timed out; the retained search header alone cannot establish occurrence, site, threshold or demand.",
+    "next_permitted_action": "Search/open a different permitted Okinawa/local source for the Oct 4 action; do not retry the timed-out exact URL.",
+    "source_ids": [
+      "JPN202010-S11"
+    ]
+  },
+  {
+    "gap_id": "JPN202010-G002",
+    "affected_candidate_id": "JPN202010-E004",
+    "dimension": "attendance threshold",
+    "reason": "Mixmag reports the Oct 18 Shibuya event without a count; Kyodo/ImageLink exact request returned HTTP 403.",
+    "next_permitted_action": "Seek a distinct permitted body report or organizer account with a supported 50+ threshold; do not retry the 403 URL.",
+    "source_ids": [
+      "JPN202010-S04",
+      "JPN202010-S12"
+    ]
+  },
+  {
+    "gap_id": "JPN202010-G003",
+    "affected_candidate_id": null,
+    "dimension": "regional/sector/date-window coverage",
+    "reason": "Generic and Japanese-language month/date-window searches were run and yielded several Tokyo, Kyoto and Osaka items, but the search record does not establish systematic feasible coverage of other regions/sectors or all late-month local windows.",
+    "next_permitted_action": "Continue local-language regional and sector-specific searches for Oct 11–31 and record actual outcomes/source cards; prioritize Okinawa and labor/civic policy actions.",
+    "source_ids": [
+      "JPN202010-S02",
+      "JPN202010-S11"
+    ]
+  },
+  {
+    "gap_id": "JPN202010-G004",
+    "affected_candidate_id": "JPN202010-E001",
+    "dimension": "episode onset and neighboring-month continuity",
+    "reason": "The Oct 3/6/18/20 Science Council events appear in one policy campaign but are distinct gatherings; exact campaign onset and Sep/Nov continuation/ownership remain incompletely checked.",
+    "next_permitted_action": "Compare contemporaneous Sep and Nov reports and exact event dates/sites for the campaign, without merging separate gatherings.",
+    "source_ids": [
+      "JPN202010-S01",
+      "JPN202010-S04",
+      "JPN202010-S09"
+    ]
+  },
+  {
+    "gap_id": "JPN202010-G005",
+    "affected_candidate_id": "JPN202010-E005",
+    "dimension": "location/source independence",
+    "reason": "Kyoto articles report about 150 in Kyoto City but no exact site; the two accounts may share organizers and the IWJ page returned 403.",
+    "next_permitted_action": "Use a distinct permitted report or organizer document to establish exact site and whether count/reporting origins are independent; no retry to IWJ.",
+    "source_ids": [
+      "JPN202010-S09",
+      "JPN202010-S10",
+      "JPN202010-S13"
+    ]
+  }
+]

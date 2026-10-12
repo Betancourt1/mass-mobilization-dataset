@@ -1,0 +1,147 @@
+[
+  {
+    "gap_id": "ALG202011_G001",
+    "type": "threshold",
+    "description": "Attendance is not established for any local November 1 anti-referendum gathering. Béjaïa city and Bechloul are described qualitatively as several dozen/dozens; Haizer, Ath Laziz, and Kherrata have no independent verified headcount.",
+    "source_ids": [
+      "ALG202011_S001",
+      "ALG202011_S002",
+      "ALG202011_S004"
+    ],
+    "affected_candidates": [
+      "ALG202011_E001",
+      "ALG202011_E002",
+      "ALG202011_E003",
+      "ALG202011_E004",
+      "ALG202011_E005"
+    ],
+    "required_followup": "Find lawful contemporary reporting with a numeric or clearly sufficient qualitative estimate; keep counts unknown until then."
+  },
+  {
+    "gap_id": "ALG202011_G002",
+    "type": "source_origin",
+    "description": "Local report independence is unclear. VAVA attributes parts of its Bouira story to Liberté; Algerie360 also cites Liberté; Le360 embeds a Facebook post attributed to Etat de droit.",
+    "source_ids": [
+      "ALG202011_S001",
+      "ALG202011_S002",
+      "ALG202011_S003",
+      "ALG202011_S004"
+    ],
+    "affected_candidates": [
+      "ALG202011_E001",
+      "ALG202011_E002",
+      "ALG202011_E003",
+      "ALG202011_E004",
+      "ALG202011_E005"
+    ],
+    "required_followup": "Verify explicit written story links and origins; do not infer independence by publisher or topic."
+  },
+  {
+    "gap_id": "ALG202011_G003",
+    "type": "source_access",
+    "description": "Le Soir d'Algérie report on October 31 Béjaïa marches displays a subscriber/login wall after a short preview; activity is prior-month and continuity into November is unproven.",
+    "source_ids": [
+      "ALG202011_S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use lawful public access if available; do not bypass subscription wall."
+  },
+  {
+    "gap_id": "ALG202011_G004",
+    "type": "source_access",
+    "description": "Associated Press teacher-strike article remains under the project's affected/ambiguous-origin hold. It was not opened; exact access check returned manual review with no saved match.",
+    "source_ids": [
+      "ALG202011_S009"
+    ],
+    "affected_candidates": [
+      "ALG202011_E006"
+    ],
+    "required_followup": "Retain as a hold/gap; do not request body."
+  },
+  {
+    "gap_id": "ALG202011_G005",
+    "type": "source_access",
+    "description": "Kherrata march lead is embedded from Facebook in Le360; Facebook is an affected/ambiguous-origin hold and was not opened.",
+    "source_ids": [
+      "ALG202011_S004"
+    ],
+    "affected_candidates": [
+      "ALG202011_E005"
+    ],
+    "required_followup": "Seek independent lawful local reporting; do not use the embedded Facebook origin or infer threshold."
+  },
+  {
+    "gap_id": "ALG202011_G006",
+    "type": "execution",
+    "description": "Seddouk collective announced a November 22 general strike and march, but targeted searches found no report confirming occurrence or size.",
+    "source_ids": [
+      "ALG202011_S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search local sources for an execution report; announcement is not occurrence."
+  },
+  {
+    "gap_id": "ALG202011_G007",
+    "type": "continuity",
+    "description": "Béjaïa marches are reported on October 31 and other demonstrations on November 1; it is unclear whether any action crossed midnight or represents distinct actions. The teacher story also announces a December strike.",
+    "source_ids": [
+      "ALG202011_S001",
+      "ALG202011_S005",
+      "ALG202011_S006",
+      "ALG202011_S007"
+    ],
+    "affected_candidates": [
+      "ALG202011_E001",
+      "ALG202011_E002",
+      "ALG202011_E003",
+      "ALG202011_E004",
+      "ALG202011_E006"
+    ],
+    "required_followup": "Compare October and December Algeria unit dossiers; do not merge adjacent days or invent an episode end."
+  },
+  {
+    "gap_id": "ALG202011_G008",
+    "type": "coverage",
+    "description": "Open-web searching differs from the codebook's LexisNexis newspaper workflow. Thirty-two single-query searches were captured in English, French, and Arabic, including weekly windows and local/sector leads. Search totals were not exposed; no systematic LexisNexis, full local archive, or Amazigh-language search was available.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat date, source, language and geographic coverage as incomplete."
+  },
+  {
+    "gap_id": "ALG202011_G009",
+    "type": "official_baseline",
+    "description": "Official baseline and human review remain pending; no official Mass Mobilization IDs or completeness claim is made.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ALG202011_E001",
+      "ALG202011_E002",
+      "ALG202011_E003",
+      "ALG202011_E004",
+      "ALG202011_E005",
+      "ALG202011_E006"
+    ],
+    "required_followup": "Coordinator review and baseline comparison."
+  },
+  {
+    "gap_id": "ALG202011_G010",
+    "type": "coverage",
+    "description": "Arabic Radio Algérienne result describes demonstrations in Sahrawi towns outside Algeria without a demand on Algeria's state.",
+    "source_ids": [
+      "ALG202011_S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No event coding unless a separate source places gathering in Algeria and identifies a demand on its state."
+  },
+  {
+    "gap_id": "ALG202011_G011",
+    "type": "event_identity",
+    "description": "A search-only Tamurt result alleges local obstruction of referendum voting in 63 Tizi Ouzou municipalities, but does not establish public gatherings, size, exact localities or whether this was one event or separate actions. It also mentions unrest on October 31.",
+    "source_ids": [
+      "ALG202011_S013"
+    ],
+    "affected_candidates": [
+      "ALG202011_E007"
+    ],
+    "required_followup": "Open only after fresh access check; seek contemporaneous local corroboration and compare prior-month events before coding."
+  }
+]

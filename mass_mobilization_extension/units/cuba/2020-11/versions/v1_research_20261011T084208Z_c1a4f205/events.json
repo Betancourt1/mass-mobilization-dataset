@@ -1,0 +1,156 @@
+[
+  {
+    "candidate_id": "CUB202011_E001",
+    "country": "Cuba",
+    "ccode": null,
+    "unit_month": "2020-11",
+    "title": "Artists and activists gather outside the Ministry of Culture after the San Isidro removal (27N)",
+    "start_date": "2020-11-27",
+    "start_precision": "day",
+    "end_date": "2020-11-27",
+    "end_precision": "day",
+    "location": "Outside the Ministry of Culture, Havana",
+    "scope": "local",
+    "organizer": "Artists and activists; 27N collective name emerged around this episode",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "More than 150 artists by 18:00, according to 14ymedio",
+    "participants_min": 151,
+    "participants_max": null,
+    "threshold_50_evidence": "Contemporary report states more than 150 were present by 18:00.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CUB202011_S002"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CUB202011_S002"
+        ],
+        "summary": "Bylined 27 November 2020, with gathering described as beginning that morning."
+      },
+      "location": {
+        "source_ids": [
+          "CUB202011_S002"
+        ],
+        "summary": "Outside Ministry of Culture in Havana."
+      },
+      "demands": {
+        "source_ids": [
+          "CUB202011_S002"
+        ],
+        "summary": "Solidarity with San Isidro; called for a ministerial meeting and dialogue, condemned institutional refusal to dialogue and recognize dissent."
+      },
+      "participants": {
+        "source_ids": [
+          "CUB202011_S002"
+        ],
+        "summary": "More than 150 artists by 18:00, reported by one contemporary outlet."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "CUB202011_S002"
+        ],
+        "summary": "The reported count exceeds 50; independent count corroboration absent."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "CUBA-2020-11-27-HAVANA-27N",
+    "notes": "Candidate provisionally meets public assembly, count and state-directed demands based on one body-read contemporary report; no independent scientific acceptance recorded.",
+    "open_questions": [
+      "Can a second contemporaneous independent source corroborate attendance and field coding?",
+      "Did police/security presence produce an explicit response to participants, or was it only observation?"
+    ]
+  },
+  {
+    "candidate_id": "CUB202011_E002",
+    "country": "Cuba",
+    "ccode": null,
+    "unit_month": "2020-11",
+    "title": "Supporters of Movimiento San Isidro demonstrate at Parque Central (22 November)",
+    "start_date": "2020-11-22",
+    "start_precision": "day",
+    "end_date": "2020-11-22",
+    "end_precision": "day",
+    "location": "Parque Central, Havana",
+    "scope": "local",
+    "organizer": "Activists and supporters of Movimiento San Isidro (reported)",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "At least 15 activists/journalists reportedly detained; total gathering size unknown",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The search-result excerpt reports at least 15 detained but not total public attendance; 50-person threshold unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CUB202011_S004"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CUB202011_S004"
+        ],
+        "summary": "IACHR/OAS search-result excerpt places protest on 22 November."
+      },
+      "location": {
+        "source_ids": [
+          "CUB202011_S004"
+        ],
+        "summary": "Excerpt identifies Parque Central, Havana."
+      },
+      "demands": {
+        "source_ids": [
+          "CUB202011_S004"
+        ],
+        "summary": "Support for Movimento San Isidro, a demand concerning political rights."
+      },
+      "participants": {
+        "source_ids": [
+          "CUB202011_S004"
+        ],
+        "summary": "At least 15 reported detained; no total audience count in snippet."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "CUB202011_S004"
+        ],
+        "summary": "Attendance threshold remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "CUB202011_S004"
+        ],
+        "summary": "Excerpt reports detentions."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "CUBA-2020-11-22-HAVANA-SAN-ISIDRO-SUPPORT",
+    "notes": "Search-result excerpt only; do not infer total attendance from detained-person count.",
+    "open_questions": [
+      "What was total public attendance, and does it reach 50?",
+      "Can a permitted body-read report establish exact site/date and demand?"
+    ]
+  }
+]

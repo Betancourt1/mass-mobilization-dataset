@@ -1,0 +1,103 @@
+[
+  {
+    "gap_id": "ALB202010_G001",
+    "type": "archive_access",
+    "description": "The assigned LexisNexis/all-news workflow was unavailable. Open-web searches used English and Albanian protest, demonstration, strike and issue terms, with week-window, sector, local-event and adjacent-month follow-up, but cannot establish exhaustive national or local coverage. Search result date and crawl metadata were often inconsistent with page/event dates.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ALB202010_E001",
+      "ALB202010_E002",
+      "ALB202010_E003",
+      "ALB202010_E004"
+    ],
+    "required_followup": "Coordinator review against the authorized archive and regional/local outlet coverage."
+  },
+  {
+    "gap_id": "ALB202010_G002",
+    "type": "threshold_and_episode_ownership",
+    "description": "The Ballsh wage-arrears campaign was active before October; September reports establish earlier protest activity but not crowd size. October 12 Citizens.al reporting establishes hundreds at a public roadblock, while no earlier 50+ event is demonstrated. A Top Channel result suggests a large crowd but the saved exact percent-encoded request returned HTTP 403 and no body was read; its date and event identity are unverified. Do not infer earlier threshold failure or success from missing counts.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S006",
+      "S011",
+      "S013",
+      "S014",
+      "S015"
+    ],
+    "affected_candidates": [
+      "ALB202010_E001"
+    ],
+    "required_followup": "Resolve earliest 50+ action and episode ownership with permitted contemporaneous sources; no Top Channel retry without renewed review."
+  },
+  {
+    "gap_id": "ALB202010_G003",
+    "type": "threshold_and_event_scope",
+    "description": "The Oct15 mask protest is near the 50-person cutoff: CNA reports approximately 50 while Exit describes tens. October 20 Dendias-related protest attendance is unreported; proceedings against 18 people are not total attendance. The Oct31 health-worker report gives no count and does not establish an explicit government-directed remedy. Their threshold/state-target questions remain open.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S007",
+      "S016",
+      "S018"
+    ],
+    "affected_candidates": [
+      "ALB202010_E002",
+      "ALB202010_E003",
+      "ALB202010_E004"
+    ],
+    "required_followup": "Seek independent attendance and demand evidence; clarify whether 18 proceedings or station escorts were arrests only if an authoritative report says so."
+  },
+  {
+    "gap_id": "ALB202010_G004",
+    "type": "access_or_retrieval",
+    "description": "Ballsh Citizens.al Sep14 page S012 remains search-only after the web tool returned HTTP 503 Service Unavailable; this is logged as a technical retrieval failure, not a denial. Top Channel S014 returned actual HTTP 403 for the percent-encoded requested URL and remains held; no article body was accessed. Both can affect campaign continuity and event identity.",
+    "source_ids": [
+      "S012",
+      "S014"
+    ],
+    "affected_candidates": [
+      "ALB202010_E001"
+    ],
+    "required_followup": "Retain the distinct 503 technical failure and 403 exact-URL hold; do not retry S014 absent renewed manual review."
+  },
+  {
+    "gap_id": "ALB202010_G005",
+    "type": "restricted_origin_scope",
+    "description": "Known AP, HRW, New Arab, Facebook and L’Orient access/origin holds remain unresolved at project level. No affected body or variant was accessed in this unit. Exit attributes the mask demonstration to Facebook mobilization; no Facebook page/post was opened. Search-only or absent records are not treated as permission, and permitted unrelated sources were used instead.",
+    "source_ids": [
+      "S002",
+      "S017"
+    ],
+    "affected_candidates": [
+      "ALB202010_E002"
+    ],
+    "required_followup": "Parent/coordinator to maintain exact source/variant scopes; continue using unrelated permitted sources and do not access held origins."
+  },
+  {
+    "gap_id": "ALB202010_G006",
+    "type": "continuity_and_closure",
+    "description": "The Ballsh campaign is reported ongoing on 21 October (S006). A November search surfaced meeting/settlement leads, but no November body was retrieved in this unit; no closure date is assigned. The public October 12 event is distinguished from the continuing hunger-strike campaign, whose original strikers numbered ten.",
+    "source_ids": [
+      "S004",
+      "S006"
+    ],
+    "affected_candidates": [
+      "ALB202010_E001"
+    ],
+    "required_followup": "Check November follow-up and identify when the wage-arrears campaign ended; do not set the month boundary as the event endpoint."
+  },
+  {
+    "gap_id": "ALB202010_G007",
+    "type": "provenance_and_threshold",
+    "description": "The 31 October health-worker item is a paragraph in a CIVICUS country review posted in February 2021; it cites TV Klan but its link/body was not followed. Crowd size, requested remedy, decision-maker and state target remain uncertain.",
+    "source_ids": [
+      "S016"
+    ],
+    "affected_candidates": [
+      "ALB202010_E004"
+    ],
+    "required_followup": "Review the cited TV Klan report only after its exact URL has a fresh access check and manual scope review; seek clear attendance and demand evidence."
+  }
+]

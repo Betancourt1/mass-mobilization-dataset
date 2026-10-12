@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "cr2020-11_G001",
+    "type": "pending_threshold",
+    "description": "Most dated November gatherings lack individual attendance.",
+    "source_ids": [
+      "CR202011_UCR_NOV_PDF"
+    ],
+    "affected_candidates": [
+      "cr2020-11_E001",
+      "cr2020-11_E002",
+      "cr2020-11_E003",
+      "cr2020-11_E004",
+      "cr2020-11_E005",
+      "cr2020-11_E006",
+      "cr2020-11_E007",
+      "cr2020-11_E008",
+      "cr2020-11_E010"
+    ],
+    "required_followup": "Search exact date/locality sources for turnout."
+  },
+  {
+    "gap_id": "cr2020-11_G002",
+    "type": "pending_coverage",
+    "description": "No separate week-by-week search for all four November weeks.",
+    "source_ids": [
+      "CR202011_UCR_NOV_PDF",
+      "CR202011_LIZQ_25N"
+    ],
+    "affected_candidates": [
+      "cr2020-11_E001",
+      "cr2020-11_E005",
+      "cr2020-11_E007",
+      "cr2020-11_E008"
+    ],
+    "required_followup": "Search Nov. 1-7, 8-14, 15-21, 22-30 by region/sector in Spanish and English."
+  },
+  {
+    "gap_id": "cr2020-11_G003",
+    "type": "pending_unit",
+    "description": "Nov. 18 rural blockades lack site counts; local ownership and continuity unclear.",
+    "source_ids": [
+      "CR202011_UCR_NOV_PDF"
+    ],
+    "affected_candidates": [
+      "cr2020-11_E007"
+    ],
+    "required_followup": "Find permitted local reporting for Upala, Sarapiquí and Paso Canoas."
+  }
+]

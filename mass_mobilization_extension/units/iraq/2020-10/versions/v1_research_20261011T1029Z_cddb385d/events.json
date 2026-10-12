@@ -1,0 +1,144 @@
+[
+  {
+    "candidate_id": "IRQ202010_E001",
+    "country": "Iraq",
+    "unit_month": "2020-10",
+    "title": "Baghdad Tahrir Square anniversary demonstration",
+    "start_date": "2020-10-01",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Tahrir Square, central Baghdad",
+    "source_ids": [
+      "IRQ202010S001",
+      "IRQ202010S002"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "IRQ202010S001",
+          "IRQ202010S002"
+        ],
+        "summary": "Both contemporaneous reports describe an executed October 1 anniversary gathering in Baghdad; Shafaq explicitly locates hundreds at Tahrir Square."
+      },
+      "location": {
+        "source_ids": [
+          "IRQ202010S001",
+          "IRQ202010S002"
+        ],
+        "summary": "Shafaq explicitly says central Baghdad Tahrir Square; Al Jazeera covers capital and south but its aggregate number is not pooled."
+      },
+      "onset": {
+        "source_ids": [
+          "IRQ202010S001",
+          "IRQ202010S002"
+        ],
+        "summary": "Both reports identify Oct 1 as the anniversary-day action; not the onset of the 2019 movement."
+      },
+      "attendance_threshold": {
+        "source_ids": [
+          "IRQ202010S002"
+        ],
+        "summary": "Shafaq reports hundreds at this named Tahrir gathering; above 50."
+      },
+      "domestic_state_demand": {
+        "source_ids": [
+          "IRQ202010S001"
+        ],
+        "summary": "Participants call for employment/services, accountability of protester killers, transparent elections and political reform directed to Iraqi government."
+      },
+      "episode_ownership": {
+        "source_ids": [
+          "IRQ202010S001",
+          "IRQ202010S002"
+        ],
+        "summary": "The 2020 gathering commemorates 2019 movement and explicitly names Oct25 as another planned date; separate day/action IDs maintained. Neighbor-month movement continuity needs follow-up."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    }
+  },
+  {
+    "candidate_id": "IRQ202010_E002",
+    "country": "Iraq",
+    "unit_month": "2020-10",
+    "title": "Baghdad Tahrir Square anniversary protest and political reform demands",
+    "start_date": "2020-10-25",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Tahrir Square, Baghdad (Green Zone/Allawi Square actions are separate, not pooled here)",
+    "source_ids": [
+      "IRQ202010S003",
+      "IRQ202010S004"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "IRQ202010S003",
+          "IRQ202010S004"
+        ],
+        "summary": "Contemporaneous reports document actual Oct25 protest action in Baghdad."
+      },
+      "location": {
+        "source_ids": [
+          "IRQ202010S003"
+        ],
+        "summary": "Al Jazeera reports hundreds marching in Tahrir Square; other assembly points reported separately."
+      },
+      "onset": {
+        "source_ids": [
+          "IRQ202010S003"
+        ],
+        "summary": "Oct25 date directly stated; this was an anniversary rally distinct in time from Oct1."
+      },
+      "attendance_threshold": {
+        "source_ids": [
+          "IRQ202010S003"
+        ],
+        "summary": "Al Jazeera says hundreds of protesters marched through Tahrir Square; threshold met at this named site."
+      },
+      "domestic_state_demand": {
+        "source_ids": [
+          "IRQ202010S003"
+        ],
+        "summary": "Demand accountability for protester killings/kidnappings and broad change to Iraq political class; directed at domestic state."
+      },
+      "episode_ownership": {
+        "source_ids": [
+          "IRQ202010S003",
+          "IRQ202010S004"
+        ],
+        "summary": "Reports describe revival/anniversary of the 2019 movement and continuation of same unmet demands; no merging with October1 or other southern sites."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "gap_id": "GHA202010_GAP_THRESHOLD_STATE_TARGET",
+    "source_ids": [
+      "myjoy_endsars",
+      "graphic_endsars"
+    ],
+    "dimension": "eligibility/state target",
+    "reason": "Accra EndSARS gathering has a reported large crowd but main grievance targets Nigerian policing; Ghanaian presidential/ECOWAS appeal creates unresolved mixed target coding.",
+    "next_permitted_action": "Obtain independent Ghanaian contemporaneous account or manual review of domestic-target rule; do not substitute another count for event-specific attendance."
+  },
+  {
+    "gap_id": "GHA202010_GAP_LOCAL_LANGUAGE",
+    "source_ids": [
+      "myjoy_endsars",
+      "graphic_endsars"
+    ],
+    "dimension": "local-language and geographic discovery",
+    "reason": "Queries in this pass were English; no Twi, Ewe, Dagbani or other Ghanaian-language discovery was attempted, and localized regional sources remain feasible.",
+    "next_permitted_action": "Search local-language and regional Ghana reporting for each monthly window and check Kumasi, Tamale and other regions."
+  },
+  {
+    "gap_id": "GHA202010_GAP_SEP_NOV_CONTINUITY",
+    "source_ids": [
+      "myjoy_endsars",
+      "graphic_u_staff"
+    ],
+    "dimension": "adjacent-month continuity",
+    "reason": "September/November boundary search surfaced labor and demonstration leads but did not establish ownership or full episode endpoints for October activity.",
+    "next_permitted_action": "Compare named September and November reports with event-specific October reporting using permitted sources."
+  }
+]

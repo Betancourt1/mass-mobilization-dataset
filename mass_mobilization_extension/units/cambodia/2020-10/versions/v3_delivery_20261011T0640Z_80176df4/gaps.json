@@ -1,0 +1,54 @@
+[
+  {
+    "gap_id": "KHM202010_G001",
+    "type": "pending_threshold",
+    "description": "Embassy-area event E001 has conflicting/incomplete crowd descriptions (roughly 100 in CamboJA, “small” in Reuters, lower search-only VOD snippet); the local VOD/Cambodianess page bodies did not surface.",
+    "source_ids": [
+      "KHM202010_S001",
+      "KHM202010_S002",
+      "KHM202010_S003",
+      "KHM202010_S004"
+    ],
+    "affected_candidates": [
+      "KHM202010_E001"
+    ],
+    "required_followup": "A permitted independent contemporaneous source with a defensible same-gathering count; no retry of pages that returned no body."
+  },
+  {
+    "gap_id": "KHM202010_G002",
+    "type": "pending_review",
+    "description": "The separate Oct. 23 civic gathering has one same-day local report supporting about 700 attendees and state-policy demands; event-level distinction from nearby embassy protests should be reviewed.",
+    "source_ids": [
+      "KHM202010_S002"
+    ],
+    "affected_candidates": [
+      "KHM202010_E002"
+    ],
+    "required_followup": "Distinct reviewer assess threshold, target, event boundaries and source scope."
+  },
+  {
+    "gap_id": "KHM202010_G003",
+    "type": "method_limit",
+    "description": "Open-web discovery covered half-month windows, local/regional/sector terms, plus explicit September-to-October onset and October-to-November neighbor checks. No same-episode continuation is supported by retained results; archive and provincial source breadth remain bounded.",
+    "source_ids": [],
+    "affected_candidates": [
+      "KHM202010_E001",
+      "KHM202010_E002"
+    ],
+    "required_followup": "No specific unattempted material lead identified; a distinct reviewer may request a targeted extension if a candidate field requires it."
+  },
+  {
+    "gap_id": "KHM202010_G004",
+    "type": "pending_evidence",
+    "description": "End dates, exact ending times and some state-response details are not reported for the two Oct. 23 candidates.",
+    "source_ids": [
+      "KHM202010_S001",
+      "KHM202010_S002"
+    ],
+    "affected_candidates": [
+      "KHM202010_E001",
+      "KHM202010_E002"
+    ],
+    "required_followup": "Only a specific contemporaneous follow-up may resolve closure; otherwise retain unknown."
+  }
+]

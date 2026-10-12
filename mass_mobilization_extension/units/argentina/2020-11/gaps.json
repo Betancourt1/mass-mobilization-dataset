@@ -1,0 +1,112 @@
+[
+  {
+    "gap_id": "ARG202011_G001",
+    "type": "threshold",
+    "description": "Several reported gatherings are not counted and are not excluded because reports use only qualitative size language or no size; Nov 1 Tucumán, Nov 5 Mendoza, Nov 16, Nov 17 and Nov 19 events need location-specific threshold evidence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S007",
+      "S008",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "ARG202011_E001",
+      "ARG202011_E002",
+      "ARG202011_E003",
+      "ARG202011_E004",
+      "ARG202011_E005",
+      "ARG202011_E006",
+      "ARG202011_E007",
+      "ARG202011_E008",
+      "ARG202011_E009",
+      "ARG202011_E010",
+      "ARG202011_E011"
+    ],
+    "required_followup": "Seek contemporaneous public reporting with clear attendance estimates and avoid using membership or total campaign figures as event attendance."
+  },
+  {
+    "gap_id": "ARG202011_G002",
+    "type": "access",
+    "description": "An exact Unidiversidad article open returned HTTP 403; stop body access to this URL. Inherited mention of historic Argentina 403 failures lacked exact scope. Access-check found no matching saved restriction for other exact candidate URLs; old failure scope remains unresolved and no broad alias/host guard inferred.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "ARG202011_E002"
+    ],
+    "required_followup": "Retain blocked page as a gap; coordinator should clarify historic Argentina source-specific failure inventory if evidence becomes available. Do not retry the 403 URL."
+  },
+  {
+    "gap_id": "ARG202011_G003",
+    "type": "state_target",
+    "description": "25N Córdoba article was discovered only via search result and says march called attention to gender-violence emergency; explicit state-policy target is not visible in captured evidence.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [
+      "ARG202011_E010"
+    ],
+    "required_followup": "Read accessible article body only after a fresh exact-URL access-check; verify an explicit government-policy demand."
+  },
+  {
+    "gap_id": "ARG202011_G004",
+    "type": "evidence",
+    "description": "Nov 16 anti-IMF call has an organizer notice opened, but the retrospective post-action page was search-only; occurrence and location-specific size require contemporaneous execution evidence.",
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ARG202011_E003"
+    ],
+    "required_followup": "Seek contemporaneous reporting or an accessible post-action account; verify one actual gathering reached 50."
+  },
+  {
+    "gap_id": "ARG202011_G005",
+    "type": "continuity",
+    "description": "The 8N is part of a recurring 2020 protest series; Nov 19 included several distinct actions and a separate highway action by Polo Obrero. Their location and organization relationships are not resolved.",
+    "source_ids": [
+      "S004",
+      "S005",
+      "S011"
+    ],
+    "affected_candidates": [
+      "ARG202011_E001",
+      "ARG202011_E005",
+      "ARG202011_E006",
+      "ARG202011_E007",
+      "ARG202011_E008"
+    ],
+    "required_followup": "Search immediately before/after dates and compare group, demands, movement and endpoint before merging or splitting; same-day reports do not automatically establish continuity."
+  },
+  {
+    "gap_id": "ARG202011_G006",
+    "type": "violence_response",
+    "description": "Infobae’s Nov 19 account mentions tension/violence around the CCC bridge action without clearly attributing violence; police moved demonstrators off the bridge. No killing, shooting, arrest or beating evidence captured.",
+    "source_ids": [
+      "S011"
+    ],
+    "affected_candidates": [
+      "ARG202011_E007"
+    ],
+    "required_followup": "Find a second contemporaneous account; retain protester violence unknown and crowd dispersal provisional until clarified."
+  },
+  {
+    "gap_id": "ARG202011_G007",
+    "type": "coverage",
+    "description": "Open-web searches covered generic Spanish/English monthly queries, first-week local/state labor actions, 8N, midmonth campaigns, 25N and late-month political/social events. This is not a systematic LexisNexis query of all four codebook terms in major-world newspapers; no completeness inference is warranted.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with targeted locality, labor, agriculture, indigenous, student, health, transport and gender-policy searches across all weeks, regional media and official/rights sources; confirm early December continuity."
+  },
+  {
+    "gap_id": "ARG202011_G008",
+    "type": "baseline",
+    "description": "The 2015 baseline codebook is present; the separate coding-procedure manual referenced in worker instructions is unavailable. Search-to-inclusion coverage is open web only.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep official baseline review pending; do not claim LexisNexis-equivalent exhaustiveness."
+  }
+]

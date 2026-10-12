@@ -1,0 +1,106 @@
+[
+  {
+    "candidate_id": "IRL202011_E001",
+    "country": "Ireland",
+    "unit_month": "2020-11",
+    "title": "Luas passengers reportedly told to remove masks",
+    "start_date": "2020-11-02",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Dublin Luas / procession reportedly toward HSE office",
+    "source_ids": [
+      "irl_breakingnews_nov2"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "irl_breakingnews_nov2"
+        ],
+        "summary": "Only discovery headline/snippet; page inaccessible via managed open, actual event details unverified."
+      },
+      "attendance_threshold": {
+        "source_ids": [
+          "irl_breakingnews_nov2"
+        ],
+        "summary": "No count in preserved search header; no body access."
+      },
+      "state_target": {
+        "source_ids": [
+          "irl_breakingnews_nov2"
+        ],
+        "summary": "Mask/policy target is a search-result lead only; body not opened."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "demands": [
+      "social_restrictions"
+    ],
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    }
+  },
+  {
+    "candidate_id": "IRL202011_E002",
+    "country": "Ireland",
+    "unit_month": "2020-11",
+    "title": "Debenhams workers’ protest at Dáil Éireann over redundancy dispute",
+    "start_date": "2020-11-17",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Dáil Éireann, Kildare Street, Dublin",
+    "source_ids": [
+      "irl_pbp_debenhams_nov17"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "irl_pbp_debenhams_nov17"
+        ],
+        "summary": "Party/organizer-aligned page states socially distanced protests were held that day at picket sites and Dáil."
+      },
+      "attendance_threshold": {
+        "source_ids": [
+          "irl_pbp_debenhams_nov17"
+        ],
+        "summary": "No Dáil-specific participant number; sites cannot be pooled."
+      },
+      "state_target": {
+        "source_ids": [
+          "irl_pbp_debenhams_nov17"
+        ],
+        "summary": "Workers called on Taoiseach to intervene and convene government/worker/liquidator talks."
+      },
+      "private_target": {
+        "source_ids": [
+          "irl_pbp_debenhams_nov17"
+        ],
+        "summary": "Underlying redundancy dispute involves private employer/liquidators; explicit state intervention demand is documented for this Dáil action."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    }
+  }
+]

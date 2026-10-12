@@ -1,0 +1,115 @@
+[
+  {
+    "gap_id": "BG202012_G001",
+    "type": "threshold",
+    "description": "The December 5 Sofia anti-government rally and march are physically documented, but no attendee estimate establishes 50 people at that gathering. The 150-day campaign marker is not turnout.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "BG202012_E001"
+    ],
+    "required_followup": "Find contemporaneous crowd count for the December 5 assembly; retain campaign and event attendance as separate variables."
+  },
+  {
+    "gap_id": "BG202012_G002",
+    "type": "threshold_and_scope",
+    "description": "The national taxi protest was executed on December 15, but attendance at Sofia was reported as about ten vehicles (not persons); other municipal assemblies were announced without verified execution/counts. No participants may be pooled across cities or across time.",
+    "source_ids": [
+      "S009",
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [
+      "BG202012_E002"
+    ],
+    "required_followup": "Seek a contemporaneous count of people at the same time/location in Sofia or a clearly organized national simultaneous action; verify execution in other municipalities."
+  },
+  {
+    "gap_id": "BG202012_G003",
+    "type": "source_scope",
+    "description": "A Sofia municipal notice returned by search was opened and found to concern December 20, 2024, not 2020. It is excluded.",
+    "source_ids": [
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "None for the 2020 event; use contemporaneous 2020 reports."
+  },
+  {
+    "gap_id": "BG202012_G004",
+    "type": "continuity_and_eligibility",
+    "description": "Varna conductor protests on December 2/3 followed a November action, but no crowd size is stated and over 270 layoff notices describe affected employees, not attendees. The state-policy target versus employer-level grievance is unresolved. Restaurant workers’ December 1 report retrospectively describes a November 27 action, not a new December gathering.",
+    "source_ids": [
+      "S001",
+      "S017",
+      "S019"
+    ],
+    "affected_candidates": [
+      "BG202012_E001"
+    ],
+    "required_followup": "Resolve the November-owned conductor candidate with attendance and state-policy evidence; do not create a December owner from publication date alone."
+  },
+  {
+    "gap_id": "BG202012_G005",
+    "type": "continuity",
+    "description": "The December 5 gathering is one physical event in the July-start anti-government campaign. January searches found further physical Sofia demonstrations (13 and 24 January), but they do not establish uninterrupted December occupation/action, December 5 ending, or event threshold.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S024",
+      "S025"
+    ],
+    "affected_candidates": [
+      "BG202012_E001"
+    ],
+    "required_followup": "Continue only with permitted adjacent-month reports if a specific end/episode claim is material; do not infer no activity or uninterrupted continuity from gaps."
+  },
+  {
+    "gap_id": "BG202012_G006",
+    "type": "source_access",
+    "description": "BNR Varna/horizont and BNT Varna exact opens returned tool timeouts; these are technical failures rather than source denials. BTA’s actual 429 remains a distinct rate-limit restriction in November. No exact failed target was retried.",
+    "source_ids": [
+      "S005",
+      "S013",
+      "S015"
+    ],
+    "affected_candidates": [
+      "BG202012_E002"
+    ],
+    "required_followup": "Use other currently permitted sources; preserve exact failed targets and do not retry or bypass."
+  },
+  {
+    "gap_id": "BG202012_G007",
+    "type": "episode_ownership",
+    "description": "December 15 taxi action shares participants/issues with late-November tariff/transport actions but follows a break and a separate, completed two-day public sequence. Evidence does not resolve renewed episode versus new episode.",
+    "source_ids": [
+      "S009",
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [
+      "BG202012_E002"
+    ],
+    "required_followup": "Reviewer should compare November and December records; retain both date-specific gatherings and do not merge automatically."
+  },
+  {
+    "gap_id": "BG202012_G008",
+    "type": "coverage",
+    "description": "Nineteen logged queries included four Bulgarian weekly windows, generic English/Bulgarian discovery, Sofia and regional leads, taxi/transport/conductors and adjacent January anti-government continuity searches. Rendered headers may be shared across combined queries and total result counts/clocks were not natively exposed. No LexisNexis-equivalent archive was searched.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S009",
+      "S017",
+      "S021",
+      "S024",
+      "S025"
+    ],
+    "affected_candidates": [
+      "BG202012_E001",
+      "BG202012_E002"
+    ],
+    "required_followup": "Bounded review can identify material feasible local or sectoral follow-up; do not claim exhaustive coverage or that no other protests occurred."
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "gap_id": "IN2020-NOV-G01",
+    "dimension": "query metadata and coverage",
+    "reason": "Seven actual response captures survive, but the literal query strings are not present in those payloads; regional/local query scope therefore cannot be audited exactly.",
+    "next_action": "Run any needed follow-up as a new query with literal query and aligned response headers captured contemporaneously.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ]
+  },
+  {
+    "gap_id": "IN2020-NOV-G02",
+    "dimension": "site-level threshold and episode ownership",
+    "reason": "Bharat Bandh reports several different actions without per-site counts; Jantar Mantar detention figure may not equal attendance; Delhi Chalo onset differs by one day across contemporary/retrospective sources.",
+    "next_action": "Find independent local coverage for exact sites, attendance, onset and October/December continuity; do not use the national aggregate as site evidence.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ]
+  },
+  {
+    "gap_id": "IN2020-NOV-G03",
+    "dimension": "language, region and sector diversity",
+    "reason": "Hindi/Punjabi discovery was attempted according to retained query set, but the query text and local source coverage are not auditable; no resolved local-language report for Odisha/West Bengal/Kochi is attached.",
+    "next_action": "If feasible, perform logged Hindi, Punjabi, Odia, Bengali and Malayalam local coverage searches and assess exact targets before opening.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ]
+  },
+  {
+    "gap_id": "IN2020-NOV-G04",
+    "dimension": "violence and state response",
+    "reason": "Live accounts diverge on police/protester violence; no independent resolution saved.",
+    "next_action": "Seek independent contemporaneous reporting with clear attribution; preserve conflicting descriptions.",
+    "source_ids": [
+      "S002"
+    ]
+  },
+  {
+    "gap_id": "IN2020-NOV-G05",
+    "dimension": "other November weekly windows",
+    "reason": "The results currently reviewed emphasize Nov 26 events; week-by-week candidate discovery and local sector coverage for Nov 1–10 and Nov 11–20 remain insufficiently auditable.",
+    "next_action": "Logged searches for Nov 1–10, 11–20 and 21–30 with literal queries, regional/local terms and source diversity.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "gap_id": "IRL202011_G001",
+    "type": "source",
+    "candidate_ids": [
+      "IRL202011_E001"
+    ],
+    "source_ids": [
+      "irl_breakingnews_nov2"
+    ],
+    "dimension": "Nov2 event details, threshold and demand",
+    "reason": "Exact BreakingNews page search result exists but managed open returned “not accessible via this tool” without HTTP code; no body and no retry.",
+    "next_permitted_action": "Search other permitted contemporaneous local reporting for the Nov2 Luas action and exact attendance/target; do not retry the inaccessible URL."
+  },
+  {
+    "gap_id": "IRL202011_G002",
+    "type": "coverage",
+    "candidate_ids": [
+      "IRL202011_E002"
+    ],
+    "source_ids": [
+      "irl_pbp_debenhams_nov17"
+    ],
+    "dimension": "Dáil participant count and independent corroboration",
+    "reason": "One organizer/party source confirms an action and government-directed demand but not Dáil crowd size; national picket sites cannot be combined.",
+    "next_permitted_action": "Search permitted contemporaneous local/official reporting for Dáil attendance and event-specific corroboration; do not infer count from workforce totals."
+  },
+  {
+    "gap_id": "IRL202011_G003",
+    "type": "coverage",
+    "candidate_ids": [],
+    "source_ids": [
+      "irl_irishexaminer_cork_nov21"
+    ],
+    "dimension": "Nov21 Cork public-order crowds and geographic/sector coverage",
+    "reason": "Search result describes unmasked crowds and public-order cases but not a protest purpose or common demand; local week/sector and Irish-language discovery remains limited.",
+    "next_permitted_action": "Search permitted local Cork reporting and English/Gaeilge date-window queries for evidence of an organized public gathering and demand; retain this lead as unclassified absent that evidence."
+  }
+]

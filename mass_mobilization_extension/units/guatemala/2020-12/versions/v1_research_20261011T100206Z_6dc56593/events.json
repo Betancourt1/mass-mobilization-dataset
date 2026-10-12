@@ -1,0 +1,375 @@
+[
+  {
+    "candidate_id": "GUA202012_E001",
+    "country": "Guatemala",
+    "ccode": null,
+    "unit_month": "2020-12",
+    "title": "#10D protest outside Public Ministry and march demanding resignations and justice reforms",
+    "start_date": "2020-12-10",
+    "start_precision": "day",
+    "end_date": "2020-12-10",
+    "end_precision": "day",
+    "location": "Outside central Public Ministry building, Barrio Gerona, zone 1, Guatemala City; reported march route toward PDH, Interior Ministry, Congress and Casa Presidencial; endpoint completion not confirmed by local report",
+    "scope": "local",
+    "organizer": "Indigenous, campesino, student and civil-society groups; EFE names several organizations but not one overall organizer",
+    "demands": [
+      "removal_of_politician",
+      "political_behavior_process"
+    ],
+    "participants_original": "Hundreds of demonstrators, per EFE, at the initial protest outside MP",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "EFE explicitly reports hundreds of demonstrators in the protest at the Public Ministry; this is qualitatively above 50 at a named gathering.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "GUA202012_S001",
+      "GUA202012_S002"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "GUA202012_S001",
+          "GUA202012_S002"
+        ],
+        "summary": "Both local Publinews and EFE date #10D action to Thursday 10 December 2020."
+      },
+      "location": {
+        "source_ids": [
+          "GUA202012_S001",
+          "GUA202012_S002"
+        ],
+        "summary": "The initial gathering was outside the main Public Ministry building in Barrio Gerona/zone 1, Guatemala City."
+      },
+      "demands": {
+        "source_ids": [
+          "GUA202012_S001",
+          "GUA202012_S002"
+        ],
+        "summary": "Demands included resignation of Attorney General Consuelo Porras, accountability and stopping investigation of Juan Francisco Sandoval; further resignations and constituent assembly are reported by EFE."
+      },
+      "participants": {
+        "source_ids": [
+          "GUA202012_S002"
+        ],
+        "summary": "EFE reports hundreds at the gathering outside MP."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "GUA202012_S002"
+        ],
+        "summary": "Hundreds at a named gathering, above 50 qualitatively; this is the EFE original, not a second report independent of EFE."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "GTM-2020-11-DEC-BUDGET-AND-ANTI-CORRUPTION-MOBILIZATION",
+    "notes": "The EFE wire describes the wider demonstrations as ongoing for three weeks since 21 Nov; this 10 Dec gathering may be a later action within the same episode. Keep the month-specific action distinct for now and leave episode ownership unresolved pending adjacent-month review.",
+    "open_questions": [
+      "Is the 10 Dec gathering a distinct protest within the same campaign or continuation of the 21 Nov episode under manual coding?",
+      "What was the actual end date of the wider demonstrations?",
+      "Any continued action after 10 Dec through 31 Dec and into January?"
+    ]
+  },
+  {
+    "candidate_id": "GUA202012_E002",
+    "country": "Guatemala",
+    "ccode": null,
+    "unit_month": "2020-12",
+    "title": "Health workers’ coordinated route blockades and demonstrations demanding overdue State productivity bonuses",
+    "start_date": "2020-12-29",
+    "start_precision": "day",
+    "end_date": "2020-12-29",
+    "end_precision": "day",
+    "location": "Multiple route points across Guatemala, including Cito-Zarco and Colomba in Quetzaltenango; Pajapita, San Marcos; Palín, Escuintla; Puerto Barrios, Izabal; El Tejar, Chimaltenango; San Antonio, Jutiapa; San Luis, Petén; Mazatenango, Suchitepéquez; Retalhuleu; separate Hospital Regional de Occidente protest, Quetzaltenango.",
+    "scope": "national",
+    "organizer": "Health workers / union group; article attributes demands to workers but does not identify a single organizer in the read scope",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "Hundreds across several separate demonstrations, per Prensa Libre; per-site counts are not given",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No evidence that any individual listed gathering exceeded 50; hundreds is an aggregate across distinct locations and cannot be pooled.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "GUA202012_S003"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "GUA202012_S003"
+        ],
+        "summary": "Article explicitly dates route blockades and demonstrations to Tuesday 29 December 2020."
+      },
+      "location": {
+        "source_ids": [
+          "GUA202012_S003"
+        ],
+        "summary": "Several route locations and a Quetzaltenango hospital protest are listed separately."
+      },
+      "demands": {
+        "source_ids": [
+          "GUA202012_S003"
+        ],
+        "summary": "Workers demanded Q3,000 in State productivity bonus arrears and job stability."
+      },
+      "participants": {
+        "source_ids": [
+          "GUA202012_S003"
+        ],
+        "summary": "Hundreds reported across distinct demonstrations; none of the named sites receives its own count."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "GUA202012_S003"
+        ],
+        "summary": "Per-site >=50 threshold remains unproven."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "GTM-2020-12-HEALTH-WORKERS-BONUS-ACTION",
+    "notes": "Nationally coordinated multiple-site action may be one nationally organized episode, but threshold evidence is aggregate only; no attendees may be combined across sites for a single-gathering threshold. Article mentions preceding 28 Dec action at Finance Ministry; ownership/continuity unresolved.",
+    "open_questions": [
+      "Was any single gathering among sites 50+?",
+      "Did the separate Hospital Regional de Occidente protest meet threshold?",
+      "Was the 28 Dec Finance Ministry action part of this same episode?",
+      "Was the government’s reported payment the demanded bonus or a separate payment?"
+    ]
+  },
+  {
+    "candidate_id": "GUA202012_E004",
+    "country": "Guatemala",
+    "ccode": null,
+    "unit_month": "2020-12",
+    "title": "Third consecutive Saturday protest at Plaza de la Constitución and additional departmental gatherings (#5D)",
+    "start_date": "2020-12-05",
+    "start_precision": "day",
+    "end_date": "2020-12-05",
+    "end_precision": "day",
+    "location": "Plaza de la Constitución, Guatemala City; separate gatherings reported in Quetzaltenango, Salamá, Cobán, Retalhuleu, Poptún, Petén and Santa Cruz del Quiché (no counts per additional site)",
+    "scope": "local with other sites reported separately",
+    "organizer": "University, indigenous/campesino labor groups, women’s groups and citizens; no single organizer established",
+    "demands": [
+      "political_behavior_process",
+      "removal_of_politician"
+    ],
+    "participants_original": "Thousands reported across Plaza and several departments collectively; Plaza described as the largest gathering, with a lower crowd than prior Saturdays, but no site-specific count.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Source does not give a count for Plaza alone; qualitative report indicates Plaza was the largest site, but >=50 there remains pending without site-specific magnitude.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "GUA202012_S005"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "GUA202012_S005"
+        ],
+        "summary": "Body/byline dates the gathering to 5 December 2020."
+      },
+      "location": {
+        "source_ids": [
+          "GUA202012_S005"
+        ],
+        "summary": "Largest gathering was at Plaza de la Constitución; other departments/cities separately reported."
+      },
+      "demands": {
+        "source_ids": [
+          "GUA202012_S005"
+        ],
+        "summary": "Protesters rejected government/Congress conduct, called for constituent assembly and wider system changes."
+      },
+      "participants": {
+        "source_ids": [
+          "GUA202012_S005"
+        ],
+        "summary": "The article reports thousands at Plaza and in some departments collectively; Plaza was largest but without a distinct numerical count."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "GUA202012_S005"
+        ],
+        "summary": "No site-specific attendance count for Plaza; retain threshold as pending."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "GTM-2020-11-DEC-BUDGET-AND-ANTI-CORRUPTION-MOBILIZATION",
+    "notes": "Local report calls this the third consecutive Saturday and explicitly links its context to preceding 21 and 28 Nov protest days. Preserve as a dated candidate and flag episode/onset ownership for reviewer; do not automatically merge all rallies.",
+    "open_questions": [
+      "Are the 21 Nov, 28 Nov and 5 Dec Saturday rallies distinct episodes within an ongoing wave or one continuous episode under codebook rules?",
+      "What was the ending date of the wider wave?",
+      "Do named extra sites meet threshold individually?",
+      "What was the Plaza-only participant magnitude?"
+    ],
+    "protester_violence_note": "Article calls the Dec 5 main Plaza gathering peaceful but mentions paint thrown at nearby businesses and municipal structure damage without attributing it to the crowd; November violence must not transfer."
+  },
+  {
+    "candidate_id": "GUA202012_E005",
+    "country": "Guatemala",
+    "ccode": null,
+    "unit_month": "2020-12",
+    "title": "Fourth consecutive Saturday Plaza protest with artistic performances (#12D)",
+    "start_date": "2020-12-12",
+    "start_precision": "day",
+    "end_date": "2020-12-12",
+    "end_precision": "day",
+    "location": "Plaza de la Constitución, Guatemala City",
+    "scope": "local",
+    "organizer": "Students from USAC and Rafael Landívar and civic organizations; no single organizer identified",
+    "demands": [
+      "removal_of_politician",
+      "political_behavior_process"
+    ],
+    "participants_original": "Groups of protesters; no numeric or qualitative magnitude estimate given.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No attendance number; threshold remains pending.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "GUA202012_S006"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "GUA202012_S006"
+        ],
+        "summary": "Body and publication date 12 Dec 2020."
+      },
+      "location": {
+        "source_ids": [
+          "GUA202012_S006"
+        ],
+        "summary": "Plaza de la Constitución."
+      },
+      "demands": {
+        "source_ids": [
+          "GUA202012_S006"
+        ],
+        "summary": "Reject government actions and corruption; some called for President's resignation."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "GUA202012_S006"
+        ],
+        "summary": "No count; reported as 'groups'."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "GTM-2020-11-DEC-BUDGET-AND-ANTI-CORRUPTION-MOBILIZATION",
+    "notes": "Source calls it fourth consecutive Saturday and links the movement's trigger to 21 Nov. Do not merge automatically without reviewer episode decision.",
+    "open_questions": [
+      "Did this specific gathering exceed 50 simultaneously?",
+      "How do 21 Nov, 28 Nov, 5 Dec and 12 Dec map to same/different episodes under onset/end rules?",
+      "Were there additional Saturday actions on 19 or 26 Dec?"
+    ]
+  },
+  {
+    "candidate_id": "GUA202012_E003",
+    "country": "Guatemala",
+    "ccode": null,
+    "unit_month": "2020-12",
+    "title": "Health workers demonstrate outside Finance Ministry over Q3,000 bonus payment (#28D)",
+    "start_date": "2020-12-28",
+    "start_precision": "day",
+    "end_date": "2020-12-28",
+    "end_precision": "day",
+    "location": "Outside Ministry of Public Finance, Guatemala City; no more precise address in read scope.",
+    "scope": "local",
+    "organizer": "Public health workers; union representative from Hospital General San Juan de Dios quoted, broader organizer unidentified.",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "No number reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No attendance estimate; threshold pending.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "GUA202012_S004"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "GUA202012_S004"
+        ],
+        "summary": "Article published and body-dated 28 Dec 2020."
+      },
+      "location": {
+        "source_ids": [
+          "GUA202012_S004"
+        ],
+        "summary": "Demonstration outside the Ministry of Public Finance (Minfin) in Guatemala City."
+      },
+      "demands": {
+        "source_ids": [
+          "GUA202012_S004"
+        ],
+        "summary": "Workers demanded overdue Q3,000 bonus; article quotes Health Ministry's payment-status response."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "GUA202012_S004"
+        ],
+        "summary": "No crowd size stated."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "GTM-2020-12-HEALTH-WORKERS-BONUS-ACTION",
+    "notes": "Do not infer threshold from the later 29 Dec multi-site report. This is one specific dated site; continuity with 29 Dec separate blockades remains unresolved.",
+    "open_questions": [
+      "Did the Minfin gathering exceed 50 at once?",
+      "Was the Dec 29 route action a continuation of this protest or separate gatherings?",
+      "Was the payment Health describes the same Q3,000 bonus workers demanded?"
+    ]
+  }
+]

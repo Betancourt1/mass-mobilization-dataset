@@ -1,0 +1,16 @@
+[
+  {
+    "candidate_id": "JPN202010_X001",
+    "source_ids": [
+      "JPN202010-S004"
+    ],
+    "reason": "Kyoto Minpo URL was opened in a multi-URL request without an exact local target assessment. Exclude all returned content from event coding. Do not reopen. Only exact URL/method are known from tool transcript; native request time and durable response receipt were not persisted and must not be reconstructed."
+  },
+  {
+    "candidate_id": "JPN202010_X002",
+    "source_ids": [
+      "JPN202010-S006"
+    ],
+    "reason": "Oct 29 pancake strike appears as a scheduled announcement; no evidence here that it occurred or that 50+ assembled."
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "Open-web method: 11 English/Bengali captured prompts, broad monthly and four weekly November date windows, anti-France/politics and garment/labor searches, regional follow-up and adjacent October/December checks. Regional reporting covered Dhaka and Chittagong. Web search does not replicate LexisNexis; tool totals/native times were unavailable; no exhaustive claim.",
+    "source_ids": [
+      "BGD202011_S001",
+      "BGD202011_S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use accessible regional archives and source-checked local-language follow-ups if expanding coverage."
+  },
+  {
+    "gap_id": "G002",
+    "type": "event_followup",
+    "description": "BNP announced protests for 14–15 November over by-election results and arrests, but searches located announcements without body-verified qualifying executed gatherings. This remains a named unresolved lead, not an event or a claim of absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search contemporaneous local reporting for 14–15 November actual gatherings and attendance/state target; announcement alone does not count."
+  },
+  {
+    "gap_id": "G003",
+    "type": "continuity",
+    "description": "September New Age and December TBS describe A-One/Tazreen wage-arrears activity, but do not locate an actual public gathering or establish continuous physical assembly during November. Private employer dispute alone is excluded absent a state-level demand; later government claims require event-specific evidence.",
+    "source_ids": [
+      "BGD202011_S005",
+      "BGD202011_S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find a November-dated public action and an explicit state-policy demand, plus onset/breaks, before considering any November event."
+  },
+  {
+    "gap_id": "G004",
+    "type": "threshold",
+    "description": "The 28 November Muktijuddho Mancha Shahbagh action has actual occurrence/state demands but no headcount.",
+    "source_ids": [
+      "BGD202011_S011"
+    ],
+    "affected_candidates": [
+      "bangladesh_2020-11_E003"
+    ],
+    "required_followup": "Find a credible contemporary attendance estimate; do not infer size from traffic disruption or a later planned nationwide action."
+  },
+  {
+    "gap_id": "G005",
+    "type": "access",
+    "description": "UNB article for the 7 November minority event was not accessible through the tool; it yielded no body and no HTTP status. Dhaka Tribune carries a report explicitly credited to UNB, while JagoNews24 supplies a separate Chittagong account.",
+    "source_ids": [
+      "BGD202011_S010"
+    ],
+    "affected_candidates": [
+      "bangladesh_2020-11_E002"
+    ],
+    "required_followup": "No retry on inaccessible URL. Independent review should consider dependency and use a different already permitted source only if material."
+  },
+  {
+    "gap_id": "G006",
+    "type": "review",
+    "description": "No independent scientific reviewer examined current evidence hashes; proposed inclusion is not verified provisional and baseline comparison is pending.",
+    "source_ids": [
+      "BGD202011_S003",
+      "BGD202011_S007"
+    ],
+    "affected_candidates": [
+      "bangladesh_2020-11_E001",
+      "bangladesh_2020-11_E002"
+    ],
+    "required_followup": "A distinct reviewer should check crowd estimates, state target, nationwide grouping, boundaries and bounded search coverage."
+  }
+]

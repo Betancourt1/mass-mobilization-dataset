@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "CYP202010_G001",
+    "candidate_id": "CYP202010_E001",
+    "source_ids": [
+      "CYPRUS_OCT_S001",
+      "CYPRUS_OCT_S002"
+    ],
+    "dimension": "onset_episode",
+    "reason": "Oct14 sources identify a second night and an Oct13 similar event but do not establish campaign onset, continuity or uniqueness. September search is context only.",
+    "next_permitted_action": "Search permitted Cyprus local-language news archives by dates Oct10-16 for first occurrence/crowd and check September campaign materials; avoid restricted sources/denials."
+  },
+  {
+    "gap_id": "CYP202010_G002",
+    "candidate_id": "CYP202010_E002",
+    "source_ids": [
+      "CYPRUS_OCT_S002"
+    ],
+    "dimension": "threshold",
+    "reason": "Oct13 event mentioned but no turnout data.",
+    "next_permitted_action": "Find an ordinary accessible contemporaneous body source explicitly describing Oct13 attendance; don't transfer Oct14 count."
+  },
+  {
+    "gap_id": "CYP202010_G003",
+    "candidate_id": "CYP202010_E003",
+    "source_ids": [
+      "CYPRUS_OCT_S005"
+    ],
+    "dimension": "state_target_jurisdiction",
+    "reason": "Article reports anti-Turkey slogans and checkpoint breach without clear demand to Republic of Cyprus; northern jurisdiction and state target need manual coding.",
+    "next_permitted_action": "Consult contemporaneous reporting/official responses about this exact Oct11 action and apply codebook country/demand rules."
+  },
+  {
+    "gap_id": "CYP202010_G004",
+    "candidate_id": "CYP202010_E004",
+    "source_ids": [
+      "CYPRUS_OCT_S003"
+    ],
+    "dimension": "state_target_jurisdiction",
+    "reason": "Anti-occupation/Varosha action targets northern administration/occupation and possibly Turkey; domestic-state mapping unresolved.",
+    "next_permitted_action": "Seek explicit demands/targeting and adjudicate territory/state scope without reusing Oct11 evidence."
+  },
+  {
+    "gap_id": "CYP202010_G005",
+    "candidate_id": "CYP202010_X001",
+    "source_ids": [
+      "CYPRUS_OCT_S006"
+    ],
+    "dimension": "named_source_block",
+    "reason": "Philenews exact URL returned tool Internal Error/inaccessible; no retry or mirror attempted. This leaves Oct13 source-body details unresolved.",
+    "next_permitted_action": "Use a separately discovered, permitted independent contemporaneous source; do not retry this URL."
+  },
+  {
+    "gap_id": "CYP202010_G006",
+    "candidate_id": "CYP202010_E001",
+    "source_ids": [],
+    "dimension": "coverage",
+    "reason": "Open web searches covered generic, Greek, Turkish, selected dates/cities and topic terms, but week-by-week regional/sectoral checks for workers, students, women and retirees are incomplete; source diversity is limited.",
+    "next_permitted_action": "Complete date-window searches Oct1-7, 8-14, 15-21, 22-31 across Nicosia, Limassol, Larnaca, Paphos, Famagusta/north; include workplace/student/women/retiree and union sources. No fixed query quota."
+  }
+]

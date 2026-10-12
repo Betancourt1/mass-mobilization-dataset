@@ -1,0 +1,37 @@
+{
+  "unit_id": "croatia_2020-12",
+  "country": "Croatia",
+  "month": "2020-12",
+  "status": "researched_open_web_pending_review",
+  "firstpass_complete": false,
+  "official_approved": false,
+  "baseline_gate": "pending_official_baseline",
+  "n_queries": 6,
+  "n_sources": 2,
+  "n_candidates": 0,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 3,
+  "source_access_counts": {
+    "opened": 2,
+    "search_only": 0,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "metadata_unknown": true,
+  "query_capture_integrity": {
+    "captured_header_count": 46,
+    "distinct_shared_response_envelopes": 3,
+    "unique_headers_across_envelopes": null,
+    "shared_headers_duplicated_per_submitted_query": false,
+    "native_request_times_available": false,
+    "query_outputs_unretained_count": 3,
+    "notes": [
+      "Combined envelopes are kept separate and are not treated as one response per query.",
+      "Header mapping is unknown where not retained.",
+      "No native query/capture clocks exposed."
+    ]
+  },
+  "coverage_review": "pending; feasible week-by-week regional/sector coverage remains incomplete",
+  "scientific_review": "pending distinct reviewer"
+}

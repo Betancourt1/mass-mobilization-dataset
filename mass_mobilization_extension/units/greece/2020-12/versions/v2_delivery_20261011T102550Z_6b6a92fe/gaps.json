@@ -1,0 +1,39 @@
+[
+  {
+    "gap_id": "GRC202012_EG001",
+    "type": "threshold_unit",
+    "description": "Dec 6 count absent; detention number is not attendance. Dec 10 hospital actions have no named venues or venue-specific attendance.",
+    "source_ids": [
+      "GRC202012_S028",
+      "GRC202012_S024",
+      "GRC202012_S029"
+    ],
+    "affected_candidates": [
+      "GRC202012_E001",
+      "GRC202012_E002"
+    ],
+    "required_followup": "Find contemporaneous event counts and individual hospital sites; keep locations separate."
+  },
+  {
+    "gap_id": "GRC202012_EG002",
+    "type": "threshold_geography",
+    "description": "Dec 15 Athens Korai, Parliament teachers and Thessaloniki gatherings are separate. Only Korai says dozens, not a secure >=50 count.",
+    "source_ids": [
+      "GRC202012_S006"
+    ],
+    "affected_candidates": [
+      "GRC202012_E003",
+      "GRC202012_E004",
+      "GRC202012_E005"
+    ],
+    "required_followup": "Independent/local event-specific counts and response evidence; no transfers."
+  },
+  {
+    "gap_id": "GRC202012_EG003",
+    "type": "access_continuity",
+    "description": "HRW-origin and eKathimerini leads held; Enikos, Keep Talking Greece, Chania source inaccessible/errors not retried. January continuation remains limited.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Alternate exact-URL assessed sources; January 2021 search and baseline/codebook review."
+  }
+]

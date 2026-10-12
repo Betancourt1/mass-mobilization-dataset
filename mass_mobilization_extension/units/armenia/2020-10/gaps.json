@@ -1,0 +1,84 @@
+[
+  {
+    "gap_id": "armenia_2020-10_G001",
+    "type": "planned_event_occurrence",
+    "description": "Three opposition parties announced a nationwide rally for 8 October, describing government failures and the need for a new national government (S009, S010). Searches in English, Armenian, and Russian, including date-specific and news-feed queries, did not locate a contemporaneous account proving whether it occurred, its attendance, or its actual demands. This is unresolved occurrence, not evidence of cancellation or nonoccurrence.",
+    "source_ids": [
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check accessible contemporaneous 8 October local broadcast/newspaper archives and organizer reports for actual gathering, attendance, and demands; preserve no-report as a limitation if still unresolved."
+  },
+  {
+    "gap_id": "armenia_2020-10_G002",
+    "type": "eligibility_threshold_and_target",
+    "description": "Candidate E001 is a reported 16 October march in Yerevan, but the source provides no crowd estimate and does not state whether the demand was directed at Armenia’s government or only foreign missions/international policy.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "armenia_2020-10_E001"
+    ],
+    "required_followup": "Find a contemporary account stating the route/addressees and participant count or clear threshold evidence."
+  },
+  {
+    "gap_id": "armenia_2020-10_G003",
+    "type": "episode_boundary_and_continuity",
+    "description": "The 16 October Yerevan march and UN-office protest are reported separately by different sources. Whether the groups/actions were connected, and the march’s exact beginning or wider campaign end, is not established. No verified cross-month continuation starting before October was identified for these records.",
+    "source_ids": [
+      "S002",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "armenia_2020-10_E001",
+      "armenia_2020-10_X001"
+    ],
+    "required_followup": "Compare dated local reporting, photos/video and organizer descriptions without merging on date/location alone; query later-month records for an explicit continuation."
+  },
+  {
+    "gap_id": "armenia_2020-10_G004",
+    "type": "source_coverage",
+    "description": "Open-web searching is not equivalent to LexisNexis or the project’s original archive. Search-engine date operators and completeness are unverified. Coverage included 44 actual English, Armenian, and Russian query submissions: 38 retained result/header sets and six output losses, with weekly windows, event follow-up, and limited regional/sector/continuity searches. Local and regional coverage can still be missing.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If authorized archives become available, run the original source/time procedure and compare candidate coverage. Until then, retain coverage as incomplete."
+  },
+  {
+    "gap_id": "armenia_2020-10_G005",
+    "type": "baseline_mapping",
+    "description": "The official baseline, country universe, schema, and exact country-code mapping were not supplied or verified. The supplied May 2015 manual is available; Armenia ccode remains null.",
+    "source_ids": [],
+    "affected_candidates": [
+      "armenia_2020-10_E001"
+    ],
+    "required_followup": "Coordinator to resolve mapping and official baseline before any integration; worker does not assign a code."
+  },
+  {
+    "gap_id": "armenia_2020-10_G006",
+    "type": "event_fields_and_access",
+    "description": "The excluded foreign-target actions have incomplete attendance, exact event scope, close date, and state-response details. Those fields remain unknown; search silence is not coded as no response. Some announcements and video reports are search-only, not body-read.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "armenia_2020-10_X001",
+      "armenia_2020-10_X002",
+      "armenia_2020-10_X003",
+      "armenia_2020-10_X004",
+      "armenia_2020-10_X005",
+      "armenia_2020-10_X006",
+      "armenia_2020-10_X007"
+    ],
+    "required_followup": "Consult additional contemporary independent reports where accessible; do not fill values from later campaign totals or reports about other cities/countries."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "gap_id": "central_african_republic_2020-12-G001",
+    "type": "date_identity",
+    "description": "10 Dec Oubangui vs MINUSCA date conflict; exact Oubangui timed out and MINUSCA returned 403. Keep separate from 24 Dec CIVICUS/TV5 march.",
+    "source_ids": [
+      "CAR202012_S001",
+      "CAR202012_S002",
+      "CAR202012_S003",
+      "CAR202012_S004"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2020-12-E001"
+    ],
+    "required_followup": "Use another permitted source to disambiguate date/site; no retry on denied/timed-out URLs."
+  },
+  {
+    "gap_id": "central_african_republic_2020-12-G002",
+    "type": "manual_state_target",
+    "description": "24 Dec march reports ~200 via CIVICUS and government among addresses via TV5; assess manual inclusion and RFI story dependence.",
+    "source_ids": [
+      "CAR202012_S001",
+      "CAR202012_S002"
+    ],
+    "affected_candidates": [
+      "central_african_republic_2020-12-E001"
+    ],
+    "required_followup": "Review election-linked exclusion and seek original RFI URL by ordinary search if useful."
+  },
+  {
+    "gap_id": "central_african_republic_2020-12-G003",
+    "type": "coverage_continuity",
+    "description": "No weekly/date-window or broad prefecture search; adjacent November/January continuity incomplete. Armed-group activity not coded as crowd protest.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search early/mid/late Dec, adjacent boundaries and regional local sources."
+  },
+  {
+    "gap_id": "central_african_republic_2020-12-G004",
+    "type": "language",
+    "description": "French/English and Sango-oriented queries; no Sango text surfaced; HRW result not opened due hold.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Find accessible Sango/local-language sources; cutoff 2026-10-07."
+  }
+]

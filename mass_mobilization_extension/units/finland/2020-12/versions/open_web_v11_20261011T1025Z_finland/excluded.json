@@ -1,0 +1,74 @@
+[
+  {
+    "candidate_id": "FIN202012_X001",
+    "title": "Scheduled Suomi Herää / Independence Day marches cancelled before 6 December",
+    "exclusion_reason": "Yle reports on 2 December that the Suomi Herää event was cancelled following a regional restriction; Helsinki without Nazis and 612 marches were also called off. These planned demonstrations are not executed events.",
+    "source_ids": [
+      "FIN202012_S001"
+    ],
+    "field_evidence": {
+      "occurrence_status": {
+        "source_ids": [
+          "FIN202012_S001"
+        ],
+        "summary": "Yle reports cancellation of the named plans; no event occurrence is assigned."
+      }
+    }
+  },
+  {
+    "candidate_id": "FIN202012_X002",
+    "title": "Small groups at Töölöntori on Independence Day",
+    "exclusion_reason": "Yle reports separate groups of about 10 nationalists and about 20 Helsinki without Nazis participants, with rapid dispersal; below the 50-person threshold for each described gathering.",
+    "source_ids": [
+      "FIN202012_S002"
+    ],
+    "field_evidence": {
+      "participants": {
+        "source_ids": [
+          "FIN202012_S002"
+        ],
+        "summary": "Police/account gives roughly 10-person groups; Yle reporter saw about 20 counter-demonstrators; torch procession had only a few participants. No 50-person gathering supported."
+      }
+    }
+  },
+  {
+    "candidate_id": "FIN202012_X003",
+    "title": "Indian diaspora protest in Helsinki in support of Indian farmers",
+    "exclusion_reason": "The accessed report says no more than 10 people could gather at one time and reports >50 only cumulatively over time, which does not establish a 50-person gathering. It also describes demands directed to the Government of India and Indian farm laws, not Finnish state policy; codebook excludes such foreign-government-targeted action.",
+    "source_ids": [
+      "FIN202012_S004"
+    ],
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "FIN202012_S004"
+        ],
+        "summary": "The event occurred 8 December 2020 from 16:00 for two hours."
+      },
+      "location": {
+        "source_ids": [
+          "FIN202012_S004"
+        ],
+        "summary": "In front of the Finnish Parliament, Helsinki."
+      },
+      "participants": {
+        "source_ids": [
+          "FIN202012_S004"
+        ],
+        "summary": "The report says more than 50 were present at different times, but police permission allowed only 10 at one time; the cumulative total is not a crowd size."
+      },
+      "demands": {
+        "source_ids": [
+          "FIN202012_S004"
+        ],
+        "summary": "Called for repeal of Indian farm laws and condemned violence against farmers in India."
+      },
+      "state_target": {
+        "source_ids": [
+          "FIN202012_S004"
+        ],
+        "summary": "Demand targeted the Government of India, not Finnish government/state policy."
+      }
+    }
+  }
+]

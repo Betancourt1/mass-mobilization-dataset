@@ -1,0 +1,62 @@
+[
+  {
+    "gap_id": "GER202011_G001",
+    "type": "evidence",
+    "description": "Leipzig Nov 7 actual turnout is only described as 'thousands' in accessible contemporary text; DIE ZEIT page was only partially rendered and a later pagination request returned 403.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "GER202011_E001"
+    ],
+    "required_followup": "Use existing successful independent non-dpa local sources where available; no retry of the exact DIE ZEIT URL. Separate main assembly from later procession and Connewitz incidents."
+  },
+  {
+    "gap_id": "GER202011_G002",
+    "type": "eligibility",
+    "description": "Nov 18 police release reports 19 assemblies and aggregates arrests/injuries; main anti-fascist gathering's government-facing demand is unclear, while the smaller Marschallbrücke assembly has more explicit anti-law demands.",
+    "source_ids": [
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "GER202011_E002",
+      "GER202011_E003"
+    ],
+    "required_followup": "Resolve event boundaries, target and any assembly-specific state response. Do not allocate aggregate police totals."
+  },
+  {
+    "gap_id": "GER202011_G003",
+    "type": "coverage",
+    "description": "Searches emphasize Nov 7 Leipzig and Nov 18 Berlin. Weekly coverage of Nov 1-6, 9-17, 19-30 and non-COVID sectors/regions is insufficient to claim monthwide completeness.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search German and English local/regional sources, unions, issue organizations and official city records for other actions."
+  },
+  {
+    "gap_id": "GER202011_G004",
+    "type": "source_dependence",
+    "description": "DIE ZEIT, SZ and Euronews pages credit dpa and/or AFP; reports using the same wires are dependent rather than independent corroboration.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S006"
+    ],
+    "affected_candidates": [
+      "GER202011_E001",
+      "GER202011_E003"
+    ],
+    "required_followup": "Prefer distinct outlet-origin reporting or official records and preserve agency relationships."
+  },
+  {
+    "gap_id": "GER202011_G005",
+    "type": "baseline",
+    "description": "Official baseline pending; LexisNexis/systematic archive coverage not available through this open-web task.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator baseline reconciliation and any permitted archive review."
+  }
+]

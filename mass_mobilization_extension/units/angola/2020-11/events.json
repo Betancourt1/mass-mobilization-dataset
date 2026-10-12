@@ -1,0 +1,469 @@
+[
+  {
+    "candidate_id": "AGO202011_E001",
+    "country": "Angola",
+    "ccode": "540",
+    "unit_month": "2020-11",
+    "title": "Luanda protest against corruption, impunity and unemployment",
+    "start_date": "2020-11-21",
+    "start_precision": "day",
+    "end_date": "2020-11-21",
+    "end_precision": "day",
+    "location": [
+      "Luanda, Largo 1ro. de Maio"
+    ],
+    "scope": "local",
+    "organizer": "civil society members; named organizers not specified in the report",
+    "demands": [
+      "political_behavior_process",
+      "removal_of_politician"
+    ],
+    "participants_original": "Pouco mais de uma centena de pessoas (a little over one hundred people)",
+    "participants_min": 101,
+    "participants_max": null,
+    "threshold_50_evidence": "The report explicitly estimates a little over one hundred people in the gathering, supporting an integer lower bound of 101 and the >=50 threshold.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S014"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S014"
+        ],
+        "summary": "Article states the event occurred Saturday 21 November 2020."
+      },
+      "location": {
+        "source_ids": [
+          "S014"
+        ],
+        "summary": "Largo 1ro. de Maio in Luanda."
+      },
+      "organizer": {
+        "source_ids": [
+          "S014"
+        ],
+        "summary": "Described as a protest organized by civil society members; no specific organization named in body lines reviewed."
+      },
+      "demands": {
+        "source_ids": [
+          "S014"
+        ],
+        "summary": "Anti-corruption, impunity and unemployment; participants also demanded removal and prosecution of the presidential chief of staff."
+      },
+      "participants": {
+        "source_ids": [
+          "S014"
+        ],
+        "summary": "Little over one hundred participants per VOA Portuguese report."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S014"
+        ],
+        "summary": "Source explicitly characterizes the gathering as peaceful."
+      },
+      "state_response": {
+        "source_ids": [
+          "S014"
+        ],
+        "summary": "Source says police accompanied and did not suppress the protest. Other response categories are not described; no inference made."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "candidate",
+    "episode_key": "ANGOLA_LUANDA_2020-11-21_CORRUPTION",
+    "notes": "May also have honored Inocêncio de Matos, killed in the 11 November protest, but memorial purpose is not treated as proof the two gatherings form one continuous event. The demand and independently new date indicate a distinct candidate. VOA article body read only in rendered lines 64-116.",
+    "open_questions": [
+      "Seek a second independent contemporaneous report and confirm source syndication/origin.",
+      "Check reports immediately after 21 November for event closure or continuation.",
+      "No unreported response values are inferred."
+    ]
+  },
+  {
+    "candidate_id": "AGO202011_E002",
+    "country": "Angola",
+    "ccode": "540",
+    "unit_month": "2020-11",
+    "title": "Protest at Kipata former cemetery square in Ndalatando",
+    "start_date": "2020-11-11",
+    "start_precision": "day",
+    "end_date": "2020-11-11",
+    "end_precision": "day",
+    "location": [
+      "Ndalatando, Kwanza Norte; Kipata former cemetery square"
+    ],
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Not established. DW reports protesters concentrated at the square but gives no crowd count. It separately reports 16 young protesters detained over 60 km away in Kizenga, Cacuso, Malanje; that number and location do not establish whether the Ndalatando gathering reached 50.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "yes"
+    },
+    "source_ids": [
+      "S018"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S018"
+        ],
+        "summary": "DW dates the Ndalatando protest to 11 November 2020."
+      },
+      "location": {
+        "source_ids": [
+          "S018"
+        ],
+        "summary": "Protesters concentrated at the former Kipata cemetery square, in Ndalatando, Kwanza Norte."
+      },
+      "organizer": {
+        "source_ids": [
+          "S018"
+        ],
+        "summary": "No organizing group identified in the body reviewed."
+      },
+      "demands": {
+        "source_ids": [
+          "S018"
+        ],
+        "summary": "Better living conditions and implementation of local elections/local authorities in Angola."
+      },
+      "participants": {
+        "source_ids": [
+          "S018"
+        ],
+        "summary": "DW supplies no gathering count. It reports 16 detentions in Kizenga, more than 60 km away; linkage to this gathering remains unclear."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S018"
+        ],
+        "summary": "No explicit description of protesters using violence in the body reviewed; code remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "S018"
+        ],
+        "summary": "DW explicitly reports live ammunition, tear gas, and water jets used to disperse the Ndalatando crowd. It mentions 16 detentions in Kizenga, but their association with this gathering is uncertain; arrests remain unknown for this event."
+      }
+    },
+    "eligibility": "pending_unit",
+    "coding_status": "candidate",
+    "episode_key": "ANGOLA_2020-11-11_CIVIL_SOCIETY_DEMONSTRATIONS",
+    "notes": "Do not infer a >=50 crowd from 16 later detentions. The alleged detention location in Kizenga, Malanje, is more than 60 km from Ndalatando; whether it concerns this gathering or a distinct local activity needs follow-up. National organizers announced protests across provinces, but current evidence does not settle whether this locality is a separate event or one part of a national organized event. DW's separate Luanda report links repression on this date in multiple locations, so this local Ndalatando observation may be part of the broader nationally organized E003 action rather than a separately coded event.",
+    "open_questions": [
+      "Search for an independent or local report giving attendance at Ndalatando.",
+      "Clarify whether the 16 arrests in Kizenga relate to this Ndalatando protest or another local gathering.",
+      "Assess event grouping across locations in light of national calls, without merging by date alone.",
+      "Check for reporting that establishes closure or continuation after 11 November.",
+      "Resolve whether the Ndalatando crowd is a distinct local event or part of the multi-location national action in E003."
+    ]
+  },
+  {
+    "candidate_id": "AGO202011_E003",
+    "country": "Angola",
+    "ccode": "540",
+    "unit_month": "2020-11",
+    "title": "Nationally called 11 November demonstrations in Luanda and Ndalatando",
+    "start_date": "2020-11-11",
+    "start_precision": "day",
+    "end_date": "2020-11-11",
+    "end_precision": "day",
+    "location": [
+      "Luanda (including route from Santa Ana cemetery toward the city centre)",
+      "Ndalatando, Kwanza Norte (Kipata former cemetery square)"
+    ],
+    "scope": "national",
+    "organizer": "civil society and youth activist movements; precise national structure unclear",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Hundreds of demonstrators in Luanda; no count reported for the Ndalatando gathering",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "DW explicitly describes hundreds of demonstrators in Luanda, which clearly exceeds 50; no numeric bound is assigned to the qualitative estimate. A separate Ndalatando report does not establish that locality's count.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "yes",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "yes"
+    },
+    "source_ids": [
+      "S018",
+      "S020",
+      "S021",
+      "S028"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S018",
+          "S020",
+          "S021"
+        ],
+        "summary": "Contemporary reports date activity in both Luanda and Ndalatando to 11 November 2020."
+      },
+      "location": {
+        "source_ids": [
+          "S018",
+          "S020",
+          "S021"
+        ],
+        "summary": "DW reports hundreds in Luanda, including activity near the planned route between Santa Ana cemetery and downtown; a separate DW item reports a gathering at Kipata square in Ndalatando."
+      },
+      "organizer": {
+        "source_ids": [
+          "S020",
+          "S021"
+        ],
+        "summary": "RTP describes youth associated with activist movements; DW attributes the calls to civil society groups. National cross-locality coordination is plausible from those accounts but its structure remains unclear."
+      },
+      "demands": {
+        "source_ids": [
+          "S018",
+          "S021"
+        ],
+        "summary": "Better living conditions and implementation/scheduling of local elections in Angola."
+      },
+      "participants": {
+        "source_ids": [
+          "S021"
+        ],
+        "summary": "DW states hundreds of demonstrators in Luanda. No numerical bound inferred from the plural qualitative estimate; no count for Ndalatando."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S018",
+          "S021"
+        ],
+        "summary": "Available body reports describe police actions but do not establish whether protesters used violence; remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "S018",
+          "S021",
+          "S028"
+        ],
+        "summary": "Ndalatando: live bullets, tear gas and water jets used to disperse a crowd. Luanda: rubber bullets, water cannon and tear gas; several detentions reported. Report of a death is attributed to protesters, without evidence in these items that the state caused it; killings remain unknown. Euronews reports tear gas and an activist allegation that police beat demonstrators; the allegation remains attributed."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "candidate",
+    "episode_key": "ANGOLA_2020-11-11_NATIONAL_CIVIL_SOCIETY_DEMONSTRATIONS",
+    "notes": "These reports may describe one coordinated multi-location mobilization. E002 retains a separate Ndalatando record as a pending-unit alternative because exact local participation and organizational relationship remain unclear; do not double-count both without review. DW lists Borralho Ndomba, Thiago Melo and Lusa; the article may have a Lusa component, so assess source independence. The death claim is not coded as state killings without causal attribution. Euronews independently bylined by Neusa Silva also describes gas dispersal and attributes a beating allegation to an activist. The same article attributes contemporary detention and two-death claims to a co-organizer; neither it nor other reviewed reports establishes the deaths or state causation.",
+    "open_questions": [
+      "Confirm whether these were centrally coordinated nationwide locations or separate local events; if one event, use E003 and retain E002 only as a superseded candidate with a documented decision.",
+      "Seek further independently originated local reporting for Luanda, Ndalatando, and other announced provinces.",
+      "Review the reported death in a source that directly attributes cause; preserve conflicting accounts if unresolved.",
+      "Check reports after 11 November to determine whether gatherings continued beyond that day; do not extend the event by later reporting alone.",
+      "Seek independent follow-up on Euronews-attributed two-death claim and reported beatings; do not infer state killings without causal evidence."
+    ]
+  },
+  {
+    "candidate_id": "AGO202011_E004",
+    "country": "Angola",
+    "ccode": "540",
+    "unit_month": "2020-11",
+    "title": "Inocêncio de Matos funeral procession becomes a protest demanding justice",
+    "start_date": "2020-11-28",
+    "start_precision": "day",
+    "end_date": "2020-11-28",
+    "end_precision": "day",
+    "location": [
+      "Luanda to Mulemba/Cemetery of the 14, Cazenga municipality"
+    ],
+    "scope": "local",
+    "organizer": "family, civic activists and friends; no formal organization named",
+    "demands": [
+      "police_brutality",
+      "political_behavior_process"
+    ],
+    "participants_original": "Centenas de jovens (hundreds of young people)",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Novo Jornal explicitly says hundreds of young people accompanied the funeral procession, and both Novo Jornal and VOA frame the activity as a protest demanding justice. The qualitative estimate clearly exceeds 50; no precise count is assigned.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S026",
+      "S027"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S026",
+          "S027"
+        ],
+        "summary": "Both articles place the funeral and procession on Saturday 28 November 2020."
+      },
+      "location": {
+        "source_ids": [
+          "S026",
+          "S027"
+        ],
+        "summary": "The funeral procession went to the Mulemba/Cemetery of the 14 in Cazenga municipality, Luanda; Novo Jornal describes the group walking toward the cemetery."
+      },
+      "organizer": {
+        "source_ids": [
+          "S026",
+          "S027"
+        ],
+        "summary": "Family, civic activists and friends were present; no formal organization is named as organizer."
+      },
+      "demands": {
+        "source_ids": [
+          "S026",
+          "S027"
+        ],
+        "summary": "The procession became a protest for justice for Inocêncio de Matos, with participants demanding accountability for his death; Novo Jornal reports slogans accusing the ruling MPLA."
+      },
+      "participants": {
+        "source_ids": [
+          "S027"
+        ],
+        "summary": "Novo Jornal explicitly reports hundreds of young people. No exact count inferred."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S027"
+        ],
+        "summary": "The body describes a procession and political slogans but does not report protester violence; field remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "S026",
+          "S027"
+        ],
+        "summary": "Neither article reports a state response to this funeral procession; all response fields remain unknown."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "candidate",
+    "episode_key": "ANGOLA_LUANDA_2020-11-28_INOCENCIO_FUNERAL_JUSTICE",
+    "notes": "A funeral alone is not treated as sufficient: contemporary reporting expressly describes this procession as a protest for justice, with political slogans and a large public crowd. Cause of death is contested across reports and is not coded as a state killing in this separate November 28 event.",
+    "open_questions": [
+      "Check whether the 28 November procession remained continuous through the burial or ended at the cemetery; this report's end date follows same-day procession reporting.",
+      "Preserve the contested cause-of-death claims as separate evidence; do not infer state killings for this funeral event."
+    ]
+  },
+  {
+    "candidate_id": "AGO202011_E005",
+    "country": "Angola",
+    "ccode": "540",
+    "unit_month": "2020-11",
+    "title": "Cabinda activists detained while preparing a march for release of political prisoners",
+    "start_date": "2020-11-28",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": [
+      "Largo 1º de Maio, Cabinda city"
+    ],
+    "scope": "local",
+    "organizer": "dozens of human-rights activists and civil-society members called the event; number present is unknown",
+    "demands": [
+      "police_brutality",
+      "political_behavior_process"
+    ],
+    "participants_original": "Nine activists were arrested while preparing for a march; this is not a total attendance estimate.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Unknown. The open VOA report says nine activists were arrested while preparing and that dozens of activists called the march; it does not say how many attended. A search-only excerpt from a different outlet says a march took place, but the body is blocked and the open report does not confirm execution.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S024",
+      "S025"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S024",
+          "S025"
+        ],
+        "summary": "Reports place arrests and the planned march on Saturday 28 November 2020."
+      },
+      "location": {
+        "source_ids": [
+          "S024"
+        ],
+        "summary": "Nine activists were arrested at Largo 1º de Maio in Cabinda while preparing for the march."
+      },
+      "organizer": {
+        "source_ids": [
+          "S024"
+        ],
+        "summary": "The march was called by dozens of activists; this refers to organizers, not participants present."
+      },
+      "demands": {
+        "source_ids": [
+          "S024"
+        ],
+        "summary": "The planned march sought release of three political activists detained in June and called for peace in Cabinda."
+      },
+      "participants": {
+        "source_ids": [
+          "S024",
+          "S025"
+        ],
+        "summary": "VOA says nine activists were arrested while preparing; no total attendance is reported. A separate blocked page's search excerpt says marchers proceeded, but cannot be checked."
+      },
+      "state_response": {
+        "source_ids": [
+          "S024"
+        ],
+        "summary": "VOA reports nine arrests while activists prepared for the demonstration and their release later the same day. Whether the response was to an executed protest or its preparation remains unclear."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "ANGOLA_CABINDA_2020-11-28_ACTIVISTS",
+    "notes": "The public gathering's execution and scale are unresolved. The only body-read report says the nine activists were arrested while preparing to march; the other page that appears to describe an executed march returned HTTP 403 and remains search-only. Do not infer >=50 from the number of organizers called or the detainees.",
+    "open_questions": [
+      "Find an accessible independent report confirming whether a public march proceeded before detention.",
+      "Find an actual attendance estimate; nine detainees and 'dozens of organizers' do not establish a 50-person crowd.",
+      "If no gathering of at least 50 occurred, move this planned/thwarted action to excluded.json with a reason."
+    ]
+  }
+]

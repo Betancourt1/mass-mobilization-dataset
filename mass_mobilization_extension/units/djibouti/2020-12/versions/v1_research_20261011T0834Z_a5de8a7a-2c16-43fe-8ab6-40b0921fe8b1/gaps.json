@@ -1,0 +1,42 @@
+[
+  {
+    "gap_id": "DJI202012-G01",
+    "affected_candidate_id": "DJI202012-CAND-ARHIBA-DEC18",
+    "dimension": "state-directed demand and threshold",
+    "reason": "LDDH supports a Dec 18 Djibouti City commemoration and qualitatively large attendance, but no number or explicit state-directed demand is recorded. The ARD call-page request failed with HTTP 502; no retry was made.",
+    "next_permitted_action": "Seek an alternate permitted contemporaneous report or accessible original document that establishes actual occurrence, demand and a supported 50+ threshold; do not retry the 502 target without policy authorization.",
+    "source_ids": [
+      "LDDH_ANNUAL_REPORT_2020",
+      "ARD_ARHIBA_CALL"
+    ]
+  },
+  {
+    "gap_id": "DJI202012-G02",
+    "affected_candidate_id": "DJI202012-CAND-RADDE-DATE-AMBIGUOUS",
+    "dimension": "date/month and event details",
+    "reason": "Agence Afrique’s “Sunday 31 December” phrase is inconsistent with the 2020 calendar and follow-up searches did not resolve the intended date/year. No crowd estimate is present.",
+    "next_permitted_action": "Find permitted independent contemporaneous reporting that explicitly identifies the event date/year, location, size and demand; keep undated until resolved.",
+    "source_ids": [
+      "AGENCE_AFRIQUE_RADDE_AMBIGUOUS"
+    ]
+  },
+  {
+    "gap_id": "DJI202012-G03",
+    "dimension": "weekly, local-language and sector coverage",
+    "reason": "French/English weekly searches, a date-specific follow-up, regional/sector discovery and Arabic query were attempted; Arabic result headers were truncated from retained context. No local Somali-language or labor/port record was reviewed.",
+    "next_permitted_action": "Continue feasible local-language and local-outlet discovery across regions/sectors and December weeks; no event absence inference.",
+    "source_ids": [
+      "AGENCE_AFRIQUE_RADDE_AMBIGUOUS"
+    ]
+  },
+  {
+    "gap_id": "DJI202012-G04",
+    "dimension": "episode continuity",
+    "reason": "January RADDE demonstrations fall outside Q4; no evidence resolves whether the ambiguous 31 December reference belongs to December or January. The Dec 17 pro-candidacy rallies are a separate excluded episode.",
+    "next_permitted_action": "Seek permitted evidence of exact dates and same-demand links across Dec–Jan without importing January events into December.",
+    "source_ids": [
+      "RFI_JAN23_CONTINUITY",
+      "LANATION_DEC17_YOUTH_RALLY"
+    ]
+  }
+]

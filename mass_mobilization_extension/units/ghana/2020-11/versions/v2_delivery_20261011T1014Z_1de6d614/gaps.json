@@ -1,0 +1,31 @@
+[
+  {
+    "gap_id": "GHA202011_GAP_REGIONAL_WEEKLY",
+    "source_ids": [
+      "ndc_nov30",
+      "gas_strike"
+    ],
+    "dimension": "regional/sectoral discovery",
+    "reason": "English searches covered whole-month and week/date windows, but localized regional reporting and non-political sectors have not been sufficiently checked.",
+    "next_permitted_action": "Search Ghana-language and regional sources for Accra, Kumasi, Tamale and other regions and compare reported labor/public-policy actions."
+  },
+  {
+    "gap_id": "GHA202011_GAP_CONTINUITY_DEC",
+    "source_ids": [
+      "ndc_nov30",
+      "gas_strike"
+    ],
+    "dimension": "adjacent-month continuity",
+    "reason": "Boundary searches reached some December election-period activity; onset/end continuity for public demonstrations and the tanker labor stoppage is unresolved beyond the reports captured.",
+    "next_permitted_action": "Check December continuations and early December reporting without counting the campaign march."
+  },
+  {
+    "gap_id": "GHA202011_GAP_LOCAL_LANG",
+    "source_ids": [
+      "ndc_nov30"
+    ],
+    "dimension": "local-language search",
+    "reason": "No Twi, Ewe, Dagbani or other Ghanaian-language queries were run.",
+    "next_permitted_action": "Run local-language query variants and region-specific dates."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "continuation_id": "JO202010_C001",
+    "candidate_id": "JO202010_E001",
+    "type": "neighbor_episode_check",
+    "source_ids": [
+      "JO202010_S001"
+    ],
+    "field_evidence": {
+      "episode_relation": {
+        "value": "September teacher demonstration is a distinct preceding group/date; no continuous camp or count transfer shown.",
+        "source_ids": [
+          "JO202010_S001"
+        ]
+      }
+    }
+  },
+  {
+    "continuation_id": "JO202010_C002",
+    "candidate_id": "JO202010_E002",
+    "type": "recurrent_action_relation_unresolved",
+    "source_ids": [
+      "JO202010_S001",
+      "JO202010_S005",
+      "JO202010_S006"
+    ],
+    "field_evidence": {
+      "episode_relation": {
+        "value": "Oct11 mapped Yarmouk staff action and Oct19 reported action share venue/group-type and related admissions/equity themes. Sources do not establish one continuous camp; retain both dated entries provisionally, without combining counts.",
+        "source_ids": [
+          "JO202010_S001",
+          "JO202010_S005",
+          "JO202010_S006"
+        ]
+      }
+    }
+  },
+  {
+    "continuation_id": "JO202010_C003",
+    "candidate_id": "JO202010_E003",
+    "type": "cross_location_relation_unresolved",
+    "source_ids": [
+      "JO202010_S001",
+      "JO202010_S002",
+      "JO202010_S004"
+    ],
+    "field_evidence": {
+      "episode_relation": {
+        "value": "Oct21 Amman and Oct22 Irbid nursery actions concern closure policy on different days/locations. No common organizer, national coordination or continuity is documented. Keep sites and participants separate pending follow-up.",
+        "source_ids": [
+          "JO202010_S001",
+          "JO202010_S002",
+          "JO202010_S004"
+        ]
+      }
+    }
+  }
+]

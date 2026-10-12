@@ -1,0 +1,89 @@
+[
+  {
+    "gap_id": "ALB202012_G001",
+    "type": "archive_access",
+    "description": "Open-web searches cannot reproduce the assigned LexisNexis workflow. No systematic news-archive access or complete official event register was available; searched English and Albanian terms, week windows, sectors, localities, and January follow-up only. This limits completeness.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ALB202012_E001",
+      "ALB202012_E002"
+    ],
+    "required_followup": "Coordinator review against authorized archive and any official records."
+  },
+  {
+    "gap_id": "ALB202012_G002",
+    "type": "access_or_retrieval",
+    "description": "Citizens.al Dec 9 article was captured from search output but body request returned a web-tool Internal Error; the page content was not verified or used as substantive evidence. The Rruga e Arbërit Dec 2020 PDF URL did not yield the requested issue and redirected to an unrelated current homepage.",
+    "source_ids": [
+      "ALB202012_S002",
+      "ALB202012_S006"
+    ],
+    "affected_candidates": [
+      "ALB202012_E001"
+    ],
+    "required_followup": "If accessible under existing rules, retrieve these exact source records; no denial was inferred from Internal Error or redirect."
+  },
+  {
+    "gap_id": "ALB202012_G003",
+    "type": "access_review_defer",
+    "description": "No body request was made to the Shqiptarja Dec 14 result about the sixth day of demonstrations because the fresh exact-URL access scan deferred on a malformed JSONL file in another unit; its search-only card remains unused. This leaves protest evolution, possible cause shift, and closure uncertain.",
+    "source_ids": [
+      "ALB202012_S014"
+    ],
+    "affected_candidates": [
+      "ALB202012_E001"
+    ],
+    "required_followup": "Coordinator to resolve unrelated malformed input and conduct a fresh access check/manual review before any body read."
+  },
+  {
+    "gap_id": "ALB202012_G004",
+    "type": "threshold_and_event_identity",
+    "description": "The separate Dec 19 Shkodër gathering is described as low attendance without a number. A prior-week Shkodër march is mentioned second-hand with no count, and its relationship to the Dec 19 gathering and local episode ownership are unclear.",
+    "source_ids": [
+      "ALB202012_S005",
+      "ALB202012_S007",
+      "ALB202012_S008"
+    ],
+    "affected_candidates": [
+      "ALB202012_E002"
+    ],
+    "required_followup": "Seek an independent contemporaneous count and clarify whether prior-week gathering meets threshold and is a separate event."
+  },
+  {
+    "gap_id": "ALB202012_G005",
+    "type": "continuity_and_closure",
+    "description": "January 2021 follow-up searches did not surface a confirmed continuation or explicit closure for the Tirana Rasha protest series. No continuation is recorded; unknown continuation is not coded as zero. No end date is assigned to either candidate.",
+    "source_ids": [
+      "ALB202012_S001",
+      "ALB202012_S003",
+      "ALB202012_S014"
+    ],
+    "affected_candidates": [
+      "ALB202012_E001",
+      "ALB202012_E002"
+    ],
+    "required_followup": "Search January onward local and international reporting and verify campaign/event endpoint."
+  },
+  {
+    "gap_id": "ALB202012_G006",
+    "type": "restricted_origin_scope",
+    "description": "Search surfaced AP-origin reports of the Tirana protests. Their cards are retained as search-only and held under the unresolved AP restriction; no bodies or variants were opened or used. Opened Euronews articles were checked for byline/written-origin cues, and no AP/Reuters/AFP textual origin was identified; photo credits alone were not treated as textual origin.",
+    "source_ids": [
+      "ALB202012_S009",
+      "ALB202012_S010",
+      "ALB202012_S011"
+    ],
+    "affected_candidates": [
+      "ALB202012_E001"
+    ],
+    "required_followup": "Resolve AP hold through parent review; continue using unrelated permitted sources meanwhile."
+  },
+  {
+    "gap_id": "ALB202012_G007",
+    "type": "regional_coverage",
+    "description": "Searches included Albanian local/regional terms and named Shkodër, Dibër and other regions, but did not establish complete regional coverage. Q011 surfaced Ballsh oil-worker strike continuity as a lead from a prior-month source, but no December body evidence was found; do not infer it continued or ended in December.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Check local outlets/official announcements for regional actions and the Ballsh strike’s December status."
+  }
+]

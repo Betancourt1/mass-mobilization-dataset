@@ -1,0 +1,53 @@
+[
+  {
+    "gap_id": "KHM202012_G001",
+    "type": "pending_threshold",
+    "description": "Dec. 29 court gathering is documented but has no participant estimate.",
+    "source_ids": [
+      "KHM202012_S001",
+      "KHM202012_S002"
+    ],
+    "affected_candidates": [
+      "KHM202012_E002"
+    ],
+    "required_followup": "Seek permitted event-specific crowd estimate; keep pending_threshold if none."
+  },
+  {
+    "gap_id": "KHM202012_G002",
+    "type": "pending_coverage",
+    "description": "Regional/sector coverage is partial despite Khmer/English/French discovery and political, court, labor, land and provincial terms; open web is not LexisNexis.",
+    "source_ids": [],
+    "affected_candidates": [
+      "KHM202012_E001",
+      "KHM202012_E002"
+    ],
+    "required_followup": "Target permitted provincial and sector Khmer sources; no exhaustive claim."
+  },
+  {
+    "gap_id": "KHM202012_G003",
+    "type": "pending_coverage",
+    "description": "Jan. 8 search result concerns a later Friday Wives gathering and does not prove continuation of either Dec. 21 or Dec. 29 event.",
+    "source_ids": [
+      "KHM202012_S005"
+    ],
+    "affected_candidates": [
+      "KHM202012_E002"
+    ],
+    "required_followup": "If episode ownership is material, check specific Jan. 22 hearing reports and keep weekly actions separate absent continuity evidence."
+  },
+  {
+    "gap_id": "KHM202012_G004",
+    "type": "pending_evidence",
+    "description": "End date/time for both events unsupported. Phnom Penh Post exact open returned Internal Error; no retry was made.",
+    "source_ids": [
+      "KHM202012_S001",
+      "KHM202012_S003",
+      "KHM202012_S004"
+    ],
+    "affected_candidates": [
+      "KHM202012_E001",
+      "KHM202012_E002"
+    ],
+    "required_followup": "Use only permitted exact-source follow-up if needed; otherwise retain unknown end."
+  }
+]

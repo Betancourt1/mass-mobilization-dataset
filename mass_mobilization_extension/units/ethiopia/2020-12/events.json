@@ -1,0 +1,78 @@
+[
+  {
+    "candidate_id": "ET202012_E001_MEKELLE_ROADBLOCKS_DEC04",
+    "country": "Ethiopia",
+    "unit_month": "2020-12",
+    "title": "Mekelle residents protest alleged looting by government forces",
+    "start_date": "2020-12-04",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Mekelle, Tigray Regional State, Ethiopia; specific road(s)/site not named",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "crowd_size": null,
+    "crowd_size_evidence": "No attendee count. Reuters reports residents blocked roads; neither report says how many participated, and the count of deaths/injuries is not a proxy for total attendance. ≥50 is unverified.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "ET202012_S001_VOA_REUTERS_MEKELLE",
+      "ET202012_S002_INVESTING_REUTERS_MEKELLE_ROADS"
+    ],
+    "field_evidence": {
+      "occurrence_and_date": {
+        "value": "Reuters via VOA (Dec4) reports TPLF leader's claim that protests were breaking out in Mekelle; Reuters Dec6 story says residents blocked roads and identifies looting/protests in Mekelle on Friday Dec4. Contemporaneous report supports an executed protest, with conflicting official portrayal.",
+        "source_ids": [
+          "ET202012_S001_VOA_REUTERS_MEKELLE",
+          "ET202012_S002_INVESTING_REUTERS_MEKELLE_ROADS"
+        ]
+      },
+      "location": {
+        "value": "Mekelle; specific roads/site not named",
+        "source_ids": [
+          "ET202012_S001_VOA_REUTERS_MEKELLE",
+          "ET202012_S002_INVESTING_REUTERS_MEKELLE_ROADS"
+        ]
+      },
+      "attendance": {
+        "value": "Unknown; Reuters reports roadblocks but no count or clearly supported ≥50 threshold.",
+        "source_ids": [
+          "ET202012_S001_VOA_REUTERS_MEKELLE",
+          "ET202012_S002_INVESTING_REUTERS_MEKELLE_ROADS"
+        ]
+      },
+      "state_targeted_demand": {
+        "value": "Reuters describes residents protesting looting by government forces. No precise demand, addressee, or requested policy remedy is quoted; domestic-state target may be implicated but is not fully established.",
+        "source_ids": [
+          "ET202012_S002_INVESTING_REUTERS_MEKELLE_ROADS"
+        ]
+      },
+      "inclusion_exclusion": {
+        "value": "Reported resident road-blocking protest is distinct from armed clashes; no attendee total and no basis to code armed participants as demonstrators. Do not merge with war events.",
+        "source_ids": [
+          "ET202012_S001_VOA_REUTERS_MEKELLE",
+          "ET202012_S002_INVESTING_REUTERS_MEKELLE_ROADS"
+        ]
+      },
+      "episode_onset_neighbor": {
+        "value": "Dated to Dec4; episode start/end and neighboring-month continuity are not resolved. Both captured items carry Reuters origin, so source independence is not established.",
+        "source_ids": [
+          "ET202012_S001_VOA_REUTERS_MEKELLE",
+          "ET202012_S002_INVESTING_REUTERS_MEKELLE_ROADS"
+        ]
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "decision_note": "Potential public protest supported by Reuters accounts, including a doctor reached in Mekelle; threshold and exact state-directed demand remain unsupported, and official/leader accounts conflict. Sources share Reuters origin; no participant count is inferred from deaths or injuries."
+  }
+]

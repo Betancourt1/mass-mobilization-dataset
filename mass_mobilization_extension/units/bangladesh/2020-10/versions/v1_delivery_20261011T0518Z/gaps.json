@@ -1,0 +1,64 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "Open-web-only method used (not LexisNexis): 20 captured English/Bengali search prompts included general/weekly October windows, local-language and topic-specific searches (rape/impunity, jute/labor, elections, anti-France), event follow-ups, and a November neighbor-month query. Search tool returned selected result headers only; native totals/timestamps were unavailable. Coverage is bounded and not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use accessible newspaper archives and rights-source records for any material unresolved candidate; do not infer zero protests."
+  },
+  {
+    "gap_id": "G002",
+    "type": "continuity",
+    "description": "Anti-rape reporting says programmes began 5 October, gives around 400–500 at the 16 October long march, and documents a 21 October Shahbagh blockade. First qualifying 50+ gathering, whether the march/blockade are phases of one event, and the campaign end are not resolved.",
+    "source_ids": [
+      "BGD202010_S001",
+      "BGD202010_S014",
+      "BGD202010_S016",
+      "BGD202010_S017",
+      "BGD202010_S021",
+      "BGD202010_S022"
+    ],
+    "affected_candidates": [
+      "bangladesh_2020-10_E001"
+    ],
+    "required_followup": "Find dated 5 October attendance and after-21 October reports; review event boundary against the codebook."
+  },
+  {
+    "gap_id": "G003",
+    "type": "threshold",
+    "description": "The 5 October DLA procession to the PMO meets state-target criteria but no attendance estimate is available; linked September activity may affect onset ownership.",
+    "source_ids": [
+      "BGD202010_S004",
+      "BGD202010_S005"
+    ],
+    "affected_candidates": [
+      "bangladesh_2020-10_E002"
+    ],
+    "required_followup": "Find a contemporaneous crowd estimate and September/November episode records."
+  },
+  {
+    "gap_id": "G004",
+    "type": "access",
+    "description": "Two exact New Age targets could not support body claims: Feni URL 119201 produced Internal Error without HTTP status, and anti-France URL 120406 returned HTTP 403. Both were left untouched after the observed failures; the latter is an actual URL-specific denial. The 30–31 October gathering lead remains unverified.",
+    "source_ids": [
+      "BGD202010_S020",
+      "BGD202010_S023"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use a different permitted contemporaneous publisher for 30–31 October only if the local target assessment finds no restriction; do not retry these exact URLs."
+  },
+  {
+    "gap_id": "G005",
+    "type": "review",
+    "description": "No independent scientific reviewer has examined the current hashes; proposed inclusion is not verified provisional. Official baseline remains pending.",
+    "source_ids": [
+      "BGD202010_S010",
+      "BGD202010_S011"
+    ],
+    "affected_candidates": [
+      "bangladesh_2020-10_E003"
+    ],
+    "required_followup": "A distinct reviewer should assess evidence, boundary and coverage; coordinator must compare with official baseline/schema before any integration."
+  }
+]

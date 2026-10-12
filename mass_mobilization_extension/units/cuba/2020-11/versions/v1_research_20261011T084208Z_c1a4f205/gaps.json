@@ -1,0 +1,41 @@
+[
+  {
+    "gap_id": "CUB202011_G001",
+    "type": "threshold_and_source_access",
+    "description": "A November 22 Parque Central protest is identified in an OAS/IACHR search-result excerpt with at least 15 detentions, but total attendance is unavailable. An EFE retrospective estimate might be relevant to 27N, but its exact URL returned an actual HTTP 429 and is held from retry; OnCubaNews returned only a tool timeout, not a source denial.",
+    "source_ids": [
+      "CUB202011_S001",
+      "CUB202011_S003",
+      "CUB202011_S004"
+    ],
+    "affected_candidates": [
+      "CUB202011_E001",
+      "CUB202011_E002"
+    ],
+    "required_followup": "Permitted contemporaneous body-read reporting on November 22 and an independent accessible source for 27N; do not retry EFE or OnCubaNews exact URLs."
+  },
+  {
+    "gap_id": "CUB202011_G002",
+    "type": "episode_scope_and_coverage",
+    "description": "Searches found the San Isidro house occupation/hunger strike (Nov 16–26) and other individual arrests, but the captured material describes a private dwelling and/or gives no 50+ public gathering count. Do not merge those episodes with the Nov 27 Ministry gathering. Regional and sector searches returned mainly national items; more municipality-level coverage remains feasible.",
+    "source_ids": [
+      "CUB202011_S004"
+    ],
+    "affected_candidates": [
+      "CUB202011_E001"
+    ],
+    "required_followup": "Use permitted dated local/provincial reports to resolve any separate public gatherings and counts; preserve episode dates/places distinctly."
+  },
+  {
+    "gap_id": "CUB202011_G003",
+    "type": "boundary_continuity",
+    "description": "The 27 November gathering followed the November 26 removal of activists from the San Isidro venue, while subsequent dialogue/restriction reports extend into December and a separate related January action. Current body-read sources do not establish whether these constitute a continuous event episode; keep dates and gatherings separate.",
+    "source_ids": [
+      "CUB202011_S002"
+    ],
+    "affected_candidates": [
+      "CUB202011_E001"
+    ],
+    "required_followup": "Dated evidence linking actors, demands and public gathering outcomes across December/January, without merging separate gatherings."
+  }
+]

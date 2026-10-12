@@ -1,0 +1,35 @@
+[
+  {
+    "gap_id": "HAI202011-G01",
+    "dimension": "November weekly, regional, and sector source diversity",
+    "reason": "French, Kreyòl, English, broad monthly, midmonth, and late-month queries surfaced several events, primarily from one metropolitan outlet and sparse independent local reporting. No attendance counts are available for the Nov. 17 actions or Nov. 18 domestic branch.",
+    "next_permitted_action": "Continue permitted week/date-window searches in regional outlets and labor/civic sectors, with specific counts and event-location attribution.",
+    "source_ids": [
+      "HAI202011_Q001",
+      "HAI202011_Q002",
+      "hai_metropole_nov17",
+      "hai_rhinews_nov18"
+    ]
+  },
+  {
+    "gap_id": "HAI202011-G02",
+    "dimension": "Cap-Haïtien Nov. 17 attendance/source retrieval",
+    "reason": "Le Nouvelliste exact URL open returned Internal Error; no article content obtained and no retry attempted. The other opened source gives no attendance figure.",
+    "next_permitted_action": "Seek another permitted contemporaneous local source for the event and count; do not retry the failed target.",
+    "source_ids": [
+      "hai_lenouvelliste_nov17_cap",
+      "hai_metropole_nov17"
+    ]
+  },
+  {
+    "gap_id": "HAI202011-G03",
+    "dimension": "November continuity and episode boundaries",
+    "reason": "Adjacent Oct/Dec searches were run, but evidence does not resolve whether wage, insecurity, and opposition actions were recurrent episodes or isolated gatherings.",
+    "next_permitted_action": "Follow source-led recurrence and cessation terms across October–December, especially the 17–18 Nov mobilization; do not merge separate demands without evidence.",
+    "source_ids": [
+      "HAI202011_Q002",
+      "HAI202010_Q003",
+      "HAI202012_Q002"
+    ]
+  }
+]

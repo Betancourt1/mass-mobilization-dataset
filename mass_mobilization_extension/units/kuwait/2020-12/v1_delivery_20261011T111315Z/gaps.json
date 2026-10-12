@@ -1,0 +1,39 @@
+[
+  {
+    "gap_id": "KWT202012-G01",
+    "description": "Fuel strike has no count per station; event-site breadth/duration conflict and public-gathering form unresolved.",
+    "next_allowed_action": "Find distinct contemporaneous source with per-site attendance; no retries of exact Arab Times, Al-Qabas, Al Rai, Al-Anba targets.",
+    "source_ids": [
+      "DEC-AT",
+      "DEC-QABAS",
+      "DEC-ALR"
+    ]
+  },
+  {
+    "gap_id": "KWT202012-G02",
+    "description": "Wage arrears attributed to contractor; whether union appeal to KNPC is domestic-state demand remains unresolved.",
+    "next_allowed_action": "Find source explaining employer relationship and actual demand; assess exact URL before opening.",
+    "source_ids": [
+      "DEC-AT",
+      "DEC-ALR"
+    ]
+  },
+  {
+    "gap_id": "KWT202012-G03",
+    "description": "Cleaner wage snippet year absent/body unavailable; similar local 2019 event found, no Dec 2020-specific local source.",
+    "next_allowed_action": "Find contemporaneous local Dec 2020 source; do not retry state.gov URL.",
+    "source_ids": [
+      "DEC-DOS",
+      "DEC-ALJ"
+    ]
+  },
+  {
+    "gap_id": "KWT202012-G04",
+    "description": "Jan 2 search result is retrospective Dec strike coverage; no Jan continuation evidenced.",
+    "next_allowed_action": "Search follow-up only if required to resolve Dec event, without treating it as a new gathering.",
+    "source_ids": [
+      "DEC-AT",
+      "DEC-GN-JAN"
+    ]
+  }
+]

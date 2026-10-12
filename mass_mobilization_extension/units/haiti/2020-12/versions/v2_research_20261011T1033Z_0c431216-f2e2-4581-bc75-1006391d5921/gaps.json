@@ -1,0 +1,42 @@
+[
+  {
+    "gap_id": "HAI202012-G01",
+    "dimension": "December weekly, regional, and sector coverage",
+    "reason": "French, Kreyòl, English, and two date-window searches found Dec. 10 actions in Port-au-Prince and Gonaïves, but the opened source set does not resolve other departments, sectors, or the rest of the month.",
+    "next_permitted_action": "Continue permitted local searches by department/week and labor, civic, and neighborhood sectors; do not infer absence.",
+    "source_ids": [
+      "HAI202012_Q001",
+      "HAI202012_Q002",
+      "hai_gazette_dec10",
+      "hai_vbi_dec10"
+    ]
+  },
+  {
+    "gap_id": "HAI202012-G02",
+    "dimension": "Village de Dieu Dec. 14 lead",
+    "reason": "Exact Haïti Standard body request timed out with no content; the search summary alone says a few dozen residents attempted a gathering. No retry/bypass.",
+    "next_permitted_action": "Use another permitted contemporaneous source if needed for occurrence/demand/attendance; preserve this URL timeout as is.",
+    "source_ids": [
+      "hai_haitistandard_vdg_dec14"
+    ]
+  },
+  {
+    "gap_id": "HAI202012-G03",
+    "dimension": "planned Dec. 18 action and Dec. 10 Léogâne announcement execution",
+    "reason": "Search results include an announced Gonaïves/Saint-Marc mobilization and a planned Dec. 18 demonstration, but announcements do not establish that the events occurred.",
+    "next_permitted_action": "Look for permitted post-event accounts for those dates/places; do not code announcement alone as an event.",
+    "source_ids": [
+      "HAI202012_Q001",
+      "HAI202012_Q002"
+    ]
+  },
+  {
+    "gap_id": "HAI202012-G04",
+    "dimension": "December-to-January continuity",
+    "reason": "A January boundary search identified a Jan. 15 Port-au-Prince protest and planned Jan. 10–20 mobilizations; these are outside December and no body was opened. Relation to any December episode is unresolved.",
+    "next_permitted_action": "No action in December dossier beyond keeping this boundary lead; January is outside assigned unit.",
+    "source_ids": [
+      "HAI202012_Q003"
+    ]
+  }
+]

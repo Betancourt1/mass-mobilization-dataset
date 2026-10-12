@@ -1,0 +1,47 @@
+[
+  {
+    "gap_id": "kenya_2020-10-G001",
+    "candidate_ids": [
+      "kenya_2020-10-E001",
+      "kenya_2020-10-E002"
+    ],
+    "dimensions": [
+      "threshold_50",
+      "source_corroboration"
+    ],
+    "reason": "Neither opened event source states attendance; exact LSK day also differs between narrative and photo caption.",
+    "evidence": [
+      "KEN202010_KAWANGWARE",
+      "KEN202010_LSK"
+    ],
+    "next_permitted_action": "Search a distinct local source or original contemporaneous record for counts/date; keep candidates pending until supported."
+  },
+  {
+    "gap_id": "kenya_2020-10-G002",
+    "candidate_ids": [],
+    "dimensions": [
+      "regional_search",
+      "body_access"
+    ],
+    "reason": "KNA Murang’a Oct6 result concerns a possible state-directed youth demonstration, but exact body fetch timed out and its snippet alone is not occurrence evidence; no alternative opened source confirmed the event.",
+    "evidence": [
+      "KEN202010_MURANGA_KNA"
+    ],
+    "next_permitted_action": "Use an independent permitted source reporting the Oct6 demonstration; do not retry the timed-out KNA URL."
+  },
+  {
+    "gap_id": "kenya_2020-10-G003",
+    "candidate_ids": [
+      "kenya_2020-10-E002"
+    ],
+    "dimensions": [
+      "political_process_episode_scope",
+      "attendance"
+    ],
+    "reason": "Open-web samples do not resolve whether group size reached 50 or exact 11/12 Oct onset; national and regional sweep remains limited.",
+    "evidence": [
+      "KEN202010_LSK"
+    ],
+    "next_permitted_action": "Find contemporaneous independent coverage with count/date and check September/November episode boundary."
+  }
+]

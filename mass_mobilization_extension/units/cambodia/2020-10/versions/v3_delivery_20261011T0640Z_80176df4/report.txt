@@ -1,0 +1,21 @@
+Cambodia — 2020-10; scientific observation cutoff 2026-10-07. Web research was consulted on 2026-10-11 UTC; recorded action windows appear in the preserved exclusive captures. Research status: researched_open_web_pending_review; baseline pending official baseline; distinct review pending.
+
+Method and coverage
+Managed open-web searches used Khmer, English and French queries where feasible. Search windows and sector/region terms are in search_log.jsonl and each immutable action capture. October covered first/second halves and land/labor/political themes. November covered early-month and broad/later-month political/family and labor themes. December used broad political, court, labor and Khmer search terms plus neighbor-month follow-up. The service returned shared batch results without query-specific grouping; repeated header arrays in search_log preserve this shared-batch fact and do not claim per-query attribution. The total results count and native request clock are not exposed.
+
+The search was bounded and open-web only, not LexisNexis or a comprehensive archive. Provincial/regional and sector coverage is partial. Managed opens of pages that returned no article body are recorded as search_only; actual internal error and other retrieval outcomes remain explicit. No full articles are stored; captures keep source headers, short paraphrases, provenance, assessments and body line scopes. No claim of exhaustive coverage, no-protest, or official completion is made.
+
+Candidate findings
+- KHM202010_E001 (2020-10-23): CNRP-associated protest near Chinese Embassy over alleged Chinese military presence and domestic political rights. Eligibility=pending_threshold; Conflicting contemporary descriptions: CamboJA reports roughly 100 at/approaching the embassy; Reuters describes a small group without count; VOD search-only snippet indicates around 12. No shared estimate can be selected confidently. End date unknown. Reviewer pending.
+- KHM202010_E002 (2020-10-23): Civil-society gathering for Paris Peace Agreement principles and restoration of Oct. 23 public holiday. Eligibility=proposed_include; CamboJA reports about 700 attendees at a distinct gathering of 24 groups; explicit threshold evidence for a provisional candidate, subject to separate reviewer. End date unknown. Reviewer pending.
+
+
+Named pending work
+- KHM202010_G001 (pending_threshold): Embassy-area event E001 has conflicting/incomplete crowd descriptions (roughly 100 in CamboJA, “small” in Reuters, lower search-only VOD snippet); the local VOD/Cambodianess page bodies did not surface. Next: A permitted independent contemporaneous source with a defensible same-gathering count; no retry of pages that returned no body.
+- KHM202010_G002 (pending_review): The separate Oct. 23 civic gathering has one same-day local report supporting about 700 attendees and state-policy demands; event-level distinction from nearby embassy protests should be reviewed. Next: Distinct reviewer assess threshold, target, event boundaries and source scope.
+- KHM202010_G003 (pending_coverage): Open-web coverage cannot reproduce LexisNexis; English/Khmer/French searches and Oct. 1-15 / Oct. 16-31 windows were run, but provincial and sector coverage remains partial. Next: Targeted permitted Khmer/regional searches for provincial labor, land and policy gatherings; no claim of exhaustive search.
+- KHM202010_G004 (pending_evidence): End dates, exact ending times and some state-response details are not reported for the two Oct. 23 candidates. Next: Only a specific contemporaneous follow-up may resolve closure; otherwise retain unknown.
+
+Current body reads are partial and recorded in source-card body_read_scope fields; search-only pages are not treated as body evidence.
+
+Additional captured coverage: KHM202010_Q021_Q022_SEPTEMBER_ONSET_CONTINUITY completed at the observed UTC window in the new addenda capture. This did not change candidate counts.

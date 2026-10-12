@@ -1,0 +1,82 @@
+[
+  {
+    "gap_id": "ANG202012_G001",
+    "type": "coverage_method",
+    "description": "Open-web search service is not the historical LexisNexis ‘All News’ corpus used in the original methodology. The original procedure and systematic newspaper archives were not available in this cloud unit; no completeness claim is warranted.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If separately authorized baseline/archives become available, review contemporary national/regional news and source independence; preserve this open-web-only deviation."
+  },
+  {
+    "gap_id": "ANG202012_G002",
+    "type": "regional_coverage",
+    "description": "Portuguese and English country/month, week-window and province-name searches were run, including Luanda and a broad list of other provinces. No separate December event outside Luanda was located. Coverage is search-engine-based and uneven; planned nationwide actions are not evidence of execution elsewhere.",
+    "source_ids": [
+      "ANG202012_S004",
+      "ANG202012_S001",
+      "ANG202012_S011"
+    ],
+    "affected_candidates": [
+      "angola_2020-12_E001",
+      "angola_2020-12_E002"
+    ],
+    "required_followup": "If expanding this unit, check provincial reporting for each location named in organizer notices, especially whether a Dec. 10 gathering occurred outside Luanda."
+  },
+  {
+    "gap_id": "ANG202012_G003",
+    "type": "threshold",
+    "description": "No source supplies a participant count or clear >=50 evidence for the Supreme Court employee stoppage or the Sonangol former-worker vigil.",
+    "source_ids": [
+      "ANG202012_S010",
+      "ANG202012_S013"
+    ],
+    "affected_candidates": [
+      "angola_2020-12_E003",
+      "angola_2020-12_E004"
+    ],
+    "required_followup": "Seek contemporary reporting or accessible primary statements with attendance estimates and proof of public gathering; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "ANG202012_G004",
+    "type": "dates_continuity",
+    "description": "The Dec. 19 PRA-JA march is supported by a Lusa-attributed account; other copies display Dec. 20 as their publication/page date and can be read as saying ‘today’. Novo Jornal’s report identifies Saturday Dec. 19 as the event date. The article announces further provincial marches in January, but no continuation of the same Dec. 19 gathering was found.",
+    "source_ids": [
+      "ANG202012_S005",
+      "ANG202012_S006",
+      "ANG202012_S011",
+      "ANG202012_S012"
+    ],
+    "affected_candidates": [
+      "angola_2020-12_E002"
+    ],
+    "required_followup": "Review day attribution against original Lusa dispatch if it becomes available; search January coverage for whether separately announced actions occurred and whether they were new events."
+  },
+  {
+    "gap_id": "ANG202012_G005",
+    "type": "execution",
+    "description": "The SINMEA doctors’ demonstration against a disciplinary case was announced for Dec. 19, but no accessible follow-up confirming occurrence, attendance or conclusion was found. It is retained in excluded.json as an unverified announcement, not coded as a non-event.",
+    "source_ids": [
+      "ANG202012_S007",
+      "ANG202012_S008"
+    ],
+    "affected_candidates": [
+      "angola_2020-12_X001"
+    ],
+    "required_followup": "Search later local reporting and union records for execution, attendance, demand, state response and continuity."
+  },
+  {
+    "gap_id": "ANG202012_G006",
+    "type": "access",
+    "description": "Exact Club-K and Ver Angola Lusa article URLs returned HTTP 403 on web open and those access actions stopped. The Esquerda pre-event page returned HTTP 502, recorded as a technical failure rather than a denial. The accessible Novo Jornal Lusa report was opened separately; syndicated copies were not treated as independent evidence. Search-service metadata clocks were not exposed and remain null.",
+    "source_ids": [
+      "ANG202012_S005",
+      "ANG202012_S006",
+      "ANG202012_S008",
+      "ANG202012_S011"
+    ],
+    "affected_candidates": [
+      "angola_2020-12_E002"
+    ],
+    "required_followup": "Do not retry the two exact 403 URLs or treat the 502 as an access denial; retain source-specific receipts and seek other independently published permitted reporting only if needed."
+  }
+]

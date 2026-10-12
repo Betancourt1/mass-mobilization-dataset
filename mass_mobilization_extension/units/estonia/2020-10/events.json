@@ -1,0 +1,180 @@
+[
+  {
+    "country": "Estonia",
+    "ccode": null,
+    "scope": "local",
+    "demands": [
+      "political_behavior_process",
+      "social_restrictions"
+    ],
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S004"
+    ],
+    "coding_status": "agent_coded_pending_review",
+    "eligibility": "proposed_include",
+    "notes": "Physical public gathering with domestic constitutional-policy demand. ERR and Estonian World independently report the 18 October Tallinn event (approx. 300 and 250-300). Their accounts agree on location, date and referendum issue. This is not coded as a party-support election rally: the reports describe opposition to a proposed constitutional policy. Candidate remains pending independent scientific review and baseline comparison.",
+    "open_questions": [
+      "Determine whether the reported PPA detention counts as an arrest under the manual; do not infer from silence.",
+      "End time and subsequent continuity remain unknown."
+    ],
+    "candidate_id": "estonia_2020-10_E001",
+    "unit_month": "2020-10",
+    "title": "Marriage-equality rally opposing proposed constitutional referendum in Tallinn",
+    "start_date": "2020-10-18",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Freedom Square (Vabaduse väljak), Tallinn",
+    "organizer": "Noored Sotsiaaldemokraadid (Social Democratic Party youth wing), with other political party representatives, Estonian LGBT Union and volunteers (ERR report).",
+    "participants_original": "ERR ~300; Estonian World ~250-300.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "ERR reports around 300 and Estonian World reports approximately 250-300 people at the same Tallinn site; both sources independently establish more than 50.",
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "ERR page timestamp and account place the event Sunday 18 October 2020."
+      },
+      "location": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Freedom Square, Tallinn."
+      },
+      "demands": {
+        "source_ids": [
+          "S001",
+          "S004"
+        ],
+        "summary": "Reports connect the rally to the proposed constitutional marriage-definition referendum; Estonian World names the proposal as EKRE's while noting it was a coalition party. Organizers/supporters sought legalization of gender-neutral marriage."
+      },
+      "participants": {
+        "source_ids": [
+          "S001",
+          "S004"
+        ],
+        "summary": "ERR estimates about 300; Estonian World estimates 250-300. Both refer to one Tallinn gathering."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "S001",
+          "S004"
+        ],
+        "summary": "The lower reported estimate is approximately 250, well above 50."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "A scuffle is reported after counter-protesters interrupted; responsibility for violence against the state is not established."
+      },
+      "state_response": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "PPA took one individual to station to ascertain what happened; classification as arrest is unclear. Other response dimensions unknown."
+      }
+    },
+    "episode_key": "EST_TALLINN_LGBT_RALLY_2020-10-18"
+  },
+  {
+    "country": "Estonia",
+    "ccode": null,
+    "scope": "local",
+    "demands": [
+      "political_behavior_process",
+      "social_restrictions"
+    ],
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001"
+    ],
+    "coding_status": "agent_coded_pending_review",
+    "eligibility": "proposed_include",
+    "notes": "ERR explicitly describes this as a similar but separate Tartu demonstration earlier in October. The exact day and organizers are not supplied. Kept distinct from the 18 October Tallinn gathering; no national pooling inferred.",
+    "open_questions": [
+      "Search for a contemporaneous Tartu-specific report/date if available within permitted public sources.",
+      "No end time or response information for Tartu."
+    ],
+    "candidate_id": "estonia_2020-10_E002",
+    "unit_month": "2020-10",
+    "title": "Marriage-equality demonstration in Tartu reported as early October",
+    "start_date": "2020-10",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Tartu",
+    "organizer": null,
+    "participants_original": "About 150 protesters",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "ERR reports about 150 people at a separate demonstration in Tartu supporting the same changes; article places it at the beginning of October, with exact day unknown.",
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "ERR says the similar Tartu demonstration occurred at the beginning of October; exact day unknown."
+      },
+      "location": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Tartu."
+      },
+      "demands": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Support for marriage-equality changes and opposition to the planned referendum on defining marriage as between a man and a woman."
+      },
+      "participants": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "About 150 protesters."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "About 150 at the Tartu gathering establishes at least 50."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Not reported for this separate Tartu gathering; unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "No Tartu-specific state response reported; unknown."
+      }
+    },
+    "episode_key": "EST_TARTU_LGBT_RALLY_EARLY_2020-10"
+  }
+]

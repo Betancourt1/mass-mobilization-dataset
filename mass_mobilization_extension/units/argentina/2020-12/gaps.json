@@ -1,0 +1,366 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "eligibility_threshold",
+    "description": "The 1 December TN report establishes public actions and demands but gives no participant count for the Barrios de Pie march, the Labor Ministry protest, or the Plaza de Mayo produce distribution. Both candidate records remain pending threshold.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ARG202012_E001",
+      "ARG202012_E002"
+    ],
+    "required_followup": "Seek independent contemporary reports or organizer records with actual crowd evidence; keep separately reported gatherings disaggregated until organization/continuity is established."
+  },
+  {
+    "gap_id": "G002",
+    "type": "state_target",
+    "description": "The CAAF produce-sector action includes an intended petition to national authorities, but the relation between its market-competition complaint and state policy is unresolved.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ARG202012_E002"
+    ],
+    "required_followup": "Find the petition or contemporary reporting that identifies the requested state action; otherwise retain pending evidence/state target."
+  },
+  {
+    "gap_id": "G003",
+    "type": "state_response",
+    "description": "The reviewed passage does not establish arrests, force, accommodation, dispersal, shootings, killings, or official inaction for either candidate.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ARG202012_E001",
+      "ARG202012_E002"
+    ],
+    "required_followup": "Search event-specific reporting and preserve each response field as unknown absent affirmative evidence."
+  },
+  {
+    "gap_id": "G004",
+    "type": "continuity",
+    "description": "The 1 December report characterizes the actions as occurring on another day of protests; earlier/later actions with similar assistance demands may be related, but this source does not resolve whether they form one campaign or separate episodes.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ARG202012_E001"
+    ],
+    "required_followup": "Compare 30 November and 2-4 December coverage by organizer, demand, site and action to determine episode boundaries; do not merge by date/demand alone."
+  },
+  {
+    "gap_id": "G005",
+    "type": "coverage",
+    "description": "Quarter instructions reference planning/skip_units.json, but no skip_units.json or planning directory is present in the supplied package. Assignment and quarter allowlist row are present; the exact skip inventory therefore cannot be verified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should restore or explicitly account for the omitted skip inventory; research remains limited to the exact assigned Argentina December unit."
+  },
+  {
+    "gap_id": "G006",
+    "type": "baseline",
+    "description": "The supplied May 2015 codebook/manual was read. Official baseline/version/schema/universe/license, original private evidence, and exact country-code mapping remain unverified or unmigrated.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator retains baseline gate pending; use ccode=null until an exact supplied mapping is available."
+  },
+  {
+    "gap_id": "G007",
+    "type": "coverage",
+    "description": "Open web search is not equivalent to the manual’s LexisNexis newspaper workflow. No claim of monthly completeness is supportable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue systematic searches by week, language, region and sector; record archives and query limitations."
+  },
+  {
+    "gap_id": "G008",
+    "type": "eligibility_threshold",
+    "description": "The 29 December anti-legalization counter-gathering is confirmed, but simultaneous attendance at the site is unclear. The report mentions about 100 travelers from Santa Fe and says only small groups remained by midnight.",
+    "source_ids": [
+      "S013"
+    ],
+    "affected_candidates": [
+      "ARG202012_E006"
+    ],
+    "required_followup": "Find time-specific headcounts or independent contemporaneous reporting; do not transfer the traveler count to simultaneous attendance."
+  },
+  {
+    "gap_id": "G009",
+    "type": "event_end",
+    "description": "The EL PAÍS account describes the 29 December vigil and vote-night activity but does not state when either gathering ended.",
+    "source_ids": [
+      "S013"
+    ],
+    "affected_candidates": [
+      "ARG202012_E005",
+      "ARG202012_E006"
+    ],
+    "required_followup": "Search 30-31 December and early January coverage; leave end dates unknown absent a documented ending or last observed activity under an explicit rule."
+  },
+  {
+    "gap_id": "G010",
+    "type": "state_response",
+    "description": "State response and protester-violence fields remain unknown for the two abortion-law gatherings; the article does not report applicable arrests, violence, or dispersal.",
+    "source_ids": [
+      "S013"
+    ],
+    "affected_candidates": [
+      "ARG202012_E005",
+      "ARG202012_E006"
+    ],
+    "required_followup": "Search event-specific reports and keep each response field distinct and unknown where unsupported."
+  },
+  {
+    "gap_id": "G011",
+    "type": "eligibility_threshold",
+    "description": "The 17 December Garrahan demonstration is documented, but the TN report supplies no crowd estimate. The associated strike does not establish how many attended the public gathering.",
+    "source_ids": [
+      "S048"
+    ],
+    "affected_candidates": [
+      "ARG202012_E007"
+    ],
+    "required_followup": "Search independent reports, union records or contemporaneous images with simultaneous crowd evidence; otherwise keep pending threshold."
+  },
+  {
+    "gap_id": "G012",
+    "type": "state_response",
+    "description": "State response and protester-violence fields are unknown for the 17 December Garrahan demonstration.",
+    "source_ids": [
+      "S048"
+    ],
+    "affected_candidates": [
+      "ARG202012_E007"
+    ],
+    "required_followup": "Look for event-specific reporting; keep all seven response fields unknown absent evidence."
+  },
+  {
+    "gap_id": "G013",
+    "type": "state_response",
+    "description": "State accommodation, arrests, beatings, dispersal, ignore, killings and shootings are unknown for the Puente La Noria protest. A reported roadway fire does not establish protester violence against the state.",
+    "source_ids": [
+      "S051"
+    ],
+    "affected_candidates": [
+      "ARG202012_E008"
+    ],
+    "required_followup": "Search event-specific reporting for state response and the context/target of the roadway fire; keep fields separate."
+  },
+  {
+    "gap_id": "G014",
+    "type": "eligibility_threshold",
+    "description": "The 14 December Ezeiza demonstration/blockade is confirmed, but the TN report gives no count of protesters. Workforce totals are not attendee counts.",
+    "source_ids": [
+      "S052"
+    ],
+    "affected_candidates": [
+      "ARG202012_E009"
+    ],
+    "required_followup": "Seek direct or independent crowd evidence; preserve pending threshold unless simultaneous attendance >=50 is supported."
+  },
+  {
+    "gap_id": "G015",
+    "type": "state_target",
+    "description": "The Ezeiza action centered on LATAM/private-company job security, while a national Labor Ministry meeting and operating permit were also mentioned. The specific demand on state policy remains unclear.",
+    "source_ids": [
+      "S052"
+    ],
+    "affected_candidates": [
+      "ARG202012_E009"
+    ],
+    "required_followup": "Find organizer demands directed to a state agency or policy, distinguishing them from private employer negotiations."
+  },
+  {
+    "gap_id": "G016",
+    "type": "event_end",
+    "description": "The 10 December Rosario report says attendees planned an overnight stay during the vote but does not document when the vigil ended.",
+    "source_ids": [
+      "S016"
+    ],
+    "affected_candidates": [
+      "ARG202012_E010"
+    ],
+    "required_followup": "Search 11 December coverage for the actual conclusion; do not infer an end date from the plan alone."
+  },
+  {
+    "gap_id": "G017",
+    "type": "state_response",
+    "description": "State response and protester violence fields are unknown for the 10 December abortion-rights vigil.",
+    "source_ids": [
+      "S016"
+    ],
+    "affected_candidates": [
+      "ARG202012_E010"
+    ],
+    "required_followup": "Search event-specific reporting; record only explicitly supported fields."
+  },
+  {
+    "gap_id": "G018",
+    "type": "event_end",
+    "description": "The Rosario3 article says organizers planned to wait through the Senate vote on the night of 29 December but does not document when the gathering ended.",
+    "source_ids": [
+      "S041"
+    ],
+    "affected_candidates": [
+      "ARG202012_E011"
+    ],
+    "required_followup": "Search 30 December local coverage for the actual end of this Rosario vigil."
+  },
+  {
+    "gap_id": "G019",
+    "type": "state_response",
+    "description": "State response and protester violence remain unknown for the 29 December Rosario vigil.",
+    "source_ids": [
+      "S041"
+    ],
+    "affected_candidates": [
+      "ARG202012_E011"
+    ],
+    "required_followup": "Search incident-specific reporting and preserve unsupported fields as unknown."
+  },
+  {
+    "gap_id": "G020",
+    "type": "continuity",
+    "description": "The organizer-reported mass march of more than 8,000 on 3 December and the TN/Infobae-reported Tendencia Polo Obrero encampment later that day share topic and an area, but neither source resolves whether they were separate actions, overlapping participants, or a march-to-encampment sequence. Do not merge or sum counts.",
+    "source_ids": [
+      "S010",
+      "S002"
+    ],
+    "affected_candidates": [
+      "ARG202012_E003",
+      "ARG202012_E012"
+    ],
+    "required_followup": "Compare exact start time, route, organizers, action locations and contemporaneous independent reporting; preserve both pending review until episode boundaries are supported."
+  },
+  {
+    "gap_id": "G021",
+    "type": "eligibility_threshold",
+    "description": "The 3 December march of Buenos Aires public-health professionals is confirmed but TN provides no attendee count. The fact that the action spanned 34 hospitals cannot be used as crowd size.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "ARG202012_E013"
+    ],
+    "required_followup": "Find actual simultaneous attendance estimates from independent coverage or organizer material."
+  },
+  {
+    "gap_id": "G022",
+    "type": "event_occurrence",
+    "description": "TN announces a later nurse caravan to the City Government head’s residence and a nationwide MARA march on 3 December, but the opened report describes these as planned and does not confirm occurrence.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search after-the-fact contemporaneous records before creating event candidates; keep these announcements as unverified leads."
+  },
+  {
+    "gap_id": "G023",
+    "type": "eligibility_threshold",
+    "description": "The 2 December march to the City Legislature is established but no crowd size is reported.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "ARG202012_E014"
+    ],
+    "required_followup": "Seek contemporaneous independent or organizer reporting with actual attendance evidence."
+  },
+  {
+    "gap_id": "G024",
+    "type": "state_response",
+    "description": "No listed state response or protester violence is established for the 2 December Legislature march.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "ARG202012_E014"
+    ],
+    "required_followup": "Search event-specific reports and keep response fields unknown unless explicitly documented."
+  },
+  {
+    "gap_id": "G025",
+    "type": "event_boundary",
+    "description": "The 1 December report mentions a social-organization demonstration at the Labor Ministry in addition to the Barrios de Pie march to ANSES and CAAF produce distribution. Organizers, demand, threshold and relationship are not specified. It is retained separately pending review.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ARG202012_E001",
+      "ARG202012_E015"
+    ],
+    "required_followup": "Find event-specific contemporaneous coverage or organizer material; do not merge or assign the same count by date/location."
+  },
+  {
+    "gap_id": "G026",
+    "type": "eligibility_threshold",
+    "description": "The 3 December Córdoba doctors’ public march is confirmed, but Cadena 3 gives no simultaneous attendee count.",
+    "source_ids": [
+      "S081"
+    ],
+    "affected_candidates": [
+      "ARG202012_E016"
+    ],
+    "required_followup": "Seek independent or organizer attendance evidence; otherwise retain pending threshold."
+  },
+  {
+    "gap_id": "G027",
+    "type": "event_boundary",
+    "description": "Cadena 3 reports two distinct gatherings in Córdoba on 3 December: doctors for public-health wages/staffing and FOL for holiday food. Keep them separate because their targets and demands differ.",
+    "source_ids": [
+      "S081"
+    ],
+    "affected_candidates": [
+      "ARG202012_E016"
+    ],
+    "required_followup": "Preserve separate records and review whether the FOL protest had any separate municipal/state-policy demand not covered by the source."
+  },
+  {
+    "gap_id": "G028",
+    "type": "access_and_evidence",
+    "description": "The 21 December nurse-protest result at the exact Infobae URL displayed a sign-in prompt before article text. A fresh access-check recorded an exact-URL hold. A second potential report at Con La Gente Noticias timed out with no HTTP status or body; neither can be used to verify occurrence, demand detail or crowd size.",
+    "source_ids": [
+      "S067",
+      "S082"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry the Infobae URL or bypass the login. Use only independently accessible permitted reporting; keep this search-only lead unqualified unless supported."
+  },
+  {
+    "gap_id": "G029",
+    "type": "cross_month_continuity",
+    "description": "Late-November and January 2021 continuity queries were captured, but no specific outside-month event was verified as a continuation of any December candidate. Absence of a recorded continuation is not evidence that no continuation occurred. Long-running social-aid actions and the abortion-law vigils still have unresolved endpoints/episode boundaries.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S013",
+      "S041",
+      "S051"
+    ],
+    "affected_candidates": [
+      "ARG202012_E001",
+      "ARG202012_E003",
+      "ARG202012_E005",
+      "ARG202012_E006",
+      "ARG202012_E008",
+      "ARG202012_E010",
+      "ARG202012_E011",
+      "ARG202012_E012"
+    ],
+    "required_followup": "Review November and January unit evidence and event-specific reports for start/end/continuity before any consolidation; do not infer an end from month boundary or last publication."
+  },
+  {
+    "gap_id": "G030",
+    "type": "search_capture_loss",
+    "description": "One actual initial broad Spanish query was submitted before capture files were initialized. Its output was not saved to this dossier. Exact query text is retained as ARG202012_Q000_LOST; returned-header count, results and native metadata are unknown. The empty header array is explicitly output-lost/unknown, not a zero-result response.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No reconstruction attempted; retain this one-response loss in final query counts and do not treat it as a no-results search."
+  },
+  {
+    "gap_id": "G031",
+    "category": "event_followup",
+    "summary": "The 14 December march for release of detainees described by organizers as political prisoners is supported by one partially readable El Día report. Its subscriber-only notice followed visible event passages; no further access was attempted. End time, any listed state response or protester violence, and independent crowd corroboration remain unknown."
+  }
+]

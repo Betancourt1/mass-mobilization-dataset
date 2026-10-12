@@ -1,0 +1,40 @@
+[
+  {
+    "gap_id": "AZ202012_G001",
+    "type": "search_method",
+    "description": "Search operators expressed as natural-language weekly date windows may not be honored by the index; results repeatedly surfaced July/2019/2021 and other-country items. Result clocks/totals and query-specific attribution for the initial three-query batch were not exposed. The header-only v2 search log is linked to immutable rendered captures.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "For any newly surfaced lead, verify event and publication dates in an ordinary contemporaneous public source before coding; do not infer absence from noisy results."
+  },
+  {
+    "gap_id": "AZ202012_G002",
+    "type": "geographic_language_coverage",
+    "description": "Coverage included nationwide searches, Baku-focused searches, a Salyan worker lead, local Azerbaijani and Russian queries, and site-scoped queries for Report.az, APA, Azadliq and Meydan. It did not amount to a systematic scan of every regional print archive or every district; no equivalent to LexisNexis was available. This is an open-web method limitation, not evidence of zero protest.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If broader source coverage is required, use permitted district-level local archives and contemporaneous regional reports; identify an actual source rather than assuming a universal source gate."
+  },
+  {
+    "gap_id": "AZ202012_G003",
+    "type": "retrieval_failure",
+    "description": "The OC Media worker-protest result could not be opened: the managed browser returned an Internal Error (520, Unknown Status Code); the single pre-amendment ordinary shell fallback could not connect to its proxy and returned no HTTP status. This is a technical failure, not a denial. Its search-rendered content points to a late-April context for other actions but does not establish an exact Salyan date, December timing, threshold or state target.",
+    "source_ids": [
+      "AZ202012_S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No repeat request to the failing target. If another permitted public result later establishes a December Salyan event, verify with an alternate contemporaneous source and a fresh local assessment."
+  },
+  {
+    "gap_id": "AZ202012_G004",
+    "type": "continuity",
+    "description": "The missing-service-member search found RFE/RL reporting on 25 November 2020 that described families at hospital lists and no public Baku protest signs as of that date, plus April 2021 reports of later family gatherings. The November account does not settle December; the April gatherings are later and their attendance is not established as 50. No December episode or continuation is evidenced by these records.",
+    "source_ids": [
+      "AZ202012_S002",
+      "AZ202012_S004",
+      "AZ202012_S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a December 2020 family gathering is found in later source discovery, establish its date, number of people physically gathered, domestic-state demand and relationship to the separate April activity before assigning onset."
+  }
+]

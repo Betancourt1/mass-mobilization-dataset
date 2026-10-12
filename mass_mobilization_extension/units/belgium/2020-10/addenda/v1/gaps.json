@@ -1,0 +1,57 @@
+[
+  {
+    "gap_id": "BEL202010_G001",
+    "type": "event_boundary_and_evidence",
+    "description": "The opened Brussels Times story supports two same-day COVID-restriction groups: about 200 at Cinquantenaire and a separate about-200 group near Gare du Nord. The latter’s independent duration, exact demand and relationship to the first group remain less clear.",
+    "source_ids": [
+      "BEL202010_S001"
+    ],
+    "affected_candidates": [
+      "BEL202010_E001",
+      "BEL202010_E002"
+    ],
+    "required_followup": "Check only exact, permitted contemporary reports for the Gare du Nord action and distinguish group/action boundaries. Keep E002 pending evidence without merging it or borrowing facts from E001."
+  },
+  {
+    "gap_id": "BEL202010_G002",
+    "type": "state_target_pending",
+    "description": "BRUZZ reports about 200 people protesting far-right politics on 3 October and includes one participant’s demand that the Belgian government prohibit an earlier Vlaams Belang gathering. The larger event focus also includes opposition to parties/ideas and the Greek Golden Dawn case.",
+    "source_ids": [
+      "BEL202010_S002"
+    ],
+    "affected_candidates": [
+      "BEL202010_E003"
+    ],
+    "required_followup": "Reviewer should assess whether a domestic-state demand was central enough under the manual. Maintain pending_state_target; do not infer that opposition to a party automatically targets the state."
+  },
+  {
+    "gap_id": "BEL202010_G003",
+    "type": "coverage_pending",
+    "description": "Sixteen real managed-search queries covered broad English/French/Dutch terms, localized and sector searches, and weekly/date windows. Returned results included out-of-month/modern pages and noisy false positives; only two distinct bodies were opened. No archive-equivalent/ LexisNexis collection was used. This is bounded open-web discovery, not an exhaustive October census.",
+    "source_ids": [
+      "BEL202010_S001",
+      "BEL202010_S002",
+      "BEL202010_S003",
+      "BEL202010_S004"
+    ],
+    "affected_candidates": [
+      "BEL202010_E001",
+      "BEL202010_E002",
+      "BEL202010_E003"
+    ],
+    "required_followup": "If expanding coverage, prioritize local Belgian-language reporting for material dates/actions not already resolved and exact-body confirmation for threshold/state-target candidates. Preserve search-only foreign-target leads and do not interpret gaps as zero events."
+  },
+  {
+    "gap_id": "BEL202010_G004",
+    "type": "source_origin_and_capture_incident",
+    "description": "The first assessment artifact for the Brussels Times open was an erroneous preliminary record with unsupported time/hash; an auto-review rejection occurred when attempting to remove it. Both original assessment and rejection are preserved unchanged; version 2 assessment/outcome and incident receipt document the actual request.",
+    "source_ids": [
+      "BEL202010_S001"
+    ],
+    "affected_candidates": [
+      "BEL202010_E001",
+      "BEL202010_E002"
+    ],
+    "required_followup": "Review incident BEL202010_INCIDENT_001 and LA001.v2 together. Do not use the preliminary assessment as factual evidence; retain the source-level contemporaneous v2 record."
+  }
+]

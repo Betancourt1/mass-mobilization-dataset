@@ -1,0 +1,48 @@
+[
+  {
+    "gap_id": "kenya_2020-11-G001",
+    "candidate_ids": [
+      "kenya_2020-11-E001"
+    ],
+    "dimensions": [
+      "threshold_50",
+      "start_end_precision",
+      "independent_corroboration"
+    ],
+    "reason": "Senate Hansard supports occurrence and state-directed demand, but not attendance or exact interval. KNA article body timed out; this is a method limit, not evidence of absence.",
+    "evidence": [
+      "KEN202011_MARSABIT_HANSARD",
+      "KEN202011_MARSABIT_KNA"
+    ],
+    "next_permitted_action": "Seek an independent accessible local report, parliamentary/administrative record, or documented participant estimate; do not retry the KNA timeout URL."
+  },
+  {
+    "gap_id": "kenya_2020-11-G002",
+    "candidate_ids": [],
+    "dimensions": [
+      "source_scope",
+      "weekly_regional_coverage"
+    ],
+    "reason": "English/Swahili discovery and local followups covered selected Nairobi, Marsabit and Mai Mahiu leads; no systematic all-county/weekly sweep or full archive was completed.",
+    "evidence": [
+      "KEN202011_Q003",
+      "KEN202011_Q004",
+      "KEN202011_Q008"
+    ],
+    "next_permitted_action": "Continue date-windowed local reporting and Swahili queries for other counties and sectors; cross-check against permitted independent source sets."
+  },
+  {
+    "gap_id": "kenya_2020-11-G003",
+    "candidate_ids": [
+      "kenya_2020-11-E001"
+    ],
+    "dimensions": [
+      "neighboring_month_continuity"
+    ],
+    "reason": "Marsabit event may have begun in early November, but Oct onset and event end not resolved.",
+    "evidence": [
+      "KEN202011_MARSABIT_HANSARD"
+    ],
+    "next_permitted_action": "Check Oct/Nov adjacent dates for this specific teacher-murder protest and later reported demonstrations."
+  }
+]

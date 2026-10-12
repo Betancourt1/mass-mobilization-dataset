@@ -1,0 +1,150 @@
+[
+  {
+    "candidate_id": "CB202010_E001",
+    "country": "Congo Brazzaville",
+    "ccode": null,
+    "unit_month": "2020-10",
+    "title": "Volunteer teachers’ sit-in outside the Treasury",
+    "start_date": "2020-10-01",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Brazzaville, outside the Public Treasury",
+    "scope": "local",
+    "organizer": "Volunteer teachers; named coordination not established in rendered article",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "Several; no numeric crowd estimate",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The article says several teachers took part; it does not establish 50 simultaneous participants. The 4,160 figure is the workforce affected, not attendance.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The opened article dates the sit-in to Thursday morning, 1 October 2020."
+      },
+      "location": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The report locates the sit-in before the Public Treasury in Brazzaville."
+      },
+      "demands": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The teachers sought eight months of unpaid remuneration and criticized government treatment."
+      },
+      "participants": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Only a qualitative description (“several”) is given; 4,160 refers to the total workforce, not the sit-in."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "No crowd count or clear lower bound of 50 is established."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "CB-TEACHER-VOLUNTEERS-2020",
+    "notes": "Date-specific physical action is retained as a candidate, but attendance threshold remains unknown. A September 17 saucepan protest surfaced in a follow-up search; do not merge without evidence of continuity.",
+    "open_questions": [
+      "Can another contemporary source give a count for this sit-in?",
+      "Was there a distinct follow-up action after 1 October?"
+    ]
+  },
+  {
+    "candidate_id": "CB202010_E002",
+    "country": "Congo Brazzaville",
+    "ccode": null,
+    "unit_month": "2020-10",
+    "title": "Sopéco workers’ intended demonstration reportedly stopped by police",
+    "start_date": "2020-10-06",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Brazzaville, reportedly outside Sopéco headquarters",
+    "scope": "local",
+    "organizer": "Sopéco workers/inter-union; exact organization unknown",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Search-result text reports an intended demonstration stopped by police; it supplies no count and the rendered body has not been requested.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S003"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "The search header/snippet reports workers intended to demonstrate on 6 October; body not opened."
+      },
+      "location": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Search text identifies the company headquarters in Brazzaville; precise venue not confirmed from body."
+      },
+      "demands": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Search result associates the action with unpaid salary demands in the wider strike; this relation is not body-verified."
+      },
+      "participants": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "No attendance number surfaced."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Search-result-only evidence does not establish 50 participants or an actual assembled crowd."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "CB-SOPECO-2020-09-12",
+    "notes": "Discovery lead only. Kept separate from the reported strike and from other Sopéco dates; body verification and whether a crowd assembled remain unresolved.",
+    "open_questions": [
+      "Did any workers assemble before police blocked the demonstration?",
+      "Can a body-accessible report establish attendance, actual action, and target?"
+    ]
+  }
+]

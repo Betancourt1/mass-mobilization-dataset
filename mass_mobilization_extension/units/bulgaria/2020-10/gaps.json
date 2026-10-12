@@ -1,0 +1,75 @@
+[
+  {
+    "gap_id": "BG202010_G001",
+    "type": "threshold",
+    "description": "The October 16 Sofia national rally and the separate Ruse bridge action on October 3 have no supported attendance count. Sofia October 3 is reported as thousands and is the only current candidate with clear threshold evidence.",
+    "source_ids": [
+      "S001",
+      "S004"
+    ],
+    "affected_candidates": [
+      "BG202010_E002",
+      "BG202010_E003"
+    ],
+    "required_followup": "Seek contemporaneous crowd estimates specific to each gathering; do not carry Sofia numbers over to Ruse or use campaign-wide totals."
+  },
+  {
+    "gap_id": "BG202010_G002",
+    "type": "state_target",
+    "description": "The Ruse bridge blockade is physically reported, but its local participants’ own demand is not separately established in the source body.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "BG202010_E002"
+    ],
+    "required_followup": "Find a permitted local account specifying organizer and demand; keep state-target eligibility pending."
+  },
+  {
+    "gap_id": "BG202010_G003",
+    "type": "continuity",
+    "description": "The July-start anti-government campaign produced discrete October 3 and October 16 gatherings. The accessible sources do not establish a continuous October action or an endpoint. Police wage protests began physically in Varna on October 21, with later same-issue rallies possibly related but not automatically merged.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S008",
+      "S010"
+    ],
+    "affected_candidates": [
+      "BG202010_E001",
+      "BG202010_E003",
+      "BG202010_E004"
+    ],
+    "required_followup": "Review adjacent September/November physical actions and any reports that state an action ended; preserve separate dates and unknown endpoints."
+  },
+  {
+    "gap_id": "BG202010_G004",
+    "type": "source_access",
+    "description": "Several BNR/Smolyan exact page opens returned tool timeout/502/not-accessible technical outcomes. No actual publisher denial was observed; no retry was made.",
+    "source_ids": [
+      "S003",
+      "S006",
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use other already permitted sources for relevant event facts; do not retry the failed exact targets."
+  },
+  {
+    "gap_id": "BG202010_G005",
+    "type": "coverage",
+    "description": "Four Bulgarian weekly windows and additional English/Bulgarian generic, local and event-focused searches covered Sofia, Ruse, Plovdiv, Varna and Smolyan leads. Public web search is not LexisNexis; native result totals were not exposed, and the method is not exhaustive.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S007",
+      "S010"
+    ],
+    "affected_candidates": [
+      "BG202010_E001",
+      "BG202010_E002",
+      "BG202010_E003",
+      "BG202010_E004"
+    ],
+    "required_followup": "Independent review may identify material regional/month continuity tasks; do not interpret unreturned leads as absence of protest."
+  }
+]

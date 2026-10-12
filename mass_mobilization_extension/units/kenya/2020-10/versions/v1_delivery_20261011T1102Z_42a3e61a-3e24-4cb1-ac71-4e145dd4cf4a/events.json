@@ -1,0 +1,154 @@
+[
+  {
+    "candidate_id": "kenya_2020-10-E001",
+    "country": "Kenya",
+    "ccode": null,
+    "unit_month": "2020-10",
+    "title": "Kawangware 56 residents protest over insecurity and alleged police involvement in rider death",
+    "start_date": "2020-10-12",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": [
+      "Kawangware 56 estate, Nairobi"
+    ],
+    "scope": "local public gathering; actual size unknown",
+    "organizer": "Residents/youth; identity not further reported",
+    "demands": [
+      "police_brutality"
+    ],
+    "participants_original": "Not stated in source.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Article confirms a public gathering but provides no count or qualitative scale supporting 50 participants; pending threshold.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "KEN202010_KAWANGWARE"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "KEN202010_KAWANGWARE"
+        ],
+        "summary": "Article identifies Monday 12 October 2020."
+      },
+      "location": {
+        "source_ids": [
+          "KEN202010_KAWANGWARE"
+        ],
+        "summary": "Kawangware 56 estate, Nairobi."
+      },
+      "occurrence": {
+        "source_ids": [
+          "KEN202010_KAWANGWARE"
+        ],
+        "summary": "Residents/youth gathered and protested after a rider death; road obstruction and police confrontation reported."
+      },
+      "demands": {
+        "source_ids": [
+          "KEN202010_KAWANGWARE"
+        ],
+        "summary": "Demanded justice and raised insecurity/alleged police arrest concern."
+      },
+      "participants_original": {
+        "source_ids": [
+          "KEN202010_KAWANGWARE"
+        ],
+        "summary": "No attendee number or threshold language."
+      },
+      "state_response": {
+        "source_ids": [
+          "KEN202010_KAWANGWARE"
+        ],
+        "summary": "Police used tear gas to disperse protesters."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Violence does not itself exclude; the unresolved essential fact is threshold. No inference about 50 attendees.",
+    "open_questions": "Attendance minimum; separate corroboration; full episode end and any unresolved neighboring activity."
+  },
+  {
+    "candidate_id": "kenya_2020-10-E002",
+    "country": "Kenya",
+    "ccode": null,
+    "unit_month": "2020-10",
+    "title": "Law Society-led Occupy Parliament protest over gender-rule nonimplementation",
+    "start_date": "2020-10",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": [
+      "Parliament Buildings, Nairobi"
+    ],
+    "scope": "local public gathering; exact event-day conflict in source",
+    "organizer": "Law Society of Kenya; United Green Movement named",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Not stated; search result from another outlet described only a handful, not body-opened here.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Body confirms protest outside Parliament but no attendance size. Day differs: article states Monday 12 Oct, caption dates protest 11 Oct. Exact date and threshold both unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "KEN202010_LSK"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "KEN202010_LSK"
+        ],
+        "summary": "Month supported; conflicting 11/12 Oct wording not resolved."
+      },
+      "location": {
+        "source_ids": [
+          "KEN202010_LSK"
+        ],
+        "summary": "Parliament Buildings, Nairobi."
+      },
+      "occurrence": {
+        "source_ids": [
+          "KEN202010_LSK"
+        ],
+        "summary": "Body reports protests and petition delivery; actual gathering distinct from planned occupation."
+      },
+      "demands": {
+        "source_ids": [
+          "KEN202010_LSK"
+        ],
+        "summary": "Demand Parliament action following Chief Justice advisory and failure to enact two-thirds gender rule; pressure on President to dissolve Parliament."
+      },
+      "participants_original": {
+        "source_ids": [
+          "KEN202010_LSK"
+        ],
+        "summary": "No attendance count in body."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Do not confuse announced occupation plan with execution; body reports actual protests/petition handover, but date and threshold unresolved.",
+    "open_questions": "Exact date; group size; complete end; other-source confirmation."
+  }
+]

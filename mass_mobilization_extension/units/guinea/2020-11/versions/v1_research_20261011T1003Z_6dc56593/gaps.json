@@ -1,0 +1,41 @@
+[
+  {
+    "gap_id": "GIN202011GAP-THRESHOLDS",
+    "dimension": "candidate threshold",
+    "candidate_ids": [
+      "GIN202011CAND-NOV03-LABE",
+      "GIN202011CAND-NOV25-LABE"
+    ],
+    "status": "pending",
+    "detail": "Neither retained body establishes >=50 simultaneous people at the specific Labé site. Nov25 available source describes many citizens but not a numeric count.",
+    "next_permitted_action": "Exact-target assessment and local reporting search for Nov3/Nov25 Labé site-specific attendance."
+  },
+  {
+    "gap_id": "GIN202011GAP-OTHER-REGIONS",
+    "dimension": "material coverage",
+    "status": "pending",
+    "detail": "Regional and weekly searching is partial; search-result summaries mention other cities but do not establish individual site occurrence/size.",
+    "next_permitted_action": "Continue weekly regional searches for Conakry, Kankan, Nzérékoré, Boké and other named sites in French and relevant local outlets."
+  },
+  {
+    "gap_id": "GIN202011GAP-CONAKRY-25",
+    "dimension": "site-specific coverage",
+    "status": "pending",
+    "detail": "No Conakry gathering is established by the retained body set; market closures are not a crowd event. Do not infer absence.",
+    "next_permitted_action": "Review feasible city-specific sources for Nov25 call outcome; avoid treating announcement or market shutdown as gathering."
+  },
+  {
+    "gap_id": "GIN202011GAP-HRWHOLD",
+    "dimension": "source access",
+    "status": "constrained",
+    "detail": "HRW result surfaced but exact target remains on hold; no body request made. Guineematin Nov25 first request returned internal error and was not retried.",
+    "next_permitted_action": "Respect HRW hold; retain Guineematin technical failure without retry."
+  },
+  {
+    "gap_id": "GIN2011GAP-MISSING-LOCAL-BODY-CAPTURES",
+    "dimension": "evidence retention / assessed source follow-up",
+    "status": "pending",
+    "detail": "Pre-body assessments exist for one or more exact URLs without corresponding rendered body captures in this current version. No body claims from those targets are used here.",
+    "next_permitted_action": "Preserve current records; if a future task authorizes another request, first make a fresh exact-target assessment and save a new uniquely named capture without altering these files."
+  }
+]
