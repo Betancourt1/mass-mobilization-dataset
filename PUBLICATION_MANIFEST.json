@@ -1,0 +1,84 @@
+{
+  "kind": "byte_identical_safe_file_selection",
+  "policy_revision": "87dc8fc355c9ac413493e9e6d54e0138e5637347",
+  "policy_manifest_sha256": "da1104ad30871a5f63077d1f6408ae1f014561f093341a7cd0586cd508aa85eb",
+  "selection_rule": "Exact-path and exact-hash subset of reference manifest; additional sensitive-pattern exclusions; no transformed source file is retained. New safe closure metadata is listed separately.",
+  "source_stop_checkpoint_sha256": "982081f09e1fad06b1eae5b022af183d61aae6cbee8758bf15f02799c32001cd",
+  "files": [
+    {
+      "path": "mass_mobilization_extension/protocol/data_dictionary.txt",
+      "sha256": "f84db23df893d187f061c91d89cce30b0648e0016750b528fae024befd2a65fb",
+      "bytes": 3409
+    },
+    {
+      "path": "mass_mobilization_extension/protocol/deviations_from_original.txt",
+      "sha256": "50a3684639b2bb1de5d291212e9015aae0a6db68e068e831963cae39008a04c5",
+      "bytes": 2543
+    },
+    {
+      "path": "mass_mobilization_extension/protocol/gap_dimensions.txt",
+      "sha256": "e5095520ce8c0141d32ed0eac3975f1d67c061ae8d3d09589171762862d1da64",
+      "bytes": 1566
+    },
+    {
+      "path": "mass_mobilization_extension/protocol/review_policy.txt",
+      "sha256": "abe3bce7786f46e70eb4c130fca69d2ae6e6c39f4f7a99fe30fe6fc6e1d9e7ce",
+      "bytes": 2489
+    },
+    {
+      "path": "mass_mobilization_extension/scripts/assign_unit.py",
+      "sha256": "d11a611b62f9ee31e8d6fefcae8d0eda0a9de9819a616a4caf42e1b525199453",
+      "bytes": 1746
+    },
+    {
+      "path": "mass_mobilization_extension/scripts/build_reviewed_delivery.py",
+      "sha256": "995a797ec202e53552452894b784699a5cc339996764c098e752d27bb32ba2d5",
+      "bytes": 2665
+    },
+    {
+      "path": "mass_mobilization_extension/scripts/prepare_distribution_metadata.py",
+      "sha256": "873428628617c47b6baf80f16475973f73e31aef2ac348881c02056ccc7d1a27",
+      "bytes": 3411
+    },
+    {
+      "path": "mass_mobilization_extension/scripts/research.py",
+      "sha256": "8c8426f95450e9213256f119f183cb990104f609b77763e5c967d7f534b70877",
+      "bytes": 66845
+    },
+    {
+      "path": "mass_mobilization_extension/scripts/write_status_report.py",
+      "sha256": "fa5f7640bd4cfdb6430a4fbf543a6444359557dbd8cfdc6b1193f1b77082b70a",
+      "bytes": 6980
+    },
+    {
+      "path": "mass_mobilization_extension/planning/countries_provisional.csv",
+      "sha256": "a66053b723ff0f491c90885d496261c67258bf1a1e8c575c9d9fc594b03b27cd",
+      "bytes": 23006
+    }
+  ],
+  "generated_closure_metadata": [
+    {
+      "path": "PROGRESS.json",
+      "sha256": "e1f1008c628dba6bac1bb4ba8075faf713f76165d6d57382f83befcaafe15539",
+      "bytes": 1603
+    },
+    {
+      "path": "UNIT_PROGRESS.json",
+      "sha256": "d5f20850e2f391260454dbf6e261d72341c1176b2a77a8d7b2486cfd432e213a",
+      "bytes": 18645
+    },
+    {
+      "path": "README.md",
+      "sha256": "690aef0234c0096811ec439c274b6c73fdabf097a9113e35c53788547cfc5147",
+      "bytes": 1221
+    }
+  ],
+  "omission_scope": [
+    "whole scientific dossiers",
+    "raw/body/capture/excerpt text",
+    "source and search ledgers",
+    "private reading and runtime controls",
+    "local paths and personal identifiers",
+    "credentials and original history"
+  ]
+}
