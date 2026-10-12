@@ -1,0 +1,83 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline",
+    "description": "Official event baseline and historical access ledgers are unavailable in the migrated workspace; no earlier source access history was reconstructed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to provide/confirm official baseline and historical ledger if available."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage",
+    "description": "Open-web English/Gaeilge discovery covered date, generic, episode and policy terms but is not exhaustive and does not replicate LexisNexis.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If authorized/available, add systematic newspaper/archive coverage."
+  },
+  {
+    "gap_id": "G003",
+    "type": "source_independence",
+    "description": "The two opened 9 November Palestine march articles reproduce the same Press Association dispatch; no independent body-level corroboration for that turnout was obtained.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "ireland_2024-11-E001"
+    ],
+    "required_followup": "Locate a contemporaneous independent report with its own reporting and attendance evidence."
+  },
+  {
+    "gap_id": "G004",
+    "type": "access",
+    "description": "RTÉ’s 9 November Palestine march was not opened and has no access receipt; RTÉ’s 23 November rally report and the IPSC organizer page returned HTTP 403 and were not retried. ArabDublin explicitly reproduces RTÉ and cannot substitute for it.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S005",
+      "S009"
+    ],
+    "affected_candidates": [
+      "ireland_2024-11-E001",
+      "ireland_2024-11-E002"
+    ],
+    "required_followup": "Do not reopen held/blocked targets absent new authorized context; use independently sourced coverage."
+  },
+  {
+    "gap_id": "G005",
+    "type": "state_target",
+    "description": "The anti-racism rally meets the reported turnout threshold, but a concrete government-directed demand is not clear from the accessible post-event report.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ireland_2024-11-E002"
+    ],
+    "required_followup": "Review complete speeches/organizer materials or independent contemporaneous account to determine the exact demand/addressee."
+  },
+  {
+    "gap_id": "G006",
+    "type": "continuity",
+    "description": "The 9 November march and 23 November rally are distinct public gatherings; no continuous action/end date has been evidenced.",
+    "source_ids": [
+      "S002",
+      "S006"
+    ],
+    "affected_candidates": [
+      "ireland_2024-11-E001",
+      "ireland_2024-11-E002"
+    ],
+    "required_followup": "No merge absent evidence of same continuous event."
+  },
+  {
+    "gap_id": "G007",
+    "type": "language",
+    "description": "Gaeilge search coverage was attempted but produced little relevant material.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search local-language archives if available; no inference of absence."
+  }
+]

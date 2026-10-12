@@ -1,0 +1,225 @@
+[
+  {
+    "gap_id": "BD24Q4-202410-G001",
+    "type": "capture_gap",
+    "description": "Output lost after the first web_run bundled English general, Bengali general and English garment/police/student queries; no actual headers retained. Records BD24OCT-Q001 through Q003 have empty arrays only as captured-header placeholders and null actual output/count.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Repeat each as a new query execution if needed; do not infer zero results."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G002",
+    "type": "capture_gap",
+    "description": "Standalone repeated English query returned from web_run but wrapper failed before output was saved. Actual result set is unknown.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Recapture as a new query ID if useful; preserve this loss record."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G003",
+    "type": "capture_gap",
+    "description": "Repeated English query output was truncated in the transcript and not retained as a complete capture; actual header count/results unknown.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Recapture with safe persistence as a new query ID if useful."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G004",
+    "type": "coverage_limit",
+    "description": "Open-web search does not reproduce LexisNexis or systematically cover Bangladesh national, regional and local newspaper archives; historical source-check originals are omitted.",
+    "source_ids": [],
+    "affected_candidates": [
+      "BD24Q4-202410-E001"
+    ],
+    "required_followup": "Coordinator review with official baseline and broader newspaper sources when available."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G005",
+    "type": "continuity",
+    "description": "Bangabhaban sit-in may have extended overnight; available article does not establish whether the action continued on 23 October. Relationship to Central Shaheed Minar and other same-day demonstrations is uncertain.",
+    "source_ids": [
+      "BD24Q4-202410-S001",
+      "BD24Q4-202410-S004"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202410-E001"
+    ],
+    "required_followup": "Search and review contemporary 23 October follow-up and event-organizer links."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G006",
+    "type": "protester_violence",
+    "description": "TBS reports protesters rammed a barricade and a confrontation with Army personnel but gives no specific injury, damage or assault by protesters in accessed passages.",
+    "source_ids": [
+      "BD24Q4-202410-S001"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202410-E001"
+    ],
+    "required_followup": "Check other permitted contemporaneous reports for explicit protester violence; otherwise retain unknown."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G007",
+    "type": "threshold",
+    "description": "Minority-rights coalition rally at Central Shaheed Minar on 4 October has own-state policy demands, but no simultaneous participant count in opened sources.",
+    "source_ids": [
+      "BD24Q4-202410-S040",
+      "BD24Q4-202410-S042"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202410-E002"
+    ],
+    "required_followup": "Find a contemporaneous independent report with attendance estimate; preserve pending_threshold if absent."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G008",
+    "type": "continuity",
+    "description": "The October 4 minority-rights rally may be part of broader protests over attacks on minorities after the August political transition; onset and continuity were not established.",
+    "source_ids": [
+      "BD24Q4-202410-S040",
+      "BD24Q4-202410-S042"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202410-E002"
+    ],
+    "required_followup": "Search September and November reports for same organizers, demands and event-specific continuity."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G009",
+    "type": "threshold",
+    "description": "Private-college teachers’ MPO inclusion sit-in has no total attendance estimate. The report’s 33 injured is not the number of participants.",
+    "source_ids": [
+      "BD24Q4-202410-S049"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202410-E004"
+    ],
+    "required_followup": "Search independent contemporary reports for a simultaneous crowd estimate; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G010",
+    "type": "continuity",
+    "description": "The report describes the 17 October action as day three of a sit-in and says teachers had been protesting for two days; 15 October start is inferred. Endpoint and continuation after the long march are unknown.",
+    "source_ids": [
+      "BD24Q4-202410-S049"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202410-E004"
+    ],
+    "required_followup": "Find contemporaneous coverage for 15-18 October and any later continuation."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G011",
+    "type": "threshold_and_continuity",
+    "description": "The 19 October government-outsourcing employees’ blockade had a clear own-government job-policy demand and lasted six hours, but attendance is unreported; its relation to an earlier long-running campaign is unresolved.",
+    "source_ids": [
+      "BD24Q4-202410-S010",
+      "BD24Q4-202410-S051"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202410-E003"
+    ],
+    "required_followup": "Find a contemporaneous turnout estimate and dated campaign chronology; retain pending_threshold and episode uncertainty absent evidence."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G012",
+    "type": "retrieval_failure",
+    "description": "The Daily Star search-result URL about an RMG blockade could not be opened by the web tool; no HTTP response or access-denial evidence was returned. It remains search-only.",
+    "source_ids": [
+      "BD24Q4-202410-S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use only if a permitted ordinary public retrieval path becomes available; do not treat tool limitation as publisher denial or rely on snippet for coding."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G013",
+    "type": "capture_gap",
+    "description": "Query BD24OCT-Q024 was executed, but the capture wrapper failed after web_run returned and the output was lost before headers could be preserved. The subsequent repeated HSC search is a distinct execution Q028.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain Q024 as output_lost; do not interpret placeholders as an empty result. Q028 is the separate captured retry."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G014",
+    "type": "source_access_deviation",
+    "description": "A batched open of saved refs returned an unexpected official Dhaka Education Board URL (https://dhakaeducationboard.gov.bd/index.php/site/product/hsccorner?w=on) for turn502774search2, although the checked S054-S058 exact URLs were news pages. Its body was opened without a fresh exact-URL check; no scientific use is made of it.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve deviation; do not cite or reopen this body. For subsequent retrieval use exact URL opens only after fresh source-specific access checks."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G015",
+    "type": "threshold_and_ownership",
+    "description": "The 20 October HSC Batch-2024 demonstration at Dhaka Education Board has clear occurrence and own-state education-policy demands, but no Dhaka attendance estimate. The Daily Star's hundreds estimate concerns Jashore and cannot be transferred.",
+    "source_ids": [
+      "BD24Q4-202410-S054",
+      "BD24Q4-202410-S055",
+      "BD24Q4-202410-S056",
+      "BD24Q4-202410-S058"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202410-E006",
+      "BD24Q4-202410-E007"
+    ],
+    "required_followup": "Find exact local headcounts and determine whether simultaneous actions at separate boards were locally independent or one nationally organized event."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G016",
+    "type": "episode_boundary",
+    "description": "The 23 October Secretariat protest had 50–60 participants, own-government HSC-result demand, and police dispersal/detention. UNB notes a similar 20 October HSC Batch-2024 protest, but source evidence does not establish same group or episode boundary.",
+    "source_ids": [
+      "BD24Q4-202410-S054",
+      "BD24Q4-202410-S055",
+      "BD24Q4-202410-S057"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202410-E005",
+      "BD24Q4-202410-E006"
+    ],
+    "required_followup": "Review onset/continuity and group ownership across adjacent dates and months before assigning the final event unit."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G017",
+    "type": "retrieval_failure",
+    "description": "The Daily Star exact URL S070 returned a tool 400 timeout when opened, without an HTTP status or source-side denial. It remains search-only; the search lead mentions five injuries but does not establish total attendance or event date.",
+    "source_ids": [
+      "BD24Q4-202410-S070"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202410-E010"
+    ],
+    "required_followup": "Use only if a permitted ordinary public retrieval path is available after a new exact-URL check; do not treat the timeout as publisher denial or infer threshold from injuries."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G018",
+    "type": "episode_boundary",
+    "description": "The 35-year government-job age-limit campaign appears in separate Shahbagh reports on 14, 21 and 30 October. The 21 October sit-in had over 100, and the 30 October Shikkha Bhaban attempt around 200, but intervening continuity/ownership and whether dates are one long event or separate actions remain unresolved.",
+    "source_ids": [
+      "BD24Q4-202410-S067",
+      "BD24Q4-202410-S068",
+      "BD24Q4-202410-S069",
+      "BD24Q4-202410-S071",
+      "BD24Q4-202410-S072"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202410-E008",
+      "BD24Q4-202410-E009",
+      "BD24Q4-202410-E010"
+    ],
+    "required_followup": "Review initiative/group ownership, intervening dates, end dates and campaign onset before event assignment; do not merge based on common demand alone."
+  },
+  {
+    "gap_id": "BD24Q4-202410-G019",
+    "type": "versioned_structural_correction",
+    "description": "In this V1 effective copy, duplicate candidate rows E005–E007 in inherited events.json were deduplicated by candidate_id. E009/E010 state-response no values were normalized to the schema enum no_explicit. Original files and bytes remain preserved in the parent unit directory.",
+    "source_ids": [],
+    "affected_candidates": [
+      "BD24Q4-202410-E005",
+      "BD24Q4-202410-E006",
+      "BD24Q4-202410-E007",
+      "BD24Q4-202410-E009",
+      "BD24Q4-202410-E010"
+    ],
+    "required_followup": "Independent reviewer should confirm duplicate rows were identical and that no-explicit values are evidence-backed."
+  }
+]

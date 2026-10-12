@@ -1,0 +1,65 @@
+[
+  {
+    "gap_id": "ES24DEC-G001",
+    "type": "threshold",
+    "description": "Anti-mining events on Dec20, Dec23 and Dec31 are actual state-targeted gatherings, but captured sources provide no simultaneous participant estimate. Dec30 MOVIR BINAES plantón also lacks attendance information.",
+    "source_ids": [
+      "ES24DEC-S003",
+      "ES24DEC-S005",
+      "ES24DEC-S006",
+      "ES24DEC-S012"
+    ],
+    "affected_candidates": [
+      "ES24DEC-E002",
+      "ES24DEC-E003",
+      "ES24DEC-E004",
+      "ES24DEC-E005"
+    ],
+    "required_followup": "Search local photo/video, organizer, and independent reporting for event-specific simultaneous turnout; do not count organizations or community population as crowd size."
+  },
+  {
+    "gap_id": "ES24DEC-G002",
+    "type": "unit_and_continuity",
+    "description": "Three discrete anti-mining actions are reported on Dec20, Dec23 and Dec31; continuous action or one national gathering is not shown. Organizer/route similarity is insufficient to merge.",
+    "source_ids": [
+      "ES24DEC-S003",
+      "ES24DEC-S005",
+      "ES24DEC-S006"
+    ],
+    "affected_candidates": [
+      "ES24DEC-E002",
+      "ES24DEC-E003",
+      "ES24DEC-E005"
+    ],
+    "required_followup": "Check organizer statements for coordination and evidence of continuous occupation; retain separate occurrences absent proof."
+  },
+  {
+    "gap_id": "ES24DEC-G003",
+    "type": "date_and_route",
+    "description": "The detainee-family march clearly began Dec9 and continued Dec10, but published reports identify different start places (La Paz, Cristo de la Paz/San Marcos, Santo Tomás). Exact coalition lead is also uncertain.",
+    "source_ids": [
+      "ES24DEC-S001",
+      "ES24DEC-S002",
+      "ES24DEC-S009",
+      "ES24DEC-S010"
+    ],
+    "affected_candidates": [
+      "ES24DEC-E001"
+    ],
+    "required_followup": "Resolve whether names refer to the same place or different legs/origin points and identify organizers from contemporaneous route/organizer material."
+  },
+  {
+    "gap_id": "ES24DEC-G004",
+    "type": "coverage",
+    "description": "Spanish open-web queries covered full-month and weekly windows with detention-rights, mining and labor follow-ups. Searches are not exhaustive; regional coverage, small outlets and organizer archives were uneven, and no LexisNexis access was used.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ES24DEC-E001",
+      "ES24DEC-E002",
+      "ES24DEC-E003",
+      "ES24DEC-E004",
+      "ES24DEC-E005"
+    ],
+    "required_followup": "Continue local/regional and organizer searches if needed; preserve unknowns and do not infer absence of events from open-web results."
+  }
+]

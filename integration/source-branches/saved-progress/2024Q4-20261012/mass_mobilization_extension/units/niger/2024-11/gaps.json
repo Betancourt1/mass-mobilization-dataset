@@ -1,0 +1,86 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline_and_historical_access",
+    "description": "Official historical event baseline and complete prior source/access ledgers are unavailable; current access checks do not establish clean historical access for any target.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to provide permitted baseline and historical source/access records if available; otherwise retain audit limitation."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage",
+    "description": "Eight recorded French/English web searches covered demonstrations, strikes, education, unions, prices/markets and multiple regions. This is not LexisNexis-equivalent or exhaustive; reporting in local languages and archives is not systematically searched.",
+    "source_ids": [],
+    "affected_candidates": [
+      "niger_2024-11-E001"
+    ],
+    "required_followup": "If authorized and available, conduct systematic newspaper/archive coverage and refined local-language searches."
+  },
+  {
+    "gap_id": "G003",
+    "type": "independence_and_corroboration",
+    "description": "Africanews reports the 16 November march and names an ANP contributor, but the inspected article does not establish whether it is independently reported or directly derived from ANP. The ANP exact body request timed out (HTTP 400); Le Sahel exact request also timed out. No independent confirmation was read.",
+    "source_ids": [
+      "NI24NOV-S002",
+      "NI24NOV-S003",
+      "NI24NOV-S004"
+    ],
+    "affected_candidates": [
+      "niger_2024-11-E001"
+    ],
+    "required_followup": "Seek a permitted independently authored contemporaneous report; do not retry the timed-out exact URLs without a new authorized assessment/context."
+  },
+  {
+    "gap_id": "G004",
+    "type": "state_target_and_demands",
+    "description": "The article reports support for CNSP and foreign-destabilization themes, alongside economic and military-development demands to Niger's leaders; the exact policy content and direction of each demand are not detailed in the inspected scope.",
+    "source_ids": [
+      "NI24NOV-S002"
+    ],
+    "affected_candidates": [
+      "niger_2024-11-E001"
+    ],
+    "required_followup": "Find detailed contemporaneous reporting or organizer statements specifying the domestic demands and their intended state recipient."
+  },
+  {
+    "gap_id": "G005",
+    "type": "access",
+    "description": "Nigerinter exact URL returned HTTP 403; no retry. Its snippet reports an education work stoppage but does not establish public gathering. ANP and Le Sahel exact body requests yielded HTTP 400 timeouts; no readable content was returned.",
+    "source_ids": [
+      "NI24NOV-S001",
+      "NI24NOV-S003",
+      "NI24NOV-S004"
+    ],
+    "affected_candidates": [
+      "niger_2024-11-E001"
+    ],
+    "required_followup": "Retain restrictions/failures and seek other permitted sources; do not retry these exact targets on current evidence."
+  },
+  {
+    "gap_id": "G006",
+    "type": "violence_and_state_response",
+    "description": "The inspected article does not establish protester violence or a state response; all response fields remain unknown, not no.",
+    "source_ids": [
+      "NI24NOV-S002"
+    ],
+    "affected_candidates": [
+      "niger_2024-11-E001"
+    ],
+    "required_followup": "Check other contemporaneous sources for explicit violence, arrests, dispersal or state accommodation."
+  },
+  {
+    "gap_id": "G007",
+    "type": "continuity",
+    "description": "No evidence establishes continuation of the 16 November march before or after that day; adjacent-month campaign boundaries were not resolved.",
+    "source_ids": [
+      "NI24NOV-S002",
+      "NI24NOV-S003",
+      "NI24NOV-S004"
+    ],
+    "affected_candidates": [
+      "niger_2024-11-E001"
+    ],
+    "required_followup": "Search contemporaneous follow-up for same organizers and demands across adjacent months; do not infer continuity from thematic similarity."
+  }
+]

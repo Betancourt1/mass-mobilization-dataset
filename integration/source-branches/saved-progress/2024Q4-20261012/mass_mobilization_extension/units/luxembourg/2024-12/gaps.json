@@ -1,0 +1,39 @@
+[
+  {
+    "gap_id": "lux_dec10_amnesty_execution_and_target",
+    "scope": "2024-12",
+    "affected_candidate_ids": [],
+    "affected_source_ids": [
+      "LUX24DEC_S005"
+    ],
+    "description": "A 3 December Amnesty announcement invited participation in a human-rights march on 10 December. The preserved search result does not establish that the march occurred, its turnout, or a concrete demand to Luxembourg authorities; no event candidate is coded from the announcement.",
+    "next_steps": "If further permitted research is assigned, seek a dated post-event account and inspect whether the event made any specific domestic policy demand. Do not treat the announcement as proof of execution.",
+    "evidence": "Search-only source LUX24DEC_S005; full individual search response is preserved in raw_search/lux_dec_amnesty_search_001.tool-response.json."
+  },
+  {
+    "gap_id": "lux_dec_event_public_access_and_continuity",
+    "scope": "2024-12",
+    "affected_candidate_ids": [
+      "luxembourg_2024-12_E001",
+      "luxembourg_2024-12_E002"
+    ],
+    "affected_source_ids": [
+      "LUX24DEC_S001",
+      "LUX24DEC_S002",
+      "LUX24DEC_S003",
+      "LUX24DEC_S004"
+    ],
+    "description": "The 3 December union action occurred in a hotel conference hall; public/open access is not established by captured reporting. The 21 December Gaza march account reports several hundred and says it was part of a Saturday series, but is an organizer source without independent contemporary confirmation and does not establish series onset or October/November continuity.",
+    "next_steps": "If further permitted research is assigned, seek independent/public-access evidence for the 3 December action and an independent December 21 report plus reports from adjacent weekends/months to establish the series boundaries. Do not merge candidates automatically.",
+    "evidence": "Exact body scopes preserved in S001-S004 raw captures; S004 find lines 449-453 provides the date/count/demand evidence."
+  },
+  {
+    "gap_id": "lux_dec_query_lead_unconfirmed",
+    "scope": "2024-12",
+    "affected_candidate_ids": [],
+    "affected_source_ids": [],
+    "description": "A separate December search for a possible late-month Amazon worker protest returned no captured protest-specific Luxembourg result; top result was a company community-volunteering account on 27 December, not protest evidence. This is a search limitation, not evidence that no protest occurred.",
+    "next_steps": "If further permitted research is assigned, query local labor/worker sources and regional outlets for late-month actions.",
+    "evidence": "Individual search lux_dec_amazon_search_001 and its raw response."
+  }
+]

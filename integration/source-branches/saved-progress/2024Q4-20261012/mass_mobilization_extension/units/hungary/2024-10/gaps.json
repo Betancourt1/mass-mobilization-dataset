@@ -1,0 +1,47 @@
+[
+  {
+    "gap_id": "HUN24OCT-G001",
+    "type": "coverage_limit",
+    "description": "Open web only, not LexisNexis or a systematic local-news archive. Four saved Hungarian/English queries covered month overview, 23 October, crowd/demand follow-up, and worker/student/sector/regional leads. This is non-exhaustive and an empty candidate category is not evidence that no event occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent review may run additional city/weekly/local-source searches; confirm any material November continuity."
+  },
+  {
+    "gap_id": "HUN24OCT-G002",
+    "type": "political_rally_boundary",
+    "description": "The 23 October event is a TISZA-organized anniversary march described by Euronews as a protest against Orbán's government, with thousands attending. Whether the event is a qualifying public demand or an excluded party political rally remains for reviewer judgment.",
+    "source_ids": [
+      "HUN24OCT-S003",
+      "HUN24OCT-S004"
+    ],
+    "affected_candidates": [
+      "HUN24OCT-E002"
+    ],
+    "required_followup": "Review against the codebook's political-rally exclusion and any more specific demands."
+  },
+  {
+    "gap_id": "HUN24OCT-G003",
+    "type": "state_response_unknown",
+    "description": "Opened reports of the 5 and 23 October events do not establish any state-response category or protester violence. Police presence is not coded as dispersal/arrest.",
+    "source_ids": [
+      "HUN24OCT-S001",
+      "HUN24OCT-S002",
+      "HUN24OCT-S003",
+      "HUN24OCT-S004"
+    ],
+    "affected_candidates": [
+      "HUN24OCT-E001",
+      "HUN24OCT-E002"
+    ],
+    "required_followup": "Only add response categories if exact event-specific evidence is obtained."
+  },
+  {
+    "gap_id": "HUN24OCT-G004",
+    "type": "baseline_missing",
+    "description": "Official baseline and original country-code lookup are pending; no ccode has been invented.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator owns the baseline/code lookup."
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "gap_id": "IR24OCT-G001",
+    "type": "baseline",
+    "description": "No official baseline or complete Lexis-Nexis/source inventory is present in the assignment. This dossier is a bounded contemporaneous web search, not an official or exhaustive Q4 count.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator/reviewer may supply a valid official baseline or additional locally sourced evidence; do not infer zero protests."
+  },
+  {
+    "gap_id": "IR24OCT-G002",
+    "type": "coverage",
+    "description": "VOA Persian reports same-day retiree gatherings in Tehran, Gilan, Isfahan and Khuzestan on 6 Oct, but only Tehran venue/details are captured here. Other provinces are not merged into one event and lack separate venues, headcounts, demands and state responses.",
+    "source_ids": [
+      "IR24OCT-S001"
+    ],
+    "affected_candidates": [
+      "IR24OCT-E001"
+    ],
+    "required_followup": "Seek exact local reports for each province only under fresh target-specific access assessment; no inference from province count."
+  },
+  {
+    "gap_id": "IR24OCT-G003",
+    "type": "threshold",
+    "description": "Most October public pensioner and worker gatherings have no event-specific simultaneous attendance count. The WPIran >5,000 estimate applies only to the 13 Oct Tehran retired-educator gathering and is from a party-affiliated source. Workforce totals, annual protest totals and counts of arrests do not establish attendee threshold.",
+    "source_ids": [
+      "IR24OCT-S001",
+      "IR24OCT-S002",
+      "IR24OCT-S004",
+      "IR24OCT-S005",
+      "IR24OCT-S006",
+      "IR24OCT-S007"
+    ],
+    "affected_candidates": [
+      "IR24OCT-E001",
+      "IR24OCT-E002",
+      "IR24OCT-E004",
+      "IR24OCT-E005",
+      "IR24OCT-E006",
+      "IR24OCT-E007",
+      "IR24OCT-E008",
+      "IR24OCT-E009",
+      "IR24OCT-E010",
+      "IR24OCT-E011"
+    ],
+    "required_followup": "Retain pending_threshold/pending_state_target records unless event-specific evidence resolves each criterion."
+  },
+  {
+    "gap_id": "IR24OCT-G004",
+    "type": "continuity",
+    "description": "Repeated pensioner actions on Oct6, 13, 20 and 22 share broad economic claims but have different sectors, cities and dates. The available bodies do not establish continuous physical protest or one coordinated episode across dates; September 27/29 Zahedan and Tehran actions are outside the assigned month.",
+    "source_ids": [
+      "IR24OCT-S001",
+      "IR24OCT-S002",
+      "IR24OCT-S003",
+      "IR24OCT-S005",
+      "IR24OCT-S007",
+      "IR24OCT-S008"
+    ],
+    "affected_candidates": [
+      "IR24OCT-E001",
+      "IR24OCT-E003",
+      "IR24OCT-E004",
+      "IR24OCT-E005",
+      "IR24OCT-E006",
+      "IR24OCT-E008",
+      "IR24OCT-E009",
+      "IR24OCT-E010",
+      "IR24OCT-E011"
+    ],
+    "required_followup": "No merge absent explicit common campaign and continuity evidence."
+  }
+]

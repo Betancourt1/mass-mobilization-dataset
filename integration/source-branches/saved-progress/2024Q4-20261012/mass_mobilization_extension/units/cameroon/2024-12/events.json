@@ -1,0 +1,89 @@
+[
+  {
+    "candidate_id": "CAM202412_E001",
+    "country": "Cameroon",
+    "ccode": null,
+    "unit_month": "2024-12",
+    "title": "Reported staff ‘movement’ at Centre des Urgences de Yaoundé",
+    "start_date": "2024-12-16",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Centre des Urgences de Yaoundé (CURY), Yaoundé",
+    "scope": "Single-facility health-worker action; whether gathering was public is unknown",
+    "organizer": "CURY health staff; union participation not directly established for this specific action",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Official communiqué search snippet says a movement was observed; no attendance count or public gathering evidence.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CAM202412_MINSANTE_S006",
+      "CAM202412_MINSANTE_S005",
+      "CAM202412_LEJOUR_T007"
+    ],
+    "field_evidence": {
+      "occurrence": {
+        "source_ids": [
+          "CAM202412_MINSANTE_S006"
+        ],
+        "summary": "Search-result text from MINSANTE communiqué refers to a movement observed at CURY on 16 Dec; underlying PDF text not accessible in parsed form."
+      },
+      "date": {
+        "source_ids": [
+          "CAM202412_MINSANTE_S006"
+        ],
+        "summary": "16 December 2024 from official search result snippet."
+      },
+      "location": {
+        "source_ids": [
+          "CAM202412_MINSANTE_S006"
+        ],
+        "summary": "CURY, Yaoundé."
+      },
+      "demands": {
+        "source_ids": [
+          "CAM202412_MINSANTE_S005"
+        ],
+        "summary": "MINSANTE article describes broader union grievances on pay deductions, precarious staff conditions, benefits and status; direct link to this CURY movement is uncertain."
+      },
+      "participants": {
+        "source_ids": [
+          "CAM202412_MINSANTE_S006"
+        ],
+        "summary": "Health staff inferred from context, no number."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "CAM202412_MINSANTE_S006"
+        ],
+        "summary": "No count; public gathering unestablished."
+      },
+      "state_target": {
+        "source_ids": [
+          "CAM202412_MINSANTE_S005"
+        ],
+        "summary": "Broader nationwide union stoppage and ministry negotiations are reported, but demand linkage to this specific movement is not verified."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Do not treat the national stoppage announcement or ministry meeting as evidence of 50 people at a public gathering at CURY. PDF result is search-only, not body text.",
+    "open_questions": [
+      "Accessible body or independent contemporary account; public gathering vs workplace stoppage; simultaneous number; precise event-specific grievance and state target; end/continuity."
+    ]
+  }
+]

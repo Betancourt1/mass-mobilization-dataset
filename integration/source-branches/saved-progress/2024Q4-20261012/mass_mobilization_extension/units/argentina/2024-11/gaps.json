@@ -1,0 +1,64 @@
+[
+  {
+    "gap_id": "ARG2024-11-G001",
+    "type": "continuity_end",
+    "description": "EFE article reports the 25N Buenos Aires march while it was underway; no closure or actual end date found yet.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ARG2024-11-E001"
+    ],
+    "required_followup": "Search post-event local reporting and Ni Una Menos/official sources for the conclusion and state response."
+  },
+  {
+    "gap_id": "ARG2024-11-G002",
+    "type": "baseline_access_scope",
+    "description": "Historical source ledgers and receipts are absent from the cloud kit; aliases/origins for known affected publishers remain unknown. Fresh access check and available-ledger manual review completed for EFE URL; uncertainty remains about omitted historical relationships.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ARG2024-11-E001"
+    ],
+    "required_followup": "Coordinator may supply permitted exact historical source/alias/origin evidence; do not infer restrictions or approvals."
+  },
+  {
+    "gap_id": "ARG2024-11-G003",
+    "type": "continuity_end",
+    "description": "The 18th Marcha de la Gorra began at 18:00 on 20 Nov, but the source does not say when it ended.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "ARG2024-11-E002"
+    ],
+    "required_followup": "Search later contemporary reporting or organizer material for close and any state response."
+  },
+  {
+    "gap_id": "ARG2024-11-G004",
+    "type": "event_threshold",
+    "description": "The Salta university march on 12 Nov is confirmed to have taken place, but the only opened contemporary local article supplies no attendance number; the proposed nationwide march lacked broad union/rector support.",
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ARG2024-11-E003"
+    ],
+    "required_followup": "Seek independent local contemporaneous reporting or organizer records with a crowd estimate; retain pending_threshold otherwise."
+  },
+  {
+    "gap_id": "ARG2024-11-G005",
+    "type": "event_threshold",
+    "description": "ATE reports nationally replicated protests and three CABA time/place points on 7 November against public-sector wage cuts and layoffs, but no crowd counts or discrete provincial locations. National response cannot be translated into a ≥50 event without unit-specific evidence.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [
+      "ARG2024-11-E004"
+    ],
+    "required_followup": "Seek independent local reports or organizer records naming specific gatherings and attendance; keep strike participation and protest assemblies distinct."
+  }
+]

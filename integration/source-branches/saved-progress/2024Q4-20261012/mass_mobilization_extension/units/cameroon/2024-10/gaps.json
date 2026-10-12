@@ -1,0 +1,63 @@
+[
+  {
+    "gap_id": "CAM202410_G001",
+    "type": "threshold",
+    "description": "Douala teachers' parade and Maumu women's protest have no simultaneous attendance counts; neither supports ≥50 on current evidence.",
+    "source_ids": [
+      "CAM202410_CNA_T003",
+      "CAM202410_MMI_S002"
+    ],
+    "affected_candidates": [
+      "CAM202410_E001",
+      "CAM202410_E003"
+    ],
+    "required_followup": "Independent contemporaneous reporting with event-specific crowd estimate or direct record."
+  },
+  {
+    "gap_id": "CAM202410_G002",
+    "type": "access",
+    "description": "City FM exact article body was replaced by an anti-bot verification challenge; actual body not read. Tool result captured; no retry/bypass.",
+    "source_ids": [
+      "CAM202410_CITYFM_T004"
+    ],
+    "affected_candidates": [
+      "CAM202410_E002"
+    ],
+    "required_followup": "None through blocked endpoint; independent permitted source may be sought by reviewer."
+  },
+  {
+    "gap_id": "CAM202410_G003",
+    "type": "date_precision",
+    "description": "CNA publication date and World Teachers' Day context do not fix the Douala parade's exact day; a separate Scribd programme is a schedule, not occurrence evidence.",
+    "source_ids": [
+      "CAM202410_CNA_T003",
+      "CAM202410_SCRIBD_T006"
+    ],
+    "affected_candidates": [
+      "CAM202410_E001"
+    ],
+    "required_followup": "Contemporaneous report explicitly linking the parade to a calendar day."
+  },
+  {
+    "gap_id": "CAM202410_G004",
+    "type": "eligibility",
+    "description": "CNCC documents a strike call and port disruption but no public gathering or simultaneous turnout; the university teacher report documents a class stoppage, not a rally.",
+    "source_ids": [
+      "CAM202410_S001",
+      "CAM202410_JDC_T005"
+    ],
+    "affected_candidates": [
+      "CAM202410_E004",
+      "CAM202410_E005"
+    ],
+    "required_followup": "Evidence of a public gathering of ≥50 and clearer state-policy linkage."
+  },
+  {
+    "gap_id": "CAM202410_G005",
+    "type": "coverage",
+    "description": "Searches were open-web French/English, not equivalent to LexisNexis; no systematic Pidgin or other Cameroonian-language collection or full regional archive run. Search-result ranking/date behavior limits discovery.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Regional and language-specific archive searches, weekly windows, and historical database coverage."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "JPN24OCT-G001",
+    "type": "access_blocked",
+    "description": "The official Public Security Intelligence Agency monthly report search excerpt contained potentially relevant October events, but opening the exact URL returned HTTP 403. No retry was made. The captured excerpt gives no attendance counts and combines several actions, so it cannot establish threshold or episode boundaries.",
+    "source_ids": [
+      "JPN24OCT-S001"
+    ],
+    "affected_candidates": [
+      "JPN24OCT-E002"
+    ],
+    "required_followup": "Use other permitted contemporaneous sources to establish the event boundaries, count, and own-state demand; do not retry the 403 target."
+  },
+  {
+    "gap_id": "JPN24OCT-G002",
+    "type": "threshold_and_episode_boundary",
+    "description": "The same PSI excerpt reports anti-US-Japan Security Treaty gatherings/demonstrations around International Anti-War Day through 24 October in Tokyo and Osaka. It does not provide day-by-day locations, counts, organizers or whether the actions are one campaign or distinct gatherings; no candidate was created from this multi-day summary alone.",
+    "source_ids": [
+      "JPN24OCT-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek independent, dated local reports for each action and distinguish a coordinated campaign from separate local events; document simultaneous turnout."
+  },
+  {
+    "gap_id": "JPN24OCT-G003",
+    "type": "candidate_evidence",
+    "description": "E001 has explicit Japanese-government policy framing and a reported count of 300, but the only captured body is an organizer-proximate movement publication. No independent attendance estimate, detailed response, or separate Shinjuku count was found.",
+    "source_ids": [
+      "JPN24OCT-S002"
+    ],
+    "affected_candidates": [
+      "JPN24OCT-E001"
+    ],
+    "required_followup": "Independent contemporary source or original organizer documentation and follow-up on the same-day Shinjuku boundary."
+  },
+  {
+    "gap_id": "JPN24OCT-G004",
+    "type": "coverage_limit",
+    "description": "Four recorded searches used Japanese and English full-month terms and targeted Japanese issue terms. Open-web results are not a substitute for LexisNexis or systematic newspaper archives. The official baseline and historical source ledgers were not supplied; no exhaustive-coverage claim is made. Search-result clocks are unknown.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator/reviewer may consult official baseline and historical source/archive materials if separately available; continue additional local and sector searches if needed."
+  }
+]

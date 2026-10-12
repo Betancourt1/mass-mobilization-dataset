@@ -1,0 +1,38 @@
+[
+  {
+    "gap_id": "ETH24OCT-G001",
+    "type": "event_identification",
+    "description": "ACLED weekly aggregates report one protest/demonstration for some periods (including 28 Sep–4 Oct, 12–18 Oct, 19–25 Oct, and 26 Oct–1 Nov), but the narratives do not identify event-level gatherings or attendance. The 26 Oct–1 Nov period also crosses the month boundary.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S005",
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search the underlying event-level ACLED entries for each date window and contemporaneous local reporting, with exact URLs assessed before body requests; do not convert aggregate counts into candidate events."
+  },
+  {
+    "gap_id": "ETH24OCT-G002",
+    "type": "coverage_method",
+    "description": "Open-web search only; no Lexis-Nexis or equivalent newspaper database search, no official event-level database extract, and no exhaustive source-list archive. Searches used English, Amharic and some Oromo-language/transliterated terms; no Afaan Oromoo full article was used as body evidence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a permitted local-language or newspaper archive becomes available, search Oct 1–31 by date, sector, city/region and protest synonyms; report findings as supplemental, not as proof of absence."
+  },
+  {
+    "gap_id": "ETH24OCT-G003",
+    "type": "search_capture",
+    "description": "The two initial generic October queries were submitted together; their rendered results were visible but the original tool response was not persisted. Query-specific header count and alignment remain unknown. Explicit loss records are in search_log Q000A/Q000B and raw_search/ETH24OCT-Q000.loss-record.json; empty arrays are not zero-results claims.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No reconstruction is possible; use the individually captured later searches and preserve this loss limitation."
+  }
+]

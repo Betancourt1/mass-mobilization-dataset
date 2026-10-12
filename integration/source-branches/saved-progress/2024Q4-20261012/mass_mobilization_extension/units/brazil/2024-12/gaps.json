@@ -1,0 +1,69 @@
+[
+  {
+    "gap_id": "BRA2024-12-G001",
+    "type": "event_threshold",
+    "description": "The two Dec 10 actions in E001/E002 have no local attendance totals; the national call and number of planned cities cannot establish 50 simultaneously in Brasília or São Paulo.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "BRA2024-12-E001",
+      "BRA2024-12-E002"
+    ],
+    "required_followup": "Find site-specific attendance for each location or retain pending_threshold."
+  },
+  {
+    "gap_id": "BRA2024-12-G002",
+    "type": "episode_boundary",
+    "description": "The Rio education campaign reportedly began 25 Nov; attendance then is unknown. More than 100 refers to separate 26 Nov chamber occupation. Dec3 is a continuation; Dec6 assembly ended the strike but retained state-of-strike and does not define episode end.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S005",
+      "S009"
+    ],
+    "affected_candidates": [
+      "BRA2024-12-C001"
+    ],
+    "required_followup": "Review contemporary later reporting and distinguish first qualifying action from episode start; do not add a duplicate Dec event or assign a final campaign end without evidence."
+  },
+  {
+    "gap_id": "BRA2024-12-G003",
+    "type": "coverage",
+    "description": "Q005 is preserved as an exact rendered tool output with three actual query strings, but the tool exposed no structured returned_results/returned_urls arrays; the query is therefore in search_log_addendum.jsonl, not the validated structured log.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Treat returned total and positional URL array as unknown; do not convert the rendered response into fabricated native headers."
+  },
+  {
+    "gap_id": "BRA2024-12-G005",
+    "type": "access_provenance",
+    "description": "Original historical source/access ledgers are absent; current receipts and assessments do not settle historical aliases/origins or absent review records.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep missing history and ambiguous source relationships unresolved; do not infer a clean ledger."
+  },
+  {
+    "gap_id": "BRA2024-12-G006",
+    "type": "event_threshold",
+    "description": "The Dec9 São Paulo accountability act is documented, but the saved body provides no simultaneous attendance estimate.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [
+      "BRA2024-12-E003"
+    ],
+    "required_followup": "Search for a site-specific estimate or leave pending_threshold."
+  }
+]

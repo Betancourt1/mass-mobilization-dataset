@@ -1,0 +1,75 @@
+[
+  {
+    "gap_id": "HN2412G001",
+    "type": "state_target",
+    "description": "Cofradía Dec9 report states road condition and roadblock but does not identify the government authority as explicit target. Candidate remains pending_state_target.",
+    "source_ids": [
+      "S001",
+      "S010"
+    ],
+    "affected_candidates": [
+      "honduras_2024-12-E001"
+    ],
+    "required_followup": "Find contemporaneous source specifying demand to SIT/municipality or other state target."
+  },
+  {
+    "gap_id": "HN2412G002",
+    "type": "event_threshold",
+    "description": "No numeric turnout for Cofradía or Chamelecón; “nutrido grupo” is qualitative.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "honduras_2024-12-E001",
+      "honduras_2024-12-E002"
+    ],
+    "required_followup": "Seek single-site attendance estimate; do not infer from road closure or traffic queues."
+  },
+  {
+    "gap_id": "HN2412G003",
+    "type": "private_dispute",
+    "description": "STIBYS strike is evidenced as a private employer dispute; it is excluded from event list, and sources do not establish a public gathering count.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "honduras_2024-12-X001"
+    ],
+    "required_followup": "Keep private labor outcome separate; do not treat government mediation as protest demand."
+  },
+  {
+    "gap_id": "HN2412G004",
+    "type": "announcement_vs_occurrence",
+    "description": "ANEEAH protest planned for 8 Dec was reportedly suspended after agreement; search did not establish an actual December gathering.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No event created from an announcement/cancellation; search for any distinct later action only if new leads emerge."
+  },
+  {
+    "gap_id": "HN2412G005",
+    "type": "coverage_method",
+    "description": "Twelve captured queries in Spanish/English and regional/sector terms; open-web only, no equivalent newspaper archive. No zero-protest inference.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue local/regional searches and document inaccessible archive limits."
+  },
+  {
+    "gap_id": "HN2412G006",
+    "type": "historical_access",
+    "description": "Historical source ledgers/receipts absent, known affected entities remain incompletely scoped, and no-match is not permission.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep exact per-URL access checks; coordinator must supply any historical restriction record before widening scopes."
+  }
+]

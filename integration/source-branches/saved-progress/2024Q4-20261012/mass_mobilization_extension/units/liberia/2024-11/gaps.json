@@ -1,0 +1,42 @@
+[
+  {
+    "gap_id": "liberia_2024-11-G001",
+    "type": "event_execution",
+    "description": "The planned ULSU November 14 protest has no body-level evidence of execution in saved materials.",
+    "source_ids": [
+      "LR24NOV-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find a contemporaneous post-event report before coding a gathering."
+  },
+  {
+    "gap_id": "liberia_2024-11-G002",
+    "type": "retrieval_failure",
+    "description": "WADR report on the November 26 NEC protest timed out at the web tool. Search result is not used as body evidence; no retry was made.",
+    "source_ids": [
+      "LR24NOV-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek a different permitted body account; do not rely on snippet for event coding."
+  },
+  {
+    "gap_id": "liberia_2024-11-G003",
+    "type": "threshold_and_target",
+    "description": "The Gbarnga market-women gathering is described as massive without a numeric/bounded simultaneous headcount, and the precise state-policy target is not fully clear.",
+    "source_ids": [
+      "LR24NOV-S004"
+    ],
+    "affected_candidates": [
+      "liberia_2024-11-E002"
+    ],
+    "required_followup": "Seek crowd estimate and clarity on whether local authorities were asked to implement/alter public relocation policy."
+  },
+  {
+    "gap_id": "liberia_2024-11-G004",
+    "type": "coverage",
+    "description": "Open-web and accessible local/regional searches are not a LexisNexis equivalent or exhaustive archive search.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Compare against official baseline and systematic local archives if available."
+  }
+]

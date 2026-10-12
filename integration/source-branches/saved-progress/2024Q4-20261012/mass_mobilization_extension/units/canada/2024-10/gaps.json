@@ -1,0 +1,62 @@
+[
+  {
+    "gap_id": "CAN2024-10-G001",
+    "issue": "Historical access inventory is incomplete",
+    "details": "Current exact-URL checks and available ledger searches show no match/hold for opened sources. Original historical source ledgers/approval records are omitted; no claim of complete historical access clearance."
+  },
+  {
+    "gap_id": "CAN2024-10-G002",
+    "issue": "Toronto CityNews candidates and the separate Montreal Every Child Matters search-only candidate require distinct assessment",
+    "source_ids": [
+      "S003",
+      "S010"
+    ],
+    "details": "S003 is the CityNews Toronto report: its body locates the King’s College Circle gathering in Toronto (E006) and separately reports the downtown Toronto march (E009), with no count or Canadian-state demand for E006. The Oct. 6 Dorchester Square Montreal search-only candidate (E008) has no body/count/demand evidence in the captured scope and is not established by the S003 Toronto body; verify its source mapping before relying on it. S010 is The Tribune’s Montreal Every Child Matters report (E007), not a Montreal Palestine event; its body open returned zero lines. Keep E006, E007, E008 and E009 separate and unresolved as recorded; do not merge or sum attendance."
+  },
+  {
+    "gap_id": "CAN2024-10-G003",
+    "issue": "Every Child Matters event needs alternate reporting",
+    "source_ids": [
+      "S010"
+    ],
+    "details": "The exact Tribune URL open returned Total lines 0; search-result excerpt alone cannot confirm event date, attendance or direct own-state demand."
+  },
+  {
+    "gap_id": "CAN2024-10-G004",
+    "issue": "Potential event clusters not fully resolved",
+    "source_ids": [
+      "S001"
+    ],
+    "details": "5 Oct Montréal and Québec City Palestine gatherings have different locations and differently stated demands. Kept as distinct local candidates; national PYM organization does not establish merger or shared event boundary."
+  },
+  {
+    "gap_id": "CAN2024-10-G005",
+    "issue": "October coverage remains open",
+    "details": "Searches covered EN/FR and Montréal/Québec City, Toronto, Edmonton, Rouyn-Noranda, plus general national terms. Additional provinces/territories, local outlets and labor/Indigenous/climate dimensions have not been exhaustively reviewed."
+  },
+  {
+    "gap_id": "CAN2024-10-G006",
+    "issue": "Oct. 5 national PYM event boundary remains unresolved",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "CAN2024-10-E002",
+      "CAN2024-10-E003",
+      "CAN2024-10-E009"
+    ],
+    "details": "New search indicates PYM-associated activity in Montreal, Québec City and Toronto on Oct. 5. Attac search snippet identifies PYM activity in Montreal/Québec; Toronto CityNews identifies PYM among organizers; Québec City call adds Palestine Québec/Syndicalistes and demand to close provincial office in Tel Aviv. C.O.B.P. page is an announcement, and Attac page open returned a 503 fetch error. Current evidence supports a possible coordinated action but not enough to decide one nationwide unit. Separate local candidates are pending_unit, without summed attendance. Codebook lines 154–159 say national/local distinction depends on national organization, group identity and demands, not same date alone."
+  },
+  {
+    "gap_id": "CAN2024-10-G007",
+    "issue": "AP source remains held/search-only",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [],
+    "details": "Relevant AP search result was recorded, but no body request was made because AP is a known affected entity in CLOUD_WORKFLOW. Alias/origin scope and historical access evidence are absent; no snippet is used as factual evidence."
+  }
+]

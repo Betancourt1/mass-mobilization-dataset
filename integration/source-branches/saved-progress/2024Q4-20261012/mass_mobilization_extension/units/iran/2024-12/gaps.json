@@ -1,0 +1,92 @@
+[
+  {
+    "gap_id": "IR24DEC-G001",
+    "type": "capture_gap",
+    "description": "The four-query batch and duplicate rendered response copies have no reliable query-to-header mapping; exact input paths and byte hashes are recorded in November deviation deviations/IR24Q4_BATCH_SEARCH_MAPPING_GAP.json. No per-query logs are asserted for those queries. Later queries are individually captured/logged.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Do not reconstruct or replay the batch; preserve raw copies and rely on per-query follow-ups."
+  },
+  {
+    "gap_id": "IR24DEC-G002",
+    "type": "threshold",
+    "description": "The Dec7 retired-teacher rally is the only captured event with explicit crowd descriptions above 50. Dec29 pensioner and bazaar events and Dec31 city/sector actions have no event-specific simultaneous headcounts. Do not sum separate cities, sector groups, dismissed workers, or annual protest statistics.",
+    "source_ids": [
+      "IR24DEC-S001",
+      "IR24DEC-S002",
+      "IR24DEC-S003",
+      "IR24DEC-S004"
+    ],
+    "affected_candidates": [
+      "IR24DEC-E002",
+      "IR24DEC-E003",
+      "IR24DEC-E004",
+      "IR24DEC-E005",
+      "IR24DEC-E006",
+      "IR24DEC-E007",
+      "IR24DEC-E008",
+      "IR24DEC-E009",
+      "IR24DEC-E010",
+      "IR24DEC-E011",
+      "IR24DEC-E012",
+      "IR24DEC-E013",
+      "IR24DEC-E014"
+    ],
+    "required_followup": "Keep candidates pending threshold or evidence; no aggregate estimates."
+  },
+  {
+    "gap_id": "IR24DEC-G003",
+    "type": "state_target",
+    "description": "Tehran Grand Bazaar demonstrations are reported against inflation and currency depreciation and security forces were deployed, but the body does not state a clear demand directed to the Iranian state. Several Dec31 labor actions name government offices or state-owned employers but do not establish public venue, government-level policy target, or crowd size.",
+    "source_ids": [
+      "IR24DEC-S003",
+      "IR24DEC-S004"
+    ],
+    "affected_candidates": [
+      "IR24DEC-E007",
+      "IR24DEC-E011",
+      "IR24DEC-E012",
+      "IR24DEC-E013",
+      "IR24DEC-E014"
+    ],
+    "required_followup": "Resolve direct own-state demand and public gathering evidence separately from employer grievance or economic context."
+  },
+  {
+    "gap_id": "IR24DEC-G004",
+    "type": "continuity",
+    "description": "Dec31 article says Fajr Jam refinery protests formed a month-long series but does not give exact onset, pauses or headcount on Dec31. Bazaar strike is separately dated Dec29; “over the weekend” in a Dec31 article is not treated as a second Dec31 event. No other continuity across dates is established.",
+    "source_ids": [
+      "IR24DEC-S003",
+      "IR24DEC-S004"
+    ],
+    "affected_candidates": [
+      "IR24DEC-E007",
+      "IR24DEC-E013"
+    ],
+    "required_followup": "Do not extend onset/end dates without exact dated reports and evidence of continuity."
+  },
+  {
+    "gap_id": "IR24DEC-G005",
+    "type": "baseline",
+    "description": "No official baseline/source universe or exhaustive December inventory was supplied. English/Persian web queries and selected articles produce a bounded sample, not an official or exhaustive count.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep scope limitation in report and do not infer zero from absent results."
+  },
+  {
+    "gap_id": "IR24DEC-G006",
+    "type": "access_review_history",
+    "description": "Historical source ledgers and aliases/origins are unavailable; November/December opened-source assessments document exact-target checks but cannot resolve all publisher/story relationships or infer that no prior restriction exists beyond available records.",
+    "source_ids": [
+      "IR24DEC-S001",
+      "IR24DEC-S002",
+      "IR24DEC-S003",
+      "IR24DEC-S004"
+    ],
+    "affected_candidates": [
+      "IR24DEC-E001",
+      "IR24DEC-E007"
+    ],
+    "required_followup": "Reviewer should evaluate source origins using saved precise page captures; no publisher-wide scope is inferred."
+  }
+]

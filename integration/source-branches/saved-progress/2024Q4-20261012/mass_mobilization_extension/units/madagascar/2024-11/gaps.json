@@ -1,0 +1,66 @@
+[
+  {
+    "gap_id": "MDG-NOV-G01",
+    "type": "threshold",
+    "description": "The 4 November multi-neighborhood report gives no per-site counts; separate site totals cannot be combined to reach 50.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "MDG24NOV-E001"
+    ],
+    "required_followup": "Find independent site-specific attendance estimates or event records."
+  },
+  {
+    "gap_id": "MDG-NOV-G02",
+    "type": "state_target",
+    "description": "Reported grievances concern public utility outages, but no source establishes a precise State-policy demand for each local action.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "MDG24NOV-E001"
+    ],
+    "required_followup": "Seek event statements, signs, organizer demands or official records that establish the target."
+  },
+  {
+    "gap_id": "MDG-NOV-G03",
+    "type": "event_unit_and_continuity",
+    "description": "The November 4 article lists six neighborhoods but not common organization, local boundaries, October links or episode closure. Search-only reports describe other actions without verified dates.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "MDG24NOV-E001"
+    ],
+    "required_followup": "Search each named neighborhood and week separately; verify date, organizers, closure and links before any merge."
+  },
+  {
+    "gap_id": "MDG-NOV-G04",
+    "type": "access_and_verification",
+    "description": "Madagascar-Tribune body opened after a fresh exact-URL assessment. Related L’Express pages remain search-only; October’s one exact-URL 429 is not generalized to publisher-wide scope.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "MDG24NOV-E001"
+    ],
+    "required_followup": "Any distinct future target requires a fresh exact-URL assessment; preserve denials without retry."
+  },
+  {
+    "gap_id": "MDG-NOV-G05",
+    "type": "coverage",
+    "description": "Open-web searches in French, Malagasy and English do not establish all events or absence of actions in other regions/sectors; no LexisNexis-equivalent archive consulted.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review licensed archive and local/regional outlets without treating search silence as zero."
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "gap_id": "AZ24Q4-202412-G001",
+    "type": "capture_gap",
+    "description": "The first English December search executed but its response headers were lost during local serialization. A repeated execution was captured as Q003; original output remains unknown.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve gap and do not reconstruct the original result set."
+  },
+  {
+    "gap_id": "AZ24Q4-202412-G002",
+    "type": "coverage",
+    "description": "Several broad English, Azerbaijani and Russian queries did not identify a substantiated in-country event. Search results included a 23 December pensioner protest in Iran; this is outside Azerbaijan. “No candidate found” is not evidence that no protest occurred. Open-web searching is not equivalent to LexisNexis or systematic newspaper archives. Official MM baseline/dataset is absent.",
+    "source_ids": [
+      "AZ24Q4-202412-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review with systematic newspaper archives and official baseline."
+  },
+  {
+    "gap_id": "AZ24Q4-202412-G003",
+    "type": "language",
+    "description": "Search covered English, Azerbaijani and Russian terms but does not establish complete coverage of regional outlets, local-language variants or all provincial events.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Additional local/regional archive review if available."
+  }
+]

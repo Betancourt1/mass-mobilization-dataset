@@ -1,0 +1,87 @@
+[
+  {
+    "gap_id": "NO24DEC-G001",
+    "type": "threshold",
+    "description": "The Oslo and Trondheim municipal-budget actions reported on 11–12 December have no simultaneous attendance counts in the only opened article.",
+    "source_ids": [
+      "NO24DEC-S001"
+    ],
+    "affected_candidates": [
+      "NO24DEC-E002",
+      "NO24DEC-E003",
+      "NO24DEC-E004"
+    ],
+    "required_followup": "Seek contemporaneous counts for each distinct gathering; do not reuse Holmlia attendance or merge the daytime/evening Trondheim groups without organizational evidence."
+  },
+  {
+    "gap_id": "NO24DEC-G002",
+    "type": "government_scope",
+    "description": "The 5 Dec Holmlia event has a clear local budget target and a police-attributed crowd estimate, but the project reviewer must determine how borough and municipal policy fit the state-target rule.",
+    "source_ids": [
+      "NO24DEC-S002"
+    ],
+    "affected_candidates": [
+      "NO24DEC-E001",
+      "NO24DEC-E002",
+      "NO24DEC-E003",
+      "NO24DEC-E004"
+    ],
+    "required_followup": "Apply the codebook consistently to local-government policy; do not turn the events into national-state demands unless a source says so."
+  },
+  {
+    "gap_id": "NO24DEC-G003",
+    "type": "threshold_and_partial_source",
+    "description": "The 19 Dec Norges Bank action clearly targets Government Pension Fund policy, but the available NTB/Dagen page is explicitly partial/paywalled and gives no attendance estimate.",
+    "source_ids": [
+      "NO24DEC-S005"
+    ],
+    "affected_candidates": [
+      "NO24DEC-E006"
+    ],
+    "required_followup": "Use a separately assessed, publicly accessible contemporaneous source for turnout and other missing fields; do not retry this page or bypass its subscriber restriction."
+  },
+  {
+    "gap_id": "NO24DEC-G004",
+    "type": "threshold_independence",
+    "description": "The 14 Dec coalition event has organizer evidence for a Norway-state investment demand and participant evidence of several hundred remaining at one location, but the turnout source is participant-aligned and no independent news confirmation was opened.",
+    "source_ids": [
+      "NO24DEC-S003",
+      "NO24DEC-S004"
+    ],
+    "affected_candidates": [
+      "NO24DEC-E005"
+    ],
+    "required_followup": "Find independent event coverage that gives a same-place simultaneous estimate; keep the 600 event-wide estimate distinct from the crowd remaining at Jernbanetorget."
+  },
+  {
+    "gap_id": "NO24DEC-G005",
+    "type": "regional_coverage",
+    "description": "Fagbladet mentions budget protests in several other Norwegian towns, but the captured article gives little or no event-specific date, organizer, attendance or demand detail for those places. The open-web search is not an exhaustive regional sweep.",
+    "source_ids": [
+      "NO24DEC-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Follow up each named city through regional Norwegian sources and exact-target assessment; create separate local candidates only with enough event-specific evidence."
+  },
+  {
+    "gap_id": "NO24DEC-G006",
+    "type": "continuity",
+    "description": "No captured body establishes a continuous protest episode spanning November and December; recurring policy themes and different municipal protests are insufficient to infer continuity.",
+    "source_ids": [
+      "NO24DEC-S001",
+      "NO24DEC-S002",
+      "NO24DEC-S003",
+      "NO24DEC-S004",
+      "NO24DEC-S005"
+    ],
+    "affected_candidates": [
+      "NO24DEC-E001",
+      "NO24DEC-E002",
+      "NO24DEC-E003",
+      "NO24DEC-E004",
+      "NO24DEC-E005",
+      "NO24DEC-E006"
+    ],
+    "required_followup": "Check adjacent-month reports for explicit episode links and matching organization/demand before recording a continuation."
+  }
+]

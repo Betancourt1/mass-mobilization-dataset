@@ -1,0 +1,31 @@
+[
+  {
+    "gap_id": "LA11-G001",
+    "type": "coverage",
+    "description": "Eight captured open-web searches covered general Lao protest terms, Vientiane, labor/unpaid-wage disputes, land, and Lao-language terms. Results primarily concerned historical events, state-organized events, or unrelated locations; no Q4 protest candidate with threshold and domestic-state demand evidence was found.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue feasible local-language and provincial reporting searches, especially for unreported labor or land gatherings; do not claim no protests occurred."
+  },
+  {
+    "gap_id": "LA11-G002",
+    "type": "capture_loss",
+    "description": "One additional search response was not persisted after a path error; exact query and null returned_urls/result_count are recorded separately in raw_search/lost-search-capture.json.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No reconstruction or repeat; captured queries only receive coverage credit."
+  },
+  {
+    "gap_id": "LA11-G003",
+    "type": "archive_access",
+    "description": "No systematic LexisNexis or local newspaper archive was available. Search results and a single opened state-news report cannot establish completeness or event absence.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use a permitted local archive or additional independent contemporaneous outlet if material coverage concerns remain."
+  }
+]

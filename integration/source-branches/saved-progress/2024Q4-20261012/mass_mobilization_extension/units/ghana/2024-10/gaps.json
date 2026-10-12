@@ -1,0 +1,82 @@
+[
+  {
+    "gap_id": "GHA24OCT-G001",
+    "type": "coverage_limit",
+    "description": "Open-web English research does not reproduce LexisNexis or exhaustive newspaper coverage. Regional/local-language and district archives remain incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent reviewer may expand local-language and regional searches; no hit is not evidence of no event."
+  },
+  {
+    "gap_id": "GHA24OCT-G002",
+    "type": "route_estimate",
+    "description": "GNAT body confirms Accra and >1,000 but route endpoint conflicts with MyJoy search result.",
+    "source_ids": [
+      "GHA24OCT-S001",
+      "GHA24OCT-S002"
+    ],
+    "affected_candidates": [
+      "GHA24OCT-E001"
+    ],
+    "required_followup": "Assess independent MyJoy body only after exact-target review; resolve route/estimate."
+  },
+  {
+    "gap_id": "GHA24OCT-G003",
+    "type": "violence_response_continuity",
+    "description": "Oct3–5 event qualifies on crowd evidence, but exact count, organizer roles, violence during this event and state response remain unclear. Ghanaian Times body attempt returned 429; no retry.",
+    "source_ids": [
+      "GHA24OCT-S003",
+      "GHA24OCT-S004",
+      "GHA24OCT-S005",
+      "GHA24OCT-S012"
+    ],
+    "affected_candidates": [
+      "GHA24OCT-E002"
+    ],
+    "required_followup": "Review unverified search-only allegation; do not attribute September arrests to October event."
+  },
+  {
+    "gap_id": "GHA24OCT-G004",
+    "type": "date_eligibility",
+    "description": "Pro-Family march date conflicts: Oct8 article says “yesterday” (Oct7), while GNA/CIVICUS say Oct8. Court/process demand and restrictive bill need independent eligibility review.",
+    "source_ids": [
+      "GHA24OCT-S005",
+      "GHA24OCT-S010",
+      "GHA24OCT-S011"
+    ],
+    "affected_candidates": [
+      "GHA24OCT-E003"
+    ],
+    "required_followup": "Verify event date and review bill/court-process classification; do not infer a political rally solely because an MP led it."
+  },
+  {
+    "gap_id": "GHA24OCT-G005",
+    "type": "public_threshold",
+    "description": "Oct16 GHA staff durbar is search-only; no attendance, public access, city or ≥50 simultaneous crowd evidence.",
+    "source_ids": [
+      "GHA24OCT-S013"
+    ],
+    "affected_candidates": [
+      "GHA24OCT-E005"
+    ],
+    "required_followup": "Fresh exact-target review before any body request; establish public character and size."
+  },
+  {
+    "gap_id": "GHA24OCT-G006",
+    "type": "industrial_action_boundary",
+    "description": "Planned/actual public-sector strikes lack evidence of qualifying street/public gatherings.",
+    "source_ids": [
+      "GHA24OCT-S014",
+      "GHA24OCT-S015",
+      "GHA24OCT-S016",
+      "GHA24OCT-S006"
+    ],
+    "affected_candidates": [
+      "GHA24OCT-X001",
+      "GHA24OCT-X002",
+      "GHA24OCT-X003",
+      "GHA24OCT-X004"
+    ],
+    "required_followup": "Search for actual pickets/rallies; do not count workers on strike as crowd."
+  }
+]

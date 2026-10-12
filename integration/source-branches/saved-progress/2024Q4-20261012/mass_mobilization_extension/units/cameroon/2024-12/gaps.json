@@ -1,0 +1,56 @@
+[
+  {
+    "gap_id": "CAM202412_G001",
+    "type": "threshold",
+    "description": "Official communiqué snippet refers to a movement at CURY on 16 Dec, but available PDF text extraction failed and no count or public-gathering evidence is retained.",
+    "source_ids": [
+      "CAM202412_MINSANTE_S006"
+    ],
+    "affected_candidates": [
+      "CAM202412_E001"
+    ],
+    "required_followup": "Permitted accessible contemporary body reporting physical gathering and simultaneous headcount."
+  },
+  {
+    "gap_id": "CAM202412_G002",
+    "type": "state_target",
+    "description": "MINSANTE body documents broad union demands and negotiation but does not prove those demands motivated a specific public CURY gathering.",
+    "source_ids": [
+      "CAM202412_MINSANTE_S005",
+      "CAM202412_MINSANTE_S006"
+    ],
+    "affected_candidates": [
+      "CAM202412_E001"
+    ],
+    "required_followup": "Event-specific source linking participants, demand and government/policy target."
+  },
+  {
+    "gap_id": "CAM202412_G003",
+    "type": "continuity",
+    "description": "Truckers' return-to-service result supplies possible 3 Dec follow-up to November corridor strike; the exact local resumption and independent link are not verified in body text.",
+    "source_ids": [
+      "CAM202412_RNL_T008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Independent contemporary follow-up and event-level continuity assessment."
+  },
+  {
+    "gap_id": "CAM202412_G004",
+    "type": "exclusion",
+    "description": "REDHAC demonstration was reported as prohibited/planned; no evidence of execution. Bamenda Saturday lockdown reporting describes disruption but not an eligible public demand gathering.",
+    "source_ids": [
+      "CAM202412_JDC_T009",
+      "CAM202412_CNA_T010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not code unless new evidence demonstrates an actual qualifying gathering and state demand."
+  },
+  {
+    "gap_id": "CAM202412_G005",
+    "type": "coverage",
+    "description": "Open-web searches were French/English and did not exhaust local language or regional archives; no LexisNexis equivalence or zero-event inference is claimed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue regional/sector searches and local-language/archive work where feasible."
+  }
+]

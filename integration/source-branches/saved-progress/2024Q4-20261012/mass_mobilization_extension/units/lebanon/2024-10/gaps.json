@@ -1,0 +1,62 @@
+[
+  {
+    "gap_id": "LE-2024-10-G001",
+    "type": "participant_threshold",
+    "description": "Port-blast families event is reported as “dozens” without a number; at least 50 simultaneous participants are unproven.",
+    "source_ids": [
+      "LE-2024-10-S001",
+      "LE-2024-10-S002"
+    ],
+    "affected_candidates": [
+      "LEB2024-10-E001"
+    ],
+    "required_followup": "Seek permitted independent contemporary source with an explicit or defensible lower-bound headcount."
+  },
+  {
+    "gap_id": "LE-2024-10-G002",
+    "type": "participant_threshold",
+    "description": "Hamra story estimates approximately 300 displaced residents in the building but does not count protest attendance; actual simultaneous protest size is unknown.",
+    "source_ids": [
+      "LE-2024-10-S003"
+    ],
+    "affected_candidates": [
+      "LEB2024-10-E002"
+    ],
+    "required_followup": "Find an independent count of people in the gathering, not total shelter residents."
+  },
+  {
+    "gap_id": "LE-2024-10-G003",
+    "type": "source_access",
+    "description": "L’Orient Today’s Hamra story was surfaced in search but the outlet is a known affected-source hold; no body request was made.",
+    "source_ids": [
+      "LE-2024-10-S004"
+    ],
+    "affected_candidates": [
+      "LEB2024-10-E002"
+    ],
+    "required_followup": "Use permitted non-held contemporary sources; do not attempt L’Orient body retrieval."
+  },
+  {
+    "gap_id": "LE-2024-10-G004",
+    "type": "continuity_and_response",
+    "description": "Neither candidate has a clearly established end date or complete government-response account; October and November follow-up needed.",
+    "source_ids": [
+      "LE-2024-10-S001",
+      "LE-2024-10-S002",
+      "LE-2024-10-S003"
+    ],
+    "affected_candidates": [
+      "LEB2024-10-E001",
+      "LEB2024-10-E002"
+    ],
+    "required_followup": "Search following-month reporting and relevant official statements for same-episode continuation, response and closure."
+  },
+  {
+    "gap_id": "LE-2024-10-G005",
+    "type": "archive_coverage",
+    "description": "Open web searching does not reproduce LexisNexis or systematic regional newspaper archives; Arabic search remains limited and the original historical source ledger is absent.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review of source coverage and access gaps; do not infer absence from search results."
+  }
+]

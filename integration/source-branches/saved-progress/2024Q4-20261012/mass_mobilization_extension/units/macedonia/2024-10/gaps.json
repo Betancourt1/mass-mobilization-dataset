@@ -1,0 +1,42 @@
+[
+  {
+    "gap_id": "MKD10-G001",
+    "type": "coverage_limit",
+    "description": "Open-web searches in English and Macedonian covered Skopje and national labor/policy terms; they did not exhaust every regional/local archive or all sectors. No official event-list baseline was identified.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MKD2410-E001",
+      "MKD2410-E002"
+    ],
+    "required_followup": "Reviewer may add regional/local searches; no exhaustiveness claim."
+  },
+  {
+    "gap_id": "MKD10-G002",
+    "type": "attendance",
+    "description": "Neither October candidate has a reported event-level participant count. The 118 state attorneys figure is workforce size, not a crowd.",
+    "source_ids": [
+      "MKD2410-S003",
+      "MKD2410-S004",
+      "MKD2410-S005",
+      "MKD2410-S006"
+    ],
+    "affected_candidates": [
+      "MKD2410-E001",
+      "MKD2410-E002"
+    ],
+    "required_followup": "Keep both candidates pending_threshold unless event-specific simultaneous attendance evidence is found."
+  },
+  {
+    "gap_id": "MKD10-G003",
+    "type": "aggregation_scope",
+    "description": "The state-attorney action is described across regional offices, but the saved sources do not establish per-location count or simultaneity across sites.",
+    "source_ids": [
+      "MKD2410-S005",
+      "MKD2410-S006"
+    ],
+    "affected_candidates": [
+      "MKD2410-E002"
+    ],
+    "required_followup": "Do not sum workforce across offices or code a national gathering without evidence."
+  }
+]

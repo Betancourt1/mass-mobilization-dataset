@@ -1,0 +1,94 @@
+[
+  {
+    "gap_id": "mongolia_2024-12_G001",
+    "type": "threshold",
+    "description": "The “We Want to Breathe” protest is documented at Sukhbaatar Square, but sources provide no participant count or qualitative estimate that establishes 50 simultaneous participants. Petition signatures and views are not turnout.",
+    "source_ids": [
+      "MONG24D002",
+      "MONG24D003",
+      "MONG24D004",
+      "MONG24D008"
+    ],
+    "affected_candidates": [
+      "mongolia_2024-12_E001"
+    ],
+    "required_followup": "Find body evidence for simultaneous event attendance; do not infer crowd size from signatures or video views."
+  },
+  {
+    "gap_id": "mongolia_2024-12_G002",
+    "type": "onset_precision",
+    "description": "Start date 2024-12-05 is inferred from a Dec6 article describing the action as its second day; exact first-day date is not independently stated.",
+    "source_ids": [
+      "MONG24D002"
+    ],
+    "affected_candidates": [
+      "mongolia_2024-12_E001"
+    ],
+    "required_followup": "Confirm onset with a contemporaneous Dec5 source or retain date inference/precision."
+  },
+  {
+    "gap_id": "mongolia_2024-12_G003",
+    "type": "end_continuity",
+    "description": "Eguur body states the protest dispersed after a Dec7 meeting; Dec8 search-only items say it would pause after enough signatures. Exact last activity date and whether activity continued through Dec8 are unresolved.",
+    "source_ids": [
+      "MONG24D003",
+      "MONG24D004",
+      "MONG24D005"
+    ],
+    "affected_candidates": [
+      "mongolia_2024-12_E001"
+    ],
+    "required_followup": "Use body-level Dec8 evidence if found through a fresh local assessment; search Jan2025 follow-up before declaring episode end."
+  },
+  {
+    "gap_id": "mongolia_2024-12_G004",
+    "type": "state_response",
+    "description": "A city council chair met organizers and discussed plans; this supports official engagement but not policy implementation or fulfillment of demands.",
+    "source_ids": [
+      "MONG24D003",
+      "MONG24D009"
+    ],
+    "affected_candidates": [
+      "mongolia_2024-12_E001"
+    ],
+    "required_followup": "Verify any concrete government action or later response separately."
+  },
+  {
+    "gap_id": "mongolia_2024-12_G005",
+    "type": "origin_independence",
+    "description": "MongolBeat digests identify iSee as a translated source, but exact source URL/body links are unresolved; same-publisher iSee articles and digest summaries are not treated as independent corroboration.",
+    "source_ids": [
+      "MONG24D001",
+      "MONG24D002",
+      "MONG24D006",
+      "MONG24D008"
+    ],
+    "affected_candidates": [
+      "mongolia_2024-12_E001"
+    ],
+    "required_followup": "Find exact original URLs through search and document story relationships; do not click unknown links without fresh target assessment."
+  },
+  {
+    "gap_id": "mongolia_2024-12_G006",
+    "type": "regional_language",
+    "description": "Mongolian and English searches covered the pollution issue and Ulaanbaatar; regional reporting and other sectors were not reviewed systematically.",
+    "source_ids": [
+      "MONG24D002",
+      "MONG24D003"
+    ],
+    "affected_candidates": [
+      "mongolia_2024-12_E001"
+    ],
+    "required_followup": "Search regional/local outlets, language and labor/price/health policy dimensions."
+  },
+  {
+    "gap_id": "mongolia_2024-12_G007",
+    "type": "archive_access",
+    "description": "Open-web search only; no verified official baseline or systematic press archive. No zero-event or exhaustive coverage claim.",
+    "source_ids": [
+      "MONG24D001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator baseline and any archive comparison remain pending."
+  }
+]

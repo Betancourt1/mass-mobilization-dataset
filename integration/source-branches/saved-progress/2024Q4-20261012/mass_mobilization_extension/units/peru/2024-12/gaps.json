@@ -1,0 +1,56 @@
+[
+  {
+    "gap_id": "PE24DEC-G001",
+    "type": "threshold_and_event_followup",
+    "description": "Defensoría report records 166 collective actions and supplies action/date/location/actors/demand, but generally no attendance. Three documented candidates remain pending threshold.",
+    "source_ids": [
+      "PE24DEC-S001"
+    ],
+    "affected_candidates": [
+      "PE24DEC-E001",
+      "PE24DEC-E002",
+      "PE24DEC-E003"
+    ],
+    "required_followup": "Find contemporaneous regional reporting and actual simultaneous counts for each action; never treat project labels or affected populations as turnout."
+  },
+  {
+    "gap_id": "PE24DEC-G002",
+    "type": "out_of_period_search_result",
+    "description": "A search result for 7 December multiregion protests led to a Canal N page that says “Thursday 7 December” and refers to a recent Fujimori release; date context likely points to 2023, not 2024. Page provides no explicit publication year, so it is not used for this unit.",
+    "source_ids": [
+      "PE24DEC-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Look for separately dated 2024 reporting if a 7 Dec campaign is considered; do not use this page to code Dec 2024."
+  },
+  {
+    "gap_id": "PE24DEC-G003",
+    "type": "unknown_month_and_source_date",
+    "description": "Canal N body reports a miners’ assembly outside Congress, including an organizer’s claim of 60,000, but gives no publication or event date. The report cannot establish that the event began in Dec 2024; neither the crowd claim nor the page is assigned to this unit.",
+    "source_ids": [
+      "PE24DEC-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find exact contemporaneous publication/event date and independent turnout evidence before assigning to a month."
+  },
+  {
+    "gap_id": "PE24DEC-G004",
+    "type": "forecast_not_occurrence",
+    "description": "Defensoría’s report says miners’ leaders threatened a 30 Dec blockade if the Executive did not promulgate REINFO extension; it also records Law 32213 was published 27 Dec. Current evidence establishes a conditional forecast, not execution on 30 Dec.",
+    "source_ids": [
+      "PE24DEC-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search contemporary 30 Dec reporting for actual occurrence, locations and turnout; no candidate is currently asserted."
+  },
+  {
+    "gap_id": "PE24DEC-G005",
+    "type": "coverage_and_archive_limit",
+    "description": "Six saved query responses covered general December protest/huelga, mining, labor/education and a 7 Dec follow-up; official report led to detailed event rows. Web search is not exhaustive and there is no LexisNexis or systematic archive coverage.",
+    "source_ids": [
+      "PE24DEC-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Further weekly, regional and sector searches; preserve current gaps and do not declare absence of events from a search-only result."
+  }
+]

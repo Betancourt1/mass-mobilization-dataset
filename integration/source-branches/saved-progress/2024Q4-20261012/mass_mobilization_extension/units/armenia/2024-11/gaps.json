@@ -1,0 +1,56 @@
+[
+  {
+    "gap_id": "armenia_2024-11_G001",
+    "type": "baseline",
+    "description": "Official MM baseline and historical source-check ledgers/receipts are absent from the Q4 partition; no historical records reconstructed. Known affected-source relationships remain unresolved.",
+    "source_ids": [],
+    "affected_candidates": [
+      "armenia_2024-11_E001"
+    ],
+    "required_followup": "Coordinator review against official baseline and prior access-history records when supplied."
+  },
+  {
+    "gap_id": "armenia_2024-11_G002",
+    "type": "coverage",
+    "description": "Open web search is not equivalent to LexisNexis and was not exhaustive. Five retained queries used English and Armenian; no systematic news archive or full Russian-language search was done. No other clear in-month public protest lead was found in retained queries, which does not mean no events occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search local/regional media archives and structured news databases; check Russian-language reporting."
+  },
+  {
+    "gap_id": "armenia_2024-11_G003",
+    "type": "participants",
+    "description": "No participant counts were found for the November 1 march or November 15 excluded protest. The latter is excluded due to target, not attendance.",
+    "source_ids": [
+      "AR24NOV-S001",
+      "AR24NOV-S003"
+    ],
+    "affected_candidates": [
+      "armenia_2024-11_E001"
+    ],
+    "required_followup": "Seek contemporary count for Nov1 and retain the Nov15 count only as contextual gap if future target review changes."
+  },
+  {
+    "gap_id": "armenia_2024-11_G004",
+    "type": "state_target",
+    "description": "The November 1 march went to Armenia’s MFA, but body evidence centers its demand on COP29 delegates and international actors pressuring Azerbaijan; direct demand to Armenian authorities is unclear.",
+    "source_ids": [
+      "AR24NOV-S001"
+    ],
+    "affected_candidates": [
+      "armenia_2024-11_E001"
+    ],
+    "required_followup": "Find source describing any specific demand addressed to the Armenian MFA or government."
+  },
+  {
+    "gap_id": "armenia_2024-11_G005",
+    "type": "source_access_context",
+    "description": "Historical alias/origin ledgers are missing. Current source-check record notes known affected entities and unknown aliases; fresh exact checks and manual review were performed for body opens, but absent history remains a limitation.",
+    "source_ids": [
+      "AR24NOV-S001",
+      "AR24NOV-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Recheck source relationships if historical records become available."
+  }
+]

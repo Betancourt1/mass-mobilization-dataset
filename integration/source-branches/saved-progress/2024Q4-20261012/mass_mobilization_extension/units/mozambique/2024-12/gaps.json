@@ -1,0 +1,85 @@
+[
+  {
+    "gap_id": "MZ2412G001",
+    "type": "threshold",
+    "description": "Dec4 body gives no protester count; hundreds at toll were commuters. Dec9 snippet gives no number.",
+    "source_ids": [
+      "MZ24D001",
+      "MZ24D003"
+    ],
+    "affected_candidates": [
+      "MZ24DEC-E001",
+      "MZ24DEC-E002"
+    ],
+    "required_followup": "Find event-specific simultaneous estimate."
+  },
+  {
+    "gap_id": "MZ2412G002",
+    "type": "continuity",
+    "description": "Dec4 4x4 phase and Dec9 dispersal may be linked, but end/boundaries not confirmed in bodies.",
+    "source_ids": [
+      "MZ24D001",
+      "MZ24D002",
+      "MZ24D003"
+    ],
+    "affected_candidates": [
+      "MZ24DEC-E001",
+      "MZ24DEC-E002"
+    ],
+    "required_followup": "Review day-by-day reporting and phase end."
+  },
+  {
+    "gap_id": "MZ2412G003",
+    "type": "coverage",
+    "description": "Searches focused Maputo/Matola and national sources; Pemba, Nampula and other provinces remain undercovered.",
+    "source_ids": [
+      "MZ24D002",
+      "MZ24D003"
+    ],
+    "affected_candidates": [
+      "MZ24DEC-E001",
+      "MZ24DEC-E002"
+    ],
+    "required_followup": "Search regional outlets and local languages."
+  },
+  {
+    "gap_id": "MZ2412G004",
+    "type": "evidence",
+    "description": "Dec9 action, provincial Dec4–6 activity and possible Dec23 gatherings are search-only; no event-level threshold.",
+    "source_ids": [
+      "MZ24D002",
+      "MZ24D003",
+      "MZ24D004"
+    ],
+    "affected_candidates": [
+      "MZ24DEC-E002"
+    ],
+    "required_followup": "Open exact target only after fresh assessment; determine if Dec23 call became a gathering."
+  },
+  {
+    "gap_id": "MZ2412G005",
+    "type": "response",
+    "description": "Dec4 tear gas is sourced; bus burning attributed to “population”, not established protesters. Later outcomes unknown.",
+    "source_ids": [
+      "MZ24D001"
+    ],
+    "affected_candidates": [
+      "MZ24DEC-E001"
+    ],
+    "required_followup": "Find event-specific attribution and consequences."
+  },
+  {
+    "gap_id": "MZ2412G006",
+    "type": "method",
+    "description": "Open web rather than LexisNexis. AP/HRW results remain affected holds and were not opened; no claims from their bodies.",
+    "source_ids": [
+      "MZ24D002",
+      "MZ24D004"
+    ],
+    "affected_candidates": [
+      "MZ24DEC-E001",
+      "MZ24DEC-E002"
+    ],
+    "required_followup": "Continue permitted source discovery; do not retry held targets."
+  }
+]

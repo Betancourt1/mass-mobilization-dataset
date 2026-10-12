@@ -1,0 +1,49 @@
+[
+  {
+    "gap_id": "BRA2024-10-G001",
+    "type": "event_threshold",
+    "description": "Folha BV S001 documents both BR-174/Sabiá and BR-432/Tabalascada blockades on 29–30 Oct but gives no simultaneous participant count; both candidates remain below verified threshold.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "BRA2024-10-E001",
+      "BRA2024-10-E002"
+    ],
+    "required_followup": "Find event-specific contemporaneous attendance evidence per site or retain pending_threshold; do not transfer camp totals across sites."
+  },
+  {
+    "gap_id": "BRA2024-10-G002",
+    "type": "access_provenance",
+    "description": "The original historical source/access ledgers are absent from the cloud kit. Current receipts and manual assessments do not establish missing historical alias or origin scope.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may provide exact permitted historical evidence for review; do not reconstruct or broaden scope."
+  },
+  {
+    "gap_id": "BRA2024-10-G003",
+    "type": "coverage",
+    "description": "Saved query set and local/regional archive sweep remain incomplete; open-web method does not reproduce LexisNexis.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue Portuguese/local and regional searches by sector and date window; preserve every actual query response and access outcome."
+  },
+  {
+    "gap_id": "BRA2024-10-G004",
+    "type": "access",
+    "description": "CONDSEF and UOL/Agência Brasil article bodies did not render; Brasil de Fato PEC66 exact URL returned HTTP 402 and was not retried.",
+    "source_ids": [
+      "S002",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "In a later version, add source cards tied to the saved exact access receipts/assessments and keep the 402 URL blocked. Treat the UOL/CONDSEF outcomes as technical failures, not denials; use independent permitted sources."
+  }
+]

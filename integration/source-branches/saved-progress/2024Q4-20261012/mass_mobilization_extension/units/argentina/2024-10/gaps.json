@@ -1,0 +1,72 @@
+[
+  {
+    "gap_id": "ARG2024-10-G001",
+    "type": "unit_scope",
+    "description": "The 2 October march was nationally coordinated, but available source S001 gives no city-specific counts outside Buenos Aires; multiple-location versus separate local actions need review.",
+    "source_ids": [
+      "S001",
+      "S010"
+    ],
+    "affected_candidates": [
+      "ARG2024-10-E001"
+    ],
+    "required_followup": "Check primary organizers and contemporary city reporting for scope and separate candidate units."
+  },
+  {
+    "gap_id": "ARG2024-10-G002",
+    "type": "event_threshold",
+    "description": "Search surfaced October 16-17 campus demonstrations, the student march of 16 October, continuous occupations and the 29-30 October transport/social-movement actions. The Buenos Aires 16 Oct march is documented separately; thresholds/episode boundaries of other sites and 29 Oct ATE are unresolved.",
+    "source_ids": [
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S011",
+      "S012",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "ARG2024-10-E003"
+    ],
+    "required_followup": "Search contemporary reports and open allowed sources after fresh access checks; do not treat strike plans or national kitchen counts as proof of a >=50 gathering."
+  },
+  {
+    "gap_id": "ARG2024-10-G003",
+    "type": "baseline_access_scope",
+    "description": "Historical source ledgers and receipts omitted from the cloud kit; fresh access check/manual review of LA NACION was limited to available Q4 context/cards, whose aliases/origins are incomplete.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ARG2024-10-E001"
+    ],
+    "required_followup": "Retain scope gap unless coordinator supplies permitted exact historical source evidence."
+  },
+  {
+    "gap_id": "ARG2024-10-G004",
+    "type": "event_threshold",
+    "description": "Organizer CTA-T confirms a Plaza Constitución act on 30 October but does not give its crowd count; a full plaza description is qualitative and the 500+ number is kitchens, not people.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [
+      "ARG2024-10-E002"
+    ],
+    "required_followup": "Find contemporaneous independent attendance estimate or leave pending_threshold."
+  },
+  {
+    "gap_id": "ARG2024-10-G005",
+    "type": "continuity_end",
+    "description": "Infobae and EFE report the 22 October health/university march at Plaza de Mayo; EFE published the next day but says “este martes,” consistent with Infobae’s event date. Exact close and specific state response remain unknown.",
+    "source_ids": [
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "ARG2024-10-E004"
+    ],
+    "required_followup": "Search same-day follow-up/organizer coverage for the conclusion and any specific state response; keep later campaign actions separate unless continuity evidence exists."
+  }
+]

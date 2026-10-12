@@ -1,0 +1,129 @@
+[
+  {
+    "gap_id": "HN2410G001",
+    "type": "event_threshold",
+    "description": "Exact attendance remains unknown for candidates E002–E011 except qualitative “cientos” for E001/E012; several articles report affected users, roads, or beneficiary families that cannot substitute for participant count.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S014"
+    ],
+    "affected_candidates": [
+      "honduras_2024-10-E002",
+      "honduras_2024-10-E003",
+      "honduras_2024-10-E004",
+      "honduras_2024-10-E005",
+      "honduras_2024-10-E006",
+      "honduras_2024-10-E007",
+      "honduras_2024-10-E008",
+      "honduras_2024-10-E009",
+      "honduras_2024-10-E010",
+      "honduras_2024-10-E011"
+    ],
+    "required_followup": "Seek contemporaneous event-level count/photographic evidence; do not add separate cities or road points."
+  },
+  {
+    "gap_id": "HN2410G002",
+    "type": "episode_ownership",
+    "description": "Colón arms-decree blockades appear 7–8 Oct and again 24 Oct; later report describes earlier days, but continuity versus a new recurrence and end time remain unresolved.",
+    "source_ids": [
+      "S012",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "honduras_2024-10-E001",
+      "honduras_2024-10-E010"
+    ],
+    "required_followup": "Compare local contemporaneous reports for 8–24 Oct and identify when each road action ended."
+  },
+  {
+    "gap_id": "HN2410G003",
+    "type": "evidence_scope",
+    "description": "The opened HRN page for 31 Oct exposes only headline/standfirst; the more detailed account comes from El Heraldo. HRN’s qualitative count supports eligibility only provisionally.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "honduras_2024-10-E012"
+    ],
+    "required_followup": "Locate other independent contemporaneous report with exact turnout, while preserving current article scope."
+  },
+  {
+    "gap_id": "HN2410G004",
+    "type": "target_scope",
+    "description": "Oct15 HRN rendered page reports access closure in response to a producers protest but does not identify gathering location, demands, organizer or count. No event candidate is coded from this sparse page.",
+    "source_ids": [
+      "S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek a full contemporary report before creating an event record."
+  },
+  {
+    "gap_id": "HN2410G005",
+    "type": "date_or_episode",
+    "description": "UNICAH students had an additional search-only report dated 23 Oct; whether it is an earlier event or same scholarship campaign leading to Oct28 remains unresolved.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "honduras_2024-10-E011"
+    ],
+    "required_followup": "Find the Oct23 article’s accessible body and compare location, organizer and participation; no automatic merge."
+  },
+  {
+    "gap_id": "HN2410G006",
+    "type": "source_access",
+    "description": "Official SIT Oct24 monitoring page returned 403 Forbidden; its search snippet was not used as event evidence and no retry was made.",
+    "source_ids": [
+      "S016"
+    ],
+    "affected_candidates": [
+      "honduras_2024-10-E010"
+    ],
+    "required_followup": "Retain access block; seek other independently accessible reporting without reopening the blocked exact URL."
+  },
+  {
+    "gap_id": "HN2410G007",
+    "type": "coding_conflict",
+    "description": "Reports identify the Colón weapons decree as 119-2012 or 117-2012. The discrepancy is preserved, not normalized.",
+    "source_ids": [
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "honduras_2024-10-E001",
+      "honduras_2024-10-E010"
+    ],
+    "required_followup": "Consult primary legal text in a new permitted request before stating a decree number."
+  },
+  {
+    "gap_id": "HN2410G008",
+    "type": "coverage_method",
+    "description": "Nine captured individual queries cover Spanish and English generic/sector/region leads; one initial four-query combined response was rendered but not saved as raw evidence. Captured counts exclude that lost output; its result-level details are not used as evidence. Open-web coverage is non-exhaustive and no LexisNexis/equivalent archive was available.",
+    "source_ids": [
+      "S001",
+      "S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue regional and sector searches and preserve each actual response. Do not infer no protest from absent results."
+  },
+  {
+    "gap_id": "HN2410G009",
+    "type": "historical_access",
+    "description": "Historical source ledgers and original receipts are absent; current source-check context explicitly leaves aliases/origins unknown and is not a blanket approval.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Historical restriction clearance requires coordinator access to original omitted evidence; do not invent it."
+  }
+]

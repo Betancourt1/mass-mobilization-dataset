@@ -1,0 +1,57 @@
+[
+  {
+    "gap_id": "MKD12-G001",
+    "type": "coverage_limit",
+    "description": "Open-web English/Macedonian searches covered clean-air and public-enterprise labor leads, but regional/local archives and all December sectors were not exhausted. No official event-list baseline was identified.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MKD2412-E001",
+      "MKD2412-E002",
+      "MKD2412-E003"
+    ],
+    "required_followup": "Reviewer may add targeted searches; no exhaustive-month claim."
+  },
+  {
+    "gap_id": "MKD12-G002",
+    "type": "attendance",
+    "description": "Dec 28 clean-air march and Dec 20 Streets and Roads protest have no participant counts in captured bodies. Dec 10 RFE/RL says hundreds; this is the only candidate with direct threshold evidence.",
+    "source_ids": [
+      "MKD2412-S005",
+      "MKD2412-S006",
+      "MKD2412-S007",
+      "MKD2412-S008"
+    ],
+    "affected_candidates": [
+      "MKD2412-E002",
+      "MKD2412-E003"
+    ],
+    "required_followup": "Keep the latter two pending_threshold; do not infer from workforce or public-health statistics."
+  },
+  {
+    "gap_id": "MKD12-G003",
+    "type": "state_target",
+    "description": "For Dec 20 employees’ protest, workers appealed to the City Mayor, while the enterprise says its board decides pay and bonus. Direct own-state target and the public enterprise’s governance relationship require independent assessment.",
+    "source_ids": [
+      "MKD2412-S007",
+      "MKD2412-S008"
+    ],
+    "affected_candidates": [
+      "MKD2412-E003"
+    ],
+    "required_followup": "Do not promote solely because it is a city-owned/public enterprise; reviewer should resolve target scope."
+  },
+  {
+    "gap_id": "MKD12-G004",
+    "type": "source_capture",
+    "description": "Nezavisen exact URL body request returned only title/header; it is retained search_only. RFE/RL Dec 20 page includes its 2024 article and unrelated later stories; only rendered lines 42–59 are used.",
+    "source_ids": [
+      "MKD2412-S008",
+      "MKD2412-S009"
+    ],
+    "affected_candidates": [
+      "MKD2412-E002",
+      "MKD2412-E003"
+    ],
+    "required_followup": "No retry for Nezavisen; avoid using appended unrelated content."
+  }
+]

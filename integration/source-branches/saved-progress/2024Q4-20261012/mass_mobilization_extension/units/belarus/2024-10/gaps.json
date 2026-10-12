@@ -1,0 +1,75 @@
+[
+  {
+    "gap_id": "belarus_2024-10_G001",
+    "type": "access_provenance",
+    "description": "The full original historical source/access ledger is not present in this worktree. The current access check included the available review/source_checks.jsonl, and manual matching found only the current Reuters/Viasna cards with no recorded alias or written-origin link; historical scope remains unknown, so the receipt is not treated as a grant.",
+    "source_ids": [
+      "BYO24S001",
+      "BYO24S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may provide permitted exact historical evidence or independently review. Do not reconstruct missing history or broaden publisher scopes."
+  },
+  {
+    "gap_id": "belarus_2024-10_G002",
+    "type": "access",
+    "description": "The exact Viasna October monthly-report URL returned HTTP 403 on the ordinary web-tool open; the annual report PDF URL on the same host also returned HTTP 403. No further requests were made. These are exact-URL observations, not a proven domain-wide rule; search extracts remain unverified.",
+    "source_ids": [
+      "BYO24S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use independent allowed sources if later needed. Do not retry these exact URLs or infer a broad Viasna domain scope.",
+    "cross_unit_source_refs": [
+      {
+        "unit_id": "belarus_2024-11",
+        "source_id": "BYN24S002"
+      },
+      {
+        "unit_id": "belarus_2024-12",
+        "source_id": "BYD24S001"
+      }
+    ],
+    "notes": "The local source_ids entry BYO24S002 refers only to the October monthly report. The separate exact annual-PDF 403 is documented in the November and December units under the cross-unit source references; no nonlocal IDs are placed in local source_ids."
+  },
+  {
+    "gap_id": "belarus_2024-10_G003",
+    "type": "false_positive",
+    "description": "Reuters verified that a viral clip labeled as a London rally on 26 October 2024 actually showed an anti-government protest in Minsk in August 2020. It does not establish an October 2024 Belarus event.",
+    "source_ids": [
+      "BYO24S001"
+    ],
+    "affected_candidates": [
+      "belarus_2024-10_X001"
+    ],
+    "required_followup": "None for this exclusion; retain the year/location distinction."
+  },
+  {
+    "gap_id": "belarus_2024-10_G004",
+    "type": "coverage",
+    "description": "Open-web searches in Russian, Belarusian and English, including date windows and work/strike terms, did not confirm a public Belarus gathering of at least 50 making a demand of the Belarusian state in October. Search returns were noisy with 2020–2021 retrospectives and no result total or systematic local archive coverage; this is not evidence of zero events.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent reviewer may examine local/regional news and permitted contemporary records. Resolve only with event-specific simultaneous attendance and own-state target evidence."
+  },
+  {
+    "gap_id": "belarus_2024-10_G005",
+    "type": "method",
+    "description": "Open-web search does not reproduce the codebook's LexisNexis newspaper workflow. Native query clocks and search-result JSON were not exposed; rendered headers were captured with null native timestamps. Results are non-exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain this method limitation in any later summary; no claim of month exhaustion."
+  },
+  {
+    "gap_id": "belarus_2024-10_G006",
+    "type": "regional_coverage",
+    "description": "Reconciliation added Russian/Belarusian searches naming Gomel, Brest, Vitebsk, Grodno, Mogilev and Minsk, four date sub-windows, and portal-focused regional searches; Hrodna.life and BGmedia bodies and a Gomel regional result were screened. Results were heavily stale (2020–2021) or non-protest. This closes the reviewer-identified unattempted city-search step but does not establish complete regional coverage; local indexing and language/source visibility remain uneven.",
+    "source_ids": [
+      "BYO24S003",
+      "BYO24S004",
+      "BYO24S005",
+      "BYO24S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Independent reviewer should assess these new captures. If expanding beyond this bounded sweep, a Belarusian/Russian local-news researcher can examine district archives and local labor/community sources; do not infer zero from search non-discovery."
+  }
+]

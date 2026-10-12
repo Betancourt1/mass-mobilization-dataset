@@ -1,0 +1,101 @@
+[
+  {
+    "gap_id": "AZ24Q4-202411-G001",
+    "type": "threshold",
+    "description": "The 26 November reserve-officer gathering is described only as a group/some officers; no source gives simultaneous attendance.",
+    "source_ids": [
+      "AZ24Q4-202411-S001",
+      "AZ24Q4-202411-S002",
+      "AZ24Q4-202411-S003",
+      "AZ24Q4-202411-S004"
+    ],
+    "affected_candidates": [
+      "AZ24Q4-202411-E001"
+    ],
+    "required_followup": "Find a contemporaneous attendance estimate, original footage, or official record."
+  },
+  {
+    "gap_id": "AZ24Q4-202411-G002",
+    "type": "episode_boundary",
+    "description": "An October protest over the same benefit dispute precedes the 26 November action; one November participant says this was his third visit. It is unclear whether each public appearance is a new event or a repeated-action series.",
+    "source_ids": [
+      "AZ24Q4-202411-S003"
+    ],
+    "affected_candidates": [
+      "AZ24Q4-202411-E001"
+    ],
+    "required_followup": "Compare October/November reports and any original video; obtain reviewer decision on event ownership."
+  },
+  {
+    "gap_id": "AZ24Q4-202411-G003",
+    "type": "state_target",
+    "description": "COP29 actions address climate finance, fossil fuels, rights and global negotiations. Available reports do not resolve whether any action made a demand specifically on Azerbaijan’s government or policy.",
+    "source_ids": [
+      "AZ24Q4-202411-S005",
+      "AZ24Q4-202411-S006",
+      "AZ24Q4-202411-S007",
+      "AZ24Q4-202411-S008",
+      "AZ24Q4-202411-S009"
+    ],
+    "affected_candidates": [
+      "AZ24Q4-202411-E002",
+      "AZ24Q4-202411-E003",
+      "AZ24Q4-202411-E004",
+      "AZ24Q4-202411-E005"
+    ],
+    "required_followup": "Review additional contemporaneous statements and organizers’ materials for explicit target of Azerbaijani state policy; do not infer from venue alone."
+  },
+  {
+    "gap_id": "AZ24Q4-202411-G004",
+    "type": "threshold",
+    "description": "COP29 Blue Zone rallies on 14, 15, and 18 November have no attendance numbers; reported qualitative terms do not establish ≥50.",
+    "source_ids": [
+      "AZ24Q4-202411-S005",
+      "AZ24Q4-202411-S006",
+      "AZ24Q4-202411-S007"
+    ],
+    "affected_candidates": [
+      "AZ24Q4-202411-E002",
+      "AZ24Q4-202411-E003",
+      "AZ24Q4-202411-E005"
+    ],
+    "required_followup": "Find independent contemporaneous attendance estimates or original event records."
+  },
+  {
+    "gap_id": "AZ24Q4-202411-G005",
+    "type": "access",
+    "description": "AP/HRW are known affected entities; their exact historical source restrictions, aliases and written-origin links were omitted. AP bodies were not opened. One AP result is search-only; it is not an independent confirmation.",
+    "source_ids": [
+      "AZ24Q4-202411-S009",
+      "AZ24Q4-202411-S010",
+      "AZ24Q4-202411-S011"
+    ],
+    "affected_candidates": [
+      "AZ24Q4-202411-E003",
+      "AZ24Q4-202411-E004"
+    ],
+    "required_followup": "Coordinator review of exact source/alias/origin evidence if available; otherwise retain body-access gap."
+  },
+  {
+    "gap_id": "AZ24Q4-202411-G006",
+    "type": "capture_gap",
+    "description": "The first generic Azerbaijani/English November query executed but its result headers were lost when local serialization failed. It was repeated and captured as AZ24Q4-202411-Q001; original result set remains unknown.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve gap; do not reconstruct the lost result set."
+  },
+  {
+    "gap_id": "AZ24Q4-202411-G007",
+    "type": "coverage",
+    "description": "Open-web coverage does not reproduce LexisNexis; no systematic newspaper archive access or exhaustive search can be claimed. Official MM baseline/dataset is absent.",
+    "source_ids": [],
+    "affected_candidates": [
+      "AZ24Q4-202411-E001",
+      "AZ24Q4-202411-E002",
+      "AZ24Q4-202411-E003",
+      "AZ24Q4-202411-E004",
+      "AZ24Q4-202411-E005"
+    ],
+    "required_followup": "Coordinator review against official baseline and systematic newspaper sources."
+  }
+]

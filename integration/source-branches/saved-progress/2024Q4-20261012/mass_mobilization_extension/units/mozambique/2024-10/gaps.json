@@ -1,0 +1,83 @@
+[
+  {
+    "gap_id": "MZ2410G001",
+    "type": "threshold",
+    "description": "No exact simultaneous turnout for Oct24 Maputo or Oct31 Maputo actions; earlier “hundreds” in VOA are undated and not assigned.",
+    "source_ids": [
+      "MZ24O001",
+      "MZ24O002"
+    ],
+    "affected_candidates": [
+      "MZ24OCT-E001",
+      "MZ24OCT-E002"
+    ],
+    "required_followup": "Find event-specific crowd estimates."
+  },
+  {
+    "gap_id": "MZ2410G002",
+    "type": "evidence",
+    "description": "Nampula Oct24 and Pemba Oct21 remain search-only; public-gathering details, state demand and attendance unresolved.",
+    "source_ids": [
+      "MZ24O003",
+      "MZ24O004"
+    ],
+    "affected_candidates": [
+      "MZ24OCT-E003",
+      "MZ24OCT-E004"
+    ],
+    "required_followup": "Open exact URLs after fresh assessment or keep pending."
+  },
+  {
+    "gap_id": "MZ2410G003",
+    "type": "coverage",
+    "description": "Searches covered Portuguese/English and named cities/province but not systematic province-by-province or local-language coverage.",
+    "source_ids": [
+      "MZ24O003",
+      "MZ24O004"
+    ],
+    "affected_candidates": [
+      "MZ24OCT-E001",
+      "MZ24OCT-E002",
+      "MZ24OCT-E003",
+      "MZ24OCT-E004"
+    ],
+    "required_followup": "Search regional outlets and local languages."
+  },
+  {
+    "gap_id": "MZ2410G004",
+    "type": "onset",
+    "description": "Search snippets suggest protest activity before Oct21, including from Oct12; exact first qualifying gathering is unresolved.",
+    "source_ids": [
+      "MZ24O004"
+    ],
+    "affected_candidates": [
+      "MZ24OCT-E004"
+    ],
+    "required_followup": "Identify first qualifying public action and separate political protest from land/labor disputes."
+  },
+  {
+    "gap_id": "MZ2410G005",
+    "type": "response",
+    "description": "Event-specific arrests, killings, shootings, accommodation and outcomes unresolved; aggregate totals are not assigned to an event.",
+    "source_ids": [
+      "MZ24O001",
+      "MZ24O002"
+    ],
+    "affected_candidates": [
+      "MZ24OCT-E001",
+      "MZ24OCT-E002"
+    ],
+    "required_followup": "Use event-specific reporting; silence remains unknown."
+  },
+  {
+    "gap_id": "MZ2410G006",
+    "type": "method",
+    "description": "Open web rather than LexisNexis. Shared multi-query output has unknown query-level result attribution; historical access ledgers incomplete.",
+    "source_ids": [
+      "MZ24O001",
+      "MZ24O002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not treat missing receipts or no-match as clean access inventory."
+  }
+]

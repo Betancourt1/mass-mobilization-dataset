@@ -1,0 +1,95 @@
+[
+  {
+    "gap_id": "BD24Q4-202412-G001",
+    "type": "historical_access_scope",
+    "description": "Original historical source ledgers/approval originals are absent from this cloud kit. review/source_checks.jsonl is explicitly new and partial; no empty/negative result is treated as a clean historical inventory. AP, HRW, New Arab, Facebook and L’Orient holds remain in force.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator/reviewer should resolve exact source, alias and origin scope from permitted historical originals if available; otherwise retain affected scope as unknown."
+  },
+  {
+    "gap_id": "BD24Q4-202412-G002",
+    "type": "coverage_method",
+    "description": "Open-web searches were used; LexisNexis and systematic newspaper archives were unavailable. Q001–Q016 include broad and weekly English/Bangla queries, but exact native search totals/metadata and native execution clocks were not exposed. The month is not claimed exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Further permitted local/regional and sector-specific review may identify omitted actions; do not interpret incomplete capture as zero."
+  },
+  {
+    "gap_id": "BD24Q4-202412-G003",
+    "type": "retrieval_failure",
+    "description": "S002 and S003 received explicit 403 body denials and were not retried. S012 returned a tool-level internal error with no HTTP status/body; this is a technical failure, not a denial. S011 exact Unicode URL open returned a percent-encoded canonical URL different from the exact requested form; it remains search-only and is not used as support.",
+    "source_ids": [
+      "BD24DEC-S002",
+      "BD24DEC-S003",
+      "BD24DEC-S011",
+      "BD24DEC-S012"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202412-E001",
+      "BD24Q4-202412-E002"
+    ],
+    "required_followup": "Do not retry actual 403s. Technical/URL-form gaps may be assessed only through new, permitted, exact URL-specific review."
+  },
+  {
+    "gap_id": "BD24Q4-202412-G004",
+    "type": "eligibility",
+    "description": "Most other candidates have no reported simultaneous attendance count. Traffic affected, number of factories, total workforce, commuters, general words such as rally/mass, and counts of other events are not treated as attendee counts. E001/E002/E003/E004/E005/E006/E007/E008/E009 remain threshold-pending; E011 is supported by S001’s around-200 simultaneous gathering estimate.",
+    "source_ids": [
+      "BD24DEC-S001",
+      "BD24DEC-S002",
+      "BD24DEC-S004",
+      "BD24DEC-S005",
+      "BD24DEC-S006",
+      "BD24DEC-S007",
+      "BD24DEC-S012",
+      "BD24DEC-S016",
+      "BD24DEC-S018",
+      "BD24DEC-S019"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202412-E001",
+      "BD24Q4-202412-E002",
+      "BD24Q4-202412-E003",
+      "BD24Q4-202412-E004",
+      "BD24Q4-202412-E005",
+      "BD24Q4-202412-E006",
+      "BD24Q4-202412-E007",
+      "BD24Q4-202412-E008",
+      "BD24Q4-202412-E009"
+    ],
+    "required_followup": "Seek event-specific simultaneous headcounts from permitted contemporaneous sources; retain pending status until demonstrated."
+  },
+  {
+    "gap_id": "BD24Q4-202412-G005",
+    "type": "continuity_and_provenance",
+    "description": "December physical actions by trainee doctors on Dec 22 and 29 are recorded separately; related work stoppage may form a continuing campaign but does not itself establish a public gathering. The ex-forces duration differs between Daily Star and bdnews24. BSS is a state news agency; organizer/source independence is not fully established. Other neighbor-month continuity remains incompletely searched.",
+    "source_ids": [
+      "BD24DEC-S005",
+      "BD24DEC-S006",
+      "BD24DEC-S007",
+      "BD24DEC-S008",
+      "BD24DEC-S009",
+      "BD24DEC-S013"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202412-E007",
+      "BD24Q4-202412-E008",
+      "BD24Q4-202412-E009",
+      "BD24Q4-202412-E010"
+    ],
+    "required_followup": "Reviewer should examine neighboring units, clarify campaign boundary/duration, and avoid treating state agency reporting as independent confirmation."
+  },
+  {
+    "gap_id": "BD24Q4-202412-G006",
+    "type": "post_v1_deviation",
+    "description": "The S017 exact Ministry URL was checked and manually reviewed before body opening, but its separate serialized local assessment artifact was saved after the body access. The actual sequence is preserved in the V1 incident/source artifacts and is not retrospectively represented as a pre-body saved assessment. S017 supports only the state-owned/ministerial status of Bangladesh Railway; event occurrence, count, demands and timing come from S001. No body retry was made.",
+    "source_ids": [
+      "BD24DEC-S017"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202412-E011"
+    ],
+    "required_followup": "Independent reviewer to consider the sequence deviation and determine whether S017 can support state-ownership context. No repeat body request was made."
+  }
+]

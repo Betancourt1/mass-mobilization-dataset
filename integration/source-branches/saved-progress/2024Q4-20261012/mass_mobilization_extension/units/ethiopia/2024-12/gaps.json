@@ -1,0 +1,83 @@
+[
+  {
+    "gap_id": "ETH24DEC-G001",
+    "type": "state_target_event_unit_threshold",
+    "description": "Reports describe anti-government slogans within or alongside pro-government rallies and separate anti-government protests in some Fano-held Amhara towns on 18 Dec. Exact sites, event boundaries, specific state-directed demands and simultaneous crowd sizes are absent.",
+    "source_ids": [
+      "S002",
+      "S004"
+    ],
+    "affected_candidates": [
+      "ETH24DEC-E001"
+    ],
+    "required_followup": "Identify town/site, whether a separate public gathering occurred, exact anti-government demand and a simultaneous count; distinguish it from the pro-government rallies and attacks."
+  },
+  {
+    "gap_id": "ETH24DEC-G002",
+    "type": "body_retrieval",
+    "description": "The Addis Standard exact URL was assessed before one ordinary open attempt, which returned Internal Error without HTTP status. This is a tool/retrieval failure, not an observed denial. The raw response was not persisted; no retry was made.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ETH24DEC-E001"
+    ],
+    "required_followup": "If the article is still materially needed, use an ordinary permitted retrieval only after a fresh exact-target assessment; do not interpret the Internal Error as a site denial."
+  },
+  {
+    "gap_id": "ETH24DEC-G003",
+    "type": "partial_source",
+    "description": "The 10 December ACLED English open response is partial and the 17 December English page open yielded only a heading. A full Amharic version of the 17 December ACLED update was opened and reports two protests for 7–13 December, but no event-level identities or attendance; it is a likely language variant, not independent corroboration.",
+    "source_ids": [
+      "S007",
+      "S008",
+      "S013"
+    ],
+    "affected_candidates": [
+      "ETH24DEC-E001"
+    ],
+    "required_followup": "Locate event-level entries/original local reports for the two aggregate protest records; do not infer event identities or crowd size. Continue permitted reporting searches for 19–31 December."
+  },
+  {
+    "gap_id": "ETH24DEC-G004",
+    "type": "search_only_lead",
+    "description": "Search surfaced a Freedom House snippet about a planned antiwar demonstration reportedly banned in Addis Ababa in December, but the body open returned only a heading. It is not treated as an occurrence or as evidence of a completed protest.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If material, obtain and assess the exact supporting source/report and verify whether an alternative gathering actually occurred; do not code an announcement or ban as a protest."
+  },
+  {
+    "gap_id": "ETH24DEC-G005",
+    "type": "source_access_sequence",
+    "description": "A combined open response contained VOA Irreecha (already covered in October), an ENA Oromia article, and Fana article bodies without exact-source pre-assessments for the December action. Raw response is preserved in ETH24DEC-B005; content from that response is not used to support December facts.",
+    "source_ids": [
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "ETH24DEC-E001"
+    ],
+    "required_followup": "No claim is based on these bodies; if either exact target becomes materially necessary, make a fresh source-specific assessment first. Do not retroactively treat the unassessed response as evidence."
+  },
+  {
+    "gap_id": "ETH24DEC-G006",
+    "type": "coverage_method",
+    "description": "Open-web research examined Amhara rally reporting, weekly ACLED windows, regional peace/security and antiwar leads. Full date-window coverage after 18 Dec remains incomplete; no Lexis-Nexis/equivalent archive or full Afaan Oromoo local-language body was consulted.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "ETH24DEC-E001"
+    ],
+    "required_followup": "Search permitted local and national sources for 19–31 Dec demonstrations, strikes and state-policy demands, and adjacent-month follow-up; independently resolve any event-level threshold."
+  }
+]

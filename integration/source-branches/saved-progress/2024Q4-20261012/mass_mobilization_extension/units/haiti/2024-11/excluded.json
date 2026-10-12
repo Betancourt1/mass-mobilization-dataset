@@ -1,0 +1,38 @@
+[
+  {
+    "candidate_id": "haiti_2024-11-X001",
+    "type": "work_stoppage_without_public_gathering_evidence",
+    "description": "DGI employees’ strike began 23 September and continued until a truce reached in November; the opened account describes an administrative work stoppage, employer negotiations and service resumption, but no public street gathering or attendance estimate. It is not coded as an eligible protest from this evidence. This is not a claim that no public activity occurred.",
+    "source_ids": [
+      "HT24N002"
+    ],
+    "required_followup": "Only revisit if a permitted contemporary source documents a public gathering or march with count/threshold and state-policy demand."
+  },
+  {
+    "candidate_id": "haiti_2024-11-X002",
+    "type": "planned_work_stoppage_no_public_gathering_evidence",
+    "description": "Haiti News reports Ministry of Interior employees were to begin a three-day workplace strike; the body describes workplace conditions/resources but no public gathering, attendance, or completed street action.",
+    "source_ids": [
+      "HT24N001"
+    ],
+    "required_followup": "Search for completed public action evidence if relevant; do not infer a crowd from employees or disrupted services."
+  },
+  {
+    "candidate_id": "haiti_2024-11-X003",
+    "type": "announcement_only_no_execution_evidence",
+    "description": "Vant Bef Info search result announces a three-day MICT employee strike over workplace conditions; only the search result was retained, with no evidence of execution or public gathering.",
+    "source_ids": [
+      "HT24N003"
+    ],
+    "required_followup": "No body or follow-up report opened; only revisit with a permitted report of actual public action and attendance."
+  },
+  {
+    "candidate_id": "haiti_2024-11-X004",
+    "type": "outside_country_false_positive",
+    "description": "French-language result describing a 14 November teachers’ sit-in and subsequent strike clearly identifies Nouakchott/Mauritania, not Haiti; excluded from Haiti event records.",
+    "source_ids": [
+      "HT24N004"
+    ],
+    "required_followup": "None for Haiti; retained to document query false positive."
+  }
+]

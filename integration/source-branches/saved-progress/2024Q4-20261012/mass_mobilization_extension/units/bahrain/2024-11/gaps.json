@@ -1,0 +1,98 @@
+[
+  {
+    "gap_id": "bahrain_2024-11_G001",
+    "type": "baseline_and_historical_access",
+    "description": "The official baseline and original historical source ledger are absent from this cloud kit. Known AP/HRW/NewArab/Facebook/L’Orient affected holds remain pending; review/source_checks is partition context, not a complete original ledger or clean inventory.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review against permitted historical baseline/source records; no guessed aliases or no-match clearance."
+  },
+  {
+    "gap_id": "bahrain_2024-11_G002",
+    "type": "participant_threshold",
+    "description": "Both reported Nov 8 and Nov 29 demonstrations lack named localities and any individual simultaneous crowd estimate. The Nov15 item is only an announcement and has no verified occurrence. None currently meets the >=50 threshold evidence requirement.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "bahrain_2024-11_E001",
+      "bahrain_2024-11_E002",
+      "bahrain_2024-11_E003"
+    ],
+    "required_followup": "Find contemporaneous event-specific attendance evidence or mark event not established; never allocate campaign-level counts to one rally."
+  },
+  {
+    "gap_id": "bahrain_2024-11_G003",
+    "type": "event_scope_and_ownership",
+    "description": "Manama Post reports protests in multiple unnamed areas on Nov 8 and Nov 29 but does not identify places, organizers or evidence of one national organization. Local events may be separate.",
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "bahrain_2024-11_E001",
+      "bahrain_2024-11_E003"
+    ],
+    "required_followup": "Seek local reports by town/date and organizer evidence; keep candidate scope explicitly unresolved."
+  },
+  {
+    "gap_id": "bahrain_2024-11_G004",
+    "type": "announcement_execution",
+    "description": "A Boycott4Pal search result announced an Adliya sit-in on Nov 15. Exact-URL check returned stable manual_review with no saved restriction, but web open returned tool-level “not accessible” and no HTTP status. Execution, crowd and demands by actual attendees remain unverified.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [
+      "bahrain_2024-11_E002"
+    ],
+    "required_followup": "Do not retry through access workarounds; use a distinct permitted contemporary source if found."
+  },
+  {
+    "gap_id": "bahrain_2024-11_G005",
+    "type": "source_independence_and_state_response",
+    "description": "The two open event reports are from Manama Post, an opposition-leaning outlet that self-describes as independent. Its own reports are not independent corroboration; response claims are not localized to events.",
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "bahrain_2024-11_E001",
+      "bahrain_2024-11_E003"
+    ],
+    "required_followup": "Seek distinct-origin contemporary reports; keep event-specific state-response fields unknown unless directly attributed."
+  },
+  {
+    "gap_id": "bahrain_2024-11_G006",
+    "type": "continuity_and_coverage",
+    "description": "Searches in Arabic and English covered weekly Friday actions, dates and Palestine/Lebanon/prisoner themes. The web pass does not replicate LexisNexis and does not establish that no other November events occurred or when the weekly sequence began/ended.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue date-window, local Arabic and independent archive searches; do not infer no protest from search absence."
+  },
+  {
+    "gap_id": "bahrain_2024-11_G007",
+    "type": "receipt_chronology",
+    "description": "Exact-URL checks preceded opened body attempts, but later card edits changed the indexed fingerprints; saved receipts are historical checks at read time, not current scans. BFHR’s mail-host open failure remains technical and does not transfer body evidence from the different raw host.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "bahrain_2024-11_E001",
+      "bahrain_2024-11_E002",
+      "bahrain_2024-11_E003"
+    ],
+    "required_followup": "Fresh exact check after last ledger mutation before any additional body access; maintain raw URL distinctions."
+  }
+]

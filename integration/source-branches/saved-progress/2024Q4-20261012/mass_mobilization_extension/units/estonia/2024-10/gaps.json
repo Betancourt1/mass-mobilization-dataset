@@ -1,0 +1,46 @@
+[
+  {
+    "gap_id": "EST24OCT-G001",
+    "summary": "Initial English discovery query output was not saved locally.",
+    "reason": "Exact query and visible leads are retained; returned URLs/count/clocks cannot be reconstructed. Empty search arrays denote captured headers=0 due loss, not an empty search. No retry."
+  },
+  {
+    "gap_id": "EST24OCT-G002",
+    "summary": "No simultaneous attendance count for 15 October cultural-sector rally.",
+    "source_ids": [
+      "EST24OCT-S001",
+      "EST24OCT-S003",
+      "EST24OCT-S004"
+    ],
+    "reason": "Contemporaneous reporting confirms gathering and policy target but gives no people count."
+  },
+  {
+    "gap_id": "EST24OCT-G003",
+    "summary": "No attendance count for 17 October student rally.",
+    "source_ids": [
+      "EST24OCT-S005",
+      "EST24OCT-S010"
+    ],
+    "reason": "ERR and the official search-result excerpt give no participant count."
+  },
+  {
+    "gap_id": "EST24OCT-G004",
+    "summary": "Hospitality venue participation is not a participant count.",
+    "source_ids": [
+      "EST24OCT-S006",
+      "EST24OCT-S007",
+      "EST24OCT-S008"
+    ],
+    "reason": "Sources count establishments and service stoppages, not people gathered."
+  },
+  {
+    "gap_id": "EST24OCT-G005",
+    "summary": "Original planned country code and official baseline are absent from assignment kit.",
+    "reason": "ccode remains null rather than inferred; official baseline gate is pending."
+  },
+  {
+    "gap_id": "EST24OCT-G006",
+    "summary": "Open web is not LexisNexis or complete regional newspaper coverage.",
+    "reason": "No exhaustiveness claim; native clocks and total result counts unavailable."
+  }
+]

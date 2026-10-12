@@ -1,0 +1,45 @@
+[
+  {
+    "gap_id": "CN24DEC-G01",
+    "type": "named_source_dependency",
+    "description": "JILPT reports the 4 December Yichun gathering with several thousand participants and cuts to allowances by local-government forest agencies, explicitly summarizing CLB data. The event-specific CLB Strike Map record/original evidence was not found in captured targeted searches.",
+    "source_ids": [
+      "CN24DECS001"
+    ],
+    "affected_candidates": [
+      "china_2024-12-E002"
+    ],
+    "required_followup": "Find the exact CLB event record and contemporaneous/original local evidence; verify its observation and original source, state agency link, count and response. Avoid relying on aggregate annual action totals."
+  },
+  {
+    "gap_id": "CN24DEC-G02",
+    "type": "named_source_dependency_and_simultaneous_threshold",
+    "description": "Wenjiang event evidence is one opened Secret China compilation quoting social-media accounts and an unopened official notice; NTDTV and Epoch Times exact body requests produced restricted-URL fetch failures with no HTTP status, and YP video body fetch failed technically. None provides opened independent event-level evidence. Article groups “several thousand” across 14–15 Dec without daily counts.",
+    "source_ids": [
+      "CN24DECS003",
+      "CN24DECS004",
+      "CN24DECS005",
+      "CN24DECS006",
+      "CN24DECS007"
+    ],
+    "affected_candidates": [
+      "china_2024-12-E001"
+    ],
+    "required_followup": "Use permitted public search for the named Wenjiang Civil Affairs notice dated 14 Dec and original X posts/footage; document per-day event size and any continuation. Do not retry failed URLs or infer denial from no-HTTP failures."
+  },
+  {
+    "gap_id": "CN24DEC-G03",
+    "type": "coverage_method",
+    "description": "Open-web only: Chinese/English general and four weekly-window searches; targeted Yichun/CLB, Chengdu/Wenjiang, crematorium and December-roundup follow-ups; JILPT, monthly advocacy compilation and regional report bodies. Search yielded no opened event-level detail in the monthly roundup; no comprehensive newspaper archive/LexisNexis, systematic local/provincial or official records. Historical source restriction ledgers are absent; known affected source alias/origin scope remains unknown and is not cleared.",
+    "source_ids": [
+      "CN24DECS001",
+      "CN24DECS002",
+      "CN24DECS004"
+    ],
+    "affected_candidates": [
+      "china_2024-12-E001",
+      "china_2024-12-E002"
+    ],
+    "required_followup": "Continue permitted regional and official record searches and adjacent-month event follow-up for named candidates; avoid any exhaustiveness or no-protest conclusion."
+  }
+]

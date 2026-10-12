@@ -1,0 +1,79 @@
+[
+  {
+    "gap_id": "mongolia_2024-11_G001",
+    "type": "threshold",
+    "description": "Nov26 Sukhbaatar Square protest is reported, but attendance and simultaneous group size are not.",
+    "source_ids": [
+      "MONG24N002"
+    ],
+    "affected_candidates": [
+      "mongolia_2024-11_E001"
+    ],
+    "required_followup": "Find a contemporaneous count or qualitative threshold evidence from an assessed, permitted source."
+  },
+  {
+    "gap_id": "mongolia_2024-11_G002",
+    "type": "onset_ownership",
+    "description": "Nov16 Yarmag car-trader protest appears in a translated Nov17 digest item marked published Nov16, but actual event date and exact Gogo origin URL are unknown.",
+    "source_ids": [
+      "MONG24N003"
+    ],
+    "affected_candidates": [
+      "mongolia_2024-11_E002"
+    ],
+    "required_followup": "Locate the original Gogo article through exact URL discovery and confirm protest date/onset; reassess its source before any new body request."
+  },
+  {
+    "gap_id": "mongolia_2024-11_G003",
+    "type": "evidence_threshold",
+    "description": "Nov19 Insider search excerpt describes a press conference but body could not be retrieved (tool-level Internal Error, no HTTP). Whether it was a public gathering and whether ≥50 attended remain unknown.",
+    "source_ids": [
+      "MONG24N001"
+    ],
+    "affected_candidates": [
+      "mongolia_2024-11_E003"
+    ],
+    "required_followup": "Use other permitted contemporary reports for public attendance; do not retry the failed URL without new authorized decision."
+  },
+  {
+    "gap_id": "mongolia_2024-11_G004",
+    "type": "episode_relation",
+    "description": "Nov16, Nov19 and Nov26 vehicle-policy actions may relate to a wider dispute, but distinct actors, dates and episode boundaries are incompletely documented. Dec anti-pollution gathering is thematically related only; no continuity established.",
+    "source_ids": [
+      "MONG24N001",
+      "MONG24N002",
+      "MONG24N003"
+    ],
+    "affected_candidates": [
+      "mongolia_2024-11_E001",
+      "mongolia_2024-11_E002",
+      "mongolia_2024-11_E003"
+    ],
+    "required_followup": "Follow up dates, organizers and end dates in adjacent-period reporting; keep actions separate pending evidence."
+  },
+  {
+    "gap_id": "mongolia_2024-11_G005",
+    "type": "regional_language",
+    "description": "Searches included Mongolian and English terms and weekly time windows, but coverage is concentrated on Ulaanbaatar; no systematic provincial/aimag scan or sector-complete archive review.",
+    "source_ids": [
+      "MONG24N002",
+      "MONG24N003"
+    ],
+    "affected_candidates": [
+      "mongolia_2024-11_E001",
+      "mongolia_2024-11_E002"
+    ],
+    "required_followup": "Search specific provincial press for public actions and labor/transport sectors."
+  },
+  {
+    "gap_id": "mongolia_2024-11_G006",
+    "type": "archive_access",
+    "description": "Open-web sources only; no systematic press archive or official event baseline verified.",
+    "source_ids": [
+      "MONG24N001",
+      "MONG24N003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Maintain baseline pending; do not equate search yield with completeness."
+  }
+]

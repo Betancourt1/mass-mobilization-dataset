@@ -1,0 +1,80 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline",
+    "description": "Official event baseline and historical access ledgers are unavailable in the migrated workspace; no earlier source access history was reconstructed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to provide/confirm official baseline and historical ledger if available."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage",
+    "description": "Open-web searches were made in English and Gaeilge across general, sectoral, regional and date-focused terms; this is not LexisNexis-equivalent or exhaustive coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If authorized and available, consult systematic newspaper/archive records and document the search scope."
+  },
+  {
+    "gap_id": "G003",
+    "type": "attendance",
+    "description": "The 3 October health protests occurred at two locations but no separate simultaneous headcount was reported.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "ireland_2024-10-E001"
+    ],
+    "required_followup": "Find a contemporaneous source giving attendance at each individual location."
+  },
+  {
+    "gap_id": "G004",
+    "type": "continuity",
+    "description": "Fórsa and Unite announced later October hospital protests, but occurrence of the announced 9, 10, 16 and 17 October actions was not verified.",
+    "source_ids": [
+      "S001",
+      "S009"
+    ],
+    "affected_candidates": [
+      "ireland_2024-10-E001"
+    ],
+    "required_followup": "Check post-event local reports for each scheduled site/date; do not treat announcements as occurrence."
+  },
+  {
+    "gap_id": "G005",
+    "type": "attendance_and_occurrence",
+    "description": "The business protest reporting does not supply a body-based participant count; one inspected item is an advance program, and a headline’s “hundreds of businesses” does not count attendees.",
+    "source_ids": [
+      "S003",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "ireland_2024-10-E003"
+    ],
+    "required_followup": "Seek post-event reporting with actual people count and executed venue/occurrence."
+  },
+  {
+    "gap_id": "G006",
+    "type": "access",
+    "description": "RTÉ health, business and Palestine articles returned HTTP 403; Irish Independent returned a restricted-URL tool error; SIPTU Health archive returned a technical 400 fetch error. Attempts are preserved, not retried.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004",
+      "S008",
+      "S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retry without a new authorized assessment or source/context change; seek other independent sources."
+  },
+  {
+    "gap_id": "G007",
+    "type": "language",
+    "description": "Gaeilge queries yielded little relevant signal; this does not establish absence of Irish-language coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search Irish-language archives with refined phrases, if available."
+  }
+]

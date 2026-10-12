@@ -1,0 +1,48 @@
+[
+  {
+    "gap_id": "LTH2411-G001",
+    "type": "threshold",
+    "description": "The prison-officer procession/rally body confirms occurrence and state-directed working-condition grievance but gives no crowd estimate; a separate search header is not body evidence.",
+    "source_ids": [
+      "LTH2411-S009",
+      "LTH2411-S005",
+      "LTH2411-S007"
+    ],
+    "affected_candidates": [
+      "lithuania_2024-11-E003"
+    ],
+    "required_followup": "Find a permitted body with simultaneous attendance and distinguish the procession from the rally."
+  },
+  {
+    "gap_id": "LTH2411-G002",
+    "type": "episode_boundary",
+    "description": "The 14 and 21 November coalition rallies are distinct dated assemblies but share one pressure campaign. Candidate separation follows dates and assemblies; final episode coding remains open.",
+    "source_ids": [
+      "LTH2411-S001",
+      "LTH2411-S002",
+      "LTH2411-S006"
+    ],
+    "affected_candidates": [
+      "lithuania_2024-11-E001",
+      "lithuania_2024-11-E002"
+    ],
+    "required_followup": "Reviewer to apply episode rule; do not automatically merge or duplicate campaign days."
+  },
+  {
+    "gap_id": "LTH2411-G003",
+    "type": "coverage",
+    "description": "Several attempted relevant pages were header-only or inaccessible via the web tool (LRT Nov 21, Lrytas Nov 21, LRT/Respublika prison coverage, Diena). These are technical capture limits unless a source-side restriction is separately established. Open-web searches do not reproduce LexisNexis.",
+    "source_ids": [
+      "LTH2411-S003",
+      "LTH2411-S004",
+      "LTH2411-S005",
+      "LTH2411-S007",
+      "LTH2411-S008"
+    ],
+    "affected_candidates": [
+      "lithuania_2024-11-E002",
+      "lithuania_2024-11-E003"
+    ],
+    "required_followup": "No retry is made here; reviewer may consider distinct permitted sources and assess local coverage."
+  }
+]

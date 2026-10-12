@@ -1,0 +1,23 @@
+[
+  {
+    "gap_id": "CH24NOV-G001",
+    "type": "event_form_and_execution",
+    "description": "SET N'Djamena culture/youth/sports section announced a 15–21 Nov warning strike; one report returned observed 403, and another accessible source confirms only the announcement. Neither documents a public mass gathering, attendee count, actual strike execution, or public assembly. Do not use teacher/workforce totals as public demonstrator counts.",
+    "source_ids": [
+      "CH24NOV-S001",
+      "CH24NOV-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only add a protest candidate if a source documents an executed public gathering with >=50 and an explicit Chad-state target; no retries of the 403 source."
+  },
+  {
+    "gap_id": "CH24NOV-G002",
+    "type": "date_target_threshold",
+    "description": "Alwihda Info body describes student demonstrations and police actions around N'Djamena schools, but the returned page contains no event/publication date or attendance count. It says students protested teachers entering strike; target toward the Chadian state is also unclear. Cannot place in Nov 2024 or code as a mass state-targeted protest.",
+    "source_ids": [
+      "CH24NOV-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find a dated corroborating local source that establishes event date, public attendance >=50 and a demand directed to Chad's government/policy; otherwise keep undated and unassigned."
+  }
+]

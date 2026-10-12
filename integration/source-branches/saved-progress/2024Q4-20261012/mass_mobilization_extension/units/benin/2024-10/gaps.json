@@ -1,0 +1,49 @@
+[
+  {
+    "gap_id": "BEN2024-10-G001",
+    "type": "threshold",
+    "description": "The Oct 7 Justice Ministry sit-in is confirmed, but no report gives a simultaneous participant count or estimate; the number of member unions cannot be treated as attendance.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "BEN2024-10-E001"
+    ],
+    "required_followup": "Seek original union/ministry records or further contemporaneous local reporting for headcount and accessibility of the ministry meeting."
+  },
+  {
+    "gap_id": "BEN2024-10-G002",
+    "type": "source_access",
+    "description": "Historical source/access ledgers and publisher alias/origin scopes are absent. The sole available source_checks row is a new-partition context record listing affected entities AP, HRW, New Arab, Facebook and LOrient; its omissions are not a clean historical access inventory.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "BEN2024-10-E001"
+    ],
+    "required_followup": "Keep ledger absence as limitation; do not infer clearance for unknown aliases or origins. Each body-opened unrelated source has a fresh exact receipt and explicit manual review."
+  },
+  {
+    "gap_id": "BEN2024-10-G003",
+    "type": "coverage",
+    "description": "Search was open web, not LexisNexis or an equivalent archival collection. Queries were chiefly in French with one generic English search; no systematic search in local Beninese languages or broadcast/union archive was performed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may commission additional local-language, broadcast, union, or official-record searches; do not infer no other protests."
+  },
+  {
+    "gap_id": "BEN2024-10-G004",
+    "type": "baseline",
+    "description": "Official historical baseline and human approval are pending; source discovery is not exhaustive and the original codebook coverage ends in 2014.",
+    "source_ids": [],
+    "affected_candidates": [
+      "BEN2024-10-E001"
+    ],
+    "required_followup": "Retain open-web provisional status pending baseline and independent review."
+  }
+]

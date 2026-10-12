@@ -1,0 +1,74 @@
+[
+  {
+    "gap_id": "LE24NOV-G001",
+    "type": "pending_threshold",
+    "description": "LE24NOV-E001 is a reported actual march, but its source provides no turnout count or clear evidence of at least 50 simultaneous participants.",
+    "source_ids": [
+      "LE24NOV-S003"
+    ],
+    "affected_candidates": [
+      "LE24NOV-E001"
+    ],
+    "required_followup": "Seek independent contemporaneous coverage, organizer attendance records, or reliable event reporting of simultaneous attendance; do not count the broader 24-hour program or people across days."
+  },
+  {
+    "gap_id": "LE24NOV-G002",
+    "type": "pending_state_target",
+    "description": "LE24NOV-E001 is framed around LGBTQI+ equality, inclusion and rights, but the article does not clearly show a specific demand directed to Lesotho’s government made by march participants.",
+    "source_ids": [
+      "LE24NOV-S003"
+    ],
+    "affected_candidates": [
+      "LE24NOV-E001"
+    ],
+    "required_followup": "Seek speeches, petition, campaign statement tied to the march, or reporting that states an explicit demand on the Lesotho state/policy."
+  },
+  {
+    "gap_id": "LE24NOV-G003",
+    "type": "retrieval_failure",
+    "description": "LENA search result about the Quthing re-registration procession remained search-only after two web-tool timeouts (one by result reference, one direct exact URL). No HTTP status or denial was observed; do not retry in this pass.",
+    "source_ids": [
+      "LE24NOV-S002"
+    ],
+    "affected_candidates": [
+      "LE24NOV-X001"
+    ],
+    "required_followup": "Use a separately discovered permitted archive or contemporaneous source only if this context becomes material; no body inference from the snippet."
+  },
+  {
+    "gap_id": "LE24NOV-G004",
+    "type": "data_lineage",
+    "description": "During preparation, an Add File patch replaced the in-progress V1 sources.jsonl. Current V1 bytes (834 bytes) were preserved exactly in V2; their current SHA-256 is documented in deviations/SOURCE_CARD_OVERWRITE_INCIDENT.json. The pre-overwrite hash and prior bytes are unknown. Related query/body/assessment inputs exist, but are not a recovered source-ledger row. V3 does not reconstruct or rely on that lost row.",
+    "source_ids": [],
+    "affected_candidates": [
+      "LE24NOV-E001"
+    ],
+    "required_followup": "Review the preserved incident and source inputs; any future correction must be a new version with explicit provenance, not restoration or a claim of recovery."
+  },
+  {
+    "gap_id": "LE24NOV-G005",
+    "type": "capture_alignment",
+    "description": "The first discovery call bundled English and Sesotho queries and returned an aggregate rendered output without query-level result mapping; preserved raw but not attributed. Query-specific aligned header counts exclude that batch.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use separate single-query calls for future follow-ups and keep unaligned batch outputs distinct."
+  },
+  {
+    "gap_id": "LE24NOV-G006",
+    "type": "coverage_limit",
+    "description": "English and Sesotho search terms, first/second-half windows, LGBTQI+ rights/Pride, labor and general protest dimensions were searched, with follow-up for the 9 November march. No LexisNexis or complete current local news archive was available; this does not establish that no other protests occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Consult local/regional contemporary news and movement/union archives if accessible; search dates were not enforced by the engine."
+  },
+  {
+    "gap_id": "LE24NOV-G007",
+    "type": "baseline_field",
+    "description": "The available monthly assignment does not contain the original Polity ccode and the official baseline is pending; ccode remains null and no ISO code is substituted.",
+    "source_ids": [],
+    "affected_candidates": [
+      "LE24NOV-E001"
+    ],
+    "required_followup": "Coordinator may populate only from the authorized original country-code plan/baseline if that input becomes available."
+  }
+]

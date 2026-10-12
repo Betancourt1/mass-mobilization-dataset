@@ -1,0 +1,90 @@
+[
+  {
+    "gap_id": "CR202410_G001",
+    "type": "method_coverage",
+    "description": "Open-web Spanish-language searches covered generic terms, weekly windows, labor/health, water, Route 32, political/environmental actions, and discovered-episode follow-ups. They do not reproduce the codebook's LexisNexis newspaper workflow, and no exhaustive national/regional archive review or indigenous-language search was completed. No zero-event conclusion follows.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CR202410_E001",
+      "CR202410_E002",
+      "CR202410_E003",
+      "CR202410_E004",
+      "CR202410_E005",
+      "CR202410_E006"
+    ],
+    "required_followup": "Independent review may search local/regional archives and other relevant local languages; do not infer zero events from non-discovery."
+  },
+  {
+    "gap_id": "CR202410_G002",
+    "type": "access_provenance",
+    "description": "Assessments for S001–S014 exist, but no durable access-receipt paths were found in the unit. S014's saved assessment points to no receipt, and its prior body-open response/ref/read scope are not preserved; a captured Q007 result header carries article text. Fresh durable receipts were preserved for S015–S018. Receipts and native request clocks are not reconstructed for older reads.",
+    "source_ids": [
+      "CR202410S001",
+      "CR202410S002",
+      "CR202410S003",
+      "CR202410S004",
+      "CR202410S005",
+      "CR202410S006",
+      "CR202410S007",
+      "CR202410S008",
+      "CR202410S009",
+      "CR202410S010",
+      "CR202410S011",
+      "CR202410S012",
+      "CR202410S013",
+      "CR202410S014"
+    ],
+    "affected_candidates": [
+      "CR202410_E001",
+      "CR202410_E002",
+      "CR202410_E004",
+      "CR202410_E006"
+    ],
+    "required_followup": "Coordinator/reviewer may assess existing evidence records; do not backfill receipts, clocks, or approvals."
+  },
+  {
+    "gap_id": "CR202410_G003",
+    "type": "capture_integrity",
+    "description": "An initial web-tool call bundled three queries and returned merged output; the outputs were not separately captured or attributed and are not used for event claims. A Pavas query was repeated before its second response was captured as Q010; the first response was not retained as a distinct artifact. Q010–Q012 are actual single-query captures. Search execution clocks remain null.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain these deviations; do not reconstruct missing result attribution or claim all tool calls are captured."
+  },
+  {
+    "gap_id": "CR202410_G004",
+    "type": "access",
+    "description": "The IIS-UCR database URL S013 produced a tool-level Internal Error without an HTTP response/status. It is search-only, not a proven site denial. The distinct S019 water/environment query URL is also search-only. These results do not verify event details or turnout.",
+    "source_ids": [
+      "CR202410S013",
+      "CR202410S019"
+    ],
+    "affected_candidates": [
+      "CR202410_E003"
+    ],
+    "required_followup": "Use allowed independent sources or a reviewer may assess a genuinely new permitted target; do not treat tool failure as a site denial or as event verification."
+  },
+  {
+    "gap_id": "CR202410_G005",
+    "type": "threshold_episode",
+    "description": "Simultaneous crowd size is unresolved for Coopeservidores, Pavas water, and Route 32 candidates. The 9 Oct Santa Ana listing lacks a body, and the 21 Oct gallery report does not establish a qualifying protest gathering or threshold. Oct31 qualitative 'hundreds' supports the threshold for the San José march, while strike-wide totals are kept separate.",
+    "source_ids": [
+      "CR202410S001",
+      "CR202410S004",
+      "CR202410S009",
+      "CR202410S012",
+      "CR202410S016",
+      "CR202410S017",
+      "CR202410S018",
+      "CR202410S019"
+    ],
+    "affected_candidates": [
+      "CR202410_E001",
+      "CR202410_E002",
+      "CR202410_E003",
+      "CR202410_E004",
+      "CR202410_E005",
+      "CR202410_E006"
+    ],
+    "required_followup": "Independent reviewer should resolve exact crowd/time, state target, and episode relationships from permitted contemporary evidence."
+  }
+]

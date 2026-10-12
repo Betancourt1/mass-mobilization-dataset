@@ -1,0 +1,73 @@
+[
+  {
+    "gap_id": "armenia_2024-12_G001",
+    "type": "baseline",
+    "description": "Official MM baseline and historical source ledgers/receipts are absent from the Q4 partition; the worker did not reconstruct them. Historical aliases/origin scopes are unknown.",
+    "source_ids": [],
+    "affected_candidates": [
+      "armenia_2024-12_E001"
+    ],
+    "required_followup": "Coordinator review against official baseline and historical access records when available."
+  },
+  {
+    "gap_id": "armenia_2024-12_G002",
+    "type": "coverage",
+    "description": "Open web search is not equivalent to LexisNexis and does not establish exhaustive coverage. Four retained queries included English and Armenian, plus targeted follow-up. No systematic Russian-language or archive search was conducted. Other results were unrelated municipal event announcements or out-of-month reports.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search local/regional press archives and news databases in Armenian, Russian and English; no absence-of-protest inference."
+  },
+  {
+    "gap_id": "armenia_2024-12_G003",
+    "type": "participants",
+    "description": "Strike attendance is unknown: Azatutyun says 18 dismissed and “dozens” of colleagues struck, which does not prove 50. No number of workers simultaneously present in a public gathering is reported.",
+    "source_ids": [
+      "AR24DEC-S001",
+      "AR24DEC-S007",
+      "AR24DEC-S008"
+    ],
+    "affected_candidates": [
+      "armenia_2024-12_E001"
+    ],
+    "required_followup": "Find worker, union, municipal or contemporaneous independent count and determine whether the action became a public gathering."
+  },
+  {
+    "gap_id": "armenia_2024-12_G004",
+    "type": "end_date",
+    "description": "A Sputnik search-only follow-up says drivers expected to continue the strike on 4 December; it is not body-read, and no end date can be assigned from current opened sources.",
+    "source_ids": [
+      "AR24DEC-S012"
+    ],
+    "affected_candidates": [
+      "armenia_2024-12_E001"
+    ],
+    "required_followup": "Verify the follow-up and locate the report describing strike termination or last activity date."
+  },
+  {
+    "gap_id": "armenia_2024-12_G005",
+    "type": "state_response",
+    "description": "Immediate municipal refusal and dismissals are reported, but later meeting/accommodation is unresolved; other response dimensions remain unknown.",
+    "source_ids": [
+      "AR24DEC-S001",
+      "AR24DEC-S007",
+      "AR24DEC-S008",
+      "AR24DEC-S012"
+    ],
+    "affected_candidates": [
+      "armenia_2024-12_E001"
+    ],
+    "required_followup": "Open a permitted contemporaneous report of the evening meeting and next-day continuation; review arrests, legal action and outcome."
+  },
+  {
+    "gap_id": "armenia_2024-12_G006",
+    "type": "source_access_context",
+    "description": "Historical alias/origin ledgers are absent. Fresh exact access checks and source-specific manual reviews were conducted for body opens; they do not resolve omitted historical relationships.",
+    "source_ids": [
+      "AR24DEC-S001",
+      "AR24DEC-S007",
+      "AR24DEC-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Recheck if historical ledgers or access receipts become available."
+  }
+]

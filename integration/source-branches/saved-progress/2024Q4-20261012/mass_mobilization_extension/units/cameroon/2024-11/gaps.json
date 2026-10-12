@@ -1,0 +1,75 @@
+[
+  {
+    "gap_id": "CAM202411_G001",
+    "type": "state_target",
+    "description": "CDC march meets reported crowd threshold and government was addressed, but specific state policy or legal/administrative cause of 55-month wage arrears is unverified; state ownership alone does not settle eligibility.",
+    "source_ids": [
+      "CAM202411_S001",
+      "CAM202411_ALBUM_S004",
+      "CAM202411_MINADER_S003"
+    ],
+    "affected_candidates": [
+      "CAM202411_E001"
+    ],
+    "required_followup": "Independent evidence establishing whether government/state policy controlled the relevant wages/arrears and who could redress the claim."
+  },
+  {
+    "gap_id": "CAM202411_G002",
+    "type": "source_independence",
+    "description": "CNA and Actu accounts use very similar wording; Album Social is distinct in wording but story origin/syndication remains unknown. Do not treat three cards as three independent turnout checks.",
+    "source_ids": [
+      "CAM202411_S001",
+      "CAM202411_S002",
+      "CAM202411_ALBUM_S004"
+    ],
+    "affected_candidates": [
+      "CAM202411_E001"
+    ],
+    "required_followup": "Check explicit origin/agency and independently reported crowd estimate."
+  },
+  {
+    "gap_id": "CAM202411_G003",
+    "type": "continuity",
+    "description": "Album Social calls the march another action, but prior dates are not specified; CDC event end and any subsequent actions remain unknown.",
+    "source_ids": [
+      "CAM202411_ALBUM_S004"
+    ],
+    "affected_candidates": [
+      "CAM202411_E001"
+    ],
+    "required_followup": "Date-specific reporting before and after 12 Nov, keeping separate events distinct."
+  },
+  {
+    "gap_id": "CAM202411_G004",
+    "type": "eligibility",
+    "description": "Truckers' corridor strike is discoverable only through snippets; public gathering/turnout and domestic-state demand vs foreign-security grievance are unresolved.",
+    "source_ids": [
+      "CAM202411_KOACI_T006",
+      "CAM202411_VOA_T007"
+    ],
+    "affected_candidates": [
+      "CAM202411_E002"
+    ],
+    "required_followup": "Body-level source on Cameroonian action, physical gathering, count, demands, and response."
+  },
+  {
+    "gap_id": "CAM202411_G005",
+    "type": "access",
+    "description": "Pages Jaunes body fetch timed out before an HTTP response; this is technical failure, not a site denial. Its search snippet is not body evidence.",
+    "source_ids": [
+      "CAM202411_PJ_S005"
+    ],
+    "affected_candidates": [
+      "CAM202411_E001"
+    ],
+    "required_followup": "Use unrelated permitted independent sources; do not repeatedly retry same timed-out retrieval."
+  },
+  {
+    "gap_id": "CAM202411_G006",
+    "type": "coverage",
+    "description": "Search scope is open-web French/English discovery, not LexisNexis-equivalent or exhaustive; regional language and archive coverage remains partial.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Regional labor and local press by geography/sector, plus archives and any relevant local-language sources."
+  }
+]

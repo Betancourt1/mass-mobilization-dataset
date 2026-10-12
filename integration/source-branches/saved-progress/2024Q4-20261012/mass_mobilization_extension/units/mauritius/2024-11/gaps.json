@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "MUS24NOV-G001",
+    "type": "event_identification_and_threshold",
+    "description": "The government temporary social-media restriction is documented, but the saved reports do not establish a separate public anti-ban protest. L’Express speculates before 3 November that some angry people might attend an Alliance du Changement campaign rally to express opposition; the article body was inaccessible and no actual attendance, protester intent, distinct protest action or crowd number is known. The campaign rally is not coded as a qualifying event on this evidence.",
+    "source_ids": [
+      "MUS24NOV-S001",
+      "MUS24NOV-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If permitted new independent local evidence is available, determine whether a distinct public protest occurred, its date/place, simultaneous turnout and own-state demand; do not turn a pre-event speculation or electoral rally into an event."
+  },
+  {
+    "gap_id": "MUS24NOV-G002",
+    "type": "body_access",
+    "description": "The exact L’Express URL returned a tool-level “not accessible via this tool” message after access-check manual review; no HTTP response code or actual publisher denial was observed. Preserve as a technical accessibility gap, not a refusal or hold; do not retry the same URL in this pass.",
+    "source_ids": [
+      "MUS24NOV-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use a materially different permitted source or discovery route; no re-open of the failed exact URL."
+  },
+  {
+    "gap_id": "MUS24NOV-G003",
+    "type": "coverage_method",
+    "description": "Open-web English/French searches covered the election-period ban and Port-Louis campaign window. No Lexis-Nexis/equivalent archive or full historical source ledger was available; no distinct protest event was verified. Research remains non-exhaustive.",
+    "source_ids": [
+      "MUS24NOV-S001",
+      "MUS24NOV-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue permitted local reporting and regional/sector/date queries, retaining unknown date, attendance and story origin fields."
+  },
+  {
+    "gap_id": "MUS24NOV-G004",
+    "type": "ambiguous_public_meeting_notice",
+    "description": "A public-notice listing returned two items labeled “Public Meeting” on 1 November 2024, at Port-Louis and Indira Gandhi Road, Phoenix. The captured listing does not identify organizer, agenda, political/election purpose, attendance or any protest demand; no individual notice page was opened. This is an unresolved lead, not a protest event or threshold evidence.",
+    "source_ids": [
+      "MUS24NOV-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a permitted exact individual notice can be identified from a fresh local source, assess that exact URL before a body request; establish purpose and public gathering before event coding."
+  }
+]

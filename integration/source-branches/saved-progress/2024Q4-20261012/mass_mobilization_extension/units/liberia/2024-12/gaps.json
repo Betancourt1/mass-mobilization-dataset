@@ -1,0 +1,62 @@
+[
+  {
+    "gap_id": "liberia_2024-12-G001",
+    "type": "source_scope",
+    "description": "The LI data-protest body was returned after the exact requested URL redirected to a different canonical article URL; pre-body assessment checked the request URL, not the canonical destination. Keep candidate pending exact-scope review.",
+    "source_ids": [
+      "LR24DEC-S004"
+    ],
+    "affected_candidates": [
+      "liberia_2024-12-E002"
+    ],
+    "required_followup": "Fresh exact-URL access assessment and manual source/origin review of canonical URL before promotion or further opening."
+  },
+  {
+    "gap_id": "liberia_2024-12-G002",
+    "type": "event_identity",
+    "description": "DN News and LI data-protest reports share petition speaker, recipient and demands, but DN News does not give the event date; it is unclear whether it describes the Dec 16 march or a distinct gathering. Do not double-count.",
+    "source_ids": [
+      "LR24DEC-S003",
+      "LR24DEC-S004"
+    ],
+    "affected_candidates": [
+      "liberia_2024-12-E002"
+    ],
+    "required_followup": "Find exact event date and whether any distinct Dec 17 LTA gathering occurred."
+  },
+  {
+    "gap_id": "liberia_2024-12-G003",
+    "type": "violence_conflict",
+    "description": "FPA says bullets were fired at the Dec 17 Capitol protest; the government denies live bullets and says security used nonlethal force. No independent body-level resolution is in saved records.",
+    "source_ids": [
+      "LR24DEC-S001",
+      "LR24DEC-S002"
+    ],
+    "affected_candidates": [
+      "liberia_2024-12-E001"
+    ],
+    "required_followup": "Seek permitted independent contemporaneous accounts of gunfire, teargas, injuries or arrests; preserve current unknown coding."
+  },
+  {
+    "gap_id": "liberia_2024-12-G004",
+    "type": "retrieval_failure",
+    "description": "INCHR PDF request returned 404; any monitoring/arrest details in search snippets remain unverified by a captured body.",
+    "source_ids": [
+      "LR24DEC-S005"
+    ],
+    "affected_candidates": [
+      "liberia_2024-12-E001"
+    ],
+    "required_followup": "Only use an accessible permitted copy or separate body-level source; do not infer from snippets."
+  },
+  {
+    "gap_id": "liberia_2024-12-G005",
+    "type": "coverage",
+    "description": "Open-web discovery and permitted body access do not provide systematic LexisNexis coverage; AP remains held and was not opened.",
+    "source_ids": [
+      "LR24DEC-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Compare against baseline and systematic archives when available; no exhaustiveness claim."
+  }
+]

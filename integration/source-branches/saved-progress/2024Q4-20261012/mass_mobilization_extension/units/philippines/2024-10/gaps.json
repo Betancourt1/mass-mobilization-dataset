@@ -1,0 +1,56 @@
+[
+  {
+    "gap_id": "PH2410-G001",
+    "type": "threshold",
+    "description": "Neither October candidate has a simultaneous headcount; accessible body evidence is unavailable.",
+    "source_ids": [
+      "PH2410-S001",
+      "PH2410-S002",
+      "PH2410-S003"
+    ],
+    "affected_candidates": [
+      "PH2410-E001",
+      "PH2410-E002"
+    ],
+    "required_followup": "Seek distinct permitted contemporaneous reporting or organizer documentation."
+  },
+  {
+    "gap_id": "PH2410-G002",
+    "type": "access",
+    "description": "Manila Bulletin target returned tool-level Internal Error without HTTP status/body; Manila Times exact target returned HTTP 402. No retries.",
+    "source_ids": [
+      "PH2410-S001",
+      "PH2410-S002"
+    ],
+    "affected_candidates": [
+      "PH2410-E001"
+    ],
+    "required_followup": "Do not retry; seek distinct accessible sources."
+  },
+  {
+    "gap_id": "PH2410-G003",
+    "type": "coverage",
+    "description": "Six English/Filipino open-web searches, including Manila and targeted Tarlac follow-ups, are not exhaustive or equivalent to LexisNexis/local archives.",
+    "source_ids": [
+      "PH2410-S001",
+      "PH2410-S002",
+      "PH2410-S003"
+    ],
+    "affected_candidates": [
+      "PH2410-E001",
+      "PH2410-E002"
+    ],
+    "required_followup": "Independent reviewer may identify additional local archives."
+  },
+  {
+    "gap_id": "PH2410-G004",
+    "type": "baseline",
+    "description": "Official baseline reconciliation pending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "PH2410-E001",
+      "PH2410-E002"
+    ],
+    "required_followup": "Coordinator-controlled official baseline review."
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "gap_id": "BHT24D-G001",
+    "type": "query_provenance",
+    "description": "Some exploratory web searches from before capture was active are not logged. The current captured set includes monthly/weekly searches, a cross-month Dzongkha query, targeted December coverage and BBS/Kuensel searches; prior query text and counts are not reconstructed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use current captured logs as the audit record; log further actual queries at execution."
+  },
+  {
+    "gap_id": "BHT24D-G002",
+    "type": "language_coverage",
+    "description": "Dzongkha and Nepali queries returned mostly unrelated or regional results. Local-language news and local community reporting by dzongkhag were not comprehensively reviewed; researcher fluency is limited.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Have a capable local-language researcher review district and community sources if extending coverage."
+  },
+  {
+    "gap_id": "BHT24D-G003",
+    "type": "geographic_sector_coverage",
+    "description": "Searches included national and regional press, land, labor, rights/GBV, and date windows, but did not systematically query every dzongkhag, workplace or community. Kuensel date-targeted queries returned unrelated/stale material.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Perform dated district-level and sector-specific follow-up if a fuller sweep is required."
+  },
+  {
+    "gap_id": "BHT24D-G004",
+    "type": "continuity",
+    "description": "The Damphu reporting was followed across October, November and December; articles describe private weekly religious meetings and legal proceedings, not a qualifying protest. No separate Q4 protest episode surfaced that could be continuity-checked across neighboring months.",
+    "source_ids": [],
+    "affected_candidates": [
+      "BHT24D-X001"
+    ],
+    "required_followup": "If independent evidence of a public protest or a specific >=50 gathering emerges, reassess onset, ownership, attendance and continuity before creating any candidate.",
+    "cross_unit_source_refs": [
+      {
+        "unit_id": "bhutan_2024-10",
+        "source_id": "BHT24O001"
+      },
+      {
+        "unit_id": "bhutan_2024-11",
+        "source_id": "BHT24N005"
+      }
+    ]
+  },
+  {
+    "gap_id": "BHT24D-G005",
+    "type": "archive_method",
+    "description": "Only open-web research was possible; LexisNexis/equivalent local newspaper archive was unavailable. This is a method limitation, not proof that no protests occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No bypass attempted; any later archive review must be recorded separately."
+  }
+]

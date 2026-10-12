@@ -1,0 +1,102 @@
+[
+  {
+    "candidate_id": "LBY24DEC-E001",
+    "country": "Libya",
+    "ccode": null,
+    "unit_month": "2024-12",
+    "title": "Zamzam residents’ vigil for an independent municipality",
+    "start_date": "2024-12-03",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Zamzam, Libya",
+    "scope": "One local vigil in Zamzam; not treated as part of the municipal election campaign or as a broader national event.",
+    "organizer": "Zamzam residents; no formal organizing body named.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "unknown; Alwasat reports a protest vigil by residents but gives no count or simultaneous crowd-size descriptor. Good turnout language in a related search item described voters, not this vigil.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "LBY24DECS001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "LBY24DECS001"
+        ],
+        "summary": "Alwasat caption explicitly dates the protest vigil to Tuesday 3 December 2024."
+      },
+      "location": {
+        "source_ids": [
+          "LBY24DECS001"
+        ],
+        "summary": "Article identifies Zamzam residents and the vigil in Zamzam."
+      },
+      "state_target": {
+        "source_ids": [
+          "LBY24DECS001"
+        ],
+        "summary": "Residents addressed Prime Minister Dbeibah and asked the national government to preserve an independent municipality rather than annex their area to Misrata."
+      },
+      "demands": {
+        "source_ids": [
+          "LBY24DECS001"
+        ],
+        "summary": "The specific demand concerns government administrative/political representation and municipal status; mapped to political_behavior_process."
+      },
+      "organizer": {
+        "source_ids": [
+          "LBY24DECS001"
+        ],
+        "summary": "Residents of Zamzam; formal organizer not reported."
+      },
+      "participants_original": {
+        "source_ids": [
+          "LBY24DECS001"
+        ],
+        "summary": "No attendance figure stated."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "LBY24DECS001"
+        ],
+        "summary": "A protest vigil is reported but no number or unambiguous scale indicator; ≥50 simultaneous people not established."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "LBY24DECS001"
+        ],
+        "summary": "The article statement calls the vigil peaceful; no protester violence reported in reviewed scope."
+      },
+      "state_response": {
+        "source_ids": [
+          "LBY24DECS001"
+        ],
+        "summary": "No response after the vigil reported; unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "LBY24DEC-zamzam-independent-municipality",
+    "notes": "Single Alwasat report. Do not use municipal-election voter turnout as a protest headcount. The report says Dbeibah had made a promise; whether a later decision or follow-up demonstration occurred is unknown. No independent confirmation established.",
+    "open_questions": [
+      "Can another permitted contemporaneous source establish the number simultaneously present?",
+      "Did government act on its promise or were there subsequent gatherings?",
+      "When did the event/claim end?",
+      "What original project ccode corresponds to Libya?"
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "gap_id": "IT24DEC-G001",
+    "type": "search_coverage",
+    "description": "Three captured Italian-language queries sampled the general strike, student actions, security-law protest, and selected national union actions. Coverage is not exhaustive and does not inventory every region, city or sector.",
+    "source_ids": [
+      "IT24DEC-S001",
+      "IT24DEC-S002",
+      "IT24DEC-S003",
+      "IT24DEC-S004"
+    ],
+    "affected_candidates": [
+      "IT24DEC-E001",
+      "IT24DEC-E002",
+      "IT24DEC-E003"
+    ],
+    "required_followup": "Search regional sources and other sectors/date windows after fresh exact-target assessment; do not infer zero events."
+  },
+  {
+    "gap_id": "IT24DEC-G002",
+    "type": "attendance_and_state_response",
+    "description": "December 14 Rome security-decree march has sharply different organizer and law-enforcement estimates (100,000 vs approximately 7,000); both are preserved, with the lower estimate used for threshold. Specific official responses are not established in the opened article.",
+    "source_ids": [
+      "IT24DEC-S001"
+    ],
+    "affected_candidates": [
+      "IT24DEC-E001"
+    ],
+    "required_followup": "Seek independent contemporaneous attendance and official-response evidence."
+  },
+  {
+    "gap_id": "IT24DEC-G003",
+    "type": "cross_month_continuity",
+    "description": "The December 14 security-decree march and October 5 Rome march share opposition to security legislation/DDL 1660, but the available reporting identifies a different December convening network and does not establish uninterrupted activity or the same episode.",
+    "source_ids": [
+      "IT24DEC-S001"
+    ],
+    "affected_candidates": [
+      "IT24DEC-E001"
+    ],
+    "required_followup": "Investigate organizational and campaign continuity; keep the episodes separate unless direct evidence supports a link."
+  },
+  {
+    "gap_id": "IT24DEC-G004",
+    "type": "search_result_date_mismatch",
+    "description": "The USB Pubblico Impiego result titled around a “manifestazione nazionale del 17” proved to be a 20 October 2008 archive item, not a December 2024 protest. It is documented as a historical opened source only; no 2024 event is inferred.",
+    "source_ids": [
+      "IT24DEC-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No follow-up on that historical item; search separately for December 17, 2024 if pursuing that date."
+  },
+  {
+    "gap_id": "IT24DEC-G005",
+    "type": "invalid_ref_tool_error",
+    "description": "The first attempted open used an invalid search reference identifier and returned only an internal error, with no page content resolved. The raw response and SHA are captured in retrieval_failures/IT24DEC-OPEN-001_invalid_ref.json. The exact target was subsequently opened via its URL after a fresh access check and manual assessment.",
+    "source_ids": [],
+    "affected_candidates": [
+      "IT24DEC-E001"
+    ],
+    "required_followup": "No retry of the invalid reference needed; retain the raw error record and valid exact-target capture."
+  },
+  {
+    "gap_id": "IT24DEC-G006",
+    "type": "baseline_and_access_history",
+    "description": "Official baseline remains pending. Historical restriction ledger is absent; current context lists AP, HRW, New Arab, Facebook and LOrient affected entities but aliases/origins are unknown. Local manual reviews do not prove global completeness.",
+    "source_ids": [
+      "IT24DEC-S001",
+      "IT24DEC-S002",
+      "IT24DEC-S003"
+    ],
+    "affected_candidates": [
+      "IT24DEC-E001",
+      "IT24DEC-E002",
+      "IT24DEC-E003"
+    ],
+    "required_followup": "Coordinator to resolve baseline and historical restriction-ledger gaps; scientific review pending."
+  }
+]

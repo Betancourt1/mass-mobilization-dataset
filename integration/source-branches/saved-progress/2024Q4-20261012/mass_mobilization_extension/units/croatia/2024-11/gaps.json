@@ -1,0 +1,31 @@
+[
+  {
+    "gap_id": "HR24NOV-G001",
+    "type": "coverage_limit",
+    "description": "Open-web only, not systematic county-by-county archive coverage. Croatian/English searches included Zagreb/Split/Rijeka but not every locality.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent reviewer may add local/week-by-week searches. Empty events array is not a claim that no activity occurred."
+  },
+  {
+    "gap_id": "HR24NOV-G002",
+    "type": "public_gathering_boundary",
+    "description": "Health-sector strike involved about 4,000 workers across facilities, a dispersed workforce count. HRT specifically reports 36 protesters at the Clinic for Tumors; no 50+ public gathering found in the body read.",
+    "source_ids": [
+      "HR24NOV-S001"
+    ],
+    "affected_candidates": [
+      "HR24NOV-X001"
+    ],
+    "required_followup": "If new evidence appears, verify actual location, simultaneous crowd and state target."
+  },
+  {
+    "gap_id": "HR24NOV-G003",
+    "type": "out_of_scope_false_positive",
+    "description": "Split/Torcide searches returned 2025 coverage, not verified 2024 event evidence; out-of-period URLs were not opened or imported as candidates.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No action unless a specifically dated 2024 source appears."
+  }
+]
+

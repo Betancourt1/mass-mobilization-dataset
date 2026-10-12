@@ -1,0 +1,53 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline_and_historical_access",
+    "description": "The official historical event baseline and complete prior source/access ledgers are not present in this workspace. Current access checks do not establish clean historical access for any target.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to supply the permitted baseline and relevant historical source/access records if available; otherwise retain the audit limitation."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage",
+    "description": "Ten recorded open-web searches covered French and English terms for protests, demonstrations, marches, strikes, education, unions, markets, mining, and multiple Nigerien regions. This is a bounded web-search pass, not LexisNexis-equivalent or exhaustive coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If authorized and available, conduct systematic newspaper/archive searches and document collections, language and date scope."
+  },
+  {
+    "gap_id": "G003",
+    "type": "access_and_evidence",
+    "description": "Niger Times PDF was reported inaccessible by the web tool with no HTTP status, while the exact Le Sahel URL returned HTTP 403. Their contents remain unavailable; no retry was made.",
+    "source_ids": [
+      "NI24OCT-S003",
+      "NI24OCT-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek other permitted reporting or an accessible archive copy without retrying these exact restricted/inaccessible targets."
+  },
+  {
+    "gap_id": "G004",
+    "type": "labor_occurrence_and_public_gathering",
+    "description": "Search results mention education-sector union activity and government–union negotiations, but available records do not establish an eligible public gathering of at least 50 people directed at state policy during October. The October union announcement found is dated 30 September; exact PDF/body evidence is unavailable.",
+    "source_ids": [
+      "NI24OCT-S002",
+      "NI24OCT-S003",
+      "NI24OCT-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek post-event contemporaneous reporting with event date, public gathering form, simultaneous attendance, demands and response."
+  },
+  {
+    "gap_id": "G005",
+    "type": "continuity",
+    "description": "Month-specific queries did not resolve whether any September-origin activity continued into October or October activity continued into November; no event is assigned as a continuation on the available evidence.",
+    "source_ids": [
+      "NI24OCT-S002",
+      "NI24OCT-S003",
+      "NI24OCT-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check adjacent-month event reporting and identify same organizers, demands and continuity before assigning an episode boundary."
+  }
+]

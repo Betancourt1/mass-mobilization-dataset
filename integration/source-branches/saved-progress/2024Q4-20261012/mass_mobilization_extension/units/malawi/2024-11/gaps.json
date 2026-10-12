@@ -1,0 +1,92 @@
+[
+  {
+    "gap_id": "malawi_2024-11_G001",
+    "type": "threshold",
+    "description": "Four body-supported public-action candidates remain pending because no source reports the number present simultaneously: Nov 5 Machinga TTC march, Nov 6 Dedza TTC protest, Nov 13 Lilongwe electoral-reform protest and Nov 25 Lilongwe fuel/electoral protest. E005 is still only a search-result lead.",
+    "source_ids": [
+      "MW24N001",
+      "MW24N004",
+      "MW24N006",
+      "MW24N007",
+      "MW24N013",
+      "MW24N014",
+      "MW24N017"
+    ],
+    "affected_candidates": [
+      "malawi_2024-11_E001",
+      "malawi_2024-11_E002",
+      "malawi_2024-11_E003",
+      "malawi_2024-11_E004",
+      "malawi_2024-11_E005"
+    ],
+    "required_followup": "Find contemporary sources giving attendance at each gathering; for E005, first obtain a permitted source confirming occurrence, date and state demand. Do not use college enrollment or forecasts as turnout."
+  },
+  {
+    "gap_id": "malawi_2024-11_G002",
+    "type": "source",
+    "description": "MW24N014's requested Malawi Freedom Network article redirected to an unrelated 2026 biography; its body was not obtained. MW24N017 is a separate Times Group report available only as a search result, and another Times URL in December returned an anti-bot challenge. E005 remains pending evidence.",
+    "source_ids": [
+      "MW24N014",
+      "MW24N017"
+    ],
+    "affected_candidates": [
+      "malawi_2024-11_E005"
+    ],
+    "required_followup": "Use a permitted alternative outlet or official record for the Ndirande incident. Do not retry MW24N014 or assume the Times challenge's scope extends beyond its observed URL."
+  },
+  {
+    "gap_id": "malawi_2024-11_G003",
+    "type": "continuity",
+    "description": "The Nov 21 CDEDI plan was reported postponed/rescheduled to Nov 25, which is coded separately. Nov 25 organizer stated an intention to continue, but no later action/date was established. The Nov 5/6/Dec-reported TTC allowance actions may share a policy issue, but coordination/onset is unknown.",
+    "source_ids": [
+      "MW24N001",
+      "MW24N011",
+      "MW24N013",
+      "MW24N015",
+      "MW24N016"
+    ],
+    "affected_candidates": [
+      "malawi_2024-11_E001",
+      "malawi_2024-11_E002",
+      "malawi_2024-11_E004"
+    ],
+    "required_followup": "Check post-event sources and adjacent months for actual continuation, and determine whether separate TTC actions were coordinated; preserve distinct local episodes unless evidence resolves linkage."
+  },
+  {
+    "gap_id": "malawi_2024-11_G004",
+    "type": "source",
+    "description": "A Dec 3 article (units/malawi/2024-12, MW24D001) reports 635 Lilongwe TTC student teachers had boycotted classes for about three weeks, suggesting an approximate mid-November start. It describes no march or other public event and gives no exact onset date; enrollment/participation figures are not protest turnout.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "cross_unit_source_refs": [
+      {
+        "unit_id": "malawi_2024-12",
+        "source_id": "MW24D001"
+      }
+    ],
+    "required_followup": "Search for contemporaneous reports of a public student gathering during November and clarify onset/coordination with Dedza and Machinga actions; do not code a class boycott alone as a public protest."
+  },
+  {
+    "gap_id": "malawi_2024-11_G005",
+    "type": "coverage",
+    "description": "English month-wide and week-windowed searches, Chichewa terms, official MANA/MBC queries and follow-ups identified events in Lilongwe, Machinga and Dedza. No comprehensive local reporting sweep was completed for Mzuzu, Zomba, Mangochi and other districts; usable Chichewa results were limited. CIVICUS is retrospective and its linked story/provenance relationship to contemporary sources was not fully resolved.",
+    "source_ids": [
+      "MW24N006",
+      "MW24N007",
+      "MW24N013"
+    ],
+    "affected_candidates": [
+      "malawi_2024-11_E001",
+      "malawi_2024-11_E003"
+    ],
+    "required_followup": "Search remaining feasible regions/sectors and obtain linked contemporary source coverage where permitted; record any shared origin or republication before treating sources as independent."
+  },
+  {
+    "gap_id": "malawi_2024-11_G006",
+    "type": "method",
+    "description": "Open-web search is not LexisNexis and does not support exhaustiveness. Candidate thresholds remain unresolved; zero verified provisional candidates is not zero protests.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue permitted source/diversity and adjacent-month follow-ups; keep official baseline pending."
+  }
+]

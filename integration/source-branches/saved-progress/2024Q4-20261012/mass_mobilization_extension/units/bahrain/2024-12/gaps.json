@@ -1,0 +1,105 @@
+[
+  {
+    "gap_id": "bahrain_2024-12_G001",
+    "type": "baseline_and_historical_access",
+    "description": "Official baseline and original historical source ledger are absent. Known AP/HRW/NewArab/Facebook/L’Orient holds remain pending and aliases/origins are unknown; the current partition source_checks entry does not reconstruct the original ledger or establish a clean inventory.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review with permitted historical evidence; no access inference from no-match."
+  },
+  {
+    "gap_id": "bahrain_2024-12_G002",
+    "type": "funeral_count_and_source_independence",
+    "description": "Adhari funeral demonstration is reported as “thousands” by the 14 February Coalition (the opposition organizer itself) and “crowds” by Manama Post. The count is qualitative and not independently measured; a Bahrain Mirror search result says hundreds but its page returned HTTP 502 and remains search-only.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S007"
+    ],
+    "affected_candidates": [
+      "bahrain_2024-12_E001"
+    ],
+    "required_followup": "Seek a distinct contemporary source or visual/observer methodology; do not convert qualitative estimates to numeric bounds."
+  },
+  {
+    "gap_id": "bahrain_2024-12_G003",
+    "type": "threshold_local_actions",
+    "description": "Tubli, Karrana and Karbabad actions have date/location/demand evidence at varying quality but no local participant counts. They are not combined with the Adhari funeral or with one another.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [
+      "bahrain_2024-12_E002",
+      "bahrain_2024-12_E003",
+      "bahrain_2024-12_E004"
+    ],
+    "required_followup": "Find separate contemporary attendance evidence for each locality and assess any national coordination independently."
+  },
+  {
+    "gap_id": "bahrain_2024-12_G004",
+    "type": "family_event_dates_and_size",
+    "description": "ADHRB/GCHR report family demonstrations and sit-ins, including the dated 11 Dec Al-Ma’ared protest, but provide no crowd size. GCHR references an alleged separate protest outside Sitra Police Station without exact date, and ADHRB lists other sit-ins without individual dates.",
+    "source_ids": [
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "bahrain_2024-12_E005",
+      "bahrain_2024-12_E006",
+      "bahrain_2024-12_E007"
+    ],
+    "required_followup": "Find event-specific dates, location, participant numbers and relationship among family actions; keep unknown date/size unresolved."
+  },
+  {
+    "gap_id": "bahrain_2024-12_G005",
+    "type": "private_prison_activity",
+    "description": "The Jau prison sit-ins/protests are reported inside the prison after Aman’s death; these are not public gatherings. Prisoner deaths and allegations of medical neglect are context, not a public event or a protest-related state killing.",
+    "source_ids": [
+      "S003",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain as exclusion/private-facility context unless clear evidence establishes a separate public gathering."
+  },
+  {
+    "gap_id": "bahrain_2024-12_G006",
+    "type": "receipt_chronology",
+    "description": "Exact-URL checks preceded body attempts, but subsequent source-card/global ledger edits changed the indexed fingerprints. The receipts are historical pre-read checks, not current scans. A defer at receipt `_funeral_002` due to an unrelated blank Armenia JSONL line is preserved; no body was opened under that defer, and the later `_funeral_003` stable manual review preceded the 14F funeral-page open.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "bahrain_2024-12_E001",
+      "bahrain_2024-12_E002",
+      "bahrain_2024-12_E003",
+      "bahrain_2024-12_E004",
+      "bahrain_2024-12_E005",
+      "bahrain_2024-12_E006",
+      "bahrain_2024-12_E007"
+    ],
+    "required_followup": "For any new body request, run a new exact-URL scan after latest ledger mutation, manually review matches, and record receipt chronology."
+  },
+  {
+    "gap_id": "bahrain_2024-12_G007",
+    "type": "continuity_and_coverage",
+    "description": "Searches covered Arabic and English, the Aman funeral and local actions, prisoner families, and national-day period. Open-web discovery is not LexisNexis and cannot establish all December event dates, closure or absence of other actions. No continuity into January is verified.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue post-month continuity searches and independent local/official archives; do not claim an exhaustive month."
+  }
+]

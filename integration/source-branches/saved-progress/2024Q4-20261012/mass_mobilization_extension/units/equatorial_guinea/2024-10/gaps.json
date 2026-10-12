@@ -1,0 +1,82 @@
+[
+  {
+    "gap_id": "EG-10-G01",
+    "type": "continuity",
+    "description": "Annobón July episode and October detention follow-up — The Guardian article published 14 Oct describes a July letter to Malabo authorities about dynamite/ecological damage and arrests within days; it does not establish a public gathering in October. Annobón information access was described as restricted. No Q4 continuation is verified.",
+    "source_ids": [
+      "GQ24O005"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "No event candidate; review Q3/Q4 ownership only if new contemporaneous evidence shows public gathering continuing."
+    ]
+  },
+  {
+    "gap_id": "EG-10-G02",
+    "type": "threshold",
+    "description": "No contemporaneous Q4 candidate clears simultaneous 50 threshold — The SOMAGEC result was later identified as a 2015 item; the Oct parade snippet lacks total crowd evidence and is ceremonial.",
+    "source_ids": [
+      "GQ24O001",
+      "GQ24O002",
+      "GQ24O004"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  },
+  {
+    "gap_id": "EG-10-G03",
+    "type": "language",
+    "description": "Language coverage incomplete — Searches were conducted in Spanish, English and French. No competent searches were made in Fang, Bubi or Fa d’Ambô; limited local-language access matters especially for Annobón and regional districts.",
+    "source_ids": [
+      "GQ24O005"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  },
+  {
+    "gap_id": "EG-10-G04",
+    "type": "regional_coverage",
+    "description": "Provincial and local reporting remains incomplete — Searches included Malabo, Bata, Annobón, Mongomo, Ebebiyín, Evinayong and Luba, but open search retrieval is uneven and does not establish coverage of all provinces or local outlets.",
+    "source_ids": [
+      "GQ24O005",
+      "GQ24O006"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "Target local sources and archive material across Bioko Norte, Litoral, Centro Sur, Kie-Ntem, Wele-Nzas and Annobón."
+    ]
+  },
+  {
+    "gap_id": "EG-10-G05",
+    "type": "archive_access",
+    "description": "No LexisNexis or equivalent systematic newspaper archive — The search used an open-web search tool, not the original LexisNexis “All News” method described in the 2015 codebook. The historic baseline/data for 2024 are not present in this kit.",
+    "source_ids": [
+      "GQ24O001"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "Coordinator to supply official baseline/archival evidence in later review."
+    ]
+  },
+  {
+    "gap_id": "EG-10-G06",
+    "type": "retrieval",
+    "description": "Source retrieval limitations — Diario Rombe’s SOMAGEC page request returned HTTP 502 (technical retrieval failure, no body and no retry); government parade page rendered only an iframe wrapper. Neither limitation is a site denial.",
+    "source_ids": [
+      "GQ24O002",
+      "GQ24O004"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  },
+  {
+    "gap_id": "EG-10-G07",
+    "type": "capture",
+    "description": "Lost/partial query capture and staging log format deviation — GQ24OQ001 full raw/rendered response was not preserved; only result headers transcribed literally from visible output, with snippets/body unavailable. A separate duplicate December query response was not captured. Some later staging log appends contain literal backslash+n characters; final view will split those delimiters and reserialize records, retaining original bytes and input hashes. No lost response is reconstructed.",
+    "source_ids": [
+      "GQ24O001"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  }
+]

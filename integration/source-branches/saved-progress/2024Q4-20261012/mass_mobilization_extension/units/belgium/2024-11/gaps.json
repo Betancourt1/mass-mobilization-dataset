@@ -1,0 +1,60 @@
+[
+  {
+    "gap_id": "BEL2024-11-G001",
+    "type": "source_access",
+    "description": "The VRT and Belga pages for the 7 November non-profit demonstration could not be opened: the web tool returned “Failed to fetch restricted URL” with no HTTP status after fresh exact-URL checks. A later VRT English page failed similarly; a BRUZZ page returned HTTP 403 after its fresh access check, so that exact URL must not be retried. The Brussels Times with Belga body was accessible and supports the public-services demonstration; Antwerp's official notice confirms that unions organized a national demonstration in Brussels. Search-only estimates from blocked pages are not used.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "BEL2024-11-E001"
+    ],
+    "required_followup": "No retry/bypass. Coordinator may review saved exact receipts and existing accessible report; resolve only if separately permitted evidence becomes available."
+  },
+  {
+    "gap_id": "BEL2024-11-G002",
+    "type": "threshold_and_state_target",
+    "description": "The 13 November Fugea demonstration against the EU-Mercosur agreement was reported as having relatively limited participation, but the accessible article gives no headcount. The policy target identified is EU-level; no separate Belgian state demand is evidenced. The related BRUZZ exact URL returned HTTP 403 and is not retried.",
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "BEL2024-11-E002"
+    ],
+    "required_followup": "Review any independently permitted contemporary reporting or organizer evidence for a numeric simultaneous crowd and a demand directed to Belgian authorities; otherwise retain pending eligibility."
+  },
+  {
+    "gap_id": "BEL2024-11-G003",
+    "type": "event_occurrence_and_attendance",
+    "description": "The 10 November Rise for Climate march was forecast in advance by The Brussels Times (S011), but VRT exact-page access failed at the retrieval layer without HTTP status (S009), and BRUZZ remains search-only for its separate URL (S010). The actual occurrence, realized attendance and Belgian-government demand are therefore not body-verified.",
+    "source_ids": [
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "BEL2024-11-E003"
+    ],
+    "required_followup": "Review only separately permitted independent body evidence; do not retry the VRT URL or infer occurrence/attendance from forecasts or snippets."
+  },
+  {
+    "gap_id": "BEL2024-11-G004",
+    "type": "episode_boundary_and_response",
+    "description": "The 26 November French-Community education mobilization is supported by a >100-person Verviers gathering and separate reported actions in La Louvière/other locations, but exact common-organizer coordination, counts at other sites, event closing time and government response are not established. The CSC page (S014) describes the common-front stoppages as scheduled from 18 through 29 November; December search results Q018 mention later work stoppages/actions but are discovery-only and do not verify a subsequent public gathering or an episode continuation.",
+    "source_ids": [
+      "S012",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "BEL2024-11-E004"
+    ],
+    "required_followup": "Seek permitted reporting or organizer records defining the coordination and any response/continuation; do not sum school strike participation or separate uncounted pickets into the Verviers gathering. Adjacent-month review found no body-verified December education gathering in the searched material; retain this as a continuity gap, not as evidence that none occurred."
+  }
+]

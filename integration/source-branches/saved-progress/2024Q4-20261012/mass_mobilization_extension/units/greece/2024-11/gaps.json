@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "GR24N-G001",
+    "type": "state_target",
+    "description": "17 November memorial march occurred and exceeded threshold, but the opened source does not establish a current demand directed at Greece.",
+    "source_ids": [
+      "GR24N-S001"
+    ],
+    "affected_candidates": [
+      "GR24N-E001"
+    ],
+    "required_followup": "Search accessible organizer/local reports for domestic state-policy demands."
+  },
+  {
+    "gap_id": "GR24N-G002",
+    "type": "technical_source",
+    "description": "ERT police-count URL timed out at tool level (400), no HTTP denial observed; 25,000 estimate remains search-only and no retry.",
+    "source_ids": [
+      "GR24N-S002"
+    ],
+    "affected_candidates": [
+      "GR24N-E001"
+    ],
+    "required_followup": "Use a different permitted source if exact count is necessary."
+  },
+  {
+    "gap_id": "GR24N-G003",
+    "type": "access_denial",
+    "description": "eKathimerini 20 November report returned 403 on body request; no retry.",
+    "source_ids": [
+      "GR24N-S004"
+    ],
+    "affected_candidates": [
+      "GR24N-E002"
+    ],
+    "required_followup": "Use only other permitted sources."
+  },
+  {
+    "gap_id": "GR24N-G004",
+    "type": "coverage",
+    "description": "Athens/Thessaloniki and event-driven Greek/English search; no systematic weekly regional or full-sector scan, adjacent-month episode checks incomplete.",
+    "source_ids": [
+      "GR24N-S001",
+      "GR24N-S003"
+    ],
+    "affected_candidates": [
+      "GR24N-E001",
+      "GR24N-E002"
+    ],
+    "required_followup": "Continue regional/sector queries and check Oct/Dec adjacent episodes."
+  },
+  {
+    "gap_id": "GR24N-G005",
+    "type": "method",
+    "description": "No LexisNexis/systematic archive; tool grouped results without per-query URL mapping.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use an accessible archive if available; no exhaustiveness or zero-event claim."
+  }
+]
+

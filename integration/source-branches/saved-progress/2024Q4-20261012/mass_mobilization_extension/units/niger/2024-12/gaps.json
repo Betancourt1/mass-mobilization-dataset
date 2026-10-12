@@ -1,0 +1,99 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline_and_historical_access",
+    "description": "Official historical event baseline and complete prior source/access ledgers are unavailable; current checks do not establish clean historical access for any target.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to provide permitted baseline and historical source/access records if available; otherwise retain audit limitation."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage",
+    "description": "Thirteen recorded French/English open-web searches covered demonstrations, education, markets/prices, M62 and regional terms. This is not LexisNexis-equivalent or exhaustive; systematic local-language and regional archives are not represented.",
+    "source_ids": [],
+    "affected_candidates": [
+      "niger_2024-12-E001"
+    ],
+    "required_followup": "If authorized and available, conduct systematic newspaper/archive searches with documented language, source and date coverage."
+  },
+  {
+    "gap_id": "G003",
+    "type": "attendance_threshold",
+    "description": "ANP reports a strong mobilization/many citizens at the 22 December gathering but no numeric or explicit 50-person simultaneous count. Threshold remains unresolved.",
+    "source_ids": [
+      "NI24DEC-S006"
+    ],
+    "affected_candidates": [
+      "niger_2024-12-E001"
+    ],
+    "required_followup": "Find contemporaneous reporting with an attendance estimate or direct threshold evidence."
+  },
+  {
+    "gap_id": "G004",
+    "type": "state_target_and_scope",
+    "description": "ANP lists recommendations to CNSP/government, alongside support for CNSP; the gathering is a commemoration and has multiple themes. Whether it falls within project protest scope is for human review.",
+    "source_ids": [
+      "NI24DEC-S006",
+      "NI24DEC-S005"
+    ],
+    "affected_candidates": [
+      "niger_2024-12-E001"
+    ],
+    "required_followup": "Review exact domestic policy demands, their delivery to state officials and project rules for pro-government gatherings."
+  },
+  {
+    "gap_id": "G005",
+    "type": "access_and_mismatched_response",
+    "description": "Le Sahel exact URL returned HTTP 500; Journal du Niger follow-up exact URL returned a generic tool fetch error. A separate multi-open response returned unexpected Government of Niger body blocks without a matching pre-body assessment; those blocks are preserved in NIGER_Q4_followup_body_batch01.tool_response.json and explicitly excluded from scientific use. No retries were made.",
+    "source_ids": [
+      "NI24DEC-S004",
+      "NI24DEC-S007",
+      "NI24DEC-S008"
+    ],
+    "affected_candidates": [
+      "niger_2024-12-E001"
+    ],
+    "required_followup": "Preserve these failures/mismatch; use other permitted exact-target sources and never attribute unexpected output to requested URLs."
+  },
+  {
+    "gap_id": "G006",
+    "type": "occurrence_and_independence",
+    "description": "Journal du Niger Dec 20 is an advance notice, not proof of occurrence; the ANP Dec 22 report is the only inspected source establishing the actual gathering. Independent corroboration and organizer/written-origin relationships are unresolved.",
+    "source_ids": [
+      "NI24DEC-S005",
+      "NI24DEC-S006",
+      "NI24DEC-S007"
+    ],
+    "affected_candidates": [
+      "niger_2024-12-E001"
+    ],
+    "required_followup": "Seek an independently authored post-event report with actual attendance and event details."
+  },
+  {
+    "gap_id": "G007",
+    "type": "violence_and_state_response",
+    "description": "The inspected event scope does not establish protester violence or state response; all such fields remain unknown, not no.",
+    "source_ids": [
+      "NI24DEC-S006"
+    ],
+    "affected_candidates": [
+      "niger_2024-12-E001"
+    ],
+    "required_followup": "Check contemporaneous reports for explicit violence, arrest, dispersal, accommodation or other state response."
+  },
+  {
+    "gap_id": "G008",
+    "type": "continuity",
+    "description": "The 22 December gathering is not evidenced as continuous with the 16 November march or an adjacent-month episode. A separate announcement and subsequent report concern the same 22 December event; do not code them as separate gatherings.",
+    "source_ids": [
+      "NI24DEC-S005",
+      "NI24DEC-S006",
+      "NI24DEC-S007"
+    ],
+    "affected_candidates": [
+      "niger_2024-12-E001"
+    ],
+    "required_followup": "Search adjacent-month reporting for the same organizers and demands; determine episode boundaries from explicit continuation evidence."
+  }
+]

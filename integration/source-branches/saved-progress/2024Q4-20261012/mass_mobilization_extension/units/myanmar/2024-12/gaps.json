@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "MMR2024-12-G001",
+    "description": "Three provisional Yinmabin gathering candidates are described in two Mizzima daily roundups. None has a simultaneous headcount; exact date/place and overlap between entries remain unclear. All remain pending threshold.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "open_questions": [
+      "Can the named rally organizers be distinguished and dates anchored?",
+      "Is any source independent of the Mizzima roundup?",
+      "Can exact crowd counts be found?"
+    ]
+  },
+  {
+    "gap_id": "MMR2024-12-G002",
+    "description": "One attempted Mizzima 29 Dec page open produced an exact-target HTTP 403 response. The raw tool result is preserved and the target was not retried.",
+    "source_ids": [
+      "S006"
+    ],
+    "field_evidence": {
+      "retrieval": {
+        "source_ids": [
+          "S006"
+        ],
+        "summary": "raw_bodies/MMR12_MIZZIMA_DAILY_012.tool-response.json records the 403; body content was not received."
+      }
+    }
+  },
+  {
+    "gap_id": "MMR2024-12-G003",
+    "description": "A December search tool call returned but its exact response was lost before persistence; the exact query is recorded in tool_failures/MYANMAR_DEC_SEARCH_CAPTURE_LOSS_008.json with null headers/refs/hash, and is not counted as a captured-header search. Do not reconstruct it.",
+    "source_ids": [],
+    "open_questions": [
+      "Can regional/sectoral Q4 leads be explored through fresh assessed sources?"
+    ]
+  },
+  {
+    "gap_id": "MMR2024-12-G004",
+    "description": "Myanmar Now bodies opened from search lead to December 2025 events; these are outside Q4 2024 and do not establish continuity into this unit. No 2024 protest absence is inferred.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ]
+  },
+  {
+    "gap_id": "MMR2024-12-G005",
+    "description": "Official baseline and complete historical restriction ledger remain unavailable; search coverage is non-exhaustive and has limited source diversity. The first invalid Mizzima assessment draft was preserved alongside a separate valid prebody assessment; only the latter preceded the open.",
+    "source_ids": [
+      "S004"
+    ],
+    "field_evidence": {
+      "assessment_order": {
+        "source_ids": [
+          "S004"
+        ],
+        "summary": "tool_failures/MMR12_MIZZIMA_DAILY_008_ASSESSMENT_DRAFT_SEQUENCE_NOTE_001.json records both assessment hashes, parse outcome, valid prebody assessment, open ref/body hash and times."
+      }
+    }
+  }
+]

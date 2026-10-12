@@ -1,0 +1,99 @@
+[
+  {
+    "gap_id": "MA24OCT-G001",
+    "type": "episode_boundary",
+    "description": "The 5 October medical-student sit-in is documented as a distinct public gathering, while sources describe an ongoing crisis/strike lasting months. Verify qualifying public onset and whether this is a separately codeable action or continuation.",
+    "source_ids": [
+      "MA24OCT-S002",
+      "MA24OCT-S003",
+      "MA24OCT-S004"
+    ],
+    "affected_candidates": [
+      "MA24OCT-E001"
+    ],
+    "required_followup": "Search September and November 2024 reports from student organizers and independent local press for first qualifying public gathering, ongoing boycott, and intervening actions; retain date and action distinctions."
+  },
+  {
+    "gap_id": "MA24OCT-G002",
+    "type": "state_response",
+    "description": "A Royal Mediator meeting was scheduled for 5 October afternoon; the saved articles do not establish whether it occurred or what response followed.",
+    "source_ids": [
+      "MA24OCT-S004"
+    ],
+    "affected_candidates": [
+      "MA24OCT-E001"
+    ],
+    "required_followup": "Search contemporaneous follow-up reporting after 5 October for the actual meeting and any direct government action tied to the sit-in."
+  },
+  {
+    "gap_id": "MA24OCT-G003",
+    "type": "source_independence",
+    "description": "Three opened publishers report the same event; no explicit syndication/origin relationship is recorded, and independence is not yet established.",
+    "source_ids": [
+      "MA24OCT-S002",
+      "MA24OCT-S003",
+      "MA24OCT-S004"
+    ],
+    "affected_candidates": [
+      "MA24OCT-E001"
+    ],
+    "required_followup": "Review bylines and article notes for an explicit source/wire attribution; do not infer independence from different publishers alone."
+  },
+  {
+    "gap_id": "MA24OCT-G004",
+    "type": "method_coverage",
+    "description": "Only initial broad French, Arabic, and English October searches have been run; week-by-week, local and sector-specific coverage, other regions, and event follow-ups are unfinished.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Complete feasible October week-window and sector searches, then search specific discovered episodes and adjacent-month continuity. Open-web search is not LexisNexis-equivalent."
+  },
+  {
+    "gap_id": "MA24OCT-G005",
+    "type": "threshold",
+    "description": "The 9 October national student action had hundreds of participants across marches at more than ten universities, but the report does not give attendance at any specific simultaneous gathering.",
+    "source_ids": [
+      "MA24OCT-S010"
+    ],
+    "affected_candidates": [
+      "MA24OCT-E003"
+    ],
+    "required_followup": "Seek event-specific reporting or organizer material that states turnout for an individual campus march; do not distribute aggregate attendance across cities."
+  },
+  {
+    "gap_id": "MA24OCT-G006",
+    "type": "episode_boundary",
+    "description": "The 9 October UNEM campus action and 7 October coordinated student action may be distinct days in the same broader anti-normalization movement; exact ownership/onset remains unresolved.",
+    "source_ids": [
+      "MA24OCT-S006",
+      "MA24OCT-S010"
+    ],
+    "affected_candidates": [
+      "MA24OCT-E003"
+    ],
+    "required_followup": "Check 7-9 October organizer statements and adjacent-month sources to determine whether the actions were separate events or a continuation; preserve different dates and location evidence."
+  },
+  {
+    "gap_id": "MA24OCT-G007",
+    "type": "actual_occurrence_and_threshold",
+    "description": "Intern doctors/residents planned hospital sit-ins on 14 October alongside a 15-17 October strike, but the opened source does not confirm the sit-ins occurred or give attendance at any gathering; strike-only activity is not an eligible public event. Yabiladi's related article returned HTTP403.",
+    "source_ids": [
+      "MA24OCT-S011",
+      "MA24OCT-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search other permitted contemporary sources for a report of an actually held 14 October sit-in at a named university hospital and simultaneous turnout of at least 50; do not retry the blocked Yabiladi URL."
+  }
+,
+{
+  "gap_id": "MA24OCT-G008",
+  "type": "threshold_50",
+  "description": "Médias24 confirms an actual 10 October lawyers' sit-in at Casablanca Court of Appeal over draft civil procedure provisions, but reports no simultaneous participant count.",
+  "source_ids": [
+    "MA24OCT-S013"
+  ],
+  "affected_candidates": [
+    "MA24OCT-E004"
+  ],
+  "required_followup": "Search for independent contemporary reporting that quantifies attendance at the specific 10 October Casablanca sit-in. Do not infer threshold from the weekly plan or from lawyers' nationwide boycott."
+}
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "gap_id": "NEP2411-G001",
+    "type": "threshold",
+    "description": "Most body-read event reports lack a simultaneous headcount or clear qualitative threshold proof; injury counts, planned targets, arrival counts, and crowd restrictions must not be substituted.",
+    "source_ids": [],
+    "affected_candidates": [
+      "NEP24NOV-E001",
+      "NEP24NOV-E002"
+    ],
+    "required_followup": "Seek independent contemporaneous estimates/photos with reliable count method; keep unknown if unavailable."
+  },
+  {
+    "gap_id": "NEP2411-G002",
+    "type": "coverage",
+    "description": "Search was open-web and bounded to 4 captured queries; it does not reproduce LexisNexis or provide comprehensive local archive access. Query language/region/sector coverage is partial.",
+    "source_ids": [],
+    "affected_candidates": [
+      "NEP24NOV-E001",
+      "NEP24NOV-E002",
+      "NEP24NOV-E003",
+      "NEP24NOV-E004",
+      "NEP24NOV-E005"
+    ],
+    "required_followup": "Search additional week-by-week regional, labor, land, student and local-language sources; no zero inference."
+  },
+  {
+    "gap_id": "NEP2411-G003",
+    "type": "continuity",
+    "description": "Episode start/end and cross-month relations need follow-up; same-day or same-campaign reports were not automatically merged.",
+    "source_ids": [
+      "NEP24NOV-S001",
+      "NEP24NOV-S002",
+      "NEP24NOV-S002",
+      "NEP24NOV-S002",
+      "NEP24NOV-S005"
+    ],
+    "affected_candidates": [
+      "NEP24NOV-E001",
+      "NEP24NOV-E002",
+      "NEP24NOV-E003",
+      "NEP24NOV-E004",
+      "NEP24NOV-E005"
+    ],
+    "required_followup": "Compare adjacent-month coverage and organizing demands before merging or assigning month ownership."
+  },
+  {
+    "gap_id": "NEP2411-G004",
+    "type": "response",
+    "description": "State-response fields are unknown where reporting does not establish action/inaction; silence is not coded as ignore.",
+    "source_ids": [
+      "NEP24NOV-S001",
+      "NEP24NOV-S002",
+      "NEP24NOV-S002",
+      "NEP24NOV-S002",
+      "NEP24NOV-S005"
+    ],
+    "affected_candidates": [
+      "NEP24NOV-E001",
+      "NEP24NOV-E002",
+      "NEP24NOV-E003",
+      "NEP24NOV-E004",
+      "NEP24NOV-E005"
+    ],
+    "required_followup": "Locate direct reports on arrests, negotiations, dispersal, beatings, killings or shootings; do not infer."
+  },
+  {
+    "gap_id": "NEP2411-G005",
+    "type": "baseline",
+    "description": "Official baseline and original historical ledger are unavailable in this partition; current review is not official approval.",
+    "source_ids": [],
+    "affected_candidates": [
+      "NEP24NOV-E001",
+      "NEP24NOV-E002",
+      "NEP24NOV-E003",
+      "NEP24NOV-E004",
+      "NEP24NOV-E005"
+    ],
+    "required_followup": "Coordinator/independent reviewer must reconcile with authorized official baseline and historical records."
+  },
+  {
+    "gap_id": "NEP24NOV-G006",
+    "type": "date_precision",
+    "description": "Koshi protest is dated only in Bikram Sambat in the source; Gregorian exact day has not been independently confirmed.",
+    "source_ids": [
+      "NEP24NOV-S001"
+    ],
+    "affected_candidates": [
+      "NEP24NOV-E001"
+    ],
+    "required_followup": "Verify the local calendar date with an independently sourced calendar or contemporary record."
+  }
+]

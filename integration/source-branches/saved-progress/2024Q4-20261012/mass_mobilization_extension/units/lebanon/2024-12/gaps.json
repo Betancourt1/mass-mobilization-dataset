@@ -1,0 +1,49 @@
+[
+  {
+    "gap_id": "LE-2024-12-G001",
+    "type": "participant_threshold",
+    "description": "This is Lebanon reports employees held a sit-in on 26 December but provides no attendance estimate or lower bound; threshold of 50 simultaneous participants is unproven.",
+    "source_ids": [
+      "LE-2024-12-S003"
+    ],
+    "affected_candidates": [
+      "LEB2024-12-E001"
+    ],
+    "required_followup": "Seek an independently originated contemporaneous attendance count for the same sit-in."
+  },
+  {
+    "gap_id": "LE-2024-12-G002",
+    "type": "source_independence",
+    "description": "The captured This is Lebanon text appears nearly identical to an IMLebanon report attributed to NNA; NNA’s opened page rendered only shell/title. No independent body confirmation is established.",
+    "source_ids": [
+      "LE-2024-12-S002",
+      "LE-2024-12-S003"
+    ],
+    "affected_candidates": [
+      "LEB2024-12-E001"
+    ],
+    "required_followup": "Find a permitted, independent report or primary record identifying the same event and crowd size; do not reopen the IMLebanon incident source."
+  },
+  {
+    "gap_id": "LE-2024-12-G003",
+    "type": "episode_and_response",
+    "description": "The candidate body identifies a sit-in before the Ministry of Public Health but not the city, end time, duration or state response.",
+    "source_ids": [
+      "LE-2024-12-S003"
+    ],
+    "affected_candidates": [
+      "LEB2024-12-E001"
+    ],
+    "required_followup": "Use other permitted sources for location, continuity and state response; do not infer that silence means no response."
+  },
+  {
+    "gap_id": "LE-2024-12-G004",
+    "type": "archive_coverage",
+    "description": "Open-web English/Arabic searches are not LexisNexis or systematic regional archive coverage; the original historical source ledger is absent. The invalid-sequence IMLebanon body is excluded from claims.",
+    "source_ids": [
+      "LE-2024-12-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review of archive and source-independence coverage gaps."
+  }
+]

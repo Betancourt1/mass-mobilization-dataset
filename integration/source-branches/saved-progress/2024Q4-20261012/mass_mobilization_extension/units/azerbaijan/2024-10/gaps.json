@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "AZ24Q4-202410-G001",
+    "type": "threshold",
+    "description": "The 8 October report gives no attendance figure; 24 refers to affected benefit recipients, not turnout.",
+    "source_ids": [
+      "AZ24Q4-202410-S001"
+    ],
+    "affected_candidates": [
+      "AZ24Q4-202410-E001"
+    ],
+    "required_followup": "Seek contemporaneous independent reporting or video that establishes the number present simultaneously."
+  },
+  {
+    "gap_id": "AZ24Q4-202410-G002",
+    "type": "capture_gap",
+    "description": "The Russian-language October search executed but its headers were lost during local serialization; the output was not reconstructed. A repeated execution was captured as Q004.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "None for reconstruction; preserve the gap. Search coverage remains incomplete."
+  },
+  {
+    "gap_id": "AZ24Q4-202410-G003",
+    "type": "workflow_deviation",
+    "description": "VOA body was opened before exact-URL access-check. The subsequent receipt records a post-open manual_review only; it does not change the chronology.",
+    "source_ids": [
+      "AZ24Q4-202410-S001"
+    ],
+    "affected_candidates": [
+      "AZ24Q4-202410-E001"
+    ],
+    "required_followup": "Independent reviewer to assess evidence and process deviation; future body attempts require fresh prior checks."
+  },
+  {
+    "gap_id": "AZ24Q4-202410-G004",
+    "type": "coverage",
+    "description": "Open-web queries do not reproduce the project LexisNexis newspaper search. No systematic archive access or exhaustive coverage claim is possible; original official data baseline is not included in this kit.",
+    "source_ids": [],
+    "affected_candidates": [
+      "AZ24Q4-202410-E001"
+    ],
+    "required_followup": "Official-baseline and newspaper-archive review by coordinator."
+  }
+]

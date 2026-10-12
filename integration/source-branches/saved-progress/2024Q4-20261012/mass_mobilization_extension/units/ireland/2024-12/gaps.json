@@ -1,0 +1,94 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline",
+    "description": "Official event baseline and historical access ledgers are unavailable in the migrated workspace; no earlier source access history was reconstructed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to provide/confirm official baseline and historical ledger if available."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage",
+    "description": "Open-web English and Gaeilge queries covered Dublin, regional sites, asylum, anti-immigration and policy terms but are not exhaustive and do not reproduce LexisNexis.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If authorized/available, extend to systematic newspaper and regional archives."
+  },
+  {
+    "gap_id": "G003",
+    "type": "state_target",
+    "description": "Athlone march turnout exceeds 50, but whether the demand was directed to national/state policy or only opposition to the local accommodation site remains uncertain.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "ireland_2024-12-E001"
+    ],
+    "required_followup": "Find organizer statements or independent contemporaneous reporting specifying target and requested State action."
+  },
+  {
+    "gap_id": "G004",
+    "type": "state_response",
+    "description": "The available report says Gardaí directed entrants to leave after some crossed a barrier; other state-response dimensions are unknown.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "ireland_2024-12-E001"
+    ],
+    "required_followup": "Seek additional contemporaneous reporting for arrests, force, dispersal, accommodation, or explicit absence."
+  },
+  {
+    "gap_id": "G005",
+    "type": "attendance",
+    "description": "Two reports give estimates around/over 200, but neither gives a precise total and reports are not treated as exact numeric ranges.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "ireland_2024-12-E001"
+    ],
+    "required_followup": "Retain original estimates; do not derive a maximum."
+  },
+  {
+    "gap_id": "G006",
+    "type": "excluded_threshold",
+    "description": "The 4 December Dáil protest is excluded because the accessible report says about 30 participants; 135 people affected is not attendance.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "ireland_2024-12-X001"
+    ],
+    "required_followup": "No further threshold follow-up unless independent contemporaneous reporting changes the attendance basis."
+  },
+  {
+    "gap_id": "G007",
+    "type": "access",
+    "description": "RTÉ’s 4 December report returned HTTP 403; no retry was made.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use independent permitted sources only; no retry absent new authorized context."
+  },
+  {
+    "gap_id": "G008",
+    "type": "continuity",
+    "description": "No evidence supports treating the 4 December Dáil protest and 8 December Athlone march as one continuous event.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "ireland_2024-12-E001",
+      "ireland_2024-12-X001"
+    ],
+    "required_followup": "Keep separate unless continuity is documented."
+  }
+]

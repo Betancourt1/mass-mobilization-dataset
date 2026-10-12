@@ -1,0 +1,74 @@
+[
+  {
+    "gap_id": "EGY-DEC-G001",
+    "gap_type": "event_level_source_followup",
+    "affected_candidate_ids": [],
+    "affected_dimensions": [
+      "q4_event_dates",
+      "simultaneous_threshold",
+      "domestic_state_target",
+      "region"
+    ],
+    "reason": "ODT page identifies a full 2024 event database and guide, but only the landing page was opened; attachment URLs were not present in the rendered text and were not requested. Its annual totals use categories that do not map directly to MM cases.",
+    "next_permitted_action": "Find an exact public download URL through ordinary search, assess the exact target locally, then inspect the data/guide for October–December dates, individual event actions, locations and headcounts.",
+    "source_ids": [
+      "S001"
+    ]
+  },
+  {
+    "gap_id": "EGY-DEC-G002",
+    "gap_type": "feasible_monthly_coverage",
+    "affected_candidate_ids": [],
+    "affected_dimensions": [
+      "regional_and_sectoral_events",
+      "public_gatherings"
+    ],
+    "reason": "Eight Arabic/English discovery queries and event-catalogue landing page review did not yield a dated December 2024 event with sufficient occurrence, threshold and state-demand evidence. This is a method result, not evidence that no protests occurred.",
+    "next_permitted_action": "Continue Arabic regional searches for Cairo, Giza, Alexandria, Delta, Upper Egypt and canal cities, covering labor, health, education, price, and civic-policy demands; check actual event date rather than result date.",
+    "source_ids": [
+      "S001",
+      "S004"
+    ]
+  },
+  {
+    "gap_id": "EGY-DEC-G003",
+    "gap_type": "false_positive_and_source_limitation",
+    "affected_candidate_ids": [],
+    "affected_dimensions": [
+      "date_verification",
+      "event_classification"
+    ],
+    "reason": "One properly assessed Gohod result with a December “12 protests” title was verified as a January 2021 retrospective on December 2020. The Darb body capture has an exact-target/receipt mismatch and is unusable for scientific claims; see the integrity note.",
+    "next_permitted_action": "Keep 2020 items excluded and seek contemporaneous or dated December 2024 documentation; do not infer month-specific events from annual summaries.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004"
+    ]
+  },
+  {
+    "gap_id": "EGY-DEC-G004",
+    "gap_type": "baseline_and_archive_limit",
+    "affected_candidate_ids": [],
+    "affected_dimensions": [
+      "historical_search_equivalence",
+      "coverage_completeness"
+    ],
+    "reason": "Only public open-web search was used; no LexisNexis-equivalent archive or official event baseline was available in this dossier. The search engine sometimes surfaced old results.",
+    "next_permitted_action": "Coordinator may compare against verified official baseline and, if available, a licensed historical news archive in separate approved workflow.",
+    "source_ids": []
+  },
+  {
+    "gap_id": "EGY-DEC-G005",
+    "gap_type": "access_sequence_integrity",
+    "affected_candidate_ids": [],
+    "affected_dimensions": [
+      "source_access_provenance"
+    ],
+    "reason": "The Darb body response was requested at the exact search-result URL, but the saved fresh check receipt was for a different guessed URL. The body is retained only as an incident record and excluded from all substantive evidence/claims. Native request timestamp unavailable.",
+    "next_permitted_action": "No repeat or normalization. Reviewer should inspect the exact URLs, receipt/body hashes and integrity note; use other correctly assessed sources for any scientific claim.",
+    "source_ids": [
+      "S002"
+    ]
+  }
+]

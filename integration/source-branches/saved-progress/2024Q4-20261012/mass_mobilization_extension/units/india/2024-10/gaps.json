@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "IN24OCT-G001",
+    "type": "coverage_method",
+    "description": "Open-web discovery only; LexisNexis and equivalent systematic newspaper archive unavailable. Captured searches used English and Hindi. Search batches pooled results and did not expose native query/result matching, formal totals or clocks; actual output is saved in search_responses.",
+    "source_ids": [
+      "IN24OCT-S001",
+      "IN24OCT-S002",
+      "IN24OCT-S003"
+    ],
+    "affected_candidates": [
+      "IN24Q4-202410-E001",
+      "IN24Q4-202410-E002"
+    ],
+    "required_followup": "Complete weekly/sector and region checks beyond Punjab/Tamil Nadu; add feasible Tamil or other state-language reporting; review election/civic/labor, student and environmental demands in large states. No absence-of-event conclusion."
+  },
+  {
+    "gap_id": "IN24OCT-G002",
+    "type": "threshold_eligibility",
+    "description": "Oct 3 rail-roko: no headcount per railway site. Counts of trains delayed or diverted do not measure simultaneous participants.",
+    "source_ids": [
+      "IN24OCT-S002"
+    ],
+    "affected_candidates": [
+      "IN24Q4-202410-E001"
+    ],
+    "required_followup": "Seek contemporary report with headcount for a named site, after exact-target assessment; do not sum across stations."
+  },
+  {
+    "gap_id": "IN24OCT-G003",
+    "type": "threshold_eligibility",
+    "description": "Oct 13 paddy-procurement protests: TOI confirms actual three-hour road blockade but no attendee count; Tribune and New Indian Express body openings were tool-level inaccessible, not HTTP denials, and were not retried.",
+    "source_ids": [
+      "IN24OCT-S003",
+      "IN24OCT-S004",
+      "IN24OCT-S005"
+    ],
+    "affected_candidates": [
+      "IN24Q4-202410-E002"
+    ],
+    "required_followup": "Use other permitted contemporary local coverage for one-site attendance and exact grouping; do not retry the two exact inaccessible URLs."
+  },
+  {
+    "gap_id": "IN24OCT-G004",
+    "type": "episode_and_target",
+    "description": "Samsung workers had been striking since Sep 9. Reuters reports an Oct1 street march with 912 detained, but the start predates this month and demand is chiefly employer-facing; an own-state policy target and whether the march is a discrete episode remain unresolved.",
+    "source_ids": [
+      "IN24OCT-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review adjacent-month unit if assigned; verify labor-policy/state target and campaign closeout, without duplicating a Sep onset."
+  },
+  {
+    "gap_id": "IN24OCT-G005",
+    "type": "retrieval_and_scope",
+    "description": "Search tool output for `site:thehindu.com ...` explicitly said thehindu.com was blocked by robots.txt, non-retryable. This is preserved in the November search response; no exact article URL/body was exposed, and no further access was attempted. Historical source ledgers are absent; known AP/HRW/New Arab/Facebook/L’Orient restrictions remain scope-limited and unresolved.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Do not retry The Hindu via workaround; use unrelated permitted sources. Historical restriction scope remains a limitation."
+  }
+]

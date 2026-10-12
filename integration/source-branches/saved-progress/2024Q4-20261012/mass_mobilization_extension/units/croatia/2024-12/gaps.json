@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "HR24DEC-G001",
+    "type": "coverage_limit",
+    "description": "Open-web only; no LexisNexis/archive access. Croatian/English searches followed postal, pensioner and school-safety leads but did not exhaust every county/local news archive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent reviewer may add regional searches; no exhaustiveness claim."
+  },
+  {
+    "gap_id": "HR24DEC-G002",
+    "type": "source_access",
+    "description": "Exact SSSH retrospective recap returned a verification challenge and was not retried/bypassed. Separate HRT report and SSSH advance notice were accessible.",
+    "source_ids": [
+      "HR24DEC-S002",
+      "HR24DEC-S001",
+      "HR24DEC-S006"
+    ],
+    "affected_candidates": [
+      "HR24DEC-E001"
+    ],
+    "required_followup": "No retry; accessible evidence supports occurrence and approximate turnout."
+  },
+  {
+    "gap_id": "HR24DEC-G003",
+    "type": "attendance_disaggregation",
+    "description": "Several-thousand school-procession estimate is not split by city; HRT confirms nationwide school-front gatherings but no count.",
+    "source_ids": [
+      "HR24DEC-S004",
+      "HR24DEC-S008"
+    ],
+    "affected_candidates": [
+      "HR24DEC-E003"
+    ],
+    "required_followup": "Reviewer may assess national event-level total; do not assign city-level counts."
+  },
+  {
+    "gap_id": "HR24DEC-G004",
+    "type": "continuity_boundary",
+    "description": "December BUZ event followed an October gathering by same organizer but was another discrete one-day protest with an added Government-resignation demand. No continuous occupation is evidenced.",
+    "source_ids": [
+      "HR24DEC-S003"
+    ],
+    "affected_candidates": [
+      "HR24DEC-E002"
+    ],
+    "required_followup": "Keep dated actions distinct without stronger episode continuity evidence."
+  }
+]
+

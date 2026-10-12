@@ -1,0 +1,69 @@
+[
+  {
+    "gap_id": "EGY-OCT-G001",
+    "gap_type": "candidate_evidence",
+    "affected_candidate_ids": [
+      "EGY2024-10-E001"
+    ],
+    "affected_dimensions": [
+      "public_gathering",
+      "location",
+      "participants",
+      "threshold_50",
+      "episode"
+    ],
+    "reason": "EIPR and CFJ document a meeting/conference by dismissed employees about Law 73 and later arrests, but no venue, public/open status, attendance or distinct street action.",
+    "next_permitted_action": "Seek contemporaneous independent reporting or party/union documentation that identifies venue, public access, attendance and any outdoor action. Do not infer size from six arrests.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ]
+  },
+  {
+    "gap_id": "EGY-OCT-G002",
+    "gap_type": "continuity_and_month_boundary",
+    "affected_candidate_ids": [],
+    "affected_dimensions": [
+      "episode_start",
+      "october_continuation",
+      "public_action",
+      "threshold"
+    ],
+    "reason": "CTUWS and CFJ place the Samanoud minimum-wage strike reports in September; an October 21 Mada Masr result suggests a post-strike development but that exact URL returned 403. No October strike continuation is verified.",
+    "next_permitted_action": "Use another permitted source for October status; do not retry the exact 403 URL or infer continuation from the headline.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007"
+    ]
+  },
+  {
+    "gap_id": "EGY-OCT-G003",
+    "gap_type": "source_access_and_monthly_coverage",
+    "affected_candidate_ids": [],
+    "affected_dimensions": [
+      "monthly_event_list",
+      "regional_coverage",
+      "event_dates"
+    ],
+    "reason": "AFCSHR annual report search snippets point to monthly counts, but the exact page body returned a tool-level not-accessible error; snippet data are not event-level.",
+    "next_permitted_action": "Identify an independently accessible item-level source or obtain the exact report through an ordinary permitted route only if a new target assessment supports it; no retry of the failed tool URL.",
+    "source_ids": [
+      "S004"
+    ]
+  },
+  {
+    "gap_id": "EGY-OCT-G004",
+    "gap_type": "feasible_followup_search",
+    "affected_candidate_ids": [],
+    "affected_dimensions": [
+      "fuel_price_protests",
+      "regional_and_sector_search"
+    ],
+    "reason": "October 18 fuel-price increase appeared in targeted Arabic searches; no result captured a corresponding public gathering, but search output cannot establish that none occurred.",
+    "next_permitted_action": "Further targeted Arabic regional searches for fuel/transport-price mobilization in Cairo, Alexandria and canal governorates, with publication/event dates checked.",
+    "source_ids": [
+      "S001"
+    ]
+  }
+]

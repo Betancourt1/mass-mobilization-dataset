@@ -1,0 +1,40 @@
+[
+  {
+    "gap_id": "HT24N-G001",
+    "type": "coverage_limit",
+    "description": "French, Haitian Creole and English search bundles included national/date, education, public-sector labor and selected regional terms (Port-au-Prince, Cap-Haïtien, Jérémie, Les Cayes, Ouanaminthe). Search coverage is open-web only, partial, and not a finding of no protests. Local archives and comprehensive provincial coverage remain unavailable/unattempted.",
+    "source_ids": [
+      "HT24N001",
+      "HT24N002",
+      "HT24N003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If extending coverage, search named provinces and public-space actions in local outlets; keep workplace strikes distinct from demonstrations."
+  },
+  {
+    "gap_id": "HT24N-G002",
+    "type": "eligibility_unknown",
+    "description": "DGI strike reports a work stoppage from 23 September through a November truce, but no public gathering or site-specific simultaneous participant count appears in the opened body. MICT/Ministry strike search results describe workplace stoppages or plans only.",
+    "source_ids": [
+      "HT24N001",
+      "HT24N002",
+      "HT24N003"
+    ],
+    "affected_candidates": [
+      "haiti_2024-11-X001",
+      "haiti_2024-11-X002",
+      "haiti_2024-11-X003"
+    ],
+    "required_followup": "Do not code without permitted reporting of a completed public gathering, number present at one time, and state-policy demand. Distinguish administrative disruption from public protest."
+  },
+  {
+    "gap_id": "HT24N-G003",
+    "type": "false_positive_and_language_scope",
+    "description": "A French query retrieved a teachers’ sit-in in Nouakchott, Mauritania; it was explicitly excluded. Haitian Creole local-source discovery yielded limited relevant indexed material. No zero-event inference is justified.",
+    "source_ids": [
+      "HT24N004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue with Haitian-specific sources/Creole terms if available; prevent cross-country results from entering event records."
+  }
+]

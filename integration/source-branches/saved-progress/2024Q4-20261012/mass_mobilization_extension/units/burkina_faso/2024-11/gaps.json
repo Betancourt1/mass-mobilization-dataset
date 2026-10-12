@@ -1,0 +1,91 @@
+[
+  {
+    "gap_id": "BF2024-11-G001",
+    "type": "unit_pending_sources",
+    "description": "BF2024-11-E001 attendance threshold is unresolved: all identified sources describe students/pupils but none gives a number or sufficiently clear scale. The blocked La Tribune article and search-only 3TV video may contain more detail but their body/video could not be accessed; the 18 Nov count must not be inferred.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "BF2024-11-E001"
+    ],
+    "required_followup": "Only if a newly discovered permitted source independently publishes a simultaneous attendance estimate, capture its exact URL and manually assess access before a body request; do not retry La Tribune or the 3TV video."
+  },
+  {
+    "gap_id": "BF2024-11-G002",
+    "type": "unit_pending_sources",
+    "description": "BF2024-11-E002 attendance threshold is unresolved. LeFaso's quoted phrase 'forte mobilisation' has no count and is not a clear >=50 estimate; L'Express likewise provides no number.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S006"
+    ],
+    "affected_candidates": [
+      "BF2024-11-E002"
+    ],
+    "required_followup": "A newly found permitted local contemporaneous report or official record with a concrete simultaneous crowd estimate could resolve the threshold; exact targeted follow-ups found no number so far. Do not retry Wakat Séra after its HTTP 403."
+  },
+  {
+    "gap_id": "BF2024-11-G003",
+    "type": "episode_linkage",
+    "description": "The 18 Nov march and 20 Nov protest share a SOTRACO service grievance, but the latter followed a fatal accident and is reported at a different public gathering. Available evidence does not establish one continuous or organized episode.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "BF2024-11-E001",
+      "BF2024-11-E002"
+    ],
+    "required_followup": "Review neighboring-month coverage and any organizer statements before merging or extending episode dates; neither candidate is automatically continued into another month."
+  },
+  {
+    "gap_id": "BF2024-11-G004",
+    "type": "source_access",
+    "description": "The exact La Tribune URL returned an explicit anti-bot verification failure; Wakat Séra returned HTTP 403. The ministry page timed out before HTTP content and YouTube fetch failed without an HTTP status. These distinct outcomes remain preserved; no retries were made.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "BF2024-11-E001",
+      "BF2024-11-E002"
+    ],
+    "required_followup": "Use unrelated permitted sources if they emerge; do not retry or bypass the affected URLs."
+  },
+  {
+    "gap_id": "BF2024-11-G005",
+    "type": "source_independence",
+    "description": "LeFaso and L'Express report overlapping student testimony on 20 Nov; NetAfrique says 3TV was present on the 18 Nov march. Their written-origin relationships and editorial independence are not established.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "BF2024-11-E001",
+      "BF2024-11-E002"
+    ],
+    "required_followup": "Keep reported facts source-specific and do not count these as independent quantitative corroboration without documented origin evidence."
+  },
+  {
+    "gap_id": "BF2024-11-G006",
+    "type": "method_limitation",
+    "description": "Searches used French and English open web, broad month/weekly windows and transport/labor/political follow-ups. No LexisNexis-equivalent archive or systematic broadcast corpus was available; old source-access ledgers and historical publisher alias/origin mappings are absent. Those absences are limitations, not clean-access evidence.",
+    "source_ids": [],
+    "affected_candidates": [
+      "BF2024-11-E001",
+      "BF2024-11-E002"
+    ],
+    "required_followup": "Independent reviewer may assess bounded open-web coverage; official baseline and source history remain separate unresolved requirements."
+  }
+]

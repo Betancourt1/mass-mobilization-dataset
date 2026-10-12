@@ -1,0 +1,93 @@
+[
+  {
+    "gap_id": "GU24OCT-G001",
+    "type": "threshold",
+    "description": "Rabinal Oct29, Tecún Umán Oct22, the Oct2 and Oct11 USAC labor marches, and the Oct18 USAC union closure lack verified simultaneous headcounts. The Oct20 daytime union march has only search-result attendance evidence.",
+    "source_ids": [
+      "GU24OCT-S004",
+      "GU24OCT-S005",
+      "GU24OCT-S006",
+      "GU24OCT-S011",
+      "GU24OCT-S012",
+      "GU24OCT-S013",
+      "GU24OCT-S015"
+    ],
+    "affected_candidates": [
+      "GU24OCT-E002",
+      "GU24OCT-E003",
+      "GU24OCT-E004",
+      "GU24OCT-E005",
+      "GU24OCT-E006",
+      "GU24OCT-E007"
+    ],
+    "required_followup": "Seek permitted contemporaneous sources reporting headcount; do not infer attendance from population or affected families."
+  },
+  {
+    "gap_id": "GU24OCT-G002",
+    "type": "unit_assignment",
+    "description": "Nahualá highway block and reported National Palace block may be connected parts of one mobilization, but venue naming and coordination are not resolved.",
+    "source_ids": [
+      "GU24OCT-S001",
+      "GU24OCT-S002"
+    ],
+    "affected_candidates": [
+      "GU24OCT-E001"
+    ],
+    "required_followup": "Check contemporaneous organizer/source details if available; reviewer decides whether locations are one event."
+  },
+  {
+    "gap_id": "GU24OCT-G003",
+    "type": "accessibility",
+    "description": "Canal Antigua exact URL returned 403 Forbidden; one attempt is preserved and not retried. Centra News body open returned only heading/navigation.",
+    "source_ids": [
+      "GU24OCT-S003",
+      "GU24OCT-S006"
+    ],
+    "affected_candidates": [
+      "GU24OCT-E001",
+      "GU24OCT-E003"
+    ],
+    "required_followup": "No retry for Canal Antigua. Use other independent permitted sources if evidence remains material."
+  },
+  {
+    "gap_id": "GU24OCT-G004",
+    "type": "coverage",
+    "description": "Eight searches include broad Spanish/English protest terms, labor/roadblocks, sector leads, targeted event follow-ups, and three date windows (1–10, 11–20, 21–31 Oct). The 2023 national-strike results were date-checked and are historical only. Open-web discovery is not exhaustive or LexisNexis-equivalent.",
+    "source_ids": [
+      "GU24OCT-S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Record absent events as unknown; use a systematic archive if later authorized."
+  },
+  {
+    "gap_id": "GU24OCT-G005",
+    "type": "accessibility",
+    "description": "El Socialista article page and October issue PDF each returned exact-target HTTP 403; the ODEP Sep–Nov PDF timed out before content. The first batched open call for El Socialista has an incomplete saved response; one later captured request showed 403. No further retries.",
+    "source_ids": [
+      "GU24OCT-S011",
+      "GU24OCT-S012",
+      "GU24OCT-S013"
+    ],
+    "affected_candidates": [
+      "GU24OCT-E004",
+      "GU24OCT-E005",
+      "GU24OCT-E006"
+    ],
+    "required_followup": "Seek independent permitted sources for the daytime 20 October march and USAC actions; do not retry the denied targets or infer page contents from a timeout."
+  },
+  {
+    "gap_id": "GU24OCT-G006",
+    "type": "episode_boundary",
+    "description": "Nahualá authorities announced planned route blocks for 22–23 Oct. Open reporting states the 22 Oct blockade was lifted by evening, but no actual 23 Oct action was verified.",
+    "source_ids": [
+      "GU24OCT-S001",
+      "GU24OCT-S002",
+      "GU24OCT-S016",
+      "GU24OCT-S017"
+    ],
+    "affected_candidates": [
+      "GU24OCT-E001"
+    ],
+    "required_followup": "Seek a contemporaneous 23 Oct follow-up if continuation matters; do not code a planned action as occurred or infer an end date from the month boundary."
+  }
+]

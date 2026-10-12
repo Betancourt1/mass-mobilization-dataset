@@ -1,0 +1,28 @@
+[
+  {
+    "candidate_id": "PL24NOV-E002",
+    "country": "Poland",
+    "unit_month": "2024-11",
+    "title": "Last Generation blockage of Wisłostrada near Gdański Bridge, Warsaw",
+    "reason": "Excluded below the simultaneous 50-person threshold: TVN Warszawa body reports 22 activists at one site.",
+    "exclude_code": "below_50",
+    "source_ids": [
+      "PL24NOV-S007"
+    ],
+    "field_evidence": {
+      "participants_original": {
+        "source_ids": [
+          "PL24NOV-S007"
+        ],
+        "summary": "TVN reports 22."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "PL24NOV-S007"
+        ],
+        "summary": "22 is below 50; lane obstruction is not a participant count."
+      }
+    },
+    "notes": "Full candidate file and addendum are preserved; event is not in events.json."
+  }
+]

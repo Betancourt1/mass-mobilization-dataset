@@ -1,0 +1,56 @@
+[
+  {
+    "gap_id": "DR24N-G001",
+    "type": "coverage_limit",
+    "description": "Spanish-language open web searches covered a national query, three date windows and a local/provincial query. No LexisNexis or systematic archive access; local reporting outside Santo Domingo, Santiago, SFM and Cotuí is incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Reviewer can extend week-by-week regional searches for provinces, sectors and community actions. No-event inference is not supported."
+  },
+  {
+    "gap_id": "DR24N-G002",
+    "type": "threshold_unknown",
+    "description": "SFM school action (E001), Luperón eviction protest (E002), prosecutors’ Nov. 29 courthouse action (E003), and La Cruz Cotuí piquete (E004) have no demonstrated simultaneous threshold of 50. Service/class impacts and number of affected people were not used as attendance.",
+    "source_ids": [
+      "DOM24N003",
+      "DOM24N005",
+      "DOM24N010",
+      "DOM24N012"
+    ],
+    "affected_candidates": [
+      "dominican_republic_2024-11-E001",
+      "dominican_republic_2024-11-E002",
+      "dominican_republic_2024-11-E003",
+      "dominican_republic_2024-11-E004"
+    ],
+    "required_followup": "Seek event-specific crowd estimates and exact onset/duration; distinguish work stoppage from public gathering."
+  },
+  {
+    "gap_id": "DR24N-G003",
+    "type": "retrieval_limit",
+    "description": "CDN La Cruz exact URL produced a tool-level fetch error without HTTP status after fresh check and manual review; no site denial was observed and no retry occurred. Candidate remains pending evidence based on search result only.",
+    "source_ids": [
+      "DOM24N012"
+    ],
+    "affected_candidates": [
+      "dominican_republic_2024-11-E004"
+    ],
+    "required_followup": "Use independent permitted local coverage to verify occurrence, date, state target and threshold; do not reinterpret technical fetch error as denial or absence."
+  },
+  {
+    "gap_id": "DR24N-G004",
+    "type": "onset_and_continuity",
+    "description": "The SFM school report describes a two-day protest and explicitly references Nov. 21, so initial onset could be earlier. Luperón article dated Nov. 13 describes Tuesday night Nov. 12 actions. Fiscaldom announced/continued workplace actions beyond Nov. 29; public gathering threshold remains unproven.",
+    "source_ids": [
+      "DOM24N003",
+      "DOM24N005",
+      "DOM24N010"
+    ],
+    "affected_candidates": [
+      "dominican_republic_2024-11-E001",
+      "dominican_republic_2024-11-E002",
+      "dominican_republic_2024-11-E003"
+    ],
+    "required_followup": "Check adjacent months and exact action dates, closures and any relationship between announced fiscal actions and later actions."
+  }
+]

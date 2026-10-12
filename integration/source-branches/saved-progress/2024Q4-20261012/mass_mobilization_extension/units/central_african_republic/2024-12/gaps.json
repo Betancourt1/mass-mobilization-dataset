@@ -1,0 +1,67 @@
+[
+  {
+    "gap_id": "CAR2024-12-G001",
+    "type": "source_access_history",
+    "description": "Historical source ledgers and exact hold alias/origin scopes were omitted. Fresh target checks and manual assessments exist for the opened Centrafrica article; no clean historical inventory is claimed.",
+    "source_ids": [
+      "CAR2024-12-S001",
+      "CAR2024-12-S002",
+      "CAR2024-12-S003",
+      "CAR2024-12-S004",
+      "CAR2024-12-S005",
+      "CAR2024-12-S006",
+      "CAR2024-12-S007"
+    ],
+    "affected_candidates": [
+      "CAR2024-12-E001"
+    ],
+    "required_followup": "Reassess a specific target if new exact restriction evidence appears; retain omitted-history limitation."
+  },
+  {
+    "gap_id": "CAR2024-12-G002",
+    "type": "source_independence",
+    "description": "Two readable outlets report the Dec 12 occurrence, and Radio Ndeke Luka explicitly reports >50. Their editorial/source relationship is not documented in the available material; independence remains unknown rather than presumed.",
+    "source_ids": [
+      "CAR2024-12-S001",
+      "CAR2024-12-S007"
+    ],
+    "affected_candidates": [
+      "CAR2024-12-E001"
+    ],
+    "required_followup": "Reviewer should examine current article bodies and available publisher/origin information; do not claim independence unless established."
+  },
+  {
+    "gap_id": "CAR2024-12-G003",
+    "type": "episode_continuity_and_response",
+    "description": "The article announces future boycott activity; later teacher-union coverage appears but does not establish that this same collective held another public gathering. Actual end date and state response remain unknown.",
+    "source_ids": [
+      "CAR2024-12-S001",
+      "CAR2024-12-S006"
+    ],
+    "affected_candidates": [
+      "CAR2024-12-E001"
+    ],
+    "required_followup": "Check permitted date-specific follow-up for actual occurrence/closure and any state meeting/response; do not merge based on topic alone."
+  },
+  {
+    "gap_id": "CAR2024-12-G004",
+    "type": "foreign_action_scope",
+    "description": "The trucker strike continued from November and affected Bangui supplies, but reports identify Cameroonian workers and action on Cameroon’s side; no CAR gathering is documented.",
+    "source_ids": [
+      "CAR2024-12-S002",
+      "CAR2024-12-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Revise only if evidence documents a public gathering in CAR with a demand to CAR state; otherwise retain exclusion."
+  },
+  {
+    "gap_id": "CAR2024-12-G005",
+    "type": "method_language_coverage",
+    "description": "French and English searches included month-wide generic, education/labor and provincial follow-ups; Sango terminology was not used because verified vocabulary was unavailable. Open-web research cannot reproduce LexisNexis/systematic archives and is not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CAR2024-12-E001"
+    ],
+    "required_followup": "Pursue any material feasible local-source or post-event follow-up; no exhaustive or zero-protest claim."
+  }
+]

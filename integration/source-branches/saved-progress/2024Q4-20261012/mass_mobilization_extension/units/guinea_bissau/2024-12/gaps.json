@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "GB24DEC-G001",
+    "type": "classification",
+    "description": "A 27 Dec press conference by Frente Social criticized government policies and announced future 2025 strikes; no Dec protest gathering, strike occurrence or attendee count is reported.",
+    "source_ids": [
+      "GB24DEC-S001"
+    ],
+    "affected_candidates": [
+      "GB24DEC-X001"
+    ],
+    "required_followup": "Do not code a future strike announcement as an observed Dec event; seek a dated report only if an actual Dec action is later alleged."
+  },
+  {
+    "gap_id": "GB24DEC-G002",
+    "type": "coverage",
+    "description": "Seven logged queries include Portuguese date windows (1–10, 11–20, 21–31 Dec), month-wide labor/political terms, and French continuity terms. Captured results were mostly old, future or adjacent-period items; none verified a qualifying Dec gathering.",
+    "source_ids": [
+      "GB24DEC-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "This documents no verified candidate in the method, not no protests occurred. If new local December leads surface, search exact dates and locations."
+  },
+  {
+    "gap_id": "GB24DEC-G003",
+    "type": "continuity",
+    "description": "November ESE/tuition and opposition episodes were checked against December queries, but no reports tied them to a December action or established closure. No continuation is entered.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Revisit only if a source links either November episode to a December gathering; do not infer continuity from broad political context."
+  },
+  {
+    "gap_id": "GB24DEC-G004",
+    "type": "coverage",
+    "description": "The captured results and relevant opened source are Bissau-focused; regional locations and local-language non-Portuguese outlets received no systematic archive review.",
+    "source_ids": [
+      "GB24DEC-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Document any specific region/locale lead before searching; no exhaustive geographic coverage claim."
+  },
+  {
+    "gap_id": "GB24DEC-G005",
+    "type": "coverage",
+    "description": "Open web only; LexisNexis and a complete newspaper archive were unavailable. Native query/access clocks and search result totals are unknown. The Q002 three-query aggregate is preserved but not attributed to individual queries.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep the unit bounded and pending official baseline; do not interpret empty candidate array as zero protest activity."
+  }
+]

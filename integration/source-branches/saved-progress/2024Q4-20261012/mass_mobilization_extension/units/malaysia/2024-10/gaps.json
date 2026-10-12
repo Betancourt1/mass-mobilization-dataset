@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "MY2410-G001",
+    "type": "coverage_limit",
+    "description": "Four batched web searches produced 145 captured headers and covered English/Malay national and regional/sector terms; result-to-query mapping within batches and native search clocks are unknown. This open-web process does not reproduce Lexis-Nexis and does not establish a complete October inventory.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MY2410-X001",
+      "MY2410-X002",
+      "MY2410-X003"
+    ],
+    "required_followup": "Reviewer may check additional local archives or the official baseline when available; do not infer that no other October gathering occurred."
+  },
+  {
+    "gap_id": "MY2410-G002",
+    "type": "source_independence",
+    "description": "The Oct 11 and Oct 12 pro-Palestine rallies are described in one Malay Mail live report; independent source bodies remain search-only. The Oct 11 event has no separate exact source URL in the captured report.",
+    "source_ids": [
+      "MY2410-S002",
+      "MY2410-S003",
+      "MY2410-S004"
+    ],
+    "affected_candidates": [
+      "MY2410-X001",
+      "MY2410-X002"
+    ],
+    "required_followup": "Keep the two dated gatherings separate and do not treat headline/snippet results as independent confirmation."
+  },
+  {
+    "gap_id": "MY2410-G003",
+    "type": "state_target",
+    "description": "The Teluk Intan gathering involved >300 attendees and a flag controversy, but captured body evidence does not state an own-government or state-policy demand. Police presence and a later investigation do not resolve target scope.",
+    "source_ids": [
+      "MY2410-S001",
+      "MY2410-S005",
+      "MY2410-S006"
+    ],
+    "affected_candidates": [
+      "MY2410-X003"
+    ],
+    "required_followup": "Exclude on available evidence; only reconsider if an opened, assessed source establishes a direct Malaysia-state demand."
+  },
+  {
+    "gap_id": "MY2410-G004",
+    "type": "access_scope",
+    "description": "Historical source-card/approval originals were not available in this research workspace. The Malaysia canonical sources.jsonl was empty at assessment time; this empty ledger is not a clean access inventory. Exact-URL receipts and manual review cover only the local recorded context, including review/source_checks.jsonl, and do not establish a global publisher/story-origin clearance.",
+    "source_ids": [
+      "MY2410-S001",
+      "MY2410-S002"
+    ],
+    "affected_candidates": [
+      "MY2410-X001",
+      "MY2410-X002",
+      "MY2410-X003"
+    ],
+    "required_followup": "Use the historical originals if later made available; do not infer unrecorded aliases, origins or blanket access permission."
+  }
+]

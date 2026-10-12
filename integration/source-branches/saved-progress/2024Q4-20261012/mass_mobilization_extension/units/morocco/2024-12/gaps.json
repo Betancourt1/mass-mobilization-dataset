@@ -1,0 +1,33 @@
+[
+{
+  "gap_id": "MA24DEC-G001",
+  "type": "actual_occurrence_and_threshold",
+  "description": "A 17 December sit-in at Parliament against the draft strike law was called by unions, but searches found announcements rather than an accessible report confirming occurrence or turnout.",
+  "source_ids": [
+    "MA24DEC-S002"
+  ],
+  "affected_candidates": [],
+  "required_followup": "Search a permitted contemporary source or organizer statement for actual occurrence, venue and simultaneous attendance; do not treat a scheduled call as an event."
+},
+{
+  "gap_id": "MA24DEC-G002",
+  "type": "actual_occurrence_and_threshold",
+  "description": "A multi-city Palestine/anti-normalization action was called for 22 December, but no accessible post-event report with individual site and attendance was found.",
+  "source_ids": [
+    "MA24DEC-S003"
+  ],
+  "affected_candidates": [],
+  "required_followup": "Seek a permitted post-event report for one city and confirm occurrence, ≥50 simultaneous participants and a demand directed at Moroccan policy before coding."
+},
+{
+  "gap_id": "MA24DEC-G003",
+  "type": "threshold_50_and_source_access",
+  "description": "A 29 December Rabat march/sit-in against strike and retirement laws appears in search-result leads, but one exact target returned a verification challenge and another HTTP 403; no body or qualifying turnout was obtained. One snippet says 'dozens,' which does not establish ≥50.",
+  "source_ids": [
+    "MA24DEC-S005",
+    "MA24DEC-S006"
+  ],
+  "affected_candidates": [],
+  "required_followup": "Do not retry or bypass either target. Only new permitted independent body evidence confirming the Rabat action and ≥50 simultaneous attendance can resolve this gap."
+}
+]

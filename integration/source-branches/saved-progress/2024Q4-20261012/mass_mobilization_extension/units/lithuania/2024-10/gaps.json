@@ -1,0 +1,29 @@
+[
+  {
+    "gap_id": "LTH2410-G001",
+    "type": "retrieval_failure",
+    "description": "WageIndicator police-protest body open returned a tool-level restricted-URL error. No HTTP status, article body or body-derived headcount/demand was recovered; do not retry this saved target.",
+    "source_ids": [
+      "LTH2410-S001"
+    ],
+    "affected_candidates": [
+      "lithuania_2024-10-E002"
+    ],
+    "required_followup": "Use only already-permitted independent sources or a new exact-target assessment if a genuinely new source is found."
+  },
+  {
+    "gap_id": "LTH2410-G002",
+    "type": "coverage",
+    "description": "Search coverage used four batched open-web rounds in English and Lithuanian. Exact per-query execution clocks, query-to-result mapping within each batch, formal totals, local-region completeness and LexisNexis comparison are unavailable. This is not an exhaustive search claim.",
+    "source_ids": [
+      "LTH2410-S001",
+      "LTH2410-S002",
+      "LTH2410-S003"
+    ],
+    "affected_candidates": [
+      "lithuania_2024-10-E001",
+      "lithuania_2024-10-E002"
+    ],
+    "required_followup": "Independent reviewer may assess further local/regional labor and government-action coverage."
+  }
+]

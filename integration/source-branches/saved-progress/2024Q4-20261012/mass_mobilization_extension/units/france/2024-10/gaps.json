@@ -1,0 +1,34 @@
+[
+  {
+    "gap_id": "FRA2024-10-G001",
+    "gap_type": "pending_coverage",
+    "affected_candidate_ids": [
+      "FRA2024-10-E001",
+      "FRA2024-10-E002",
+      "FRA2024-10-E003"
+    ],
+    "description": "Ten captured queries include broad French-language searches, date windows, a national October 1 follow-up, farming and Martinique searches. Coverage is not exhaustive; no daily archive, all regional press, full English archive, or Nexis search was completed. Some body requests were denied or technically inaccessible as recorded.",
+    "source_ids": [
+      "SDC59F53055",
+      "S0157478DE2",
+      "SA26F8745D3",
+      "SE54BF73C10",
+      "SE7D50DEE67",
+      "S47FB6D0499"
+    ],
+    "next_permitted_action": "Search remaining regional and sector archives through ordinary permitted public queries; do not retry the blocked TF1 URL."
+  },
+  {
+    "gap_id": "FRA2024-10-G002",
+    "gap_type": "pending_review",
+    "affected_candidate_ids": [
+      "FRA2024-10-E002",
+      "FRA2024-10-E003"
+    ],
+    "description": "Reviewer should assess separation of the two October 18 farmer locations and whether the prefecture gathering directly targeted French state policy.",
+    "source_ids": [
+      "SE7D50DEE67"
+    ],
+    "next_permitted_action": "Review current source capture and distinguish the two sites without aggregating their attendance."
+  }
+]

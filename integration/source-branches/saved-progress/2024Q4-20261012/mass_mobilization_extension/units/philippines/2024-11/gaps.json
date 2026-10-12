@@ -1,0 +1,74 @@
+[
+  {
+    "gap_id": "PH2411-G001",
+    "type": "threshold",
+    "description": "Cebu event has no crowd count. Manila has about 1,000 estimate but collective demand linkage remains unresolved.",
+    "source_ids": [
+      "PH2411-S003",
+      "PH2411-S005",
+      "PH2411-S009"
+    ],
+    "affected_candidates": [
+      "PH2411-E001",
+      "PH2411-E002"
+    ],
+    "required_followup": "Distinct Cebu attendance evidence; resolve Manila demand linkage."
+  },
+  {
+    "gap_id": "PH2411-G002",
+    "type": "date_episode",
+    "description": "TV5 body gives 30 November and also “Monday.” Philstar describes a 30 November Manila march; injuries are sourced separately to Bayan Muna and NCRPO.",
+    "source_ids": [
+      "PH2411-S003",
+      "PH2411-S005"
+    ],
+    "affected_candidates": [
+      "PH2411-E001"
+    ],
+    "required_followup": "Resolve date/episode and keep injury attributions separate."
+  },
+  {
+    "gap_id": "PH2411-G003",
+    "type": "retrieval",
+    "description": "GMA and Inquirer exact URLs returned 403; Digicast transport page presented anti-bot challenge; Digicast PM page and ABS-CBN YouTube failed without HTTP status/body. ABS-CBN article rendered metadata only. No retries.",
+    "source_ids": [
+      "PH2411-S001",
+      "PH2411-S002",
+      "PH2411-S008",
+      "PH2411-S010",
+      "PH2411-S011",
+      "PH2411-S007"
+    ],
+    "affected_candidates": [
+      "PH2411-E001",
+      "PH2411-E002"
+    ],
+    "required_followup": "No retry on failed targets; seek distinct sources."
+  },
+  {
+    "gap_id": "PH2411-G004",
+    "type": "coverage",
+    "description": "Six English/Filipino searches focused on broad month, Bonifacio Day, and Cebu/Bacolod. Bacolod transport protest was an announcement; captured evidence does not establish turnout. Searches are not exhaustive.",
+    "source_ids": [
+      "PH2411-S006",
+      "PH2411-S008",
+      "PH2411-S010"
+    ],
+    "affected_candidates": [
+      "PH2411-E001",
+      "PH2411-E002"
+    ],
+    "required_followup": "Do not infer actual events from announcements; consider local archives."
+  },
+  {
+    "gap_id": "PH2411-G005",
+    "type": "baseline",
+    "description": "Official baseline reconciliation pending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "PH2411-E001",
+      "PH2411-E002"
+    ],
+    "required_followup": "Coordinator-controlled official baseline review."
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "gap_id": "JO24OCT-G001",
+    "type": "event_boundary_date_precision",
+    "description": "TRT World/Reuters embassy-area report describes a Thursday on the fifth consecutive day but gives no event date, year or publication date. Search-query context does not establish that this occurred or began in October 2024; onset and unit ownership remain unknown.",
+    "source_ids": [
+      "JO24OCT-S003"
+    ],
+    "affected_candidates": [
+      "JO24OCT-E002"
+    ],
+    "required_followup": "Seek a permitted contemporaneous independent source fixing the date/year and episode onset; keep candidate pending_unit until its start month is established."
+  },
+  {
+    "gap_id": "JO24OCT-G002",
+    "type": "access_origin_ambiguity",
+    "description": "Euronews Arabic search lead on a treaty-cancellation march includes an AP video credit. Exact written/body-origin relationship remains unknown under the AP hold context, so no body request was made.",
+    "source_ids": [
+      "JO24OCT-S002"
+    ],
+    "affected_candidates": [
+      "JO24OCT-E001",
+      "JO24OCT-E002"
+    ],
+    "required_followup": "Resolve exact publisher/origin scope from permitted evidence before any body request; do not infer broad permission or retry."
+  },
+  {
+    "gap_id": "JO24OCT-G003",
+    "type": "attendance_and_state_response",
+    "description": "For the embassy-area episode, the article gives no date-specific numeric attendance and does not establish the exact police response on the Thursday gathering. Earlier-week tear gas/baton use must not be assigned to it.",
+    "source_ids": [
+      "JO24OCT-S003"
+    ],
+    "affected_candidates": [
+      "JO24OCT-E002"
+    ],
+    "required_followup": "Find date-specific contemporary evidence of turnout and response; otherwise retain unknowns."
+  },
+  {
+    "gap_id": "JO24OCT-G004",
+    "type": "search_coverage_method",
+    "description": "Searches covered Arabic/English country-month protest and treaty terms plus targeted anniversary, embassy and labor terms, but are not LexisNexis and do not constitute an exhaustive source census; labor queries returned no dated October gathering candidate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Further regional/local, weekly and sector-specific Arabic searches and archival review would be needed for stronger coverage."
+  },
+  {
+    "gap_id": "JO24OCT-G005",
+    "type": "response_and_independence",
+    "description": "The 4 October march is supported by an Anadolu report; no independent second body-read source confirms attendance, state response or continuation.",
+    "source_ids": [
+      "JO24OCT-S001"
+    ],
+    "affected_candidates": [
+      "JO24OCT-E001"
+    ],
+    "required_followup": "Look for independent contemporaneous reporting and post-event follow-up; do not treat same-agency copies as independent."
+  }
+]
