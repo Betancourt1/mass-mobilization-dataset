@@ -1,0 +1,181 @@
+{
+  "country": "Algeria",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, formal validation, or claim of completeness.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "completed_at_utc": "2026-10-11",
+    "search_window_utc": "2026-10-11 03:03:23–03:04:17 UTC (tool output had no per-query timestamps; clock readings bracketed the search/open sequence)",
+    "searches_run": 30,
+    "coverage": "Three broad multilingual query batches (English/French/Arabic, three queries for each target month per batch), plus three follow-up June health-sector queries. Opened relevant public source pages where available.",
+    "limitations": [
+      "Search engines returned substantial irrelevant material, stale coverage, and false positives; results are not a systematic census.",
+      "The browser tool did not expose an exact UTC timestamp for each individual request. The run is bounded by the listed observed UTC clock readings; do not interpret that bracket as exact per-query access time.",
+      "No finding in these searches does not establish that no protest or mobilization occurred.",
+      "Some publisher pages returned a shell or search snippet only; this is recorded rather than treated as full-page review."
+    ]
+  },
+  "search_history": [
+    {
+      "batch": "broad-1",
+      "queries": [
+        {"language": "English", "query": "Algeria protest demonstration April 2026 strike workers union protest site:algeria-news.dz OR site:aps.dz"},
+        {"language": "French", "query": "Algérie manifestation grève protestation avril 2026 travailleurs enseignants étudiants"},
+        {"language": "Arabic", "query": "الجزائر احتجاج مظاهرة إضراب أفريل 2026"},
+        {"language": "English", "query": "Algeria protest demonstration May 2026 strike workers social movement"},
+        {"language": "French", "query": "Algérie manifestation grève protestation mai 2026 travailleurs enseignants étudiants"},
+        {"language": "Arabic", "query": "الجزائر احتجاج مظاهرة إضراب ماي 2026"},
+        {"language": "English", "query": "Algeria protest demonstration June 2026 strike workers social movement"},
+        {"language": "French", "query": "Algérie manifestation grève protestation juin 2026 travailleurs enseignants étudiants"},
+        {"language": "Arabic", "query": "الجزائر احتجاج مظاهرة إضراب جوان 2026"}
+      ]
+    },
+    {
+      "batch": "broad-2",
+      "queries": [
+        {"language": "English", "query": "Algeria April 2026 strike protest workers union demonstrations public sector"},
+        {"language": "French", "query": "Algérie avril 2026 grève protestation travailleurs sit-in rassemblement"},
+        {"language": "Arabic", "query": "الجزائر أفريل 2026 إضراب احتجاج عمال مظاهرة"},
+        {"language": "English", "query": "Algeria May 2026 strike protest workers union demonstrations sit-in"},
+        {"language": "French", "query": "Algérie mai 2026 grève protestation travailleurs sit-in rassemblement"},
+        {"language": "Arabic", "query": "الجزائر ماي 2026 إضراب احتجاج عمال مظاهرة"},
+        {"language": "English", "query": "Algeria June 2026 strike protest workers union demonstrations sit-in"},
+        {"language": "French", "query": "Algérie juin 2026 grève protestation travailleurs sit-in rassemblement"},
+        {"language": "Arabic", "query": "الجزائر جوان 2026 إضراب احتجاج عمال مظاهرة"}
+      ]
+    },
+    {
+      "batch": "broad-3",
+      "queries": [
+        {"language": "French", "query": "site:algerie360.com Algérie protestation grève avril 2026 sit-in"},
+        {"language": "English", "query": "Algeria April 2026 protest social workers demonstration arrested strike local news"},
+        {"language": "Arabic", "query": "الجزائر احتجاجات أبريل 2026 عمال إضراب مظاهرة"},
+        {"language": "French", "query": "site:algerie360.com Algérie protestation grève mai 2026 sit-in"},
+        {"language": "English", "query": "Algeria May 2026 protest social workers demonstration arrested strike local news"},
+        {"language": "Arabic", "query": "الجزائر احتجاجات مايو 2026 عمال إضراب مظاهرة"},
+        {"language": "French", "query": "site:algerie360.com Algérie protestation grève juin 2026 sit-in"},
+        {"language": "English", "query": "Algeria June 2026 protest social workers demonstration arrested strike local news"},
+        {"language": "Arabic", "query": "الجزائر احتجاجات يونيو 2026 عمال إضراب مظاهرة"}
+      ]
+    },
+    {
+      "batch": "targeted-june-health",
+      "queries": [
+        {"language": "French", "query": "\"SNAMARSP\" \"2 juin 2026\" grève Algérie"},
+        {"language": "French", "query": "Algérie \"grève nationale les 2 et 3 juin 2026\" auxiliaires médicaux protestation"},
+        {"language": "English", "query": "Algeria June 2026 anesthetic medical assistants strike June 2 3"}
+      ]
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "DZ-2026-06-health-strike-announcement",
+      "month": "2026-06",
+      "type": "planned labor strike; occurrence unverified",
+      "location": "Nationwide Algeria; source specifically reports a Blida administrative court order",
+      "actors": "National Autonomous Union of Public Health Anesthesia and Resuscitation Medical Assistants (SNAMARSP)",
+      "event_date_or_window": "2026-06-02 to 2026-06-03 (announced strike window); the June 2 report says a court ordered suspension",
+      "publication_date": "2026-06-02 17:03 (Radio Algérienne page timestamp)",
+      "source": {
+        "title": "Grève des auxiliaires médicaux en anesthésie et réanimation : une ordonnance en référé ordonne sa suspension",
+        "url": "https://news.radioalgerie.dz/fr/node/87423",
+        "accessed_utc": "2026-10-11; within the bracketed search/open window above",
+        "short_excerpt": "ordonnant la suspension de la grève annoncée",
+        "provenance": "Radio Algérienne; page attributes underlying statement to the Ministry of Health and identifies APS as source (page lines 45–56 in browser extraction)."
+      },
+      "assessment": "Strong evidence that a national strike had been announced and that a suspension order was reported on June 2. No source in this pass verifies that workers actually struck or that a street demonstration occurred. Keep as a follow-up lead, not a confirmed protest event.",
+      "uncertainty": "The report is based on the ministry statement; no union statement, court document, or independent report of actual worker participation was located in this pass."
+    },
+    {
+      "id": "DZ-2026-04-rumored-general-strike",
+      "month": "2026-04",
+      "type": "false call rumor / excluded event lead",
+      "location": "Algiers (UGTA representative quoted at University of Algiers 3); alleged proposed scope was national",
+      "actors": "UGTA; anonymous document circulated online",
+      "event_date_or_window": "2026-04-20 was the purported start date in the forged call; UGTA denied the call on 2026-04-18/19",
+      "publication_date": "2026-04-19 11:13",
+      "source": {
+        "title": "Grève nationale le 20 avril ? L’UGTA met fin à la rumeur",
+        "url": "https://www.algerie360.com/greve-nationale-le-20-avril-lugta-met-fin-a-la-rumeur/",
+        "accessed_utc": "2026-10-11; within the bracketed search/open window above",
+        "short_excerpt": "l’UGTA ... a rejeté ... l’authenticité du document en circulation",
+        "provenance": "Algérie 360; directly opened and read, publication time shown on page at lines 26–45."
+      },
+      "assessment": "Exclude as a protest-event record: the report says UGTA rejected the purported national strike call as fabricated. It documents circulation of a rumor and an organizational denial, not a strike occurrence.",
+      "uncertainty": "The article reports UGTA's account; no independent investigation into the anonymous document was conducted."
+    },
+    {
+      "id": "DZ-2026-05-workers-day-mobilization-call",
+      "month": "2026-05",
+      "type": "advocacy statement / possible planned mobilization; occurrence unverified",
+      "location": "Algeria (no city or venue specified)",
+      "actors": "Algerian Party for Democracy and Socialism (PADS)",
+      "event_date_or_window": "2026-05-01 (statement calls for May Day to be a day of worker mobilization; it does not document an event held)",
+      "publication_date": "2026-04-30 (statement date); Solidnet page dated 2026-05-04",
+      "source": {
+        "title": "PADS, Algeria, May 1st, 2026 – A Day of Mobilization and Struggle of Workers Against Capitalist Exploitation and Imperialist Wars",
+        "url": "https://www.solidnet.org/article/PADS-Algeria-May-1st-2026-A-Day-of-Mobilization-and-Struggle-of-Workers-Against-Capitalist-Exploitation-and-Imperialist-Wars/",
+        "accessed_utc": "2026-10-11; within the bracketed search/open window above",
+        "short_excerpt": "Les travailleurs algériens sont appelés à faire du 1er Mai une journée de mobilisation",
+        "provenance": "Solidnet republishes a PADS statement; page metadata dated May 4 and statement text dated April 30 (opened page lines 46–56, 71–85)."
+      },
+      "assessment": "Retain only as a low-specificity call/advocacy lead. It does not provide time, place, participating group beyond the party's appeal, attendance, or confirmation that a mobilization took place.",
+      "uncertainty": "Party statement is advocacy and not independent event reporting; no corroborating event report found in this pass."
+    }
+  ],
+  "excluded_or_contextual_results": [
+    {
+      "title": "UGTA hosts International Workers' Day events to honor national workforce",
+      "url": "https://www.aps.dz/en/algeria/society/moog0hku-ugta-hosts-international-workers-day-events-to-honor-national-workforce",
+      "publication_date": "2026-05-02 15:55 (search snippet)",
+      "event_date": "2026-05-02",
+      "reason": "Search snippet describes International Workers' Day commemorations launched in Algiers, not clearly a protest. Direct page open returned only a site shell/maintenance text, so content could not be fully reviewed. Not coded as a protest.",
+      "short_excerpt": "Events commemorating International Workers' Day launched Saturday in Algiers"
+    },
+    {
+      "title": "إحياء الذكرى الـ70 ليوم الطالب.. وقفة ترحم بساحة المقاومة بالجزائر العاصمة",
+      "url": "https://mmad.gov.dz/%D8%A5%D8%AD%D9%8A%D8%A7%D8%A1-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%89-%D8%A7%D9%84%D9%8070-%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%B7%D8%A7%D9%84%D8%A8-%D9%88%D9%82%D9%81%D8%A9-%D8%AA%D8%B1%D8%AD/",
+      "publication_date": "2026-05-19 (page date)",
+      "event_date": "2026-05-19",
+      "reason": "Official account describes a wreath-laying/remembrance ceremony marking the historical 1956 student strike, not a contemporary protest. The historic event date is not the 2026 event date.",
+      "short_excerpt": "وقفة ترحم بمناسبة إحياء الذكرى السبعين ليوم الطالب"
+    },
+    {
+      "title": "Alone in Algiers: The activists fighting to preserve the Hirak movement's legacy",
+      "url": "https://www.lemonde.fr/en/international/article/2026/06/08/alone-in-algiers-the-activists-fighting-to-preserve-the-hirak-movement-s-legacy_6754259_4.html",
+      "publication_date": "2026-06-08",
+      "event_date": "Article discusses Hirak events beginning in 2019 and an activist's 2021 conviction; no June 2026 demonstration is reported in the public search preview.",
+      "reason": "Parent handoff flagged this as subscriber-only legacy coverage. No paywall bypass was attempted. Its publication date must not be mistaken for event date; it is not a Q2 2026 event lead.",
+      "short_excerpt": "Hirak movement's legacy"
+    },
+    {
+      "title": "الاحتجاجات تستمر في شوارع الجزائر وعمال ميناء يضربون عن العمل",
+      "url": "https://arabic.euronews.com/2019/03/12/protests-in-algeria-continues-and-workers-on-strike-in-major-port",
+      "reason": "Historical 2019 coverage surfaced in searches; excluded as wrong year."
+    },
+    {
+      "title": "En Algérie, les lycéens en grève pour protester contre des « programmes surchargés »",
+      "url": "https://www.lemonde.fr/afrique/article/2025/01/24/en-algerie-les-lyceens-en-greve-pour-protester-contre-des-programmes-surcharges_6514295_3212.html",
+      "reason": "2025 student strike; excluded as wrong year."
+    },
+    {
+      "title": "Grève des auxiliaires médicaux en anesthésie et réanimation : une ordonnance en référé ordonne sa suspension",
+      "url": "https://algerie-eco.com/2026/06/02/greve-des-auxiliaires-medicaux-en-anesthesie-et-reanimation-une-ordonnance-en-refere-ordonne-sa-suspension/",
+      "publication_date": "2026-06-02",
+      "event_date": "Planned strike June 2–3; suspension order reported June 2",
+      "reason": "Secondary republication of the same ministry/APS account as Radio Algérienne, not independent corroboration. Useful cross-index only; do not count as a separate event source.",
+      "short_excerpt": "grève nationale les 2 et 3 juin 2026"
+    }
+  ],
+  "no_findings_by_month": {
+    "2026-04": "This first discovery pass found no verified protest event in Algeria from April beyond the denied April 20 strike rumor. This is a search outcome, not evidence that no other action occurred.",
+    "2026-05": "This first discovery pass found a general May Day mobilization appeal and an official commemoration snippet, but no specific, verified contemporary protest event. Search outcome only; absence is not established.",
+    "2026-06": "This first pass found a planned health-sector strike suspended by a court order, but no verified account of strike occurrence or street demonstration. Search outcome only; absence is not established."
+  },
+  "failures_and_follow_up": [
+    "Algérie Presse Service English page for the May 2 UGTA item opened to a maintenance shell; the search snippet is retained with that limitation.",
+    "Le Monde June 8 result was identified by inherited coordinator handoff as subscriber-only; no bypass attempted and no event extracted from it.",
+    "For the June health strike, follow up with SNAMARSP union communications or independent reporting from June 2–3 to determine whether any action occurred despite the reported court suspension.",
+    "Future pass could search local outlets by wilaya and sectors (transport, education, health, municipal workers, unemployed/youth, energy) and compare French and Arabic archives."
+  ]
+}

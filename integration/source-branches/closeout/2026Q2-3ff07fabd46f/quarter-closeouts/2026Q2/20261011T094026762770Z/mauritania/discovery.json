@@ -1,0 +1,101 @@
+{
+  "country": "Mauritania",
+  "quarter": "2026Q2",
+  "status": "provisional public-source discovery; kit/schema/formal validation pending",
+  "searches": [
+    {
+      "access_utc": "2026-10-11 03:07:28..03:07:32 UTC",
+      "language": "English",
+      "query": "Mauritania protest demonstrations strikes April 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:07:32..03:07:36 UTC",
+      "language": "French",
+      "query": "Mauritanie manifestations grève protestation avril 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:07:36..03:07:42 UTC",
+      "language": "English",
+      "query": "Mauritania protest demonstrations strikes May 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:07:42..03:07:47 UTC",
+      "language": "French",
+      "query": "Mauritanie manifestations grève protestation mai 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:07:47..03:07:53 UTC",
+      "language": "English",
+      "query": "Mauritania protest demonstrations strikes June 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:07:53..03:07:57 UTC",
+      "language": "French",
+      "query": "Mauritanie manifestations grève protestation juin 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    }
+  ],
+  "leads": [
+    {
+      "url": "https://monitor.civicus.org/explore/le-mouvement-ira-est-victime-dune-repression-implacable-la-hausse-des-prix-de-lenergie-entraine-des-manifestations-des-arrestations-et-lannulation-de-festivals/",
+      "publisher": "CIVICUS Monitor",
+      "publication_date": "2026-05-19",
+      "event_date": "2026-04-02; 2026-04-04; 2026-04-05; 2026-04-16",
+      "event": "CIVICUS describes April demonstrations by IRA, PRMD and gas distributors in Nouakchott/Nouadhibou; reports dispersals/arrests and attributes claims.",
+      "excerpt": "Le 16 avril 2026, l’Initiative pour la résurgence du mouvement abolitionniste (IRA) a organisé une marche",
+      "excerpt_word_count": 16,
+      "access_and_provenance": "2026-10-11 03:11:37-03:11:38; open success, relevant lines 78-86, 125-128; Rights-monitor synthesis; linked local reporting; allegations attributed.",
+      "uncertainty": "Provisional; exact event dates distinct from May19 publication."
+    },
+    {
+      "url": "https://www.nouakchotttimes.com/Mauritanie-meeting-populaire_a750.html",
+      "publisher": "Nouakchott Times",
+      "publication_date": "2026-05-11",
+      "event_date": "2026-05-10",
+      "event": "Opposition collective reportedly held public meeting after earlier attempts blocked for authorization.",
+      "excerpt": "a tenu un meeting populaire, ce samedi 10 mai 2026",
+      "excerpt_word_count": 10,
+      "access_and_provenance": "2026-10-11 03:11:37-03:11:38; open success lines 45-48; French-language local news report.",
+      "uncertainty": "Provisional; public meeting/rally wording, not necessarily street march."
+    }
+  ],
+  "excluded_or_noisy_results": [],
+  "access_failures": [
+    "MFWA candidate failed to open during 2026-10-11 03:11:37-03:11:38; accessible CIVICUS synthesis used."
+  ],
+  "note": "Bounded first discovery pass; no findings are not evidence of absence. Planned/scheduled events remain unconfirmed unless a source describes them retrospectively. Claims are attributed to sources; not for canonical integration.",
+  "follow_up_searches": [
+    {
+      "access_utc": "2026-10-11 03:15:02..03:15:09 UTC",
+      "query": "Mauritania public meeting May 10 2026 meeting Nouakchott Times opposition public meeting",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    }
+  ],
+  "follow_up_sources": [
+    {
+      "lead_index": 1,
+      "url": "https://www.nouakchottimes.com/Mauritanie-meeting-populaire_a750.amp.html",
+      "publisher": "Nouakchott Times (AMP rendering of same report)",
+      "publication_date": "2026-05-11",
+      "event_date": "2026-05-10",
+      "excerpt": "Des milliers de personnes, responsables, cadres, militants et citoyens, ont investi l’endroit réservé à la manifestation",
+      "word_count": 14,
+      "access_utc": "2026-10-11 03:15:02-03:15:09 search listing; opened at 03:15:43-03:15:44; visible listing gives fuller text",
+      "provenance": "Same local French-language article in AMP version; reports thousands attended and leaders denounced cost of living and restrictions.",
+      "uncertainty": "Corroborates attendance at the public meeting; same publisher/report, not an independent second report."
+    }
+  ],
+  "follow_up_assessment": "May10 opposition meeting is additionally reported with thousands attending in the AMP listing of the same Nouakchott Times report; it is not an independent corroboration."
+}

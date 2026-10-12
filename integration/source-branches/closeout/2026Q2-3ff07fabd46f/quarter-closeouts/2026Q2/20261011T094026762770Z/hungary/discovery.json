@@ -1,0 +1,106 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Hungary",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "hungary_2026-04",
+      "hungary_2026-05",
+      "hungary_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Hungary; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Hungary April 2026 protest demonstration march strike labor opposition church Magyarország protesta huelga प्रदर्शन",
+        "searched_at_utc": "2026-10-11 03:16:34 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Magyarország April 2026 protestas manifestación huelga strike / Hungary April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:53 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Hungary May 2026 protest demonstration march strike labor opposition church Magyarország protesta huelga प्रदर्शन",
+        "searched_at_utc": "2026-10-11 03:16:40 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Magyarország May 2026 protestas manifestación huelga strike / Hungary May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:59 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Hungary June 2026 protest demonstration march strike labor opposition church Magyarország protesta huelga प्रदर्शन",
+        "searched_at_utc": "2026-10-11 03:16:47 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Magyarország June 2026 protestas manifestación huelga strike / Hungary June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:17:07 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "hu-jun-migration-pact",
+      "url": "https://dailynewshungary.com/migration-protest-magyar-boo-heart/",
+      "outlet": "Daily News Hungary",
+      "provenance": "English-language local report on a protest march to parliament.",
+      "publication_date": "2026-06-05",
+      "event_date": "2026-06-05",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Budapest, Hungary",
+      "bounded_excerpt": "The demonstration, organised under the slogan “Peaceful March Against the Migration Pact”, began at 5 PM at Kodály körönd.",
+      "excerpt_word_count": 19,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Participant estimates differ between outlets; protest’s political framing is attributed to organizers."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "hu-2026-06-migration-pact",
+      "month_unit": "2026-06",
+      "event_date": "2026-06-05",
+      "location": "Budapest, Hungary",
+      "event_type_signal": "political demonstration and march",
+      "issue": "Opposition to the EU migration pact",
+      "sources": [
+        "hu-jun-migration-pact"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Crowd size and political character are reported differently; source describes organizers and slogans."
+      ]
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

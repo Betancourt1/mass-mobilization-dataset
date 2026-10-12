@@ -1,0 +1,106 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Guinea-Bissau",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "guinea-bissau_2026-04",
+      "guinea-bissau_2026-05",
+      "guinea-bissau_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Guinea-Bissau; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guinea-Bissau April 2026 protest demonstration march strike labor opposition church Guiné-Bissau protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:15:56 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guiné-Bissau April 2026 protesta manifestación manifestation greve marche opposition / Guinea-Bissau April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:15 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guinea-Bissau May 2026 protest demonstration march strike labor opposition church Guiné-Bissau protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:16:02 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guiné-Bissau May 2026 protesta manifestación manifestation greve marche opposition / Guinea-Bissau May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:18 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guinea-Bissau June 2026 protest demonstration march strike labor opposition church Guiné-Bissau protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:16:08 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guiné-Bissau June 2026 protesta manifestación manifestation greve marche opposition / Guinea-Bissau June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:26 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "gw-apr2-africacenter",
+      "url": "https://africacenter.org/spotlight/guinea-bissau-constitutional-referendum-explainer/",
+      "outlet": "Africa Center for Strategic Studies",
+      "provenance": "Public explainer with a dated photo caption; publication is post-event.",
+      "publication_date": "2026-08-26",
+      "event_date": "2026-04-02",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Bissau, Guinea-Bissau",
+      "bounded_excerpt": "Demonstrators march in Bissau, April 2, 2026, to demand justice after civil society activist Vigario Luis Balanta was found dead.",
+      "excerpt_word_count": 20,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Evidence is a caption/photo rather than a full report; spelling accents vary across sources."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "gw-2026-04-justice-march",
+      "month_unit": "2026-04",
+      "event_date": "2026-04-02",
+      "location": "Bissau, Guinea-Bissau",
+      "event_type_signal": "justice demonstration",
+      "issue": "Demand for justice after activist Vigário Luís Balanta was found dead",
+      "sources": [
+        "gw-apr2-africacenter"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Single caption source in this bounded review; participant count and organizers not established."
+      ]
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

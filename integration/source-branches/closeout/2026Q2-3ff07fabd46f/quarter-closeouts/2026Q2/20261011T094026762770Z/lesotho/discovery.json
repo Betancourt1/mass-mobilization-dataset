@@ -1,0 +1,82 @@
+{
+  "country": "Lesotho",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "search_window_utc": "2026-10-11 03:18:29–03:21:01 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+    "targeted_queries": 8,
+    "coverage": "At least two month-specific English/local-language queries per month where local query was feasible, plus focused follow-ups; public search results and relevant accessible pages reviewed.",
+    "limitations": [
+      "This pass is bounded, and no-hit results do not imply no event occurred.",
+      "Search results occasionally surfaced wrong-year or neighboring-country items; these were excluded explicitly.",
+      "Search index snippets are flagged as such and are not treated as equivalent to opened articles."
+    ]
+  },
+  "search_history": [
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Lesotho protest demonstration strike workers April 2026 social protest",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "Sesotho",
+      "query": "Lesotho boipelaetso boipelaetso basebetsi April 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Lesotho protest demonstration strike workers May 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "Sesotho",
+      "query": "Lesotho boipelaetso basebetsi Mots'eanong 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Lesotho protest demonstration strike workers June 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "Sesotho",
+      "query": "Lesotho boipelaetso basebetsi Phuptjane 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Lesotho May 2026 protest workers march demonstration Maseru",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "site:thesentinel.co.ls protest strike 2026 Lesotho May",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    }
+  ],
+  "provisional_leads": [],
+  "excluded_or_unverified": [
+    {
+      "item": "Historical Lesotho factory worker protest / salary increase searches (2018, 1998, 2020)",
+      "url": "https://monitor.civicus.org/explore/factory-workers-strike-nears-its-fourth-month-while-chief-justice-is-unlawfully-suspended/",
+      "reason": "Wrong year; excluded."
+    },
+    {
+      "item": "Sesotho query result for May 2026 did not return a demonstrably relevant protest; unrelated police and sports snippets appeared",
+      "url": "https://www.facebook.com/lmps01/photos/o-felloa-ke-bophelo-ka-ho-thusa-motsoalle-oa-haemosele-nopela-leribe-teboho-lebo/1246349941006311/",
+      "reason": "Irrelevant snippets excluded; no event candidate."
+    }
+  ],
+  "assessment": "No sufficiently supported Q2 2026 action surfaced in this bounded search. This is not evidence that none occurred.",
+  "limitations_note": "Sesotho-language search surfaced very little relevant indexed material; follow-up discovery needed through local news, union and civil-society sources.",
+  "access_failures": []
+}

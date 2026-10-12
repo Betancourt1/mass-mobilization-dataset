@@ -1,0 +1,166 @@
+{
+  "country": "Libya",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "search_window_utc": "2026-10-11 03:18:29–03:21:01 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+    "targeted_queries": 13,
+    "coverage": "At least two month-specific English/local-language queries per month where local query was feasible, plus focused follow-ups; public search results and relevant accessible pages reviewed.",
+    "limitations": [
+      "This pass is bounded, and no-hit results do not imply no event occurred.",
+      "Search results occasionally surfaced wrong-year or neighboring-country items; these were excluded explicitly.",
+      "Search index snippets are flagged as such and are not treated as equivalent to opened articles."
+    ]
+  },
+  "search_history": [
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Libya protest demonstration strike workers April 2026 social protest",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "Arabic",
+      "query": "ليبيا احتجاج مظاهرة إضراب عمال أبريل 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Libya protest demonstration strike workers May 2026 social protest",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "Arabic",
+      "query": "ليبيا احتجاج مظاهرة إضراب عمال مايو 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Libya protest demonstration strike workers June 2026 social protest",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "Arabic",
+      "query": "ليبيا احتجاج مظاهرة إضراب عمال يونيو 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Libya protest workers strike April 2026 demonstration Tripoli",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "Arabic",
+      "query": "ليبيا احتجاج عمال أبريل 2026 طرابلس",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Libya protest workers strike May 2026 demonstration Tripoli",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "Arabic",
+      "query": "ليبيا احتجاج عمال مايو 2026 طرابلس",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Libya protest workers strike June 2026 demonstration Tripoli",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "Arabic",
+      "query": "ليبيا احتجاج عمال يونيو 2026 طرابلس",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Libya April May 2026 protest demonstration Tripoli workers wages",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "LY-2026-05-03-Tripoli-electricity-employees",
+      "month": "2026-05",
+      "event_type": "public employees’ wage protest",
+      "status": "reported held",
+      "actors": "General Electricity Company employees",
+      "locations": [
+        "Government headquarters, al-Sikka Road, Tripoli"
+      ],
+      "event_date": "2026-05-03",
+      "publication_date": "2026-05-03",
+      "sources": [
+        {
+          "title": "Libya: Committee for Justice Documents a Protest by Employees of the General Electricity Company in Tripoli Demanding Their Salaries",
+          "url": "https://www.cfjustice.org/libya-committee-for-justice-documents-a-protest-by-employees-of-the-general-electricity-company-in-tripoli-demanding-their-salaries/",
+          "accessed_utc_bracket": "2026-10-11 03:18:29 UTC–2026-10-11 03:20:00 UTC",
+          "excerpt": "employees of the General Electricity Company held a protest in front of the government headquarters",
+          "provenance": "Committee for Justice public report, opened directly; local/contextual rights organization, dated May 3."
+        }
+      ],
+      "assessment": "Specific date, organization, place and wage demand are reported in an accessible source.",
+      "uncertainty": "Single source located in this bounded pass; verify duration, turnout and any work stoppage independently."
+    },
+    {
+      "id": "LY-2026-06-04-Tripoli-UNHCR-protest",
+      "month": "2026-06",
+      "event_type": "protest against migrant presence/settlement and UNHCR",
+      "status": "reported held; Reuters reports violent protest and blocked entrance",
+      "actors": "Hundreds of Libyan demonstrators",
+      "locations": [
+        "Outside UNHCR office, Tripoli; Reuters also refers to UNSMIL offices"
+      ],
+      "event_date": "2026-06-04",
+      "publication_date": "2026-06-04 image/event coverage; 2026-06-05 follow-up",
+      "sources": [
+        {
+          "title": "Libyans block off UN refugee office in protest against migrants",
+          "url": "https://www.reuters.com/world/africa/libyans-block-off-un-refugee-office-protest-against-migrants-2026-06-04/",
+          "accessed_utc_bracket": "2026-10-11 03:18:29 UTC–2026-10-11 03:20:00 UTC",
+          "excerpt": "Hundreds of Libyan demonstrators blocked off the office of the U.N. refugee agency",
+          "provenance": "Reuters direct report; accessible page. Follow-up dated June 5 says protest took place June 4 and contextualizes UN concerns."
+        },
+        {
+          "title": "UN blames online disinformation for protests outside Libya offices",
+          "url": "https://www.reuters.com/world/africa/un-blames-online-disinformation-protests-outside-libya-offices-2026-06-05/",
+          "accessed_utc_bracket": "2026-10-11 03:18:29 UTC–2026-10-11 03:20:00 UTC",
+          "excerpt": "deeply concerned by violent protests outside its offices in Libya this week",
+          "provenance": "Reuters direct accessible follow-up, June 5; distinguishes event date June 4 from publication date June 5."
+        }
+      ],
+      "assessment": "Two Reuters reports substantiate June 4 event and distinguish reporting date from protest date.",
+      "uncertainty": "Reuters describes violence; precise scope and participants’ affiliations not established in this pass."
+    }
+  ],
+  "excluded_or_unverified": [
+    {
+      "item": "Older strikes/protests from 2016, 2018, 2023 appeared in search",
+      "url": "https://libyaobserver.ly/news/libyans-take-streets-protest-miserable-living-conditions",
+      "reason": "Wrong year; excluded."
+    },
+    {
+      "item": "June event targeted migrants and offices; UN/Reuters reported violence and concern about disinformation",
+      "url": "https://www.reuters.com/world/africa/un-blames-online-disinformation-protests-outside-libya-offices-2026-06-05/",
+      "reason": "Included as a civic protest event, but annotate reported violence and avoid attributing unsupported organizers or motive beyond Reuters account."
+    }
+  ],
+  "assessment": "Two notable public-source leads: May 3 public employees wage protest and June 4 anti-migrant protest outside UN offices.",
+  "limitations_note": "May protest supported by one rights-organization source; June event supported by Reuters reports. Political/conflict context complicates attribution.",
+  "access_failures": []
+}

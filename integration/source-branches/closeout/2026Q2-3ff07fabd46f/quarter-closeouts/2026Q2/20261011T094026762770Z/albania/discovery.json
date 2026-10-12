@@ -1,0 +1,398 @@
+{
+  "country": "Albania",
+  "period": "2026-04-01/2026-06-30",
+  "status": "provisional_public_source_discovery_only",
+  "schema_status": "Ad hoc staging record; portable scientific kit and canonical schema are pending. Not formally validated or complete.",
+  "eligibility_handoff": "Per coordinator instruction, owner resumed and confirmed the audited handoff is current: Albania April, May, and June 2026 are new, unclaimed units with no partial or completed work.",
+  "discovery_cutoff": "2026-10-11T03:05:02Z",
+  "searches": [
+    {
+      "performed_by": "coordinator (reported in handoff)",
+      "query": "Albania protest demonstration April May June 2026 Tirana",
+      "access_utc": "2026-10-11T03:02:17Z",
+      "results_reported": [
+        "April 17 U.S. Embassy demonstration alert (scheduled event; occurrence requires separate confirmation): https://al.usembassy.gov/demonstration-alert-u-s-embassy-tirana-albania-friday-april-17-2026-at-1900/",
+        "May 30 Flamingo Movement analysis: https://institutdelors.eu/en/publications/the-flamingo-movement-why-albania-needs-a-new-political-contract/",
+        "June 3 Reuters resort protest report: https://www.reuters.com/world/albanians-protest-over-kushner-linked-luxury-resort-pristine-coastline-2026-06-03/",
+        "June 9 AP photo carried by Euronews: https://www.euronews.com/2026/06/12/everything-you-need-to-know-about-the-jared-kushner-resort-protests-in-albania"
+      ]
+    },
+    {
+      "performed_by": "research pass",
+      "queries": [
+        "Albania protest demonstration April 2026 Tirana protest April 2026",
+        "Shqipëri protestë demonstratë prill 2026 Tiranë protestë",
+        "Albania protest demonstration May 2026 Tirana protest May 2026",
+        "Shqipëri protestë demonstratë maj 2026 Tiranë protestë"
+      ],
+      "access_utc_window": ["2026-10-11T03:03:08Z", "2026-10-11T03:03:38Z"],
+      "timestamp_note": "Clock reads bracket the batched search call; the web tool does not expose a per-query request second. Exact query strings are retained.",
+      "results_and_noise": [
+        "April 17 Embassy alert and an OSAC schedule; Anadolu Agency photo-gallery report says the Tirana protest took place April 17.",
+        "May 8 Embassy alert, Albanian Daily News scheduled-event report, and Albanian-language May 8/9 coverage surfaced.",
+        "A Balkanweb result with a May 13 title/slug was actually dated May 16, 2017 and describes a 2017 event; excluded as wrong-period.",
+        "Wikipedia movement pages surfaced as leads only; no counts or event claims from them are treated as verified."
+      ]
+    },
+    {
+      "performed_by": "research pass",
+      "queries": [
+        "Albania protest June 2026 Tirana demonstration Kushner resort June 2026",
+        "Shqipëri protestë demonstratë qershor 2026 Tiranë Sazan Zvërnec"
+      ],
+      "access_utc_window": ["2026-10-11T03:03:38Z", "2026-10-11T03:03:43Z"],
+      "timestamp_note": "Clock reads bracket the batched search call; the web tool does not expose a per-query request second.",
+      "results_and_noise": [
+        "Reuters and Al Jazeera reports on Tirana demonstrations over coastal development; Euronews/AP report with a June 9 photo caption; Albanian Daily News June 1 report on June 1 and the preceding day.",
+        "Search also surfaced foreign diaspora rallies and Wikipedia pages; foreign-location rallies are excluded from Albania event leads and Wikipedia is lead-only."
+      ]
+    },
+    {
+      "performed_by": "research pass",
+      "queries": [
+        "site:reuters.com/world/albanians-protest 2026 Albania May 8 May 13 Tirana protest",
+        "protestë në Tiranë 8 maj 2026 pas protestës opozitës 8 maj 2026"
+      ],
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:03:46Z"],
+      "timestamp_note": "Clock reads bracket the batched search call; the web tool does not expose a per-query request second.",
+      "results_and_noise": [
+        "Albanian-language reports scheduled the May 8 Tirana opposition rally and a Dosja report dated May 9 recounted the prior evening's event.",
+        "The exact May 13-focused query did not yield a clearly dated 2026 event in the returned results; this is not evidence of absence."
+      ]
+    },
+    {
+      "performed_by": "research pass (timestamped repeat for auditability)",
+      "queries": [
+        "Albania protest demonstration April 2026 Tirana protest April 2026",
+        "Shqipëri protestë demonstratë prill 2026 Tiranë protestë"
+      ],
+      "access_utc_window": ["2026-10-11T03:04:35Z", "2026-10-11T03:04:39Z"],
+      "results_and_noise": [
+        "Embassy/OSAC alerts for planned April 17 gathering and Anadolu Agency report identifying people demonstrating in Tirana on April 17.",
+        "A Wikipedia result included a separate April 14 Lëvizja Bashkë lead around the diaspora summit; source verification not completed, so not promoted to a corroborated lead."
+      ]
+    },
+    {
+      "performed_by": "research pass (timestamped repeat for auditability)",
+      "queries": [
+        "Albania protest demonstration May 2026 Tirana protest May 8 2026",
+        "Shqipëri protestë demonstratë maj 2026 Tiranë 8 maj protesta"
+      ],
+      "access_utc_window": ["2026-10-11T03:04:43Z", "2026-10-11T03:04:48Z"],
+      "results_and_noise": [
+        "The English query returned May 8 schedule material and Reuters-related reporting. The Albanian query was noisy (e.g. unrelated '8' results and a current July video); it did not establish absence.",
+        "The search results also surfaced the lead that residents began protesting at Zvërnec on Saturday May 30 and that Tirana mobilization followed; subsequent opened Reuters and Albanian Daily News pages were used for date/place context."
+      ]
+    },
+    {
+      "performed_by": "research pass (timestamped repeat for auditability)",
+      "queries": [
+        "Albania protest June 2026 Tirana demonstration Kushner resort June 2026",
+        "Shqipëri protestë demonstratë qershor 2026 Tiranë Sazan Zvërnec"
+      ],
+      "access_utc_window": ["2026-10-11T03:04:53Z", "2026-10-11T03:04:56Z"],
+      "results_and_noise": [
+        "Albanian Daily News search result identifies a June 1 central Tirana demonstration; Reuters, Al Jazeera, Euronews, and AP-linked results identify additional in-country leads.",
+        "Results also included diaspora rallies in Germany and elsewhere; these are foreign-location events and excluded from Albania events. Wikipedia's reported event chronology/counts remain unverified lead material only."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.aa.com.tr/en/pg/photo-gallery/protests-by-the-opposition-calling-for-the-governments-resignation-continue-in-albania-/160221",
+      "title": "Protests by the opposition calling for the government's resignation continue in Albania",
+      "publisher": "Anadolu Agency",
+      "publication_date": "2026-04-18 (page says updated 18 April)",
+      "event_date": "2026-04-17",
+      "location": "Tirana, Albania",
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:04:23Z"],
+      "access_result": "Opened successfully; lines 27-31 identify the event date/location and publication date.",
+      "excerpt": "People gather to stage a demonstration ... in Tirana, Albania on April 17, 2026.",
+      "excerpt_word_count": 15,
+      "assessment": "Direct event/photo-gallery lead supporting an actual opposition demonstration on April 17. It is not the Embassy's planned event proof by itself; no turnout estimate recorded."
+    },
+    {
+      "id": "S2",
+      "url": "https://al.usembassy.gov/demonstration-alert-u-s-embassy-tirana-albania-friday-april-17-2026-at-1900/",
+      "title": "U.S. Embassy Tirana, Albania Friday, April 17, 2026, at 19:00",
+      "publisher": "U.S. Embassy Tirana",
+      "publication_date": "Search-result date shown as Apr 17, 2026; page could not be opened to inspect full metadata.",
+      "event_date": "2026-04-17 (scheduled only)",
+      "location": "Tirana, Albania",
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:04:23Z"],
+      "access_result": "Search result available; opening page returned 403 Forbidden. No bypass attempted.",
+      "excerpt": "A domestic political demonstration is scheduled to take place on Friday, April 17, 2026.",
+      "excerpt_word_count": 14,
+      "assessment": "Planned-event lead only; actual event occurrence is separately supported by S1."
+    },
+    {
+      "id": "S3",
+      "url": "https://www.osac.gov/Content/Report/f439c393-e431-4489-a4a5-29e2bf2f5a9f",
+      "title": "Tirana (Albania), Large Demonstration Scheduled for April 17",
+      "publisher": "OSAC",
+      "publication_date": "Search-result date shown as Apr 16, 2026; open returned an internal error.",
+      "event_date": "2026-04-17 (scheduled only)",
+      "location": "Tirana, Albania",
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:04:23Z"],
+      "access_result": "Search snippet only; open failed with an internal error. No bypass attempted.",
+      "excerpt": "Location: Throughout Tirana; Deshmoret e Kombit Boulevard ... Date/Time: Friday, April 17, 2026.",
+      "excerpt_word_count": 14,
+      "assessment": "Planned-event lead only. Timestamp window contains a typo-risk: the actual opening batch was between approximately 03:03:43 and 03:04:23 UTC on 2026-10-11; source access date is 2026-10-11."
+    },
+    {
+      "id": "S4",
+      "url": "https://albaniandailynews.com/news/opposition-protest-to-disrupt-traffic-in-central-tirana-on-may-8",
+      "title": "Opposition Protest to Disrupt Traffic in Central Tirana on May 8",
+      "publisher": "Albanian Daily News",
+      "publication_date": "2026-05-07",
+      "event_date": "2026-05-08 (scheduled in opened report)",
+      "location": "Dëshmorët e Kombit Boulevard near PM's Office, Tirana, Albania",
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:04:23Z"],
+      "access_result": "Opened successfully; lines 20-32.",
+      "excerpt": "representatives ... notified authorities about a rally set for May 8, 2026, at 19:00 local time",
+      "excerpt_word_count": 13,
+      "assessment": "Schedule/reporting lead, not sufficient alone to establish event occurrence."
+    },
+    {
+      "id": "S5",
+      "url": "https://dosja.al/politike/reuters-jehone-protestes-ne-tirane-opozita-kerkon-largimin-e-rames-i494842",
+      "title": "Reuters jehonë protestës në Tiranë: Opozita kërkon largimin e Ramës",
+      "publisher": "Dosja.al",
+      "publication_date": "2026-05-09 07:32 (local display; time zone not stated)",
+      "event_date": "2026-05-08 evening (inferred from the opened May 9 story's 'Friday evening' wording and same-page May 8 live items)",
+      "location": "Tirana, Albania",
+      "access_utc_window": ["2026-10-11T03:04:48Z", "2026-10-11T03:05:01Z"],
+      "access_result": "Opened successfully; lines 36-49 report the event and lines 60-120 show same-date live updates from May 8.",
+      "excerpt": "that evening in the national opposition protest. Reuters writes that demonstrators demanded the government's resignation",
+      "excerpt_word_count": 14,
+      "assessment": "Supports occurrence of an opposition protest on the Friday evening that the May 9 page looks back to; exact Reuters primary story link is not included in the opened body, so this is secondary/republication evidence."
+    },
+    {
+      "id": "S6",
+      "url": "https://www.panorama.com.al/protesta-e-opozites-policia-njofton-bllokimin-dhe-kufizimin-e-levizjes-organizatoret-te-respektojne-afatin-kohor-dhe-vendin-ku-do-zhvillohet-tubimi/",
+      "title": "Protesta e opozitës, policia njofton bllokimin dhe kufizimin e lëvizjes",
+      "publisher": "Panorama",
+      "publication_date": "2026-05-07 16:16 (page display; time zone unstated)",
+      "event_date": "2026-05-08 (scheduled)",
+      "location": "Tirana, Albania",
+      "access_utc_window": ["2026-10-11T03:04:48Z", "2026-10-11T03:05:01Z"],
+      "access_result": "Opened successfully; lines 28-50 include police notice and planned venue/time.",
+      "excerpt": "Partia Demokratike ... protestën ... më 8 maj 2026, në orën 19:00, para godinës së Kryeministrisë",
+      "excerpt_word_count": 12,
+      "assessment": "Albanian-language schedule evidence; no occurrence claim from this page alone."
+    },
+    {
+      "id": "S7",
+      "url": "https://www.reuters.com/world/albanians-protest-over-kushner-linked-luxury-resort-pristine-coastline-2026-06-03/",
+      "title": "Albanians protest over Kushner-linked luxury resort on pristine coastline",
+      "publisher": "Reuters",
+      "publication_date": "2026-06-03 08:38 UTC; updated June 3",
+      "event_date": "Article says Tuesday night; image caption dates the protest June 3, creating a June 2/3 date conflict. Retain as date-ambiguous pending adjudication.",
+      "location": "Tirana, Albania; related prior local protest at Zvërnec near Vlora",
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:04:23Z"],
+      "access_result": "Opened successfully; lines 151-192.",
+      "excerpt": "Thousands of Albanians took to the streets of Tirana on Tuesday night protesting against a development",
+      "excerpt_word_count": 15,
+      "assessment": "Strong event lead, but the Tuesday wording and June 3 photo caption do not yield a consistent event date. Lines 190-192 also report several hundred people gathering and clashing with private guards at Zvërnec on Saturday; relative-date interpretation suggests May 30, but preserve as an inferred date. Do not merge the local action with the Tirana event."
+    },
+    {
+      "id": "S8",
+      "url": "https://www.aljazeera.com/news/2026/6/4/thousands-protest-kushner-linked-coastal-resort-project-in-albania",
+      "title": "Thousands protest in Albania against coastal resort linked to Jared Kushner",
+      "publisher": "Al Jazeera (by AFP and Reuters)",
+      "publication_date": "2026-06-04",
+      "event_date": "Body says Wednesday (June 3, 2026) in one passage; its photo captions date a Tirana demonstration June 2. It also calls the gathering outside the PM's office Tuesday evening (June 2). Date ambiguity retained.",
+      "location": "Tirana and Zvërnec, Albania",
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:04:23Z"],
+      "access_result": "Opened successfully; lines 37-78.",
+      "excerpt": "Wednesday's demonstration followed an initial gathering in Zvernec on Saturday",
+      "excerpt_word_count": 10,
+      "assessment": "Useful multi-day event lead but narrative and photo dates differ. Treat June 2 and June 3 as separate possible Tirana events until corroborated; the initial Zvërnec gathering is Saturday, likely May 30, date derived from publication context."
+    },
+    {
+      "id": "S9",
+      "url": "https://albaniandailynews.com/news/protesters-rally-in-tirana-to-defend-protected-zv-rnec-area",
+      "title": "Protesters Rally in Tirana to Defend Protected Zvërnec Area",
+      "publisher": "Albanian Daily News",
+      "publication_date": "2026-06-01",
+      "event_date": "2026-06-01; article also describes a separate 'day earlier' event, 2026-05-31",
+      "location": "Central Tirana, Albania; prior day's march in Tirana",
+      "access_utc_window": ["2026-10-11T03:05:01Z", "2026-10-11T03:05:02Z"],
+      "access_result": "Opened successfully; lines 20-30.",
+      "excerpt": "Hundreds of demonstrators gathered in central Tirana on Monday",
+      "excerpt_word_count": 8,
+      "assessment": "Supports an in-country June 1 rally and separately references a May 31 march. It reports the May 31 turnout as thousands, but turnout is not independently verified in this first pass."
+    },
+    {
+      "id": "S10",
+      "url": "https://institutdelors.eu/en/publications/the-flamingo-movement-why-albania-needs-a-new-political-contract/",
+      "title": "The Flamingo Movement: Why Albania needs a new political contract",
+      "publisher": "Institut Jacques Delors",
+      "publication_date": "Search result indicates 2026-06-15; opened page excerpt did not expose publication metadata.",
+      "event_date": "Movement reported as beginning May 30, 2026 (series-level lead, not an individually bounded event).",
+      "location": "Albania (mentions Vlora/Tirana); diaspora references are outside Albania and excluded as separate events.",
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:04:23Z"],
+      "access_result": "Opened successfully; lines 35-49.",
+      "excerpt": "Since May 30, thousands of Albanian citizens have taken to the streets",
+      "excerpt_word_count": 12,
+      "assessment": "Secondary analytical series-level lead. The word 'thousands' is not independently substantiated here; no cumulative count adopted."
+    },
+    {
+      "id": "S11",
+      "url": "https://www.euronews.com/2026/06/12/everything-you-need-to-know-about-the-jared-kushner-resort-protests-in-albania",
+      "title": "Albania protests escalate into diplomatic standoff with Iran",
+      "publisher": "Euronews; image copyright credited to AP",
+      "publication_date": "2026-06-12; updated 2026-06-13 (page local display GMT+2)",
+      "event_date": "A photo caption explicitly identifies a Tirana rally on Tuesday, June 9, 2026. Body additionally says thousands took to the streets on Thursday; likely June 11, but this relative date was not separately verified in this pass.",
+      "location": "Tirana, Albania",
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:04:23Z"],
+      "access_result": "Opened successfully; lines 617-641.",
+      "excerpt": "Protesters take part in a rally in Tirana, Albania, Tuesday, 9 June 2026.",
+      "excerpt_word_count": 13,
+      "assessment": "Clear photo-based lead for June 9. The further Thursday event is a separate, date-inferred lead requiring direct corroboration."
+    },
+    {
+      "id": "S12",
+      "url": "https://www.reuters.com/world/protesters-tear-down-albanian-development-site-fences-amid-anger-over-coastal-2026-06-13/",
+      "title": "Protesters tear down Albanian development site fences, amid anger over coastal projects",
+      "publisher": "Reuters",
+      "publication_date": "2026-06-13 13:51 UTC; updated June 14",
+      "event_date": "2026-06-13",
+      "location": "Rrjoll near Shkodra, Albania",
+      "access_utc_window": ["2026-10-11T03:04:48Z", "2026-10-11T03:05:01Z"],
+      "access_result": "Opened successfully; lines 151-173.",
+      "excerpt": "Some 200 protesters on Saturday tore down metal and razor wire fences",
+      "excerpt_word_count": 10,
+      "assessment": "Distinct local protest over another resort project; Reuters explicitly says this Rrjoll project is not linked to Kushner (lines 166, 173). Do not conflate it with Zvërnec/Sazan protests."
+    },
+    {
+      "id": "S13",
+      "url": "https://www.balkanweb.com/protesta-e-13-majit-paqesore-por-ja-pse-e-kallezon-policia-partine-demokratike/",
+      "title": "Protesta e 13 majit paqësore, por ja pse e kallëzon policia Partinë Demokratike",
+      "publisher": "Balkanweb / News24",
+      "publication_date": "Page says 16 May 2017",
+      "event_date": "2017-05-13",
+      "location": "Tirana, Albania",
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:04:23Z"],
+      "access_result": "Opened successfully; lines 81-97 reveal 2017 date despite 2026-looking search context/title query.",
+      "excerpt": "Protesta e opozitës më 13 maj në Tiranë kaloi pa asnjë incident",
+      "excerpt_word_count": 10,
+      "assessment": "Explicit wrong-period exclusion; not a Q2 2026 event."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "event_date": "2026-04-17",
+      "date_confidence": "high",
+      "location": "Tirana, Albania",
+      "lead": "Opposition demonstration against the government; occurrence supported by Anadolu Agency photo page. Embassy and OSAC pages were schedule alerts only.",
+      "source_ids": ["S1", "S2", "S3"]
+    },
+    {
+      "event_date": "2026-04-14",
+      "date_confidence": "low; source unverified",
+      "location": "Tirana, Albania",
+      "lead": "Search surfaced a Wikipedia timeline claim that Lëvizja Bashkë activists assembled outside the Palace of Congresses during the diaspora summit and confronted police. Retain only as a follow-up lead, not a confirmed event.",
+      "source_ids": [],
+      "source_note": "The search result pointed to an Albanian news-title lead but no article was opened during this bounded pass."
+    },
+    {
+      "event_date": "2026-05-08",
+      "date_confidence": "medium-high",
+      "location": "Tirana, Albania",
+      "lead": "Opposition demonstration outside the Prime Minister's Office / Dëshmorët e Kombit Boulevard; local reporting on May 9 looks back to the prior Friday evening and same-page May 8 live updates describe the protest.",
+      "source_ids": ["S4", "S5", "S6"]
+    },
+    {
+      "event_date": "2026-05-30 (inferred from Reuters report dated June 3 referring to Saturday)",
+      "date_confidence": "medium",
+      "location": "Zvërnec near Vlora, Albania",
+      "lead": "Several hundred locals/non-profit participants reportedly gathered and clashed with private guards after barbed-wire fencing was erected; distinct from later Tirana movement events.",
+      "source_ids": ["S7", "S8"]
+    },
+    {
+      "event_date": "2026-05-31 (derived from June 1 report saying 'a day earlier')",
+      "date_confidence": "medium",
+      "location": "Tirana, Albania",
+      "lead": "March from the Tirana Police Directorate to the Ministry of Interior and Prime Minister's Office, according to next-day Albanian Daily News report.",
+      "source_ids": ["S9"]
+    },
+    {
+      "event_date": "2026-06-01",
+      "date_confidence": "high",
+      "location": "Central Tirana, Albania",
+      "lead": "Hundreds gathered to support protected Zvërnec; article says participants assembled outside Ministry of Interior and prepared to march toward the Prime Minister's Office.",
+      "source_ids": ["S9"]
+    },
+    {
+      "event_date": "2026-06-02 and/or 2026-06-03 (source conflict; do not collapse without further checking)",
+      "date_confidence": "low-medium",
+      "location": "Tirana, Albania; related Zvërnec gathering",
+      "lead": "Reuters/Al Jazeera describe a large protest over the proposed resort, but text/photo dates conflict: Tuesday evening/June 2 versus Wednesday/June 3. Treat as two possible dates or one misdated event until another source fixes it.",
+      "source_ids": ["S7", "S8"]
+    },
+    {
+      "event_date": "2026-06-09",
+      "date_confidence": "high for rally existence/date; turnout provisional",
+      "location": "Tirana, Albania",
+      "lead": "AP-credited photo caption on Euronews identifies a rally in Tirana on Tuesday June 9 against the coastal development.",
+      "source_ids": ["S11"]
+    },
+    {
+      "event_date": "2026-06-11 (inferred from Euronews 'Thursday' in June 12 page; unverified separately)",
+      "date_confidence": "low",
+      "location": "Tirana, Albania",
+      "lead": "Euronews body says thousands took to the streets on Thursday. Keep as a separate follow-up date lead, not established by this pass.",
+      "source_ids": ["S11"]
+    },
+    {
+      "event_date": "2026-06-13",
+      "date_confidence": "high",
+      "location": "Rrjoll near Shkodra, Albania",
+      "lead": "Local residents protested a separate luxury resort, pulled down fencing, and demanded compensation for land they said was taken. Reuters clarifies this project is not Kushner-linked.",
+      "source_ids": ["S12"]
+    }
+  ],
+  "exclusions_and_cautions": [
+    {
+      "item": "Foreign-location diaspora demonstrations",
+      "reason": "Protests reported in Berlin, Munich, London, and other diaspora locations occurred outside Albania; exclude from Albania country event leads even when they concern the same issue."
+    },
+    {
+      "item": "Balkanweb May 13 page",
+      "reason": "Opened page is dated May 16, 2017 and describes May 13, 2017, despite search context; wrong period."
+    },
+    {
+      "item": "April 17 and May 8 alerts",
+      "reason": "Embassy/police scheduling and traffic advisories establish planned gatherings only. Occurrence should be grounded in post-event material."
+    },
+    {
+      "item": "Large turnout and cumulative protest totals",
+      "reason": "No turnout totals or movement-wide counts were accepted. Reports use estimates and sometimes describe repeated/nightly action; require event-level provenance and avoid treating a series as one event."
+    },
+    {
+      "item": "No-findings and failed openings",
+      "reason": "A search that returns irrelevant results, a 403, or an open error does not establish that no event occurred."
+    }
+  ],
+  "access_failures": [
+    {
+      "url": "https://al.usembassy.gov/demonstration-alert-u-s-embassy-tirana-albania-friday-april-17-2026-at-1900/",
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:04:23Z"],
+      "failure": "403 Forbidden on open; search snippet retained. No bypass attempted."
+    },
+    {
+      "url": "https://www.osac.gov/Content/Report/f439c393-e431-4489-a4a5-29e2bf2f5a9f",
+      "access_utc_window": ["2026-10-11T03:03:43Z", "2026-10-11T03:04:23Z"],
+      "failure": "Open returned internal error; search snippet retained. No bypass attempted."
+    }
+  ],
+  "limitations": [
+    "This is a bounded first discovery pass, not exhaustive event collection.",
+    "The web tool provides no exact per-request timestamp in its response; UTC intervals are bounded by adjacent clock reads and record the most precise available access time.",
+    "No offline archive, paywall, or access restriction was bypassed.",
+    "The portable scientific kit is pending; no canonical schema, formal validation, completion claim, official database write, repository migration, or publication was performed.",
+    "Search failure, index noise, and absent results are not evidence that no protests occurred."
+  ]
+}

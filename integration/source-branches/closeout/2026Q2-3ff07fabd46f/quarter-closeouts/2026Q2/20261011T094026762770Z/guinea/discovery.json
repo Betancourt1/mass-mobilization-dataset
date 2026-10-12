@@ -1,0 +1,106 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Guinea",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "guinea_2026-04",
+      "guinea_2026-05",
+      "guinea_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Guinea; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guinea April 2026 protest demonstration march strike labor opposition church Guinée protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:15:56 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guinée April 2026 protesta manifestación manifestation greve marche opposition / Guinea April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:15 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guinea May 2026 protest demonstration march strike labor opposition church Guinée protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:16:02 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guinée May 2026 protesta manifestación manifestation greve marche opposition / Guinea May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:18 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guinea June 2026 protest demonstration march strike labor opposition church Guinée protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:16:08 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guinée June 2026 protesta manifestación manifestation greve marche opposition / Guinea June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:26 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "gn-apr-school-guinee360",
+      "url": "https://www.guinee360.com/20/04/2026/manifestations-deleves-a-conakry-les-precisions-de-diesto-camara-porte-parole-de-lintersyndicale-sne-fspe/",
+      "outlet": "Guinee360",
+      "provenance": "Contemporaneous French-language local report quoting an inter-union spokesperson.",
+      "publication_date": "2026-04-20",
+      "event_date": "2026-04-20",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Conakry, Guinea",
+      "bounded_excerpt": "Des cours ont été fortement perturbés dans plusieurs établissements scolaires de Conakry, ce lundi 20 avril 2026, à la suite de manifestations spontanées d’élèves.",
+      "excerpt_word_count": 24,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Students reportedly acted after a rumor of a teachers’ strike; union spokesperson said no teachers’ strike had been called."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "gn-2026-04-student-protests",
+      "month_unit": "2026-04",
+      "event_date": "2026-04-20",
+      "location": "Conakry, Guinea",
+      "event_type_signal": "student demonstrations",
+      "issue": "Spontaneous student actions associated with false rumors of a teacher strike",
+      "sources": [
+        "gn-apr-school-guinee360"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Not a labor strike; source says teachers had not called a strike."
+      ]
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

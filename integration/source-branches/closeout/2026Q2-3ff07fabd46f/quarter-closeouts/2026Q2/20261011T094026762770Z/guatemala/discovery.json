@@ -1,0 +1,120 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Guatemala",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "guatemala_2026-04",
+      "guatemala_2026-05",
+      "guatemala_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Guatemala; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guatemala April 2026 protest demonstration march strike labor opposition church Guatemala protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:15:56 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guatemala April 2026 protesta manifestación manifestation greve marche opposition / Guatemala April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:15 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guatemala May 2026 protest demonstration march strike labor opposition church Guatemala protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:16:02 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guatemala May 2026 protesta manifestación manifestation greve marche opposition / Guatemala May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:18 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guatemala June 2026 protest demonstration march strike labor opposition church Guatemala protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:16:08 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guatemala June 2026 protesta manifestación manifestation greve marche opposition / Guatemala June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:26 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "gt-veteran-blockade-infobae",
+      "url": "https://www.infobae.com/guatemala/2026/04/26/las-asociaciones-de-veteranos-anuncian-bloqueos-indefinidos-en-carreteras-de-guatemala/",
+      "outlet": "Infobae",
+      "provenance": "Spanish-language report on veterans’ planned road blockades.",
+      "publication_date": "2026-04-26",
+      "event_date": "2026-04-28 (announced start; occurrence not confirmed)",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Multiple roads in Guatemala",
+      "bounded_excerpt": "Asociaciones de veteranos anuncian bloqueos indefinidos en carreteras de Guatemala",
+      "excerpt_word_count": 10,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "The source reports an announced action; this review did not confirm whether blockades occurred."
+      ]
+    },
+    {
+      "source_id": "gt-mayday-access",
+      "url": null,
+      "outlet": "Search result: Diario de Centro América (exact page URL not retained)",
+      "provenance": "Managed search result pointed to a local article about the May 1 labor march; opening the result failed and exact article URL/text were not retained.",
+      "publication_date": "2026-05-01",
+      "event_date": "2026-05-01 (reported in search result)",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Guatemala City, Guatemala",
+      "bounded_excerpt": null,
+      "excerpt_word_count": 0,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "search_result_only",
+      "uncertainties": [
+        "The event/source details are insufficient for a candidate record."
+      ],
+      "excerpt_note": "No exact source wording retained from the search result; the opened page was inaccessible. This is a locator/access record, not a verbatim quotation."
+    }
+  ],
+  "candidates": [],
+  "screened_non_candidates": [
+    {
+      "date": "2026-04-28",
+      "event": "Veterans’ announced highway blockades",
+      "reason": "Advance notice only; no confirmation of actual roadblocks established."
+    }
+  ],
+  "search_and_source_failures": [
+    {
+      "url": "search result for Diario de Centro América May Day report (exact page URL not retained)",
+      "failure": "Open failed (managed page error).",
+      "handling": "Logged; not retried via alternative route. Search snippet alone not used as confirmed event evidence."
+    }
+  ],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

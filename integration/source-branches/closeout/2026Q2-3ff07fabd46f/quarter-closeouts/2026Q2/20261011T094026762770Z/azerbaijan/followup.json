@@ -1,0 +1,34 @@
+{
+  "country": "Azerbaijan",
+  "quarter": "2026Q2",
+  "artifact_type": "supplement to discovery.json, not duplicate events",
+  "observed_access_window_utc": [
+    "2026-10-11 03:14:59 UTC",
+    "2026-10-11 03:15:26 UTC"
+  ],
+  "queries": [
+    "Naxçıvan Televiziyası əməkdaşları etiraz iyun 2026 aksiya keçirildi"
+  ],
+  "sources": [
+    {
+      "id": "AZ4",
+      "url": "https://www.operativtv.com/naxcivan-tv-mkdaslari-bu-qdr-laqeyd-munasibt-gormmisik-etiraz-aksiyasina-hazirlasiriq.html",
+      "publisher": "Operativ TV",
+      "opened": true,
+      "published_date": "2026-06-17",
+      "event_date": null,
+      "provenance": "matching report/likely syndicated text, not independent occurrence confirmation",
+      "summary": "Repeats employee plans for a protest; actual occurrence still not established."
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://dia-az.org/7/483544-naxcivan-tv-emekdashlari-etiraza-hazirlashir.html",
+      "result": "Internal Error; no bypass",
+      "search_publication_date": "2026-06-16",
+      "summary": "Snippet reports preparations, no occurrence established."
+    }
+  ],
+  "canonical_validation": false,
+  "absence_demonstrated": false
+}

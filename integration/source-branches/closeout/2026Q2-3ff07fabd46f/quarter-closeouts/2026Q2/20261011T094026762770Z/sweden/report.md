@@ -1,0 +1,5 @@
+# Sweden — Q2 2026 provisional discovery
+
+The searches found recurring Stockholm solidarity demonstrations against Israeli military action. A May 2 Middle East Monitor/Anadolu report and caption identify an April 25 Odenplan protest. Reuters Connect, carrying Anadolu Agency footage and script, documents a May 30 Odenplan event; Anadolu reports a June 13 rally in central Stockholm. A May 9 Anadolu social-video result also describes hundreds marching, but Facebook throttled the page open, so that lead remains provisional. A June 27 Newsflare result is similarly limited to a headline/video listing. Event dates are kept distinct from publication or asset dates.
+
+An April 11 event appeared in a US Embassy advance alert and a Stockholm organizer archive, but no post-event confirmation surfaced, so it is excluded from confirmed leads. An OSAC May 1 notice also announced planned activity rather than verifying an event. Exact English and Swedish queries, URLs, date provenance, short excerpts, and access failures are in `discovery.json`. The bounded search is not evidence of absence; no canonical schema or formal validation applied.

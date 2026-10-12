@@ -1,0 +1,185 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Venezuela",
+  "country_slug": "venezuela",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass on reported demonstrations and collective actions. Empty searches do not demonstrate absence. Planned actions are distinguished from verified event occurrence.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:20:02Z",
+    "search_and_open_window_utc": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose request-level timestamps; window records the observed bounded session."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "Spanish",
+      "query": "Venezuela protesta manifestación abril 2026 Caracas marcha",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced April 9 wage protest in Caracas, blocked from reaching Miraflores."
+    },
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "Venezuela protest demonstration April 2026 Caracas rally",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced AP April 9 report of police blocking workers’ protest."
+    },
+    {
+      "month_focus": "May",
+      "language": "Spanish",
+      "query": "Venezuela protesta manifestación mayo 2026 Caracas marcha",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced student protest May 18 and planned May/June worker mobilizations."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "Venezuela protest demonstration May 2026 Caracas rally",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced AP report on May 18 student protest following deaths of political prisoner and his mother."
+    },
+    {
+      "month_focus": "June",
+      "language": "Spanish",
+      "query": "Venezuela protesta manifestación junio 2026 Caracas marcha",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced June 3 worker/student march and first-half social-protest tallies published later."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "Venezuela protest demonstration June 2026 Caracas rally",
+      "searched_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+      "outcome": "Surfaced Reuters Connect documentation of June 3 Caracas march to US Embassy."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "lead_id": "VEN-2026-04-09-CARACAS-WAGE-PROTEST",
+      "event_date": {
+        "value": "2026-04-09",
+        "uncertainty": ""
+      },
+      "location": "Caracas, Venezuela; started at Plaza Venezuela and aimed toward Miraflores.",
+      "action_summary": "Workers marched for wage increases; security forces intercepted the march at several points.",
+      "provisional_status": "reported by Infobae and AP",
+      "sources": [
+        {
+          "url": "https://www.infobae.com/venezuela/2026/04/09/protesta-en-caracas-el-regimen-chavista-disperso-una-marcha-de-trabajadores-hacia-miraflores/",
+          "publisher": "Infobae",
+          "publication_date": "2026-04-09",
+          "accessed_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+          "excerpt": "La Policía Nacional Bolivariana reprimió este jueves con gases lacrimógenos y tácticas de choque a miles de manifestantes.",
+          "provenance": "Opened report; says participants demanded wage increases and were intercepted en route to Miraflores.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "event_date_as_reported": "2026-04-09"
+        },
+        {
+          "url": "https://apnews.com/article/e3564d762d1c1951fdfd04f042123128",
+          "publisher": "Associated Press",
+          "publication_date": "2026-04-09",
+          "accessed_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+          "excerpt": "union leaders, retirees, and public sector workers marched in Caracas, Venezuela, demanding higher wages and dignified pensions.",
+          "provenance": "AP search result reported police blockades and no arrests/injuries; full article not opened in this pass.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "event_date_as_reported": "2026-04-09"
+        }
+      ]
+    },
+    {
+      "lead_id": "VEN-2026-05-18-CARACAS-STUDENT-PRISONER-DEATHS",
+      "event_date": {
+        "value": "2026-05-18",
+        "uncertainty": ""
+      },
+      "location": "Caracas, Venezuela; highway location not specified in the opened excerpt.",
+      "action_summary": "Mostly college students protested deaths of political prisoner Víctor Hugo Quero and his mother Carmen Navas; demonstrators briefly blocked a highway.",
+      "provisional_status": "Associated Press report opened",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/venezuela-political-prisoner-mother-death-demonstration-004e042daebe7426",
+          "publisher": "Associated Press",
+          "publication_date": "2026-05-18",
+          "accessed_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+          "excerpt": "The demonstrators, mostly college students, briefly blocked a highway in Caracas.",
+          "provenance": "Opened AP article; excerpt describes action and grievances related to the deaths.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "event_date_as_reported": "2026-05-18"
+        }
+      ]
+    },
+    {
+      "lead_id": "VEN-2026-06-03-CARACAS-WORKERS-STUDENTS-ELECTIONS",
+      "event_date": {
+        "value": "2026-06-03",
+        "uncertainty": ""
+      },
+      "location": "Caracas, Venezuela; march proceeded to the U.S. Embassy.",
+      "action_summary": "Workers and students marched demanding an electoral timetable, free presidential and parliamentary elections, and raised wages/pensions.",
+      "provisional_status": "Reuters Connect visual documentation and El Diario preview/report",
+      "sources": [
+        {
+          "url": "https://www.reutersconnect.com/item/workers-students-march-to-us-embassy-in-caracas-to-demand-elections/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBNTgzNTAzMDYyMDI2UlAx",
+          "publisher": "Reuters Connect / Reuters",
+          "publication_date": "2026-06-03 (video); page indexed as June 3",
+          "accessed_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+          "excerpt": "CARACAS, VENEZUELA (JUNE 3, 2026): students and workers marching towards United States Embassy.",
+          "provenance": "Opened video transcript; describes march, cacerolazo, slogans, petition delivery and union leader demands.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "event_date_as_reported": "2026-06-03"
+        },
+        {
+          "url": "https://www.eldiario.com/2026/05/21/trabajadores-convocaron-una-protesta-nacional-el-3-de-junio-para-exigir-elecciones-libres/",
+          "publisher": "El Diario, with EFE-supplied content",
+          "publication_date": "2026-05-21",
+          "accessed_utc_window": "2026-10-11T03:18:07Z to 2026-10-11T03:20:02Z; exact per-request time unavailable",
+          "excerpt": "Representantes de diversos sindicatos llamaron este jueves 21 de mayo a una protesta nacional para el próximo 3 de junio.",
+          "provenance": "Opened preview; confirms planned date and demands; it separately announces a June 9 action, not verified here.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "event_date_as_reported": "2026-06-03"
+        }
+      ]
+    }
+  ],
+  "excluded_or_deferred_results": [
+    {
+      "item": "May 3 diaspora rally called by opposition leader",
+      "source_url": "https://amp.dw.com/es/mar%C3%ADa-corina-machado-convoca-nuevas-manifestaciones-ma%C3%B1ana/a-77021479",
+      "reported_event_date": "2026-05-03",
+      "reason": "The announcement calls for actions in 120+ cities worldwide, but this pass did not establish which were located inside Venezuela; deferred rather than treating as in-country event."
+    },
+    {
+      "item": "Protests against official 2024 presidential results and earlier student protests",
+      "source_urls": [
+        "https://www.theguardian.com/world/2026/feb/12/venezuela-protests-activists-nicolas-maduro-donald-trump-caracas"
+      ],
+      "reported_event_dates": [
+        "2024",
+        "2026-02-12"
+      ],
+      "reason": "Outside Q2 period."
+    },
+    {
+      "item": "Protest outside Caracas police station by women and relatives of detainees",
+      "source_url": "https://apnews.com/article/venezuela-political-prisoners-protests-wives-maduro-trump-f886b2b766cbf3f85b0148a324187434",
+      "reported_event_date": "64-day duration; exact start/end unresolved in article not established here",
+      "reason": "Could overlap Q2, but exact dates and continuity require follow-up; deferred to avoid assigning an unsupported event date."
+    },
+    {
+      "item": "OVCS aggregate count of protests during June",
+      "source_url": "https://www.elimpulso.com/2026/09/08/ovcs-registro-509-protestas-durante-junio-de-2026-8sep/",
+      "reported_event_date": "2026-06 (aggregate)",
+      "reason": "Aggregate evidence (509 protests) is not a dateable event; retained as a discovery lead rather than event record."
+    }
+  ],
+  "failures_and_limits": [
+    "Several event pages from Reuters Connect are licensable media pages; publicly visible transcript/metadata were used only for provisional lead discovery. The May 21 source also announces a June 9 action, whose occurrence was not separately searched/verified."
+  ],
+  "next_pass_priorities": [
+    "Follow up on announced actions lacking outcome reporting and expand searches for local/national outlets before formal coding."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "country": "Cameroon",
+  "country_slug": "cameroon",
+  "quarter": "2026Q2",
+  "period_start": "2026-04-01",
+  "period_end": "2026-06-30",
+  "status": "provisional public discovery; not canonical; no formal validation performed",
+  "search_logs": [
+    {
+      "query": "Cameroun grève manifestation avril 2026 protestation",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cameroon strike protest demonstration April 2026",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cameroun grève manifestation mai 2026 protestation",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cameroon strike protest demonstration May 2026",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cameroun grève manifestation juin 2026 protestation",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cameroon strike protest demonstration June 2026",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cameroon transport union national strike May 25 2026 action confirmed",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    },
+    {
+      "query": "Cameroun grève transport routier 25 mai 2026 action syndicats",
+      "queried_at_utc": "2026-10-11T03:10Z–03:11Z approximate search batch; individual query-call timestamps not exposed. Public source opens approximately 2026-10-11T03:11Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; UTC is a bounded batch time because per-call timestamps were not exposed."
+    }
+  ],
+  "events": [],
+  "excluded_or_unverified_leads": [
+    {
+      "lead": "May 25 transport-sector general strike call",
+      "reason": "Search surfaced a social-media announcement of a planned strike, but no reliable public report confirming it occurred was located."
+    },
+    {
+      "lead": "May 20 national-day civil and military displays",
+      "reason": "Government statement refers to commemorative celebrations/parades, not protest or strike activity."
+    },
+    {
+      "lead": "2025 post-election protests",
+      "reason": "Outside Q2 2026."
+    }
+  ],
+  "source_access_failures": [],
+  "method_notes": [
+    "Bounded search focused on strikes, public demonstrations, protests and rallies within the country in Apr-Jun 2026.",
+    "Local-language/French queries were used where feasible; Canada searched in English and French.",
+    "No-results wording does not claim absence. Planned actions, foreign-location protests, non-protest commemorations and diplomatic statements are not counted as public protest occurrences.",
+    "Publication and event dates are separate where established; uncertainty and provenance notes are explicit.",
+    "Quoted excerpts are bounded to fewer than 25 words per source.",
+    "This is a staging artifact only; scientific kit/schema integration remains pending."
+  ]
+}

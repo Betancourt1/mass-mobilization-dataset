@@ -1,0 +1,117 @@
+{
+  "country": "Brazil",
+  "country_slug": "brazil",
+  "quarter": "2026Q2",
+  "period_start": "2026-04-01",
+  "period_end": "2026-06-30",
+  "status": "provisional public discovery; not canonical; no formal validation performed",
+  "search_logs": [
+    {
+      "query": "Brasil protesto greve manifestação abril 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Brazil protest strike demonstration April 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Brasil protesto greve manifestação maio 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Brazil protest strike demonstration May 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Brasil protesto greve manifestação junho 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Brazil protest strike demonstration June 2026",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Brazil Marcha da Classe Trabalhadora Brasília 15 abril 2026 realizada",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Brasil protesto greve manifestação 16 maio 2026 protesto São Paulo",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Brazil workers protest march April 15 2026 Brasilia",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    },
+    {
+      "query": "Brazil demonstrations June 30 2026 end 6x1 actual rallies",
+      "queried_at_utc": "2026-10-11T03:06Z–03:09Z (approximate per-call range; web tool did not expose individual retrieval timestamps)",
+      "method": "managed web search",
+      "note": "Exact query retained; timestamp is an approximate batch window because individual tool-call timestamps were not exposed."
+    }
+  ],
+  "events": [
+    {
+      "id": "brazil-2026-04-15-workers-march-brasilia",
+      "event_date": "2026-04-15",
+      "event_date_precision": "day",
+      "country": "Brazil",
+      "location": "Brasília",
+      "title": "Workers’ class march",
+      "publication_date": "2026-04-15",
+      "source_url": "https://www.cut.org.br/noticias/marcha-da-classe-trabalhadora-leva-milhares-as-ruas-de-brasilia-7550",
+      "source_type": "CUT labor confederation report",
+      "excerpt": "Marcha da Classe Trabalhadora leva milhares às ruas de Brasília.",
+      "excerpt_word_count": 10,
+      "notes": "CUT report describes the march held that day. Original search also found planned April 7 actions, excluded absent confirmation."
+    }
+  ],
+  "excluded_or_unverified_leads": [
+    {
+      "lead": "April 7 national protest",
+      "reason": "Call/announcement only; no opened confirmation that event took place."
+    },
+    {
+      "lead": "May 16 São Paulo event",
+      "reason": "Agência Brasil result identified the event, but open returned Internal Error; retained as source-access failure, not an event record."
+    },
+    {
+      "lead": "June 30 6x1 demonstrations",
+      "reason": "Union announcement gave planned rallies but no confirmation of occurrence in captured sources."
+    }
+  ],
+  "source_access_failures": [
+    {
+      "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-05/cordao-da-mentira-faz-ato-na-paulista-para-lembrar-crimes-de-maio",
+      "failure": "Open returned Internal Error; event not accepted without further confirmation."
+    },
+    {
+      "url": "https://agenciagov.ebc.com.br/",
+      "failure": "Open redirected to login; no attempt to bypass."
+    }
+  ],
+  "method_notes": [
+    "Bounded search focused on strikes, demonstrations, protests, rallies and mobilizations within the country during Apr-Jun 2026.",
+    "A search-result absence is not evidence that no events occurred. Unconfirmed plans and wrong-country locations are not counted as events.",
+    "Publication date and event date are recorded separately where established; uncertainties are explicit.",
+    "Quoted excerpts are kept short (each under 25 words).",
+    "This is a staging artifact only; the scientific kit was unavailable for canonical workflow/schema review."
+  ]
+}

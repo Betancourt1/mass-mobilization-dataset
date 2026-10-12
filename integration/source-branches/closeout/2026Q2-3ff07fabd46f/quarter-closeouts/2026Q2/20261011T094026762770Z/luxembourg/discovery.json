@@ -1,0 +1,93 @@
+{
+  "country": "Luxembourg",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "search_window_utc": "2026-10-11 03:18:29–03:21:01 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+    "targeted_queries": 9,
+    "coverage": "At least two month-specific English/local-language queries per month where local query was feasible, plus focused follow-ups; public search results and relevant accessible pages reviewed.",
+    "limitations": [
+      "This pass is bounded, and no-hit results do not imply no event occurred.",
+      "Search results occasionally surfaced wrong-year or neighboring-country items; these were excluded explicitly.",
+      "Search index snippets are flagged as such and are not treated as equivalent to opened articles."
+    ]
+  },
+  "search_history": [
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Luxembourg protest demonstration strike April 2026 manifestation grève",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "French",
+      "query": "Luxembourg manifestation grève avril 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Luxembourg protest demonstration strike May 2026 manifestation",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "French",
+      "query": "Luxembourg manifestation grève mai 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Luxembourg protest demonstration strike June 2026 manifestation",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "French",
+      "query": "Luxembourg manifestation grève juin 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "French",
+      "query": "manifestation Luxembourg avril 2026 grève Luxembourg ville",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "French",
+      "query": "manifestation Luxembourg mai 2026 grève Luxembourg ville",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "French",
+      "query": "manifestation Luxembourg juin 2026 grève Luxembourg ville",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    }
+  ],
+  "provisional_leads": [],
+  "excluded_or_unverified": [
+    {
+      "item": "Belgium-wide April 29/May 22 strike or demonstration hits",
+      "url": "https://www.maisonmedicale.org/actualites/le-29-avril-en-greve-le-22-mai-dans-la-rue-mobilise-e-s-pour-nos-droits-et-notre-sante/",
+      "reason": "Location is Belgium, not Luxembourg; excluded."
+    },
+    {
+      "item": "April 9 FWB education protest hit",
+      "url": "https://www.lacsc.be/csc-enseignement/actualites/csc-enseignement-actualites-action-enseignement-essentiel",
+      "reason": "FWB refers to French Community of Belgium, not Luxembourg; excluded."
+    },
+    {
+      "item": "April 8 Luxembourg City march mention in French union call found via search relates to FSU/Paris school action; page did not establish Luxembourg-country event",
+      "url": "https://94.snuipp.fr/article/greve-du-31-manifestation-14h-luxembourg-quelle-participation-dans-votre-ecole",
+      "reason": "Ambiguous geography and context; not counted."
+    }
+  ],
+  "assessment": "No verified Luxembourg-country Q2 demonstration or strike surfaced in this bounded pass.",
+  "limitations_note": "French queries were feasible but yielded neighboring Belgium/France events; geography was checked, and no-hit does not imply absence.",
+  "access_failures": []
+}

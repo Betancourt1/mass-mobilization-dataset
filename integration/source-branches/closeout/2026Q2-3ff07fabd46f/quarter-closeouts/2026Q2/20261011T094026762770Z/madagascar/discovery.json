@@ -1,0 +1,118 @@
+{
+  "country": "Madagascar",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "search_window_utc": "2026-10-11 03:18:29–03:21:01 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+    "targeted_queries": 10,
+    "coverage": "At least two month-specific English/local-language queries per month where local query was feasible, plus focused follow-ups; public search results and relevant accessible pages reviewed.",
+    "limitations": [
+      "This pass is bounded, and no-hit results do not imply no event occurred.",
+      "Search results occasionally surfaced wrong-year or neighboring-country items; these were excluded explicitly.",
+      "Search index snippets are flagged as such and are not treated as equivalent to opened articles."
+    ]
+  },
+  "search_history": [
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Madagascar protest demonstration strike April 2026 Antananarivo",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "French",
+      "query": "Madagascar manifestation grève avril 2026 Antananarivo",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Madagascar protest demonstration strike May 2026 Antananarivo",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "French",
+      "query": "Madagascar manifestation grève mai 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Madagascar protest demonstration strike June 2026 Antananarivo",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "French",
+      "query": "Madagascar manifestation grève juin 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "French",
+      "query": "Madagascar Gen Z protest planned April 18 2026 Antananarivo",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "French",
+      "query": "Madagascar manifestation 18 avril 2026 Gen Z",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "French",
+      "query": "Madagascar protest demonstration May 2026 Antananarivo",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "French",
+      "query": "Madagascar protest demonstration June 2026 Antananarivo",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "MG-2026-04-18-protest-call-planned",
+      "month": "2026-04",
+      "event_type": "Gen Z/civil-society protest (planned call)",
+      "status": "planned in source; realization not established",
+      "actors": "Gen Z activists and civil society members (as named by Amnesty)",
+      "locations": [
+        "Madagascar; specific location not given in opened source"
+      ],
+      "event_date": "scheduled 2026-04-18",
+      "publication_date": "2026-04-17",
+      "sources": [
+        {
+          "title": "Madagascar: Immediately end repression of Gen Z activists and protect right to protest",
+          "url": "https://www.amnesty.org/en/latest/news/2026/04/madagascar-immediately-end-repression-of-gen-z-activists-and-protect-right-to-protest/",
+          "accessed_utc_bracket": "2026-10-11 03:18:29 UTC–2026-10-11 03:20:00 UTC",
+          "excerpt": "protests planned for 18 April",
+          "provenance": "Amnesty International public statement opened directly; dated April 17, documents intended protest action while criticizing authorities’ repression."
+        }
+      ],
+      "assessment": "Record as an announced event only; source does not establish that the demonstration occurred.",
+      "uncertainty": "No accessible confirmation of event realization, size, location, or arrests was found in this bounded pass."
+    }
+  ],
+  "excluded_or_unverified": [
+    {
+      "item": "September–October 2025 Gen Z protests and coup-related demonstrations repeatedly appeared",
+      "url": "https://www.lemonde.fr/en/le-monde-africa/article/2025/09/26/madagascar-at-least-five-killed-after-unprecedented-protests_6745772_124.html",
+      "reason": "Wrong year; excluded."
+    },
+    {
+      "item": "Amnesty’s April 17 notice is a call for protest on April 18, not evidence it occurred",
+      "url": "https://www.amnesty.org/en/latest/news/2026/04/madagascar-immediately-end-repression-of-gen-z-activists-and-protect-right-to-protest/",
+      "reason": "Kept as planned action only."
+    }
+  ],
+  "assessment": "Amnesty documented a planned April 18 protest. This pass found no accessible confirmation that it was held and no verified May/June event; cannot infer absence.",
+  "limitations_note": "Searches were English/French. Indexing for newly formed authorities/civic movement may be uneven; confirmation should be sought from local outlets and rights monitors.",
+  "access_failures": []
+}

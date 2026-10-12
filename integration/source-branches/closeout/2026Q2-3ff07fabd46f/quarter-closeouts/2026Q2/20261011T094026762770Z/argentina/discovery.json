@@ -1,0 +1,189 @@
+{
+  "record_type": "provisional_public_discovery",
+  "country": "Argentina",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "topics": ["strikes", "public demonstrations"],
+    "geography_rule": "Include only events physically held in Argentina; date by event date rather than publication date."
+  },
+  "status": {
+    "discovery": "provisional; bounded initial pass",
+    "evidence_complete": false,
+    "formal_validation": false,
+    "canonical_schema_applied": false,
+    "reason": "Portable scientific workflow/code kit is pending. This file is a staging inventory, not a canonical dataset record."
+  },
+  "searches": [
+    {"query": "Argentina huelga movilización abril 2026 sindicato protesta fecha abril 2026", "language": "Spanish", "target_month": "2026-04", "queried_utc": "2026-10-11T03:03Z (approximate batch window; browser does not expose per-call timestamps)", "result_note": "Found ATE Apr 21 strike/march and Apr 30 labor demonstration leads; unrelated and out-of-quarter results excluded."},
+    {"query": "Argentina demonstration strike April 2026 protest Buenos Aires", "language": "English", "target_month": "2026-04", "queried_utc": "2026-10-11T03:03Z (approximate batch window; browser does not expose per-call timestamps)", "result_note": "Found Buenos Aires Herald report of ATE Apr 21 stoppage/rallies and Reuters Connect Apr 30 demonstration caption."},
+    {"query": "Argentina paro marcha mayo 2026 protesta sindicato", "language": "Spanish", "target_month": "2026-05", "queried_utc": "2026-10-11T03:03Z (approximate batch window; browser does not expose per-call timestamps)", "result_note": "Returned May university march coverage and other nonmatching material."},
+    {"query": "Argentina protest strike May 2026 demonstration Argentina", "language": "English", "target_month": "2026-05", "queried_utc": "2026-10-11T03:03Z (approximate batch window; browser does not expose per-call timestamps)", "result_note": "Found EFE report of Federal University March in Argentina on May 12."},
+    {"query": "Argentina movilización huelga junio 2026 protesta fecha", "language": "Spanish", "target_month": "2026-06", "queried_utc": "2026-10-11T03:03Z (approximate batch window; browser does not expose per-call timestamps)", "result_note": "Found Jun 3 Ni Una Menos and Jun 26 Puente Pueyrredón reports, plus June labor/social conflict roundup."},
+    {"query": "Argentina strike demonstration June 2026 protest Argentina", "language": "English", "target_month": "2026-06", "queried_utc": "2026-10-11T03:03Z (approximate batch window; browser does not expose per-call timestamps)", "result_note": "Found coverage of June demonstrations and unrelated months; out-of-quarter results excluded."},
+    {"query": "site:lanacion.com.ar 21 abril 2026 paro ATE protesta Argentina Buenos Aires", "language": "Spanish", "target_month": "2026-04", "queried_utc": "2026-10-11T03:03–03:04Z (approximate batch window)", "result_note": "Found Apr 21 same-day coverage of ATE strike and Aeroparque protest, plus Apr 7 action that is within quarter."},
+    {"query": "site:efe.com Argentina 30 abril 2026 CGT movilización Plaza de Mayo", "language": "Spanish", "target_month": "2026-04", "queried_utc": "2026-10-11T03:03–03:04Z (approximate batch window)", "result_note": "No useful EFE result in returned set; Reuters Connect Apr 30 caption had surfaced in initial search."},
+    {"query": "Argentina 3 junio 2026 Ni Una Menos marcha Buenos Aires 2026 noticia", "language": "Spanish", "target_month": "2026-06", "queried_utc": "2026-10-11T03:03–03:04Z (approximate batch window)", "result_note": "Found Infobae live report of the Jun 3 march, with Buenos Aires and other Argentine locations."},
+    {"query": "Argentina 26 junio 2026 corte Puente Pueyrredón marcha 2026 noticia", "language": "Spanish", "target_month": "2026-06", "queried_utc": "2026-10-11T03:03–03:04Z (approximate batch window)", "result_note": "Found TN same-day account of Jun 26 demonstration and bridge closure."},
+    {"query": "Argentina marcha 24 de marzo 2026 Día de la Memoria Plaza de Mayo", "language": "Spanish", "target_month": "out_of_quarter", "queried_utc": "2026-10-11T03:04Z (approximate)", "result_note": "Found confirmed Mar 24, 2026 memorial demonstration; explicitly excluded because event date precedes quarter."},
+    {"query": "Argentina March 24 2026 remembrance march Buenos Aires protest", "language": "English", "target_month": "out_of_quarter", "queried_utc": "2026-10-11T03:04Z (approximate)", "result_note": "Found AP and other coverage of Mar 24, 2026 march; explicitly excluded as outside quarter."}
+  ],
+  "events": [
+    {
+      "event_id": "arg-2026-04-21-ate-strike-protest",
+      "event_date": "2026-04-21",
+      "event_date_basis": "Reported actual event on same day by La Nación and Buenos Aires Herald; ATE had announced the planned action Apr 9.",
+      "country": "Argentina",
+      "physical_location": "Aeroparque Jorge Newbery (Buenos Aires City); nationwide ATE stoppage, with reports of other protests in Argentina",
+      "event_type": ["strike", "demonstration"],
+      "description": "ATE's national work stoppage sought reopened public-sector wage bargaining and protested austerity; workers gathered and protested at Aeroparque.",
+      "sources": [
+        {
+          "url": "https://www.lanacion.com.ar/sociedad/entre-la-protesta-y-la-normalidad-como-se-vivio-el-paro-de-ate-en-aeroparque-nid21042026/",
+          "publisher": "LA NACION",
+          "provenance": "Contemporaneous original reporting; on-scene description at Aeroparque.",
+          "publication_date": "2026-04-21",
+          "accessed_utc": "2026-10-11T03:04Z (minute precision; page opened in this session)",
+          "bounded_excerpt": "comenzaron a concentrarse los manifestantes en las inmediaciones del estacionamiento sur",
+          "excerpt_word_count": 11,
+          "excerpt_translation": "demonstrators began gathering near the south parking area",
+          "supports": "Actual protest gathering at Aeroparque on Apr 21; reports national strike and protest activity elsewhere.",
+          "uncertainty": "Nationwide reach details rely partly on the union's account; this source's on-scene evidence concerns Aeroparque."
+        },
+        {
+          "url": "https://buenosairesherald.com/society/flight-delays-expected-as-state-workers-union-go-on-24-hour-strike",
+          "publisher": "Buenos Aires Herald",
+          "provenance": "Contemporaneous news report, published Apr 21.",
+          "publication_date": "2026-04-21",
+          "accessed_utc": "2026-10-11T03:04Z (minute precision; page opened in this session)",
+          "bounded_excerpt": "ATE protests began on Tuesday morning at other state dependencies",
+          "excerpt_word_count": 10,
+          "supports": "Strike and protest activity, including rallies at public agencies and planned airport demonstrations.",
+          "uncertainty": "The report describes a strike affecting Argentina and scheduled airport rallies; scope at each site is not independently counted."
+        }
+      ]
+    },
+    {
+      "event_id": "arg-2026-04-30-labor-march",
+      "event_date": "2026-04-30",
+      "event_date_basis": "Reuters Connect caption dates the photographed demonstration Apr 30, 2026.",
+      "country": "Argentina",
+      "physical_location": "Buenos Aires, march toward Plaza de Mayo",
+      "event_type": ["demonstration", "labor protest"],
+      "description": "Members of Argentina's main labor confederation marched against President Javier Milei's economic policies on the eve of International Workers' Day.",
+      "sources": [
+        {
+          "url": "https://www.reutersconnect.com/item/argentina-protest/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMENLSVBYNQ?lastViewed=dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMENLSk9NSw&position=1",
+          "publisher": "Reuters Connect (caption supplied by NurPhoto; credit Matías Baglietto)",
+          "provenance": "Publicly viewable licensable-photo page and caption; source explicitly says Reuters Connect has not verified or endorsed the asset text. Image not copied or licensed.",
+          "publication_date": "2026-04-30 (page caption date; no separate upload date exposed)",
+          "accessed_utc": "2026-10-11T03:04Z (minute precision; page opened in this session)",
+          "bounded_excerpt": "Members of Argentina's main labor confederation march toward Plaza de Mayo in Buenos Aires, Argentina, on April 30, 2026",
+          "excerpt_word_count": 19,
+          "supports": "Date, physical location, and nature of labor demonstration.",
+          "uncertainty": "This is a photo caption, not a full article; the platform disclaimer says the caption/asset has not been verified or endorsed by Reuters Connect."
+        }
+      ]
+    },
+    {
+      "event_id": "arg-2026-05-12-federal-university-march",
+      "event_date": "2026-05-12",
+      "event_date_basis": "EFE article published May 13 says the event took place Tuesday; its caption dates the image May 12.",
+      "country": "Argentina",
+      "physical_location": "Buenos Aires, from university campuses to Plaza de Mayo; similar demonstrations in other Argentine cities",
+      "event_type": ["demonstration", "education protest"],
+      "description": "Students, university workers, unions and allied groups demonstrated for public-university funding and implementation of the higher-education funding law.",
+      "sources": [
+        {
+          "url": "https://efe.com/english/latest-news/2026-05-13/massive-marches-in-argentina-demand-milei-to-stop-strangling-public-universities/",
+          "publisher": "EFE",
+          "provenance": "Contemporaneous report by EFE journalists Natalia Kidd and Sebastián Rodríguez Mora; image caption independently states Buenos Aires, Argentina, May 12.",
+          "publication_date": "2026-05-13",
+          "accessed_utc": "2026-10-11T03:04Z (minute precision; page opened in this session)",
+          "bounded_excerpt": "A massive march in Buenos Aires, with similar protests in other Argentine cities, took place on Tuesday",
+          "excerpt_word_count": 17,
+          "supports": "Event date, Buenos Aires location, and national spread.",
+          "uncertainty": "The stated nationwide count is attributed to organizers; the inclusion here does not adopt crowd estimates."
+        }
+      ]
+    },
+    {
+      "event_id": "arg-2026-06-03-ni-una-menos-march",
+      "event_date": "2026-06-03",
+      "event_date_basis": "Infobae live coverage dated and time-stamped Jun 3, 2026, reporting an event in progress and its conclusion.",
+      "country": "Argentina",
+      "physical_location": "Buenos Aires, Congress / Plaza de los Dos Congresos area; additional marches reported in Argentine cities including Córdoba, Rosario, Mar del Plata and Neuquén",
+      "event_type": ["demonstration", "gender-violence protest"],
+      "description": "Ni Una Menos mobilized against gender-based violence and femicides and demanded justice and restoration of gender-related public policies.",
+      "sources": [
+        {
+          "url": "https://www.infobae.com/sociedad/2026/06/03/ni-una-menos-en-vivo-ultimas-noticias-de-las-movilizaciones-del-3j-hoy-tras-la-conmocion-por-el-caso-de-agostina-vega/?outputType=amp-type",
+          "publisher": "Infobae",
+          "provenance": "Same-day Spanish-language live report by Julieta Roffo; reports gathering and event completion at Congress and other named Argentine cities.",
+          "publication_date": "2026-06-03 (page timestamp 13:04 Argentina time; live updates through 22:35)",
+          "accessed_utc": "2026-10-11T03:04Z (minute precision; page opened in this session)",
+          "bounded_excerpt": "el colectivo Ni Una Menos leyó este miércoles, ante la multitud reunida frente al Congreso de la Nación",
+          "excerpt_word_count": 18,
+          "excerpt_translation": "the Ni Una Menos collective read [its statement] Wednesday before the crowd gathered outside Congress",
+          "supports": "A public march took place Jun 3 in Buenos Aires; related marches occurred in multiple Argentine cities.",
+          "uncertainty": "Live reporting's crowd description is qualitative. City-level locations outside Buenos Aires are taken from the outlet's attributions to local media."
+        }
+      ]
+    },
+    {
+      "event_id": "arg-2026-06-26-kosteki-santillan-march",
+      "event_date": "2026-06-26",
+      "event_date_basis": "TN same-day report states the demonstration occurred Friday, Jun 26, 2026.",
+      "country": "Argentina",
+      "physical_location": "Puente Pueyrredón and Avenida Hipólito Yrigoyen by the former Avellaneda station, Buenos Aires metropolitan area, Argentina",
+      "event_type": ["demonstration", "road blockade", "memorial protest"],
+      "description": "Social organizations marched on the anniversary of the 2002 killings of Maximiliano Kosteki and Darío Santillán; the bridge was fully blocked.",
+      "sources": [
+        {
+          "url": "https://tn.com.ar/policiales/2026/06/26/corte-total-en-puente-pueyrredon-manifestantes-se-movilizan-por-el-aniversario-del-asesinato-de-kosteki-y-santillan/",
+          "publisher": "TN (Todo Noticias)",
+          "provenance": "Same-day Spanish-language report with named physical locations and description of observed march and bridge closure.",
+          "publication_date": "2026-06-26 12:54 (Argentina local time)",
+          "accessed_utc": "2026-10-11T03:04Z (minute precision; page opened in this session)",
+          "bounded_excerpt": "Organizaciones sociales se movilizaron durante el mediodía en un nuevo aniversario por los asesinatos",
+          "excerpt_word_count": 14,
+          "excerpt_translation": "Social organizations mobilized at midday on the anniversary of the killings",
+          "supports": "Event date, march at Puente Pueyrredón, and bridge closure.",
+          "uncertainty": "The bridge connects Buenos Aires City with Buenos Aires Province; this source places the gathering on the Avellaneda side before demonstrators walked onto the bridge."
+        },
+        {
+          "url": "https://huelladelsur.ar/2026/07/06/seguimiento-de-conflictos-laborales-y-sociales-junio-2026-argentina/",
+          "publisher": "Huella del Sur / Observatorio de Trabajo y Derechos Humanos, UBA Faculty of Social Sciences",
+          "provenance": "Retrospective research roundup published July 6; identifies the research team and summarizes June events.",
+          "publication_date": "2026-07-06",
+          "accessed_utc": "2026-10-11T03:04Z (minute precision; page opened in this session)",
+          "bounded_excerpt": "El 26 de junio, la Unión de Trabajadores y Trabajadoras de la Economía Popular (UTEP) y diversas organizaciones sociales llevaron a cabo manifestaciones.",
+          "excerpt_word_count": 23,
+          "excerpt_translation": "On June 26, UTEP and various social organizations held demonstrations.",
+          "supports": "Independent retrospective corroboration of Jun 26 demonstration and bridge closure.",
+          "uncertainty": "This is a secondary roundup; the same-day TN report is the primary event-detail source."
+        }
+      ]
+    }
+  ],
+  "excluded_results": [
+    {
+      "event_date": "2026-03-24",
+      "country": "Argentina",
+      "physical_location": "Buenos Aires / nationwide marches",
+      "event_type": "Day of Remembrance for Truth and Justice demonstrations",
+      "reason_excluded": "Outside Q2 event-date window; publication or search date does not make a March event eligible.",
+      "sources": [
+        {"url": "https://apnews.com/article/60bcea0fba986e71c16320f502dcfaa4", "publisher": "Associated Press", "publication_date": "2026-03-24", "provenance": "Contemporaneous public report surfaced in the English March 24 query."},
+        {"url": "https://elpais.com/america/2026-03-24/la-marcha-a-50-anos-del-comienzo-de-la-dictadura-en-argentina-en-imagenes.html", "publisher": "El País", "publication_date": "2026-03-24", "provenance": "Photo report surfaced in the Spanish March 24 query."}
+      ]
+    }
+  ],
+  "source_failures_or_denials": [],
+  "search_limits": [
+    "This was a bounded initial web search, not an exhaustive event census; a search with no matching source is not evidence that no event occurred.",
+    "Reuters Connect surfaced a public caption but restricts image licensing; no image was copied or access restriction bypassed.",
+    "Out-of-quarter and wrong-month results were excluded by event date."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "country": "Azerbaijan",
+  "quarter": "2026Q2",
+  "status": "bounded_provisional_discovery_pass",
+  "canonical_validation": false,
+  "access_date": "2026-10-11",
+  "observed_access_window_utc": [
+    "2026-10-11 03:04:00 UTC",
+    "2026-10-11 03:07:11 UTC"
+  ],
+  "timestamp_precision": "observed bracket; not claimed as individual source timestamps",
+  "queries": [
+    "Azerbaijan protest demonstration April May June 2026 Baku",
+    "Azərbaycan \"aprel 2026\" \"etiraz aksiyası\"",
+    "Azərbaycan \"may 2026\" \"etiraz aksiyası\"",
+    "Azerbaijan \"April 2026\" protest Baku",
+    "Azerbaijan \"May 2026\" protest Baku",
+    "Azərbaycan \"iyun 2026\" \"etiraz\" Bakı aksiya",
+    "Azerbaijan \"June 2026\" protest demonstration Baku",
+    "\"Naxçıvan TV\" \"17 İyun 2026\" etiraz aksiyası"
+  ],
+  "sources": [
+    {
+      "id": "AZ1",
+      "url": "https://toplummedia.tv/sosial/pldquonaxccedilivan-tvrdquo-emekdaslari-ldquobu-qeder-laqeyd-muumlnasibet-goumlrmemisik-etiraz-aksiyasina-hazirlasiriqrdquop",
+      "title": "Naxçıvan TV employees plan a protest",
+      "publisher": "Toplum TV",
+      "opened": true,
+      "published_date": "2026-06-17",
+      "event_date": null,
+      "provenance": "news account of employee appeal via Gündəlik Naxçıvan",
+      "excerpt": "Naxçıvan Ali Məclisinin qarşısında etiraz aksiyası keçirməyi planlaşdırdıqlarını bildiriblər.",
+      "summary": "Employees describe salary cuts/labor rights and say they plan action at Nakhchivan SupremeAssembly; actual occurrence/date not established."
+    },
+    {
+      "id": "AZ2",
+      "url": "https://freevoicescollective.org/caspian-wire-april-2026/",
+      "title": "Caspian Wire April2026",
+      "publisher": "Free Voices Collective",
+      "opened": true,
+      "published_date": null,
+      "event_date": null,
+      "provenance": "retrospective human-rights roundup",
+      "summary": "Repression/judicial proceedings context, not enough to assert a Q2 public demonstration."
+    },
+    {
+      "id": "AZ3",
+      "url": "https://toplummedia.tv/etiket/etiraz-aksiyasi",
+      "title": "Etiraz aksiyası archive",
+      "publisher": "Toplum TV",
+      "opened": true,
+      "published_date": null,
+      "event_date": null,
+      "provenance": "dated listing",
+      "summary": "Separates June17 2026 Nakhchivan planned action from October24 2022 AXCP Baku protest; search snippet conflated neighboring entries."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "event_date": null,
+      "month": "2026-06",
+      "location": "Nakhchivan",
+      "source_ids": [
+        "AZ1"
+      ],
+      "occurrence": "planned only; unconfirmed",
+      "classification_pending": true
+    }
+  ],
+  "month_findings": {
+    "2026-04": "No qualifying occurrence established in bounded searches",
+    "2026-05": "No qualifying occurrence established in bounded searches",
+    "2026-06": "Planned Nakhchivan TV action only, no verified occurrence"
+  },
+  "absence_demonstrated": false,
+  "exclusions": [
+    {
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/azerbaijan",
+      "reason": "January2026 WorldReport covers2025 events; ElgunIbrahimov June protest not2026"
+    },
+    {
+      "url": "https://www.reuters.com/world/azerbaijan-summons-eu-envoy-row-over-treatment-karabakh-armenians-2026-05-01/",
+      "reason": "Diplomatic protest, not collective street action"
+    },
+    {
+      "url": "https://www.facebook.com/liberiation/posts/-11-aprel-2026-laval-fransad%C3%BCn%C9%99n-libert%C3%A9-azerbaijan-t%C9%99%C5%9F%C9%99bb%C3%BCs%C3%BC-il%C9%99-l/1398218175685380/",
+      "reason": "Laval France April11, outside country"
+    },
+    {
+      "url": "https://www.facebook.com/hacitalebaghirzadeh/posts/-az%C9%99rbaycan-respublikas%C4%B1n%C4%B1n-almaniyadak%C4%B1-s%C9%99firliyi-qar%C5%9F%C4%B1s%C4%B1nda-etiraz-aksiyas%C4%B1-6-/1244997681125009/",
+      "reason": "BerlinApril6 outside country"
+    },
+    {
+      "url": "https://icma.az/news/binabda-suruculer-etiraz-aksiyasi-kecirdiler-939861",
+      "reason": "Tabriz/Bonab Iran, outside Azerbaijan country"
+    },
+    {
+      "url": "https://oc-media.org/hundreds-demonstrate-in-baku-after-authorities-refuse-to-authorise-protests-in-city-centre/",
+      "reason": "October8 2019 event with June2026 sidebar"
+    },
+    {
+      "url": "https://en.apa.az/foreign-policy/-179802",
+      "reason": "September29 2012 event; June2026 sidebar"
+    },
+    {
+      "url": "https://www.yeniavaz.com/az/news/208773/naxcivanda-etiraz-aksiyasi-kecirildi-fotolar",
+      "reason": "January5 2023 NakhchivanCahan protest"
+    },
+    {
+      "url": "https://hit.az/az/olke/247341/naxcivanda-etiraz-aksiyasi-kecirilir-video/",
+      "reason": "December28 2022 taxi protest"
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "No findings is not demonstrated absence",
+    "Planned action not treated as event",
+    "Non-exhaustive bounded discovery pending scientific kit"
+  ]
+}

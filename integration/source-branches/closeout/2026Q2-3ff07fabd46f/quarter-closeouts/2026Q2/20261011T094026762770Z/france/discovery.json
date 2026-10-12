@@ -1,0 +1,170 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "France",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "france_2026-04",
+      "france_2026-05",
+      "france_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in France; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "France April 2026 protest demonstration march strike labor opposition church France manifestation grève marche",
+        "searched_at_utc": "2026-10-11 03:14:32 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "France April 2026 protestation manifestation grève marche opposition / France April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:14:52 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "France May 2026 protest demonstration march strike labor opposition church France manifestation grève marche",
+        "searched_at_utc": "2026-10-11 03:14:39 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "France May 2026 protestation manifestation grève marche opposition / France May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:01 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "France June 2026 protest demonstration march strike labor opposition church France manifestation grève marche",
+        "searched_at_utc": "2026-10-11 03:14:45 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "France June 2026 protestation manifestation grève marche opposition / France June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:07 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "fr-mayday-lemonde",
+      "url": "https://www.lemonde.fr/economie-francaise/article/2026/05/02/dans-le-cortege-du-1-mai-a-paris-l-opposition-a-l-assouplissement-de-cette-journee-feriee-et-la-colere-contre-des-patrons-qui-s-en-mettent-plein-les-poches_6684823_1656968.html",
+      "outlet": "Le Monde",
+      "provenance": "French-language next-day reporting on May Day demonstrations and worker demands.",
+      "publication_date": "2026-05-02",
+      "event_date": "2026-05-01",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Paris and multiple French cities",
+      "bounded_excerpt": "Sur l’ensemble de la France, environ 158 000 personnes ont battu le pavé, vendredi, d’après le ministère de l’intérieur",
+      "excerpt_word_count": 19,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Participation estimates vary substantially between Interior Ministry and union sources."
+      ]
+    },
+    {
+      "source_id": "fr-may-strike-sud",
+      "url": "https://www.sudeducation75.org/en-greve-contre-le-management-toxique-mardi-19-mai-2026/",
+      "outlet": "SUD éducation Paris",
+      "provenance": "Union announcement of strike and gathering; primary source for a planned action only.",
+      "publication_date": "2026-05-12",
+      "event_date": "2026-05-19 (planned)",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Paris, France",
+      "bounded_excerpt": "Un rassemblement aura lieu devant le rectorat, à partir de 9h00, mardi 19 mai 2026",
+      "excerpt_word_count": 15,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "The opened source is a call, not confirmation of occurrence."
+      ]
+    },
+    {
+      "source_id": "fr-jun-lyhanna-reutersconnect",
+      "url": "https://www.reutersconnect.com/item/franceprotest-against-the-failure-of-the-judicial-system-to-protect-child-victims-of-sexual-violence/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUhOU0xDUzAwMEFMRk1ZNA",
+      "outlet": "Reuters Connect",
+      "provenance": "Reuters Connect photo record documenting a demonstration.",
+      "publication_date": "2026-06-08",
+      "event_date": "2026-06-08",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Ministry of Justice, Paris, France",
+      "bounded_excerpt": "A protester holds up a sign calling for vigilante justice during the demonstration for Lyhanna in front of the Ministry of Justice",
+      "excerpt_word_count": 22,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "The page is an image caption rather than a full event report."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "fr-2026-05-mayday",
+      "month_unit": "2026-05",
+      "event_date": "2026-05-01",
+      "location": "Paris and France",
+      "event_type_signal": "labor demonstrations",
+      "issue": "Labor demands and opposition to easing May 1 holiday protections",
+      "sources": [
+        "fr-mayday-lemonde"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "National and union crowd estimates differ."
+      ]
+    },
+    {
+      "candidate_id": "fr-2026-05-education-call",
+      "month_unit": "2026-05",
+      "event_date": "2026-05-19 (planned)",
+      "location": "Paris, France",
+      "event_type_signal": "education-sector strike and rally call",
+      "issue": "Opposition to management practices at education authority",
+      "sources": [
+        "fr-may-strike-sud"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Advance notice only; occurrence not independently confirmed."
+      ]
+    },
+    {
+      "candidate_id": "fr-2026-06-justice-lyhanna",
+      "month_unit": "2026-06",
+      "event_date": "2026-06-08",
+      "location": "Paris, France",
+      "event_type_signal": "justice demonstration",
+      "issue": "Concern about judicial failure to protect child victims of sexual violence",
+      "sources": [
+        "fr-jun-lyhanna-reutersconnect"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Single photo-caption source; participant count and wider demands not established."
+      ]
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

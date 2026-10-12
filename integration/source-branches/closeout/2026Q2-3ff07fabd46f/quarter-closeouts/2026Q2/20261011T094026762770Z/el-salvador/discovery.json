@@ -1,0 +1,135 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "El Salvador",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "el-salvador_2026-04",
+      "el-salvador_2026-05",
+      "el-salvador_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in El Salvador; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "El Salvador April 2026 protest demonstration march strike labor opposition church El Salvador protesta manifestación marcha huelga",
+        "searched_at_utc": "2026-10-11 03:13:05 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "El Salvador April 2026 protestas huelga manifestación oposición trabajo / El Salvador April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:13:25 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "El Salvador May 2026 protest demonstration march strike labor opposition church El Salvador protesta manifestación marcha huelga",
+        "searched_at_utc": "2026-10-11 03:13:11 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "El Salvador May 2026 protestas huelga manifestación oposición trabajo / El Salvador May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:13:32 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "El Salvador June 2026 protest demonstration march strike labor opposition church El Salvador protesta manifestación marcha huelga",
+        "searched_at_utc": "2026-10-11 03:13:17 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "El Salvador June 2026 protestas huelga manifestación oposición trabajo / El Salvador June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:13:38 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "sv-mayday-edh",
+      "url": "https://www.eldiariodehoy.com/noticias/nacionales/sindicatos-y-organizaciones-salen-a-las-calles-en-el-dia-del-trabajo-para-exigir-derechos/73464/2026/",
+      "outlet": "El Diario de Hoy",
+      "provenance": "Contemporaneous local Spanish-language report.",
+      "publication_date": "2026-05-01",
+      "event_date": "2026-05-01",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "San Salvador, El Salvador",
+      "bounded_excerpt": "Diversas organizaciones sociales, sindicales y ciudadanos participaron este jueves en la marcha del Día Internacional de la Clase Trabajadora",
+      "excerpt_word_count": 19,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "The article’s “jueves” weekday label conflicts with May 1, 2026 being Friday; event date retained from page date and title, with discrepancy flagged."
+      ]
+    },
+    {
+      "source_id": "sv-mothers-lpg",
+      "url": "https://www.laprensagrafica.com/elsalvador/madres-por-la-libertad-exige-justicia-por-detenidos-del-regimen-de-excepcion-20260509-0026.html",
+      "outlet": "La Prensa Gráfica",
+      "provenance": "Contemporaneous local Spanish-language report; the article describes detained relatives under the state of exception.",
+      "publication_date": "2026-05-09",
+      "event_date": "2026-05-09",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Metropolitan Cathedral, San Salvador, El Salvador",
+      "bounded_excerpt": "El movimiento Madres Por La Libertad se concentró frente a la catedral metropolitana de San Salvador para exigir justicia y respuestas",
+      "excerpt_word_count": 21,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Excerpt is a shortened sentence fragment ending before the reported motive details."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "sv-2026-05-mayday",
+      "month_unit": "2026-05",
+      "event_date": "2026-05-01",
+      "location": "San Salvador, El Salvador",
+      "event_type_signal": "labor march",
+      "issue": "Workers’ rights and labor demands",
+      "sources": [
+        "sv-mayday-edh"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Article has weekday inconsistency."
+      ]
+    },
+    {
+      "candidate_id": "sv-2026-05-mothers-liberty",
+      "month_unit": "2026-05",
+      "event_date": "2026-05-09",
+      "location": "San Salvador, El Salvador",
+      "event_type_signal": "family-rights demonstration",
+      "issue": "Families sought justice and information regarding relatives detained under the state of exception",
+      "sources": [
+        "sv-mothers-lpg"
+      ],
+      "status": "provisional; not a canonical record"
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

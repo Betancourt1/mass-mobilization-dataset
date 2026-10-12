@@ -1,0 +1,61 @@
+{
+  "country": "Bangladesh",
+  "period": {"start": "2026-04-01", "end": "2026-06-30"},
+  "status": "provisional_public_source_discovery",
+  "capture_note": "Web search/open timestamps are not exposed per request. Searches occurred in the 2026-10-11 03:02–03:09 UTC discovery window; cited page opens were captured around 2026-10-11 03:09 UTC.",
+  "queries": [
+    {"month":"2026-04","language":"English","query":"Bangladesh protest demonstration April 2026 labor student political protest","result":"Context article about reforms sought by 2024 protest movement, but no specific April 2026 demonstration surfaced."},
+    {"month":"2026-04","language":"Bengali","query":"বাংলাদেশ বিক্ষোভ প্রতিবাদ সমাবেশ এপ্রিল ২০২৬ শ্রমিক ছাত্র","result":"No distinct, dateable April in-country protest lead from this pass."},
+    {"month":"2026-05","language":"English","query":"Bangladesh protest demonstration May 2026 Dhaka labor student political rally","result":"May Day rally; May 15 Thakurgaon rally on violence in India surfaced on follow-up."},
+    {"month":"2026-05","language":"Bengali","query":"বাংলাদেশ বিক্ষোভ সমাবেশ মে ২০২৬ ঢাকা শ্রমিক ছাত্র","result":"May Day report surfaced; broad search did not resolve turnout beyond organizer expectation."},
+    {"month":"2026-06","language":"English","query":"Bangladesh protest demonstration June 2026 Dhaka student labor rally","result":"Specific garment-worker rally lead June 16 emerged in local-source search."},
+    {"month":"2026-06","language":"Bengali","query":"বাংলাদেশ বিক্ষোভ সমাবেশ জুন ২০২৬ ঢাকা ছাত্র শ্রমিক","result":"Samakal June 16 garment-worker protest article result; direct open returned Internal Error."},
+    {"month":"2026-06","language":"English","query":"Bangladesh June 2026 protest Dhaka labour demonstration June 2026","result":"No robust additional event lead."},
+    {"month":"2026-06","language":"Bengali","query":"বাংলাদেশ বিক্ষোভ প্রতিবাদ জুন ২০২৬ শ্রমিক সমাবেশ ঢাকা","result":"Samakal June 16 Savar labor protest lead; query result accessible, direct page denied/failed to load."},
+    {"month":"2026-06","language":"English","query":"site:bdnews24.com June 2026 Bangladesh workers protest demonstration Dhaka June 2026","result":"No relevant matching news result surfaced."},
+    {"month":"2026-06","language":"Bengali","query":"জুন ২০২৬ বাংলাদেশ পোশাক শ্রমিক বিক্ষোভ ছাঁটাই সমাবেশ ঢাকা","result":"Samakal result: Savar workers demand stop to layoffs/abuse and reinstatement; page could not be opened."}
+  ],
+  "leads": [
+    {
+      "id":"bd-2026-05-01-nayapaltan-may-day-rally",
+      "event_date":"2026-05-01",
+      "event_date_confidence":"high; contemporaneous report states Friday 1 May and start time 14:30",
+      "location":"Nayapaltan, Dhaka, Bangladesh",
+      "description":"International Workers' Day rally organized by Bangladesh Jatiyatabadi Sramik Dal in front of BNP headquarters; workers arrived in small processions with banners and slogans.",
+      "sources":[
+        {"url":"https://www.bssnews.net/bangla/news-flash/303828","publisher":"Bangladesh Sangbad Sangstha (BSS), national news agency","publication_date":"2026-05-01","accessed_utc":"2026-10-11T03:09:03Z (approximate capture during open batch)","provenance":"Opened public Bengali article; says rally began 14:30 on 1 May, reports processions, banners, slogans. Organizer expected a very large crowd; expectation is not an observed count.","excerpt":"সকাল থেকেই মানুষ সমাবেশস্থলে আসা শুরু করে"},
+        {"url":"https://www.thedailystar.net/news/politics/news/bnp-prepares-may-day-rally-nayapaltan-4165416","publisher":"The Daily Star","publication_date":"2026-05-01 (updated 18:41; page title says prepares, body notes groups arriving and slogans)","accessed_utc":"2026-10-11T03:09:03Z (approximate capture during open batch)","provenance":"Opened public article. Reports organizers, planned 14:30 start, arriving leaders/workers, small processions and chants; explicitly distinguishes preparations from attendance estimate.","excerpt":"Leaders and activists were seen gathering with red caps, T-shirts, banners, and drums"}
+      ]
+    },
+    {
+      "id":"bd-2026-05-15-thakurgaon-protest-march",
+      "event_date":"2026-05-15",
+      "event_date_confidence":"medium-high; source published 16 May and explicitly says event was Friday 15 May",
+      "location":"Thakurgaon municipal area, Bangladesh",
+      "description":"Hefazat-e-Islam Bangladesh district branch organized a march and protest assembly in response to reported violence against Muslims in West Bengal, India. Event location is Bangladesh; grievance is about events abroad.",
+      "sources":[
+        {"url":"https://alomaybangladesh.com/public/read/blog/3356","publisher":"Alomay Bangladesh","publication_date":"2026-05-16 12:00:39 per page","accessed_utc":"2026-10-11T03:09:03Z","provenance":"Opened article. Says the 15 May afternoon march left Art Gallery area, moved through town and ended at Chourasta, followed by an hour-long assembly. Single local report; corroboration not found in this pass.","excerpt":"পরে সেখানে ঘণ্টাব্যাপী প্রতিবাদ সমাবেশ অনুষ্ঠিত হয়"}
+      ]
+    },
+    {
+      "id":"bd-2026-06-16-savar-garment-workers-protest-lead",
+      "event_date":"2026-06-16 (tentative; article search result is dated June 16; direct page did not load)",
+      "event_date_confidence":"low; search-result publication date only, event date not independently verified",
+      "location":"Savar, Bangladesh (per search snippet)",
+      "description":"Search result for Samakal article describes a protest rally demanding an end to garment-worker layoffs and abuse and reinstatement of laid-off workers. Provisional lead only; full article inaccessible and no second source located.",
+      "sources":[
+        {"url":"https://samakal.com/dhaka/article/357205/%E0%A6%AA%E0%A7%8B%E0%A6%B6%E0%A6%BE%E0%A6%95-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%95-%E0%A6%9B%E0%A6%BE%E0%A6%9F%E0%A6%BE%E0%A6%87-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A6%A8-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B6","publisher":"Samakal","publication_date":"2026-06-16 per search result","accessed_utc":"2026-10-11T03:07–03:09Z (search/open); open returned Internal Error","provenance":"Managed search result showed headline and excerpt; direct open failed, so no article-body verification or detailed event date/location beyond snippet.","excerpt":"সাভারে শ্রমিক ছাঁটাই -নির্যাতন বন্ধ, ছাঁটাই করা শ্রমিকদের পুর্নবহাল"}
+      ]
+    }
+  ],
+  "excluded_or_unresolved": [
+    {"item":"2024 Bangladesh uprising/reform context appearing in an April 22 article","reason":"Publication within April, but describes the 2024 protest movement and government reforms, not a demonstrated April 2026 protest event."},
+    {"item":"Bangladesh government protest to India concerning questioning of an adviser at Delhi airport on 2026-06-16","reason":"Formal diplomatic protest, with airport incident located in India; not a public mass demonstration in Bangladesh."}
+  ],
+  "no_findings_and_failures": [
+    {"month":"2026-04","note":"No individually dateable April 2026 demonstration surfaced in this bounded query set. This is a search limitation, not evidence that none occurred."},
+    {"month":"2026-06","note":"Samakal result was found but direct open failed twice with Internal Error; treat as an unverified lead, not a confirmed record."},
+    {"scope_note":"Search snippets and accessible pages only; no comprehensive event-absence claim."}
+  ],
+  "status_note":"Provisional discovery only; not normalized, formally validated, or a completion claim."
+}

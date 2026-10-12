@@ -1,0 +1,177 @@
+{
+  "country": "North Macedonia",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "search_window_utc": "2026-10-11 03:18:29–03:21:01 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+    "targeted_queries": 11,
+    "coverage": "At least two month-specific English/local-language queries per month where local query was feasible, plus focused follow-ups; public search results and relevant accessible pages reviewed.",
+    "limitations": [
+      "This pass is bounded, and no-hit results do not imply no event occurred.",
+      "Search results occasionally surfaced wrong-year or neighboring-country items; these were excluded explicitly.",
+      "Search index snippets are flagged as such and are not treated as equivalent to opened articles."
+    ]
+  },
+  "search_history": [
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "North Macedonia protest demonstration strike April 2026 Skopje",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "Macedonian",
+      "query": "Македонија протест штрајк април 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "North Macedonia protest demonstration strike May 2026 Skopje",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "Macedonian",
+      "query": "Македонија протест штрајк мај 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "North Macedonia protest demonstration strike June 2026 Skopje",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "Macedonian",
+      "query": "Македонија протест штрајк јуни 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "North Macedonia Albanian students protest April 2026 Skopje judicial exam",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Albanian students North Macedonia protest May 2026 Skopje language dispute",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-05",
+      "language": "Macedonian",
+      "query": "ССМ протест 1 мај 2026 Скопје",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "North Macedonia Skopje June 23 2026 air pollution protest",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    },
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "North Macedonia April 6 student protest Skopje Albanian language 2026",
+      "access_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC"
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "MK-2026-04-06-ongoing-Skopje-student-protests",
+      "month": "2026-04",
+      "event_type": "student protest for judicial exam in Albanian",
+      "status": "reported ongoing since early April; April 6 action surfaced in reporting; follow-up protests through May reported",
+      "actors": "Albanian students",
+      "locations": [
+        "Outside Ministry of Justice and central Skopje"
+      ],
+      "event_date": "2026-05-18 (specific reported protest); article says wider protests ongoing since early April",
+      "publication_date": "2026-05-19",
+      "sources": [
+        {
+          "title": "Albanian students in North Macedonia protest over language dispute",
+          "url": "https://europeanwesternbalkans.com/2026/05/19/albanian-students-in-north-macedonia-protest-over-language-dispute/",
+          "accessed_utc_bracket": "2026-10-11 03:18:29 UTC–2026-10-11 03:20:00 UTC",
+          "excerpt": "students first gathered outside the Ministry of Justice",
+          "provenance": "European Western Balkans public article opened directly; dated May 19 and describes ongoing protest series since early April; reports May 18 arrests."
+        }
+      ],
+      "assessment": "Ongoing series substantiated but event dates should remain separate; the May 19 report is not itself event date.",
+      "uncertainty": "Search results give a separate April 6 date; exact date(s) for each initial April action require further source review."
+    },
+    {
+      "id": "MK-2026-05-01-Skopje-workers-rally-planned",
+      "month": "2026-05",
+      "event_type": "May Day trade union protest",
+      "status": "announced/planned; held status not confirmed in accessible source",
+      "actors": "Federation of Trade Unions of Macedonia (SSM)",
+      "locations": [
+        "Route from union building to government, Skopje"
+      ],
+      "event_date": "scheduled 2026-05-01 at 11:00",
+      "publication_date": "2026-04-29 union call; 2026-04-30 Ministry of Interior traffic notice",
+      "sources": [
+        {
+          "title": "SSM calls for May 1 protest (official union announcement surfaced via Infomax)",
+          "url": "https://infomax.mk/%D1%81%D1%81%D0%BC-%D0%BF%D0%BE%D0%B2%D0%B8%D0%BA%D1%83%D0%B2%D0%B0%D0%BC%D0%B5-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D1%82%D0%B5%D1%81%D1%82-%D0%BD%D0%B0-1-%D0%BC%D0%B0%D1%98-%D0%BD%D0%B0-%D1%81%D0%BE/",
+          "accessed_utc_bracket": "2026-10-11 03:18:29 UTC–2026-10-11 03:20:00 UTC",
+          "excerpt": "protest that will be held on May 1",
+          "provenance": "Infomax report of April 29 press conference/SSM announcement; a separate police traffic notice confirms advance planning."
+        },
+        {
+          "title": "Special traffic regime in Skopje because of protest (Ministry of Interior)",
+          "url": "https://mvr.gov.mk/sq-AL/odnosi-so-javnost/novosti/bbffbbd",
+          "accessed_utc_bracket": "2026-10-11 03:18:29–03:21:01 UTC",
+          "excerpt": "will be held on 01.05.2026",
+          "provenance": "North Macedonia Ministry of Interior advance traffic notice dated April 30; confirms planned route/time, not whether action took place."
+        }
+      ],
+      "assessment": "Keep as planned action, not as a confirmed held protest.",
+      "uncertainty": "This search pass did not locate an accessible post-event report."
+    },
+    {
+      "id": "MK-2026-06-23-Skopje-air-pollution-protest",
+      "month": "2026-06",
+      "event_type": "environmental demonstration against air pollution and cement plant permit",
+      "status": "reported held",
+      "actors": "Stop Usje Cement Factory Initiative; citizens and environmental activists",
+      "locations": [
+        "Parliament to Ministry of Environment, Skopje"
+      ],
+      "event_date": "2026-06-23",
+      "publication_date": "2026-06-23 photo caption",
+      "sources": [
+        {
+          "title": "Citizens and activists march against air pollution in Skopje",
+          "url": "https://www.reutersconnect.com/item/citizens-and-activists-march-against-air-pollution-in-skopje/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwUEFOOFpa",
+          "accessed_utc_bracket": "2026-10-11 03:18:29 UTC–2026-10-11 03:20:00 UTC",
+          "excerpt": "Citizens and environmental activists gather to hold a large banner and walk with bicycles",
+          "provenance": "Reuters Connect public photo caption supplied by Anadolu Agency; opened and gives event date, route, organizers, demand."
+        }
+      ],
+      "assessment": "Specific date/location and issue are documented in a public caption.",
+      "uncertainty": "Caption is a licensed image record, not a full newsroom story; no crowd size noted."
+    }
+  ],
+  "excluded_or_unverified": [
+    {
+      "item": "Protest references March/January or April? For student-series sources keep dates separate; older unrelated 2025 accountability protests excluded.",
+      "url": "https://apnews.com/article/103b8f609979c855e2e809601d4b34d6",
+      "reason": "AP hit describes March 2025 protests, outside Q2 2026."
+    },
+    {
+      "item": "May 1 union rally had advance notice only in sources surfaced",
+      "url": "https://infomax.mk/%D1%81%D1%81%D0%BC-%D0%BF%D0%BE%D0%B2%D0%B8%D0%BA%D1%83%D0%B2%D0%B0%D0%BC%D0%B5-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D1%82%D0%B5%D1%81%D1%82-%D0%BD%D0%B0-1-%D0%BC%D0%B0%D1%98-%D0%BD%D0%B0-%D1%81%D0%BE/",
+      "reason": "Retained separately with status planned; do not assert held."
+    }
+  ],
+  "assessment": "Student language-rights mobilization and June air-pollution march reported; May Day union action appears planned, held status not verified.",
+  "limitations_note": "Protest series dates need granular verification; April 6 and May 18 represent distinct reported days. May Day is not conflated with confirmed events.",
+  "access_failures": []
+}

@@ -1,0 +1,145 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Greece",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "greece_2026-04",
+      "greece_2026-05",
+      "greece_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Greece; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Greece April 2026 protest demonstration march strike labor opposition church Ελλάδα διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:16 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ελλάδα April 2026 protest demonstration march strike opposition / Greece April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:35 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Greece May 2026 protest demonstration march strike labor opposition church Ελλάδα διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:23 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ελλάδα May 2026 protest demonstration march strike opposition / Greece May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:41 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Greece June 2026 protest demonstration march strike labor opposition church Ελλάδα διαδήλωση протест Demonstration",
+        "searched_at_utc": "2026-10-11 03:15:29 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Ελλάδα June 2026 protest demonstration march strike opposition / Greece June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:15:47 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "gr-may-adedy",
+      "url": "https://adedy.gr/13maioukleinoyndhmosiesyphrsiewoximmm/",
+      "outlet": "ADEDY",
+      "provenance": "National civil-servants’ union notice in Greek, with Athens gathering details.",
+      "publication_date": "2026-05-12",
+      "event_date": "2026-05-13 (planned)",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Athens and Greece-wide public services",
+      "bounded_excerpt": "Αύριο, Τετάρτη 13 Μαΐου 2026, είναι η Πανελλαδική, πανδημοσιουπαλληλική απεργία, με συγκέντρωση στην Αθήνα",
+      "excerpt_word_count": 14,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Primary source is a call and does not independently confirm turnout or completion."
+      ]
+    },
+    {
+      "source_id": "gr-mayday-ekathimerini",
+      "url": null,
+      "outlet": "eKathimerini (search-result snippet; article URL not recoverable after open failure)",
+      "provenance": "English-language news report found in managed search; page open returned HTTP 403.",
+      "publication_date": "2026-05-01",
+      "event_date": "2026-05-01",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Athens, Greece",
+      "bounded_excerpt": null,
+      "excerpt_word_count": 0,
+      "source_accessed_at_utc": "2026-10-11 03:18:45 UTC",
+      "access_status": "search_result_only",
+      "uncertainties": [
+        "Only search-result text accessible; page access denied with HTTP 403."
+      ],
+      "excerpt_note": "No exact source wording retained from the search result; the opened page was inaccessible. This is a locator/access record, not a verbatim quotation."
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "gr-2026-05-mayday",
+      "month_unit": "2026-05",
+      "event_date": "2026-05-01",
+      "location": "Athens, Greece",
+      "event_type_signal": "labor strike and rallies",
+      "issue": "May Day labor mobilization",
+      "sources": [
+        "gr-mayday-ekathimerini"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Underlying page returned HTTP 403; candidate rests on search-result snippet."
+      ]
+    },
+    {
+      "candidate_id": "gr-2026-05-public-service-strike-call",
+      "month_unit": "2026-05",
+      "event_date": "2026-05-13 (planned)",
+      "location": "Athens and nationwide, Greece",
+      "event_type_signal": "public-service labor strike call",
+      "issue": "Public employees’ labor action with Athens rally",
+      "sources": [
+        "gr-may-adedy"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "Announcement only; occurrence not independently confirmed."
+      ]
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [
+    {
+      "url": "eKathimerini May Day article (exact URL was not recoverable after managed open failure)",
+      "failure": "Managed open returned HTTP 403; only search-result snippet was accessible.",
+      "handling": "Logged; no bypass attempted."
+    }
+  ],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

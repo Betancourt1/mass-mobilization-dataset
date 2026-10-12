@@ -1,0 +1,90 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "United Arab Emirates",
+  "country_slug": "united-arab-emirates",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass of publicly reported protests, demonstrations, and related collective actions. Search results are leads; no inference of absence from empty or failed searches.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:18:07Z",
+    "search_and_open_window_utc": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose per-request timestamps; capture window is an observed bounded session window."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "UAE protest demonstration April 2026 Dubai Abu Dhabi rally",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clear Q2 protest event in UAE surfaced; results mostly unrelated."
+    },
+    {
+      "month_focus": "April",
+      "language": "Arabic",
+      "query": "الإمارات احتجاج مظاهرة أبريل 2026 دبي أبوظبي",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clearly dated UAE-located protest result surfaced."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "UAE protest demonstration May 2026 Dubai Abu Dhabi rally",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No protest lead surfaced; search results included regional conflict/attacks and official use of “protest” as diplomatic note."
+    },
+    {
+      "month_focus": "May",
+      "language": "Arabic",
+      "query": "الإمارات احتجاج مظاهرة مايو 2026 دبي أبوظبي",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clearly dateable UAE-located demonstration surfaced; search mixed unrelated news."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "UAE protest demonstration June 2026 Dubai Abu Dhabi rally",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No in-country protest lead surfaced; a demonstration against UAE delegation was located in Paris and excluded as foreign-located."
+    },
+    {
+      "month_focus": "June",
+      "language": "Arabic",
+      "query": "الإمارات احتجاج مظاهرة يونيو 2026 دبي أبوظبي",
+      "searched_utc_window": "2026-10-11T03:15:15Z to 2026-10-11T03:18:07Z; exact per-request time unavailable",
+      "outcome": "No clearly dated UAE-located public demonstration result surfaced."
+    }
+  ],
+  "provisional_leads": [],
+  "excluded_or_deferred_results": [
+    {
+      "item": "Protest against arrival of UAE delegation, Paris, France",
+      "source_url": "https://www.reutersconnect.com/item/protest-in-solidarity-with-the-sudanese-and-against-the-arrival-of-a-delegation-from-the-united-arab-emirates/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMFhIRFEwRA",
+      "reported_event_date": "2026-06-17",
+      "reason": "Event is located in Paris, not the UAE."
+    },
+    {
+      "item": "Egyptian-resident protests in Dubai",
+      "source_url": "https://www.facebook.com/alahad.iq.tv/videos/%D8%A7%D9%86%D8%AA%D9%81%D8%A7%D8%B6%D8%A9-%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AF%D8%A8%D9%8A-%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%BA%D8%A7%D8%A1-%D8%A7%D9%82%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%84%D8%A7%D9%81-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%85%D8%A7%D8%B1%D8%A7%D8%AA/1671273753972928/",
+      "reported_event_date": "2026-08-18",
+      "reason": "Outside Q2 period; surfaced in search results as a later event."
+    },
+    {
+      "item": "COP28 protests in Dubai",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/cop28-rare-chance-uae-protests-palestinians-climate-action-2023-12-03/",
+        "https://www.voanews.com/a/in-change-autocratic-uae-allows-protests-at-un-cop28-/7382205.html"
+      ],
+      "reported_event_date": "2023-12-03",
+      "reason": "Wrong year and period."
+    }
+  ],
+  "failures_and_limits": [
+    "No Q2 2026 protest located in the UAE in this bounded pass; this is not evidence of absence. Search results were noisy and frequently returned foreign events, motorsport use of “rally,” diplomatic protests, and wartime/security incidents. Arabic queries did not reveal a relevant event."
+  ],
+  "next_pass_priorities": [
+    "Expand local and regional press searches, seek direct primary evidence, and resolve event dates/locations before any formal coding."
+  ]
+}

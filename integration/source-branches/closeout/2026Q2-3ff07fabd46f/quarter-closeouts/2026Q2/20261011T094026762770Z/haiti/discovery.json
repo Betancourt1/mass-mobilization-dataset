@@ -1,0 +1,103 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Haiti",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "haiti_2026-04",
+      "haiti_2026-05",
+      "haiti_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Haiti; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Haiti April 2026 protest demonstration march strike labor opposition church Haïti protesta huelga प्रदर्शन",
+        "searched_at_utc": "2026-10-11 03:16:34 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Haïti April 2026 protestas manifestación huelga strike / Haiti April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:53 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Haiti May 2026 protest demonstration march strike labor opposition church Haïti protesta huelga प्रदर्शन",
+        "searched_at_utc": "2026-10-11 03:16:40 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Haïti May 2026 protestas manifestación huelga strike / Haiti May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:59 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Haiti June 2026 protest demonstration march strike labor opposition church Haïti protesta huelga प्रदर्शन",
+        "searched_at_utc": "2026-10-11 03:16:47 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Haïti June 2026 protestas manifestación huelga strike / Haiti June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:17:07 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "ht-apr-workers-ap",
+      "url": "https://apnews.com/article/haiti-protest-sonapi-minimum-salary-increase-70b2c1166fc63788b36f9341d396e617",
+      "outlet": "Associated Press",
+      "provenance": "AP report on workers protesting amid fuel price increases.",
+      "publication_date": "2026-04-13",
+      "event_date": "2026-04-13",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Port-au-Prince, Haiti",
+      "bounded_excerpt": "More than 1,000 workers organized a protest Monday in Haiti’s capital to demand a higher minimum wage",
+      "excerpt_word_count": 17,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "opened",
+      "uncertainties": [
+        "Page publication date and event day are April 13; English text uses Monday."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "ht-2026-04-wage-protest",
+      "month_unit": "2026-04",
+      "event_date": "2026-04-13",
+      "location": "Port-au-Prince, Haiti",
+      "event_type_signal": "worker protest",
+      "issue": "Demand for higher minimum wage amid rising fuel costs",
+      "sources": [
+        "ht-apr-workers-ap"
+      ],
+      "status": "provisional; not a canonical record"
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

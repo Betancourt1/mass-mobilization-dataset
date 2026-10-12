@@ -1,0 +1,16 @@
+{
+ "country":"Togo","period":{"start":"2026-04-01","end":"2026-06-30"},"status":"provisional_public_source_discovery","capture_note":"Managed search/open capture approximately 2026-10-11T03:15–03:17Z; exact per-request times not exposed.",
+ "queries":[
+  {"month":"2026-04","language":"French","query":"Togo manifestation protestation avril 2026 Lomé travailleurs","result":"No Q2 event surfaced; results primarily referred to 2025 protests or historical labor actions."},
+  {"month":"2026-04","language":"English","query":"Togo protest demonstration April 2026 Lomé workers","result":"No dateable in-country protest lead."},
+  {"month":"2026-05","language":"French","query":"Togo manifestation protestation mai 2026 Lomé travailleurs","result":"No distinct May event surfaced."},
+  {"month":"2026-05","language":"English","query":"Togo protest demonstration May 2026 Lomé workers","result":"No current public mass-protest lead surfaced."},
+  {"month":"2026-06","language":"French","query":"Togo manifestation protestation juin 2026 Lomé travailleurs","result":"Results mostly older 2025 protests; a U.S. Embassy demonstration alert surfaced but direct open failed and details/date were not recoverable."},
+  {"month":"2026-06","language":"English","query":"Togo protest demonstration June 2026 Lomé workers","result":"No individually dateable June event established."},
+  {"month":"2026-04–06","language":"English","query":"Togo 2026 June protests demonstrations June 2026 Lomé protests","result":"No Q2 event evidence; search results about June 2025 protests."}
+ ],
+ "leads":[],
+ "excluded_or_unresolved":[{"item":"Lomé constitutional-reform protests of June 2025","reason":"Wrong year/period; surfaced repeatedly in results."},{"item":"U.S. Embassy Lomé demonstration alert","reason":"Alert page returned an open error; result gave a general warning about calls for protests but no verified event date or outcome, so no lead is staged."}],
+ "no_findings_and_failures":[{"period":"April 2026","note":"No-findings in targeted French/English queries; not evidence of absence."},{"period":"May 2026","note":"No-findings in targeted French/English queries; not evidence of absence."},{"period":"June 2026","note":"No dateable event found. General alert result and 2025 events do not establish a Q2 2026 protest."},{"source_failure":"Embassy alert direct open returned Internal Error; no accessible specifics to verify."}],
+ "status_note":"Provisional only; no canonical schema/formal validation/completion claim."
+}

@@ -1,0 +1,27 @@
+{
+  "country": "Paraguay",
+  "period": "2026-04-01/2026-06-30",
+  "status": "provisional_public_source_discovery_only",
+  "schema_status": "Ad hoc staging JSON; portable scientific kit and canonical schema pending. Not formally validated or complete.",
+  "eligibility_handoff": "Owner-confirmed audited handoff: April, May, June 2026 are new, unclaimed units with no partial or completed work.",
+  "searches": [
+    {"month":"2026-04","language":"English","query":"Paraguay protest demonstration April 2026","access_utc_window":["2026-10-11T03:09:15Z","2026-10-11T03:09:20Z"],"results":"No clearly in-period Paraguay protest report surfaced; result noise included a 2024 ACLED item, 2017 Wikipedia page, and a February Embassy alert."},
+    {"month":"2026-04","language":"Spanish","query":"Paraguay protesta abril 2026 Asunción manifestación","access_utc_window":["2026-10-11T03:09:25Z","2026-10-11T03:09:27Z"],"results":"No relevant April 2026 domestic protest lead surfaced; results were unrelated October 2026 news and stale/noise."},
+    {"month":"2026-05","language":"English","query":"Paraguay protest demonstration May 2026","access_utc_window":["2026-10-11T03:09:36Z","2026-10-11T03:09:41Z"],"results":"No May event lead; search noise included 2023 election protests, 2025 protests, and a March alert."},
+    {"month":"2026-05","language":"Spanish","query":"Paraguay protesta mayo 2026 Asunción manifestación","access_utc_window":["2026-10-11T03:09:58Z","2026-10-11T03:10:06Z"],"results":"No May protest lead surfaced. A May 14 Independence anniversary official ceremony is not a protest and was excluded."},
+    {"month":"2026-06","language":"English","query":"Paraguay protest demonstration June 2026","access_utc_window":["2026-10-11T03:09:43Z","2026-10-11T03:09:49Z"],"results":"No in-period protest lead; unrelated 2025 protest and 2026 October news appeared."},
+    {"month":"2026-06","language":"Spanish","query":"Paraguay protesta junio 2026 Asunción manifestación","access_utc_window":["2026-10-11T03:09:51Z","2026-10-11T03:09:55Z"],"results":"No June protest lead surfaced. Results included October 2026 women's march and June 30 football celebrations, neither within protest scope."}
+  ],
+  "provisional_leads": [],
+  "exclusions": [
+    {"item":"2025 and 2023 protest results","reason":"Wrong period."},
+    {"item":"February 2026 Embassy alert and March 2026 OSAC notice","reason":"Outside Q2; no April-June event confirmed from them."},
+    {"item":"June 30 football celebrations in Asunción","reason":"Public celebration was not identified as a protest; excluded."},
+    {"item":"No-findings","reason":"A bounded search with no usable results does not establish an absence of events."}
+  ],
+  "limitations":[
+    "This is a bounded first pass, not exhaustive discovery. Search noise was high and no relevant public event source was opened for Paraguay.",
+    "UTC intervals bracket batched web queries; the tool does not expose exact per-query request seconds.",
+    "No source denials or cancellations surfaced. The scientific kit is pending; no canonical integration, formal validation, completion claim, official write, or publication was made."
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "country": "Iraq",
+  "period": "2026Q2",
+  "scope": "Provisional public-source discovery only; no canonical coding, integration, formal validation, or completeness claim.",
+  "pass": {
+    "type": "bounded first discovery pass",
+    "search_window_utc": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+    "targeted_queries": 9,
+    "coverage": "At least two targeted searches per month (English plus local-language terms where feasible), with focused follow-ups noted in search_history.",
+    "limitations": [
+      "Search engines returned stale material, wrong-year/location hits, and sometimes low-quality pages.",
+      "The web tool does not expose exact per-request UTC timestamps; the recorded UTC bracket comes from clock readings before and after this search/open sequence.",
+      "No finding in this pass does not establish that no protest or mobilization occurred."
+    ]
+  },
+  "search_history": [
+    {
+      "month": "2026-04",
+      "language": "English",
+      "query": "Iraq protest demonstration strike workers April 2026 Iraq labor social protest",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-04",
+      "language": "Arabic",
+      "query": "العراق احتجاجات مظاهرات إضراب العمال نيسان 2026",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Iraq protest demonstration strike workers May 2026 Iraq labor social protest",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "Arabic",
+      "query": "العراق تظاهرات احتجاج إضراب العمال أيار 2026 العراق",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Iraq protest demonstration strike workers June 2026 Iraq labor social protest",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "Arabic",
+      "query": "العراق احتجاجات مظاهرات إضراب العمال حزيران 2026 العراق",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Iraq May 2026 protests demonstration unpaid salaries workers Bagdad Basra",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-06",
+      "language": "English",
+      "query": "Iraq June 2026 protest demonstration workers employment salaries Baghdad Basra",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    },
+    {
+      "month": "2026-05",
+      "language": "English",
+      "query": "Iraq May June 2026 workers demonstrations protests salaries site:shafaq.com OR site:rudaw.net OR site:en.964media.com",
+      "access_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)"
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "IQ-2026-04-06-Badush-cement-workers",
+      "month": "2026-04",
+      "event_type": "worker protest",
+      "status": "reported event; provisional",
+      "actors": "Badush Cement Plant employees",
+      "locations": [
+        "Badush Cement Plant, Iraq"
+      ],
+      "event_date": "2026-04-06",
+      "publication_date": "2026-04-15 (PDF search metadata; follow-up summary page dated Apr 16)",
+      "sources": [
+        {
+          "title": "Hundreds of Demonstrations, Thousands of Protesters — PFO monitoring report",
+          "url": "https://pfo-ku.org/images/2017/pdf/001Iraqworker2026.pdf",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "employees of the Badush Cement Plant protested",
+          "provenance": "Peace and Freedom Organization monitoring report, PDF public/open; reported in summary hosted by Iraqi Civil Society Solidarity Initiative."
+        }
+      ],
+      "assessment": "Report specifies protest demand for recognition of contract service and promotions. Provisional local monitoring evidence.",
+      "uncertainty": "PFO monitoring report is the only event source found in this pass; seek independent local coverage."
+    },
+    {
+      "id": "IQ-2026-04-09-oil-institute-graduates",
+      "month": "2026-04",
+      "event_type": "graduate employment protest",
+      "status": "reported event; provisional",
+      "actors": "Oil Institute graduates",
+      "locations": [
+        "Outside Ministry of Oil, Baghdad"
+      ],
+      "event_date": "2026-04-07 to 2026-04-09 (report states third day of protests on Apr 9)",
+      "publication_date": "2026-04-15 (PDF search metadata; follow-up summary page dated Apr 16)",
+      "sources": [
+        {
+          "title": "Hundreds of Demonstrations, Thousands of Protesters — PFO monitoring report",
+          "url": "https://pfo-ku.org/images/2017/pdf/001Iraqworker2026.pdf",
+          "accessed_utc_bracket": "2026-10-11 03:06:57–03:10:30 UTC (observed run bracket; web tool does not expose per-query access timestamps)",
+          "excerpt": "Oil Institute graduates continued protests for the third day",
+          "provenance": "Peace and Freedom Organization monitoring report; the report says graduates demanded jobs and faced clashes/assaults."
+        }
+      ],
+      "assessment": "Specific reported multi-day demonstration over employment; retain provisionally.",
+      "uncertainty": "Single monitoring report source in this pass. Its summary says clashes/assaults; not independently confirmed."
+    }
+  ],
+  "excluded_or_contextual_results": [
+    {
+      "title": "Hundreds of Demonstrations, Thousands of Protesters — PFO monitoring report",
+      "url": "https://www.iraqicivilsociety.org/archives/14542",
+      "reason": "Summary says report covers Jan to mid-April, so it supplies April leads but no evidence for later Q2 months."
+    },
+    {
+      "title": "Baghdad traders protest new customs tariffs as Iraq wrestles with shrinking oil revenues",
+      "url": "https://apnews.com/article/a9a836969d13f3658019bce38bbccb07",
+      "reason": "Relevant customs/tariff protest occurred January 2026, outside Q2."
+    },
+    {
+      "title": "Protests spread across Iraq over jobs, unpaid salaries",
+      "url": "https://shafaq.com/en/society/Unpaid-personnel-stage-protests-in-Baghdad-and-Babil",
+      "reason": "Search surfaced August 23, 2026, outside Q2."
+    }
+  ],
+  "no_findings_by_month": {
+    "2026-04": "PFO monitoring report supplies provisional Apr 6 and Apr 7–9 leads.",
+    "2026-05": "No May event surfaced in this bounded search pass; this is not evidence of absence.",
+    "2026-06": "No June event surfaced in this bounded search pass; result set was polluted by August/September events."
+  },
+  "failures_and_follow_up": [
+    "English and Arabic searches for May/June returned few relevant date-matched pages; several results were August/September events and excluded.",
+    "No direct Iraqi Arabic local outlet page for April PFO events located in this first pass."
+  ]
+}

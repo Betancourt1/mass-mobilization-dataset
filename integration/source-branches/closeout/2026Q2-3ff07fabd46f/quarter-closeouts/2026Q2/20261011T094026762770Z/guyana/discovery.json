@@ -1,0 +1,112 @@
+{
+  "artifact_type": "provisional public discovery log; not canonical records",
+  "country": "Guyana",
+  "quarter": "2026Q2",
+  "scope": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "units": [
+      "guyana_2026-04",
+      "guyana_2026-05",
+      "guyana_2026-06"
+    ],
+    "eligibility_basis": "Owner-confirmed audited supplied handoff; three units are new, not partial/completed/unclaimed.",
+    "location_rule": "Include activity in Guyana; exclude foreign-located diaspora events."
+  },
+  "discovery_run": {
+    "tool": "managed web.run",
+    "main_queries": [
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guyana April 2026 protest demonstration march strike labor opposition church Guyana protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:15:56 UTC"
+      },
+      {
+        "month": "2026-04",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guyana April 2026 protesta manifestación manifestation greve marche opposition / Guyana April 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:15 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guyana May 2026 protest demonstration march strike labor opposition church Guyana protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:16:02 UTC"
+      },
+      {
+        "month": "2026-05",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guyana May 2026 protesta manifestación manifestation greve marche opposition / Guyana May 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:18 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guyana June 2026 protest demonstration march strike labor opposition church Guyana protesta manifestación manifestation greve",
+        "searched_at_utc": "2026-10-11 03:16:08 UTC"
+      },
+      {
+        "month": "2026-06",
+        "language": "English query with supplemental multilingual terms; local-language coverage was used where feasible",
+        "exact_query": "Guyana June 2026 protesta manifestación manifestation greve marche opposition / Guyana June 2026 rally protest",
+        "searched_at_utc": "2026-10-11 03:16:26 UTC"
+      }
+    ],
+    "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+    "query_note": "Six retained, timestamped monthly searches per country (two per month, including local-language terms where feasible). Earlier exploratory search output was also used; this log records the reproducible rerun."
+  },
+  "sources": [
+    {
+      "source_id": "gy-apr26-osac",
+      "url": "https://www.osac.gov/Country/Guyana/Content/Detail/Report/c83bc0d1-a779-4684-b157-2713bd8e3d2a",
+      "outlet": "OSAC security alert (search result)",
+      "provenance": "U.S. Overseas Security Advisory Council alert surfaced in managed search; page open returned internal error.",
+      "publication_date": "2026-04-26",
+      "event_date": "2026-04-26 (planned)",
+      "event_date_basis": "As reported in the source; publication date is recorded separately.",
+      "location": "Tuschen Public Road, Leonora Public Road and other locations, Guyana",
+      "bounded_excerpt": "This is a security alert to inform you of planned protests today at Tuschen Public Road, East Bank Essequibo, Leonora Public Road, West Coast Demerara",
+      "excerpt_word_count": 25,
+      "source_accessed_at_utc": "2026-10-11 03:12:46 UTC",
+      "access_status": "search_result_only",
+      "uncertainties": [
+        "Planned only; no occurrence confirmation."
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "gy-2026-04-planned-protests-alert",
+      "month_unit": "2026-04",
+      "event_date": "2026-04-26 (planned)",
+      "location": "Essequibo and Demerara locations, Guyana",
+      "event_type_signal": "planned protest alert",
+      "issue": "Issue and organizers not established in accessible snippet",
+      "sources": [
+        "gy-apr26-osac"
+      ],
+      "status": "provisional; not a canonical record",
+      "uncertainties": [
+        "The alert’s open failed; snippet establishes planned protests only, not completion or issue."
+      ]
+    }
+  ],
+  "screened_non_candidates": [],
+  "search_and_source_failures": [
+    {
+      "url": "https://www.osac.gov/Country/Guyana/Content/Detail/Report/c83bc0d1-a779-4684-b157-2713bd8e3d2a",
+      "failure": "Managed open returned internal error.",
+      "handling": "Logged; no bypass or alternate access attempt."
+    }
+  ],
+  "coverage_limits": [],
+  "workflow_state": {
+    "provisional": true,
+    "canonical_schema_applied": false,
+    "formal_validation": false,
+    "canonical_records_written": false,
+    "database_or_git_writes": false,
+    "blocker": "Portable scientific workflow and code kit pending; parent reports the official kit download failed twice."
+  }
+}

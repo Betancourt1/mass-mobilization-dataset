@@ -1,0 +1,103 @@
+{
+  "country": "Mexico",
+  "quarter": "2026Q2",
+  "status": "provisional public-source discovery; kit/schema/formal validation pending",
+  "searches": [
+    {
+      "access_utc": "2026-10-11 03:08:05..03:08:11 UTC",
+      "language": "English",
+      "query": "Mexico protests demonstrations strike April 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:08:11..03:08:13 UTC",
+      "language": "Spanish",
+      "query": "México protestas manifestaciones huelga abril 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:08:13..03:08:20 UTC",
+      "language": "English",
+      "query": "Mexico protests demonstrations strike May 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:08:20..03:08:27 UTC",
+      "language": "Spanish",
+      "query": "México protestas manifestaciones huelga mayo 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:08:27..03:08:34 UTC",
+      "language": "English",
+      "query": "Mexico protests demonstrations strike June 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    },
+    {
+      "access_utc": "2026-10-11 03:08:34..03:08:56 UTC",
+      "language": "Spanish",
+      "query": "México protestas manifestaciones huelga junio 2026",
+      "method": "managed public web search",
+      "note": "A no-lead result does not establish absence."
+    }
+  ],
+  "leads": [
+    {
+      "url": "https://www.jornada.com.mx/noticia/2026/04/07/estados/sg-llama-a-privilegier-las-vias-de-entendimiento-y-no-afectar-a-terceros-tras-bloqueos-de-transportistas-y-agricultores",
+      "publisher": "La Jornada",
+      "publication_date": "2026-04-07",
+      "event_date": "2026-04-06 (inferred from 'yesterday' in Apr7 article)",
+      "event": "Transporters and farmers held national work stoppage and roadblocks; government counted protest points.",
+      "excerpt": "paro nacional y bloqueos carreteros realizados por integrantes",
+      "excerpt_word_count": 8,
+      "access_and_provenance": "2026-10-11 03:11:37-03:11:38; open success, 03:11:49-50 lines 59-72; News report quoting Interior Secretariat.",
+      "uncertainty": "Provisional; date inferred from relative wording."
+    },
+    {
+      "url": "https://www.theguardian.com/world/2026/jun/03/mexico-teachers-strike-world-cup",
+      "publisher": "The Guardian",
+      "publication_date": "2026-06-02, updated 2026-06-03",
+      "event_date": "2026-06-02 and ongoing as reported",
+      "event": "CNTE teachers strike/protest in Mexico City, including roadblocks, over pay and pensions.",
+      "excerpt": "Striking teachers wreaked havoc on Tuesday in downtown Mexico City",
+      "excerpt_word_count": 10,
+      "access_and_provenance": "2026-10-11 03:11:37-03:11:38; open success, 03:11:49-50 lines 47-63; Guardian correspondent in Mexico City; observed action and union demands.",
+      "uncertainty": "Provisional; follow up for duration and independent corroboration."
+    }
+  ],
+  "excluded_or_noisy_results": [
+    "June result about a planned June10 rally is not proof of occurrence."
+  ],
+  "access_failures": [
+    "El País retrospective URL returned an internal error on open at 2026-10-11 03:16:30; La Jornada page remained directly accessible."
+  ],
+  "note": "Bounded first discovery pass; no findings are not evidence of absence. Planned/scheduled events remain unconfirmed unless a source describes them retrospectively. Claims are attributed to sources; not for canonical integration.",
+  "follow_up_searches": [
+    {
+      "access_utc": "2026-10-11 03:16:12..03:16:19 UTC",
+      "query": "Mexico transporters farmers national work stoppage April 6 2026 La Jornada April 7 protests",
+      "method": "managed public web search",
+      "purpose": "Resolve existing provisional lead only"
+    }
+  ],
+  "follow_up_sources": [
+    {
+      "lead_index": 0,
+      "url": "https://www.elpais.com/mexico/2026-04-07/los-productores-y-transportistas-levantan-el-paro-y-se-reuniran-con-gobernacion-este-viernes.html",
+      "publisher": "El País",
+      "publication_date": "2026-04-07",
+      "event_date": "2026-04-06 through approximately 2026-04-07; article says the stoppage began Monday and ended after 24 hours",
+      "excerpt": "Los agricultores y transportistas de México levantaron un paro iniciado el lunes tras apenas 24 horas",
+      "word_count": 13,
+      "access_utc": "2026-10-11 03:16:12-03:16:19 search listing; open attempt 03:16:30 failed",
+      "provenance": "Search-result snippet from El País; original La Jornada page was directly opened and fixes the event as April 6.",
+      "uncertainty": "Secondary corroboration is search-result-only; primary retained report is accessible La Jornada."
+    }
+  ],
+  "follow_up_assessment": "April6 date is corroborated by the accessible La Jornada article's 'yesterday' relative to Apr7; El País search listing independently describes the 24-hour stoppage but could not be opened. June2 Guardian report already directly describes observed action."
+}

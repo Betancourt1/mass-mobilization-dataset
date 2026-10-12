@@ -1,0 +1,145 @@
+{
+  "record_type": "provisional_public_source_discovery",
+  "country_scope": "Zimbabwe",
+  "country_slug": "zimbabwe",
+  "period": {
+    "start": "2026-04-01",
+    "end": "2026-06-30"
+  },
+  "status": "provisional; not a canonical schema, validated dataset, or completion claim",
+  "scope_note": "Bounded first discovery pass for publicly reported protests, demonstrations, and related collective actions. Planned actions are distinct from events that occurred. Empty/irrelevant search sets do not demonstrate absence.",
+  "capture": {
+    "prepared_at_utc": "2026-10-11T03:22:19Z",
+    "search_and_open_window_utc": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+    "timestamp_note": "Managed web tool did not expose request-level timestamps; this is the observed bounded query/open window."
+  },
+  "queries": [
+    {
+      "month_focus": "April",
+      "language": "English",
+      "query": "Zimbabwe protest demonstration April 2026 Harare rally",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "Surfaced a planned April 4 MDC march; later ICNL civic monitor states ZRP prohibited it and High Court challenge failed."
+    },
+    {
+      "month_focus": "April",
+      "language": "Shona",
+      "query": "Zimbabwe kuratidzira April 2026 Harare protest",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No separate Shona-language report surfaced; English local press and ICNL record found."
+    },
+    {
+      "month_focus": "May",
+      "language": "English",
+      "query": "Zimbabwe protest demonstration May 2026 Harare rally",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No dateable May event surfaced; ICNL reports assemblies on constitutional amendment were blocked/disrupted generally, without specific event details."
+    },
+    {
+      "month_focus": "May",
+      "language": "Shona",
+      "query": "Zimbabwe kuratidzira May 2026 Harare protest",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No clearly dated Shona-language event surfaced in the result set."
+    },
+    {
+      "month_focus": "June",
+      "language": "English",
+      "query": "Zimbabwe protest demonstration June 2026 Harare rally",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "Surfaced a planned June 8 anti-CAB3 demonstration; prosecutors later alleged police seized flyers before the scheduled event."
+    },
+    {
+      "month_focus": "June",
+      "language": "Shona",
+      "query": "Zimbabwe kuratidzira June 2026 Harare protest",
+      "searched_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+      "outcome": "No direct Shona-language report for a June demonstration surfaced; English local court reporting found the planned action."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "lead_id": "ZWE-2026-04-04-HARARE-MDC-PLANNED-BANNED",
+      "event_date": {
+        "value": "Planned for 2026-04-04; reported later prohibited; actual gathering not verified",
+        "uncertainty": "The planned demonstration is not treated as an event occurrence; no direct event report surfaced."
+      },
+      "location": "Africa Unity Square and parts of central Harare, Zimbabwe (announced route).",
+      "action_summary": "MDC notified police of a peaceful protest against Constitutional Amendment Bill No. 3; ICNL reports Zimbabwe Police issued a prohibition notice and the party unsuccessfully challenged it in court.",
+      "provisional_status": "planned action; prohibition reported, occurrence not confirmed",
+      "sources": [
+        {
+          "url": "https://www.newzimbabwe.com/mdc-to-stage-demonstration-against-constitutional-amendment-bill-extending-mnangagwas-term/",
+          "publisher": "NewZimbabwe",
+          "publication_date": "2026-03-26",
+          "accessed_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+          "excerpt": "MDC national organising secretary, Clifton Zumba, indicated ... the demonstration will be held on April 4.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "provenance": "Opened announcement with route/organizer and proposed date; does not establish that it occurred.",
+          "event_date_as_reported": "planned 2026-04-04"
+        },
+        {
+          "url": "https://www.icnl.org/resources/civic-freedom-monitor/zimbabwe",
+          "publisher": "International Center for Not-for-Profit Law, Zimbabwe Civic Freedom Monitor",
+          "publication_date": "Living country page; date of specific update not stated in opened passage; accessed 2026-10-11",
+          "accessed_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+          "excerpt": "In April 2026, the Zimbabwe Republic Police (ZRP) issued a prohibition notice under MOPA barring a planned demonstration.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "provenance": "Opened living monitor page; states notice, stated police rationale, and unsuccessful High Court challenge. This is not proof of event occurrence.",
+          "event_date_as_reported": "planned 2026-04-04"
+        }
+      ]
+    },
+    {
+      "lead_id": "ZWE-2026-06-08-MT-HAMPDEN-ANTI-CAB3-PLANNED",
+      "event_date": {
+        "value": "Planned for 2026-06-08; actual occurrence unverified; police reportedly seized fliers June 3",
+        "uncertainty": "This is an alleged planned action described in a court case; the action is not established as having occurred."
+      },
+      "location": "Parliament of Zimbabwe, Mt Hampden (planned venue).",
+      "action_summary": "Opposition activists allegedly planned a demonstration against CAB3 and circulated flyers; police reportedly recovered 44,600 fliers before the scheduled date.",
+      "provisional_status": "planned-action lead based on later court reporting; no demonstration occurrence confirmed",
+      "sources": [
+        {
+          "url": "https://zimbabwenow.co.zw/articles/23314/man-accused-of-printing-45000-anti-cab3-protest-fliers",
+          "publisher": "ZimbabweNow",
+          "publication_date": "Specific page publication date not stated in opened passage; context includes July 8 arrest and July 31 court return",
+          "accessed_utc_window": "2026-10-11T03:21:55Z to 2026-10-11T03:22:19Z; exact per-request time unavailable",
+          "excerpt": "According to prosecutors, the demonstration was scheduled for June 8, 2026, at the Parliament of Zimbabwe in Mt Hampden.",
+          "excerpt_note": "Short excerpt, under 25 quoted words.",
+          "provenance": "Opened court-reporting article; says police allegedly received tip May 29 and seized 44,600 fliers June 3, before planned June 8 event. These are prosecution allegations.",
+          "event_date_as_reported": "planned 2026-06-08"
+        }
+      ]
+    }
+  ],
+  "excluded_or_deferred_results": [
+    {
+      "item": "Zimbabweans protest proposed amendment outside Zimbabwe Embassy in London",
+      "source_url": "https://www.reutersconnect.com/item/uk-zimbabweans-protest-against-the-proposed-constitution-amendment/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVNJUEEwMDBUM0I5M0I",
+      "reported_event_date": "2026-04-18",
+      "reason": "Event occurred in London, United Kingdom, not Zimbabwe."
+    },
+    {
+      "item": "Parliamentary public-hearing chaos in Harare",
+      "source_url": "https://apnews.com/article/d64b105289d952e288a8f5092f314202",
+      "reported_event_date": "2026-03-31",
+      "reason": "Outside Q2; public consultation/hearing rather than Q2 protest."
+    },
+    {
+      "item": "July 31 anti-amendment demonstrations/shutdown call",
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/8/2/a-quiet-day-in-harare-after-zimbabwes-shutdown-call",
+        "https://gambakwe.com/2026/08/01/zimbabwe-police-quash-planned-anti-term-extension-protests-as-harare-cbd-sees-heavy-presence/"
+      ],
+      "reported_event_date": "2026-07-31",
+      "reason": "Outside Q2."
+    }
+  ],
+  "failures_and_limits": [
+    "ICNL describes May 2026 assembly disruptions as a pattern but does not identify a date/location/action suitable for a discrete event record. The June 8 action is only an allegation of a planned protest; occurrence is unknown."
+  ],
+  "next_pass_priorities": [
+    "Verify whether announced actions occurred and search further local reporting before any event coding or completion claim."
+  ]
+}

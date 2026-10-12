@@ -1,0 +1,97 @@
+{
+  "country": "Central African Republic",
+  "country_slug": "central-african-republic",
+  "quarter": "2026Q2",
+  "period_start": "2026-04-01",
+  "period_end": "2026-06-30",
+  "status": "provisional public discovery; not canonical; no formal validation performed",
+  "search_logs": [
+    {
+      "query": "République centrafricaine grève manifestation protestation avril 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Central African Republic strike protest demonstration April 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "République centrafricaine grève manifestation protestation mai 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Central African Republic strike protest demonstration May 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "greve informáticos Autorité nationale élections RCA mai 2026 résultats second tour législatives",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Angola? no. Bangui grève agents électoraux mai 2026 confirmation",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "République centrafricaine grève manifestation protestation juin 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    },
+    {
+      "query": "Central African Republic strike protest demonstration June 2026",
+      "queried_at_utc": "2026-10-11T03:12Z–03:13Z approximate search batch; individual call timestamps unavailable. Public source opens approximately 2026-10-11T03:13Z.",
+      "method": "managed web search",
+      "note": "Exact query retained; approximate UTC window because the managed search tool did not expose per-call timestamps."
+    }
+  ],
+  "events": [
+    {
+      "id": "central-african-republic-2026-05-03-ane-it-workers-strike",
+      "event_date": "2026-05-03/2026-05-05",
+      "event_date_precision": "range; May 3 results announcement was delayed due to strike, reported May 5",
+      "country": "Central African Republic",
+      "location": "Bangui, National Elections Authority data-processing center",
+      "title": "ANE data-processing technicians strike over unpaid wages",
+      "publication_date": "2026-05-05",
+      "source_url": "https://information.tv5monde.com/afrique/centrafrique-des-informaticiens-en-greve-bloquent-les-resultats-du-second-tour-des-legislatives-2026-2820361",
+      "source_type": "TV5MONDE report (with Radio Ndeke Luka reporting) and corroborating AFP/Africanews",
+      "excerpt": "suite à une grève des informaticiens du centre de traitement des données.",
+      "excerpt_word_count": 12,
+      "notes": "TV5MONDE says election-result announcement planned for May3 was postponed following the strike and technicians demanded two months’ arrears. Africanews/AFP also reported the strike. The strike onset may predate May3; range is a cautious reporting window."
+    }
+  ],
+  "excluded_or_unverified_leads": [
+    {
+      "lead": "April 30 Olympic march",
+      "reason": "Official report describes a pre-Labor-Day sporting/fitness march in Bangui, not a demonstration of dissent."
+    },
+    {
+      "lead": "May Day celebrations",
+      "reason": "Official results describe a labor holiday celebration, not a protest occurrence."
+    },
+    {
+      "lead": "April 2025 Bangui rally",
+      "reason": "Outside target year and quarter."
+    }
+  ],
+  "source_access_failures": [],
+  "method_notes": [
+    "Bounded search for strikes, public protests, demonstrations, rallies and mobilizations physically inside the country during Apr-Jun 2026.",
+    "Local-language queries were used where feasible: Portuguese for Cape Verde, French for Chad and Central African Republic, Spanish for Chile; English companion queries included.",
+    "No-results is not an absence claim. Planned or canceled actions and non-dissent civic/sporting marches are not counted as protest events.",
+    "Publication date, event date and precision are separated; exact URLs and source provenance retained.",
+    "Each excerpt is under 25 words.",
+    "Provisional staging only; no scientific-kit integration or canonical schema validation performed."
+  ]
+}
