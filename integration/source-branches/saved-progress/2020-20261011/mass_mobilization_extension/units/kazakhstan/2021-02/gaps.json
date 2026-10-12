@@ -1,0 +1,168 @@
+[
+  {
+    "gap_id": "KAZ202102-G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization baseline/manual is not available in this worker dossier; original coding and inclusion comparison remain pending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "KAZ202102-E001",
+      "KAZ202102-E002",
+      "KAZ202102-E003"
+    ],
+    "required_followup": "Coordinator to reconcile against the official baseline and codebook before any integration."
+  },
+  {
+    "gap_id": "KAZ202102-G002",
+    "type": "coverage_search_method",
+    "description": "Nine batched open-web search actions (36 query strings; 257 ordered headers) covered English, Russian and Kazakh issue, date-window and city terms. This is not systematic LexisNexis or local-archive coverage and does not establish completeness.",
+    "source_ids": [
+      "KAZ202102-S001",
+      "KAZ202102-S002",
+      "KAZ202102-S003",
+      "KAZ202102-S004",
+      "KAZ202102-S005",
+      "KAZ202102-S006",
+      "KAZ202102-S007",
+      "KAZ202102-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue regional, labor-sector and local-language searches; record archive/database coverage if obtained."
+  },
+  {
+    "gap_id": "KAZ202102-G003",
+    "type": "discovery_followup",
+    "description": "Eighteen relevant source cards remain search-only, including multi-city rally accounts; Aktobe and Shymkent bus reports; the KTK turnout headline; a February oil-worker strike lead; Chinese-consulate protests; reports about kettling/internet shutdowns; and a March crane-operators follow-up. None of these unread bodies was used for event coding.",
+    "source_ids": [
+      "KAZ202102-S003",
+      "KAZ202102-S004",
+      "KAZ202102-S007",
+      "KAZ202102-S008",
+      "KAZ202102-S009",
+      "KAZ202102-S010",
+      "KAZ202102-S011",
+      "KAZ202102-S012",
+      "KAZ202102-S013",
+      "KAZ202102-S014",
+      "KAZ202102-S015",
+      "KAZ202102-S016",
+      "KAZ202102-S017",
+      "KAZ202102-S018",
+      "KAZ202102-S019",
+      "KAZ202102-S020",
+      "KAZ202102-S021",
+      "KAZ202102-S022"
+    ],
+    "affected_candidates": [
+      "KAZ202102-E001",
+      "KAZ202102-E002",
+      "KAZ202102-E003"
+    ],
+    "required_followup": "Review the highest-value exact URLs after fresh source-access checks; distinguish duplicates and event leads, then update candidates only from permitted body evidence."
+  },
+  {
+    "gap_id": "KAZ202102-G004",
+    "type": "attendance_episode_unit",
+    "description": "The retrospective crane-worker report provides campaign dates and several demands but no attendance for any gathering, no continuous-presence evidence and no campaign end.",
+    "source_ids": [
+      "KAZ202102-S005"
+    ],
+    "affected_candidates": [
+      "KAZ202102-E002"
+    ],
+    "required_followup": "Seek contemporaneous February reports or worker/official records for attendance, exact February 12 action, intervening events, closure and inspection outcome."
+  },
+  {
+    "gap_id": "KAZ202102-G005",
+    "type": "public_assembly_state_target",
+    "description": "The Shymkent Bus report gives a work stoppage, route and workforce numbers, but no verified turnout, public assembly site or clear state-directed demand. It reports city officials’ promise, with implementation unknown.",
+    "source_ids": [
+      "KAZ202102-S006"
+    ],
+    "affected_candidates": [
+      "KAZ202102-E003"
+    ],
+    "required_followup": "Find a contemporaneous source or official record clarifying participants, public gathering, target, official role and whether the promised pay change occurred."
+  },
+  {
+    "gap_id": "KAZ202102-G006",
+    "type": "episode_grouping_attendance",
+    "description": "February 28 reports describe multiple city actions. Almaty crowd counts, police detentions and kettling references may concern different places/groups; detainee counts cannot substitute for turnout or be pooled. RFE/RL credits Reuters reporting and Tirek links other coverage that was not followed.",
+    "source_ids": [
+      "KAZ202102-S001",
+      "KAZ202102-S002",
+      "KAZ202102-S004"
+    ],
+    "affected_candidates": [
+      "KAZ202102-E001",
+      "KAZ202102-X002"
+    ],
+    "required_followup": "Review the specific Almaty sources and story lineage; retain action-by-city boundaries and source dependence."
+  },
+  {
+    "gap_id": "KAZ202102-G007",
+    "type": "continuity_boundary",
+    "description": "Physical end dates are not established for the Oral rally, crane campaign or Shymkent stoppage beyond a several-hours duration. A search-only March 2 crane headline does not establish continuity of the February campaign. No outside-month continuation is verified.",
+    "source_ids": [
+      "KAZ202102-S001",
+      "KAZ202102-S005",
+      "KAZ202102-S006",
+      "KAZ202102-S016"
+    ],
+    "affected_candidates": [
+      "KAZ202102-E001",
+      "KAZ202102-E002",
+      "KAZ202102-E003"
+    ],
+    "required_followup": "Search follow-up coverage for physical closure and check adjacent-month units before episode ownership decisions."
+  },
+  {
+    "gap_id": "KAZ202102-G008",
+    "type": "response_unknown",
+    "description": "The read reports establish limited Oral detention information, a labor-inspector promise and municipal mediation; they do not comprehensively establish beatings, dispersal, shootings, killings or the remaining response variables for each action.",
+    "source_ids": [
+      "KAZ202102-S001",
+      "KAZ202102-S005",
+      "KAZ202102-S006"
+    ],
+    "affected_candidates": [
+      "KAZ202102-E001",
+      "KAZ202102-E002",
+      "KAZ202102-E003"
+    ],
+    "required_followup": "Use action-specific reporting or official records; do not infer from silence, context or response to another city."
+  },
+  {
+    "gap_id": "KAZ202102-G009",
+    "type": "access_technical_failure",
+    "description": "The captured KTK lead’s search-result title estimates nearly 300 Shymkent Bus drivers refusing work, but this is unverified. Its exact web.open returned a one-line Internal Error, and a separately gated direct HTTPS attempt failed DNS before HTTP. No denial or body evidence was obtained; it remains search-only.",
+    "source_ids": [
+      "KAZ202102-S006",
+      "KAZ202102-S009"
+    ],
+    "affected_candidates": [
+      "KAZ202102-E003"
+    ],
+    "required_followup": "If ordinary public retrieval later succeeds, use a fresh exact-URL receipt and manual scope review; verify whether the headline number represents actual turnout and whether a public gathering or state-directed demand occurred."
+  },
+  {
+    "gap_id": "KAZ202102-G010",
+    "type": "foreign_target_threshold",
+    "description": "Two search-only reports describe protests outside the Chinese consulate or demands related to relatives detained by Chinese authorities. The bodies, turnout and any demand directed to Kazakhstan or its policy were not reviewed; foreign-target-only activity may fall outside this unit’s inclusion rule.",
+    "source_ids": [
+      "KAZ202102-S010",
+      "KAZ202102-S019"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read permitted bodies only if needed to distinguish a foreign-target-only action from a demand on the Kazakhstan state or policy, and establish turnout."
+  },
+  {
+    "gap_id": "KAZ202102-G011",
+    "type": "oil_strike_date_continuity",
+    "description": "A search-only Tengrinews headline dated February 2 says one oil-worker strike ended and another began. Without the body, strike dates, location, participants, public-gathering status, demands and any January continuity are unresolved. No event or continuation was coded from the title.",
+    "source_ids": [
+      "KAZ202102-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the exact report and contemporaneous local sources; check January/February ownership and qualifying public assembly before creating a candidate or continuation."
+  }
+]

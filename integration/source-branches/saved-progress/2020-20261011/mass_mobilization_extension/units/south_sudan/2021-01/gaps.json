@@ -1,0 +1,103 @@
+[
+  {
+    "gap_id": "south_sudan_2021-01_G001",
+    "type": "baseline",
+    "description": "The official latest dataset bytes, observation universe, current schema, license/conditions, and additional Coding Procedure remain unverified; the unit retains the pending official baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should resolve the official baseline and additional Coding Procedure before official compatibility claims, integration or approval. Provisional research, consolidation and working exports may continue with the pending baseline gate and evidence limits explicit."
+  },
+  {
+    "gap_id": "south_sudan_2021-01_G002",
+    "type": "search_method",
+    "description": "This was an open-web review, not the original LexisNexis newspaper search. Search-engine results were often dated outside the requested week or year, and query count or header count cannot establish coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Revisit the unit if licensed newspaper archives or an approved source list becomes available; verify dates in source pages rather than relying on search ranking."
+  },
+  {
+    "gap_id": "south_sudan_2021-01_G003",
+    "type": "coverage",
+    "description": "Queries covered Juba and regional locations including Malakal, Bor, Wau, Aweil, Yei, Yambio, Rumbek, Bentiu, and Renk, but regional reporting and searchable archives are uneven. The bounded review cannot establish that every locality or outlet was covered.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use additional local and regional archives and organization records when accessible; preserve their source and language provenance."
+  },
+  {
+    "gap_id": "south_sudan_2021-01_G004",
+    "type": "language",
+    "description": "English and Arabic discovery terms were used. There was no systematic search in Bari, Dinka, Nuer, Zande, or other regional languages, and the Arabic Malakal report has not received human translator review.",
+    "source_ids": [
+      "SS202101-S069"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Add regional-language source discovery and independent human review of Arabic passages before relying on fine-grained translation."
+  },
+  {
+    "gap_id": "south_sudan_2021-01_G005",
+    "type": "source_access",
+    "description": "The Radio Tamazuj Arabic archive URL redirected to the site homepage rather than a filtered January archive; its extracted 197 links may be incomplete or unfiltered. The Sudans Post graduates article returned HTTP 200 but its body text was not extracted. Some pages produced browser Cache miss/timeout responses; no publisher denial, login wall, or anti-bot block was encountered or retried.",
+    "source_ids": [
+      "SS202101-S001",
+      "SS202101-S007",
+      "SS202101-S069"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use a stable, accessible archive route and review the full bodies of relevant metadata-only leads if they become temporally relevant; do not infer content from search titles."
+  },
+  {
+    "gap_id": "south_sudan_2021-01_G006",
+    "type": "dates",
+    "description": "No January-dated public gathering was supported by the retained source set. Date filters returned older and later pages, and the graduates-protest lead is published in February with no event date established from the extracted content.",
+    "source_ids": [
+      "SS202101-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check article publication and physical event dates separately for any later-recovered source body; retain unknown event dates rather than assigning them to January."
+  },
+  {
+    "gap_id": "south_sudan_2021-01_G007",
+    "type": "participants",
+    "description": "The bounded searches did not identify a January South Sudan gathering for which attendance could be assessed against the 50-person threshold. This is an evidence gap, not a finding that no qualifying crowd existed.",
+    "source_ids": [
+      "SS202101-S058",
+      "SS202101-S059",
+      "SS202101-S082"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a January physical gathering is found, seek an explicit crowd estimate or direct count and retain the original wording and attribution."
+  },
+  {
+    "gap_id": "south_sudan_2021-01_G008",
+    "type": "episode_unit",
+    "description": "December 2020 and February 2021 boundary searches found no report tying a physical episode to January. They do not establish complete boundary coverage or the beginning/ending dates of unreported activity.",
+    "source_ids": [
+      "SS202101-S001",
+      "SS202101-S004",
+      "SS202101-S057",
+      "SS202101-S069"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Recheck adjacent months if a relevant event source is later identified; do not assign January ownership or infer a physical end without episode evidence."
+  },
+  {
+    "gap_id": "south_sudan_2021-01_G009",
+    "type": "source_independence",
+    "description": "The three January electricity articles rely on JEDCO/Ezra statements about the threatened cutoff and its resolution. They do not independently corroborate a protest or gathering.",
+    "source_ids": [
+      "SS202101-S058",
+      "SS202101-S059",
+      "SS202101-S082"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep these reports linked to their shared company statements and seek independent participant or witness evidence only if a physical gathering is alleged."
+  },
+  {
+    "gap_id": "south_sudan_2021-01_G010",
+    "type": "state_response",
+    "description": "No January event candidate was supported, so no event-level coding was attempted for accommodation, arrests, beatings, crowd dispersal, ignore, killings, or shootings.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Code the seven response dimensions only if a qualifying event is later supported, using evidence tied to that specific event and actor."
+  }
+]

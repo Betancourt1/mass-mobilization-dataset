@@ -1,0 +1,28 @@
+{
+  "unit_id": "denmark_2021-01",
+  "country": "Denmark",
+  "month": "2021-01",
+  "agent_task": "/root/denmark_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T09:51:35.194682+00:00",
+  "finished_at": "2026-10-08 10:02:29 UTC",
+  "n_queries": 61,
+  "n_sources": 99,
+  "n_candidates": 6,
+  "n_excluded": 8,
+  "n_continuations": 3,
+  "n_gaps": 17,
+  "coverage_assessment": "Danish/English broad, weekly-window, sector, regional and Dec/Feb boundary open-web pass. Six January physical-gathering leads: four pending_unit, one pending_evidence, one pending_threshold. Original-body, attendance, chronology and episode gaps remain. Not exhaustive coverage or absence evidence.",
+  "baseline_gate": "pending_official_baseline",
+  "human_independent_approval": false,
+  "fixed_cutoff": "2026-10-07 America/Mexico_City",
+  "manual_status": "Local baseline/mm_codebook.txt read; additional Coding Procedure unavailable.",
+  "temporary_resources_started": [
+    {
+      "resource": "finite ordinary HTTPS reader",
+      "session_id": 5457,
+      "observed_exit_code": 0
+    }
+  ],
+  "cleanup_verified": "Finite HTTPS reader session5457 completed with exit0; no long-lived server/browser/container started. Owned temporary input payload removed."
+}

@@ -1,0 +1,26 @@
+{
+  "unit_id": "finland_2021-02",
+  "country": "Finland",
+  "month": "2021-02",
+  "agent_task": "/root/finland_2021_02_batch56",
+  "actual_agent_id": "01a12537-b92d-7122-8e5c-b102ae8c4be2",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T09:52:03.166804+00:00",
+  "finished_at": "2026-10-10T10:19:26+00:00",
+  "n_queries": 11,
+  "n_sources": 7,
+  "n_candidates": 1,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 6,
+  "source_access_counts": {
+    "opened_cards": 1,
+    "search_only_cards": 6,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "coverage_assessment": "Broad open-web first pass across 11 captured batched responses (44 individual query expressions), 349 ordered headers, generic and four weekly/date windows, regional and labor/student/climate/refugee/health/farmer terms, and English, Finnish and Swedish searches. The leading February 14 Helsinki record remains pending_evidence because actual attendance and unit grouping are unresolved. Searches do not establish absence, representativeness or exhaustive regional coverage. 0 current-unit body opens; 2 prior-unit-only consultations.",
+  "baseline_gate": "pending_official_baseline",
+  "human_approved": false,
+  "access_notes": "S001 exact URL attempt 1 was withheld after the immediate input hash comparison failed; attempt 2 returned Cache miss with no HTTP status or body and no denial. See access_receipts/fin202102_s001_body_attempt02.json and its manual scope note. Search capture and receipt manifests are saved under access_receipts/."
+}

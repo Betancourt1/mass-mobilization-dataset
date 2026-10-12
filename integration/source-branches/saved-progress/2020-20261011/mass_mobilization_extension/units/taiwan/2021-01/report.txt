@@ -1,0 +1,29 @@
+Taiwan, January 2021 — open-web research record
+
+Scope and status
+
+This unit covers possible public mobilizations in Taiwan physically beginning from 1 through 31 January 2021. The assigned code 713 is provisional. The cutoff is 7 October 2026 inclusive, America/Mexico_City. This is a research record for coordinator review, not an official Mass Mobilization update. The official current baseline, universe, and supplementary Coding Procedure remain unverified.
+
+Search coverage
+
+The log contains 19 single-query searches. Searches used Traditional Chinese and English, plus one limited Taiwanese-language/PBS-oriented pass; covered 1–7, 8–14, 15–21, and 22–31 January; checked Taipei and several other regions; and included labor, students, farmers, environmental issues, politics, solidarity, and broader action terms. December-to-January and February follow-ups were also attempted. A February-focused Hong Kong-rights query returned a separate CNA report on a 2 March press conference; it does not establish a February gathering or physical continuity after the January 8 event. Query result totals were not exposed, and no absence or exhaustive coverage is claimed. Search log headers preserve the actual titles, URLs, references, and order returned. Q014’s initial header parse treated a string result as empty; it was repaired from the immediately stored raw return without rerunning the query.
+
+The 21 source cards comprise 12 opened, 7 search-only, 1 blocked, and 1 not-found item. Search-only leads are not used as proof of turnout or occurrence. Several links refer to multiple stages of one event or to the same organizer account; URL count is not treated as independent corroboration.
+
+January candidate
+
+E001 records the January 8 press conference at Legislative Yuan Room 101 by Taiwan civil-society and Hong Konger groups. The organizers explicitly called on Taiwan’s own government to enact a Hong Kong Human Rights and Democracy Clause and formalize assistance to Hong Kongers; separate requests addressed Chinese/Hong Kong authorities and the EU. The foreign addressees remain distinct from the domestic Taiwan policy demand.
+
+The event is a documented press conference, not an established public mass gathering. Organizer, CNA, and Civil Media accounts identify speakers, including two remote participants, but provide no onsite attendance total, public-access description, or physical end. Organization counts and online speakers are not turnout. Eligibility remains pending evidence because public gathering status and the 50-person threshold are unresolved. The seven state-response dimensions and participant violence remain unknown; silence is not coded as no. The demand is retained in original wording rather than mapped to a category without the supplementary procedure.
+
+C001 preserves the anti-ractopamine-pork alliance’s December 31–January 1 physical episode as a continuation into this month. TVBS reports that about 100 people walked around the Legislative Yuan on December 31 while opposing Taiwan’s pork-import policy, followed by an overnight camp and January 1 actions. This is the prior-month physical-assembly, domestic-state-target, and qualitative-threshold evidence; ownership is not assigned from the camp’s planned start alone. TVBS and NOWnews differ on the camp location, and NOWnews’s January 1 estimate of fewer than 100 does not establish a 50-person lower bound. NOWnews reports the group disbanded after reaching the Executive Yuan. C001 is not a second January-start event; the December coordinator must review ownership and the applicable episode rules. The separate November 22 Autumn Struggle is not merged because no continuous physical presence to December 31 is reported.
+
+X001 records a January 7 joint statement about Hong Kong assistance policy as an excluded non-gathering lead, distinct from the next-day press conference.
+
+Access, process, and remaining limitations
+
+The Yahoo January 1 URL S004 returned an actual 404 and was not retried. The exact FTV URL S006 returned an actual 403 and was not retried or bypassed. Ifeng S009 timed out; FTV Sports S003 and Civil Media S014 remained search-only after Cache miss. Other exact-URL HTTPS requests to TVBS, NOWnews, and the TVBS pre-event notice returned HTTP 200; selected body text was read. The request script exited 0 for that request batch, including the 403 response. A sandbox DNS attempt for TVBS exited 1 before one allowed exact-URL HTTPS retrieval succeeded with HTTP 200 and process exit 0.
+
+Two file-preparation attempts failed with process exit 1 because Python Path.write_text does not accept a newline argument; neither wrote the intended batch. Both were corrected using explicit LF file handles, and the corrected writes exited 0. All query-persistence and validation commands returned finite numeric exit codes; no actual session IDs were returned. One preliminary validation exited 1 because it checked final counts while status.json still held pre-final counts; the complete validation after the status update exited 0. No persistent server, watcher, browser automation, container, virtual machine, or other temporary resource was started.
+
+Further review should resolve E001’s publicness, turnout, physical end, response evidence, and demand-category mapping; review C001’s December ownership and camp-location conflict; and compare all records against the verified official baseline and supplemental procedure.

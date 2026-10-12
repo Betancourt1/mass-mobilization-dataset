@@ -1,0 +1,96 @@
+[
+  {
+    "gap_id": "TZ202101-G001",
+    "type": "participants",
+    "description": "The Global Publishers body reports a daladala service stoppage at Sabasaba but does not state that drivers/owners physically assembled as a public group or provide human turnout. Whether a gathering occurred, its size, and physical onset are unknown.",
+    "source_ids": [
+      "TZ202101-S071"
+    ],
+    "affected_candidates": [
+      "tanzania_2021-01-E001"
+    ],
+    "required_followup": "Use accessible independent contemporary reporting or a public record to verify whether a public gathering occurred, establish any human turnout and its physical onset, and do not infer attendance from vehicles."
+  },
+  {
+    "gap_id": "TZ202101-G002",
+    "type": "dates",
+    "description": "The January 13 report does not establish when the stoppage physically ended or service resumed.",
+    "source_ids": [
+      "TZ202101-S071"
+    ],
+    "affected_candidates": [
+      "tanzania_2021-01-E001"
+    ],
+    "required_followup": "Find a dated account of departure/resumption or keep end_date null."
+  },
+  {
+    "gap_id": "TZ202101-G003",
+    "type": "other",
+    "description": "The explicit requests concern terminal infrastructure and space allocation; the existing demand categories do not directly cover these demands, and the article does not expressly request a fee reduction.",
+    "source_ids": [
+      "TZ202101-S071"
+    ],
+    "affected_candidates": [
+      "tanzania_2021-01-E001"
+    ],
+    "required_followup": "Retain the textual demand and check the existing taxonomy before assigning any category; do not force a match."
+  },
+  {
+    "gap_id": "TZ202101-G004",
+    "type": "state_response",
+    "description": "No state response to the drivers' demands is established. The city director's refusal to comment to a reporter is not proof of ignoring or refusing the protesters.",
+    "source_ids": [
+      "TZ202101-S071"
+    ],
+    "affected_candidates": [
+      "tanzania_2021-01-E001"
+    ],
+    "required_followup": "Seek direct evidence of negotiation, reception, enforcement, or physical crowd response; otherwise preserve unknowns."
+  },
+  {
+    "gap_id": "TZ202101-G005",
+    "type": "source_access",
+    "description": "Three distinct leads about the Dodoma daladala stoppage were inaccessible: Mwananchi returned HTTP 403; ITV returned browser cache misses, a default DNS failure, and then HTTP 403 on one escalated exact-URL request; IPP Media returned HTTP 403. None of these bodies was read.",
+    "source_ids": [
+      "TZ202101-S027",
+      "TZ202101-S072",
+      "TZ202101-S073"
+    ],
+    "affected_candidates": [
+      "tanzania_2021-01-E001"
+    ],
+    "required_followup": "Respect each denial. Continue only with distinct accessible sources; do not retry, bypass, or seek mirrors, and do not treat search-result leads as corroboration."
+  },
+  {
+    "gap_id": "TZ202101-G006",
+    "type": "coverage",
+    "description": "Searches covered broad and weekly English terms plus Swahili, Zanzibar, Dodoma, and several sector terms. Results were heavily mixed with 2001 election material and recent events; rural, district-level and independent local-source coverage remains uneven.",
+    "source_ids": [
+      "TZ202101-S001",
+      "TZ202101-S071"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue region/sector searches and explicitly record language, geographic, archive, and web-index limits. Do not infer that no other gatherings occurred."
+  },
+  {
+    "gap_id": "TZ202101-G007",
+    "type": "search_method",
+    "description": "Open-web searching does not reproduce the original LexisNexis newspaper expansion and date filters may be ignored.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Report this method difference and do not claim exhaustive coverage."
+  },
+  {
+    "gap_id": "TZ202101-G008",
+    "type": "episode_unit",
+    "description": "A February 2 report concerns a planned nationwide truck/bus strike over alleged police brutality and states it did not take place; no coordination with the January 13 Sabasaba daladala stoppage is evidenced.",
+    "source_ids": [
+      "TZ202101-S002",
+      "TZ202101-S071"
+    ],
+    "affected_candidates": [
+      "tanzania_2021-01-E001"
+    ],
+    "required_followup": "Keep the reports and demands separate unless direct evidence establishes a common organizer or continuous episode."
+  }
+]

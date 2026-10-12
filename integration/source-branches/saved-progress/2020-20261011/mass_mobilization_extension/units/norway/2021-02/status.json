@@ -1,0 +1,46 @@
+{
+  "unit_id": "norway_2021-02",
+  "country": "Norway",
+  "month": "2021-02",
+  "agent_task": "/root/norway_2021_02_batch60",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T19:19:11.673288+00:00",
+  "finished_at": "2026-10-10T20:20:59Z",
+  "n_queries": 16,
+  "n_sources": 18,
+  "n_candidates": 2,
+  "n_excluded": 3,
+  "n_continuations": 0,
+  "n_gaps": 8,
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 3,
+    "search_only_cards": 15,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "source_read_scope": {
+    "current_unit_body_read_cards": 1,
+    "prior_unit_only_consultations": 3,
+    "physical_body_requests": 2,
+    "bodies_returned_and_read": 1,
+    "tool_failures_without_body": 1,
+    "prior_scope_context_consulted_with_current_body_cards": 1
+  },
+  "query_capture_integrity": {
+    "captured_action_count": 16,
+    "captured_header_count": 360,
+    "registered_rollout_exact_ordered_header_comparison": "pass",
+    "final_capture_manifest_sha256": "eb04c789f78510f408fef236fbbcbb0a5bb1e8f8301df62794504cbed23e0da2",
+    "registered_rollout_native_clock_comparison": "pass_all_16_actions",
+    "native_clock_repair_event_ids": [
+      "exec-61f3438b-5431-4efa-8c96-476da96fba7c",
+      "exec-8a32b106-be74-4ec5-b33a-bdee17d372be",
+      "exec-88bc26d0-f49a-448e-81a2-64092e6ea325",
+      "exec-1b283437-f9de-4a80-8a9c-c6367cd6156c"
+    ],
+    "native_clock_repair_count": 4,
+    "native_clock_repair_completed_at": "2026-10-10T20:36:21Z"
+  },
+  "coverage_assessment": "16 actual search actions / 360 captured headers; 1 current-unit body opens and 3 prior-unit-only consultations. Open-web Norwegian and English search only, not LexisNexis or exhaustive language/regional archive coverage. 2 date-specific candidates, one proposed inclusion based partly on one uncorroborated partisan estimate; one pending the >=50 threshold. 3 unresolved excluded leads, no physical cross-month continuation evidenced, 8 open gaps. Ready for coordinator review, not official approval."
+}

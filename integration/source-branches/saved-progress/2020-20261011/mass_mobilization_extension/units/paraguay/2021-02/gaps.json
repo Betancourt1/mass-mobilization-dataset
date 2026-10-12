@@ -1,0 +1,207 @@
+[
+  {
+    "gap_id": "PAR2021-02-G001",
+    "type": "candidate_evidence",
+    "description": "The bounded S001 ABC Color body read reports a public gathering at Chile corner Avda. Ygatimí in Asunción and a demand for the attorney general’s resignation or impeachment. It is truncated at the 250000-byte cap, reports no numeric turnout, and the extraction did not establish exact event onset/end. A Palace of Justice reference and the relation to S002 remain unresolved; S002 is search-only.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "PAR2021-02-E001"
+    ],
+    "required_followup": "In a new authorized phase, review S002 under its own fresh exact-URL gate to determine whether the EFE report describes the same or a distinct gathering and whether it supplies date/attendance evidence. If S001 date, turnout, physical end or Palace-site boundaries remain material, pursue only a fresh permitted exact-URL retrieval with a new complete gate."
+  },
+  {
+    "gap_id": "PAR2021-02-G002",
+    "type": "candidate_evidence",
+    "description": "S003 is a search-result call for a Ko’ág̃a demonstration; the result does not establish that a gathering occurred.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "PAR2021-02-E002"
+    ],
+    "required_followup": "In a future authorized reading phase, verify execution, date, location, organizers, demand and observed attendance from S003 and seek contemporaneous corroboration if needed."
+  },
+  {
+    "gap_id": "PAR2021-02-G003",
+    "type": "candidate_evidence",
+    "description": "S004 and S005 are search-result leads to a planned Ciudad del Este follow-up/“second mobilization.” Neither result establishes execution or whether the reports describe a distinct action.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "PAR2021-02-E003"
+    ],
+    "required_followup": "Verify actual execution and event boundaries, and inspect the written-origin relationship, with separate fresh access gates for any exact URL requested."
+  },
+  {
+    "gap_id": "PAR2021-02-G004",
+    "type": "candidate_evidence",
+    "description": "S006’s headline refers to a “movida” at the Directorate of Supplies, but search metadata does not tell whether a public gathering occurred. A phase04 receipt was saved, but the full manual review and body request were not completed before the phase closed; the source remains search-only and no denial is inferred.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "PAR2021-02-E004"
+    ],
+    "required_followup": "In a new authorized phase, complete a fresh full publisher/origin/restriction review for the exact S006 URL and request the body only after its live gate passes; determine what “movida” means and whether a gathering, date, demand and attendance are documented."
+  },
+  {
+    "gap_id": "PAR2021-02-G005",
+    "type": "candidate_evidence",
+    "description": "S009 reports a deadline for MEC action, not a gathering. S010 says a late-February FEP mobilization was planned; execution, date and site remain unknown.",
+    "source_ids": [
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [
+      "PAR2021-02-E005"
+    ],
+    "required_followup": "Verify the exact S010 announcement and any contemporaneous execution report under fresh gates; do not count the deadline as an event."
+  },
+  {
+    "gap_id": "PAR2021-02-G006",
+    "type": "candidate_evidence",
+    "description": "S016 and S017 point to women’s demands directed at the Ministry of Women; captured search metadata does not establish exact occurrence, date, venue, attendance or whether both items describe one action.",
+    "source_ids": [
+      "S016",
+      "S017"
+    ],
+    "affected_candidates": [
+      "PAR2021-02-E006"
+    ],
+    "required_followup": "Assess the strongest exact report first, then cross-check the second exact URL only if it can clarify identity, origin, attendance or state response; use separate fresh gates."
+  },
+  {
+    "gap_id": "PAR2021-02-G007",
+    "type": "candidate_evidence",
+    "description": "S018 and S019 announce a PLRA/Efraín Alegre mobilization or call. Planned size is not observed attendance, and event occurrence and political-rally eligibility are unresolved.",
+    "source_ids": [
+      "S018",
+      "S019"
+    ],
+    "affected_candidates": [
+      "PAR2021-02-E007"
+    ],
+    "required_followup": "Verify whether an in-month public gathering occurred, its crowd and demand, and apply the political-rally rule after reading event context; do not infer occurrence from an announcement."
+  },
+  {
+    "gap_id": "PAR2021-02-G008",
+    "type": "date_assignment",
+    "description": "S020 is an undated search-result lead about a Frente Mujer call. No publication date, February date or relation to another action is established.",
+    "source_ids": [
+      "S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep the item unassigned to February unless a dated original report is found and reviewed under a fresh gate."
+  },
+  {
+    "gap_id": "PAR2021-02-G009",
+    "type": "month_boundary",
+    "description": "S012–S015 are search results about announced March 2 school actions; S021–S023 are March-protest or pandemic-governance context leads. These results do not establish a February onset or a February event continuing into March.",
+    "source_ids": [
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S021",
+      "S022",
+      "S023"
+    ],
+    "affected_candidates": [
+      "PAR2021-02-E005",
+      "PAR2021-02-E007"
+    ],
+    "required_followup": "Maintain February/March boundaries; review adjacent months only if source bodies establish a physical continuation or a distinct February action."
+  },
+  {
+    "gap_id": "PAR2021-02-G010",
+    "type": "eligibility_and_response",
+    "description": "S001 body evidence establishes a public gathering and an own-state demand for the attorney general’s resignation or impeachment, but no numeric attendance; E001 therefore remains pending_threshold. Its exact event date, the ≥50 threshold, political-rally treatment where relevant, EFE/ABC relationship and event-specific state responses remain unresolved. For E002–E007, occurrence and eligibility also remain unverified. All seven state-response variables are unknown for every candidate; no silence is coded as no response.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S009",
+      "S010",
+      "S016",
+      "S017",
+      "S018",
+      "S019"
+    ],
+    "affected_candidates": [
+      "PAR2021-02-E001",
+      "PAR2021-02-E002",
+      "PAR2021-02-E003",
+      "PAR2021-02-E004",
+      "PAR2021-02-E005",
+      "PAR2021-02-E006",
+      "PAR2021-02-E007"
+    ],
+    "required_followup": "Read exact source bodies under fresh per-URL access gates; preserve unknowns unless evidence supports a field and a particular gathering."
+  },
+  {
+    "gap_id": "PAR2021-02-G011",
+    "type": "coverage",
+    "description": "The 10 captured open-web search actions include 40 exact query strings and 253 ordered headers across national, week-range, sector, education, medicine, women, labor and political leads. They are a bounded discovery surface, not an exhaustive news corpus.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Consider additional targeted regional and archive research if warranted; do not infer event absence from this search result set."
+  },
+  {
+    "gap_id": "PAR2021-02-G012",
+    "type": "language_and_media_coverage",
+    "description": "Searches used primarily Spanish and English, with limited Guarani terminology, but did not systematically examine Guarani-language media, all local/regional outlets, radio/television archives or social-media archives.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If further coverage is required, search those media in a bounded documented pass and preserve actual query/response captures."
+  },
+  {
+    "gap_id": "PAR2021-02-G013",
+    "type": "archive_coverage",
+    "description": "LexisNexis was not searched. Open-web indexing/ranking and captured headers cannot establish completeness. S001 alone has one bounded, truncated current-unit body read; the other 22 source-card pages have not had a current-unit body read.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep the dossier as an open-web first pass and compare with any authorized archive baseline when available."
+  },
+  {
+    "gap_id": "PAR2021-02-G014",
+    "type": "baseline",
+    "description": "The local May 2015 Clark–Regan codebook was reviewed and supplies the project’s public-gathering/50-person and own-state demand screening concepts; current official dataset version and any additional Coding Procedure remain unverified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator baseline review against the current official codebook/procedure is required before official coding."
+  },
+  {
+    "gap_id": "PAR2021-02-G015",
+    "type": "continuity",
+    "description": "S001 body evidence reports a larger group arriving by caravan near 19:30, but it does not establish the exact event date/onset or physical ending. The Palace of Justice reference may be a separate site/action, and S002’s relation to S001 is unresolved. No read evidence defines physical episode boundaries for the other February leads or establishes a February action continuing across a month boundary.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S009",
+      "S010",
+      "S016",
+      "S017",
+      "S018",
+      "S019"
+    ],
+    "affected_candidates": [
+      "PAR2021-02-E001",
+      "PAR2021-02-E003",
+      "PAR2021-02-E006",
+      "PAR2021-02-E007"
+    ],
+    "required_followup": "Review adjacent-month source evidence only if fresh bodies establish exact physical dates and continuity; do not duplicate or split based on publication dates."
+  }
+]

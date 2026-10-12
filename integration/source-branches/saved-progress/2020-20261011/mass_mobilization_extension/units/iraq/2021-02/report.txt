@@ -1,0 +1,26 @@
+Iraq — February 2021 research dossier
+
+Research window and scope
+The assignment is Iraq, 2021-02 (provisional country code 645), in batch 57 / queue 230. Search discovery began at 2026-10-10 12:16:29 UTC. The fixed dataset cutoff remains 2026-10-07. This is a research handoff only: candidates remain unapproved and are not integrated into the official catalogue.
+
+Search capture
+I preserved 21 actual search actions with all 487 ordered result headers and matching URL arrays in search_log.jsonl. English, Arabic and Sorani queries covered employment policy, local jobs protests, public payroll strikes, Nasiriyah and southern Iraq protests, KRI salary actions and solidarity leads. All 21 original runtime event IDs, exact query/action data, header order, URLs and clocks were compared to the registered rollout; no search was rerun for bookkeeping. Repairs and superseded raw capture bytes are recorded in capture-history.jsonl. See search_capture_manifest.json (SHA-256 18636a020af9ee55f938a769820979ffe640318acfff1a2644c65417f3ba9c10) for the durable capture index and file hashes.
+
+Source and body-read scope
+There are 31 source cards: 1 opened and 30 search_only; none is classified blocked or not_found. The only full exposed article-body read is Shafaq News S002, “Dukan dam employees go on a strike demanding five-months late salaries” (9 February 2021). Its body states that the entire Dukan Dam workforce began a strike that day over five months of unpaid salaries, gives no headcount, and says the strike was intended to continue until payment. The report does not establish the physical end, a public gathering, protester violence, or a response in the seven coded dimensions. It quotes Salam Najm; no separate wire origin is named. Rudaw S001 remains search_only after three aborted receipt/recheck sequences. Full receipts, publisher/origin notes, and mismatch history are retained under access_receipts/ and receipt_manifest.json.
+
+Provisional candidate records
+1. E001: Dhi Qar Electricity employees’ 1 February salary protest. Shafaq’s captured excerpt says “dozens,” which does not establish 50; all evidence is search_only. Eligibility: pending_evidence.
+2. E002: Nasiriyah bridge blockade/clashes reported on 5 February. Shafaq and AP search excerpts may describe the same action; their match, attendance and demand must be confirmed from article bodies. Eligibility: pending_evidence.
+3. E003: Dukan Dam workforce strike beginning 9 February. The Shafaq body confirms the date and wage issue but gives no count, so the public-gathering threshold remains unresolved. Eligibility: pending_threshold.
+4. E004: Nasiriyah demonstrations reported to have begun 22 February and to seek the governor’s removal. This relies on a local committee search excerpt and other search-only reporting; turnout, boundaries and response are unverified. Eligibility: pending_evidence.
+
+excluded.json is empty because the available evidence does not support a defensible exclusion decision. continuations.json is empty because no source currently verifies a physical event beginning before February and continuing into the month. This is an evidence gap, not a claim that no continuation occurred.
+
+Open issues
+The 15 records in gaps.json cover threshold and state-target evidence, source-body review, Dukan’s workplace/public-action boundary and end date, whether Nasiriyah reports describe the same actions, KRI salary strikes across separate workplaces, job-policy event dates and any January antecedent, Erbil/Wasit/Sulaymaniyah location details, late-February Nasiriyah episode boundaries, and February/March solidarity reporting. No casualty or injury count has been used as turnout. Search silence and unopened bodies are not treated as evidence that events or state responses did not occur.
+
+Review gate
+status.json remains researched_open_web_pending_review with baseline_gate pending_official_baseline. A coordinator should compare these leads against the official baseline, resolve gaps and conduct human review before any inclusion. No publication, integration, contact or Git operation was performed by this worker.
+
+Receipt manifest SHA-256: 4c549f1a7c850b7432ba7967d9e404ddfa5f6f9c185001042bc5aa591f82c4eb

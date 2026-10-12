@@ -1,0 +1,40 @@
+Spain — January 2021
+Status: researched_open_web_pending_review
+
+Scope and method
+The assigned unit is Spain, 1–31 January 2021 (provisional ccode 230), with the fixed source cutoff of 7 October 2026, inclusive in America/Mexico_City. Twenty-six actual web searches are logged, including searches for 1–7, 8–14, 15–21 and 22–31 January, Spanish-language discovery, Catalan, Basque, Galician and English queries, and follow-up searches for labor, healthcare, temporary public employment, travel agencies, students, farming, housing and environmental actions. Search engines did not expose total result counts; every captured title/URL/reference header is retained in order. Empty results and irrelevant or out-of-period results are not treated as evidence that no protest occurred.
+
+The open-web method is not equivalent to the authors’ LexisNexis newspaper set. Regional coverage remains uneven, and the Catalan/Basque/Galician searches were limited leads rather than exhaustive local-language searches. Several pages were duplicated or republished, and no independent human double-coding or comparison against the current official dataset was performed.
+
+Candidate overview
+There are 13 candidate records: five proposed for inclusion, four pending threshold evidence and four pending evidence.
+
+E001 records the 23 January Madrid march against COVID restrictions. Europa Press attributes an approximate start count of 400 and a later estimate of 1,300 to the Madrid Government Delegation. No independent count was located, and the physical end is not established.
+
+E002 preserves an announced Madrid travel-agency march for 21 January; execution was not confirmed. E003 records the 21 January Valencia car march, but no human turnout estimate was found, and vehicle counts are not used as attendance. E004 and E005 preserve MODEPEN’s listed Lugo and Vigo pension gatherings; the organizer pages do not confirm that either was held or provide turnout.
+
+E006 records the 22 January MATS demonstration outside Hospital La Paz. El Salto announced it and Telemadrid confirms a protest, but the report gives only qualitative attendance. E007 and E008 are separate Burgos gatherings on 24 and 18 January. Their more-than-1,500 and 300 estimates come from community-page republications credited respectively to Diario de Burgos and burgosnoticias.com; the original reports and independent attendance confirmation remain open.
+
+E009 preserves TERE’s announced 21 January La Paz concentration during an emergency-service strike. No post-event account was found. The reported strike-authorization vote is not treated as protest turnout.
+
+E010 records the 31 January coordinated MI15F car-convoy action. RTVE/Europa Press lists 27 locations; USO Cantabria says Cantabria plus 27 other cities and estimates around 900 people in Santander alone. No national human total is available. InfoLibre/MadridActual/EP and other republications share or may share a reporting chain. Reported times differ: some accounts say 11:00–12:00, while the Santander report says the local route ended at 13:00. The record preserves these conflicts and does not assign a national end time.
+
+E011 records the 14 January concentrations of temporary public employees reported in Pamplona and about 40 cities. The 15 January Diario de Navarra account, reproduced in a CCOO-hosted PDF, gives no turnout; the number of cities is not counted as participants.
+
+E012 records a 29 January student protest outside the Universidad Autónoma de Madrid Rectorate against in-person exams. Telemadrid says the exam format was agreed by the Community of Madrid and university rectors, but reports no student headcount. The public-university/state-policy boundary remains for review.
+
+E013 records the 30 January simultaneous environmental protests over EU recovery-fund allocation. The organizer describes several activists at the Seville site and hundreds across many cities, without site-level counts. The national multi-site estimate is retained qualitatively; it is not applied to Seville alone.
+
+Exclusions, continuations and gaps
+X001 preserves MODEPEN’s six-city 25 January call as suspended. No older-start physical episode was confirmed as continuing into January, so continuations.json is empty. Cross-month searches surfaced a 12 December 2020 Aragón action and an announced 15 February 2021 public-employment action, but the bodies were not opened and they do not show one physical gathering continuing across the unit boundary. Agricultural search results that looked current were dated January 2020 or retrospectively described 2020 actions; they were not coded in 2021.
+
+The 25 open gaps cover baseline compatibility, turnout, event execution, state targeting, episode boundaries, physical end dates, source access, source independence, regional/language coverage and state responses. State-response dimensions remain unknown where the reports do not give event-specific evidence. Silence is not coded as official ignore or as an explicit absence of arrests, beatings, killings or shootings.
+
+Sources, access and provenance
+Forty-one source cards are saved: 31 opened, eight search-only and two blocked. No full articles or PDF copies were retained. The 3CatInfo result and the Ecologistas en Acción Sevilla event page returned HTTP 403; neither was retried or bypassed. Search-only leads remain unverified.
+
+After web Cache miss/Internal Error results and default DNS failures, ordinary HTTPS requests were made only to the exact public URLs. The first recovered batch returned HTTP 200 for La Voz de Asturias (117984 bytes), Diario de Pontevedra (514682), MadridActual (146392) and APISCAM (285450). The later batch returned HTTP 200 for Telemadrid (229149) and Europa Press (352026), and HTTP 403 for the organizer event page (5810 bytes). Final URLs matched the requested URLs. The request scripts exited 0; no access-denial bypass was attempted. Web-only pages and PDFs were read in limited relevant sections. No persistent process, server, browser automation or temporary reading copy was left running or saved.
+
+A local JSON serialization attempt briefly wrote a literal backslash-n marker at the end of events.json and gaps.json. Both arrays were restored from their parsed contents, rewritten with real LF endings and reparsed successfully; no records were lost.
+
+This dossier remains a candidate-only research extension. The official current Mass Mobilization files, universe, schema, additional Coding Procedure and licensing/reuse conditions remain unresolved. No official identifiers, approval or independent double-coding are claimed. The counts above describe saved research, not exhaustive coverage or unique official events.

@@ -1,0 +1,131 @@
+[
+  {
+    "gap_id": "china_2021-02_G001",
+    "type": "eligibility_state_target",
+    "description": "The opened ON.CC report confirms a petition at the county government building over heating failures, but does not quote the residents’ specific demand or establish whether they sought government-policy enforcement rather than relief from the utility. The candidate remains pending_state_target.",
+    "source_ids": [
+      "china_2021-02_S008",
+      "china_2021-02_S017"
+    ],
+    "affected_candidates": [
+      "china_2021-02_E001"
+    ],
+    "required_followup": "Find a contemporaneous statement from participants or an official account that identifies the demand, government role, and heating provider’s ownership or regulatory status."
+  },
+  {
+    "gap_id": "china_2021-02_G002",
+    "type": "demand_category",
+    "description": "Inadequate heating and a proposed fee refund do not clearly fit the available demand categories. The candidate has no assigned demand category; the 2016 county rule is search-only and its legal status in February 2021 is unverified.",
+    "source_ids": [
+      "china_2021-02_S008",
+      "china_2021-02_S017"
+    ],
+    "affected_candidates": [
+      "china_2021-02_E001"
+    ],
+    "required_followup": "Verify the rule’s text, effective period and application in February 2021, then retain a blank category if no original category fits."
+  },
+  {
+    "gap_id": "china_2021-02_G003",
+    "type": "event_response",
+    "description": "The contemporary report says the county announced a two-month heating-fee refund and that repairs restored heating, but it does not verify payment or a direct causal link between the gathering and the announcement. Search-only Hope Voice-derived pages add a mayoral promise and next-day road closure/testing claims that are not independently verified.",
+    "source_ids": [
+      "china_2021-02_S008",
+      "china_2021-02_S009",
+      "china_2021-02_S010",
+      "china_2021-02_S011"
+    ],
+    "affected_candidates": [
+      "china_2021-02_E001"
+    ],
+    "required_followup": "Locate an original county notice or independent contemporaneous reporting on the refund, repair, and any action on February 6; keep the promise distinct from completion."
+  },
+  {
+    "gap_id": "china_2021-02_G004",
+    "type": "repression_and_violence",
+    "description": "ON.CC says some residents crossed a police line but does not describe arrests, beatings, crowd dispersal, shootings, killings or protester violence. Search-only copies contain additional physical-contact and force claims with unresolved origin; no such claim is coded.",
+    "source_ids": [
+      "china_2021-02_S008",
+      "china_2021-02_S009",
+      "china_2021-02_S010",
+      "china_2021-02_S011",
+      "china_2021-02_S012",
+      "china_2021-02_S015"
+    ],
+    "affected_candidates": [
+      "china_2021-02_E001"
+    ],
+    "required_followup": "Seek independent event-specific reporting or original footage/transcripts, and leave each response field unknown where evidence remains absent."
+  },
+  {
+    "gap_id": "china_2021-02_G005",
+    "type": "threshold_and_organizer",
+    "description": "The opened report’s “over 100” wording supports the 50-person threshold without exact bounds, but no exact headcount, organizer or participant roster is reported. Other search snippets use “hundreds” and are not treated as independent counts.",
+    "source_ids": [
+      "china_2021-02_S005",
+      "china_2021-02_S008",
+      "china_2021-02_S009"
+    ],
+    "affected_candidates": [
+      "china_2021-02_E001"
+    ],
+    "required_followup": "Locate an independent contemporaneous count or organizer account; keep the qualitative threshold evidence if no exact figure is available."
+  },
+  {
+    "gap_id": "china_2021-02_G006",
+    "type": "continuity_and_month_boundary",
+    "description": "The event is reported on February 5, but the end of the gathering and any continuation are unverified. Search-result-only reports mention next-day government actions; no continuation record is created without evidence that the protest itself continued. Adjacent-month press coverage has not been systematically searched.",
+    "source_ids": [
+      "china_2021-02_S008",
+      "china_2021-02_S009",
+      "china_2021-02_S010"
+    ],
+    "affected_candidates": [
+      "china_2021-02_E001"
+    ],
+    "required_followup": "Check independent reports around January 31–February 7 and February 6 onward for event closure, repeated action, or a distinct continuation; do not carry the gathering into March based only on later consequences."
+  },
+  {
+    "gap_id": "china_2021-02_G007",
+    "type": "private_target_lead",
+    "description": "The CLB retrospective search result says Chen Guojiang and delivery riders made a small-scale protest over Ele.me holiday bonuses on February 18. The bonus rule appears directed at a private employer; simultaneous attendance, location, executed gathering and a domestic government-policy demand are not established. The rider organization’s membership is not event turnout. The lead remains pending and is not coded as eligible.",
+    "source_ids": [
+      "china_2021-02_S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only reconsider if a contemporaneous source establishes the gathering, at least 50 participants and a demand to the Chinese government or its policy; otherwise preserve as private-target discovery."
+  },
+  {
+    "gap_id": "china_2021-02_G008",
+    "type": "coverage_method",
+    "description": "Sixteen captured open-web searches covered English/Chinese broad and weekly searches plus farmer/property, homeowner, teacher/health, delivery/driver, retiree and Qing’an heating topics. They yielded one body-verified local gathering and several discovery leads, but do not establish absence elsewhere in China. Chinese local/regional archives and LexisNexis-equivalent searches were not systematically available.",
+    "source_ids": [],
+    "affected_candidates": [
+      "china_2021-02_E001"
+    ],
+    "required_followup": "Compare with the official baseline and systematically indexed provincial/city newspaper or archive sources in relevant Chinese locales; record any accessible-source gaps."
+  },
+  {
+    "gap_id": "china_2021-02_G009",
+    "type": "source_lineage_and_official_baseline",
+    "description": "Qing’an secondary copies share unresolved or explicitly credited origin relationships: Hope Voice is credited by 51.ca/SohFrance search results, Epoch Times variants are one publisher/story family, and other copies’ sourcing is unclear. Q015/Q016 did not locate the February 5 county announcement itself; the located official heating rule is a 2016 search-result lead. The official baseline gate and independent review remain pending.",
+    "source_ids": [
+      "china_2021-02_S005",
+      "china_2021-02_S006",
+      "china_2021-02_S007",
+      "china_2021-02_S008",
+      "china_2021-02_S009",
+      "china_2021-02_S010",
+      "china_2021-02_S011",
+      "china_2021-02_S012",
+      "china_2021-02_S013",
+      "china_2021-02_S014",
+      "china_2021-02_S015",
+      "china_2021-02_S017"
+    ],
+    "affected_candidates": [
+      "china_2021-02_E001"
+    ],
+    "required_followup": "Obtain and inspect an original official notice and at least one independent contemporaneous account where possible; compare with the official Mass Mobilization baseline and retain source lineage."
+  }
+]

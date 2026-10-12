@@ -1,0 +1,40 @@
+Austria January2021 — documented open-web first pass, pending independent review
+Unit: austria_2021-01; country code305.
+Fixed event cutoff:2026-10-07 inclusive, America/Mexico_City.
+Research source checks finished at captured UTC clock2026-10-08T06:22:04Z.
+Exact research start, query execution and source access times were not captured. Those fields remain null. The coordinator's assignment time is preserved in assignment.json and is not substituted for research start.
+
+DELIVERABLE
+50 candidate records,9 exclusions,1 prior-month boundary reference,22 explicit gaps,42 search queries and115 relevant source URL cards. Eligibility proposals:15 proposed_include,27 pending_threshold,5 pending_state_target,3 pending_unit. Source access:24 opened,90 search_only,1 blocked. Source cards include relevant leads and context, not115 independent confirmations. No official MM observations or IDs assigned. All candidates remain agent_coded_pending_review. Baseline gate remains pending_official_baseline.
+
+METHOD AND SCOPE
+Read root/project continuation instructions, acceptance contract, current session, worker/review/deviation/data-dictionary/gap instructions, baseline status and historical May2015 MMmanual. This is an experimental extension kept separate from the original dataset.
+Used mandatory open-web searches in German and English: generic protest/demonstration/strike/march terms; weekly date phrases; Vienna and other regions; university, labor/union, farmer, care, welfare, feminist, deportation and housing/land leads; episode-specific crowd/target/response checks; December and February boundaries. Search operators/date strings often returned other periods. Batched returned URLs are explicitly shared at batch level; per-query ranking and totals unavailable. All42 search queries are logged. Relevant discovered URLs retained; unrelated later-year and topical noise described in query limitations. Query count does not prove exhaustion.
+Opened contemporary ORF/APA, Kurier, DerStandard, AFP and Reuters articles, community radio CBA, akin activist chronicle, regional MeinBezirk and public KleineZeitung lead, plus an official parliamentary answer and later judicial record. Sources support individual fields; search-only discoveries do not support proposed inclusions. Open web does not reproduce LexisNexis or systematic print archives; no claim of complete coverage.
+
+SUBSTANTIVE RESULTS
+Proposed inclusions cover national Bildungbrennt university-law actionJan12; Vienna anti-COVID assembliesJan9,Jan16,Jan31; Linz and InnsbruckJan1; GrazJan2 andJan9; SalzburgJan3 andJan10; Leoben and LeibnitzJan9; ViennaJan28 evening deportation protests; InnsbruckJan30 Grenzen töten; ViennaJan30 welfare/social-policy protest.
+The official5386/AB answer lists selected dated local COVID-policy policing incidents. Sixteen additional local records are retained with unknown attendance. Arrest/complaint totals are not attendance. The table is not a national protest census.
+Contemporary community-radio/akin chronicles add feminist, Moria refugee-reception, Donaufeld planning, antifascist and welfare leads. CBA/noch rich ten/Kettler and akin share an origin chain; overlap is not independent corroboration.
+Nine excluded observations preserve evidence for under50 assemblies and foreign-only targets. Dornbirn's five participants are an under-threshold local component of the coordinated national university action, not an additional qualifying event.
+December26Graz appears in continuations.json as a prior-month boundary reference owned possibly by austria_2020-12. It is not an established physical continuation intoJanuary. February-boundary searches produced mostlyJanuary/annual material; this is a search limitation, not evidence of noFebruary protests.
+
+UNIT AND ATTENDANCE DECISIONS
+NationalJan12 action retained provisionally as one coordinated event; local cities not automatically split. Vienna800/1800departure/700arrival are different estimates/stages and are not summed. Jan16 main/counter gatherings distinct provisional records; Jan28 evening crowds joining ministry treated as one connected sequence. Overnight campsJan16–17 andJan23–24 are separate weekends. Jan27afternoon andJan27/28night Zinnergasse continuity remains unresolved. InnsbruckJan1 parallel stand rallies are one grouped discovery record pending identification of three/four components, not one presumed qualifying event.
+Braunau official court findings date photo/demonstrationJan3; reproduced contemporary APA release saysJan2. E049 retains month precision and pending_unit. Approximate50 white-suited subgroup does not prove threshold or larger assembly size. Do not create duplicateJan2/Jan3 observations without resolving chronology.
+Competing approximate estimates remain verbatim/paraphrased in participants_original, not invented confidence bounds. No workforce, vehicle, police, arrest, complaint or number-of-rallies count substituted for crowd attendance.
+
+RESPONSES, ENDINGS AND DISPUTES
+Each record has all seven state responses: accommodation, arrests, beatings, crowd_dispersal, ignore, killings, shootings. Silence is unknown. Complaints and investigations are not arrests; police talks not accommodation; gas/pepper spray not shootings; grievance killings not event killings. No killings or shootings inferred.
+Explicit police nonintervention in Graz/Salzburg is preserved as ignore proposals for review; legal restraint should be assessed against original coding meaning. SalzburgJan10 removal of individual participants supports partial crowd_dispersal, not dissolution of every attendee.
+InnsbruckJan30 and GrazJan9counter police allegations of protester attacks are attributed and contested. Witness/organizer allegations of blows/kicks remain unconfirmed beatingsunknown. No blanket attribution to whole crowd.
+ViennaJan31 arrest reports10AFP,11laterORF,12officialreply differ in timing/scope. Jan16official20 includes17Parkring and3elsewhere; not automatically allocated to main/counter. InnsbruckJan30ORF15identityarrests versus akin19later retained without summation.
+Six records have supported end dates. Others remain null. Police operation endingJan31 at19:30 does not prove physical protest ending. Monthend and last publication are not used as end dates.
+
+ACCESS AND PROVENANCE
+Web Cachemiss/InternalError was treated as a tool failure, not automatic denial. Ordinary public HTTPS recoveredCBA,akin,GrazORF,MeinBezirk,KleineZeitungpubliclead and parliamentaryPDF; HTTP200 and read scope logged. OTS actually returned403 and remains blocked; no bypass. KleineZeitung body beyond public lead not read. AnnualombudsmanPDF internal error remains search_only and LinzJanuary23lead unresolved. Reuters/AFP/APA republications not independent sources. Only metadata and short field-specific paraphrases saved; no full copyrighted articles.
+Default-network trial exited0 after DNS failures; ordinary public-HTTPS retrieval sessions10727 and44253 exited0. Parliamentary PDF text extraction also exited0. No servers, watchers, browsers, containers, background resources or external contacts started; no temporary resources remain active.
+
+LIMITS AND FOLLOW-UP
+Priority follow-up: attendance for official-table local dates; domestic policy target of counter/Moria/Donaufeld/Budenbummel/BraunauJan6/SalzburgJan25 actions; Zinnergasse continuity; BraunauJan2/3 date mismatch; parallel Innsbruck stands; LinzJan23annual-report lead; physical endings; independent findings on contested policing; source syndication and national/local unit adjudication. Burgenland and rural locations remain weak; sector/minority-language archives unsystematic. No finding of absence is claimed.
+This pass took over ten minutes because it involved substantive source review and ambiguous event units. Existing portable CLI/protocol are sufficient; no new skill/framework/CLI added. Coordinator controls consolidation, independent audit, dated snapshot and commit. Worker wrote only assigned unit dossier and preserved assignment.json; no commit, publication, contact or baseline integration performed.

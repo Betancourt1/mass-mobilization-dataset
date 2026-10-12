@@ -1,0 +1,125 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "episode_unit",
+    "description": "The 10 January Eko straža gathering belongs to a clean-air protest series: the January source mentions a previous large Belgrade protest in June without specifying year; a later September report identifies January as a prior event. Whether the earlier protest shares a campaign is distinct from whether the January gathering has physical continuity. A search also found a separate RFE/RL report of a 17 January 2020 clean-air protest organized by Ne davimo Beograd and Građanski front. That different event does not establish the date or year of the June gathering attributed to Eko straža in Nova.rs and is not conflated with E001.",
+    "source_ids": [
+      "serbia_2021-01_S005",
+      "serbia_2021-01_S007",
+      "serbia_2021-01_S008",
+      "serbia_2021-01_S019"
+    ],
+    "affected_candidates": [
+      "serbia_2021-01_E001"
+    ],
+    "required_followup": "Find the exact date/year and physical boundaries of the June gathering mentioned by Nova.rs; keep it distinct from the separately documented January 2020 Ne davimo Beograd/Građanski front protest and from Eko straža’s January 2021 gathering absent evidence tying them."
+  },
+  {
+    "gap_id": "G002",
+    "type": "dates",
+    "description": "The 10 January article says the protest ended with a symbolic posting of demands at the Government door, but no source yet documents participant departure or dissolution.",
+    "source_ids": [
+      "serbia_2021-01_S005"
+    ],
+    "affected_candidates": [
+      "serbia_2021-01_E001"
+    ],
+    "required_followup": "Check contemporaneous video/reporting for the physical departure or dissolution; leave end date unknown if none is found."
+  },
+  {
+    "gap_id": "G003",
+    "type": "state_response",
+    "description": "January reports describe demands left at the Government building and planned formal registry delivery; a September organizer said little changed, without explicitly describing a January state refusal or avoidance.",
+    "source_ids": [
+      "serbia_2021-01_S004",
+      "serbia_2021-01_S005",
+      "serbia_2021-01_S007",
+      "serbia_2021-01_S008"
+    ],
+    "affected_candidates": [
+      "serbia_2021-01_E001"
+    ],
+    "required_followup": "Check official records/statements and further contemporary follow-up for actual receipt, meeting, accommodation or explicit refusal; do not infer ignore from lack of reporting."
+  },
+  {
+    "gap_id": "G004",
+    "type": "episode_unit",
+    "description": "RFE/RL calls the 16 January freelancers protest the second protest after a separate 30 December gathering. Its opened 30 December report describes several hundred participants and a short traffic block that was cleared at organizers’ appeal, but gives no departure/dissolution time or evidence of action continuing until 16 January. The two dates and shared tax campaign do not by themselves establish a continuous physical episode. A 21 February regional report describes a later third assembly in Kragujevac after earlier meetings in Novi Sad and Niš, but does not date those earlier meetings or report physical action continuing from January.",
+    "source_ids": [
+      "serbia_2021-01_S001",
+      "serbia_2021-01_S009",
+      "serbia_2021-01_S013",
+      "serbia_2021-01_S014"
+    ],
+    "affected_candidates": [
+      "serbia_2021-01_E002"
+    ],
+    "required_followup": "Check dated contemporaneous coverage for the physical departure on 30 December and any intervening occupation/action; retain the 16 January event as a distinct candidate absent evidence of continuous physical action. The searched Nova.rs page whose result title suggested another freelancer protest actually schedules 16 January and does not verify a 29 January gathering. Check dates and coverage of the later Novi Sad/Niš/Kragujevac meetings separately; do not apply them to January or infer continuity from campaign linkage."
+  },
+  {
+    "gap_id": "G005",
+    "type": "dates",
+    "description": "The 16 January freelancers report traces the march through Belgrade but gives no physical departure/dissolution time or confirmed end date.",
+    "source_ids": [
+      "serbia_2021-01_S001",
+      "serbia_2021-01_S009"
+    ],
+    "affected_candidates": [
+      "serbia_2021-01_E002"
+    ],
+    "required_followup": "Search contemporary follow-up/video for the physical end of the January 16 gathering; do not use the article’s publication time as an event end."
+  },
+  {
+    "gap_id": "G006",
+    "type": "source_independence",
+    "description": "The January 16 crowd estimate comes from one opened contemporary report; an RFE/RL report independently establishes the protest but gives no January attendance figure. A 021.rs video-report lead is also dated 16 January, but only its search header and page metadata were readable after the open-cache miss; its body provides no usable independent attendance evidence. An NSPM search-result title also reports several thousand but its article body could not be retrieved (web tool reported robots.txt unreachable), so it is search-only and cannot corroborate attendance or source independence.",
+    "source_ids": [
+      "serbia_2021-01_S001",
+      "serbia_2021-01_S009",
+      "serbia_2021-01_S016",
+      "serbia_2021-01_S020"
+    ],
+    "affected_candidates": [
+      "serbia_2021-01_E002"
+    ],
+    "required_followup": "Locate a second opened, contemporaneous attendance report. Keep the Nova.rs crowd estimate attributed; 021.rs body remained unread and the NSPM result remained search-only because its open attempt reported robots.txt unreachable."
+  },
+  {
+    "gap_id": "G007",
+    "type": "state_response",
+    "description": "Nova.rs reports that the invited 18 January meeting took place and that negotiations would continue. A 5 February RFE/RL report describes a later government–freelancer negotiation with no agreement but does not date that meeting; the exact sequence and outcome of later talks remain unresolved.",
+    "source_ids": [
+      "serbia_2021-01_S009",
+      "serbia_2021-01_S011",
+      "serbia_2021-01_S017",
+      "serbia_2021-01_S018"
+    ],
+    "affected_candidates": [
+      "serbia_2021-01_E002"
+    ],
+    "required_followup": "Locate dated contemporary reporting or participant records for negotiations after 18 January; do not assign the undated meeting in the 5 February report to the 18 January meeting or infer that the demands were met."
+  },
+  {
+    "gap_id": "G008",
+    "type": "state_response",
+    "description": "Eko straža’s 19 February open letter says the Prime Minister had not answered the 10 January protest demands after 30 days from submission; it describes the President’s public remarks as a reaction but not an answer to the demands. This first-party claim supports ignore=yes, but the exact submission date, receipt and any formal state response are not independently verified.",
+    "source_ids": [
+      "serbia_2021-01_S005",
+      "serbia_2021-01_S015"
+    ],
+    "affected_candidates": [
+      "serbia_2021-01_E001"
+    ],
+    "required_followup": "Check a dated official receipt or response and contemporaneous follow-up to confirm when the demands were submitted and whether any formal answer arrived; preserve the organizer attribution and distinguish public criticism from a substantive response."
+  },
+  {
+    "gap_id": "G009",
+    "type": "search_method",
+    "description": "Q009, the first execution of the exact December 30 freelancer query, returned 31 parsed headers in transient tool memory, but the complete result array and pre-call timestamp were not retained after the append failed with Python JSONDecodeError “Extra data” at line 1, column 9003. The cause was the preceding Q008 serializer writing literal backslash-n separators instead of LF; the existing eight search records were repaired. Q009 has null return arrays and timestamp to mark lost capture, not an observed empty result. Q010 is a distinct later execution with its own complete 31-header capture.",
+    "source_ids": [],
+    "affected_candidates": [
+      "serbia_2021-01_E002"
+    ],
+    "required_followup": "No stored raw result is available to recover Q009 headers or timestamp. Preserve its nulls and failure note; do not substitute Q010 for the lost first execution."
+  }
+]

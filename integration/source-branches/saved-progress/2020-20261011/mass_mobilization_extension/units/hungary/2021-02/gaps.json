@@ -1,0 +1,67 @@
+[
+  {
+    "gap_id": "HUN202102-G001",
+    "type": "baseline",
+    "description": "Official latest MM bytes, event universe, cutoff, reuse conditions, and applicable coding procedure remain unverified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator must verify the official baseline and compatibility before export or approval."
+  },
+  {
+    "gap_id": "HUN202102-G002",
+    "type": "turnout",
+    "description": "The February 3 SZTE model-change walk at Dugonics Square appears in a captured search result as occurring in small groups; no count, specific demand, or domestic state target has been verified from an opened body.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Open the exact article through the normal fresh access gate and verify whether the walk independently reached 50 participants and what demand targeted which state actor; otherwise retain the threshold/state-target gap or exclude according to the manual."
+  },
+  {
+    "gap_id": "HUN202102-G003",
+    "type": "event_boundary",
+    "description": "Opened Telex reporting says the February 28 Hősök tere rally ended before a smaller group moved to Vajdahunyad Castle and began a new gathering. The second assembly has no reported headcount or specific demand in the reviewed article; its event-level threshold and episode relation remain unresolved.",
+    "source_ids": [
+      "HUN202102-S007"
+    ],
+    "affected_candidates": [
+      "HUN202102-E003",
+      "HUN202102-E004"
+    ],
+    "required_followup": "Find opened reporting that independently establishes the Castle group’s attendance and issue-specific demand. Keep its participant count separate from the Hősök tér estimate and review episode linkage under the coding procedure."
+  },
+  {
+    "gap_id": "HUN202102-G004",
+    "type": "unit_episode_boundary",
+    "description": "The February 1 hospitality reopening rally is physically separate from the January 31 Heroes’ Square event, but whether they form one broader episode is unresolved.",
+    "source_ids": [
+      "HUN202102-S001",
+      "HUN202102-S002"
+    ],
+    "affected_candidates": [
+      "HUN202102-E001"
+    ],
+    "required_followup": "Reuse the already opened January source card for the February 1 event only with explicit read-scope provenance, verify the February 1 body if needed, and apply the additional Coding Procedure before grouping."
+  },
+  {
+    "gap_id": "HUN202102-G005",
+    "type": "threshold",
+    "description": "A captured Q024 search-result excerpt reports 20–30 Cserepes market traders gathered at Széchenyi Square on February 2, below the 50-person threshold; the original source body has not been reviewed and the excerpt is not retained in search_log.jsonl.",
+    "source_ids": [
+      "HUN202102-S004",
+      "HUN202102-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the exact publisher pages through the normal fresh access gate; do not use market workforce, shoppers, or petition signatures as turnout. If the body confirms only 20–30 participants, record the lead in excluded.json."
+  },
+  {
+    "gap_id": "HUN202102-G006",
+    "type": "unit_episode_boundary",
+    "description": "The February 3 SZTE walk appears related to the January 30 SZTE autonomy walk, but physical-event counts and broader episode grouping are unresolved.",
+    "source_ids": [
+      "HUN202102-S006"
+    ],
+    "affected_candidates": [
+      "HUN202102-E002"
+    ],
+    "required_followup": "Verify the February 3 event and its attendance independently; preserve the dated physical assembly even if it is excluded as below threshold, then decide episode linkage under the additional Coding Procedure."
+  }
+]

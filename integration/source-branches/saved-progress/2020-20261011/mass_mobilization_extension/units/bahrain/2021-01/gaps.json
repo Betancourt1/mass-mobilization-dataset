@@ -1,0 +1,180 @@
+[
+  {
+    "gap_id": "bahrain_2021-01_G001",
+    "type": "participants",
+    "description": "E001 has no count or clear qualitative evidence of at least 50 attendees.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-01_E001"
+    ],
+    "required_followup": "Find original date- and location-verified footage or contemporary attendance reporting. Do not sum towns."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G002",
+    "type": "contested_evidence_dates",
+    "description": "Contemporary report says January 15; retrospective chronology says January 16 after Friday prayers.",
+    "source_ids": [
+      "S001",
+      "S025"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-01_E001"
+    ],
+    "required_followup": "Check original January 2021 article and footage metadata. Keep contemporary January 15 provisionally and do not create a duplicate January 16 event."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G003",
+    "type": "contested_evidence_source_access",
+    "description": "Manama Post search index alleges Interior Ministry denial; page remained unavailable through web cache and ordinary exact-URL HTTPS attempt failed DNS.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-01_E001"
+    ],
+    "required_followup": "Retrieve original public article or official statement if accessible. Assess denial scope and media provenance without bypassing access controls."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G004",
+    "type": "episode_unit",
+    "description": "Multiple-town claim has unresolved geography and organization. Sharing footage does not establish Al-Wefaq as organizer.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S022",
+      "S025"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-01_E001"
+    ],
+    "required_followup": "Verify each actual gathering's date, village, demand and organization before splitting or merging."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G005",
+    "type": "dates_end",
+    "description": "No physical ending or justified last-activity closure established for the January assembly.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-01_E001"
+    ],
+    "required_followup": "Follow contemporary reporting around the date; retain null end until evidence supports a rule."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G006",
+    "type": "state_response_violence",
+    "description": "All seven state responses and violence against the state remain unknown. Israeli flag burning does not establish state-directed violence.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-01_E001"
+    ],
+    "required_followup": "Seek episode-specific accounts. Do not infer ignore, no arrests or dispersal from silence; do not transfer responses from other months."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G007",
+    "type": "coverage_aggregate",
+    "description": "BCHR's 2021 table lists three January marches/demonstrations without their identities or crowd sizes. This dossier's one candidate cannot reconcile the count.",
+    "source_ids": [
+      "S026"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-01_E001"
+    ],
+    "required_followup": "Recover public monitoring records; establish dates, locations, attendance, demands and relationships. Do not fabricate two missing events or assume all three meet MM criteria."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G008",
+    "type": "episode_unit_boundary",
+    "description": "December 28 Ali Salman release actions are documented; continuity into January or relation to anti-normalization assembly is unproven.",
+    "source_ids": [
+      "S021",
+      "S028",
+      "S031",
+      "S032"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-01_C001",
+      "bahrain_2021-01_E001"
+    ],
+    "required_followup": "Compare December/January daily accounts and organizing groups. Keep December ownership and boundary-only status until resolved."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G009",
+    "type": "coverage_language",
+    "description": "Arabic and English generic, weekly, village and sector searches give uneven coverage; independent local media are restricted.",
+    "source_ids": [
+      "S004",
+      "S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Extend local archives and languages used by migrant workers. Obtain specialist review of Arabic paraphrases."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G010",
+    "type": "search_method",
+    "description": "Open web differs from LexisNexis. Batch URL unions do not provide query-specific attribution; date keywords returned other years/countries. Q007–Q010 retain only relevant returned URLs.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Re-run individual queries if exact attribution is required; obtain comparable newspaper archives. Search failures do not establish absence."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G011",
+    "type": "source_independence",
+    "description": "Al Jazeera uses Al-Wefaq social-media footage; other reports may reuse it. MERIP/Eurasia leads appear related. Multiple outlets are not necessarily independent confirmation.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S017",
+      "S019",
+      "S025",
+      "S031",
+      "S032"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-01_E001",
+      "bahrain_2021-01_C001"
+    ],
+    "required_followup": "Trace original media and agency provenance; document confirmed reprints separately from suspected relations."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G012",
+    "type": "source_access",
+    "description": "Contextual, sector and boundary URLs remain search_only or blocked. Current Al-Abdal archive differs from the search index; the US archive returned forbidden.",
+    "source_ids": [
+      "S003",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S017",
+      "S018",
+      "S019",
+      "S022",
+      "S024",
+      "S027",
+      "S028",
+      "S030",
+      "S033"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Prioritize January occurrence, attendance and government denial using normal public access. Search snippets remain discovery evidence."
+  },
+  {
+    "gap_id": "bahrain_2021-01_G013",
+    "type": "baseline",
+    "description": "Latest official data bytes, universe, schema, additional Coding Procedure and compatibility remain unverified. Historical May 2015 manual was read.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator resolves official baseline and differences in unknown/ignore, endings and thresholds before any official contribution. No official IDs or merge."
+  }
+]

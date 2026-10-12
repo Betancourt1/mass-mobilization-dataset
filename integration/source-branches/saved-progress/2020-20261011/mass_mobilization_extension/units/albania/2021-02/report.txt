@@ -1,0 +1,37 @@
+ALBANIA — FEBRUARY 2021
+Unit: albania_2021-02 (provisional code 339)
+Research cutoff: 2026-10-07 inclusive, America/Mexico_City
+
+METHOD AND COVERAGE
+
+The bounded open-web search logged 28 queries (Q001–Q028), with captured result title/URL/reference headers and no claimed total-result counts. Searches covered all four February weeks in Albanian and English, then followed local leads in Tirana, Shkodër, Fier/Mbrostar, Sharrë, Skavica and Theth/Elbasan across housing/land, schools and heating, services, flood damage, environment, prices and political actions. January and March were checked for possible episode boundaries. Relevant returned source URLs were retained even when not opened.
+
+This is not LexisNexis-equivalent coverage. Local archives, regional outlets, minority-language coverage and official records are incomplete; an empty or unreturned search result is not evidence that no event occurred. The latest official dataset bytes/universe and the additional Coding Procedure remain unavailable under the project-wide baseline gate.
+
+FEBRUARY CANDIDATE
+
+E001 records a February 16 protest in Shkodër by residents affected by flooding, before Prime Minister Edi Rama arrived for a COVID-19 vaccination launch. Euronews Albania reports that Bërdicë residents protested at the city entrance and asked the Prime Minister and government to attend to flooded homes and farmland and lack of assistance. Balkanweb separately reports that residents of flood-affected Nënshkodër protested before Rama arrived. The reports do not establish that both describe the identical assembled group or have independent written origins.
+
+Neither opened report supplies an attendance count. Euronews's roughly 350 hectares of flooded land is not a crowd figure, and neither report establishes 50 physically assembled people; E001 therefore remains pending_threshold. Euronews locates the action at Shkodër's entrance, while Balkanweb gives no precise site. Both are dated February 16; neither establishes a physical end. Balkanweb notes police nearby and says protesters were scattered because gatherings were not permitted, but it does not describe a specific order to disperse or physical clearing. No protester violence or event-specific state response is established; all seven response values remain unknown. A March 3 Ministry of Defense search result concerns flood conditions and continuing support, not the protest, and does not establish its end.
+
+POSSIBLE CROSS-MONTH CONTINUATION
+
+C001 preserves a possible February 5 return by Ndre Mjeda apartment residents to Tirana Municipality. The January dossier records January 16 and January 25 gatherings over the apartment dispute; its opened January 25 report says a municipal spokesperson received residents and promised reconsideration within a week. That reception is not a remedy or physical end. February 5 Ora News and Dosja search-result headlines report residents returning to seek a meeting, but the exact pages were not opened under the coordinator's publisher-level denial holds. The relationship between the February 5 gathering and January 9/16/25 activity remains unresolved, so no separate February event is coded. The 120 residents/families reported as affected are not verified attendees.
+
+OTHER LEADS AND EXCLUSIONS
+
+G001 retains the Rapporteur school-closure headline as an unresolved lead: the exact page first produced a web Cache miss, then an HTTP 403 on the later ordinary exact-URL request; its request clock is unknown and no body was read. X001 retains the September 26, 2021 anti-mandatory-vaccination protest as outside the assigned month; ten arrests are not turnout.
+
+ACCESS, CAPTURE AND REVIEW LIMITS
+
+The current Shkodër evidence consists of two opened contemporary pages, Euronews Albania (turn6039view0) and Balkanweb (turn6052view0), plus search-only related headlines and flood-context pages. Balkanweb's rendered page exposed no HTTP status. The exact Ora News and Dosja February 5 housing pages were not requested after the coordinator's global publisher-denial checks. Earlier January source-card metadata for Report TV and Balkanweb is copied from the January unit with original access times and scopes; no new body read is claimed for those copies. For S012, 19:35:07Z is discovery time and accessed_at is null. The later ordinary request returned HTTP 403, but its request clock was not captured; 19:37:28Z is the denial-recording time only. No article body was read and no retry or copy was requested.
+
+Search-header repairs used stored raw returns and did not rerun searches or request page bodies. Repeated HRW PDF body-excerpt headers retain only the exact phrase “Demonstrations and strikes continued,” with the omitted-excerpt cause recorded. Genuine SafeJournalists issue, Wikipedia month-index and AL in Sweden archive titles were restored. Q027/Q028 separator artifacts were removed; clipped headlines and PDF cover/heading fragments remain captured as fragments with semantic title null. The first capture-repair attempt ended in a Python indentation error before writing.
+
+Numeric command exits for several earlier persistence wrappers were not surfaced and remain UNKNOWN: initial status synchronization, Q027/Q028 query-log appends and header repair, the S024–S039 source-card appends, and the successful HRW/archive-title header repair. Later read-back checks are separate observations and do not retroactively prove those process exits. The S023 source/event update and later PDF-heading correction did return numeric exit 0; the final read-back result will be recorded separately. No persistent server, browser, watcher or background resource was started.
+
+Persisted worker totals: 28 queries, 39 source cards, 1 February candidate, 1 out-of-month exclusion, 1 possible continuation and 8 gaps. The status counters were recalculated from parsed files. The unit remains for review, with baseline_gate pending_official_baseline.
+
+Numeric exits for several earlier persistence wrappers remain UNKNOWN: initial status synchronization; Q027/Q028 query-log appends and separator repair; S024–S039 source-card appends; and the HRW/archive-title capture repair. A first repair attempt ended with a Python indentation error before writing; its numeric exit was not surfaced. These UNKNOWN values are not inferred from later read-backs. The S023 source/event update, PDF-heading correction and continuation/gap/report write did expose numeric exit 0. A preliminary read-only validation exited numeric 1 because its checker looked for result references in a 'ref' field rather than the saved 'web_ref' field and flagged the then-pending validation sentence; it falsely flagged three restored titles, and made no file changes. A subsequent final-freeze wrapper exited numeric 1 before writing because it incorrectly required a terminal LF in report.txt, which is saved without one. A third final-validation run exited numeric 1 after the S012 timing correction because one case-sensitive assertion expected 'Exact' while the saved access-status note correctly uses lowercase 'exact'; the corrected files were written, but manifest generation was not reached. The corrected final read-only validation and eight-file hash manifest are reported with this FINAL; this later observation does not retroactively establish earlier UNKNOWN persistence exits.
+
+Eight open gaps are retained in gaps.json. This unit is a candidate dossier for review, not an exhaustive account, an officially merged MM update, or human double coding.

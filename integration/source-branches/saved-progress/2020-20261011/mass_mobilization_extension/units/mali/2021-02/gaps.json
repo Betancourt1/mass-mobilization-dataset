@@ -1,0 +1,90 @@
+[
+  {
+    "gap_id": "mali_2021-02-G001",
+    "type": "search_method",
+    "description": "Open-web searches do not reproduce the project's LexisNexis/manual historical source expansion. Thirty captured search actions returned 638 headers, but query coverage and result ranking cannot establish that no other February gatherings occurred.",
+    "source_ids": [],
+    "affected_candidates": ["mali_2021-02-E001", "mali_2021-02-E002", "mali_2021-02-E003"],
+    "required_followup": "If available, perform a dated local-newspaper and wire-service archive review across all four weeks and regions; retain the observed open-web search limits."
+  },
+  {
+    "gap_id": "mali_2021-02-G002",
+    "type": "baseline",
+    "description": "Official baseline files and the full historical Mass Mobilization coding manual are not verified in this worker dossier; ccode 432 remains the assigned provisional code.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should resolve the official baseline/manual gate and preserve this dossier as a candidate-only extension until then."
+  },
+  {
+    "gap_id": "mali_2021-02-G003",
+    "type": "language",
+    "description": "Search was predominantly in French, with an English cross-check. Bamanankan/Bambara terminology lookup and a `grewu` search were exploratory and did not amount to a fluent review of local-language reporting.",
+    "source_ids": [],
+    "affected_candidates": ["mali_2021-02-E001", "mali_2021-02-E002", "mali_2021-02-E003"],
+    "required_followup": "Have a fluent Bambara/Bamanankan reviewer search local terms and local-language archives; do not treat the exploratory dictionary query as equivalent to a complete local-language search."
+  },
+  {
+    "gap_id": "mali_2021-02-G004",
+    "type": "participant_threshold",
+    "description": "The Katibougou student demonstration is reported on 8 February, but no event-specific count was found in captured summaries. A separate headline claims more than 1,000 students but its date and relationship to the event are unresolved.",
+    "source_ids": ["mali_2021-02_S011", "mali_2021-02_S012", "mali_2021-02_S013", "mali_2021-02_S014", "mali_2021-02_S016"],
+    "affected_candidates": ["mali_2021-02-E001"],
+    "required_followup": "Review dated primary/independent reports to establish crowd size and whether S016 concerns the same or another episode. Do not move the >1,000 figure onto E001 without evidence."
+  },
+  {
+    "gap_id": "mali_2021-02-G005",
+    "type": "participant_threshold",
+    "description": "Search-only sources agree that M5-RFP held a Bamako meeting on 21 February but give no numeric count and contain conflicting qualitative impressions of attendance.",
+    "source_ids": ["mali_2021-02_S001", "mali_2021-02_S003", "mali_2021-02_S004", "mali_2021-02_S039"],
+    "affected_candidates": ["mali_2021-02-E002"],
+    "required_followup": "Read the event-day source bodies and original declaration if available; resolve attendance without treating venue capacity, security presence or campaign counts as turnout."
+  },
+  {
+    "gap_id": "mali_2021-02-G006",
+    "type": "participant_threshold",
+    "description": "Search results report Gao demonstrations beginning on the night of 21 February against a curfew but do not describe turnout, duration or how the action ended.",
+    "source_ids": ["mali_2021-02_S007", "mali_2021-02_S008", "mali_2021-02_S009", "mali_2021-02_S010"],
+    "affected_candidates": ["mali_2021-02-E003"],
+    "required_followup": "Seek contemporaneous independent reports for attendance, specific demands, end date and state response; distinguish curfew implementation from response to the protest."
+  },
+  {
+    "gap_id": "mali_2021-02-G007",
+    "type": "source_access",
+    "description": "No body was obtained. Four gated request invocations failed technically: Studio Tamani and AMAP web.open calls returned Cache miss, an AMAP curl attempt failed DNS resolution before HTTP, and the iCimali web.open call returned Cache miss. A later Kibaru S007 request was not made because the full input recheck changed for Macedonia and Mauritania after manual review.",
+    "source_ids": ["mali_2021-02_S001", "mali_2021-02_S002", "mali_2021-02_S005", "mali_2021-02_S007"],
+    "affected_candidates": ["mali_2021-02-E002", "mali_2021-02-E003"],
+    "required_followup": "If body retrieval is retried, use a fresh exact-URL receipt, complete matching manual publisher/origin review, read-back/hash the saved note, and recheck the complete current input set immediately before each request. Treat the recorded outcomes as technical failures or deferrals, not denials."
+  },
+  {
+    "gap_id": "mali_2021-02-G008",
+    "type": "unit_ownership",
+    "description": "Search uncovered a NINA-card demonstration at the Mali consulate in Bagnolet/Paris. Its reported grievance is directed at a Mali institution, but its physical location is France; domestic Mali ownership is inappropriate.",
+    "source_ids": ["mali_2021-02_S020", "mali_2021-02_S021", "mali_2021-02_S022", "mali_2021-02_S023", "mali_2021-02_S024"],
+    "affected_candidates": ["mali_2021-02-X008"],
+    "required_followup": "Coordinator may route this provenance lead to a France 2021-02 owner after checking the local unit; keep event location separate from demand target and do not duplicate it as a Mali event."
+  },
+  {
+    "gap_id": "mali_2021-02-G009",
+    "type": "continuity",
+    "description": "Targeted searches for Gao protest continuation into March and M5-RFP activity after the 21 February meeting found background, later plans or unrelated episodes but did not establish a continuing physical event. January Mali events were checked separately and not automatically linked.",
+    "source_ids": ["mali_2021-02_S006", "mali_2021-02_S007", "mali_2021-02_S008"],
+    "affected_candidates": ["mali_2021-02-E002", "mali_2021-02-E003"],
+    "required_followup": "Keep the continuation array empty unless a dated report establishes the same physical event crossing a month boundary; do not infer continuity from a campaign or stated plans."
+  },
+  {
+    "gap_id": "mali_2021-02-G010",
+    "type": "coverage",
+    "description": "Searches covered weekly windows and sectors including students, teachers, health workers, police unions, bakers, market actors and transporters, plus Bamako and several regions. Stoppage reports often omit whether any public gathering accompanied the work action; captured closures and strike calls therefore remain distinct from assembly candidates.",
+    "source_ids": ["mali_2021-02_S017", "mali_2021-02_S018", "mali_2021-02_S019", "mali_2021-02_S025", "mali_2021-02_S028", "mali_2021-02_S031", "mali_2021-02_S033", "mali_2021-02_S037", "mali_2021-02_S038"],
+    "affected_candidates": ["mali_2021-02-X001", "mali_2021-02-X002", "mali_2021-02-X003", "mali_2021-02-X004", "mali_2021-02-X005", "mali_2021-02-X006", "mali_2021-02-X007"],
+    "required_followup": "If later source review reveals a separately evidenced public gathering, assess that gathering on its own date, demand target and attendance; do not convert strike participation or closed businesses into protest turnout."
+  },
+  {
+    "gap_id": "mali_2021-02-G011",
+    "type": "source_independence",
+    "description": "Some apparent corroboration may be syndicated or paraphrased across outlets: Mali Actu's Gao story may reproduce Kibaru, and the CENOU/Katibougou items overlap in wording. A search-result header alone cannot establish editorial independence.",
+    "source_ids": ["mali_2021-02_S007", "mali_2021-02_S008", "mali_2021-02_S011", "mali_2021-02_S012", "mali_2021-02_S013", "mali_2021-02_S014"],
+    "affected_candidates": ["mali_2021-02-E001", "mali_2021-02-E003"],
+    "required_followup": "Compare full article bodies, bylines and source attribution before counting sources as independent corroboration."
+  }
+]

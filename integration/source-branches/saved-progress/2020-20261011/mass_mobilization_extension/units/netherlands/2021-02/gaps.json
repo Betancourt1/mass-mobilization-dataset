@@ -1,0 +1,168 @@
+[
+  {
+    "gap_id": "netherlands_2021-02_G001",
+    "type": "participants",
+    "description": "AT5 describes “dozens” at the 14 February Museumplein gathering; that qualitative estimate does not resolve whether 50 people attended.",
+    "source_ids": [
+      "nl202102-s004",
+      "nl202102-s005"
+    ],
+    "affected_candidates": [
+      "netherlands_2021-02_E003"
+    ],
+    "required_followup": "Find a contemporaneous count, official estimate or second independent local account. The NH URL returned Cache miss; that is a technical failure, not a denial."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G002",
+    "type": "state_target",
+    "description": "NOS describes several hundred at Leeuwarden on 21 February but only identifies lockdown/curfew opponents within a mixed crowd; common demand and size of the policy-opposition subset are unclear.",
+    "source_ids": [
+      "nl202102-s006"
+    ],
+    "affected_candidates": [
+      "netherlands_2021-02_E005"
+    ],
+    "required_followup": "Find local reports or organizer/official statements documenting the gathering’s common demand and how many participants opposed Dutch state restrictions."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G003",
+    "type": "episode_end",
+    "description": "Physical endpoint is incomplete for multiple candidates. Maastricht participants were moved from the square, Amsterdam participants were dispersed, Leeuwarden most left, and Amsterdam XR participants appeared at another intersection.",
+    "source_ids": [
+      "nl202102-s001",
+      "nl202102-s006",
+      "nl202102-s028",
+      "nl202102-s031"
+    ],
+    "affected_candidates": [
+      "netherlands_2021-02_E002",
+      "netherlands_2021-02_E004",
+      "netherlands_2021-02_E005",
+      "netherlands_2021-02_E006"
+    ],
+    "required_followup": "Locate same-day reporting documenting final participant departure for each specific location; do not infer event-end time from publication or the end of a police order."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G004",
+    "type": "state_target",
+    "description": "Schiphol XR reports target aviation and the climate crisis but do not establish a specific demand directed to Dutch government policy. The Plaza estimate “several dozen” is ambiguous at 50; total across airport locations is unknown.",
+    "source_ids": [
+      "nl202102-s022",
+      "nl202102-s025"
+    ],
+    "affected_candidates": [
+      "netherlands_2021-02_E001"
+    ],
+    "required_followup": "Review organizer materials or official statements for a government-policy demand and a total across distinct airport locations. Do not use arrests as turnout."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G005",
+    "type": "episode_unit",
+    "description": "Lenterebellie is one nationally coordinated 26 February kickoff with actions at multiple sites, but individual assemblies have differing turnout and response evidence.",
+    "source_ids": [
+      "nl202102-s027",
+      "nl202102-s028",
+      "nl202102-s031"
+    ],
+    "affected_candidates": [
+      "netherlands_2021-02_E006"
+    ],
+    "required_followup": "Reviewer should determine whether to preserve one coordinated multi-site event or split local assemblies. Do not sum separate estimates or the Utrecht arrest total."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G006",
+    "type": "participants",
+    "description": "For Lenterebellie, NOS describes Rotterdam attendance as several dozen while XR retrospectively estimates about 80; arrest reports differ (one NOS versus three XR). Utrecht arrest counts (100 NOS; 110 XR, including non-blockaders per XR) are not turnout. A separate MediaTV Rotterdam lead also returned Cache miss and provided no report text.",
+    "source_ids": [
+      "nl202102-s028",
+      "nl202102-s031",
+      "nl202102-s029"
+    ],
+    "affected_candidates": [
+      "netherlands_2021-02_E006"
+    ],
+    "required_followup": "Seek additional contemporary local reporting or official records for each location; preserve source-attributed attendance and arrest discrepancies. The MediaTV local lead is not corroboration because no body was captured."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G007",
+    "type": "response_attribution",
+    "description": "XR alleges police pushed, kicked or struck some participants during Rotterdam/Utrecht Lenterebellie actions; the contemporaneous NOS report does not independently confirm those allegations.",
+    "source_ids": [
+      "nl202102-s028",
+      "nl202102-s031"
+    ],
+    "affected_candidates": [
+      "netherlands_2021-02_E006"
+    ],
+    "required_followup": "Seek independent contemporaneous evidence and keep the allegation attributed until corroborated; do not transfer it to demonstrator violence."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G008",
+    "type": "episode_end",
+    "description": "The 28 February Museumplein lead could not be verified in either NH Nieuws or Amsterdams Dagblad body: both exact URLs returned Cache miss, including fresh-gated attempts.",
+    "source_ids": [
+      "nl202102-s009",
+      "nl202102-s010"
+    ],
+    "affected_candidates": [
+      "netherlands_2021-02_E007"
+    ],
+    "required_followup": "Use a separate permitted source or official record to establish that an event occurred, its date, size, demand, endpoint and response. Search-result headlines remain provisional."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G009",
+    "type": "coverage",
+    "description": "February 25 reports point to a commemoration of the 1941 February Strike at De Dokwerker. The official Eerste Kamer URL returned HTTP 429; NOS, I amsterdam and the City leads remain search-only. No captured body verifies a qualifying current-policy protest or 50+ attendance.",
+    "source_ids": [
+      "nl202102-s017",
+      "nl202102-s018",
+      "nl202102-s019",
+      "nl202102-s020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek accessible contemporaneous reports or official records to determine whether the public commemoration included a separate demonstration directed at the current Dutch government or its policy."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G010",
+    "type": "coverage",
+    "description": "The 17 February XR plan announced dispersed actions on 27 February and a planned Tilburg manifestation on 26 February, but the opened contemporaneous execution report documents 26 February actions only and does not verify every planned location.",
+    "source_ids": [
+      "nl202102-s027",
+      "nl202102-s028"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search local Tilburg and other regional reporting for actual 26–27 February gatherings; do not count prospective plans as executed events."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G011",
+    "type": "continuity",
+    "description": "January consultations show recurring Sunday COVID/curfew gatherings and a February 21 XR campaign announcing a March 14 finale, but no evidence captured so far establishes the same continuous physical assembly across dates or the month boundary.",
+    "source_ids": [
+      "nl202102-s001",
+      "nl202102-s006"
+    ],
+    "affected_candidates": [
+      "netherlands_2021-02_E002",
+      "netherlands_2021-02_E003",
+      "netherlands_2021-02_E004",
+      "netherlands_2021-02_E005"
+    ],
+    "required_followup": "Review exact same-site assembly and organizer records for physical continuation. Do not inherit January crowd, demand, violence or state-response facts and do not create continuation solely from repeated campaign branding."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G012",
+    "type": "search_method",
+    "description": "Thirteen registered web search actions yielded 420 ordered headers, but open-web discovery cannot reproduce systematic LexisNexis All News searches or establish exhaustive coverage. Coverage included Dutch/English broad, weekly, climate/strike, COVID demonstrations, local media, official leads and XR sources; labor, regional, archive and source-body coverage remain uneven.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Reviewer can extend Dutch/English regional and sector searches and official records; document open-web vs LexisNexis coverage limits."
+  },
+  {
+    "gap_id": "netherlands_2021-02_G013",
+    "type": "baseline",
+    "description": "The local May 2015 Clark–Regan manual was consulted. The latest formal baseline/additional Coding Procedure remains unverified and the baseline gate is pending coordinator review.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should verify the latest official dataset/version and any supplemental Coding Procedure before baseline approval."
+  }
+]

@@ -1,0 +1,29 @@
+Cambodia | February 2021 | open-web first pass complete; coordinator review pending
+
+Scope and method
+
+This dossier covers 1–28 February 2021 under the fixed 7 October 2026 event cutoff. It is a provisional extension record, separate from the integrated catalogue. The official baseline and coding-manual review remain pending.
+
+The first pass logged 21 actual English- and Khmer-language searches with 514 exact ordered result headers. Coverage included broad protest terms, four English weekly windows, four Khmer weekly windows, land and forest disputes, labor and garment work, activist releases, Kandal Province, and a date-specific February 23 search. The exact arrays were reconciled against the original exposed tool events without repeating searches; the prior parsed rows for S008–S021 are preserved in the capture history and replaced with the original ordered fields, refs, titles, URLs and exposed clocks. Q001’s recovered 24-header array matches the parent-provided SHA-256 and the final extractor snapshot. Search-result snippets remain discovery only and were not used as event evidence. This is not an exhaustive survey of local outlets, archives or every province, and it does not establish event absence.
+
+The 15 source cards include three opened pages and 12 search-only leads. Body scopes are recorded for RFA S001 (article lines 31–77), the selected Sithi timeline page S007 (displayed entries dated 1 March through 5 February; linked articles not opened), and CamboJA S013 (article lines 38–67). Sithi’s omission of the 23 February actions is not evidence of absence. The Khmer CamboJA compensation lead S014 remains search-only, with its date and relationship to the Prek Lavea dispute unverified. Other search-only release, labor, forest and human-rights leads do not establish additional qualifying gatherings.
+
+Provisional candidate findings
+
+E001 records CamboJA’s report of a 16 February village protest in Prek Lavea, Ksach Kandal district, Kandal Province, where villagers burned tires during a land dispute. The article reports 11 arrests but no protester count. Its ten dispute families are not attendance, and the “dozens” reported refer to police. The body does not establish an explicit government-directed demand at the protest, so the state target remains pending; threshold, end date and the relevance of a separate police-violence allegation also remain unresolved. Reported tire burning is coded as protester violence; arrests are recorded separately as state response.
+
+E002 records RFA’s report of solidarity gatherings on 23 February in separate communities across 11 provinces. RFA reports 10–20 people at each location and banners seeking dropped charges against six activists; speakers also asked government to address local disputes and end intimidation and arrests. The site ranges remain separate: no campaign-wide or simultaneous local attendance total is assigned. Whether this coordinated multi-sited campaign is one dataset unit or separate local assemblies remains pending_unit, alongside the local threshold question. RFA could not reach government spokespeople; this is not coded as ignore. No physical end or completed follow-up is established.
+
+Two separate leads are excluded: a follow-on Kandal police-headquarters protest by 11 people, with no exact date given, is below the threshold; head-shaving by detained activists on 23 February is an in-custody action, not a public assembly. No January-onset continuation was substantiated. Candidate counts and coding remain provisional, not official inclusion decisions.
+
+Access and source limits
+
+Each body attempt followed a fresh stable exact-URL receipt and manual publisher/origin review. RFA S001 and Sithi S007 opened under A001 and A002. CCHR S010 remained search_only after web.open returned an Internal Error and a later ordinary exact-URL HTTPS attempt failed DNS before HTTP; the fallback had its own fresh receipt and review. ODC labor material S012/S015 was not opened because a prior dossier warning left the original page’s access condition unclear; A003 itself did not authorize or trigger a request. The first CamboJA receipt A006 deferred during changing corpus inputs and was not used to retrieve; after a new stable receipt and a fresh manual review of the publisher and origin records, the exact article was opened under A007. A prior anti-bot challenge on a different CamboJA URL was retained as a page-specific warning, not generalized to this URL. No Africa-Press body or same-story copy request was made under the saved publisher-wide hold.
+
+Ten gaps remain: pending baseline, non-exhaustive search method, Khmer-language review, Prek Lavea turnout and state target, February 23 unit and threshold treatment, independent corroboration, technical/source access, event-specific violence and state response, and physical ends/continuity. All unknown dates, turnout and response values remain explicit in the event records.
+
+Validation
+
+The first read-only validation exited 1 because status.json omitted the zero-valued blocked and not_found access categories. Those two values were added; the final validate-unit and summarize-unit commands both passed with 21 queries, 514 headers, 15 sources, two candidates, two exclusions, no continuations and ten gaps. No source or event judgment changed for that structural correction.
+
+This is a researched open-web first pass pending coordinator review. It is not a catalogue update, official source approval, or proof that no other event occurred.

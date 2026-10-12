@@ -1,0 +1,77 @@
+[
+  {
+    "candidate_id": "congo_brazzaville_2021-01_C001",
+    "title": "December 31 anti-curfew youth demonstrations",
+    "start_date": "2020-12-31",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Brazzaville and Pointe-Noire; separate local episodes unresolved",
+    "source_ids": [
+      "S010",
+      "S047"
+    ],
+    "possible_owner_unit": "congo_brazzaville_2020-12",
+    "episode_key": "congo_brazzaville_curfew_20201231",
+    "notes": "S010 explicitly dates actual action December 31 around 21:00. January 1 is publication date. No numeric crowd count, physical closure or continued January assembly established. S047 is only a partially read archive teaser, not independent confirmation.",
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S010"
+        ],
+        "summary": "Explicit December 31, 2020 around 21:00."
+      },
+      "monthly_ownership": {
+        "source_ids": [
+          "S010"
+        ],
+        "summary": "December opening; no new January occurrence inferred."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "No physical end established."
+      }
+    }
+  },
+  {
+    "candidate_id": "congo_brazzaville_2021-01_C002",
+    "title": "SOPECO prior labor mobilizations and later arrears boundary link",
+    "start_date": "2020-09",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "source_ids": [
+      "S001",
+      "S072",
+      "S076"
+    ],
+    "possible_owner_unit": "congo_brazzaville_2020-09",
+    "episode_key": "congo_brazzaville_sopeco_prior_actions",
+    "notes": "Historical link only: Amnesty mentions September 2020 strike and April 9, 2019 sit-in; later February arrears are not January attendance or proof of continuously occupied space. Earlier opening and distinct actions need separate unit reconciliation. S072 and S076 search-only. Amnesty body February 2021 versus linked footnote URL year 2020 requires original-source check; no silent date correction.",
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "September 2020 historical strike reference; not verified opening of a continuous January protest."
+      },
+      "participants": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "280 staff with arrears describes workforce, not simultaneous gathering."
+      },
+      "monthly_ownership": {
+        "source_ids": [
+          "S001",
+          "S076"
+        ],
+        "summary": "Earlier actions and later February leads; no new January action evidenced."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "No continuous physical episode or ending established."
+      }
+    }
+  }
+]

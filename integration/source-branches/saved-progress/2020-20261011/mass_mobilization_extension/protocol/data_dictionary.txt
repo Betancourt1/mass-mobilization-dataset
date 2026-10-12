@@ -1,0 +1,40 @@
+DICCIONARIO DE LA ENTREGA
+
+candidate_id: ID local de investigación, no identificador oficial de Mass Mobilization.
+unit_id / unit_month: combinación país–mes asignada; organiza descubrimiento, no duración.
+start_date / end_date: ISO cuando se conoce; AAAA-MM conserva precisión mensual. En pistas
+pending_evidence una fecha puede ser la anunciada; no se presenta como ocurrencia aprobada.
+start_precision / end_precision: day, month, year o unknown. Vacío/null = desconocido.
+location / scope / organizer: ubicación, alcance y organización según fuentes.
+demands: categorías originales en inglés; varios valores separados por punto y coma en CSV.
+participants_original: estimaciones atribuidas tal como las describe el agente, sin sumar sedes.
+participants_min / max: límites derivados o extremos de estimaciones reportadas. No son
+intervalos estadísticos de confianza ni conteos exactos; leer texto y participants_precision.
+participants_estimate / precision: estimación puntual cuando se distingue explícitamente.
+threshold_50_evidence: explicación de por qué el tamaño está acreditado o sigue pendiente.
+protester_violence / state_*: yes, no_explicit o unknown. Silencio no es ausencia comprobada.
+state_accommodation: negociación/recepción de demandas también cuenta según manual; no victoria.
+state_crowd_dispersal: mecanismos para impedir/desplazar una reunión; no toda presencia policial.
+state_killings / state_shootings: respuestas a este acto, no muertos de combate o de otro episodio.
+eligibility: propuesta original del agente. No acredita aprobación.
+coordinator_eligibility / eligibility_effective: dictamen selectivo del coordinador cuando existe.
+agent_<campo>: valor anterior cuando revisión modifica la representación en consolidado.
+coding_status: estado de preparación del agente, independiente de elegibilidad y aprobación.
+coordinator_review_status: not_reviewed o root_reviewed_open_gaps, nunca validación independiente.
+baseline_gate: pendiente de versión oficial, universo, esquema y condiciones de uso.
+episode_key: vínculo tentativo para revisar continuidad; igual clave no autoriza fusionar solo.
+source_ids: referencias locales; global_source_id antepone unit_id para evitar ambigüedad.
+source_access_status: opened, search_only, blocked o not_found. Abierta no implica corroboración.
+origin_agency / source_type: ayuda a distinguir agencia común, comunicado, investigación y noticia.
+publication_date: fecha de publicación, distinta del evento. accessed_at: fecha de consulta.
+field_evidence: atributo -> fuentes y paráfrasis breve. No todo enlace prueba todos los campos.
+open_questions / gaps: preguntas no resueltas, tipo, candidatos afectados y seguimiento necesario.
+
+aggregate/candidates_flat.csv tiene una columna por respuesta estatal y enlaces directos.
+aggregate/candidates.csv conserva objetos anidados como texto JSON; candidates.json es el original
+consolidado legible por programas. research.sqlite facilita selección por país y fecha.
+aggregate/sources.csv cuenta fichas por unidad; una misma URL puede aparecer en ambos meses.
+sources_distinct_exact_urls deduplica cadenas idénticas, no agencias ni variantes AMP/canónicas.
+
+No calcular una escala de gravedad ni duración exacta desde unknown. No mezclar candidatos con
+filas oficiales ni presentar un número de fuentes como número de confirmaciones independientes.

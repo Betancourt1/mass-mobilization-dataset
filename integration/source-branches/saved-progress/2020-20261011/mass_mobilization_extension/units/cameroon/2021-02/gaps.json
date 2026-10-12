@@ -1,0 +1,119 @@
+[
+  {
+    "gap_id": "cameroon_2021-02_G001",
+    "type": "threshold",
+    "description": "No verified headcount reaches 50 for the Buea DDR road protest, Bamenda DDR march, Buea taxi-roadblock lead or Dschang traders action. Resident/beneficiary counts are not automatically event attendance.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S016",
+      "S017",
+      "S003",
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-02_E001",
+      "cameroon_2021-02_E002",
+      "cameroon_2021-02_E003",
+      "cameroon_2021-02_E004"
+    ],
+    "required_followup": "Seek independent event-specific counts or clear qualitative evidence that at least 50 were assembled; preserve recipient/resident figures separately."
+  },
+  {
+    "gap_id": "cameroon_2021-02_G002",
+    "type": "event_end",
+    "description": "No candidate has a verified physical end date/time. Article publication dates, planned dates and disruption durations are not used as protest end times.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S010",
+      "S003"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-02_E001",
+      "cameroon_2021-02_E002",
+      "cameroon_2021-02_E003",
+      "cameroon_2021-02_E004"
+    ],
+    "required_followup": "Find event-specific reporting that documents when each action ended and whether it continued; keep null where unavailable."
+  },
+  {
+    "gap_id": "cameroon_2021-02_G003",
+    "type": "date_conflict",
+    "description": "Buea DDR chronology remains unresolved: MMI/Actu Cameroun/Recorderline describe an action on 1 February, while VOA says the Buea protest was about a week before Bamenda’s 15 February march and MMI’s Bamenda story says only “days back.” A second Buea action around 8 February is possible but not established.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007",
+      "S009",
+      "S010",
+      "S024",
+      "S025"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-02_E001"
+    ],
+    "required_followup": "Find independent contemporaneous sources with exact Buea dates, route and action details; do not count a second protest or merge reports until resolved."
+  },
+  {
+    "gap_id": "cameroon_2021-02_G004",
+    "type": "source_lineage",
+    "description": "The February-dated Buea taxi story is near-identical to a Cameroon News Agency story published in July 2020, including the alleged police slap and traffic sequence, but the reported durations differ. The 2021 variant alone does not establish an independent February event.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-02_E003"
+    ],
+    "required_followup": "Seek an independent contemporaneous February report or original publisher evidence establishing date and provenance; preserve the candidate as pending evidence."
+  },
+  {
+    "gap_id": "cameroon_2021-02_G005",
+    "type": "date_and_scope",
+    "description": "The Dschang traders article is marked added 2 February but gives no action date, crowd size or clear public event form. Whether it belongs to February and whether the action reached the threshold remain unknown.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "cameroon_2021-02_E004"
+    ],
+    "required_followup": "Verify the action date, exact demand to the mayor/council, event form and participant count."
+  },
+  {
+    "gap_id": "cameroon_2021-02_G006",
+    "type": "access_and_continuity",
+    "description": "Possible university work-stoppage activity after January is not confirmed. Douala Today returned an anti-bot denial, and the exact Actu Cameroun strike article returned HTTP 403 after a Cache miss and DNS failure. No further request was made after denial.",
+    "source_ids": [
+      "S004",
+      "S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use independently available reporting to determine whether a February stoppage actually occurred and whether any public assembly reached threshold; do not retry the denied URLs or infer turnout from class attendance."
+  },
+  {
+    "gap_id": "cameroon_2021-02_G007",
+    "type": "regional_and_language_coverage",
+    "description": "Search used English and French, weekly month windows and targeted city/sector queries. It surfaced Buea, Bamenda, Douala, Yaoundé and Dschang leads, with broader searches naming Bafoussam, Garoua, Maroua and Ngaoundéré. Coverage remains uneven across Cameroon’s regions and languages; no systematic searches in the many indigenous languages or every local/regional outlet were performed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue regional press and language-specific searching, especially outside the English/French national online results, if later review warrants it."
+  },
+  {
+    "gap_id": "cameroon_2021-02_G008",
+    "type": "archive_and_baseline",
+    "description": "This is open-web research only. LexisNexis and systematic newspaper archive access were unavailable; the official baseline/catalogue remains pending. Search absence is not evidence that no other event occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may compare against the official baseline and any licensed or archived collections; keep this dossier pending independent review."
+  }
+]

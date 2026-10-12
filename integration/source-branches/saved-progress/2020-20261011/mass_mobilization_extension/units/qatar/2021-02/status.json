@@ -1,0 +1,32 @@
+{
+  "unit_id": "qatar_2021-02",
+  "country": "Qatar",
+  "month": "2021-02",
+  "agent_task": "/root/qatar_2021_02_batch60",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T21:23:34.073760+00:00",
+  "finished_at": "2026-10-10T22:25:40.647111Z",
+  "n_queries": 9,
+  "n_sources": 9,
+  "n_candidates": 0,
+  "n_excluded": 2,
+  "n_continuations": 0,
+  "n_gaps": 8,
+  "coverage_assessment": "2 current-unit body opens; 0 prior-unit-only. Nine actual batched search actions with 36 submitted English/Arabic query strings and 154 ordered headers were matched record-by-record to the registered rollout. The two current-unit reads (S001/S002) established only out-of-month leads: S001 describes a May event with the exact day inferred from “Wednesday” before 10 May; S002 conflicts between March 26 and April 26. Neither is a February candidate. S001’s group-size description is not a location-specific simultaneous count; S002 has no attendance estimate. The read reports do not establish an original state-directed demand. Seven cards remain search_only. No February protest is confirmed, but coverage is not exhaustive. English/Arabic open-web search is not LexisNexis; migrant-language coverage and the current official baseline/Coding Procedure remain unverified.",
+  "baseline_gate": "pending_official_baseline",
+  "captured_header_count": 154,
+  "source_access_counts": {
+    "opened_cards": 2,
+    "search_only_cards": 7,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "registered_rollout_actions": 9,
+    "saved_capture_records": 9,
+    "ordered_headers": 154,
+    "all_registered_actions_exactly_matched": true,
+    "all_urls_positionally_aligned": true,
+    "parity_evidence": "access_receipts/search_capture_parity.json"
+  }
+}

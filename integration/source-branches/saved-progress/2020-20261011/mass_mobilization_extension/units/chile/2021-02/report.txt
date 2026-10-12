@@ -1,0 +1,26 @@
+CHILE — FEBRERO DE 2021
+Primer barrido de web abierta, pendiente de revisión y base oficial.
+
+Método y cobertura
+Se registraron 40 consultas: general español/inglés; semanas 1–7, 8–14, 15–21 y 22–28; trabajo, estudiantes, Mapuche, regiones y seguimiento de casos/continuidad. Los resultados de cada lote de cuatro búsquedas vienen agrupados por el servicio: cada consulta conserva las URLs relevantes del lote y una nota que evita atribuirlas a consulta específica. No se inventan totales de resultados. Se retienen las URLs candidatas abiertas, bloqueadas y sólo descubiertas. No se preservan artículos completos.
+
+Fuentes
+103 tarjetas de URL: 38 abiertas, 2 bloqueadas, 63 sólo descubrimiento. Una URL no equivale a fuente independiente: hay EFE, Prensa Latina, Reuters, Europa Press y variantes AMP. Cifras de parte policial se atribuyen como tales, no como observación propia.
+
+Candidatos y estado
+24 candidatos: 8 proposed_include y 16 pendientes. Distribución: {'pending_threshold': 8, 'pending_evidence': 5, 'proposed_include': 8, 'pending_unit': 2, 'pending_state_target': 1}. Ninguno aprobado definitivamente o cotejado con base oficial. Una propuesta acredita provisionalmente reunión, fecha, lugar, demanda estatal y tamaño en texto abierto; no implica cierre o represión completamente conocida. E017 tiene inicio desconocido y titularidad pendiente, conservado para revisión, no exportación.
+
+Hallazgos
+Ola Panguipulli: reunión de cientos el 5 tras muerte de Francisco Martínez, acciones locales posteriores en Ñuñoa/Concepción y noche del 8; no se registra la muerte que disparó la ola como killings de protestas posteriores. Baquedano del 12 y del 26 tiene recuentos y respuestas policiales; 5 y 19 carecen de demanda/tamaño suficientemente acreditados para propuesta. Se documentaron además Bellavista (cancha estatal), Futrono (certificaciones escolares), ocupación pacífica de Mataveri, 80 trabajadores de Monticello contra restricciones sanitarias, campamento Rucalhue, Ñuke Mapu por agua potable, Villa Francia por transporte y Lautaro por concejal. Asistencia desconocida preservada como hueco, no inventada desde familias, pasajeros o firmas.
+
+Continuidad
+continuations.json vacío significa cero continuaciones previas confirmadas en este barrido, no ausencia de actividad. No se halló evidencia suficiente de permanencia física en febrero de Pucón E014, Cerrillos E016 o músicos E004 de enero. Fin de cuarentena y negociaciones no son cierre físico. Rucalhue empieza 15/02 y debe pasar a continuations de marzo/julio; orden de desalojo no prueba ejecución. E011 Plaza de Armas y E024 Santa Rosa no se cuentan como actos autónomos aprobados por posible pertenencia a E007. Puente Alto conserva cierre null: termina ataque a las 22:10, no toda reunión demostrablemente.
+
+Exclusiones y descubrimientos descartados
+10 fichas excluidas/provisionales. Cinco observaciones de actividad con razones de mes/objetivo privado/tamaño: Vega Monumental, Torres Alameda, Cuprum, Panguipulli ~30 del 8, Estación Central ~15 del 8. Cinco descubrimientos que no acreditan un evento del mes: anuncios Talcahuano/Dreams, video de evento social, HRW 2021 con hechos 2020, protestas de España. No se afirma que convocatorias no se realizaron. Se conservan razones y condiciones para reabrir.
+
+Huecos y próximos pasos
+21 huecos estructurados. Prioridad: base oficial y hemeroteca equivalente; umbral local y objetivo específico; fechas físicas de cierre; episodio nacional/local; fecha real de Ñuke Mapu; continuidad y tamaño inicial de Rucalhue; originales sobre lesión ocular/golpes; PDFs Dirección del Trabajo inaccesibles por extracción. El barrido español tiene sesgo hacia noticias digitales/metropolitanas; lenguas indígenas y registros locales no se revisaron sistemáticamente. No encontré no equivale a no hubo. Este trabajo no es exhaustivo ni una actualización oficial.
+
+Archivos
+search_log.jsonl, sources.jsonl, events.json, excluded.json, continuations.json, gaps.json, report.txt y status.json. research_state.json es checkpoint local con consultas/tarjetas, no evidencia adicional. Todos los IDs son de candidatos locales, ningún ID MM oficial.

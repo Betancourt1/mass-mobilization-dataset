@@ -1,0 +1,212 @@
+[
+  {
+    "gap_id": "slovenia_2021-01_G001",
+    "type": "baseline",
+    "description": "Official current dataset bytes, universe, schema, cutoff and additional Coding Procedure remain unverified in the repository baseline.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator baseline verification before any official comparison or ID assignment."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G002",
+    "type": "search_method",
+    "description": "Open-web searches do not reproduce LexisNexis coverage; no systematic archive access is established for this unit.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Record actual search windows, languages and access limitations; do not claim exhaustive coverage."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G003",
+    "type": "episode_unit",
+    "description": "The 19 January record contains an early-morning Rog eviction intervention and a separately reported ~200-person protest by 18:00. The morning police intervention/detentions and disputed force allegations are not securely attributable to the later crowd because physical continuity is unknown. The 22 January march is a distinct route and reported gathering; no source establishes continuity between January 19 and 22.",
+    "source_ids": [
+      "slovenia_2021-01_S001",
+      "slovenia_2021-01_S016",
+      "slovenia_2021-01_S019",
+      "slovenia_2021-01_S020",
+      "slovenia_2021-01_S043"
+    ],
+    "affected_candidates": [
+      "slovenia_2021-01_E002",
+      "slovenia_2021-01_E003"
+    ],
+    "required_followup": "Keep morning and evening phases separate unless evidence establishes physical continuity; follow physical departure through 19–22 January and retain the evening crowd as pending_unit until episode boundaries and official unit rules are resolved."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G004",
+    "type": "language",
+    "description": "Searches include English and Slovenian general terms, every January week, recurring Friday actions across December–February, police-union/labor leads, and city-focused school-protest searches. This is still not systematic regional, sectoral, or archive coverage; open-web search results are date-noisy and do not establish absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted Slovenian regional/sector searches and follow source dependencies; preserve access/date noise and do not claim absence or exhaustiveness."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G005",
+    "type": "source_independence",
+    "description": "The 13 January attendance estimate remains supported by one opened Večer event report: more than 100 people. A separately opened Nova24TV report confirms the gathering, approximate start and organizer but supplies no count and references social-media photos and RTV reporting; the advance Ljubljanainfo article does not confirm occurrence.",
+    "source_ids": [
+      "slovenia_2021-01_S002",
+      "slovenia_2021-01_S012",
+      "slovenia_2021-01_S051"
+    ],
+    "affected_candidates": [
+      "slovenia_2021-01_E001"
+    ],
+    "required_followup": "Seek an independently sourced turnout estimate or direct contemporary public record; preserve outlet/agency dependencies."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G006",
+    "type": "source_access",
+    "description": "Potentially relevant pages remain unread or access-limited: S010 and S022 returned HTTP 308; S013 and S048/S049 returned Cache miss; S014 and S038 returned HTTP 403; S046 returned HTTP 308; S050 returned Internal Error. S045 returned HTTP 200 on one ordinary request, but its event-specific article text was not substantively inspected. S044 was retrieved with HTTP 200 after one escalated exact-URL request, but only the leading 3,500 characters were inspected. No blocked source was retried, no redirect was followed, and search-only leads are not used as substantive event evidence.",
+    "source_ids": [
+      "slovenia_2021-01_S010",
+      "slovenia_2021-01_S013",
+      "slovenia_2021-01_S014",
+      "slovenia_2021-01_S022",
+      "slovenia_2021-01_S038",
+      "slovenia_2021-01_S045",
+      "slovenia_2021-01_S046",
+      "slovenia_2021-01_S048",
+      "slovenia_2021-01_S049",
+      "slovenia_2021-01_S050"
+    ],
+    "affected_candidates": [
+      "slovenia_2021-01_E001",
+      "slovenia_2021-01_E003",
+      "slovenia_2021-01_E004",
+      "slovenia_2021-01_E005",
+      "slovenia_2021-01_E006"
+    ],
+    "required_followup": "Use other independently accessible contemporary sources for event confirmation; do not infer page contents beyond the recorded result headers."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G007",
+    "type": "contested_evidence",
+    "description": "During the 19 January morning Rog eviction intervention, police reporting quoted by Regional Obala says ten detained and one injured; activists claimed three serious injuries, and MP Nataša Sukič alleged police use of truncheons/excessive force. These accounts conflict. The approximately 200-person protest was reported by 18:00, but the morning response is not coded against that later crowd because physical continuity is unestablished. The opened same-headline Regional Goriška page has a T.K./Uredništvo/STA byline suggesting wire/republication overlap with S016; the inspected leading text covers the morning intervention rather than the evening crowd/end.",
+    "source_ids": [
+      "slovenia_2021-01_S016",
+      "slovenia_2021-01_S044"
+    ],
+    "affected_candidates": [
+      "slovenia_2021-01_E003"
+    ],
+    "required_followup": "Locate and compare direct police, activist and independent medical/press accounts; determine whether morning response facts pertain to the later crowd without assuming event continuity or either side’s account is complete."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G008",
+    "type": "source_independence",
+    "description": "The 22 January sources include explicit STA bylines (24ur and Delo/STA), text overlapping Večer/Reporter, one Delo reporter account, and an estimate attributed to TV Slovenija via Svet24. These are not five independent confirmations; turnout estimates remain separately attributed and unreconciled. Ljubljanainfo also quotes STA and police for several-hundred/around-500 estimates and response; its independent source chain is unresolved.",
+    "source_ids": [
+      "slovenia_2021-01_S001",
+      "slovenia_2021-01_S015",
+      "slovenia_2021-01_S017",
+      "slovenia_2021-01_S019",
+      "slovenia_2021-01_S020",
+      "slovenia_2021-01_S021",
+      "slovenia_2021-01_S043"
+    ],
+    "affected_candidates": [
+      "slovenia_2021-01_E002"
+    ],
+    "required_followup": "Verify article bylines and original agency/reporting sources; retain independent Delo reporting separately from STA-derived text and seek another direct account."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G009",
+    "type": "episode_unit",
+    "description": "A 30 January Trbovlje crowd and 31 January multi-city school-closure actions occurred on adjacent days. Shared issue is clear; national coordination, local episode boundaries and physical continuity are not. Independent city counts vary in geographic scope. An opened 24ur bylined account adds around 200 for Trbovlje and identifies a local Facebook group; other Q019 Koper/Trbovlje search leads remain unread or access-limited. A search-only Publishwall compilation contains a 31 January local-action post naming Koper and other sites, but its authorship and relationship to the events are not verified.",
+    "source_ids": [
+      "slovenia_2021-01_S018",
+      "slovenia_2021-01_S023",
+      "slovenia_2021-01_S024",
+      "slovenia_2021-01_S025",
+      "slovenia_2021-01_S026",
+      "slovenia_2021-01_S027",
+      "slovenia_2021-01_S028",
+      "slovenia_2021-01_S029",
+      "slovenia_2021-01_S045",
+      "slovenia_2021-01_S046",
+      "slovenia_2021-01_S047",
+      "slovenia_2021-01_S048",
+      "slovenia_2021-01_S049",
+      "slovenia_2021-01_S050",
+      "slovenia_2021-01_S052"
+    ],
+    "affected_candidates": [
+      "slovenia_2021-01_E004",
+      "slovenia_2021-01_E005"
+    ],
+    "required_followup": "Seek organizer notices and city-specific physical end evidence; verify the Publishwall attribution and whether any same-call organizer coordinated the sites before assigning one unit."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G010",
+    "type": "source_independence",
+    "description": "School-protest articles include explicit STA bylines or direct STA attribution (Siol/STA, Mladina/STA and the Maribor count); 24ur, Reporter, Delo and Večer provide additional accounts but their dependencies and count scopes do not always align. The opened 24ur Trbovlje account is bylined and cites a local residents' Facebook group; additional Siol, Reporter and Svet24 leads have not been opened and add no independent evidence.",
+    "source_ids": [
+      "slovenia_2021-01_S018",
+      "slovenia_2021-01_S023",
+      "slovenia_2021-01_S024",
+      "slovenia_2021-01_S025",
+      "slovenia_2021-01_S026",
+      "slovenia_2021-01_S027",
+      "slovenia_2021-01_S028",
+      "slovenia_2021-01_S029",
+      "slovenia_2021-01_S047",
+      "slovenia_2021-01_S048",
+      "slovenia_2021-01_S049",
+      "slovenia_2021-01_S050"
+    ],
+    "affected_candidates": [
+      "slovenia_2021-01_E004",
+      "slovenia_2021-01_E005"
+    ],
+    "required_followup": "Retain each city estimate and source attribution separately; determine whether additional reporting is independent and what locations each estimate covers."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G011",
+    "type": "dates",
+    "description": "The 24ur page for the 22 January Rog protest displays 15:37 but also reports an 18:00 start and later outcomes. The page does not expose a verified update time in the opened text.",
+    "source_ids": [
+      "slovenia_2021-01_S019"
+    ],
+    "affected_candidates": [
+      "slovenia_2021-01_E002"
+    ],
+    "required_followup": "Preserve the conflict; verify publication/update metadata from a reliable page archive or do not rely on 24ur for the event sequence."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G012",
+    "type": "source_independence",
+    "description": "Attendance estimates for the 31 January school actions vary: Koper counts range from several hundred or above 700 (some attributed to other outlets) to more than 1,000 across Koper and Portorož, while other city counts overlap across articles. Differences may reflect geography/time coverage and are not reconciled.",
+    "source_ids": [
+      "slovenia_2021-01_S018",
+      "slovenia_2021-01_S023",
+      "slovenia_2021-01_S024",
+      "slovenia_2021-01_S026",
+      "slovenia_2021-01_S027",
+      "slovenia_2021-01_S028",
+      "slovenia_2021-01_S029"
+    ],
+    "affected_candidates": [
+      "slovenia_2021-01_E004"
+    ],
+    "required_followup": "Keep city-specific estimates and geographic wording intact; verify original outlet/agency provenance and do not add counts across cities or incompatible Koper/Portorož scopes."
+  },
+  {
+    "gap_id": "slovenia_2021-01_G013",
+    "type": "episode_unit",
+    "description": "Friday-action reporting exists before, during and after January, but the documented forms differ: late-November and December reports describe individual car processions, January 8 describes individual walks plus unquantified activity at Trg republike, and a February 19 article describes small groups at the square. These references do not establish continuous physical presence or one event spanning the month.",
+    "source_ids": [
+      "slovenia_2021-01_S037",
+      "slovenia_2021-01_S039",
+      "slovenia_2021-01_S040",
+      "slovenia_2021-01_S041",
+      "slovenia_2021-01_S042"
+    ],
+    "affected_candidates": [
+      "slovenia_2021-01_E006",
+      "slovenia_2021-01_E001",
+      "slovenia_2021-01_E002"
+    ],
+    "required_followup": "Preserve each dated action separately and verify crowd size/episode rules for January 8; do not create a pre-January continuation or merge Friday actions based solely on campaign identity."
+  }
+]

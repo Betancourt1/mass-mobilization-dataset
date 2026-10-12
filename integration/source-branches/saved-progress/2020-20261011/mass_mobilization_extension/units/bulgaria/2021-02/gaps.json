@@ -1,0 +1,127 @@
+[
+  {
+    "gap_id": "bulgaria_2021-02_G001",
+    "type": "event_lead",
+    "description": "Possible February 7 Sofia auto convoy against epidemic restrictions and/or seeking government resignation remains unverified. BTA S002 displayed a purchase-confirmation prompt instead of body text; bTV S007 returned HTTP 403. Other search-only headlines may describe the same or a separate convoy (S025–S028). Occurrence, date, attendance, demands, and event boundary are not coded from result titles.",
+    "source_ids": [
+      "BG2102-S002",
+      "BG2102-S007",
+      "BG2102-S025",
+      "BG2102-S026",
+      "BG2102-S027",
+      "BG2102-S028"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek a newly accessible independent contemporary account only through a fresh exact-URL access check and manual publisher/origin review; establish whether these reports concern the same physical event before adding a candidate."
+  },
+  {
+    "gap_id": "bulgaria_2021-02_G002",
+    "type": "event_lead",
+    "description": "The February 19 System Kills Us call for a protest and march in S009 is inaccessible at its exact URL (HTTP 403); the body was not read. BNR S006 reports an anti-government evening protest that day and announces a later March of Freedom at 18:30. The relationship between the announcement, BNR report, and any executed later march remains unresolved.",
+    "source_ids": [
+      "BG2102-S006",
+      "BG2102-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find a permitted contemporary body source that confirms whether the announced march occurred and whether it is distinct from the anti-government evening assembly; do not code an announcement as execution."
+  },
+  {
+    "gap_id": "bulgaria_2021-02_G003",
+    "type": "dates",
+    "description": "BNR S003 reports a 215th consecutive evening of anti-government protest but the exact publication/event date is not established in the body/metadata read. It may be a February campaign observation, but the numbered day is not used to infer a calendar date. C001 also carries Bgonair’s February 7 campaign day 214 and BNR’s February 19 day 226.",
+    "source_ids": [
+      "BG2102-S003",
+      "BG2102-S006",
+      "BG2102-S011",
+      "BG2102-S029",
+      "BG2102-S037"
+    ],
+    "affected_candidates": [
+      "bulgaria_2021-02-C001"
+    ],
+    "required_followup": "Locate a date-stamped contemporary body for the 215th-evening report and the additional BNR search-only campaign leads; preserve the campaign as a continuation and do not merge separate assemblies."
+  },
+  {
+    "gap_id": "bulgaria_2021-02_G004",
+    "type": "threshold",
+    "description": "E001 has body-confirmed February 7 date, Sofia location, and government-resignation demand, but neither current-unit BNT S001 nor prior-unit Bgonair S011 supplies a person count or clear qualitative estimate of 50 or more. Street blockages do not establish attendance.",
+    "source_ids": [
+      "BG2102-S001",
+      "BG2102-S011"
+    ],
+    "affected_candidates": [
+      "bulgaria_2021-02-E001"
+    ],
+    "required_followup": "Seek a date-specific body source with human attendance evidence; keep eligibility pending_threshold until the 50-person criterion is supported."
+  },
+  {
+    "gap_id": "bulgaria_2021-02_G005",
+    "type": "event_specific_response",
+    "description": "E001’s physical ending, protester violence, and all seven state-response variables remain unknown. For E002, protester violence and event-specific state responses remain unknown; AUBG’s later municipal order/police separation concerned the separate BNU Lukov March after the anti-fascist demonstration ended and is not attributed to E002. Silence is not coded as no response.",
+    "source_ids": [
+      "BG2102-S001",
+      "BG2102-S003",
+      "BG2102-S004",
+      "BG2102-S005",
+      "BG2102-S006",
+      "BG2102-S012"
+    ],
+    "affected_candidates": [
+      "bulgaria_2021-02-E001",
+      "bulgaria_2021-02-E002"
+    ],
+    "required_followup": "Search event-specific contemporary sources for physical closure and actions directed at each gathering; do not transfer campaign or opposing-procession responses."
+  },
+  {
+    "gap_id": "bulgaria_2021-02_G006",
+    "type": "source_independence",
+    "description": "E002 is dated February 13 and AUBG Daily reports approximately 100 participants; BNR and BNT bodies also describe an anti-fascist Sofia march. No saved record links these articles as copies, but editorial independence and independent corroboration of the approximate count are not established.",
+    "source_ids": [
+      "BG2102-S004",
+      "BG2102-S005",
+      "BG2102-S012",
+      "BG2102-S013",
+      "BG2102-S014",
+      "BG2102-S017",
+      "BG2102-S018"
+    ],
+    "affected_candidates": [
+      "bulgaria_2021-02-E002"
+    ],
+    "required_followup": "Coordinator should compare article origins and seek an independent count or organizer record. Preserve “approximately 100” as one attributed estimate until corroborated."
+  },
+  {
+    "gap_id": "bulgaria_2021-02_G007",
+    "type": "cross_month",
+    "description": "BNR S010 dates the restaurant owners/staff gathering to January 27, so X001 is outside this February unit. The body reports February 1 as a requested reopening date; it does not establish a separate February 1 street assembly. Additional result-only restaurant links remain unverified.",
+    "source_ids": [
+      "BG2102-S010",
+      "BG2102-S033",
+      "BG2102-S034",
+      "BG2102-S035",
+      "BG2102-S036"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep January 27 with its January owner; open only a newly checked source if evidence is needed for a separate February 1 event. Do not infer one from a scheduled reopening or planned protest."
+  },
+  {
+    "gap_id": "bulgaria_2021-02_G008",
+    "type": "coverage",
+    "description": "The first pass used 20 exact-captured English and Bulgarian Cyrillic queries (485 ordered result headers), weekly February windows, Sofia/Plovdiv/Varna/Burgas/Ruse/Blagoevgrad and national searches, and sector terms for unions, teachers, medical staff, transport, and miners. No sector-specific action was body-verified in this pass. Results include off-period leads; their presence or absence does not establish whether a gathering occurred. Open web search does not reproduce LexisNexis or local archives.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted local/regional union, health, education, transport and mining searches and consult date-stamped contemporary sources; preserve the search limits and distinguish “not found” from “did not occur”."
+  },
+  {
+    "gap_id": "bulgaria_2021-02_G009",
+    "type": "source_access",
+    "description": "Three relevant exact-URL requests stopped at access barriers: S002 showed a BTA purchase-confirmation prompt, S007 returned HTTP 403, and S009 returned HTTP 403. These exact URLs were not retried or bypassed. Additional candidate pages remain search-only; the exact receipt and manual review files are in access_receipts/.",
+    "source_ids": [
+      "BG2102-S002",
+      "BG2102-S007",
+      "BG2102-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use only other permitted, independently reviewed sources; do not retry the denied exact URLs or infer a publisher-wide restriction from an exact-URL denial."
+  }
+]

@@ -1,0 +1,2053 @@
+[
+  {
+    "candidate_id": "TUR202101-E001",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Boğaziçi University South Campus protest against rector appointment (Jan 4)",
+    "start_date": "2021-01-04",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the main entrance to Boğaziçi University's South Campus, Beşiktaş, Istanbul",
+    "scope": "local",
+    "organizer": "Boğaziçi Dayanışması, according to the Jan 14 PEN Norway/Sivil Alan joint statement; AA quotes a student representative board statement but does not call it the organizer.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "The Jan 14 PEN Norway/Sivil Alan joint statement retrospectively says over 3,000 attended Jan 4. The Guardian reports about 1,000 across Monday and Tuesday without allocating by day; estimates conflict. AA quotes the student board describing a crowded group.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "The joint Jan 14 statement explicitly reports over 3,000 at the Jan 4 South Campus protest, supporting the >=50 threshold. The Guardian gives a much lower estimate of about 1,000 across Jan 4–5 without day allocation; the conflicting magnitude and estimation methods remain unresolved. Arrests are not used as turnout.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S001",
+      "TUR202101-S016",
+      "TUR202101-S095",
+      "TUR202101-S004"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S001",
+          "TUR202101-S095",
+          "TUR202101-S004"
+        ],
+        "summary": "AA and the Jan 14 joint statement identify the South Campus protest as Jan 4. S004 has an initial campus gathering under a Jan 3 heading, while its Jan 4 section lists follow-on protests and arrests; this internal chronology conflict remains open."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S001",
+          "TUR202101-S016",
+          "TUR202101-S095"
+        ],
+        "summary": "None of the sources establishes the physical end of the Jan 4 gathering."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S001",
+          "TUR202101-S016",
+          "TUR202101-S095"
+        ],
+        "summary": "AA and the joint statement place the Jan 4 gathering at the South Campus entrance; Guardian describes the surrounding protest sequence."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S001",
+          "TUR202101-S016",
+          "TUR202101-S095"
+        ],
+        "summary": "A local Istanbul campus protest; later dates and sites are not automatically merged."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S001",
+          "TUR202101-S095"
+        ],
+        "summary": "The joint statement says Boğaziçi Dayanışması called the Jan 4 protest. AA quotes a student representative board but does not identify it as organizer."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S001",
+          "TUR202101-S016",
+          "TUR202101-S095"
+        ],
+        "summary": "Opposition to the president-appointed rector and defense of academic freedom and university autonomy."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S001",
+          "TUR202101-S016",
+          "TUR202101-S095"
+        ],
+        "summary": "PEN Norway/Sivil Alan joint statement says over 3,000 Jan 4; Guardian says about 1,000 over Monday/Tuesday without day allocation; AA quotes a crowded group. The incompatible magnitude claims are retained."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S016",
+          "TUR202101-S095"
+        ],
+        "summary": "No harmonized numeric lower bound is recorded because the only Jan 4-specific figure conflicts substantially with the Guardian combined-date estimate."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S016",
+          "TUR202101-S095"
+        ],
+        "summary": "No numeric upper bound is established; reported estimates conflict and neither source supplies a method."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S016",
+          "TUR202101-S095"
+        ],
+        "summary": "No single reconciled point estimate is selected."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S095",
+          "TUR202101-S016"
+        ],
+        "summary": "The Jan 14 joint statement reports over 3,000 at Jan 4, clearing 50; Guardian's approximate 1,000 across two days is not allocated and conflicts in magnitude, so count precision remains unresolved."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S095"
+        ],
+        "summary": "The joint statement explicitly describes the Jan 4 participants as peaceful; this is an attributed statement, not independent verification."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S001",
+          "TUR202101-S095"
+        ],
+        "summary": "AA reports 22 Jan 5 detentions in an operation tied to Jan 4 allegations; the joint statement calls the Jan 4 police action forceful but specifies no mechanism. Code arrests yes; do not infer beatings or dispersal."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-BOGAZICI-RECTOR-APPOINTMENT-2021-01",
+    "notes": "The Jan 14 joint statement supports a Jan 4 turnout above 3,000, but its retrospective figure conflicts with Guardian’s roughly 1,000 across Jan 4–5 and neither method is given. Threshold and state-directed demand are supported, so the agent proposes inclusion pending review; no exact harmonized count is encoded. The statement calls participants peaceful, while describing unspecified forceful police intervention. Next-day arrests remain separate from attendance. No global all-unit scan preceded the first AA opening; that limitation remains disclosed on S001/E001. S004 adds a Jan 3/Jan 4 chronology ambiguity; the main date remains Jan 4 on AA and S095, pending verification of whether S004 describes a separate earlier gathering or a misordered entry.",
+    "open_questions": [
+      "Can the conflicting turnout estimates and their scopes be reconciled?",
+      "Was Jan 4 physically continuous with Jan 5 and Jan 6, or were these separate gatherings?",
+      "What was the physical end of the Jan 4 gathering?",
+      "Does S004’s Jan 3 entry describe a separate campus gathering, or is its chronology misordered relative to the Jan 4 call and reports?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E002",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Boğaziçi University protest against rector appointment (Jan 6)",
+    "start_date": "2021-01-06",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Boğaziçi University campus; a Jan 14 joint statement says the Jan 6 action began inside campus and later continued in Kadıköy, but the exact sites and relationship are unresolved.",
+    "scope": "local",
+    "organizer": "Students and university staff; the specific organizer is not named.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "The Guardian reports a few hundred students at the Wednesday Jan 6 protest. The Jan 14 joint statement says the Jan 6 action began inside campus and later continued in Kadıköy with high participation but gives no count or precise site linkage.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "qualitative_or_approximate",
+    "threshold_50_evidence": "The Guardian's description of a few hundred students at the Jan 6 gathering clearly exceeds 50.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S016",
+      "TUR202101-S095"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S016",
+          "TUR202101-S095"
+        ],
+        "summary": "Guardian identifies the Wednesday Jan 6 protest; the Jan 14 joint statement also has a Jan 6 chronology entry."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S016"
+        ],
+        "summary": "The article does not establish the physical end of the Jan 6 gathering."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S016",
+          "TUR202101-S095"
+        ],
+        "summary": "Guardian describes a Jan 6 Boğaziçi protest; the joint statement says it began inside the campus and later continued in Kadıköy, without establishing precise sites or whether both locations form one episode."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S016"
+        ],
+        "summary": "A local university protest in Istanbul."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S016"
+        ],
+        "summary": "Students and staff are described as protest participants; no organizer is named."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S016"
+        ],
+        "summary": "The protest opposed the state-appointed rector and defended academic freedom."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S016",
+          "TUR202101-S095"
+        ],
+        "summary": "Guardian reports a few hundred on Wednesday; the joint statement refers to high participation in later Kadıköy activity but does not give a count or clearly link that count to the campus gathering."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S016"
+        ],
+        "summary": "No exact minimum reported; qualitative few hundred supports the threshold."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S016"
+        ],
+        "summary": "No exact maximum reported."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S016"
+        ],
+        "summary": "No numeric point estimate reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S016"
+        ],
+        "summary": "Guardian's few hundred students at the Jan 6 Wednesday gathering supports the threshold; the later Kadıköy activity in S095 is not separately counted."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S016"
+        ],
+        "summary": "The reported clashes and attempted entry concern Monday/Tuesday; no specific participant violence is attributed to Jan 6."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S016"
+        ],
+        "summary": "The article reports police presence and a stay-home order around the sequence, but does not clearly attribute a direct response beyond presence to the Jan 6 gathering itself; all seven dimensions remain unknown."
+      }
+    },
+    "eligibility": "pending_unit",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-BOGAZICI-RECTOR-APPOINTMENT-2021-01",
+    "notes": "The Jan 6 gathering has a threshold-supporting Guardian estimate but may be part of an extended sequence beginning Jan 4. S095 says the Jan 6 action began inside the campus, with later Kadıköy activity, but does not establish the physical or organizational boundary between locations. Do not merge or separate the days/sites without review.",
+    "open_questions": [
+      "Was the Jan 6 gathering a new physical event or continuation of the Jan 4–5 sequence?",
+      "Does the Jan 6 campus gathering and later Kadıköy activity form one episode or distinct gatherings?",
+      "Did police attempt to disperse this particular crowd?",
+      "When did this gathering physically end?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E003",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Ankara City Hospital health workers protest employee rights",
+    "start_date": "2021-01-22",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the maternity hospital at Ankara City Hospital, Ankara",
+    "scope": "local",
+    "organizer": "Health and social-service worker organizations, including Ankara Medical Chamber, SES and Dev Sağlık-İş; Bianet says seven organizations participated.",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "Bianet describes a group of health workers from seven occupational organizations; ATO names a gathering of health and social-service workers. Neither source gives a turnout estimate. S007 also records eight detentions, which are not an attendance count.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "The sources establish that workers from multiple organizations gathered, but provide no attendance estimate; the 8 SES executives detained are not the protest's total turnout. Threshold remains unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "yes",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S033",
+      "TUR202101-S034",
+      "TUR202101-S071",
+      "TUR202101-S007"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034",
+          "TUR202101-S071",
+          "TUR202101-S007"
+        ],
+        "summary": "Both contemporaneous accounts date the gathering to Jan 22, 2021. TİHV also lists the Jan 22 action in its daily report. S007 also lists the health-worker protest at City Hospital on Jan 22."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034",
+          "TUR202101-S071"
+        ],
+        "summary": "No physical end is reported in the examined text. TİHV gives no physical end."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034",
+          "TUR202101-S071"
+        ],
+        "summary": "Bianet and ATO place the action outside Ankara City Hospital's maternity hospital. TİHV identifies the same City Hospital protest."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034"
+        ],
+        "summary": "A single hospital gathering in Ankara."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034"
+        ],
+        "summary": "Bianet reports seven occupational organizations; ATO, SES and Dev Sağlık-İş are identified."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034",
+          "TUR202101-S071",
+          "TUR202101-S007"
+        ],
+        "summary": "Workers sought employee personal rights and health-worker demands. The exact government or employer addressee is not specified. TİHV likewise describes a protest for employee rights; the exact government addressee remains unspecified. S007 describes the action as seeking better working conditions; the state addressee and specific policy remain unspecified."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034",
+          "TUR202101-S071",
+          "TUR202101-S007"
+        ],
+        "summary": "Bianet says a group from seven occupational organizations; no numeric estimate. TİHV provides no headcount. S007 also reports eight detentions; this is not total turnout."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034",
+          "TUR202101-S071"
+        ],
+        "summary": "No numerical minimum reported. TİHV gives no attendance minimum."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034",
+          "TUR202101-S071"
+        ],
+        "summary": "No numerical maximum reported. TİHV gives no attendance maximum."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034",
+          "TUR202101-S071"
+        ],
+        "summary": "No point estimate reported. TİHV gives no attendance estimate."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034",
+          "TUR202101-S071",
+          "TUR202101-S007"
+        ],
+        "summary": "Multiple organizations do not establish at least 50 people; detained executives are not total turnout. TİHV adds no crowd count; its eight detainees are not turnout. S007 gives no headcount; eight detainees do not establish turnout."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034",
+          "TUR202101-S071"
+        ],
+        "summary": "No participant violence reported in the examined text. TİHV does not report participant violence."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S033",
+          "TUR202101-S034",
+          "TUR202101-S071",
+          "TUR202101-S007"
+        ],
+        "summary": "Both accounts describe police intervention and detentions, supporting arrests yes. Neither examined text specifies beatings, a mechanism to break up the gathering, accommodation, ignore, killings or shootings. TİHV reports detentions using physical violence and same-day release, supporting arrests and beatings yes; it does not specify the other response dimensions. S007 lists eight detentions but does not specify the intervention method."
+      }
+    },
+    "eligibility": "pending_state_target",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-ANKARA-HEALTH-WORKERS-2021-01-22",
+    "notes": "The event's turnout and exact demand addressee remain unresolved. ATO source was only partially read after a Cache miss, default DNS failure and one successful normal HTTPS request; no article text was stored. S007 provides a retrospective monthly-list confirmation of the Jan 22 action and eight detentions; it reports no turnout and does not specify police method.",
+    "open_questions": [
+      "How many people attended?",
+      "Were the demands directed to the Ministry of Health or another state authority, and what specific policy was requested?",
+      "Did police move or disperse the crowd beyond detaining participants?",
+      "When did the gathering physically end?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E004",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Cargill workers' Jan 11 union-rights action after police blocked a Ministry protest",
+    "start_date": "2021-01-11",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the Tek Gıda-İş union building in Ankara, after police blocked the group from walking to the Ministry of Agriculture and Forestry.",
+    "scope": "local",
+    "organizer": "Cargill workers and Tek Gıda-İş; the specific organizing body is not fully identified.",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "S048 reports 14 Cargill workers detained during the action; S007 reports 10 people detained during the follow-on union-site sit-in. The reports do not establish whether these are different phases or conflicting totals; neither detention count is total turnout.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "Neither S048 (14 detentions) nor S007 (10 detentions) reports total attendance. These figures cannot establish or rule out 50 participants; threshold remains unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S047",
+      "TUR202101-S048",
+      "TUR202101-S007"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S048",
+          "TUR202101-S007"
+        ],
+        "summary": "Bianet dates the article to Jan 11, 2021, and reports the workers' presence and action at the union building that day. S007 independently lists the Cargill action on Jan 11."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S048"
+        ],
+        "summary": "Bianet reports that workers continued waiting after the press statement; it gives no later physical end."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S047",
+          "TUR202101-S048",
+          "TUR202101-S007"
+        ],
+        "summary": "Cumhuriyet says the workers arrived in Ankara and gathered at the Tek Gıda-İş union building. Bianet labels its page location İstanbul, although the article body discusses Ankara; the event site is treated as Ankara based on the direct Cumhuriyet account. S007 places the follow-on sit-in outside the Tekgıda union building after a police-blocked Ministry of Agriculture and Forestry statement; it reports Ankara."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S048"
+        ],
+        "summary": "The account describes a single gathering at the union building; no additional January site is merged."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S048",
+          "TUR202101-S007"
+        ],
+        "summary": "Cargill workers and Tek Gıda-İş are identified, but the article does not name a formal event organizer. S007 identifies Cargill workers but does not name the formal organizing body."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S048",
+          "TUR202101-S007"
+        ],
+        "summary": "Workers sought to make a statement at the Ministry and said their resistance would continue until reinstatement demands were met; the article does not clearly state a specific request for state policy or ministry action. S007 confirms a planned Ministry of Agriculture and Forestry statement but does not specify the requested state policy; state-target eligibility remains pending."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S047",
+          "TUR202101-S048",
+          "TUR202101-S007"
+        ],
+        "summary": "Cumhuriyet reports 14 workers detained; no total turnout or other attendees are counted. The arrest figure is not treated as attendance. S007 reports 10 people detained during the union-site sit-in, versus 14 workers in S048; neither is a turnout count."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S047",
+          "TUR202101-S048"
+        ],
+        "summary": "No explicit lower bound for total attendance is given; 14 detainees cannot be used as the total."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S047",
+          "TUR202101-S048"
+        ],
+        "summary": "No explicit upper bound for total attendance is given."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S047",
+          "TUR202101-S048"
+        ],
+        "summary": "Neither report estimates total Jan 11 attendance."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S047",
+          "TUR202101-S048",
+          "TUR202101-S007"
+        ],
+        "summary": "Fourteen detained workers are not total turnout; no source establishes whether additional supporters raised attendance to 50. S007 supplies no total attendance; its 10 detentions and S048’s 14 detentions cannot be used as turnout."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S048"
+        ],
+        "summary": "The examined report does not establish violence by protesters."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S047",
+          "TUR202101-S048",
+          "TUR202101-S007"
+        ],
+        "summary": "Cumhuriyet says police detained 14 workers after blocking their walk to the Ministry; Bianet reports repeated police dispersal calls at the union building. Arrests and an attempted dispersal are yes. No evidence was found for the other five dimensions. S007 reports ten detentions and police intervention at the sit-in; it does not specify a dispersal mechanism. S048 separately reports calls to disperse. S007 supports the existence of a Ministry statement attempt followed by a union-site sit-in; it does not resolve whether the 10 and 14 detention figures describe different stages."
+      }
+    },
+    "eligibility": "pending_state_target",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-CARGILL-1000-DAY-ACTION-2021-01-11",
+    "notes": "Cumhuriyet places the union-site gathering in Ankara and reports 14 Cargill workers detained; this resolves the city despite Bianet metadata tagging İstanbul. The 14 arrested workers are not assumed to equal total attendance. The event followed a planned Ministry of Agriculture and Forestry demonstration blocked by police. The specific request for state policy or ministry action, total turnout and physical end remain unresolved. Full preflight scanned 157 source-card/check files (20,190 JSONL rows, zero parse errors); it found no previous Cumhuriyet denial or same-origin body in saved records. S007 provides a second monthly-report account of a Ministry statement attempt followed by a union-site sit-in and reports 10 detentions, compared with S048’s 14; the counts and event phases are unresolved. Keep the attendance threshold pending.",
+    "open_questions": [
+      "Was a specific request for state policy or ministry action made, or was the demand directed only to Cargill?",
+      "How many people attended, including any union or civil-society supporters beyond the 14 arrested workers?",
+      "When did the Jan 11 gathering physically end?",
+      "Do S007’s 10 and S048’s 14 detentions refer to the same phase/total, and what was total attendance?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E005",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Boğaziçi solidarity gathering in Kadıköy (Jan 21)",
+    "start_date": "2021-01-21",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Kadıköy Rıhtım Meydanı, Istanbul according to S004; S111 identifies Kadıköy but no exact square.",
+    "scope": "local",
+    "organizer": "Boğaziçi students and students from other universities; the specific organizing body is not named in the accessed report.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "S004 describes Kadıköy Rıhtım Meydanı as crowded/full at 17:00 but gives no count; S111 describes the student gathering and support from other universities without a turnout estimate.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "No crowd count or clear qualitative size is reported; the >=50 threshold remains unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S111",
+      "TUR202101-S004"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S111",
+          "TUR202101-S004"
+        ],
+        "summary": "S111 is the contemporaneous Kadıköy report recorded for Jan 21; S004 places a crowded Kadıköy action under its Jan 20 heading, although its Jan 18 entry calls for Jan 21 at 17:00. Date conflict remains unresolved."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S004",
+          "TUR202101-S111"
+        ],
+        "summary": "S004 says the Kadıköy action ended after a press statement but places it on Jan 20; date and relation to the Jan 21 report are unresolved, so no end date is set."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S111",
+          "TUR202101-S004"
+        ],
+        "summary": "S111 identifies Kadıköy; S004 names Kadıköy Rıhtım Meydanı."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S111"
+        ],
+        "summary": "The report describes a Kadıköy assembly supported by students from other universities; it does not establish a nationwide single gathering."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S111"
+        ],
+        "summary": "Boğaziçi students and students from other universities are identified; the report does not name a specific organizing body."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S111"
+        ],
+        "summary": "The attributed statement seeks democratic rector elections, resignation of appointed rectors and university participation in governance, directed at the appointment/governance process in Turkey."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S111",
+          "TUR202101-S004"
+        ],
+        "summary": "S111 gives no count; S004 describes the square as crowded/full at 17:00, without a numerical estimate or method."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S111"
+        ],
+        "summary": "No numerical lower bound for the crowd is stated."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S111"
+        ],
+        "summary": "No numerical upper bound for the crowd is stated."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S111"
+        ],
+        "summary": "No crowd estimate is stated."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S004",
+          "TUR202101-S111"
+        ],
+        "summary": "S004’s qualitative description of a crowded/full square may support a substantial gathering but supplies no count; S111 has no estimate. Keep the >=50 threshold pending."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S111"
+        ],
+        "summary": "The article does not report participant violence at this gathering; remain unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S111"
+        ],
+        "summary": "The article's references to arrests and police assaults concern other actions; it reports no specific response at this Kadıköy gathering, so all seven dimensions remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-BOGAZICI-KADIKOY-SOLIDARITY-2021-01-21",
+    "notes": "This is a report of a Jan 21 gathering in Kadıköy, distinct by reported site/date from the Jan 21 campus Onur walk. It is not automatically merged with Jan 4–6 Boğaziçi actions. The article gives no turnout or physical end; its 1,500-worker quote is not rally attendance. Demands concern appointed rectors, democratic selection and university governance. S004 links a campus Onur walk to later Kadıköy activity in its Jan 20 chronology, but its date conflicts with the Jan 21 call and S111. Treat the venues as distinct physical gatherings and keep their coding relationship pending.",
+    "open_questions": [
+      "Can a contemporaneous account establish turnout at or above 50?",
+      "What was the exact gathering site in Kadıköy?",
+      "Was this gathering physically continuous with the campus walk earlier the same day or any later action?",
+      "What was the physical end and were there event-specific police actions?",
+      "Was the Kadıköy action on Jan 20 or Jan 21, and was it the planned Jan 21 call or a separate gathering?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E006",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Boğaziçi campus Onur walk against trustee rector (Jan 21)",
+    "start_date": "2021-01-21",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Inside Boğaziçi University South Campus, from near the rectorate to the South Campus gate",
+    "scope": "local",
+    "organizer": "Boğaziçi LGBT+, which the source says called the walk.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "No attendance count is reported. The source says the walk was open only to university students.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "No count or clear crowd-size description is reported. Campus admission was limited to university students, leaving publicness and the >=50 threshold unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S112",
+      "TUR202101-S004"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S112",
+          "TUR202101-S004"
+        ],
+        "summary": "S112 reports a physically held 14:30 walk; S004 places the first Onur walk under its Jan 20 heading, while the current candidate uses Jan 21. Reconcile the event date against the body wording before setting a final date."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S112",
+          "TUR202101-S004"
+        ],
+        "summary": "S112 reports a gate statement followed by a call toward Kadıköy; S004 reports subsequent travel to the separate Kadıköy action. The campus event’s physical endpoint/date remains unresolved."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S112",
+          "TUR202101-S004"
+        ],
+        "summary": "Both accounts place the Onur walk on Boğaziçi South Campus; S112 reports the gate statement, and S004 says the walk then proceeded toward Kadıköy."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S112"
+        ],
+        "summary": "A campus action limited to university students; public-gathering eligibility remains for review."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S112"
+        ],
+        "summary": "The post identifies Boğaziçi LGBT+ as calling the Onur walk."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S112"
+        ],
+        "summary": "The source places the walk within the ongoing 'No to trustee rector' protest but does not give a separate detailed demand statement."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S112"
+        ],
+        "summary": "The post does not provide a headcount."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S112"
+        ],
+        "summary": "No numerical minimum is stated."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S112"
+        ],
+        "summary": "No numerical maximum is stated."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S112"
+        ],
+        "summary": "No point estimate is stated."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S112"
+        ],
+        "summary": "No attendance count or qualitative size is reported; access was limited to university students, so publicness and the >=50 threshold remain unresolved."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S112"
+        ],
+        "summary": "The post does not report participant violence at this campus walk; remain unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S112"
+        ],
+        "summary": "The post reports no event-specific state response at the campus walk; all seven dimensions remain unknown."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-BOGAZICI-ONUR-CAMPUS-WALK-2021-01-21",
+    "notes": "S112 reports that the campus Onur walk physically began at 14:30, proceeded to the South Campus gate and made a statement; admission was limited to enrolled students. S004 places the walk under Jan 20 and describes subsequent Kadıköy activity, while S111/S112 unit records use Jan 21; G005 tracks the date conflict. The campus and Kadıköy are separate gatherings and are not merged; their broader campaign/episode relationship remains for review.",
+    "open_questions": [
+      "How many attended the campus walk?",
+      "Does the original public-gathering rule include a walk restricted to university students on campus?",
+      "When did the walk and statement physically end?",
+      "Was there any event-specific police response?",
+      "Was the later Kadıköy gathering a continuation or separate episode under the original manual?",
+      "Was the physically held Onur walk on Jan 20 or Jan 21, and how should its relationship to the later Kadıköy gathering be represented?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E007",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Ankara action supporting Boğaziçi trustee-rector protests (Jan 14)",
+    "start_date": "2021-01-14",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Ankara, Turkey; exact venue not stated",
+    "scope": "local",
+    "organizer": "Unknown; not named in the consulted HDP report passage.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "No attendance count is given. The report says 30 people were detained; detainees are not a turnout measure.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "The consulted passage confirms an action but gives no crowd estimate. Thirty reported detentions do not establish that 50 or more attended; threshold remains pending.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S092"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "HDP report text explicitly dates the Ankara support action to Jan 14, 2021."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "The consulted passage gives no physical end or departure/dissolution account."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "The report identifies Ankara but gives no venue."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "One action in Ankara is identified; no other site is tied to this passage."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "No organizer is named in the consulted passage."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "The action is described as support for protests against the trustee rector appointed to Boğaziçi University; the passage does not give a local slogan."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "No participant number is reported; 30 detentions do not establish attendance."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "No minimum crowd size is reported."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "No maximum crowd size is reported."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "No point estimate is reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "The passage confirms a protest action but provides no attendance estimate; detentions cannot be substituted for turnout."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "The passage does not describe participant violence."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S092"
+        ],
+        "summary": "Police intervention and 30 detentions are reported, supporting arrests=yes. No specific beating, dispersal, shooting, killing, accommodation or ignoring is described."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-BOGAZICI-RECTOR-APPOINTMENT-2021-01",
+    "notes": "The date, Ankara location at city-level, and police detentions are stated in an HDP human-rights report. The broader action supports Boğaziçi opposition to a trustee rector, a domestic political-behavior/process issue. Attendance is unknown; 30 detentions are not turnout. This is a separate dated Ankara action, not merged with Istanbul campus or Kadıköy gatherings. The exact site, organizer and physical end remain unknown.",
+    "open_questions": [
+      "How many people actually assembled, and does the event meet the >=50 threshold?",
+      "Where in Ankara did the action occur?",
+      "Who organized it and what demand or slogan was presented locally?",
+      "What was the physical end and any police action beyond the reported detentions?",
+      "How is this Ankara event related, if at all, to other support actions in the broader campaign?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E008",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Ankara Güvenpark support press-statement attempt (Jan 7)",
+    "start_date": "2021-01-07",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Kızılay Güvenpark, Ankara; exact gathering area not given",
+    "scope": "local",
+    "organizer": "Unknown; no organizer named in the chronology.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "S004 reports 30 students beaten and detained, but does not give total attendance; detentions are not turnout.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "No crowd estimate is reported. The 30 people said to have been beaten and detained are not a turnout count.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "yes",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S004"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "S004 places the reported action under the Jan 7, 2021 chronology heading."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "The chronology does not establish a physical ending."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "Kızılay Güvenpark, Ankara; exact gathering area not given"
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "A local university/student action is described; no wider geographic scope is established."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "Unknown; no organizer named in the chronology."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "S004 describes the action as support for the Boğaziçi resistance against the trustee rector appointed by the president."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "S004 reports 30 students beaten and detained, but does not give total attendance; detentions are not turnout."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No numeric lower bound reported."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No numeric upper bound reported."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No point estimate reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No crowd estimate is reported. The 30 people said to have been beaten and detained are not a turnout count."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No participant violence is reported for this specific action."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No event-specific state response is reported for this campus action."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-BOGAZICI-RECTOR-APPOINTMENT-2021-01",
+    "notes": "S004 places this under Jan 7 and says students seeking to make a support press statement at Güvenpark were stopped, beaten and detained. HDP report S092 separately dates an Ankara support action with 30 detentions to Jan 14; keep the reported dates as separate candidates pending review and do not assume one event or two.",
+    "open_questions": "Was a public group physically assembled before the intervention? How many were present? Is this distinct from the Jan 14 action in S092? What was the physical end?",
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E009",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Hacettepe University students’ Boğaziçi support action (Jan 7)",
+    "start_date": "2021-01-07",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Hacettepe University campus, Ankara; exact site not specified",
+    "scope": "local",
+    "organizer": "Hacettepe students; formal organizer unknown.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "No attendance count is reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "No attendance count is reported; the >=50 threshold is unverified.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S004"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "S004 places the reported action under the Jan 7, 2021 chronology heading."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "The chronology does not establish a physical ending."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "Hacettepe University campus, Ankara; exact site not specified"
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "A local university/student action is described; no wider geographic scope is established."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "Hacettepe students; formal organizer unknown."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "S004 describes the action as support for the Boğaziçi resistance against the trustee rector appointed by the president."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No attendance count is reported."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No numeric lower bound reported."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No numeric upper bound reported."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No point estimate reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No attendance count is reported; the >=50 threshold is unverified."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No participant violence is reported for this specific action."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No event-specific state response is reported for this campus action."
+      }
+    },
+    "eligibility": "pending_unit",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-BOGAZICI-RECTOR-APPOINTMENT-2021-01",
+    "notes": "S004 says Hacettepe students held an action and press statement at 14:30 on Jan 7. It reports a simultaneous Yıldız Technical University action; whether these were one coordinated multi-site event or separate local actions is unresolved. Do not combine attendance.",
+    "open_questions": "How many people attended and was the campus action open to the public? Was this coordinated with the Yıldız Technical University action as one event? What was the physical end?",
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E010",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Yıldız Technical University students’ Boğaziçi support action (Jan 7)",
+    "start_date": "2021-01-07",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Yıldız Technical University campus, Istanbul; exact site not specified",
+    "scope": "local",
+    "organizer": "Yıldız Technical students; formal organizer unknown.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "No attendance count is reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "No attendance count is reported; the >=50 threshold is unverified.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S004"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "S004 places the reported action under the Jan 7, 2021 chronology heading."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "The chronology does not establish a physical ending."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "Yıldız Technical University campus, Istanbul; exact site not specified"
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "A local university/student action is described; no wider geographic scope is established."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "Yıldız Technical students; formal organizer unknown."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "S004 describes the action as support for the Boğaziçi resistance against the trustee rector appointed by the president."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No attendance count is reported."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No numeric lower bound reported."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No numeric upper bound reported."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No point estimate reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No attendance count is reported; the >=50 threshold is unverified."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No participant violence is reported for this specific action."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S004"
+        ],
+        "summary": "No event-specific state response is reported for this campus action."
+      }
+    },
+    "eligibility": "pending_unit",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-BOGAZICI-RECTOR-APPOINTMENT-2021-01",
+    "notes": "S004 says Yıldız Technical students held an action and press statement at 14:30 on Jan 7. It reports a simultaneous Hacettepe University action; whether these were one coordinated multi-site event or separate local actions is unresolved. Do not combine attendance.",
+    "open_questions": "How many people attended and was the campus action open to the public? Was this coordinated with the Hacettepe University action as one event? What was the physical end?",
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E011",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Ankara courthouse press statement supporting Boğaziçi rector protests (Jan 13)",
+    "start_date": "2021-01-13",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "In front of an Ankara courthouse; exact courthouse not stated",
+    "scope": "local",
+    "organizer": "Unknown; not named in S007",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "S007 reports that five people were detained during a press statement against the appointed Boğaziçi rector, with police using physical force. It gives no total attendance; five detentions are not turnout.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "S007 gives no headcount. Five reported detentions do not establish that at least 50 attended; threshold pending.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S007"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "S007 lists the courthouse press statement under Jan 13; no start time is stated."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "S007 does not report a physical end."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "S007 identifies an Ankara courthouse but not which one."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "One local press statement in Ankara is listed; no wider scope is stated."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No organizer is named in the report passage."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "The press statement protested the appointed rector at Boğaziçi University, a domestic state appointment."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "Five detentions are reported, not total attendance."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No attendance minimum is stated."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No attendance maximum is stated."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No turnout estimate is stated."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No headcount is stated; the five detainees are not turnout."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "The passage does not describe participant violence."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "Police intervention and five detentions are reported; the passage says physical force was used but gives no precise method. Arrests=yes; other dimensions remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-BOGAZICI-RECTOR-APPOINTMENT-2021-01",
+    "notes": "S007 dates this Ankara press statement Jan 13 and reports five detentions with physical force. It does not identify the organizer, crowd size, exact courthouse, physical end, or a specific force mechanism. Keep it distinct from the Jan 7 and Jan 14 Ankara support-action reports until resolved.",
+    "open_questions": [
+      "Did a gathering of at least 50 physically assemble?",
+      "Is this distinct from the Jan 7 S004 and Jan 14 S092 Ankara actions?",
+      "What exact venue, organizer and physical end are supported?",
+      "What force mechanism is meant by S007’s phrase “using physical violence”?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E012",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "HDP press statement in Kadıköy concerning prison hunger strikes (Jan 21)",
+    "start_date": "2021-01-21",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Kadıköy, Istanbul; exact venue not stated",
+    "scope": "local",
+    "organizer": "People’s Democratic Party (HDP), as identified by S007",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "S007 reports an HDP press statement to draw attention to ongoing prison hunger strikes; police intervened and detained nine people. Nine detentions are not total turnout. TİHV’s Jan 22 daily report separately records eight detentions at the same Jan 21 HDP Kadıköy statement; it gives no attendance count.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "S007 gives no turnout estimate. Nine detentions do not establish the >=50 threshold. TİHV likewise reports only eight detentions, not total turnout; the >=50 threshold remains unsupported.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S007",
+      "TUR202101-S071"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "S007 lists the HDP press statement under Jan 21."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No physical end is reported."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "S007 identifies Kadıköy, Istanbul, but no square or exact venue."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "One local press statement in Kadıköy is listed."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "S007 identifies the HDP as organizer."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "The statement drew attention to prison hunger strikes demanding removal of solitary confinement for Abdullah Öcalan; this is a demand directed at state prison policy."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S071"
+        ],
+        "summary": "S007 reports nine detentions at the Jan 21 HDP Kadıköy statement; the previously opened TİHV daily report S071 reports eight. Neither gives total attendance."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No attendance minimum is stated."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No attendance maximum is stated."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No turnout estimate is stated."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S071"
+        ],
+        "summary": "The sources disagree on detention count (nine in S007, eight in S071); neither detention count is turnout or evidence that at least 50 attended."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "The report does not describe participant violence."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "S007 says police intervened and detained nine; no specific beating/dispersal method is given."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-HDP-PRISON-HUNGER-STRIKE-SOLITARY-CONFINEMENT-2021-01",
+    "notes": "S007 dates a Kadıköy HDP press statement to Jan 21 and links it to prison hunger strikes that began Nov 27, 2020, demanding removal of solitary confinement for Abdullah Öcalan. It does not give exact site, attendance or physical end. Its demand differs from the Boğaziçi student gathering also reported in Kadıköy; keep these distinct pending evidence. The previously opened TİHV Jan 22 daily report S071 also describes the Jan 21 HDP Kadıköy statement but reports eight detentions, compared with S007’s nine. This attributed discrepancy is retained; neither detention count is used as turnout.",
+    "open_questions": [
+      "Was the crowd at least 50?",
+      "What exact Kadıköy venue and physical end are reported?",
+      "Was it physically separate from the Jan 21 Boğaziçi student gathering?",
+      "Did the police intervention include dispersal beyond the reported detentions?",
+      "Why do S007 and S071 report different detention counts (nine versus eight), and is there contemporaneous clarification?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E013",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "DTK/DBP/TJA/HDP mass march in Batman (Jan 29)",
+    "start_date": "2021-01-29",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Batman, Turkey; exact route/site not stated",
+    "scope": "local",
+    "organizer": "Democratic Society Congress (DTK), Democratic Regions Party (DBP), Free Women’s Movement (TJA), and People’s Democratic Party (HDP), as listed by S007",
+    "demands": [],
+    "participants_original": "S007 calls it a “mass march” and reports 23 detentions, but gives no numeric turnout. The label and detentions alone do not provide a count.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "No numeric turnout is given. The descriptive term “mass march” is retained as attribution but threshold remains pending review.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S007",
+      "TUR202101-S131"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S131"
+        ],
+        "summary": "S007 lists the Batman march under Jan 29. S131’s search excerpt lists a Jan 29 13:30 planned final press statement, not a confirmed physical start."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No physical end is reported."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S131"
+        ],
+        "summary": "S007 identifies Batman but no route or exact site. S131’s search excerpt gives Atatürk Park as the planned statement site; it does not confirm that the event S007 calls a march occurred there."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "One march in Batman is listed; no national scope is stated."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S131"
+        ],
+        "summary": "S007 names DTK, DBP, TJA and HDP as organizers. S131’s search excerpt names DTK, TJA, DBP and HDP for the planned statement, matching S007’s organizer list."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "The report passage does not state the march’s demand or target; do not infer from the organizations."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S131"
+        ],
+        "summary": "The report calls the march “mass” and reports 23 detentions; neither gives total attendance. S131’s search excerpt concerns a scheduled statement and gives no turnout; it does not corroborate S007’s actual-march wording."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No numerical minimum is provided."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No numerical maximum is provided."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No headcount estimate is provided."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S131"
+        ],
+        "summary": "“Mass march” is an unquantified descriptor; attendance threshold remains pending review. S131 is a plan-only search result with no attendance count; it does not resolve the threshold."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "The passage does not describe participant violence."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "Police intervened and detained 23 people; no other response mechanism is described."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-DTK-DBP-TJA-HDP-BATMAN-MARCH-2021-01-29",
+    "notes": "S007 reports a Jan 29 march in Batman organized by DTK, DBP, TJA and HDP, describes it as a mass march and reports 23 detentions. It does not state the march’s demand or policy target, attendance, exact route or physical end. No demand is inferred from organizer identity. S131 is a contemporaneous Jan 29 agenda search result scheduling a 13:30 mass press statement at Atatürk Park as the final of activity since Jan 25. Its body could not be opened (Cache miss), it does not establish execution, and its planned statement differs from S007’s reported mass march; physical event type/site remain unresolved.",
+    "open_questions": [
+      "What demand or state-directed policy was the march about?",
+      "Does the source’s “mass march” wording establish the >=50 threshold under the original rule?",
+      "What route/site and physical end are reported?",
+      "Does a dated original statement or independent account confirm these facts?",
+      "Did the scheduled 13:30 Atatürk Park press statement occur, or does S007 refer to a different march/site?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E014",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "Planned İzmir press statement by HDP women supporting TJA (reported Jan 29)",
+    "start_date": null,
+    "start_precision": "unknown",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "In front of İZBAN in Karşıyaka, İzmir, as the planned location reported by S007",
+    "scope": "local",
+    "organizer": "HDP İzmir Women’s Council, as named in S131’s search excerpt; S007 describes HDP-member women and a TJA-related slogan.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "S007 reports that police prevented a 16:30 press statement; it does not confirm how many people assembled or whether a physical gathering began.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "No attendance information; physical occurrence and >=50 threshold are unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S007",
+      "TUR202101-S131"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S131"
+        ],
+        "summary": "S007 reports the statement was scheduled for Jan 29 at 16:30 but does not establish a physical start; start_date remains null. S131’s search excerpt schedules a Jan 29 16:30 statement; neither it nor S007 confirms when a physical gathering began."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No physical end can be recorded without evidence that a gathering began."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S131"
+        ],
+        "summary": "S007 gives the planned location as in front of İZBAN in Karşıyaka, İzmir. S131’s search excerpt confirms the planned site as outside Karşıyaka İZBAN station; no physical assembly is confirmed."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "The source describes a planned local statement in İzmir."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S131"
+        ],
+        "summary": "S007 describes HDP-member women; the slogan concerned TJA. S131 names the HDP İzmir Women’s Council; S007 describes HDP-member women."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S131"
+        ],
+        "summary": "The planned slogan opposed prosecuting TJA, a domestic state/legal issue. S131’s search excerpt says the planned statement concerned detention, oppression and hostage-taking policies; S007 supplies the slogan “TJA cannot be prosecuted.”"
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S131"
+        ],
+        "summary": "The statement is reported as prevented; no participants or turnout count are reported. S131 only lists the scheduled statement and gives no attendees or turnout."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No physical attendance minimum is established."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No attendance maximum is established."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No turnout estimate is provided."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S007",
+          "TUR202101-S131"
+        ],
+        "summary": "Neither a physical gathering nor attendance >=50 is established. S131 provides no turnout and does not confirm a gathering."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "No participant violence is reported."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S007"
+        ],
+        "summary": "Although S007 says police prevented the scheduled statement, it does not establish a physical assembly or specify a response mechanism; all dimensions remain unknown until occurrence is verified."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-TJA-PROSECUTION-STATEMENT-IZMIR-2021-01",
+    "notes": "S007 reports a Jan 29 16:30 press statement planned in front of İZBAN in Karşıyaka, İzmir, to say “TJA cannot be prosecuted,” and says police prevented it. The report does not establish that an assembly physically formed, attendance or event-specific response after assembly. Physical start remains null; the reported date is retained in notes. S131’s search excerpt independently lists the same 16:30 plan and frames it around detention, oppression and hostage-taking policies. The page body returned Cache miss and was not reviewed; neither source confirms a physical gathering.",
+    "open_questions": [
+      "Did a public group physically assemble before police prevented the statement?",
+      "What was the actual crowd size and did it reach 50?",
+      "What police mechanism was used, and was this an attempted or completed dispersal?",
+      "What is the precise meeting location and physical end, if any?",
+      "Does a contemporaneous report confirm whether this listed 16:30 statement physically took place?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "TUR202101-E015",
+    "country": "Turkey",
+    "ccode": 640,
+    "unit_month": "2021-01",
+    "title": "HDP Dersim press statement on prison isolation and hunger strikes (Jan 21, reported by TİHV)",
+    "start_date": "2021-01-21",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Dersim/Tunceli; planned statement at Sanat Sokağı was blocked, followed by a statement outside an unspecified HDP party building",
+    "scope": "local",
+    "organizer": "HDP Dersim provincial organization, as named by S132",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "S132 and S133 describe HDP members making a statement but provide no number in the inspected passages. S071 reports no detentions at the Jan 21 Tunceli statement and gives no attendance estimate.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "Neither source provides a headcount or a qualitative estimate establishing at least 50 participants. The number of people present remains unknown.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "no_explicit",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "TUR202101-S071",
+      "TUR202101-S132",
+      "TUR202101-S133"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132",
+          "TUR202101-S133"
+        ],
+        "summary": "S071 explicitly dates a Tunceli statement to Jan 21. S133 reports the corresponding HDP Dersim statement but its event text does not specify the calendar day; its Jan 21 publication metadata is not used as the event date. S132 is published Jan 22 and likewise does not state the physical event date in the inspected passage."
+      },
+      "end_date": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132"
+        ],
+        "summary": "Neither account specifies when the physical statement ended."
+      },
+      "location": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132",
+          "TUR202101-S133"
+        ],
+        "summary": "S071 identifies Tunceli. S132/S133 say police blocked the planned statement at Sanat Sokağı and HDP members then made a statement outside the party building; the building address is unspecified."
+      },
+      "scope": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132",
+          "TUR202101-S133"
+        ],
+        "summary": "All three accounts describe a local Tunceli/Dersim statement; none reports a coordinated national action."
+      },
+      "organizer": {
+        "source_ids": [
+          "TUR202101-S132",
+          "TUR202101-S133"
+        ],
+        "summary": "Both news accounts identify the HDP Dersim provincial organization; PİRHA/DERSİM is the direct-story footer on S133."
+      },
+      "demands": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132",
+          "TUR202101-S133"
+        ],
+        "summary": "The accounts connect the statement to prison isolation imposed on Abdullah Öcalan and hunger strikes in prisons; S133 reports the banner asked that demands be met and hunger strikes ended. Its paragraph 4 also calls for lawyer and family visits."
+      },
+      "participants_original": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132",
+          "TUR202101-S133"
+        ],
+        "summary": "The two inspected news reports refer to HDP members/crowd but supply no headcount in the consulted passages; S071 gives no turnout estimate."
+      },
+      "participants_min": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132",
+          "TUR202101-S133"
+        ],
+        "summary": "No numeric minimum is stated in the inspected sources."
+      },
+      "participants_max": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132",
+          "TUR202101-S133"
+        ],
+        "summary": "No numeric maximum is stated in the inspected sources."
+      },
+      "participants_estimate": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132",
+          "TUR202101-S133"
+        ],
+        "summary": "No headcount estimate is stated in the inspected passages."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132",
+          "TUR202101-S133"
+        ],
+        "summary": "The source passages do not provide a count or explicit hundreds/thousands description establishing 50 or more; threshold remains pending."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132"
+        ],
+        "summary": "The consulted passages do not report violence by participants; value remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "TUR202101-S071",
+          "TUR202101-S132",
+          "TUR202101-S133"
+        ],
+        "summary": "S132/S133 report police blocked the planned street statement and access, tore the banner and displaced members to a statement outside the party building. This is an attributed attempt to obstruct/displace, not a claim that the later statement was cleared. S071 explicitly says no one was detained at the Jan 21 Tunceli action; no other response mechanism beyond those stated is established."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "TUR-HDP-PRISON-ISOLATION-DERSIM-2021-01-21",
+    "notes": "S133 is the PİRHA/DERSİM direct story, published Jan 21 at 12:31:19 UTC; its event narrative does not itself name the calendar day. It reports that police blocked the planned Sanat Sokağı statement and access, and HDP members then made a statement outside the party building; police ripped the banner and later left. S132, an Özgür Gelecek article published Jan 22, substantially parallels the inspected S133 paragraphs and likely reuses the same story; the S132 full body/byline was not inspected and it is not treated as independent corroboration. S071 separately dates a Tunceli statement to Jan 21 and reports no detentions, supporting the candidate date. No source passage gives turnout, and the >=50 threshold remains pending. Keep separate from Jan 21 Kadıköy E012 because the actions occurred in distinct cities/sites.",
+    "open_questions": [
+      "Is S071’s Jan 21 Tunceli item the exact statement reported in S133?",
+      "What was the actual attendance, and did it reach 50?",
+      "What is the exact address of the party building where the follow-up statement occurred?",
+      "Does any independent account corroborate details beyond the likely PİRHA-origin story?",
+      "What was the physical end time or departure?",
+      "Was the statement accessible as a public gathering beyond party members, and did it reach at least 50 people?"
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  }
+]

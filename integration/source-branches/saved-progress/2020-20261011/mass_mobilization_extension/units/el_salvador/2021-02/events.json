@@ -1,0 +1,150 @@
+[
+  {
+    "candidate_id": "SV202102-E001",
+    "country": "El Salvador",
+    "ccode": 92,
+    "unit_month": "2021-02",
+    "title": "Water-right caravan to political-party offices",
+    "start_date": "2021-02-22",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Fuentes de Beethoven roundabout and party offices, San Salvador",
+    "scope": "local",
+    "organizer": "Alianza Nacional contra la Privatización del Agua",
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Unknown. The report names Alianza organizations and three representatives but gives no crowd count; membership or workforce totals are not substituted.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "SV202102-S016"
+    ],
+    "field_evidence": {
+      "occurrence_dates_location": {
+        "source_ids": [
+          "SV202102-S016"
+        ],
+        "summary": "Gato Encerrado reports that the Alianza gathered at Fuentes de Beethoven in San Salvador on Feb. 22 and began visiting party offices at 09:10."
+      },
+      "organizer_demands": {
+        "source_ids": [
+          "SV202102-S016"
+        ],
+        "summary": "The stated goal was to deliver letters seeking legislation for the human right to water; a specific original demand category is unresolved."
+      },
+      "participants": {
+        "source_ids": [
+          "SV202102-S016"
+        ],
+        "summary": "No numerical turnout is provided."
+      },
+      "responses": {
+        "source_ids": [
+          "SV202102-S016"
+        ],
+        "summary": "Party staff received letters; this does not establish a state response. Other responses remain unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "SV202102-S016"
+        ],
+        "summary": "The article gives the route but no physical end date or time."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "SV202102-water-right-caravan",
+    "notes": "Body-read evidence confirms a public caravan with a demand for water-right legislation. The article does not establish >=50 participants. The original codebook has no explicit environmental/water-right demand category; classification is left open for review.",
+    "open_questions": [
+      "Verify whether at least 50 people participated.",
+      "Review coding of the water-right demand under original categories.",
+      "Determine the physical end of the caravan."
+    ]
+  },
+  {
+    "candidate_id": "SV202102-E002",
+    "country": "El Salvador",
+    "ccode": 92,
+    "unit_month": "2021-02",
+    "title": "Ministry of Culture union stoppage over delayed food-card payments",
+    "start_date": "2021-02-11",
+    "start_precision": "day",
+    "end_date": "2021-02-12",
+    "end_precision": "day",
+    "location": "Ministry of Culture facilities; signs outside the National Palace, San Salvador",
+    "scope": "local",
+    "organizer": "SITRASEC, SICULTURA, and SITRAMEC",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Unknown. The article reports more than 1,100 ministry employees as the workforce, not the number taking part; no protester turnout is stated.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "yes",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "SV202102-S007"
+    ],
+    "field_evidence": {
+      "occurrence_dates_location": {
+        "source_ids": [
+          "SV202102-S007"
+        ],
+        "summary": "Gato Encerrado reports the stoppage began Feb. 11, with two signs outside the National Palace, and ended at midday Feb. 12 as work resumed."
+      },
+      "organizer_demands": {
+        "source_ids": [
+          "SV202102-S007"
+        ],
+        "summary": "Three ministry unions supported the action over unpaid food-card amounts promised under the Ministry collective agreement."
+      },
+      "participants": {
+        "source_ids": [
+          "SV202102-S007"
+        ],
+        "summary": "The report cites more than 1,100 ministry employees as the workforce only; no attendance figure is given."
+      },
+      "responses": {
+        "source_ids": [
+          "SV202102-S007"
+        ],
+        "summary": "The article explicitly reports that the culture minister did not address workers’ demands. This `ignore=yes` records only that reported ministerial nonresponse; other response dimensions remain unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "SV202102-S007"
+        ],
+        "summary": "Unions lifted the stoppage at midday Feb. 12 and said activities resumed that afternoon."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "SV202102-culture-union-stoppage",
+    "notes": "The reported 1,100-plus ministry employees are the workforce, not turnout. The body reports three unions stopped work and placed signs outside the National Palace; it does not report a participant count. Eligibility stays pending the >=50 threshold and public-action rule. `ignore=yes` records only the explicit report that the culture minister did not address demands; this mapping remains for coordinator review.",
+    "open_questions": [
+      "Establish whether at least 50 workers joined the stoppage or public sign display.",
+      "Review whether the public signs and workplace stoppage satisfy the manual’s public-action rule.",
+      "Calibrate the reported ministerial nonresponse against the original ignore response definition."
+    ]
+  }
+]

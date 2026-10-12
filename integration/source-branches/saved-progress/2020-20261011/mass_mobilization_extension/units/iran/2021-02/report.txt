@@ -1,0 +1,16 @@
+Iran — February 2021 research handoff
+Unit: iran_2021-02 | assigned worker: 01a125ad-c396-7363-944f-4ebea2504021 | cutoff: 2026-10-07
+
+Scope and method
+This dossier contains 12 actual batched web-search actions, 48 search strings, and 367 ordered result headers. Searches used English and Persian terms for nationwide and weekly protest coverage, pensions, workers, agriculture, Homa and HEPCO, and Saravan/Sistan-Baluchistan. Every actual response was captured from the registered worker rollout; snippets were not treated as article-body evidence. The original query batches, refs, URLs, titles, ordering and clocks remain in search_log.jsonl.
+
+The source ledger contains 48 relevant discovery cards. No source-page body was opened or read in this handoff, and no source is coded as opened. Search headers suggest possible pensioner gatherings, a Homa staff/retiree action, HEPCO worker gatherings, Saravan protest activity, and additional events in roundups. Seven discrete search leads are preserved in events.json with null dates/locations, unknown attendance and responses, and eligibility pending_evidence. They are not verified events or official records. No exclusion or pre-February continuation could be established from body evidence; the respective files remain empty.
+
+Access and limits
+For the exact VOA Homa URL, a fresh receipt returned manual_review. The complete saved publisher/origin scan found no restriction or written-origin match, but the required immediate hash recheck found changes to Hungary and Indonesia sources ledgers; no body was requested. A second fresh check deferred on an unstable before/after corpus fingerprint. For the exact IranWire Saravan URL, two fresh receipts returned manual_review after full review of 17 IranWire cards and three source-check records. The review distinguished a page-specific HTTP 403 for a different IranWire URL; no publisher-wide hold or written-origin match covered the target. Both immediate full-input rechecks found review/source_checks.jsonl had changed, so no body was requested. Neither condition is recorded as denial for the target article. Receipts and saved review notes are in access_receipts/.
+
+Open gaps
+Event occurrence, start dates, event boundaries, locations, organizers, state-policy targets, original turnout wording and the >=50 threshold remain unknown for the search leads. Repeated pensioner gatherings must be resolved by date and site. Saravan reporting must separate the border shootings/fuel-trader deaths that reportedly preceded gatherings from any state response to the gatherings, and establish whether activity continued into March. HEPCO reports need Persian date conversion and episode separation. Roundups require item-level follow-up. The open-web search is non-exhaustive and does not reproduce LexisNexis; no no-event conclusion is made.
+
+Review state
+All records remain pending coordinator/human review. Official baseline is pending. This file is a research handoff, not an update to the integrated catalogue.

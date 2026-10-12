@@ -1,0 +1,503 @@
+[
+  {
+    "candidate_id": "denmark_2021-02-E001",
+    "country": "Denmark",
+    "ccode": 390,
+    "unit_month": "2021-02",
+    "title": "Copenhagen February 6 Men in Black protest against Covid restrictions",
+    "start_date": "2021-02-06",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": {
+      "city": "Copenhagen",
+      "site": "Copenhagen; the saved prior-unit body summary does not specify the exact site.",
+      "country": "Denmark"
+    },
+    "scope": "local",
+    "organizer": "Men in Black",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Approximately 600, as reported by AFP/The Local for the February 6 Copenhagen gathering.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": 600,
+    "participants_precision": "approximate_reported_estimate",
+    "threshold_50_evidence": "The saved prior-unit body summary reports approximately 600 at the Copenhagen rally; this is above the 50-person threshold, but is not an exact interval.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "denmark_2021-02-S001",
+      "denmark_2021-02-S002",
+      "denmark_2021-02-S003",
+      "denmark_2021-02-S005",
+      "denmark_2021-02-S015",
+      "denmark_2021-02-S016",
+      "denmark_2021-02-S017"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "denmark_2021-02-S001"
+        ],
+        "summary": "Prior-unit body review of the identical exact URL identifies the actual Saturday February 6 gathering; no new article-body request was made in this unit."
+      },
+      "location": {
+        "source_ids": [
+          "denmark_2021-02-S001"
+        ],
+        "summary": "The saved prior-unit body summary identifies Copenhagen but does not specify an exact site."
+      },
+      "organizer": {
+        "source_ids": [
+          "denmark_2021-02-S001"
+        ],
+        "summary": "The prior exact-URL body record identifies Men in Black."
+      },
+      "demands": {
+        "source_ids": [
+          "denmark_2021-02-S001"
+        ],
+        "summary": "The saved prior-unit body summary describes the rally as opposing Covid restrictions; it does not document a separate specific policy demand."
+      },
+      "participants": {
+        "source_ids": [
+          "denmark_2021-02-S001"
+        ],
+        "summary": "AFP/The Local reports approximately 600 in the saved prior-unit body summary. Retain the approximate value without turning it into bounds; search-only republications are not independent body confirmations."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "denmark_2021-02-S001"
+        ],
+        "summary": "The preserved prior-unit body summary does not establish an act of violence by protesters against state personnel or property."
+      },
+      "state_response": {
+        "source_ids": [
+          "denmark_2021-02-S001"
+        ],
+        "summary": "The preserved prior-unit body summary does not establish any of the seven response categories for this February 6 gathering; all remain unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "denmark_2021-02-S001"
+        ],
+        "summary": "The saved prior-unit body summary does not establish when the physical gathering ended."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "denmark_mib_restrictions_2020_2021",
+    "notes": "The only body evidence is the exact AFP/The Local URL already read in units/denmark/2021-01/sources.jsonl as DK202101-S109; current card S001 records this as prior-unit-only consultation. That saved summary supports a February 6 Copenhagen Men in Black rally against Covid restrictions with approximately 600, but not an exact site or a proposed digital vaccine certificate. NB-Økonomi S002 is search-only and its Christiansborg route/vaccine-passport details are not body-verified. Other search-only republications are discovery leads, not independent confirmations. January events and the February 27 gathering are not merged with this dated action; campaign/day episode rules remain unresolved.",
+    "open_questions": [
+      "Resolve recurring Men in Black campaign versus distinct February 6 event-unit coding under the unavailable detailed procedure.",
+      "Find independent local reporting and verify the exact physical site, end and response without treating AFP/Ritzau syndications as separate confirmations.",
+      "Verify whether any other Copenhagen or regional actions on the same date were separately organized; do not split a national or multi-site action from shared dates alone."
+    ]
+  },
+  {
+    "candidate_id": "denmark_2021-02-E002",
+    "country": "Denmark",
+    "ccode": 390,
+    "unit_month": "2021-02",
+    "title": "Copenhagen February 9 Burmese/Myanmar gathering concerning the coup (search-only lead)",
+    "start_date": "2021-02-09",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": {
+      "city": "Copenhagen",
+      "site": "Rådhuspladsen / City Hall Square",
+      "country": "Denmark"
+    },
+    "scope": "local",
+    "organizer": null,
+    "demands": [],
+    "participants_original": "Baptist.dk search result reports about 300 people; the article body was not retrieved.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "search_result_unverified",
+    "threshold_50_evidence": "The search-result lead suggests a crowd above 50, but the report body, actual turnout and event occurrence have not been verified.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "denmark_2021-02-S011"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "denmark_2021-02-S011"
+        ],
+        "summary": "Search-only Baptist.dk result dates its reported gathering to February 9; body not read."
+      },
+      "location": {
+        "source_ids": [
+          "denmark_2021-02-S011"
+        ],
+        "summary": "Search-only title names Copenhagen City Hall Square; body not read."
+      },
+      "organizer": {
+        "source_ids": [
+          "denmark_2021-02-S011"
+        ],
+        "summary": "Organizer not verified."
+      },
+      "demands": {
+        "source_ids": [
+          "denmark_2021-02-S011"
+        ],
+        "summary": "The search-only result describes opposition to Myanmar's coup but does not establish whether participants also demanded action from the Danish government."
+      },
+      "participants": {
+        "source_ids": [
+          "denmark_2021-02-S011"
+        ],
+        "summary": "About 300 appears only in the search-result summary; no body verification or defensible bounds."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "denmark_2021-02-S011"
+        ],
+        "summary": "No body evidence; unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "denmark_2021-02-S011"
+        ],
+        "summary": "No body evidence; all seven response values unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "denmark_2021-02-S011"
+        ],
+        "summary": "No body evidence; physical end unknown."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Possible diaspora solidarity action. The search result names Myanmar's military coup as the issue, but the domestic policy target is unresolved; it is not excluded as foreign-targeted without checking whether a demand was directed to Denmark. The source remains search_only and no article-body request was made because immediate exact-URL receipt fingerprints changed during concurrent work.",
+    "open_questions": [
+      "Verify that a public physical gathering occurred on February 9 and confirm its date, location and turnout from the article body or another contemporary source.",
+      "Determine whether a demand was directed to the Danish government or Danish policy, or solely to Myanmar's authorities/international actors.",
+      "Check organization, physical end and each response category; do not infer any from silence."
+    ]
+  },
+  {
+    "candidate_id": "denmark_2021-02-E003",
+    "country": "Denmark",
+    "ccode": 390,
+    "unit_month": "2021-02",
+    "title": "Possible Copenhagen February 13 Men in Black action at Rådhuspladsen",
+    "start_date": "2021-02-13",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": {
+      "city": "Copenhagen",
+      "site": "Rådhuspladsen / City Hall Square",
+      "country": "Denmark"
+    },
+    "scope": "local",
+    "organizer": "Men in Black (search-result/photo caption only)",
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "No turnout evidence in the available search-only sources; the 50-person threshold is not established.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "denmark_2021-02-S008",
+      "denmark_2021-02-S009"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "denmark_2021-02-S008",
+          "denmark_2021-02-S009"
+        ],
+        "summary": "Search-only Dagens.dk and IMAGO metadata point to an action on February 13; no body/photo was assessed."
+      },
+      "location": {
+        "source_ids": [
+          "denmark_2021-02-S009"
+        ],
+        "summary": "IMAGO search metadata caption identifies Rådhuspladsen; image itself was not accessed."
+      },
+      "organizer": {
+        "source_ids": [
+          "denmark_2021-02-S009"
+        ],
+        "summary": "Men in Black is named in the search-only photo caption; organizer remains unverified."
+      },
+      "demands": {
+        "source_ids": [
+          "denmark_2021-02-S008"
+        ],
+        "summary": "The Dagens.dk search result concerns Hus Forbi objecting to being represented by Men in Black; it does not establish the gathering's demand or target."
+      },
+      "participants": {
+        "source_ids": [
+          "denmark_2021-02-S008",
+          "denmark_2021-02-S009"
+        ],
+        "summary": "No headcount found in search-only material."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "denmark_2021-02-S008"
+        ],
+        "summary": "No body evidence; unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "denmark_2021-02-S008"
+        ],
+        "summary": "No body evidence; all seven response values unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "denmark_2021-02-S008"
+        ],
+        "summary": "No body evidence; physical end unknown."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Keep as a distinct possibility from the February 6 and February 27 events. Dagens.dk body could not be retrieved after a web-reader cache miss and a direct HTTPS DNS-resolution failure; both are tool/network failures, not a publisher denial. IMAGO metadata was search-only and the image was not opened. No article or image copy was retained.",
+    "open_questions": [
+      "Verify that the February 13 gathering took place and whether it was a protest or another Men in Black event.",
+      "Establish turnout of at least 50, participants' demands and state target, including whether the Hus Forbi reference was endorsement or merely use of a photo/video.",
+      "Check organizer, physical end and event-specific state responses from accessible contemporaneous sources."
+    ]
+  },
+  {
+    "candidate_id": "denmark_2021-02-E004",
+    "country": "Denmark",
+    "ccode": 390,
+    "unit_month": "2021-02",
+    "title": "Copenhagen February 27 Men in Black protest against extended Covid restrictions",
+    "start_date": "2021-02-27",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": {
+      "city": "Copenhagen",
+      "site": "Copenhagen; crowd reported at the square in front of City Hall by evening",
+      "country": "Denmark"
+    },
+    "scope": "local",
+    "organizer": "Men in Black",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Police report via AFP/The Local: around 600 initially, swelling to around 1,200 by the end of the evening at the square in front of Copenhagen City Hall.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": 1200,
+    "participants_precision": "approximate_reported_estimate_at_late_gathering",
+    "threshold_50_evidence": "Police-reported estimates are around 600 initially and around 1,200 later, both well above 50; these are approximate time-specific estimates, not bounds or independent counts.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "denmark_2021-02-S004",
+      "denmark_2021-02-S006",
+      "denmark_2021-02-S007"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "denmark_2021-02-S004"
+        ],
+        "summary": "The article identifies Saturday, February 27, 2021, as the executed Copenhagen gathering."
+      },
+      "location": {
+        "source_ids": [
+          "denmark_2021-02-S004"
+        ],
+        "summary": "Copenhagen is named; the article places the growing late-evening crowd at the square in front of City Hall but does not establish where the gathering began."
+      },
+      "organizer": {
+        "source_ids": [
+          "denmark_2021-02-S004"
+        ],
+        "summary": "The Local body identifies the group calling itself Men in Black as organizer."
+      },
+      "demands": {
+        "source_ids": [
+          "denmark_2021-02-S004"
+        ],
+        "summary": "The protest followed the government's extension of many coronavirus restrictions; the rally is described as anti-lockdown."
+      },
+      "participants": {
+        "source_ids": [
+          "denmark_2021-02-S004"
+        ],
+        "summary": "Police estimates reported via AFP/The Local: around 600 initially and around 1,200 by late evening; retain wording and do not infer exact minimum/maximum bounds."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "denmark_2021-02-S004"
+        ],
+        "summary": "Police described the demonstration as largely peaceful but reported arrests for alleged fireworks use and rowdy behavior without specifying target or act; violence classification remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "denmark_2021-02-S004"
+        ],
+        "summary": "Eight arrests are reported. No beating, dispersal, accommodation, ignoring, shooting or killing response is established in the public text read."
+      },
+      "end_date": {
+        "source_ids": [
+          "denmark_2021-02-S004"
+        ],
+        "summary": "The report's late-evening crowd estimate does not establish when the physical gathering ended."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "denmark_mib_restrictions_2020_2021",
+    "notes": "Body read was limited to the public text at lines 125–171; the page reached a login prompt at line 173. No login or paywall access was attempted, and images/embedded posts were not assessed. S006 and S007 are search-only Euronews AFP translations/republications and are not independent corroboration. The eight arrests are response arrests, not turnout; fireworks and rowdy-behavior allegations do not alone establish protester violence or crowd dispersal. The reported policy announcement is context, not evidence of a concession or completed state response. Distinct from February 6 and January MIB actions; broader campaign boundary remains unresolved.",
+    "open_questions": [
+      "Establish physical gathering end and any operational police dispersal; do not infer either from the late-evening attendance estimate or arrests.",
+      "Verify what the alleged fireworks and rowdy behavior involved and whether any acts were directed at state personnel/property.",
+      "Review continuity with the February 6 event and January gatherings under the missing detailed procedure; do not merge on organizer name alone.",
+      "Check whether government action after the rally was responsive to participants, rather than relying on policy announcements already reported as preceding the event."
+    ]
+  },
+  {
+    "candidate_id": "denmark_2021-02-E005",
+    "country": "Denmark",
+    "ccode": 390,
+    "unit_month": "2021-02",
+    "title": "Wolt couriers February 26 public protest against pay and bonus cuts",
+    "start_date": "2021-02-26",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": {
+      "city": null,
+      "site": null,
+      "country": "Denmark"
+    },
+    "scope": "unknown",
+    "organizer": "Wolt couriers",
+    "demands": [],
+    "participants_original": "Approximately 100 participants, reported by Solidaritet on March 2 as taking part on the previous Friday against private-company pay and bonus cuts.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": 100,
+    "participants_precision": "approximate_reported_estimate",
+    "threshold_50_evidence": "The saved prior-unit body summary reports approximately 100 actual participants, above 50; retain the approximate estimate without creating numeric bounds.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "denmark_2021-02-S018"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "denmark_2021-02-S018"
+        ],
+        "summary": "Saved March 2 report summary describes the previous Friday action, corresponding to February 26."
+      },
+      "location": {
+        "source_ids": [
+          "denmark_2021-02-S018"
+        ],
+        "summary": "Exact city and public site are not stated in the saved body summary."
+      },
+      "organizer": {
+        "source_ids": [
+          "denmark_2021-02-S018"
+        ],
+        "summary": "The saved summary identifies Wolt couriers as the demonstrating group."
+      },
+      "demands": {
+        "source_ids": [
+          "denmark_2021-02-S018"
+        ],
+        "summary": "The saved summary describes opposition to private-company pay and bonus cuts; whether a demand addressed Danish state policy is unresolved."
+      },
+      "participants": {
+        "source_ids": [
+          "denmark_2021-02-S018"
+        ],
+        "summary": "Approximately 100 actual participants are reported in the saved summary; no interval is established."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "denmark_2021-02-S018"
+        ],
+        "summary": "The saved summary does not describe violence; status remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "denmark_2021-02-S018"
+        ],
+        "summary": "No state response is recorded in the saved summary; all seven values remain unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "denmark_2021-02-S018"
+        ],
+        "summary": "The saved summary does not establish when the physical gathering ended."
+      }
+    },
+    "eligibility": "pending_state_target",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": null,
+    "notes": "Transferred from January forward-boundary continuation DK202101-C003; January exclusion DK202101-X001 excluded it only for being outside January and did not resolve its eligibility. The saved March 2 report summary identifies approximately 100 Wolt couriers demonstrating on February 26 against private-company pay and bonus cuts. Whether a demand was directed to the Danish state or employer alone remains unresolved; retain pending_state_target for coordinator review.",
+    "open_questions": [
+      "Review the original eligibility rule and any fuller accessible reporting to determine whether any demand addressed Danish state policy or the private employer alone.",
+      "Verify exact city/site, physical end and event-specific state responses; keep unknown values until documented.",
+      "Confirm whether the saved approximate attendance estimate can be reconciled with any independent contemporary reporting."
+    ]
+  }
+]
