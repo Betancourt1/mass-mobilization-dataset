@@ -1,0 +1,69 @@
+[
+  {
+    "gap_id": "GAB23JUN-G001",
+    "type": "candidate_occurrence_threshold",
+    "description": "Retrospective report documents June CFEP strike and later suspension but no exact June dates, public assembly form or participants; keep as pending evidence.",
+    "source_ids": [
+      "GAB23JUN-S002"
+    ],
+    "affected_candidates": [
+      "GAB23JUN-E001"
+    ],
+    "required_followup": "A contemporaneous June source is needed to establish actual public gathering, exact onset, turnout >=50 and state-policy target."
+  },
+  {
+    "gap_id": "GAB23JUN-G002",
+    "type": "exclusion_scope",
+    "description": "COMILOG June 7 assemblies and June 8 work stoppage are body-reported, but the stated target is the company and premiums. No government-policy demand or crowd estimate is reported; excluded as company-only dispute on current evidence.",
+    "source_ids": [
+      "GAB23JUN-S001",
+      "GAB23JUN-S003"
+    ],
+    "affected_candidates": [
+      "GAB23JUN-X001"
+    ],
+    "required_followup": "No additional source needed unless a concrete government-directed demand or public-march report is found."
+  },
+  {
+    "gap_id": "GAB23JUN-G003",
+    "type": "continuity",
+    "description": "The CFEP article is retrospective (November 18) and says June action was suspended before later resumption; the specific June end date and whether the November action is the same episode remain outside the month and unresolved.",
+    "source_ids": [
+      "GAB23JUN-S002"
+    ],
+    "affected_candidates": [
+      "GAB23JUN-E001"
+    ],
+    "required_followup": "If episode ownership becomes material, use contemporaneous June and November reports to identify onset/suspension; do not import November into June."
+  },
+  {
+    "gap_id": "GAB23JUN-G004",
+    "type": "coverage_and_archives",
+    "description": "Four actual captured queries included generic French/English, COMILOG and broader French labor-sector follow-ups. Open-web only; LexisNexis and comprehensive local archive access unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No further action required for bounded scope absent a specific material source lead."
+  },
+  {
+    "gap_id": "GAB23JUN-G005",
+    "type": "adjacent_month_boundary",
+    "description": "A May query surfaced a public-sector financial-agencies strike article. Exact body confirms the strike started July 3, 2023, following an assembly at the Budget Ministry; this is after June and is not a June event/continuation. Attendance is unknown.",
+    "source_ids": [
+      "GAB23JUN-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No June coding action. If July is assigned later, assess onset/turnout/response under that unit’s own workflow."
+  },
+  {
+    "gap_id": "GAB23JUN-G006",
+    "type": "retrieval_failure_and_followup",
+    "description": "AGP search lead about COMILOG strike suspension after ministerial mediation was followed with one exact open; web tool returned a 400 timeout. It is a retrieval failure, not an observed denial; no retry was made.",
+    "source_ids": [
+      "GAB23JUN-S005"
+    ],
+    "affected_candidates": [
+      "GAB23JUN-E001"
+    ],
+    "required_followup": "The search title alone cannot verify mediation, suspension, state response, action occurrence or attendance. Further follow-up would require a distinct permitted source/target."
+  }
+]

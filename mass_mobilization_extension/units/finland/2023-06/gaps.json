@@ -1,0 +1,77 @@
+[
+  {
+    "gap_id": "FIN23JUN-G001",
+    "type": "episode_onset",
+    "description": "The June 18, 21, 27 and 28 gatherings may be separate actions or observations in a broader protest episode; shared country/theme and date proximity do not resolve episode ownership.",
+    "source_ids": [
+      "FIN23JUN-S001",
+      "FIN23JUN-S002",
+      "FIN23JUN-S004",
+      "FIN23JUN-S006"
+    ],
+    "affected_candidates": [
+      "FIN23JUN-E001",
+      "FIN23JUN-E002",
+      "FIN23JUN-E003",
+      "FIN23JUN-E004"
+    ],
+    "required_followup": "Seek permitted contemporaneous organizer/outlet evidence on campaign organization, continuity and onset; keep dates separate unless evidence supports a campaign-level episode."
+  },
+  {
+    "gap_id": "FIN23JUN-G002",
+    "type": "threshold",
+    "description": "June 21 catalog record estimate above 100 crowd estimate is attributed to Iltalehti and remains unverified; the site-scoped search was tool-blocked by robots.txt.",
+    "source_ids": [
+      "FIN23JUN-S004",
+      "FIN23JUN-S005"
+    ],
+    "affected_candidates": [
+      "FIN23JUN-E003"
+    ],
+    "required_followup": "Do not retry or bypass the robots block. Seek an unrelated permitted source or record-based contemporaneous evidence for the threshold and concrete demand."
+  },
+  {
+    "gap_id": "FIN23JUN-G003",
+    "type": "state_target",
+    "description": "The June 21 archival title says anti-government but the inspected record does not specify a concrete domestic policy demand.",
+    "source_ids": [
+      "FIN23JUN-S004"
+    ],
+    "affected_candidates": [
+      "FIN23JUN-E003"
+    ],
+    "required_followup": "Look for permitted contemporaneous reporting that states what government policy/action protesters opposed."
+  },
+  {
+    "gap_id": "FIN23JUN-G004",
+    "type": "response_and_closure",
+    "description": "Event-end details, police/state response and independent confirmation are incomplete across the June candidates; absence from an article is not coded as no response.",
+    "source_ids": [
+      "FIN23JUN-S001",
+      "FIN23JUN-S002",
+      "FIN23JUN-S003",
+      "FIN23JUN-S004",
+      "FIN23JUN-S006"
+    ],
+    "affected_candidates": [
+      "FIN23JUN-E001",
+      "FIN23JUN-E002",
+      "FIN23JUN-E003",
+      "FIN23JUN-E004"
+    ],
+    "required_followup": "Use permitted contemporaneous reports or official records to resolve material response/end fields; retain unknowns where evidence is unavailable."
+  },
+  {
+    "gap_id": "FIN23JUN-G005",
+    "type": "method",
+    "description": "Open web is not equivalent to LexisNexis and does not exhaust Finnish local/regional archives; search tool native result metadata is unavailable.",
+    "source_ids": [],
+    "affected_candidates": [
+      "FIN23JUN-E001",
+      "FIN23JUN-E002",
+      "FIN23JUN-E003",
+      "FIN23JUN-E004"
+    ],
+    "required_followup": "Document archive coverage if it becomes available; avoid an exhaustive-coverage claim."
+  }
+]

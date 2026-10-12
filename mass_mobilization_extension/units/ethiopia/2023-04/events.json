@@ -1,0 +1,401 @@
+[
+  {
+    "candidate_id": "ET23APR-E001",
+    "country": "Ethiopia",
+    "ccode": 230,
+    "unit_month": "2023-04",
+    "title": "April 2 anti-government protests in Amhara over abuses, arrests and restrictions",
+    "start_date": "2023-04-02",
+    "start_precision": "day",
+    "end_date": "2023-04-02",
+    "end_precision": "day",
+    "location": "Kobo, Merawi, Denebcha and Jiga, Amhara Region (reported; per-locality boundaries and attendance not established)",
+    "scope": "Several same-day protests reported in separate Amhara localities. Kept as a multi-locality candidate because reporting identifies common anti-government grievance; no headcount is assigned from aggregate regional descriptions.",
+    "organizer": "Residents/protesters; named organizer not established",
+    "demands": [
+      "police_brutality",
+      "political_behavior_process"
+    ],
+    "participants_original": "Tens of thousands reported across Amhara cities in a retrospective source; ACLED identifies protests in four towns but no locality counts.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Aggregate estimate cannot establish at least 50 in each named town; per-location threshold remains pending.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "ET23APR-S001",
+      "ET23APR-S005"
+    ],
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "ACLED places protests on April 2."
+      },
+      "location": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "Kobo, Merawi, Denebcha and Jiga; no finer sites."
+      },
+      "participants": {
+        "source_ids": [
+          "ET23APR-S001"
+        ],
+        "summary": "The article says tens of thousands across Amhara cities, without allocating attendance by locality; ACLED has no count."
+      },
+      "demands": {
+        "source_ids": [
+          "ET23APR-S001",
+          "ET23APR-S005"
+        ],
+        "summary": "Opposition to abuse/arrests and restrictions; regional report also describes opposition to special-force dismantling, but that policy announcement came later and is not applied to this April 2 occurrence."
+      },
+      "organizer": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "No named organizer."
+      },
+      "state_response": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "The weekly entry does not specify state response for these specific April 2 protests."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "ET23APR",
+    "notes": "This is pre-April 6 activity and is not merged with subsequent protests against the regional special-force integration plan announced later.",
+    "open_questions": "Per-town attendance, exact start/end, independent local sources and organizer remain unknown."
+  },
+  {
+    "candidate_id": "ET23APR-E002",
+    "country": "Ethiopia",
+    "ccode": 230,
+    "unit_month": "2023-04",
+    "title": "Amhara protests against regional special-force integration",
+    "start_date": "2023-04-06",
+    "start_precision": "day",
+    "end_date": "2023-04-11",
+    "end_precision": "day",
+    "location": "Amhara Region; ACLED reports at least 18 localities, including Woldiya, Gondar, Debre Tabor, Merawi and other towns",
+    "scope": "A policy-triggered multi-day wave beginning April 6; do not treat each mention as an independently verified threshold event or transfer one town’s estimate to another.",
+    "organizer": "Residents/protesters; no coordinating organizer identified",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Thousands reported across at least two towns on April 9; exact turnout for the other localities is not reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Reports of thousands in multiple towns support scale of the wave, but location-specific counts and whether every reported site reached 50 remain unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "ET23APR-S001",
+      "ET23APR-S002",
+      "ET23APR-S003",
+      "ET23APR-S004",
+      "ET23APR-S006"
+    ],
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "ET23APR-S003",
+          "ET23APR-S006"
+        ],
+        "summary": "Sources describe protests beginning April 6 and continuing through the following days."
+      },
+      "location": {
+        "source_ids": [
+          "ET23APR-S004",
+          "ET23APR-S006"
+        ],
+        "summary": "At least 18 locations in Amhara; named examples include Gondar, Woldiya, Merawi, Debre Tabor."
+      },
+      "participants": {
+        "source_ids": [
+          "ET23APR-S001",
+          "ET23APR-S004"
+        ],
+        "summary": "The tens-of-thousands figure is regional aggregate; Reuters reports thousands in at least two towns. No per-site allocation."
+      },
+      "demands": {
+        "source_ids": [
+          "ET23APR-S001",
+          "ET23APR-S002"
+        ],
+        "summary": "Opposition to dissolving/integrating Amhara regional special forces into federal security structures."
+      },
+      "organizer": {
+        "source_ids": [
+          "ET23APR-S006"
+        ],
+        "summary": "No organizer stated."
+      },
+      "state_response": {
+        "source_ids": [
+          "ET23APR-S002",
+          "ET23APR-S003",
+          "ET23APR-S004",
+          "ET23APR-S006"
+        ],
+        "summary": "Curfews, force deployments and protester deaths/injuries are reported in the wider wave; individual responses vary by locality and are not assigned to every site."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "ET23APR",
+    "notes": "This is later than April 2 and tied to a distinct announced integration policy. Armed clashes and reports of Fano activity are not coded as protest participation.",
+    "open_questions": "Exact onset location-specific attendance, organizers and per-site response are not resolved; further site-by-site reporting would be needed."
+  },
+  {
+    "candidate_id": "ET23APR-E003",
+    "country": "Ethiopia",
+    "ccode": 230,
+    "unit_month": "2023-04",
+    "title": "Nekemte Orthodox Christian protest over government intervention in church affairs",
+    "start_date": "2023-04-06",
+    "start_precision": "day",
+    "end_date": "2023-04-06",
+    "end_precision": "day",
+    "location": "Nekemte, Oromia Region",
+    "scope": "One public protest by Oromo Orthodox Christians; separate from Amhara integration demonstrations on the same date.",
+    "organizer": "Oromo Orthodox Christians; organizer not identified",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Thousands according to ACLED EPO.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Reported attendance in the thousands at Nekemte supports the threshold.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "ET23APR-S005"
+    ],
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "ACLED dates the protest April 6."
+      },
+      "location": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "Nekemte, Oromia."
+      },
+      "participants": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "Thousands of Oromo Orthodox Christians."
+      },
+      "demands": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "Protesters accused the government of intervening in church affairs."
+      },
+      "organizer": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "No organizer stated."
+      },
+      "state_response": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "No response reported in the cited entry."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "ET23APR",
+    "notes": "A state-directed grievance over government intervention in religious affairs is distinct from a political party rally.",
+    "open_questions": "Independent contemporaneous corroboration, precise route and state response not found in current search."
+  },
+  {
+    "candidate_id": "ET23APR-E004",
+    "country": "Ethiopia",
+    "ccode": 230,
+    "unit_month": "2023-04",
+    "title": "Southern Tigray demonstrations over identity and administration",
+    "start_date": "2023-04-02",
+    "start_precision": "day",
+    "end_date": "2023-04-02",
+    "end_precision": "day",
+    "location": "Raya Alamata, Ofela, Korem and Zata, Southern Tigray",
+    "scope": "Separate same-day local demonstrations over identity/administrative status; no aggregate crowd transferred across towns.",
+    "organizer": "Amhara residents/protesters; specific organizers unknown",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Unknown by locality.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No attendee count; threshold is unresolved separately for each locality.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "ET23APR-S005"
+    ],
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "ACLED dates the demonstrations April 2."
+      },
+      "location": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "Raya Alamata, Ofela, Korem and Zata."
+      },
+      "participants": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "No attendance figures."
+      },
+      "demands": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "Protesters sought recognition of identity and self-administration."
+      },
+      "organizer": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "No organizer named."
+      },
+      "state_response": {
+        "source_ids": [
+          "ET23APR-S005"
+        ],
+        "summary": "No response stated for these demonstrations."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "ET23APR",
+    "notes": "Kept distinct from Amhara-region protests over arrests/abuse and the later April 6 integration-policy wave.",
+    "open_questions": "Threshold, organizing structure, duration and independent reporting by town remain unknown."
+  },
+  {
+    "candidate_id": "ET23APR-E005",
+    "country": "Ethiopia",
+    "ccode": 230,
+    "unit_month": "2023-04",
+    "title": "Bahir Dar and Debre Markos stay-at-home protest signals",
+    "start_date": "2023-04-24",
+    "start_precision": "day",
+    "end_date": "2023-04-24",
+    "end_precision": "day",
+    "location": "Bahir Dar (April 24) and Debre Markos (April 25), Amhara Region",
+    "scope": "Two city-specific reports of businesses closing in the morning; not presumed to be one synchronized public gathering. The reporting says routine activity resumed by midday.",
+    "organizer": "Unidentified callers/leaflet authors; no organizer verified",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "No public participants reported; shops and businesses reportedly closed for the morning.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No evidence of 50 people physically gathering; this may be a stay-at-home action outside the public-gathering threshold.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "ET23APR-S007"
+    ],
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "ET23APR-S007"
+        ],
+        "summary": "Reported Bahir Dar April 24 and Debre Markos April 25."
+      },
+      "location": {
+        "source_ids": [
+          "ET23APR-S007"
+        ],
+        "summary": "Two named towns."
+      },
+      "participants": {
+        "source_ids": [
+          "ET23APR-S007"
+        ],
+        "summary": "No demonstrators or turnout counted."
+      },
+      "demands": {
+        "source_ids": [
+          "ET23APR-S007"
+        ],
+        "summary": "Protest call/leaflets connected to opposition in the region, details limited."
+      },
+      "organizer": {
+        "source_ids": [
+          "ET23APR-S007"
+        ],
+        "summary": "Callers and leaflets not attributed."
+      },
+      "state_response": {
+        "source_ids": [
+          "ET23APR-S007"
+        ],
+        "summary": "No state response reported."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "ET23APR",
+    "notes": "Recorded as a candidate for review, not a validated public gathering; stores closing is not interpreted as participant count.",
+    "open_questions": "Whether public assembly occurred and whether the same organizers/demand linked the two dates remain unknown."
+  }
+]

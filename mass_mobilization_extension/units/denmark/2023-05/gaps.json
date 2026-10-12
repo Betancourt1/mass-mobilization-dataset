@@ -1,0 +1,53 @@
+[
+  {
+    "gap_id": "DEN23MAY-G001",
+    "type": "threshold",
+    "description": "The Aarhus May Day body report only says attendance was greater than in 2022 and gives no number; FOA is the sole body-read publisher for event and announcement.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "denmark_2023-05_E002"
+    ],
+    "required_followup": "Find independent contemporaneous reporting or organizer records with an attendance count for the public march."
+  },
+  {
+    "gap_id": "DEN23MAY-G002",
+    "type": "threshold",
+    "description": "The 15–16 May trucker action is documented as public and against a state toll proposal, but report’s ~20 heavy vehicles near Christiansborg cannot be converted to person-count and nationwide orders/charges are not attendance. End date and individual site counts are unreported.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "denmark_2023-05_E001"
+    ],
+    "required_followup": "Seek independent local reports or event records with person counts by site and duration."
+  },
+  {
+    "gap_id": "DEN23MAY-G003",
+    "type": "occurrence",
+    "description": "A Copenhagen 3F May Day event appears only in an event listing search result; no body read proves that a public march occurred or reached 50 people.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Open the calendar body under a fresh exact-target assessment if further research is warranted; otherwise leave as discovery-only."
+  },
+  {
+    "gap_id": "DEN23MAY-G004",
+    "type": "source_coverage",
+    "description": "Month searches included English/Danish general searches, four Danish weekly windows, May Day, Store Bededag and a local-media-domain search returning zero captured headers. Search-tool output noted robots-limited retrieval for a DR search query; no DR article body was requested. Open-web results do not reproduce Lexis-Nexis All News.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "denmark_2023-05_E001",
+      "denmark_2023-05_E002"
+    ],
+    "required_followup": "Check contemporary archives and additional regional/local sources; do not interpret zero-result site query as no event."
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "gap_id": "argentina_2023-05-G001",
+    "type": "event_evidence",
+    "description": "Ten source cards remain search-only; one attempted TN open returned only a headline/subtitle. They cannot establish occurrence, dates, targets, thresholds, or state responses.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Exact access-check and manual source-ledger review before each permitted body open; then update source cards and create only evidence-backed candidates."
+  },
+  {
+    "gap_id": "argentina_2023-05-G002",
+    "type": "threshold",
+    "description": "One candidate has qualitative threshold evidence from a body-read report (18 May Buenos Aires); the 1 May UTEP candidate remains threshold-pending because the reported approximately-50 restroom queue is not an attendance count.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Seek contemporaneous local/regional reports and official/organizer records for attendance at individual sites."
+  },
+  {
+    "gap_id": "argentina_2023-05-G003",
+    "type": "coverage",
+    "description": "Initial generic Spanish and English searches are not exhaustive; local province coverage, weekly date windows, sector searches, and direct official sources remain incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue week and event specific searches in Spanish, local outlets, national/international press, unions and rights monitors."
+  },
+  {
+    "gap_id": "argentina_2023-05-G004",
+    "type": "access_history",
+    "description": "Historical access ledger and alias/origin source-check archive are omitted from the replacement kit. Current available ledgers cannot prove a clean historic inventory; known affected AP/HRW/NewArab/Facebook/LOrient restrictions remain held.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use fresh exact-URL receipts and documented manual scope review; coordinator to resolve missing history."
+  },
+  {
+    "gap_id": "argentina_2023-05-G005",
+    "type": "event_unit",
+    "description": "The 15–18 May national Federal March combined multiple geographically distinct actions. The Buenos Aires convergence on 18 May is documented, but local episodes elsewhere should not be summed; exact linkage/granularity across units needs review. Buenos Aires Herald planning copy is bylined Télam/Herald and not independent confirmation.",
+    "source_ids": [
+      "ARG23MAY-S001",
+      "ARG23MAY-S008"
+    ],
+    "affected_candidates": [
+      "argentina_2023-05-E001"
+    ],
+    "required_followup": "Find independently sourced local reports for specific city gatherings; retain separate event units and an episode link where justified."
+  },
+  {
+    "gap_id": "argentina_2023-05-G007",
+    "type": "event_unit",
+    "description": "May1 coverage identifies separate, potentially overlapping acts in Buenos Aires (UTEP 9 de Julio/Plaza de Mayo, left-wing Plaza de Mayo, other union venues) and a distinct Rosario march. A Plaza act remains pending_unit to avoid accidental duplicate or merger.",
+    "source_ids": [
+      "ARG23MAY-S002",
+      "ARG23MAY-S020",
+      "ARG23MAY-S021",
+      "ARG23MAY-S022"
+    ],
+    "affected_candidates": [
+      "argentina_2023-05-E002",
+      "argentina_2023-05-E006",
+      "argentina_2023-05-E007"
+    ],
+    "required_followup": "Use contemporaneous routes and organizer/independent reporting to define distinct Buenos Aires gatherings; keep Rosario separate."
+  },
+  {
+    "gap_id": "argentina_2023-05-G008",
+    "type": "continuity",
+    "description": "Federal Piquetero March reports differ on the planned Plaza culmination date (17 May) and a separate unitary march on 18 May; nationwide coordination involved multiple distinct cities. The 18 May Buenos Aires convergence is body-confirmed; no other city counts are summed.",
+    "source_ids": [
+      "ARG23MAY-S001",
+      "ARG23MAY-S008",
+      "ARG23MAY-S023"
+    ],
+    "affected_candidates": [
+      "argentina_2023-05-E001"
+    ],
+    "required_followup": "Use local city reports to distinguish the national itinerary from specific protest gatherings and confirm which actions completed on 17 and 18 May."
+  }
+]

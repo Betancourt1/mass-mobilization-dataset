@@ -1,0 +1,43 @@
+[
+  {
+    "gap_id": "china_2023-05-G001",
+    "type": "threshold",
+    "description": "Najiaying Mosque residents resisted state removal of the dome on May 27, but RFA reports no protester count; mosque capacity is not attendance.",
+    "source_ids": [
+      "CHN23MAY-S002"
+    ],
+    "affected_candidates": [
+      "china_2023-05-E001"
+    ],
+    "required_followup": "Seek independent event-specific turnout evidence; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "china_2023-05-G002",
+    "type": "evidence",
+    "description": "A May 23 Wuhan health-worker visit to the district health commission appears in a PDF search preview and a Reddit post preview. The opened PDF extract omitted the relevant page and the post was not opened; occurrence, public-gathering nature, turnout and response are unverified.",
+    "source_ids": [
+      "CHN23MAY-S003",
+      "CHN23MAY-S004"
+    ],
+    "affected_candidates": [
+      "china_2023-05-E002"
+    ],
+    "required_followup": "Contemporaneous independent reporting or accessible original evidence is needed; retain pending_evidence."
+  },
+  {
+    "gap_id": "china_2023-05-G003",
+    "type": "coverage_limit",
+    "description": "Searches in English and Chinese covered nationwide protest/strike terms and targeted Yunnan mosque, Wuhan health-worker and Zhengzhou taxi leads. The Xiamen May 17 gathering was described as a handful and excluded below threshold. No exhaustive local archive was consulted.",
+    "source_ids": [
+      "CHN23MAY-S001",
+      "CHN23MAY-S002",
+      "CHN23MAY-S003",
+      "CHN23MAY-S004"
+    ],
+    "affected_candidates": [
+      "china_2023-05-E001",
+      "china_2023-05-E002"
+    ],
+    "required_followup": "Additional contemporary local coverage may resolve threshold/evidence gaps; do not claim no other actions."
+  }
+]

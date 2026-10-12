@@ -1,0 +1,83 @@
+[
+  {
+    "gap_id": "bulgaria_2023-04_G001",
+    "type": "threshold",
+    "description": "April 23 peace march has organizer-attributed ~12,000 Sofia estimate; independent counting and other-city attendance are not verified. Candidate E002 grain action has no Bulgarian headcount.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S008"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-04_E001",
+      "bulgaria_2023-04_E002"
+    ],
+    "required_followup": "Retain sourced claims separately; do not derive numeric bounds or extrapolate city-wide counts."
+  },
+  {
+    "gap_id": "bulgaria_2023-04_G002",
+    "type": "state_target",
+    "description": "Grain-action demands in inspected material appear directed principally at EU rules/institutions; a demand to Bulgarian authorities is not established.",
+    "source_ids": [
+      "S004",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-04_E002"
+    ],
+    "required_followup": "Use clean permitted evidence to determine whether Bulgarian-government policy was specifically demanded; otherwise keep pending_state_target."
+  },
+  {
+    "gap_id": "bulgaria_2023-04_G003",
+    "type": "source_origin",
+    "description": "RFE/RL April7 grain article explicitly credits AP and RFE/RL Bulgarian Service. Its exact written-origin contribution/scope is pending; do not treat as clean independent evidence, request AP, or re-fetch same story.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-04_E002"
+    ],
+    "required_followup": "Use only unrelated/new sources after an action-specific local assessment; do not widen to all RFE/RL."
+  },
+  {
+    "gap_id": "bulgaria_2023-04_G004",
+    "type": "continuity",
+    "description": "BNT search result records a March29 Ruse blockade; April7 sources describe a separately announced action, but actual continuity, pause, and re-onset are unresolved.",
+    "source_ids": [
+      "S004",
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-04_E002"
+    ],
+    "required_followup": "Compare exact event dates and organizer evidence from permitted independent sources; do not merge based only on topic/venue."
+  },
+  {
+    "gap_id": "bulgaria_2023-04_G005",
+    "type": "method",
+    "description": "Open-web discovery used English and Bulgarian generic searches, an April23 episode query and a Bulgarian grain-protest date query. It does not reproduce systematic LexisNexis or full regional archive review.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Additional regional/sector/date-window discovery may identify missed events; report this as a limitation, not evidence of no events."
+  },
+  {
+    "gap_id": "bulgaria_2023-04_G006",
+    "type": "response",
+    "description": "No full contemporaneous review establishes state response, arrests, violence, or consequences for any candidate; unknown fields remain unknown.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S010"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-04_E001",
+      "bulgaria_2023-04_E002",
+      "bulgaria_2023-04_E003"
+    ],
+    "required_followup": "These fields remain unknown unless supported by permissible source evidence."
+  }
+]

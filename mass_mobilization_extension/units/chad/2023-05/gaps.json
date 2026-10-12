@@ -1,0 +1,48 @@
+[
+  {
+    "gap_id": "chad_2023-05_G001",
+    "type": "threshold",
+    "description": "The 8 May N’Djamena street protest is reported, but the source does not identify attendees or establish simultaneous attendance of 50. Union membership, work stoppage participation and sector-wide disruption cannot be used as crowd size.",
+    "source_ids": [
+      "TCD23MAY-S001"
+    ],
+    "affected_candidates": [
+      "chad_2023-05_E001"
+    ],
+    "required_followup": "Search local contemporaneous reporting for a direct attendance estimate or clear mass-size description and for exact gathering demands/organizer; retain pending threshold if absent."
+  },
+  {
+    "gap_id": "chad_2023-05_G002",
+    "type": "event_execution",
+    "description": "FOC planned a 14 May N’Djamena march to protest cost of living and dissolution of CONOREC; the Ministry banned it, and FOC subsequently said it was postponing to a future date. No body source reviewed establishes an executed FOC march or a separate/unauthorized gathering on 14 May.",
+    "source_ids": [
+      "TCD23MAY-S002",
+      "TCD23MAY-S003",
+      "TCD23MAY-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only add an event if a permitted contemporaneous body source establishes actual gathering/execution and crowd size; do not infer non-occurrence or execution from the ban/postponement announcement."
+  },
+  {
+    "gap_id": "chad_2023-05_G003",
+    "type": "access",
+    "description": "The exact Le Pays article URL for the reported postponement was opened once and redirected to the homepage; no target body was obtained. No retry or alternate access path was attempted.",
+    "source_ids": [
+      "TCD23MAY-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No workaround; use another ordinary public source only if independently discovered and freshly assessed."
+  },
+  {
+    "gap_id": "chad_2023-05_G004",
+    "type": "state_target",
+    "description": "The 8 May N’Djamena street protest is reported amid fuel/electricity/gas shortages, and URPT reportedly said authorities could not explain the N’Djamena fuel shortage. Exact demands directed at the state by the street participants and their identity are not established.",
+    "source_ids": [
+      "TCD23MAY-S001"
+    ],
+    "affected_candidates": [
+      "chad_2023-05_E001"
+    ],
+    "required_followup": "Seek permitted local reporting with organizers’ statements, signs or direct demands; keep state target unresolved absent evidence."
+  }
+]

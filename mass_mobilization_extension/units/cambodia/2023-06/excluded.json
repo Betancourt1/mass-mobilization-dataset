@@ -1,0 +1,107 @@
+[
+  {
+    "candidate_id": "CAM23JUN-X001",
+    "source_ids": [
+      "CAM23JUN-S001"
+    ],
+    "event_summary": "Around 30 Kandal villagers protested land filling near homes by the Techo Takhmao airport development on June 8, 2023.",
+    "exclusion_reason": "Body-read count is around 30, below the manual simultaneous threshold of at least 50. The reported grievance concerns a local land-filling/home-demolition dispute around a privately developed airport project; the article does not show a demand directed to Cambodian state policy. Local officials’ presence is not by itself a state-target demand.",
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "CAM23JUN-S001"
+        ],
+        "summary": "CamboJA dates the protest to Thursday June 8, 2023 (turn582417view0 lines36,40,43)."
+      },
+      "location": {
+        "source_ids": [
+          "CAM23JUN-S001"
+        ],
+        "summary": "Around 30 residents of Ampov Prey village in Kandork commune, Kandal Stung district (line43)."
+      },
+      "attendance": {
+        "source_ids": [
+          "CAM23JUN-S001"
+        ],
+        "summary": "Around 30 residents, below 50 (line43)."
+      },
+      "demand": {
+        "source_ids": [
+          "CAM23JUN-S001"
+        ],
+        "summary": "Residents feared land filling could lead to home demolition; the body does not report a state/policy demand (lines40-49)."
+      }
+    },
+    "notes": "Do not transfer 2022 airport-development protests or arrests described for context (lines70-71) into June 2023. No event is added to candidate events."
+  },
+  {
+    "candidate_id": "CAM23JUN-X002",
+    "source_ids": [
+      "CAM23JUN-S003"
+    ],
+    "event_summary": "Candlelight Party’s proposed June3/4 Phnom Penh protest against the National Election Committee’s ballot exclusion decision was postponed before organizers submitted a permit request.",
+    "exclusion_reason": "No public gathering is reported as having occurred. RFA says party officials decided on June2 to hold off on submitting the permit request. The hoped-for 10,000 turnout is not attendance. This is not coded as a protest event or zero participation.",
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "CAM23JUN-S003"
+        ],
+        "summary": "RFA reports the postponement decision on June2 and plans for a June3/4 march (turn275686view0 lines36-41)."
+      },
+      "location": {
+        "source_ids": [
+          "CAM23JUN-S003"
+        ],
+        "summary": "Proposed march would have been through Phnom Penh (line39)."
+      },
+      "attendance": {
+        "source_ids": [
+          "CAM23JUN-S003"
+        ],
+        "summary": "No actual gathering or attendee count reported; 10,000 was hoped/planned attendance only (line39)."
+      },
+      "occurrence": {
+        "source_ids": [
+          "CAM23JUN-S003"
+        ],
+        "summary": "Officials chose to delay plans and hold off on a permit application (line41); no action is reported held."
+      }
+    },
+    "notes": "CIVICUS body consulted from May unit also says the planned June3–4 opposition rally was shelved; this June-unit fresh body is a second account of postponement. Do not treat a party-support/election rally as automatically eligible; here no gathering occurred, so it is excluded on occurrence alone."
+  },
+  {
+    "candidate_id": "CAM23JUN-X003",
+    "source_ids": [
+      "CAM23JUN-S006"
+    ],
+    "event_summary": "Koh Kong villagers planned a June29 trip to Phnom Penh to petition the Justice Minister, but police stopped the vans; later about20 villagers gathered at the provincial office after arrests.",
+    "exclusion_reason": "The approximately100 figure is planned travel, not observed attendance at a gathering. RFA reports four vans were stopped before leaving, a fifth was stopped at roadblock and 11 were arrested; only about20 villagers later gathered outside the provincial office. No simultaneous ≥50 public gathering at the petition or protest venue is documented.",
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "CAM23JUN-S006"
+        ],
+        "summary": "Arrests and planned petition trip occurred Thursday June29 (turn772366view0 lines36-45); article published June30."
+      },
+      "location": {
+        "source_ids": [
+          "CAM23JUN-S006"
+        ],
+        "summary": "Roadblocks en route from Koh Kong to Phnom Penh; later ~20 people outside provincial office (lines41-45)."
+      },
+      "attendance": {
+        "source_ids": [
+          "CAM23JUN-S006"
+        ],
+        "summary": "Around100 planned to travel, but no 100-person gathering is reported. Actual later office gathering was around20 (lines41-44)."
+      },
+      "occurrence": {
+        "source_ids": [
+          "CAM23JUN-S006"
+        ],
+        "summary": "Planned petition trip was stopped; no petition gathering in Phnom Penh reported."
+      }
+    },
+    "notes": "Do not count the planned group as present at one time or equate the 11 arrested with protester arrests at an actual mass gathering. The source attributes the arrest count to LICADHO and includes an RFA interview."
+  }
+]
