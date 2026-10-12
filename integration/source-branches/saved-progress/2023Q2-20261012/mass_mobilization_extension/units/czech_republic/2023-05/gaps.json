@@ -1,0 +1,37 @@
+[
+  {
+    "gap_id": "czech_republic_2023-05_G001",
+    "type": "coverage_limit",
+    "description": "Czech and English month-level searches and event-specific follow-up found several Prague gatherings. Regional/local coverage and systematic archive coverage remain incomplete; no zero-event claim.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If needed, extend coverage to regional sources and local archives within May date windows."
+  },
+  {
+    "gap_id": "czech_republic_2023-05_G002",
+    "type": "technical_failure",
+    "description": "The iDNES May Day body request (S001) returned a 400 Unicode decoding error. This is recorded as a tool error, not a site denial; no retry was made, so no body claim is used.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "None required for current candidates; use only if a material May Day claim depends on this article and an authorized non-retry method is separately established."
+  },
+  {
+    "gap_id": "czech_republic_2023-05_G003",
+    "type": "source_dependency",
+    "description": "The May 1 CTK story covers multiple distinct events; this single article does not independently corroborate the candidates it reports. iROZHLAS May 6 and May 30 articles also credit ČTK.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "czech_republic_2023-05_E001",
+      "czech_republic_2023-05_E002",
+      "czech_republic_2023-05_E003",
+      "czech_republic_2023-05_E004"
+    ],
+    "required_followup": "Document story-level dependencies if adding further reports; no universal second-source quota is imposed."
+  }
+]

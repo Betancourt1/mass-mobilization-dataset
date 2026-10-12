@@ -1,0 +1,38 @@
+[
+  {
+    "gap_id": "GHA23APR-G001",
+    "type": "observed_exact_url_denial_and_event_verification",
+    "description": "Asaase Radio search lead announces planned TTAG protest/march for April 24 at Jubilee House. One locally assessed exact-URL open returned HTTP-like 403 Forbidden. This is an observed denial at that exact URL, not an inference about publisher-wide access or other sources; no retry. The body and whether the event occurred are unknown.",
+    "source_ids": [
+      "GHA23APR-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek a distinct, independently sourced permitted report that establishes whether an April 24 public gathering occurred, simultaneous attendance, demand target and state response. Do not revisit this exact URL."
+  },
+  {
+    "gap_id": "GHA23APR-G002",
+    "type": "public_gathering_threshold_and_response",
+    "description": "April 19 La residents demonstration against the stalled La General Hospital is reported by Citi Newsroom; its earlier exact page returned an anti-bot challenge, while the April 25 Citi story itself confirms the April 19 demonstration and health-advisor response. Reviewed body sources give no turnout.",
+    "source_ids": [
+      "GHA23APR-S002",
+      "GHA23APR-S003"
+    ],
+    "affected_candidates": [
+      "GHA23APR-E001"
+    ],
+    "required_followup": "Seek a distinct permitted body source for simultaneous turnout and clarify action-specific demand/response; do not retry the exact Citi Apr19 challenge URL."
+  },
+  {
+    "gap_id": "GHA23APR-G003",
+    "type": "public_gathering_threshold_and_response",
+    "description": "Class FM confirms a La residents demonstration on April 25 and quotes criticism of government over the stalled hospital, but gives no turnout. Citi’s same-day story also documents the hospital dispute and mentions the earlier April 19 event.",
+    "source_ids": [
+      "GHA23APR-S002",
+      "GHA23APR-S004"
+    ],
+    "affected_candidates": [
+      "GHA23APR-E002"
+    ],
+    "required_followup": "Seek a distinct permitted source with a calibrated simultaneous crowd estimate and any April 25 event-specific government response."
+  }
+]

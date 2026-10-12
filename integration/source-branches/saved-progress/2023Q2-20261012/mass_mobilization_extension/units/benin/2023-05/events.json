@@ -1,0 +1,101 @@
+[
+  {
+    "candidate_id": "benin_2023-05_E001",
+    "country": "Benin",
+    "ccode": 434,
+    "unit_month": "2023-05",
+    "title": "CSTB May Day march against hunger, high prices and working/living conditions",
+    "start_date": "2023-05-01",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Cotonou; from Étoile Rouge toward Bourse du Travail",
+    "scope": "One May Day march followed by a labor meeting in Cotonou; the two opened reports refer to the same CSTB event, not independent events.",
+    "organizer": "Confédération Syndicale des Travailleurs du Bénin (CSTB)",
+    "demands": [
+      "price_increases_tax_policy",
+      "labor_wage_dispute",
+      "political_behavior_process"
+    ],
+    "participants_original": "La Flamme describes a very large turnout ('place noire du monde', 'sortie massive', 'masses mobilisées') but gives no count; its politically aligned organizer perspective may inflate size.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Qualitative evidence supports at least 50: La Flamme's opened account describes the square as black with people and a massive turnout and reports people joining from multiple social sectors. It provides no numeric count, and the publication's PCB alignment / organizer proximity warrants caution; exact bounds remain unknown.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Both opened La Flamme and Daabaaru articles report a CSTB May Day march on 1 May 2023."
+      },
+      "location": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S004"
+        ],
+        "summary": "Opened reports place the march in Cotonou, starting at Étoile Rouge and ending at the Bourse du Travail; search-only April notice stated this planned route."
+      },
+      "organizer": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S004"
+        ],
+        "summary": "The opened reports identify the Confédération Syndicale des Travailleurs du Bénin (CSTB) as organizer; the April notice also announced the event."
+      },
+      "demands": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S004"
+        ],
+        "summary": "The accounts describe claims concerning hunger, cost of living, employment/working conditions, political detainees and press freedom; the advance notice expressly directs the march's grievances to the government."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "La Flamme uses qualitative mass-turnout language, but provides no number; treat the scale description cautiously because of its PCB alignment and proximity to the organizer."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The opened La Flamme account says the square was black with people, describes a massive turnout and reports several social sectors joining; this qualitative evidence supports the threshold, but no numeric bounds are available and source perspective may inflate."
+      },
+      "protester_violence": {
+        "source_ids": [],
+        "summary": "unknown; neither opened account reports violence by march participants."
+      },
+      "state_response": {
+        "source_ids": [],
+        "summary": "unknown; the opened reports do not describe an event-specific state response."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "candidate",
+    "episode_key": "benin_cstb_may_day_march_2023-05-01",
+    "notes": "S001 and S002 report the same CSTB event; they are not counted as independent confirmation of turnout. Attendance threshold is supported qualitatively by S001 only, with explicit source-bias caveat; no exact estimate. S004 is a search-only advance notice, not proof of occurrence.",
+    "open_questions": [
+      "Could an independent contemporaneous source corroborate scale or attendance?",
+      "What response, if any, did state authorities make to this specific march?"
+    ]
+  }
+]

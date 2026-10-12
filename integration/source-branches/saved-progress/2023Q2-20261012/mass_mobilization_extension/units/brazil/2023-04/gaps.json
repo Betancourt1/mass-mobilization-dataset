@@ -1,0 +1,31 @@
+[
+  {
+    "gap_id": "brazil_2023-04_G001",
+    "type": "event_scope_and_threshold",
+    "description": "MST reports multiple regional actions and the Salvador act has a local count, but city-specific crowd thresholds for other locations are not established; family counts are not converted to protesters.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "brazil_2023-04_E001"
+    ],
+    "required_followup": "Contemporaneous opened local reports for any materially relevant other city/action, with location-specific simultaneous headcounts and episode boundaries."
+  },
+  {
+    "gap_id": "brazil_2023-04_G002",
+    "type": "state_response_and_violence",
+    "description": "Available reviewed passages do not establish event-wide protester violence or government response for the MST or CNTE events.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004",
+      "S007"
+    ],
+    "affected_candidates": [
+      "brazil_2023-04_E001",
+      "brazil_2023-04_E002"
+    ],
+    "required_followup": "Contemporaneous event-specific reporting on protester violence and each state-response field; silence remains unknown, not no_explicit."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "gap_id": "DR23APR-G001",
+    "type": "threshold_attendance",
+    "description": "Neither April 23 SFM caravan nor April 24 strike-day actions have a numeric attendance estimate for an individual gathering. The >90% figure concerns strike compliance; the 14-province reach and multiple municipalities cannot be aggregated into a crowd.",
+    "source_ids": [
+      "DR2304-S001",
+      "DR2304-S002",
+      "DR2304-S003"
+    ],
+    "affected_candidates": [
+      "DR23APR-E001",
+      "DR23APR-E002"
+    ],
+    "required_followup": "A future contemporaneous local report or organizer record must identify attendance at a specific place/time. Existing April search results do not provide it; keep both candidates pending_threshold absent such evidence."
+  },
+  {
+    "gap_id": "DR23APR-G002",
+    "type": "episode_and_site_scope",
+    "description": "The April 23 caravan and April 24 strike-day street actions share SFM organizer/strike context and occur on consecutive days, but are separate gatherings. Exact relationship between regional coalition and local organizer labels, and site-level boundaries at several Cibao towns, remain unclear.",
+    "source_ids": [
+      "DR2304-S001",
+      "DR2304-S002",
+      "DR2304-S003"
+    ],
+    "affected_candidates": [
+      "DR23APR-E001",
+      "DR23APR-E002"
+    ],
+    "required_followup": "Use contemporaneous accounts naming organizers, locations, and start/end points if found. Do not merge dates or infer the same attendance cohort."
+  }
+]

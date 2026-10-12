@@ -1,0 +1,48 @@
+[
+  {
+    "gap_id": "czech_republic_2023-04_G001",
+    "type": "coverage_limit",
+    "description": "Open-web searches in Czech and English found relevant Prague rallies but do not establish absence of other actions across Czech regions/sectors. April date-window discovery included generic and sector-focused queries; systematic regional archive coverage remains incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Check additional regional outlets/official notices and archived local reports if broader unit coverage is needed; no claim of zero events."
+  },
+  {
+    "gap_id": "czech_republic_2023-04_G002",
+    "type": "source_dependency",
+    "description": "The April 16 Prague reporting in S001 and S003 includes ČTK credit; source independence and exact shared-origin relationship are unresolved.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [
+      "czech_republic_2023-04_E003"
+    ],
+    "required_followup": "Compare byline/story metadata or obtain a distinct contemporaneous account if independence matters."
+  },
+  {
+    "gap_id": "czech_republic_2023-04_G003",
+    "type": "continuity",
+    "description": "The April 16 rally continued overnight into April 17. Reports do not establish exact participant continuity or a precise end time beyond several dozen leaving about 19:00 on April 17.",
+    "source_ids": [
+      "S001",
+      "S006"
+    ],
+    "affected_candidates": [
+      "czech_republic_2023-04_E003"
+    ],
+    "required_followup": "No separate event coding; additional timing evidence only if precise episode close is needed."
+  },
+  {
+    "gap_id": "czech_republic_2023-04_G004",
+    "type": "access_scope",
+    "description": "Associated Press exact search-result lead was not opened because the known AP hold remains unresolved; no body action was attempted.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [
+      "czech_republic_2023-04_E003"
+    ],
+    "required_followup": "Resolve exact AP scope through permitted evidence before any body request; other allowed sources used."
+  }
+]

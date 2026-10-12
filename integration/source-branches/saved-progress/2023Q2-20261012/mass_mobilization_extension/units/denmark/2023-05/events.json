@@ -1,0 +1,204 @@
+[
+  {
+    "candidate_id": "denmark_2023-05_E001",
+    "country": "Denmark",
+    "ccode": 390,
+    "unit_month": "2023-05",
+    "title": "Aarhus trucker protests against a proposed road toll",
+    "start_date": "2023-05-15",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Reports describe actions in Copenhagen, North Jutland, East Jutland, Southeast Jutland and other areas; exact sites vary by day.",
+    "scope": "Reported multi-site trucker protest; do not infer national organizational unity beyond wire description.",
+    "organizer": "Trucker participants; specific organizer not identified in the report.",
+    "demands": [
+      "price_increases_tax_policy"
+    ],
+    "participants_original": "About 20 heavy vehicles were seen near Christiansborg on 16 May; no person-count reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Unknown. The report counts vehicles in one location, not people; no simultaneous participant estimate is provided.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S003"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Report says actions began Monday; publication is Tuesday 16 May 2023, so Monday is 15 May."
+      },
+      "end_date": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Actions were still continuing Tuesday; no end date is reported."
+      },
+      "location": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Copenhagen, North Jutland and other national regions are reported, including a trucker action around Christiansborg."
+      },
+      "organizer": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Protesting truckers/vognmænd; named organizer unknown."
+      },
+      "demand": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Protest against a proposed road-use toll being considered by Parliament."
+      },
+      "participants": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Approximately 20 heavy vehicles observed at Christiansborg on Tuesday; no participant headcount."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Cannot infer people from vehicle count; 50-person threshold remains unknown."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Not reported."
+      },
+      "state_response": {
+        "source_ids": [
+          "S003"
+        ],
+        "summary": "Police reported over 50 charges and over 100 orders nationwide; these are not arrest counts, and coded response dimensions remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "denmark_trucker_road_toll_2023-05-15",
+    "notes": "Do not use number of vehicles, citations or police orders as attendee counts. The wire article gives no total simultaneous count; public policy target is clear, threshold is not.",
+    "open_questions": [
+      "Were at least 50 persons simultaneously participating in any identified gathering?",
+      "When did the action end, and were specific sites coordinated nationally?"
+    ]
+  },
+  {
+    "candidate_id": "denmark_2023-05_E002",
+    "country": "Denmark",
+    "ccode": 390,
+    "unit_month": "2023-05",
+    "title": "Aarhus May Day public demonstration from Rådhuspladsen to Havnepladsen",
+    "start_date": "2023-05-01",
+    "start_precision": "day",
+    "end_date": "2023-05-01",
+    "end_precision": "day",
+    "location": "Rådhuspladsen to Havnepladsen, Aarhus",
+    "scope": "One documented local public demonstration; not combined with unverified events in other cities.",
+    "organizer": "Fagbevægelsens Hovedorganisation (FH) Aarhus; FOA Århus and Metal Østjylland speakers reported.",
+    "demands": [],
+    "participants_original": "FOA reports turnout at its event and Havnepladsen was larger than in 2022; no headcount.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Not established; qualitative comparison with prior year does not provide a number or a clear count of simultaneous participants at the march.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "FOA reports the completed May Day events in a 2 May report; its March 30 announcement gives the 1 May schedule."
+      },
+      "end_date": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "The route was planned from Rådhuspladsen to Havnepladsen on May 1; no exact start/end times for the march reported."
+      },
+      "location": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Rådhuspladsen to Havnepladsen in Aarhus."
+      },
+      "organizer": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "FH Aarhus is identified as organizer of the common demonstration; FOA Århus and Metal Østjylland participate."
+      },
+      "demand": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "The announcement asks the government to keep its hands off public holidays and collective agreements, in opposition to abolition of Store Bededag; post-event report says speakers criticized that abolition."
+      },
+      "participants": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "FOA says attendance was higher than 2022 at the organization’s event and Havnepladsen, but provides no count."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "No numeric or clearly threshold-sufficient simultaneous attendance evidence in opened sources."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Not described."
+      },
+      "state_response": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "No response from authorities reported."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "denmark_mayday_aarhus_2023-05-01",
+    "notes": "Aarhus May Day activities at FOA offices and the later public FH demonstration are distinguished. This event object refers only to the public march. The two FOA sources share an institutional origin and do not count as independent corroboration. The demand is preserved in prose rather than forced into the limited available taxonomy.",
+    "open_questions": [
+      "Need a simultaneous crowd estimate for the Aarhus public march.",
+      "Did any other independently organized May Day march meet the threshold?"
+    ]
+  }
+]

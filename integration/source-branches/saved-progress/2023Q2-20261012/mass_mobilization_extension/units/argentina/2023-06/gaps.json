@@ -1,0 +1,72 @@
+[
+  {
+    "gap_id": "argentina_2023-06-G001",
+    "type": "event_evidence",
+    "description": "Thirteen source cards remain search-only; one local attempted open returned HTTP 429 and two other opens produced partial/redirected text. Search results remain discovery only.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Exact access-check and manual source-ledger review before each permitted body open; then update source cards and create only evidence-backed candidates."
+  },
+  {
+    "gap_id": "argentina_2023-06-G002",
+    "type": "threshold",
+    "description": "Two candidates now have body-backed qualitative/quantitative threshold evidence: 6 June teacher march with a reported estimate of 5,000, and 22 June teacher-led mass torch march (qualitative only). They need independent confirmation and review.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Seek contemporaneous local/regional reports and official/organizer records for attendance at individual sites."
+  },
+  {
+    "gap_id": "argentina_2023-06-G003",
+    "type": "coverage",
+    "description": "Initial generic Spanish and English searches are not exhaustive; local province coverage, weekly date windows, sector searches, and direct official sources remain incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue week and event specific searches in Spanish, local outlets, national/international press, unions and rights monitors."
+  },
+  {
+    "gap_id": "argentina_2023-06-G004",
+    "type": "access_history",
+    "description": "Historical access ledger and alias/origin source-check archive are omitted from the replacement kit. Current available ledgers cannot prove a clean historic inventory; known affected AP/HRW/NewArab/Facebook/LOrient restrictions remain held.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use fresh exact-URL receipts and documented manual scope review; coordinator to resolve missing history."
+  },
+  {
+    "gap_id": "argentina_2023-06-G005",
+    "type": "event_unit",
+    "description": "The EL PAÍS body describes Jujuy mobilizations as permanent and roadblocks continuing for weeks, but does not date each distinct gathering or give attendance; onset and episode boundaries are unresolved. It cites Télam and CELS, which are attributed sources rather than independent confirmations.",
+    "source_ids": [
+      "ARG23JUN-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek contemporaneous event-level local reporting and organizer or rights-monitor reports specifying dates, localities, and single-gathering attendance."
+  },
+  {
+    "gap_id": "argentina_2023-06-G006",
+    "type": "event_date_scope",
+    "description": "Jujuy reform protests included separate marches, roadblocks and repression across different dates and localities. June18 EL PAÍS and later Radio Nacional reports establish ongoing activity, but event-level dates, sizes, boundaries and direct state-response links remain incomplete; June20 repression figures must not be assigned to June22 march.",
+    "source_ids": [
+      "ARG23JUN-S003",
+      "ARG23JUN-S015",
+      "ARG23JUN-S017",
+      "ARG23JUN-S014"
+    ],
+    "affected_candidates": [
+      "argentina_2023-06-E001",
+      "argentina_2023-06-E002"
+    ],
+    "required_followup": "Find event-specific local reports for June16–21 and at individual localities; distinguish meetings, strike actions, roadblocks and separate gatherings, and corroborate state-response figures."
+  },
+  {
+    "gap_id": "argentina_2023-06-G007",
+    "type": "threshold_independence",
+    "description": "The June16 San Salvador march has qualitative threshold evidence from a local report but no numeric count or independent corroboration. Simultaneous route-blockade actions in other towns are separate units and their sizes are unknown.",
+    "source_ids": [
+      "ARG23JUN-S019"
+    ],
+    "affected_candidates": [
+      "argentina_2023-06-E003"
+    ],
+    "required_followup": "Seek local independent attendance reports for the city march and separate site-specific sources for other town gatherings."
+  }
+]

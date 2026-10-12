@@ -1,0 +1,47 @@
+[
+  {
+    "gap_id": "bosnia_2023-05_G001",
+    "type": "threshold",
+    "description": "The May 1 Sarajevo STBIH event was confirmed but opened reporting does not document at least 50 simultaneous attendees; union representation across regions is not a count.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S006"
+    ],
+    "affected_candidates": [
+      "bosnia_2023-05_E001"
+    ],
+    "required_followup": "Search for a contemporaneous attendee estimate in local reporting or union/official records; do not infer from membership or represented regions."
+  },
+  {
+    "gap_id": "bosnia_2023-05_G002",
+    "type": "field_unknown",
+    "description": "May 28 Sarajevo safety protest has a reported several-hundred turnout and institutional/legal demands, but no event-specific state response or explicit violence disposition is documented; same-day government session is not tied to the protest.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "bosnia_2023-05_E003"
+    ],
+    "required_followup": "Use only a source that explicitly links a response or event-wide violence status to this gathering; otherwise retain unknown."
+  },
+  {
+    "gap_id": "bosnia_2023-05_G003",
+    "type": "coverage_limit",
+    "description": "Open-web coverage identified distinct May 1 Sarajevo/Brčko labor actions and May 9 OHR-related action plus May 28 road-safety protest; available searches do not establish exhaustive coverage of all local areas or sectors. No LexisNexis-equivalent archive was used.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "bosnia_2023-05_E001",
+      "bosnia_2023-05_E002",
+      "bosnia_2023-05_E003"
+    ],
+    "required_followup": "Further material regional or sectoral leads may be checked using dated local outlets and official records; do not claim no other protests."
+  }
+]

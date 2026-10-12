@@ -1,0 +1,37 @@
+[
+  {
+    "candidate_id": "bolivia_2023-05-E001",
+    "country": "Bolivia",
+    "ccode": 145,
+    "unit_month": "2023-05",
+    "title": "Soy and sugarcane producers' tractor march against diesel-volume decrees",
+    "start_date": "2023-05-08",
+    "start_precision": "day",
+    "end_date": "2023-05-08",
+    "end_precision": "day",
+    "location": "From Minero to Montero, northern Santa Cruz",
+    "scope": "regional",
+    "organizer": "Soybean and sugarcane producers of northern Santa Cruz; named coalition includes Concabol and other agro actors in search leads",
+    "demands": ["political_behavior_process"],
+    "participants_original": "Around 300 tractors and about 2,000 soybean and sugarcane producers",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The opened ANF report estimates about 2,000 producers and around 300 tractors in the march; this is clear evidence that the gathering exceeded 50, but the approximate report is retained without manufacturing precise participant bounds.",
+    "protester_violence": "unknown",
+    "state_response": {"accommodation": "unknown", "arrests": "unknown", "beatings": "unknown", "crowd_dispersal": "unknown", "ignore": "unknown", "killings": "unknown", "shootings": "unknown"},
+    "source_ids": ["bolivia_2023-05_S002"],
+    "field_evidence": {
+      "occurrence": {"source_ids": ["bolivia_2023-05_S002"], "summary": "ANF reports producers staged the tractorazo, travelling from Minero to Montero and holding a mitin."},
+      "date": {"source_ids": ["bolivia_2023-05_S002"], "summary": "ANF dated the event and its report to May 8, 2023."},
+      "location": {"source_ids": ["bolivia_2023-05_S002"], "summary": "March route from Minero to Montero in northern Santa Cruz."},
+      "participants": {"source_ids": ["bolivia_2023-05_S002"], "summary": "Around 2,000 producers; approximately 300 tractors. No derived min/max bounds."},
+      "demand": {"source_ids": ["bolivia_2023-05_S002"], "summary": "Producers demanded repeal of DS 4910/4911, which restricted monthly diesel volumes during harvest. This is a demand for redress of domestic state policy; no claim about land use or fuel price is made."},
+      "state_response": {"source_ids": ["bolivia_2023-05_S002"], "summary": "A vice minister said fuel supply was guaranteed and characterized the protest as disinformation; no accommodation or other coded response category is established."}
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "bolivia_north_santa_cruz_diesel_decrees_2023-05",
+    "notes": "One opened ANF report provides occurrence, route, approximate threshold, and explicit state-policy demand. Other outlets surfaced in search results but remain search-only; they do not serve as independent body corroboration. No exact participant bounds or violence/response coding is inferred.",
+    "open_questions": ["Independent scientific review of occurrence, participant estimate and demand coding remains pending.", "No source establishes protester violence or a coded state response."]
+  }
+]

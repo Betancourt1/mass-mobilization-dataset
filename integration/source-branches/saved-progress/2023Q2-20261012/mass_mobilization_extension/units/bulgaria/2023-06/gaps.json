@@ -1,0 +1,75 @@
+[
+  {
+    "gap_id": "bulgaria_2023-06_G001",
+    "type": "threshold",
+    "description": "June10 BNT reports two protests but gives no participant counts; cannot determine whether either independently reached 50.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-06_E002",
+      "bulgaria_2023-06_E003"
+    ],
+    "required_followup": "Search independent contemporaneous Bulgarian-language/local reporting for crowd-size estimates; keep parties' rallies separate unless shared organization is documented."
+  },
+  {
+    "gap_id": "bulgaria_2023-06_G002",
+    "type": "source_access",
+    "description": "BTA June2 exact URL returned 429; BTA June10 exact URL was not accessible through tool without HTTP status. These outcomes have different evidence and neither should be retried under current recorded scope.",
+    "source_ids": [
+      "S002",
+      "S005"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-06_E001",
+      "bulgaria_2023-06_E002",
+      "bulgaria_2023-06_E003"
+    ],
+    "required_followup": "Use unrelated accessible sources; preserve exact URL outcomes and do not generalize."
+  },
+  {
+    "gap_id": "bulgaria_2023-06_G003",
+    "type": "assessment_incident",
+    "description": "June15 RFE/RL body was opened after a failed local assessment write/check sequence. Incident is preserved; no retroactive assessment, no retry, and it is not essential to candidate E004.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-06_E004"
+    ],
+    "required_followup": "Independent review may inspect the preserved incident/wrapper; current clean support for E004 comes from S004."
+  },
+  {
+    "gap_id": "bulgaria_2023-06_G004",
+    "type": "date_false_positive",
+    "description": "Sofia Municipality notice returned from June searches appeared current but body/footer and political references show June 2022; exclude from June 2023 occurrence evidence.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No event followup; record this false-positive/date-window limitation."
+  },
+  {
+    "gap_id": "bulgaria_2023-06_G005",
+    "type": "continuity",
+    "description": "Potential relation among May30 Radev resignation protest, June2 anti-Radev/pro-EU march and June15 anti-Radev/anti-Revival march is not established as one continuous event or campaign.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S009"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-06_E001",
+      "bulgaria_2023-06_E004"
+    ],
+    "required_followup": "Search neighboring-month event-specific reports and organizer continuity; do not merge based only on shared target."
+  },
+  {
+    "gap_id": "bulgaria_2023-06_G006",
+    "type": "method",
+    "description": "Web search is not systematic LexisNexis retrieval; searches used English and Bulgarian, date windows, local and official sources, but cannot establish exhaustive coverage or absence of events.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Further sector/region/episode queries may identify missed events; document limitations and consult systematic archives if available."
+  }
+]

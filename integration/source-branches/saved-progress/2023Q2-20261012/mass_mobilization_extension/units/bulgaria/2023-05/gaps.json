@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold_eligibility",
+    "description": "May21 road-safety action has occurrence evidence but no total count; several dozen at one Sofia site does not establish >=50. Two body opens lacked saved pre-request V1 assessments; see incident and scope-review files, no backfill.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-05_E001"
+    ],
+    "required_followup": "Seek a distinct new permitted contemporaneous report with explicit attendance after saving V1 assessment; no retries on incident URLs. Keep pending_threshold if unresolved."
+  },
+  {
+    "gap_id": "G002",
+    "type": "technical_retrieval",
+    "description": "May14 Stolica lead could not be body-verified: web tool returned Internal Error; no HTTP access denial.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use a distinct permitted source only after current target assessment, or leave search-only."
+  },
+  {
+    "gap_id": "G003",
+    "type": "continuity",
+    "description": "BNR says nightly Sofia road-safety protests occurred for nearly two weeks after May8 crash; beginning and earliest qualifying size are unknown; relation to May14/May21 national actions unresolved.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-05_E001"
+    ],
+    "required_followup": "Assess onset in May8–20 date windows and adjacent April/June continuity; do not duplicate a campaign as every story/day."
+  },
+  {
+    "gap_id": "G004",
+    "type": "threshold_eligibility",
+    "description": "May1 labor actions occurred, but BNT gives no attendance figures at the KNSB or Podkrepa gatherings.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-05_E002"
+    ],
+    "required_followup": "Look for independent contemporaneous published estimates or preserve pending_threshold."
+  }
+]

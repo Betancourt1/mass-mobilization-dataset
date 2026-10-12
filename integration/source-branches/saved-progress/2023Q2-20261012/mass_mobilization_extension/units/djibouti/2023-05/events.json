@@ -1,0 +1,83 @@
+[
+  {
+    "candidate_id": "DJI23MAY-E001",
+    "country": "Djibouti",
+    "ccode": 522,
+    "unit_month": "2023-05",
+    "title": "Reported continuing protest at Polyclinique Farah Had",
+    "start_date": "2023-05-13",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Polyclinique Farah Had; city/region not established in the read scope",
+    "scope": "health facility; whether an open public assembly occurred is not specified",
+    "organizer": "unknown",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": {
+      "status": "unknown",
+      "summary": "No crowd size or qualitative participant descriptor is supplied for the May13 clinic protest.",
+      "source_ids": [
+        "DJI23MAY-S002"
+      ]
+    },
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "DJI23MAY-S002"
+    ],
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "DJI23MAY-S002"
+        ],
+        "summary": "The article explicitly identifies Sunday 13 May 2023."
+      },
+      "occurrence": {
+        "source_ids": [
+          "DJI23MAY-S002"
+        ],
+        "summary": "The article says protests continued at Polyclinique Farah Had, but provides no action form or details."
+      },
+      "demands": {
+        "source_ids": [
+          "DJI23MAY-S002"
+        ],
+        "summary": "The surrounding report concerns public-health payroll delay and unpaid guard premiums, but exact May13 demands are not directly stated."
+      },
+      "participants": {
+        "source_ids": [
+          "DJI23MAY-S002"
+        ],
+        "summary": "Unknown; no number/qualitative scale."
+      },
+      "state_target": {
+        "source_ids": [
+          "DJI23MAY-S002"
+        ],
+        "summary": "May13 protest is in the public health facility context, but the article does not explicitly identify who was addressed at that action."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "DJI23-health-pay-claims-May-2023",
+    "notes": "Keep distinct from the May10 strike and ministerial meeting. The report labels May13 a protest but does not establish whether 50+ people assembled or whether it was a qualifying public gathering. Do not infer from health staff headcount or the strike.",
+    "open_questions": [
+      "What form did the May13 protest take?",
+      "Who organized it and how many attended simultaneously?",
+      "Was it directed to public health/state authorities, and what response occurred at the protest?"
+    ]
+  }
+]
