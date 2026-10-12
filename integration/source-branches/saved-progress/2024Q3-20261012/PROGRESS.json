@@ -1,0 +1,32 @@
+{
+  "quarter": "2024Q3",
+  "state": "STOPPED_SAVED",
+  "cutoff": "2026-10-07",
+  "policy_revision": "87dc8fc355c9ac413493e9e6d54e0138e5637347",
+  "policy_manifest_sha256": "da1104ad30871a5f63077d1f6408ae1f014561f093341a7cd0586cd508aa85eb",
+  "source_stop_checkpoint_sha256": "982081f09e1fad06b1eae5b022af183d61aae6cbee8758bf15f02799c32001cd",
+  "counts": {
+    "universe_480": 480,
+    "allowed": 432,
+    "excluded_prior_work": 48,
+    "assigned_or_prepared": 246,
+    "material_any": 246,
+    "notes_reports_overlapping": 245,
+    "delivered_dossiers": 231,
+    "partial_not_delivered": 15,
+    "prepared_only_no_material_signal": 0,
+    "effective_selection_present_overlapping": 212,
+    "current_hash_reviews": 210,
+    "current_hash_bounded_accepted": 36,
+    "missing_material_vs_480": 234,
+    "missing_delivered_dossier_vs_480": 249,
+    "delivered_without_current_metric_review": 21,
+    "allowed_without_material": 186
+  },
+  "official_complete_units": 0,
+  "retained_safe_source_files": 10,
+  "publication_scope": "Conservative exact-path and exact-hash subset of previously published safe selection. Dossiers, evidence, sources/search ledgers, reviews and local runtime records are NOT published. Aggregate closure metadata is newly generated; it is not a scientific acceptance.",
+  "history_status": "Fresh parentless export; original repository and private evidence unchanged.",
+  "worker_state": "No subagent running; five pending_init, coordinator interrupted. No agents activated.",
+  "private_export_status": "LOCAL_PRIVATE_ARCHIVE_WITH_MANIFEST_AND_SHA256; not uploaded to GitHub"
+}
