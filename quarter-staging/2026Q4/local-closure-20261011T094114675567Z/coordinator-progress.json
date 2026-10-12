@@ -1,0 +1,161 @@
+{
+  "quarter": "2026Q4",
+  "state": "RUNNING_NEW_UNITS",
+  "scope": [
+    "2026-10-01",
+    "2026-10-07"
+  ],
+  "progress_basis": "researcher reports only; coordinator does not perform peer scientific review",
+  "officially_completed_units": 0,
+  "remaining_formal_firstpass_units": 160,
+  "evidence_complete": false,
+  "canonical_kit_received": false,
+  "lanes": {
+    "0": {
+      "agent": "afghanistan_october",
+      "assignment": "index 0 of batches 2–40"
+    },
+    "1": {
+      "agent": "albania_october",
+      "assignment": "index 1 of batches 2–40"
+    },
+    "2": {
+      "agent": "algeria_october",
+      "assignment": "index 2 of batches 2–40"
+    },
+    "3": {
+      "agent": "angola_october",
+      "assignment": "index 3 of batches 2–40"
+    }
+  },
+  "updated_at_utc": "2026-10-11T03:28:28.603191+00:00",
+  "reported_pass_limits": {
+    "bahrain_2026-10": "additional variants requested; initial single-query no-hit pass insufficient",
+    "botswana_2026-10": "additional variants requested; initial single-query no-hit pass insufficient"
+  },
+  "batch_1_discovery_status": "four bounded passes reported; formal validation pending",
+  "assignment_reconciliation": {
+    "reason": "Index instructions interpreted inconsistently; literal unit lists now authoritative",
+    "researcher_to_zero_based_country_position": {
+      "afghanistan_october": 0,
+      "algeria_october": 1,
+      "angola_october": 2,
+      "albania_october": 3
+    },
+    "preservation": "Prior evidence retained; research repeats avoided using each researcher reported covered units",
+    "overlap_paths_pending_agent_reports": false,
+    "new_write_roots": "Separate researchers/<agent>/<unit> directories",
+    "recovered_records": {
+      "argentina_2026-10": {
+        "path": "lane-0-only-recovery/argentina_2026-10/discovery-notes.md",
+        "basis": "own session reconstruction",
+        "byte_backup_available": false
+      },
+      "armenia_2026-10": {
+        "path": "researchers/algeria_october/lane-2-only-recovery/armenia_2026-10/discovery-notes-reconstructed.md",
+        "basis": "own session reconstruction; possible omissions",
+        "byte_backup_available": false
+      }
+    }
+  },
+  "canonical_integration_blocker": "Library official helper download failed twice; no local ZIP, checksum/MANIFEST verification or initialization possible",
+  "online_environment_association_verification": {
+    "status": "verified by Chrome per parent report",
+    "independently_verified_in_executor": false
+  },
+  "coordinator_model_verification": {
+    "requested": "gpt-6.1-sol/medium",
+    "status": "verified by Chrome per parent report",
+    "independently_verified_in_executor": false
+  },
+  "online_environment_association_verified": true,
+  "online_environment_association_verification_basis": "parent reports completed Chrome verification; executor independently verified repository path/remote only",
+  "runtime_settings_verified": false,
+  "runtime_settings_reported_verified_by_parent": true,
+  "literal_assignment_validation": {
+    "researcher_units": 156,
+    "initial_batch_units": 4,
+    "unique_total": 160,
+    "duplicate_current_assignments": 0
+  },
+  "reported_lane_covered_counts": {
+    "afghanistan_october": 39,
+    "albania_october": 39,
+    "algeria_october": 39,
+    "angola_october": 39
+  },
+  "reported_bounded_discovery_passes_total": 160,
+  "reported_count_limits": "Researcher scheduling reports; provisional passes, not scientific completion. Prior overlap/recovery retained separately.",
+  "integrity_reconciliation_report": "overlap-reconciliation.json",
+  "integrity_limits": {
+    "collided_units": 3,
+    "missing_exact_predecessor_versions": 2,
+    "preserved_files": 23,
+    "completion_blocked_units": [
+      "argentina_2026-10",
+      "armenia_2026-10",
+      "austria_2026-10"
+    ],
+    "canonical_consolidation_performed": false,
+    "provenance_reconciliation_status": "Separate query/result provenance reconciled; exact predecessor bytes and response gaps remain unresolved"
+  },
+  "isolated_root_operational_check": {
+    "unit_directories_checked": 93,
+    "out_of_assignment_directories": 0,
+    "cross_researcher_unit_directory_duplicates": 0,
+    "basis": "directory names vs explicit scopes only; not scientific validation"
+  },
+  "lane_final_reports": {
+    "afghanistan_october": {
+      "literal_units": 39,
+      "existing_primary_note_paths": 39,
+      "missing": 0,
+      "duplicates": 0,
+      "out_of_scope": 0,
+      "scientific_validation": false
+    },
+    "albania_october": {
+      "literal_units": 39,
+      "existing_primary_note_paths": 39,
+      "missing": 0,
+      "duplicates": 0,
+      "out_of_scope": 0,
+      "scientific_validation": false
+    },
+    "algeria_october": {
+      "literal_units": 39,
+      "existing_primary_note_paths": 39,
+      "missing": 0,
+      "duplicates": 0,
+      "out_of_scope": 0,
+      "scientific_validation": false
+    },
+    "angola_october": {
+      "literal_units": 39,
+      "existing_primary_note_paths": 39,
+      "missing": 0,
+      "duplicates": 0,
+      "out_of_scope": 0,
+      "scientific_validation": false
+    }
+  },
+  "verified_existing_primary_note_paths": 160,
+  "phase": "BOUNDED_DISCOVERY_PASS_SAVED_CANONICAL_KIT_BLOCKED",
+  "research_workers_active": false,
+  "discovery_staging_index": "discovery-staging-index.json",
+  "early_reported_subset": [
+    "afghanistan_2026-10",
+    "albania_2026-10",
+    "algeria_2026-10",
+    "angola_2026-10",
+    "argentina_2026-10",
+    "bahrain_2026-10",
+    "botswana_2026-10",
+    "burundi_2026-10",
+    "armenia_2026-10",
+    "bangladesh_2026-10",
+    "bhutan_2026-10",
+    "brazil_2026-10"
+  ],
+  "reported_pass_limits_status": "Earlier per-pass limits retained as unresolved quality notes; final audit checks paths/counts only"
+}

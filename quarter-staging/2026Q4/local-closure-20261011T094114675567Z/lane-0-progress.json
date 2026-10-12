@@ -1,0 +1,211 @@
+{
+  "lane_index": 0,
+  "scope_start": "2026-10-01",
+  "scope_end": "2026-10-07",
+  "requested_timezone": "America/Mexico_City",
+  "status": "in_progress",
+  "completed_bounded_discovery_passes": [
+    {
+      "unit": "afghanistan_2026-10",
+      "country_label": "Afghanistan",
+      "evidence_path": "afghanistan_2026-10/discovery-notes.md",
+      "candidate_count": 0,
+      "limitations": [
+        "Bounded search; no candidate found is not demonstrated absence."
+      ]
+    },
+    {
+      "unit": "argentina_2026-10",
+      "country_label": "Argentina",
+      "evidence_path": "argentina_2026-10/discovery-notes.md",
+      "candidate_count": 0,
+      "limitations": [
+        "Search hit was an index mismatch; additional sources/variants pending."
+      ]
+    },
+    {
+      "unit": "bahrain_2026-10",
+      "country_label": "Bahrain",
+      "evidence_path": "bahrain_2026-10/discovery-notes.md",
+      "candidate_count": 0,
+      "limitations": [
+        "Five broad/date/local-language/outlet-oriented searches; no candidate hit; Arabic-source coverage and absence remain unverified."
+      ]
+    },
+    {
+      "unit": "botswana_2026-10",
+      "country_label": "Botswana",
+      "evidence_path": "botswana_2026-10/discovery-notes.md",
+      "candidate_count": 0,
+      "limitations": [
+        "Five broad/date/local-language/outlet-oriented searches; no candidate hit; Setswana/local-source coverage and absence remain unverified."
+      ]
+    },
+    {
+      "unit": "burundi_2026-10",
+      "country_label": "Burundi",
+      "evidence_path": "burundi_2026-10/discovery-notes.md",
+      "candidate_count": 0,
+      "limitations": [
+        "Search snippet unverified after opening archive; Kirundi/local variants pending."
+      ]
+    },
+    {
+      "unit": "cape_verde_2026-10",
+      "country_label": "Cape Verde",
+      "evidence_path": "cape_verde_2026-10/discovery-notes.md",
+      "candidate_count": 0,
+      "limitations": [
+        "Three searches; no candidate hit; absence not demonstrated."
+      ]
+    },
+    {
+      "unit": "china_2026-10",
+      "country_label": "China",
+      "evidence_path": "china_2026-10/discovery-notes.md",
+      "candidate_count": 0,
+      "limitations": [
+        "Three searches; reporting and indexing constraints; absence not demonstrated."
+      ]
+    },
+    {
+      "unit": "congo_kinshasa_2026-10",
+      "country_label": "Congo Kinshasa",
+      "evidence_path": "congo_kinshasa_2026-10/discovery-notes.md",
+      "candidate_count": 1,
+      "limitations": [
+        "Candlelight campaign lead is memorial/solidarity, not explicitly protest; separate banned demonstration not verified as held.",
+        "Kongo Média open returned 403."
+      ]
+    },
+    {
+      "unit": "cyprus_2026-10",
+      "country_label": "Cyprus",
+      "evidence_path": "cyprus_2026-10/discovery-notes.md",
+      "candidate_count": 0,
+      "limitations": [
+        "Three searches; no candidate hit; absence not demonstrated."
+      ]
+    },
+    {
+      "unit": "benin_2026-10",
+      "country_label": "Benin",
+      "evidence_path": "benin_2026-10/discovery-notes.md",
+      "candidate_count": 0,
+      "limitations": [
+        "Three French/date/outlet-oriented searches; no candidate; absence not demonstrated."
+      ]
+    }
+  ],
+  "pending_units": [
+    "dominican_republic_2026-10",
+    "equatorial_guinea_2026-10",
+    "finland_2026-10",
+    "georgia_2026-10",
+    "guatemala_2026-10",
+    "haiti_2026-10",
+    "indonesia_2026-10",
+    "italy_2026-10",
+    "jordan_2026-10",
+    "kuwait_2026-10",
+    "lebanon_2026-10",
+    "lithuania_2026-10",
+    "malawi_2026-10",
+    "mauritius_2026-10",
+    "montenegro_2026-10",
+    "namibia_2026-10",
+    "niger_2026-10",
+    "oman_2026-10",
+    "paraguay_2026-10",
+    "portugal_2026-10",
+    "rwanda_2026-10",
+    "sierra_leone_2026-10",
+    "somalia_2026-10",
+    "spain_2026-10",
+    "swaziland_2026-10",
+    "taiwan_2026-10",
+    "timor_leste_2026-10",
+    "turkmenistan_2026-10",
+    "united_kingdom_2026-10",
+    "vietnam_2026-10"
+  ],
+  "candidates": [
+    {
+      "country": "Democratic Republic of the Congo",
+      "unit": "congo_kinshasa_2026-10",
+      "event_date": "2026-10-01 (inferred from Thursday evening and October 2 publication)",
+      "publication_date": "2026-10-02",
+      "description": "Amnesty International candlelight campaign/mobilization in Kinshasa; memorial and solidarity framing, event-definition fit uncertain.",
+      "source_url": "https://buniaactualite.cd/rdc-des-bougies-allumees-a-kinshasa-en-memoire-des-victimes-des-conflits-dans-lest/",
+      "search_ref": "turn38search21",
+      "open_ref": "turn40view0"
+    }
+  ],
+  "failures": [
+    {
+      "unit": "congo_kinshasa_2026-10",
+      "source_url": "https://kongomedia.cd/",
+      "failure": "Managed open returned 403 Forbidden for search-result page; no bypass attempted."
+    }
+  ],
+  "common_limitations": [
+    "Managed web tool does not expose exact per-call UTC timestamps; log shell times immediately before search calls.",
+    "Search results may be incomplete, stale, or mismatch snippets; no-hit is not proof of absence.",
+    "For countries with no candidates, three scoped queries were run: a broad English/local-language query, a date/language variant, and outlet-oriented query; no-hit does not show absence."
+  ],
+  "assigned_units": [
+    "argentina_2026-10",
+    "bahrain_2026-10",
+    "benin_2026-10",
+    "botswana_2026-10",
+    "burundi_2026-10",
+    "cape_verde_2026-10",
+    "china_2026-10",
+    "congo_kinshasa_2026-10",
+    "cyprus_2026-10",
+    "dominican_republic_2026-10",
+    "equatorial_guinea_2026-10",
+    "finland_2026-10",
+    "georgia_2026-10",
+    "guatemala_2026-10",
+    "haiti_2026-10",
+    "indonesia_2026-10",
+    "italy_2026-10",
+    "jordan_2026-10",
+    "kuwait_2026-10",
+    "lebanon_2026-10",
+    "lithuania_2026-10",
+    "malawi_2026-10",
+    "mauritius_2026-10",
+    "montenegro_2026-10",
+    "namibia_2026-10",
+    "niger_2026-10",
+    "oman_2026-10",
+    "paraguay_2026-10",
+    "portugal_2026-10",
+    "rwanda_2026-10",
+    "sierra_leone_2026-10",
+    "somalia_2026-10",
+    "spain_2026-10",
+    "swaziland_2026-10",
+    "taiwan_2026-10",
+    "timor_leste_2026-10",
+    "turkmenistan_2026-10",
+    "united_kingdom_2026-10",
+    "vietnam_2026-10"
+  ],
+  "assigned_unit_count": 39,
+  "processed_assigned_units": [
+    "argentina_2026-10",
+    "bahrain_2026-10",
+    "benin_2026-10",
+    "botswana_2026-10",
+    "burundi_2026-10",
+    "cape_verde_2026-10",
+    "china_2026-10",
+    "congo_kinshasa_2026-10",
+    "cyprus_2026-10"
+  ],
+  "processed_assigned_unit_count": 9,
+  "pending_unit_count": 30
+}
