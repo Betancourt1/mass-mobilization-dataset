@@ -2,6 +2,14 @@
 
 All research threads and optimization stopped and saved on 2026-10-11. Publication is a safety-filtered snapshot of ongoing work with zero official approvals. Event cutoff: 2026-10-07, America/Mexico_City.
 
+## Integrated preservation catalogue (2026-10-12)
+
+The fetched project branches are now catalogued under [`integration/source-branches/`](integration/source-branches/), with their original source commits retained in Git history. [`integration/BRANCH_REGISTER.csv`](integration/BRANCH_REGISTER.csv) records all 20 fetched non-main branch heads and tree IDs. The catalogue copies source trees without deleting or choosing between original versions; exact duplicate contents are indexed by SHA256 in [`integration/inventory/duplicate_evidence_references.csv`](integration/inventory/duplicate_evidence_references.csv).
+
+The reproducible inventory covers 2020Q2–2026Q4: 160 provisional country-month units per full quarter, and 160 units for 2026Q4 (October 1–7 only). It contains 12,640 country-month rows, 27 quarter rows, per-file paths and SHA256 values, saved status observations, unit-level review facts where source reports provide IDs, and separate checkpoint aggregates. Rebuild it with `python integration/scripts/build_inventory.py`; check archived source trees, retained-file manifests and dimensions with `python integration/scripts/verify_integration.py`. See [`integration/INTEGRATION_STATUS.md`](integration/INTEGRATION_STATUS.md) and [`integration/QUARTER_RECOVERY_STATUS.csv`](integration/QUARTER_RECOVERY_STATUS.csv) for scope and blockers.
+
+This is a preservation and indexing integration, not a scientific merge or acceptance decision. Two of the ten declared closure commits are present as exact Git objects; the other eight remain unavailable in this checkout even where a later safe snapshot exists. Local safe-candidate Git objects for 2022Q4, 2025Q4 and 2026Q1 were reported but could not be integrated here; the authorized private 2026Q1 archive remains outside this repository. A missing snapshot or file does not establish that research was not done. First pass, bounded acceptance, current-hash review and official approval remain separate; the saved project reports zero official approvals.
+
 Each annual branch preserves a separate history boundary; this index does not merge candidate datasets or count unfinished pilot work as completed research. First-pass counts describe the original saved work, not the number of complete public dossiers after safety exclusions.
 
 | Branch | Committed first passes | Saved boundary |

@@ -1,0 +1,21 @@
+{
+  "inventory_range": "2020Q2-2026Q4",
+  "provisional_country_universe": 160,
+  "country_month_rows": 12640,
+  "quarter_rows": 27,
+  "full_quarters": 26,
+  "partial_2026Q4_unit_rows": 160,
+  "evidence_manifest_rows": 24847,
+  "unit_status_observations": 2337,
+  "unit_review_facts": 10269,
+  "duplicate_reference_rows": 19471,
+  "unmapped_unit_file_rows": 0,
+  "limitations": [
+    "The 160-country universe is the inherited provisional list; its source CSV says it must be checked against the official current universe.",
+    "Safety-filtered public exports omit private files, raw/search ledgers, and some evidence; no public file observed is not proof of no research.",
+    "First pass, a current-hash review, bounded acceptance, and official completion are distinct states.",
+    "No quarter aggregate has been projected onto units unless the preserved report supplied exact unit IDs.",
+    "All duplicate files and generations remain in their archived source-branch trees; the duplicate index groups by content hash without removing originals.",
+    "2026Q4 includes only 2026-10-01 through 2026-10-07 and 160 country-month IDs."
+  ]
+}
