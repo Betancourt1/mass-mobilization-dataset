@@ -1,0 +1,185 @@
+[
+  {
+    "gap_id": "latvia_2021-01_G001",
+    "type": "coverage",
+    "description": "One Jan. 9 Riga-to-Daugavpils convoy candidate is supported by opened contemporaneous reports but remains pending the 50-person threshold and unit review. Riga Navalny picket and linked Daugavpils action remain excluded for foreign-state target. Bounded searches do not establish absence or exhaustive coverage.",
+    "source_ids": [
+      "latvia_2021-01_S001",
+      "latvia_2021-01_S004",
+      "latvia_2021-01_S007",
+      "latvia_2021-01_S011",
+      "latvia_2021-01_S012",
+      "latvia_2021-01_S015"
+    ],
+    "affected_candidates": [
+      "latvia_2021-01_E001",
+      "latvia_2021-01_X001",
+      "latvia_2021-01_X002"
+    ],
+    "required_followup": "Continue searches in contemporaneous Latvian local/regional news, official event notices and other public records; retain any result as a lead until occurrence, concurrent size and domestic state target are evidenced."
+  },
+  {
+    "gap_id": "latvia_2021-01_G002",
+    "type": "source_access",
+    "description": "Ordinary HTTPS recovered S011 (LZ), S012 (Grani), S015 (Latgales Laiks PDF) and S017 (Jauns), all HTTP 200. Exact S013 Pietiek.info URL returned actual HTTP 403 and was not bypassed; alternate .net preview was not opened. Other outstanding access limits include prior search/cache/DNS failures and the Delfi robots block.",
+    "source_ids": [
+      "latvia_2021-01_S004",
+      "latvia_2021-01_S005",
+      "latvia_2021-01_S006",
+      "latvia_2021-01_S008",
+      "latvia_2021-01_S009",
+      "latvia_2021-01_S010",
+      "latvia_2021-01_S011",
+      "latvia_2021-01_S012",
+      "latvia_2021-01_S013",
+      "latvia_2021-01_S015",
+      "latvia_2021-01_S017",
+      "latvia_2021-01_S020"
+    ],
+    "affected_candidates": [
+      "latvia_2021-01_X002"
+    ],
+    "required_followup": "If a lead depends on a search-only page, use a normal HTTPS retrieval when network access is available and document the actual status and limited reading; respect any actual denial or access control."
+  },
+  {
+    "gap_id": "latvia_2021-01_G003",
+    "type": "source_independence",
+    "description": "LSM/LTV/Latvijas Radio belong to one public-media group. Grani and Jauns/Sputnik convoy stories are closely parallel and Jauns/Sputnik share a reporting stream; LZ Russian S023 is a version from the same outlet as S011. Latgales Laiks S015 has distinct regional reporting. Do not count duplicate/syndicated coverage as independent corroboration.",
+    "source_ids": [
+      "latvia_2021-01_S007",
+      "latvia_2021-01_S011",
+      "latvia_2021-01_S012",
+      "latvia_2021-01_S015",
+      "latvia_2021-01_S017",
+      "latvia_2021-01_S018",
+      "latvia_2021-01_S023"
+    ],
+    "affected_candidates": [
+      "latvia_2021-01_X001"
+    ],
+    "required_followup": "Inspect original bylines/agencies if the excluded action is reconsidered; do not count the search-only items as independent corroboration."
+  },
+  {
+    "gap_id": "latvia_2021-01_G004",
+    "type": "language",
+    "description": "Latvian and Russian broad/weekly terms were searched, but this is not a systematic corpus search; indexing may omit local spellings, regional reporting or other languages.",
+    "source_ids": [
+      "latvia_2021-01_S007"
+    ],
+    "affected_candidates": [
+      "latvia_2021-01_X001",
+      "latvia_2021-01_X002"
+    ],
+    "required_followup": "Continue with regional place-name and issue-specific Latvian/Russian searches and assess relevant local outlets."
+  },
+  {
+    "gap_id": "latvia_2021-01_G005",
+    "type": "baseline",
+    "description": "The latest official event-file bytes/schema/universe and additional Mass Mobilization Coding Procedure remain unresolved in the project baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve the official baseline and missing procedure before compatibility or official approval; worker does not assign official MM IDs."
+  },
+  {
+    "gap_id": "latvia_2021-01_G006",
+    "type": "participants",
+    "description": "The Riga report's estimate of at least 50 and alternative estimate of hundreds counts participants over several hours, while the source says single-person pickets rotated. It does not establish 50 concurrently; the linked Daugavpils action has no verified size.",
+    "source_ids": [
+      "latvia_2021-01_S007",
+      "latvia_2021-01_S010"
+    ],
+    "affected_candidates": [
+      "latvia_2021-01_X001",
+      "latvia_2021-01_X002"
+    ],
+    "required_followup": "If reconsidered, seek a contemporaneous concurrent crowd estimate for Riga and any participant evidence for Daugavpils; do not infer concurrency from cumulative attendance."
+  },
+  {
+    "gap_id": "latvia_2021-01_G007",
+    "type": "state_target",
+    "description": "For both solidarity actions, the opened report frames the demand around Navalny/Russian protestors and the Russian embassy; it reports no demand to the Latvian government or its policy. The Daugavpils full text remains unavailable in this pass.",
+    "source_ids": [
+      "latvia_2021-01_S007",
+      "latvia_2021-01_S010"
+    ],
+    "affected_candidates": [
+      "latvia_2021-01_X001",
+      "latvia_2021-01_X002"
+    ],
+    "required_followup": "Keep excluded unless contemporaneous evidence identifies a separate Latvia-directed demand or a separate qualifying episode."
+  },
+  {
+    "gap_id": "latvia_2021-01_G008",
+    "type": "source_access occurrence dates location",
+    "description": "Opened LZ, Grani, Latgales Laiks and Jauns sources support a Jan. 9 Riga-to-Daugavpils drive and destination gathering. Grani and Latgales Laiks place intervention under Jēkabpils; Pietiek preview mentioned Rumbula, but exact .info URL returned HTTP403. Latgales Laiks issue dated Jan. 12 has a page-1 lede “9 December.” Preserve route and date conflicts; route and unit boundaries remain open.",
+    "source_ids": [
+      "latvia_2021-01_S011",
+      "latvia_2021-01_S012",
+      "latvia_2021-01_S013",
+      "latvia_2021-01_S015",
+      "latvia_2021-01_S017"
+    ],
+    "affected_candidates": [
+      "latvia_2021-01_E001"
+    ],
+    "required_followup": "Seek independently reported route/date evidence and determine whether convoy and destination gathering are one coding unit; do not treat blocked-page preview as opened evidence."
+  },
+  {
+    "gap_id": "latvia_2021-01_G009",
+    "type": "participants",
+    "description": "No person count or evidence of 50 concurrent public participants was found in the opened Jan. 9 convoy reports. “Only part” reached Daugavpils; vehicles, detentions and a photo do not establish threshold.",
+    "source_ids": [
+      "latvia_2021-01_S011",
+      "latvia_2021-01_S012",
+      "latvia_2021-01_S015",
+      "latvia_2021-01_S017"
+    ],
+    "affected_candidates": [
+      "latvia_2021-01_E001"
+    ],
+    "required_followup": "Find a contemporaneous actual-person estimate and concurrency evidence. Keep numeric participant fields null until supported; do not infer persons from cars, police stops or detentions."
+  },
+  {
+    "gap_id": "latvia_2021-01_G010",
+    "type": "state_target event_unit state_response",
+    "description": "Opened reports frame the drive as opposition to COVID restrictions, compulsory vaccination and school-mask rules. Funeral-procession wording about Viņķele does not by itself establish a removal demand. LZ says some people were taken to a station; Grani/Latgales Laiks say police stopped cars and barred some from continuing. Whether action targeted an assembly rather than traffic remains under review.",
+    "source_ids": [
+      "latvia_2021-01_S011",
+      "latvia_2021-01_S012",
+      "latvia_2021-01_S015"
+    ],
+    "affected_candidates": [
+      "latvia_2021-01_E001"
+    ],
+    "required_followup": "Preserve source attribution. Seek evidence of any separate demand and clarify whether police acted to impede an assembly. Do not infer force or wider outcomes."
+  },
+  {
+    "gap_id": "latvia_2021-01_G011",
+    "type": "date_conflict",
+    "description": "Latgales Laiks issue no. 3 (3128), dated Jan. 12, has a page-1 lede visibly reading “9 December.” LZ Jan. 12 says a Jan. 8 invitation was for the preceding Saturday; Jan. 11 reports describe the preceding drive. Current Jan. 9 coding follows contemporaneous contexts but preserves the printed conflict.",
+    "source_ids": [
+      "latvia_2021-01_S011",
+      "latvia_2021-01_S012",
+      "latvia_2021-01_S015"
+    ],
+    "affected_candidates": [
+      "latvia_2021-01_E001"
+    ],
+    "required_followup": "Seek an independent dated record or source clarification; do not silently change the printed date or assert an apparent error as fact."
+  },
+  {
+    "gap_id": "latvia_2021-01_G012",
+    "type": "event_unit_continuity",
+    "description": "Dec. 12, Dec. 19 and Dec. 26 reports describe separate dated drives; Jan. 9 is a further dated action in a recurring campaign. Riga–Jēkabpils–Daugavpils route, local gathering and campaign label do not automatically establish one continuous event or multiple events.",
+    "source_ids": [
+      "latvia_2021-01_S012",
+      "latvia_2021-01_S015",
+      "latvia_2021-01_S017",
+      "latvia_2021-01_S022"
+    ],
+    "affected_candidates": [
+      "latvia_2021-01_E001"
+    ],
+    "required_followup": "Review route, stop and destination gathering as a coding-unit question; keep dated actions separate absent evidence of continuity or a supported split."
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "participants",
+    "description": "Neither opened February 8 report (S001, S004) gives attendance. The two opened February 10 reports (Balkanweb S012 and Albania Daily News S013) also give no count; S012 mentions tractors but no people count. Euronews S009 says thousands for February 20 but gives no exact estimate or independent corroboration.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "albania_2024-02_E001",
+      "albania_2024-02_E002",
+      "albania_2024-02_E003"
+    ],
+    "required_followup": "Establish attendance from independent attributed sources for Feb 8 and Feb 10; seek the basis/corroboration for the Feb 20 estimate. Distinguish event attendance from affected population and campaign totals."
+  },
+  {
+    "gap_id": "G002",
+    "type": "episode_boundary",
+    "description": "The February 8 notice describes further farmer protests through February and a planned March culmination. The February 10 Devoll action may relate, but organizers, coordination, shared demands and later execution remain unresolved. The February 20 rally is a discrete opposition event whose relationship to prior parliamentary disruptions needs examination.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "albania_2024-02_E001",
+      "albania_2024-02_E002",
+      "albania_2024-02_E003"
+    ],
+    "required_followup": "Search before and after each date, verify organizers and shared demands; assign monthly ownership to episode start and retain unresolved links without merging."
+  },
+  {
+    "gap_id": "G003",
+    "type": "source_access",
+    "description": "Five unique February URLs have body reads (S001, S004, S009, S012, S013). Three exact-URL opens (Lapsi S002, AP S008 and Ora News S006) returned inaccessible via this tool and were not retried. Five cards remain unopened (S003, S005, S007, S010, S011); S003 is the same exact Balkanweb URL as February S004 and March S003. S012/S013 were opened after fresh stable gates, contemporaneous manual reviews and narrow coordinator relevance triage. S012/S013 and S006 differ in Devoll grievance emphasis; origin and same-action relation remain unresolved.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "albania_2024-02_E001",
+      "albania_2024-02_E002",
+      "albania_2024-02_E003"
+    ],
+    "required_followup": "Do not retry inaccessible URLs. Review remaining exact URLs only as needed, with fresh per-URL receipts and contemporaneous publisher/origin notes. Resolve origin/syndication among Feb 8 reports and the Devoll action framing; seek independent turnout evidence."
+  },
+  {
+    "gap_id": "G004",
+    "type": "coverage",
+    "description": "English and Albanian broad/month and weekly-window discovery returned considerable date leakage. Search was not a systematic sweep of all Albanian regional outlets, languages, official records or sectors.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue week-by-week and sector/location searches including public services, workers, education, transport, environment, farmers, government/official sources and regional Albanian media."
+  }
+]

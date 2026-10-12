@@ -1,0 +1,24 @@
+Uruguay, January 2021
+Status: researched_open_web_pending_review. This is an open-web research result awaiting coordinator review, not an official dataset update or independent human double-coding.
+
+Scope and method
+The unit covers January 1–31, with boundary searches into December 2020 and February 2021. The log contains 36 Spanish- and English-language queries and 871 ordered result headers. Searches used weekly January windows (1–7, 8–14, 15–21, 22–31), national and local terms, Montevideo and interior department clusters, and labor, education, health, transport, wage, rural, construction, finance, and pandemic-policy themes. Targeted follow-ups examined Un Solo Uruguay, SUNCA, and adjacent-month leads.
+
+Open-web searching is not equivalent to LexisNexis or a systematic review of national and departmental newspaper archives. Query and result counts do not establish complete coverage. Portuguese-language border sources were not systematically searched. The official baseline and supplementary Coding Procedure remain pending.
+
+Findings
+No reviewed source confirms a January physical public gathering meeting the dataset threshold and domestic state or policy target. events.json is therefore empty. This is a limit of the evidence reviewed, not a claim that Uruguay had no protests in January. continuations.json is empty because no pre-January physical gathering was verified as continuing into this unit.
+
+The one explicit exclusion is X001: the January 23 Un Solo Uruguay anniversary action described in S239. Mate Amargo, dated January 25, reports the preceding Saturday as a virtual media mobilization involving a proclamation and discussion; the passage does not report a physical venue, attendee count, or audience size. San José Ahora S233 had reported preparations for a virtual January 23 action, not its execution. S233's URL slug says January 11 while the visible page date is January 12; both are preserved, and neither is substituted for the action date. X001 excludes only the described virtual action. It does not rule out a separate physical gathering or another event that the searches did not find.
+
+El Telégrafo S235 has a search-result title about a virtual USU assembly, but the body was not accessed: after a web-reader Cache miss, one exact ordinary HTTPS request returned HTTP 403, no redirects, and no body was read. No retry, mirror, copied page, or further article-body request at that publisher was made. The title does not independently establish details of X001 or a physical event.
+
+The local Río Negro lead S178 remains search-only: its title suggests residents mobilized, but the page returned a Cache miss, with no verified publication date, occurrence, attendance, or demand. S104 is a January 19 report title announcing a February SUNCA mobilization; its body was not accessed, and a worker-sector figure is not protest turnout. Neither lead is assigned as a January event. The Cache misses for S104 and S178 are tool failures, not publisher denials.
+
+Temporal controls and access
+Reviewed off-month controls include May 11 UTU reporting (S003), an April 13 cacerolazo (S008), an August 2020 FENAPES action (S128), December 2021 banking actions whose January dates refer to 2022 (S175), a March 2021 AEBU stoppage (S195), and a March 24 ANCAP strike report explicitly originating with EFE (S240). S242 is an August 2018 PIT-CNT strike page, a false temporal match. These were not coded as January 2021 events. El País S133 displays a subscribers-only gate on a March 2021 tourism story; its body was not used.
+
+The 269 source cards comprise 9 opened, 2 blocked, and 258 search-only records. Search headers preserve actual URL and reference order. Obvious body snippets, OCR fragments, mastheads, generic section labels, page markers, and metadata are recorded as null titles with specific capture limitations rather than rewritten into invented titles. Brief exact search-provider phrases are retained once per source as discovery_title when available; the two longer provider artifacts are omitted and explicitly noted. No raw article bodies are stored.
+
+Remaining work and limits
+Review remains open for the official baseline, archive coverage, regional and Portuguese-language sources, the undated Río Negro lead, and evidence of physical attendance. The eight gaps document baseline, search method, language, regional coverage, participants, access limits, and temporal continuity. No official IDs, final inclusion decisions, or absence value have been assigned.

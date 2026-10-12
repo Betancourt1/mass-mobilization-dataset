@@ -1,0 +1,125 @@
+[
+  {
+    "gap_id": "AFG202403-G001",
+    "type": "archive_access",
+    "description": "Bodies for Al Jazeera, WE News and the retrospective Afghan Witness report were reviewed. The first two repeat a Purple Saturdays account; Afghan Witness adds investigative coverage but was published after Q1 and its underlying video and cited media reports were not independently inspected. There is no systematic archive-equivalent search, and comprehensive open-web coverage or independent event-level confirmation is not established.",
+    "source_ids": [
+      "AFG202403-S001",
+      "AFG202403-S009",
+      "AFG202403-S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue date- and location-bounded searches and verify relevant independent source bodies after fresh per-attempt gate and manual review; preserve inaccessible archive gaps and verify underlying evidence only through fresh source-specific checks."
+  },
+  {
+    "gap_id": "AFG202403-G002",
+    "type": "search_method",
+    "description": "Search result ordering/date filters are unreliable and returned substantial older, future-dated, diaspora, conflict and unrelated material; absence of in-window hits is not evidence no protest occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review exact publication/event dates from permitted source bodies and broaden local outlet/weekly/sector searches."
+  },
+  {
+    "gap_id": "AFG202403-G003",
+    "type": "language_coverage",
+    "description": "Discovery included English, Dari and Pashto queries, but search-engine indexing and script/term coverage are incomplete; no local-language articles were opened or translated from bodies.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue Dari/Pashto variants and local/regional outlets after access gate; add other locally relevant languages where indicated."
+  },
+  {
+    "gap_id": "AFG202403-G004",
+    "type": "continuity",
+    "description": "The two March 8 press reports anchor the Takhar/Balkh actions to that date and mention a separate Mazar-i-Sharif event on Thursday. The April 10 Afghan Witness retrospective says IWD online activity began March 1 and describes March 8 actions, but does not establish street-action onset before March, continuation after March, or movement continuity across month boundaries.",
+    "source_ids": [
+      "AFG202403-S001",
+      "AFG202403-S009",
+      "AFG202403-S010"
+    ],
+    "affected_candidates": [
+      "afghanistan_2024-03_E002"
+    ],
+    "required_followup": "Search adjacent months and use further permitted source bodies to establish whether these local actions were isolated, connected or part of a continuing episode; do not count the February duplicate as a February event."
+  },
+  {
+    "gap_id": "AFG202403-G005",
+    "type": "public_threshold",
+    "description": "Al Jazeera and WE News describe the Takhar/Balkh actions in private settings, giving seven in Takhar and “several/a few” in Balkh; WE News reports no public protests by Friday afternoon. The separate Mazar event had about 20. The April Afghan Witness report retrospectively records indoor actions reportedly in Kabul, Takhar and Balkh and one outdoor Taloqan march, but gives no attendance totals or public-access conditions. Its Taloqan clip shows no other people or cars, which does not establish participant count. No source establishes an individual gathering of 50 or more.",
+    "source_ids": [
+      "AFG202403-S001",
+      "AFG202403-S002",
+      "AFG202403-S003",
+      "AFG202403-S004",
+      "AFG202403-S005",
+      "AFG202403-S006",
+      "AFG202403-S007",
+      "AFG202403-S008",
+      "AFG202403-S009",
+      "AFG202403-S010"
+    ],
+    "affected_candidates": [
+      "afghanistan_2024-03_E002"
+    ],
+    "required_followup": "Seek independent event-specific evidence for each gathering’s attendance and venue/access conditions, including geolocation and count for the Taloqan video; keep Mazar separate unless evidence links it to a qualifying protest."
+  },
+  {
+    "gap_id": "AFG202403-G006",
+    "type": "source_independence",
+    "description": "Al Jazeera and WE News attribute the activist account to Purple Saturdays and repeat similar Takhar/Balkh details, so they are not independent event confirmation. The April Afghan Witness report is a separate investigative publication and reports its own monitoring of videos and ten movements, but its linked footage and cited media reports were not inspected; the Taloqan location attribution and underlying evidence remain unverified.",
+    "source_ids": [
+      "AFG202403-S001",
+      "AFG202403-S002",
+      "AFG202403-S003",
+      "AFG202403-S004",
+      "AFG202403-S005",
+      "AFG202403-S006",
+      "AFG202403-S007",
+      "AFG202403-S008",
+      "AFG202403-S009",
+      "AFG202403-S010"
+    ],
+    "affected_candidates": [
+      "afghanistan_2024-03_E002"
+    ],
+    "required_followup": "Compare further permitted bodies and independently inspect relevant underlying sources only after fresh source-specific gate/manual review; do not infer event-level independence from different domains or organizational labels."
+  },
+  {
+    "gap_id": "AFG202403-G007",
+    "type": "capture_retention",
+    "description": "Full formatted search response text was not saved during tool calls and is no longer accessible through a supported tool. The durable log retains parsed displayed title/URL/citation-token headers only, with native result metadata and clocks null; exact output snippets are unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat current records as parsed rendered-output captures, not native event_msg captures. Do not reconstruct old snippets. If later searches are authorized, retain the exact available output string privately with a SHA-256 manifest and disclose any unavailable metadata."
+  },
+  {
+    "gap_id": "AFG202403-G008",
+    "type": "capture_retention",
+    "description": "One additional genuine March boundary search was invoked after rendered-capture approval, but its exact tool return and invocation were not preserved before the execution context ended. It is not included in the durable query log and no output was reconstructed or repeated.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat the invocation as uncaptured discovery only. Continue any further searches only when the exact returned string and invocation can be preserved immediately through the approved helper."
+  },
+  {
+    "gap_id": "AFG202403-G009",
+    "type": "capture_projection",
+    "description": "For query AFG202403-Q015 the exact returned string was saved as a JSON-encoded string, so the approved helper parsed zero headers. The preserved value can be decoded losslessly and inspected, but native metadata remains unavailable and the returned_results projection is incomplete. Q016 and Q017 were captured as raw strings with helper-generated header projections.",
+    "source_ids": [
+      "AFG202403-S007",
+      "AFG202403-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Treat Q015 title/snippet extraction as rendered discovery only. Preserve the exact result string directly for future searches and do not infer completeness from the zero-header projection."
+  },
+  {
+    "gap_id": "AFG202403-G010",
+    "type": "location_verification",
+    "description": "The April Afghan Witness report says its video of the 8 March outdoor march could not be geolocated; attribution to Taloqan relies on media reports cited in that report. The embedded video and linked media coverage were not separately opened.",
+    "source_ids": [
+      "AFG202403-S010"
+    ],
+    "affected_candidates": [
+      "afghanistan_2024-03_E002"
+    ],
+    "required_followup": "After fresh exact-URL access gate and manual origin review, seek independent geolocation or source reporting for the video and verify the reported Taloqan location."
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "unit_id": "djibouti_2021-02",
+  "country": "Djibouti",
+  "month": "2021-02",
+  "agent_task": "/root/djibouti_2021_02_batch56",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T09:00:00Z",
+  "finished_at": "2026-10-10T09:37:23Z",
+  "n_queries": 12,
+  "n_sources": 8,
+  "n_candidates": 1,
+  "n_excluded": 4,
+  "n_continuations": 0,
+  "n_gaps": 11,
+  "coverage_assessment": "Bounded English, French, Arabic and Somali open-web first pass with 12 actual batched search invocations and 274 ordered result headers; provider totals unavailable. Search coverage included broad and weekly windows, local and official sources, rights organizations, sectoral and regional terms, episode detail and January-to-February boundaries. Eight relevant source cards are recorded: 1 current-unit body opens; 1 prior-unit-only consultation; 7 search_only cards. One candidate remains pending_evidence, four exclusions and no verified continuation are recorded with 11 gaps. Open-web results are not exhaustive and do not establish that no protest occurred.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 1,
+    "search_only_cards": 7,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_query_count": 12,
+    "captured_header_count": 274,
+    "query_ids": [
+      "DJI202102_Q001",
+      "DJI202102_Q002",
+      "DJI202102_Q003",
+      "DJI202102_Q004",
+      "DJI202102_Q005",
+      "DJI202102_Q006",
+      "DJI202102_Q007",
+      "DJI202102_Q008",
+      "DJI202102_Q009",
+      "DJI202102_Q010",
+      "DJI202102_Q011",
+      "DJI202102_Q012"
+    ],
+    "ordered_exact_headers_preserved": true,
+    "provider_total_counts_available": false
+  },
+  "source_read_scope": {
+    "current_unit_body_reads": 1,
+    "prior_unit_only_consultations": 1,
+    "body_read_source_ids": [
+      "DJI202102_S001"
+    ],
+    "prior_consultation_source_ids": [
+      "DJI202102_S004"
+    ],
+    "note": "The current-unit body read supports an exclusion. S004's prior-unit body review supplies January boundary context only."
+  },
+  "s003_access_outcome": {
+    "source_id": "DJI202102_S003",
+    "body_request_made": true,
+    "response_ref": "turn930view0",
+    "outcome": "technical_cache_miss_without_body_or_http_status",
+    "retry_attempted": false,
+    "access_status_remains": "search_only"
+  },
+  "review_status": "not_independently_reviewed",
+  "human_approved": false,
+  "temporary_processes_started": [],
+  "temporary_processes_remaining": [],
+  "timestamp_note": "started_at is the initialized dossier timestamp. finished_at records the dossier completion checkpoint; all commands and retrieval calls were foreground and completed. No server, browser automation, container, watcher or background resource was started."
+}

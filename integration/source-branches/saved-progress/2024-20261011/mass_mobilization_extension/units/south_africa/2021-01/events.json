@@ -1,0 +1,1350 @@
+[
+  {
+    "candidate_id": "SA2101-E001",
+    "country": "South Africa",
+    "ccode": "560",
+    "unit_month": "2021-01",
+    "title": "Beach-closure protests in Cape Town and Plettenberg Bay",
+    "start_date": "2021-01-30",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Reported gatherings at Muizenberg, Blouberg and Camps Bay; separate groups reported at Fish Hoek; locals gathered at Central Beach, Plettenberg Bay. Other advertised locations, including Port Elizabeth, remain unverified.",
+    "scope": "Multi-site protest campaign against national beach closures; the cross-site episode relation is not yet resolved.",
+    "organizer": "Reports name #EndLockdownSA, Woke Nation, SAUV, W.A.M., #SCAMDEMIC and other groups; organizer roles differed or remain unclear by site.",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Muizenberg only: police estimated about 200; organizer estimated 400–500; IOL reported almost 200. “Hundreds across the Western Cape” is not an aggregate total.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The Muizenberg gathering exceeded 50 by a wide margin: police placed it at about 200 and the organizer at 400–500. Estimates conflict and apply to that site only; no locations are summed.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "eligibility": "pending_unit",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "SA2101-BEACH-CLOSURE-CAMPAIGN-POSSIBLE",
+    "notes": "The immediate demand was reopening beaches and opposition to national COVID-19 restrictions. At Muizenberg police warned and attempted to remove the crowd; TimesLIVE reports retreat while IOL/News24 carry a police account of peaceful removal. The only identified arrest was at Central Beach, Plettenberg Bay, reportedly following an altercation involving mask rules. Beaches reopened from 2 February, but sources do not attribute that decision to the protest; the City/Western Cape had requested reopening the prior week.",
+    "open_questions": [
+      "Are Cape Town and Plettenberg Bay part of one coordinated episode or distinct local events?",
+      "Was the advertised Port Elizabeth action held?",
+      "Did the 6 February Fish Hoek action begin a separate episode or continue the beach campaign?",
+      "When did each January crowd physically disperse?",
+      "What was the state response at each location?"
+    ],
+    "source_ids": [
+      "SA2101-S017",
+      "SA2101-S019",
+      "SA2101-S020",
+      "SA2101-S021",
+      "SA2101-S022",
+      "SA2101-S023",
+      "SA2101-S032",
+      "SA2101-S033",
+      "SA2101-S034"
+    ],
+    "field_evidence": {
+      "country": {
+        "source_ids": [
+          "SA2101-S017"
+        ],
+        "summary": "The City of Cape Town statement identifies the planned action as within South Africa."
+      },
+      "start_date": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023"
+        ],
+        "summary": "Contemporary reports identify Saturday 30 January 2021 as the day of protest; exact start date is established."
+      },
+      "start_precision": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023"
+        ],
+        "summary": "Several contemporary sources state the date as 30 January."
+      },
+      "end_date": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S021",
+          "SA2101-S023",
+          "SA2101-S033",
+          "SA2101-S034"
+        ],
+        "summary": "Reports document action on 30 January but do not establish when each crowd physically dispersed. A related Fish Hoek action occurred on 6 February, but whether it is a new episode is unresolved; no end date is inferred."
+      },
+      "end_precision": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S021",
+          "SA2101-S023",
+          "SA2101-S033",
+          "SA2101-S034"
+        ],
+        "summary": "Physical cessation is not reported; end date and precision remain unknown."
+      },
+      "location": {
+        "source_ids": [
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023",
+          "SA2101-S033"
+        ],
+        "summary": "Actual reports name Muizenberg, Blouberg, Camps Bay and Fish Hoek in Cape Town and Central Beach in Plettenberg Bay. Port Elizabeth was advertised/earmarked but no actual attendance there was verified."
+      },
+      "scope": {
+        "source_ids": [
+          "SA2101-S020",
+          "SA2101-S021",
+          "SA2101-S023",
+          "SA2101-S033",
+          "SA2101-S034"
+        ],
+        "summary": "Reports describe a coordinated beach-closure campaign across multiple sites, but they do not establish one episode across every location or the relation among all organizing groups. This composite remains pending unit review."
+      },
+      "organizer": {
+        "source_ids": [
+          "SA2101-S021",
+          "SA2101-S023",
+          "SA2101-S033",
+          "SA2101-S034"
+        ],
+        "summary": "Reports name #EndLockdownSA, Woke Nation, SAUV, W.A.M. and other groups. Exact roles by site are unclear; W.A.M. is explicitly tied to a later follow-up action."
+      },
+      "demands": {
+        "source_ids": [
+          "SA2101-S017",
+          "SA2101-S019",
+          "SA2101-S020",
+          "SA2101-S033"
+        ],
+        "summary": "Protesters opposed government beach closures and adjusted Level 3 restrictions; a Muizenberg protester described closure as an infringement on movement and basic rights. City and SABC sources identify the closure as a national regulation."
+      },
+      "participants_original": {
+        "source_ids": [
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023",
+          "SA2101-S033"
+        ],
+        "summary": "At Muizenberg only: police estimate about 200, organizer estimate 400–500, and IOL says almost 200. IOL’s “hundreds” across the Western Cape is not a combined count; site counts are not summed."
+      },
+      "participants_min": {
+        "source_ids": [
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S033"
+        ],
+        "summary": "No campaign-wide numerical lower bound is assigned because reports concern different sites and estimates conflict. The Muizenberg crowd alone was reported as about 200 by police and almost 200 by IOL."
+      },
+      "participants_max": {
+        "source_ids": [
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S033"
+        ],
+        "summary": "No campaign-wide numerical upper bound is reported; the organizer estimate of 400–500 applies to Muizenberg, not all sites."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S033"
+        ],
+        "summary": "The Muizenberg gathering exceeded 50 by a wide margin: police placed it at about 200 and the organizer at 400–500. These conflicting estimates concern one site and are not added to other locations."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023",
+          "SA2101-S033"
+        ],
+        "summary": "The opened 30 January reports do not establish violence by protesters. A separate February 6 incident is not attributed to this January action; absence is not inferred."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "SA2101-S017",
+          "SA2101-S020",
+          "SA2101-S032"
+        ],
+        "summary": "The City supported reopening before the event and wrote to national government the previous week; beaches reopened from 2 February. Sources do not link the policy change to this protest or report a post-event reception of its demands, so response remains unknown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "SA2101-S021",
+          "SA2101-S023"
+        ],
+        "summary": "A protester was arrested at Central Beach in Plettenberg Bay after an altercation reportedly related to mask wearing. This is site-specific and is not generalized to the Cape Town gatherings."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023"
+        ],
+        "summary": "No opened report establishes state beatings during the January action; unknown rather than inferred absent."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023"
+        ],
+        "summary": "At Muizenberg, police issued a warning and attempted to move/clear the crowd. TimesLIVE reports police retreated; IOL/News24 report peaceful removal. The attempted dispersal is coded, but whether it succeeded is contested."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023",
+          "SA2101-S033"
+        ],
+        "summary": "The reports do not establish that authorities explicitly refused or avoided the protesters’ demands. An EFF allegation about policing is not treated as verified state refusal."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023"
+        ],
+        "summary": "No killing attributable to state force in this January action is reported; unknown, not inferred absent."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023"
+        ],
+        "summary": "No firearm shooting is established. Reports refer to police equipment and stun grenades, which are not coded as firearm shootings."
+      },
+      "eligibility": {
+        "source_ids": [
+          "SA2101-S020",
+          "SA2101-S021",
+          "SA2101-S023",
+          "SA2101-S033",
+          "SA2101-S034"
+        ],
+        "summary": "A qualifying crowd and domestic policy demand are established at Muizenberg, but cross-site campaign boundaries and local episode ownership remain unresolved; pending unit review."
+      },
+      "coding_status": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S021",
+          "SA2101-S022"
+        ],
+        "summary": "Provisional researcher record only; no official ID or independent approval."
+      },
+      "episode_key": {
+        "source_ids": [
+          "SA2101-S020",
+          "SA2101-S021",
+          "SA2101-S023",
+          "SA2101-S033",
+          "SA2101-S034"
+        ],
+        "summary": "Tentative key for the beach-closure campaign; equality does not authorize automatic merging."
+      },
+      "notes": {
+        "source_ids": [
+          "SA2101-S019",
+          "SA2101-S020",
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023",
+          "SA2101-S032",
+          "SA2101-S033",
+          "SA2101-S034"
+        ],
+        "summary": "The 2 February reopening is documented, but the City and Western Cape had requested it before the protest, and no source attributes it to protest pressure. The February 6 Fish Hoek action is a related later lead, not presumed continuous."
+      },
+      "open_questions": {
+        "source_ids": [
+          "SA2101-S020",
+          "SA2101-S021",
+          "SA2101-S022",
+          "SA2101-S023",
+          "SA2101-S033",
+          "SA2101-S034"
+        ],
+        "summary": "Resolve which sites formed one episode, whether the February 6 W.A.M. action is a separate episode or campaign continuation, physical dispersal/end at each site, actual Port Elizabeth occurrence, and exact state response."
+      },
+      "title": {
+        "source_ids": [
+          "SA2101-S021",
+          "SA2101-S023"
+        ],
+        "summary": "The title summarizes contemporary reports of the 30 January beach-closure protests."
+      }
+    }
+  },
+  {
+    "candidate_id": "SA2101-E002",
+    "country": "South Africa",
+    "ccode": "560",
+    "unit_month": "2021-01",
+    "title": "Durban surfers protest against the government beach ban",
+    "start_date": "2021-01-27",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Durban coast; exact beach not reported.",
+    "scope": "Single local action by a group of surfers; no link to other beach-ban actions is established.",
+    "organizer": "Unknown; SABC identifies only a group of Durban surfers.",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "A group of Durban surfers; no count reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No count or qualifying estimate is reported; the 50-person threshold is unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "SA2101-DURBAN-BEACH-BAN",
+    "notes": "Police reportedly ordered the surfers off the beach and arrested them; they were later released with a warning. The source reports no firearm shooting or beating.",
+    "open_questions": [
+      "How many surfers participated?",
+      "What was the exact beach and organizer?",
+      "Is this action linked to the 30 January Cape Town/Garden Route actions?"
+    ],
+    "source_ids": [
+      "SA2101-S041"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "SABC states the protest took place on Wednesday and the article is dated 28 January 2021, giving 27 January."
+      },
+      "start_precision": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "The weekday and contemporaneous article date establish 27 January."
+      },
+      "end_date": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "The report says police ordered surfers off and later released them with warnings, but gives no precise physical end; no end date is assigned."
+      },
+      "end_precision": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "Physical cessation time is unknown."
+      },
+      "location": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "SABC identifies Durban and the ocean/beach context but gives no exact beach."
+      },
+      "scope": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "SABC reports a single group of Durban surfers; no link to the later Cape Town/Garden Route campaign is established."
+      },
+      "organizer": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "No organizer is named; the source identifies only a group of Durban surfers."
+      },
+      "demands": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "SABC says they protested against the government beach ban."
+      },
+      "participants_original": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "The only group description is “a group of Durban surfers”; no number is reported."
+      },
+      "participants_min": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "No numerical count or threshold-relevant estimate is reported."
+      },
+      "participants_max": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "No numerical count or threshold-relevant estimate is reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "The source gives no count; a qualifying 50-person gathering cannot be established."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "The source describes an arrest and police order but does not establish violence by protesters."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "The report describes police enforcement and warning, not a state response accommodating the demand."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "SABC explicitly reports that police arrested the surfers and later released them with a warning."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "No state beating is reported."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "Police ordered the surfers off the beach; this is an attempted dispersal mechanism, without an explicit account of its immediate effect."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "No explicit refusal or avoidance of the demand is reported."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "No killing is reported."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "No firearm shooting is reported."
+      },
+      "eligibility": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "A state-policy demand and physical action are reported, but the group size is unknown; pending threshold."
+      },
+      "coding_status": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "Provisional researcher record only; no official ID or independent approval."
+      },
+      "episode_key": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "Tentative separate Durban key; no evidence supports merging it with other beach actions."
+      },
+      "notes": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "The stated action began on 27 January. No force beyond police order and arrest is reported."
+      },
+      "open_questions": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "Obtain crowd size, exact beach, named organizer and whether other sources link it to the 30 January beach protests."
+      },
+      "title": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "The title reflects SABC reporting of the Durban surfers action against the government beach ban."
+      },
+      "country": {
+        "source_ids": [
+          "SA2101-S041"
+        ],
+        "summary": "The report locates the action within South Africa."
+      }
+    }
+  },
+  {
+    "candidate_id": "SA2101-E003",
+    "country": "South Africa",
+    "ccode": "560",
+    "unit_month": "2021-01",
+    "title": "KaBokweni youth road blockade over traffic-official recruitment",
+    "start_date": "2021-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "KaBokweni, Mpumalanga; exact road unknown.",
+    "scope": "Local road blockade by unemployed youth.",
+    "organizer": "Unknown; the source does not identify an organizer.",
+    "demands": [
+      "political_behavior_process",
+      "removal_of_politician"
+    ],
+    "participants_original": "A group of unemployed youth; no count reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The report confirms a road blockade but gives no crowd count or estimate; the 50-person threshold is unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "SA2101-KABOKWENI-TRAFFIC-RECRUITMENT",
+    "notes": "SABC calls the protest violent in its headline, but its article body reports a blockade and demands without describing violence. The Premier’s nullification of appointments was announced on 13 January before the protest report, so it is not coded as a response to this action.",
+    "open_questions": [
+      "What exact day did the blockade occur?",
+      "How many people participated?",
+      "What road was blocked and when did the action physically end?",
+      "Who organized it?"
+    ],
+    "source_ids": [
+      "SA2101-S038",
+      "SA2101-S039"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "The SABC reports the action in a contemporaneous article dated 15 January but does not state the day the road blockade occurred; month is the highest supported precision."
+      },
+      "start_precision": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "Exact day is not stated; only January is known from the contemporaneous report."
+      },
+      "end_date": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "No physical ending or departure is reported."
+      },
+      "end_precision": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "Physical end is unknown."
+      },
+      "location": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "SABC identifies KaBokweni in Mpumalanga and says a road was blockaded; exact road is not named."
+      },
+      "scope": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "Report describes a local action by unemployed youth, not a wider campaign."
+      },
+      "organizer": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "No organizer is named. The EFF filing a criminal case is mentioned separately and does not establish that it organized the road blockade."
+      },
+      "demands": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "Reported demands were removal of the MEC and HOD, fair recruitment for nursing college candidates, and conversion of the disused Elijah Mango College into an FET college."
+      },
+      "participants_original": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "SABC says “a group of unemployed youth”; no number is given."
+      },
+      "participants_min": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "No numerical crowd count is reported."
+      },
+      "participants_max": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "No numerical crowd count is reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "A road blockade is reported but crowd size is not; 50-person threshold is unresolved."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "The article headline labels the protest violent, but the body does not describe a violent act by protesters; no violence is coded from the headline alone."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "SA2101-S038",
+          "SA2101-S039"
+        ],
+        "summary": "The appointment cancellation and investigation were announced before the protest report; no source establishes a post-protest response to the youth’s demands."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "No arrests in response to the gathering are reported."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "No beating is reported."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "No police order, warning or other attempt to disperse is described."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "No explicit refusal or avoidance of the youth’s demands is reported."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "No killing is reported."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "No firearm shooting is reported."
+      },
+      "eligibility": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "The report establishes a public road blockade and domestic state-targeted demands, but no participant count; pending threshold."
+      },
+      "coding_status": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "Provisional researcher record only; no official ID or independent approval."
+      },
+      "episode_key": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "Tentative local-action key; no cross-site continuation identified."
+      },
+      "notes": {
+        "source_ids": [
+          "SA2101-S038",
+          "SA2101-S039"
+        ],
+        "summary": "The Premier nullified the 1,700 learner-traffic-official appointments on 13 January, before this protest report; this is not coded as a protest response."
+      },
+      "open_questions": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "Find exact action date, crowd count, exact road, organizer, physical end and any response after the blockade."
+      },
+      "title": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "The title summarizes SABC reporting of the KaBokweni road blockade and recruitment demands."
+      },
+      "country": {
+        "source_ids": [
+          "SA2101-S038"
+        ],
+        "summary": "The report locates the action within South Africa."
+      }
+    }
+  },
+  {
+    "candidate_id": "SA2101-E004",
+    "country": "South Africa",
+    "ccode": "560",
+    "unit_month": "2021-01",
+    "title": "Humansdorp matric markers stop work over transport compensation and PPE",
+    "start_date": "2021-01-11",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Humansdorp matric-marking centre, Eastern Cape.",
+    "scope": "Work stoppage at one marking centre.",
+    "organizer": "Unclear; a SADTU committee member was quoted but the union is not identified as organizer.",
+    "demands": [
+      "labor_wage_dispute",
+      "social_restrictions"
+    ],
+    "participants_original": "Markers stopped marking for two days; no number is reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No participant count or public gathering is reported; eligibility threshold remains unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "yes",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "SA2101-HUMANSDORP-MARKER-TRANSPORT-PPE",
+    "notes": "The department disputed the blanket transport rate and said PPE was provided. A departmental team met the union while the dispute remained unresolved. The report establishes a workplace stoppage, not a public gathering.",
+    "open_questions": [
+      "Was there a public assembly of 50 or more?",
+      "When did work resume and when did the physical action end?",
+      "Is this related to the later Covid-safety stoppages at Humansdorp and other centres?"
+    ],
+    "source_ids": [
+      "SA2101-S042"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "The Herald article dated Wednesday 13 January says no marking occurred Monday and Tuesday; those calendar dates are 11 and 12 January."
+      },
+      "start_precision": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "The report’s Monday/Tuesday description and 13 January publication date establish 11 January as the first day."
+      },
+      "end_date": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "The article says marking was halted for two days but does not establish when the action or meeting physically ended; no physical end is assigned."
+      },
+      "end_precision": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "The work stoppage is described as two days, but physical event cessation is not directly observed."
+      },
+      "location": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "The report identifies the Humansdorp matric-marking centre."
+      },
+      "scope": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "A workplace marking-centre stoppage; no other site is linked to this action."
+      },
+      "organizer": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "Markers stopped work; a SADTU committee member is quoted, but the article does not say the union organized the stoppage."
+      },
+      "demands": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "Markers disputed transport-compensation rates and alleged insufficient PPE."
+      },
+      "participants_original": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "Disgruntled markers stopped marking; no number is reported."
+      },
+      "participants_min": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "No number of workers or public assembly size is provided."
+      },
+      "participants_max": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "No number of workers or public assembly size is provided."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "The source confirms a work stoppage, but gives no participant count and describes no public gathering; the public-gathering threshold is unresolved."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "No protester violence is reported."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "The provincial department delegated a team to meet the markers and was in a meeting with the union; the parties remained deadlocked. Engagement is recorded without implying agreement."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "No arrests are reported."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "No beatings are reported."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "No crowd or dispersal attempt is reported."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "Officials were in a meeting with the union, so explicit refusal/avoidance is not established."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "No state killing is reported."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "No shooting is reported."
+      },
+      "eligibility": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "A public-service employer conflict and a work stoppage are reported, but a qualifying public gathering and participant threshold are not; pending evidence."
+      },
+      "coding_status": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "Provisional researcher record only; no official ID or independent approval."
+      },
+      "episode_key": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "Tentative key for the Humansdorp transport/PPE stoppage; relation to later COVID-related marker actions is unresolved."
+      },
+      "notes": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "The issue concerned a provincial government education department; it was not a private-employer dispute. No work-force count is treated as a public crowd count."
+      },
+      "open_questions": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "Find participant count, whether markers assembled publicly or only stopped work inside the centre, whether and when marking resumed, and relation to later marker protests."
+      },
+      "title": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "The title summarizes The Herald report of the Humansdorp exam-marking stoppage and its stated disputes."
+      },
+      "country": {
+        "source_ids": [
+          "SA2101-S042"
+        ],
+        "summary": "The report locates the action within South Africa."
+      }
+    }
+  },
+  {
+    "candidate_id": "SA2101-E005",
+    "country": "South Africa",
+    "ccode": "560",
+    "unit_month": "2021-01",
+    "title": "Eastern Cape matric markers stop work over COVID-positive staff at marking centres",
+    "start_date": "2021-01-14",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Humansdorp, OR Tambo and Stutterheim matric-marking centres, Eastern Cape.",
+    "scope": "Reported work stoppages at three centres on 14–16 January; whether they are one multi-site event or separate local stoppages remains open.",
+    "organizer": "Unknown; Naptosa is quoted but not identified as the organizer.",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "151 markers at Stutterheim High School downed tools; no count is reported for Humansdorp or OR Tambo.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The report counts 151 markers who downed tools at Stutterheim, but does not describe a public gathering. This is not treated as a crowd estimate; the public-gathering threshold remains unresolved.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "yes",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "SA2101-EC-MARKER-COVID-SAFETY-POSSIBLE",
+    "notes": "The union said positive markers had been removed; the Department said nearly 300 people, including markers and support staff, who tested positive were sent home. This does not count as public turnout and does not establish causality.",
+    "open_questions": [
+      "Were at least 50 people assembled publicly?",
+      "Were the three work stoppages one event or separate local actions?",
+      "Was the Jan11–12 Humansdorp transport/PPE stoppage continuous or a separate episode?",
+      "When did the physical actions end?"
+    ],
+    "source_ids": [
+      "SA2101-S040",
+      "SA2101-S043"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "News24 dated 18 January says Humansdorp and OR Tambo protests took place Thursday 14 January; this is the earliest stated day in this sequence."
+      },
+      "start_precision": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "The report names Thursday 14 January for the first two sites."
+      },
+      "end_date": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "The latest described action was Saturday 16 January at Stutterheim, but the report does not establish physical cessation; no end date is assigned."
+      },
+      "end_precision": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "Physical end is unknown."
+      },
+      "location": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "News24 names marking centres in Humansdorp, OR Tambo and Stutterheim."
+      },
+      "scope": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "The report describes protests at three marking centres over the same concern about COVID-positive markers; cross-site episode status remains pending."
+      },
+      "organizer": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "Naptosa’s CEO is quoted but not identified as organizer; no organizer is established."
+      },
+      "demands": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "The reported grievance was the education department’s alleged refusal to remove markers who tested positive for COVID-19; the category is social restrictions/safety policy."
+      },
+      "participants_original": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "151 examination markers at Stutterheim High School downed tools; the other centres have no reported count."
+      },
+      "participants_min": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "The 151 figure describes workers who downed tools, not a public-crowd estimate; no numerical public-gathering lower bound is assigned."
+      },
+      "participants_max": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "No campaign-wide count or maximum is reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "Although 151 markers are reported to have stopped work at Stutterheim, the source does not say they gathered publicly. The 50-person public-gathering threshold is unresolved."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "No protester violence is reported."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "SA2101-S040",
+          "SA2101-S043"
+        ],
+        "summary": "The department said nearly 300 people who tested positive were sent home, and a union representative said affected markers had since been removed. This aligns with the stated grievance; causation is not claimed."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "No arrests are reported."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "No beatings are reported."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "No police dispersal attempt is reported."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "The report describes removal of affected markers but does not describe explicit state refusal or avoidance."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "SA2101-S043"
+        ],
+        "summary": "The government briefing mentions a COVID-related death at a different marking centre in Estcourt; it is not attributed to protest or state force and is not coded as a killing response."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "No firearm shooting is reported."
+      },
+      "eligibility": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "A state-employer work stoppage over COVID safety is reported at three centres, but no public gathering is established and the 151 workers cannot be treated as a crowd count; pending evidence."
+      },
+      "coding_status": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "Provisional researcher record only; no official ID or independent approval."
+      },
+      "episode_key": {
+        "source_ids": [
+          "SA2101-S040",
+          "SA2101-S042"
+        ],
+        "summary": "Tentative key for the Covid-marker sequence, separate from the earlier Humansdorp transport/PPE stoppage pending evidence about continuity."
+      },
+      "notes": {
+        "source_ids": [
+          "SA2101-S040",
+          "SA2101-S043"
+        ],
+        "summary": "The Department’s January 11 briefing described marker withdrawals due to health concerns but not protest. This separate later stoppage is reported as a response to Covid-positive markers remaining at sites."
+      },
+      "open_questions": {
+        "source_ids": [
+          "SA2101-S040",
+          "SA2101-S042"
+        ],
+        "summary": "Did any workers form a public assembly/picket rather than stop work inside marking centres? Were the protests at three sites one coordinated action? Is the Jan11–12 Humansdorp stoppage related to this later sequence?"
+      },
+      "title": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "The title summarizes the News24 report of COVID-safety marker stoppages at Eastern Cape centres."
+      },
+      "country": {
+        "source_ids": [
+          "SA2101-S040"
+        ],
+        "summary": "The report locates the action within South Africa."
+      }
+    }
+  },
+  {
+    "candidate_id": "SA2101-E006",
+    "country": "South Africa",
+    "ccode": "560",
+    "unit_month": "2021-01",
+    "title": "Zamdela electricity-related road blockade",
+    "start_date": null,
+    "start_precision": "unknown",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Zamdela, Sasolburg, Free State; exact road unknown.",
+    "scope": "Reported local public protest and road blockade against lack of local services, primarily electricity; event year is unverified.",
+    "organizer": "Unknown; the report does not identify an organizer.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "A larger group of community members; no count reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The report says a larger group was involved but supplies no numerical estimate or qualitative scale sufficient to establish 50 people.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "SA2101-ZAMDELA-ELECTRICITY",
+    "notes": "TimesLIVE reported in October 2021 that a midnight protest on January 1 at Zamdela, Sasolburg was electricity-related and involved a road blockade with burning tyres. The report does not state the year of the protest, so no January 2021 date is assigned. It reports two participants later convicted, but gives no crowd size or exact arrest date.",
+    "open_questions": [
+      "Was the protest on 1 January 2021, or another year?",
+      "How many people attended?",
+      "Who organized the action and which road was blockaded?",
+      "When did the gathering physically end?",
+      "Were there other state responses to this protest?"
+    ],
+    "source_ids": [
+      "SA2101-S044"
+    ],
+    "field_evidence": {
+      "country": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "The report locates the action in Zamdela, Sasolburg, South Africa."
+      },
+      "start_date": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "The report identifies a midnight action on January 1 but does not state its year; the date is withheld rather than inferred from the report's October 2021 publication date."
+      },
+      "start_precision": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "Month and day are reported, but without a year no valid ISO event date or precision can be assigned."
+      },
+      "end_date": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "The report does not say when the blockade or gathering physically ended."
+      },
+      "end_precision": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "Physical end is unknown."
+      },
+      "location": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "The report names Zamdela, Sasolburg, and a road blockade; it does not identify the road."
+      },
+      "scope": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "A local action by community members is reported; no broader campaign or continuity is established."
+      },
+      "organizer": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "No organizer is named."
+      },
+      "demands": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "The report characterizes the protest as against lack of services, primarily electricity. The category is broad governance/policy; no more specific category or formal addressee is established."
+      },
+      "participants_original": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "The report says a larger group was involved, without a numerical estimate."
+      },
+      "participants_min": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "No number or numerical lower bound is reported."
+      },
+      "participants_max": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "No number or numerical upper bound is reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "The phrase “larger group” does not establish 50 participants; threshold remains unresolved."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "Road blockade and burning tyres are reported, but no violence against people or other event-specific violence is described."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "No government reception or accommodation of demands is reported."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "The retrospective reports two participants later convicted and quotes police saying two suspects were arrested, but it does not date arrests to the gathering; arrests as a response at the event remain unknown."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "No state beating in response to this protest is reported."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "No state attempt to disperse the gathering is reported."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "The article does not report an explicit state refusal or avoidance of the demand."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "No killing in response to this protest is reported."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "No firearm shooting in response to this protest is reported."
+      },
+      "eligibility": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "An electricity-related public protest is reported, but the protest year and whether 50 or more people attended are unresolved; pending evidence."
+      },
+      "coding_status": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "Provisional researcher record only; no official identifier or independent approval."
+      },
+      "episode_key": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "Tentative local Zamdela electricity/service-delivery action key; date and episode boundary remain unresolved."
+      },
+      "notes": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "The article is retrospective and dates publication to October 2021; it says only “January 1” for the protest. Do not treat this as January 2021 until the event year is verified. It does not establish participant count, physical end, or a continuous relation to another event."
+      },
+      "open_questions": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "Verify event year, date, participant count, organizer, exact road, physical end, and any additional state response."
+      },
+      "title": {
+        "source_ids": [
+          "SA2101-S044"
+        ],
+        "summary": "The title summarizes the retrospective report of the electricity-related Zamdela road blockade."
+      }
+    }
+  }
+]

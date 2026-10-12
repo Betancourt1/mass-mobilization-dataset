@@ -1,0 +1,79 @@
+[
+  {
+    "gap_id": "MOROCCO_2021-02-G001",
+    "type": "event_threshold",
+    "description": "The CNDH body confirms a 5 February Fnideq gathering but gives no attendance. The reviewed material does not establish whether this local episode reached 50; prosecution counts and annual regional demonstration totals are not crowd counts.",
+    "source_ids": [
+      "MOROCCO_2021-02-S021"
+    ],
+    "affected_candidates": [
+      "morocco_2021-02-E001"
+    ],
+    "required_followup": "Keep E001 pending_threshold. Seek event-specific attendance reporting if a fresh exact-source gate can be satisfied; do not pool nearby Fnideq weeks or regional totals."
+  },
+  {
+    "gap_id": "MOROCCO_2021-02-G002",
+    "type": "event_threshold",
+    "description": "The Rabat 20 February article says “dozens of activists,” without an exact count or bounded range. The ≥50 threshold is unresolved, and the exact demands of those present are not stated; broader demands in a separate association statement are not attributed to the crowd.",
+    "source_ids": [
+      "MOROCCO_2021-02-S004"
+    ],
+    "affected_candidates": [
+      "morocco_2021-02-E003"
+    ],
+    "required_followup": "Keep this Rabat episode pending_threshold and separate from other 20 February city leads. Seek event-specific attendance and onsite-demand evidence."
+  },
+  {
+    "gap_id": "MOROCCO_2021-02-G003",
+    "type": "source_access",
+    "description": "The exact Al-Intifada Beni Mellal URL returned a technical cache miss on one authorized open attempt. No HTTP status or article body was observed. This remains an unresolved search-only lead, not evidence of publisher denial or of no gathering.",
+    "source_ids": [
+      "MOROCCO_2021-02-S039"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry this chain, use a mirror or infer a denial. A separately authorized fresh exact-URL chain may be considered only if ordinary research continues and its full current source/review gates pass."
+  },
+  {
+    "gap_id": "MOROCCO_2021-02-G004",
+    "type": "event_verification",
+    "description": "Search-only Fnideq leads describe a third weekly action around 19 February and a fourth-week action around 26 February. Their bodies were not read in this first pass; their attendance, local demands, episode boundaries and state response are unverified. They remain separate from the 5 and 12 February gatherings.",
+    "source_ids": [
+      "MOROCCO_2021-02-S014",
+      "MOROCCO_2021-02-S015",
+      "MOROCCO_2021-02-S026"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If followed up, review the exact pages individually under fresh gates and code each date separately. Do not infer continuity or combine crowd counts across Fridays."
+  },
+  {
+    "gap_id": "MOROCCO_2021-02-G005",
+    "type": "event_verification",
+    "description": "The Hespress search-result title signals a Social Front protest lead in Zaio that was prevented, but the page body was not opened and the retained header provides no date or attendance. No candidate is coded from the title alone.",
+    "source_ids": [
+      "MOROCCO_2021-02-S042"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the exact source body if authorized and establish the date, whether people assembled, site, attendance and response before considering a separate Zaio candidate."
+  },
+  {
+    "gap_id": "MOROCCO_2021-02-G006",
+    "type": "event_verification",
+    "description": "The Khenifra Social Front source S023 remains search-only. A communiqué/repost lead and search-result coverage are insufficient here to establish an actual February 20 gathering, attendees, turnout or onsite demands. Keep it separate from Rabat and other anniversary episodes.",
+    "source_ids": [
+      "MOROCCO_2021-02-S023"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the exact source and seek event-specific reporting before creating a Khenifra candidate; do not treat planned activity or a national movement anniversary as proof of a local gathering."
+  },
+  {
+    "gap_id": "MOROCCO_2021-02-G007",
+    "type": "event_verification",
+    "description": "Driouch has distinct search-only union leads (UMT S035 and ANFASPRESS S043). Searches also surfaced a planned February 27 sit-in tied to the local hospital, but first-pass evidence does not confirm that the announced action occurred or establish turnout. The leads are not assumed to describe one episode.",
+    "source_ids": [
+      "MOROCCO_2021-02-S035",
+      "MOROCCO_2021-02-S043"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If followed up, open the exact source bodies separately and distinguish the health-minister-visit protest from any planned hospital-related sit-in; verify occurrence/date, location and attendance before coding."
+  }
+]

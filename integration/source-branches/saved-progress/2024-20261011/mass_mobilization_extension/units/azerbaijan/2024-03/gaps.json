@@ -1,0 +1,105 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "Open-web discovery cannot replicate LexisNexis All News. Search output has rendered rather than native result metadata; zero parsed headers do not establish absence. Broad and month/week searches are still pending.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search Azerbaijani, Russian, and English sources, then targeted follow-up and neighboring-month continuity searches."
+  },
+  {
+    "gap_id": "G002",
+    "type": "baseline",
+    "description": "Current official dataset version/universe and contribution terms remain unverified; this is a provisional research extension.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator baseline gate; do not assign official identifiers."
+  },
+  {
+    "gap_id": "G003",
+    "type": "threshold",
+    "description": "Neither opened Zerkalo/Turan nor JAMnews report gives a participant count. JAMnews quotes an organizer saying police prevented a larger number from attending without quantifying it. Equal Times’ search-only excerpt appears to estimate roughly 20, but its body remains unread and the figure is not verified.",
+    "source_ids": [
+      "AZ2403_S001",
+      "AZ2403_S002",
+      "AZ2403_S011"
+    ],
+    "affected_candidates": [
+      "AZ2403_E001"
+    ],
+    "required_followup": "Independent source with a verifiable numeric attendance estimate; no more access retries for the deferred Equal Times URL in this pass."
+  },
+  {
+    "gap_id": "G004",
+    "type": "access",
+    "description": "Exact Equal Times URL https://www.equaltimes.org/azerbaijan-s-crackdown-on-the returned defer on two metadata-only checks during concurrent ledger changes. No body request or alternative URL was used.",
+    "source_ids": [
+      "AZ2403_S002"
+    ],
+    "affected_candidates": [
+      "AZ2403_E001"
+    ],
+    "required_followup": "Retain URL-specific gap; do not retry in this pass."
+  },
+  {
+    "gap_id": "G005",
+    "type": "access",
+    "description": "Exact Sozcu URL https://sozcu.info/olk/18081-feministlr-bakda-aksiya-kecirdi.html returned defer on two metadata-only checks during concurrent ledger changes. Search snippet does not establish event date or size; no body request or alternative URL was used.",
+    "source_ids": [
+      "AZ2403_S003"
+    ],
+    "affected_candidates": [
+      "AZ2403_E001"
+    ],
+    "required_followup": "Retain URL-specific gap; do not retry in this pass."
+  },
+  {
+    "gap_id": "G006",
+    "type": "access",
+    "description": "Freedom House Nations in Transit 2024 exact URL returned defer on two metadata-only checks during concurrent ledger changes. Search-result lead was not body-verified; do not infer denial or access permission.",
+    "source_ids": [
+      "AZ2403_S004"
+    ],
+    "affected_candidates": [
+      "AZ2403_E001"
+    ],
+    "required_followup": "Retain URL-specific gap; do not retry in this pass."
+  },
+  {
+    "gap_id": "G007",
+    "type": "access",
+    "description": "Human Rights Watch is held by a known publisher-wide observed 403 documented in the current source-control records. No HRW body or alternate URL was requested. Its “March in Saatli” search lead is a 2023 event boundary, not evidence for 2024.",
+    "source_ids": [
+      "AZ2403_S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not request HRW pages; use independently originated sources only."
+  },
+  {
+    "gap_id": "G008",
+    "type": "continuity",
+    "description": "Saatli water-shortage road protest surfaced with March 2023 dates in three search-result snippets. It is outside the quarter and no continuation into 2024 was found; snippets only, not body-verified.",
+    "source_ids": [
+      "AZ2403_S008",
+      "AZ2403_S009",
+      "AZ2403_S010"
+    ],
+    "affected_candidates": [
+      "AZ2403_X001"
+    ],
+    "required_followup": "No 2024 continuation coded; a 2023 unit would need its own authorized review."
+  },
+  {
+    "gap_id": "G009",
+    "type": "source_origin",
+    "description": "Zerkalo’s opened account credits Turan, but no exact Turan story URL was identified. JAMnews provides a separate publisher’s opened account, though no explicit origin attribution establishes whether it is independently sourced; neither report gives a numeric count.",
+    "source_ids": [
+      "AZ2403_S001",
+      "AZ2403_S011"
+    ],
+    "affected_candidates": [
+      "AZ2403_E001"
+    ],
+    "required_followup": "Retain attribution uncertainty; seek a genuinely independent contemporaneous numeric attendance estimate without inferring URLs from agency credits."
+  }
+]

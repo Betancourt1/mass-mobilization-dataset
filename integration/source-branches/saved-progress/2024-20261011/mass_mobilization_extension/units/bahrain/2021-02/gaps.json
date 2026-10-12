@@ -1,0 +1,104 @@
+[
+  {
+    "gap_id": "BHR21FEB-G01",
+    "type": "threshold",
+    "description": "S001 gives qualitative “small/sparse” wording but no numerical attendance; whether any gathering reached 50 remains unknown.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-02-E001"
+    ],
+    "required_followup": "Seek body-accessible contemporaneous reporting with explicit attendance or sufficiently clear evidence for each individual gathering."
+  },
+  {
+    "gap_id": "BHR21FEB-G02",
+    "type": "state_target_demand",
+    "description": "The opened report does not establish a specific demand directed to the Bahrain government, or identify an organizer for the February 2021 gatherings. Anniversary framing alone is insufficient.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-02-E001"
+    ],
+    "required_followup": "Review a permitted full source that describes the actual 2021 gathering and its stated demands/organizer; keep calls and announcements separate from execution."
+  },
+  {
+    "gap_id": "BHR21FEB-G03",
+    "type": "event_unit_location",
+    "description": "S001 reports demonstrations in multiple localities, identifies al-Shakhoura and al-Diyya in images, and mentions Abu Saiba only in an attributed social post. It does not supply a full venue list or establish whether these were separate or coordinated gatherings.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-02-E001"
+    ],
+    "required_followup": "Find contemporaneous locality-level accounts; do not code a physical Abu Saiba gathering from the social post alone and do not merge or split events without evidence."
+  },
+  {
+    "gap_id": "BHR21FEB-G04",
+    "type": "ending_and_response",
+    "description": "No physical end time/date is documented. All seven state-response dimensions and protester violence remain unknown; reported security context does not identify an event-specific action.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-02-E001"
+    ],
+    "required_followup": "Find event-linked reporting of physical ending and each response dimension; leave silence as unknown."
+  },
+  {
+    "gap_id": "BHR21FEB-G05",
+    "type": "continuity",
+    "description": "No physical continuity is established from the January 15 anti-normalization candidate into February, or from the February anniversary gatherings into March. January dossier metadata was consulted and a targeted Jan–Feb boundary search was captured as Q042; neither establishes the same physical episode.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-02-E001"
+    ],
+    "required_followup": "Keep the month boundary open unless event-specific evidence shows physical continuation through dates, locations and participants; shared political context is insufficient."
+  },
+  {
+    "gap_id": "BHR21FEB-G06",
+    "type": "access_language",
+    "description": "S003, S006 and S007 remain unread after reader/HTTPS technical failures; these are not denials. S004 is on hold because a saved prescreen snapshot explicitly matched New Arab publisher cards on newarab.com; its receipt also records a separate alaraby.co.uk 403, not an exact-target denial. No S004 body request was made.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "bahrain_2021-02-E001"
+    ],
+    "required_followup": "Preserve the S004 hold and all exact receipts; do not request a body while held. Seek other permitted full-text evidence and keep technical failures distinct from access denials."
+  },
+  {
+    "gap_id": "BHR21FEB-G07",
+    "type": "coverage",
+    "description": "Completed first-pass coverage comprises 47 saved query records and 956 ordered result headers, including four captured empty responses. Searches covered English and Arabic general discovery, four weekly ranges, locality and regional searches, sector leads, anniversary details, and month-boundary follow-through. This open-web first pass is non-exhaustive and not LexisNexis-equivalent; it cannot resolve the remaining attendance, state-directed demand, organizer, episode-boundary, response, or lead-verification gaps recorded elsewhere. No discovery is not evidence of no event.",
+    "source_ids": [],
+    "affected_candidates": [
+      "bahrain_2021-02-E001"
+    ],
+    "required_followup": "Resolve the remaining factual and source-specific gaps recorded in G01-G06 and G08 using event-specific evidence when available. Keep the completed first-pass search scope and limits explicit; do not interpret no discovery as evidence that no event occurred."
+  },
+  {
+    "gap_id": "BHR21FEB-G08",
+    "type": "lead_resolution",
+    "description": "Prison, labor, arrest and aggregated rights leads (S006, S008-S014) do not currently establish additional eligible February public events.",
+    "source_ids": [
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Resolve only where body-accessible evidence establishes a public assembly, date, attendance threshold and domestic state-directed demand."
+  }
+]

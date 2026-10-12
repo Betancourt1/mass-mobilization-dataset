@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "Open-web discovery cannot replicate LexisNexis All News. Search output has rendered rather than native result metadata; zero parsed headers do not establish absence. Broad and month/week searches are still pending.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search Azerbaijani, Russian, and English sources, then targeted follow-up and neighboring-month continuity searches."
+  },
+  {
+    "gap_id": "G002",
+    "type": "baseline",
+    "description": "Current official dataset version/universe and contribution terms remain unverified; this is a provisional research extension.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator baseline gate; do not assign official identifiers."
+  },
+  {
+    "gap_id": "G003",
+    "type": "coverage",
+    "description": "Eight English, Azerbaijani and Russian queries around the Feb. 7 presidential election, labor and wages found election reporting but no verified public protest gathering in the assigned month. No-event conclusion is not established.",
+    "source_ids": [
+      "AZ2402_S001",
+      "AZ2402_S002",
+      "AZ2402_S003",
+      "AZ2402_S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Independent source and language review, including regional media and weekly windows."
+  },
+  {
+    "gap_id": "G004",
+    "type": "election_scope",
+    "description": "Search results describe an opposition boycott and a low-competition campaign, but do not document a public anti-government gathering. Election participation/campaign activity cannot be coded as a protest without evidence of a qualifying gathering and state-targeted demand.",
+    "source_ids": [
+      "AZ2402_S001",
+      "AZ2402_S002",
+      "AZ2402_S003",
+      "AZ2402_S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review contemporaneous reports of any public gatherings if new evidence appears."
+  }
+]

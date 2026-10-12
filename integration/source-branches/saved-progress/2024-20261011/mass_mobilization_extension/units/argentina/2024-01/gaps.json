@@ -1,0 +1,42 @@
+[
+  {
+    "gap_id": "AR2401-G001",
+    "type": "baseline",
+    "description": "Official latest Mass Mobilization version, current universe/schema, and cutoff linkage remain unverified; use only provisional 2015 manual and keep candidates pending official baseline.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator verifies official dataset version, universe, schema and baseline correspondence."
+  },
+  {
+    "gap_id": "AR2401-G002",
+    "type": "search_method",
+    "description": "Open-web search results are rendered summaries, not equivalent to the historical LexisNexis newspaper search; native search metadata (native result order/refs/counts/clocks) is unavailable. Two early query responses for January were not captured to files after a capture-helper setup failure; they are disclosed as lost capture gaps and are not reconstructed or repeated for provenance.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent review the retained rendered-output files for parser omissions; maintain query/search-method coverage limits."
+  },
+  {
+    "gap_id": "AR2401-G003",
+    "type": "source_access",
+    "description": "AR2401-S002 was opened, but its freshness deviation makes the retained body unusable as coded evidence. The January 24 lead therefore remains pending evidence; no event facts/threshold/inclusion are supported by it. Other source cards remain search-only.",
+    "source_ids": [
+      "AR2401-S002"
+    ],
+    "affected_candidates": [
+      "AR2401-E001"
+    ],
+    "required_followup": "Independent reviewer may seek a distinct, current exact URL with a fresh gate after stable ledger scan, or leave the candidate pending; never repeat AR2401-S002 solely to repair history."
+  },
+  {
+    "gap_id": "AR2401-G004",
+    "type": "source_access",
+    "description": "Protocol deviation for AR2401-S002 (Reuters exact URL https://www.reuters.com/world/americas/argentina-labor-union-holds-strike-biggest-challenge-yet-milei-2024-01-24/): stable receipt sessions/2024/access_receipts/access-e1d6617d9c074886b6ea831a3b52cd4c.json (manifest SHA-256 7febb26a28254c91b3aac6c18299c2bc90b2e1f9060a2d30c44ffb99edafa17a) was generated, then the manual review was written into sources.jsonl before body request, changing a scanned input. No known hold/observed denial was present in the saved receipt; that is separate from the freshness violation. The exact open (turn274view0) is retained for provenance only and is unusable for event fact coding. No repeat request will be made to repair provenance.",
+    "source_ids": [
+      "AR2401-S002"
+    ],
+    "affected_candidates": [
+      "AR2401-E001"
+    ],
+    "required_followup": "Reviewer assess the receipt/input chronology and retain this limitation in any later disposition."
+  }
+]

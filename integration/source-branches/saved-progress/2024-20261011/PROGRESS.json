@@ -1,0 +1,59 @@
+{
+  "year": "2024",
+  "state": "STOPPED_SAVED",
+  "cutoff": "2026-10-07",
+  "event_timezone": "America/Mexico_City",
+  "official_approvals": 0,
+  "source_revision": "1cd61fa625306e5fbb8928c61e3639c19b2cd835",
+  "source_stop_checkpoint_sha256": "f0ee49d69094447d3dd34f07bac671708fb4fb3b0d69768b398839183002524c",
+  "committed_first_pass_units": 36,
+  "provisional_year_scope": 1920,
+  "boundary": "36 committed/postverified units. Three Bhutan units registered in uncommitted state (39 registered total); Benin scoped approval not registered; Bosnia final review incomplete; Bolivia unreviewed with receipt consistency unresolved.",
+  "export_status": "PUBLICATION_SAFETY_FILTERED_SNAPSHOT; some dossier files omitted; no scientific re-review or consolidation",
+  "history_status": "fresh parentless export; original local Git history retained and not pushed",
+  "retained_safe_source_files": 1856,
+  "omission_reasons": [
+    {
+      "reason": "ambiguous_token_url_parameter",
+      "count": 1
+    },
+    {
+      "reason": "contact_or_personal_identifier_pattern",
+      "count": 42
+    },
+    {
+      "reason": "credential_pattern",
+      "count": 7
+    },
+    {
+      "reason": "legacy_original_source_prose",
+      "count": 1
+    },
+    {
+      "reason": "literal_runtime_path",
+      "count": 5
+    },
+    {
+      "reason": "local_workstation_or_runtime_path",
+      "count": 82
+    },
+    {
+      "reason": "outside_safe_allowlist",
+      "count": 959
+    },
+    {
+      "reason": "raw_or_excerpt_field",
+      "count": 33
+    },
+    {
+      "reason": "source_or_search_ledger_ambiguous_raw_payload",
+      "count": 497
+    },
+    {
+      "reason": "unparseable_structured_file",
+      "count": 1
+    }
+  ],
+  "omission_count_scope": "Counts cover enumerated candidate paths only; protected directories were pruned without opening and are additionally excluded.",
+  "source_search_ledger_policy": "All source and search ledgers omitted: raw result/body text can appear under misleading title or label keys. Local originals retained."
+}

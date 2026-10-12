@@ -1,0 +1,68 @@
+[
+  {
+    "gap_id": "armenia_2024-01_G001",
+    "type": "source_access",
+    "description": "The January 9 NEWS.am discovery page could not be body-verified: web-tool open returned Internal Error without HTTP status; one ordinary request to the exact URL failed at DNS before HTTP. Neither is an observed denial.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "armenia_2024-01_E001"
+    ],
+    "required_followup": "After a fresh stable access check and manual review, retry only the same public URL if ordinary DNS becomes available; otherwise retain the gap."
+  },
+  {
+    "gap_id": "armenia_2024-01_G002",
+    "type": "participants",
+    "description": "The result describes a group of teachers but no numeric attendance or qualitative scale sufficient to establish the 50-person threshold.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "armenia_2024-01_E001"
+    ],
+    "required_followup": "Find contemporaneous coverage, images with defensible crowd assessment, or organizer/official reporting of participants; do not infer from employment totals."
+  },
+  {
+    "gap_id": "armenia_2024-01_G003",
+    "type": "episode_unit",
+    "description": "The search-only report says teachers also gathered outside the ministry on 25 December 2023. It does not establish whether the January 9 action is a discrete event or belongs to an episode beginning in December.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "armenia_2024-01_E001"
+    ],
+    "required_followup": "Check December 2023 coverage and continuity; assign onset month only after distinguishing a renewed discrete action from a continuing episode."
+  },
+  {
+    "gap_id": "armenia_2024-01_G004",
+    "type": "coverage",
+    "description": "Twelve recorded queries covered generic and date-window English searches, Armenian and Russian terms, one regional/sector query, and a local outlet search. Results were dominated by later April–June protests and date relevance was poor. This is not evidence that no other January gatherings occurred.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "armenia_2024-01_E001"
+    ],
+    "required_followup": "Continue targeted local reporting and archives across education, refugee, labor, municipal, and regional issues; compare with broader news archives if available."
+  },
+  {
+    "gap_id": "armenia_2024-01_G005",
+    "type": "search_method",
+    "description": "Open web search does not reproduce the original LexisNexis newspaper search. Native search refs/order/counts/clocks are unavailable; exact rendered output and exact invocation were preserved. Local Armenian-language coverage remains uneven.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Record this method limitation in any later review; do not interpret empty queries or low relevance as absence."
+  },
+  {
+    "gap_id": "armenia_2024-01_G006",
+    "type": "date_and_event_identity",
+    "description": "A captured NEWS.am result headline says forcibly displaced Nagorno-Karabakh residents were protesting in Yerevan, but has no event date or substantive excerpt. It is registered as an undated lead only; January occurrence and event identity are unknown.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use only contemporaneous dated evidence to determine whether this lead concerns an in-scope January gathering; do not infer from the URL, other refugee coverage, or later events."
+  }
+]

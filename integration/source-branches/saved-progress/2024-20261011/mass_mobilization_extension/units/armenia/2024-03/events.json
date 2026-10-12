@@ -1,0 +1,139 @@
+[
+  {
+    "candidate_id": "armenia_2024-03_E001",
+    "country": "Armenia",
+    "ccode": "371",
+    "unit_month": "2024-03",
+    "title": "Nagorno-Karabakh refugees rally for expanded government aid and return guarantees",
+    "start_date": "2024-03-20",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Liberty Square, Yerevan",
+    "scope": "local",
+    "organizer": "Karabakh civic organizations and public figures; the article says they emphasized the rally’s nonpartisan character",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Hundreds of refugees from Nagorno-Karabakh",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "A contemporaneous Azatutyun/RFE-RL article directly reports hundreds of refugees demonstrating in Yerevan. This is clear qualitative evidence above 50; no exact count is assigned.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Contemporaneous report calls this a rally by Karabakh refugees in Yerevan."
+      },
+      "start_date": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Article and image caption date the gathering to Wednesday, 20 March 2024."
+      },
+      "end_date": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The article describes a rally on 20 March but does not establish its physical end; end date unknown."
+      },
+      "location": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Article caption places the rally in Liberty Square, Yerevan."
+      },
+      "scope": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The source describes one Yerevan rally; national organization or simultaneous sites are not claimed."
+      },
+      "organizer": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Karabakh civic organizations and public figures organized the rally and emphasized its nonpartisan character."
+      },
+      "demands": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Demands targeted Armenia’s government: expand aid, raise housing support without repayment, continue rent/utility compensation, and seek international security guarantees for return. Political_behavior_process is a provisional category for domestic government subsidy/policy choices."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The source says “hundreds of refugees”; text retained without converting to an exact estimate."
+      },
+      "participants_min": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "No explicit numeric minimum is reported; null."
+      },
+      "participants_max": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "No explicit numeric maximum is reported; null."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The source’s “hundreds” description clearly exceeds 50 qualitatively."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The article does not report whether protesters used violence; unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The article does not report a response to this gathering; all seven response values remain unknown."
+      },
+      "episode_key": {
+        "source_ids": [
+          "S001",
+          "S003",
+          "S004"
+        ],
+        "summary": "S001 and search-only leads S003/S004 refer to reporting around the 20 March rally; no additional gathering or continuous episode established."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "armenia_karabakh_refugee_aid_return_guarantees_2024-03-20",
+    "notes": "The body of one contemporaneous local report was opened and read. A photograph-caption search result and a 27 March context article surfaced but remain search-only and are not used as independent corroboration. Article mentions an aid/housing plan and demands; figures about that plan are policy context, not protester counts. Captured Aravot.am (S005) and Oragark (S006) search results also refer to a rally statement and housing-funding demands. They remain search-only; possible republication/shared origin is unresolved, so they are not counted as independent corroboration or used to add field values.",
+    "open_questions": [
+      "Find independent contemporary coverage or organizer records.",
+      "Determine response by Armenian authorities and whether protesters used violence; current article is silent.",
+      "Follow up whether further public rallies were part of the same campaign or distinct actions; no continuation is confirmed by this search pass.",
+      "Clarify the category mapping for refugee housing and return-security demands at human review.",
+      "Identify the written origin and independence of the Aravot.am and Oragark search-only reports before treating them as separate coverage."
+    ]
+  }
+]

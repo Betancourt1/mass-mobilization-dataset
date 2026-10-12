@@ -1,0 +1,48 @@
+[
+  {
+    "gap_id": "angola_2024-02_G001",
+    "type": "coverage",
+    "description": "Portuguese/English month and weekly searches were noisy and did not establish a qualifying public gathering beginning in February. The general-strike headlines largely point to future March action.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search local media, union notices, rights reporting, and regional provincial coverage for separately executed February actions."
+  },
+  {
+    "gap_id": "angola_2024-02_G002",
+    "type": "query_window",
+    "description": "One weekly query was mistakenly framed as 22–31 February 2024; February ended on the 29th. A new targeted 22–29 February 2024 Portuguese search was captured exactly, but its six formatted headers point to 2024/2025 material outside the month or strike announcements without February execution evidence. The window query error is repaired; coverage of actual February gatherings remains unresolved.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat the targeted query as search-only coverage, not as evidence that no February gathering occurred; continue with additional local and provincial coverage only when authorized."
+  },
+  {
+    "gap_id": "angola_2024-02_G003",
+    "type": "boundary",
+    "description": "M&G/The Continent S001 is a 20 February advance report about a general strike planned for March. Its selected body section establishes only a future announcement and minimum-wage dispute; it does not confirm an executed strike or any public gathering in February or March.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep the campaign announcement distinct from event execution. Use the March Novo Jornal report as a separate lead; verify actual stoppage and any separate public gathering with permissible independent sources. Do not treat work stoppage or forecasts as a public assembly or attendance count."
+  },
+  {
+    "gap_id": "angola_2024-02_G004",
+    "type": "access",
+    "description": "One limited selected-section read of the M&G-hosted S001 page found an advance March strike announcement; the page states the article first appeared in The Continent. No actual March execution or public gathering is verified. The original The Continent story was not followed/opened, and the M&G reprint is not counted as independent from it.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek independent, separately gated contemporary evidence of execution and any public gathering, location, 50+ attendance, date, state target and responses. Do not open The Continent's origin URL without a new bounded relevance review and exact-URL gate."
+  },
+  {
+    "gap_id": "angola_2024-02_G005",
+    "type": "capture_integrity",
+    "description": "The exact formatted search invocation outputs from earlier discovery calls were not archived to private_reading before the capture wrapper ended. Their exact raw bytes and native event_msg metadata cannot be recovered; query/header rows parsed from formatted tool output are preserved with unknown native clocks/metadata. No output was reconstructed or queried again to replace those missing captures. The later targeted 22–29 February query AO24-02-SEARCH-020 was preserved byte-for-byte with SHA256 7992c0d693cc0522c0a306c076392739b39b0bb70948531f54742975edce4ecc; its native metadata and clocks remain unavailable. Task-call chronology now indicates 15 actual search invocations for this month, while 11 query rows are saved; 4 earlier invocation outputs are not represented as query-result rows, and several early queries were repeated before the runtime-capture rule was read. Exact per-invocation result arrays/timing for those earlier searches are unavailable and are not filled with empty results.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Treat earlier rows as parsed formatted-output records and AO24-02-SEARCH-020 as a byte-preserved rendered-output capture; native event_msg metadata remains unknown for every row. The observed total invocation count is separate from validator n_queries; missing earlier invocation results and exact query clocks remain unknown. No reconstruction was used."
+  }
+]

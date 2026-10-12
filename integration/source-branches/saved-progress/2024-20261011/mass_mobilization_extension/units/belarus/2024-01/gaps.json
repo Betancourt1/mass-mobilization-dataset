@@ -1,0 +1,60 @@
+[
+  {
+    "gap_id": "belarus_2024-01_G01",
+    "type": "baseline",
+    "description": "Official event baseline and the denominator of eligible gatherings are pending. This bounded open-web pass cannot establish a complete event universe or support a no-event claim.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to apply official baseline and revise coverage."
+  },
+  {
+    "gap_id": "belarus_2024-01_G02",
+    "type": "source_access",
+    "description": "The Viasna January human-rights report at the exact URL https://spring96.org/en/news/114277 returned HTTP 403 Forbidden on one ordinary open after fresh gate and manual review; no body was received. This is an exact-URL denial only, not a publisher-wide hold.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retries, mirrors, alternates, or bypasses; retain as a URL-specific source gap."
+  },
+  {
+    "gap_id": "belarus_2024-01_G03",
+    "type": "source_access",
+    "description": "The AP search-result lead could not be opened by the web tool; the tool returned an Internal Error stating that the URL was not accessible, with no observed HTTP status or body. This is a tool retrieval failure, not evidence of a publisher denial.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retry attempted; seek independent sources only through ordinary searches and fresh gates."
+  },
+  {
+    "gap_id": "belarus_2024-01_G04",
+    "type": "language_and_repression",
+    "description": "Belarusian- and Russian-language searches were run, but criminalization, self-censorship, arrests, exile, and removal of records can suppress reporting. Search results are not an independent measure of incidence.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek independent archival, local and human-rights reporting after baseline review."
+  },
+  {
+    "gap_id": "belarus_2024-01_G05",
+    "type": "search_coverage",
+    "description": "Queries covered broad English/Russian/Belarusian terms, weekly windows, sector and regional terms, and episode-boundary terms. This does not reproduce LexisNexis or systematic news-archive coverage; search engine indexing/ranking and query terms are incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Repeat against approved systematic archives and official baseline."
+  },
+  {
+    "gap_id": "belarus_2024-01_G06",
+    "type": "threshold_and_episode",
+    "description": "No eligible candidate has verified threshold, physical execution, date, domestic target, episode start, or end. Reports of arrests/convictions for earlier peaceful protests are retrospective repression context, not a new January gathering.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not code candidates until evidence establishes these fields."
+  }
+]

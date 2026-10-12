@@ -1,0 +1,133 @@
+[
+  {
+    "gap_id": "taiwan_2021-01_G001",
+    "type": "baseline",
+    "description": "The official latest Mass Mobilization files, current universe, and supplementary Coding Procedure remain unverified; country code 713 is provisional from the assignment.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Compare candidates and the episode boundary against the verified official baseline, universe, and supplementary procedure when available."
+  },
+  {
+    "gap_id": "taiwan_2021-01_G002",
+    "type": "search_method",
+    "description": "The 19 logged open-web searches do not reproduce the original LexisNexis newspaper protocol and provide no exhaustive event frame or search-result totals.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review against the original newspaper frame and systematic local archives if access becomes available; do not infer absence from these searches."
+  },
+  {
+    "gap_id": "taiwan_2021-01_G003",
+    "type": "language",
+    "description": "Searches used Traditional Chinese, English, and one limited Taiwanese-language/PTS-oriented query. That language-specific pass returned no clearly separate event report; Hakka and Indigenous-language media were not systematically searched.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If a broader local-language review is feasible, consult fluent Taiwanese Hokkien, Hakka, and Indigenous-language terms and local outlets; do not treat this limited pass as evidence of absence."
+  },
+  {
+    "gap_id": "taiwan_2021-01_G004",
+    "type": "coverage",
+    "description": "Searches covered all four January weekly windows, Taipei and several other cities/counties, and labor, student, farmer, environmental, solidarity, and political terms. Regional and sector coverage remains search-engine dependent and uneven; no systematic local archive review was performed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with regional local-news archives and sector organizations if additional coverage is required; preserve this as open-web research rather than an exhaustive census."
+  },
+  {
+    "gap_id": "taiwan_2021-01_G005",
+    "type": "participants",
+    "description": "E001 is documented as a press conference, but sources provide no onsite total, public-access description, or numerical floor. Named speakers, nine convening organizations, and two online participants do not establish in-person turnout of 50.",
+    "source_ids": [
+      "taiwan_2021-01_S011",
+      "taiwan_2021-01_S013",
+      "taiwan_2021-01_S016"
+    ],
+    "affected_candidates": [
+      "taiwan_2021-01_E001"
+    ],
+    "required_followup": "Find event-day attendance evidence or organizer documentation that distinguishes onsite attendees from online speakers and establishes public gathering status and any 50-person threshold."
+  },
+  {
+    "gap_id": "taiwan_2021-01_G006",
+    "type": "state_target",
+    "description": "E001's joint release explicitly directs a Hong Kong Human Rights and Democracy Clause and assistance-policy demand to Taiwan's own government, separately from calls to Chinese/Hong Kong authorities and the EU. The domestic target is clear, but the historical demand categories do not clearly represent the rights/asylum-policy demand.",
+    "source_ids": [
+      "taiwan_2021-01_S011",
+      "taiwan_2021-01_S013",
+      "taiwan_2021-01_S016"
+    ],
+    "affected_candidates": [
+      "taiwan_2021-01_E001"
+    ],
+    "required_followup": "Preserve the separate domestic and foreign addressees, then map the demand only after reviewing the official supplementary Coding Procedure."
+  },
+  {
+    "gap_id": "taiwan_2021-01_G007",
+    "type": "dates",
+    "description": "No reviewed Jan 8 source reports E001's physical departure or dissolution or establishes an event-specific response from Taiwan authorities. A separate CNA report documents a Mar 2 press conference on a related policy; it is a later event and does not bridge or date Jan 8's physical end.",
+    "source_ids": [
+      "taiwan_2021-01_S011",
+      "taiwan_2021-01_S013",
+      "taiwan_2021-01_S016",
+      "taiwan_2021-01_S020"
+    ],
+    "affected_candidates": [
+      "taiwan_2021-01_E001"
+    ],
+    "required_followup": "Seek a direct post-event account for Jan 8 reporting physical departure/dissolution and any state reception, refusal, or coercive response; do not infer an end or response from silence or the later Mar 2 event."
+  },
+  {
+    "gap_id": "taiwan_2021-01_G008",
+    "type": "episode_unit",
+    "description": "C001 reports a Dec 31 physical walk around the Legislative Yuan by about 100 participants over Taiwan's pork-import policy and an overnight camp, followed by the same alliance's Jan 1 action. This supports a prior-month onset more directly than the camp start alone; exact camp location conflicts between TVBS and NOWnews. Jan 1's 'fewer than 100' has no lower bound, and final December ownership requires coordinator review.",
+    "source_ids": [
+      "taiwan_2021-01_S001",
+      "taiwan_2021-01_S005",
+      "taiwan_2021-01_S007",
+      "taiwan_2021-01_S008",
+      "taiwan_2021-01_S010"
+    ],
+    "affected_candidates": [
+      "taiwan_2021-01_C001"
+    ],
+    "required_followup": "Have the prior-month coordinator review the Dec 31 assembly, domestic policy target, qualitative turnout statement, applicable episode rules, and conflicting camp-site descriptions before assigning monthly ownership; retain Jan 1 as a continuation unless separate qualifying onset evidence appears."
+  },
+  {
+    "gap_id": "taiwan_2021-01_G009",
+    "type": "source_independence",
+    "description": "TVBS supplies multiple Dec 31–Jan 1 reports and an announcement about C001, so these are stages from one publisher, not independent outlet confirmations. For E001, TAHR's after-event release reproduces the joint organizer account; CNA and Civil Media provide distinct reporting.",
+    "source_ids": [
+      "taiwan_2021-01_S001",
+      "taiwan_2021-01_S005",
+      "taiwan_2021-01_S007",
+      "taiwan_2021-01_S008",
+      "taiwan_2021-01_S010",
+      "taiwan_2021-01_S011",
+      "taiwan_2021-01_S012",
+      "taiwan_2021-01_S013",
+      "taiwan_2021-01_S016"
+    ],
+    "affected_candidates": [
+      "taiwan_2021-01_C001",
+      "taiwan_2021-01_E001"
+    ],
+    "required_followup": "Count reporting origins rather than URLs and preserve organizer-release duplication and publisher dependencies in later evidence review."
+  },
+  {
+    "gap_id": "taiwan_2021-01_G010",
+    "type": "source_access",
+    "description": "Relevant links include Yahoo's Jan 1 page returned 404 (S004), FTV's exact Jan 1 URL returned 403 (S006), an ifeng page that timed out (S009), FTV Sports and Civil Media pages left search-only after Cache miss (S003, S014), and adjacent-month reports retained search-only (S019, S021). Denied or failed pages were not retried or bypassed.",
+    "source_ids": [
+      "taiwan_2021-01_S003",
+      "taiwan_2021-01_S004",
+      "taiwan_2021-01_S006",
+      "taiwan_2021-01_S009",
+      "taiwan_2021-01_S014",
+      "taiwan_2021-01_S019",
+      "taiwan_2021-01_S021"
+    ],
+    "affected_candidates": [
+      "taiwan_2021-01_C001",
+      "taiwan_2021-01_E001"
+    ],
+    "required_followup": "Use only allowed independent sources if later review needs added detail; preserve the exact blocked, not-found, timeout, and search-only statuses."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "gap_id": "LTU202102-G001",
+    "type": "event_evidence",
+    "description": "The LRT S001 body confirms 5 February symbolic small-business protest actions in Vilnius, Klaipėda and Panevėžys, describes a government-policy demand and reports about 50 participants at Panevėžys over one hour. The precise multi-city episode boundary, independent confirmation, Vilnius count, exact end and any protest-caused policy response remain unresolved.",
+    "source_ids": [
+      "lithuania_2021-02_S001",
+      "lithuania_2021-02_S002",
+      "lithuania_2021-02_S003",
+      "lithuania_2021-02_S004",
+      "lithuania_2021-02_S005",
+      "lithuania_2021-02_S006",
+      "lithuania_2021-02_S007",
+      "lithuania_2021-02_S008",
+      "lithuania_2021-02_S009",
+      "lithuania_2021-02_S010",
+      "lithuania_2021-02_S011",
+      "lithuania_2021-02_S012"
+    ],
+    "affected_candidates": [
+      "LTU202102-E001"
+    ],
+    "required_followup": "Use a fresh per-URL stable receipt, saved full manual publisher/origin note and immediate complete-input hash/phase check for any additional body. Review an independent local report if the gate passes; retain approximate and site-specific counts without pooling."
+  },
+  {
+    "gap_id": "LTU202102-G002",
+    "type": "event_threshold_and_unit",
+    "description": "LRT reports about 50 people joined the Panevėžys action over one hour, but does not establish whether the figure is cumulative arrivals or simultaneous attendance and gives no precise lower bound. Klaipėda had a few protesters plus a few supporters; no Vilnius count is reported. A nationwide social-media call is described, but whether the same-day gatherings are one nationally organized episode or distinct local actions is unresolved.",
+    "source_ids": [
+      "lithuania_2021-02_S001",
+      "lithuania_2021-02_S004",
+      "lithuania_2021-02_S005",
+      "lithuania_2021-02_S006",
+      "lithuania_2021-02_S007"
+    ],
+    "affected_candidates": [
+      "LTU202102-E001"
+    ],
+    "required_followup": "Review additional city-level accounts with exact per-city attendance, attendance timing and organizer evidence if accessible; do not add or pool counts across sites. Preserve pending_unit and threshold uncertainty until a human resolves episode boundaries and the count basis."
+  },
+  {
+    "gap_id": "LTU202102-G003",
+    "type": "event_evidence",
+    "description": "The 16 February Vilnius anti-quarantine protest lead remains search-only. The 15min body request was not made: its fresh manual gate was stopped because a shared source-input hash changed. Exact crowd, date of physical onset, demand and response remain unverified.",
+    "source_ids": [
+      "lithuania_2021-02_S013",
+      "lithuania_2021-02_S014"
+    ],
+    "affected_candidates": [
+      "LTU202102-E002"
+    ],
+    "required_followup": "After the shared corpus is stable, try a fresh exact-URL receipt and saved full manual publisher/origin note for the 15min and Lrytas reports, then immediately recheck all input hashes and current phase/clock before any body request."
+  },
+  {
+    "gap_id": "LTU202102-G004",
+    "type": "continuity",
+    "description": "Prior-unit LTU202101-E001 is a 12 January Lukiškės Square candlelighting with an unknown end. This month’s 5 and 16 February leads are different policy themes; no evidence found so far establishes a continuous cross-month gathering.",
+    "source_ids": [],
+    "affected_candidates": [
+      "LTU202102-E002"
+    ],
+    "required_followup": "Retain the January end as unknown; merge or create a continuation only if an explicit same-episode link and pre-February start are documented."
+  },
+  {
+    "gap_id": "LTU202102-G005",
+    "type": "baseline_and_manual",
+    "description": "The unit is using the documented extension criteria with baseline_gate=pending_official_baseline. The original manual/baseline is not stored in this unit; no unsupported rule from that manual is inferred.",
+    "source_ids": [],
+    "affected_candidates": [
+      "LTU202102-E001",
+      "LTU202102-E002"
+    ],
+    "required_followup": "Coordinator resolves the official baseline/manual gate; researchers preserve source-level uncertainty and do not promote candidates to official observations."
+  },
+  {
+    "gap_id": "LTU202102-G006",
+    "type": "coverage_method",
+    "description": "Open-web first pass is not LexisNexis-equivalent and does not prove absence of protests. Searches included English and Lithuanian terms, week windows, national-day and issue-specific queries, and local/city terms; no systematic newspaper archive was searched.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Human review may identify additional local, labor, health, political or small-town coverage; record future search results exactly and retain negative-search limits."
+  },
+  {
+    "gap_id": "LTU202102-G007",
+    "type": "source_access",
+    "description": "Only LRT S001 has a body read. The S006 JP.lt and S014 15min requests were stopped before opening because the complete input-hash recheck found concurrent changes in Macedonia and Malaysia source files. S004 had a stable receipt but no saved manual note or body request before Phase01 closed. None of these is an observed denial or evidence that the source is inaccessible.",
+    "source_ids": [
+      "lithuania_2021-02_S004",
+      "lithuania_2021-02_S006",
+      "lithuania_2021-02_S014"
+    ],
+    "affected_candidates": [
+      "LTU202102-E001",
+      "LTU202102-E002"
+    ],
+    "required_followup": "For any chosen source, create a new exact-URL receipt, save/read back/hash a contemporaneous complete manual scope note, verify the entire current input path/hash set immediately before the request, and check current phase/clock. Aborted receipts and notes do not authorize later requests."
+  }
+]

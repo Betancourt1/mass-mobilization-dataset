@@ -1,0 +1,15 @@
+Kyrgyzstan — February 2021 provisional research
+
+Scope: public gatherings beginning 2021-02-01 through 2021-02-28, using the fixed 2026-10-07 cutoff. The Mass Mobilization extension remains a separate provisional dataset; official baseline reconciliation is pending.
+
+Search method: 21 actual open-web search actions are captured in search_log.jsonl with original query batches, ordered returned headers/URLs, refs and exposed clocks. A final comparison against the registered rollout matched all 21 action IDs, query batches and ordered result headers (475 headers; zero mismatches). Searches covered English, Russian and Kyrgyz terms plus local/regional and retrospective news searches. The search engine is not LexisNexis and cannot establish an exhaustive record.
+
+Persisted records: 38 source cards (36 search-only; 2 opened); 2 provisional event candidates; 1 exclusion; 0 continuations; 12 open gaps.
+
+Opened evidence: Sputnik Kyrgyzstan (S007) confirms two distinct Feb 1 gatherings at the Government House: Caravan sellers and Sadovoye residents. Neither crowd count is reported; both remain pending the 50-person threshold. RFE/RL Kyrgyz Service (S010) reports some 30 demonstrators outside Bishkek city administration on Feb 10, holding posters asking for Ruslan Tagaev to become mayor; this is recorded as excluded below the 50-person threshold. The RFE/RL article does not establish the gathering’s physical end or event-specific state response or protester violence; those dimensions remain unknown.
+
+Other leads remain unresolved: the additional Feb 1 labor-federation gathering; Naryn pasture dispute; Feb 5 Osh Bazaar traders; Feb 7 and Feb 21 Sunday legality marches; Feb 14 anti-corruption and separate SerepKG leads; border-area residents in Bishkek Feb 15–16; Feb 19 Matraimov-support gatherings in multiple places; and Feb 28 rallies/march. Search headers do not establish turnout, demands, response, or episode boundaries. The RFE/RL threshold gap G005 is closed by the body estimate and retained exclusion E007; unresolved search-only E-IDs are explicitly recorded as lead IDs in gaps.json, not as event records.
+
+Access history: four exact body-request attempts are recorded. S007 and S010 returned scoped bodies. S029 and S009 returned cache misses with no body and were not retried. The S029 request occurred after shared phase03 had closed; its out-of-window timing is preserved as a procedural incident. The S009 Qurium-hosted copy was reviewed against the Kloop publisher/origin and saved holds before one exact request; the cache miss produced no content. Durable receipts, manual notes and outcomes are inventoried in access_receipts/manifest.json.
+
+Coverage limits: English/Russian/Kyrgyz search results, uneven district and workplace indexing, unknown body access and source dependence, no LexisNexis-equivalent corpus, and pending official baseline. Silence in search results or an article is not evidence that no gathering or response occurred. This is a provisional open-web first pass, not official approval.

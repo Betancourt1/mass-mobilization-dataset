@@ -1,0 +1,85 @@
+[
+  {
+    "gap_id": "MYS202101-G001",
+    "type": "search_method",
+    "description": "Open-web search cannot replicate LexisNexis or systematic historical newspaper archives.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review national and regional archives and current coding instructions before any absence decision."
+  },
+  {
+    "gap_id": "MYS202101-G002",
+    "type": "baseline",
+    "description": "Official baseline/version, universe and current original coding procedure remain unresolved; ccode 820 is provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve pending_official_baseline and authoritative coding procedure."
+  },
+  {
+    "gap_id": "MYS202101-G003",
+    "type": "language",
+    "description": "Queries attempted in Malay, English, Chinese and Tamil, but fluent and systematic local-language/dialect archive review is incomplete; Chinese/Tamil searches yielded no relevant in-month lead.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Fluent reviewers should search local archives and terminology in Malay, Chinese varieties and Tamil."
+  },
+  {
+    "gap_id": "MYS202101-G004",
+    "type": "source_access",
+    "description": "Some reader opens for PDRM, Malaysiakini and Astro AWANI returned cache misses; Malay Mail Jan 12 and Bernama/UMNO pages were opened successfully. Cache misses are not actual site denials. Several local-language or boundary leads have no confirmed publication date; exact search/open times were not captured.",
+    "source_ids": [
+      "MYS202101-S007",
+      "MYS202101-S011",
+      "MYS202101-S012",
+      "MYS202101-S015",
+      "MYS202101-S016",
+      "MYS202101-S017",
+      "MYS202101-S018",
+      "MYS202101-S019",
+      "MYS202101-S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retry ordinary same-URL retrieval where useful; respect actual denial and retain search-only until substantive reading."
+  },
+  {
+    "gap_id": "MYS202101-G005",
+    "type": "episode_unit",
+    "description": "December/February checks did not establish a physical episode continuing through January. Follow-up returned later or undated emergency/Undi18 gathering leads and a January 2020 Tamil rally, but no source establishes continuity through January 2021.",
+    "source_ids": [
+      "MYS202101-S008",
+      "MYS202101-S009",
+      "MYS202101-S012",
+      "MYS202101-S013",
+      "MYS202101-S016",
+      "MYS202101-S017",
+      "MYS202101-S018",
+      "MYS202101-S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a lead emerges, establish event onset and actual continuity; do not infer from issue similarity."
+  },
+  {
+    "gap_id": "MYS202101-G006",
+    "type": "source_independence",
+    "description": "S001 and S002 describe the same coalition campaign; they are distinct sources but not independent evidence of a physical gathering.",
+    "source_ids": [
+      "MYS202101-S001",
+      "MYS202101-S002"
+    ],
+    "affected_candidates": [
+      "MYS202101-X001"
+    ],
+    "required_followup": "Preserve provenance and seek independent event-specific reports for any physical assembly lead."
+  },
+  {
+    "gap_id": "MYS202101-G007",
+    "type": "coverage",
+    "description": "No January-onset qualifying public assembly candidate was established. Empty event arrays mean no supported candidate found, not that no protest occurred; emergency/MCO policy and search silence do not establish absence.",
+    "source_ids": [
+      "MYS202101-S003",
+      "MYS202101-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search local/regional archives by week, sector, geography and audiovisual/community sources before any absence coding."
+  }
+]

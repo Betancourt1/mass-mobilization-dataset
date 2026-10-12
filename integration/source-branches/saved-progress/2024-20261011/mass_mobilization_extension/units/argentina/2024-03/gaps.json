@@ -1,0 +1,54 @@
+[
+  {
+    "gap_id": "AR2403-G001",
+    "type": "baseline",
+    "description": "Official latest Mass Mobilization version, current universe/schema, and cutoff linkage remain unverified; use only provisional 2015 manual and keep candidates pending official baseline.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator verifies official dataset version, universe, schema and baseline correspondence."
+  },
+  {
+    "gap_id": "AR2403-G002",
+    "type": "search_method",
+    "description": "Open-web search results are rendered summaries, not equivalent to the historical LexisNexis newspaper search. Native search metadata (native result order/refs/counts/clocks) is unavailable; parser omissions require independent review. No exhaustive-coverage claim is made.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent review the retained rendered-output files for parser omissions; maintain query/search-method coverage limits."
+  },
+  {
+    "gap_id": "AR2403-G003",
+    "type": "source_access",
+    "description": "AR2403-S013 receipt path has been corrected and its retained receipt/manifest verified against the exact URL and hashes. S012/S013 remain the only body opens usable for event coding. March 24 S012 establishes date/location/qualitative scale and memorial context, but not a state-targeted demand; E001 is pending_state_target. S007/S008 bodies are unusable due to stale receipts; S011 tool failure yielded no body.",
+    "source_ids": [
+      "AR2403-S001",
+      "AR2403-S002",
+      "AR2403-S003",
+      "AR2403-S004",
+      "AR2403-S005",
+      "AR2403-S006",
+      "AR2403-S007",
+      "AR2403-S008",
+      "AR2403-S009",
+      "AR2403-S010",
+      "AR2403-S011"
+    ],
+    "affected_candidates": [
+      "AR2403-E001"
+    ],
+    "required_followup": "Review whether independent admissible evidence establishes a state/state-policy addressee for the March 24 event; otherwise retain pending_state_target. Do not rely on contextual government-position captions."
+  },
+  {
+    "gap_id": "AR2403-G004",
+    "type": "source_access",
+    "description": "Protocol deviations requiring independent review. AR2403-S007, exact Reuters URL https://www.reuters.com/world/americas/argentines-commemorate-coup-milei-sows-doubt-about-dictatorship-past-2024-03-24/: receipt access-5454e5777b3a45e38941c98a88d28d3f.json, provenance manifest SHA-256 6e043311b4c319dab88d893980330215fc35cb1b6a8d75fa33d77affab1e8c2a; the manual-review note was inserted in sources.jsonl after receipt and before body open, changing scanned input. AR2403-S008, exact AP URL https://apnews.com/article/argentina-dictatorship-coup-anniversary-military-protests-60bcea0fba986e71c16320f502dcfaa4: receipt access-3e303ad4664c414eb1b2d50667e642d2.json, manifest SHA-256 ca30076492f7ad44dbf4fe5dca3c4caa49eb6cf269d09e8a6261657a04afca89; manual-review note likewise entered into sources.jsonl after receipt and before open. The body was actually 2026 and excluded from 2024. Neither saved receipt records a known hold/observed denial; this is distinct from the freshness issue. AR2403-S011 exact AP URL https://apnews.com/article/09f8c7e64ef2888453069d65441f7785: receipt access-9406c0eb697d41a68dc62f8adcc6d9fd.json, manifest SHA-256 8ebc28da975a21b31d62d119f40975dfe2658d703248840499be346bf6a7d056; body open yielded tool Internal Error without HTTP status/body (not a site denial). No alternate URL/cache used. Do not re-request these merely to repair provenance. Reviewer disposition: S007/S008 retained bodies are unusable for all coded claims; their original source cards and exact URLs remain in provenance/history only. No repeat or reauthorization.",
+    "source_ids": [
+      "AR2403-S007",
+      "AR2403-S008",
+      "AR2403-S011"
+    ],
+    "affected_candidates": [
+      "AR2403-E001"
+    ],
+    "required_followup": "Independent reviewer assess receipt/input chronology; if necessary retain a URL-specific access gap for AR2403-S011 and do not claim AP confirmation."
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "gap_id": "belarus_2024-02_G01",
+    "type": "baseline",
+    "description": "Official event baseline and denominator are pending. Search did not establish a complete event universe; no-event claims are prohibited.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to integrate official baseline."
+  },
+  {
+    "gap_id": "belarus_2024-02_G02",
+    "type": "source_access",
+    "description": "The Euronews article body was actually opened, but its compact gate showed two exact duplicate source cards (S005/S006) because the writer missed match multiplicity before the request. Preserve the read/receipt and duplicate history; the body is unusable for event coding. S006 metadata was recovered from the gate receipt, not from preserved original complete ledger bytes.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not reread or retroauthorize; independent review should assess the provenance deviation."
+  },
+  {
+    "gap_id": "belarus_2024-02_G03",
+    "type": "source_access",
+    "description": "The exact PBS NewsHour URL returned HTTP 403 Forbidden on one ordinary open after stable exact-match gate and manual review; no body was retrieved. This denial is URL-specific and does not establish a PBS-wide hold. Post-recording gate receipt records current metadata only and is not authorization for the prior request.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retry, alternate URL, mirror, or bypass."
+  },
+  {
+    "gap_id": "belarus_2024-02_G04",
+    "type": "opposition_call_vs_execution",
+    "description": "Search results identified an opposition boycott call and online address/marathon around election day. Search results do not establish an executed public gathering inside Belarus. Election participation, boycott, broadcasts, and calls alone are not coded as protests. Captured AP election-day search leads S008/S009 also discuss an opposition boycott call and allegations about unrest; they are search-only. The two captured URL spellings may be the same story, and any relation to the AP-byline Euronews page S005 remains unresolved; do not count as independent corroboration. The rendered Feb 20, 2024 date appears in one result header only and is not an event date.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only code if independently sourced evidence establishes physical gathering, date, target, and threshold."
+  },
+  {
+    "gap_id": "belarus_2024-02_G05",
+    "type": "language_and_repression",
+    "description": "Broad English/Russian/Belarusian, election/sector, weekly, regional, targeted, and boundary searches were completed, but politically sensitive reporting is affected by state control, self-censorship, arrests and exile.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Reassess with baseline and independent systematic sources."
+  },
+  {
+    "gap_id": "belarus_2024-02_G06",
+    "type": "search_coverage",
+    "description": "Open web indexing is bounded and not equivalent to LexisNexis or systematic local-news archives. Regional terms and broad queries do not ensure coverage of every district or small-language outlet.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Repeat against approved archives; retain unknown baseline."
+  },
+  {
+    "gap_id": "belarus_2024-02_G07",
+    "type": "threshold_and_episode",
+    "description": "No candidate has sufficient valid evidence for threshold, physical execution, exact dates, state target, episode start/end, or response. Historical 2020 demonstrations appearing in election coverage are retrospective context, not February 2024 episodes.",
+    "source_ids": [
+      "S001",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not infer absence from silence or episode continuity from discovery date."
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "gap_id": "belarus_2024-03_G01",
+    "type": "baseline",
+    "description": "Official event baseline and denominator remain pending. Bounded web queries did not establish the complete universe; a no-event claim is not supported.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to integrate official baseline."
+  },
+  {
+    "gap_id": "belarus_2024-03_G02",
+    "type": "diaspora_lead",
+    "description": "Belsat search lead and title-only page open name Vilnius and Warsaw. The request returned no story text or publication date, so it is an unresolved diaspora lead outside Belarus and cannot substantiate an in-country event.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not infer a Belarus domestic event; no alternate or retry after the title-only response."
+  },
+  {
+    "gap_id": "belarus_2024-03_G03",
+    "type": "retrospective_repression",
+    "description": "The Viasna March human-rights report appeared only as a search lead; its publication is April 8 and its body was not requested. Search material may describe retrospective prosecutions or repression rather than new physical gatherings.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain search-only and do not code."
+  },
+  {
+    "gap_id": "belarus_2024-03_G04",
+    "type": "retrospective_or_out_of_period",
+    "description": "The Jamestown Freedom Day search lead has unknown publication date and venue; its captured snippet refers to the 2018 centennial context. A separate AP search-only lead (S004), captured in two queries, describes retrospective raids/property seizures against 104 activists who fled abroad and links the crackdown to foreign-country commemorations of March 25. Treat this as diaspora/repression context only, not a Belarus-located gathering. The captures show only relative publication metadata (“Published: 2.4 years ago”), so the earlier report’s specific May 2024 timing is not established by the captured header.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No event assigned. Preserve AP as search-only and retrospective; keep exact publication date unknown. Do not infer a March domestic gathering, size, demands, or event-day response."
+  },
+  {
+    "gap_id": "belarus_2024-03_G05",
+    "type": "language_and_repression",
+    "description": "English, Russian, and Belarusian searches included broad, weekly, sector, regional and boundary terms. Repression, state media control, self-censorship and exile create likely visibility gaps, and official sources may omit politically sensitive gatherings.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Compare against official baseline and independent source sets."
+  },
+  {
+    "gap_id": "belarus_2024-03_G06",
+    "type": "search_coverage",
+    "description": "The open-web search is non-exhaustive and does not match LexisNexis or systematically searched local archives. Search engine indexing, regional vocabulary, spellings, and pages unavailable to the tool affect recall.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Repeat with systematic archive data if available; keep claims bounded."
+  },
+  {
+    "gap_id": "belarus_2024-03_G07",
+    "type": "threshold_and_episode",
+    "description": "No valid body evidence establishes an eligible domestic gathering, threshold of 50, target, precise event date, episode onset/end, or any of the seven response states. Separate domestic occurrence from diaspora/foreign-state-target events and retrospective repression.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not code a no-event finding or continuation absent evidence."
+  }
+]

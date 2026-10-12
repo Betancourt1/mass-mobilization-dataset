@@ -1,0 +1,35 @@
+[
+  {
+    "gap_id": "BOL24JAN-G001",
+    "source_ids": [],
+    "summary": "BOL24JAN-Q001 actual web search response was not preserved; its result set, URLs, and result count are unknown. The search log retains the exact invocation but empty arrays indicate unavailable capture, not zero results. No rerun or reconstruction.",
+    "field_evidence": {}
+  },
+  {
+    "gap_id": "BOL24JAN-G002",
+    "source_ids": [],
+    "summary": "BOL24JAN-Q002 wrapper text projection was initially saved but later removed; full return and rendered URLs/results were not retained. Exact query, invocation and local 2,958 ms roundtrip remain recorded; actual result set unknown, not zero. No rerun or reconstruction.",
+    "field_evidence": {}
+  },
+  {
+    "gap_id": "BOL24JAN-G003",
+    "source_ids": [
+      "BOL24JAN-S004"
+    ],
+    "summary": "Infobae exact URL body had a post-body EFE attribution not reviewed in the pre-body gate. Exact EFE URL is unknown and full returned body object was not preserved. Withhold all body facts from coding; no retroauthorization, URL inference or replacement retrieval.",
+    "field_evidence": {
+      "written_origin_control": {
+        "source_ids": [
+          "BOL24JAN-S004"
+        ],
+        "note": "Manual review covered exact Infobae source only; post-body `Con información de EFE` attribution is outside reviewed scope."
+      },
+      "body_preservation": {
+        "source_ids": [
+          "BOL24JAN-S004"
+        ],
+        "note": "Only contemporaneous manual notes remain; original full body return not saved."
+      }
+    }
+  }
+]

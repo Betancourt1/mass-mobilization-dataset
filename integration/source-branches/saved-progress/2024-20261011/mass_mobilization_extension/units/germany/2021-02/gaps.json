@@ -1,0 +1,200 @@
+[
+  {
+    "gap_id": "GER202102-G001",
+    "type": "coverage",
+    "description": "No systematic LexisNexis or equivalent press-archive access; searches and captured public results are not exhaustive. The original MM codebook PDF is not present in this portable package, so documented protocol is used pending coordinator baseline review.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GER202102-E001",
+      "GER202102-E002",
+      "GER202102-E003",
+      "GER202102-E004",
+      "GER202102-E005",
+      "GER202102-E006",
+      "GER202102-E007",
+      "GER202102-E008",
+      "GER202102-E009",
+      "GER202102-E010",
+      "GER202102-E011",
+      "GER202102-E012",
+      "GER202102-E013",
+      "GER202102-E014",
+      "GER202102-E015",
+      "GER202102-E016",
+      "GER202102-E017"
+    ],
+    "required_followup": "Coordinator should compare against the official baseline and codebook when available; expand local press/archive coverage where gaps affect eligibility."
+  },
+  {
+    "gap_id": "GER202102-G002",
+    "type": "contemporary_corroboration",
+    "description": "Freilassing, Chemnitz, Berlin 13 February, Erfurt and Gera counts rely mainly on a partial retrospective CILIP chronology; contemporary source confirmation remains open.",
+    "source_ids": [
+      "GER202102-S007"
+    ],
+    "affected_candidates": [
+      "GER202102-E002",
+      "GER202102-E003",
+      "GER202102-E007",
+      "GER202102-E015",
+      "GER202102-E016"
+    ],
+    "required_followup": "Locate dated local press/police/organizer accounts and resolve event identity, demand and attendance."
+  },
+  {
+    "gap_id": "GER202102-G003",
+    "type": "state_target",
+    "description": "Hanau anniversary memorials and the Berlin 20 February demonstration are documented as remembrance activity, but own-government demands are not explicit in the read passage. Do not infer state target from memorial attendance.",
+    "source_ids": [
+      "GER202102-S007",
+      "GER202102-S018",
+      "GER202102-S020",
+      "GER202102-S024",
+      "GER202102-S028"
+    ],
+    "affected_candidates": [
+      "GER202102-E017"
+    ],
+    "required_followup": "Read contemporaneous organizer and news accounts; separate state-targeted demands, demonstrations and memorials."
+  },
+  {
+    "gap_id": "GER202102-G004",
+    "type": "access",
+    "description": "Tagesspiegel Rummelsburger Bucht article body returned Cache miss; separate ordinary HTTPS request failed local DNS before HTTP. Berliner Zeitung body returned Cache miss. No explicit denial was observed.",
+    "source_ids": [
+      "GER202102-S032",
+      "GER202102-S033"
+    ],
+    "affected_candidates": [
+      "GER202102-E011"
+    ],
+    "required_followup": "Retry only through ordinary permitted retrieval with a fresh receipt and saved manual review; preserve search_only if technical access remains unavailable."
+  },
+  {
+    "gap_id": "GER202102-G005",
+    "type": "event_identity",
+    "description": "Search-only reports of a 13 February Berlin anti-lockdown/Querdenker action do not yet establish whether they describe the same gathering, distinct actions, actual turnout or registrations.",
+    "source_ids": [
+      "GER202102-S007",
+      "GER202102-S037",
+      "GER202102-S038",
+      "GER202102-S039"
+    ],
+    "affected_candidates": [
+      "GER202102-E007"
+    ],
+    "required_followup": "Read contemporary reports and reconcile date, route, actual turnout, demand, and whether the coverage refers to one or more events."
+  },
+  {
+    "gap_id": "GER202102-G006",
+    "type": "threshold",
+    "description": "Munich taxi convoy is reported as 150 taxis/vehicles, but no number of people is given; vehicle totals cannot establish the 50-person threshold.",
+    "source_ids": [
+      "GER202102-S012"
+    ],
+    "affected_candidates": [
+      "GER202102-E006"
+    ],
+    "required_followup": "Find a people count or retain pending_threshold."
+  },
+  {
+    "gap_id": "GER202102-G007",
+    "type": "threshold",
+    "description": "Munich Marienplatz action is described as about 50 people, placing the estimate at the minimum boundary.",
+    "source_ids": [
+      "GER202102-S012"
+    ],
+    "affected_candidates": [
+      "GER202102-E008"
+    ],
+    "required_followup": "Verify the actual person count from an independent or contemporaneous account."
+  },
+  {
+    "gap_id": "GER202102-G008",
+    "type": "date_and_state_target",
+    "description": "AVL February archive describes hundreds at the Red Rathaus on a Wednesday in solidarity with people affected by the camp eviction; the reviewed text does not supply an exact day or clear demand.",
+    "source_ids": [
+      "GER202102-S036"
+    ],
+    "affected_candidates": [
+      "GER202102-E012"
+    ],
+    "required_followup": "Resolve date and a demand directed to Berlin or German authorities."
+  },
+  {
+    "gap_id": "GER202102-G009",
+    "type": "violence_attribution",
+    "description": "DPA Annaberg material includes an insult report against police and other alleged offenses; no actor attribution sufficient for protester-violence coding was established. Dresden vehicle count is separate from people and is not used for threshold.",
+    "source_ids": [
+      "GER202102-S035",
+      "GER202102-S007"
+    ],
+    "affected_candidates": [
+      "GER202102-E013",
+      "GER202102-E014"
+    ],
+    "required_followup": "Read exact actor attribution if needed for violence coding; preserve unknown absent explicit evidence."
+  },
+  {
+    "gap_id": "GER202102-G010",
+    "type": "announcement",
+    "description": "DPA mentions a Vogtland convoy plan (about 90 vehicles/130 planned people); the source does not establish execution.",
+    "source_ids": [
+      "GER202102-S035"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep excluded as announcement unless a source verifies that the action occurred."
+  },
+  {
+    "gap_id": "GER202102-G011",
+    "type": "execution",
+    "description": "Munich SZ mentions an announced Navalny solidarity demonstration; the reviewed passage does not verify execution.",
+    "source_ids": [
+      "GER202102-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find an event-day report or retain as an unexecuted/uncertain announcement lead."
+  },
+  {
+    "gap_id": "GER202102-G012",
+    "type": "date_and_unit",
+    "description": "CILIP paragraph about a Berlin anti-Corona/AfD-near gathering and counterdemonstrators did not yield an exact February event date in the reviewed passage; it may belong outside this month.",
+    "source_ids": [
+      "GER202102-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check the chronology and contemporary Berlin reports for date, event identity, counts, and separate counterdemonstration."
+  },
+  {
+    "gap_id": "GER202102-G013",
+    "type": "continuity_and_response",
+    "description": "For most candidates, event closure, continuation across dates/months, accommodation, arrests, beatings, dispersal, ignore, killings and shootings are not established by the partial read evidence.",
+    "source_ids": [
+      "GER202102-S007",
+      "GER202102-S012",
+      "GER202102-S031",
+      "GER202102-S035",
+      "GER202102-S036"
+    ],
+    "affected_candidates": [
+      "GER202102-E001",
+      "GER202102-E002",
+      "GER202102-E003",
+      "GER202102-E004",
+      "GER202102-E005",
+      "GER202102-E006",
+      "GER202102-E007",
+      "GER202102-E008",
+      "GER202102-E009",
+      "GER202102-E010",
+      "GER202102-E011",
+      "GER202102-E012",
+      "GER202102-E013",
+      "GER202102-E014",
+      "GER202102-E015",
+      "GER202102-E016",
+      "GER202102-E017"
+    ],
+    "required_followup": "Review contemporary event follow-up and preserve unknown fields when no direct evidence exists; do not use article publication or month end as an event end."
+  }
+]

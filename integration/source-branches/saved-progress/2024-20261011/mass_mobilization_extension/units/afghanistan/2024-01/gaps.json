@@ -1,0 +1,78 @@
+[
+  {
+    "gap_id": "AFG202401-G001",
+    "type": "archive_access",
+    "description": "Three exact source bodies were opened after fresh receipt/manual review. A third priority Report.az URL was checked, but two initial gates deferred on unstable inputs; a later stable gate allowed one request that returned an internal tool error and no page body. No body verification for remaining leads or systematic archive-equivalent coverage is established.",
+    "source_ids": [
+      "AFG202401-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue date-anchored searches and review other relevant contemporary sources after fresh per-attempt receipt/manual review; preserve archive access gaps."
+  },
+  {
+    "gap_id": "AFG202401-G002",
+    "type": "search_method",
+    "description": "Search result ordering/date filters are unreliable and returned substantial older, future-dated, diaspora, conflict and unrelated material; absence of in-window hits is not evidence no protest occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review exact publication/event dates from permitted source bodies and broaden local outlet/weekly/sector searches."
+  },
+  {
+    "gap_id": "AFG202401-G003",
+    "type": "language_coverage",
+    "description": "Discovery included English, Dari and Pashto queries, but search-engine indexing and script/term coverage are incomplete; no local-language articles were opened or translated from bodies.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue Dari/Pashto variants and local/regional outlets after access gate; add other locally relevant languages where indicated."
+  },
+  {
+    "gap_id": "AFG202401-G004",
+    "type": "continuity",
+    "description": "The opened Jinha report concerns a protest published in 2023 and gives an internally inconsistent event-date string (“Sunday, March 2”); no January 2024 episode is established. Continuity of any older episode is outside this unit unless linked to a 2024 action.",
+    "source_ids": [
+      "AFG202401-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not assign this report to January 2024; only follow an older episode into this unit if a 2024 source establishes continuation."
+  },
+  {
+    "gap_id": "AFG202401-G005",
+    "type": "date_anchor",
+    "description": "Jinha is a 2023 report; Khaama S004 is dated October 2024 and S005 May 2025; Report.az could not be fetched after a stable gate and has no verified date or event details. The Guardian lead remains search-only. No January 2024 event is established.",
+    "source_ids": [
+      "AFG202401-S001",
+      "AFG202401-S002",
+      "AFG202401-S003",
+      "AFG202401-S004",
+      "AFG202401-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain Report.az as unresolved because the one permitted open produced no page body; follow remaining leads only with fresh source-specific gate/manual review and accessible results."
+  },
+  {
+    "gap_id": "AFG202401-G006",
+    "type": "capture_retention",
+    "description": "Full formatted search response text was not saved during tool calls and is no longer accessible through a supported tool. The durable log retains parsed displayed title/URL/citation-token headers only, with native result metadata and clocks null; exact output snippets are unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat current records as parsed rendered-output captures, not native event_msg captures. Do not reconstruct old snippets. If later searches are authorized, retain the exact available output string privately with a SHA-256 manifest and disclose any unavailable metadata."
+  },
+  {
+    "gap_id": "AFG202401-G007",
+    "type": "uncaptured_query_response",
+    "description": "The first actual invocation of AFG202401-Q001 had a capture serialization failure because btoa was unavailable. Its formatted response was not durably retained; the same query was run once again and that repeated response is the sole persisted Q001 record.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No reconstruction or duplicate record was made; count the persisted search log rows as captured responses and retain this disclosure."
+  },
+  {
+    "gap_id": "AFG202401-G008",
+    "type": "source_access",
+    "description": "Report.az S003 returned an internal tool error stating that the exact URL was not accessible through this tool; no HTTP status or page body was exposed. Two gate attempts deferred due to changing inputs; a later stable receipt/manual review preceded the single failed open. No retry or alternate URL was attempted.",
+    "source_ids": [
+      "AFG202401-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Leave publication/event dates and all factual fields unknown unless a future approved exact-URL attempt can be safely gated; do not treat this tool error as an HTTP denial or confirmed missing page."
+  }
+]

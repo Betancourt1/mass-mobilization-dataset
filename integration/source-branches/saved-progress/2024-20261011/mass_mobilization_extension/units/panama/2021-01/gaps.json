@@ -1,0 +1,221 @@
+[
+  {
+    "gap_id": "PAN-G001",
+    "type": "participants",
+    "dimensions": [
+      "participants"
+    ],
+    "description": "No attendee estimate is available for the January 18 Causa Justa gatherings. The reported 'dozens of drivers' are motorists affected by closures, not demonstrators.",
+    "source_ids": [
+      "PAN-2021-01-S003"
+    ],
+    "affected_candidates": [
+      "PAN202101-E001"
+    ],
+    "required_followup": "Search contemporary reports, organizer statements and images with explicit participant counts; do not infer a count from detained people or traffic."
+  },
+  {
+    "gap_id": "PAN-G002",
+    "type": "episode_unit",
+    "dimensions": [
+      "episode_unit",
+      "dates"
+    ],
+    "description": "The report lists multiple simultaneous locations and a multi-item movement petition but does not establish whether these were coordinated components of one episode, distinct local actions, or the physical end of the gathering.",
+    "source_ids": [
+      "PAN-2021-01-S003"
+    ],
+    "affected_candidates": [
+      "PAN202101-E001"
+    ],
+    "required_followup": "Find reports for each location and subsequent days; establish organizer coordination, start/end evidence and whether any activity was continuous across months."
+  },
+  {
+    "gap_id": "PAN-G003",
+    "type": "state_response",
+    "dimensions": [
+      "state_response",
+      "violence_casualties"
+    ],
+    "description": "Only reported arrests and police reopening of streets are coded. Beatings, shootings, killings, protester violence and accommodation remain unknown; tire burning and an official accusation do not settle those fields.",
+    "source_ids": [
+      "PAN-2021-01-S003"
+    ],
+    "affected_candidates": [
+      "PAN202101-E001"
+    ],
+    "required_followup": "Seek contemporaneous accounts or official/rights documentation of each response separately, tied to this January 18 action."
+  },
+  {
+    "gap_id": "PAN-G004",
+    "type": "participants",
+    "dimensions": [
+      "participants"
+    ],
+    "description": "The January 21 Causa Justa report provides an arrest count but no demonstrator attendance estimate. Arrests cannot establish the >=50 threshold.",
+    "source_ids": [
+      "PAN-2021-01-S006"
+    ],
+    "affected_candidates": [
+      "PAN202101-E002"
+    ],
+    "required_followup": "Search other contemporary coverage and organizer/official records for an actual turnout estimate or explicit crowd-size description."
+  },
+  {
+    "gap_id": "PAN-G005",
+    "type": "episode_unit",
+    "dimensions": [
+      "episode_unit",
+      "dates"
+    ],
+    "description": "January 21 is reported as a new protest by Causa Justa three days after January 18; no source establishes a continuous physical gathering between dates or resolves the manual's episode boundary rule.",
+    "source_ids": [
+      "PAN-2021-01-S003",
+      "PAN-2021-01-S006",
+      "PAN-2021-01-S008"
+    ],
+    "affected_candidates": [
+      "PAN202101-E001",
+      "PAN202101-E002"
+    ],
+    "required_followup": "Seek the additional Coding Procedure and contemporary intervening-day reports; preserve both dates without merger until rule and physical continuity evidence resolve the boundary."
+  },
+  {
+    "gap_id": "PAN-G006",
+    "type": "state_response",
+    "dimensions": [
+      "state_response"
+    ],
+    "description": "La Prensa reports an actual electrical discharge from a police officer using a Taser pistol against Carlos Outten, who was taken for medical attention. No particular injury or separate aiming action is described, and the source does not establish whether this maps to the original beating category. It does not report firearm use. Police intervention at the port does not specify an attempt to move participants or break up the protest. Accommodation and other response fields remain unknown.",
+    "source_ids": [
+      "PAN-2021-01-S006"
+    ],
+    "affected_candidates": [
+      "PAN202101-E002"
+    ],
+    "required_followup": "Preserve the reported mechanism and discharge, target, medical-attention consequence, absence of a specified injury, and that aiming is not separately described. Consult the original category rule for Taser/beating mapping. Seek a separate explicit account before coding crowd dispersal, shootings, or other responses."
+  },
+  {
+    "gap_id": "PAN-G007",
+    "type": "participants",
+    "dimensions": [
+      "participants"
+    ],
+    "description": "The January 25 Jóvenes por Panamá demonstration has no attendee estimate in the opened TVN report, so the >=50 criterion is unverified. Police presence is not used to infer size or response.",
+    "source_ids": [
+      "PAN-2021-01-S009"
+    ],
+    "affected_candidates": [
+      "PAN202101-E003"
+    ],
+    "required_followup": "Search other contemporary reports and movement statements for an actual crowd estimate; seek explicit reporting of response actions, not mere police presence."
+  },
+  {
+    "gap_id": "PAN-G008",
+    "type": "source_access",
+    "dimensions": [
+      "source_access",
+      "episode_unit",
+      "participants"
+    ],
+    "description": "TVN search results describe a brief Jan 18 Colón closure labeled 'rebelión', but the article body remains unavailable after two cache misses and one DNS failure on an ordinary HTTPS request. Its group identity, crowd size, response, and relationship to Causa Justa remain unverified.",
+    "source_ids": [
+      "PAN-2021-01-S004"
+    ],
+    "affected_candidates": [
+      "PAN202101-E004",
+      "PAN202101-E001"
+    ],
+    "required_followup": "Retry only if a normal public article route or independent contemporaneous source becomes available; otherwise preserve pending_evidence and do not merge or split the Jan 18 actions."
+  },
+  {
+    "gap_id": "PAN-G009",
+    "type": "source_access",
+    "dimensions": [
+      "source_access",
+      "participants",
+      "episode_unit"
+    ],
+    "description": "A Jan. 22 Panamá América search-result article says doctors protested at Complejo Hospitalario Arnulfo Arias Madrid and Hospital Santo Tomás on Jan. 21, but the body could not be opened. The about-60 figure is people said to have been omitted from vaccination, not demonstrator attendance.",
+    "source_ids": [
+      "PAN-2021-01-S021"
+    ],
+    "affected_candidates": [
+      "PAN202101-E005"
+    ],
+    "required_followup": "Retrieve the article through an ordinary accessible route or independent contemporaneous body source; establish exact location(s), >=50 turnout and physical episode boundaries."
+  },
+  {
+    "gap_id": "PAN-G010",
+    "type": "participants",
+    "dimensions": [
+      "participants",
+      "episode_unit",
+      "state_response"
+    ],
+    "description": "The Jan. 22 Hospital Santo Tomás protest is body-confirmed and peaceful, but no demonstrator count, physical end time, actual government reception/negotiation or response is reported. Search-result accounts place similar protests on Jan. 21 and other sites on Jan. 22, without evidence of uninterrupted presence.",
+    "source_ids": [
+      "PAN-2021-01-S014",
+      "PAN-2021-01-S017",
+      "PAN-2021-01-S021"
+    ],
+    "affected_candidates": [
+      "PAN202101-E005",
+      "PAN202101-E006"
+    ],
+    "required_followup": "Find an actual attendance estimate and source-specific evidence for physical start/end and any state response. Do not treat anticipated meetings or later action as accommodation/continuity."
+  },
+  {
+    "gap_id": "PAN-G011",
+    "type": "episode_unit",
+    "dimensions": [
+      "participants",
+      "episode_unit",
+      "state_response"
+    ],
+    "description": "Crítica reports Jan. 22 protests at the Complejo Hospitalario Arnulfo Arias Madrid, CSS polyclinics in Panama Oeste and Chiriquí. It does not name the latter facilities or count protest attendees; its ~150 figure is a vaccination queue. Coordination and boundaries among local gatherings are unresolved.",
+    "source_ids": [
+      "PAN-2021-01-S017"
+    ],
+    "affected_candidates": [
+      "PAN202101-E007"
+    ],
+    "required_followup": "Identify individual facilities and local organizer/call; obtain separate attendance, physical end and state-response evidence for each site."
+  },
+  {
+    "gap_id": "PAN-G012",
+    "type": "source_access",
+    "dimensions": [
+      "source_access",
+      "participants",
+      "episode_unit"
+    ],
+    "description": "TVN's Jan. 23 David report describes a hospital demonstration, but two body-access routes failed (reader cache miss and a normal HTTPS request failing at DNS). Turnout and relation to Jan. 22 Chiriquí reporting are unresolved.",
+    "source_ids": [
+      "PAN-2021-01-S015"
+    ],
+    "affected_candidates": [
+      "PAN202101-E008"
+    ],
+    "required_followup": "Seek an ordinary public body or independent contemporaneous report; establish attendance threshold, first physical day and local boundary."
+  },
+  {
+    "gap_id": "PAN-G013",
+    "type": "source_access",
+    "dimensions": [
+      "source_access",
+      "participants",
+      "episode_unit",
+      "state_response"
+    ],
+    "description": "Jan. 25 search-result items report a continuing protest at the CSS Blas Gómez Chetro polyclinic in Arraiján, but both body opens and standard HTTPS requests failed. First physical day, turnout, departure and response are unknown.",
+    "source_ids": [
+      "PAN-2021-01-S018",
+      "PAN-2021-01-S019"
+    ],
+    "affected_candidates": [
+      "PAN202101-E009"
+    ],
+    "required_followup": "Seek accessible full reports and exact Jan. 22-25 local coverage. Do not merge with other Panama Oeste actions absent facility identity and physical continuity evidence."
+  }
+]

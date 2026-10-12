@@ -1,0 +1,30 @@
+{
+  "unit_id": "cambodia_2021-01",
+  "country": "Cambodia",
+  "month": "2021-01",
+  "agent_task": "/root/cambodia_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T07:48:00.692248+00:00",
+  "started_at_note": "Actual coordinator assignment timestamp; not invented research-search time.",
+  "finished_at": "2026-10-08T08:01:38.967Z",
+  "n_queries": 43,
+  "n_sources": 113,
+  "n_candidates": 17,
+  "n_excluded": 5,
+  "n_continuations": 0,
+  "n_gaps": 15,
+  "coverage_assessment": "Open-web first pass in English and Khmer, weekly, sector, regional and neighbor-month checks. Uneven local coverage, inaccessible originals, unresolved episode/target/threshold questions; not exhaustive or LexisNexis-equivalent.",
+  "baseline_gate": "pending_official_baseline",
+  "eligibility_counts": {
+    "pending_evidence": 4,
+    "pending_unit": 3,
+    "pending_threshold": 4,
+    "pending_state_target": 5,
+    "proposed_include": 1
+  },
+  "temporary_resources": {
+    "started": "Two foreground ordinary-public-HTTPS readers; no servers, browsers, watchers, containers or background workers.",
+    "verification": "Foreground sessions67037 and41026 both observed exit_code0; all other one-shot file/read commands completed. No temporary resource remains.",
+    "article_storage": "Selected paragraphs read in memory only; no full articles saved."
+  }
+}

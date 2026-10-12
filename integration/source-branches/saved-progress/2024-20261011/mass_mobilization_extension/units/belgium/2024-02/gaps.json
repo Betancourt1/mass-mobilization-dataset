@@ -1,0 +1,110 @@
+[
+  {
+    "gap_id": "belgium_2024-02_G001",
+    "type": "source_access",
+    "description": "The VRT NWS follow-up’s stable gate was manual_review, but the web open returned an internal fetch error and an ordinary HTTPS request failed DNS before HTTP (HTTP 000, no bytes). This is a technical retrieval failure, not an observed denial; no article content was read.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep search-only and rely on independent sources; do not repeat solely to reconstruct the failed response."
+  },
+  {
+    "gap_id": "belgium_2024-02_G002",
+    "type": "episode_unit",
+    "description": "Feb1 and Feb26 were both Brussels farmer gatherings near EU institutions, but available bodies do not establish continuous organization or action between them; Jan30–31 actions are also adjacent in the wider wave.",
+    "source_ids": [
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "belgium_2024-02_E001",
+      "belgium_2024-02_E002"
+    ],
+    "required_followup": "Compare organizers, demands, participant coordination, dates and actual end dates; do not merge solely because the issue and broad campaign overlap."
+  },
+  {
+    "gap_id": "belgium_2024-02_G003",
+    "type": "lead_evidence",
+    "description": "Search-only leads include the Feb1 agriculture actions, Feb13 Antwerp port blockade, Assange demonstration notice, VRT liveblog, and AP story; no body evidence here establishes exact event boundaries, attendance, targets or relation to the body-read Feb1 and Feb26 gatherings.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S005",
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [
+      "belgium_2024-02_E001",
+      "belgium_2024-02_E002"
+    ],
+    "required_followup": "Assess the exact source URLs independently after fresh gates/manual review, distinguish worker strikes and vehicle counts from public attendance, and separate Belgian-government demands from EU-institution targets."
+  },
+  {
+    "gap_id": "belgium_2024-02_G004",
+    "type": "lead_evidence",
+    "description": "Two captured search-layer sources were missing from the February inventory and are now recorded as S013 (Landbouwleven, publication shown as Feb1) and S014 (Democracy Now!, publication Feb1). Their snippets may describe the already coded Feb1 Brussels EU-summit gathering, but this correspondence is unverified. The Landbouwleven snippet reports a protest ending/tractors leaving; Democracy Now! describes pressure on EU lawmakers. Neither snippet establishes a Belgian-government target, person turnout, event end or independent corroboration.",
+    "source_ids": [
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "belgium_2024-02_E001"
+    ],
+    "required_followup": "Keep both cards search_only. If later reviewed, use fresh exact-URL gates and manual review. Confirm article/body date and whether they refer to candidate E001; do not infer headcount from tractors or treat either snippet as independent body evidence."
+  },
+  {
+    "gap_id": "belgium_2024-02_G005",
+    "type": "source_followup",
+    "description": "Captured q004 search excerpt S015 (Landbouwleven, published Mar26) explicitly describes a large Brussels farmers’ demonstration on Feb26 and says three participants were being prosecuted. This is a later legal-process lead for E002, not proof of arrests, custody or any other contemporaneous state response. The article body was not read.",
+    "source_ids": [
+      "S015"
+    ],
+    "affected_candidates": [
+      "belgium_2024-02_E002"
+    ],
+    "required_followup": "Keep search_only. If later body access is authorized by a new gate/manual review, verify whether prosecution is tied to the Feb26 event and distinguish prosecution from arrest, detention or event-time response. Do not code arrests or any response from the search snippet."
+  },
+  {
+    "gap_id": "belgium_2024-02_G006",
+    "type": "lead_evidence",
+    "description": "Other relevant q004 search-only leads now inventoried: S016 Belga’s Feb1 EU-summit farmer protest excerpt, S017 BRUZZ’s Feb26 update about approximately 900 tractors/three injured officers, and S018 AP’s Feb2 Belgium-Netherlands roadblock excerpt. The first two may concern E001/E002 but do not independently verify body facts; the AP lead may concern a separate cross-border event with exact Belgian-side location unresolved. No body was read for these cards. The Belga excerpt S016 also points to a Ghent ring blockade and Halle-region motorway blockades; those are separate locations, not Brussels attendee counts. The EU Audiovisual Service photo-catalog lead S023 identifies a Feb1 Brussels photo set but supplies no crowd/demand evidence. S024 is The Bulletin’s Feb22 announcement of a planned Feb26 protest at Schuman during the EU agriculture ministers meeting; it may concern E002 but does not prove occurrence or turnout.",
+    "source_ids": [
+      "S016",
+      "S017",
+      "S018",
+      "S023",
+      "S024"
+    ],
+    "affected_candidates": [
+      "belgium_2024-02_E001",
+      "belgium_2024-02_E002"
+    ],
+    "required_followup": "Keep search_only. Verify each exact story/event, headcount versus vehicle totals, event boundary and Belgian-government versus EU target before coding. Do not infer arrests or other unreported responses. Determine whether Ghent/Halle actions were distinct local gatherings; do not merge them into Brussels or use the photo catalog as a crowd count. Verify whether the Bulletin announcement was executed and whether the action meets inclusion criteria; distinguish EU-institution context from a Belgian-government target."
+  },
+  {
+    "gap_id": "belgium_2024-02_G007",
+    "type": "source_followup",
+    "description": "January q002 search capture also returned S019 (NPO Radio 1, Feb27) and S020 (Welingelichte Kringen, Feb26/ANP dateline) as possible follow-ups to the Feb26 Brussels farmer gathering. Search excerpts mention EU ministers/policy and activists leaving; neither verifies a full event end, person attendance or a Belgian-government target. S020 signals ANP attribution and should not be presumed independent. The same January q002 capture includes S021, a De Morgen social headline with no post date, and February q017 includes S022, a Feb26 Independent headline about farmers protesting EU policy. S022 may relate to E002; S021’s event relation is unknown. No body or video was read.",
+    "source_ids": [
+      "S019",
+      "S020",
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [
+      "belgium_2024-02_E001",
+      "belgium_2024-02_E002"
+    ],
+    "required_followup": "Keep search_only and preserve cross-month capture pointers. Verify underlying sourcing and whether each account refers to E002; do not treat EU policy or early departures as Belgian-state demands or a confirmed episode end. Preserve S021 as an undated social-post lead and S022 as a headline/date lead; verify event correspondence, turnout and home-state target after any future access review."
+  },
+  {
+    "gap_id": "belgium_2024-02_G008",
+    "type": "out_of_period_disposition",
+    "description": "The January q002 search output also surfaced Boerderij and Landbouwleven items about a planned June4 Brussels farmers’ action (published May27/June4), outside the Jan–Mar 2024 unit window. These have no in-scope event coding role. The January q022 capture also surfaced a Brussels Times March2, 2023 article announcing a Brussels farmers’ convoy for March3, 2023 over Flemish nitrogen policy; this is outside the Jan–Mar 2024 window.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain as an out-of-period search disposition only; do not import June activity into January–March. Keep the 2023 item out of the 2024 event inventory."
+  }
+]

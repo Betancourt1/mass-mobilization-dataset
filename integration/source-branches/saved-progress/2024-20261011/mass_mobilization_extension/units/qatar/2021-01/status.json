@@ -1,0 +1,32 @@
+{
+  "unit_id": "qatar_2021-01",
+  "country": "Qatar",
+  "month": "2021-01",
+  "agent_task": "/root/qatar_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-09T00:07:16Z",
+  "finished_at": "2026-10-09T00:36:33Z",
+  "n_queries": 21,
+  "n_sources": 18,
+  "n_candidates": 0,
+  "n_excluded": 7,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "coverage_assessment": "21 English and Arabic open-web searches cover weekly January windows, local/regional outlets, Qatar News Agency, and December 2020/February 2021 boundary checks. 387 result headers are persisted; no total result counts were available, and Q012 execution time was not captured exactly. Eighteen source cards represent eighteen distinct exact URLs: eight opened, nine search_only, and one blocked. S003 retains the original Q001 discovery ref and the opened page ref; literal search logs are unchanged. No January candidate was identified, which does not establish that no protest occurred. The Jan. 26 Al-Sharq issue received a keyword screen, but one issue cannot establish coverage. LexisNexis and systematic newspaper archives remain unavailable; Sabq direct retrieval failed local DNS and the cited Bdnews24 URL returned HTTP 403.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_status_counts": {
+    "search_only": 9,
+    "opened": 8,
+    "blocked": 1
+  },
+  "eligibility_counts": {},
+  "validation": "Pre-freeze reconciliation passed: the duplicate exact Doha News URL is represented once as S003 with both Q001 discovery ref and opened-page ref; all source references resolve; 18 source IDs match 18 distinct exact URLs; access counts and status counts agree; all required files parse. Final formatting check also removed trailing spaces/tabs from lines of S018.title only; search_log.jsonl remains byte-for-byte unchanged.",
+  "temporary_resources": {
+    "started": [
+      "three finite Al-Sharq HTTPS curl attempts: initial default-sandbox request, first exact-URL read for text screening, second exact-URL read solely for hashing",
+      "one finite HTTPS curl request to the Sabq article URL",
+      "one finite PDF text extraction for the first Al-Sharq copy"
+    ],
+    "closure": "Al-Sharq default-sandbox curl exited 6 (local DNS failure; HTTP 000); both later exact-URL curl requests exited 0 (HTTP 200; PDF, 15,821,337 bytes); pdftotext exited 0 on the first successful copy. Sabq curl exited 6 (local DNS failure; HTTP 000). All temporary PDF, text and header files were removed and verified absent. No long-lived resources were started."
+  }
+}

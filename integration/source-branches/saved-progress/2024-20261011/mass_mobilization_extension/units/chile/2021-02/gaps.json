@@ -1,0 +1,364 @@
+[
+  {
+    "gap_id": "CHL-2021-02-G001",
+    "type": "baseline_access",
+    "description": "Sin cotejo fila a fila contra la versión oficial de Mass Mobilization ni licencia específica de sus archivos. Todos los registros son candidatos separados.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CHL-2021-02-E001",
+      "CHL-2021-02-E002",
+      "CHL-2021-02-E003",
+      "CHL-2021-02-E004",
+      "CHL-2021-02-E005",
+      "CHL-2021-02-E006",
+      "CHL-2021-02-E007",
+      "CHL-2021-02-E008",
+      "CHL-2021-02-E009",
+      "CHL-2021-02-E010",
+      "CHL-2021-02-E011",
+      "CHL-2021-02-E012",
+      "CHL-2021-02-E013",
+      "CHL-2021-02-E014",
+      "CHL-2021-02-E015",
+      "CHL-2021-02-E016",
+      "CHL-2021-02-E017",
+      "CHL-2021-02-E018",
+      "CHL-2021-02-E019",
+      "CHL-2021-02-E020",
+      "CHL-2021-02-E021",
+      "CHL-2021-02-E022",
+      "CHL-2021-02-E023",
+      "CHL-2021-02-E024"
+    ],
+    "required_followup": "Obtener base oficial, corte exacto, licencia y reglas adicionales antes de decidir novedades, duplicados o contribución."
+  },
+  {
+    "gap_id": "CHL-2021-02-G002",
+    "type": "archive_method",
+    "description": "40 consultas de web abierta en español y una general en inglés, ventanas de cuatro semanas y búsquedas temáticas/locales. No equivale a búsqueda sistemática All News/Major World Publications de LexisNexis. Buscador devuelve años y países distintos pese a operadores.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Replicar protocolo original en hemeroteca equivalente; registrar búsquedas sin resultados y variación de cobertura regional."
+  },
+  {
+    "gap_id": "CHL-2021-02-G003",
+    "type": "inaccessible_sources",
+    "description": "24Horas S006 y S008 devolvieron timeout al abrir. Noticia de boletín Estallido Social enlaza material original de lesión ocular cuya extracción no expuso destino utilizable.",
+    "source_ids": [
+      "CHL-2021-02-S006",
+      "CHL-2021-02-S008",
+      "CHL-2021-02-S024"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E019"
+    ],
+    "required_followup": "Reabrir URLs sin eludir bloqueos; obtener registro original de lesión y protesta del 19 antes de precisar mecanismo o duración."
+  },
+  {
+    "gap_id": "CHL-2021-02-G004",
+    "type": "official_archive_incomplete",
+    "description": "Índice de Dirección del Trabajo enumera informes diarios de huelgas legales de febrero pero extracción no expone enlaces de PDF descargables. El índice no proporciona aún las filas.",
+    "source_ids": [
+      "CHL-2021-02-S021",
+      "CHL-2021-02-S102"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Acceder lícitamente a PDFs oficiales y examinar huelgas con reunión pública y demanda estatal; no incluir toda huelga administrativa automáticamente."
+  },
+  {
+    "gap_id": "CHL-2021-02-G005",
+    "type": "threshold",
+    "description": "Falta número de asistentes locales o evidencia >=50 para Bellavista, Futrono, Concepción, Ñuke Mapu, carta de La Moneda, viernes 19, Villa Francia, Lautaro y Lo Prado. >35 en Lo Prado no acredita mínimo 50 ni permite descartar un grupo mayor.",
+    "source_ids": [
+      "CHL-2021-02-S004",
+      "CHL-2021-02-S028",
+      "CHL-2021-02-S041",
+      "CHL-2021-02-S046",
+      "CHL-2021-02-S047",
+      "CHL-2021-02-S048",
+      "CHL-2021-02-S091",
+      "CHL-2021-02-S022",
+      "CHL-2021-02-S009"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E001",
+      "CHL-2021-02-E002",
+      "CHL-2021-02-E006",
+      "CHL-2021-02-E017",
+      "CHL-2021-02-E018",
+      "CHL-2021-02-E019",
+      "CHL-2021-02-E020",
+      "CHL-2021-02-E021",
+      "CHL-2021-02-E023"
+    ],
+    "required_followup": "Buscar recuentos contemporáneos, fotos/contexto verificable o partes; mantener unknown sin sumar poblaciones afectadas."
+  },
+  {
+    "gap_id": "CHL-2021-02-G006",
+    "type": "threshold_boundary",
+    "description": "Villarrica y Mataveri se describen como aproximadamente 50, sin límite mínimo inequívoco. Se aplica mismo estado pending_threshold a ambos.",
+    "source_ids": [
+      "CHL-2021-02-S004",
+      "CHL-2021-02-S040"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E009",
+      "CHL-2021-02-E013"
+    ],
+    "required_followup": "Revisión independiente del significado de estimación y otro recuento; conservar cifra textual sin exactitud inventada."
+  },
+  {
+    "gap_id": "CHL-2021-02-G007",
+    "type": "state_target",
+    "description": "Baquedano del 5 y del 19, San Antonio del 12 y ataque de Santa Rosa carecen de demanda estatal específica en fuentes abiertas. El objetivo estatal de campamento Rucalhue al inicio requiere distinguir rechazo a empresa y demanda pública.",
+    "source_ids": [
+      "CHL-2021-02-S062",
+      "CHL-2021-02-S042",
+      "CHL-2021-02-S009",
+      "CHL-2021-02-S023",
+      "CHL-2021-02-S004",
+      "CHL-2021-02-S076",
+      "CHL-2021-02-S081"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E003",
+      "CHL-2021-02-E014",
+      "CHL-2021-02-E016",
+      "CHL-2021-02-E019",
+      "CHL-2021-02-E024"
+    ],
+    "required_followup": "Obtener convocatoria o crónica del acto; no heredar motivo de otros viernes o del movimiento general."
+  },
+  {
+    "gap_id": "CHL-2021-02-G008",
+    "type": "closure",
+    "description": "Muchos registros sólo acreditan inicio/actividad y no cierre. Fin del ataque en Puente Alto a las 22:10 no acredita cierre de toda protesta. No se fijan fechas finales por publicación, fin del mes o reunión posterior.",
+    "source_ids": [
+      "CHL-2021-02-S004",
+      "CHL-2021-02-S053"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E002",
+      "CHL-2021-02-E003",
+      "CHL-2021-02-E004",
+      "CHL-2021-02-E005",
+      "CHL-2021-02-E006",
+      "CHL-2021-02-E008",
+      "CHL-2021-02-E009",
+      "CHL-2021-02-E010",
+      "CHL-2021-02-E011",
+      "CHL-2021-02-E012",
+      "CHL-2021-02-E015",
+      "CHL-2021-02-E016",
+      "CHL-2021-02-E017",
+      "CHL-2021-02-E018",
+      "CHL-2021-02-E019",
+      "CHL-2021-02-E020",
+      "CHL-2021-02-E022",
+      "CHL-2021-02-E024"
+    ],
+    "required_followup": "Seguimiento posterior de cada acción y distinguir fin físico, última actividad observada y negociación sin reunión pública."
+  },
+  {
+    "gap_id": "CHL-2021-02-G009",
+    "type": "episode_boundary",
+    "description": "E007 marcha Baquedano-centro, E011 artistas en Plaza de Armas y E024 ataque en Santa Rosa del 8 podrían ser partes de un recorrido. No se acredita separación completa ni organización nacional de todos los actos posteriores a Panguipulli.",
+    "source_ids": [
+      "CHL-2021-02-S002",
+      "CHL-2021-02-S004",
+      "CHL-2021-02-S010"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E007",
+      "CHL-2021-02-E011",
+      "CHL-2021-02-E024"
+    ],
+    "required_followup": "Reconstruir horarios/recorridos/convocantes; fusionar o dividir sólo con decisión documentada. E011/E024 siguen pending_unit."
+  },
+  {
+    "gap_id": "CHL-2021-02-G010",
+    "type": "continuity_handoff",
+    "description": "Rucalhue inicia campamento continuo el 15/02 según relatos posteriores y continúa en marzo/julio. Orden futura de desalojo no acredita ejecución ni cierre. Tamaño y demanda estatal al comenzar pendientes.",
+    "source_ids": [
+      "CHL-2021-02-S076",
+      "CHL-2021-02-S077",
+      "CHL-2021-02-S081",
+      "CHL-2021-02-S082",
+      "CHL-2021-02-S083",
+      "CHL-2021-02-S103"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E016"
+    ],
+    "required_followup": "Unidad marzo y meses siguientes: continuations con propietario febrero, verificar evolución de umbral/objetivo y fecha real del desalojo sin crear una fila por mes."
+  },
+  {
+    "gap_id": "CHL-2021-02-G011",
+    "type": "january_handoff",
+    "description": "Pucón CHL-2021-01-E014 comienza 27/01. Cambio de fase sanitaria desde 16/02 aparece como política, no como prueba de continuidad física, cierre o concesión causada por acto de enero.",
+    "source_ids": [
+      "CHL-2021-02-S035",
+      "CHL-2021-02-S036",
+      "CHL-2021-02-S038",
+      "CHL-2021-02-S039"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Cruzar con unidad enero; buscar acción física posterior. Mantener comienzo en enero y no asumir final 16/02."
+  },
+  {
+    "gap_id": "CHL-2021-02-G012",
+    "type": "january_handoff",
+    "description": "Cerrillos CHL-2021-01-E016 comienza 31/01. Barrido febrero no halló noticia verificable de continuidad física o nuevo acto. Esto no demuestra ausencia.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Cruzar fuentes originales de enero y prensa municipal de febrero; nueva fecha sólo si nueva reunión está documentada."
+  },
+  {
+    "gap_id": "CHL-2021-02-G013",
+    "type": "january_handoff",
+    "description": "Músicos CHL-2021-01-E004 inicia 7/01. No se confirmó continuidad física en febrero. Artistas por Francisco Martínez del 6/8 no se fusionan por ocupación común de sus participantes.",
+    "source_ids": [
+      "CHL-2021-02-S010",
+      "CHL-2021-02-S028",
+      "CHL-2021-02-S037",
+      "CHL-2021-02-S098"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E006",
+      "CHL-2021-02-E011"
+    ],
+    "required_followup": "Comprobar convocantes y demandas antes de unir episodios; enero retiene propiedad de su acto."
+  },
+  {
+    "gap_id": "CHL-2021-02-G014",
+    "type": "syndication",
+    "description": "SwissInfo/El Mostrador del 13 tienen material EFE; Crónica Digital reproduce Prensa Latina. Variantes AMP/canonical y sindicación Reuters/Europa Press no constituyen corroboraciones independientes.",
+    "source_ids": [
+      "CHL-2021-02-S002",
+      "CHL-2021-02-S005",
+      "CHL-2021-02-S004",
+      "CHL-2021-02-S065",
+      "CHL-2021-02-S017",
+      "CHL-2021-02-S019",
+      "CHL-2021-02-S010",
+      "CHL-2021-02-S060",
+      "CHL-2021-02-S061",
+      "CHL-2021-02-S068",
+      "CHL-2021-02-S007",
+      "CHL-2021-02-S023"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E003",
+      "CHL-2021-02-E004",
+      "CHL-2021-02-E007",
+      "CHL-2021-02-E012",
+      "CHL-2021-02-E019",
+      "CHL-2021-02-E022"
+    ],
+    "required_followup": "Etiquetar familias de fuente y contrastar origen/parte policial; no contar URLs como fuentes independientes."
+  },
+  {
+    "gap_id": "CHL-2021-02-G015",
+    "type": "temporal_conflicts",
+    "description": "La Tercera bitácora llama sábado a muerte ocurrida viernes 5; La República URL 6 muestra publicación 5; Pressenza encabezado 10 incluye fecha interna 7. HRW 2021 narra 2020. Priorizar fecha explícita del acto.",
+    "source_ids": [
+      "CHL-2021-02-S004",
+      "CHL-2021-02-S064",
+      "CHL-2021-02-S081",
+      "CHL-2021-02-S099",
+      "CHL-2021-02-S100"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E004",
+      "CHL-2021-02-E008",
+      "CHL-2021-02-E009",
+      "CHL-2021-02-E010",
+      "CHL-2021-02-E016",
+      "CHL-2021-02-E023",
+      "CHL-2021-02-E024"
+    ],
+    "required_followup": "Revisión del texto y fecha original; conservar conflicto sin trasladar actos por fecha de URL."
+  },
+  {
+    "gap_id": "CHL-2021-02-G016",
+    "type": "response_attribution",
+    "description": "Lesión ocular del 19 tiene versiones distintas de mecanismo/autor. Golpes a brigadistas el 26 se reportan por videos de terceros no examinados. Disparo de comerciante con arma de aire no es shootings estatal. Muerte de Martínez precede las protestas, no es respuesta a ellas.",
+    "source_ids": [
+      "CHL-2021-02-S024",
+      "CHL-2021-02-S058",
+      "CHL-2021-02-S061",
+      "CHL-2021-02-S069"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E004",
+      "CHL-2021-02-E019",
+      "CHL-2021-02-E022"
+    ],
+    "required_followup": "Contrastar con documento/registro contemporáneo original y separar disparador, violencia privada y respuesta a manifestación."
+  },
+  {
+    "gap_id": "CHL-2021-02-G017",
+    "type": "police_balance_scope",
+    "description": "Balances policiales tienen alcance local/capital sin asignación completa: 17 detenidos el 5 podrían incluir orden pendiente; 19 el 19 y cinco carabineros heridos aparece como veinte en cuerpo de Europa Press. No convertir lesionados policiales en víctimas manifestantes.",
+    "source_ids": [
+      "CHL-2021-02-S062",
+      "CHL-2021-02-S009",
+      "CHL-2021-02-S023"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E003",
+      "CHL-2021-02-E019"
+    ],
+    "required_followup": "Revisar parte original y alcance geográfico/horario; no distribuir total agregado automáticamente."
+  },
+  {
+    "gap_id": "CHL-2021-02-G018",
+    "type": "announcement_vs_action",
+    "description": "Talcahuano y Dreams Temuco quedan sólo como descubrimiento de convocatoria/pedido. No acreditar fecha ni realización con noticia previa.",
+    "source_ids": [
+      "CHL-2021-02-S043",
+      "CHL-2021-02-S075"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Buscar cobertura después de convocatoria; reabrir si se documentan acción, asistencia, objetivo y fecha."
+  },
+  {
+    "gap_id": "CHL-2021-02-G019",
+    "type": "participant_denominator",
+    "description": "1.500 familias de Monticello, 300 pasajeros de Rapa Nui, alumnado afectado de Futrono y firmas de 1.200 organizaciones no son asistentes reunidos. Monticello sí tiene 80 personas en parte reproducido.",
+    "source_ids": [
+      "CHL-2021-02-S040",
+      "CHL-2021-02-S047",
+      "CHL-2021-02-S072",
+      "CHL-2021-02-S073",
+      "CHL-2021-02-S091"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E002",
+      "CHL-2021-02-E013",
+      "CHL-2021-02-E015",
+      "CHL-2021-02-E018"
+    ],
+    "required_followup": "Mantener denominador físico del acto; cualquier sustitución requiere evidencia explícita de presencia."
+  },
+  {
+    "gap_id": "CHL-2021-02-G020",
+    "type": "language_geographic_bias",
+    "description": "Investigación predominantemente en español; búsqueda inglesa sólo general. Sin búsqueda sistemática en mapudungun/rapanui ni archivos impresos locales. Prensa metropolitana y ola Panguipulli están sobrerrepresentadas.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Ampliar idioma/archivos regionales con investigador competente, especialmente zonas rurales, norte y movimientos laborales/estudiantiles de baja visibilidad."
+  },
+  {
+    "gap_id": "CHL-2021-02-G021",
+    "type": "ownership_date_unconfirmed",
+    "description": "Ñuke Mapu Avellanal está narrado el 17/02 como acción previa pero fecha real no queda expuesta. E017 conserva start_date null: no constituye inicio febrero confirmado.",
+    "source_ids": [
+      "CHL-2021-02-S048"
+    ],
+    "affected_candidates": [
+      "CHL-2021-02-E017"
+    ],
+    "required_followup": "Precisar inicio y cierre; trasladar a unidad propietaria si inició antes de febrero o documentar nueva acción. Mantener fuera de exportación aprobada mientras no se resuelva."
+  }
+]

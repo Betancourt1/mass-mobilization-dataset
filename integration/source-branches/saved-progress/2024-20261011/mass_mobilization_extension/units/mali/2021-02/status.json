@@ -1,0 +1,17 @@
+{
+  "unit_id": "mali_2021-02",
+  "country": "Mali",
+  "month": "2021-02",
+  "agent_task": "/root/mali_2021_02_batch59",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T16:34:14.801404+00:00",
+  "finished_at": "2026-10-10T17:19:21+00:00",
+  "n_queries": 30,
+  "n_sources": 40,
+  "n_candidates": 3,
+  "n_excluded": 12,
+  "n_continuations": 0,
+  "n_gaps": 11,
+  "coverage_assessment": "Nonexhaustive open-web first pass: 30 captured French/English and exploratory Bambara/Bamanankan searches yielded 638 ordered result headers. Raw rollout outputs and all 30 stored query records match one by one; 638 supersedes inconsistent interim counts of 665 and 637. Forty unique source cards remain search-only. Three candidate gatherings remain pending_evidence; no attendance threshold of 50 is established. Twelve exclusions preserve work stoppages without documented gatherings, an overseas France event, prospective statements and date/episode false leads. No event is approved or integrated. Exactly four body-request invocations occurred (three web.open Cache misses and one DNS failure before HTTP); all four have matching attempt outcomes and none read a body or encountered an observed denial. Initial and renewed gates, including two Kibaru checks, stopped before any further network request and are documented as no-request deferrals. LexisNexis-equivalent coverage, fluent local-language review, source independence, candidate crowd counts, event endpoints and official baseline/manual remain unresolved; no absence or exhaustiveness claim.",
+  "baseline_gate": "pending_official_baseline"
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "gap_id": "CV202102-G001",
+    "type": "source_access",
+    "description": "RTC source CV2102-S003 returned an actual HTTP 403 to one ordinary exact-URL request after a fresh stable receipt and manual review. Its body was not read; retrieval stopped.",
+    "source_ids": [
+      "CV2102-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve the denial and do not retry or seek a copy. Any future review must use other legitimately accessible evidence and must keep this source’s body unknown."
+  },
+  {
+    "gap_id": "CV202102-G002",
+    "type": "source_relationship",
+    "description": "RTC CV2102-S003 and A Nação CV2102-S002 have a plausible date, location, ministry and planned-action match, but no written origin or story link is documented. The relationship and whether S003 describes the same or a distinct action remain unresolved.",
+    "source_ids": [
+      "CV2102-S002",
+      "CV2102-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not combine the records or infer a separate episode from matching metadata alone. Seek independently accessible publication or archival linkage only if available without retrying the denied RTC URL."
+  },
+  {
+    "gap_id": "CV202102-G003",
+    "type": "event_status_and_threshold",
+    "description": "The reviewed A Nação passage says the MAA strike was suspended before starting, but does not report a gathering. No evidence establishes a separate public assembly, attendance, or a physical endpoint for an action in Santo Antão.",
+    "source_ids": [
+      "CV2102-S002",
+      "CV2102-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep no February event candidate unless evidence of an actually held public gathering and its threshold becomes available; do not treat workforce size or strike notice as turnout."
+  },
+  {
+    "gap_id": "CV202102-G004",
+    "type": "unverified_threat",
+    "description": "RTC CV2102-S005 reports a union threat to demonstrate outside Praia City Hall amid water-agency salary delays and concerns about sanitation dismissals, plus a separate Tourism Institute labor grievance. No demonstration date or execution is established.",
+    "source_ids": [
+      "CV2102-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If this lead is revisited, obtain a new stable exact-URL receipt and complete manual publisher/origin review before any body request; verify whether a dated public action occurred and whether its threshold and government target are supported."
+  },
+  {
+    "gap_id": "CV202102-G005",
+    "type": "cancellation_and_continuity",
+    "description": "The INE strike notice for 3 February is reported suspended in the September 2021 A Nação retrospective. The 29 January demonstration is outside February; no physical February action or continuous episode is documented.",
+    "source_ids": [
+      "CV2102-S006",
+      "CV2102-S007"
+    ],
+    "affected_candidates": [
+      "CV202102-X002"
+    ],
+    "required_followup": "Keep the January demonstration in its own month. Seek contemporaneous records only if needed to determine whether any separate February action occurred; do not infer continuity from the same organization."
+  },
+  {
+    "gap_id": "CV202102-G006",
+    "type": "month_boundaries",
+    "description": "Boundary checks surfaced the January 29 INE demonstration and February 3 strike notice, March 6 labor demonstration, March 18 IEFP strike and an April 8 MAA strike. The search found no documented physical action continuing across the February boundaries.",
+    "source_ids": [
+      "CV2102-S006",
+      "CV2102-S007",
+      "CV2102-S008",
+      "CV2102-S009",
+      "CV2102-S010",
+      "CV2102-S011"
+    ],
+    "affected_candidates": [
+      "CV202102-X002",
+      "CV202102-X004",
+      "CV202102-X005",
+      "CV202102-X006"
+    ],
+    "required_followup": "Coordinate only through evidence-backed cross-month review; keep the listed outside-month actions in their date-owning units."
+  },
+  {
+    "gap_id": "CV202102-G007",
+    "type": "language_and_geographic_coverage",
+    "description": "Fifteen searches used English, Portuguese, and one Kriolu spelling query. The search terms named Praia/Santiago, Mindelo/São Vicente, Santo Antão, Sal, Boa Vista, Fogo and São Nicolau, but online source coverage is uneven and there was no native-language review or targeted search for every municipality/island.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use fluent local review and regional sources/archives where available. Absence of search results is not evidence that no action occurred."
+  },
+  {
+    "gap_id": "CV202102-G008",
+    "type": "archive_and_method",
+    "description": "This is an open-web first pass, not a systematic review of LexisNexis, complete local newspaper archives, union bulletins or government records. Search result totals were not provided by the tool; the captured headers are not a completeness measure.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If higher coverage is needed, use accessible archive collections and record their actual scope. Do not convert this pass into an exhaustive absence claim."
+  },
+  {
+    "gap_id": "CV202102-G009",
+    "type": "baseline_and_review",
+    "description": "This worker dossier has no official Mass Mobilization ID or final eligibility decision. The unit uses provisional country code 402 and awaits coordinator review and the pending official-baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to review sources and exclusions separately and resolve the baseline gate before any official integration."
+  },
+  {
+    "gap_id": "CV202102-G010",
+    "type": "access_review_record",
+    "description": "The first web.run open attempt for A Nação CV2102-S002 returned Cache miss after stable receipt CV2102-S002-check1. No contemporaneous manual publisher/origin review record tied to that failed attempt was found in the dossier; the later HTTP fallback has a separate stable check2 and documented full manual review. The Cache miss supplied no body evidence.",
+    "source_ids": [
+      "CV2102-S002"
+    ],
+    "affected_candidates": [
+      "CV202102-X001"
+    ],
+    "required_followup": "Retain the failed attempt as a technical fetch failure and do not claim check1 alone authorized it. The later fallback is separately documented; no retry is needed for this limitation."
+  }
+]

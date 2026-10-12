@@ -1,0 +1,190 @@
+[
+  {
+    "gap_id": "BD2102-G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization baseline dataset bytes, current event universe, schema and applicable coding version have not been verified in this dossier. These proposals remain separate from the integrated catalogue.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator verifies the authoritative baseline version, schema, universe and coding rules before any compatibility or official-inclusion decision."
+  },
+  {
+    "gap_id": "BD2102-G002",
+    "type": "source_access",
+    "description": "Exact URLs S057, S059 and S065 produced actual HTTP 403 with no body read; S068 matches a previously recorded exact-URL 403 and was not retried. S069’s saved link produced a web-tool internal error and HTTP 404 with no body read. S059 also has a separately documented accidental shortened-URL request that was not access-checked and yielded no body; it is not treated as a denial for the source URL. Search excerpts remain discovery only.",
+    "source_ids": [
+      "BD2102-S057",
+      "BD2102-S059",
+      "BD2102-S065",
+      "BD2102-S068",
+      "BD2102-S069"
+    ],
+    "affected_candidates": [
+      "bangladesh_2021-02-E013"
+    ],
+    "required_followup": "Use new, independent exact URLs only after fresh stable access-check and manual review. Do not retry observed exact-URL 403s or infer event facts from search snippets."
+  },
+  {
+    "gap_id": "BD2102-G003",
+    "type": "participants",
+    "description": "The 50-person threshold is unresolved for E011–E017. E011’s “about fifty” is approximate, not an established lower bound; E012, E013, the nursing reports and Barishal student/worker actions provide no assembly turnout. Counts of affected students, injured people, commuters, workers employed or announced campaign participants are not attendance evidence.",
+    "source_ids": [
+      "BD2102-S009",
+      "BD2102-S044",
+      "BD2102-S050",
+      "BD2102-S051",
+      "BD2102-S052",
+      "BD2102-S053",
+      "BD2102-S056",
+      "BD2102-S058",
+      "BD2102-S060"
+    ],
+    "affected_candidates": [
+      "bangladesh_2021-02-E011",
+      "bangladesh_2021-02-E012",
+      "bangladesh_2021-02-E013",
+      "bangladesh_2021-02-E014",
+      "bangladesh_2021-02-E015",
+      "bangladesh_2021-02-E016",
+      "bangladesh_2021-02-E017"
+    ],
+    "required_followup": "Seek a contemporaneous, attributable attendance estimate for each distinct assembly; retain pending status where no reliable turnout evidence is available."
+  },
+  {
+    "gap_id": "BD2102-G004",
+    "type": "state_target",
+    "description": "The Rajshahi/SUST reopening demands (E011–E012) may have been directed to university administrators rather than national government policy. For the Barishal student actions (E015–E016), demands for justice, arrests, safety and phone recovery require clearer evidence of the domestic-government target under the inclusion rule.",
+    "source_ids": [
+      "BD2102-S044",
+      "BD2102-S051",
+      "BD2102-S052",
+      "BD2102-S056",
+      "BD2102-S060"
+    ],
+    "affected_candidates": [
+      "bangladesh_2021-02-E011",
+      "bangladesh_2021-02-E012",
+      "bangladesh_2021-02-E015",
+      "bangladesh_2021-02-E016"
+    ],
+    "required_followup": "Review the contemporaneous text and coding manual for the named target; keep state-target eligibility pending until a domestic public authority or policy demand is supported."
+  },
+  {
+    "gap_id": "BD2102-G005",
+    "type": "episode_unit",
+    "description": "S009 and S050 describe nursing-profession actions at the same Shahbagh site/date but give morning versus afternoon timing and different participant descriptions; one-versus-two rallies is unresolved (E014). Barishal students blockaded on 17 February and again on 20 February; sources report both days but do not establish uninterrupted assembly or the original episode boundary (E015–E016). The transport-worker action at Rupatali is a separate group, location and demand (E017). Query Q017 surfaced possible January/February university and exam actions, and Q018 surfaced late-February/early-March Mushtaq-related demonstrations; their headers are saved but the candidate bodies and boundaries were not reviewed.",
+    "source_ids": [
+      "BD2102-S009",
+      "BD2102-S044",
+      "BD2102-S050",
+      "BD2102-S051",
+      "BD2102-S052",
+      "BD2102-S053",
+      "BD2102-S056"
+    ],
+    "affected_candidates": [
+      "bangladesh_2021-02-E014",
+      "bangladesh_2021-02-E015",
+      "bangladesh_2021-02-E016",
+      "bangladesh_2021-02-E017"
+    ],
+    "required_followup": "Compare exact dates, locations, organizers, participants and demands against the original episode rules and adjacent-month reports before merging, splitting or creating continuations. Review Q017/Q018 leads rather than treating headers as event proof."
+  },
+  {
+    "gap_id": "BD2102-G006",
+    "type": "dates",
+    "description": "Physical ending is not reported for E011–E014 and E017. E015 is described as lifted on 17 February without an exact time; E016 students withdrew around 18:00 on 20 February, while transport-worker blockade/strike reporting leaves the physical end of the sit-in unresolved. Publication time or month end is not used as an event end.",
+    "source_ids": [
+      "BD2102-S009",
+      "BD2102-S044",
+      "BD2102-S050",
+      "BD2102-S051",
+      "BD2102-S052",
+      "BD2102-S056",
+      "BD2102-S058",
+      "BD2102-S060"
+    ],
+    "affected_candidates": [
+      "bangladesh_2021-02-E011",
+      "bangladesh_2021-02-E012",
+      "bangladesh_2021-02-E013",
+      "bangladesh_2021-02-E014",
+      "bangladesh_2021-02-E015",
+      "bangladesh_2021-02-E016",
+      "bangladesh_2021-02-E017"
+    ],
+    "required_followup": "Locate evidence for physical start/end of each assembly; leave end unknown where reports do not establish termination."
+  },
+  {
+    "gap_id": "BD2102-G007",
+    "type": "state_response",
+    "description": "All seven response fields and protester violence remain unknown for E011–E017. Some Barishal reports mention police arrests, statements, mediation or university invitations in the broader dispute; those details are not automatically coded as responses to a particular assembly. E010’s original shootings=yes judgment is preserved, but its cited empty/tear-gas shells do not establish live-ammunition fire in the current evidence.",
+    "source_ids": [
+      "BD2102-S001",
+      "BD2102-S009",
+      "BD2102-S044",
+      "BD2102-S050",
+      "BD2102-S051",
+      "BD2102-S052",
+      "BD2102-S056",
+      "BD2102-S058",
+      "BD2102-S060"
+    ],
+    "affected_candidates": [
+      "bangladesh_2021-02-E010",
+      "bangladesh_2021-02-E011",
+      "bangladesh_2021-02-E012",
+      "bangladesh_2021-02-E013",
+      "bangladesh_2021-02-E014",
+      "bangladesh_2021-02-E015",
+      "bangladesh_2021-02-E016",
+      "bangladesh_2021-02-E017"
+    ],
+    "required_followup": "Coordinator separately reviews E010’s shootings field without rewriting the original judgment. For other candidates, code each response only when evidence attributes it to that assembly; silence does not establish ignore/no response."
+  },
+  {
+    "gap_id": "BD2102-G008",
+    "type": "contested_evidence",
+    "description": "E010 retains the original worker state_response.shootings=yes value. The cited source S001 describes empty shells and tear-gas shells; the dossier records no live-ammunition evidence. The saved open question and this separate gap preserve the ambiguity for coordinator review rather than silently rewriting the original judgment.",
+    "source_ids": [
+      "BD2102-S001"
+    ],
+    "affected_candidates": [
+      "bangladesh_2021-02-E010"
+    ],
+    "required_followup": "Check whether any source explicitly supports live-ammunition fire at this rally. If the coordinator changes the effective value, record it as a separate review override and preserve the original judgment."
+  },
+  {
+    "gap_id": "BD2102-G009",
+    "type": "episode_unit",
+    "description": "S066 is a body-read report of an A-One BD workers rally on 24 January, outside the February unit. No February physical continuation is established, so it is not added as a February event or continuation. The coordinator has reserved the separate January follow-up LOCAL-CROSS-137. S058 announces March 3, 8, 15 and 28 Khulna worker actions; those are plans, not observed March assemblies.",
+    "source_ids": [
+      "BD2102-S058",
+      "BD2102-S066"
+    ],
+    "affected_candidates": [
+      "bangladesh_2021-02-E013"
+    ],
+    "required_followup": "Review January A-One evidence under LOCAL-CROSS-137. Check March action dates in the relevant unit using occurrence reports; do not treat announced schedules as executed events."
+  },
+  {
+    "gap_id": "BD2102-G010",
+    "type": "coverage",
+    "description": "The 23 recorded open-web searches contain 652 aligned result headers. A hash-verified recovery corrected four partial/inaccurate original response arrays, preserved seven exact resumed arrays and the original 12-row prefix, and found no uncaptured responses; restored header delta is one. Queries include Bengali and English, weekly date windows, January/February and February/March boundaries, labor, student/university and nursing sectors, and regional terms. Body reading and regional/source coverage remain uneven; headers are discovery, and no systematic newspaper-archive or equivalent all-district review was completed.",
+    "source_ids": [
+      "BD2102-S058",
+      "BD2102-S060",
+      "BD2102-S066",
+      "BD2102-S067"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue dated weekly and regional/sector searches, resolve uncaptured source leads with body evidence where permitted, and document language/archive limitations. Do not claim absence based on empty files or open-web results."
+  },
+  {
+    "gap_id": "BD2102-G011",
+    "type": "language",
+    "description": "Bengali and English queries were used. No systematic review of dialect, transliteration variants or minority-language reporting is documented.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Assess whether additional language variants and locally published sources materially affect event, attendance, target or boundary coverage."
+  }
+]

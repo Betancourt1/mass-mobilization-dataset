@@ -1,0 +1,182 @@
+[
+  {
+    "gap_id": "KGZ202101-G001",
+    "type": "participants",
+    "description": "Crowd size remains disputed or unreported for the Jan 8 parliamentary-form rally, Jan 25 Health Ministry picket, and Jan 27 parliament-dissolution rally. In particular Jan 8 reports range from about 30 to about 100; Jan 27 opened 24.kg body reports about 50 while blocked AKIpress search text reports around 40. New Jan 3 search text reports about 50 but remains unverified; Jan 10 search results conflict around 30/50; the opened Jan 17 Kloop report gives no count. Jan 31 Kloop result says more than 20 with no upper bound; Jan 8 remains 30 versus 100, Jan 10 around 30 versus 50, and Jan 17 has no count.",
+    "source_ids": [
+      "KGZ202101-S002",
+      "KGZ202101-S003",
+      "KGZ202101-S004",
+      "KGZ202101-S006",
+      "KGZ202101-S007",
+      "KGZ202101-S008",
+      "KGZ202101-S012",
+      "KGZ202101-S013",
+      "KGZ202101-S014",
+      "KGZ202101-S023",
+      "KGZ202101-S024",
+      "KGZ202101-S025",
+      "KGZ202101-S026",
+      "KGZ202101-S027"
+    ],
+    "affected_candidates": [
+      "KGZ202101-E002",
+      "KGZ202101-E003",
+      "KGZ202101-E004",
+      "KGZ202101-E005",
+      "KGZ202101-E006",
+      "KGZ202101-E007",
+      "KGZ202101-E008"
+    ],
+    "required_followup": "Retrieve source bodies and contemporaneous independent estimates; preserve estimates separately and leave threshold pending if unresolved."
+  },
+  {
+    "gap_id": "KGZ202101-G002",
+    "type": "state_target",
+    "description": "Jan 5 and Jan 8 gatherings advocate parliamentary rule during the Jan 10 referendum/election campaign. Need apply the manual exclusion for political rallies by examining whether demands target state constitutional policy/legal process or merely campaign for a referendum option/candidate.",
+    "source_ids": [
+      "KGZ202101-S001",
+      "KGZ202101-S002",
+      "KGZ202101-S003"
+    ],
+    "affected_candidates": [
+      "KGZ202101-E001",
+      "KGZ202101-E002"
+    ],
+    "required_followup": "Compare full event descriptions with the codebook definition of political rallies; do not exclude solely because the events occurred during campaign period."
+  },
+  {
+    "gap_id": "KGZ202101-G003",
+    "type": "episode_unit",
+    "description": "The Sunday march series against constitutional change predates January. ACLED/Oxus gives a mid-October start and Jan 10 end, while other accounts describe continuing Sunday marches later in January and into spring. Whether each week is a separate event or one ongoing episode is unresolved. Kloop’s opened Jan 17 body identifies an eleventh weekly march, and the opened Kloop archive lists Jan 3 as the ninth; this confirms activity after the reported Jan 10 endpoint while leaving unit boundaries unresolved. A search-result-only Jan 31 Kloop report supplies a further Sunday date; its count is more than 20 and cannot be assigned to other Sundays. A March 1 Media.kg search result says 16 weekly actions had occurred by that date; the body remains unread and does not resolve January unit boundaries.",
+    "source_ids": [
+      "KGZ202101-S004",
+      "KGZ202101-S005",
+      "KGZ202101-S006",
+      "KGZ202101-S017",
+      "KGZ202101-S020",
+      "KGZ202101-S021",
+      "KGZ202101-S022",
+      "KGZ202101-S023",
+      "KGZ202101-S024",
+      "KGZ202101-S026",
+      "KGZ202101-S028"
+    ],
+    "affected_candidates": [
+      "KGZ202101-C001",
+      "KGZ202101-E005",
+      "KGZ202101-E006",
+      "KGZ202101-E007",
+      "KGZ202101-E008"
+    ],
+    "required_followup": "Check October–December and February source chronology plus missing Coding Procedure; retain the earlier start in continuations and do not assign a January start absent evidence."
+  },
+  {
+    "gap_id": "KGZ202101-G004",
+    "type": "source_access",
+    "description": "Several relevant contemporaneous pages returned cache-miss or web-tool errors. An ordinary HTTPS retry from the local shell failed DNS resolution for 24.kg; this was a retrieval/tool failure, not a reported site denial or paywall. Search snippets remain discovery-only. A site-targeted search also explicitly reported an akipress.com robots.txt block; AKIpress was not bypassed. The CAPT portal’s download link returned an unsupported content type, so its event-level spreadsheet remains uninspected. The Jan 3 Kloop report also failed a same-public-URL ordinary HTTPS retry at local DNS; no alternate access path was used. Direct open attempts for Jan 8 Kloop, Jan 27 Azattyq and Jan 31 Kloop returned cache misses; no publisher access denial was observed.",
+    "source_ids": [
+      "KGZ202101-S003",
+      "KGZ202101-S004",
+      "KGZ202101-S006",
+      "KGZ202101-S007",
+      "KGZ202101-S008",
+      "KGZ202101-S011",
+      "KGZ202101-S012",
+      "KGZ202101-S013",
+      "KGZ202101-S014",
+      "KGZ202101-S019",
+      "KGZ202101-S023",
+      "KGZ202101-S024",
+      "KGZ202101-S025",
+      "KGZ202101-S027",
+      "KGZ202101-S028"
+    ],
+    "affected_candidates": [
+      "KGZ202101-E002",
+      "KGZ202101-E003",
+      "KGZ202101-E004",
+      "KGZ202101-C001"
+    ],
+    "required_followup": "Retry ordinary public HTTPS only if network is available; do not bypass access controls. Preserve search_only status unless article text is retrieved and read."
+  },
+  {
+    "gap_id": "KGZ202101-G005",
+    "type": "coverage",
+    "description": "Open-web search found several Bishkek episodes but is not a comprehensive Kyrgyzstan January 2021 press census. Regional/local language coverage, official municipal statements, and non-Bishkek assemblies were searched selectively. No search result is proof of event absence. Additional general and local-language searches yielded mostly Bishkek results, boundary-period material, or unrelated noise; this still does not establish absence outside the capital. Repeated date-window searches discovered Jan 3 and Jan 17 Sunday marches, but did not establish whether a Jan 24 march occurred or whether regional gatherings were missed. Jan 24 searches returned no relevant report in the observed result set; this is not evidence of absence. A further Kyrgyzstan regional-search batch surfaced no new January event match beyond the Bishkek reports; absence remains unproven.",
+    "source_ids": [
+      "KGZ202101-S005",
+      "KGZ202101-S016",
+      "KGZ202101-S017",
+      "KGZ202101-S019",
+      "KGZ202101-S022",
+      "KGZ202101-S023",
+      "KGZ202101-S024",
+      "KGZ202101-S026",
+      "KGZ202101-S028"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue country/city/issue searches in Kyrgyz and Russian, plus locally relevant media and official records; record search and access limits without claiming exhaustiveness."
+  },
+  {
+    "gap_id": "KGZ202101-G006",
+    "type": "search_method",
+    "description": "Open-web search differs from the original LexisNexis newspaper sampling and the full additional Coding Procedure is unavailable. Month/week query filters and search-engine ranking cannot establish completeness.",
+    "source_ids": [
+      "KGZ202101-S005",
+      "KGZ202101-S019"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Reconcile only after original hemeroteca and procedure are available; retain all queries and source access statuses."
+  },
+  {
+    "gap_id": "KGZ202101-G007",
+    "type": "state_response",
+    "description": "For Jan 5, Jan 8, Jan 25 Health Ministry and Jan 27 candidates, located text does not verify event-specific police/state response, violence, physical ending or any accommodation. Silence in reports is not coded as no response/ignore. Jan 27: 24.kg reports attendance and demands but no response or physical end.",
+    "source_ids": [
+      "KGZ202101-S001",
+      "KGZ202101-S002",
+      "KGZ202101-S006",
+      "KGZ202101-S007",
+      "KGZ202101-S008",
+      "KGZ202101-S012",
+      "KGZ202101-S013",
+      "KGZ202101-S023",
+      "KGZ202101-S024",
+      "KGZ202101-S025",
+      "KGZ202101-S027"
+    ],
+    "affected_candidates": [
+      "KGZ202101-E001",
+      "KGZ202101-E002",
+      "KGZ202101-E003",
+      "KGZ202101-E004",
+      "KGZ202101-E005",
+      "KGZ202101-E006",
+      "KGZ202101-E007",
+      "KGZ202101-E008"
+    ],
+    "required_followup": "Locate full contemporaneous event-specific reports; keep response, violence and end fields unknown unless explicitly supported."
+  },
+  {
+    "gap_id": "KGZ202101-G008",
+    "type": "episode_unit",
+    "description": "The recurring Bishkek Sunday “For Legality” actions are individually reported on Jan 3, Jan 10, and Jan 17, with Jan 31 also appearing in search results. They may be separate weekly public gatherings or phases of a continuing campaign; January ownership and any overlap with the October-start continuation remain unresolved. Kloop search-only text also documents a Jan 31 march and says organizers estimated more than 20; that bound does not establish eligibility.",
+    "source_ids": [
+      "KGZ202101-S004",
+      "KGZ202101-S006",
+      "KGZ202101-S023",
+      "KGZ202101-S024",
+      "KGZ202101-S025",
+      "KGZ202101-S026"
+    ],
+    "affected_candidates": [
+      "KGZ202101-C001",
+      "KGZ202101-E005",
+      "KGZ202101-E006",
+      "KGZ202101-E007",
+      "KGZ202101-E008"
+    ],
+    "required_followup": "Apply the full event/campaign unit rules after the missing Coding Procedure is obtained; preserve each date and source separately, and do not merge or duplicate automatically."
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "unit_id": "hungary_2021-02",
+  "country": "Hungary",
+  "month": "2021-02",
+  "agent_task": "01a125a3-5486-7991-b165-906311052d3f",
+  "status": "researching",
+  "started_at": "2026-10-10T11:53:58+00:00",
+  "finished_at": null,
+  "n_queries": 28,
+  "n_sources": 10,
+  "n_candidates": 4,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 6,
+  "coverage_assessment": "Twenty-eight original search actions (519 captured result headers) and ten source cards are documented; two page bodies were read. One opened body supplies a direct approximate estimate that exceeds the participant threshold. This bounded open-web pass is not exhaustive and no claim of absence is made.",
+  "baseline_gate": "pending_official_baseline",
+  "search_capture_manifest": "access_receipts/search_capture_manifest.json",
+  "search_capture_manifest_sha256": "221ce2851f2c7fd9fb1b4725c81a6216df928cbef7c35843cd9b388cf4e9e34d",
+  "query_capture_integrity": {
+    "registered_rollout_id": "01a125a3-5486-7991-b165-906311052d3f",
+    "matched_original_search_actions": 28,
+    "search_log_actions": 28,
+    "unmatched_actions": 0,
+    "captured_headers": 519,
+    "capture_manifest": "access_receipts/search_capture_manifest.json",
+    "q001_recovery": "Recovered from the original completed web.search action in the registered rollout; no search was rerun.",
+    "reconciliation": "all 28 original actions matched on event ID, exact query/action, ordered headers and clocks; 519 headers; zero unmatched, missing, extra, or mismatched actions."
+  },
+  "receipt_manifest": "access_receipts/receipt_manifest.json",
+  "receipt_manifest_sha256": "fc911fe2da1b3c86c41654a883fd575bffb821c74e4fbe9662b145f87ffa5d0b",
+  "body_read_count": 2,
+  "usable_threshold_estimate_source_count": 1
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "gap_id": "BDG202402-G001",
+    "type": "threshold_and_response",
+    "description": "The 28 February Ganatantra Mancha rally/procession is established, but neither independent contemporary report gives total attendance. Injury claims vary (40 versus at least 50) and police dispute the larger injury count; injuries are not group size. Response beyond baton charges and unspecified detentions is unknown.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [
+      "bangladesh_2024-02_E001"
+    ],
+    "required_followup": "Locate an independent attendance estimate or clear group-size evidence and check additional event-specific state-response coverage."
+  },
+  {
+    "gap_id": "BDG202402-G002",
+    "type": "state_target_and_size",
+    "description": "A 25 February Viqarunnisa student/guardian protest is mentioned in a search-result excerpt only. The excerpt concerns a school sexual-harassment case, but it is unclear whether demands targeted public authorities or private/school management; attendance is unstated and no body was opened.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "bangladesh_2024-02_E002"
+    ],
+    "required_followup": "Review the exact article only after a fresh exact-URL gate and manual review; verify institution/state relationship, target of demands and attendance."
+  },
+  {
+    "gap_id": "BDG202402-G003",
+    "type": "archive_and_baseline",
+    "description": "English/Bangla general, weekly, local, regional and sector-specific searches produced a small set of in-month public-action leads, but the search was not exhaustive. No systematic newspaper archive/LexisNexis access or independent Bangla-language review was available. Official baseline remains pending.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resolve official dataset version/universe/schema/use terms and extend coverage through newspaper archives and independent Bangla review."
+  },
+  {
+    "gap_id": "BDG202402-G004",
+    "type": "occurrence",
+    "description": "A Dhaka Tribune discovery result dated 30 January announced Islami Andolan Bangladesh programs across districts/metropolitan areas, including a Dhaka rally scheduled for the following Saturday and a 7 February round-table. The announcement is not evidence that the rally actually occurred; the round-table/member-recruitment activities are not coded as public gatherings. A separate 28 February result records BNP condemnation of police action at Ganatantra Mancha and is treated as reaction/context for E001, not a separate event or independent turnout evidence.",
+    "source_ids": [
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "bangladesh_2024-02_E001"
+    ],
+    "required_followup": "Verify through contemporaneous reporting whether the announced Islami Andolan rally or other announced February protest programs actually occurred, with date, location, public attendance and Bangladesh-state target; do not infer occurrence from the call. No further body request is needed for S006 unless its details become material."
+  }
+]

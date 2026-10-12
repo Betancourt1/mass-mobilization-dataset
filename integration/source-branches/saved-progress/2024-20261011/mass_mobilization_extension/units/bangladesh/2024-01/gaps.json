@@ -1,0 +1,54 @@
+[
+  {
+    "gap_id": "BDG202401-G001",
+    "type": "capture_loss",
+    "description": "An actual initial web.run search was executed but its rendered response was not persisted at the time. Exact invocation: {\"search_query\":[{\"q\":\"Bangladesh January 2024 protest demonstration strike march BNP election blockade Dhaka news\"}],\"response_length\":\"long\"}. The output is unavailable; result count, returned URLs/headers, native refs and clocks are unknown. This is a capture loss, not a zero-result search, and no replacement search was run solely to reconstruct it.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use the separately captured January weekly, targeted, local and Bangla-language searches for discovery; preserve this missing response as a limitation and do not infer coverage from it."
+  },
+  {
+    "gap_id": "BDG202401-G002",
+    "type": "threshold_and_response",
+    "description": "The 6 January BNP supporters' Shahbagh march is described only as a small group, with no participant count. The 7 January liveblog demonstration lead is present only in a captured search excerpt not included in the returned page body, with no count or specific location. State responses for these actions are unknown. The 6 January National Press Club rally has an approximate attendance of about 200 from one article, but organizers and response are not detailed.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "bangladesh_2024-01_E001",
+      "bangladesh_2024-01_E002",
+      "bangladesh_2024-01_E003"
+    ],
+    "required_followup": "Find independent coverage of the two smaller/less-documented actions, verify participant counts and state response; identify rally organizers and any additional response reporting."
+  },
+  {
+    "gap_id": "BDG202401-G003",
+    "type": "archive_and_baseline",
+    "description": "The month was searched through open-web English and Bangla general, weekly, targeted, local, election-period and boundary queries, but this is not exhaustive. No systematic newspaper archive/LexisNexis access, complete local press archive or independent Bangla-language research review was available. The official MM baseline remains pending.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resolve official dataset version/universe/schema/use terms; extend research through systematic local and national newspaper archives and independent Bangla review before treating month coverage or eligibility as settled."
+  },
+  {
+    "gap_id": "BDG202401-G004",
+    "type": "date_scope",
+    "description": "Captured local-search output includes an 11-party-alliance Dhaka sit-in against a gas-price increase from a Daily Star News Facebook result, but the saved excerpt says only “today” and has no recoverable publication date. It may be outside January or otherwise undated; it is not treated as a January event.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Resolve the post’s original publication date and contemporaneous context using an ordinary public source if available; assign an event month only if independently established."
+  },
+  {
+    "gap_id": "BDG202401-G005",
+    "type": "occurrence_and_date_scope",
+    "description": "Bangla discovery surfaced (a) a BNP Facebook video result dated 1 January 2024 mentioning Cumilla Sadar South and the election boycott/noncooperation movement, but its saved excerpt does not establish a public gathering; and (b) a Dhaka Mail result announcing BNP-aligned lawyers’ nationwide black-flag processions/protests for 14 January. The latter is a call, not proof of execution. Neither lead is coded as an event.",
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify whether a physical gathering occurred for the Cumilla video and whether the 14 January announced actions took place; record exact event date/site, attendance, and state target only from public contemporaneous occurrence evidence."
+  }
+]

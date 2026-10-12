@@ -1,0 +1,1101 @@
+[
+  {
+    "candidate_id": "PER202101-E001",
+    "country": "Peru",
+    "ccode": 135,
+    "unit_month": "2021-01",
+    "title": "March against COVID quarantine measures, Cercado de Lima (Jan 30)",
+    "start_date": "2021-01-30",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Cercado de Lima; route aimed toward the Government Palace, exact assembly site not stated",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "AS Peru reports “más de mil personas” (>1,000); El Comercio describes the Jan 30 march as involving “decenas de ciudadanos” (dozens). These source estimates are not averaged.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "qualitative_or_approximate",
+    "threshold_50_evidence": "AS Peru's opened article says more than one thousand people gathered, which would exceed 50 if the account refers to this same march. El Comercio's opened report of the Jan 30 march instead describes “decenas” (dozens), a qualitative description that does not itself establish at least 50. The material discrepancy is unresolved, so the event-level lower bound and threshold remain pending coordinator review.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "PER202101-S008",
+      "PER202101-S034",
+      "PER202101-S042"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "PER202101-S008",
+          "PER202101-S034",
+          "PER202101-S042"
+        ],
+        "summary": "Defensoría and AS explicitly date a Lima march to Jan 30; El Comercio published Feb 1 and calls the march the previous Saturday, Jan 30."
+      },
+      "location": {
+        "source_ids": [
+          "PER202101-S008",
+          "PER202101-S034",
+          "PER202101-S042"
+        ],
+        "summary": "Defensoría and AS locate the action in Cercado de Lima; El Comercio says the anti-quarantine march began at Plaza San Martín, moved along Avenida Abancay and passed the Congress while heading toward the Government Palace."
+      },
+      "demands": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S008"
+        ],
+        "summary": "Defensoría records opposition to quarantine/COVID security measures announced by the president; AS Peru describes opposition to the quarantine."
+      },
+      "participants_original": {
+        "source_ids": [
+          "PER202101-S008",
+          "PER202101-S042"
+        ],
+        "summary": "AS says “more than one thousand”; El Comercio describes “dozens of citizens.” These materially different attributed accounts are preserved without averaging or selecting one."
+      },
+      "participants_min": {
+        "source_ids": [
+          "PER202101-S008",
+          "PER202101-S042"
+        ],
+        "summary": "AS reports >1,000; El Comercio describes “decenas.” Since the qualitative competing account does not guarantee 50 and the discrepancy is unresolved, no event-level numeric lower bound is assigned."
+      },
+      "state_crowd_dispersal": {
+        "source_ids": [
+          "PER202101-S008",
+          "PER202101-S042"
+        ],
+        "summary": "AS reports that police cordoned nearby streets to prevent passage toward the Government Palace. This establishes route obstruction, but the opened report does not say police dispersed the gathering or forced participants to leave; crowd_dispersal therefore remains unknown. El Comercio reports police presence/confrontation but no dispersal mechanism."
+      },
+      "end_date": {
+        "source_ids": [
+          "PER202101-S008"
+        ],
+        "summary": "No physical departure or dissolution is reported; end remains unknown."
+      },
+      "organizer": {
+        "source_ids": [
+          "PER202101-S042"
+        ],
+        "summary": "El Comercio identifies multiple citizen groups, political participants, and named groupings, but does not establish a single organizer."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "PER202101-S042"
+        ],
+        "summary": "El Comercio says protesters confronted a police contingent with sticks and stones while attempting to reach the Government Palace; this is event-specific."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "Lima-anti-quarantine-2021-01-30-31",
+    "notes": "A January-start public march with a domestic COVID policy target is reported. Relationship to the next-day Jan 31 Plaza San Martín assembly is unresolved; the shared episode key is tentative and does not authorize merger. State police cordoning is reported, but its crowd_dispersal classification is for review. Defensoría Report 203 separately lists a Jan 30 Lima march against the announced quarantine, confirming date, location and demand; its table does not provide attendance. AS Peru remains the only opened turnout source. El Comercio (published Feb 1) independently describes the Jan 30 anti-quarantine march from Plaza San Martín toward Congress and the Palace, but estimates only “decenas” while AS reports more than 1,000; the discrepancy is preserved. El Comercio reports a confrontation with sticks and stones. AS explicitly describes a police street cordon to prevent passage; that route-obstruction mechanism is kept distinct from mere police presence, and does not establish that the assembly was dispersed; crowd_dispersal remains unknown.",
+    "open_questions": [
+      "Resolve whether AS Peru (>1,000) and El Comercio (“dozens”) refer to the same march/portion and whether the event-level >=50 threshold is reliably established.",
+      "Determine whether the Jan 30 and Jan 31 actions were distinct daily gatherings or part of one multi-day physical episode; do not merge by shared campaign alone.",
+      "Clarify whether any police action dispersed participants; a route cordon alone does not prove assembly dispersal.",
+      "Find exact physical departure/dissolution for the Jan 30 march."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "PER202101-E002",
+    "country": "Peru",
+    "ccode": 135,
+    "unit_month": "2021-01",
+    "title": "Gathering against COVID quarantine measures at Plaza San Martín, Lima (Jan 31)",
+    "start_date": "2021-01-31",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Plaza San Martín, Cercado de Lima",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "AS Peru says “hasta un centenar” congregated (up to one hundred); no lower bound is supplied.",
+    "participants_min": null,
+    "participants_max": 100,
+    "participants_estimate": null,
+    "participants_precision": "qualitative_or_approximate",
+    "threshold_50_evidence": "The report describes up to one hundred people but does not establish a minimum attendance of 50; threshold pending.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "PER202101-S008",
+      "PER202101-S041",
+      "PER202101-S047",
+      "PER202101-S048"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "PER202101-S008",
+          "PER202101-S041"
+        ],
+        "summary": "Diario Correo’s article updated on Sunday Jan 31 explicitly identifies a Plaza San Martín concentration “de este domingo 31 de enero”; this independently anchors the gathering to Jan 31. AS’s caption is no longer the sole date link."
+      },
+      "location": {
+        "source_ids": [
+          "PER202101-S008",
+          "PER202101-S041"
+        ],
+        "summary": "Both reports locate the gathering at Plaza San Martín in Cercado de Lima."
+      },
+      "demands": {
+        "source_ids": [
+          "PER202101-S008",
+          "PER202101-S041"
+        ],
+        "summary": "Both sources describe opposition to the government quarantine; Diario Correo also captions anti-quarantine, freedom and work concerns."
+      },
+      "participants_original": {
+        "source_ids": [
+          "PER202101-S008",
+          "PER202101-S041"
+        ],
+        "summary": "AS says “hasta un centenar” (up to one hundred), while Diario Correo says “decenas” (dozens); neither provides a guaranteed lower bound of 50."
+      },
+      "participants_max": {
+        "source_ids": [
+          "PER202101-S008"
+        ],
+        "summary": "AS states up to one hundred; no minimum is established."
+      },
+      "end_date": {
+        "source_ids": [
+          "PER202101-S008",
+          "PER202101-S041"
+        ],
+        "summary": "Neither report identifies physical departure or dissolution; end remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "PER202101-S041"
+        ],
+        "summary": "Diario Correo says municipal staff came to the plaza to prevent disturbances. It reports no specific movement restriction, dispersal, arrest or force; preventive presence alone is not coded as crowd_dispersal. Other response dimensions remain unknown."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "PER202101-S041"
+        ],
+        "summary": "No event-specific violence by participants is described; violence is unknown rather than absent."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "Lima-quarantine-protest-2021-01-30-31",
+    "notes": "Diario Correo independently dates the Plaza San Martín concentration to Sunday Jan 31 and calls it the fifth consecutive day of gatherings. The AS article also has a Jan 31 Reuters caption, but that image-caption linkage is only supporting evidence; Correo is the body-text date anchor. Crowd size remains below a proven 50-person minimum, and the Jan 27–31 overnight/action boundaries remain unresolved. The municipal staff presence Correo reports was preventive; no movement restriction, dispersal, arrest or force is described, and no Jan 30 response is transferred.",
+    "open_questions": [
+      "Establish whether Jan 27–31 were separate daily assemblies or a physically continuous episode, including any overnight departure.",
+      "Find a report establishing at least 50 attendees on Jan 31; AS says up to 100 and Correo says dozens.",
+      "Find physical departure/end and verify whether any state action went beyond preventive municipal presence."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "PER202101-E003",
+    "country": "Peru",
+    "ccode": 135,
+    "unit_month": "2021-01",
+    "title": "March against announced COVID quarantine measures, Lima (Jan 27)",
+    "start_date": "2021-01-27",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Cercado de Lima, Lima Metropolitana",
+    "scope": "local",
+    "organizer": "Población de Lima Metropolitana",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "Defensoría Report 203 lists an action but gives no attendance; a gathering of 50 or more is not established.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "PER202101-S034"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 action-table row 110 explicitly records a Jan 27 march in Cercado de Lima opposing quarantine and COVID measures announced by the president."
+      },
+      "location": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 action-table row 110 explicitly records a Jan 27 march in Cercado de Lima opposing quarantine and COVID measures announced by the president."
+      },
+      "demands": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 action-table row 110 explicitly records a Jan 27 march in Cercado de Lima opposing quarantine and COVID measures announced by the president."
+      },
+      "participants_original": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "The report table does not provide an attendee count; threshold remains unverified."
+      },
+      "end_date": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "The monthly report lists the action date but not physical departure or dissolution."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "Lima-anti-quarantine-actions-2021-01",
+    "notes": "Official monthly action-table lead only; no turnout, organizer, route or physical end. Tentatively related to the Jan 30/31 anti-quarantine actions, but separate date and reported action are preserved without automatic merger.",
+    "open_questions": "Find a contemporary report with attendance, route, physical end and relationship to Jan 30/31 mobilizations.",
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "PER202101-E004",
+    "country": "Peru",
+    "ccode": 135,
+    "unit_month": "2021-01",
+    "title": "Federación Médica Peruana plantones during national health strike (Jan 13; four reported locations)",
+    "start_date": "2021-01-13",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Jesús María, Lima; Trujillo, La Libertad; Iquitos, Loreto; Tacna, Tacna",
+    "scope": "national",
+    "organizer": "Federación Médica Peruana (FMP) and listed regional bases",
+    "demands": [
+      "labor_wage_dispute",
+      "political_behavior_process"
+    ],
+    "participants_original": "RPP reports 200 professionals at the Lima Minsa plantón. Defensoría lists simultaneous FMP-base plantons in Trujillo, Iquitos and Tacna, but no attendance at those sites; the 200 figure is not a national total.",
+    "participants_min": 200,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "reported_count_at_Lima_site",
+    "threshold_50_evidence": "RPP reports 200 professionals at the Lima Minsa plantón on Jan 13, directly above the threshold at that one site. Defensoría lists three other same-day FMP locations but gives no attendance; no national total is inferred.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "PER202101-S034",
+      "PER202101-S049",
+      "PER202101-S050"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 lists same-date FMP plantones in four locations and a national-strike context, demanding government compliance with health-budget and salary-scale agreements."
+      },
+      "location": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 lists same-date FMP plantones in four locations and a national-strike context, demanding government compliance with health-budget and salary-scale agreements."
+      },
+      "demands": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 lists same-date FMP plantones in four locations and a national-strike context, demanding government compliance with health-budget and salary-scale agreements."
+      },
+      "participants_original": {
+        "source_ids": [
+          "PER202101-S049",
+          "PER202101-S034"
+        ],
+        "summary": "RPP reports 200 at the Lima Minsa plantón. Defensoría lists the same-date FMP plantons in three other cities but supplies no attendance; 200 is not a national total."
+      },
+      "end_date": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "The monthly report lists the action date but not physical departure or dissolution."
+      },
+      "participants_min": {
+        "source_ids": [
+          "PER202101-S049"
+        ],
+        "summary": "RPP describes a group of 200 professionals at the Lima plantón, directly establishing at least 200 at one site. No other site counts are summed."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "FMP-national-health-strike-2021-01",
+    "notes": "Defensoría rows 31–34 list same-date FMP plantons at Lima, Trujillo, Iquitos and Tacna under a common national-strike demand. RPP independently reports 200 professionals at the Lima Minsa plantón; El Comercio confirms the same-date national strike/protest but gives no attendance. This candidate groups the four coordinated site actions tentatively; the count is only the reported 200 in Lima and is not a summed national estimate. Later FMP activity on other dates remains separate pending episode evidence.",
+    "open_questions": [
+      "Confirm whether the four same-date plantons are treated as a single coordinated event under the event-unit rules; locate attendance at other sites and physical departure/end; assess any on-site state response.",
+      "Clarify whether the four same-day FMP locations formed one coordinated national event or distinct local events; no attendance is available for the other locations."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "PER202101-E005",
+    "country": "Peru",
+    "ccode": 135,
+    "unit_month": "2021-01",
+    "title": "FENUTSSA plantón over health-sector demands, Lima (Jan 28)",
+    "start_date": "2021-01-28",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Cercado de Lima, Lima Metropolitana",
+    "scope": "local",
+    "organizer": "Federación Nacional Unificada de Trabajadores del Sector Salud (FENUTSSA)",
+    "demands": [
+      "labor_wage_dispute",
+      "political_behavior_process"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "Defensoría Report 203 lists an action but gives no attendance; a gathering of 50 or more is not established.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "PER202101-S034"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 lists a Jan 28 plantón in Cercado de Lima and demands including a nutrition voucher, COVID bonus and other sector claims."
+      },
+      "location": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 lists a Jan 28 plantón in Cercado de Lima and demands including a nutrition voucher, COVID bonus and other sector claims."
+      },
+      "demands": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 lists a Jan 28 plantón in Cercado de Lima and demands including a nutrition voucher, COVID bonus and other sector claims."
+      },
+      "participants_original": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "The report table does not provide an attendee count; threshold remains unverified."
+      },
+      "end_date": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "The monthly report lists the action date but not physical departure or dissolution."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "FENUTSSA-Lima-2021-01-28",
+    "notes": "The report provides an action/date and attributed demands, but no attendee count or end. The separate FEDEMINSAP rows are not merged into this event.",
+    "open_questions": "Seek a contemporary source for public attendance, exact target/organizer, physical end and whether this is part of a broader federation action.",
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "PER202101-E006",
+    "country": "Peru",
+    "ccode": 135,
+    "unit_month": "2021-01",
+    "title": "FEDEMINSAP plantones for higher health budget (Jan 28; four reported bases)",
+    "start_date": "2021-01-28",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Cercado de Lima, Lima Metropolitana; Nuevo Chimbote, Áncash; Cusco, Cusco; Iquitos, Loreto",
+    "scope": "national",
+    "organizer": "Federación de Enfermeras del Ministerio de Salud del Perú (FEDEMINSAP) and listed bases",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "Defensoría Report 203 lists an action but gives no attendance; a gathering of 50 or more is not established.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "PER202101-S034"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 lists four same-date FEDEMINSAP plantons in different locations with the same demand to increase the health-sector budget."
+      },
+      "location": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 lists four same-date FEDEMINSAP plantons in different locations with the same demand to increase the health-sector budget."
+      },
+      "demands": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "Defensoría Report 203 lists four same-date FEDEMINSAP plantons in different locations with the same demand to increase the health-sector budget."
+      },
+      "participants_original": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "The report table does not provide an attendee count; threshold remains unverified."
+      },
+      "end_date": {
+        "source_ids": [
+          "PER202101-S034"
+        ],
+        "summary": "The monthly report lists the action date but not physical departure or dissolution."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "FEDEMINSAP-budget-plantons-2021-01-28",
+    "notes": "Same-date actions by one named national federation with identical policy demand are grouped as a tentative nationwide event; no attendance is inferred or summed. The report provides no physical-end evidence.",
+    "open_questions": "Find a contemporary source confirming the coordinated action and reporting attendance, exact start/end and any response.",
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "PER202101-E007",
+    "country": "Peru",
+    "ccode": 135,
+    "unit_month": "2021-01",
+    "title": "March against police impunity by #14N victims and supporters (Lima, Jan 9)",
+    "start_date": "2021-01-09",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Main streets of Cercado de Lima / central Lima",
+    "scope": "local",
+    "organizer": "Asociación de Víctimas y Familiares del #14N; Colectivo Lima Dignidad; supporters and Lima residents",
+    "demands": [
+      "police_brutality",
+      "political_behavior_process"
+    ],
+    "participants_original": "El País reports “cientos de peruanos” marched; La República's search header says “cientos de ciudadanos” (body not opened).",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "qualitative_or_approximate",
+    "threshold_50_evidence": "The opened contemporary El País report uses the qualitative plural-hundreds estimate “cientos de peruanos,” which clearly supports at least 50 without assigning a numeric count. Do not use El Comercio's “más de 50” as membership, not turnout.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "PER202101-S034",
+      "PER202101-S038",
+      "PER202101-S039",
+      "PER202101-S040"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S039",
+          "PER202101-S040"
+        ],
+        "summary": "The official action table dates a march Jan 9; El País, published Jan 10, says the march took place Saturday in central Lima, and El Comercio later identifies the group's Jan 9 march."
+      },
+      "location": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S039"
+        ],
+        "summary": "Defensoría places the march in Cercado de Lima; El País says central Lima and main avenues."
+      },
+      "organizer": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S039",
+          "PER202101-S040"
+        ],
+        "summary": "Defensoría lists Colectivo Lima Dignidad and the Association of Victims/Families of #14N; El País and El Comercio say the Association organized the march."
+      },
+      "demands": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S039"
+        ],
+        "summary": "The march opposed police impunity and demanded compensation and progress in investigations into the Nov 14 protest deaths; the prior deaths are the subject of the demand, not event responses."
+      },
+      "participants_original": {
+        "source_ids": [
+          "PER202101-S039"
+        ],
+        "summary": "El País reports “cientos de peruanos” marched; no exact number or bounded estimate is provided."
+      },
+      "participants_min": {
+        "source_ids": [
+          "PER202101-S039"
+        ],
+        "summary": "Qualitative hundreds supports crossing the 50-person threshold; no numeric minimum is assigned."
+      },
+      "end_date": {
+        "source_ids": [
+          "PER202101-S039",
+          "PER202101-S040"
+        ],
+        "summary": "Neither contemporary report gives a departure or dissolution time; physical end remains unknown."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "PER202101-S039",
+          "PER202101-S040"
+        ],
+        "summary": "The accounts do not describe violence by participants during this march; silence leaves event-level violence unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "PER202101-S039",
+          "PER202101-S040"
+        ],
+        "summary": "The reports do not describe a response to this march. Earlier Nov/Dec police actions and injuries are not transferred; all seven January response dimensions remain unknown."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "Lima-14N-victims-justice-2021-01-09",
+    "notes": "Contemporary turnout, date, and own-state accountability demand are established. The campaign is a response to November 2020 police violence; that past violence is not coded as violence or state response in this Jan 9 event. El Comercio's “more than 50” refers to association membership on Jan 15, not attendance. Event end and on-site state response remain unknown.",
+    "open_questions": [
+      "Find an event-specific departure/physical end and any police or government response to the Jan 9 march.",
+      "If available, verify exact participant estimate from additional original coverage; current qualitative estimate already exceeds the threshold."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "PER202101-E008",
+    "country": "Peru",
+    "ccode": 135,
+    "unit_month": "2021-01",
+    "title": "Canchis 72-hour stoppage and roadblocks over fares, budget and local services",
+    "start_date": "2021-01-12",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Canchis province, Cusco region; reported roadblocks in San Pablo, San Pedro, Tinta, Combapata and Checacupe",
+    "scope": "local",
+    "organizer": "Frente de Defensa de los Intereses de Canchis (measure proposed with provincial residents and leaders)",
+    "demands": [
+      "price_increases_tax_policy",
+      "political_behavior_process"
+    ],
+    "participants_original": "Reports refer to residents/population of Canchis and roadblock groups at multiple locations; neither gives an attendee count.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "Diario Correo and El Búho describe resident participants and simultaneous roadblocks at five districts, but neither states a crowd count. Number of sites and a province-wide strike do not establish 50 attendees at a gathering; threshold remains pending.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "PER202101-S034",
+      "PER202101-S061",
+      "PER202101-S062"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "PER202101-S061",
+          "PER202101-S062",
+          "PER202101-S034"
+        ],
+        "summary": "Correo and El Búho say the stoppage began the morning of Jan 12; Defensoría rows 23–24 date both the paro and roadblock to Jan 12."
+      },
+      "location": {
+        "source_ids": [
+          "PER202101-S061",
+          "PER202101-S062"
+        ],
+        "summary": "Both reports identify several Canchis locations, including San Pablo, San Pedro, Tinta, Combapata and Checacupe; no separate site turnout is reported."
+      },
+      "organizer": {
+        "source_ids": [
+          "PER202101-S061",
+          "PER202101-S062"
+        ],
+        "summary": "Correo says the Front of Defense of Canchis interests proposed the measure and reports a Jan 7 agreement with local leaders and residents."
+      },
+      "demands": {
+        "source_ids": [
+          "PER202101-S061",
+          "PER202101-S062",
+          "PER202101-S034"
+        ],
+        "summary": "Reports list higher provincial budget, lower interurban fares, route-free transport, municipal hiring through a public competition, restoration of local rail service and a constituent assembly; the official table highlights higher interdistrict fares."
+      },
+      "participants_original": {
+        "source_ids": [
+          "PER202101-S061",
+          "PER202101-S062"
+        ],
+        "summary": "Sources name residents and groups of demonstrators at several districts but supply no attendance count."
+      },
+      "participants_min": {
+        "source_ids": [
+          "PER202101-S061",
+          "PER202101-S062"
+        ],
+        "summary": "No numerical or qualitative crowd-size estimate establishes a lower bound; minimum remains null."
+      },
+      "end_date": {
+        "source_ids": [
+          "PER202101-S061",
+          "PER202101-S062"
+        ],
+        "summary": "Correo reports the planned dates as Jan 12–14; El Búho says the stoppage would run through Friday Jan 15. Neither confirms actual physical departure, so end remains unknown."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "PER202101-S061",
+          "PER202101-S062"
+        ],
+        "summary": "The reports state that no clashes had occurred as of publication, but neither asserts that all forms of participant violence were absent; event-level violence remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "PER202101-S061",
+          "PER202101-S062"
+        ],
+        "summary": "Police contingents were sent to the area, but mere presence is not a response action; the reports say no clashes had been reported at publication. Other state response dimensions remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "Canchis-fares-budget-transport-2021-01-12",
+    "notes": "Defensoría rows 23 (72-hour paro) and 24 (roadblock) have the same Jan 12 date, actors, location and fare demand; opened contemporaneous reports describe one provincial measure that included multiple roadblocks, so they are grouped provisionally as one action, not counted separately. Correo and El Búho agree on the Jan 12 start but differ on planned end (12–14 versus through Jan 15); neither proves actual physical end. Multiple districts/sites are not separate attendance counts. Domestic public targets include fares, provincial budget, municipal hiring/route policy and national constitutional demand. Police presence alone is not coded as dispersal.",
+    "open_questions": [
+      "Establish whether at least 50 people attended a public gathering or roadblock at a particular location.",
+      "Verify actual physical end and whether action continued beyond the conflicting planned end dates.",
+      "Determine whether the multiple roadblock points were simultaneous parts of one coordinated action or separate local gatherings, without summing counts."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "PER202101-E009",
+    "country": "Peru",
+    "ccode": 135,
+    "unit_month": "2021-01",
+    "title": "Espinar public assembly begins an indefinite strike (Jan 28)",
+    "start_date": "2021-01-28",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Espinar province, Cusco region",
+    "scope": "local",
+    "organizer": "Espinar social organizations, including FUDIE and FUCAE (as named in the preceding public announcement)",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "Red Muqui reports that Espinar organizations began an indefinite strike through a public assembly underway in the main square on Jan 28. The sources give no attendance count.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "Red Muqui confirms a public assembly, but neither it nor the other sources gives a crowd-size estimate. The existence of a strike and organizations present does not establish at least 50 attendees; threshold remains pending.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "PER202101-S034",
+      "PER202101-S064",
+      "PER202101-S065",
+      "PER202101-S066",
+      "PER202101-S067",
+      "PER202101-S068"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S065"
+        ],
+        "summary": "Defensoría row 114 dates the indefinite strike to Jan 28; contemporaneous Red Muqui explicitly says that on Jan 28 Espinar organizations began it through a public assembly underway in the main square."
+      },
+      "location": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S065"
+        ],
+        "summary": "Defensoría identifies Espinar, Cusco; Red Muqui places the public assembly in Espinar’s main square."
+      },
+      "organizer": {
+        "source_ids": [
+          "PER202101-S064",
+          "PER202101-S065",
+          "PER202101-S066"
+        ],
+        "summary": "Red Muqui refers to Espinar organizations; the Jan14 announcement names FUDIE and FUCAE and CooperAcción identifies a multi-organizational assembly. Red Muqui does not name one exclusive organizer."
+      },
+      "demands": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S064",
+          "PER202101-S065"
+        ],
+        "summary": "Sources describe demand for a recognized dialogue table, compliance with the struggle platform, environmental remediation and health care for residents affected by toxic metals, justice/rights measures and an end to alleged criminalization; demands address the Peruvian government and a mining company."
+      },
+      "participants_original": {
+        "source_ids": [
+          "PER202101-S065"
+        ],
+        "summary": "Red Muqui confirms a public assembly underway but gives no attendee estimate."
+      },
+      "participants_min": {
+        "source_ids": [
+          "PER202101-S065"
+        ],
+        "summary": "No lower bound is established; minimum remains null."
+      },
+      "end_date": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S065"
+        ],
+        "summary": "Defensoría dates the action, and Red Muqui reports the assembly underway, but neither reports physical departure or strike end."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "PER202101-S065",
+          "PER202101-S067"
+        ],
+        "summary": "Red Muqui describes a public assembly but no participant violence. July 2020 injuries/deaths in DHSF are prior-event context and are not transferred; Jan28 participant violence remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "PER202101-S065",
+          "PER202101-S066",
+          "PER202101-S067"
+        ],
+        "summary": "The government offered virtual dialogue and reactivated a dialogue group before Jan28 in response to the announced strike. These are pre-event/campaign developments, not an action documented during or after the Jan28 assembly; all seven event-specific response dimensions remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "Espinar-dialogue-strike-restart-2021-01",
+    "notes": "Red Muqui provides contemporaneous evidence of physical onset: on Jan 28 Espinar organizations began an indefinite strike through a public assembly underway in the main square. Defensoría row114 independently lists the Jan28 indefinite strike. The Jan14–27 sources concern announcements and prior government responses; CooperAcción and the Observatorio reproduce overlapping information, so they are not independent execution reports. DHSF describes the earlier July2020 strike as a 24-day conflict that was deactivated, followed by months of unresolved dialogue, which supports a new Jan28 physical onset rather than continuous July-to-January occupation; its article contains an apparent “13 Jan 2020” typo and that date is not relied upon. The earlier July injuries/deaths are demand antecedents, not Jan28 response. The public assembly is confirmed, but turnout and physical end are not.",
+    "open_questions": [
+      "Find a contemporaneous crowd estimate or other evidence establishing at least 50 participants at the Jan28 public assembly.",
+      "Determine the duration/physical end of the strike and whether later January actions were part of the same continuous occupation.",
+      "Assess if the Jan21/26 government steps responding to the strike announcement count as accommodation to this campaign, while keeping their timing distinct from the Jan28 assembly; do not code prior-year force as January response."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "PER202101-E010",
+    "country": "Peru",
+    "ccode": 135,
+    "unit_month": "2021-01",
+    "title": "San Miguel leaders protest gas and urban-fare increases in Juliaca (Jan 20/21 date conflict)",
+    "start_date": "2021-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Plaza de Armas, Juliaca, San Román province, Puno region; official report identifies the actors as San Miguel district residents",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "price_increases_tax_policy"
+    ],
+    "participants_original": "Diario Correo reports “más de 20 personas” from San Miguel protested rising gas prices and sought restoration of the S/0.70 urban fare; Defensoría row84 lists a San Miguel concentration with the same demands but gives no count.",
+    "participants_min": 21,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "integer_lower_bound_derived_from_reported_inequality",
+    "threshold_50_evidence": "The only opened crowd count is “more than 20,” a lower bound of 21 that does not establish 50. The event remains threshold-pending.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "PER202101-S034",
+      "PER202101-S069"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S069"
+        ],
+        "summary": "Correo’s Jan21 update says “yesterday morning,” implying Jan20, while Defensoría row84 dates a San Miguel concentration with the same demand to Jan21. Exact day remains disputed; month is secure."
+      },
+      "location": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S069"
+        ],
+        "summary": "Correo places the protest in the Plaza de Armas of Juliaca and identifies a group of San Miguel leaders/residents; the official row lists San Miguel, San Román, Puno."
+      },
+      "demands": {
+        "source_ids": [
+          "PER202101-S034",
+          "PER202101-S069"
+        ],
+        "summary": "Both sources identify objections to gas-price increases and urban transport fares; the report’s introductory text says sectors sought state intervention over the price increase."
+      },
+      "participants_original": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "Correo reports “más de 20 personas” for this gathering; Defensoría supplies no attendee count."
+      },
+      "participants_min": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "“More than 20” yields a direct integer lower bound of 21; it does not establish the 50-person threshold."
+      },
+      "end_date": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "The report describes the concentration but no physical departure or dissolution."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "The report does not describe violence by participants; silence leaves this field unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "No event-specific state response is described; all seven response dimensions remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "Juliaca-GLP-urban-fare-protests-2021-01",
+    "notes": "This is the first of two protests that Correo says occurred in San Román on the previous morning. It reports >20 participants, below a verified 50-person lower bound. Defensoría row84 appears to match the same San Miguel action and demand but dates it Jan21; Correo’s Jan21 16:34 update says “yesterday morning,” Jan20. The exact day is therefore left at month precision pending resolution. The second group’s march in the same city is separately recorded as E011; shared cause and endpoint do not prove a single event.",
+    "open_questions": [
+      "Resolve the Jan20/Jan21 date conflict and exact linkage to Defensoría row84.",
+      "Seek attendance evidence establishing at least 50 at this gathering.",
+      "Clarify whether the urban fare request was directed to a public regulator and keep it distinct from the gas-price policy demand."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "PER202101-E011",
+    "country": "Peru",
+    "ccode": 135,
+    "unit_month": "2021-01",
+    "title": "Juliaca popular-organization leaders and residents march over gas prices (exact day unresolved)",
+    "start_date": "2021-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "From Plaza Bolognesi through streets of Juliaca to Plaza de Armas, San Román province, Puno region",
+    "scope": "local",
+    "organizer": "Leaders of Juliaca popular organizations (not individually identified)",
+    "demands": [
+      "price_increases_tax_policy"
+    ],
+    "participants_original": "Diario Correo describes a group of leaders of Juliaca popular organizations and residents marching from Plaza Bolognesi to Plaza de Armas over rising gas and other product prices; it gives no crowd size.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "The opened report identifies a group of leaders and residents but supplies no attendee count; threshold remains pending.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "PER202101-S069"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "Correo’s Jan 21 update frames both protests as occurring “yesterday,” but an internal article reference to Jan 22 conflicts with that relative date; the exact day remains unresolved."
+      },
+      "location": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "The march began at Plaza Bolognesi and proceeded through Juliaca streets to Plaza de Armas."
+      },
+      "organizer": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "The report describes a group of leaders of Juliaca popular organizations and residents, without naming an organization as the sole convenor."
+      },
+      "demands": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "The group marched amid objections to gas and product-price increases; a participating SUTEP leader says the state was not speaking out about the increase and calls for intervention."
+      },
+      "participants_original": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "The article describes a group of leaders and residents but gives no attendance estimate."
+      },
+      "participants_min": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "No numeric lower bound is reported; minimum remains null."
+      },
+      "end_date": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "The article says the group reached Plaza de Armas but does not describe a physical departure or dissolution afterward."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "The report does not describe participant violence; silence leaves this field unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "PER202101-S069"
+        ],
+        "summary": "No event-specific state response is described; all seven response dimensions remain unknown."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "Juliaca-GLP-urban-fare-protests-2021-01",
+    "notes": "Correo explicitly describes this as a second protest distinct from the San Miguel gathering (E010): another group formed at Plaza Bolognesi and marched to Plaza de Armas. It may be related to the same gas-price protest campaign, but the shared location/demand does not authorize merging. No attendance count, physical end, or response is reported. No match in the Defensoría action table was established; avoid inventing a row mapping. The exact-day cue is internally inconsistent: the Jan21 update and “yesterday” point to Jan20, while the article also refers to Jan22 as “today.” Month precision is retained pending independent date confirmation.",
+    "open_questions": [
+      "Resolve the article’s conflicting date cues and establish the exact day of this march.",
+      "Find an attendance estimate and corroborating contemporary account.",
+      "Clarify organizer, state-policy target and whether this march was a distinct event from the San Miguel concentration.",
+      "Determine physical departure/end and any event-specific state response."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  }
+]
