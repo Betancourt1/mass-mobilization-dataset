@@ -1,0 +1,32 @@
+{
+  "unit_id": "belgium_2021-02",
+  "country": "Belgium",
+  "month": "2021-02",
+  "agent_task": "/root/belgium_2021_02",
+  "status": "interrupted_partial_not_reviewed",
+  "started_at": null,
+  "finished_at": null,
+  "recorded_at": "2026-10-10T03:28:31+00:00",
+  "n_queries": 1,
+  "n_sources": 2,
+  "n_candidates": 0,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 3,
+  "coverage_assessment": "Interrupted after one broad English-language search with 26 captured headers. No language, weekly, regional, sector or episode follow-up; no body reads; no February candidate or absence conclusion. Search-only leads include a possible January 31 boundary reference and an undated-in-snippet Brussels anti-lockdown reference.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 0,
+    "search_only_cards": 2,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 26,
+    "recovered_original_event_id": "exec-e76505e2-e81c-4bfa-b956-042a321397d0",
+    "recovery_worker_thread_id": "01a123d4-7b7f-7122-8783-3763b37ec4a7",
+    "response_captured_at": "2026-10-10T03:22:53.227000+00:00",
+    "notes": "One actual Q001 invocation recovered through the registered local-only helper; no query was repeated. Exact worker start time was not captured. finished_at remains null because this checkpoint is interrupted."
+  },
+  "temporary_resources_started": []
+}

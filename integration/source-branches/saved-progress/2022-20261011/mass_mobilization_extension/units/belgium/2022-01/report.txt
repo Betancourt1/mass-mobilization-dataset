@@ -1,0 +1,23 @@
+Belgium — January 2022 research handoff (first pass; pending coordinator review)
+
+Coverage and method
+
+The dossier records 13 captured search responses and 39 source cards. Searches covered the month’s weekly/date windows in English, French, Dutch and German, regional Brussels and other Belgian locations, COVID/public-health demonstrations, general mobilization, labor/utility action, transport, farming, education, health-care and additional issue leads including Palestine, climate, housing, anti-racism and asylum. Search-result snippets are retained as discovery only. This is a documented first pass, not an exhaustive event census or a claim that no other qualifying mobilizations occurred.
+
+Three source cards contain current body-read evidence: VRT (S001), Le Point/AFP (S024) and Euronews Portuguese (S041). The Jan. 9 and Jan. 23 events have opened-body turnout estimates that clearly exceed 50; Jan. 30 remains pending threshold because the retained body excerpt confirms the event’s ending and peaceful character but not headcount, organizer or demand. The three records are separate same-day/reconvened events; no continuous cross-week or cross-month episode is established.
+
+Candidates and boundaries
+
+E001 records the Jan. 9 Brussels march against pandemic restrictions from opened Le Point/AFP copy. Police estimated 5,000. About 30 detentions are reported after the march, while 11 preventive arrests occurred before it; those are distinct. The article gives no closing time and its ministerial call for parliamentary debate is not established as a response or concession. AFP syndications are one origin.
+
+E002 records the Jan. 23 Brussels march. VRT reports approximately 50,000 people from Belgium and abroad, marching from Brussels North Station to Cinquantenaire/Jubelpark. Police announced the demonstration over around 15:00; a few hundred then continued in a violent subgroup. That announcement is not treated as the physical end of all assembly, the subgroup is not the turnout for the march, and 228 arrests are not attendance. Police dispersal/arrests are coded; other response dimensions remain unknown absent evidence. Search-only allegations or injury details are not coded as police abuse.
+
+E003 preserves the Jan. 30 Euronews body-supported event with eligibility pending_threshold. Its visible ending excerpt states that it ended around 16:00 local without disturbances and was smaller and more peaceful than the previous week. Approximate attendance, organizer and government-removal demand appear in search discovery but are not coded without body evidence. S030 returned HTTP 403; S032 returned a tool-side Cache miss without status or body.
+
+Unresolved leads and access
+
+S031 is a Jan. 26 search lead about spontaneous Sibelga workers’ strike action at company/regulator sites. No article body was read, so scale, public participation threshold, demand, state target and physical boundaries remain unknown; it is not coded as an event. Search-only RTBF and municipal records also leave details of Jan. 23 response and injury allegations unresolved.
+
+S002’s repeated web-reader Cache misses and one DNS failure produced no HTTP response or body; no site denial was observed. S030’s 403 is an actual access denial and should not be retried or routed around. S032’s Cache miss is a tool-side failure, not a denial. An RTBF search result was marked robots-blocked by the search tool; no RTBF body request was made for S018/S031. All source-level limits and receipts are recorded in sources.jsonl and access_receipts/.
+
+There are 3 event records (2 proposed includes, 1 pending threshold), 0 exclusions and 0 continuations. Five gaps remain, including the unavailable official baseline/codebook. Baseline compatibility, factual coding, and all candidates remain subject to coordinator review; no official Mass Mobilization approval is claimed.

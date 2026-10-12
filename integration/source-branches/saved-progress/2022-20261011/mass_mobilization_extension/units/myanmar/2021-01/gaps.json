@@ -1,0 +1,202 @@
+[
+  {
+    "gap_id": "myanmar_2021-01_G001",
+    "type": "source_coverage",
+    "description": "Búsqueda web abierta no reproduce LexisNexis All News ni el universo del manual. Búsquedas de ventanas semanales devolvieron mayormente febrero o documentos externos; operadores de fecha no produjeron filtros fiables.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Hemeroteca autorizada; búsqueda por país/mes y verificación de fecha local de cada resultado."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G002",
+    "type": "language",
+    "description": "VOA y Voice of Myanmar en birmano se interpretaron en este pase sin segundo lector. Karen y otras lenguas minoritarias no se buscaron sistemáticamente.",
+    "source_ids": [
+      "S018",
+      "S019",
+      "S020",
+      "S021"
+    ],
+    "affected_candidates": [
+      "myanmar_2021-01_E002",
+      "myanmar_2021-01_E003",
+      "myanmar_2021-01_E009",
+      "myanmar_2021-01_E012"
+    ],
+    "required_followup": "Revisión independiente de traducción y búsquedas locales por estado/región."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G003",
+    "type": "inaccessible_archive",
+    "description": "Mizzima BYMA devolvió 403; vínculos del boletín VOM del 10 enero no resolvieron. Un ítem AAPP numérico tanteado no fue fuente válida. Se documentan errores sin eludir bloqueos.",
+    "source_ids": [
+      "S007",
+      "S019",
+      "S034"
+    ],
+    "affected_candidates": [
+      "myanmar_2021-01_E002",
+      "myanmar_2021-01_E007"
+    ],
+    "required_followup": "Acceso legítimo a copias/archivos mediante enlaces documentados; confirmar boletín y conteo."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G004",
+    "type": "threshold",
+    "description": "Naypyidaw carece de cifra; protestas de Wirathu y Marlar usan aproximadamente 50; Pyawbwe separa 30 manifestantes de más de mil simpatizantes.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004",
+      "S019"
+    ],
+    "affected_candidates": [
+      "myanmar_2021-01_E002",
+      "myanmar_2021-01_E004",
+      "myanmar_2021-01_E005",
+      "myanmar_2021-01_E006",
+      "myanmar_2021-01_E008"
+    ],
+    "required_followup": "Corroborar tamaño y adjudicar estimaciones fronterizas; no inventar cifras."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G005",
+    "type": "political_rally_boundary",
+    "description": "Acciones pro-militares contienen demandas contra UEC, junto con apoyo partidario. Su carácter postelectoral difiere del ejemplo de rally preelectoral del manual; no excluir ni aceptar mecánicamente.",
+    "source_ids": [
+      "S004",
+      "S009",
+      "S010",
+      "S021"
+    ],
+    "affected_candidates": [
+      "myanmar_2021-01_E005",
+      "myanmar_2021-01_E010",
+      "myanmar_2021-01_E012"
+    ],
+    "required_followup": "Adjudicación documentada del objetivo estatal vs simple acto partidario, contrastando originales MM si disponibles."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G006",
+    "type": "state_target",
+    "description": "Shwe Thazin incluye mediación estatal pero reclamos principales privados. BYMA reclama beneficios de seguridad social estatal además de salario privado.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S020"
+    ],
+    "affected_candidates": [
+      "myanmar_2021-01_E003",
+      "myanmar_2021-01_E007"
+    ],
+    "required_followup": "Verificar que se exige política o actuación estatal; no usar presencia de funcionarios como prueba suficiente."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G007",
+    "type": "event_unit",
+    "description": "Meh Way reúne dos sedes y un total conjunto. Yangon 30 enero pertenece a varios días de marchas, sin comienzo/cierre identificado. Dos acciones por Wirathu y dos por Bilin constan como fechas distintas; confirmar discontinuidad.",
+    "source_ids": [
+      "S001",
+      "S010",
+      "S018",
+      "S021",
+      "S027"
+    ],
+    "affected_candidates": [
+      "myanmar_2021-01_E001",
+      "myanmar_2021-01_E004",
+      "myanmar_2021-01_E006",
+      "myanmar_2021-01_E009",
+      "myanmar_2021-01_E011",
+      "myanmar_2021-01_E012"
+    ],
+    "required_followup": "Revisar coordinación, cronología de antes/después del mes y duración antes de deduplicar o dividir."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G008",
+    "type": "end_dates",
+    "description": "Solo BYMA tiene fin físico explícito. Otras acciones conservan fin desconocido; no se iguala automáticamente fin a inicio ni a 31 enero.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "myanmar_2021-01_E001",
+      "myanmar_2021-01_E002",
+      "myanmar_2021-01_E003",
+      "myanmar_2021-01_E004",
+      "myanmar_2021-01_E005",
+      "myanmar_2021-01_E006",
+      "myanmar_2021-01_E008",
+      "myanmar_2021-01_E009",
+      "myanmar_2021-01_E010",
+      "myanmar_2021-01_E011",
+      "myanmar_2021-01_E012"
+    ],
+    "required_followup": "Seguimiento posterior y reglas explícitas de cierre físico/última noticia conforme al manual."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G009",
+    "type": "state_response",
+    "description": "La mayoría de respuestas y ausencia de violencia son desconocidas. Disparos durante combates, retornos a aldeas o ataques a civiles por manifestantes no son shootings/killings/beatings estatales de una protesta.",
+    "source_ids": [
+      "S003",
+      "S018",
+      "S021",
+      "S027",
+      "S028"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Evidencia específica de respuesta por evento y diferenciación de violencia contra Estado, civiles y conflictos armados."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G010",
+    "type": "source_independence",
+    "description": "S001/S002 son seguimiento por misma redacción; AP en KSAT y News4Jax no son necesariamente confirmaciones independientes. S006 reproduce versión de empresa; mirrors Wikipedia no confirman nada.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S006",
+      "S010",
+      "S011",
+      "S032"
+    ],
+    "affected_candidates": [
+      "myanmar_2021-01_E006",
+      "myanmar_2021-01_E007",
+      "myanmar_2021-01_E012"
+    ],
+    "required_followup": "Conservar origen de agencia y versión de parte; buscar corroboración independiente."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G011",
+    "type": "regional_archives",
+    "description": "Archivo DMG recuperado corresponde a marzo; AAPP no aportó cronología específica de enero. No hubo revisión completa de archivos día por día, sindicatos o todos los estados.",
+    "source_ids": [
+      "S024",
+      "S025",
+      "S029"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Completar archivo regional de enero, sindicatos, zonas rurales y medios locales; no interpretar ausencia de resultados como cero protestas."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G012",
+    "type": "baseline",
+    "description": "Última versión oficial y compatibilidad con codificación original aún no fijadas.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resolver pending_official_baseline antes de IDs oficiales, integración o PR."
+  },
+  {
+    "gap_id": "myanmar_2021-01_G013",
+    "type": "unopened_leads",
+    "description": "S008, S031 y S033 permanecen como descubrimientos no abiertos; el posible arresto de dirigente del 26 enero no está atribuido a evento concreto.",
+    "source_ids": [
+      "S008",
+      "S031",
+      "S033"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Abrir y contrastar fuentes antes de codificar seguimiento; registrar nuevas URL y acceso."
+  }
+]

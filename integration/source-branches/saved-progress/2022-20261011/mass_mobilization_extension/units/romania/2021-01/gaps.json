@@ -1,0 +1,472 @@
+[
+  {
+    "gap_id": "romania_2021-01_G001",
+    "type": "baseline",
+    "description": "The current official event-file bytes, latest dataset cutoff, universe and schema remain unverified in the project baseline record; the May 2015 manual does not resolve the additional Coding Procedure.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use the coordinator’s existing baseline gate and unresolved access record; do not repeat already denied Dataverse retrievals or assign official IDs."
+  },
+  {
+    "gap_id": "romania_2021-01_G002",
+    "type": "search_method",
+    "description": "Open web search and accessible sources do not reproduce the original LexisNexis newspaper-search method.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Record search scope, language, weekly windows, access limits and sources not available through open web; do not claim exhaustive coverage."
+  },
+  {
+    "gap_id": "romania_2021-01_G003",
+    "type": "source_access",
+    "description": "Several source pages remain search-only after Cache miss, timeouts or one 403: RRI Jan. 13, a separate AGERPRES page, Radio Târgu Mureș Jan. 20, eMaramures Jan. 14, Solidaritatea Sanitară Jan. 6, and local Târgoviște/Botoșani health-worker pages. Zi de Zi independently body-confirms Jan. 20 Mureș but says only “dozens”; the Satu Mare prefecture PDF is body-accessible and verifies around 60 on Jan. 27.",
+    "source_ids": [
+      "RO-S002",
+      "RO-S005",
+      "RO-S008",
+      "RO-S010",
+      "RO-S034",
+      "RO-S039",
+      "RO-S045",
+      "RO-S051",
+      "RO-S059",
+      "RO-S068",
+      "RO-S069"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use accessible independent sources; respect actual AGERPRES HTTP 403, do not repeat or bypass. Cache-miss pages not otherwise necessary remain search_only."
+  },
+  {
+    "gap_id": "romania_2021-01_G004",
+    "type": "contested_evidence",
+    "description": "Jan. 30 AUR demonstration counts differ: G4Media reports circa 100, AP via Euronews says hundreds, and an unopened AGERPRES result says approximately 200. Sources may describe different stages or counting bases.",
+    "source_ids": [
+      "RO-S003",
+      "RO-S008",
+      "RO-S014"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E001"
+    ],
+    "required_followup": "Preserve each attributed estimate; check accessible body-level accounts for time and counting scope; never sum the figures."
+  },
+  {
+    "gap_id": "romania_2021-01_G005",
+    "type": "dates",
+    "description": "The Jan. 30 report traces a march beyond the ministry but gives no physical end; planned return is reported only in an unopened AGERPRES result.",
+    "source_ids": [
+      "RO-S003",
+      "RO-S008",
+      "RO-S014"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E001"
+    ],
+    "required_followup": "Seek an accessible contemporary account of departure or dissolution; keep end_date null until physically supported."
+  },
+  {
+    "gap_id": "romania_2021-01_G006",
+    "type": "state_response",
+    "description": "Presence of gendarmes and general public-safety instructions do not establish accommodation, arrest, beating, dispersal, ignore, killing or shooting in the Jan. 30 event.",
+    "source_ids": [
+      "RO-S014"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E001"
+    ],
+    "required_followup": "Only code a response if an event-specific action is documented; otherwise preserve unknown."
+  },
+  {
+    "gap_id": "romania_2021-01_G007",
+    "type": "threshold",
+    "description": "The Jan. 13 RRA post-event body confirms PUBLISIND gatherings but gives no realized site turnout. News.ro and the Jan. 19 BNS release each schedule 100 per site, which is not attendance. Zi de Zi reports only “dozens” at the separate Jan. 20 Mureș action, not enough to establish 50.",
+    "source_ids": [
+      "RO-S019",
+      "RO-S023",
+      "RO-S028",
+      "RO-S039",
+      "RO-S040",
+      "RO-S019"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E002",
+      "romania_2021-01_E003"
+    ],
+    "required_followup": "Find body-level realized attendance by site, or retain pending_threshold; do not derive attendance from the 100-per-site plan or cap."
+  },
+  {
+    "gap_id": "romania_2021-01_G008",
+    "type": "coverage",
+    "description": "BNS schedules 100 at the Satu Mare Prefecture for Jan. 27; the Prefecture retrospective reports around 60 actual attendees. The scheduled count is not turnout, and the other planned Jan. 27 sites remain unverified.",
+    "source_ids": [
+      "RO-S019",
+      "RO-S020",
+      "RO-S042",
+      "RO-S019"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E004"
+    ],
+    "required_followup": "Seek contemporary/body evidence for each other site; do not impute a coordinated multi-site occurrence from schedule alone."
+  },
+  {
+    "gap_id": "romania_2021-01_G009",
+    "type": "candidate_search",
+    "description": "Search-only leads include a Jan. 15 Cartel ALFA wage protest in Mureș, a Jan. 23 civilian/military pensioner and union notice, a Jan. 31 Health Ministry gathering, and weekly union activity. These differ in organizer, date, purpose or likely episode and remain unresolved.",
+    "source_ids": [
+      "RO-S002",
+      "RO-S010",
+      "RO-S041",
+      "RO-S043"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E001"
+    ],
+    "required_followup": "Search contemporary accessible sources in Romanian and local outlets for event bodies, turnout, state target and physical boundaries; keep every lead pending or separate where warranted."
+  },
+  {
+    "gap_id": "romania_2021-01_G010",
+    "type": "coverage",
+    "description": "Coverage is incomplete for Jan. 1–7, Jan. 8–14, Jan. 15–21 and Jan. 22–31 and for policing, health, education, regional/local labor, pensioners and other sectors. No query count demonstrates completeness.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue Romanian-language and local outlet searches by week, sector, and region; record searched scope and access limits without claiming absence or exhaustiveness."
+  },
+  {
+    "gap_id": "romania_2021-01_G011",
+    "type": "episode_boundary",
+    "description": "PUBLISIND’s Dec. 31 origin and January actions are recurring events at distinct sites/dates, with February scheduled follow-up. Current evidence does not establish a continuously occupied site or resolve series-level episode ownership.",
+    "source_ids": [
+      "RO-S019",
+      "RO-S023",
+      "RO-S028",
+      "RO-S044"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E002",
+      "romania_2021-01_E003",
+      "romania_2021-01_E004"
+    ],
+    "required_followup": "Apply the episode rule after reviewing the governing Coding Procedure; preserve distinct physical date/site evidence and prior-month origin."
+  },
+  {
+    "gap_id": "romania_2021-01_G012",
+    "type": "candidate_search",
+    "description": "Cartel ALFA’s Jan. 12 announcement schedules a Jan. 14 caravan and cascading prefecture/institution actions through February. G4Media later reports route activity at several stops; the Feb. 16 organizer retrospective says the campaign began Jan. 14 in Baia Mare with the caravan departing toward Bucharest. Neither source establishes a >=50 gathering at the Baia Mare Prefecture, its exact venue or count.",
+    "source_ids": [
+      "RO-S049",
+      "RO-S053",
+      "RO-S084"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E005"
+    ],
+    "required_followup": "Keep the Baia Mare candidate at city-level onset with the prefecture venue pending; do not transfer counts between stops or treat scheduled cascading actions as continuous occupation."
+  },
+  {
+    "gap_id": "romania_2021-01_G013",
+    "type": "source_access",
+    "description": "The Jan. 6 Solidaritatea Sanitară announcement remains search-only after Cache miss. RRA body confirms a Bucharest gathering on Jan. 14, but its plan for later prefecture actions is not proof that those separate local sites occurred.",
+    "source_ids": [
+      "RO-S045"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E006",
+      "romania_2021-01_E009",
+      "romania_2021-01_E010"
+    ],
+    "required_followup": "Use accessible event-day bodies for local sites, demands and turnout; keep each location separate."
+  },
+  {
+    "gap_id": "romania_2021-01_G014",
+    "type": "candidate_search",
+    "description": "A search result identifies a potential Jan. 24 CFR union protest at the Government; no body, turnout, state target or episode details have been verified.",
+    "source_ids": [
+      "RO-S050"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Locate accessible contemporary body reporting and determine if a public gathering took place and whether it made demands on the Romanian state."
+  },
+  {
+    "gap_id": "romania_2021-01_G015",
+    "type": "threshold",
+    "description": "Cartel ALFA route reporting confirms Jan. 15 activity in Zalău and a separate Jan. 18 assembly at Cotroceni; only the latter has an approximately 100 estimate. A Feb. 16 organizer retrospective confirms the longer campaign included Zalău and many other cities but does not date or count each local action. Baia Mare attendance and exact site remain unverified.",
+    "source_ids": [
+      "RO-S049",
+      "RO-S053",
+      "RO-S054",
+      "RO-S058",
+      "RO-S084"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E005",
+      "romania_2021-01_E007",
+      "romania_2021-01_E008"
+    ],
+    "required_followup": "Keep estimates site-specific and dated; the campaign retrospective cannot transfer turnout to individual cities or establish venue-specific attendance."
+  },
+  {
+    "gap_id": "romania_2021-01_G016",
+    "type": "state_response",
+    "description": "No body-level source read for the Jan. 15 Zalău or Jan. 18 Cotroceni Cartel ALFA gatherings establishes any of the seven state-response fields. A scheduled time window is not documented physical ending.",
+    "source_ids": [
+      "RO-S058",
+      "RO-S053"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E007",
+      "romania_2021-01_E008"
+    ],
+    "required_followup": "Record event-specific state actions only from direct evidence; leave end dates and response dimensions unknown otherwise."
+  },
+  {
+    "gap_id": "romania_2021-01_G017",
+    "type": "participants",
+    "description": "The Jan. 14 Bucharest health-worker protest is body-confirmed, but RRA gives no total count. Mention of “a few” interviewees is not a turnout count.",
+    "source_ids": [
+      "RO-S060"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E006"
+    ],
+    "required_followup": "Seek event-specific body reporting or an explicit count; retain pending_threshold if unresolved."
+  },
+  {
+    "gap_id": "romania_2021-01_G018",
+    "type": "coverage",
+    "description": "Jan. 14 local health-worker actions are announced in multiple counties; Botoșani and joint Târgoviște events appear in search-only results, and Sibiu is only scheduled. Their bodies, occurrence and turnout are unverified.",
+    "source_ids": [
+      "RO-S059",
+      "RO-S063",
+      "RO-S066",
+      "RO-S068"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E009",
+      "romania_2021-01_E010"
+    ],
+    "required_followup": "Find accessible local/body reporting for each site; do not impute the Bucharest event or count across separate sites."
+  },
+  {
+    "gap_id": "romania_2021-01_G019",
+    "type": "dates",
+    "description": "RRA confirms more than 100 participants at the Jan. 26 Finance Ministry gathering but does not report its physical end; a future picketing schedule cannot establish the end or later occurrences.",
+    "source_ids": [
+      "RO-S074"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E011"
+    ],
+    "required_followup": "Keep end_date unknown absent physical departure/dissolution evidence; treat each later date as separate pending follow-up."
+  },
+  {
+    "gap_id": "romania_2021-01_G020",
+    "type": "episode_unit",
+    "description": "The Jan. 24 Adevărul body reports about 100 at Piața Victoriei and similar ministry pickets without per-site counts or physical boundaries. Keep the counted Government-site gathering separate from uncounted ministry-site mentions.",
+    "source_ids": [
+      "RO-S075"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E012"
+    ],
+    "required_followup": "Retain the Piața Victoriei count as site-specific; seek body sources and turnout for any separately coded ministry gatherings, with no automatic merge."
+  },
+  {
+    "gap_id": "romania_2021-01_G021",
+    "type": "source_access",
+    "description": "Jan. 27 pensioner action is an organizer-confirmed plan with search-result execution leads for Government, Cotroceni, prefectures and Târgu Jiu. The organizer body is accessible, but Radio București FM and Radio România Oltenia bodies could not be retrieved after web errors, default DNS failures and one escalated timeout each; AGERPRES and Bugetul pages returned Cache miss. Search-only site counts near 100 remain unverified.",
+    "source_ids": [
+      "RO-S073",
+      "RO-S077",
+      "RO-S078",
+      "RO-S079",
+      "RO-S080",
+      "RO-S081",
+      "RO-S082"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E013"
+    ],
+    "required_followup": "Use body-level contemporary evidence for execution and count at each site; keep the candidate pending_evidence and do not combine the Government and Târgu Jiu estimates."
+  },
+  {
+    "gap_id": "romania_2021-01_G022",
+    "type": "participants",
+    "description": "Gazeta Nouă search result describes approximately 20 Cartel ALFA Olt members at a Labor Ministry protest on a Tuesday, but the page open returned HTTP 502. Exact date and event details remain unverified; the result does not support threshold inclusion or a confirmed below-threshold exclusion.",
+    "source_ids": [
+      "RO-S086"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If accessible without bypassing an access denial, verify the date and reported count in the body; otherwise preserve this only as a search-only lead."
+  },
+  {
+    "gap_id": "romania_2021-01_G023",
+    "type": "episode_unit",
+    "description": "TVR and AGERPRES report a planned Jan. 20 Cartel ALFA picket at the Finance Ministry, but the opened TVR body repeats the program and supplies no execution or turnout. The Jan. 26 Finance Ministry assembly is separately body-confirmed; do not transfer its count or infer physical continuity.",
+    "source_ids": [
+      "RO-S049",
+      "RO-S083",
+      "RO-S085",
+      "RO-S074"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E014",
+      "romania_2021-01_E011"
+    ],
+    "required_followup": "Find a contemporary post-event account of the Jan. 20 picket and actual turnout, or retain the candidate as pending_evidence."
+  },
+  {
+    "gap_id": "romania_2021-01_G024",
+    "type": "episode_unit",
+    "description": "TVR search-result text describes Jan. 24 railway-union protests before Government and other institutions, potentially overlapping Adevărul’s counted Jan. 24 Piața Victoriei gathering. TVR body retrieval returned Cache miss and an exact request returned HTTP 403; it may not be treated as a separate event or source for additional turnout.",
+    "source_ids": [
+      "RO-S001",
+      "RO-S075"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E012"
+    ],
+    "required_followup": "Keep the possible relation explicit; do not split or merge the railway account without body-level detail, and never transfer Adevărul’s count to other sites."
+  },
+  {
+    "gap_id": "romania_2021-01_G025",
+    "type": "source_access",
+    "description": "Radio România Constanța search result reports a Jan. 20 union protest outside Constanța Prefecture, but the page returned Cache miss and one escalated exact HTTPS request timed out after default DNS failure. No body confirms event details, site turnout or specific state-policy demands.",
+    "source_ids": [
+      "RO-S091"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E015"
+    ],
+    "required_followup": "Keep E015 pending_evidence until body-level evidence confirms occurrence, domestic-state target and attendance; do not infer a >=50 crowd."
+  },
+  {
+    "gap_id": "romania_2021-01_G026",
+    "type": "episode_unit",
+    "description": "The Jan. 20 Radio Constanța search result points to about 100 at the Prefecture and aligns with a PUBLISIND schedule, but its body is inaccessible. RRA body confirms a separate Jan. 21 Cartel ALFA caravan action at the same Prefecture with about 100. Keep the dates, organizers and counts separate; the Jan. 20 local report’s execution and relation to the plan remain pending evidence.",
+    "source_ids": [
+      "RO-S091",
+      "RO-S092",
+      "RO-S019"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E015",
+      "romania_2021-01_E016"
+    ],
+    "required_followup": "Do not merge or transfer counts; seek body-level Jan. 20 execution evidence if available and preserve the explicit Jan. 21 date in the RRA source."
+  },
+  {
+    "gap_id": "romania_2021-01_G027",
+    "type": "episode_unit",
+    "description": "BNS/PUBLISIND’s Jan. 19 body schedules Jan. 20 protests at the Justice Ministry and Constanța, Prahova and Mureș prefectures, with 100 planned at each site. Jan. 20 execution is not established for the Justice Ministry or Prahova; Mureș is body-confirmed with “dozens” and Constanța remains a search-only local lead. Planned counts cannot be transferred to those candidates.",
+    "source_ids": [
+      "RO-S091",
+      "RO-S019",
+      "RO-S039"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E003",
+      "romania_2021-01_E015",
+      "romania_2021-01_E019"
+    ],
+    "required_followup": "Find execution and site-specific turnout evidence for the scheduled sites; do not treat PUBLISIND’s 100-per-site plan as attendance or combine it with Cartel ALFA’s separate Jan. 20 plan."
+  },
+  {
+    "gap_id": "romania_2021-01_G028",
+    "type": "participants",
+    "description": "RRA confirms the Jan. 29 Galați pensioner gathering but describes the crowd only as “dozens,” which does not demonstrate at least 50. The separate Târgu Jiu Cartel ALFA action that day is estimated at approximately 100.",
+    "source_ids": [
+      "RO-S094"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E017",
+      "romania_2021-01_E018"
+    ],
+    "required_followup": "Keep the site-specific estimates separate; seek a more precise count for Galați before any threshold inclusion."
+  },
+  {
+    "gap_id": "romania_2021-01_G029",
+    "type": "dates",
+    "description": "RRA’s Jan. 29 body reports the Târgu Jiu and Galați gatherings but neither physical end; no event-specific state-response action is documented. A Jan. 27 Târgu Jiu pensioner search lead is a separate date and organizer.",
+    "source_ids": [
+      "RO-S073",
+      "RO-S079",
+      "RO-S094"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E013",
+      "romania_2021-01_E017",
+      "romania_2021-01_E018"
+    ],
+    "required_followup": "Leave end dates unknown and all response dimensions unknown absent specific evidence; keep the Jan. 27 and Jan. 29 Târgu Jiu leads separate."
+  },
+  {
+    "gap_id": "romania_2021-01_G030",
+    "type": "participants",
+    "description": "RRA confirms a separate police-union protest before the Ministry of Interior on Jan. 29 and a demand to apply the salary law, but gives no dependable turnout. A speaker's aspirational reference to 100 and future tens of thousands is not a reliable count; the Labour Ministry estimate applies to another gathering.",
+    "source_ids": [
+      "RO-S098"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E021",
+      "romania_2021-01_E020"
+    ],
+    "required_followup": "Seek a site-specific attendance estimate for the Ministry of Interior protest; never transfer the separate Labour Ministry count."
+  },
+  {
+    "gap_id": "romania_2021-01_G031",
+    "type": "participants",
+    "description": "RRA confirms PUBLISIND protests at Prahova and Mureș prefectures on Jan. 20. Only the Constanța site is estimated at nearly 100; Prahova has no count and Mureș is described by Zi de Zi as dozens.",
+    "source_ids": [
+      "RO-S039",
+      "RO-S097",
+      "RO-S019"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E003",
+      "romania_2021-01_E015",
+      "romania_2021-01_E022"
+    ],
+    "required_followup": "Find local body-level estimates for each site and preserve the current site-specific distinction; do not transfer Constanța's count or BNS's planned 100."
+  },
+  {
+    "gap_id": "romania_2021-01_G032",
+    "type": "episode_unit",
+    "description": "RRA's Jan. 29 midday article says a Cartel ALFA picket at Gorj Prefecture was planned that day, while its evening report confirms about 100 in Târgu Jiu without naming the exact venue. The connection is plausible but not explicitly established by the opened bodies.",
+    "source_ids": [
+      "RO-S094",
+      "RO-S098"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E017"
+    ],
+    "required_followup": "Retain city-level location and check whether the counted Târgu Jiu gathering was the planned Gorj Prefecture picket; do not treat the plan alone as venue evidence."
+  },
+  {
+    "gap_id": "romania_2021-01_G033",
+    "type": "episode_unit",
+    "description": "A press-review excerpt describes a Jan. 31 gathering of several dozen before the Health Ministry separately from the Jan. 30 AUR demonstration and march. The reports concern consecutive days at the same site and issue, but there is no evidence of continuous occupation; the original Jan. 31 article still needs direct confirmation.",
+    "source_ids": [
+      "RO-S003",
+      "RO-S008",
+      "RO-S099"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E001",
+      "romania_2021-01_E023"
+    ],
+    "required_followup": "Find and read the direct contemporary Jan. 31 report if accessible; keep the separate-day records and estimates distinct unless evidence establishes one continuous event."
+  },
+  {
+    "gap_id": "romania_2021-01_G034",
+    "type": "state_response",
+    "description": "The Jan. 31 report says AUR leader George Simion met with the Health Minister on the same day as the gathering. This supports a documented state hearing coded as accommodation, but the source does not explicitly state the meeting was arranged in response to the crowd or its demands.",
+    "source_ids": [
+      "RO-S099",
+      "RO-S100"
+    ],
+    "affected_candidates": [
+      "romania_2021-01_E023"
+    ],
+    "required_followup": "Keep the meeting and its uncertain linkage explicit; do not infer arrest or dispersal from identity checks or attempted entry."
+  }
+]

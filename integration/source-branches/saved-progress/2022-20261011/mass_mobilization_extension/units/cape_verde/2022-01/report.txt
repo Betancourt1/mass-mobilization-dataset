@@ -1,0 +1,22 @@
+Cape Verde — January 2022
+
+Status: first-pass open-web research; pending coordinator review and the source-ledger stability window. This is not an official update.
+
+Scope and method
+- 43 actual web-search invocations were captured immediately in search_log.jsonl, retaining the returned headers, result order, exact URLs and web references. Searches used Portuguese and English terms for protests, demonstrations, marches, strikes, stoppages, vigils and gatherings; week/date windows; place and island names; and labor, teacher, student, health, transport, price, utility, justice and resident concerns. Outlets searched or targeted included RTC, A Nação, Inforpress, Tiver, Mindel Insite, Expresso das Ilhas and A Semana.
+- I also tried three Kriolu-form search variants. They did not surface a clearly relevant January 2022 gathering. This does not establish that no such action was reported in Kriolu.
+- Search results are discovery evidence only. The current source ledger contains 14 cards, all marked search_only; no article bodies have been read in this pass. Open-web results are not a substitute for the source universe or LexisNexis-style archival coverage. Search-engine date filters and source ordering are not comprehensive.
+
+Potential January events
+- E001: RTC's search-result text reports that São Filipe residents gathered before the Comarca court on 21 January to protest delays in justice and demand better justice. The event is retained as pending_evidence. Attendance and the >=50 threshold, the precise domestic state addressee, organizer, duration, and any response remain unknown. The exact body could not be retrieved: one web-tool timeout happened before content and a later ordinary HTTPS fallback failed DNS before HTTP. The corrected 233-input post-attempt map also changed across six sibling ledgers. No publisher denial or body read is recorded; under the coordinator's explicit no-retry instruction, no further request will be made for S008.
+- E002: BUALA search-result text reports a 20 January Marxa Cabral at Achada Grande Frente in Praia, framed as cultural resistance and Cabralist/pan-African organizing. It is retained as pending_evidence, not as an eligible protest. Physical assembly details, attendance and any specific demand directed at Cape Verde's government or policy are unverified; this may be a commemorative/cultural event outside the dataset target rule.
+
+Date boundaries and non-event leads
+- S010 reports a planned private-security strike and demonstration spanning 30 December 2021 to 1 January 2022. The announcement is not proof of occurrence. Actual onset, form, turnout, private-employer versus domestic-state demands, and the episode boundary remain unknown; it is not coded as a January event or continuation.
+- Teacher action was announced in late January for 1 February. January coverage distinguishes the planned strike, its suspension in São Vicente for notice timing, and a still-planned demonstration. Search-only results also report a February 1 occurrence. February 1 lies outside this unit, and no earlier January physical assembly is identified. A distinct March 22 Expresso das Ilhas report is recorded as S014, search_only, and used only as a bounded indication that the action occurred after this unit.
+- Utility-service complaints in Chã de Manuelim and Água das Patas did not report an assembly. A Fogo street-fight report did not describe an organized policy protest. Union-front stories forecast labor instability without identifying a specific January action. These leads remain traceable in excluded.json.
+
+Counts and unresolved decisions
+- 2 pending event leads; 4 documented exclusions/non-event or post-month leads; 0 verified continuations; 8 open gaps. Current ledger counts are 14 search-only sources and 0 body-read sources.
+- Main unresolved questions are attendance/threshold, state-target wording, physical occurrence and episode ownership, source-body access, source independence, language and regional coverage, and baseline compatibility. The gaps.json records exact follow-up, including that a missing result is not evidence of no protest.
+- No candidate has an official MM ID or approval. The baseline remains pending. These findings are an open-web first pass only.

@@ -1,0 +1,31 @@
+Francia, febrero de 2021 — primer barrido sistemático de web abierta
+Unidad: france_2021-02
+Agente: /root/france_2021_02
+Corte de investigación: 8 de octubre de 2026, UTC.
+Estado: investigado en web abierta, pendiente de revisión y baseline oficial.
+
+Método
+Se leyeron protocolo de trabajadores, política de revisión, manual de Mass Mobilization, assignment y expediente previo de Francia enero. Se ejecutaron 35 consultas: tres generales en francés/inglés, cuatro ventanas semanales aproximadas, cuatro ventanas con after/before y seguimientos de empleo, estudiantes, seguridad global, restricciones sanitarias, cultura, vivienda, energía, agricultores, motards, Ségur, instrucción familiar y Gonesse. Las cuatro consultas con operadores cronológicos devolvieron resultados de 2026; este fallo queda registrado. La primera tanda devolvió resultados combinados, cuya atribución a cada consulta no es posible: se explica en cada fila.
+
+Material
+search_log.jsonl contiene todas las 35 consultas y las URLs devueltas, incluidas las ajenas al país/mes. sources.jsonl conserva 129 URL relevantes: 31 abiertas en este barrido, una ficha abierta heredada de enero, seis bloqueadas y 91 sólo descubiertas. No se guardan artículos completos. La fuente heredada conserva referencia de enero y explicita que no se reabrió. Suscripciones y errores 403, DisabledError y 502 se documentan. Dos reproducciones de cifras ministeriales vía AFP no se tratan como confirmaciones independientes.
+
+Resultados revisables
+18 candidatos: nueve proposed_include, tres pending_unit, dos pending_state_target, uno pending_threshold y tres pending_evidence.
+Nueve propuestas acreditan reunión pública, >=50 y objetivo estatal: jornada interprofesional del 4, motards contra estacionamiento parisino del 6, Justice pour Julie del 7, ZAD Gonesse del 7 al 23, estudiantes extranjeros del 12, concentración contra separatismo del 14, motards nacionales del 20, Épinal del 21 y agricultores Lyon del 22.
+Tres candidatos necesitan decisión sobre unidad/campaña o componente partidario: EDF París del 10, seguridad global Montpellier del 13 y Génération identitaire del 20. Cahors y DAL necesitan resolver destinatario estatal; DAL además carece de conteo de personas. Ségur Bas-Rhin confirma acciones pero no umbral. WEPLI 4, Saint-Gildas y Orléans/Blois conservan pistas sin fecha real confirmada en campo start_date.
+
+Tratamiento de cifras
+14 700 motards nacionales es cifra oficial de asistentes reproducida por AFP. Sus componentes París/Lyon, vehículos y grupos organizadores no se suman de nuevo. Para cifras aproximadas se preserva texto y quedan límites null: 100 000 iniciales del medio en jornada laboral, cerca de 100 en Campus France, cerca de 1 500 Génération identitaire, cerca de 330 Épinal y 150 Gonesse. 822 París y 1 500 Montpellier son conteos reportados puntuales, no intervalos verdaderos; al menos 250 Lyon se guarda como mínimo con máximo desconocido. Decenas de familias, plantilla, huelguistas o animales no acreditan 50 manifestantes.
+
+Fechas y consecuencias
+Cuatro finales tienen evidencia concreta: Gonesse desalojada el 23, Campus France terminado con homenaje el 12, Montpellier finalizado en Salengro el 13 y Génération identitaire retirado a las 16:30 del 20. Los demás permanecen null; no se toma fin de mes ni última publicación como fin físico.
+Gonesse: crowd_dispersal y arrests yes, con 24 personas en custodia según una fuente y 25 llevadas a comparecer según otra. Génération identitaire: fuente afirma arrestos de ambos bandos; no se atribuye el total conjunto de 26 a este grupo. Lyon agricultores: delegación recibida formalmente por autoridades municipales, accommodation yes sin reversión de política acreditada. AFP declara concentración contra separatismo sin incidentes, lo que permite no_explicit en violencia de manifestantes para ese acto. El silencio de los demás reportajes conserva unknown para violencia y respuestas, incluyendo ignore, muertes y disparos.
+
+Continuidad, exclusiones y huecos
+Tres registros de contexto fuera del mes: campaña seguridad global desde noviembre, balance publicado el 1 de febrero de jornada del 30 de enero y campaña de instrucción familiar desde noviembre. No equivalen a protestas físicas continuas. Se conservan vínculos a expedientes anteriores.
+Dos excluidos por tamaño publicado inferior a 50: unos veinte sanitarios ante Ministerio de Salud y una veintena en prefectura de Ajaccio.
+21 huecos cubren hemeroteca, baseline, filtro fallido, cierre, represión desconocida, fuentes bloqueadas, campañas, conteos, objetivo estatal, Nanterre, Saint-Gaudens y posibles contramanifestantes. No se afirma ausencia de otras protestas.
+
+Alcance
+Primer barrido suficiente para una revisión piloto. No exhaustivo, no doble codificación independiente, no actualización oficial. Falta cotejo con baseline, acceso equivalente a archivos de prensa y seguimientos de meses vecinos. Todos los registros son candidatos; no se asignan IDs de MM, no se publican ni se contacta a terceros.

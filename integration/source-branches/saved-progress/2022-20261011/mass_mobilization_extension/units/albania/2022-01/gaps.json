@@ -1,0 +1,209 @@
+[
+  {
+    "gap_id": "albania_2022-01_G001",
+    "type": "search_method",
+    "description": "The open-web workflow does not replicate LexisNexis or the historical manual’s systematic newspaper-source expansion. Search results cannot establish that no other protest occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If comparable historical newspaper archives become available, search them using the same date, general, local-language, sector and regional coverage paths; retain this open-web limitation in review."
+  },
+  {
+    "gap_id": "albania_2022-01_G002",
+    "type": "threshold",
+    "description": "The >=50-person threshold is unestablished for all eight leads. No attendance count is reported for the 5 Maji actions, Skavica, school heating or electricity; Durrës reports families rather than individuals.",
+    "source_ids": [
+      "S018",
+      "S020",
+      "S022",
+      "S023",
+      "S027",
+      "S028",
+      "S033",
+      "S043",
+      "S047"
+    ],
+    "affected_candidates": [
+      "albania_2022-01_E001",
+      "albania_2022-01_E002",
+      "albania_2022-01_E003",
+      "albania_2022-01_E004",
+      "albania_2022-01_E005",
+      "albania_2022-01_E006",
+      "albania_2022-01_E007",
+      "albania_2022-01_E008"
+    ],
+    "required_followup": "Seek contemporaneous participant estimates or independent visual/monitoring documentation, without converting affected households, police, homes, detainees, or family size into attendance."
+  },
+  {
+    "gap_id": "albania_2022-01_G003",
+    "type": "event_evidence",
+    "description": "The Jan. 19 5 Maji chronology conflicts in what it establishes: Euronews later calls Jan. 19 the first protest, while the contemporaneous Citizens Channel article documents demolitions and individual resistance but no sized public gathering and quotes one resident saying there was no need to protest that day.",
+    "source_ids": [
+      "S015",
+      "S025",
+      "S035",
+      "S037",
+      "S047"
+    ],
+    "affected_candidates": [
+      "albania_2022-01_E001"
+    ],
+    "required_followup": "Find body-accessible contemporaneous coverage, with a fresh access receipt for each exact URL. Do not reuse the blocked Euronews challenge or infer turnout from the police operation."
+  },
+  {
+    "gap_id": "albania_2022-01_G004",
+    "type": "continuity",
+    "description": "Jan. 19, 27, 29 and 31 5 Maji actions share a demolition/compensation campaign, but available sources do not establish whether these are separate events or one continuous action; Feb. 6 reports continued protest, and no physical campaign end is established.",
+    "source_ids": [
+      "S018",
+      "S020",
+      "S022",
+      "S023",
+      "S025",
+      "S026",
+      "S047"
+    ],
+    "affected_candidates": [
+      "albania_2022-01_E001",
+      "albania_2022-01_E002",
+      "albania_2022-01_E003",
+      "albania_2022-01_E004"
+    ],
+    "required_followup": "Review chronology for actual separation/continuity and identify the last reported physical action. Do not map the Feb. 10 PM meeting to any January day without source-specific linkage."
+  },
+  {
+    "gap_id": "albania_2022-01_G005",
+    "type": "source_access",
+    "description": "The Jan. 19 Euronews S015 page returned an anti-bot challenge; Citizens S028 returned HTTP 403; several additional exact URLs returned Cache miss. These are separate blocked/technical outcomes, not evidence of event absence.",
+    "source_ids": [
+      "S015",
+      "S016",
+      "S017",
+      "S028",
+      "S034",
+      "S035",
+      "S036",
+      "S037",
+      "S040",
+      "S042",
+      "S044"
+    ],
+    "affected_candidates": [
+      "albania_2022-01_E001",
+      "albania_2022-01_E008"
+    ],
+    "required_followup": "Respect each recorded restriction/failure, do not retry blocked targets or use alternate routes/bypasses; use other independently discovered, permitted sources if follow-up is conducted."
+  },
+  {
+    "gap_id": "albania_2022-01_G006",
+    "type": "event_evidence",
+    "description": "The Jan. 19 Skavica action appears in one local opinion item only; organizer, attendance, location’s administrative unit, duration and state response are unresolved. The article also recounts broader 2021 movement but does not prove continuous activity.",
+    "source_ids": [
+      "S027"
+    ],
+    "affected_candidates": [
+      "albania_2022-01_E005"
+    ],
+    "required_followup": "Find contemporaneous independent local/regional coverage and clarify whether the Jan. 19 action is a new episode within a broader campaign."
+  },
+  {
+    "gap_id": "albania_2022-01_G007",
+    "type": "event_evidence",
+    "description": "Reporter.al confirms a Jan. 24 school-heating protest, but gives no attendance estimate; the retrieved article excerpt ends mid-sentence and state response remains unknown.",
+    "source_ids": [
+      "S033"
+    ],
+    "affected_candidates": [
+      "albania_2022-01_E006"
+    ],
+    "required_followup": "Find additional contemporary coverage or organizer documentation with public attendance and any event-specific state response."
+  },
+  {
+    "gap_id": "albania_2022-01_G008",
+    "type": "unit_boundary",
+    "description": "The Jan. 31 Durrës source counts more than 20 families, not individuals; Dosja has a matching headline but its article body returned Cache miss. Relationship/independence and attendance are unresolved.",
+    "source_ids": [
+      "S043",
+      "S044"
+    ],
+    "affected_candidates": [
+      "albania_2022-01_E007"
+    ],
+    "required_followup": "Seek an independently authored account with an attendee estimate and confirm whether the matching Dosja item is a duplicate or separate report."
+  },
+  {
+    "gap_id": "albania_2022-01_G009",
+    "type": "execution_evidence",
+    "description": "Teacher union sources document a planned Jan. 19 class stoppage and a proposed Jan. 26 action, but actual execution is not confirmed. Search-only follow-ups suggest withdrawal; their bodies were not retrieved.",
+    "source_ids": [
+      "S040",
+      "S041",
+      "S042"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find body-readable same-day education reporting or union notice confirming whether a public assembly or stoppage occurred."
+  },
+  {
+    "gap_id": "albania_2022-01_G010",
+    "type": "state_response",
+    "description": "Across candidate events, silence does not resolve state accommodation, arrests, beatings, dispersal, ignore, killings or shootings. Only the Jan. 29 police dispersal request and Jan. 31 police urging/detention report are source-specific; formal arrest status for five residents is unclear.",
+    "source_ids": [
+      "S018",
+      "S020",
+      "S022",
+      "S023",
+      "S027",
+      "S028",
+      "S033",
+      "S043",
+      "S047"
+    ],
+    "affected_candidates": [
+      "albania_2022-01_E001",
+      "albania_2022-01_E002",
+      "albania_2022-01_E003",
+      "albania_2022-01_E004",
+      "albania_2022-01_E005",
+      "albania_2022-01_E006",
+      "albania_2022-01_E007",
+      "albania_2022-01_E008"
+    ],
+    "required_followup": "Use event-specific reporting for each response dimension; do not treat actions during a demolition operation, broader campaign response, or silence as response to an unrelated day."
+  },
+  {
+    "gap_id": "albania_2022-01_G011",
+    "type": "coverage",
+    "description": "Searches included general English and Albanian terms, weekly windows, regional place names, education/labor, housing, hydropower, and affordability. Coverage remains capital-heavy and cannot establish all regional, sector, or language-specific actions; Vlorë and Shkodër returned no validated candidate in this pass.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If extending research, consult local/regional newspaper archives and targeted searches for additional towns and sectors, recording all queries and exact result arrays."
+  },
+  {
+    "gap_id": "albania_2022-01_G012",
+    "type": "event_evidence",
+    "description": "Search results identify Jan. 21 anniversary homages/memorial reporting about the 2011 protest, but those sources were not body-read and do not yet establish a qualifying new protest or public-policy demand.",
+    "source_ids": [
+      "S011",
+      "S012",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read a permitted exact source only after fresh access-check and determine whether coverage describes a memorial/official statement or a distinct public protest."
+  },
+  {
+    "gap_id": "albania_2022-01_G013",
+    "type": "state_response",
+    "description": "The Albanian government’s Feb. 10 account says PM Rama met with 5 Maji residents and offered housing/rental support, but it is post-month and does not link the meeting to one January gathering or show all demands were met.",
+    "source_ids": [
+      "S026"
+    ],
+    "affected_candidates": [
+      "albania_2022-01_E001",
+      "albania_2022-01_E002",
+      "albania_2022-01_E003",
+      "albania_2022-01_E004"
+    ],
+    "required_followup": "Seek independent reporting on the meeting and resident response; preserve it as broader campaign follow-up unless a specific event-response link is documented."
+  }
+]

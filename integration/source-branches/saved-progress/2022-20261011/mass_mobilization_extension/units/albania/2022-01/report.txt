@@ -1,0 +1,33 @@
+Albania, January 2022 — open-web research dossier
+
+Status: first-pass research completed; candidates remain pending coordinator/human review. Fixed cutoff: 2026-10-07 America/Mexico_City. Unit ccode is the provisional-plan value 339. This dossier is separate from the integrated protest catalogue and does not assign official Mass Mobilization IDs.
+
+Methods and coverage
+
+Fourteen actual web searches (Q001–Q014) were captured with complete returned-result arrays, references, raw URLs, title order and observed clocks where available. Search paths included broad English and Albanian protest terms; Jan. 1–7, 15–21 and 22–31 windows; targeted 5 Maji, Skavica, Reporter.al, education/labor/teachers, regional place names (Durrës, Vlorë, Shkodër, Dibër), and December/February boundary follow-up. Q003’s Jan. 1–7 query also returned a Jan. 8 event; dates were checked against sources rather than inferred from query windows. Q014 targeted the Jan. 19 5 Maji episode.
+
+Searches prioritized relevant local and national reporting and official follow-up. The source ledger holds 47 relevant URL cards, including inaccessible/search-only records. Opened reporting covers the Guardian/AP and Evropa e Lirë accounts of Jan. 8; 5 Maji reporting for Jan. 19, 27, 29 and 31 and Feb. 6/10 follow-up; the Jan. 19 Skavica opinion item; the Jan. 24 school-heating action; and Jan. 31 Durrës residents. Coverage is weighted toward Tirana; Q011 also searched several regional cities but did not provide comprehensive provincial press coverage.
+
+No systematic LexisNexis or equivalent newspaper archive was available. The open-web results are not exhaustive and a lack of a validated result is not evidence that no protest occurred. Local-language queries and result pages helped identify items, but some Albanian text was summarized through translated tool output.
+
+Candidate events
+
+Eight leads are preserved in events.json. Seven have body-read event reporting, but none has verified turnout of at least 50. The Jan. 19 5 Maji lead is pending evidence because a Feb. 6 follow-up calls that the campaign’s first protest while contemporaneous reporting describes demolitions and resident resistance without establishing a public assembly or its size. Jan. 27, 29 and 31 5 Maji actions are individually reported public gatherings with unknown attendance; their shared campaign relationship and physical end remain open. The Jan. 31 report’s 430 homes is not protest turnout; the Feb. 6 “close to 500 homes” and Feb. 10 figure of 51 signed contracts are also not attendance figures.
+
+Other leads include a Jan. 19 Skavica protest against the hydropower project (one opinion source, no count), a Jan. 24 Qëndresa Qytetare protest for school heating (no count), a Jan. 31 Durrës protest by more than 20 families (not individual attendance), and a Jan. 31 electricity-affordability protest lead based only on search-result discovery because the exact Citizens Channel URL returned HTTP 403. All are pending threshold or evidence.
+
+One exclusion concerns the Jan. 8 Democratic Party headquarters action. Body-read accounts report hundreds and a three-hour conflict with arrests and dispersal, but identify the immediate aim as control of the opposition party and its leadership, not a specific demand on government policy. Future anti-government rhetoric by Berisha was not used to convert that intra-party conflict into a state-directed protest. A Dec. 20, 2021 anti-Open Balkan/Vučić action is excluded as pre-month with no evidence of continuation into January. Announced teachers’ actions are retained as an execution-evidence exclusion: sources establish plans but not that the planned stoppage/protest occurred; search-only cancellation reports are not treated as confirmed.
+
+Continuity and boundaries
+
+S027 mentions a broader anti-Skavica movement beginning in mid-2021 and a Nov. 14 Peshkopi protest; this is recorded as earlier campaign context, not as a continuous gathering or January-owned event. The Jan. 19 Skavica protest is a separate dated candidate. The 5 Maji campaign has post-month reporting on Feb. 6 and an official PM meeting on Feb. 10, but no January event’s physical end is established and the meeting is not assigned to a specific Jan. date.
+
+Access and evidence limits
+
+Every opened body has a fresh exact-URL access receipt in access_receipts/. S015 returned an anti-bot challenge and S028 returned HTTP 403; neither was bypassed. Cache misses affected S016, S017, S034–S037, S040, S042 and S044. Cache miss is recorded as technical failure, not denial. S033’s Reporter.al article excerpt ended mid-sentence. Search snippets remain discovery only. Guardian’s Jan. 8 story is explicitly AP-origin; no AP republication is counted as independent confirmation. Matching Dosja and Telegraf headlines for the Durrës report remain unresolved.
+
+All seven state-response dimensions and protester violence remain unknown unless explicitly supported in a source. Police urging dispersal is recorded for Jan. 29 and Jan. 31; five residents were reported taken to a station on Jan. 31, but the wording does not establish formal arrest status. The Jan. 19 demolition/police operation is not transferred wholesale to a qualifying public gathering. No killings, shootings, beatings, accommodation or ignore value is inferred from silence.
+
+Review readiness
+
+This is an open-web research dossier, not an official baseline or final inclusion decision. The principal unresolved decisions are threshold for every lead; whether Jan. 19 5 Maji was a qualifying public gathering; whether Jan. 19/27/29/31 5 Maji are separate events or phases of a broader campaign; the end/continuity of that campaign; the owner/location and size of the Skavica action; and limited regional/sector coverage. Official baseline gate remains pending.

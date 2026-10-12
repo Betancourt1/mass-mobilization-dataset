@@ -1,0 +1,162 @@
+[
+  {
+    "gap_id": "CHL2022-01-G001",
+    "type": "baseline",
+    "description": "The current official Mass Mobilization release, full coverage universe, updated coding procedure, and reuse conditions remain unverified; the available inherited manual is the May 2015 codebook.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Verify the official baseline and supplemental procedure before any official mapping or approval."
+  },
+  {
+    "gap_id": "CHL2022-01-G002",
+    "type": "search_method",
+    "description": "Open-web searches do not reproduce the original LexisNexis newspaper search method or equivalent archive coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review with equivalent historical newspaper access and document language and geographic coverage limits."
+  },
+  {
+    "gap_id": "CHL2022-01-G003",
+    "type": "access_scope_admissibility",
+    "description": "The first-pass body reads for the 15 January and 30 January Iquique marches (S051 La Tercera; S064 BioBioChile) followed 231-input manual gate maps. Those maps covered 204 canonical ledgers, review/source_checks.jsonl and the 26 registered main physical ledgers, before discovery of two nested physical history ledgers in registered Belarus and Bhutan dossiers. The original receipts/maps remain unchanged. Independent effective body-admissibility review returned APPROVE for use of both observations with this scope caveat retained; the old reads must not be described as 233-input checks. This is a documented historical scope gap, not a pending admissibility decision.",
+    "source_ids": [
+      "CHL2022-01-S051",
+      "CHL2022-01-S064"
+    ],
+    "affected_candidates": [
+      "CHL-2022-01-C001",
+      "CHL-2022-01-C002"
+    ],
+    "required_followup": "Retain the original 231-input receipts/maps and separate approval note at history/body_admissibility_S051_S064_review_note.json. Do not recast either historical read as having a 233-input pre-read gate."
+  },
+  {
+    "gap_id": "CHL2022-01-G004",
+    "type": "body_access",
+    "description": "Fresh complete recursive 233-input gates were performed for S050 (BioBioChile AMP) and S052 (24Horas) as possible independent corroboration for the 15 January Iquique march. S050 returned a pre-HTTP Cache miss; S052 returned UnexpectedStatusCode without a numeric HTTP status or specific denial. Neither yielded body text. Both technical access records remain distinct from publisher denials; no further request is planned under the ambiguous results.",
+    "source_ids": [
+      "CHL2022-01-S050",
+      "CHL2022-01-S052"
+    ],
+    "affected_candidates": [
+      "CHL-2022-01-C001"
+    ],
+    "required_followup": "Seek an independently accessible contemporary report under a fresh complete recursive gate, or retain the candidate as pending evidence."
+  },
+  {
+    "gap_id": "CHL2022-01-G005",
+    "type": "threshold_unit_boundary",
+    "description": "S023 and S043 bodies verify the 31 January Tarapacá/Iquique stoppage, multiple blockades and related marches, but give no observed count for any 31 January gathering. A port-guild leader says actions are needed to attract government attention; the state target is clearer than the crowd threshold. Cooperativa’s 300 taxi drivers were expected and its 40 vehicles were planned, not turnout. The story also reports tomatoes thrown at the Alto Hospicio municipality without clarifying target/impact. A 200-person Laguna Verde-to-delegation report appears in a 1 February 12:19 update and lacks a verified January onset or episode link.",
+    "source_ids": [
+      "CHL2022-01-S022",
+      "CHL2022-01-S023",
+      "CHL2022-01-S035",
+      "CHL2022-01-S036",
+      "CHL2022-01-S037",
+      "CHL2022-01-S038",
+      "CHL2022-01-S039",
+      "CHL2022-01-S040",
+      "CHL2022-01-S041",
+      "CHL2022-01-S042",
+      "CHL2022-01-S043",
+      "CHL2022-01-S044",
+      "CHL2022-01-S045",
+      "CHL2022-01-S046",
+      "CHL2022-01-S047",
+      "CHL2022-01-S048",
+      "CHL2022-01-S049"
+    ],
+    "affected_candidates": [
+      "CHL-2022-01-C004"
+    ],
+    "required_followup": "Keep the candidate pending_unit with threshold and event-unit boundaries unresolved. Under a new all-eight freeze and fresh exact gates, seek observed counts for each specific gathering, the physical end, any completed state response, the target/impact of tomato throwing, and a dated account of the Laguna Verde action. Never transfer passenger effects, planned vehicles, expected drivers, or 30 January attendance."
+  },
+  {
+    "gap_id": "CHL2022-01-G006",
+    "type": "event_threshold_and_state_target",
+    "description": "BioBioChile S063 body reports a 28 January protest in Temuco by communities from Nueva Imperial, Cholchol, Galvarino and Temuco against a Juan Sutil-backed reservoir project. It gives the route from outside the Superintendencia del Medio Ambiente to the Regional Delegation of La Araucanía and stated project grievances, but no attendance count or clear demand to a Chilean state actor. The 50-person threshold and state-directed target remain unresolved. S063 body scope/ref/hash and access outcome are reconciled in the source card and history/window_body_reads.jsonl; S060/S067/S070 remain search-only and may duplicate this action, so do not merge them without episode-level confirmation.",
+    "source_ids": [
+      "CHL2022-01-S060",
+      "CHL2022-01-S063",
+      "CHL2022-01-S067",
+      "CHL2022-01-S070"
+    ],
+    "affected_candidates": [
+      "CHL-2022-01-C005"
+    ],
+    "required_followup": "Resolve the actual attendance/50-person threshold, whether there was a demand directed to a domestic state actor, exact onset/end and any state response, and whether S060/S067/S070 describe this same gathering. No further body request is authorized in this closed window."
+  },
+  {
+    "gap_id": "CHL2022-01-G007",
+    "type": "event_threshold_and_state_target",
+    "description": "Search-only reports S061, S069 and S071 concern possible late-January anti-mask/vaccine-pass actions, including a reported 29 January Viña del Mar march and recurring activity around Ñuñoa/health centers. Exact crowd counts, discrete dates/locations, direct government-policy targets, recurrence and event boundaries remain unverified. S069 exact-page attempts during window2 returned a web-tool internal URL-inaccessible error and a DNS failure before HTTP; no article text or actual publisher restriction was observed. Those finite attempts are exhausted and recorded in its source card/history.",
+    "source_ids": [
+      "CHL2022-01-S061",
+      "CHL2022-01-S069",
+      "CHL2022-01-S071"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify each dated public gathering, actual turnout, targets and episode boundaries only in a later explicitly authorized reading window with fresh gates. S069 has no page body and no observed publisher restriction; do not retry within this completed window or infer facts from its search snippet."
+  },
+  {
+    "gap_id": "CHL2022-01-G008",
+    "type": "unresolved_lead_coverage",
+    "description": "Other relevant search-only leads remain unverified: a small 3 January beekeeper action at La Moneda (S001, S024-S034); 7 and 20 January La Moneda Chica/Baquedano gatherings over detainee amnesty (S009-S021, S066, S068), including a search-result report of 20-30 people on 7 January and a separate confrontation lead on 20 January; 14/28 January Baquedano/Pudahuel protest and Metro closures (S007, S008, S062, S072); and Metro union/SAMU work actions (S058, S059, S065). Search results mention numbers that may refer to animals, affected workers, expected participants, detainees or traffic impact, not observed crowd turnout. No body was read for these leads in the current window, so none is excluded solely from a snippet.",
+    "source_ids": [
+      "CHL2022-01-S001",
+      "CHL2022-01-S007",
+      "CHL2022-01-S008",
+      "CHL2022-01-S009",
+      "CHL2022-01-S010",
+      "CHL2022-01-S011",
+      "CHL2022-01-S012",
+      "CHL2022-01-S013",
+      "CHL2022-01-S014",
+      "CHL2022-01-S015",
+      "CHL2022-01-S016",
+      "CHL2022-01-S017",
+      "CHL2022-01-S018",
+      "CHL2022-01-S019",
+      "CHL2022-01-S020",
+      "CHL2022-01-S021",
+      "CHL2022-01-S024",
+      "CHL2022-01-S025",
+      "CHL2022-01-S026",
+      "CHL2022-01-S027",
+      "CHL2022-01-S028",
+      "CHL2022-01-S029",
+      "CHL2022-01-S030",
+      "CHL2022-01-S031",
+      "CHL2022-01-S032",
+      "CHL2022-01-S033",
+      "CHL2022-01-S034",
+      "CHL2022-01-S058",
+      "CHL2022-01-S059",
+      "CHL2022-01-S062",
+      "CHL2022-01-S065",
+      "CHL2022-01-S066",
+      "CHL2022-01-S068",
+      "CHL2022-01-S072"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep these as explicit open leads. After new fresh gates, verify whether an actual public gathering occurred, onset/location and real human turnout, state/policy target, event-specific response and physical end. Distinguish candidate gatherings from strikes without public attendance, contextual stories, repeated weekly actions and secondary chronology; do not manufacture exclusions from search snippets."
+  },
+  {
+    "gap_id": "CHL2022-01-G009",
+    "type": "source_origin_and_episode_boundary",
+    "description": "Additional Iquique search leads overlap the 30 January march and the 31 January stoppage but remain unread: S002-S004 are one Reuters story syndicated by Euronews, Stabroek News and INKL, not three independent origins; S005 SoyChile opened only to a headline/subheadline shell; S006 La Jornada may cover both the previous-day march and following stoppage; S053/S057 are duplicate-host copies of one retrospective academic chapter. Body evidence is insufficient to resolve original reporting, event-specific turnout/target, violence, camp-related action, or January/February boundaries from these leads.",
+    "source_ids": [
+      "CHL2022-01-S002",
+      "CHL2022-01-S003",
+      "CHL2022-01-S004",
+      "CHL2022-01-S005",
+      "CHL2022-01-S006",
+      "CHL2022-01-S053",
+      "CHL2022-01-S057"
+    ],
+    "affected_candidates": [
+      "CHL-2022-01-C002",
+      "CHL-2022-01-C004"
+    ],
+    "required_followup": "If later follow-up is warranted, gate exact public URLs and read one original story per source origin; keep syndicated versions and duplicated academic hosts non-independent. Separate 30 January march from 31 January stoppage and any 1 February continuation; do not infer turnout/violence from search snippets or shell text."
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "unit_id": "congo_kinshasa_2022-01",
+  "country": "Congo Kinshasa",
+  "month": "2022-01",
+  "agent_task": "/root/congo_kinshasa_2022_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T14:37:59.366047+00:00",
+  "finished_at": "2026-10-10T18:59:50.559387+00:00",
+  "n_queries": 9,
+  "n_sources": 50,
+  "n_candidates": 6,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 11,
+  "coverage_assessment": "The documented open-web first pass is complete within this unit’s recorded scope: nine captured discovery queries and 12 effective body reads, one incomplete HRW excerpt, and four pre-content attempts (S020 recovered later; S026 attempts exhausted; S051 native cache miss recovered by one exact-URL HTTP 200 fallback). The incomplete HRW excerpt is not event evidence. No actual publisher denial was observed. Source-card body/access metadata for S028, S037, S050 and S051 was synchronized from the saved records; the current 50-card ledger has 13 opened and 37 search_only cards. Draft coding preserves the Lubumbashi count conflict, Beni Jan24/26 boundary and casualty uncertainty, Bunia source-attributed Jan19 cessation/shootings, and Bukavu/Isangi actions with unresolved crowd thresholds. For Isangi, S051 attributes beating and live-fire allegations to local civil-society platforms and reports a police-bodyguard shooting at a market, while its relationship to demonstrators remains unresolved; S050’s force-to-disperse report does not establish completed dispersal, so E006 end_date is null. Full scientific review and official-baseline verification remain pending.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened": 13,
+    "search_only": 37,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "body_review_counts": {
+    "effective_body_reads": 12,
+    "incomplete_reads": 1,
+    "pre_content_failures": 4,
+    "publisher_denials": 0,
+    "successful_window2_reads": [
+      "S028",
+      "S037",
+      "S050",
+      "S051"
+    ],
+    "recovered_pre_content_attempts": [
+      "S020",
+      "S051"
+    ],
+    "exhausted_pre_content_attempts": [
+      "S026"
+    ],
+    "source_ledger_metadata_sync_pending": []
+  },
+  "first_pass_complete": true,
+  "first_pass_scope": "Documented open-web search and selected body review through Window 2; selective and non-exhaustive, with captured leads and thresholds remaining explicitly unresolved.",
+  "source_update_pending": false,
+  "protocol_status": "open_web_first_pass_complete_source_sync_complete_pending_coordinator_review",
+  "first_pass_limits": {
+    "official_baseline": "Unverified; see CK202201-G001.",
+    "archive_and_language_coverage": "Open-web searching does not reproduce LexisNexis; searches were selective across French, English and exploratory Swahili/Lingala and are not exhaustive; see CK202201-G002.",
+    "source_sync": "Complete for saved Window 2 reads S028, S037, S050 and S051; current sources.jsonl SHA-256 9c62f7d200d9ea1ab4b3270699cb6bb140e4a85ac8eb39ff36cd2baa385ae886.",
+    "scientific_review": "Draft events and pending thresholds remain subject to coordinator review; the scoped open-web pass is complete, not official approval or consolidation."
+  },
+  "source_sync_completed_at": "2026-10-10T20:22:06.365761+00:00",
+  "source_ledger_sha256": "9c62f7d200d9ea1ab4b3270699cb6bb140e4a85ac8eb39ff36cd2baa385ae886"
+}

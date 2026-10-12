@@ -1,0 +1,78 @@
+[
+  {
+    "gap_id": "CAM2022-01-G001",
+    "type": "baseline",
+    "description": "Official MM baseline/version and supplemental original procedure remain unverified; this first pass cannot authorize official IDs or baseline reconciliation.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to verify official current baseline and governing supplemental procedure before any official reconciliation."
+  },
+  {
+    "gap_id": "CAM2022-01-G002",
+    "type": "occurrence",
+    "description": "The SDF announced a 4–9 January Peace Week, including proposed public manifestations and other activities, but this pass found no reliable post-event account confirming which activities occurred, where, or with what attendance. This is separate from the 8 January prohibited march.",
+    "source_ids": [
+      "CAM2022-01-S002",
+      "CAM2022-01-S009"
+    ],
+    "affected_candidates": [
+      "CAM2022-01-X002"
+    ],
+    "required_followup": "Seek independent contemporaneous after-action reporting, participant records, or local press archive coverage for each announced activity; do not treat the announcement as occurrence."
+  },
+  {
+    "gap_id": "CAM2022-01-G003",
+    "type": "attempted_assembly",
+    "description": "The opened Actu Cameroun report says the 8 January scheduled march did not occur; this pass found no evidence of a separate attempted public assembly, crowd size, or crowd-directed dispersal/arrest. The described home encirclement/security deployment is not evidence of response to an assembled public crowd.",
+    "source_ids": [
+      "CAM2022-01-S001",
+      "CAM2022-01-S003",
+      "CAM2022-01-S004"
+    ],
+    "affected_candidates": [
+      "CAM2022-01-X001"
+    ],
+    "required_followup": "Search independent local accounts and contemporaneous field reports for any separate attempted assembly on or near the planned route and any actual participants."
+  },
+  {
+    "gap_id": "CAM2022-01-G004",
+    "type": "search_method",
+    "description": "Coverage is open-web search in English and French across broad month/year terms, week windows, cities/regions, and political, student, teacher, labor, transport, rights, price and land themes. It does not replicate LexisNexis, local print/radio archives, or local-language reporting.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If available, inspect local newspaper/radio archives and relevant local-language reporting before making stronger absence claims."
+  },
+  {
+    "gap_id": "CAM2022-01-G005",
+    "type": "boundary",
+    "description": "Teacher/student school protests found in the search results are associated with a teacher sit-down strike reportedly beginning 21 February 2022 and student marches in March; no January onset or continuation into January was verified.",
+    "source_ids": [
+      "CAM2022-01-S007",
+      "CAM2022-01-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use February and March unit files and authoritative reports to establish dates and any antecedents; do not backdate these records into January."
+  },
+  {
+    "gap_id": "CAM2022-01-G006",
+    "type": "boundary",
+    "description": "A Cameroon News Agency search result titled “CDC and Buea Council Staff Strike Due to Unpaid Salaries” surfaced without a publication or occurrence date. Its relevance to January cannot be determined.",
+    "source_ids": [
+      "CAM2022-01-S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Inspect the exact article body after the required access review to establish publication/event dates, scale and whether it describes a public gathering."
+  },
+  {
+    "gap_id": "CAM2022-01-G007",
+    "type": "access",
+    "description": "The exact captured SDF Peace Week URL returned tool CacheMiss twice (first by captured search ref, then by exact captured HTTPS URL after fresh checks). No HTTP response, access denial, login, paywall, or publisher challenge was observed. This is a technical body-retrieval gap only.",
+    "source_ids": [
+      "CAM2022-01-S002"
+    ],
+    "affected_candidates": [
+      "CAM2022-01-X002"
+    ],
+    "required_followup": "Seek an independent, properly sourced post-event account; do not keep retrying the same SDF page this pass."
+  }
+]

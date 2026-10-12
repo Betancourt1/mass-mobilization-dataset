@@ -1,0 +1,20 @@
+{
+  "unit_id": "costa_rica_2022-01",
+  "country": "Costa Rica",
+  "month": "2022-01",
+  "agent_task": "/root/costa_rica_2022_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T14:37:51Z",
+  "finished_at": "2026-10-10T19:28:06Z",
+  "n_queries": 15,
+  "n_sources": 46,
+  "n_candidates": 15,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 12,
+  "coverage_assessment": "The scoped open-web first pass is complete for discovery and review of specifically prioritized material sources; source-card synchronization is recorded and independent review remains pending. This is not exhaustive source coverage or a cleared dataset. The 15 captured web-search invocations contain 59 submitted query strings and 416 exposed result headers (259 distinct raw URL strings); searches include English, Spanish and French, weekly windows, multiple sectors and month boundaries. There are 46 source cards: S001, S004, S005, S044, S045 and S046 are marked opened with saved read summaries; the S044–S046 cards were synchronized from actual saved outcomes while preserving IDs, exact URLs and null access clocks. Forty other cards remain unopened and none was selected as a blocker for this scoped pass. Twelve body-attempt metadata records are documented. The UCR January chronology was reviewed through all 452 extracted lines across two overlapping native outputs. S004/S005 report one Jan 13 Puerto Viejo march. S044 confirms a Jan 26 Indigenous anti-impunity demonstration and a demand-linked meeting; S045 reports a Saturday Potrero march consistent with UCR Jan 29 and a distinct Sunday-night San José action, likely Jan 30 in the Jan 31 publication context. S046 returned HTTP 200 through one no-cookie/no-redirect exact-URL fallback after a native pre-content cache miss; its evidence supports the Los Chiles/Los Llanos INDER action, while the article’s explicit action date, attendance, completed land purchase and UCR newspaper-story mapping remain unresolved. Fifteen provisional candidates remain: 14 pending_threshold and one pending_unit; one Nicaraguan-target action is excluded. Turnout, event boundaries, exact end dates and original press-story mapping remain open; S017/S018 technical pre-content failures do not establish publisher denials. Open-web searching does not reproduce systematic LexisNexis/hemeroteca coverage, and the official baseline remains pending at project level.",
+  "baseline_gate": "pending_official_baseline",
+  "first_pass_complete": true,
+  "source_update_pending": false,
+  "source_update_completed_at": "2026-10-10T20:22:46Z"
+}

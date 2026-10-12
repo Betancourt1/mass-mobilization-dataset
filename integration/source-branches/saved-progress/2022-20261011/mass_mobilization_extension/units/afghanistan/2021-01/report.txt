@@ -1,0 +1,41 @@
+Afghanistan — January 2021 open-web research pass
+Unit: afghanistan_2021-01; provisional MM country code: 700
+Researcher: /root/afghanistan_2021_01
+Status: researched_open_web_pending_review
+Baseline gate: pending_official_baseline
+
+Scope and methods
+This dossier concerns public protest candidates beginning in Afghanistan between 2021-01-01 and 2021-01-31. It follows relevant episode evidence into December 2020 and February/March 2021 and retains wrong-period discovery leads separately. It does not constitute an official MM update or an exhaustive census.
+
+The checkpoint records 60 exact queries in 17 batches. Searches covered generic protest/demonstration/strike terms, Dari and Pashto terms, weekly/date windows, local and international media, salary/teacher activity, regional leads, violence, and retrospective human-rights records. The search service returned results for query batches rather than exposing reliable per-query hit counts. returned_urls therefore preserves each batch's union of relevant URLs with this limitation stated. Date operators did not reliably restrict results; weekly queries cannot establish week-by-week completeness. No results totals were invented.
+
+The source register retains 55 relevant URLs: 16 opened, 4 blocked, 35 search_only. Opened status can mean partial article access; see each source's limitations. All publication dates are preserved only when known. The original May 2015 manual was opened at the educational mirror linked in the recovered protocol (S053); it is not evidence that the newest official codebook or MM baseline was acquired. The linked AIHRC original, a Killid page, a Pashto 8AM page, and a Hazara International repost remained inaccessible. News reports of an investigation are distinguished from reading its original report.
+
+Candidate findings
+E001: Nimroz, January 10. Opened contemporary sources describe residents protesting civilian deaths in an Afghan government airstrike. Anadolu's “dozens” does not prove at least 50. Eligibility pending_threshold. The earlier airstrike casualties are not coded as killings of protesters. Precise Zaranj geography remains partly search-only.
+
+E002: Kabul, January 16. A January 18 KabulNow report explicitly dates a salary-equality gathering to January 16. No qualifying attendance is supplied. Eligibility pending_threshold.
+
+E003: Kapisa, January 21. The opened Dari Pajhwok report explicitly states 300 teachers gathered at Guldan crossroads in the provincial center to demand government salary equality. Eligibility proposed_include, pending independent review. The English and Dari reports are the same agency/author, not two independent confirmations.
+
+E004: Behsud, January 29. Hasht-e Subh's February 9 account of an AIHRC investigation describes about 350–400 residents outside Hesa-e-Awal district office. The inquiry account supports a domestic-state protest over the security deployment, negotiation, arrests, direct police shooting, and 11 civilian deaths. It describes an initially unarmed gathering and later stones/attempted mounted-gun use; protester_violence yes refers to that later action. Eligibility proposed_include, pending independent review. Earlier state accounts and later reporting differ on target, armed participation, casualties, and dates. None is silently reconciled. A January 12 convoy appointment is distinct from the January 29 protest; ecoi metadata and retrospective January 30 dating need checking against originals. Suspension/prosecutor referral is not a conviction or proven protest victory.
+
+E005: Kabul, January 30. Pajhwok describes ACAA supporters before parliament demanding government salary equality and conditioning budget approval. No qualifying attendance. Eligibility pending_threshold.
+
+E006: Behsud, January 31. A Dari report quotes a resistance-front spokesman alleging firing toward women and children gathered to see detainees. Whether this was a new public protest with an express domestic demand, whether 50 attended, and whether it belongs to the January 29 episode remain unresolved. Eligibility pending_unit; allegation not promoted into verified shooting coding. The subsequent armed confrontation is distinct from the civilian-gathering candidate.
+
+Episodes and continuations
+The three salary gatherings share an issue and provisional episode_key, but no national organization or continuous physical action has been established. Keeping local candidates separate is provisional, not a final MM unit decision. Pajhwok's mention of other recent provincial/capital teacher protests is an unresolved coverage lead. The two Behsud candidates share a provisional episode_key while their independence remains unresolved.
+No supported physical episode beginning before January and continuing into January was found in this pass; continuations.json is empty. This means no continuation was established, not that none occurred. All six candidate end dates are null because physical closure was not evidenced. February reporting dates, the end of January, and detainee release were not substituted for protest closure.
+
+Exclusions and boundary leads
+Five records are retained in excluded.json: January 4 Badghis foreign-target gathering; January 17 search-only virtual conference; the January 2020 Ghor budget protest false positive; a December 2020 Herat foreign-target gathering; and a February 8 Herat gathering discovered at the month boundary. Exclusions based only on extracts are provisional and named as such. They can be reconsidered if new physical-gathering, domestic-target, or date evidence appears.
+
+Limits and required follow-up
+Seventeen explicit gaps cover attendance, physical closure, domestic target, episode boundaries, disputed evidence, language review, source independence, blocked archives, missing official baseline, uneven geography, unused relevant leads, and outcome evidence. Unknown response values do not imply state inaction or peaceful behavior. Salary-budget compromise or payment cannot be causally attributed to these gatherings from this evidence.
+Open web search does not reproduce LexisNexis or systematic newspaper archives. Local-language indexing, unopened PDF/archive leads, and uneven provincial coverage prevent an exhaustive claim. Complete the named follow-ups, obtain original inquiry documents and systematic archive/baseline access, then independently review candidate fields before aggregate use.
+
+Persistence and resources
+The query/source checkpoint was saved before final candidate serialization. All eight required dossier files are present; assignment.json is preserved. No official event IDs assigned; no baseline or aggregate integration performed. No external contacts, publication, commits, or temporary background resources were started by this worker.
+This pass exceeded ten minutes because source discovery and contested-episode verification require substantive judgment. Existing assignment and validation tools are sufficient; a new skill or CLI would add little to this bounded research task.
+

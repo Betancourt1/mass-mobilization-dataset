@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "bhutan_2022-01_G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization baseline gate remains pending coordinator review; the assigned ccode is provisional. This draft makes no claim to verify the original dataset’s coverage or initial event universe.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should reconcile this open-web draft against the authorized official baseline before any consolidation or event-status decision."
+  },
+  {
+    "gap_id": "bhutan_2022-01_G002",
+    "type": "source_access",
+    "description": "The Bhutanese Jan 15 poultry article (S002) returned a verification challenge; the Jan 28 BBS Paro vendors article (S005) returned a web-tool cache miss and one ordinary exact-URL HTTPS GET failed DNS before HTTP. The February BBS poultry article (S004) remains search-only boundary context. No article body was exposed for S005, so snippets cannot resolve event form or turnout.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "bhutan_2022-01_X002",
+      "bhutan_2022-01_X003"
+    ],
+    "required_followup": "If review continues, use only a permitted acquisition path or a separate contemporaneous source; do not infer an assembly, its absence, or attendance from snippets. The recorded same-URL request was not retried."
+  },
+  {
+    "gap_id": "bhutan_2022-01_G003",
+    "type": "language",
+    "description": "Searches included Dzongkha protest/action terms and regional Nepali/Hindi queries alongside English coverage, but open-web indexing did not provide a systematic, comprehensive Dzongkha newspaper or local-archive sweep.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "A reviewer with Dzongkha fluency or access to a comprehensive local-language archive could test for actions reported only in local-language sources."
+  },
+  {
+    "gap_id": "bhutan_2022-01_G004",
+    "type": "coverage",
+    "description": "This is an open-web search, not a complete LexisNexis-style news archive or a verified event census. Search breadth across dates, media, sectors and languages cannot establish that no qualifying protest occurred.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Compare against the authorized baseline and any systematic archive/monitor corpus available to the coordinator before treating the month as having no events."
+  },
+  {
+    "gap_id": "bhutan_2022-01_G005",
+    "type": "participants",
+    "description": "No searched lead establishes public-event attendance. The rotating vendor count (S005) and sector workforce estimates in search results are not event headcounts; if additional action evidence emerges for X002 or X004, turnout and the 50-person threshold remain unverified.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "bhutan_2022-01_X002",
+      "bhutan_2022-01_X004"
+    ],
+    "required_followup": "Use contemporaneous evidence to determine whether a public event occurred and report only explicit attendance or a clearly documented qualitative crowd estimate."
+  }
+]

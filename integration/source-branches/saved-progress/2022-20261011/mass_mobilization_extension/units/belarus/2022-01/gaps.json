@@ -1,0 +1,121 @@
+[
+  {
+    "gap_id": "belarus_2022-01-G001",
+    "type": "baseline",
+    "description": "The current official Mass Mobilization version, cutoff, universe, schema, and reuse conditions remain unverified in the year-local baseline. The included May 2015 codebook does not establish the current official baseline.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to verify the official current dataset version, cutoff, universe, schema, and reuse conditions before any export."
+  },
+  {
+    "gap_id": "belarus_2022-01-G002",
+    "type": "baseline",
+    "description": "The supplemental Mass Mobilization Coding Procedure is not present in the local baseline. Interpretive rules follow the included codebook and project protocol; unresolved episode boundaries remain open.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retrieve and compare the supplemental procedure if publicly available; do not invent missing original rules."
+  },
+  {
+    "gap_id": "belarus_2022-01-G003",
+    "type": "search_method",
+    "description": "Open-web searching does not reproduce the documented LexisNexis newspaper search and source selection. Search engine ordering, indexing, date filters, and result counts are not verified as complete. Sixteen captured search invocations preserve their returned arrays but do not prove corpus coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain this deviation and obtain systematic newspaper archive coverage or equivalent review before making an exhaustive claim."
+  },
+  {
+    "gap_id": "belarus_2022-01-G004",
+    "type": "source_access",
+    "description": "Five relevant pages first returned tool Cache miss: S001 Belmarket Jan–Feb chronology, S002 Viasna administrative-case roundup, S003 Lawtrend January report PDF, S004 Viasna constitutional-discussion report, and S007 Belmarket Dec–Jan chronology. After the protocol correction, each exact public URL received one ordinary curl GET following a fresh unique access receipt and complete stable canonical/registered-sibling manual ledger review. All five requests failed DNS resolution before HTTP (curl exit 6; HTTP status 000; zero body bytes), so they remain search_only; these are technical failures, not site denials. S001 also returned Cache miss on one additional web.open attempt.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain the unread-source gaps. Any later exact-URL retrieval requires a fresh access receipt and full stable canonical, own, and registered-sibling ledger review; do not retry the exact URLs that returned HTTP 403."
+  },
+  {
+    "gap_id": "belarus_2022-01-G005",
+    "type": "source_access",
+    "description": "S006 Viasna January human-rights report and S009 Viasna January archive returned observed HTTP 403 on their exact URLs. No retry or bypass was attempted. Other same-host blocked pages were not generalized into a publisher-wide hold because no explicitly scoped guard or written-origin relation was found.",
+    "source_ids": [
+      "S006",
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve exact-URL denial evidence. Any future URL must receive its own fresh check and full manual review; do not retry these exact URLs or infer an unrecorded domain-wide scope."
+  },
+  {
+    "gap_id": "belarus_2022-01-G006",
+    "type": "participants",
+    "description": "S002 search-result metadata points to a Viasna roundup of people sent to administrative detention in January for several alleged grounds including unauthorized picketing. Body text could not be retrieved. A count of prosecuted or detained people does not establish that at least 50 people attended any one gathering.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If the exact article becomes accessible, identify any specific gathering, its occurrence date, target, and observed attendance; keep cases and attendee totals separate."
+  },
+  {
+    "gap_id": "belarus_2022-01-G007",
+    "type": "state_target",
+    "description": "S004 search-result metadata concerns government-organized constitutional-change discussion meetings in Minsk. The body was not retrieved, and no attendance, anti-government demand, or meeting execution is established. These meetings are not coded as protests on the available evidence.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If accessible, confirm whether any separate public assembly occurred, its attendance, and whether participants demanded action from the domestic state."
+  },
+  {
+    "gap_id": "belarus_2022-01-G008",
+    "type": "episode_unit",
+    "description": "Opened RFE/RL reporting documents an anti-war protest lead on 2022-02-27, after this unit. No January episode link is established. The reported detention total is not an attendance count, so its eligibility remains unresolved for its February owner.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Refer the post-month lead to belarus_2022-02 for independent threshold, organization, location, and event-boundary review."
+  },
+  {
+    "gap_id": "belarus_2022-01-G009",
+    "type": "language",
+    "description": "Queries covered English, Russian, and Belarusian terms and named local outlets, but regional archive coverage and other relevant local-language material are not established. Several directly relevant local reports remained unread because of access failures.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S006",
+      "S007",
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue local-language and regional-source discovery and document unavailable archives; do not infer non-occurrence from the current search results."
+  },
+  {
+    "gap_id": "belarus_2022-01-G010",
+    "type": "source_independence",
+    "description": "Manual cross-ledger review found a separate Viasna URL (spring96.org/be/news/106633; title about January cases) recorded as search-only card S055 in canonical units/belarus/2021-01/sources.jsonl. It is a different URL from this dossier’s S002 and no written-origin or same-story relation was documented. Its body was not reviewed here, so its year/month attribution and any event relevance remain unresolved.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should inspect the neighboring S055 provenance and unit attribution read-only, then preserve the original dossier; do not infer event duplication or modify that unit here."
+  },
+  {
+    "gap_id": "belarus_2022-01-G011",
+    "type": "coverage",
+    "description": "No qualifying January 2022 gathering was verified in this first open-web pass. This is not evidence that no protest occurred: five relevant bodies were unread after cache miss, two exact URLs returned 403, and the monthly search was not equivalent to systematic newspaper-archive coverage.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S006",
+      "S007",
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep the unit open to coordinator review and targeted follow-up; do not create an absence record or claim exhaustive coverage."
+  }
+]

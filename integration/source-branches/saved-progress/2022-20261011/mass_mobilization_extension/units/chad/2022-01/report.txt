@@ -1,0 +1,29 @@
+Chad — January 2022 first-pass research (researched_open_web_pending_review)
+
+Scope and method
+I captured 21 open-web searches in French, Arabic, and English, covering general January/date windows, Abéché, teachers and unions, students and schools, transport, political meetings, cost of living, and land/farming. This is an open-web discovery pass, not the original LexisNexis workflow, so it cannot establish completeness or absence.
+
+Source access
+The dossier has 61 source cards. Eight article bodies are documented as opened: S044 (VOA Afrique), S057 (HRW/CTDDH), S061 (AFP via SWI), S027 (Ialtchad), S032 (N’Djamena Actu), S026 (Bande Info), S020 (Le Pays), and S021 (Ialtchad). The first three were already recorded as opened. I opened S027 natively at `turn1021view0`. Registered contributor `/root/chad_transport_students_verification` read S032 and S026 through exact-URL HTTPS fallback after native-reader cache misses. Registered contributor `/root/chad_teachers_verification` read S020 through an exact-URL fallback after a cache miss and S021 natively at `turn1029view0`. The source ledger now records each reader, the body reference or exact fallback method, body hashes when available, separate metadata hashes, and the limits of each read. No full article copies are retained in this dossier.
+
+S057 is HRW/CTDDH’s retrospective account of the Jan 24 Abéché march and Jan 25 funeral gathering; it reports thousands, 212 arrests, three deaths during the Jan 24 march, and ten at the Jan 25 burial. It preserves the minister’s denial of live ammunition as a conflicting account. S044 covers the Jan 8 Les Transformateurs stadium meeting; S061 covers the Jan 22 MNCT/CMT-support rally. S020/S021 report a contract science-teacher work stoppage launched Jan 3 over civil-service transfer and salary arrears, but no in-person assembly, protest location, or turnout. The teacher workforce and affected students are not counted as turnout for other actions.
+
+Provisional event records
+
+- E001: Jan 24 Abéché march; proposed include, pending coordinator review of the original target/codebook rules.
+- E002: separate Jan 25 funeral gathering; whether it was a distinct protest action and had a state-directed demand remains unresolved.
+- E003: Jan 8 opposition stadium meeting; candidate for review because treatment of political meetings, accommodation, and physical end remains unsettled.
+- E004: Jan 22 support rally; pending state target and event-boundary review.
+- E005: Jan 26 Abena student street action; pending_evidence because neither the 50-person threshold nor a state-directed demand is established. The report attributes a minibus fire to students but does not identify a state-owned or state-directed target, so protester_violence remains unknown under the local codebook. The pupil’s accidental transport death is not coded as a state killing.
+- E006: Jan 18 Tapi Express operators’ sit-in; pending_threshold. The body summary reports a request for CMT-president involvement in an agency site/authorization dispute, but no attendance count, precise administrative remedy, post-action response, or physical endpoint.
+- E007: Doba students’ class-boycott strand, with the effective public-gathering start date unknown; pending_evidence. S026 reports boycotts through Feb 2 but no count, qualifying gathering date, or physical gathering end. Jan 31 is the reported class-boycott onset only and is not assigned as the start date of a qualifying public gathering. The official meeting described in S026 is undated. Its separate Feb 2 confrontation, tear gas and unspecified arrests are not transferred into January. S020/S021 separately report the Jan 3 teacher stoppage, but do not establish a public assembly or turnout and do not establish the date of a Doba student gathering.
+
+No pre-January continuation is established. E007’s reported action reaches into February, but its public-gathering and official-meeting boundaries remain unresolved, so no continuation record is finalized. No events are excluded and no official baseline/coding procedure has been verified.
+
+Remaining gaps
+S003 and S016 at Le N’Djam Post timed out in the native reader and then failed DNS on a single exact-URL HTTPS attempt. S009 at Alwihdainfo returned a reader cache miss and then DNS failed on a single exact-URL attempt. S042 at AL24 had a native timeout followed by DNS failure. These attempts returned no publisher HTTP response, body, or denial; the four exact URLs are exhausted for this pass. No publisher hold is inferred. The other assigned high-value body reads were completed by registered contributors. Search snippets remain discovery leads, not proof of occurrence, turnout, or exclusion.
+
+The dossier retains 12 explicit gaps covering official baseline/procedure, source coverage, languages and regions, casualty/event boundaries, turnout thresholds, teacher/student action boundaries, and technical access failures. French/Arabic/English web searching does not reproduce LexisNexis and does not cover every local-language outlet or region.
+
+Status
+Status is `researched_open_web_pending_review`. Counts reflect the saved files: 21 searches, 61 source cards, 8 opened bodies, 7 candidates, 0 exclusions, 0 finalized continuations, and 12 gaps. Facts and eligibility are provisional. Coordinator review and the official baseline gate remain outstanding; no candidate is official or approved.

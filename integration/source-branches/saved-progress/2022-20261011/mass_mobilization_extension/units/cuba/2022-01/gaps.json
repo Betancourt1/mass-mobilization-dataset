@@ -1,0 +1,88 @@
+[
+  {
+    "gap_id": "cuba_2022-01-G001",
+    "type": "occurrence_and_threshold",
+    "description": "The S002 body is dated January 24 and reports a call for a nationwide work stoppage on January 28 plus supporting posters, but not whether the stoppage happened or whether it involved a qualifying public gathering. The documented post-date searches found no event-specific execution evidence.",
+    "source_ids": [
+      "cuba_2022-01-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep the announcement separate from execution. Revisit only if a distinct post-January-28 report is found that establishes an actual public gathering, its participants, date, and state-directed demand."
+  },
+  {
+    "gap_id": "cuba_2022-01-G002",
+    "type": "coverage_and_episode_boundary",
+    "description": "S006 is a retrospective January–July chronology lead and mentions the Observatorio Cubano de Conflictos first-half aggregate. It remains unread after a native pre-content cache miss. Its monthly aggregate is context only, not an event count, crowd size, or independent corroboration.",
+    "source_ids": [
+      "cuba_2022-01-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve the failed-access incident without retrying this card; use later permitted discovery to identify specific January episode sources and written origins if needed."
+  },
+  {
+    "gap_id": "cuba_2022-01-G003",
+    "type": "occurrence_and_public_scope",
+    "description": "The exact S012 article returned HTTP 200 in BW016 and reports Ferrer led a protest inside Mar Verde prison, with several inmates joining. Publication date 2022-01-28 is not the action date. The account does not establish participant count, public-forum scope, exact action date, or a state-policy demand by the participants; a family demand for release is not attributed to them. The reported action is evidence of a prison protest, not evidence that the MM threshold was met.",
+    "source_ids": [
+      "cuba_2022-01-S012"
+    ],
+    "affected_candidates": [
+      "cuba_2022-01_X003"
+    ],
+    "required_followup": "Retain the action as a scoped unresolved lead. Seek distinct event-specific evidence only if it can establish the action date, public character, participant threshold, participants’ own demand, and state response; keep this separate from S020’s prison hunger-strike lead. BW016 is synchronized to S012 under SOURCE_UPDATEGO2."
+  },
+  {
+    "gap_id": "cuba_2022-01-G004",
+    "type": "threshold_and_source_scope",
+    "description": "S013 reports an anti-government sign in Havana; a sign alone does not evidence an assembled crowd.",
+    "source_ids": [
+      "cuba_2022-01-S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain as a source-only lead; do not infer a protest gathering from the sign."
+  },
+  {
+    "gap_id": "cuba_2022-01-G005",
+    "type": "month_boundary",
+    "description": "The 2021 trials and later retrospective chronology are boundary/context material, not January 2022 episode onsets. January ownership must be based on evidence of an actual January onset.",
+    "source_ids": [
+      "cuba_2022-01-S010",
+      "cuba_2022-01-S015",
+      "cuba_2022-01-S016",
+      "cuba_2022-01-S017",
+      "cuba_2022-01-S018",
+      "cuba_2022-01-S019",
+      "cuba_2022-01-S020",
+      "cuba_2022-01-S022"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep the 2021 trials separate from January episodes; use any January reporting only for event-specific onset and continuation decisions."
+  },
+  {
+    "gap_id": "cuba_2022-01-G006",
+    "type": "evidence_and_provenance",
+    "description": "No candidate currently meets the documented public-gathering and domestic state-demand criteria. S002 is an unverified future stoppage call; S012 reports a prison protest with several inmates but not a qualifying public assembly; S020 remains a separate search-preview lead about a prison hunger strike, without a body read, participant count, or public-gathering evidence. S008’s preview provides an OCC monthly aggregate only. The 275 OCC figure is context, not 275 MM events, turnout, or independent corroboration. Story origins, independent event-level corroboration, exact boundaries, and the official baseline remain unresolved.",
+    "source_ids": [
+      "cuba_2022-01-S001",
+      "cuba_2022-01-S002",
+      "cuba_2022-01-S006",
+      "cuba_2022-01-S008",
+      "cuba_2022-01-S011",
+      "cuba_2022-01-S012",
+      "cuba_2022-01-S020",
+      "cuba_2022-01-S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve the scoped leads and open gaps. Do not infer a qualifying event from an announcement, prison action, sign, commemoration, or aggregate. Advance S020 only if a specific public-gathering or threshold lead emerges; its current preview does not justify treating it as an event. Coordinator review, official baseline verification, and equivalent hemeroteca coverage remain pending; source-card synchronization is complete under SOURCE_UPDATEGO2."
+  },
+  {
+    "gap_id": "cuba_2022-01-G007",
+    "type": "source_access_restriction",
+    "description": "S021 is a first-half January CubaNet periodical archive returned as a search lead. Its exact captured PDF URL produced an actual HTTP 403 Forbidden before readable content; no individual articles or events were reviewed. The restriction is scoped to this exact URL and any documented same-written-story variants, with no publisher-wide inference.",
+    "source_ids": [
+      "cuba_2022-01-S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry S021 or access a documented same-story variant. Continue only with independent event-specific sources discovered through later permitted searches, retaining this denial scope and separating written origins."
+  }
+]

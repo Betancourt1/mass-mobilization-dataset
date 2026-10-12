@@ -1,0 +1,81 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage no_candidate_discovery",
+    "description": "No January 2022 event surfaced in 13 captured open-web query invocations (340 returned result headers). Search silence does not establish that no qualifying protest occurred; without a candidate, threshold, state target, start/end, attendance, organizer, violence and seven response fields cannot be assessed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review should compare local-language and contemporary reporting against the unit’s query coverage and retain any newly located event with field-specific evidence. Do not encode protest=0 from this first pass."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage language media archive",
+    "description": "Queries used Azerbaijani, Russian and English general, weekly, regional and sector terms; they included Baku and regional city names, wage/price, education, workers, farmers, prisoners and opposition themes, plus December 2021 and February 2022 boundaries. This is open-web discovery, not a systematic search of Azerbaijani newspapers or paid archives; local/rural, minority-language and non-indexed sources remain weakly covered.",
+    "source_ids": [
+      "AZE202201-S006",
+      "AZE202201-S007",
+      "AZE202201-S010",
+      "AZE202201-S011",
+      "AZE202201-S012",
+      "AZE202201-S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If available, check contemporaneous local newspaper archives, trade and regional outlets, and independent Azerbaijani-language coverage. Keep search URLs and snippets as leads only."
+  },
+  {
+    "gap_id": "G003",
+    "type": "episode ownership continuity boundary",
+    "description": "A 1 December 2021 Baku protest over Saleh Rustamov’s imprisonment is a boundary lead. No evidence of a January 2022 continuation was found in the captured boundary queries; the RFE/RL and Human Rights House bodies remain unread.",
+    "source_ids": [
+      "AZE202201-S002",
+      "AZE202201-S008",
+      "AZE202201-S009"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2022-01_C001"
+    ],
+    "required_followup": "Route onset and any continuation evidence to the December 2021 owner. Reopen the episode link only if new January activity is documented."
+  },
+  {
+    "gap_id": "G004",
+    "type": "source_access internal_approval_review",
+    "description": "RFE/RL S008 has headline and metadata only. Fresh exact-URL receipt 014 returned stable manual_review with no matching saved denial or written-origin scope; an ordinary GET attempt was rejected by automatic approval before execution. HTTP status is null, so this is an internal approval/review gap, not a site denial. No alternate-route retry was made.",
+    "source_ids": [
+      "AZE202201-S008"
+    ],
+    "affected_candidates": [
+      "azerbaijan_2022-01_C001"
+    ],
+    "required_followup": "Keep S008 body-unread and do not retry through another route. The boundary lead is not essential to a January candidate; continue only if an authorized review resolves the internal restriction."
+  },
+  {
+    "gap_id": "G005",
+    "type": "source_access blocked_local_sector_source",
+    "description": "The January railway-publication lead S014 returned HTTP 403 in the web reader. Receipt 019 records an exact-source hold after the card saved the observed response. No PDF body was obtained; no second request was made. The snippet’s protest-related OCR fragments do not identify an event.",
+    "source_ids": [
+      "AZE202201-S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Treat the URL as blocked and retain the access gap. Do not bypass the 403; seek other independently accessible local labor coverage only if the lead becomes relevant."
+  },
+  {
+    "gap_id": "G006",
+    "type": "source_access body_unread_context",
+    "description": "S006 and S007 show only official education-wage page titles/metadata; S009 shows only a boundary-statement title/metadata. Their bodies were not captured. The two policy pages are context leads only and do not establish a protest.",
+    "source_ids": [
+      "AZE202201-S006",
+      "AZE202201-S007",
+      "AZE202201-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not rely on unread bodies for protest facts. Follow up only if another source identifies a gathering or if the body is needed to resolve a specific question under the access protocol."
+  },
+  {
+    "gap_id": "G007",
+    "type": "baseline compatibility procedure",
+    "description": "The May 2015 manual copy was available and read, but the current official project baseline and supplementary coding procedure were not verified. The open-web method is not equivalent to LexisNexis or systematic newspaper coverage; the baseline gate remains pending.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should verify the official baseline and supplementary procedure before any export or official compatibility claim."
+  }
+]

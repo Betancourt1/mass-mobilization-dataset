@@ -1,0 +1,60 @@
+Francia — enero de 2021
+Primer pase de extensión experimental de Mass Mobilization.
+Consulta: 8 de octubre de 2026 (UTC). Trabajador: /root/france_2021_01.
+Estado: researched_open_web_pending_review.
+baseline_gate: pending_official_baseline.
+
+Método
+Se leyeron íntegramente el protocolo, assignment.json y el manual MM.
+Se ejecutaron 41 consultas: generales en francés e inglés; ventanas del 1–10, 11–17, 18–24 y 25–31; seguimientos de fechas y temas. Se buscaron grèves, manifestations, rassemblements, protests, émeutes y marches, incluyendo vivienda, urbanismo, salud, educación, cultura, EDF, restricciones y seguridad policial.
+Se registraron 176 URLs relevantes con estado de acceso, metadatos, referencia y paráfrasis. Varias fuentes son solamente pistas. Los fallos de extracción se registraron sin eludir acceso. No se conservaron textos íntegros protegidos.
+La búsqueda abierta no reproduce LexisNexis. No encontrar una fuente no prueba que no hubiera protesta; este primer pase no es exhaustivo.
+
+Resultado revisable
+28 candidatos: 13 propuestas de inclusión, 1 pendiente de umbral, 2 de objetivo estatal, 2 de unidad y 10 de evidencia.
+18 candidatos tienen ocurrencia descrita en una fuente abierta; los otros 10 son pistas o anuncios pendientes. Todos necesitan revisión y contraste con la última base oficial.
+5 exclusiones justificadas; 2 continuaciones o contextos de campañas anteriores; 19 huecos documentados.
+
+Episodios documentados
+2 de enero: vivienda en París, Grenoble y Nantes. Las demandas locales distintas quedan separadas para revisión.
+3 de enero: justicia para Cédric Chouviat, París y Montpellier, según llamado nacional.
+9 de enero: metanizador de Tencin; Gilets jaunes de Lyon; restricciones sanitarias en París.
+16 y 30 de enero: jornadas distintas contra la ley de seguridad global.
+17 de enero: Marche pour la Vie.
+19 de enero: EDF en Cusset; la movilización cultural permanece como pista pendiente.
+20 de enero: estudiantes.
+21 de enero: salud y sector social.
+23 de enero: despidos en París; free parties en Rennes.
+26 de enero: educación; sages-femmes.
+30–31 de enero: Marchons Enfants, con unidad del fin de semana pendiente.
+
+Pistas pendientes
+Gilets jaunes en París los días 2 y 9; Rennes el 9; sector médico-social el 12; asistentes educativos el 19; enseñanza familiar el 23; EDF el 28; circo el 26; Marmande el 1.
+Se identificaron asimismo contra-manifestaciones relacionadas con PMA y posibles protestas en centros de retención. Su objetivo estatal, tamaño y fecha requieren investigación adicional.
+
+Criterios aplicados
+Un artículo no se transforma en un evento. Las ciudades de una jornada nacional organizada no generan filas automáticamente.
+La participación conserva lo publicado. Estimaciones contrapuestas no son intervalos estadísticos. No se convierten “miles” en cifras exactas ni cifras de París en totales nacionales. Huelguistas, residentes y puestos de trabajo reclamados no son necesariamente manifestantes.
+Las respuestas permanecen unknown cuando no hay evidencia. Una demanda contra violencia policial no demuestra violencia estatal en esa jornada. Una audiencia con autoridades cuenta como accommodation sin afirmar victoria.
+Se fija fin solo cuando la fuente permite sostenerlo; los demás quedan null. El intervalo 30–31 bioética describe un conjunto coordinado, pendiente de revisión, sin afirmar concentración física continua de 48 horas.
+La muerte de Chouviat en 2020 motiva la protesta de 2021: no es una consecuencia de la reunión del 3 de enero.
+
+Exclusiones
+Fiesta de Lieuron iniciada el 31 de diciembre: sin demanda de protesta documentada.
+Convocatoria sudanesa en París: demandas exclusivamente extranjeras.
+Nuits de la lecture: falso positivo léxico de programa cultural.
+Preaviso CGT: aviso administrativo que no acredita una reunión pública.
+Confrontación del 15 en Villeurbanne: noticia sin umbral ni demanda pública documentados.
+Las exclusiones son revisables si aparece evidencia adicional.
+
+Continuidad y febrero
+La ocupación de vivienda de Grenoble comenzó el 9 de diciembre de 2020; la campaña de seguridad global el 17 de noviembre de 2020. Esta última se registra como contexto, sin presumir un evento físicamente continuo.
+Las jornadas de enero tienen episode_key propios provisionales. El agente de febrero debe leer estas claves y continuations.json antes de crear registros.
+Los anuncios futuros de estudiantes, EDF y seguimiento de sages-femmes no demuestran continuidad física ni ejecución. Los cierres desconocidos necesitan seguimiento.
+
+Límites y próximos pasos
+Cobertura regional desigual: París, Lyon y Grenoble aparecen más que zonas rurales y ultramar. Mayotte y Réunion tienen pistas, sin barrido sistemático completo.
+Varios medios repiten AFP; no cuentan como corroboraciones independientes. Los organizadores ofrecen cifras propias y alegaciones que requieren contraste. La Tribune fue actualizada en 2025; algunos índices cambian.
+Prioridades: última versión oficial y deduplicación; hemerotecas; fuentes bloqueadas; umbral de Nantes; objetivo estatal de ACTIS/Gilets jaunes de Lyon; unidad nacional/local; contra-manifestaciones; respuestas y cierres.
+Nada se integró a la base oficial. No se publicó un PR ni se contactó a terceros.
+

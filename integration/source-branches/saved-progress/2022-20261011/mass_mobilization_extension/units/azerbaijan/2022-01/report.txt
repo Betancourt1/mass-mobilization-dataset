@@ -1,0 +1,27 @@
+Azerbaijan January 2022 — documented open-web first pass, pending coordinator review
+Unit: azerbaijan_2022-01; provisional Polity code 373; agent /root/azerbaijan_2022_01.
+Event cutoff: 2026-10-07 inclusive, America/Mexico_City. Assignment and shared files were not changed.
+
+METHOD AND COVERAGE
+Thirteen query invocations were captured as Q001–Q013 with 340 aligned returned-result headers. Grouped calls retain the complete original action and unpartitioned returned array; no per-query result totals were invented. Searches included general English, Azerbaijani and Russian protest, demonstration, strike, rally and march terms; English and Azerbaijani weekly windows; regional names (including Baku, Ganja, Sumqayit, Shaki, Quba and Lankaran); worker, education/wage, farm/land, price, prisoner and opposition leads; regional outlets (including Turan, JAMnews, OC Media and IRFS); and December 2021 / February 2022 boundary probes. Search snippets were used for discovery only.
+
+The open-web approach does not reproduce LexisNexis or systematic newspaper coverage. No systematic local newspaper/archive search or independent native-language review was completed. Rural/local reporting, minority-language coverage and non-indexed sources remain weakly covered. Search silence is not evidence of absence.
+
+FINDINGS AND SCREENING DECISIONS
+No January 2022 candidate was located in this first pass; events.json is empty. This is not a finding that no qualifying protest occurred and does not encode protest=0.
+
+X001 retains reports of thousands visiting Martyrs’ Alley on 20 January to commemorate the 1990 victims (S001, S004). The reported attendance describes memorial visitors; no contemporary demand to Azerbaijan’s government is reported. X002 is the Ministry of Energy’s official memorial ceremony for the same anniversary, not a citizen protest (S005). Historical 1988–1990 protests and victims do not become January 2022 events.
+
+X003 records the Baku rally for Mehman Huseynov’s release on 19 January 2019, outside this year (S003). The opened OC Media account reports differing organizer and Interior Ministry attendance estimates; S015 is an unread same-publisher discovery result, not independent confirmation. X004 retains a historical hunger-strike lead (S013): the article reports around 20 people, including prisoners and people at liberty, with the first action dated 26 December and further prisoners joining 14 January. It does not describe a public gathering of 50 or more, and the page metadata did not provide a publication date or year for those dates.
+
+C001 routes the Saleh Rustamov release protest, dated in HRW’s caption to 1 December 2021, to the December 2021 owner. The captured January boundary searches did not find evidence of continuation into January. The event is not duplicated here.
+
+ACCESS AND EVIDENCE LIMITS
+Six source cards have a substantive body-read scope: S001–S005 and S013. Three other opened cards show only page titles/metadata (S006, S007, S009). S008 remains search-only/body-unread. Receipt 014 returned stable manual_review with no matching saved denial or written-origin scope; a later ordinary GET attempt was rejected by automatic approval before execution. HTTP status is null; this is an internal approval/review gap, not a site denial. No alternate-route retry was made. S014, a local railway-publication lead, returned HTTP 403 in the web reader. Fresh receipt 019 records an exact-source hold, and no further body request was made. S010–S012 and S015 remain search-only leads.
+
+For S001, S003 and S004, an ordinary HTTPS GET recovered selected page text after web-tool 502/520/cache-miss failures; those outcomes are not treated as access denials. The seven state-response dimensions and other event fields remain unassessed because no in-period candidate was identified; they are not coded as zero or ignore.
+
+BASELINE AND NEXT REVIEW
+The May 2015 codebook copy was read, but current official baseline compatibility and the supplementary coding procedure remain unverified. Baseline gate: pending_official_baseline. Coordinator eligibility, episode-link and independent review remain pending. This first pass is not exhaustive and is not official data approval.
+
+No servers, watchers, browser automation, containers, VMs or other background processes were started.

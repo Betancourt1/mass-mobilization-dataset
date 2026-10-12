@@ -1,0 +1,48 @@
+[
+  {
+    "continuation_id": "argentina_2022-01_C001",
+    "country": "Argentina",
+    "ccode": 160,
+    "title": "Possible San Telmo outage protest on 31 December 2021",
+    "start_date": "2021-12-31",
+    "start_precision": "day",
+    "location": "San Telmo, Buenos Aires City",
+    "possible_owner": "argentina_2021-12",
+    "source_ids": [
+      "ARG202201-S016"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "ARG202201-S016"
+        ],
+        "summary": "TN photo caption says neighbors protested in San Telmo on Friday, identified in the 1 January article as 31 December 2021."
+      },
+      "occurrence": {
+        "source_ids": [
+          "ARG202201-S016"
+        ],
+        "summary": "TN reports neighborhood protests during the outage crisis and captions a San Telmo gathering as Friday/31 December."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "ARG202201-S016"
+        ],
+        "summary": "No participant count is reported for the San Telmo gathering; 50-person threshold unresolved."
+      },
+      "state_target": {
+        "source_ids": [
+          "ARG202201-S016"
+        ],
+        "summary": "Outage grievances are associated with Edesur/Edenor; the caption/article does not establish a government-directed demand by this gathering."
+      }
+    },
+    "status": "possible_prior_month_continuation_lead",
+    "notes": "This is a boundary lead only, not a confirmed eligible event: no headcount, site-specific demand, continuation into January or physical end is established. It is not duplicated in events.json.",
+    "open_questions": [
+      "Was the San Telmo action part of a protest episode beginning before 31 December?",
+      "Did it meet the 50-person threshold or target state policy?",
+      "Did this specific action continue into January?"
+    ]
+  }
+]

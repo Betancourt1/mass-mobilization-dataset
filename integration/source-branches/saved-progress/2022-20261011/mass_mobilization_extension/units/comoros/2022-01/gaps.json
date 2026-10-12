@@ -1,0 +1,75 @@
+[
+  {
+    "gap_id": "COM202201-G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization baseline version, universe, schema, license and reconciliation rules remain unverified and coordinator-owned. All local source IDs and judgments are provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator verifies the official baseline and reconciliation policy; do not append or treat these local records as official dataset rows."
+  },
+  {
+    "gap_id": "COM202201-G002",
+    "type": "search_method",
+    "description": "This first pass has captured 31 open-web search invocations across French, English and Arabic terms, local outlets, and event/sector queries. It is not the original licensed hemeroteca/full-newspaper retrieval procedure; search captures preserve result headers but are not exhaustive retrieval.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If licensed hemeroteca access becomes available, run equivalent date-bounded searches in Comorian/French/Arabic and reconcile without replacing open-web provenance."
+  },
+  {
+    "gap_id": "COM202201-G003",
+    "type": "coverage",
+    "description": "Open-web coverage is uneven across Ngazidja/Grande Comore, Ndzuwani/Anjouan and Mwali/Mohéli, and across labor, student, prices, political and local community issues. Gazette/Comores Infos searches surfaced useful leads, but archive indexing and local reporting are not a census of all islands or sectors.",
+    "source_ids": [
+      "COM-2022-01-S004",
+      "COM-2022-01-S005",
+      "COM-2022-01-S007",
+      "COM-2022-01-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Open-web coverage remains incomplete after the first shared body-access window closed. Treat geographic and sector coverage as incomplete; any additional archive body retrieval requires a separately authorized window and fresh source gates."
+  },
+  {
+    "gap_id": "COM202201-G004",
+    "type": "source_access",
+    "description": "S003 is a potentially relevant search-only report of an opposition seminar in Djoiezi on 22–23 January, but the exact PDF returned a tool-only Cache miss and a later exact-URL GET failed locally before headers or text were captured. S006 exact article URL returned a verification challenge, so its article body was not read. The S001 article body was actually returned and read; a separate scope addendum records that its pre-body stable manual map omitted two nested physical historical ledger files whose canonical mirrors were included. Preserve that reading and its original receipts, make no retrospective clearance claim, and leave independent admissibility pending review.",
+    "source_ids": [
+      "COM-2022-01-S001",
+      "COM-2022-01-S003",
+      "COM-2022-01-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "During review, inspect COM-2022-01-R002-S001-scope-addendum.json and make a separate admissibility decision; retain the actual body result and old maps unchanged. Do not re-request S001 solely to repair the scope gap; do not retry the challenged S006 URL or exhausted S003 PDF."
+  },
+  {
+    "gap_id": "COM202201-G005",
+    "type": "dates",
+    "description": "S011 is an opened article published 31 December 2021: it reports a Samba Kouni hospital staff press conference and a threat to strike within 48 hours after staffing reductions, but does not establish that a strike occurred in January 2022. S006 search-only material also mentions a Samba health-workforce strike threat, but its body was blocked and any linkage to S011 is unconfirmed. The actual action, if any, date, physical assembly size and January follow-up are unknown.",
+    "source_ids": [
+      "COM-2022-01-S006",
+      "COM-2022-01-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search date-bounded January 2022 reporting for confirmed Samba strike execution or an associated public gathering; do not code the December announcement or unverified threat as an observed January protest."
+  },
+  {
+    "gap_id": "COM202201-G006",
+    "type": "participants",
+    "description": "S001 reports a Moroni truck queue protesting a private cement supplier price increase, but provides no people count; trucks are not a participant estimate. The reported grievance is company pricing, with no state-directed demand documented, so the provisional exclusion remains pending independent review.",
+    "source_ids": [
+      "COM-2022-01-S001",
+      "COM-2022-01-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Independent reviewer checks the private-target and public-gathering boundary and date notes in X001; retain the unknown participant count and provisional exclusion unless new evidence changes those facts."
+  },
+  {
+    "gap_id": "COM202201-G007",
+    "type": "participants",
+    "description": "Search extraction from S003’s Jan. 27 issue PDF says the Common Front opposition parties/movements met in a second two-day seminar at Djoiezi on 22–23 January, rejected the government’s national dialogue as illegitimate, and reaffirmed a struggle for constitutional order and rule of law. It notes attendees from Ngazidja and Ndzouani joining Mohéli participants, but reports no total attendance and does not establish that the hotel seminar was a public rally or street protest.",
+    "source_ids": [
+      "COM-2022-01-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "The same issue PDF already returned a tool-only Cache miss and a subsequent exact-URL GET failed locally before headers/text; do not retry that exhausted URL. If another independently accessible report is found, verify the event’s public character, attendance threshold and state/policy demand; otherwise retain as search-only opposition activity, not a coded candidate."
+  }
+]

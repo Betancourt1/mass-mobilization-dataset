@@ -1,0 +1,406 @@
+[
+  {
+    "gap_id": "CA202101-G001",
+    "type": "baseline",
+    "description": "Official baseline version, universe, schema, license and historical reconciliation remain coordinator-owned and pending. Provisional country code 20 is not validated against a selected official release.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CA202101-E001",
+      "CA202101-E002",
+      "CA202101-E003",
+      "CA202101-E004",
+      "CA202101-E005",
+      "CA202101-E006",
+      "CA202101-E007",
+      "CA202101-E008",
+      "CA202101-E009",
+      "CA202101-E010",
+      "CA202101-E011",
+      "CA202101-E012",
+      "CA202101-E013",
+      "CA202101-E014",
+      "CA202101-E015",
+      "CA202101-E016",
+      "CA202101-E017",
+      "CA202101-E018",
+      "CA202101-E019",
+      "CA202101-E020"
+    ],
+    "required_followup": "Coordinator verifies baseline without appending these research candidates automatically."
+  },
+  {
+    "gap_id": "CA202101-G002",
+    "type": "search_method",
+    "description": "Actual open-web searches are not the original LexisNexis All News/major-publications procedure. Date operators repeatedly returned other years; article dates were checked where opened.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Run equivalent licensed newspaper archive searches if available; retain open-web deviation."
+  },
+  {
+    "gap_id": "CA202101-G003",
+    "type": "search_method_timestamp",
+    "description": "First three general searches occurred after assignment but exact request times and full returned-URL mapping were not retained. Null timestamps and explicit unknown scope are preserved. Later searches retraced discovery. Duplicate bookkeeping entries with identical query and timestamp were removed, not counted as repeat searches. Two earlier CBC recovery attempts timed out; their exact attempted URL metadata is no longer recoverable in the retained state. A fresh logged CBC-domain retrace was blocked by robots.txt and supplied no result URLs.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If runtime history becomes recoverable, restore precise initial retrieval metadata; do not backdate or invent it."
+  },
+  {
+    "gap_id": "CA202101-G004",
+    "type": "episode_unit",
+    "description": "Original manual is available, but additional Mass Mobilization Coding Procedure rules for recurring days, escalation and nationally coordinated versus local units are not. Day-level research candidates do not represent approved independent episodes.",
+    "source_ids": [
+      "CA202101-S001",
+      "CA202101-S021",
+      "CA202101-S141",
+      "CA202101-S304",
+      "CA202101-S457",
+      "CA202101-S460"
+    ],
+    "affected_candidates": [
+      "CA202101-E005",
+      "CA202101-E007",
+      "CA202101-E008",
+      "CA202101-E009",
+      "CA202101-E010",
+      "CA202101-E011",
+      "CA202101-E012",
+      "CA202101-E014",
+      "CA202101-E015",
+      "CA202101-E016",
+      "CA202101-E017",
+      "CA202101-E020"
+    ],
+    "required_followup": "Recover original Coding Procedure; compare organizers, demands, physical continuity and prior-month starts before split/merge."
+  },
+  {
+    "gap_id": "CA202101-G005",
+    "type": "participants",
+    "description": "Counts absent or near 50 for care-home, education-caravan, paid-sick-leave, Montreal January 9, Kelowna January 16, Regina January 30, Grimshaw and Stoney Creek actions. Vehicle/workforce/social-member/tour totals do not establish public assembly size.",
+    "source_ids": [
+      "CA202101-S086",
+      "CA202101-S235",
+      "CA202101-S140",
+      "CA202101-S119",
+      "CA202101-S177",
+      "CA202101-S302",
+      "CA202101-S331",
+      "CA202101-S141"
+    ],
+    "affected_candidates": [
+      "CA202101-E002",
+      "CA202101-E003",
+      "CA202101-E004",
+      "CA202101-E006",
+      "CA202101-E012",
+      "CA202101-E013",
+      "CA202101-E019",
+      "CA202101-E020"
+    ],
+    "required_followup": "Find attributable simultaneous-person counts; keep roughly 50 and 40–50 pending."
+  },
+  {
+    "gap_id": "CA202101-G006",
+    "type": "participants_public_assembly",
+    "description": "Ninety prisoners were reported across two institutions. No 50-person simultaneous public gathering is established; institutional hunger strike compatibility with definition requires review.",
+    "source_ids": [
+      "CA202101-S419",
+      "CA202101-S458",
+      "CA202101-S459"
+    ],
+    "affected_candidates": [
+      "CA202101-E005"
+    ],
+    "required_followup": "Establish facility-specific participation and public-assembly eligibility using original procedure."
+  },
+  {
+    "gap_id": "CA202101-G007",
+    "type": "state_target",
+    "description": "Tendercare demands may concern a private operator as well as government policy; Grimshaw's anti-racism rally lacks an explicit Canadian state-policy demand. Broader political context does not settle eligibility.",
+    "source_ids": [
+      "CA202101-S235",
+      "CA202101-S086",
+      "CA202101-S331"
+    ],
+    "affected_candidates": [
+      "CA202101-E002",
+      "CA202101-E019"
+    ],
+    "required_followup": "Find participant statements demanding government action or policy change at each actual act."
+  },
+  {
+    "gap_id": "CA202101-G008",
+    "type": "source_access",
+    "description": "Post Millennial January 30, Journal de Québec January 16 and Toronto Caribbean January 2 article returned actual 403 after tool Cache miss. Respect denials. Daily Hive Toronto pages redirected 308 without usable body; CBC requests timed out. Search-only fields remain unverified. The Reddit CBC-title lead is not treated as an opened CBC report; fresh CBC-domain search was denied by robots.txt.",
+    "source_ids": [
+      "CA202101-S007",
+      "CA202101-S003",
+      "CA202101-S358",
+      "CA202101-S019",
+      "CA202101-S208"
+    ],
+    "affected_candidates": [
+      "CA202101-E003",
+      "CA202101-E007",
+      "CA202101-E008",
+      "CA202101-E009",
+      "CA202101-E010"
+    ],
+    "required_followup": "Use normally accessible original reports or licensed archives; do not evade access controls."
+  },
+  {
+    "gap_id": "CA202101-G009",
+    "type": "source_access",
+    "description": "Discovery-only Toronto January 30 and Edmonton January 9 leads lack opened occurrence/size evidence. Poster archives for Parksville/Calgary and noon Granby announcement establish plans, not execution.",
+    "source_ids": [
+      "CA202101-S007",
+      "CA202101-S004",
+      "CA202101-S328",
+      "CA202101-S304",
+      "CA202101-S283"
+    ],
+    "affected_candidates": [
+      "CA202101-E010",
+      "CA202101-E014",
+      "CA202101-E015",
+      "CA202101-E016",
+      "CA202101-E018"
+    ],
+    "required_followup": "Find post-event reporting confirming occurrence, size, organizer and policy target."
+  },
+  {
+    "gap_id": "CA202101-G010",
+    "type": "source_independence",
+    "description": "Official inquiry summarizes named contemporary reports; it is not independent corroboration of them. QMI / Canadian Press republications and organizer archive variants may share reporting origins.",
+    "source_ids": [
+      "CA202101-S001",
+      "CA202101-S119",
+      "CA202101-S003",
+      "CA202101-S456",
+      "CA202101-S457",
+      "CA202101-S152",
+      "CA202101-S141",
+      "CA202101-S142"
+    ],
+    "affected_candidates": [
+      "CA202101-E006",
+      "CA202101-E007",
+      "CA202101-E008",
+      "CA202101-E009",
+      "CA202101-E017",
+      "CA202101-E020"
+    ],
+    "required_followup": "Trace original bylines/agencies before treating URLs as multiple independent confirmations."
+  },
+  {
+    "gap_id": "CA202101-G011",
+    "type": "contested_evidence_dates",
+    "description": "SMAAC letter says January 4, 2020, while contemporaneous news and companion January 7 introduction identify January 4, 2021. Do not silently change the quoted source's year.",
+    "source_ids": [
+      "CA202101-S419",
+      "CA202101-S458",
+      "CA202101-S459"
+    ],
+    "affected_candidates": [
+      "CA202101-E005"
+    ],
+    "required_followup": "Verify original archived statement and event chronology; retain source-level discrepancy."
+  },
+  {
+    "gap_id": "CA202101-G012",
+    "type": "contested_evidence_dates",
+    "description": "Mary River secondary May search snippet says January; opened February 8 company statement says blockades began February 4. A workforce of 700 does not count attendees.",
+    "source_ids": [
+      "CA202101-S405",
+      "CA202101-S421"
+    ],
+    "affected_candidates": [
+      "CA202101-X012"
+    ],
+    "required_followup": "February owner should triangulate Inuit/local contemporary reports and chronology."
+  },
+  {
+    "gap_id": "CA202101-G013",
+    "type": "contested_evidence_state_response",
+    "description": "Moncton January 24: Global's January 26 report describes 6 arrests; inquiry citing later January 28 report describes 3. January 24 attendance of about 25 independently drives threshold exclusion.",
+    "source_ids": [
+      "CA202101-S001",
+      "CA202101-S327"
+    ],
+    "affected_candidates": [
+      "CA202101-X005"
+    ],
+    "required_followup": "Check original police releases and distinguish arrested, detained, released and charged."
+  },
+  {
+    "gap_id": "CA202101-G014",
+    "type": "state_response",
+    "description": "Unknown responses remain unknown. Tickets, charges without custody, grievance deaths, private road rage, police presence and held gas weapons do not establish the seven response categories. Future promises and planned endpoint at opposition office do not establish formal accommodation.",
+    "source_ids": [
+      "CA202101-S138",
+      "CA202101-S456",
+      "CA202101-S457",
+      "CA202101-S302",
+      "CA202101-S331",
+      "CA202101-S419"
+    ],
+    "affected_candidates": [
+      "CA202101-E001",
+      "CA202101-E002",
+      "CA202101-E003",
+      "CA202101-E004",
+      "CA202101-E005",
+      "CA202101-E006",
+      "CA202101-E007",
+      "CA202101-E008",
+      "CA202101-E009",
+      "CA202101-E010",
+      "CA202101-E011",
+      "CA202101-E012",
+      "CA202101-E013",
+      "CA202101-E014",
+      "CA202101-E015",
+      "CA202101-E016",
+      "CA202101-E017",
+      "CA202101-E018",
+      "CA202101-E019",
+      "CA202101-E020"
+    ],
+    "required_followup": "Find act-specific police accounts and formal reception/meeting evidence where available."
+  },
+  {
+    "gap_id": "CA202101-G015",
+    "type": "dates_end",
+    "description": "Physical ending is unverified for all January candidates except Montreal January 9, where police explicitly ended the march. Schedules, dusk, publication dates and month-end are not substituted for endings.",
+    "source_ids": [
+      "CA202101-S119",
+      "CA202101-S138",
+      "CA202101-S456",
+      "CA202101-S304"
+    ],
+    "affected_candidates": [
+      "CA202101-E001",
+      "CA202101-E002",
+      "CA202101-E003",
+      "CA202101-E004",
+      "CA202101-E005",
+      "CA202101-E007",
+      "CA202101-E008",
+      "CA202101-E009",
+      "CA202101-E010",
+      "CA202101-E011",
+      "CA202101-E012",
+      "CA202101-E013",
+      "CA202101-E014",
+      "CA202101-E015",
+      "CA202101-E016",
+      "CA202101-E017",
+      "CA202101-E018",
+      "CA202101-E019",
+      "CA202101-E020"
+    ],
+    "required_followup": "Follow contemporaneous reports until physical closure is documented, preserving null otherwise."
+  },
+  {
+    "gap_id": "CA202101-G016",
+    "type": "episode_unit_continuity",
+    "description": "December 31 Vancouver, August 2020 forest camps, July 19 Land Back Lane and 2020 Burnaby tree camps are separate boundary/continuation records. A changed camp or blockade does not automatically restart episode ownership.",
+    "source_ids": [
+      "CA202101-S081",
+      "CA202101-S176",
+      "CA202101-S184",
+      "CA202101-S141"
+    ],
+    "affected_candidates": [
+      "CA202101-C001",
+      "CA202101-C002",
+      "CA202101-C003",
+      "CA202101-C004",
+      "CA202101-E020"
+    ],
+    "required_followup": "Coordinate with actual start-month owners; review continuous versus new action without duplicate monthly entries."
+  },
+  {
+    "gap_id": "CA202101-G017",
+    "type": "coverage_regional",
+    "description": "English/French general, weekly and regional searches covered Quebec/Ontario, prairie provinces, British Columbia, Atlantic provinces and territories, but yields were uneven. No verified January qualifying action found for several Atlantic/territorial regions does not establish absence.",
+    "source_ids": [
+      "CA202101-S347",
+      "CA202101-S421",
+      "CA202101-S405",
+      "CA202101-S437"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search provincial/local archives and Indigenous outlets systematically, especially PEI, Newfoundland/Labrador, Yukon, NWT and Nunavut."
+  },
+  {
+    "gap_id": "CA202101-G018",
+    "type": "language",
+    "description": "Research used English and French, including Quebec local reporting. No systematic Inuktitut, Cree or other Indigenous-language archive search was performed; APTN/Indigenous-organization English reporting only partly addresses that limit.",
+    "source_ids": [
+      "CA202101-S184",
+      "CA202101-S251",
+      "CA202101-S176"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use local-language archives and qualified translation where available, keeping attribution."
+  },
+  {
+    "gap_id": "CA202101-G019",
+    "type": "coverage_sector",
+    "description": "Labour, housing, care, education, prison conditions, land, coal, pipeline, forest and arms-export policy follow-ups supplemented restriction rallies. Social-media coal opposition and virtual tenant action were not promoted into physical gatherings. Remaining campaign indices need contemporary January verification.",
+    "source_ids": [
+      "CA202101-S138",
+      "CA202101-S235",
+      "CA202101-S140",
+      "CA202101-S419",
+      "CA202101-S152",
+      "CA202101-S141",
+      "CA202101-S347",
+      "CA202101-S267",
+      "CA202101-S144",
+      "CA202101-S145",
+      "CA202101-S169"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted sector archives if equivalent source access becomes available; distinguish campaigns, online action and physical acts."
+  },
+  {
+    "gap_id": "CA202101-G020",
+    "type": "coverage_search_only_inventory",
+    "description": "Retained relevant discovery URLs include unresolved and out-of-period leads, social posts and later retrospectives. Source inventory size is not confirmation count. Complete batch returns also retain unrelated search noise solely as search provenance.",
+    "source_ids": [
+      "CA202101-S021",
+      "CA202101-S051",
+      "CA202101-S059",
+      "CA202101-S102",
+      "CA202101-S124",
+      "CA202101-S141",
+      "CA202101-S267",
+      "CA202101-S334",
+      "CA202101-S340",
+      "CA202101-S398",
+      "CA202101-S400",
+      "CA202101-S479",
+      "CA202101-S481"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Assess unread leads by publication/event date and original content before any eligibility claim."
+  },
+  {
+    "gap_id": "CA202101-G021",
+    "type": "coding_demand_category",
+    "description": "Housing-budget and public-health-service demands are mapped provisionally to political_behavior_process because the original seven-category list has no exact housing/health-services category.",
+    "source_ids": [
+      "CA202101-S138",
+      "CA202101-S235",
+      "CA202101-S419"
+    ],
+    "affected_candidates": [
+      "CA202101-E001",
+      "CA202101-E002",
+      "CA202101-E003",
+      "CA202101-E005"
+    ],
+    "required_followup": "Coordinator reviews category mapping against historical original examples without adding new demand codes."
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "gap_id": "BGD202201-G001",
+    "type": "source_access",
+    "description": "New Age article S005 returned HTTP 403 on one exact-URL body request after canonical and stable manual checks showed no explicit hold/origin. Search metadata cannot supply the article evidence; no retry or alternate route was attempted.",
+    "source_ids": [
+      "BGD202201-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use any separately discovered and independently eligible source already present in the coverage search; do not retry this denied URL or infer a publisher-wide hold."
+  },
+  {
+    "gap_id": "BGD202201-G002",
+    "type": "source_access",
+    "description": "Official UGC-hosted PDF search result appeared to list SUST under Public Universities, but the exact PDF returned HTTP 404 during the gated body request. The search snippet is not used to establish classification.",
+    "source_ids": [
+      "BGD202201-S026"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify SUST public status from another independently accessible official UGC or government record; do not retry the 404 PDF without a fresh gate."
+  },
+  {
+    "gap_id": "BGD202201-G003",
+    "type": "source_access",
+    "description": "A second official UGC annual-report PDF search result returned HTTP 404 on its exact URL. The body is not used for classification; the same official report has another search result URL to check.",
+    "source_ids": [
+      "BGD202201-S027"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check a distinct, valid official UGC document URL with a fresh source-access gate; do not retry this 404 URL."
+  },
+  {
+    "gap_id": "BGD202201-G004",
+    "type": "source_access",
+    "description": "A third official UGC-hosted PDF URL returned HTTP 404. Search output indicates a section titled Public Universities that lists SUST, but no report body was retrieved; this search text is not used as the sole classification evidence.",
+    "source_ids": [
+      "BGD202201-S028"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use a readable official ministry or university HTML record for SUST’s legal/public authority; no retry of this exact 404 URL."
+  },
+  {
+    "gap_id": "BGD202201-G005",
+    "type": "source_access",
+    "description": "Daily New Nation S033 body retrieval: web.open returned Cache miss and an ordinary HTTPS request to the same exact URL failed DNS resolution (HTTP 000, zero bytes). This is a technical retrieval failure, not an observed publisher denial. Its “over 100” search result is not used as body evidence.",
+    "source_ids": [
+      "BGD202201-S033"
+    ],
+    "affected_candidates": [
+      "BGD202201-E006"
+    ],
+    "required_followup": "If later source access becomes available, use only the exact public URL with a fresh access receipt and full ledger scan; otherwise retain threshold/target uncertainty. No alternate host tried."
+  },
+  {
+    "gap_id": "BGD202201-G006",
+    "type": "episode_unit",
+    "description": "SUST Jan13–Jan22 campaign chronology is not one confirmed physical assembly: the initial hall protest; Jan16 VC confinement/police dispersal; Jan17 Golchattor gathering and 4pm residence sit-in; Jan18–19 residence sit-in with 24-person fast subset; and Jan22 procession/follow-on residence sit-in have overlapping campaign coverage but unresolved physical continuity and crowd overlap. No broader protest physical end is established.",
+    "source_ids": [
+      "BGD202201-S003",
+      "BGD202201-S006",
+      "BGD202201-S025",
+      "BGD202201-S029",
+      "BGD202201-S032"
+    ],
+    "affected_candidates": [
+      "BGD202201-E001",
+      "BGD202201-E002",
+      "BGD202201-E003",
+      "BGD202201-E004",
+      "BGD202201-E005"
+    ],
+    "required_followup": "Coordinator should compare contemporary day-by-day accounts for departures/restarts, crowd continuity and closure. Do not infer an end from the Jan19 fast, campaign-day counts, university closure or hospitalizations."
+  },
+  {
+    "gap_id": "BGD202201-G007",
+    "type": "participants",
+    "description": "SUST Jan13 and Jan16 participant counts are not established. The Jan16 case naming about 300 unnamed students is an allegation, not a turnout count. The verified Jan17 and Jan19/Jan22 qualitative “hundreds” estimates apply only to their stated assemblies.",
+    "source_ids": [
+      "BGD202201-S003",
+      "BGD202201-S006",
+      "BGD202201-S029",
+      "BGD202201-S032"
+    ],
+    "affected_candidates": [
+      "BGD202201-E001",
+      "BGD202201-E002"
+    ],
+    "required_followup": "Use episode-specific contemporaneous headcounts if located; do not transfer later crowd counts or charges backward."
+  },
+  {
+    "gap_id": "BGD202201-G008",
+    "type": "participants",
+    "description": "NewsBangla24’s Jan22 seven-college article does not give an attendance count. Daily New Nation’s search-result snippet says over 100 but its body could not be retrieved after Cache miss and DNS failure, so no >=50 threshold is asserted.",
+    "source_ids": [
+      "BGD202201-S033",
+      "BGD202201-S034"
+    ],
+    "affected_candidates": [
+      "BGD202201-E006"
+    ],
+    "required_followup": "Find another independently accessible contemporaneous account that estimates the actual demonstration crowd."
+  },
+  {
+    "gap_id": "BGD202201-G009",
+    "type": "state_target",
+    "description": "The seven-college Jan22 demonstration protested an abrupt exam postponement and sought an explanation from Dhaka University administration; the deputy vice-chancellor attributed the closure through Feb6 to a government decision. Whether students were demanding a change to state policy or administrative clarification is not resolved.",
+    "source_ids": [
+      "BGD202201-S034"
+    ],
+    "affected_candidates": [
+      "BGD202201-E006"
+    ],
+    "required_followup": "Find the government closure/exam notices and any direct statement of protesters’ requested remedy; keep target pending until linked."
+  },
+  {
+    "gap_id": "BGD202201-G010",
+    "type": "coverage",
+    "description": "January coverage is based on captured open-web, English/Bangla, national and regional searches, not the original LexisNexis workflow or equivalent press archive. Search engines returned many irrelevant or misdated results; this is not evidence that no other qualifying events occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review should consider any licensed archive or local/regional newspaper coverage available under authorized access."
+  },
+  {
+    "gap_id": "BGD202201-G011",
+    "type": "source_access",
+    "description": "Dhaka Post S012 remains search-only. After a fresh exact-URL access check and stable full manual ledger scan, web.open returned Cache miss and one ordinary HTTPS request to the same exact URL failed DNS resolution (HTTP 000, zero bytes). This is technical retrieval failure, not an observed denial; no alternate route was tried.",
+    "source_ids": [
+      "BGD202201-S012"
+    ],
+    "affected_candidates": [
+      "BGD202201-E012"
+    ],
+    "required_followup": "If later access is available, use only the exact public URL after a fresh receipt and full ledger scan. Verify date, demand, attendance and response from the body; otherwise retain the lead as unresolved."
+  },
+  {
+    "gap_id": "BGD202201-G012",
+    "type": "participants",
+    "description": "The Jan13 Qawwali-related article reports a PAC rally, a separate BCF rally, a Dhaka University students’ procession and a Silsila performance, but gives no attendance for any action. Crowd overlap is not established; the four actions are recorded separately as pending candidates.",
+    "source_ids": [
+      "BGD202201-S008"
+    ],
+    "affected_candidates": [
+      "BGD202201-E007",
+      "BGD202201-E008",
+      "BGD202201-E009",
+      "BGD202201-E010"
+    ],
+    "required_followup": "Seek contemporaneous event-specific headcounts and direct demand statements; do not combine the reported actions or treat five injured as crowd size."
+  },
+  {
+    "gap_id": "BGD202201-G013",
+    "type": "state_target",
+    "description": "The Qawwali-related source describes protest over an alleged attack and conflicting claims about police action, but does not specify a demand directed to Bangladesh government or policy. Whether any action meets the domestic state-target rule is unresolved.",
+    "source_ids": [
+      "BGD202201-S008"
+    ],
+    "affected_candidates": [
+      "BGD202201-E007",
+      "BGD202201-E008",
+      "BGD202201-E009",
+      "BGD202201-E010"
+    ],
+    "required_followup": "Check contemporaneous organizers’ statements for an explicit state-policy demand and corroborating accounts of the event; keep target pending without such evidence."
+  },
+  {
+    "gap_id": "BGD202201-G014",
+    "type": "participants",
+    "description": "The Jan14 Garment Workers’ Solidarity action is described without a participant count. Its wage-review and dearness-allowance demands may implicate labor law, but the article does not name the government as the direct recipient.",
+    "source_ids": [
+      "BGD202201-S011"
+    ],
+    "affected_candidates": [
+      "BGD202201-E011"
+    ],
+    "required_followup": "Find an independent contemporaneous count and a direct statement identifying the requested policy-maker or employer recipient."
+  },
+  {
+    "gap_id": "BGD202201-G015",
+    "type": "episode_unit",
+    "description": "The Dhaka Post Jan21 publication is a search-only road-safety lead. Its actual event date and physical boundary are unverified; no conclusion about an event beginning in January can be made from the article body because the body was not retrieved.",
+    "source_ids": [
+      "BGD202201-S012"
+    ],
+    "affected_candidates": [
+      "BGD202201-E012"
+    ],
+    "required_followup": "Verify the body or an independent contemporary account for actual date, location, size, target and physical end, subject to a fresh access check."
+  }
+]

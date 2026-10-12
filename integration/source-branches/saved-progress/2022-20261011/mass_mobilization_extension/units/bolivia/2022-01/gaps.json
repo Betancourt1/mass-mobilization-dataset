@@ -1,0 +1,214 @@
+[
+  {
+    "gap_id": "bolivia_2022-01_G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization codebook/version, universe, schema and licensing gate remain pending; no original observation set is used to approve candidates.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to verify the current official baseline, original codebook and export mapping before any official integration."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G002",
+    "type": "participants",
+    "description": "Site-specific turnout is absent for both 10 Jan marches, the 17–18 Jan local blockades, the 31 Jan Cochabamba transport-sector counter-blockades, and Potosí/Santa Cruz women’s mobilizations. “Hundreds” of vehicles/affected road users is not protest turnout. EFE’s hundreds estimate applies only to the El Alto–La Paz women’s march.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S034",
+      "S050",
+      "S054",
+      "S012",
+      "S052",
+      "S029"
+    ],
+    "affected_candidates": [
+      "bolivia_2022-01_E001",
+      "bolivia_2022-01_E002",
+      "bolivia_2022-01_E003",
+      "bolivia_2022-01_E004",
+      "bolivia_2022-01_E005",
+      "bolivia_2022-01_E006",
+      "bolivia_2022-01_E007",
+      "bolivia_2022-01_E009",
+      "bolivia_2022-01_E010",
+      "bolivia_2022-01_E013"
+    ],
+    "required_followup": "Seek contemporary site-specific counts or a clear qualitative crowd description; do not use regional totals or affected-traffic figures as attendance."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G003",
+    "type": "episode_unit",
+    "description": "El Alto blockade accounts conflict: Correo del Sur reports an actual civic-committee block at Naciones Unidas on a second consecutive day; ERBOL says an attempted Naciones Unidas blockade was prevented; EJU/Página Siete reports two El Alto points; other accounts describe a blockade near the city boundary on Jan19. Sites, groups and times may differ.",
+    "source_ids": [
+      "S003",
+      "S034",
+      "S050",
+      "S054",
+      "S060"
+    ],
+    "affected_candidates": [
+      "bolivia_2022-01_E004"
+    ],
+    "required_followup": "Compare site/time details and local reports to determine whether these were distinct groups/sites or conflicting accounts of one local action; retain pending evidence until resolved."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G004",
+    "type": "dates",
+    "description": "The K’ara K’ara action’s day-count reports support an attributed 17 Jan onset, but no body-read source establishes when the blockade physically ended. Search-only leads describe ten days on 27 Jan and police lifting the block on 1 Feb; their bodies remain unread.",
+    "source_ids": [
+      "S003",
+      "S034",
+      "S049",
+      "S054",
+      "S059",
+      "S033"
+    ],
+    "affected_candidates": [
+      "bolivia_2022-01_E003"
+    ],
+    "required_followup": "Read the 27 Jan El Deber and 1 Feb Los Tiempos pages if accessible; distinguish temporary police opening/resumption from a durable end and check February continuation ownership."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G005",
+    "type": "source_access",
+    "description": "Several relevant page-body requests returned tool-only Cache miss; ordinary HTTPS to the same exact URL then failed DNS before HTTP. Other saved tool outcomes included URL-not-accessible. No observed denial was found for these attempts. Search-only cards remain distinct from body-read evidence.",
+    "source_ids": [
+      "S010",
+      "S020",
+      "S024",
+      "S031",
+      "S033",
+      "S037",
+      "S040",
+      "S048",
+      "S053",
+      "S055",
+      "S057",
+      "S059"
+    ],
+    "affected_candidates": [
+      "bolivia_2022-01_E003",
+      "bolivia_2022-01_E004",
+      "bolivia_2022-01_E011",
+      "bolivia_2022-01_E012"
+    ],
+    "required_followup": "Revisit only via ordinary public retrieval after fresh receipts and full ledger review. A new observed denial/paywall/challenge stops retrieval; technical failure remains an access gap."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G006",
+    "type": "coverage",
+    "description": "Spanish-language searches covered weekly/date slices and named local media/regions, but open web search does not reproduce LexisNexis or guarantee complete local coverage. Oruro, Potosí beyond Tacopalca, Sucre, Tarija, Santa Cruz outside Jan31, Beni and Pando remain thinly covered.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S010",
+      "S024",
+      "S050"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search additional regional newspapers, radio and official/rights records; distinguish no result from no event and do not claim exhaustiveness."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G007",
+    "type": "language",
+    "description": "Search coverage is predominantly Spanish. Aymara, Quechua and other Indigenous-language reporting was not systematically searched or translated.",
+    "source_ids": [],
+    "affected_candidates": [
+      "bolivia_2022-01_E004",
+      "bolivia_2022-01_E005",
+      "bolivia_2022-01_E006",
+      "bolivia_2022-01_E007"
+    ],
+    "required_followup": "Where accessible, search local-language reporting and request an independent human language review for relevant sources."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G008",
+    "type": "state_response",
+    "description": "Most state-response fields remain unknown. At K’ara K’ara, police chemical-agent use and road-clearing attempts are reported, but dispersal of assembled persons is not established; the vaccine-card/PCR suspension is campaign-level context rather than a site-specific concession. Arrests, police beatings, firearm shootings and protest-linked killings are not established. EFE reports police inaction near a journalist assault in El Alto, but relation to the civic-committee action is unresolved.",
+    "source_ids": [
+      "S003",
+      "S034",
+      "S049",
+      "S054",
+      "S058",
+      "S060"
+    ],
+    "affected_candidates": [
+      "bolivia_2022-01_E003",
+      "bolivia_2022-01_E004",
+      "bolivia_2022-01_E005",
+      "bolivia_2022-01_E006",
+      "bolivia_2022-01_E007",
+      "bolivia_2022-01_E013"
+    ],
+    "required_followup": "Seek site-specific police, prosecutor, Ombudsman and local reporting; do not transfer responses across locations or infer firearms/deaths from gas or injury reports."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G009",
+    "type": "source_independence",
+    "description": "The Jan18 Copacabana/El Alto/Tacopalca story and Jan20 government-response story on EJU explicitly attribute content to Página Siete; they are not independent EJU reporting. The Jan31 Los Tiempos page is ANF-origin; Swissinfo carries EFE. Preserve these origins and do not count republications as separate confirmation.",
+    "source_ids": [
+      "S012",
+      "S050",
+      "S052",
+      "S058"
+    ],
+    "affected_candidates": [
+      "bolivia_2022-01_E003",
+      "bolivia_2022-01_E004",
+      "bolivia_2022-01_E006",
+      "bolivia_2022-01_E007",
+      "bolivia_2022-01_E008",
+      "bolivia_2022-01_E009",
+      "bolivia_2022-01_E010"
+    ],
+    "required_followup": "Find exact original Página Siete article URLs only if needed, with a fresh source-access check; retain ANF/EFE origins separately."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G010",
+    "type": "episode_unit",
+    "description": "The announced 13 Jan nationwide strike/blockades are not evidence of execution. The read Opinión story records only an announcement; actual Jan17–19 local blockades are separately dated. A Jan15 Santa Cruz cabildo suspension story remains search-only.",
+    "source_ids": [
+      "S002",
+      "S048",
+      "S057"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If relevant, obtain readable contemporary bodies for the cabildo and planned Jan13 action and verify execution/date before adding or excluding an event."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G011",
+    "type": "participants",
+    "description": "For the 31 Jan women’s-rights actions, EFE estimates hundreds only for the El Alto–La Paz route. ANF separately reports Potosí and Santa Cruz acts without local counts. No turnout transfers among the three cities.",
+    "source_ids": [
+      "S012",
+      "S052"
+    ],
+    "affected_candidates": [
+      "bolivia_2022-01_E008",
+      "bolivia_2022-01_E009",
+      "bolivia_2022-01_E010"
+    ],
+    "required_followup": "Find local reports with turnout and route/end details for Potosí and Santa Cruz; keep them pending threshold."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G012",
+    "type": "search_method",
+    "description": "Open-web searches may prioritize the anti-certificate blockades and Jan31 march. Cross-sector and local-language review remains incomplete, so no absence claim can be made for the remainder of January.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted weekly searches for health, education, labor, transport, mining, rural/agricultural, Indigenous and neighborhood action, especially in regions with sparse results."
+  },
+  {
+    "gap_id": "bolivia_2022-01_G013",
+    "type": "dates",
+    "description": "Opinión reports Cochabamba transport-sector blockades active on the morning of 31 Jan at multiple points, but does not establish exact physical onset/end, turnout by site, or whether the reported points were separate assemblies.",
+    "source_ids": [
+      "S029"
+    ],
+    "affected_candidates": [
+      "bolivia_2022-01_E013"
+    ],
+    "required_followup": "Seek site-level contemporary accounts for attendance and physical boundaries; keep exact timing and multi-site unit unresolved without evidence."
+  }
+]

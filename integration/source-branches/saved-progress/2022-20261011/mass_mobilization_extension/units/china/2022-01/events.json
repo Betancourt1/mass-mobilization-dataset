@@ -1,0 +1,532 @@
+[
+  {
+    "candidate_id": "CHN2022-01-E001",
+    "country": "China",
+    "ccode": "710",
+    "unit_month": "2022-01",
+    "title": "Tianjin residents protest lack of food under lockdown (reported lead)",
+    "start_date": "2022-01-17",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Tianjin; search snippets identify Dasi Town/Xiqing and a local compound, but the precise site remains unresolved.",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Some search-result snippets describe “large numbers” of non-local or migrant workers; no numeric count is given.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Threshold remains unverified. “Large numbers” is qualitative and the available snippets do not establish a credible >=50 minimum.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHN2022-01-S001",
+      "CHN2022-01-S002",
+      "CHN2022-01-S003",
+      "CHN2022-01-S004",
+      "CHN2022-01-S009",
+      "CHN2022-01-S010",
+      "CHN2022-01-S020"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHN2022-01-S003",
+          "CHN2022-01-S004",
+          "CHN2022-01-S009"
+        ],
+        "summary": "Search-result snippets date a Tianjin gathering to 17 January; bodies remain unread."
+      },
+      "location": {
+        "source_ids": [
+          "CHN2022-01-S020"
+        ],
+        "summary": "The RFA Cantonese search-result header identifies a Tianjin street protest; its exposed snippet attributes a Dasi Town account, while the exact compound is unresolved."
+      },
+      "demands": {
+        "source_ids": [
+          "CHN2022-01-S003",
+          "CHN2022-01-S020"
+        ],
+        "summary": "Search-result titles/snippet describe non-local residents protesting that they had no food under compulsory COVID restrictions."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHN2022-01-S001",
+          "CHN2022-01-S002",
+          "CHN2022-01-S020"
+        ],
+        "summary": "Search-result snippets use a qualitative “large numbers” description without a count."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CHN2022-01-S003",
+          "CHN2022-01-S020"
+        ],
+        "summary": "Search-result snippets report a person being taken/detained; it is not independently verified and no count is coded."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "china_tianjin_dasi_food_jan2022",
+    "notes": "Search-only lead. No body of the linked reports has been read. Search results and reposts may share an underlying account; they are not counted as independent confirmations.",
+    "open_questions": [
+      "Can contemporaneous reporting establish a >=50 gathering?",
+      "What exact Dasi/Xiqing compound was involved?",
+      "Which reports share an original video or source?",
+      "Was the reported detention part of the gathering response?"
+    ]
+  },
+  {
+    "candidate_id": "CHN2022-01-E002",
+    "country": "China",
+    "ccode": "710",
+    "unit_month": "2022-01",
+    "title": "Shenzhen residents gather against extended lockdown (reported lead)",
+    "start_date": "2022-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Luohu District, Shenzhen; reports refer variably to Shugang/Shugangang, Tianxin Village, or Qingyun Garden, and the exact site is unresolved.",
+    "scope": "local",
+    "organizer": "Residents (reported; organization not identified)",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "A resident gathering is reported; no reliable count is stated in the available snippets.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Threshold remains unverified because the snippets report a gathering but do not provide a credible numerical or qualitative threshold.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHN2022-01-S001",
+      "CHN2022-01-S002",
+      "CHN2022-01-S006",
+      "CHN2022-01-S008",
+      "CHN2022-01-S019"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHN2022-01-S001",
+          "CHN2022-01-S002"
+        ],
+        "summary": "Search results put the Shenzhen action around 19–20 January; the reports conflict, so only month precision is retained."
+      },
+      "location": {
+        "source_ids": [
+          "CHN2022-01-S001",
+          "CHN2022-01-S002",
+          "CHN2022-01-S019"
+        ],
+        "summary": "Search-result descriptions use differing Shenzhen neighborhood/site labels; they do not resolve a single location."
+      },
+      "organizer": {
+        "source_ids": [
+          "CHN2022-01-S001",
+          "CHN2022-01-S002"
+        ],
+        "summary": "Reports describe residents; no organized body is named in the available snippets."
+      },
+      "demands": {
+        "source_ids": [
+          "CHN2022-01-S001",
+          "CHN2022-01-S002",
+          "CHN2022-01-S006",
+          "CHN2022-01-S008"
+        ],
+        "summary": "Search-result descriptions connect the action to extended COVID controls/lockdown."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "CHN2022-01-S001",
+          "CHN2022-01-S002",
+          "CHN2022-01-S019"
+        ],
+        "summary": "Snippets report people being taken by police amid a confrontation; the report body and detention details are unavailable."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "china_shenzhen_luohu_lockdown_jan2022",
+    "notes": "Search-only lead. No source body has been read. Date and site vary across snippets, and no numeric attendance is available.",
+    "open_questions": [
+      "Can the date be resolved as 19 or 20 January?",
+      "Do Shugang, Tianxin Village, and Qingyun Garden descriptions refer to one compound or different actions?",
+      "Is there credible evidence of at least 50 participants?",
+      "What was the exact police response?"
+    ]
+  },
+  {
+    "candidate_id": "CHN2022-01-E003",
+    "country": "China",
+    "ccode": "710",
+    "unit_month": "2022-01",
+    "title": "Huacheng International owners gather over high food prices and detention (reported lead)",
+    "start_date": "2022-01-20",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Huacheng International residential compound, Xi’an; the precise entrance/nearby gathering point needs confirmation.",
+    "scope": "local",
+    "organizer": "Property owners/residents (reported)",
+    "demands": [
+      "price_increases_tax_policy"
+    ],
+    "participants_original": "Nearly 100 owners, according to an NTD search-result snippet; this remains unverified.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The reported “nearly 100” would exceed 50 if accurate, but it appears only in a search-result snippet; retain pending evidence.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHN2022-01-S001",
+      "CHN2022-01-S002",
+      "CHN2022-01-S005",
+      "CHN2022-01-S007",
+      "CHN2022-01-S010",
+      "CHN2022-01-S011",
+      "CHN2022-01-S019"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHN2022-01-S005",
+          "CHN2022-01-S007"
+        ],
+        "summary": "Search-result snippets date the Huacheng International owner gathering to 20 January."
+      },
+      "location": {
+        "source_ids": [
+          "CHN2022-01-S005",
+          "CHN2022-01-S007"
+        ],
+        "summary": "Search-result snippets identify Huacheng International in Xi’an; no body read to resolve the exact gathering point."
+      },
+      "organizer": {
+        "source_ids": [
+          "CHN2022-01-S007"
+        ],
+        "summary": "The snippet describes owners gathering at the compound entrance."
+      },
+      "demands": {
+        "source_ids": [
+          "CHN2022-01-S005",
+          "CHN2022-01-S007"
+        ],
+        "summary": "Search-result snippets connect the reported action to high-priced vegetables and calls for release of a detained resident."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHN2022-01-S007"
+        ],
+        "summary": "An NTD search-result snippet says nearly 100 owners gathered; body unread."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "china_xian_huacheng_jan2022_uncertain",
+    "notes": "Search-only lead. The detention could have occurred in a preceding individual encounter rather than as a response to this gathering. A related search-result account describes people around a police station; do not merge that location automatically.",
+    "open_questions": [
+      "Is the reported “nearly 100” from a primary count or copied reporting?",
+      "Was the gathering at the compound entrance or another site?",
+      "Was this the same action as the police-station gathering in E004?",
+      "Did the crowd address a state policy/authority, or primarily the food seller/property management?"
+    ]
+  },
+  {
+    "candidate_id": "CHN2022-01-E004",
+    "country": "China",
+    "ccode": "710",
+    "unit_month": "2022-01",
+    "title": "Xi’an residents reportedly gather at a police station over a detained resident (reported lead)",
+    "start_date": "2022-01",
+    "start_precision": "month",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Xi’an; police station not identified in the available snippets.",
+    "scope": "local",
+    "organizer": "Residents/supporters (reported; organization unknown)",
+    "demands": [],
+    "participants_original": "A crowd is reported; no count is available in the captured snippet.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Unverified; the snippet says a crowd surrounded a police station but supplies no credible >=50 threshold.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHN2022-01-S001",
+      "CHN2022-01-S002"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHN2022-01-S001",
+          "CHN2022-01-S002"
+        ],
+        "summary": "The RFA search-result descriptions place this account in January 2022 but do not give an exact occurrence date."
+      },
+      "location": {
+        "source_ids": [
+          "CHN2022-01-S001",
+          "CHN2022-01-S002"
+        ],
+        "summary": "The search-result snippet says residents surrounded a police station in Xi’an; station identity is absent."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHN2022-01-S001",
+          "CHN2022-01-S002"
+        ],
+        "summary": "The snippet characterizes the gathering as a crowd without quantification."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "china_xian_huacheng_jan2022_uncertain",
+    "notes": "Separate provisional record to preserve the distinct reported location. It may be the same event or a later movement of the Huacheng International gathering; the sources have not been opened to resolve the boundary.",
+    "open_questions": [
+      "Is this a separate gathering from E003 or the same crowd at a second location?",
+      "What date and police station are involved?",
+      "What demand was made, and is the state target explicit?",
+      "Was the reported detention part of this action or a prior incident?"
+    ]
+  },
+  {
+    "candidate_id": "CHN2022-01-E005",
+    "country": "China",
+    "ccode": "710",
+    "unit_month": "2022-01",
+    "title": "Zhuhai company wage-action report (unverified lead)",
+    "start_date": "2022-01-22",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Zhuhai, Guangdong (reported; exact site unknown)",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No participant count or clear public-gathering description is present in the saved search result.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHN2022-01-S013"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHN2022-01-S013"
+        ],
+        "summary": "The NTD search-result description lists a Zhuhai wage action on 22 January."
+      },
+      "location": {
+        "source_ids": [
+          "CHN2022-01-S013"
+        ],
+        "summary": "The search-result description identifies Zhuhai but not a site."
+      },
+      "demands": {
+        "source_ids": [
+          "CHN2022-01-S013"
+        ],
+        "summary": "The search-result description categorizes the report as a worker wage action; its exact demand and target are not specified."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "china_zhuhai_wage_action_2022-01-22",
+    "notes": "Search-only lead retained for follow-up. A named event date does not establish physical attendance, group size, or a demand to the state.",
+    "open_questions": [
+      "What company and worksite are involved?",
+      "Was there a public gathering of at least 50?",
+      "Was a government body or state policy targeted, or is this solely an employer dispute?",
+      "Does the report repeat another original source?"
+    ]
+  },
+  {
+    "candidate_id": "CHN2022-01-E006",
+    "country": "China",
+    "ccode": "710",
+    "unit_month": "2022-01",
+    "title": "Liuzhou construction-worker wage-action report (unverified lead)",
+    "start_date": "2022-01-24",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Liuzhou, Guangxi (reported; exact site unknown)",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "No participant count or clear public-gathering description is present in the saved search result.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHN2022-01-S013"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHN2022-01-S013"
+        ],
+        "summary": "The NTD search-result description lists a Liuzhou construction-worker wage action on 24 January."
+      },
+      "location": {
+        "source_ids": [
+          "CHN2022-01-S013"
+        ],
+        "summary": "The search-result description identifies Liuzhou but not a site."
+      },
+      "demands": {
+        "source_ids": [
+          "CHN2022-01-S013"
+        ],
+        "summary": "The search-result description categorizes the report as a construction-worker wage action; its exact demand and target are not specified."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "china_liuzhou_construction_wage_2022-01-24",
+    "notes": "Search-only lead retained for follow-up. A named event date does not establish physical attendance, group size, or a demand to the state.",
+    "open_questions": [
+      "What exact site and organizer are involved?",
+      "Was there a public gathering of at least 50?",
+      "Was a government body or state policy targeted, or is this solely an employer dispute?",
+      "Does the report repeat another original source?"
+    ]
+  },
+  {
+    "candidate_id": "CHN2022-01-E007",
+    "country": "China",
+    "ccode": "710",
+    "unit_month": "2022-01",
+    "title": "Workers reportedly gather at Chongqing Jinke headquarters over wage claims (unverified lead)",
+    "start_date": "2022-01-27",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Jinke Group headquarters, Chongqing (reported; exact address unknown)",
+    "scope": "local",
+    "organizer": "Workers described as migrant workers by one search-result snippet; organizer unknown.",
+    "demands": [
+      "labor_wage_dispute"
+    ],
+    "participants_original": "More than 100, according to an Epoch Times search-result snippet; Jinke’s search-result response disputes that the incident was connected with migrant-worker wage arrears.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The “more than 100” description would clear the threshold if accurate, but it is a single search-result snippet and attendance has not been checked in the article body.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "CHN2022-01-S017",
+      "CHN2022-01-S018"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "CHN2022-01-S017",
+          "CHN2022-01-S018"
+        ],
+        "summary": "The search-result headers/snippets date reporting to 27–30 January; the occurrence date is reported as 27 January by the Epoch Times result."
+      },
+      "location": {
+        "source_ids": [
+          "CHN2022-01-S017",
+          "CHN2022-01-S018"
+        ],
+        "summary": "The reports identify Jinke Group’s headquarters in Chongqing."
+      },
+      "demands": {
+        "source_ids": [
+          "CHN2022-01-S017",
+          "CHN2022-01-S018"
+        ],
+        "summary": "The Epoch Times snippet attributes wage arrears claims to workers; Jinke’s response snippet disputes that connection."
+      },
+      "participants_original": {
+        "source_ids": [
+          "CHN2022-01-S018"
+        ],
+        "summary": "The Epoch Times search-result snippet says more than 100; the article body is unread."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "china_chongqing_jinke_hq_jan2022",
+    "notes": "Search-only and disputed lead. Jinke is a private corporate target in the captured descriptions; no own-state demand is established.",
+    "open_questions": [
+      "Was a public gathering of more than 50 actually present?",
+      "Did participants make a demand to the government or its policy, in addition to any claim against Jinke?",
+      "What was damaged and by whom?",
+      "Are the Epoch Times and Sina accounts independently sourced?"
+    ]
+  }
+]

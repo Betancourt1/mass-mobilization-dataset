@@ -1,0 +1,114 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "source_access",
+    "description": "A search-result title flags a school-closure protest, but date, location, turnout and domestic-state target are unverified. The exact public article URL returned HTTP 403 after the web tool cache miss; no article text was read.",
+    "source_ids": [
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use independently authored contemporaneous evidence to establish the date, site, attendance and responsible public authority. Keep this lead out of February event records while those facts are unknown."
+  },
+  {
+    "gap_id": "G002",
+    "type": "participants",
+    "description": "Two opened contemporaneous reports describe a February 16 flood-related protest in Shkodër, but neither gives a numerical attendance estimate or clear qualitative magnitude establishing 50 people. The approximately 350 hectares in the Euronews report describes flooded land, not turnout.",
+    "source_ids": [
+      "S021",
+      "S023"
+    ],
+    "affected_candidates": [
+      "albania_2021-02_E001"
+    ],
+    "required_followup": "Find an attributed headcount or sufficiently clear qualitative crowd estimate for the assembled group; retain pending_threshold otherwise."
+  },
+  {
+    "gap_id": "G003",
+    "type": "dates",
+    "description": "Neither opened February 16 report describes departure, dissolution or another physical end. A March 3 Ministry of Defense search result says flood conditions normalized and support continued, but it is not a protest report and cannot establish the gathering's end.",
+    "source_ids": [
+      "S021",
+      "S023",
+      "S025"
+    ],
+    "affected_candidates": [
+      "albania_2021-02_E001"
+    ],
+    "required_followup": "Locate an event-specific account of the group's physical end or retain end_date unknown. Do not infer closure from publication date or later flood recovery."
+  },
+  {
+    "gap_id": "G004",
+    "type": "state_response",
+    "description": "Balkanweb reports police near protesters and says they were scattered because gatherings were not allowed. It does not identify an event-specific order or attempted physical clearing. Neither report documents arrests, beatings, accommodation, explicit avoidance, killings or shootings in response to this protest.",
+    "source_ids": [
+      "S021",
+      "S023"
+    ],
+    "affected_candidates": [
+      "albania_2021-02_E001"
+    ],
+    "required_followup": "Seek event-specific reporting of an official order, contact or other response; keep all seven response values unknown unless a dimension-specific fact is found."
+  },
+  {
+    "gap_id": "G005",
+    "type": "source_independence",
+    "description": "Euronews Albania and Balkanweb provide separate contemporaneous descriptions of a Shkodër flood-related protest before Rama's visit. No common written agency is stated, but different publishers/bylines alone do not prove independent written origins or confirm that both describe the same assembled group.",
+    "source_ids": [
+      "S021",
+      "S023",
+      "S024"
+    ],
+    "affected_candidates": [
+      "albania_2021-02_E001"
+    ],
+    "required_followup": "Compare article bylines, text origins and reporting methods using accessible originals; do not count the Dosja headline as body-level corroboration or treat reports as independent until origin is checked."
+  },
+  {
+    "gap_id": "G006",
+    "type": "episode_unit",
+    "description": "February 5 search-only Ora News and Dosja results describe Ndre Mjeda residents returning to the municipality after January 16/25 apartment-dispute protests. Whether February 5 was a new gathering, a recurrence in a campaign, or continuation of one episode remains unresolved; the reported date is not a verified onset for a continuous event.",
+    "source_ids": [
+      "S027",
+      "S028",
+      "S029",
+      "S031",
+      "S033",
+      "S035",
+      "S038",
+      "S039"
+    ],
+    "affected_candidates": [
+      "albania_2021-01_E010",
+      "albania_2021-02_C001"
+    ],
+    "required_followup": "Find accessible event-specific reporting for February 5, establish physical gathering and attendance, and compare participants/site/demand to January events. Keep the possible owner as January and the February action outside events.json until unit/episode rules are resolved."
+  },
+  {
+    "gap_id": "G007",
+    "type": "source_access",
+    "description": "Ora News and Dosja search results are the direct February 5 housing leads, but coordinator-wide source checks record actual publisher-level body-access denials for these publishers. These exact URLs were not requested in this unit, and their search headlines remain search_only; same-publisher headlines are not independent confirmation.",
+    "source_ids": [
+      "S027",
+      "S028",
+      "S031"
+    ],
+    "affected_candidates": [
+      "albania_2021-02_C001"
+    ],
+    "required_followup": "Use an accessible independently authored contemporaneous source for February 5. Do not retry, mirror or copy denied-publisher bodies."
+  },
+  {
+    "gap_id": "G008",
+    "type": "search_method",
+    "description": "The 28-query bounded open-web sweep covered all four February weeks and Albanian/English terms with issue, region and sector follow-ups. It does not reproduce LexisNexis or establish complete coverage of local archives, minority-language outlets, or all locations and sectors.",
+    "source_ids": [
+      "S001",
+      "S021",
+      "S023"
+    ],
+    "affected_candidates": [
+      "albania_2021-02_E001"
+    ],
+    "required_followup": "At review, compare against accessible regional archives and official/local records, document language and geographic gaps, and do not interpret unreturned results as no protest."
+  }
+]

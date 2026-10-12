@@ -1,0 +1,43 @@
+{
+  "unit_id": "argentina_2022-01",
+  "country": "Argentina",
+  "month": "2022-01",
+  "agent_task": "/root/argentina_2022_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T03:54:46.616425+00:00",
+  "finished_at": "2026-10-10T04:27:46Z",
+  "n_queries": 12,
+  "n_sources": 35,
+  "n_candidates": 8,
+  "n_excluded": 4,
+  "n_continuations": 1,
+  "n_gaps": 11,
+  "source_access_counts": {
+    "opened_cards": 17,
+    "search_only_cards": 17,
+    "blocked_cards": 1,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_invocations": 12,
+    "original_search_strings": 45,
+    "captured_header_count": 380,
+    "query_ids": [
+      "Q001",
+      "Q002",
+      "Q003",
+      "Q004",
+      "Q005",
+      "Q006",
+      "Q007",
+      "Q008",
+      "Q009",
+      "Q010",
+      "Q011",
+      "Q012"
+    ],
+    "multiquery_arrays_preserved_whole": true
+  },
+  "coverage_assessment": "Captured 12 web-search invocations (45 original query strings, 380 result headers) covering general Spanish/English, four weekly windows, local/regional and agricultural, environmental, electricity-outage, social-organization and IMF issues, plus December/February boundaries. Read relevant contemporary bodies in Spanish and English and checked ENRE official context. The open-web search is not equivalent to LexisNexis and is not exhaustive; many search leads remain unread, some bodies returned technical Cache miss, one exact URL was explicitly blocked by HTTP 402, and event thresholds/response/episode boundaries remain unresolved.",
+  "baseline_gate": "pending_official_baseline"
+}

@@ -1,0 +1,155 @@
+[
+  {
+    "gap_id": "CHN2022-01-G001",
+    "type": "threshold_and_attendance",
+    "description": "Tianjin and Shenzhen snippets describe gatherings but do not establish a credible minimum of 50 participants.",
+    "source_ids": [
+      "CHN2022-01-S001",
+      "CHN2022-01-S002",
+      "CHN2022-01-S003",
+      "CHN2022-01-S020"
+    ],
+    "affected_candidates": [
+      "CHN2022-01-E001",
+      "CHN2022-01-E002"
+    ],
+    "required_followup": "When admissible exact-URL body access is available, inspect contemporaneous reporting and seek independent, specific attendance evidence; do not convert “large numbers” into a count."
+  },
+  {
+    "gap_id": "CHN2022-01-G002",
+    "type": "episode_boundary",
+    "description": "Xi’an Huacheng International entrance gathering and the reported police-station crowd may be one action moving between sites, separate actions, or a merged retelling.",
+    "source_ids": [
+      "CHN2022-01-S001",
+      "CHN2022-01-S002",
+      "CHN2022-01-S005",
+      "CHN2022-01-S007"
+    ],
+    "affected_candidates": [
+      "CHN2022-01-E003",
+      "CHN2022-01-E004"
+    ],
+    "required_followup": "Compare full reports, original video chronology and named locations before merging or assigning separate events."
+  },
+  {
+    "gap_id": "CHN2022-01-G003",
+    "type": "date_and_location",
+    "description": "The Shenzhen action is dated 19 or 20 January across snippets and its site is variously called Shugang/Shugangang, Tianxin Village or Qingyun Garden.",
+    "source_ids": [
+      "CHN2022-01-S001",
+      "CHN2022-01-S002",
+      "CHN2022-01-S019"
+    ],
+    "affected_candidates": [
+      "CHN2022-01-E002"
+    ],
+    "required_followup": "Resolve date and neighborhood from the original report and any first-hand contemporaneous documentation."
+  },
+  {
+    "gap_id": "CHN2022-01-G004",
+    "type": "state_target_and_public_action",
+    "description": "The Zhuhai and Liuzhou wage-action roundup entries lack accessible details on physical attendance, size, employer identity and whether a government body or policy was targeted.",
+    "source_ids": [
+      "CHN2022-01-S013",
+      "CHN2022-01-S016"
+    ],
+    "affected_candidates": [
+      "CHN2022-01-E005",
+      "CHN2022-01-E006"
+    ],
+    "required_followup": "Identify the exact underlying incidents and check for a public gathering and an explicit own-state demand before applying inclusion criteria."
+  },
+  {
+    "gap_id": "CHN2022-01-G005",
+    "type": "state_target_and_disputed_reporting",
+    "description": "The Chongqing Jinke lead has a reported crowd above 100, but Jinke disputes the wage-arrears link; no own-state demand is established and account independence is unknown.",
+    "source_ids": [
+      "CHN2022-01-S017",
+      "CHN2022-01-S018"
+    ],
+    "affected_candidates": [
+      "CHN2022-01-E007"
+    ],
+    "required_followup": "Read both exact captured reports if available and distinguish participant action, alleged motive, corporate response and any state-directed demand."
+  },
+  {
+    "gap_id": "CHN2022-01-G006",
+    "type": "source_access_and_provenance",
+    "description": "All source cards currently rely on search-result discovery. RFA S001 exact-URL web.open timed out at the tool layer and same-URL HTTPS failed DNS before HTTP; NTD S005 web.open returned tool-side Cache miss and same-URL HTTPS failed DNS before HTTP. No publisher HTTP denial or article body was observed.",
+    "source_ids": [
+      "CHN2022-01-S001",
+      "CHN2022-01-S005"
+    ],
+    "affected_candidates": [
+      "CHN2022-01-E001",
+      "CHN2022-01-E002",
+      "CHN2022-01-E003",
+      "CHN2022-01-E004"
+    ],
+    "required_followup": "Keep each source search-only unless a fresh allowed exact-URL access produces a readable body; distinguish tool/network failures from any publisher response and retain original-story/syndication relationships."
+  },
+  {
+    "gap_id": "CHN2022-01-G007",
+    "type": "continuity_and_month_boundary",
+    "description": "Xi’an lockdown and individual December encounters predate January; search results also mention a December 31 Shajing Village crowd whose protest status, size and continuation into January are unestablished. No confirmed protest episode beginning before January and continuing within January was identified.",
+    "source_ids": [
+      "CHN2022-01-S025",
+      "CHN2022-01-S027",
+      "CHN2022-01-S028"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If reviewing neighboring-month units, verify whether any specific public protest began in December and continued after 1 January; do not treat a continuing lockdown alone as a protest continuation."
+  },
+  {
+    "gap_id": "CHN2022-01-G008",
+    "type": "response_and_violence",
+    "description": "Response fields and protester violence remain unknown across most leads; reported detentions in snippets are not yet attributed to the same specific gatherings with confidence.",
+    "source_ids": [
+      "CHN2022-01-S001",
+      "CHN2022-01-S002",
+      "CHN2022-01-S003",
+      "CHN2022-01-S005",
+      "CHN2022-01-S017",
+      "CHN2022-01-S018"
+    ],
+    "affected_candidates": [
+      "CHN2022-01-E001",
+      "CHN2022-01-E002",
+      "CHN2022-01-E003",
+      "CHN2022-01-E004",
+      "CHN2022-01-E005",
+      "CHN2022-01-E006",
+      "CHN2022-01-E007"
+    ],
+    "required_followup": "Separate an antecedent detention from state action against a gathering; code only reported, incident-specific response evidence and leave silent fields unknown."
+  },
+  {
+    "gap_id": "CHN2022-01-G009",
+    "type": "coverage_and_language",
+    "description": "This first pass used open-web search and captured English and Chinese-language queries but has no systematic LexisNexis or equivalent press-archive access. Search-engine indexing, censorship, deleted posts and regional-media coverage limit recall; 23 captured search invocations do not establish exhaustive month coverage. A 2023 labor retrospective is used only to mark post-period chronology, not as January 2022 evidence.",
+    "source_ids": [
+      "CHN2022-01-S001",
+      "CHN2022-01-S013",
+      "CHN2022-01-S014",
+      "CHN2022-01-S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may direct further local/regional archive or independent source searches; absence from this search pass is not evidence that no event occurred."
+  },
+  {
+    "gap_id": "CHN2022-01-G010",
+    "type": "baseline",
+    "description": "Official baseline, original manual/version and applicable use conditions remain pending at the coordinator gate.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CHN2022-01-E001",
+      "CHN2022-01-E002",
+      "CHN2022-01-E003",
+      "CHN2022-01-E004",
+      "CHN2022-01-E005",
+      "CHN2022-01-E006",
+      "CHN2022-01-E007"
+    ],
+    "required_followup": "Coordinator completes and records the official-baseline gate; worker candidates remain provisional and receive no official IDs."
+  }
+]

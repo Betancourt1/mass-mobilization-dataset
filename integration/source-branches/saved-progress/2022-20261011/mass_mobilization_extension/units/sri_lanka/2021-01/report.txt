@@ -1,0 +1,53 @@
+Sri Lanka — January 2021 open-web research report
+
+Unit: sri_lanka_2021-01
+Provisional MM country code: 780
+Event cutoff: 2026-10-07 inclusive, America/Mexico_City
+Status: researched_open_web_pending_review
+Baseline gate: pending_official_baseline
+
+Method and coverage
+
+I logged 25 web searches, using broad terms and week windows for 1–7, 8–14, 15–21 and 22–31 January, followed by searches on candidate names, sectors, locations, December 2020 and February 2021. Searches covered English, Sinhala and Tamil terms and included labor/port, student, farmer, fishing, land, environment and political-action leads. The result service exposed no total hit count. Each captured query retains the ordered title/URL/reference headers, with returned_urls checked against the same returned_results array. Search date filters were not treated as reliable event dates. The query count is a work record, not proof of exhaustive coverage.
+
+The dossier contains 65 unique source URLs: 32 opened, 28 search_only and 5 blocked. These are access states, not independent confirmations. Several reports come from the same outlet or repeat organizer statements; a Tamil Guardian photo credit does not establish that another publication's written article is syndicated. Open-web searches do not reproduce LexisNexis, and regional/local-language access is incomplete.
+
+Candidate inventory
+
+Twelve dated or potential January candidates remain unapproved: five pending_threshold, one pending_evidence, three pending_unit and three pending_state_target. No candidate is marked proposed_include.
+
+- E001: Jaffna University memorial-demolition protest beginning 8 January. Contemporary reports describe “dozens,” which does not establish a 50-person lower bound. News First reports a police warning that overnight participants would be PCR-tested if the gathering continued, after which many dispersed. The student fast ended after a 11 January reconstruction promise; the wider physical protest's end remains unknown.
+- E002: Colombo port-worker picket over the East Container Terminal (ECT), 7 January. The date is confirmed by an 8 January Sunday Times photo report, but neither same-outlet account gives turnout.
+- E003: JVP protest against transferring ECT operations, 12 January. The reports establish the domestic policy demand but not attendance.
+- E004: Ceylon Teachers Union ECT protest opposite the Education Ministry, dated to 22 January from a “Friday” reference in a 27 January report; no turnout is reported.
+- E005: Reported Gate 3 ECT agitation on 22 January. The article describes ongoing agitation and separately says a demonstration was planned; whether that specific demonstration occurred is unresolved.
+- E006: Galle Port workers' one-hour entrance blockade on 29 January in support of Colombo port unions. The opened report gives no attendance count.
+- E007: Trincomalee protest against an Adani stake in a local port. A 26 January multi-site report establishes a domestic policy demand but gives no event date or turnout.
+- E008 and E009: Hatton and Negombo protests listed in the same report in the context of solidarity with Indian farmers. The date and attendance are missing, and a Sri Lankan state target is not specified.
+- E010: Tamil farmers' march from Kokkadicholai to the Paddipalai Divisional Secretariat on 20 January over army occupation of pastureland. Tamil Guardian describes named representatives and “hundred others,” supporting the threshold qualitatively without a precise count. It reports a petition and a secretariat promise to refer the issue to superiors, coded as accommodation. Its relation to the other Batticaloa actions below remains pending_unit.
+- E011: Siththandi farmers' demonstration near the main road on 10 January, dated from “last Sunday” in a 13 January article. The report describes government-directed slogans and land/release demands but provides no turnout. Earlier farmer arrests and alleged custody beatings in that article preceded this demonstration and are not coded as its state response.
+- E012: Siththandi farmers' rally on 15 January against land encroachment by Sinhala settlers. The report names local and political participants but gives no count or event-specific demand to Sri Lanka's government.
+
+E010–E012 concern related farmer land/pasture grievances, but the three dated gatherings are retained separately pending the original episode rule and further independent reporting. A 22 January CHRD search lead concerns a related court case only. A later Tamil-language search result about a protest sequence beginning around 2023 does not establish physical continuity from January 2021.
+
+Exclusions and continuity
+
+Three actions are preserved in excluded.json. X001 is the 11 January North-East hartal: reporting documents closures, service disruption and calls to join, but no separate qualifying assembly or 50-person turnout. The newly documented Siththandi farmer demonstration is dated to 10 January and is not treated as an assembly during the hartal. X002 is the 29 January ECT work-to-rule announcement, for which no January public gathering is evidenced. X003 is the Kandy protest opposite the Indian Assistant High Commission in support of Indian farmers; available evidence identifies a foreign-state target only.
+
+No physical action starting before January was verified as continuing into the month, so continuations.json remains empty. July and December ECT actions do not establish uninterrupted physical protest through January. February reporting describes a port-union campaign and a 1 February assurance/agreement that ECT would remain under SLPA; it does not establish continuation of a specific January assembly or a response tied to one. The Pottuvil–Polikandy march beginning 3 February has a different route and organizers from the Jaffna-campus protest and is not coded as its physical continuation. Hartal/strike closures and later policy agreements are campaign context, not substitute evidence of a dated January public assembly or physical continuity.
+
+Access and process record
+
+The Hiru Galle Port page returned a web Cache miss; one ordinary request to its exact public URL first failed DNS (exit 1), then returned HTTP 200 (exit 0). The response was 73,816 bytes; reading was limited to the parsed title and first 3,000 characters. The Hiru hartal page's exact-URL request likewise failed DNS (exit 1), then returned HTTP 200 (exit 0; 74,294 bytes), but only title/scripts were extractable. The OnLanka December ECT page's retry returned HTTP 200 (exit 0; 53,315 bytes) after DNS exit 1, but exposed no article body. The December News First URL returned HTTP 429 after its initial DNS failure; both request attempts exited 1, and no further request was made. The Lankadeepa request sequence was: missing Python requests module (exit 1 before network), urllib DNS failure (exit 1), then exact-URL HTTP 200 (exit 0; 99,236 bytes); extraction exposed unrelated current content, so the card remains search_only. No repeated request, alternate route or access-control bypass was used.
+
+Other recorded limits include an INFORM January–March PDF timeout; cache misses/timeouts for SATP, TamilNet, JDS Lanka, Lankasara, The Island, Yarlosai, and several Hiru/Telo pages; an HTTP 403 for a Thinakaran issue PDF and a separate HTTP 403 for a Tamil World Socialist Web Site port article; an Ada Derana HTTP 403; and a JavaScript-required Sunday Times page. The CHRD open attempt returned Cache miss and was not retried. These leads remain search_only or blocked as recorded.
+
+The first Q001 JSONL append attempt failed with numeric exit 1 because the script used a literal backslash-n delimiter. The exact web result remained in memory, was recovered without rerunning the query, and was later persisted with a real LF; the corrected save exited 0. The four follow-up query-log appends (Q022–Q025) and positional checks each exited 0. No persistent temporary resource was started.
+
+Open gaps remain around attendance, target, event boundaries, physical closure, source access and independence, and the sparse Sinhala/Tamil January source base. The official latest MM bytes/universe and additional Coding Procedure are still unresolved; this dossier does not claim official compatibility, exhaustive coverage, or that an unreported protest did not occur.
+
+
+Post-validation correction: trailing spaces were trimmed from each line of the SRI202101-S298 source-card title only. Search-result headers and queries, IDs, URLs, evidence, candidates, and all other source-card fields remain unchanged.
+
+
+Protocol wording corrections: G004 now states that the unresolved official-baseline/procedure gate applies to official compatibility, integration, or approval, while provisional research, consolidation, and working exports may proceed. G017 now directs respect for the saved Ada Derana HTTP 403 without retry, bypass, or alternate route, and use of other already accessible contemporary reports.

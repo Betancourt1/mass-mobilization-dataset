@@ -1,0 +1,245 @@
+[
+  {
+    "gap_id": "COL202201-G001",
+    "type": "baseline",
+    "description": "A Dataverse record exposes CC0 metadata and a historical 2015 codebook, but the latest official dataset file, its current universe/schema and compatibility with that older codebook remain unverified. No official update is authorized.",
+    "source_ids": [],
+    "affected_candidates": [
+      "COL202201-E001",
+      "COL202201-E002",
+      "COL202201-E003",
+      "COL202201-E004",
+      "COL202201-E005",
+      "COL202201-E006",
+      "COL202201-E007",
+      "COL202201-E008",
+      "COL202201-E009",
+      "COL202201-E010"
+    ],
+    "required_followup": "Coordinator verifies the latest authoritative dataset file and whether the historical codebook, universe, schema and license metadata govern it before consolidation."
+  },
+  {
+    "gap_id": "COL202201-G002",
+    "type": "episode_unit",
+    "description": "Jan28 Medellín reports distinguish Tricentenario gathering, later UdeA confrontation and motorcycle procession. Counts/routes/group relation and links to wider 28E calls remain unresolved.",
+    "source_ids": [
+      "COL202201-S001",
+      "COL202201-S002",
+      "COL202201-S003",
+      "COL202201-S014"
+    ],
+    "affected_candidates": [
+      "COL202201-E001",
+      "COL202201-E002"
+    ],
+    "required_followup": "Crosswalk times/routes/counts/organizers and story origins; retain separate candidates until a specific boundary is supported."
+  },
+  {
+    "gap_id": "COL202201-G003",
+    "type": "participants",
+    "description": "UIS report gives ~100 youth entering campus, but not whether this was an independent crowd or subset of wider protest.",
+    "source_ids": [
+      "COL202201-S038"
+    ],
+    "affected_candidates": [
+      "COL202201-E003"
+    ],
+    "required_followup": "Verify event-specific count/scope, chronology and police/ESMAD response."
+  },
+  {
+    "gap_id": "COL202201-G004",
+    "type": "participants",
+    "description": "Jan5 Molinos action lacks count. S007 reports clashes and bystander injury; S006 exhausted. Arrests/injuries are not turnout.",
+    "source_ids": [
+      "COL202201-S007",
+      "COL202201-S006"
+    ],
+    "affected_candidates": [
+      "COL202201-E004"
+    ],
+    "required_followup": "Find independent count; clarify physical end, dispersal, causality and force/retention allegations."
+  },
+  {
+    "gap_id": "COL202201-G005",
+    "type": "episode_unit",
+    "description": "Jan11 fare-evasion reports leave site/event boundaries unresolved. S009 “hundreds” belongs only to its described multi-site action; S010 says “bastantes” at El Tunal without number. S012 CacheMiss and one same-URL DNS failure before HTTP are not denial.",
+    "source_ids": [
+      "COL202201-S009",
+      "COL202201-S010",
+      "COL202201-S012"
+    ],
+    "affected_candidates": [
+      "COL202201-E005"
+    ],
+    "required_followup": "Crosswalk sites/times/counts/organizers; do not transfer estimates to individual stations. Future body request requires root window and fresh exact gate."
+  },
+  {
+    "gap_id": "COL202201-G006",
+    "type": "state_target",
+    "description": "S004 separates Jan31 cyclists (70, target unstated), Nasa/Embera vigil (count absent) and La Candelaria students (count/demand absent).",
+    "source_ids": [
+      "COL202201-S004"
+    ],
+    "affected_candidates": [
+      "COL202201-E006",
+      "COL202201-E007",
+      "COL202201-E008",
+      "COL202201-K001"
+    ],
+    "required_followup": "Verify each action’s demand, state target, count, organizer and end; keep occupation separate from vigil."
+  },
+  {
+    "gap_id": "COL202201-G007",
+    "type": "participants",
+    "description": "Arauca peace mobilizations in four municipalities are confirmed, but no local attendance or one-vs-many boundary; security activity is not attributed to protest itself.",
+    "source_ids": [
+      "COL202201-S017",
+      "COL202201-S018",
+      "COL202201-S031",
+      "COL202201-S032",
+      "COL202201-S039",
+      "COL202201-S040",
+      "COL202201-S041"
+    ],
+    "affected_candidates": [
+      "COL202201-E009"
+    ],
+    "required_followup": "Obtain local counts, dates/duration and protest-specific state response."
+  },
+  {
+    "gap_id": "COL202201-G008",
+    "type": "state_target",
+    "description": "OACEP chronology reports Jan27 Ibagué family plantón/brief roadblock over school delay; count/site/state recipient unknown. S019 headline concerns affected people, not attendance; body failed technically.",
+    "source_ids": [
+      "COL202201-S014",
+      "COL202201-S019"
+    ],
+    "affected_candidates": [
+      "COL202201-E010"
+    ],
+    "required_followup": "Verify event/date/site/attendance contemporaneously and identify government target."
+  },
+  {
+    "gap_id": "COL202201-G009",
+    "type": "source_access",
+    "description": "S043 remains a search-result headline lead only. Its raw body is preserved but independently blocked for effective use because the invocation occurred after window close. No body-derived event/date/age/crowd/demand/target/eligibility/exclusion claims are used.",
+    "source_ids": [
+      "COL202201-S043"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use independent in-window evidence; preserve raw read chronology and reconcile source ledger in authorized update."
+  },
+  {
+    "gap_id": "COL202201-G010",
+    "type": "participants",
+    "description": "Search leads describe Cartagena mototaxi actions Jan7/17 and buseta-driver actions Jan21–26. Attendance unknown; ~80 vehicles is not people. Search refs: turn986search0, turn983search0/12, turn970search1/2, turn963search2/3/5.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Create exact cards and verify attendance, target, dates and continuity."
+  },
+  {
+    "gap_id": "COL202201-G011",
+    "type": "episode_unit",
+    "description": "Córdoba/Tierralta PNIS/camp leads report organizer estimates around1,000–1,300 Jan22–23 and Jan28 roadblock, but occurrence/attendance/start/continuity remain unverified. Refs: turn970search0/3, turn983search4/9.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Capture contemporary cards; verify estimates and resolve camp/roadblock boundary and state response."
+  },
+  {
+    "gap_id": "COL202201-G012",
+    "type": "state_target",
+    "description": "Hospital General search leads report Jan7/19 plantones and roughly100 workers, but public-policy/state demand versus employer dispute and episode boundary unresolved. Refs: turn976search0/1/2, turn983search1/5.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Verify a government/policy demand; do not infer one from public-hospital employment."
+  },
+  {
+    "gap_id": "COL202201-G013",
+    "type": "participants",
+    "description": "Search-only Buen Comienzo family lead says about25 people; possible later planned action occurrence unconfirmed. Ref: turn986search1.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Verify count and whether later event occurred before excluding or coding."
+  },
+  {
+    "gap_id": "COL202201-G014",
+    "type": "contested_evidence",
+    "description": "S042 retrospective Cauca teacher/cathedral-action lead has internal date/context mismatch; not an established Jan18 event.",
+    "source_ids": [
+      "COL202201-S042"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find contemporaneous independent evidence resolving date, site and occurrence."
+  },
+  {
+    "gap_id": "COL202201-G015",
+    "type": "state_target",
+    "description": "Search-only Unitransa sources describe late-Jan service stoppage; may be stoppage/service interruption rather than public protest. No attendee count or government-directed demand established.",
+    "source_ids": [
+      "COL202201-S021",
+      "COL202201-S022",
+      "COL202201-S023",
+      "COL202201-S035"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify public gathering, participants, policy target and distinction from affected passengers."
+  },
+  {
+    "gap_id": "COL202201-G016",
+    "type": "source_access",
+    "description": "S018/S019 technical failures without HTTP denial; S036 page shell/account template without narrative and restriction unresolved; S012 CacheMiss/DNS pre-HTTP. None is confirmed publisher denial.",
+    "source_ids": [
+      "COL202201-S012",
+      "COL202201-S018",
+      "COL202201-S019",
+      "COL202201-S036"
+    ],
+    "affected_candidates": [
+      "COL202201-E005",
+      "COL202201-E010"
+    ],
+    "required_followup": "Use independent sources; any future body attempt requires root window and fresh gate. Do not retry exhausted S006/S037."
+  },
+  {
+    "gap_id": "COL202201-G017",
+    "type": "coverage",
+    "description": "Strongest discovery for Bogotá, Medellín, Cartagena, Bucaramanga, Arauca, Córdoba and Ibagué; Pacific/Amazon, other coastal and rural regions have weaker event-level coverage. Search absence is not event absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Expand targeted Spanish regional searches and compare with regional press/civic records and official baseline."
+  },
+  {
+    "gap_id": "COL202201-G018",
+    "type": "coverage",
+    "description": "Environmental/water/land, housing/displacement outside Parque Nacional, utilities/public services and further health/education actions were not systematically exhausted.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search underrepresented issues/local terms; add cards only during coordinator-authorized update."
+  },
+  {
+    "gap_id": "COL202201-G019",
+    "type": "source_independence",
+    "description": "Jan28 reports use different outlets and counts; common sourcing/field independence not fully checked. Anniversary framing does not prove one coordinated event.",
+    "source_ids": [
+      "COL202201-S001",
+      "COL202201-S002",
+      "COL202201-S003",
+      "COL202201-S014",
+      "COL202201-S038"
+    ],
+    "affected_candidates": [
+      "COL202201-E001",
+      "COL202201-E002",
+      "COL202201-E003"
+    ],
+    "required_followup": "Trace original statements and sourcing; retain separate candidates absent coordination evidence."
+  },
+  {
+    "gap_id": "COL202201-G020",
+    "type": "search_method",
+    "description": "Open-web searches only, mainly Spanish with limited English; no hemeroteca pass; date filters may not constrain results.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Repeat local/regional and archive search when baseline/source conditions are verified."
+  }
+]

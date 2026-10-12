@@ -1,0 +1,168 @@
+[
+  {
+    "gap_id": "sierra_leone_2021-01_G001",
+    "type": "baseline",
+    "description": "Official current dataset version, event universe, current codebook, and additional Coding Procedure remain unverified for this candidate stage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Compare against verified official bytes and current coding materials before any final eligibility or export decision."
+  },
+  {
+    "gap_id": "sierra_leone_2021-01_G002",
+    "type": "coverage",
+    "description": "Open web searching cannot reproduce LexisNexis or establish exhaustive coverage of Sierra Leonean media.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review accessible local and regional sources and document the coverage limits."
+  },
+  {
+    "gap_id": "SL202101-G003",
+    "type": "source_access",
+    "description": "Politico SL and Premier News pages returned ordinary HTTPS 406 after web Cache misses; their bodies remain unread. A later Politico student-threat web open also returned Cache miss; the URL already had an HTTP 406 denial, so it was not retried. The Calabash article was accessible with ordinary HTTPS 200.",
+    "source_ids": [
+      "SL202101-S001",
+      "SL202101-S002",
+      "SL202101-S003",
+      "SL202101-S004"
+    ],
+    "affected_candidates": [
+      "SL202101-X001"
+    ],
+    "required_followup": "Use only legitimately accessible independent contemporary sources; do not retry the denied URLs or infer article contents beyond the recorded search text."
+  },
+  {
+    "gap_id": "SL202101-G004",
+    "type": "search_method",
+    "description": "Q002 (Sierra Leone first-week date-window probe) was executed and returned text, but post-call capture failed because the JS runtime lacked TextEncoder. Exact execution time and all result headers are unavailable; returned lists are null, not empty. The coordinator directed that it not be rerun.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep this query as an uncaptured limitation; do not infer returned sources or count it as an observed empty search."
+  },
+  {
+    "gap_id": "SL202101-G005",
+    "type": "source_access",
+    "description": "Two Cocorioko pages returned web-tool Internal Error without body/status; another returned HTTP429. One candidate URL is hosted on pages.dev with unverified BBC identity.",
+    "source_ids": [
+      "SL202101-S007",
+      "SL202101-S010",
+      "SL202101-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not attribute the pages.dev result to BBC without independent verification; respect the recorded HTTP429 and do not repeat it."
+  },
+  {
+    "gap_id": "SL202101-G006",
+    "type": "episode_unit",
+    "description": "The lecturers' work stoppage predates January. Primary ASA statements now establish a Nov 2020 resumption and a Jan 4, 2021 resumption after suspension through Dec 31; a government agreement and Njala Registrar notice report classes resuming Feb 3. Initial campaign onset remains unknown, and none of these records establishes an eligible public assembly or its ownership.",
+    "source_ids": [
+      "SL202101-S012",
+      "SL202101-S013",
+      "SL202101-S014",
+      "SL202101-S016",
+      "SL202101-S017",
+      "SL202101-S024",
+      "SL202101-S025",
+      "SL202101-S026",
+      "SL202101-S035"
+    ],
+    "affected_candidates": [
+      "SL202101-C001",
+      "SL202101-X003"
+    ],
+    "required_followup": "Review contemporary local accounts for any distinct lecturer/student public assembly and its onset/turnout; consult the additional Coding Procedure and official baseline before assigning physical episode ownership."
+  },
+  {
+    "gap_id": "SL202101-G007",
+    "type": "participants",
+    "description": "No opened source reports turnout for a lecturers’ or student protest. The reported 40,000+ students were affected by closures, not shown attending a gathering.",
+    "source_ids": [
+      "SL202101-S002",
+      "SL202101-S012",
+      "SL202101-S014",
+      "SL202101-S016",
+      "SL202101-S017",
+      "SL202101-S024",
+      "SL202101-S026",
+      "SL202101-S035"
+    ],
+    "affected_candidates": [
+      "SL202101-C001",
+      "SL202101-X001",
+      "SL202101-X003"
+    ],
+    "required_followup": "Locate a contemporaneous report of an actual public gathering and its attendance; do not use workforce, enrollment or meeting representation as crowd size."
+  },
+  {
+    "gap_id": "SL202101-G008",
+    "type": "contested_evidence",
+    "description": "Reports schedule the Vice President's lecturer meeting for Jan 19, while Politico's Jan 21 account says it ended yesterday (Jan 20 by relative wording). One SwitSalone paragraph misdates a release as Jan 4, 2020; the contemporaneous primary ASA statement explicitly dates its resumption notice to Jan 4, 2021 after a suspension through Dec 31. The conflict and apparent correction are retained.",
+    "source_ids": [
+      "SL202101-S012",
+      "SL202101-S013",
+      "SL202101-S014",
+      "SL202101-S016",
+      "SL202101-S024",
+      "SL202101-S025"
+    ],
+    "affected_candidates": [
+      "SL202101-C001"
+    ],
+    "required_followup": "Check dated ASA, university, and government records; do not silently normalize the reported dates."
+  },
+  {
+    "gap_id": "SL202101-G009",
+    "type": "language",
+    "description": "A Krio-oriented search returned no verified contemporaneous Krio-language article. English-language results dominated; no native-language review was performed.",
+    "source_ids": [
+      "SL202101-S002",
+      "SL202101-S004",
+      "SL202101-S018",
+      "SL202101-S019",
+      "SL202101-S020",
+      "SL202101-S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review additional local-language archives or obtain fluent local review before any completeness claim."
+  },
+  {
+    "gap_id": "SL202101-G010",
+    "type": "episode_unit",
+    "description": "The student union's threatened protest was conditional on reopening by Feb 3. Opened Calabash and SwitSalone reports do not document its execution; Njala's official notice reports academic activities commenced Feb 3. No source establishes whether students assembled before reopening or supplies turnout.",
+    "source_ids": [
+      "SL202101-S001",
+      "SL202101-S002",
+      "SL202101-S017",
+      "SL202101-S035"
+    ],
+    "affected_candidates": [
+      "SL202101-X001"
+    ],
+    "required_followup": "Check contemporaneous Feb 1–4 local reports or student-union records for an executed assembly; do not infer either occurrence or nonoccurrence from the reopening notice."
+  },
+  {
+    "gap_id": "SL202101-G011",
+    "type": "coverage",
+    "description": "Searches included Bo, Kenema, Makeni and other named districts and several worker sectors, but retrieved results were often from other years or did not yield opened regional/local reporting. Region-specific coverage remains uneven.",
+    "source_ids": [
+      "SL202101-S005",
+      "SL202101-S009",
+      "SL202101-S019",
+      "SL202101-S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review accessible regional media and archives before any coverage or absence claim."
+  },
+  {
+    "gap_id": "SL202101-G012",
+    "type": "source_independence",
+    "description": "The Sierra Leone Observatory Digital News Review is a dated news digest/index, not independent corroboration; its included publishers and republication relationships are not fully mapped. Search-only secondary leads are not counted as confirmation.",
+    "source_ids": [
+      "SL202101-S033"
+    ],
+    "affected_candidates": [
+      "SL202101-C001",
+      "SL202101-X001"
+    ],
+    "required_followup": "Trace digest items to original dated reporting and identify shared agencies or republication before treating reports as independent."
+  }
+]

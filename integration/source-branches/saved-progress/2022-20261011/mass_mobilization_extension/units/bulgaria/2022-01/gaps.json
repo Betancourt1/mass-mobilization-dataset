@@ -1,0 +1,88 @@
+[
+  {
+    "gap_id": "BGR202201-G001",
+    "type": "participants_estimate_conflict",
+    "candidate_ids": [
+      "BGR202201-E001"
+    ],
+    "source_ids": [
+      "BG22-01-S002",
+      "BG22-01-S010",
+      "BG22-01-S009"
+    ],
+    "description": "The opened Sofia Globe article reports more than 1,000 participants; BTA’s search-only result says hundreds; BNR’s search-only preview says thousands. These remain attributed estimates. Exact turnout, the basis of each estimate, and the role of organizer/police estimates are unresolved; no numeric bounds were derived from qualitative wording.",
+    "follow_up": "If access later permits, review the full BTA page and seek a contemporaneous police/organizer estimate."
+  },
+  {
+    "gap_id": "BGR202201-G002",
+    "type": "state_response_and_injury_attribution",
+    "candidate_ids": [
+      "BGR202201-E001"
+    ],
+    "source_ids": [
+      "BG22-01-S003",
+      "BG22-01-S010",
+      "BG22-01-S014",
+      "BG22-01-S015",
+      "BG22-01-S023"
+    ],
+    "description": "The opened Sofia Globe article reports four police hospitalized after injuries in a struggle and arrests; the Dir.bg search-only preview attributes injuries to nine police officers to MVR and reports two demonstrators detained, not injured. The different police counts/bases are unresolved. Neither source establishes protester injuries. ANSA/Rador search-only headlines mention injuries without naming who was hurt. Beatings, dispersal, shootings, killings, ignore, and protester violence remain unknown; police injuries are not recoded as protester injuries.",
+    "follow_up": "Review other accessible contemporaneous body reports or official records if available; preserve each actor and account separately."
+  },
+  {
+    "gap_id": "BGR202201-G003",
+    "type": "accommodation_and_site_relationship",
+    "candidate_ids": [
+      "BGR202201-E001"
+    ],
+    "source_ids": [
+      "BG22-01-S010",
+      "BG22-01-S019",
+      "BG22-01-S020",
+      "BG22-01-S021",
+      "BG22-01-S023",
+      "BG22-01-S024"
+    ],
+    "description": "The PM’s conditional future offer to receive a medical working group after quarantine is not evidence of an agreed/held meeting. Search-only Darik/Actualno headlines suggest interaction with the health minister and MPs; BTA’s later search-only preview says a working group created after the protest met once, but its participants and relationship to a formal protest delegation are unverified. Dir.bg’s search-only preview says the protest moved to the Health Ministry; whether those participants were part of the Parliament gathering remains unverified. Accommodation stays unknown.",
+    "follow_up": "Review exact reporting and any official meeting record before coding accommodation or linking Health Ministry participants."
+  },
+  {
+    "gap_id": "BGR202201-G004",
+    "type": "retrospective_strike_occurrence_onset",
+    "candidate_ids": [],
+    "source_ids": [
+      "BG22-01-S022"
+    ],
+    "description": "A search-only retrospective labor country report preview claims education unions mobilized over 100,000 for a warning strike on 19 January 2022. Targeted queries did not locate contemporaneous evidence that a public gathering or strike actually occurred or establish an onset date. It is retained as a lead, not coded as an event.",
+    "follow_up": "Seek contemporaneous union, school, ministry, or press documentation of occurrence and onset before any event-date coding."
+  },
+  {
+    "gap_id": "BGR202201-G005",
+    "type": "body_access_and_source_independence",
+    "candidate_ids": [
+      "BGR202201-E001"
+    ],
+    "source_ids": [
+      "BG22-01-S002",
+      "BG22-01-S003",
+      "BG22-01-S007",
+      "BG22-01-S010"
+    ],
+    "description": "Only the Sofia Globe article body was read. BTA S002 produced a tool-only error and one exact-URL GET failed at DNS before HTTP; BNT S003 returned HTML metadata with zero visible lines; Reuters S007 returned a tool cache miss, and its next gate was deferred because a registered Brazil source ledger changed. None is a publisher denial; no further requests were made for these pages. Reuters/Investing remains one editorial origin.",
+    "follow_up": "Keep inaccessible/partial sources search-only; future attempts require a fresh exact-URL stable full-ledger gate."
+  },
+  {
+    "gap_id": "BGR202201-G006",
+    "type": "weekly_and_archive_coverage",
+    "candidate_ids": [],
+    "source_ids": [
+      "BG22-01-S016",
+      "BG22-01-S017",
+      "BG22-01-S018",
+      "BG22-01-S022",
+      "BG22-01-S025"
+    ],
+    "description": "Bulgarian and English searches covered 1-7, 8-14, 15-21, and 22-31 January, major-city terms, and labor/student/farmer/health/transport and policy terms. A captured search also found a 23 February NOVA headline identifying a later Vazrazhdane protest; this boundary item does not establish continuation of the January gathering. No additional qualifying gathering was identified for other January weeks, but open-web search is not a Bulgarian press-archive/hemeroteca review and date operators may be ignored. The 2 January Reddit thread is anticipatory only and the Sofia municipal notice is a scheduled traffic notice.",
+    "follow_up": "Treat non-detection as a coverage limitation, not evidence that no event occurred; review equivalent newspaper/local archives in a later pass."
+  }
+]

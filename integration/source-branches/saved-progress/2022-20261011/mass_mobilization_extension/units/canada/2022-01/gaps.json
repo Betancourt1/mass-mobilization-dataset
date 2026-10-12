@@ -1,0 +1,204 @@
+[
+  {
+    "gap_id": "CAN202201-G001",
+    "type": "baseline",
+    "description": "Official baseline release, universe, schema, license and historical reconciliation remain coordinator-owned and pending. Provisional country code 20 and these candidate IDs are not official records.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CAN202201-E001",
+      "CAN202201-E002",
+      "CAN202201-E003",
+      "CAN202201-E004",
+      "CAN202201-E005",
+      "CAN202201-E006",
+      "CAN202201-E007",
+      "CAN202201-E008",
+      "CAN202201-E009",
+      "CAN202201-E010",
+      "CAN202201-E011",
+      "CAN202201-E012",
+      "CAN202201-E013"
+    ],
+    "required_followup": "Coordinator verifies the official baseline and reconciliation policy; do not append candidates automatically."
+  },
+  {
+    "gap_id": "CAN202201-G002",
+    "type": "search_method",
+    "description": "This first pass used 30 captured open-web search invocations and contemporary/official indexed material, not the original licensed LexisNexis All News / major-publications procedure. Search captures preserve returned headers but do not constitute exhaustive retrieval.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If licensed hemeroteca access becomes available, run equivalent date-bounded English/French searches and reconcile without replacing open-web provenance."
+  },
+  {
+    "gap_id": "CAN202201-G003",
+    "type": "coverage",
+    "description": "Coverage is uneven across provinces, territories, languages and sectors. Captured searches emphasize Quebec anti-curfew/health-measure marches and late-January convoy activity; labor, education, price/tax, Indigenous rights, environment and local/territorial coverage is not census-complete.",
+    "source_ids": [
+      "CAN202201-S026",
+      "CAN202201-S027",
+      "CAN202201-S043",
+      "CAN202201-S044",
+      "CAN202201-S045"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use local/regional outlets across provinces and territories and labor, student, Indigenous, price/tax and environmental sectors before claiming a national monthly census."
+  },
+  {
+    "gap_id": "CAN202201-G004",
+    "type": "participants",
+    "description": "Threshold and per-site turnout remain unresolved for Jan. 1 Montreal (about 50), Jan. 17 Emerson (no people count), Jan. 27 London-area sites (hundreds but unit unresolved), Jan. 27 Vaughan (search-only; crowd/traffic distinction), and Jan. 29 Coutts onset (500–700 estimate is from Jan. 30). Jan. 10 Nanaimo, Burnaby and Victoria old-growth actions have arrest reports but no attendance; arrests are not crowd counts.",
+    "source_ids": [
+      "CAN202201-S001",
+      "CAN202201-S002",
+      "CAN202201-S010",
+      "CAN202201-S018",
+      "CAN202201-S043",
+      "CAN202201-S044",
+      "CAN202201-S046",
+      "CAN202201-S047",
+      "CAN202201-S015"
+    ],
+    "affected_candidates": [
+      "CAN202201-E001",
+      "CAN202201-E004",
+      "CAN202201-E007",
+      "CAN202201-E008",
+      "CAN202201-E013"
+    ],
+    "required_followup": "Verify counts and same-site boundaries from local sources; do not infer turnout from vehicles, arrest counts, RSVPs or city-level aggregates."
+  },
+  {
+    "gap_id": "CAN202201-G005",
+    "type": "episode_unit",
+    "description": "Convoy-related gatherings are distinct: Jan. 28 Ottawa evidence reports vehicles and no human count; the Jan. 29 Ottawa crowd is body-confirmed. London/Vaughan roadside support, Lévis, Emerson, Edmonton Legislature and separate Acheson vehicles must not be merged absent episode evidence. Ottawa occupation and Coutts blockade are reported as continuing into February in search-only retrospective timelines.",
+    "source_ids": [
+      "CAN202201-S031",
+      "CAN202201-S037",
+      "CAN202201-S040",
+      "CAN202201-S042",
+      "CAN202201-S021",
+      "CAN202201-S015",
+      "CAN202201-S048"
+    ],
+    "affected_candidates": [
+      "CAN202201-E004",
+      "CAN202201-E007",
+      "CAN202201-E008",
+      "CAN202201-E009",
+      "CAN202201-E010",
+      "CAN202201-E012",
+      "CAN202201-E013"
+    ],
+    "required_followup": "February unit reviews temporal continuity and physical ending; preserve Ottawa Jan. 28 vehicle arrivals apart from Jan. 29 human assembly and do not merge route locations."
+  },
+  {
+    "gap_id": "CAN202201-G006",
+    "type": "state_target",
+    "description": "Lévis search-only reporting describes opposition to “vaccine and health rules” without identifying the responsible domestic government/policy; Edmonton reports solidarity and broad opposition to mandates/restrictions without specifying level. Jan. 24 SFU walkout lead describes demands to university administration; a public university is not automatically an own-state target.",
+    "source_ids": [
+      "CAN202201-S037",
+      "CAN202201-S048",
+      "CAN202201-S027",
+      "CAN202201-S045"
+    ],
+    "affected_candidates": [
+      "CAN202201-E009",
+      "CAN202201-E012"
+    ],
+    "required_followup": "Confirm the domestic government/policy demand before changing pending_state_target; keep university-administration-only demands outside eligibility absent documented state targeting."
+  },
+  {
+    "gap_id": "CAN202201-G007",
+    "type": "source_access",
+    "description": "Material estimates remain search-only: QMI Jan. 8 Montreal (S004), Jan. 27 London/Vaughan (S018/S046), Lévis (S037), OPS and Government Ottawa counts (S049/S041), and Coutts onset/attendance (S015/S021). S041 was opened only to cover/contents. S002/S004 cache misses were followed by permitted same-public-URL attempts that failed before HTTP during DNS; no publisher denial was observed.",
+    "source_ids": [
+      "CAN202201-S002",
+      "CAN202201-S004",
+      "CAN202201-S015",
+      "CAN202201-S018",
+      "CAN202201-S021",
+      "CAN202201-S037",
+      "CAN202201-S041",
+      "CAN202201-S046",
+      "CAN202201-S049"
+    ],
+    "affected_candidates": [
+      "CAN202201-E003",
+      "CAN202201-E007",
+      "CAN202201-E008",
+      "CAN202201-E009",
+      "CAN202201-E010",
+      "CAN202201-E013"
+    ],
+    "required_followup": "If revisited, use the exact captured URL and fresh full stable access gate; verify excerpts in bodies when available and preserve prior history. Do not retry S002/S004 without a new allowed access window."
+  },
+  {
+    "gap_id": "CAN202201-G008",
+    "type": "state_response",
+    "description": "Physical endings and event-specific state responses remain unknown for most gatherings. Jan. 5 Montreal reports warnings/dispersal attempt; Jan. 1 reports an arrest. Waterloo police/bylaw presence and rink closure do not establish dispersal; silence does not establish ignore or absence. Later Ottawa emergency proceedings are not automatically Jan. 29 responses.",
+    "source_ids": [
+      "CAN202201-S001",
+      "CAN202201-S024",
+      "CAN202201-S050",
+      "CAN202201-S042",
+      "CAN202201-S040"
+    ],
+    "affected_candidates": [
+      "CAN202201-E001",
+      "CAN202201-E003",
+      "CAN202201-E004",
+      "CAN202201-E005",
+      "CAN202201-E006",
+      "CAN202201-E007",
+      "CAN202201-E008",
+      "CAN202201-E009",
+      "CAN202201-E010",
+      "CAN202201-E011",
+      "CAN202201-E012",
+      "CAN202201-E013"
+    ],
+    "required_followup": "Use event-specific contemporaneous accounts for physical end and each response; do not code silence, presence, campaign endpoints, later events or policy statements as responses."
+  },
+  {
+    "gap_id": "CAN202201-G009",
+    "type": "source_independence",
+    "description": "Some cards share reporting origins or underlying police information. S001 and S004 identify Agence QMI; S028 is also TVA/QMI. S003/S025 and S002 relay the Jan. 1 Montreal police ticket/arrest account. These are not independent confirmations.",
+    "source_ids": [
+      "CAN202201-S001",
+      "CAN202201-S002",
+      "CAN202201-S003",
+      "CAN202201-S004",
+      "CAN202201-S025",
+      "CAN202201-S028"
+    ],
+    "affected_candidates": [
+      "CAN202201-E001",
+      "CAN202201-E003",
+      "CAN202201-E005"
+    ],
+    "required_followup": "Retain outlet and underlying source distinctions; seek genuinely separate local reporting only if further corroboration is needed."
+  },
+  {
+    "gap_id": "CAN202201-G010",
+    "type": "participants",
+    "description": "Jan. 10 search-only reports identify separate old-growth actions in Nanaimo, Burnaby and Victoria but no total crowd attendance. Jan. 17 Vancouver old-growth coverage is an announcement, not confirmation of occurrence. These remain leads/gaps, not qualifying candidates.",
+    "source_ids": [
+      "CAN202201-S026",
+      "CAN202201-S043",
+      "CAN202201-S044"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek local after-action evidence for each site and post-event confirmation for Jan. 17; keep sites distinct and do not infer crowd size from arrests/plans."
+  },
+  {
+    "gap_id": "CAN202201-G011",
+    "type": "state_target",
+    "description": "Jan. 24 SFU walkout appears in search-only coverage with demands about online options and consultation, seemingly directed to university administration; the descriptions do not establish a government policy target or attendance threshold.",
+    "source_ids": [
+      "CAN202201-S027",
+      "CAN202201-S045"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check contemporaneous participants’ statements for explicit government action and crowd size; otherwise retain as university-targeted lead."
+  }
+]

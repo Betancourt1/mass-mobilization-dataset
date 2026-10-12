@@ -1,0 +1,41 @@
+Somalia — January 2021 research record
+Unit: somalia_2021-01; provisional country code 520
+Status: researched_open_web_pending_review
+Cutoff: 2026-10-07 inclusive, America/Mexico_City
+
+Scope and method
+This file records open-web discovery for January 1–31, 2021. It is not an official Mass Mobilization dataset update or an exhaustive event census. The official baseline, source-universe compatibility and additional Coding Procedure remain unresolved. LexisNexis-equivalent newspaper coverage was unavailable.
+
+The 23 logged searches cover English and Somali terms (including bannaanbax, mudaaharaad and dibadbax), weekly January ranges, Galkayo/Gaalkacyo, Mogadishu/ Muqdisho, Puntland, regional cities, labor, and targeted missing-recruits searches. Queries were run one at a time and the result title/URL/reference headers were recorded in their returned order. The search service does not provide reliable total-result counts; header counts are not coverage measures. A Jan 15–21 targeted Somali search did not surface a distinct local report for Guriel.
+
+Opened reports were read only to the extent stated in the source cards. Some Somali-language articles were read by machine interpretation without human review. The Danish refugee authority's demonstrations report was opened and only relevant term-matched passages were inspected; its full chronology and sources were not audited. Keydmedia's January 2021 archive listing was visible only in an incomplete, paginated slice. These limits do not establish absence.
+
+Event leads and dispositions
+1. Galkayo, Jan 20 (E001): Anadolu reports hundreds of parents in the streets demanding that Somalia's government find children sent for Eritrea training; Radio Markabley reports many mothers, demands for justice and life/death information, and gunfire by Galkayo security forces. Anadolu reports tire burning, road blocking, running battles, police live rounds and tear gas used in an attempt to disperse, and several arrests. The Jan20 event is pending unit review because local reporting also documents a Jan18 Galkayo action and current sources do not show whether these were separate gatherings or one evolving episode. No exact count, physical end, beating, or protest-related state killing is established.
+
+   A Galmudug security minister's meeting with parents and undertaking to raise the issue federally are recorded as accommodation. The EastAfrican dates the meeting to Wednesday, Jan20; Garowe Online says Thursday. The meeting's precise date and relation to one site-day remain unresolved.
+
+2. Galkayo, Jan 18 (E002): Keydmedia reports a demonstration organized by mothers and youth opposing President Farmaajo and NISA director Fahad Yasin, with mothers demanding justice and information whether their sons were alive or dead. Caasimada also says Galkayo saw the strongest demonstration that day. Neither local report gives attendance; eligibility is pending_threshold. No physical end or event-specific state response is reported.
+
+3. Mogadishu, by Jan 22 (E003): Anadolu reports hundreds of parents camping in city streets for the last two days, demanding that the Somali government disclose the fate of recruits. The onset is stored at month precision because no exact day is provided. The source does not report a physical end or a state response. This city action remains pending unit review alongside Caasimada's Jan18 account.
+
+4. Mogadishu, Jan 18 (E004): Caasimada says mothers gathered and spoke with media, asking the government whether missing sons were alive or dead. The article does not clearly establish that this was a street demonstration or that at least 50 people attended; the lead remains pending_evidence.
+
+5. Guriel, during the week before Jan 28 (E005): A Jan28 Reuters report republished by Garowe Online says protests over missing recruits occurred the prior week in Mogadishu, Guriel and Galkayo. It gives no Guriel-specific turnout, exact date, participant demand or response; this lead remains pending_evidence. The report is one Reuters-origin account and is not independent of the blocked Yahoo republication.
+
+6. Unidentified Somali cities (E006): Anadolu says people in other Somali cities were also protesting but names no places or dates. This source-only lead remains pending_evidence and may overlap with Guriel; it is not treated as a count of additional events.
+
+The shared episode key is tentative only; it authorizes no merge. The Galkayo, Mogadishu, Guriel and unnamed-city records remain granular leads until the coordinator reviews episode boundaries and thresholds. The contested claim that recruits were deployed to or died in Tigray is preserved as an attributed allegation alongside official denials, not treated as verified fact.
+
+Continuity, exclusions and other leads
+No confirmed physical continuation from December into the January missing-recruits actions was found. An opened Garowe report of a Dec15, 2020 Mogadishu protest concerns delayed elections, not missing recruits. The Feb19, 2021 Mogadishu opposition protest also concerns delayed elections, so it is not a continuation of the parents' actions. A Feb9 opposition action and later May 2021 and July 2022 missing-recruits protests are separately dated events; sources do not establish continuous physical action from January. continuations.json therefore remains empty.
+
+Eight exclusions preserve the 2020 rally, Feb9 and Feb19 opposition actions, May 16 parent protest, Dec15 2020 election protest, Jan25 Bulo Hawo armed clash, Aug25 Galkayo anti-Al-Shabaab rally, and July 2022 parent protest. The Jan25 Bulo Hawo report describes fighting between federal and Jubbaland forces, not a public protest.
+
+Source independence and access
+Anadolu's Jan20 and Jan22 reports share an agency and reporter. ClickOrlando and VOA carry the same AP Jan22 story. Garowe's Jan28 Reuters republication and the Yahoo Reuters URL share an origin; the Yahoo URL returned HTTP 429 but a separately discovered Garowe URL was accessible. A UN report PDF returned HTTP 403 and Somaliland.com returned HTTP 406; no retries or bypasses were attempted. Several web opens returned Cache miss; ordinary requests to exact public URLs recovered some pages. For five opened sources (S003, S004, S012, S018 and S030), the retained cards preserve the HTTPS retrieval description and HTTP 200 page response but not the exact exec_command string or standalone fallback-script filename, session IDs, or numeric process exit codes. Those process-level values remain unknown; no request was repeated to recreate them. See G014. The AP search-result URL for an apparent 2021 opposition story redirected to a page with a changed path/title and was not used as event evidence.
+
+A bounded read-only inventory initially failed with PermissionError (process exit 1); the exact-name inventory then completed with exit 0 and found no active matching request or extraction processes and no worker temporary script files. No persistent server or watcher was started. Source cards distinguish opened, search_only and blocked URLs. Search-only sources do not establish an event. No sources or candidates are merged into the official catalogue, and no external contact, publication or delivery was made.
+
+Open gaps
+See gaps.json for baseline status, LexisNexis and language coverage, attendance thresholds, site/date and episode relationships, physical end dates, field-specific state responses, contested claims, source dependencies and access barriers. Human Somali-language review and coordinator episode review remain outstanding.
