@@ -1,0 +1,26 @@
+Brazil, February 2021 — first-pass research report
+
+Scope and method
+This dossier covers Brazil events beginning 1–28 February 2021 under the 2026-10-07 cutoff. The bounded open-web search logged 31 actual queries and 867 returned result headers, including the genuinely empty G1 query CAPTURE-0012. The preserved capture arrays retain the original exposed header order, URLs, refs, and titles; the extractor does not retain snippets, and no event fact was coded from snippets. Queries used English and Portuguese across weekly/date boundaries, nationwide and local searches, unions, education, health, Indigenous issues, truckers, and retrospective source discovery. This is a first pass, not an exhaustive corpus or official dataset update.
+
+Body-reviewed candidates
+Four February-start candidates remain pending review, all with unknown turnout threshold and null event end:
+- E001: refinery workers' 10 February action against the sale/privatization of Rlam, at the Trevo da Resistência access route in Bahia (S015). Reported workforce sizes are not attendance.
+- E002: CUT's report of multi-city actions on 20 February across Brazil's five regions for vaccines, emergency aid, and Bolsonaro's removal (S021). Vehicle counts are not person counts. The separately listed 21 February plans are not coded as executed events.
+- E003: student actions reported on 25 February in multiple cities against education/social-spending cuts and for vaccines and related demands (S026). Threshold and national-versus-local event boundaries remain unresolved.
+- E004: SINDIBEL's reported symbolic action on 24 February in Belo Horizonte seeking vaccination for municipal workers (S034). Attendance and venue are unstated.
+
+The opened S001 report was published on 1 February but dates the actual anti-Bolsonaro caravan to 31 January. It is recorded as out of month and as a possible January-owned continuation with no February physical continuation established. The CUT S031 body concerns student actions on 30 March and is also out of month. Both remain traceable in excluded.json. No other result title or snippet was promoted to a body-supported event.
+
+Source and access accounting
+There are 41 source cards: 6 opened (S001, S015, S021, S026, S031, S034), 3 blocked, and 32 search-only. Exact body denials were stopped and preserved: S018 HTTP 402, S022 HTTP 403, and S038 HTTP 401. Technical cache/DNS failures on other exact URLs are recorded as retrieval failures, not access denials. Search-only leads include the 1 February truck-driver action, 21 February reports, Funai/Indigenous items, and education/health-worker actions. No body-level claims are made for them. Source access attempts have per-URL receipts and manual scope notes in access_receipts/ and sources.jsonl.
+
+Open evidence gaps
+- No candidate has attendance evidence establishing 50 or more people. Multi-city and local counts cannot be inferred from vehicle totals or worker populations.
+- Exact end dates, physical closure, event-specific state response, and protester violence remain unknown for all four candidates.
+- The national-versus-local unit for the 20 February and 25 February multi-site reports needs coordinator review.
+- Event execution and state-directed demands for the trucker, Funai/Indigenous, and additional teacher/health-worker leads remain unverified.
+- The opened January boundary report does not establish any February continuation; no continuity is inferred from similar later demands.
+- The source base is open-web only. LexisNexis/closed archives, the official baseline, and the original MM codebook were not available for this worker pass; coverage and coding remain pending coordinator review.
+
+No official inclusion, final coding, dataset merge, publication, or external contact has occurred. See gaps.json and individual field_evidence for source-linked detail and next review work.

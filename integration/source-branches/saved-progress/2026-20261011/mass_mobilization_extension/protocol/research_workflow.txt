@@ -1,0 +1,81 @@
+Research workflow — 2021 continuation with eight subagents
+
+Run from the repository root. Read worker_instructions.txt and research_cli.txt.
+This protocol preserves the fixed cutoff, separate datasets, original evidence
+and judgments, source uncertainty and pending official/human review.
+
+Researchers own only their assigned units/<country>/<month>/ directory.
+Coordinator owns assignments, baseline/, planning, review, aggregate and delivery.
+Read the available manual; report missing original/baseline rather than writing
+outside your unit or inventing rules. Historical agent names are provenance only.
+All new researchers and auditors use gpt-6-luna with max reasoning. No subdelegation.
+
+Use capture-search promptly for each actual query response, including empty
+results. Retain actual aligned returned_results/returned_urls headers, result
+order, URLs, refs, multiline titles and null clocks. Snippets are discovery only.
+Create initial source cards in your dossier; save-source updates an existing
+exact source_id. Retain all seven response variables and evidence/unknowns.
+
+Before every body attempt, run access-check for the exact raw URL with a
+disposable cache outside the project archive and a unique new JSON receipt in
+your own access_receipts/ directory. Read its decision and relevant metadata:
+- hold: do not request the body; preserve the restriction and access gap.
+- defer: do not rely on the failed scan. Fix parse/unstable/concurrent input or
+  perform a complete manual ledger check; otherwise retain the gap.
+- manual_review (including no match): examine saved URL, explicitly scoped
+  publisher aliases and written-story origins. This is not access permission.
+Unsupported or ambiguous historical prose/origin relationships require complete
+manual review of units/*/*/sources.jsonl and review/source_checks.jsonl or a gap.
+No guessed aliases, topic/byline/photo-credit syndication or access bypass.
+Cache miss/DNS/TLS without observed denial are technical failures, not denials.
+The helper replaces repeated mechanical scanning only; judgment remains manual.
+Save the receipt first, inspect it, attempt only ordinary permitted public
+retrieval, then record actual request/read outcome and project-relative receipt
+path in the source card. New denial evidence requires a fresh check. Never rely
+on an older receipt after inputs change. Receipts are evidence, caches disposable.
+
+Persist progressively and finish with validate-unit and summarize-unit.
+Resolve structural errors and count mismatches; factual doubts stay unknown
+with follow-up. A passing validator is not factual, human or official approval.
+One compact FINAL handoff contains:
+- unit, actual agent ID and dossier path;
+- required coverage and language/region/sector/date/access limitations;
+- unresolved eligibility, ownership, continuity and evidence decisions;
+- actual validation exit/result and source-scope summary;
+- SHA256 of search_log.jsonl,sources.jsonl,events.json,excluded.json,
+  continuations.json,gaps.json,report.txt,status.json;
+- readiness for coordinator review, plus receipt paths/manifest when present.
+Reference detailed evidence in its original files; avoid pasting whole ledgers.
+Coordinator reads relevant records and appends separate review decisions.
+
+This thread researches only January–December2021; later-year work belongs to
+other threads. The full inherited registry is retained. Normally sixteen units
+constitute a research batch, using at most eight concurrent researchers under
+the actual nine-total-slot runtime. Keep one distinct actual agent per country-month. After a validated
+handoff and a free slot, assign the next unit in the batch; repairs take priority.
+Coordinator alone records actual IDs with assign_unit.py. No hard time/query
+quota replaces required coverage. Resumed batch54 extends to queue172-183: February2021 Armenia,Austria,
+Azerbaijan,Bahrain,Bangladesh,Belarus,Belgium,Benin,Bhutan,Bolivia,Bosnia,
+Botswana. Four handoffs are already reviewed; three partials resume with
+assignment history and five units are newly assigned. Scope and completion
+gates are in sessions/2021_acceptance.txt.
+
+Stop all research writes before freeze. Review, validate, consolidate with
+existing consolidate.py, report with write_status_report.py, and build a genuinely
+dated snapshot with build_reviewed_delivery.py. Retain old releases. Obtain
+independent precommit actual FINAL APPROVE for complete diff/history/evidence
+and exact mutations, commit locally, then use a fresh distinct read-only auditor
+to verify parent/approved tree/archive hashes/clean state. Reopen semantic review
+if content differs, checks fail or an unresolved issue appears. Any edit after
+approval requires a new audit. Begin next batch only after postapproval.
+
+Retain detailed session history in place; migration is deferred. Read relevant
+current fields. Refresh actual updated_at, prepared_release, observed liveness,
+checkpoint and NEXT_ACTION before freeze; distinguish prepared from committed.
+Record real benchmark assignment/validated handoff/repair/freeze/audit/commit/
+post times, repair rounds, calls/failures/compactions where observable and explicit
+idle/interruption intervals. Unknown metrics stay unknown. Compare elapsed time
+separately from summed parallel time and retain coverage/gap/audit measures.
+Batches are checkpoints, not terminal pilots. Continue the 2021 queue while
+tools permit. Do not assign later-year units in this thread. At a real limit save partial state and exact next work.
+No promise of future execution without an actual live process.

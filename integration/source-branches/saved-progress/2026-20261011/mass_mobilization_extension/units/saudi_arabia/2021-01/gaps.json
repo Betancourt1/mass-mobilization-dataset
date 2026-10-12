@@ -1,0 +1,80 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "source_access",
+    "description": "An Arabic search result described an unemployed Saudi workers’ strike in Riyadh, but the article date and event details could not be checked because the exact URL returned HTTP 403. It is not coded as a January 2021 event.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-01_E001"
+    ],
+    "required_followup": "Do not retry or bypass the denial. Reassess only if an ordinary, independently discovered accessible source establishes the date and event details."
+  },
+  {
+    "gap_id": "G002",
+    "type": "dates",
+    "description": "The blocked headline does not provide the physical event date or publication date, so January ownership and cross-month episode continuity are unresolved.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-01_E001"
+    ],
+    "required_followup": "Do not assign a date. Reassess only from an accessible dated account; preserve null dates until then."
+  },
+  {
+    "gap_id": "G003",
+    "type": "participants",
+    "description": "The blocked headline gives no turnout; the public-assembly threshold of 50 is unestablished.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-01_E001"
+    ],
+    "required_followup": "Seek a readable contemporary account with an attendance estimate or direct evidence that at least 50 people gathered."
+  },
+  {
+    "gap_id": "G004",
+    "type": "state_target",
+    "description": "The search-result title does not identify the strike grievance or whether it addressed the Saudi government rather than an employer or another target.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [
+      "saudi_arabia_2021-01_E001"
+    ],
+    "required_followup": "Code a demand and state target only from readable event evidence; otherwise retain unknown eligibility."
+  },
+  {
+    "gap_id": "G005",
+    "type": "baseline",
+    "description": "The repository baseline still lacks verified current official event-file bytes, current universe/schema confirmation and the additional Coding Procedure. Eligibility and official mapping remain gated.",
+    "source_ids": [],
+    "affected_candidates": [
+      "saudi_arabia_2021-01_E001"
+    ],
+    "required_followup": "Coordinator to continue the documented official-baseline and procedure access work. Do not assign official IDs or treat this as official coding."
+  },
+  {
+    "gap_id": "G006",
+    "type": "coverage",
+    "description": "The unit was searched through open web queries and selected readable reports; local press archives, databases and social platforms were not systematically searched. Search results do not establish no event or exhaustive coverage.",
+    "source_ids": [],
+    "affected_candidates": [
+      "saudi_arabia_2021-01_E001"
+    ],
+    "required_followup": "Independent review should check any available Saudi local/regional archive or additional contemporary material, subject to ordinary access and language coverage."
+  },
+  {
+    "gap_id": "G007",
+    "type": "language",
+    "description": "Arabic and English web searches were performed, but the indexed results and readable Arabic sources do not represent systematic coverage across Saudi regional press, local dialects or inaccessible sources.",
+    "source_ids": [],
+    "affected_candidates": [
+      "saudi_arabia_2021-01_E001"
+    ],
+    "required_followup": "A reviewer with relevant Arabic/local-source expertise should assess whether another regional press or archive search is needed."
+  }
+]

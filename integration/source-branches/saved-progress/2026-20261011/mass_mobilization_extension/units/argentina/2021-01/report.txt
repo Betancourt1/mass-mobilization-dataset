@@ -1,0 +1,33 @@
+Argentina — January 2021 research dossier
+Unit: argentina_2021-01; provisional MM country code 160.
+Experimental extension only; no official MM IDs, baseline integration, third-party contact or publication.
+
+Outcome
+33 queries; 98 source records; 23 January candidate records; 4 screening exclusions; 3 outside-month boundary records; 21 gap records.
+Eligibility: 1 proposed_include, 6 pending_threshold, 1 pending_state_target, 15 pending_evidence. Coding awaits independent review.
+Source access: {"blocked": 23,"search_only": 62,"opened": 13}.
+All nine required files exist including coordinator-owned assignment.json, which is preserved.
+
+Methods and evidence
+Searches used Spanish and English general protest/march/strike terms, weekly windows, healthcare/teachers/farming/transport/food sectors and provincial/local probes. Areas probed included Formosa, Chubut, Salta/Jujuy/Tucumán, Córdoba/Rosario, Mendoza, Neuquén/Río Negro and Chaco/Misiones. Contemporary reporting and a Mendoza legislative record were opened; Human Rights Watch retrospective material supplied a December boundary. Some candidate URLs could not be opened. All queries are retained, including unproductive and date-filter failures. Relevant returned URLs were saved as discovered; blocked and search-only records remain explicit.
+The historical May2015 manual was read for inclusion, dates, locations, attendance, seven demand categories and seven responses. Open-web search does not reproduce original LexisNexis selection. Coverage is partial; no completeness or absence-of-events claim is made.
+First23 query timestamps and source access timestamps were recorded as checkpoints rather than exact instants. Those exact-time fields are null with checkpoint/provenance notes. Later individual query clock samples are labeled. Source publication dates are null when not established.
+
+Principal candidates
+E014 is the only proposed inclusion: the January 28 national food/work mobilization, supported by mass public-gathering descriptions in opened Infobae and El Día reporting. Numeric attendance remains null. Buenos Aires dispersed that afternoon; wider national endpoint is unknown. Córdoba/Mar del Plata leads remain linked, with no automatic city split or summed attendance.
+E003 hospital assembly, E006 farm camps, E007 Bariloche hospitality blockade, E011 TUDA roadblocks, E017 Barrio Cano security march and E019 La Favorita water roadblock have opened occurrence evidence but unverified attendance.
+Other January records preserve discovery/announcement evidence, including fishers, Chubut anti-mining actions, farm pre-strike assemblies, Milagro Sala release demands, Potenciar Trabajo, Formosa, Jujuy food assistance, SITAS, Posadas, justice/security/water leads and a pollution-protest announcement.
+E020 electricity protest has legislative occurrence evidence but the protesters' precise state target remains unresolved. Later regulatory attention does not establish the original protest demand.
+
+Coding and episode limits
+Unknown responses remain unknown. Evidence-linked yes values are E006 accommodation (government export-policy agreement), E011 crowd dispersal (January 21 removal of a specific blockade), and E012 arrests (legislative report of councilors arrested during school protest). None establishes a successful outcome, a nationwide endpoint or other response fields. Tire burning alone does not establish violence against the state; unrelated road-accident injuries do not code state violence.
+Contracts, eligible workers, affected families, vehicles, robberies and strike adherence are not attendance. Future-tense announcements do not establish executed public assemblies.
+TUDA start accounts conflict across January 15/16/17, so month precision is retained. Farm pre-strike and strike-period assemblies may overlap. Chubut monthly gatherings share a campaign but are not presumed continuous. An older Posadas or Bariloche labor dispute does not assign every new assembly to its campaign's first month.
+Three outside-month records retain December 29 abortion-vigil evidence and search-only February 18 food/work and February 5 Mendoza health leads. The latter are neighboring-month records, not claims of continued January assemblies. Announced February 4 Chubut action is a gap lead only.
+
+Source independence, baseline and follow-up
+Infobae S058/S087 are one article at URL variants; La Nación/Yahoo S074/S076 share reporting. El Día's individual story origin is uncredited; no automatic independent-confirmation count is assigned.
+Official latest dataset bytes, schema and universe remain unverified. Coordinator's DOI registration retrieval indicates v5.1/CC0 and coverage through March 31, 2020; this does not verify the actual latest file. Baseline gate stays pending_official_baseline. Fixed event cutoff remains October 7, 2026 in America/Mexico_City despite actual research-clock date.
+Priority follow-up is accessible local reporting for pending-evidence records, attendance for all except E014, transport/farm/national-local unit boundaries, actual closure and state responses. Gaps.json records specific actions; source leads beyond full candidates remain there for retrieval.
+No temporary development resources were started. No commit or shared-file change was performed by this worker. Coordinator independent audit and authorized batch consolidation/commit remain separate steps.
+This first pass took sustained research; the existing portable protocol/CLI remains appropriate. A new skill/CLI would not resolve archive access, attendance or event-unit judgments and was not added.

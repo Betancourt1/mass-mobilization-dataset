@@ -1,0 +1,122 @@
+[
+  {
+    "gap_id": "GUY202102-G001",
+    "type": "eligibility_threshold",
+    "description": "E001 is supported by a partial article body stating over 30 guards, which establishes at least 31 but no upper bound; the required 50-person threshold remains unverified.",
+    "source_ids": [
+      "GUY202102-S001",
+      "GUY202102-S002",
+      "GUY202102-S003",
+      "GUY202102-S004",
+      "GUY202102-S005"
+    ],
+    "affected_candidates": [
+      "GUY202102-E001"
+    ],
+    "required_followup": "Seek a permitted body-level headcount or independent contemporaneous account. Keep eligibility pending unless at least 50 are established."
+  },
+  {
+    "gap_id": "GUY202102-G002",
+    "type": "own_state_target_and_response",
+    "description": "E001's opened portion addresses the private security employer. A separate search-only source says the guards sought authority help, but a public-state demand is not yet verified; all seven state response variables remain unknown.",
+    "source_ids": [
+      "GUY202102-S002",
+      "GUY202102-S004"
+    ],
+    "affected_candidates": [
+      "GUY202102-E001"
+    ],
+    "required_followup": "Review the exact S004 source through its own fresh receipt, full origin review and immediate input-hash gate; establish the addressee before coding any state variable."
+  },
+  {
+    "gap_id": "GUY202102-G003",
+    "type": "turnout_and_public_format",
+    "description": "E002 and E003 are reported as public protest gatherings, but the available search-only reporting gives no crowd count. The 50-person threshold is unresolved for both.",
+    "source_ids": [
+      "GUY202102-S006",
+      "GUY202102-S007"
+    ],
+    "affected_candidates": [
+      "GUY202102-E002",
+      "GUY202102-E003"
+    ],
+    "required_followup": "Review exact article bodies where permitted and seek independent contemporaneous reports for attendance and public-gathering details."
+  },
+  {
+    "gap_id": "GUY202102-G004",
+    "type": "body_access_and_response_coding",
+    "description": "S006 (Fileen funeral procession/Sparendaam station) remains search-only. Two fresh access attempts were stopped before any body request because full-corpus hashes changed at the immediate gate. The Jan 29 police killing is antecedent context and is not coded as a protest response.",
+    "source_ids": [
+      "GUY202102-S006"
+    ],
+    "affected_candidates": [
+      "GUY202102-E002"
+    ],
+    "required_followup": "If resumed, make a new exact-URL receipt, review the complete current publisher/origin corpus, and immediately compare every input path/hash. Stop if unstable or access is restricted; do not reuse an older receipt."
+  },
+  {
+    "gap_id": "GUY202102-G005",
+    "type": "end_date_and_episode_boundary",
+    "description": "Physical end dates for E002 and E003 are unknown. E003 is part of a broader justice campaign, but no evidence shows a continuous physical gathering from January or from the 2020 Cuffy Square event.",
+    "source_ids": [
+      "GUY202102-S007",
+      "GUY202102-S008",
+      "GUY202102-S009"
+    ],
+    "affected_candidates": [
+      "GUY202102-E002",
+      "GUY202102-E003"
+    ],
+    "required_followup": "Use body-level date and end evidence; preserve separate gatherings unless uninterrupted physical continuity is documented."
+  },
+  {
+    "gap_id": "GUY202102-G006",
+    "type": "undated_discovery_leads",
+    "description": "The Guyana Times results about protesters greeting a president (S014) and Essequibo residents leaving a GPL meeting (S015) lack publication/event dates in captured metadata. A historical bauxite union picket lead (S011) also has no event date. None is assigned to February 2021.",
+    "source_ids": [
+      "GUY202102-S011",
+      "GUY202102-S014",
+      "GUY202102-S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Resolve dates and event details from permitted body-level sources before adding any monthly candidate."
+  },
+  {
+    "gap_id": "GUY202102-G007",
+    "type": "cross_month_boundary",
+    "description": "The March 15 nurses/CEO result says nurses were maintaining a call, but the search-only March report does not establish when the action began. No February occurrence is assigned.",
+    "source_ids": [
+      "GUY202102-S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check contemporaneous reports for a dated February start and distinguish an ongoing campaign from a physical gathering."
+  },
+  {
+    "gap_id": "GUY202102-G008",
+    "type": "source_independence",
+    "description": "Four additional search-only reports and one video result concern the same Black Bush guards gathering as the partially read S002 article. Shared reporting origin or independent reporting has not been established; outlet count is not treated as corroboration count.",
+    "source_ids": [
+      "GUY202102-S001",
+      "GUY202102-S002",
+      "GUY202102-S003",
+      "GUY202102-S004",
+      "GUY202102-S005"
+    ],
+    "affected_candidates": [
+      "GUY202102-E001"
+    ],
+    "required_followup": "Review bylines and explicit written-origin disclosures in permitted article bodies; preserve unknown provenance where no direct link is documented."
+  },
+  {
+    "gap_id": "GUY202102-G009",
+    "type": "coverage",
+    "description": "This first pass used 20 captured English-language open-web search actions (584 returned headers) spanning general, outlet, week, labour, education, health, agriculture, mining, police, and region-specific terms. It did not replicate LexisNexis or verify the official month baseline; non-indexed and non-English reporting may be missed.",
+    "source_ids": [],
+    "affected_candidates": [
+      "GUY202102-E001",
+      "GUY202102-E002",
+      "GUY202102-E003"
+    ],
+    "required_followup": "Compare with the official baseline and manual, then extend search with comparable newspaper archive access before making absence or exhaustive-coverage claims."
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "gap_id": "AT26-03-G001",
+    "type": "source_access",
+    "description": "Source-body reading is held pending the coordinator's fresh exact-target registry/inventory and publisher/origin review. Search-only URLs are discovery leads; no body requests were made.",
+    "source_ids": [
+      "AT2603-S001",
+      "AT2603-S002",
+      "AT2603-S003",
+      "AT2603-S004",
+      "AT2603-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use only coordinator-cleared exact URLs after a fresh stable full-ledger inventory and per-target manual review; preserve any hold/denial without retry or substitution."
+  },
+  {
+    "gap_id": "AT26-03-G002",
+    "type": "search_method",
+    "description": "2 actual web search actions were captured, containing 8 exact query strings. Native header arrays, result totals, native action IDs and per-query native clocks were unavailable; those values remain unknown. Exact rendered output and batched invocations are preserved privately; visible URL strings are separately labeled as extracted, not native headers.",
+    "source_ids": [
+      "AT2603-S001",
+      "AT2603-S002",
+      "AT2603-S003",
+      "AT2603-S004",
+      "AT2603-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain private capture and unknown-metadata disclosures. Do not repeat searches to fabricate missing native metadata."
+  },
+  {
+    "gap_id": "AT26-03-G003",
+    "type": "coverage",
+    "description": "This is a bounded open-web discovery pass, not exhaustive coverage and not a LexisNexis-equivalent search. Rendered results included older/off-month material; search output alone cannot establish event occurrence or absence. Local/regional archives and all relevant provincial outlets were not systematically reviewed.",
+    "source_ids": [
+      "AT2603-S001",
+      "AT2603-S002",
+      "AT2603-S003",
+      "AT2603-S004",
+      "AT2603-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "After target access review, verify promising exact URLs and conduct further date-bounded searches in relevant domestic/provincial outlets and archives; record inaccessible sources and remaining search gaps."
+  },
+  {
+    "gap_id": "AT26-03-G004",
+    "type": "language",
+    "description": "Queries were in English and German, including Austrian German month terminology. No systematic searches were run in recognized minority, immigrant-community or other local languages.",
+    "source_ids": [
+      "AT2603-S001",
+      "AT2603-S002",
+      "AT2603-S003",
+      "AT2603-S004",
+      "AT2603-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Identify relevant language communities/outlets and search them if evidence shows a material gap."
+  },
+  {
+    "gap_id": "AT26-03-G005",
+    "type": "participants",
+    "description": "No event attendance, public-gathering execution, location, dates or threshold of 50 have been verified from a source body. Search-only URLs do not establish a gathering.",
+    "source_ids": [
+      "AT2603-S001",
+      "AT2603-S002",
+      "AT2603-S003",
+      "AT2603-S004",
+      "AT2603-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not code a candidate until opened evidence documents an actually held public gathering, event date/place, and simultaneous participants of at least 50 or a defensible qualitative equivalent."
+  },
+  {
+    "gap_id": "AT26-03-G006",
+    "type": "state_target",
+    "description": "No source body verifies whether a prospective action demanded action from Austria or its policy; foreign-state demands, diaspora activity and private-employer-only labor disputes remain unclassified.",
+    "source_ids": [
+      "AT2603-S001",
+      "AT2603-S002",
+      "AT2603-S003",
+      "AT2603-S004",
+      "AT2603-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "For each verified gathering, document the demanded actor/policy and apply codebook exclusions before proposing eligibility."
+  },
+  {
+    "gap_id": "AT26-03-G007",
+    "type": "episode_unit",
+    "description": "No cross-month continuity, campaign/day relationship, start/end dates or event ownership has been verified. A date-looking URL string is not evidence of occurrence or event date.",
+    "source_ids": [
+      "AT2603-S001",
+      "AT2603-S002",
+      "AT2603-S003",
+      "AT2603-S004",
+      "AT2603-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "After source verification, inspect adjacent months and distinguish continuing campaigns from new gatherings; leave ownership unresolved until supported by dated evidence."
+  },
+  {
+    "gap_id": "AT26-03-G008",
+    "type": "baseline",
+    "description": "Official Mass Mobilization files/version, current schema, universe, cutoff and data reuse terms remain unverified; the Austria label/CCODE is provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator baseline gate remains pending; do not assign official IDs or represent this dossier as an official update."
+  }
+]

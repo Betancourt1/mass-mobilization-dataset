@@ -1,0 +1,219 @@
+[
+  {
+    "gap_id": "burkina_faso_2021-01_G001",
+    "type": "baseline",
+    "description": "May2015 manual is historical. Latest official baseline, universe, schema, coding procedure and reuse conditions unverified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator verify official baseline before contribution."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G002",
+    "type": "participants",
+    "description": "Merchant gathering occurred but no source establishes at least50 attendance.",
+    "source_ids": [
+      "S258",
+      "S027"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E001"
+    ],
+    "required_followup": "Recover attributable simultaneous crowd estimate or clear qualitative threshold evidence."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G003",
+    "type": "episode_unit participants",
+    "description": "SDS strike/picket attendance, public accessibility and relationship among January12,19 and planned22 actions unresolved. Repeated campaign since November does not imply one continuous gathering.",
+    "source_ids": [
+      "S029",
+      "S214"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E002",
+      "burkina_faso_2021-01_E003",
+      "burkina_faso_2021-01_E006"
+    ],
+    "required_followup": "Determine public assembly, threshold and episode continuity; do not automatically split days or merge campaign."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G004",
+    "type": "state_target episode_unit participants",
+    "description": "January21 F-SYNTER assembly has government-policy demands but public protest character and at least50 attendance unknown.",
+    "source_ids": [
+      "S116"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E004"
+    ],
+    "required_followup": "Recover public access, assembly purpose and crowd evidence."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G005",
+    "type": "source_access participants episode_unit",
+    "description": "Dori January16 Yirgou justice meeting remains search-only after Cache miss and ordinary HTTPS timeout; attendance and public protest character unverified.",
+    "source_ids": [
+      "S153"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E005"
+    ],
+    "required_followup": "Obtain accessible article or independent contemporary report before inclusion."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G006",
+    "type": "dates episode_unit",
+    "description": "January22 SDS march is announced in January20 report; execution unverified and may overlap January19 strike episode.",
+    "source_ids": [
+      "S214"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E006"
+    ],
+    "required_followup": "Find contemporaneous occurrence report and relation to E002 before counting."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G007",
+    "type": "dates",
+    "description": "Physical ending unknown for all January candidates. Strike schedules, last publication and month boundary do not prove ending.",
+    "source_ids": [
+      "S029",
+      "S214",
+      "S258",
+      "S116"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E001",
+      "burkina_faso_2021-01_E002",
+      "burkina_faso_2021-01_E003",
+      "burkina_faso_2021-01_E004",
+      "burkina_faso_2021-01_E005",
+      "burkina_faso_2021-01_E006"
+    ],
+    "required_followup": "Recover dated physical end evidence; retain null otherwise."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G008",
+    "type": "state_response violence_casualties",
+    "description": "All response fields unknown except merchant police-caused relocation attributed to participants. No event-specific reception, negotiation, arrest, beating, shooting or death verified. Yirgou casualties concern2019; Souri torture concernsDecember2020.",
+    "source_ids": [
+      "S258",
+      "S153",
+      "S151",
+      "S029"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E001",
+      "burkina_faso_2021-01_E002",
+      "burkina_faso_2021-01_E003",
+      "burkina_faso_2021-01_E004",
+      "burkina_faso_2021-01_E005",
+      "burkina_faso_2021-01_E006"
+    ],
+    "required_followup": "Corroborate specific actions and temporal/causal attribution; do not use silence as ignore/no."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G009",
+    "type": "source_access",
+    "description": "Burkina24 merchant article and Le Pays municipal follow-up returned actual403. DirectInfo DNS failure; AIB pro-Russian Bobo lead404. Denials respected.",
+    "source_ids": [
+      "S027",
+      "S215",
+      "S039",
+      "S003"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E001"
+    ],
+    "required_followup": "Seek ordinary accessible reporting; do not bypass access denial."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G010",
+    "type": "contested_evidence dates",
+    "description": "DirectInfo search excerpt has January7,2021 publication but January7,2020 body date. Opened Infobf unambiguously reports January7,2021; unread DirectInfo chronology not silently corrected.",
+    "source_ids": [
+      "S039",
+      "S258"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E001"
+    ],
+    "required_followup": "Verify original DirectInfo text or preserve conflict."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G011",
+    "type": "episode_unit dates",
+    "description": "Municipal strike beganNovember5,2020; Souri action December2; SDS repeated campaign sinceNovember. January public continuation and precise closure unverified.",
+    "source_ids": [
+      "S001",
+      "S151",
+      "S215",
+      "S029"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E002",
+      "burkina_faso_2021-01_E003",
+      "burkina_faso_2021-01_E006"
+    ],
+    "required_followup": "Review prior owner units and continuity; avoid duplicate January events."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G012",
+    "type": "language coverage",
+    "description": "French/English search plus RTB local-language archive discovery. January4 Mooré/Dioula/Fulfulde broadcast index found, but audio not transcribed/translated.",
+    "source_ids": [
+      "S207"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Fluent local-language review of relevant RTB and regional radio archives."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G013",
+    "type": "coverage",
+    "description": "Search covered Ouagadougou, Bobo-Dioulasso, Kaya, Dédougou, Fada N’Gourma, Koudougou, Ouahigouya, Dori, Banfora and Tenkodogo plus labor, education, health, security/accountability, services, farming/land and mining. Rural and provincial archival coverage remains uneven; no protest-zero or exhaustive claim.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Expand accessible provincial archives and systematic archival database coverage."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G014",
+    "type": "search_method",
+    "description": "Open-web search is not LexisNexis. Date/site operators returned other years and countries. Every query retained, including unhelpful results. Batch URL union recorded because per-query mapping/timestamps unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review document dates and query logs; use systematic archives if available."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G015",
+    "type": "source_independence",
+    "description": "AIB is single agency origin; press statements and repeated search cards are not independent confirmations. Merchant editorial independence and NGO allegation corroboration unverified.",
+    "source_ids": [
+      "S001",
+      "S029",
+      "S027",
+      "S039",
+      "S258",
+      "S151"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E001",
+      "burkina_faso_2021-01_E002",
+      "burkina_faso_2021-01_E003"
+    ],
+    "required_followup": "Identify originals and syndication; count independent reporting rather than URLs."
+  },
+  {
+    "gap_id": "burkina_faso_2021-01_G016",
+    "type": "source_access dates",
+    "description": "Sidwaya F-SYNTER tag index lists January31 and February1 reports; linked article bodies inaccessible via web tool. February ministry reply discovery does not establish January assembly accommodation.",
+    "source_ids": [
+      "S245",
+      "S259",
+      "S260",
+      "S247"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2021-01_E004"
+    ],
+    "required_followup": "Read full contemporary reports and establish actual event-specific interaction before coding."
+  }
+]

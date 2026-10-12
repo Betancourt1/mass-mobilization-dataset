@@ -1,0 +1,18 @@
+{
+  "unit_id": "argentina_2026-01",
+  "country": "Argentina",
+  "month": "2026-01",
+  "agent_task": "/root/argentina_q1_2026",
+  "status": "root_reviewed_open_gaps",
+  "started_at": "2026-10-10T23:50:01+00:00",
+  "finished_at": "2026-10-11T00:25:50+00:00",
+  "n_queries": 4,
+  "n_sources": 4,
+  "n_candidates": 0,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 6,
+  "coverage_assessment": "Bounded open-web discovery: 4 batched searches (16 exact query strings), 4 URL leads; one Q001 return was lost before inspection and remains unrepaired. One TN landing-page read was limited (video unread), one MDZ attempt was tool-only Internal Error without HTTP/body, and two leads were not requested. No event candidate is proposed; no exhaustive/event-free claim. 6 unresolved gaps; official baseline pending.",
+  "baseline_gate": "pending_official_baseline",
+  "coordinator_review_scope": "Bounded firstpass independently reviewed; baseline pending and gaps preserved. Original worker status remains in private snapshot."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "access",
+    "description": "S002 was opened under one exact-target release. Other retained URLs are search_only; no further body reads are authorized by this unit handoff. Search snippets alone remain unverified.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Complete only after separate exact-target scope approval for any materially relevant additional source; retain S002 threshold uncertainty."
+  },
+  {
+    "gap_id": "G002",
+    "type": "coverage",
+    "description": "Bounded Jan 1–7, 8–14, 15–21 and 22–31 windows and targeted Arabic/local-regional, sector, APS and HRW/Amnesty searches are saved. Coverage remains limited by no systematic Tamazight search, non-exhaustive local/regional archives, and search-engine retrieval bias; no event-free finding is supported.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may identify specific additional language, archive, locality or source targets; do not infer absence."
+  },
+  {
+    "gap_id": "G003",
+    "type": "method",
+    "description": "Q001–Q002 remain pre-amendment manual transcriptions with header completeness unverified; Q004 was performed but its rendered output was not preserved. Q005–Q017 and Q018–Q023 rendered captures preserve tool text while native result headers/counts/action IDs are unavailable. Q018 clock observations were lost before persistence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain original limitations. Do not reconstruct native result arrays, counts, action IDs, or Q004 output."
+  },
+  {
+    "gap_id": "G004",
+    "type": "threshold",
+    "description": "S002 body states transporters struck Jan 1 and returned Jan 11; it reports a draft-road-code demand and negotiations but no public gathering or attendance. A strike alone does not establish a qualifying public assembly or >=50 participants; related S003 remains search_only.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Independent coordinator review/corroboration needed before any event coding; verify public gathering, participant threshold, unit ownership, state response and independent sources."
+  }
+]

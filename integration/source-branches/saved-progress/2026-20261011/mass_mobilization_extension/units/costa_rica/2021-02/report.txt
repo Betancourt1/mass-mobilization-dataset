@@ -1,0 +1,32 @@
+Costa Rica — February 2021 first-pass research
+
+Scope and method
+I searched in Spanish and English across February's weekly windows and then searched named events, local regions, major sectors, and January/February/March boundaries. Fifteen actual search invocations were preserved in order, with 376 returned result headers. Relevant domains included local and national Costa Rican reporting, institutional releases, the IIS-UCR protest chronology/database and one English-language report. Results were treated as discovery leads, not as verified facts unless the source body was read.
+
+The opened IIS-UCR February chronology covers the month and summarizes 57 collective actions in its own broad scheme. It identifies reported public gatherings on several dates, but also counts statements, letters, complaints, and other non-gathering actions. It names La Nación, La Extra/Diario Extra, CRHoy and SocialismoHoy as its press sources without linking each dated entry to the corresponding original report. Its counts therefore do not establish the MM threshold or independent corroboration. The original MM codebook/manual was not present in the worker materials; coding follows the supplied research protocol and remains provisional.
+
+Candidate inventory
+Fourteen February-start candidates are retained: ten pending_threshold, three pending_evidence and one proposed_include, all agent-coded pending human review. The candidates are:
+- Feb 4: BUSSCO/SITECO union concentration against the Public Employment Bill and IMF negotiations (E001).
+- Feb 8: parents lock the Liceo de Turrúcares to demand removal of its director (E002).
+- Feb 9: penitentiary police protest about mobile-signal blocking at CAI Vilma Curling (E003).
+- Feb 12: mothers approach the Ombudsman over PANI/family-court custody decisions (E004; public protest form and size unclear).
+- Feb 13: Rescate Nacional activity at San Ramón Central Park, described as a campaign launch (E005; whether it was a public protest is unresolved).
+- Feb 15: union representatives at BCCR seek answers about debt-interest payments (E006); rice producers outside the Assembly seek debt condonation (E007).
+- Feb 16: Liverpool, Limón blockade against new taxes (E008). An opened La Nación body reports about 20 people, three arrests, warnings, and police intervention. The approximate reported number is below 50; total attendance is not independently known.
+- Feb 18: public-university community demonstration against the Public Employment Bill (E009). An opened TEC participant report says more than 80 TEC representatives in its photo caption and around 80 TEC people in its narrative, plus others. This supports at least 50, with a source-internal wording difference. The same report says legislators admitted rectors and promised motions to protect autonomy; later implementation is unknown.
+- Feb 18: Vázquez de Coronado neighbors approach the municipality about community-hall repairs/accountability (E014; action form and size unclear).
+- Feb 22: municipal workers at the Assembly (E010), tourism workers at ICT (E011), and CONAPE employees opposing a credit-portfolio sale (E012); attendance remains unknown.
+- Feb 24: a second public-university concentration at the Assembly (E013), treated as a separate dated action from Feb 18.
+
+Exclusions and episode boundaries
+Five contextual actions are retained in excluded.json: the Feb28 cyclist caravan (the source describes a request aimed at motorists, not an evidenced government target); a teachers' press conference; a parents' formal school complaint; a growers' planned coordination meeting; and a Feb26 announcement for protests beginning March 1. No continuous public action beginning before February was established, so continuations.json is empty. January's public-employment picket was announced/cancelled, and the January farmers' occupation was reported withdrawn Jan26; neither proves a continuous February event. Related recurring campaigns may still connect separate dates.
+
+Access and provenance
+There are 34 source cards: 3 opened bodies, 1 exact-URL blocked body, and 30 search-only leads. Before every body request, the worker saved a new exact-URL receipt and a companion full-ledger publisher/origin review. The February penitentiary-police Diario Extra URL returned HTTP 403; that exact story and same-story copies were not retried. Existing January Diario Extra 403s concern other exact URLs and were not generalized to the whole publisher. La Nación and TEC reader Cache misses were followed by one ordinary exact-URL HTTPS request each, after a fresh receipt and manual review; each returned HTTP 200 and its bytes were parsed locally. No full article body was retained. Receipt and review hashes are listed in access_receipts/manifest.json.
+
+Unresolved limits
+Attendance remains the main eligibility gap for most events. Other open issues include the Feb22/Feb23 municipal date conflict, whether Feb9 and Feb16 penitentiary-police actions are separate or linked, whether the Feb13 San Ramón activity qualifies as protest, whether Feb18 and Feb24 university actions are discrete events in one campaign, unclear public/action form for the Feb12 and Feb18 local delegations, physical end dates, and most state-response and violence variables. The Feb18 TEC count differs between the caption and body. The UCR chronology is a secondary synthesis with no entry-to-original-source map; institutional and press accounts may share source material, and publisher/origin independence is unresolved unless explicitly recorded. Open-web search does not reproduce LexisNexis or local/regional archive coverage; no absence in search results is treated as proof that no protest occurred.
+
+Status
+Research status: researched_open_web_pending_review. Baseline gate: pending_official_baseline. No candidate has official MM approval, no data were merged into the integrated catalogue, and no publication or external contact occurred.

@@ -1,0 +1,13 @@
+Austria 2026-02 — bounded public discovery handoff
+
+Status: researched_open_web_pending_review. This is not exhaustive and is not official approval. An empty events/exclusions/continuations array means no event is coded from verified evidence in this dossier; it does not mean none occurred.
+
+Search coverage: 3 actual web search actions, containing 12 query strings, IDs AT26FEBQ001, AT26FEBQ002, AT26FEBQ003. Date windows: February 1–7, 8–14, and 15–28; plus month-wide framing. Language: English and German/Austrian German. Topics and places: workers and unions, teachers/students/universities, pension policy/cost of living, healthcare/nursing, farming; Vienna, Graz, Linz, Salzburg, Innsbruck and provinces were named across queries.
+
+Capture: search_log.jsonl retains each batch as one action record; private sidecars preserve its exact search_query array and complete available returned string. Raw rendered files are under private_reading/working_dossier/capture-history/ and excluded from portable output. Native header arrays, result counts, native action IDs and native execution clocks were unavailable and remain unknown. Exact visible URLs are recorded as extracted discovered_urls with provenance, never as native result headers. Capture move crosswalks prove byte-preserving relocation. Actor wall observations are separately recorded in status.json; wall elapsed values are measured between available before/after clock calls.
+
+Source access: 5 search-only URL leads; 0 source bodies read; 0 opened cards. All titles, publishers, publication dates, event relevance and body contents remain unverified. This unit made no body requests. The four exact URLs read in the sibling January unit are outside that unit and are not transferred into this month; this month’s five cards remain search-only leads.
+
+Coding: no events, exclusions or continuations coded. No source body supports execution, public-gathering status, attendance >=50, date/place, Austrian state/policy demand, response, causal outcomes, or episode ownership. Do not interpret empty arrays as evidence of absence.
+
+Open gaps: see gaps.json. English/German query terms do not establish full local-language or provincial archive coverage. Open-web search is not equivalent to the original hemeroteca method. Cross-month/campaign relationships have not been checked. The official baseline remains pending.

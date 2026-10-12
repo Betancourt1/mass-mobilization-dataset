@@ -1,0 +1,39 @@
+{
+  "unit_id": "austria_2026-03",
+  "country": "Austria",
+  "month": "2026-03",
+  "agent_task": "/root/austria_q1_2026",
+  "status": "root_reviewed_open_gaps",
+  "started_at": "2026-10-10 23:54:52 UTC",
+  "finished_at": "2026-10-10T23:58:38.581113+00:00",
+  "n_queries": 2,
+  "n_sources": 5,
+  "n_candidates": 0,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 8,
+  "source_access_counts": {
+    "opened": 0,
+    "search_only": 5,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "actual_call_walltime_observations": [
+    {
+      "query_id": "AT26MARQ001",
+      "start_utc": "2026-10-10 23:54:52 UTC",
+      "end_utc": "2026-10-10 23:54:59 UTC",
+      "elapsed_seconds": 7.0
+    },
+    {
+      "query_id": "AT26MARQ002",
+      "start_utc": "2026-10-10 23:56:29 UTC",
+      "end_utc": "2026-10-10 23:56:34 UTC",
+      "elapsed_seconds": 5.0
+    }
+  ],
+  "batched_query_string_count": 8,
+  "coverage_assessment": "Bounded public open-web discovery only, not exhaustive. 2 actual captured search actions contain 8 exact query strings; date windows: March 1–7, 8–15, and 16–31; plus month-wide framing. English/German queries named Austria cities/provinces and sectors: teachers/students/universities, unions/workers, pension policy/cost of living, healthcare/nursing, farming, climate, and province/city terms. Native headers/result counts/action IDs are unavailable (unknown), not zero; extracted visible URL strings are preserved as unverified leads. No body reads were made; no event facts, attendance, domestic target, exclusion, or event absence are established. See gaps.json; search-only records await exact-target access review.",
+  "baseline_gate": "pending_official_baseline",
+  "coordinator_review_scope": "Bounded firstpass independently reviewed; baseline pending and gaps preserved. Original worker status remains in private snapshot."
+}

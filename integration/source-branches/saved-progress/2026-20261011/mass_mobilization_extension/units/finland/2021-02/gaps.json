@@ -1,0 +1,72 @@
+[
+  {
+    "gap_id": "FIN202102-G001",
+    "type": "coverage",
+    "description": "Open-web search is not systematic Finnish newspaper or regional-archive coverage. Eleven captured batched calls with 44 query expressions returned 349 ordered result headers across English, Finnish and Swedish terms, including weekly/date, geographic and sector searches. No absence or exhaustive coverage claim follows.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use systematic Finnish and regional archives or other documented coverage before making a national completeness claim; check strike and non-Helsinki leads."
+  },
+  {
+    "gap_id": "FIN202102-G002",
+    "type": "participant_threshold",
+    "description": "The leading February 14 Citizens’ Square action has no verified attendance count in the consulted saved source summary. Twelve notices and legal group limits are not crowd counts. Search-result estimates remain discovery only; no automatic 100-person value was accepted.",
+    "source_ids": [
+      "FIN202102-S001",
+      "FIN202102-S004"
+    ],
+    "affected_candidates": [
+      "FIN202102-E001"
+    ],
+    "required_followup": "Read an accessible contemporaneous source or original police report that estimates actual participants and clarifies whether the estimate is per gathering or aggregate."
+  },
+  {
+    "gap_id": "FIN202102-G003",
+    "type": "episode_unit_and_organizer",
+    "description": "The saved Yle summary refers to twelve separately notified gatherings at one site, but does not resolve the number of physical actions, their boundaries, organizer identities or whether aggregation is appropriate.",
+    "source_ids": [
+      "FIN202102-S001",
+      "FIN202102-S004"
+    ],
+    "affected_candidates": [
+      "FIN202102-E001"
+    ],
+    "required_followup": "Review the contemporary Finnish-language body and event notices, distinguishing planned notifications from enacted gatherings without inferring attendance."
+  },
+  {
+    "gap_id": "FIN202102-G004",
+    "type": "endpoint_and_response",
+    "description": "No physical end time or event-specific state-response coding is established in this dossier. A cache-miss response supplied no body and is a technical failure, not a denial.",
+    "source_ids": [
+      "FIN202102-S001"
+    ],
+    "affected_candidates": [
+      "FIN202102-E001"
+    ],
+    "required_followup": "Use an accessible event-specific body to determine physical closure and separately code arrests, dispersal, accommodation and other response dimensions; retain unknowns otherwise."
+  },
+  {
+    "gap_id": "FIN202102-G005",
+    "type": "language_and_region",
+    "description": "Searches covered Finnish, Swedish and English and named Helsinki, Tampere, Turku, Oulu and other regions, but no native-language independent review or systematic local-press search was completed. Search hits outside Helsinki require date/body review.",
+    "source_ids": [
+      "FIN202102-S003",
+      "FIN202102-S004",
+      "FIN202102-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review credible Finnish/Swedish local reporting and the institutional catalog record when access review permits; do not infer event dates from search snippets or publication dates."
+  },
+  {
+    "gap_id": "FIN202102-G006",
+    "type": "date_and_event_identity",
+    "description": "A Daily Finland report published in March, an institutional catalog record, and a contemporaneous Finnish Yle search lead surfaced as relevant leads. This dossier did not inspect their bodies; event dates and relation to February remain unverified.",
+    "source_ids": [
+      "FIN202102-S003",
+      "FIN202102-S004",
+      "FIN202102-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read each exact source under its own fresh access gate if the lead remains relevant; retain unknown dates until the body establishes them."
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "gap_id": "JPN202101-G001",
+    "type": "baseline",
+    "description": "Official original dataset/version/schema/license and full original Coding Procedure remain unresolved; recovered codebook is guidance only.",
+    "source_ids": [],
+    "affected_candidates": [
+      "JPN202101-E001",
+      "JPN202101-E002",
+      "JPN202101-E003",
+      "JPN202101-E004",
+      "JPN202101-E005",
+      "JPN202101-E006",
+      "JPN202101-E007",
+      "JPN202101-E008",
+      "JPN202101-E009",
+      "JPN202101-E010",
+      "JPN202101-E011"
+    ],
+    "required_followup": "Coordinator to verify official baseline and procedure before any contribution or approval."
+  },
+  {
+    "gap_id": "JPN202101-G002",
+    "type": "search_method",
+    "description": "46 actual Japanese/English open-web queries, including broad, weekly, regional/sector and episode checks, do not reproduce systematic LexisNexis/source archives. Some date filters returned other months/years.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search systematic contemporary archives under same cutoff; verify document dates rather than search-filter dates."
+  },
+  {
+    "gap_id": "JPN202101-G003",
+    "type": "coverage",
+    "description": "Accessible read evidence is concentrated in Tokyo, Narita and Okinawa; regional queries also covered Osaka/Kyoto/Fukuoka/Sapporo/Sendai but do not establish absence elsewhere.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue local/regional archives beyond indexed and movement sources; no zero-event inference."
+  },
+  {
+    "gap_id": "JPN202101-G004",
+    "type": "language",
+    "description": "Japanese pages were interpreted into concise English paraphrases; English searches underrepresent local names and decentralized action. No independent Japanese-language double coding.",
+    "source_ids": [],
+    "affected_candidates": [
+      "JPN202101-E001",
+      "JPN202101-E002",
+      "JPN202101-E003",
+      "JPN202101-E004",
+      "JPN202101-E005",
+      "JPN202101-E006",
+      "JPN202101-E007",
+      "JPN202101-E008",
+      "JPN202101-E009",
+      "JPN202101-E010",
+      "JPN202101-E011"
+    ],
+    "required_followup": "Have a Japanese reader verify uncertain organizers and demand translations."
+  },
+  {
+    "gap_id": "JPN202101-G005",
+    "type": "source_access",
+    "description": "JapanTimes and ArabNews returnedHTTP402; JRCL page had certificate-hostname mismatch on ordinary HTTPS. No denial was bypassed.",
+    "source_ids": [
+      "JPN202101-S002",
+      "JPN202101-S003",
+      "JPN202101-S035"
+    ],
+    "affected_candidates": [
+      "JPN202101-E002"
+    ],
+    "required_followup": "Use authorized archives or independent public contemporaneous sources; retain denied metadata as null."
+  },
+  {
+    "gap_id": "JPN202101-G006",
+    "type": "source_access",
+    "description": "LaborNet same-URL ordinary HTTPS reads timed out after web cache failures; several relevant search-only leads remain unopened.",
+    "source_ids": [
+      "JPN202101-S012",
+      "JPN202101-S013",
+      "JPN202101-S014",
+      "JPN202101-S029",
+      "JPN202101-S041",
+      "JPN202101-S045",
+      "JPN202101-S058"
+    ],
+    "affected_candidates": [
+      "JPN202101-E006"
+    ],
+    "required_followup": "Recover ordinary public pages only if available; distinguish announcements from reports. Review FukuokaJan6/OsakaJan24/JRCLHenoko leads without inventing crowd or date."
+  },
+  {
+    "gap_id": "JPN202101-G007",
+    "type": "participants_state_target_episode_unit",
+    "description": "Jan15 about300 belongs to later Keidanren employer phase; ministry state-demand frontage crowd unspecified.555 employees is workforce, not crowd.",
+    "source_ids": [
+      "JPN202101-S028"
+    ],
+    "affected_candidates": [
+      "JPN202101-E003"
+    ],
+    "required_followup": "Resolve coordinated mixed-target unit and crowd scope; never assign300 automatically to ministry."
+  },
+  {
+    "gap_id": "JPN202101-G008",
+    "type": "participants",
+    "description": "Jan23 Tokyo nuclear-ban gathering has online Hiroshima/Nagasaki links and no onsite count; locations are not additional events.",
+    "source_ids": [
+      "JPN202101-S018"
+    ],
+    "affected_candidates": [
+      "JPN202101-E004"
+    ],
+    "required_followup": "Recover physical Tokyo count/venue/public-access evidence."
+  },
+  {
+    "gap_id": "JPN202101-G009",
+    "type": "participants",
+    "description": "Jan28Hodanren about100 includes online from30locations;170000 is signatures. Actual petition handover establishes accommodation, not>=50physical attendees.",
+    "source_ids": [
+      "JPN202101-S033"
+    ],
+    "affected_candidates": [
+      "JPN202101-E005"
+    ],
+    "required_followup": "Recover onsite headcount and public gathering status; preserve actual authority reception."
+  },
+  {
+    "gap_id": "JPN202101-G010",
+    "type": "episode_unit_participants",
+    "description": "Jan10Yanagawa flag-opening42 explicitly ended before different-organizer Toho rally/march. Later march physically verified but count unknown; Shito130 not transferable.",
+    "source_ids": [
+      "JPN202101-S054",
+      "JPN202101-S057"
+    ],
+    "affected_candidates": [
+      "JPN202101-E009"
+    ],
+    "required_followup": "Resolve unit boundary and later crowd; flag-opening alone below50. Do not duplicate same participants by phase."
+  },
+  {
+    "gap_id": "JPN202101-G011",
+    "type": "episode_unit",
+    "description": "Jan22Shinjuku52afternoon and Ikebukuro67noon have distinct local venues/organizers but common national nuclear-ban entry campaign; no national-site sum or automatic split.",
+    "source_ids": [
+      "JPN202101-S055",
+      "JPN202101-S056"
+    ],
+    "affected_candidates": [
+      "JPN202101-E010",
+      "JPN202101-E011"
+    ],
+    "required_followup": "Review national organization/coordination and original event-unit procedure; retain pending_unit."
+  },
+  {
+    "gap_id": "JPN202101-G012",
+    "type": "participants_episode_unit_contested_evidence",
+    "description": "Henoko Jan4 report nearly100 conflicts in scope with organizer newsletter cumulative88across three daily phases. Jan7tent exchange about100; Dec28activity and annual resumption do not establish new January onset.",
+    "source_ids": [
+      "JPN202101-S006",
+      "JPN202101-S034"
+    ],
+    "affected_candidates": [
+      "JPN202101-C001"
+    ],
+    "required_followup": "Determine simultaneous public crowd, earlier onset and unit owner before inclusion; preserve lower/scope-qualified evidence."
+  },
+  {
+    "gap_id": "JPN202101-G013",
+    "type": "dates_continuity",
+    "description": "E001monthly campaign has related Dec19 action; Jan29blog announces Feb1/2future actions but announcements do not establish continuation or closure.",
+    "source_ids": [
+      "JPN202101-S005",
+      "JPN202101-S007",
+      "JPN202101-S039",
+      "JPN202101-S040"
+    ],
+    "affected_candidates": [
+      "JPN202101-E001",
+      "JPN202101-E002"
+    ],
+    "required_followup": "Read Dec/Feb executed-action accounts to resolve event boundaries without campaign/day duplication."
+  },
+  {
+    "gap_id": "JPN202101-G014",
+    "type": "dates",
+    "description": "Physical closure remains null for all11candidate sequences. Schedules, publication dates, flag-closing cheers and individual participant departure do not prove whole assembly ending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "JPN202101-E001",
+      "JPN202101-E002",
+      "JPN202101-E003",
+      "JPN202101-E004",
+      "JPN202101-E005",
+      "JPN202101-E006",
+      "JPN202101-E007",
+      "JPN202101-E008",
+      "JPN202101-E009",
+      "JPN202101-E010",
+      "JPN202101-E011"
+    ],
+    "required_followup": "Find explicit physical closure. E009flag-opening closure is verified only for that phase, not later march."
+  },
+  {
+    "gap_id": "JPN202101-G015",
+    "type": "state_response_violence",
+    "description": "All seven responses remain unknown exceptE005accommodation=yes from actual signature reception. Police guarding/route restriction and broad refusal of treaty policy do not establish attempted dispersal/assembly avoidance; no protester violence absence inferred.",
+    "source_ids": [
+      "JPN202101-S033",
+      "JPN202101-S053",
+      "JPN202101-S054",
+      "JPN202101-S055",
+      "JPN202101-S057"
+    ],
+    "affected_candidates": [
+      "JPN202101-E001",
+      "JPN202101-E002",
+      "JPN202101-E003",
+      "JPN202101-E004",
+      "JPN202101-E005",
+      "JPN202101-E006",
+      "JPN202101-E007",
+      "JPN202101-E008",
+      "JPN202101-E009",
+      "JPN202101-E010",
+      "JPN202101-E011"
+    ],
+    "required_followup": "Seek assembly-specific authority actions. Keep demand, motive/background deaths/arrests, protester violence and state response distinct."
+  },
+  {
+    "gap_id": "JPN202101-G016",
+    "type": "source_independence",
+    "description": "Akahata reports share partisan publisher; Zenroren union/newsletters and movement organizers share activist ecosystem. ZNN/S047 share publication family; no independent crowd count in participantS057.",
+    "source_ids": [
+      "JPN202101-S006",
+      "JPN202101-S007",
+      "JPN202101-S018",
+      "JPN202101-S033",
+      "JPN202101-S047",
+      "JPN202101-S053",
+      "JPN202101-S055",
+      "JPN202101-S057"
+    ],
+    "affected_candidates": [
+      "JPN202101-E001",
+      "JPN202101-E008",
+      "JPN202101-E010",
+      "JPN202101-E011"
+    ],
+    "required_followup": "Find editorially independent contemporary reports and attribute estimates; do not count republications as corroboration."
+  },
+  {
+    "gap_id": "JPN202101-G017",
+    "type": "dates_source_access",
+    "description": "OsakaJan1 and NishitokyoJan11 are calendar announcements only; Nishitokyo weekday label conflicts with2021calendar. Onset remains null.",
+    "source_ids": [
+      "JPN202101-S001",
+      "JPN202101-S012",
+      "JPN202101-S043"
+    ],
+    "affected_candidates": [
+      "JPN202101-E006",
+      "JPN202101-E007"
+    ],
+    "required_followup": "Verify execution/date/year, organizer, state target, public crowd and physical closure."
+  },
+  {
+    "gap_id": "JPN202101-G018",
+    "type": "coverage_state_target",
+    "description": "Tokyo pro-Trump international-target lead is blocked; no domestic-state demand verified. DHC/private labor and municipal administrative protests must not be treated as qualifying assemblies from the word protest.",
+    "source_ids": [
+      "JPN202101-S002",
+      "JPN202101-S025",
+      "JPN202101-S026",
+      "JPN202101-S048"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Recover only if relevant domestic-state demand/public gathering is evidenced; otherwise retain discovery or exclusion."
+  },
+  {
+    "gap_id": "JPN202101-G019",
+    "type": "source_access_search_method",
+    "description": "Search results were returned in pooled query batches. Each query row preserves the whole relevant URL pool with attribution limitation; no individual query-to-URL match or result total is invented. Read source bodies are described separately.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use sourceURL/actual read scope when assessing evidence, not pooled discovery attribution."
+  },
+  {
+    "gap_id": "JPN202101-G020",
+    "type": "coverage_dates",
+    "description": "Calendar includes online/cancelled actions. TokyoFlowerDemoJan11online does not exclude all other national local sites; cancelled HenokoJan1beach cannot borrow200from past years. Kusatsu article Jan13describes December gatheringabout10.",
+    "source_ids": [
+      "JPN202101-S001",
+      "JPN202101-S006",
+      "JPN202101-S022"
+    ],
+    "affected_candidates": [
+      "JPN202101-X004",
+      "JPN202101-X005",
+      "JPN202101-X006"
+    ],
+    "required_followup": "Check separate physical sites individually and preserve actual occurrence dates."
+  }
+]

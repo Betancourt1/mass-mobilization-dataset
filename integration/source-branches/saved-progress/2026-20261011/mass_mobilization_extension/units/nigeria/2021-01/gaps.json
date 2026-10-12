@@ -1,0 +1,300 @@
+[
+  {
+    "gap_id": "NGA202101-G001",
+    "type": "coverage_method",
+    "description": "Búsqueda abierta no reproduce LexisNexis ni la consulta sistemática de las cuatro publicaciones originales. Resultados combinados Q001–Q004 impiden asignación precisa por consulta.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Segundo pase con hemeroteca licenciada y búsqueda por fuente/fecha; no usar n_queries como cobertura estadística."
+  },
+  {
+    "gap_id": "NGA202101-G002",
+    "type": "temporal_search",
+    "description": "Operadores before/after en Q025–Q028 no filtraron de forma fiable: retornaron noticias fuera de semanas indicadas.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Verificar fechas de cada documento; repetir por semana dentro de archivos de periódicos, no asumir filtros de buscador."
+  },
+  {
+    "gap_id": "NGA202101-G003",
+    "type": "participants_threshold",
+    "description": "No se recuperó evidencia clara de >=50 para LASU, exmilitares, Kafanchan, Owode-Egba, Water Corporation y acciones IMN; scores/several no fijan 50.",
+    "source_ids": [
+      "NGA202101-S036",
+      "NGA202101-S018",
+      "NGA202101-S066",
+      "NGA202101-S027",
+      "NGA202101-S039",
+      "NGA202101-S054",
+      "NGA202101-S174"
+    ],
+    "affected_candidates": [
+      "NGA202101-E002",
+      "NGA202101-E003",
+      "NGA202101-E004",
+      "NGA202101-E005",
+      "NGA202101-E006",
+      "NGA202101-E007",
+      "NGA202101-E010",
+      "NGA202101-E011",
+      "NGA202101-E013",
+      "NGA202101-E014"
+    ],
+    "required_followup": "Recuperar crónicas, videos o fotos con metodología de conteo verificable; conservar desconocido."
+  },
+  {
+    "gap_id": "NGA202101-G004",
+    "type": "public_gathering",
+    "description": "Huelga NIMC está documentada pero no reunión pública >=50; cientos en oficinas son usuarios que buscaban identificación.",
+    "source_ids": [
+      "NGA202101-S102",
+      "NGA202101-S103",
+      "NGA202101-S110"
+    ],
+    "affected_candidates": [
+      "NGA202101-E009"
+    ],
+    "required_followup": "Localizar marcha o concentración reivindicativa, distinguir trabajadores de usuarios; excluir si sólo suspensión laboral."
+  },
+  {
+    "gap_id": "NGA202101-G005",
+    "type": "state_target",
+    "description": "Kafanchan apunta a distribuidora; intervención policial no convierte objetivo privado en demanda estatal.",
+    "source_ids": [
+      "NGA202101-S026",
+      "NGA202101-S066",
+      "NGA202101-S069"
+    ],
+    "affected_candidates": [
+      "NGA202101-E004"
+    ],
+    "required_followup": "Comprobar demanda al regulador/gobierno o política tarifaria explícita relevante para criterio MM."
+  },
+  {
+    "gap_id": "NGA202101-G006",
+    "type": "state_target_electoral",
+    "description": "Itsekiri y Nsukwa reclaman distribución de candidaturas/puestos al gobernador; puede ser disputa partidaria/intercomunal excluida.",
+    "source_ids": [
+      "NGA202101-S180",
+      "NGA202101-S195"
+    ],
+    "affected_candidates": [
+      "NGA202101-E013",
+      "NGA202101-E014"
+    ],
+    "required_followup": "Revisor independiente decide demanda estatal elegible frente a negociación partidaria/étnica; verificar umbral."
+  },
+  {
+    "gap_id": "NGA202101-G007",
+    "type": "event_end",
+    "description": "La mayor parte de acciones carece de cierre físico confirmado. No se fijó fin a enero 31. NASU 14 es programa/evaluación, NIMC 8 fin de huelga.",
+    "source_ids": [
+      "NGA202101-S145",
+      "NGA202101-S104"
+    ],
+    "affected_candidates": [
+      "NGA202101-E001",
+      "NGA202101-E002",
+      "NGA202101-E003",
+      "NGA202101-E004",
+      "NGA202101-E005",
+      "NGA202101-E006",
+      "NGA202101-E007",
+      "NGA202101-E008",
+      "NGA202101-E009",
+      "NGA202101-E010",
+      "NGA202101-E011",
+      "NGA202101-E012",
+      "NGA202101-E013",
+      "NGA202101-E014"
+    ],
+    "required_followup": "Buscar seguimiento posterior; registrar evidencia de cierre, última actividad o límite derecho separadamente."
+  },
+  {
+    "gap_id": "NGA202101-G008",
+    "type": "protester_violence",
+    "description": "En Kafanchan destrucción de bienes está narrada pero titularidad/objetivo privado inciertos para violencia contra el Estado.",
+    "source_ids": [
+      "NGA202101-S026",
+      "NGA202101-S066",
+      "NGA202101-S069"
+    ],
+    "affected_candidates": [
+      "NGA202101-E004"
+    ],
+    "required_followup": "Precisar bienes/actores y criterio antes de mapear a binario MM."
+  },
+  {
+    "gap_id": "NGA202101-G009",
+    "type": "state_response_missing",
+    "description": "Respuestas y violencia no informadas se mantienen unknown. No asumir no muertes, no arrestos o ignore porque una crónica calla.",
+    "source_ids": [],
+    "affected_candidates": [
+      "NGA202101-E001",
+      "NGA202101-E002",
+      "NGA202101-E003",
+      "NGA202101-E004",
+      "NGA202101-E005",
+      "NGA202101-E006",
+      "NGA202101-E007",
+      "NGA202101-E008",
+      "NGA202101-E009",
+      "NGA202101-E010",
+      "NGA202101-E011",
+      "NGA202101-E012",
+      "NGA202101-E013",
+      "NGA202101-E014"
+    ],
+    "required_followup": "Buscar contraparte oficial y reportajes de respuesta; no convertir datos faltantes en cero."
+  },
+  {
+    "gap_id": "NGA202101-G010",
+    "type": "casualty_attribution",
+    "description": "Kafanchan: noticia del 23 refiere muerto policial y tres muertos alegados por empresa; seguimiento NAN del 4 febrero refiere un herido.",
+    "source_ids": [
+      "NGA202101-S026",
+      "NGA202101-S066",
+      "NGA202101-S069"
+    ],
+    "affected_candidates": [
+      "NGA202101-E004"
+    ],
+    "required_followup": "Identificar víctimas, fecha y causa; obtener documentación médica/policial y evitar agregar todas las muertes como killings estatales."
+  },
+  {
+    "gap_id": "NGA202101-G011",
+    "type": "casualty_verification",
+    "description": "IMN 26: muerte atribuida a policía por organizadores/testigos, sin verificación médica independiente recuperada.",
+    "source_ids": [
+      "NGA202101-S054",
+      "NGA202101-S057"
+    ],
+    "affected_candidates": [
+      "NGA202101-E007"
+    ],
+    "required_followup": "Comprobar identidad, deceso y autoría. killings=yes es provisional atribuido, no resultado aprobado."
+  },
+  {
+    "gap_id": "NGA202101-G012",
+    "type": "arrest_date_conflict",
+    "description": "IMN: seis arrestos del 25 en comunicado del 26; ocho por incidente del 26 en comunicado del 27. Punch mezcla días.",
+    "source_ids": [
+      "NGA202101-S055",
+      "NGA202101-S056",
+      "NGA202101-S058"
+    ],
+    "affected_candidates": [
+      "NGA202101-E007"
+    ],
+    "required_followup": "Mantener claims por fecha; no sumar 14 sin evidencia de personas distintas."
+  },
+  {
+    "gap_id": "NGA202101-G013",
+    "type": "continuity_units",
+    "description": "FreeZakzaky: actos en NHRC el 13, oración/marcha Wuse II el 15 y marchas 25–26 pueden ser eventos distintos o secuencia dentro de campaña anterior.",
+    "source_ids": [
+      "NGA202101-S174",
+      "NGA202101-S176",
+      "NGA202101-S057"
+    ],
+    "affected_candidates": [
+      "NGA202101-E007",
+      "NGA202101-E010",
+      "NGA202101-E011"
+    ],
+    "required_followup": "Revisar diarios previos y posteriores y organización/continuidad física; candidatos pending_unit no suman a serie oficial."
+  },
+  {
+    "gap_id": "NGA202101-G014",
+    "type": "monthly_ownership",
+    "description": "Plateau iniciado diciembre y Crossover 31 diciembre no pasan a enero por noticias publicadas después. Acción corte 8 enero es nueva con motivo/lugar distinto.",
+    "source_ids": [
+      "NGA202101-S149",
+      "NGA202101-S151",
+      "NGA202101-S083",
+      "NGA202101-S084",
+      "NGA202101-S135"
+    ],
+    "affected_candidates": [
+      "NGA202101-C001",
+      "NGA202101-C002",
+      "NGA202101-E008"
+    ],
+    "required_followup": "Unidad diciembre revisa primeros registros; febrero revisa sucesión sin repetir episodios."
+  },
+  {
+    "gap_id": "NGA202101-G015",
+    "type": "inaccessible_sources",
+    "description": "Se documentan fallos 403, timeout, 502, DisabledError y 404, incluido archivo Daily Trust en Biblioteca Nacional; no se eludieron controles.",
+    "source_ids": [
+      "NGA202101-S025",
+      "NGA202101-S031",
+      "NGA202101-S048",
+      "NGA202101-S049",
+      "NGA202101-S064",
+      "NGA202101-S071",
+      "NGA202101-S074",
+      "NGA202101-S144",
+      "NGA202101-S172",
+      "NGA202101-S179",
+      "NGA202101-S181",
+      "NGA202101-S183",
+      "NGA202101-S194"
+    ],
+    "affected_candidates": [
+      "NGA202101-E002",
+      "NGA202101-E004",
+      "NGA202101-E013"
+    ],
+    "required_followup": "Buscar acceso legítimo o publicación alternativa; revisar metadatos antes de reintento. Disponibilidad web no garantiza hemeroteca."
+  },
+  {
+    "gap_id": "NGA202101-G016",
+    "type": "languages",
+    "description": "Predominio de prensa inglesa y un reportaje Hausa abierto. Consulta BBC Pidgin devolvió cero resultados; Yoruba/Igbo no se revisaron sistemáticamente.",
+    "source_ids": [
+      "NGA202101-S053"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Segundo pase en Hausa, Pidgin, Yoruba/Igbo y medios estatales/regionales, con revisión de traducción."
+  },
+  {
+    "gap_id": "NGA202101-G017",
+    "type": "syndication",
+    "description": "S069 deriva NAN; S010 combina corresponsales/NAN; S149/S150 son mismo corresponsal/episodio; comunicados FCT compartidos no son fuentes independientes.",
+    "source_ids": [
+      "NGA202101-S069",
+      "NGA202101-S010",
+      "NGA202101-S149",
+      "NGA202101-S150",
+      "NGA202101-S055",
+      "NGA202101-S058"
+    ],
+    "affected_candidates": [
+      "NGA202101-C001",
+      "NGA202101-E001",
+      "NGA202101-E007"
+    ],
+    "required_followup": "Identificar fuente original de cada versión y no contar republicaciones como corroboración."
+  },
+  {
+    "gap_id": "NGA202101-G018",
+    "type": "unverified_discovery",
+    "description": "197 referencias inventariadas: parte son sólo pistas. Recuento de referencias no equivale a artículos comprobados o eventos. Anuncio Edo sin ocurrencia comprobada.",
+    "source_ids": [
+      "NGA202101-S124"
+    ],
+    "affected_candidates": [
+      "NGA202101-X006"
+    ],
+    "required_followup": "Abrir pistas pertinentes, depurar fechas, buscar ejecución del anuncio; mantener log de búsqueda y descartar falsos positivos."
+  },
+  {
+    "gap_id": "NGA202101-G019",
+    "type": "baseline_gate",
+    "description": "Versión oficial base y cobertura geográfica oficial aún no confirmadas por coordinador. ccode 475 procede del plan provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Verificar baseline y licencia oficial antes de incorporar datos o proponer PR; baseline_gate=pending_official_baseline."
+  }
+]

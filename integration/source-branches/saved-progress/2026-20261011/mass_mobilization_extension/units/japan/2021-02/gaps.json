@@ -1,0 +1,182 @@
+[
+  {
+    "gap_id": "JPN202102-G001",
+    "type": "coverage",
+    "description": "The current open-web sweep comprises 23 captured original search actions and 647 ordered result headers. It is a first pass, not an exhaustive archive review; national, local, labor, language, and issue-specific coverage remain uneven.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue regionally varied Japanese and other relevant language searches and organizer/event-calendar review; document each original action and preserve ordered headers."
+  },
+  {
+    "gap_id": "JPN202102-G002",
+    "type": "participants",
+    "description": "Search results report 46-city Flower Demo actions on February 11, but do not establish a simultaneous national crowd or city-level attendance.",
+    "source_ids": [
+      "JPN202102-S013",
+      "JPN202102-S014",
+      "JPN202102-S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check the organizer schedule and contemporaneous city reports individually; do not aggregate separate locations. Retain candidate-level uncertainty until a city-specific 50-person threshold is supported."
+  },
+  {
+    "gap_id": "JPN202102-G003",
+    "type": "language",
+    "description": "Initial discovery used Japanese and English queries; Burmese-language sources and Myanmar community media have not yet been searched.",
+    "source_ids": [],
+    "affected_candidates": [
+      "JPN202102-E001",
+      "JPN202102-E002",
+      "JPN202102-E003",
+      "JPN202102-E004",
+      "JPN202102-E005"
+    ],
+    "required_followup": "Search Burmese-language community outlets and event organizers where the search tools support them; capture all original headers and preserve untranslated claims as unverified."
+  },
+  {
+    "gap_id": "JPN202102-G004",
+    "type": "state_target",
+    "description": "For Japan-based Myanmar diaspora actions, captured results vary in whether they identify a demand directed at Japan. The February 3 Tokyo rally explicitly sought tougher Japanese action, and the February 7 Osaka result says demonstrators wanted Tokyo to intervene; for the February 28 Osaka lead the result only says it opposed Myanmar’s coup. Other gatherings still need event-level target verification.",
+    "source_ids": [
+      "JPN202102-S001",
+      "JPN202102-S002",
+      "JPN202102-S005",
+      "JPN202102-S006",
+      "JPN202102-S007",
+      "JPN202102-S008",
+      "JPN202102-S025"
+    ],
+    "affected_candidates": [
+      "JPN202102-E001",
+      "JPN202102-E002",
+      "JPN202102-E003",
+      "JPN202102-E004",
+      "JPN202102-E005",
+      "JPN202102-E015"
+    ],
+    "required_followup": "Read the exact event reports and distinguish demands made to Japan from opposition addressed only to Myanmar’s military government; do not infer the target from venue or organizer location."
+  },
+  {
+    "gap_id": "JPN202102-G005",
+    "type": "participants",
+    "description": "Attendance for the February 7 and 11 JOC demonstrations, February 12 Olympics-cancellation protest, February 17 immigration-law action, February 21 anti-racist action, and the announced anti-Kigensetsu lead remains unresolved. S023, published February 16, 2022, reports 96 at a February 11 assembly but does not state its year; contextual references are consistent with 2022, so it does not establish a February 2021 crowd or a separate march count.",
+    "source_ids": [
+      "JPN202102-S009",
+      "JPN202102-S011",
+      "JPN202102-S012",
+      "JPN202102-S016",
+      "JPN202102-S017",
+      "JPN202102-S023"
+    ],
+    "affected_candidates": [
+      "JPN202102-E006",
+      "JPN202102-E007",
+      "JPN202102-E008",
+      "JPN202102-E009",
+      "JPN202102-E010",
+      "JPN202102-E011",
+      "JPN202102-E013",
+      "JPN202102-E014",
+      "JPN202102-E015"
+    ],
+    "required_followup": "Verify whether the announced 2021 anti-Kigensetsu action occurred and seek year-specific event reporting and attendance; do not assign S023’s 96 attendees to it. Locate event-day reporting or after-action records for the remaining leads and keep assembly and procession counts separate."
+  },
+  {
+    "gap_id": "JPN202102-G006",
+    "type": "source_access",
+    "description": "One current-unit body read is documented for S023, a 2022-published, year-unstated February 11 report that cannot verify E008 in February 2021. Three physical body requests were made across two URLs: JRCL twice (the first wrapper returned no text blocks; the second returned the readable article) and Note once (Cache miss). The earlier Note access gate did not result in a page request. The two unsuccessful requests are technical retrieval gaps, not denials; other source cards remain search_only.",
+    "source_ids": [
+      "JPN202102-S019",
+      "JPN202102-S023"
+    ],
+    "affected_candidates": [
+      "JPN202102-E001",
+      "JPN202102-E002",
+      "JPN202102-E003",
+      "JPN202102-E004",
+      "JPN202102-E005",
+      "JPN202102-E006",
+      "JPN202102-E007",
+      "JPN202102-E008",
+      "JPN202102-E009",
+      "JPN202102-E010",
+      "JPN202102-E011",
+      "JPN202102-E012",
+      "JPN202102-E013",
+      "JPN202102-E014",
+      "JPN202102-E015"
+    ],
+    "required_followup": "For each future body request, obtain a fresh exact-URL receipt and complete saved publisher/origin manual review, then immediately recheck the full input paths and hashes. Review the receipt and read-scope record before relying on any body."
+  },
+  {
+    "gap_id": "JPN202102-G007",
+    "type": "state_response",
+    "description": "Search results do not describe event-specific arrests, dispersal, state engagement, injuries or violence. All state-response and protester-violence variables remain unknown.",
+    "source_ids": [],
+    "affected_candidates": [
+      "JPN202102-E001",
+      "JPN202102-E002",
+      "JPN202102-E003",
+      "JPN202102-E004",
+      "JPN202102-E005",
+      "JPN202102-E006",
+      "JPN202102-E007",
+      "JPN202102-E008",
+      "JPN202102-E009",
+      "JPN202102-E010",
+      "JPN202102-E011",
+      "JPN202102-E012",
+      "JPN202102-E013",
+      "JPN202102-E014",
+      "JPN202102-E015"
+    ],
+    "required_followup": "Only code a response or violence when opened source evidence attributes it to that specific gathering; otherwise preserve unknown."
+  },
+  {
+    "gap_id": "JPN202102-G008",
+    "type": "dates",
+    "description": "The end dates, duration and post-February continuation of candidate gatherings are not established. Search results mainly identify single-day actions or planned dates.",
+    "source_ids": [],
+    "affected_candidates": [
+      "JPN202102-E001",
+      "JPN202102-E002",
+      "JPN202102-E003",
+      "JPN202102-E004",
+      "JPN202102-E005",
+      "JPN202102-E006",
+      "JPN202102-E007",
+      "JPN202102-E008",
+      "JPN202102-E009",
+      "JPN202102-E010",
+      "JPN202102-E011",
+      "JPN202102-E012",
+      "JPN202102-E013",
+      "JPN202102-E014",
+      "JPN202102-E015"
+    ],
+    "required_followup": "Check later coverage for direct event continuity and preserve end_date null unless a source establishes the physical end."
+  },
+  {
+    "gap_id": "JPN202102-G009",
+    "type": "state_target",
+    "description": "For the February 11 JOC action, February 21 Shinjuku anti-racist action, February 23 Osaka opposition action, February 28 Osaka diaspora lead, and the announced February 11 anti-Kigensetsu lead, captured results do not establish each demand’s exact state target. S023’s 2022-published report describes a year-unstated February 11 event with contextual cues consistent with 2022, so it does not establish a 2021 Japanese-state demand. The immigration action is announced against Japanese ministry policy but execution remains unverified.",
+    "source_ids": [
+      "JPN202102-S019",
+      "JPN202102-S020",
+      "JPN202102-S021",
+      "JPN202102-S022",
+      "JPN202102-S023",
+      "JPN202102-S025"
+    ],
+    "affected_candidates": [
+      "JPN202102-E008",
+      "JPN202102-E010",
+      "JPN202102-E011",
+      "JPN202102-E012",
+      "JPN202102-E013",
+      "JPN202102-E014",
+      "JPN202102-E015"
+    ],
+    "required_followup": "Verify the year and execution of each announced lead and review the exact event report before assigning a demand or state target; do not infer a state-directed demand from topic, venue, or a different year’s report."
+  }
+]

@@ -1,0 +1,23 @@
+Sierra Leone, January 2021 — open-web research report
+
+Scope and method
+
+This unit covers events beginning 1–31 January 2021, with a fixed event cutoff of 7 October 2026 (America/Mexico_City). Twelve searches are recorded. Eleven captured returned-header arrays; the search service did not expose total-result counts. Queries covered the month generally; weekly windows for 1–7, 8–14, 15–21, 22–28 and 29–31 January; Krio-oriented discovery; named districts beyond Freetown; transport, cargo, public-sector and education labor; and December 2020 and February 2021 boundaries. Local and regional archives were unevenly surfaced. The Krio-oriented query did not yield a verified contemporaneous Krio-language article; no fluent local-language review was performed.
+
+Q002 was executed for the first week but its result capture failed when the post-call JavaScript runtime lacked TextEncoder. The exact execution time and returned headers were lost, so both returned lists are null, not empty. This query was not rerun. Its capture failure is preserved in search_log.jsonl and SL202101-G004.
+
+Evidence and coding
+
+No January event candidate is proposed. In the sources reviewed, no public assembly is documented with both an own-state or state-policy demand and evidence of at least 50 attendees. This is a research finding, not proof that no such event occurred. events.json therefore remains an empty array pending further review.
+
+The principal January lead is the ongoing Academic Staff Association (ASA) work stoppage at public universities. It remains a continuation/context record (SL202101-C001), explicitly distinct from an eligible public assembly or verified physical protest. A primary ASA-USL statement dated 20 November 2020 reports a November strike resumption. A second primary statement dated 4 January 2021 says action resumed after a suspension through 31 December, pending a written salary commitment. Contemporary reports place government meetings with lecturer representatives in January, though they disagree whether the meeting occurred on 19 or 20 January. A Government of Sierra Leone agreement says associations agreed to resume classes on 3 February; Njala University’s Registrar says academic activities had commenced across its campuses that day. These sources establish work-stoppage and academic-reopening chronology, not the onset, size or physical end of any public assembly. The continuation record leaves protest dates and ownership unknown. Its accommodation=yes records talks/negotiation, not victory; arrests, beatings, dispersal, ignore, killings and shootings remain unknown.
+
+A student-union threat to demonstrate if universities did not reopen by 3 February is excluded as a reported threat without a reported executed gathering (SL202101-X001). The more than 40,000 students mentioned in one report were affected by the closures, not demonstrators. The official reopening notice does not establish that students did or did not assemble before reopening; follow-up remains in SL202101-G010. Cargo-worker and lecturer strike leads are not treated as public protests absent evidence of a qualifying assembly and turnout. Other preserved exclusions concern wrong-year or wrong-month reports and an older-year FBC student-action lead whose HRCSL report remains search-only.
+
+Sources and limits
+
+The dossier contains 36 relevant source cards: 18 opened, 14 search-only and 4 blocked. Opened primary sources include ASA-USL statements, the government agreement and a university reopening notice. Local press adds context but several Politico and Premier pages returned HTTP 406; one later Politico open returned Cache miss, and a Cocorioko page returned HTTP 429. Those denials were not bypassed or repeated. A Sierra Leone Observatory news digest is treated as an index, not independent corroboration. Search-only items remain pending evidence.
+
+One ordinary public HTTPS request recovered the Jan 4 ASA PDF after the web reader returned Internal Error. The server returned HTTP 200 (application/pdf; 559,514 bytes); pdftotext exited 0. Selected text was read transiently, and the temporary PDF was removed with absence verified. The request wrapper exited 0. No persistent process or temporary resource remains.
+
+Open-web discovery cannot reproduce LexisNexis or support an exhaustive absence claim. District-level coverage is uneven; local-language and archive access remain limited. The official latest dataset bytes/universe and the additional Coding Procedure remain unverified, and the baseline gate is pending. Search snippets, affected-person counts and strike membership are not substituted for attendee counts. No official Mass Mobilization IDs, final eligibility decision, or human double-coding claim is made.

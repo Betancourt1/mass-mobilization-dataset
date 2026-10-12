@@ -1,0 +1,139 @@
+[
+  {
+    "gap_id": "KEN202102-G001",
+    "type": "source_access",
+    "description": "Four event leads remain pending human review. One source body was opened for KEN202102-S090 and reports Mwatate farmers demonstrating against threatened eviction from a private ranch, with a single-source crowd estimate above 300 and a same-report inferred date of 2021-02-20. The state-target question remains unresolved. No article body was retrieved for Moi Girls, Kisumu railways or the digital-taxi lead. Their 15 gated requests ended in provider errors/cache misses or DNS failures; each used its own current receipt, full matching manual review and immediate 240-path hash recheck. These are technical retrieval failures, not observed denials. A separate S067 manual gate was preserved with no request after the parallel phase closed.",
+    "source_ids": [
+      "KEN202102-S044",
+      "KEN202102-S065",
+      "KEN202102-S067",
+      "KEN202102-S090",
+      "KEN202102-S098",
+      "KEN202102-S105",
+      "KEN202102-S050"
+    ],
+    "affected_candidates": [
+      "KEN202102-E001",
+      "KEN202102-E002",
+      "KEN202102-E003",
+      "KEN202102-E004"
+    ],
+    "required_followup": "For future body requests, use a new exact-URL receipt, contemporaneous full matching publisher/origin review and immediate whole-input hash recheck. Seek independent contemporaneous reporting for Mwatate; verify its event date and state-directed demand. Keep all technical failures as non-denial evidence."
+  },
+  {
+    "gap_id": "KEN202102-G002",
+    "type": "participants",
+    "description": "Only E003 has a scoped event-specific crowd estimate: one KNA article reports over 300 Maktau farmers, above the threshold if accurate, but independent corroboration is absent. E001, E002 and E004 still have no verified simultaneous attendance estimate. Affected-resident, enrollment, employee or driver-population totals must not be substituted for a protest crowd.",
+    "source_ids": [
+      "KEN202102-S090"
+    ],
+    "affected_candidates": [
+      "KEN202102-E001",
+      "KEN202102-E002",
+      "KEN202102-E003",
+      "KEN202102-E004"
+    ],
+    "required_followup": "Seek independent event-specific estimates for E003 and direct contemporaneous crowd estimates for E001, E002 and E004; retain null counts for events without evidence."
+  },
+  {
+    "gap_id": "KEN202102-G003",
+    "type": "state_target",
+    "description": "Exact state-directed demand is unresolved for the public-school management lead, Kenya Railways land lead, private-ranch dispute and digital-taxi labor lead.",
+    "source_ids": [
+      "KEN202102-S044",
+      "KEN202102-S098",
+      "KEN202102-S090",
+      "KEN202102-S050"
+    ],
+    "affected_candidates": [
+      "KEN202102-E001",
+      "KEN202102-E002",
+      "KEN202102-E003",
+      "KEN202102-E004"
+    ],
+    "required_followup": "Read source bodies and identify the demand verbatim in paraphrase, the actor addressed, and any actual state-policy connection before coding demand categories."
+  },
+  {
+    "gap_id": "KEN202102-G004",
+    "type": "dates",
+    "description": "E003 has a provisional 2021-02-20 start inferred from “Saturday” in a KNA report dated 2021-02-22; this same-report calendar inference still needs corroboration. E001, E002 and E004 onset dates remain unknown. Every candidate physical end remains unknown.",
+    "source_ids": [
+      "KEN202102-S044",
+      "KEN202102-S067",
+      "KEN202102-S090",
+      "KEN202102-S098",
+      "KEN202102-S105",
+      "KEN202102-S050"
+    ],
+    "affected_candidates": [
+      "KEN202102-E001",
+      "KEN202102-E002",
+      "KEN202102-E003",
+      "KEN202102-E004"
+    ],
+    "required_followup": "Verify inferred and unknown event dates through independent contemporaneous accounts; determine physical cessation separately. Keep unproven month ownership and physical end null."
+  },
+  {
+    "gap_id": "KEN202102-G005",
+    "type": "episode_unit",
+    "description": "Health-worker strike headlines suggest several campaigns that began before February and ended or continued during the month, but exact onset, national/local nesting and any associated simultaneous public assembly are unverified.",
+    "source_ids": [
+      "KEN202102-S002",
+      "KEN202102-S005",
+      "KEN202102-S007",
+      "KEN202102-S008",
+      "KEN202102-S091",
+      "KEN202102-S092",
+      "KEN202102-S131",
+      "KEN202102-S135"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Inspect permitted original/current-period reports, compare local and national campaigns, and transfer only verified gathering episodes to the correct country-month unit."
+  },
+  {
+    "gap_id": "KEN202102-G006",
+    "type": "state_response",
+    "description": "All seven coded response dimensions and protester violence remain unknown for every candidate. The S090 body describes police intercepting the Mwatate march over the permit and a county commissioner calming residents and referring them to land agencies, but it does not establish a coded concession, dispersal, arrest, beating, killing, shooting, ignoring or protester violence.",
+    "source_ids": [
+      "KEN202102-S090"
+    ],
+    "affected_candidates": [
+      "KEN202102-E001",
+      "KEN202102-E002",
+      "KEN202102-E003",
+      "KEN202102-E004"
+    ],
+    "required_followup": "Record only event-specific scoped accounts; keep all unreported fields unknown."
+  },
+  {
+    "gap_id": "KEN202102-G007",
+    "type": "source_independence",
+    "description": "One Mwatate body (S090) is available, but it is a single KNA account without independent corroboration. Other candidate reports remain body-unread after technical retrieval failures or search-only discovery. The paired Kisumu headlines may describe related coverage; reporting origin and syndication remain unchecked.",
+    "source_ids": [
+      "KEN202102-S044",
+      "KEN202102-S065",
+      "KEN202102-S067",
+      "KEN202102-S090",
+      "KEN202102-S098",
+      "KEN202102-S105",
+      "KEN202102-S050",
+      "KEN202102-S259",
+      "KEN202102-S261"
+    ],
+    "affected_candidates": [
+      "KEN202102-E001",
+      "KEN202102-E002",
+      "KEN202102-E003",
+      "KEN202102-E004"
+    ],
+    "required_followup": "Record explicit written-story origins and distinguish original reporting, republication and separate evidence."
+  },
+  {
+    "gap_id": "KEN202102-G008",
+    "type": "coverage",
+    "description": "Open-web first pass used 12 broad and focused English/limited-Swahili query batches, with weekly windows and school, health/labor, digital taxi, railway/eviction and land/ranch searches. It does not reproduce LexisNexis, local radio/newspaper archives or systematic county vernacular coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted contemporaneous searches around candidate leads and relevant local-language/regional coverage where available; discovery failure is not evidence of no event."
+  }
+]

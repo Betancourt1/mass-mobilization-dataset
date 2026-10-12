@@ -1,0 +1,78 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "access",
+    "description": "Five authorized exact-target first attempts were made (S002–S005 and S011); each tool call returned an error and no article body. S011 reported 520 Unknown Status Code, not a confirmed HTTP denial. All 11 cards remain search_only; no event fact is verified.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retries, redirects, aliases, or alternate origins. Await independent scientific review; any future target needs fresh exact-target authorization."
+  },
+  {
+    "gap_id": "G002",
+    "type": "method",
+    "description": "Rendered search captures preserve exact returned strings and exact ordered invocation arrays. Native result headers, counts, action IDs and native clocks were unavailable; wrapper empty arrays are not zero-result evidence. Actor-observed start/end times are separately recorded. Jan Q001 was first wrapped as a JSON serialization; its exact string was recovered from that retained wrapper without repeating the query and separately stored with its own SHA-256.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain private capture manifests and exact outputs; do not fabricate header arrays or query-level partitions from batched results."
+  },
+  {
+    "gap_id": "G003",
+    "type": "coverage",
+    "description": "Six captured batched search actions per month include broad English/Azerbaijani/Russian, weekly date windows, sector/locality/diaspora searches and cross-month boundary searches. Open-web indexing and archives are incomplete; Talysh, Lezgian, Armenian and other regional-language coverage is not systematic, and local/provincial archives remain partial. Search results included cross-month and apparently historical noise. This is not exhaustive and does not establish no event occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "After source-access review, target any verified leads and expand language/local archive coverage where material. Preserve unresolved archive and language gaps."
+  },
+  {
+    "gap_id": "G004",
+    "type": "eligibility",
+    "description": "No event candidate is coded from search-only discovery. For every retained lead, public assembly, actual occurrence date, participant threshold, demand to Azerbaijan or Azerbaijan policy, location, organizer, state response and source independence remain unverified. Overseas gatherings are not presumed to target the home state.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only after exact-target body authorization, establish occurrence and field evidence from opened sources; keep unresolved dimensions unknown and exclude non-public/foreign-government-only actions with reasons."
+  },
+  {
+    "gap_id": "G005",
+    "type": "unit_boundary",
+    "description": "Publication dates and event start/end dates are unknown for search-only leads; month ownership and continuation links therefore remain unresolved. Cross-month search outputs cannot be partitioned into query-specific result sets.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify exact event dates from authorized sources, trace before/after month, and assign each continuous episode by actual start month without duplication."
+  }
+]

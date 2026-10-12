@@ -1,0 +1,194 @@
+[
+  {
+    "gap_id": "TUN202101-G001",
+    "type": "participants",
+    "description": "Local turnout and the >=50 threshold remain unverified for Gafsa Jan7, Siliana Jan15, Jan17 curfew-night locations, Hay Ettadhamen Jan18, Cité Ettadhamen Jan23 and Sousse Jan20 and the distinct Jan27 Tunis actions. Aggregate arrests, grouped “dozens,” workers’ presence and agency totals are not substituted for site-level attendance.",
+    "source_ids": [
+      "TUN202101-S002",
+      "TUN202101-S013",
+      "TUN202101-S015",
+      "TUN202101-S025",
+      "TUN202101-S043",
+      "TUN202101-S093",
+      "TUN202101-S113"
+    ],
+    "affected_candidates": [
+      "TUN202101-E001",
+      "TUN202101-E002",
+      "TUN202101-E003",
+      "TUN202101-E004",
+      "TUN202101-E005",
+      "TUN202101-E006",
+      "TUN202101-E007",
+      "TUN202101-E008",
+      "TUN202101-E009",
+      "TUN202101-E010"
+    ],
+    "required_followup": "Seek permitted contemporary local reporting or official/union records with event-specific estimates, checking exact site, date and written origin."
+  },
+  {
+    "gap_id": "TUN202101-G002",
+    "type": "state_target",
+    "description": "Gafsa Jan7 demand and organizer are not established from the inspected excerpt; Siliana Jan15, Sousse Jan16 and Hay Ettadhamen Jan18 lack a sufficiently specific event-level domestic-state demand in opened reporting.",
+    "source_ids": [
+      "TUN202101-S002",
+      "TUN202101-S093"
+    ],
+    "affected_candidates": [
+      "TUN202101-E001",
+      "TUN202101-E002",
+      "TUN202101-E003",
+      "TUN202101-E005"
+    ],
+    "required_followup": "Read permitted full contemporary reporting or a union/organizer statement identifying the demand and target for each gathering."
+  },
+  {
+    "gap_id": "TUN202101-G003",
+    "type": "episode_unit",
+    "description": "The Jan17 Anadolu report describes a fourth consecutive night across multiple localities but does not establish common organizers, site continuity or first physical date. A Sbeitla funeral gathering is also mentioned without an exact event date; the article has an internal chronology conflict about the death.",
+    "source_ids": [
+      "TUN202101-S015",
+      "TUN202101-S043"
+    ],
+    "affected_candidates": [
+      "TUN202101-E004"
+    ],
+    "required_followup": "Find site-specific chronology and organizer evidence; preserve null physical dates until source text supports an onset."
+  },
+  {
+    "gap_id": "TUN202101-G004",
+    "type": "state_response",
+    "description": "Local arrests and most response dimensions are unreported. National weekend arrest/detainee figures cannot be assigned to individual cities. The Jan27 water-cannon/barrier report is agency-attributed and not independently corroborated.",
+    "source_ids": [
+      "TUN202101-S013",
+      "TUN202101-S015",
+      "TUN202101-S043",
+      "TUN202101-S103"
+    ],
+    "affected_candidates": [
+      "TUN202101-E004",
+      "TUN202101-E005",
+      "TUN202101-E006",
+      "TUN202101-E007",
+      "TUN202101-E008",
+      "TUN202101-E009"
+    ],
+    "required_followup": "Seek site/date-specific records for each response dimension and distinguish attempted obstruction from successful dispersal."
+  },
+  {
+    "gap_id": "TUN202101-G005",
+    "type": "source_access",
+    "description": "Anadolu Gafsa Jan7 story S010 timed out after one exact-URL attempt; Webdo Gafsa Jan7 S011, La Tribune/Reuters Jan14 S014, Radio Express FM S094, Mosaïque FM S107 and ArabicPost S127 returned HTTP 403. Mosaïque FM leads S092, S114 and S116 remained search_only and were not requested after S107’s denial; same-publisher S100 was not requested after the Radio Express denial. S094 and S107 each followed a web Cache miss and default DNS failure. Business News is marked subscriber-only. No retry, mirror, authentication or bypass was used.",
+    "source_ids": [
+      "TUN202101-S010",
+      "TUN202101-S011",
+      "TUN202101-S014",
+      "TUN202101-S094",
+      "TUN202101-S100",
+      "TUN202101-S107",
+      "TUN202101-S127",
+      "TUN202101-S092",
+      "TUN202101-S114",
+      "TUN202101-S116"
+    ],
+    "affected_candidates": [
+      "TUN202101-E001",
+      "TUN202101-C001"
+    ],
+    "required_followup": "Continue with distinct permitted originals; do not retry these exact sources or seek copies/mirrors of the specific stories."
+  },
+  {
+    "gap_id": "TUN202101-G006",
+    "type": "source_independence",
+    "description": "S002 and S004 substantially overlap in the Sousse account; written origin unresolved and AP/Reuters image credits do not establish authorship. S015 and Arabic page S032 are translation variants. S043 cites agency details including Reuters; the Le Monde interviewee also appears in S013.",
+    "source_ids": [
+      "TUN202101-S002",
+      "TUN202101-S004",
+      "TUN202101-S013",
+      "TUN202101-S015",
+      "TUN202101-S032",
+      "TUN202101-S043",
+      "TUN202101-S025"
+    ],
+    "affected_candidates": [
+      "TUN202101-E003",
+      "TUN202101-E004",
+      "TUN202101-E005",
+      "TUN202101-E006",
+      "TUN202101-E007",
+      "TUN202101-E008",
+      "TUN202101-E009"
+    ],
+    "required_followup": "Resolve written-origin and attribution links before describing the accounts as independent confirmation."
+  },
+  {
+    "gap_id": "TUN202101-G007",
+    "type": "coverage",
+    "description": "Fourteen English/French/Arabic queries and 133 source cards cover all January weekly windows, regional/labor/sector leads and December/February boundaries, but regional and sector coverage remains uneven and search results are not an archive census. Jan19–21 has dedicated searches and a local Sousse body reading, yet site-level turnout and response evidence remains limited; absence and completeness are not claimed.",
+    "source_ids": [
+      "TUN202101-S001",
+      "TUN202101-S002",
+      "TUN202101-S007",
+      "TUN202101-S008",
+      "TUN202101-S009",
+      "TUN202101-S103",
+      "TUN202101-S113",
+      "TUN202101-S127",
+      "TUN202101-S128"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted local-language searches for Jan19–21, interior governorates, sector actions and event-specific follow-up, recording each query/header before the next."
+  },
+  {
+    "gap_id": "TUN202101-G008",
+    "type": "baseline",
+    "description": "Official latest baseline bytes, observation universe, current codebook and additional Coding Procedure remain unresolved. FTDES monthly 1,492 protest actions and 901 sit-in days are not attendance or substitutes for official baseline.",
+    "source_ids": [
+      "TUN202101-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve official baseline/codebook access through authorized routes; keep pending_official_baseline and do not claim official integration."
+  },
+  {
+    "gap_id": "TUN202101-G009",
+    "type": "dates",
+    "description": "December/February searches found aggregate and postponed-action leads but no verified physical continuation or exact end for coded January events. Search-only Sfax/February postponement leads do not prove an executed January protest or a cross-month episode.",
+    "source_ids": [
+      "TUN202101-S001",
+      "TUN202101-S009",
+      "TUN202101-S010",
+      "TUN202101-S060",
+      "TUN202101-S090"
+    ],
+    "affected_candidates": [
+      "TUN202101-E001",
+      "TUN202101-E004"
+    ],
+    "required_followup": "Verify any planned strike’s execution from a permitted original source and establish physical continuity/end date separately."
+  },
+  {
+    "gap_id": "TUN202101-G010",
+    "type": "contested_evidence",
+    "description": "La Presse S103 presents competing readings of nighttime activity across several governorates, including socioeconomic grievance and looting/vandalism; its quoted Interior Ministry spokesperson says such property attacks are distinct from legitimate protest. Anadolu S015 frames Jan17 activity as curfew protest. The locations/dates are not matched site-by-site, so individual gatherings cannot be classified from these broad narratives.",
+    "source_ids": [
+      "TUN202101-S015",
+      "TUN202101-S103"
+    ],
+    "affected_candidates": [
+      "TUN202101-E004",
+      "TUN202101-E002",
+      "TUN202101-E005"
+    ],
+    "required_followup": "Seek same-night, site-specific original accounts distinguishing public protest gatherings from accompanying or separate looting/property damage, with local crowd and demand attribution."
+  },
+  {
+    "gap_id": "TUN202101-G011",
+    "type": "source_independence",
+    "description": "The UGTT/Echaab issue S040 is also indexed as ERI202101-S055 in another unit; these are the same exact PDF, not independent confirmation. Partial text extraction surfaced broad night-unrest and a Monday Avenue Habib Bourguiba passage, but issue/article heading, byline, origin, precise event date and local turnout remain unresolved.",
+    "source_ids": [
+      "TUN202101-S040"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If this issue is reused, identify the exact page/article and written origin from the same permitted PDF before attributing its passages to an event or treating them as independent evidence."
+  }
+]

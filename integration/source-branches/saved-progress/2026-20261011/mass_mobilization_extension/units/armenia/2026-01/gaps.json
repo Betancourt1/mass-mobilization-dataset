@@ -1,0 +1,36 @@
+[
+  {
+    "gap_id": "ARM-2026-01-G001",
+    "type": "baseline",
+    "description": "Official Mass Mobilization baseline/version, universe, schema and reuse terms remain pending coordinator verification; candidate records here are provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep baseline_gate pending and do not assign official IDs or describe draft candidates as accepted observations."
+  },
+  {
+    "gap_id": "ARM-2026-01-G002",
+    "type": "source_access",
+    "description": "One exact NEWS.am January 5 target was attempted once after approved preflight; the web tool returned InternalError/no HTTP and no article body. The lead remains search-only, publication date/scope are unknown, and no publisher denial is inferred. The January 20 NEWS.am lead and all other leads remain unreviewed at body level.",
+    "source_ids": [
+      "ARM202601-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep the January 5 attempt as an unresolved tool-error gap. Do not retry it or infer a publisher denial. Leave other unreviewed leads unresolved unless a new exact-target review is authorized."
+  },
+  {
+    "gap_id": "ARM-2026-01-G003",
+    "type": "capture_integrity",
+    "description": "The first actual batched January search invocation ran, but its returned object was not retained because payload persistence failed before capture-history existed. Exact query strings and invocation arguments are logged; returned bytes, result headers, result count, action ID and clocks are unavailable. It was not rerun.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep this invocation marked incomplete and use unique IDs for all future queries; do not repeat it to reconstruct missing output."
+  },
+  {
+    "gap_id": "ARM-2026-01-G-COVERAGE",
+    "type": "coverage",
+    "description": "Three actual query invocations were logged (one rendered response missing and retained as an explicit gap); subsequent calls cover early, mid, late and month-end January terms across English, Armenian and Russian. Search-result counts and native headers are unknown. Local/provincial publishers, source-specific organizations, and coverage completeness are not established; search output does not show event absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue bounded searches and review any exact target only after coordinator access preflight; record language, locality, sector and remaining coverage gaps."
+  }
+]

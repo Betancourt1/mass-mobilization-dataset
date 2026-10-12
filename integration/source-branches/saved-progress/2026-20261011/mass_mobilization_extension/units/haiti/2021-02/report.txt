@@ -1,0 +1,26 @@
+Mass Mobilization extension — Haiti, February 2021
+Batch 57, queue 225. Research cutoff: 2026-10-07. This is a provisional research dossier, not an official catalogue update.
+
+Search coverage
+
+Thirteen original web-search actions from the registered worker rollout are recorded in search_log.jsonl, with 408 ordered result headers, exact query batches, URLs, references, and available clocks. The searches used English, French, and Haitian Creole terms across broad February windows and targeted dates, and surfaced local media, international reports, government material, and human-rights sources. The final rollout comparison matched all 13 search actions by original event ID, query batch, header order, URL alignment, and saved clocks. Open-web searching does not reproduce LexisNexis or systematic press-archive access. Coverage is partial; no absence or event-free interval is inferred.
+
+Candidates and exclusions
+
+There are 10 provisional candidates. HAI202102-E001 is the only candidate supported by an opened article body. Haiti Standard dates the Port-au-Prince opposition march to Feb 21, reports a demand for President Moïse to leave, police tear gas, and stone-throwing attributed to political militants. It gives no defensible attendance estimate or physical end, so threshold eligibility remains pending. The separate, uncounted crowd supporting former mayor Ralph Youri Chevry is not pooled with that march; its demand and state target remain unresolved.
+
+HAI202102-E002–E010 preserve discovery leads for reported activity on Feb 7, 10, 11, 13, 14, 18, 22, and 28. They remain pending evidence or state-target review because the cited pages were not opened. No search-result attendance claim is encoded as a verified count; exact bounds remain null. The Feb 13 student gathering and afternoon march remain separate possible episodes. The Feb 14 and Feb 28 multi-city reports are not split or pooled by city without source confirmation. The Feb 11 and Feb 18 Carrefour protests are distinct dated leads pending evidence about whether the gatherings were separate. Feb 15 search material may describe the Feb 14 march and does not establish a new assembly.
+
+One out-of-country lead is preserved in excluded.json: a search-result report of a Feb 7 democracy demonstration in Saint-Michel, Montreal, outside Haiti. continuations.json is empty because no gathering beginning before February and physically continuing into this month was verified in the current search record; this is not evidence that none occurred. Candidate end dates remain unknown unless directly established later.
+
+Open gaps
+
+Seventeen gaps record attendance thresholds, event identity, state target, multi-city scope, city-level crowd attribution, physical ends, possible continuities, workplace-strike versus public-assembly distinctions, and the limits of open-web coverage. The Feb 1–2 strike leads and Feb 25 hospital maternity strike are not coded as public assemblies because the current search-only records do not establish a qualifying gathering. The Feb 12 court-clerk strike announcement likewise does not establish a public assembly. Search-only claims about casualties, police action, or crowd size have not been coded as confirmed response or turnout.
+
+Access and read scope
+
+1 current-unit body opens; 0 prior-unit-only body reads. The single opened body is Haiti Standard source HAI202102-S024. Its saved observation records wrapper start at 2026-10-10T12:12:30.513Z and response return at 2026-10-10T12:12:32.291Z; the nested network-send instant is not exposed. The read covered the displayed heading, byline/date, and article text lines 45–69. Links, embedded video, and image pixels were not inspected; captions showed partial views only. The R004 exact-URL receipt and complete manual publisher/origin review are saved in access_receipts/.
+
+Earlier Le National and Haiti Standard receipts are preserved. R002 and R003 became stale during their immediate pre-request checks when the Honduras source ledger changed; no page request followed. R005 for the Feb 14 Gazette Haiti story has a saved receipt and full manual review. Its immediate recheck at 2026-10-10T12:18:15.218Z found 2 changed paths among 229 inputs: the Honduras and Hungary February 2021 source ledgers. No page request followed. The stale disposition and command reference are saved in access_receipts/HAI202102-R005-gazette-feb14-pre-request-recheck.json; that evidence cannot authorize a later attempt. The receipt manifest lists only durable files in this dossier.
+
+Source inventory: 65 cards (1 opened body, 64 search-only leads). Candidate status remains agent-coded and pending human/coordinator review. No external contact, publication, integration, or official approval occurred.

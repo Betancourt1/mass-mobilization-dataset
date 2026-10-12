@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "2026-01-G001",
+    "type": "local_geographic_source_coverage",
+    "description": "Regional queries named several cities, but systematic city-by-city local source and municipal coverage is not established.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ALB2026-01-PROP-E001"
+    ],
+    "required_followup": "Review local publishers and municipal records for concrete leads within authorized source scope."
+  },
+  {
+    "gap_id": "2026-01-G002",
+    "type": "sector_and_organizer_coverage",
+    "description": "Broad labor/student/farmer/pensioner terms were used; source-specific union, health, transport, education and public-sector checks remain incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search relevant unions and sector organizations against identified leads."
+  },
+  {
+    "gap_id": "2026-01-G003",
+    "type": "official_and_human_rights_sources",
+    "description": "Police and broad human-rights/ombuds/CSO searches were run; prosecutor/court, parliament, ministry, municipal and organization-specific records have not been systematically reviewed.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ALB2026-01-PROP-E001"
+    ],
+    "required_followup": "Review relevant official and organization-specific reporting after source-scope review."
+  },
+  {
+    "gap_id": "2026-01-G004",
+    "type": "source_origin_and_attributed_claims",
+    "description": "At least ten officer injuries are attributed to police and 25 arrests to Berisha; the latter is uncorroborated. AP and AFP are listed without URLs or contribution mapping.",
+    "source_ids": [
+      "ALB2026-01-S001"
+    ],
+    "affected_candidates": [
+      "ALB2026-01-PROP-E001"
+    ],
+    "required_followup": "Keep claims attributed and do not resolve origin without authorized source access."
+  },
+  {
+    "gap_id": "2026-01-G005",
+    "type": "capture_integrity",
+    "description": "One Jan search action was performed before exact rendered capture was available and remains disclosed without a raw response; some native capture metadata is unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve disclosures; do not reconstruct or repeat the uncaptured action."
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "gap_id": "KOS202102-G001",
+    "type": "search_method",
+    "description": "Open-web searching does not reproduce the original LexisNexis sampling or source-expansion design; the original coding manual is not present in the portable handoff.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should compare with the official baseline and obtain the authoritative manual or archive access before compatibility or completeness claims."
+  },
+  {
+    "gap_id": "KOS202102-G002",
+    "type": "eligibility",
+    "description": "The search-only February Trepça and Artana wage-strike leads need body verification of exact start, scale, target and whether each action is a qualifying public protest.",
+    "source_ids": [
+      "KOS202102-S001",
+      "KOS202102-S002",
+      "KOS202102-S003",
+      "KOS202102-S004",
+      "KOS202102-S005",
+      "KOS202102-S006",
+      "KOS202102-S007",
+      "KOS202102-S008",
+      "KOS202102-S009",
+      "KOS202102-S010"
+    ],
+    "affected_candidates": [
+      "KOS202102-E001",
+      "KOS202102-E002"
+    ],
+    "required_followup": "Review contemporaneous local reporting and original union or company statements where accessible; preserve conflicting participant counts, unknown dates and uncertain state-target evidence."
+  },
+  {
+    "gap_id": "KOS202102-G003",
+    "type": "continuity",
+    "description": "Search headings connect an Artana wage strike reported in late February to a broader Trepça mining action reported March 1, but do not establish whether these were one continuous episode or distinct actions.",
+    "source_ids": [
+      "KOS202102-S010",
+      "KOS202102-S011",
+      "KOS202102-S012"
+    ],
+    "affected_candidates": [
+      "KOS202102-E002"
+    ],
+    "required_followup": "Compare event dates, mine locations, participant groups, demands and reported intervening work status in February 27 and March 1 reports."
+  },
+  {
+    "gap_id": "KOS202102-G004",
+    "type": "coverage",
+    "description": "The current 11 batched web searches (318 result headers) are discovery coverage only; they do not establish that no other qualifying gatherings occurred in Kosovo in February 2021.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue local-language and retrospective searches, then consult comparable newspaper archives if available; distinguish no result from no event."
+  },
+  {
+    "gap_id": "KOS202102-G005",
+    "type": "access_review",
+    "description": "No article body was successfully read. Seven physical requests were made to four exact source URLs: S001 two technical failures, S002 two technical failures including one ordinary HTTPS request after the shared phase closed, S003 one exact-URL HTTP 403, and S010 two Cache misses including an accidental ungated duplicate request. The post-closure S002 request and ungated S010 duplicate are recorded for coordinator review; no evidence is inferred from either.",
+    "source_ids": [
+      "KOS202102-S001",
+      "KOS202102-S002",
+      "KOS202102-S003",
+      "KOS202102-S010"
+    ],
+    "affected_candidates": [
+      "KOS202102-E001",
+      "KOS202102-E002"
+    ],
+    "required_followup": "Coordinator should review the referenced access_receipts and exact rollout timeline. Preserve S003 as blocked and do not retry it. Keep candidate facts unknown unless independent permitted evidence is later available; any later request to another URL requires the normal fresh receipt, manual review, immediate full-input check and active shared-window authorization."
+  }
+]

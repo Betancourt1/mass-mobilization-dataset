@@ -1,0 +1,196 @@
+[
+  {
+    "gap_id": "GIN202102-G001",
+    "type": "turnout_threshold",
+    "description": "E001 has no numeric attendance estimate in the opened event account. Qualitative “massively” wording in a separate search-only result cannot establish 50 people.",
+    "source_ids": [
+      "GIN202102-S001",
+      "GIN202102-S002",
+      "GIN202102-S005"
+    ],
+    "affected_candidates": [
+      "GIN202102-E001"
+    ],
+    "required_followup": "Seek a contemporaneous count or a clearly attributed and sufficiently specific crowd estimate; do not pool other towns or infer attendance from barricades or wording."
+  },
+  {
+    "gap_id": "GIN202102-G002",
+    "type": "event_boundary",
+    "description": "The Kissidougou article gives no route, physical perimeter, or end of the gathering, and later recurrence is unresolved.",
+    "source_ids": [
+      "GIN202102-S002"
+    ],
+    "affected_candidates": [
+      "GIN202102-E001"
+    ],
+    "required_followup": "Check dated same-event and follow-up reporting for the physical end and separate subsequent gatherings; leave end unknown until supported."
+  },
+  {
+    "gap_id": "GIN202102-G003",
+    "type": "state_target",
+    "description": "The report names EDG and SEG offices as intended targets. EDG’s institutional page reproduces a 2019 public-company decree, but neither service responsibility in Kissidougou nor SEG’s legal status was verified.",
+    "source_ids": [
+      "GIN202102-S002",
+      "GIN202102-S011"
+    ],
+    "affected_candidates": [
+      "GIN202102-E001"
+    ],
+    "required_followup": "Verify the utilities’ ownership and local service responsibility as of February 2021, and determine whether the reported demand was directed at state policy or a public authority."
+  },
+  {
+    "gap_id": "GIN202102-G004",
+    "type": "source_independence",
+    "description": "Four additional Kissidougou result cards are search-only; their written origins, syndication and independent reporting status have not been established.",
+    "source_ids": [
+      "GIN202102-S001",
+      "GIN202102-S003",
+      "GIN202102-S004",
+      "GIN202102-S005"
+    ],
+    "affected_candidates": [
+      "GIN202102-E001"
+    ],
+    "required_followup": "Review the exact articles if access gates pass; compare bylines, credits and written dispatch attribution before counting any account as independent."
+  },
+  {
+    "gap_id": "GIN202102-G005",
+    "type": "turnout_threshold",
+    "description": "The Faranah body-read report gives no protester count. Nearly ten barriers and more than 100 delayed vehicles are not attendance measures.",
+    "source_ids": [
+      "GIN202102-S008",
+      "GIN202102-S009",
+      "GIN202102-S010"
+    ],
+    "affected_candidates": [
+      "GIN202102-E002"
+    ],
+    "required_followup": "Seek a direct attendance estimate or other specific crowd-size evidence; keep the 50-person threshold pending."
+  },
+  {
+    "gap_id": "GIN202102-G006",
+    "type": "state_target",
+    "description": "E002 concerns electricity service, but the event report does not name the utility. The EDG institutional page does not prove EDG’s regional operations or responsibility for this particular outage.",
+    "source_ids": [
+      "GIN202102-S008",
+      "GIN202102-S011"
+    ],
+    "affected_candidates": [
+      "GIN202102-E002"
+    ],
+    "required_followup": "Verify which entity operated the affected Faranah service in February 2021 and whether the demand was directed to the Guinean state or its policy."
+  },
+  {
+    "gap_id": "GIN202102-G007",
+    "type": "event_scope",
+    "description": "The Faranah report describes an initial road-blocking group and another group entering town without establishing coordination or whether they were one action.",
+    "source_ids": [
+      "GIN202102-S008"
+    ],
+    "affected_candidates": [
+      "GIN202102-E002"
+    ],
+    "required_followup": "Seek reporting on organizers, timing and coordination before treating the groups as a single gathering or separate events."
+  },
+  {
+    "gap_id": "GIN202102-G008",
+    "type": "event_end",
+    "description": "The body-read Faranah article reports mediation and a return to calm after about three hours, but not when the physical gatherings ended or whether electricity returned.",
+    "source_ids": [
+      "GIN202102-S008"
+    ],
+    "affected_candidates": [
+      "GIN202102-E002"
+    ],
+    "required_followup": "Find follow-up evidence of the gathering’s physical end, service restoration, and any subsequent action."
+  },
+  {
+    "gap_id": "GIN202102-G009",
+    "type": "continuity",
+    "description": "A Kankan secondary-school boycott/resumption appears in January/February search-only leads, but exact action start, public assembly, duration and February activity are not established. No continuation is recorded because the onset date and episode are not verified.",
+    "source_ids": [
+      "GIN202102-S007",
+      "GIN202102-S017"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the underlying January and February reports if access permits, establish any public assembly and exact start/end dates, then coordinate with the January unit before assigning a month."
+  },
+  {
+    "gap_id": "GIN202102-G010",
+    "type": "event_eligibility",
+    "description": "Kankan and Kamsar Orange Money agent-strike leads do not establish demands, public gatherings, attendance or a state-directed target. The exact Kankan URL open returned only Cache miss.",
+    "source_ids": [
+      "GIN202102-S006",
+      "GIN202102-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use separately available reporting if appropriate; keep both search-only and do not infer a state target or shared origin from subject similarity."
+  },
+  {
+    "gap_id": "GIN202102-G011",
+    "type": "event_eligibility",
+    "description": "A search-only Boké lead describes transport disruption after a union official’s death amid a station-control dispute; no public gathering, turnout or state-directed demand is established.",
+    "source_ids": [
+      "GIN202102-S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the exact article if access permits; determine whether this was a public assembly, an intra-union/private conflict, or another kind of event before coding."
+  },
+  {
+    "gap_id": "GIN202102-G012",
+    "type": "event_eligibility",
+    "description": "Conakry demolition/eviction search leads cover distress, official justification, a school moratorium and political criticism, but do not establish a public protest gathering.",
+    "source_ids": [
+      "GIN202102-S018",
+      "GIN202102-S019",
+      "GIN202102-S020",
+      "GIN202102-S021",
+      "GIN202102-S022"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the exact reports under the access protocol if later coverage warrants; determine whether residents assembled and whether a public demand was made."
+  },
+  {
+    "gap_id": "GIN202102-G013",
+    "type": "continuity",
+    "description": "A January 30 Fria bakery story and the opened February 12–16 account share a place and topic, but the January body was not read and no continuous episode is established.",
+    "source_ids": [
+      "GIN202102-S015",
+      "GIN202102-S016"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the January report and additional dated coverage before asserting continuity; do not merge solely by shared topic or locality."
+  },
+  {
+    "gap_id": "GIN202102-G014",
+    "type": "search_access",
+    "description": "The Q004 search response reported robots.txt blocking for its RFI-targeted query. No specific article body was requested, so this does not establish a publisher or article denial.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use ordinary separately indexed results for any relevant RFI coverage; retain this as a search-tool limitation and do not bypass restrictions."
+  },
+  {
+    "gap_id": "GIN202102-G015",
+    "type": "coverage",
+    "description": "The captured searches cover French and English terms, weekly windows, major cities and named regional leads/sectors, but the open-web first pass is not exhaustive and was not checked against LexisNexis or a complete official event baseline.",
+    "source_ids": [
+      "GIN202102-S001",
+      "GIN202102-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "A later coordinator review may compare against the permitted archival database and official baseline; preserve language, locality and source-access limits."
+  },
+  {
+    "gap_id": "GIN202102-G016",
+    "type": "turnout_threshold",
+    "description": "The Fria bakery stoppage is body-confirmed, but S015 gives no number of bakeries or workers and describes no public gathering; the 50-person threshold is unestablished. Its relation to the January search-only bakery lead is also unresolved.",
+    "source_ids": [
+      "GIN202102-S015",
+      "GIN202102-S016"
+    ],
+    "affected_candidates": [
+      "GIN202102-E003"
+    ],
+    "required_followup": "Find a count of participating bakers/workers or evidence of a qualifying gathering; review S016 for exact event dates and written origin before linking episodes."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "gap_id": "2026-02-G001",
+    "type": "participant_threshold",
+    "description": "Al Jazeera reports the Feb 10 demonstration but provides no attendance count or lower bound; >=50 remains unresolved.",
+    "source_ids": [
+      "ALB2026-02-S006"
+    ],
+    "affected_candidates": [
+      "ALB2026-02-C001"
+    ],
+    "required_followup": "Seek separately authorized independent turnout evidence; retain pending_threshold until then."
+  },
+  {
+    "gap_id": "2026-02-G002",
+    "type": "origin_and_source_dependence",
+    "description": "Byline says Al Jazeera and News Agencies; AP is cited in text, Reuters/AFP are photo credits, but exact written origin and contributions are unresolved.",
+    "source_ids": [
+      "ALB2026-02-S006"
+    ],
+    "affected_candidates": [
+      "ALB2026-02-C001"
+    ],
+    "required_followup": "Preserve stated attributions; do not claim independent source corroboration absent evidence."
+  },
+  {
+    "gap_id": "2026-02-G003",
+    "type": "local_sector_official_and_hr_coverage",
+    "description": "Regional, sector, police and human-rights queries were run, but systematic municipal/local, union, court/prosecutor, parliament/ministry and named organization coverage remains incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted coverage for concrete leads under available source scope."
+  },
+  {
+    "gap_id": "2026-02-G004",
+    "type": "capture_integrity",
+    "description": "Original Q003 rendered bytes remain missing under explicit disclosure; Q004 is a separate query and capture, not a replacement. Native capture metadata is unavailable in some rows.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve Q003 disclosure and Q004 artifact; do not invent or overwrite bytes."
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "gap_id": "SV202102-G001",
+    "type": "participants",
+    "description": "The water-right caravan is body-verified for February 22, but Gato Encerrado gives no crowd count. The >=50-person threshold remains unknown; organizations, representatives and attendees are not interchangeable.",
+    "source_ids": [
+      "SV202102-S016"
+    ],
+    "affected_candidates": [
+      "SV202102-E001"
+    ],
+    "required_followup": "Seek contemporaneous reporting or an organizer record that counts people physically participating in the caravan."
+  },
+  {
+    "gap_id": "SV202102-G002",
+    "type": "participants",
+    "description": "The Ministry of Culture work stoppage is body-verified for February 11-12, but no participant count is reported. The stated 1,100-plus workforce is not attendance; El Salvador Times remains unread.",
+    "source_ids": [
+      "SV202102-S007",
+      "SV202102-S008"
+    ],
+    "affected_candidates": [
+      "SV202102-E002"
+    ],
+    "required_followup": "Find an event-specific count or a source that establishes at least 50 people participated simultaneously; separately assess the public-action rule."
+  },
+  {
+    "gap_id": "SV202102-G003",
+    "type": "state_target",
+    "description": "The water caravan sought legislation on the human right to water and delivered letters at party offices. The exact original-codebook demand category is unresolved, and delivery to party staff does not itself establish an official state response.",
+    "source_ids": [
+      "SV202102-S016"
+    ],
+    "affected_candidates": [
+      "SV202102-E001"
+    ],
+    "required_followup": "Review the original category mapping and seek evidence of the intended state recipient and any response."
+  },
+  {
+    "gap_id": "SV202102-G004",
+    "type": "dates",
+    "description": "The water-caravan report gives a 09:10 route start but no physical end time/date; no final route destination or complete action duration is established.",
+    "source_ids": [
+      "SV202102-S016"
+    ],
+    "affected_candidates": [
+      "SV202102-E001"
+    ],
+    "required_followup": "Follow contemporaneous reports or organizer records for the physical end; keep end_date null unless evidenced."
+  },
+  {
+    "gap_id": "SV202102-G005",
+    "type": "state_response",
+    "description": "The Culture article explicitly says the minister did not address the unions’ demands. The candidate records `ignore=yes` for that reported nonresponse, but compatibility with the original response definition needs review; other response dimensions remain unknown.",
+    "source_ids": [
+      "SV202102-S007"
+    ],
+    "affected_candidates": [
+      "SV202102-E002"
+    ],
+    "required_followup": "Compare the reported ministerial nonresponse with the original ignore definition and preserve its event-specific scope."
+  },
+  {
+    "gap_id": "SV202102-G006",
+    "type": "source_access",
+    "description": "The UES/9F leads in ContraPunto and El Universitario returned a reader Cache miss/timeout and ordinary HTTPS DNS failures; La Prensa Gráfica remains search-only. No body evidence verifies an executed February 9 student gathering, turnout, state target, or response. These technical failures are not observed publisher denials.",
+    "source_ids": [
+      "SV202102-S003",
+      "SV202102-S004",
+      "SV202102-S022"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If later authorized and freshly gated, inspect the exact public pages or locate contemporaneous independent reporting; do not infer occurrence from titles/snippets."
+  },
+  {
+    "gap_id": "SV202102-G007",
+    "type": "participants",
+    "description": "A February 3 headline reports more than 40 union organizations marching; it does not establish the number of people attending. Other union and municipal-worker leads also lack opened body evidence.",
+    "source_ids": [
+      "SV202102-S001",
+      "SV202102-S006",
+      "SV202102-S009",
+      "SV202102-S010",
+      "SV202102-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Open the relevant reports under fresh access review and distinguish organization counts, workforce totals and dismissed workers from actual simultaneous turnout."
+  },
+  {
+    "gap_id": "SV202102-G008",
+    "type": "contested_evidence",
+    "description": "Florenzi-related February headlines and later reporting do not establish whether the February 21 Cathedral action was a new gathering, an escalation within an older labor campaign, or an episode continuing from January. Crowd size, state target and event-specific response are also unverified.",
+    "source_ids": [
+      "SV202102-S013",
+      "SV202102-S014",
+      "SV202102-S015",
+      "SV202102-S018",
+      "SV202102-S019",
+      "SV202102-S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review contemporaneous and follow-up accounts, compare the January Florenzi continuation, and identify the physical gathering date, turnout, demand and episode boundary before creating a candidate."
+  },
+  {
+    "gap_id": "SV202102-G009",
+    "type": "episode_unit",
+    "description": "Search-only municipal-union/ASTRAM-STISSS and No+AFP pension leads need body review and cross-month comparison. Campaign labels or repeated headlines do not establish a February event or distinct episode. The February SV202102-S021 title and article path also match January SV202101-S014 at a different host; both are search-only with no body or written-origin evidence, so the relationship is ambiguous and not independent corroboration.",
+    "source_ids": [
+      "SV202102-S010",
+      "SV202102-S011",
+      "SV202102-S012",
+      "SV202102-S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Resolve exact occurrence dates, event continuity, story identity and the episode start-month owner using saved bodies and neighboring-month review. Treat the El Soca match as a possible duplicate/host variant, not a separate account, unless independent reporting is established."
+  },
+  {
+    "gap_id": "SV202102-G010",
+    "type": "source_access",
+    "description": "The other body-attempted but unread leads—El Salvador Times, El Faro and the UES student publication, plus ContraPunto—had reader cache/timeout errors or ordinary HTTPS DNS failures. None returned an origin HTTP denial or article text. The six additional receipt checks with no body request include stale-input checks and receipt-only/deferred items; receipts alone are not access permission.",
+    "source_ids": [
+      "SV202102-S003",
+      "SV202102-S008",
+      "SV202102-S019",
+      "SV202102-S022"
+    ],
+    "affected_candidates": [
+      "SV202102-E002"
+    ],
+    "required_followup": "Retain each outcome in access_receipts/manifest.json; any later attempt requires a new exact-URL receipt, complete manual review and immediate whole-corpus fingerprint match."
+  },
+  {
+    "gap_id": "SV202102-G011",
+    "type": "source_independence",
+    "description": "Gato Encerrado’s opened Culture stoppage report and the El Salvador Times search-only lead concern the same apparent action. The latter body was not received, so its relationship to the first account, original reporting, and independence are unknown; it is not treated as corroboration.",
+    "source_ids": [
+      "SV202102-S007",
+      "SV202102-S008"
+    ],
+    "affected_candidates": [
+      "SV202102-E002"
+    ],
+    "required_followup": "If the second exact URL becomes available, compare its byline, text and origin evidence before making an independence claim."
+  },
+  {
+    "gap_id": "SV202102-G012",
+    "type": "episode_unit",
+    "description": "No body evidence in this unit confirms a February continuation of the January Florenzi, ASTRAM/STISSS, or other labor episodes. The unit records no continuation because an episode start outside February is not yet established from the current-month leads.",
+    "source_ids": [
+      "SV202102-S010",
+      "SV202102-S011",
+      "SV202102-S013",
+      "SV202102-S015",
+      "SV202102-S019",
+      "SV202102-S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Compare accessible February and January evidence before assigning a continuation or changing month ownership; do not infer continuity from campaign names alone."
+  },
+  {
+    "gap_id": "SV202102-G013",
+    "type": "coverage",
+    "description": "This is a non-exhaustive open-web sweep: 17 captured search invocations containing 65 submitted query strings (64 distinct) and 458 ordered result headers. Queries were in Spanish and English and included weekly windows, labor, water, pensions, education, rights and regional terms. Result headers are pooled/batched; they do not show per-query partitions or prove absence. Local archives, systematic coverage outside the capital, and Indigenous/local-language searches were not completed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with local and regional reporting, relevant language searches and event-specific follow-up; do not treat unreturned or unreviewed sources as proof that no action occurred."
+  },
+  {
+    "gap_id": "SV202102-G014",
+    "type": "baseline",
+    "description": "The official current Mass Mobilization baseline, current universe/schema/licence details, and any additional coding procedure remain unverified. The original May 2015 codebook is not available in this unit; local categories and conservative deviations remain provisional.",
+    "source_ids": [],
+    "affected_candidates": [
+      "SV202102-E001",
+      "SV202102-E002"
+    ],
+    "required_followup": "Coordinator resolves baseline and manual access/calibration before official integration; retain this unit as provisional."
+  }
+]

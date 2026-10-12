@@ -1,0 +1,113 @@
+[
+  {
+    "candidate_id": "ALB2026-01-PROP-E001",
+    "country": "Albania",
+    "unit_month": "2026-01",
+    "title": "Opposition-led anti-government demonstration in Tirana",
+    "start_date": "2026-01-24",
+    "start_precision": "day",
+    "end_date": "2026-01-24",
+    "end_precision": "day",
+    "location": "Tirana, Albania",
+    "scope": "City-level; national scope not established in the coordinator's reviewed source text.",
+    "organizer": "Opposition leader and former prime minister Sali Berisha led the protest; Euronews describes the Democratic Party as his party.",
+    "demands": [
+      "political_behavior_process",
+      "removal_of_politician"
+    ],
+    "participants_original": "Thousands of protesters (Euronews wording, as relayed by the coordinator); no exact count supplied.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "Euronews reports thousands; this is well above 50, but the precise count is not supplied in the reviewed extract.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "state_response_attribution_note": "Euronews reports police responded to the Molotov attacks with tear gas and water cannon to disperse the crowd. It reports at least 10 officers injured, attributed to police. It says Berisha claimed 25 protesters were arrested; that attributed count remains uncoded as verified.",
+    "police_injuries_attributed": "At least 10 officers injured, according to police, as reported by Euronews.",
+    "source_ids": [
+      "ALB2026-01-S001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "ALB2026-01-S001"
+        ],
+        "summary": "Coordinator reports the opened Euronews article dates the demonstration to January 24, 2026."
+      },
+      "location": {
+        "source_ids": [
+          "ALB2026-01-S001"
+        ],
+        "summary": "Coordinator reports the opened Euronews article places the demonstration in Tirana."
+      },
+      "demands": {
+        "source_ids": [
+          "ALB2026-01-S001"
+        ],
+        "summary": "Coordinator reports demands for Rama's resignation and an interim government/early elections; categorized provisionally as political process and removal of a politician."
+      },
+      "participants_original": {
+        "source_ids": [
+          "ALB2026-01-S001"
+        ],
+        "summary": "Coordinator reports Euronews describes thousands of participants; no exact point estimate is available in the reviewed extract."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "ALB2026-01-S001"
+        ],
+        "summary": "Euronews reports police used tear gas and water cannon to disperse the crowd after protesters threw Molotov cocktails."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "ALB2026-01-S001"
+        ],
+        "summary": "Euronews attributes the claim that 25 protesters were arrested to Berisha; left unknown pending corroboration."
+      },
+      "police_injuries_attributed": {
+        "source_ids": [
+          "ALB2026-01-S001"
+        ],
+        "summary": "Euronews attributes the report of at least 10 officers injured to police."
+      },
+      "organizer": {
+        "source_ids": [
+          "ALB2026-01-S001"
+        ],
+        "summary": "Euronews says opposition leader and former PM Sali Berisha led the protest and later describes the Democratic Party as his party."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "ALB2026-01-S001"
+        ],
+        "summary": "Euronews reports some protesters threw Molotov cocktails at police after speeches; later groups marching toward parliament tried to break police cordons and hurled stones and Molotov cocktails."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "candidate",
+    "baseline_gate": "pending_official_baseline",
+    "coordinator_review_status": "root_reviewed_open_gaps",
+    "open_questions": [
+      "Verify the reported 25 arrests independently; Euronews attributes this count to Berisha.",
+      "Resolve written-source provenance and the additional-source references: the page lists AP and AFP without URLs or specific contributions; neither was opened.",
+      "Confirm whether any separate, related protest episode changes event grouping. The reviewed report establishes the Jan 24 rally and provides no evidence of continuation beyond that date.",
+      "Official baseline and final coding remain pending; this workspace review does not assign an official Mass Mobilization identifier or publish a record."
+    ],
+    "provenance_note": "Exact Euronews page opened once under startup_audit exact-target approval (turn59view0). Current live S001 is opened/body_read=true with compact receipt hash 6d1ff1339a5c4e682794da9b1fbeec3e25dd87682a0a2023f9f2e24df6553a8f. The live sources.jsonl snapshot at proposal time has SHA-256 f280bdcc2bd13dc3a5d43a860d79a4bceaf3a6752df07e4719f60d6ddfd139e0 and its limitations field still contains the earlier “political-rally codebook exclusion remains unresolved” wording. This v3 package stages a source-card patch to update that field after later independent codebook review found the reported text does not establish the required two-or-more-party criterion. Candidate proposes proposed_include because the source reports thousands and no exclusion criterion is established. No origin/links were opened; the candidate is isolated and not in live events.json; official baseline remains pending.",
+    "eligibility_review": {
+      "decision": "proposed_include",
+      "review_basis": "independent review found no evidence that the two-or-more-party political-rally exclusion applies; article reports thousands, above the participation threshold",
+      "decision_scope": "workspace proposal only; official baseline gate remains pending",
+      "source_ledger_state": "At proposal time S001 is opened/body_read=true; the exact live source ledger snapshot SHA is f280bdcc2bd13dc3a5d43a860d79a4bceaf3a6752df07e4719f60d6ddfd139e0. Its older limitation wording is acknowledged as chronological; this v3 package stages the later reviewed limitation text, not a claim that the live card already says it."
+    }
+  }
+]

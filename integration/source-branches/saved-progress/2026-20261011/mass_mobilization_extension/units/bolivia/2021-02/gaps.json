@@ -1,0 +1,166 @@
+[
+  {
+    "gap_id": "bolivia_2021-02_G001",
+    "type": "search_capture_recovery",
+    "status": "recovered_from_original_action",
+    "description": "The initial durable capture of BOL202102-Q020 failed after search because TextEncoder was unavailable. The exact query array, original start/completion clocks and all 25 ordered response headers were recovered from visible rollout event exec-ccc060bd-ce8c-46aa-9464-e1e1dcf3f988. No search was repeated; the original capture failure remains part of provenance, but the response and clocks are no longer missing.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No requery is needed. Retain this record as capture-recovery history."
+  },
+  {
+    "gap_id": "bolivia_2021-02_G002",
+    "type": "baseline_and_eligibility",
+    "status": "open",
+    "description": "The official project baseline and country-specific inclusion mapping remain pending. E001–E005, E007 and E008 lack body evidence for the required simultaneous crowd threshold; E003 also requires review of whether the institute-admissions grievance meets the domestic-state-target rule. E006 is described as “some hundreds,” which supports the threshold qualitatively but gives no defensible numeric range.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S017",
+      "S018",
+      "S019",
+      "S020",
+      "S021",
+      "S026"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-02_E001",
+      "bolivia_2021-02_E002",
+      "bolivia_2021-02_E003",
+      "bolivia_2021-02_E004",
+      "bolivia_2021-02_E005",
+      "bolivia_2021-02_E006",
+      "bolivia_2021-02_E007",
+      "bolivia_2021-02_E008"
+    ],
+    "required_followup": "Check the official baseline and threshold/target rules. Keep E003 pending state-target review and keep all uncounted gatherings pending threshold; do not infer attendance from strike adherence, the number of sites, vehicles or roads."
+  },
+  {
+    "gap_id": "bolivia_2021-02_G003",
+    "type": "physical_event_boundaries",
+    "status": "open",
+    "description": "For E001–E007, the stored same-day end_date values identify the reported event dates, but the opened sources do not establish when each physical gathering ended. E008 also has no verified physical end: S036 reports only a plan to lift the Friendship Bridge blockade on 25 February, while S026 reports it remained blocked on 26 February.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S017",
+      "S018",
+      "S019",
+      "S026",
+      "S036"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-02_E001",
+      "bolivia_2021-02_E002",
+      "bolivia_2021-02_E003",
+      "bolivia_2021-02_E004",
+      "bolivia_2021-02_E005",
+      "bolivia_2021-02_E006",
+      "bolivia_2021-02_E007",
+      "bolivia_2021-02_E008"
+    ],
+    "required_followup": "Coordinator should preserve the captured source/date fields and apply an effective physical end of unknown until a dated source documents actual cessation. Do not code the announced 25 February lift as execution."
+  },
+  {
+    "gap_id": "bolivia_2021-02_G004",
+    "type": "multi_site_event_unit",
+    "status": "open",
+    "description": "E004 covers reported 24 February marches in multiple capitals; E005 describes a 25 February action in several unspecified cities. Neither source resolves whether these were single coordinated events or distinct local assemblies. Attendance cannot be pooled across cities or intersections.",
+    "source_ids": [
+      "S017",
+      "S018"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-02_E004",
+      "bolivia_2021-02_E005"
+    ],
+    "required_followup": "Until location-level boundaries and coordination are reviewed, the effective unit eligibility should remain pending_unit. Preserve the underlying source record and seek city/intersection-specific turnout without summing separate crowds."
+  },
+  {
+    "gap_id": "bolivia_2021-02_G005",
+    "type": "january_march_boundary_and_campaign_continuity",
+    "status": "open",
+    "description": "The relevant January candidate is bolivia_2021-01_E010, a late-January medical strike announcement; the national 1 February action was suspended, while execution of the separate Oruro call is unknown (S010, S033). A prior February report draft mislabeled this January record C001. January C001 is instead the unrelated Vinto landfill closure blockade begun before January. A new post-promulgation strike began 18 February, and physical health marches are documented from 22 February. The first wave’s announced final strike day was 28 February; the 1 March “new” 15-day strike/march call belongs to February continuation C002 and is not proof of a March assembly or a physical February end (S031, S034, S035). This sequence does not establish one continuous episode.",
+    "source_ids": [
+      "S010",
+      "S031",
+      "S033",
+      "S034",
+      "S035"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-02_E001",
+      "bolivia_2021-02_E002",
+      "bolivia_2021-02_E004",
+      "bolivia_2021-02_E005",
+      "bolivia_2021-02_E006",
+      "bolivia_2021-02_E007"
+    ],
+    "required_followup": "Review ownership of bolivia_2021-01_E010 and March evidence separately. Preserve February continuation C002 as an announcement boundary record, not an executed street event, and do not join dated marches through a shared episode_key.",
+    "correction_history": [
+      {
+        "recorded_at": "2026-10-10T05:06:59Z",
+        "previous_label": "C001",
+        "correct_label": "bolivia_2021-01_E010",
+        "reason": "The earlier report used C001 as an imprecise January reference. The January dossier’s C001 is the unrelated Vinto landfill closure blockade; E010 is the medical strike announcement relevant to this boundary.",
+        "march_boundary_label_retained": "bolivia_2021-02_C002"
+      }
+    ]
+  },
+  {
+    "gap_id": "bolivia_2021-02_G006",
+    "type": "soy_blockade_sites_and_response",
+    "status": "open",
+    "description": "E008 has no simultaneous crowd count or site-by-site unit evidence. Red Uno reports partial lifts but the Friendship Bridge remained blocked on 26 February (S026). The 25 February eju.tv article is explicitly credited to Unitel and reports only an intended lift that evening (S036), so it is not independent confirmation or proof of physical closure. Government talks/intermissions are documented, but no policy concession is verified.",
+    "source_ids": [
+      "S020",
+      "S021",
+      "S026",
+      "S036"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-02_E008"
+    ],
+    "required_followup": "Keep the physical end unknown, preserve Unitel source lineage, seek site-specific crowd/end evidence and review whether the protocol’s accommodation code means contact or an actual response/concession."
+  },
+  {
+    "gap_id": "bolivia_2021-02_G007",
+    "type": "regional_and_language_coverage",
+    "status": "open",
+    "description": "Spanish and English discovery covered selected sector and regional terms; Aymara- and Quechua-name queries were run, but no original-language report was body-verified. Body evidence identifies La Paz, Cochabamba, Oruro, Santa Cruz and Pailón; Tarija evidence is a strike call, not a verified assembly. Potosí, Beni, Pando and Chuquisaca were not comprehensively established, so no absence claim is supported.",
+    "source_ids": [
+      "S017",
+      "S019",
+      "S021",
+      "S034"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-02_E004",
+      "bolivia_2021-02_E005",
+      "bolivia_2021-02_E007",
+      "bolivia_2021-02_E008"
+    ],
+    "required_followup": "If this country-month is extended, check region-specific local press and relevant Aymara/Quechua reporting; retain the current coverage as selective, not exhaustive."
+  },
+  {
+    "gap_id": "bolivia_2021-02_G008",
+    "type": "source_access_and_independence",
+    "status": "open",
+    "description": "Search headers remain discovery-only. Q004–Q007 date operators returned stale/off-window items and cannot define event dates. S032, the Unitel report related to ANF’s injury attribution, remained search-only after cache/DNS access failure; S034 is a Tarija200 republication credited to El Deber, S036 is eju.tv republishing Unitel, and S031 repeats a URL used in January. These are not independent confirmations.",
+    "source_ids": [
+      "S004",
+      "S031",
+      "S032",
+      "S034",
+      "S036"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-02_E001",
+      "bolivia_2021-02_E002",
+      "bolivia_2021-02_E008"
+    ],
+    "required_followup": "Use body text for event facts, verify outlet lineage before counting corroboration, and do not convert search-result snippets or off-window headers into event evidence."
+  }
+]

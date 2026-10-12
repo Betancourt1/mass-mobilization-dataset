@@ -1,0 +1,527 @@
+[
+  {
+    "gap_id": "CHL-2021-01-G001",
+    "type": "method_access",
+    "description": "Primer pase con búsqueda web abierta; no reproduce la consulta sistemática a LexisNexis/major world newspapers del diseño original. Resultados y fechas de indexación no acreditan ausencia de eventos.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CHL-2021-01-E001",
+      "CHL-2021-01-E002",
+      "CHL-2021-01-E003",
+      "CHL-2021-01-E004",
+      "CHL-2021-01-E005",
+      "CHL-2021-01-E006",
+      "CHL-2021-01-E007",
+      "CHL-2021-01-E008",
+      "CHL-2021-01-E009",
+      "CHL-2021-01-E010",
+      "CHL-2021-01-E011",
+      "CHL-2021-01-E012",
+      "CHL-2021-01-E013",
+      "CHL-2021-01-E014",
+      "CHL-2021-01-E015",
+      "CHL-2021-01-E016"
+    ],
+    "required_followup": "Complementar con hemerotecas y la estrategia original de Mass Mobilization; registrar diferencias de cobertura antes de proponer una actualización."
+  },
+  {
+    "gap_id": "CHL-2021-01-G002",
+    "type": "official_baseline",
+    "description": "La última versión oficial y sus fechas/cobertura no han sido verificadas en esta unidad. Todos los registros son candidatos, no adiciones oficiales.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CHL-2021-01-E001",
+      "CHL-2021-01-E002",
+      "CHL-2021-01-E003",
+      "CHL-2021-01-E004",
+      "CHL-2021-01-E005",
+      "CHL-2021-01-E006",
+      "CHL-2021-01-E007",
+      "CHL-2021-01-E008",
+      "CHL-2021-01-E009",
+      "CHL-2021-01-E010",
+      "CHL-2021-01-E011",
+      "CHL-2021-01-E012",
+      "CHL-2021-01-E013",
+      "CHL-2021-01-E014",
+      "CHL-2021-01-E015",
+      "CHL-2021-01-E016"
+    ],
+    "required_followup": "Verificar y fijar la versión oficial; comparar episodios e identificadores antes de integrar. Mantener baseline_gate=pending_official_baseline."
+  },
+  {
+    "gap_id": "CHL-2021-01-G003",
+    "type": "geographic_coverage",
+    "description": "Se buscaron medios/regiones del norte, centro y sur, pero el descubrimiento se concentra en Santiago y algunos conflictos con buena indexación. No se estableció cobertura uniforme de todas las comunas y regiones.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Ampliar hemerotecas regionales y comprobar cobertura local sin interpretar un resultado vacío como inexistencia de protestas."
+  },
+  {
+    "gap_id": "CHL-2021-01-G004",
+    "type": "source_independence",
+    "description": "Agencia EFE aparece republicada y algunos medios reutilizan balances policiales. El número de URLs no equivale a fuentes independientes ni a eventos distintos.",
+    "source_ids": [
+      "CHL-2021-01-S053",
+      "CHL-2021-01-S009",
+      "CHL-2021-01-S007",
+      "CHL-2021-01-S010",
+      "CHL-2021-01-S002",
+      "CHL-2021-01-S042"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E010",
+      "CHL-2021-01-E012"
+    ],
+    "required_followup": "Comprobar origen de agencias y partes; buscar observación contemporánea independiente cuando importe para asistencia, demanda o respuesta."
+  },
+  {
+    "gap_id": "CHL-2021-01-G005",
+    "type": "source_only_discovery",
+    "description": "44 de las 89 URLs registradas quedaron como search_only. No se usan sus snippets como respaldo de campos codificados; algunas sirven solo para contexto o contraste de fechas.",
+    "source_ids": [
+      "CHL-2021-01-S003",
+      "CHL-2021-01-S011",
+      "CHL-2021-01-S012",
+      "CHL-2021-01-S013",
+      "CHL-2021-01-S014",
+      "CHL-2021-01-S019",
+      "CHL-2021-01-S020",
+      "CHL-2021-01-S021",
+      "CHL-2021-01-S022",
+      "CHL-2021-01-S024",
+      "CHL-2021-01-S025",
+      "CHL-2021-01-S026",
+      "CHL-2021-01-S032",
+      "CHL-2021-01-S034",
+      "CHL-2021-01-S036",
+      "CHL-2021-01-S045",
+      "CHL-2021-01-S047",
+      "CHL-2021-01-S049",
+      "CHL-2021-01-S051",
+      "CHL-2021-01-S052",
+      "CHL-2021-01-S058",
+      "CHL-2021-01-S059",
+      "CHL-2021-01-S061",
+      "CHL-2021-01-S062",
+      "CHL-2021-01-S064",
+      "CHL-2021-01-S065",
+      "CHL-2021-01-S066",
+      "CHL-2021-01-S067",
+      "CHL-2021-01-S068",
+      "CHL-2021-01-S069",
+      "CHL-2021-01-S070",
+      "CHL-2021-01-S073",
+      "CHL-2021-01-S074",
+      "CHL-2021-01-S075",
+      "CHL-2021-01-S077",
+      "CHL-2021-01-S078",
+      "CHL-2021-01-S079",
+      "CHL-2021-01-S083",
+      "CHL-2021-01-S084",
+      "CHL-2021-01-S085",
+      "CHL-2021-01-S086",
+      "CHL-2021-01-S087",
+      "CHL-2021-01-S088",
+      "CHL-2021-01-S089"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Priorizar lectura de los enlaces relevantes para huecos concretos; confirmar fecha de publicación y evento antes de codificar."
+  },
+  {
+    "gap_id": "CHL-2021-01-G006",
+    "type": "labor_health_archive",
+    "description": "El índice de FENATS de enero contiene comunicados y recursos, pero no establece una reunión pública elegible. Un enlace de paro de 48 horas no pudo leerse y su pertenencia temporal no quedó acreditada.",
+    "source_ids": [
+      "CHL-2021-01-S015",
+      "CHL-2021-01-S016",
+      "CHL-2021-01-S051"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Revisar archivo sindical y noticias contemporáneas de salud/laborales; resolver fecha, demanda estatal y asistencia, sin asignar un paro a enero por un resultado de búsqueda."
+  },
+  {
+    "gap_id": "CHL-2021-01-G007",
+    "type": "language_coverage",
+    "description": "Consultas en español e inglés; fuentes comunitarias mapuche se localizaron sobre todo a través de prensa y comunicados en español. No se realizó una búsqueda sistemática en mapudungun.",
+    "source_ids": [
+      "CHL-2021-01-S017",
+      "CHL-2021-01-S023"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E011"
+    ],
+    "required_followup": "Si existe archivo pertinente, incorporar documentación comunitaria y revisión lingüística para evitar pérdida o traducción incorrecta de demandas."
+  },
+  {
+    "gap_id": "CHL-2021-01-G008",
+    "type": "physical_continuity",
+    "description": "No se confirmó acción físicamente continua iniciada antes de enero. La campaña del estallido desde 2019 y las convocatorias semanales no se tratan como una protesta ininterrumpida; continuations.json vacío significa falta de continuación acreditada, no ausencia demostrada.",
+    "source_ids": [
+      "CHL-2021-01-S040",
+      "CHL-2021-01-S001",
+      "CHL-2021-01-S004",
+      "CHL-2021-01-S007"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E001",
+      "CHL-2021-01-E006",
+      "CHL-2021-01-E010",
+      "CHL-2021-01-E012"
+    ],
+    "required_followup": "Contrastar diciembre 2020 y las noticias de cierre de cada jornada; crear continuación solo si existe evidencia de comienzo anterior y continuidad física."
+  },
+  {
+    "gap_id": "CHL-2021-01-G009",
+    "type": "february_handoff",
+    "description": "Pucón y Cerrillos tienen cierre desconocido; no se comprobó permanencia física hasta febrero. La campaña de músicos anuncia futuras acciones sin equivaler a continuidad.",
+    "source_ids": [
+      "CHL-2021-01-S031",
+      "CHL-2021-01-S041",
+      "CHL-2021-01-S081",
+      "CHL-2021-01-S035"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E004",
+      "CHL-2021-01-E014",
+      "CHL-2021-01-E016"
+    ],
+    "required_followup": "El investigador de febrero debe revisar cierres, posibles nuevas jornadas y duplicación. No prolongar una protesta hasta febrero sin evidencia ni pasar la fecha de inicio de enero a febrero."
+  },
+  {
+    "gap_id": "CHL-2021-01-G010",
+    "type": "unknown_responses",
+    "description": "En numerosos candidatos la noticia no documenta todas las respuestas estatales ni la violencia de manifestantes. El valor unknown no significa ausencia de acción, muertos, disparos o golpes.",
+    "source_ids": [
+      "CHL-2021-01-S040",
+      "CHL-2021-01-S027",
+      "CHL-2021-01-S030",
+      "CHL-2021-01-S039",
+      "CHL-2021-01-S071",
+      "CHL-2021-01-S035",
+      "CHL-2021-01-S037",
+      "CHL-2021-01-S080",
+      "CHL-2021-01-S057",
+      "CHL-2021-01-S001",
+      "CHL-2021-01-S029",
+      "CHL-2021-01-S056",
+      "CHL-2021-01-S038",
+      "CHL-2021-01-S054",
+      "CHL-2021-01-S055",
+      "CHL-2021-01-S063",
+      "CHL-2021-01-S004",
+      "CHL-2021-01-S053",
+      "CHL-2021-01-S044",
+      "CHL-2021-01-S023",
+      "CHL-2021-01-S017",
+      "CHL-2021-01-S007",
+      "CHL-2021-01-S010",
+      "CHL-2021-01-S002",
+      "CHL-2021-01-S042",
+      "CHL-2021-01-S033",
+      "CHL-2021-01-S031",
+      "CHL-2021-01-S041",
+      "CHL-2021-01-S046",
+      "CHL-2021-01-S008",
+      "CHL-2021-01-S060",
+      "CHL-2021-01-S082",
+      "CHL-2021-01-S081",
+      "CHL-2021-01-S043"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E001",
+      "CHL-2021-01-E002",
+      "CHL-2021-01-E003",
+      "CHL-2021-01-E004",
+      "CHL-2021-01-E005",
+      "CHL-2021-01-E006",
+      "CHL-2021-01-E007",
+      "CHL-2021-01-E008",
+      "CHL-2021-01-E009",
+      "CHL-2021-01-E010",
+      "CHL-2021-01-E011",
+      "CHL-2021-01-E012",
+      "CHL-2021-01-E013",
+      "CHL-2021-01-E014",
+      "CHL-2021-01-E015",
+      "CHL-2021-01-E016"
+    ],
+    "required_followup": "Buscar balances y documentación vinculados a cada episodio; mantener unknown cuando falta prueba y no derivar shootings de lesiones ni killings de muertes de otras fechas."
+  },
+  {
+    "gap_id": "CHL-2021-01-G011",
+    "type": "candidate_followup",
+    "description": "Manifestación al comenzar el año por libertad de detenidos y salida presidencial. Precisar asistencia ≥50. Confirmar momento de inicio y cierre; posible reunión previa a medianoche sin evidencia. Contrastar noticia con prensa adicional.",
+    "source_ids": [
+      "CHL-2021-01-S040"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E001"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G012",
+    "type": "candidate_followup",
+    "description": "ACES protesta frente a Educación contra la Prueba de Transición. Acreditar ≥50 participantes. Precisar agrupación con barricadas de Los Héroes. Abrir fuentes de agresiones a prensa antes de codificar golpes.",
+    "source_ids": [
+      "CHL-2021-01-S027",
+      "CHL-2021-01-S030"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E002"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G013",
+    "type": "candidate_followup",
+    "description": "Protesta en Bonilla por libertad de detenidos de la revuelta. Acreditar ≥50. Distinguir protesta vecinal y eventual ataque armado no elegible. Confirmar arrestos/dispersión y cierre. Contrastar versiones e investigación del disparo.",
+    "source_ids": [
+      "CHL-2021-01-S039",
+      "CHL-2021-01-S071"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E003"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G014",
+    "type": "candidate_followup",
+    "description": "Músicos marchan por apoyos y reapertura de la actividad cultural. Revisar independencia de estimaciones posiblemente basadas en comunicación SCD. Buscar posteriores acciones físicas sin unir campaña automáticamente.",
+    "source_ids": [
+      "CHL-2021-01-S035",
+      "CHL-2021-01-S037"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E004"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G015",
+    "type": "candidate_followup",
+    "description": "Recorrido ciclista exige libertad de detenidos y fin del Sename. Acreditar asistentes ≥50. Identificar centros, ruta y organizador. Buscar noticia local independiente y cierre.",
+    "source_ids": [
+      "CHL-2021-01-S080",
+      "CHL-2021-01-S057"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E005"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G016",
+    "type": "candidate_followup",
+    "description": "Jornada en Plaza Baquedano por salida de Piñera y libertad de detenidos. Determinar balance final de arrestos y estimación más comparable. Precisar violencia de manifestantes, ya que enfrentamientos genéricos no bastan. No usar fecha del 8 para negar acción del 1 reportada por otra fuente.",
+    "source_ids": [
+      "CHL-2021-01-S001",
+      "CHL-2021-01-S029"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E006"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G017",
+    "type": "candidate_followup",
+    "description": "Turismo de Saltos del Laja bloquea puente contra división sanitaria. Verificar cifra con una fuente independiente. La nueva protesta del 28 tiene 30 asistentes y no se incorpora al tamaño de esta.",
+    "source_ids": [
+      "CHL-2021-01-S056",
+      "CHL-2021-01-S038"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E007"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G018",
+    "type": "candidate_followup",
+    "description": "Vecinos de Pueblos Unidos reclaman seguridad y aplicación de normas de vivienda. Acreditar ≥50. Contrastar comunicación local con reporte del día 9. Precisar cierre; reuniones posteriores no prolongan automáticamente protesta física.",
+    "source_ids": [
+      "CHL-2021-01-S054"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E008"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G019",
+    "type": "candidate_followup",
+    "description": "Marcha por liberación de detenidos en paseo Ahumada atacada por un civil. Acreditar ≥50 y organización. Obtener noticia del mismo día y cierre. Separar agresión intercomunal y respuesta estatal a manifestación. No trasladar disparos civiles a shootings.",
+    "source_ids": [
+      "CHL-2021-01-S055",
+      "CHL-2021-01-S063"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E009"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G020",
+    "type": "candidate_followup",
+    "description": "Jornada en Baquedano por libertad de detenidos y contra ultraderecha. Contrastar cifra de 300 y balance final de arrestos. No trasladar agresión civil del 13 a respuestas estatales del 15.",
+    "source_ids": [
+      "CHL-2021-01-S004",
+      "CHL-2021-01-S053",
+      "CHL-2021-01-S044"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E010"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G021",
+    "type": "candidate_followup",
+    "description": "Lef Trawün en Temucuicui sobre represión y derechos colectivos. Resolver elegibilidad como protesta y umbral ≥50. Comprobar asistencia efectiva institucional antes de codificar accommodation. Revisar demanda tierra con texto comunitario y manual.",
+    "source_ids": [
+      "CHL-2021-01-S023",
+      "CHL-2021-01-S017"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E011"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G022",
+    "type": "candidate_followup",
+    "description": "Marcha por libertad de detenidos desde Baquedano hacia La Moneda. Validar balance final y delimitación de la jornada. No usar misma asistencia para múltiples estaciones o enfrentamientos.",
+    "source_ids": [
+      "CHL-2021-01-S007",
+      "CHL-2021-01-S010",
+      "CHL-2021-01-S002",
+      "CHL-2021-01-S042"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E012"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G023",
+    "type": "candidate_followup",
+    "description": "Portuarios bloquean TCVAL por exclusión de acuerdo de continuidad laboral. Acreditar ≥50 asistentes. Verificar objetivo estatal bajo manual y carácter EPV/TCVAL. Precisar quién negoció; autoridad marítima que dialoga no prueba concesión laboral. Bloqueo físico no demuestra por sí solo violencia contra Estado. Cierre posterior a negociación no documentado.",
+    "source_ids": [
+      "CHL-2021-01-S033"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E013"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G024",
+    "type": "candidate_followup",
+    "description": "Gremios turísticos de Pucón marchan contra cuarentena total. Resolver relación con pequeña protesta del 26. Verificar cierre físico y respuesta estatal. Contrastar cifra con fuente independiente.",
+    "source_ids": [
+      "CHL-2021-01-S031",
+      "CHL-2021-01-S041"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E014"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G025",
+    "type": "candidate_followup",
+    "description": "Jornada en Baquedano por detenidos y responsabilidades estatales. Acreditar ≥50. Contrastar relato de golpes; no convertirlo en balance de lesionados. Faltan otros campos de respuesta y balance judicial definitivo.",
+    "source_ids": [
+      "CHL-2021-01-S046",
+      "CHL-2021-01-S008",
+      "CHL-2021-01-S060",
+      "CHL-2021-01-S082"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E015"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G026",
+    "type": "candidate_followup",
+    "description": "Vecinos de Cerrillos levantan barricadas por cortes de electricidad. Acreditar ≥50 asistentes. Verificar objetivo estatal y lugar exacto. Precisar fecha de inicio real y continuidad hacia febrero. 100 familias afectadas no demuestra 100 participantes.",
+    "source_ids": [
+      "CHL-2021-01-S081",
+      "CHL-2021-01-S043"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E016"
+    ],
+    "required_followup": "Resolver las preguntas indicadas con evidencia contemporánea u original; revisar manual y duplicados antes de modificar elegibilidad o aprobar campos."
+  },
+  {
+    "gap_id": "CHL-2021-01-G027",
+    "type": "inaccessible_archive",
+    "description": "Fuente inaccesible: https://estallidosocial.com/resumen-de-noticias-8-al-14-de-enero/. Acceso falló con 502 Bad Gateway.",
+    "source_ids": [
+      "CHL-2021-01-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Buscar copia autorizada o otra fuente contemporánea disponible; no eludir bloqueo ni usar el snippet como prueba. Para enlaces sin fecha, verificar además su pertenencia a enero."
+  },
+  {
+    "gap_id": "CHL-2021-01-G028",
+    "type": "inaccessible_archive",
+    "description": "Fuente inaccesible: https://www.24horas.cl/nacional/al-menos-cinco-personas-detenidas-en-primera-protesta-masiva-del-2021-en-plaza-baquedano-4601406. Apertura fallida tras intentos de acceso; no se eludió el bloqueo ni se utilizó la noticia para codificar.",
+    "source_ids": [
+      "CHL-2021-01-S006"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E006"
+    ],
+    "required_followup": "Buscar copia autorizada o otra fuente contemporánea disponible; no eludir bloqueo ni usar el snippet como prueba. Para enlaces sin fecha, verificar además su pertenencia a enero."
+  },
+  {
+    "gap_id": "CHL-2021-01-G029",
+    "type": "inaccessible_archive",
+    "description": "Fuente inaccesible: https://fenatsnacional.cl/noticias/hoy-se-dio-inicio-al-paro-de-48-horas-de-los-trabajadores-de-la-salud-2/. Acceso falló con 406 Not Acceptable; no se eludió bloqueo.",
+    "source_ids": [
+      "CHL-2021-01-S016"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Buscar copia autorizada o otra fuente contemporánea disponible; no eludir bloqueo ni usar el snippet como prueba. Para enlaces sin fecha, verificar además su pertenencia a enero."
+  },
+  {
+    "gap_id": "CHL-2021-01-G030",
+    "type": "inaccessible_archive",
+    "description": "Fuente inaccesible: https://www.cooperativa.cl/noticias/pais/manifestaciones/carabineros-agredio-a-periodistas-que-cubrian-manifestacion-estudiantil/2021-01-04/101106.html. Apertura falló o agotó tiempo; segundo intento cuando correspondía también falló.",
+    "source_ids": [
+      "CHL-2021-01-S028"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E002"
+    ],
+    "required_followup": "Buscar copia autorizada o otra fuente contemporánea disponible; no eludir bloqueo ni usar el snippet como prueba. Para enlaces sin fecha, verificar además su pertenencia a enero."
+  },
+  {
+    "gap_id": "CHL-2021-01-G031",
+    "type": "inaccessible_archive",
+    "description": "Fuente inaccesible: https://www.latercera.com/nacional/noticia/carabineros-reporta-manifestacion-e-interrupcion-del-transito-vehicular-en-el-sector-de-plaza-baquedano/BR22N4ITERABZKSYWA7BZ3D62Q/?outputType=base-amp-type. Apertura deshabilitada por herramienta.",
+    "source_ids": [
+      "CHL-2021-01-S048"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Buscar copia autorizada o otra fuente contemporánea disponible; no eludir bloqueo ni usar el snippet como prueba. Para enlaces sin fecha, verificar además su pertenencia a enero."
+  },
+  {
+    "gap_id": "CHL-2021-01-G032",
+    "type": "inaccessible_archive",
+    "description": "Fuente inaccesible: https://termometro.cl/2021/01/07/hombre-resulto-lesionado-tras-recibir-disparo-de-carabinero-durante-manifestaciones-en-sector-bonilla/. Acceso falló con 403 Forbidden; no se eludió bloqueo.",
+    "source_ids": [
+      "CHL-2021-01-S072"
+    ],
+    "affected_candidates": [
+      "CHL-2021-01-E003"
+    ],
+    "required_followup": "Buscar copia autorizada o otra fuente contemporánea disponible; no eludir bloqueo ni usar el snippet como prueba. Para enlaces sin fecha, verificar además su pertenencia a enero."
+  }
+]

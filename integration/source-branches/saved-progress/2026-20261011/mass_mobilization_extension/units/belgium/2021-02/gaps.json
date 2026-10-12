@@ -1,0 +1,81 @@
+[
+  {
+    "gap_id": "belgium_2021-02_G001",
+    "type": "coverage_search_method_language",
+    "description": "The completed open-web first pass captured 27 search invocations and 586 result headers in English, French, Dutch and German. It includes four weekly windows, Brussels and regional/city searches, and labor, education, health, culture, migrant-regularisation, feminist-action and anti-Covid leads. Results remain Brussels-heavy; local and regional archives are not comprehensive, the web method does not reproduce LexisNexis, and this is not an exhaustive absence finding. An original-response audit repaired 14 existing partial/normalized rows and restored one omitted header from hash-verified captures; this added no search. All 27 records now have response-capture times and 15 also have execution timestamps.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If coverage is extended, search additional contemporary regional archives and local records across Flanders, Wallonia and the German-speaking community, and retain the open-web versus LexisNexis limitation. Do not treat query counts or empty results as protest=0."
+  },
+  {
+    "gap_id": "belgium_2021-02_G002",
+    "type": "episode_unit_source_access",
+    "description": "Early-February discovery cards S001, S002 and S004 concern a Sunday Brussels anti-Covid assembly and arrests; S004 explicitly dates the described gathering to 31 January. They do not establish a distinct February execution or physical continuation. These leads concern the prior-unit candidate belgium_2021-01_E009; they are not a February candidate. S004 access-check deferred during changing source inputs and its body was not requested.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004"
+    ],
+    "affected_candidates": [
+      "belgium_2021-01_E009"
+    ],
+    "required_followup": "If reopened, run a fresh exact-URL access-check before each body request, verify the reported date, attendance and event identity, and determine any physical continuity. Do not treat arrests as attendance or create a February onset from a February publication date."
+  },
+  {
+    "gap_id": "belgium_2021-02_G003",
+    "type": "baseline",
+    "description": "The saved May 2015 codebook was consulted, but the latest official event file, current schema/universe and reuse terms remain unverified in the project baseline.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator resolves the official baseline and compatibility gate before any export or integration."
+  },
+  {
+    "gap_id": "belgium_2021-02_G004",
+    "type": "episode_unit_dates_participants_source_access",
+    "description": "The Beguinage Church occupation is a cross-month lead with unresolved ownership and threshold. January unit belgium_2021-01_E008 records a Jan 30/31 origin but says the first simultaneous >=50 gathering and public-forum boundary are unresolved. February search cards S014-S016 report an early-February occupation and one search-only count, but the exact BRUZZ and BX1 pages returned HTTP 403 without readable bodies. Opened July VUB/VLIR statement S017 ambiguously says the church and university premises were occupied “since the end of February,” in tension with early-February search leads; it supplies no count or exact onset. No February continuation or event is coded.",
+    "source_ids": [
+      "S014",
+      "S015",
+      "S016",
+      "S017"
+    ],
+    "affected_candidates": [
+      "belgium_2021-01_E008"
+    ],
+    "required_followup": "Resolve the exact occupation timeline, first >=50 simultaneous public assembly, public-forum eligibility and January-versus-February ownership using permitted source bodies. Do not convert unverified search snippets or the ambiguous July retrospective into a February event."
+  },
+  {
+    "gap_id": "belgium_2021-02_G005",
+    "type": "state_target_source_independence_contested_evidence_dates",
+    "description": "Candidate belgium_2021-02_E001 is supported as an executed Feb 13 local gathering above 50 by opened accounts S008 and S011. The Brussels Times attributes around 80 to local police; BX1/Belga reports about 100 activists, so they are not counted as independent turnout confirmation. They name Parvis de Saint-Gilles versus Place Marie Janson, and the organizer/police accounts differ about police containment. Safety and anti-harassment grievances are clear, but an explicit Belgian government recipient or policy remedy is not; eligibility stays pending_state_target. Organizer/eyewitness leads S007 and S010 returned exact-URL HTTP 404 and were not read. The physical end is unknown.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "belgium_2021-02_E001"
+    ],
+    "required_followup": "Seek permitted body-read evidence for a concrete domestic government or policy target, clarify the exact location and contested police-intervention account without treating Belga copies as independent, and establish the physical end. Keep unknown fields unknown and the candidate pending coordinator review."
+  },
+  {
+    "gap_id": "belgium_2021-02_G006",
+    "type": "occurrence_participants_state_target_source_access",
+    "description": "Opened PTB report S018 describes mixed workplace strikes, mobilizations, awareness actions and car convoys on Feb 25, with wage and early-retirement claims, but gives no site-specific public crowd count. Search-only cards S019-S022 add union/local action leads. S019 exact URL returned HTTP 200, but only the JouwWeb bootstrap prefix was inspected; article text and event facts remain unverified, so the card stays search_only. Its web-open and fallback sequence is retained in the receipt manifest with the missing separate per-attempt receipt disclosed. No eligible public assembly is coded from worker totals, workplace strikes, convoys, notices or this unverified page.",
+    "source_ids": [
+      "S018",
+      "S019",
+      "S020",
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Look for permitted after-action reports that identify a public meeting, event-specific simultaneous attendance of at least 50, location and demand recipient. Keep workplace activity, affected workers and planned notices separate from public crowd attendance."
+  }
+]

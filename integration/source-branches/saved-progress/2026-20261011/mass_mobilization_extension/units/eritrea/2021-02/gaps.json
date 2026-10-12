@@ -1,0 +1,115 @@
+[
+  {
+    "gap_id": "ERI202102-G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization version, universe, schema and latest compatible file set remain unresolved at the coordinator level. The local original codebook was read for criteria but does not close the official baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resolve the official baseline comparison before any official integration; retain provisional ccode 531."
+  },
+  {
+    "gap_id": "ERI202102-G002",
+    "type": "search_method_coverage",
+    "description": "Six actual batched web searches (22 constituent search strings) returned 165 ordered header records. This is an open-web first pass, not the LexisNexis All News workflow or a systematic newspaper/radio archive census. No total-result counts were available or invented.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review accessible local/regional news archives and the historical LexisNexis-equivalent sources if access becomes available; preserve every actual query and response."
+  },
+  {
+    "gap_id": "ERI202102-G003",
+    "type": "candidate_threshold_evidence",
+    "description": "No search result established a real public gathering inside Eritrea that began in February 2021, involved at least 50 people and made a demand of Eritrea’s government or policy. This is an evidence limitation, not a finding that no protest occurred. All event candidates remain empty.",
+    "source_ids": [
+      "ERI202102-S009",
+      "ERI202102-S010",
+      "ERI202102-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "For any domestic lead, verify an executed public gathering, simultaneous attendance threshold, start date, location and own-government target from contemporary sources; do not treat general repression context as event evidence."
+  },
+  {
+    "gap_id": "ERI202102-G004",
+    "type": "unverified_call_to_action",
+    "description": "A search-only Reddit result describes a diaspora call/discussion urging relatives or young people to return and protest in Asmara. It does not establish that anyone assembled, the event date/location or attendance. It is retained as a lead, not an event candidate.",
+    "source_ids": [
+      "ERI202102-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If the lead is pursued, seek contemporary reporting or attributable material confirming whether an actual gathering occurred and its start date, location, demand and attendance."
+  },
+  {
+    "gap_id": "ERI202102-G005",
+    "type": "language_coverage",
+    "description": "Searches used English, Arabic and Tigrinya terms. No fluent Tigrinya/Arabic review, qualified translation, audio review or systematic searches in Tigre, Afar, Saho, Bilen or Kunama were completed. The surfaced Tigrinya report was not translated or opened.",
+    "source_ids": [
+      "ERI202102-S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use qualified language review and accessible local-language news/audio archives; record the exact read scope and retain uncertainty."
+  },
+  {
+    "gap_id": "ERI202102-G006",
+    "type": "source_access_unread",
+    "description": "All 14 source cards are search_only. No article/report body was requested or read, so snippets, event claims, origin relationships and publisher restrictions were not verified. Physical body reads: 0; usable compliant evidence sources: 0. No URL-specific receipts were generated because there were no body attempts.",
+    "source_ids": [
+      "ERI202102-S001",
+      "ERI202102-S002",
+      "ERI202102-S003",
+      "ERI202102-S004",
+      "ERI202102-S005",
+      "ERI202102-S006",
+      "ERI202102-S007",
+      "ERI202102-S008",
+      "ERI202102-S009",
+      "ERI202102-S010",
+      "ERI202102-S011",
+      "ERI202102-S012",
+      "ERI202102-S013",
+      "ERI202102-S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If an exact source body is needed, obtain a fresh stable exact-URL receipt, complete the contemporaneous publisher/origin review and verify live path/hash inputs before that individual request."
+  },
+  {
+    "gap_id": "ERI202102-G007",
+    "type": "geographic_scope_and_conflict_attribution",
+    "description": "Search results also surfaced protests in Ethiopia, Somalia and Djibouti, plus refugee/diaspora activity outside Eritrea. Tigray conflict deaths, displacement, allegations against Eritrean troops and military actions in Ethiopia are not protest events inside Eritrea and cannot be transferred into protest turnout or protest-specific state-response fields.",
+    "source_ids": [
+      "ERI202102-S001",
+      "ERI202102-S006",
+      "ERI202102-S012",
+      "ERI202102-S013",
+      "ERI202102-S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep the event’s physical location and target government separate; verify any proposed protest response in the same episode and location."
+  },
+  {
+    "gap_id": "ERI202102-G008",
+    "type": "continuation",
+    "description": "The January 2021 Eritrea dossier recorded no verified physically continuing domestic protest into February. This pass found no verified February continuation; historical imprisonment, diaspora advocacy and war activity do not establish a physically continuing gathering.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Recheck neighboring-month coverage only if a specific domestic physical episode is identified; preserve the original start-month owner."
+  },
+  {
+    "gap_id": "ERI202102-G009",
+    "type": "historical_date_confusion",
+    "description": "Multiple searches surfaced the well-known Asmara/Al Diaa school protest from October 2017, alongside 2021-edition reports. A publication or edition year is not the protest date; the 2017 event is excluded from February 2021.",
+    "source_ids": [
+      "ERI202102-S007",
+      "ERI202102-S008",
+      "ERI202102-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify event dates from article bodies and original reports before assigning events to a month."
+  },
+  {
+    "gap_id": "ERI202102-G010",
+    "type": "search_tool_access",
+    "description": "One batched web-search response reported that dw.com was blocked by robots.txt. This was a search-tool restriction; no direct URL was returned for a body request, no retry was made and no publisher-wide denial was inferred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use other accessible sources; respect any direct denial encountered in a future source attempt."
+  }
+]

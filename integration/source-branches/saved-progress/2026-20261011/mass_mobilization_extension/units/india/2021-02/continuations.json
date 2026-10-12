@@ -1,0 +1,335 @@
+[
+  {
+    "continuation_id": "IND202102-C001",
+    "country": "India",
+    "unit_month": "2021-02",
+    "end_date": null,
+    "end_precision": "unknown",
+    "status": "continuation_pending_review",
+    "title": "Campamentos contra las leyes agrarias en fronteras de Delhi",
+    "start_date": "2020-11",
+    "start_precision": "month",
+    "possible_owner_unit": "india/2020-11",
+    "episode_key": "india-farm-laws-2020-11",
+    "location": "Singhu, Tikri, Ghazipur y otras fronteras de Delhi",
+    "source_ids": [
+      "IND202102-S002",
+      "IND202102-S008",
+      "IND202102-S012"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "IND202102-S002"
+        ],
+        "summary": "Cronología ubica llegada y establecimiento en noviembre; día exacto de cada campamento no fijado."
+      },
+      "continuity": {
+        "source_ids": [
+          "IND202102-S008",
+          "IND202102-S012"
+        ],
+        "summary": "Campamentos continúan durante febrero."
+      }
+    },
+    "related_candidates": [
+      "IND202102-E006",
+      "IND202102-E018"
+    ],
+    "notes": "Jornadas Chakka Jam y Rail Roko quedan pending_unit; no generan automáticamente un nuevo campamento mensual.",
+    "open_questions": [
+      "Alinear episode_key con unidad noviembre y enero.",
+      "Distinguir acción nacional nueva de campamento continuo.",
+      "Seguir cierre con evidencia física."
+    ]
+  },
+  {
+    "continuation_id": "IND202102-C002",
+    "country": "India",
+    "unit_month": "2021-02",
+    "end_date": null,
+    "end_precision": "unknown",
+    "status": "continuation_pending_review",
+    "title": "BEML Palakkad contra privatización",
+    "start_date": "2021-01-06",
+    "start_precision": "day",
+    "possible_owner_unit": "india/2021-01",
+    "episode_key": "india-beml-palakkad-2021-01-06",
+    "location": "Palakkad, Kerala",
+    "source_ids": [
+      "IND202102-S136",
+      "IND202102-S137"
+    ],
+    "related_prior_candidates": [
+      "IND202101-E002"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "IND202102-S137"
+        ],
+        "summary": "Dharna iniciado el 6 enero."
+      },
+      "continuity": {
+        "source_ids": [
+          "IND202102-S136"
+        ],
+        "summary": "Human wall de miles el 17 dentro de movilización en curso."
+      }
+    },
+    "notes": "No duplicar mes de enero; verificar si acción del 17 amerita evento independiente según frontera de unidad.",
+    "open_questions": [
+      "Cierre no documentado.",
+      "Revisar subacción del 17 sin dividir por artículo."
+    ]
+  },
+  {
+    "continuation_id": "IND202102-C003",
+    "country": "India",
+    "unit_month": "2021-02",
+    "end_date": null,
+    "end_precision": "unknown",
+    "status": "continuation_pending_review",
+    "title": "Adivasis contra expansión de minas Kulda",
+    "start_date": "2021-01-19",
+    "start_precision": "day",
+    "possible_owner_unit": "india/2021-01",
+    "episode_key": "india-kulda-2021-01-19",
+    "location": "Sundargarh, Odisha",
+    "source_ids": [
+      "IND202102-S227",
+      "IND202102-S225"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "IND202102-S227"
+        ],
+        "summary": "Protestas desde el 19 enero."
+      },
+      "continuity": {
+        "source_ids": [
+          "IND202102-S227",
+          "IND202102-S225"
+        ],
+        "summary": "En febrero sigue oposición; NAPM menciona cinco mil reunidos."
+      },
+      "state_response": {
+        "source_ids": [
+          "IND202102-S227"
+        ],
+        "summary": "Arresto de dieciséis en sitio el 14 febrero; artículo publicado el 16."
+      }
+    },
+    "state_response": {
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "accommodation": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "notes": "Hallazgo nuevo para revisar hueco de enero. Demanda estatal por autorizaciones mineras, derechos y normas ambientales. Denuncias de abuso requieren contraste.",
+    "open_questions": [
+      "No confundir 16 arrestados con 16 febrero.",
+      "Contrastar cifra de NAPM y denuncias; identificar fin físico.",
+      "Añadir revisión de enero antes de generar fila nueva de febrero."
+    ]
+  },
+  {
+    "continuation_id": "IND202102-C004",
+    "country": "India",
+    "unit_month": "2021-02",
+    "end_date": null,
+    "end_precision": "unknown",
+    "status": "continuation_pending_review",
+    "title": "MCD Delhi por salarios y pensiones",
+    "start_date": "2021-01-07",
+    "start_precision": "day",
+    "possible_owner_unit": "india/2021-01",
+    "episode_key": "india-mcd-wages-2021-01-07",
+    "location": "Delhi",
+    "source_ids": [
+      "IND202102-S145",
+      "IND202102-S159"
+    ],
+    "related_prior_candidates": [
+      "IND202101-E001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "IND202102-S145"
+        ],
+        "summary": "Inicio de huelga indefinida el 7 enero."
+      },
+      "continuity": {
+        "source_ids": [
+          "IND202102-S159"
+        ],
+        "summary": "Audiencia del 5: sindicatos anuncian retirada de huelga y regreso al trabajo el 6; cierre físico no verificado."
+      }
+    },
+    "notes": "Reanudar funciones el 6 significa volver al trabajo, no reanudar la protesta. Fin de huelga anunciado no acredita fecha de retirada de reuniones exteriores.",
+    "open_questions": [
+      "Confirmar retirada física de reuniones al terminar huelga.",
+      "Evitar prolongación mensual por salarios pendientes o confundir retorno al trabajo con protesta nueva."
+    ]
+  },
+  {
+    "continuation_id": "IND202102-C005",
+    "country": "India",
+    "unit_month": "2021-02",
+    "end_date": null,
+    "end_precision": "unknown",
+    "status": "continuation_pending_review",
+    "title": "PSC Last Grade Servant aspirantes por nombramientos",
+    "start_date": "2021-01-26",
+    "start_precision": "day",
+    "possible_owner_unit": "india/2021-01",
+    "episode_key": "india-kerala-psc-lgs-2021-01-26",
+    "location": "Secretariado Thiruvananthapuram, Kerala",
+    "source_ids": [
+      "IND202102-S394",
+      "IND202102-S397",
+      "IND202102-S409"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "IND202102-S394",
+          "IND202102-S397"
+        ],
+        "summary": "Inicio el 26 enero."
+      },
+      "continuity": {
+        "source_ids": [
+          "IND202102-S409"
+        ],
+        "summary": "Cientos reunidos en febrero; grupos PSC deben separarse."
+      },
+      "end_date": {
+        "source_ids": [
+          "IND202102-S397"
+        ],
+        "summary": "Titular anuncia levantamiento el 28; declaración condiciona retirada a recepción del acta."
+      },
+      "state_response": {
+        "source_ids": [
+          "IND202102-S397"
+        ],
+        "summary": "Reunión conciliatoria con ministro y compromiso sobre nombramientos."
+      }
+    },
+    "announced_end_date": "2021-02-28",
+    "state_response": {
+      "accommodation": "yes",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "notes": "No fijar fin físico sólo con anuncio condicionado; CPO explícitamente sigue. La fecha del 28 no se aplica a todo PSC.",
+    "open_questions": [
+      "Confirmar retirada física LGS y recibir acta.",
+      "Identificar inicio/umbral/cierre del grupo CPO por separado."
+    ]
+  },
+  {
+    "continuation_id": "IND202102-C006",
+    "country": "India",
+    "unit_month": "2021-02",
+    "end_date": null,
+    "end_precision": "unknown",
+    "status": "continuation_pending_review",
+    "title": "Para-teachers Bengal por igualdad salarial",
+    "start_date": "2020-12",
+    "start_precision": "month",
+    "possible_owner_unit": "india/2020-12",
+    "episode_key": "india-bengal-para-teachers-2020-12",
+    "location": "Bikash Bhawan, Kolkata; acción en canal cercano a residencia CM",
+    "source_ids": [
+      "IND202102-S417",
+      "IND202102-S392",
+      "IND202102-S209"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "IND202102-S417"
+        ],
+        "summary": "Dice 8 diciembre pero duración y otras pistas discrepan; sólo mes firme."
+      },
+      "continuity": {
+        "source_ids": [
+          "IND202102-S417",
+          "IND202102-S392"
+        ],
+        "summary": "Campamento continúa y canal del 16 descrito como acción salarial."
+      },
+      "state_response": {
+        "source_ids": [
+          "IND202102-S392"
+        ],
+        "summary": "Dispersión de quienes entraron al canal."
+      }
+    },
+    "state_response": {
+      "crowd_dispersal": "yes",
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "notes": "No convertir 63.000 docentes de plantilla en asistentes. WSWS ubica canal el 17, PTI fechado el 16 tiene mejor precisión. Marcha del 5 aparece en compendio, sin umbral verificado.",
+    "open_questions": [
+      "Resolver inicio 8/18 diciembre y continuidad física.",
+      "Confirmar tamaño en acciones 5 y 16; posibles nuevas fases.",
+      "Contrastar respuesta de canal; no codificar arrestos por pista sola."
+    ]
+  },
+  {
+    "continuation_id": "IND202102-C007",
+    "country": "India",
+    "unit_month": "2021-02",
+    "end_date": "2021-01-27",
+    "end_precision": "day",
+    "status": "neighbour_month_followup_closed_before_assigned_month",
+    "title": "Campamento docente Tripura previo a febrero",
+    "start_date": "2020-12",
+    "start_precision": "month",
+    "possible_owner_unit": "india/2020-12",
+    "episode_key": "india-tripura-teachers-2020-12",
+    "location": "Agartala, Tripura",
+    "source_ids": [
+      "IND202102-S389"
+    ],
+    "related_candidates": [
+      "IND202102-E032"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "IND202102-S389"
+        ],
+        "summary": "Fuente del 8 febrero dice cincuenta días de sit-in hasta 27 enero; mes diciembre derivado, día no fijado aquí."
+      },
+      "end_date": {
+        "source_ids": [
+          "IND202102-S389"
+        ],
+        "summary": "Sit-in disuelto forzosamente el 27 enero."
+      }
+    },
+    "notes": "Seguimiento de episodio previo, cerrado antes de febrero. El texto del 8 dice cincuenta días; enero documentó 52 y comienzo 7 diciembre: discrepancia menor pendiente. E032 tiene asistencia propia sin comprobar.",
+    "open_questions": [
+      "Alinear día de inicio 7 diciembre con evidencias de unidad diciembre/enero.",
+      "No transferir detenciones, gases y lesiones de enero al acto 16 febrero."
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "unit_id": "congo_kinshasa_2021-02",
+  "country": "Congo Kinshasa",
+  "month": "2021-02",
+  "agent_task": "01a12495-683e-7a41-8b8f-a90846fb7ed7",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T06:53:48.792Z",
+  "finished_at": "2026-10-10T08:12:05.409Z",
+  "n_queries": 24,
+  "n_sources": 38,
+  "n_candidates": 6,
+  "n_excluded": 3,
+  "n_continuations": 0,
+  "n_gaps": 12,
+  "coverage_assessment": "Bounded open-web first pass: 24 actual queries / 378 ordered result headers across French national and regional searches, local-language probes and weekly February/date-boundary coverage, with labor, security, governance, cost/fuel and education searches. Body evidence is incomplete; LexisNexis was unavailable. Six raw candidate records remain; coordinator overrides quarantine E001/E002 as pending_evidence after five historical body outputs were found without contemporaneous saved manual-review notes. E003 remains supported by existing compliant evidence; E004-E006 remain below/awaiting attendance threshold. Three exclusions and twelve explicit gaps are retained. Search coverage is not completeness.",
+  "baseline_gate": "pending_official_baseline",
+  "receipt_manifest": "access_receipts/receipt_manifest.json",
+  "receipt_manifest_sha256": "a16cba28838fd0a6a3a27166b14da4097d50a32e62489cad871da53e7a77039f",
+  "chronology_clock_supplement_path": "access_receipts/CDK-2021-02-manual_review_clock_supplement-001.json",
+  "chronology_clock_supplement_sha256": "79fa44426d28700555d912858990c58c698c31903aba5844a2a223ca1ef4390c",
+  "access_integrity_correction": {
+    "contract_clause": "sessions/2021/batch55_acceptance.txt#Kinshasa-missing-manual-note-quarantine-2026-10-10T08:22:52.713546+00:00",
+    "affected_attempts": 10,
+    "quarantined_body_outputs": [
+      "CDK-2021-02-S003",
+      "CDK-2021-02-S007",
+      "CDK-2021-02-S016",
+      "CDK-2021-02-S020",
+      "CDK-2021-02-S021"
+    ],
+    "no_body_attempt_sources": [
+      "CDK-2021-02-S001",
+      "CDK-2021-02-S008",
+      "CDK-2021-02-S023"
+    ],
+    "manual_review_notes_created": 0,
+    "retroactive_authorization": false,
+    "pre_correction_history": "access_receipts/history/missing_manual_review_quarantine_001/snapshot.json",
+    "effective_candidate_overrides": "mass_mobilization_extension/review/decisions.json (E001, E002 pending_evidence)",
+    "clock_sample_at": "2026-10-10T08:25:32+00:00",
+    "recorded_at": null,
+    "recorded_at_status": "unknown; the prior clock sample preceded the file write and is not an edit-completion timestamp",
+    "observed_write_mtime": "2026-10-10T08:26:55.233849+00:00",
+    "write_mtime_basis": "filesystem mtime observed at 2026-10-10T08:30:57+00:00; not a manual-review completion time",
+    "timestamp_supplement_history": "access_receipts/history/missing_manual_review_quarantine_002/snapshot.json",
+    "timestamp_supplement_snapshot_sha256": "f178999f86a651b8aa192c3637f408132f3d6de0d7fed3079c8c2779d386e7e5"
+  }
+}

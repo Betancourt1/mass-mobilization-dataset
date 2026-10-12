@@ -1,0 +1,313 @@
+[
+  {
+    "gap_id": "CDK-2021-01-G001",
+    "type": "participants_threshold",
+    "affected_candidates": [
+      "CDK-2021-01-E001",
+      "CDK-2021-01-E002",
+      "CDK-2021-01-E003",
+      "CDK-2021-01-E004",
+      "CDK-2021-01-E005",
+      "CDK-2021-01-E006",
+      "CDK-2021-01-E007",
+      "CDK-2021-01-E008",
+      "CDK-2021-01-E009",
+      "CDK-2021-01-E010",
+      "CDK-2021-01-E011",
+      "CDK-2021-01-E012",
+      "CDK-2021-01-E013",
+      "CDK-2021-01-E014",
+      "CDK-2021-01-E015",
+      "CDK-2021-01-E016",
+      "CDK-2021-01-E017",
+      "CDK-2021-01-E018"
+    ],
+    "source_ids": [],
+    "summary": "No candidate has a verified >=50 actual crowd. Institutions,15000 workforce,2000 at other events, two/eight/20 detainees and planned ten-person delegation are not attendance.",
+    "required_followup": "Find attributable actual crowd estimates for each physical gathering; do not infer from affected populations."
+  },
+  {
+    "gap_id": "CDK-2021-01-G002",
+    "type": "physical_dates",
+    "affected_candidates": [
+      "CDK-2021-01-E001",
+      "CDK-2021-01-E002",
+      "CDK-2021-01-E003",
+      "CDK-2021-01-E004",
+      "CDK-2021-01-E005",
+      "CDK-2021-01-E006",
+      "CDK-2021-01-E007",
+      "CDK-2021-01-E008",
+      "CDK-2021-01-E009",
+      "CDK-2021-01-E010",
+      "CDK-2021-01-E011",
+      "CDK-2021-01-E012",
+      "CDK-2021-01-E013",
+      "CDK-2021-01-E014",
+      "CDK-2021-01-E015",
+      "CDK-2021-01-E016",
+      "CDK-2021-01-E017",
+      "CDK-2021-01-E018"
+    ],
+    "source_ids": [],
+    "summary": "Physical closure is unverified for all candidates; announcements and unread leads have null start. Village Maxime has month precision only.",
+    "required_followup": "Find executed gathering start/end evidence, preserving article date, strike duration and deadline separately."
+  },
+  {
+    "gap_id": "CDK-2021-01-G003",
+    "type": "episode_unit_bukavu",
+    "affected_candidates": [
+      "CDK-2021-01-E001",
+      "CDK-2021-01-E002",
+      "CDK-2021-01-E014"
+    ],
+    "source_ids": [
+      "CDK-2021-01-S134",
+      "CDK-2021-01-S136",
+      "CDK-2021-01-S138"
+    ],
+    "summary": "ISP January8, general January12 and announced January27 reopening actions may form a campaign but physical event boundaries unresolved.",
+    "required_followup": "Check intervening actions, organizers, gaps and execution; keep pending_unit and announcement pending_evidence."
+  },
+  {
+    "gap_id": "CDK-2021-01-G004",
+    "type": "episode_unit_beni",
+    "affected_candidates": [
+      "CDK-2021-01-E006",
+      "CDK-2021-01-E009"
+    ],
+    "source_ids": [
+      "CDK-2021-01-S179",
+      "CDK-2021-01-S180"
+    ],
+    "summary": "Tax/detainee demands and MONUSCO security demands overlap January6–11; January6 start inferred from second-day report.",
+    "required_followup": "Read intervening January8/9 reports and establish pauses, first actual day, distinct demands and ownership."
+  },
+  {
+    "gap_id": "CDK-2021-01-G005",
+    "type": "episode_unit_zando",
+    "affected_candidates": [
+      "CDK-2021-01-E007",
+      "CDK-2021-01-E008"
+    ],
+    "source_ids": [
+      "CDK-2021-01-S182",
+      "CDK-2021-01-S001"
+    ],
+    "summary": "January19 and25 assemblies described amid repeated closure protests; earliest episode onset unresolved.",
+    "required_followup": "Find earlier January protests and cessation evidence before merging or selecting onset."
+  },
+  {
+    "gap_id": "CDK-2021-01-G006",
+    "type": "state_target",
+    "affected_candidates": [
+      "CDK-2021-01-E011",
+      "CDK-2021-01-E015"
+    ],
+    "source_ids": [
+      "CDK-2021-01-S143",
+      "CDK-2021-01-S068"
+    ],
+    "summary": "TMB wages released by private bank after state payment and EDC electricity charges may concern private providers; domestic state demand unresolved.",
+    "required_followup": "Verify institutional status and explicit policy/authority demands before eligibility decision."
+  },
+  {
+    "gap_id": "CDK-2021-01-G007",
+    "type": "state_target_foreign_force",
+    "affected_candidates": [
+      "CDK-2021-01-E006",
+      "CDK-2021-01-E009"
+    ],
+    "source_ids": [
+      "CDK-2021-01-S180",
+      "CDK-2021-01-S056"
+    ],
+    "summary": "MONUSCO-only demand targets foreign force; domestic plate tax and detainee demands separately identified.",
+    "required_followup": "Retain domestic demand evidence by physical episode; do not treat MONUSCO-only demonstration as qualifying automatically."
+  },
+  {
+    "gap_id": "CDK-2021-01-G008",
+    "type": "source_access",
+    "affected_candidates": [
+      "CDK-2021-01-E009",
+      "CDK-2021-01-E015",
+      "CDK-2021-01-E016",
+      "CDK-2021-01-E017",
+      "CDK-2021-01-E018"
+    ],
+    "source_ids": [
+      "CDK-2021-01-S065",
+      "CDK-2021-01-S183",
+      "CDK-2021-01-S027",
+      "CDK-2021-01-S184"
+    ],
+    "summary": "Radio Okapi Beni,7sur7 Tshikapa,Matininfos and ACP Panzi actual403; Lume timed out. Denials respected.",
+    "required_followup": "Seek openly accessible original alternatives or archived lawful public body; keep unverified leads pending evidence."
+  },
+  {
+    "gap_id": "CDK-2021-01-G009",
+    "type": "contested_execution",
+    "affected_candidates": [
+      "CDK-2021-01-E014",
+      "CDK-2021-01-E016"
+    ],
+    "source_ids": [
+      "CDK-2021-01-S138",
+      "CDK-2021-01-S183"
+    ],
+    "summary": "LaPrunelle is announcement only; later secondary search claim on Bukavu arrests/date and archive Primature reception remain unread.",
+    "required_followup": "Open original actual-action follow-ups and reconcile date/attendance; no response inference."
+  },
+  {
+    "gap_id": "CDK-2021-01-G010",
+    "type": "state_response_translation",
+    "affected_candidates": [
+      "CDK-2021-01-E001"
+    ],
+    "source_ids": [
+      "CDK-2021-01-S136",
+      "CDK-2021-01-S134"
+    ],
+    "summary": "Maendeleo says students brutalized; physical method unclear. Worker beatings unknown. Negotiation/delegation exchange explicit; Actualite gunfire separate.",
+    "required_followup": "Assess exact original language; retain uncertainty absent explicit beating method."
+  },
+  {
+    "gap_id": "CDK-2021-01-G011",
+    "type": "source_independence",
+    "affected_candidates": [
+      "CDK-2021-01-E013"
+    ],
+    "source_ids": [
+      "CDK-2021-01-S139"
+    ],
+    "summary": "CongoVirtuel explicitly credits Radio Okapi; variants and republished articles not independent confirmation.",
+    "required_followup": "Identify original dispatch and origins before corroboration counts."
+  },
+  {
+    "gap_id": "CDK-2021-01-G012",
+    "type": "violence_casualties",
+    "affected_candidates": [
+      "CDK-2021-01-E003",
+      "CDK-2021-01-E008",
+      "CDK-2021-01-E010",
+      "CDK-2021-01-E013",
+      "CDK-2021-01-E017"
+    ],
+    "source_ids": [
+      "CDK-2021-01-S001",
+      "CDK-2021-01-S007",
+      "CDK-2021-01-S139",
+      "CDK-2021-01-S027"
+    ],
+    "summary": "Organizer alleges four Goma injured; private stall damage, drivers coerced, earlier grievance arrest and unread jeep lead cannot substitute for state-directed protest violence.",
+    "required_followup": "Verify actors, targets and attribution separately for each response/injury."
+  },
+  {
+    "gap_id": "CDK-2021-01-G013",
+    "type": "coverage_language",
+    "affected_candidates": [
+      "CDK-2021-01-E001",
+      "CDK-2021-01-E002",
+      "CDK-2021-01-E003",
+      "CDK-2021-01-E004",
+      "CDK-2021-01-E005",
+      "CDK-2021-01-E006",
+      "CDK-2021-01-E007",
+      "CDK-2021-01-E008",
+      "CDK-2021-01-E009",
+      "CDK-2021-01-E010",
+      "CDK-2021-01-E011",
+      "CDK-2021-01-E012",
+      "CDK-2021-01-E013",
+      "CDK-2021-01-E014",
+      "CDK-2021-01-E015",
+      "CDK-2021-01-E016",
+      "CDK-2021-01-E017",
+      "CDK-2021-01-E018"
+    ],
+    "source_ids": [],
+    "summary": "French dominates discovery. English, Swahili and Lingala keyword probes returned limited usable January bodies; no systematic local-language archive review.",
+    "required_followup": "Extend localized queries and regional original-media archives, including rural provinces."
+  },
+  {
+    "gap_id": "CDK-2021-01-G014",
+    "type": "coverage_regions_sectors",
+    "affected_candidates": [
+      "CDK-2021-01-E001",
+      "CDK-2021-01-E002",
+      "CDK-2021-01-E003",
+      "CDK-2021-01-E004",
+      "CDK-2021-01-E005",
+      "CDK-2021-01-E006",
+      "CDK-2021-01-E007",
+      "CDK-2021-01-E008",
+      "CDK-2021-01-E009",
+      "CDK-2021-01-E010",
+      "CDK-2021-01-E011",
+      "CDK-2021-01-E012",
+      "CDK-2021-01-E013",
+      "CDK-2021-01-E014",
+      "CDK-2021-01-E015",
+      "CDK-2021-01-E016",
+      "CDK-2021-01-E017",
+      "CDK-2021-01-E018"
+    ],
+    "source_ids": [],
+    "summary": "Weekly keyword and sector/regional pass covered major cities and labor/education/tax/land/security, but sparse usable evidence for Mbandaka,Matadi,Bunia,Kolwezi/Mbuji-Mayi and rural areas.",
+    "required_followup": "Continue provincial and sector archives; zero retained proposals is not evidence no protests occurred."
+  },
+  {
+    "gap_id": "CDK-2021-01-G015",
+    "type": "search_method",
+    "affected_candidates": [
+      "CDK-2021-01-E001",
+      "CDK-2021-01-E002",
+      "CDK-2021-01-E003",
+      "CDK-2021-01-E004",
+      "CDK-2021-01-E005",
+      "CDK-2021-01-E006",
+      "CDK-2021-01-E007",
+      "CDK-2021-01-E008",
+      "CDK-2021-01-E009",
+      "CDK-2021-01-E010",
+      "CDK-2021-01-E011",
+      "CDK-2021-01-E012",
+      "CDK-2021-01-E013",
+      "CDK-2021-01-E014",
+      "CDK-2021-01-E015",
+      "CDK-2021-01-E016",
+      "CDK-2021-01-E017",
+      "CDK-2021-01-E018"
+    ],
+    "source_ids": [],
+    "summary": "56 real queries logged with batch-initiation UTC and pooled URL subsets. Weekly numeric phrases are keyword probes, not precise date filters; early site syntax and heading extraction limited results.",
+    "required_followup": "Use explicit valid domain/date queries and document search engine limits; preserve original attempted queries."
+  },
+  {
+    "gap_id": "CDK-2021-01-G016",
+    "type": "baseline",
+    "affected_candidates": [
+      "CDK-2021-01-E001",
+      "CDK-2021-01-E002",
+      "CDK-2021-01-E003",
+      "CDK-2021-01-E004",
+      "CDK-2021-01-E005",
+      "CDK-2021-01-E006",
+      "CDK-2021-01-E007",
+      "CDK-2021-01-E008",
+      "CDK-2021-01-E009",
+      "CDK-2021-01-E010",
+      "CDK-2021-01-E011",
+      "CDK-2021-01-E012",
+      "CDK-2021-01-E013",
+      "CDK-2021-01-E014",
+      "CDK-2021-01-E015",
+      "CDK-2021-01-E016",
+      "CDK-2021-01-E017",
+      "CDK-2021-01-E018"
+    ],
+    "source_ids": [],
+    "summary": "Official MM original version/universe/schema/access conditions remain pending at coordinator baseline gate.",
+    "required_followup": "Resolve official baseline separately before deduplication, official-update claims or data inclusion."
+  }
+]

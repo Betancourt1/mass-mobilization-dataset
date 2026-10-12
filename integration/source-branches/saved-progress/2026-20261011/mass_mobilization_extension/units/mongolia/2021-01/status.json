@@ -1,0 +1,97 @@
+{
+  "unit_id": "mongolia_2021-01",
+  "country": "Mongolia",
+  "month": "2021-01",
+  "agent_task": "/root/mongolia_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T18:35:05Z",
+  "n_queries": 32,
+  "n_sources": 32,
+  "n_candidates": 3,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 9,
+  "coverage_assessment": "Thirty-two literal queries across eight pooled result batches cover Mongolian Cyrillic and English, weekly periods, labor/mining/health/education, Ulaanbaatar and the named regional cities, and December/February boundaries. Each source URL matches a preserved returned URL. The Jan 20 candidate has conflicting crowd reports, including conflicting NHRC 15:00 estimates; ICNL-IRIM also reports peak 5,000, AFP about 5,000, bne more than 10,000, while CNA’s opened body calls the protest small without a count. E002 remains pending_threshold; E003 has no headcount and unresolved relation to E001. Searches did not establish another dated Jan 1–19, regional or separate sectoral gathering; this is not evidence of absence. Open-web coverage is non-exhaustive and not equivalent to LexisNexis.",
+  "baseline_gate": "pending_official_baseline",
+  "source_card_audit_repair": {
+    "corrected_source_ids": [
+      "MNG21JAN-S004",
+      "MNG21JAN-S005",
+      "MNG21JAN-S012",
+      "MNG21JAN-S013",
+      "MNG21JAN-S014",
+      "MNG21JAN-S015",
+      "MNG21JAN-S016",
+      "MNG21JAN-S017",
+      "MNG21JAN-S018",
+      "MNG21JAN-S006",
+      "MNG21JAN-S009",
+      "MNG21JAN-S011",
+      "MNG21JAN-S020",
+      "MNG21JAN-S021",
+      "MNG21JAN-S022",
+      "MNG21JAN-S024"
+    ],
+    "validated_cards": 32,
+    "source_url_to_logged_query_results_mismatches": 0,
+    "query_batch_returned_url_counts": [
+      32,
+      27,
+      26,
+      31,
+      35,
+      28,
+      34,
+      28
+    ],
+    "access_rule": "Only this worker’s direct reads count as opened here. Root-reported access remains separate; in particular, S014 Taipei Times stays search_only in this unit.",
+    "scope": "All 32 source cards were checked against the preserved pooled returned-URL lists. Earlier URL/title mapping corrections remain documented for S004, S005 and S012-S018. Current access/read-scope corrections are logged separately for S006, S009, S011, S020, S021, S022 and S024. S028/S032 are duplicate-hosted copies of one NHRC report, not independent; S010 remains a search-only peripheral statistics lead.",
+    "read_scope_corrections": {
+      "corrected_source_ids": [
+        "MNG21JAN-S006",
+        "MNG21JAN-S009",
+        "MNG21JAN-S011",
+        "MNG21JAN-S020",
+        "MNG21JAN-S021",
+        "MNG21JAN-S022",
+        "MNG21JAN-S024"
+      ],
+      "checked_cards": 32,
+      "checked_at": "2026-10-08T18:54:38Z",
+      "details": "S006, S009, S011, S020, S021, S022 and S024 limitations/summaries now reflect directly opened material and bounded read scope. No read status was upgraded based on root access."
+    },
+    "audit_history": [
+      {
+        "at": "2026-10-08T18:54:38Z",
+        "kind": "url_title_mapping_repair",
+        "source_ids": [
+          "MNG21JAN-S004",
+          "MNG21JAN-S005",
+          "MNG21JAN-S012",
+          "MNG21JAN-S013",
+          "MNG21JAN-S014",
+          "MNG21JAN-S015",
+          "MNG21JAN-S016",
+          "MNG21JAN-S017",
+          "MNG21JAN-S018"
+        ],
+        "result": "All 32 current cards cross-matched to at least one actual pooled returned URL; no remaining mismatch."
+      },
+      {
+        "at": "2026-10-08T18:54:38Z",
+        "kind": "access_scope_reconciliation",
+        "source_ids": [
+          "MNG21JAN-S006",
+          "MNG21JAN-S009",
+          "MNG21JAN-S011",
+          "MNG21JAN-S020",
+          "MNG21JAN-S021",
+          "MNG21JAN-S022",
+          "MNG21JAN-S024"
+        ],
+        "result": "Stale not-opened limitations replaced with the worker’s actual opened read scope; S014 remains search_only because root-only access is not inherited."
+      }
+    ]
+  },
+  "finished_at": "2026-10-08T18:56:13Z"
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "gap_id": "libya_2021-02-G001",
+    "type": "official_baseline",
+    "description": "The authoritative Mass Mobilization baseline, codebook, version and integration rules were not re-verified in this unit. Country code 620 and local candidate IDs remain provisional; this dossier is not an official catalogue update.",
+    "source_ids": [],
+    "affected_candidates": [
+      "libya_2021-02-E001",
+      "libya_2021-02-E002",
+      "libya_2021-02-E003",
+      "libya_2021-02-E004"
+    ],
+    "required_followup": "Coordinator review must verify the authoritative baseline and mapping before any integration or official ID assignment."
+  },
+  {
+    "gap_id": "libya_2021-02-G002",
+    "type": "method_coverage",
+    "description": "Nine original batched English/Arabic search actions preserve 213 ordered result headers across February dates, selected sectors, cities and boundary leads. Results include repeats, unrelated material and retrospective or out-of-period pages; open-web searches do not provide exhaustive Libyan local-press or archive coverage.",
+    "source_ids": [],
+    "affected_candidates": [
+      "libya_2021-02-E001",
+      "libya_2021-02-E002",
+      "libya_2021-02-E003",
+      "libya_2021-02-E004"
+    ],
+    "required_followup": "Continue with independently sourced local reporting and systematic accessible archive coverage; treat missing or unreturned search results as unknown, not absence."
+  },
+  {
+    "gap_id": "libya_2021-02-G003",
+    "type": "participants_threshold",
+    "description": "No candidate has a documented site-level count establishing at least 50 simultaneous public participants. E001 has no count for Tripoli or any Arabic-listed city; E002 has no exposed count; E003 has only the qualitative word small; E004 search metadata says more than 30, which does not establish the threshold. City totals, participant origins, workforces, force strength, business roles, arrears, memoranda and logistics are not crowd counts.",
+    "source_ids": [
+      "LBY202102-S001",
+      "LBY202102-S002",
+      "LBY202102-S003",
+      "LBY202102-S004",
+      "LBY202102-S009",
+      "LBY202102-S011"
+    ],
+    "affected_candidates": [
+      "libya_2021-02-E001",
+      "libya_2021-02-E002",
+      "libya_2021-02-E003",
+      "libya_2021-02-E004"
+    ],
+    "required_followup": "Find explicit concurrent attendance evidence at each physical site before confirming eligibility; do not transfer turnout between cities, origins or related actions."
+  },
+  {
+    "gap_id": "libya_2021-02-G004",
+    "type": "episode_unit",
+    "description": "E001 has a same-publisher spatial discrepancy: Arabic LANA describes protest stands in 11 cities while the English LANA page describes one Tripoli gathering attended by pensioner-syndicate members from several cities. The pages are related reports, not independent corroboration. The campaign, physical sites and participant origins remain unresolved; the 11-city list does not establish 11 distinct qualifying events. E002 may relate to the Dec31 Hun protest and January civil-disobedience account, but continuity and any separate February episode are unresolved.",
+    "source_ids": [
+      "LBY202102-S001",
+      "LBY202102-S003",
+      "LBY202102-S004",
+      "LBY202102-S009",
+      "LBY202102-S013"
+    ],
+    "affected_candidates": [
+      "libya_2021-02-E001",
+      "libya_2021-02-E002"
+    ],
+    "required_followup": "Compare dated, site-specific reports and organizer accounts while preserving physical locations separately from participant origins; resolve Hun episode boundaries without automatically merging or splitting."
+  },
+  {
+    "gap_id": "libya_2021-02-G005",
+    "type": "source_access",
+    "description": "Three actual page opens (S003, S004 and S013) returned web-wrapper Cache miss results; these are technical fetch failures, not publisher denials or article-body evidence, and no retries were made. S002 and S015 had saved reviews but their immediate full-input rechecks detected intervening source-ledger changes, so no body request was made. S014 remains search-only under the prior exact/publisher 403 hold; no bypass or mirror was used.",
+    "source_ids": [
+      "LBY202102-S002",
+      "LBY202102-S003",
+      "LBY202102-S004",
+      "LBY202102-S013",
+      "LBY202102-S014",
+      "LBY202102-S015"
+    ],
+    "affected_candidates": [
+      "libya_2021-02-E002",
+      "libya_2021-02-E003"
+    ],
+    "required_followup": "Use independent accessible reporting under a fresh exact-URL receipt, full matching manual review and immediate complete canonical-input recheck. Respect the S014 hold and do not repeat technical misses without new justification."
+  },
+  {
+    "gap_id": "libya_2021-02-G006",
+    "type": "event_details_and_target",
+    "description": "E002, E003 and E004 remain discovery leads from search-only reporting. For E002, the physical stand, crowd and whether a demand to remove mercenaries was addressed to Libyan government policy are unverified. For E003, the physical date, site, crowd, exact demands and government target await body review; a threatened future strike is not an executed strike. For E004, the specific article body, exact site, count scope and demand recipient are unresolved.",
+    "source_ids": [
+      "LBY202102-S002",
+      "LBY202102-S003",
+      "LBY202102-S004",
+      "LBY202102-S011",
+      "LBY202102-S012",
+      "LBY202102-S013",
+      "LBY202102-S014",
+      "LBY202102-S015",
+      "LBY202102-S016"
+    ],
+    "affected_candidates": [
+      "libya_2021-02-E002",
+      "libya_2021-02-E003",
+      "libya_2021-02-E004"
+    ],
+    "required_followup": "Verify physical occurrence, date, site, demand recipient and site-level turnout from an opened body or independent reliable account; distinguish announcements and strike threats from executed actions."
+  },
+  {
+    "gap_id": "libya_2021-02-G007",
+    "type": "continuity_boundary",
+    "description": "Prior-unit boundary leads remain unresolved: the Dec31 Hun protest and reported four-day January civil disobedience are not automatically the Feb7 Hun lead; the Jan5 Hariga protest stand remains distinct from the armed export blockade only as an unresolved possibility; the Jan24–Feb11 Hariga port stoppage/blockade does not by itself establish a public crowd, and armed-force or employee counts are not crowd attendance. January teacher and Tax Authority actions are not carried into February or split into new February events without dated physical-gathering evidence. The Feb1 pensioner report remains a February lead, not a January occurrence. Related January records: libya_2021-01-C001 (Hun); libya_2021-01-E004 and libya_2021-01-G003/G008 (Jan5 and Hariga); and libya_2021-01-E002/E003 (teachers and Tax Authority).",
+    "source_ids": [
+      "LBY202102-S001",
+      "LBY202102-S003",
+      "LBY202102-S004",
+      "LBY202102-S009"
+    ],
+    "affected_candidates": [
+      "libya_2021-02-E001",
+      "libya_2021-02-E002"
+    ],
+    "required_followup": "Reconcile cross-month episodes with the January dossier and contemporary dated accounts; require evidence of a public gathering, event-specific threshold and physical continuity before assigning or splitting a month."
+  },
+  {
+    "gap_id": "libya_2021-02-G008",
+    "type": "state_response",
+    "description": "Protester violence and all seven state-response fields remain unknown for E001–E004. The LANA Arabic pensioner head’s allegation that earlier submissions had not received a response is not evidence of a response to the Feb1 gathering itself.",
+    "source_ids": [
+      "LBY202102-S001",
+      "LBY202102-S002",
+      "LBY202102-S003",
+      "LBY202102-S004",
+      "LBY202102-S009",
+      "LBY202102-S011"
+    ],
+    "affected_candidates": [
+      "libya_2021-02-E001",
+      "libya_2021-02-E002",
+      "libya_2021-02-E003",
+      "libya_2021-02-E004"
+    ],
+    "required_followup": "Seek event-specific evidence for accommodation, arrests, beatings, dispersal, explicit ignoring, killings, shootings and protester violence; leave each field unknown unless directly supported."
+  },
+  {
+    "gap_id": "libya_2021-02-G009",
+    "type": "source_independence",
+    "description": "S001 and S009 are Arabic and English LANA reports from the same news agency, and S009 is a consultation of an already opened January-unit page; it is not a new independent source. The TCCI ECTN lead may reflect the Chamber as event origin, but its body was not read after the input guard invalidated the gate.",
+    "source_ids": [
+      "LBY202102-S001",
+      "LBY202102-S009",
+      "LBY202102-S015"
+    ],
+    "affected_candidates": [
+      "libya_2021-02-E001",
+      "libya_2021-02-E003"
+    ],
+    "required_followup": "Establish written-report origins and bylines when accessible; count publisher translations, event-origin statements and duplicate coverage according to their actual provenance."
+  }
+]

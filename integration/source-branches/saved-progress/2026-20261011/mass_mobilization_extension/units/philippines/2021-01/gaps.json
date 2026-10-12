@@ -1,0 +1,123 @@
+[
+  {
+    "gap_id": "philippines_2021-01_G001",
+    "type": "participants_threshold_end_state_response",
+    "description": "The Jan. 13 House protest is reported in opened contemporaneous coverage, but crowd size, physical episode end, and all seven state-response dimensions are unreported. A photo caption in one article says 2020 while the article body, publication date, another report, and cited same-date post point to Jan. 13, 2021. The secondary timeline cites a News5 post describing students/youth; the linked post was unavailable through the web tool and is not direct evidence.",
+    "source_ids": [
+      "philippines_2021-01_S005",
+      "philippines_2021-01_S006",
+      "philippines_2021-01_S001",
+      "philippines_2021-01_S027"
+    ],
+    "affected_candidates": [
+      "philippines_2021-01_E001"
+    ],
+    "required_followup": "Search contemporary reporting and the original organizer/news photo or video for a direct attendance estimate, exact date, response and physical closure; resolve whether the secondary student-rally description is the same action."
+  },
+  {
+    "gap_id": "philippines_2021-01_G002",
+    "type": "participants_threshold_state_response_episode_unit",
+    "description": "The Jan. 19 Quezon Hall rally is confirmed by two opened reports, but neither supplies a headcount, physical ending, or response by state actors. UP official result could not be opened after HTTP 429. Other campus statements appear in search results but no separate physical action has been established.",
+    "source_ids": [
+      "philippines_2021-01_S007",
+      "philippines_2021-01_S008",
+      "philippines_2021-01_S009",
+      "philippines_2021-01_S010",
+      "philippines_2021-01_S011",
+      "philippines_2021-01_S012",
+      "philippines_2021-01_S013"
+    ],
+    "affected_candidates": [
+      "philippines_2021-01_E002"
+    ],
+    "required_followup": "Locate accessible contemporary attendance reporting or source material; review other campus coverage and February continuity for separate actions; establish physical ending and each state-response dimension without using silence."
+  },
+  {
+    "gap_id": "philippines_2021-01_G003",
+    "type": "participants_threshold_state_response_dates_coverage",
+    "description": "The Jan. 22 Cebu protest is confirmed by a contemporary local report, but attendance and physical end are absent. The report says police blocked protesters and sounded a siren to disrupt them midway through the program; whether this moved or dispersed the assembly remains ambiguous. A separate Manila march is an inaccessible announcement lead only.",
+    "source_ids": [
+      "philippines_2021-01_S016",
+      "philippines_2021-01_S017",
+      "philippines_2021-01_S018"
+    ],
+    "affected_candidates": [
+      "philippines_2021-01_E003"
+    ],
+    "required_followup": "Search Cebu and Manila contemporary coverage, including organizer and regional sources, for turnout, police conduct, physical end, and any distinct Manila action; keep 1987 casualties and participation separate."
+  },
+  {
+    "gap_id": "philippines_2021-01_G004",
+    "type": "participants_threshold_episode_unit_state_response_dates",
+    "description": "Jan. 22 Manila march occurrence is supported by RMN and Philstar, but no source provides attendance, physical end, or a clear police action beyond MPD presence at Mendiola and a program held in the road. KMP described the mobilization as nationally coordinated; relationship to the separately reported Cebu event is unresolved. The Manila Bulletin Jan. 20 farmers-march article failed to open.",
+    "source_ids": [
+      "philippines_2021-01_S016",
+      "philippines_2021-01_S019",
+      "philippines_2021-01_S020",
+      "philippines_2021-01_S021",
+      "philippines_2021-01_S022"
+    ],
+    "affected_candidates": [
+      "philippines_2021-01_E003",
+      "philippines_2021-01_E004"
+    ],
+    "required_followup": "Check other regions and later reporting for evidence of the national mobilization’s sites, turnout, police action and physical end; compare organizer details to determine whether Cebu and Manila are one nationally organized event. Recover the Jan. 20 Manila Bulletin article only by a normal public request to its exact URL, respecting any HTTP denial."
+  },
+  {
+    "gap_id": "philippines_2021-01_G005",
+    "type": "occurrence_dates_location_state_target_participants_state_response_source_access",
+    "description": "A later secondary timeline lists a Jan. 25 anti-charter protest at the Batasan Complex gate and cites an RMN DZXL Facebook post, but the post body was not exposed by the web tool (Cache miss); an ordinary exact-URL GET returned HTTP 200 but no event text was extractable, and no contemporary report has been opened. The gathering, own-state demand in context, attendance threshold and boundaries remain unverified.",
+    "source_ids": [
+      "philippines_2021-01_S001",
+      "philippines_2021-01_S024"
+    ],
+    "affected_candidates": [
+      "philippines_2021-01_E005"
+    ],
+    "required_followup": "Seek contemporary Jan. 25–26 coverage or original accessible post text for the exact site and occurrence; retain the 403/Cache miss and HTTP 200 page-metadata limits honestly, and do not infer a verified event from the timeline."
+  },
+  {
+    "gap_id": "philippines_2021-01_G006",
+    "type": "coverage_search_method_source_access",
+    "description": "Expanded searches for Jan. 1–7, Jan. 29–31, labor and transport actions returned mainly historical or out-of-period records. The Kilusan TUCP 2021 archive was retrieved by one ordinary HTTPS request after web Cache miss and showed Jan. 26 and Jan. 29 dated entries without a protest context in the reviewed notes. Search-query result headers Q014–Q019 were not successfully captured; they are recorded with null lists rather than treated as empty.",
+    "source_ids": [
+      "philippines_2021-01_S028",
+      "philippines_2021-01_S029",
+      "philippines_2021-01_S030"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue source-specific checks of union/regional news around Jan. 26 and Jan. 29 if the organizer archive yields identifiable protest posts. Preserve broad open-web/LexisNexis coverage limits; do not infer no events from the current results."
+  },
+  {
+    "gap_id": "philippines_2021-01_G007",
+    "type": "source_access_dates_occurrence_participants_state_target",
+    "description": "A search lead titled as a rally at UP Diliman supporting DND termination could indicate another or opposing action, but its date is unavailable. Web open returned Cache miss and one ordinary GET returned HTTP 403 Blocked, so it cannot be assigned to Jan. 19 or another date or treated as proof of occurrence/size.",
+    "source_ids": [
+      "philippines_2021-01_S031"
+    ],
+    "affected_candidates": [
+      "philippines_2021-01_E002"
+    ],
+    "required_followup": "If the original public post or independent dated coverage becomes accessible, check date, actual gathering, turnout, organizer and demand direction; until then keep it unassigned and do not merge with E002."
+  },
+  {
+    "gap_id": "philippines_2021-01_G008",
+    "type": "participants_source_independence_dates_episode_unit_state_response_source_access",
+    "description": "KMP’s organizer-origin reports identify Jan. 20 as the first and Jan. 21 as the second day of a Southern Luzon farmers’ protest caravan. S032 reports more than 100 farmers on Jan. 20 and actions at Camp Aguinaldo, DILG and the Philippine Coconut Authority. S034 reports farmers from at least 20 landholdings went to DAR on Jan. 21, a planned face-to-face dialogue was canceled in favor of an online schedule, and the group camped at CHR before a planned Jan. 22 Mendiola march. The Manila Bulletin Jan. 20 and Jan. 21 pages returned 403. The Jan. 22 Manila march is confirmed by RMN/Philstar but its relationship to the caravan remains unresolved; keep E006/E004 pending_unit and do not count/merge them automatically. No distinct attendance is reported for Jan. 21/22, and physical closure plus state responses remain unknown.",
+    "source_ids": [
+      "philippines_2021-01_S022",
+      "philippines_2021-01_S032",
+      "philippines_2021-01_S033",
+      "philippines_2021-01_S019",
+      "philippines_2021-01_S020",
+      "philippines_2021-01_S021",
+      "philippines_2021-01_S034"
+    ],
+    "affected_candidates": [
+      "philippines_2021-01_E006",
+      "philippines_2021-01_E007",
+      "philippines_2021-01_E004"
+    ],
+    "required_followup": "Review whether the Jan. 22 Manila march is a continuation/endpoint of E006 or a separate broader event; corroborate attendance and physical closure independently if possible. Keep the canceled face-to-face dialogue distinct from an actual meeting, and do not transfer the Jan. 20 count to Jan. 21/22."
+  }
+]

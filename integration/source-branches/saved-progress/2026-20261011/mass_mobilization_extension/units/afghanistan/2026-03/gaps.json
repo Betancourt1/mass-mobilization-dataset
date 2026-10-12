@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "afghanistan_2026-03_G001",
+    "type": "capture_integrity",
+    "description": "Early March query outputs from the original calls remain unrecoverable as exact native records; their performed-action notes preserve their original groupings and unknown timestamps. Four later batches are saved as exact rendered tool output via the reviewed 2026 wrapper, but native headers, result ordering arrays, per-query partitions, and native clocks remain unavailable. Empty returned_results/returned_urls do not indicate zero results.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain earlier unrecoverable actions as such; use the reviewed exclusive rendered capture wrapper for any future searches. Do not rerun old calls or infer empty results from unavailable native metadata."
+  },
+  {
+    "gap_id": "afghanistan_2026-03_G002",
+    "type": "source_access",
+    "description": "The exact Afghanistan International target was read once after exact-target release and a fresh matching inventory/access receipt; the captured source is now materialized in this monthly draft as AFG202603-S001. Earlier no-body wording remains in superseded_history. No additional article/PDF bodies were requested during the bounded discovery pass; any further body requires fresh exact-target inventory and independent scope release. This is coordination provenance, not a source denial.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Do not request any further article/PDF body without a fresh source inventory and exact-target scope release. Search-only display leads remain unverified.",
+    "superseded_history": [
+      {
+        "description": "No article or PDF body was opened. Exact-target source-scope release is pending independent audit; body hold is coordination state and must not be represented as a site denial.",
+        "status_at_recording": "accurate before the authorized first read; now superseded",
+        "superseded_by": "AFG202603-S001 exact-target direct read captured under startup_audit release"
+      }
+    ]
+  },
+  {
+    "gap_id": "afghanistan_2026-03_G003",
+    "type": "threshold_and_independent_corroboration",
+    "description": "The direct Afghanistan International page confirms a public women’s protest, Kabul location, date, organizer, and demand against Taliban restrictions, but gives no numeric turnout. Its background discussion of past repression is not event-specific.",
+    "source_ids": [
+      "AFG202603-S001"
+    ],
+    "affected_candidates": [
+      "AFG202603-PENDING-001"
+    ],
+    "required_followup": "Search for independent reporting of this exact event only after fresh source-scope reconciliation for each exact target.",
+    "question": "Can another accessible, independent report establish a turnout of at least 50 and any state response to this March 7 Kabul gathering?",
+    "fields": [
+      "participants_min",
+      "participants_max",
+      "participants_estimate",
+      "state_response"
+    ]
+  }
+]

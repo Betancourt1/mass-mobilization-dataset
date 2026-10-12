@@ -1,0 +1,338 @@
+[
+  {
+    "gap_id": "CA202102-G001",
+    "type": "state_response",
+    "description": "CityNews and Global News confirm one organizer was arrested. Global News reports that police said four officers were assaulted during the protests but does not attribute this to either group. Police lines and bike barricades separated groups; no dispersal attempt or other response fields are established.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "CA202102-E001"
+    ],
+    "required_followup": "Check official police and additional contemporary reporting for assault attribution, the arrest total, and any beating, dispersal, accommodation, deliberate ignoring, killing, or shooting. Preserve unknowns absent evidence."
+  },
+  {
+    "gap_id": "CA202102-G002",
+    "type": "event_unit",
+    "description": "A multi-city convoy route is reported, but only the Edmonton legislature crowd has qualifying attendance evidence. The report does not establish separate public assemblies or size at route stops.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "CA202102-E001"
+    ],
+    "required_followup": "Search for dated reports from Lethbridge, Calgary, and Red Deer on Feb. 20. Do not split or merge route actions absent evidence of distinct assembly and coordination."
+  },
+  {
+    "gap_id": "CA202102-G003",
+    "type": "end_date",
+    "description": "CityNews reports the rally moved onto Edmonton streets, but no physical ending or later continuity is established.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "CA202102-E001"
+    ],
+    "required_followup": "Search later dated reports and organizer/official records for physical closure or continuing action; retain null absent evidence."
+  },
+  {
+    "gap_id": "CA202102-G004",
+    "type": "participants",
+    "description": "The counter-protest is described only as a smaller group than the main rally; no number establishes the 50-person threshold.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "CA202102-E002"
+    ],
+    "required_followup": "Search contemporary local reporting or organizer documentation for the counter-protest attendance; do not transfer the main rally estimate."
+  },
+  {
+    "gap_id": "CA202102-G005",
+    "type": "participants",
+    "description": "The counter-protest is identified as supporting Alberta public-health orders, but participant attendance and organizer are still unknown.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "CA202102-E002"
+    ],
+    "required_followup": "Seek a numeric counter-protest attendance estimate and organizer attribution; do not transfer the main rally estimate."
+  },
+  {
+    "gap_id": "CA202102-G006",
+    "type": "organizer",
+    "description": "Global News names Walk for Freedom Alberta as the organizer; CityNews calls the event Walk for Freedom and names Freedom Unity Alliance as creator of convoy posters/pamphlets. Their relationship is unknown.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "CA202102-E001"
+    ],
+    "required_followup": "Check organizer statements or contemporaneous documentation; retain the differing attributions if no direct link is found."
+  },
+  {
+    "gap_id": "CA202102-G007",
+    "type": "protester_violence",
+    "description": "Police reportedly said four officers were assaulted during the duelling protests; the reports do not identify which group was responsible or the circumstances.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "CA202102-E001",
+      "CA202102-E002"
+    ],
+    "required_followup": "Check police reporting or additional contemporaneous accounts for actor attribution. Do not code assaults as protester violence for either event without attribution."
+  },
+  {
+    "gap_id": "CA202102-G008",
+    "type": "continuity",
+    "description": "Global News says crowds had gathered at Stuart Park for months and the Feb. 13 crowd was slightly larger than normal; whether these were discrete rallies or a continuous episode is not established.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "CA202102-E003"
+    ],
+    "required_followup": "Review dated January, February, and March local reports or organizer records for the event-series pattern; distinguish recurring one-day events from a continuous action."
+  },
+  {
+    "gap_id": "CA202102-G009",
+    "type": "state_response",
+    "description": "Kelowna police urged nonattendance; mayor publicly opposed the rally. Ticket status is expressly unknown, and other coercive or accommodative responses are not established.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "CA202102-E003"
+    ],
+    "required_followup": "Seek contemporaneous police follow-up or direct reporting on any tickets, arrests, force, dispersal, or formal engagement."
+  },
+  {
+    "gap_id": "CA202102-G010",
+    "type": "participants",
+    "description": "The distinct Kelowna counter-protest is called small/few in number without a numeric attendance estimate, and no state-directed demand is described.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "CA202102-E004"
+    ],
+    "required_followup": "Search local reports or organizer materials for headcount and the content/target of the counter-protest; do not transfer the main rally's over-200 estimate."
+  },
+  {
+    "gap_id": "CA202102-G011",
+    "type": "event_occurrence",
+    "description": "Global News refers to a Vancouver anti-restriction rally planned for Feb. 20. A plan or notice does not establish an executed assembly.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review contemporaneous Vancouver reporting from Feb. 20 and later to verify occurrence, attendance, target, and connection to any reported Vancouver Freedom Rally."
+  },
+  {
+    "gap_id": "CA202102-G012",
+    "type": "event_unit",
+    "description": "The Calgary report is recorded as an executed anti-restriction march with a counter-protest, but the prior body summary gives no group boundaries and no exact location; do not code combined turnout as one side's count.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "CA202102-E005"
+    ],
+    "required_followup": "Review current local reporting for exact main/counter group locations and event-unit evidence; retain pending_unit absent support."
+  },
+  {
+    "gap_id": "CA202102-G013",
+    "type": "participants",
+    "description": "The approximate 400 estimate applies to protesters and counter-protesters together; anti-restriction side-specific turnout is not available in the saved body review.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "CA202102-E005"
+    ],
+    "required_followup": "Seek a side-specific contemporary estimate before resolving the 50-person eligibility threshold."
+  },
+  {
+    "gap_id": "CA202102-G014",
+    "type": "participants",
+    "description": "CityNews documents a Feb. 27 multi-site Extinction Rebellion action, four federal-policy demands and three arrests but gives no protester headcount. Neither police staffing nor arrests establishes 50 participants.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "CA202102-E006"
+    ],
+    "required_followup": "Seek a contemporary organizer or police estimate of participant attendance across the linked rally/die-in/blockade; keep pending_threshold absent an adequate count."
+  },
+  {
+    "gap_id": "CA202102-G015",
+    "candidate_id": "CA202102-E007",
+    "issue": "threshold_50",
+    "status": "open",
+    "description": "Global News describes “dozens” at the Feb. 20 Vancouver Art Gallery rally but gives no numerical estimate or range, leaving 50-person eligibility unresolved."
+  },
+  {
+    "gap_id": "CA202102-G016",
+    "type": "response_and_end",
+    "description": "The Link reports the Feb. 6 Montreal march reached Dorchester Square and that about 25 SPVM officers surrounded the intersection, but it does not document a physical end or a coercive/accommodative response. Police presence alone does not establish dispersal.",
+    "source_ids": [
+      "S011"
+    ],
+    "affected_candidates": [
+      "CA202102-E008"
+    ],
+    "required_followup": "Seek independent contemporary or official reporting on the march endpoint and any event-specific police action."
+  },
+  {
+    "gap_id": "CA202102-G017",
+    "type": "separate_event_boundary",
+    "description": "Journal Métro S012 separately mentions a pro-Palestinian demonstration supporting a Projet Montréal motion, but does not establish its date, location, attendance or relation to the Feb. 6 anti-curfew march. Do not merge it into E008 or assume it meets the threshold.",
+    "source_ids": [
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek a contemporary report identifying the separate demonstration date, location, organizer, attendance and whether its demand was directed to Montreal policy."
+  },
+  {
+    "gap_id": "CA202102-G018",
+    "type": "threshold",
+    "description": "Global News S013 describes a Montreal ministry-office gathering as a “small group” but gives no number, so attendance relative to 50 is unresolved. Its embedded description differs from the curfew wording in the video-page title.",
+    "source_ids": [
+      "S013"
+    ],
+    "affected_candidates": [
+      "CA202102-E009"
+    ],
+    "required_followup": "Look for another contemporary account with an attendance estimate, exact date/location and state-target details."
+  },
+  {
+    "gap_id": "CA202102-G019",
+    "type": "access_block",
+    "description": "The Hamilton Police Service source is blocked by an existing exact-URL actual 403 Forbidden in review/source_checks.jsonl:2146. The saved check explicitly says no retry or bypass; attendance/response claims in the search lead remain unverified.",
+    "source_ids": [
+      "S016"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retrieval while the exact denial remains in force; coordinator may re-evaluate only under the established source-access protocol."
+  },
+  {
+    "gap_id": "CA202102-G020",
+    "type": "threshold",
+    "description": "The Feb. 17 Belleville rally demanded a new city contract, but no protest turnout is reported. The union’s roughly 200 represented employees are not a crowd estimate.",
+    "source_ids": [
+      "S017"
+    ],
+    "affected_candidates": [
+      "CA202102-E010"
+    ],
+    "required_followup": "Find contemporary reporting or a union/city record giving rally attendance without substituting membership."
+  },
+  {
+    "gap_id": "CA202102-G021",
+    "type": "threshold_and_state_target",
+    "description": "CityNews S018 reports more than 100 vehicles at a Victoria rally for Indian farmers, but no people count. The source says participants asked the B.C. government to pressure India; determine whether this foreign-policy demand meets the domestic-target rule and whether vehicle count supports the 50-person threshold.",
+    "source_ids": [
+      "S018"
+    ],
+    "affected_candidates": [
+      "CA202102-E011"
+    ],
+    "required_followup": "Coordinator review against the May 2015 manual; seek independent people-count or official event record and clearer organizer/demand evidence."
+  },
+  {
+    "gap_id": "CA202102-G022",
+    "type": "event_date_and_threshold",
+    "description": "CIVICUS S019 mentions a “large” Toronto anti-lockdown protest with arrests during a Jan.–Feb. synthesis but does not identify its date or attendance. Do not create a February event from the retrospective summary alone.",
+    "source_ids": [
+      "S019"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Identify and review the exact linked contemporary Toronto account with a fresh per-attempt receipt; establish event date, attendance, domestic target and state response."
+  },
+  {
+    "gap_id": "CA202102-G023",
+    "type": "threshold_and_response",
+    "description": "CIVICUS S020, organizer statement S023, SFSS minutes S026 and contemporary CityNews S027 identify the Feb. 19 Braided Warriors sit-in at the BMO building housing AIG, report four arrests and describe a disputed use of force. No protester turnout or exact physical end is established. Earlier Feb. 17–18 insurer occupations may be separate actions but have no independent counts or boundaries.",
+    "source_ids": [
+      "S020",
+      "S023",
+      "S026",
+      "S027"
+    ],
+    "affected_candidates": [
+      "CA202102-E013"
+    ],
+    "required_followup": "Find a credible protester attendance estimate and exact physical boundary/end. Clarify whether Feb. 17–18 insurer occupations are distinct countable events and whether injuries meet the codebook beating definition; retain police and participant disagreement."
+  },
+  {
+    "gap_id": "CA202102-G024",
+    "type": "unit_and_threshold",
+    "description": "CIVICUS S020 reports a separate Braided Warriors protest at the end of February with four arrests but no exact day, attendance, precise site or specific demand.",
+    "source_ids": [
+      "S020"
+    ],
+    "affected_candidates": [
+      "CA202102-E014"
+    ],
+    "required_followup": "Find a dated contemporary report; establish crowd size, policy demand and police actions."
+  },
+  {
+    "gap_id": "CA202102-G025",
+    "type": "source_lineage_and_end",
+    "description": "CIVICUS S020 reports about 800 at a Feb. 28 Toronto protest. Contemporary Spring S025 confirms ESN organization, One Bedford Road site, peaceful action and demands to halt city injunctions and encampment policing, but gives no attendance, physical end or event-specific police response.",
+    "source_ids": [
+      "S020",
+      "S025"
+    ],
+    "affected_candidates": [
+      "CA202102-E012"
+    ],
+    "required_followup": "Seek independent or official attendance corroboration, physical boundary/end and any event-specific state response; do not substitute the prior Feb. 19 injunction for a response."
+  },
+  {
+    "gap_id": "CA202102-G026",
+    "description": "CityNews S021 and contemporary S028 identify the Calgary anti-mask rally at Chinook Centre and report that police negotiated a peaceful departure. No participant count or exact event day is reported.",
+    "source_ids": [
+      "S021",
+      "S028"
+    ],
+    "candidate_ids": [
+      "CA202102-E015"
+    ],
+    "status": "open",
+    "required_followup": "Find an attendance estimate for the Chinook Centre rally, confirm exact day and organizer, and determine whether any later enforcement occurred."
+  },
+  {
+    "gap_id": "CA202102-G027",
+    "description": "Magog E016 is supported by a contemporary local French report at about 80, but organizer, exact policy demands, start time and physical dispersal are not reported. Five mask tickets are citations, not formal arrests.",
+    "source_ids": [
+      "S022"
+    ],
+    "candidate_ids": [
+      "CA202102-E016"
+    ],
+    "status": "open"
+  },
+  {
+    "gap_id": "CA202102-G028",
+    "type": "event_classification_and_demand",
+    "description": "AHS inspection report S030 counts about 332 in GraceLife’s sanctuary and 57 in the lobby during its Feb. 14 regular service. Applicant filing S031 says the sermon criticized Alberta health restrictions and church noncompliance, but does not establish that the gathering itself was convened to demand a policy change. E017 remains pending eligibility.",
+    "source_ids": [
+      "S021",
+      "S030",
+      "S031"
+    ],
+    "affected_candidates": [
+      "CA202102-E017"
+    ],
+    "required_followup": "Apply the codebook demand-making test to the regular worship service and critical sermon; do not infer protest purpose solely from attendance or noncompliance. Do not backdate the May court remedies or transfer unrelated earlier arrests."
+  }
+]

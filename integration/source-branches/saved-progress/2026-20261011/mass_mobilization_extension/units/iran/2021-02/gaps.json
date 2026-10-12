@@ -1,0 +1,125 @@
+[
+  {
+    "gap_id": "iran_2021-02_G001",
+    "type": "source_access",
+    "description": "No source-page body was requested in this handoff. Exact-URL receipts for VOA/Homa and IranWire/Saravan were not usable at request time: the Homa manual-review receipt was followed by an immediate full-input recheck showing Hungary and Indonesia source-ledger hashes changed; a fresh Homa check deferred on a changed before/after fingerprint; two IranWire manual-review receipts each were followed by an immediate full-input recheck showing review/source_checks.jsonl changed. These are corpus-stability failures, not observed publisher denials.",
+    "source_ids": [
+      "iran_2021-02_S023",
+      "iran_2021-02_S032"
+    ],
+    "affected_candidates": [
+      "iran_2021-02_E001",
+      "iran_2021-02_E006"
+    ],
+    "required_followup": "After source inputs stabilize, create a fresh exact-URL receipt for each intended page, repeat full matching publisher/origin review, save the note, recheck every input path/hash immediately before requesting the exact URL, then record actual body scope."
+  },
+  {
+    "gap_id": "iran_2021-02_G002",
+    "type": "event_eligibility",
+    "description": "Pensioner/retiree rally leads are search-only. Dates, distinct episodes, site-level attendance, >=50 thresholds, demands directed to the Iranian government, organizers and event-specific responses remain unverified. Nationwide city totals cannot establish attendee counts at individual sites.",
+    "source_ids": [
+      "iran_2021-02_S001",
+      "iran_2021-02_S002",
+      "iran_2021-02_S003",
+      "iran_2021-02_S005",
+      "iran_2021-02_S012",
+      "iran_2021-02_S013",
+      "iran_2021-02_S031",
+      "iran_2021-02_S030"
+    ],
+    "affected_candidates": [
+      "iran_2021-02_E002",
+      "iran_2021-02_E003",
+      "iran_2021-02_E004"
+    ],
+    "required_followup": "Read contemporary exact-URL source bodies; resolve each event date and site separately, record original turnout wording, identify direct state demands and avoid merging weekly actions."
+  },
+  {
+    "gap_id": "iran_2021-02_G003",
+    "type": "event_eligibility",
+    "description": "The Homa employees/retirees gathering is a search lead only. Event date, location, physical occurrence, turnout, employment/pension demands, state target and response are unknown.",
+    "source_ids": [
+      "iran_2021-02_S004",
+      "iran_2021-02_S032",
+      "iran_2021-02_S033"
+    ],
+    "affected_candidates": [
+      "iran_2021-02_E001"
+    ],
+    "required_followup": "Verify the exact VOA and any independent contemporary Homa report with new fresh receipts and complete review; do not infer state target from employer identity."
+  },
+  {
+    "gap_id": "iran_2021-02_G004",
+    "type": "event_eligibility",
+    "description": "HEPCO/Arak search results mention worker gatherings but their Persian calendar dates, number of episodes, crowd size, employer/state target, demands and response have not been verified.",
+    "source_ids": [
+      "iran_2021-02_S035",
+      "iran_2021-02_S036",
+      "iran_2021-02_S037"
+    ],
+    "affected_candidates": [
+      "iran_2021-02_E005"
+    ],
+    "required_followup": "Review contemporary Persian report bodies, convert only explicit dates, distinguish the railway-side action from factory-site actions and look for independent reporting."
+  },
+  {
+    "gap_id": "iran_2021-02_G005",
+    "type": "event_eligibility_and_continuity",
+    "description": "Saravan/Sistan-Baluchistan search results point to protest activity after reported fuel-trader shootings at the border. The first gathering date, event unit, state-policy demand, participant threshold, protesters’ actions and month-to-month continuation are unresolved. Deaths or shootings preceding a protest must not be coded as its response without event-specific evidence.",
+    "source_ids": [
+      "iran_2021-02_S010",
+      "iran_2021-02_S019",
+      "iran_2021-02_S020",
+      "iran_2021-02_S021",
+      "iran_2021-02_S022",
+      "iran_2021-02_S023",
+      "iran_2021-02_S024",
+      "iran_2021-02_S025",
+      "iran_2021-02_S026",
+      "iran_2021-02_S027",
+      "iran_2021-02_S028",
+      "iran_2021-02_S043",
+      "iran_2021-02_S045",
+      "iran_2021-02_S046"
+    ],
+    "affected_candidates": [
+      "iran_2021-02_E006"
+    ],
+    "required_followup": "Verify multiple contemporaneous bodies and origins, distinguish border incidents from public gatherings and official response, establish February onset and whether one continuing event extends into March."
+  },
+  {
+    "gap_id": "iran_2021-02_G006",
+    "type": "aggregate_roundups",
+    "description": "February 6-8 and February 8/21/28 roundups may contain numerous worker, farmer and other local actions, but search headers do not supply a verified event-by-event inventory or establish the >=50 threshold at any site.",
+    "source_ids": [
+      "iran_2021-02_S011",
+      "iran_2021-02_S014",
+      "iran_2021-02_S015",
+      "iran_2021-02_S012",
+      "iran_2021-02_S013",
+      "iran_2021-02_S018"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read roundups and trace each actionable item to a contemporaneous source; separate discrete events from a roundup, announcement or campaign total."
+  },
+  {
+    "gap_id": "iran_2021-02_G007",
+    "type": "search_coverage",
+    "description": "Coverage is bounded to open-web English and Persian queries. The original LexisNexis workflow was not reproduced; local-language/provincial archives, paywalled databases and complete official records were not systematically reviewed. No finding of no protests is made.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue retrospective searches in Persian, regional media, HR organizations and available official records; document inaccessible sources and any archive limitations."
+  },
+  {
+    "gap_id": "iran_2021-02_G008",
+    "type": "event_eligibility",
+    "description": "An Axios search result links internet disruption with anti-government protests in late February, but no corresponding gathering has been identified from an opened source body.",
+    "source_ids": [
+      "iran_2021-02_S009"
+    ],
+    "affected_candidates": [
+      "iran_2021-02_E007"
+    ],
+    "required_followup": "Open the exact article after its own fresh access receipt/review and trace the reported protest to a contemporary source before coding a candidate event."
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "gap_id": "DRDOM202102-G001",
+    "type": "official_baseline",
+    "description": "The assigned provisional country code is retained as 42. The official event baseline, codebook version and use conditions remain pending coordinator review.",
+    "source_ids": [],
+    "affected_candidates": [
+      "DRDOM202102-E001",
+      "DRDOM202102-E002",
+      "DRDOM202102-E003",
+      "DRDOM202102-E004"
+    ],
+    "required_followup": "Coordinator should resolve the official baseline gate without changing these provisional IDs."
+  },
+  {
+    "gap_id": "DRDOM202102-G002",
+    "type": "congress_occurrence_threshold_and_response",
+    "description": "The 4 February Congress action is supported only by captured search titles/snippets. Occurrence details, simultaneous attendance, threshold, exact location, physical end and the seven state-response dimensions remain unverified. The El Cambio headline mentions stones but does not identify the actor; protester violence remains unknown.",
+    "source_ids": [
+      "DRDOM202102-S001",
+      "DRDOM202102-S002",
+      "DRDOM202102-S003",
+      "DRDOM202102-S004"
+    ],
+    "affected_candidates": [
+      "DRDOM202102-E001"
+    ],
+    "required_followup": "Review permitted contemporaneous article bodies and independent sources; retain unknowns until directly evidenced."
+  },
+  {
+    "gap_id": "DRDOM202102-G003",
+    "type": "salcedo_strike_or_public_assembly",
+    "description": "Search-only Salcedo results identify a local strike and claims by popular organisations, but do not establish whether a qualifying public protest assembly occurred. The exact physical dates, demands, turnout, duration and response are unknown; do not infer a 48-hour duration or use uniformed presence as a coded response.",
+    "source_ids": [
+      "DRDOM202102-S005",
+      "DRDOM202102-S017"
+    ],
+    "affected_candidates": [
+      "DRDOM202102-E002"
+    ],
+    "required_followup": "Determine whether the strike included a public demonstration and verify physical start/end, demands, attendance and response."
+  },
+  {
+    "gap_id": "DRDOM202102-G004",
+    "type": "uasd_public_action_boundary",
+    "description": "Search results describe a February UASD wage dispute, online teaching stoppage, possible vigil and guild marches; the physical occurrence/date/site/attendance of each distinct march is not established. The Asodemu march is reported cancelled. A virtual stoppage alone is not a public protest.",
+    "source_ids": [
+      "DRDOM202102-S006",
+      "DRDOM202102-S007",
+      "DRDOM202102-S008",
+      "DRDOM202102-S009",
+      "DRDOM202102-S025",
+      "DRDOM202102-S026",
+      "DRDOM202102-S027",
+      "DRDOM202102-S029"
+    ],
+    "affected_candidates": [
+      "DRDOM202102-E003"
+    ],
+    "required_followup": "Verify executed physical assemblies and maintain separate records for the work stoppage, any march, any vigil and the cancelled Palace march."
+  },
+  {
+    "gap_id": "DRDOM202102-G005",
+    "type": "parents_protest_access_and_threshold",
+    "description": "The RNN search-result lead says parents protested on 24 February for in-person classes; its exact URL returned Cache miss with no HTTP status or body after a fresh gate and manual review. No count establishes the 50-person threshold. A search lead is not confirmation of occurrence.",
+    "source_ids": [
+      "DRDOM202102-S032"
+    ],
+    "affected_candidates": [
+      "DRDOM202102-E004"
+    ],
+    "required_followup": "Use only a permitted exact-source retry with a wholly fresh gate, or an independent permitted source; verify occurrence, attendance, target, end and response."
+  },
+  {
+    "gap_id": "DRDOM202102-G006",
+    "type": "doctors_marches_announcement",
+    "description": "The CMD search headlines announce simultaneous marches in Santo Domingo and Santiago against aggression toward doctors, but captured evidence does not confirm whether or when either march occurred or establish attendance, target details, physical end or state response. Similar RCC and Z101 headlines do not establish source independence.",
+    "source_ids": [
+      "DRDOM202102-S018",
+      "DRDOM202102-S023"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search for contemporaneous execution reports and preserve source lineage; do not code the announcement as an event."
+  },
+  {
+    "gap_id": "DRDOM202102-G007",
+    "type": "party_employment_demands_action_type",
+    "description": "A search result describes PRM leaders presenting public-job demands at a government-council event. The result does not establish whether this was a public demonstration, a petition/meeting or party activity, and no threshold is available.",
+    "source_ids": [
+      "DRDOM202102-S019"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review a permitted body or independent account to establish the action type and whether any public assembly occurred."
+  },
+  {
+    "gap_id": "DRDOM202102-G008",
+    "type": "anti_racism_event_date_target_and_lineage",
+    "description": "Search results include an anti-racism act in Santo Domingo and a separate Acento story about Ana María Belique. Their event dates, target, execution, relation and source lineage are unresolved; no event is coded from the titles alone.",
+    "source_ids": [
+      "DRDOM202102-S020",
+      "DRDOM202102-S024"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Identify the exact action and date, verify whether it targeted a domestic authority, and determine whether the reports concern the same event."
+  },
+  {
+    "gap_id": "DRDOM202102-G009",
+    "type": "transport_stoppage_announcement",
+    "description": "A search title says transport guilds threatened a stoppage, and another identifies a drivers’ fuel-price strike. Execution, any public assembly, month boundaries, participant count and government target are not established. Do not equate a work stoppage with a public protest.",
+    "source_ids": [
+      "DRDOM202102-S013",
+      "DRDOM202102-S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find permitted evidence of an executed public gathering and its date, demands and attendance; otherwise retain the labor-action lead as context."
+  },
+  {
+    "gap_id": "DRDOM202102-G010",
+    "type": "haiti_support_announcement_execution",
+    "description": "A search result says Dominican groups planned a manifestation in support of Haiti; actual execution, event date, domestic government target and turnout are unresolved. Separate this from the Haitian Embassy protest against President Moïse.",
+    "source_ids": [
+      "DRDOM202102-S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify whether a public action occurred and what domestic authority, if any, was addressed."
+  },
+  {
+    "gap_id": "DRDOM202102-G011",
+    "type": "feminist_camp_date_and_unit_boundary",
+    "description": "CIVICUS and later news search results mention a feminist protest camp, but the captured discovery evidence does not establish whether its physical start fell in February 2021 or whether it continued into this unit. The April report is after-month context, not proof of February occurrence.",
+    "source_ids": [
+      "DRDOM202102-S030",
+      "DRDOM202102-S031"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify camp start/end dates and any separately dated February action from permitted original or contemporaneous material."
+  },
+  {
+    "gap_id": "DRDOM202102-G012",
+    "type": "event_boundaries_cross_month",
+    "description": "The January dossier has a separate search-only announcement for the 30% AFP action. Its relation to the February 4 lead is a campaign/announcement link, not proof of physical continuity; do not merge the announcement and a later gathering. No February candidate has a verified physical end.",
+    "source_ids": [
+      "DRDOM202102-S001",
+      "DRDOM202102-S002",
+      "DRDOM202102-S016"
+    ],
+    "affected_candidates": [
+      "DRDOM202102-E001"
+    ],
+    "required_followup": "Review the January candidate and February evidence side by side; preserve separate event boundaries unless physical continuity is directly established."
+  },
+  {
+    "gap_id": "DRDOM202102-G013",
+    "type": "language_geographic_archive_and_body_coverage",
+    "description": "The bounded first pass captured 16 exact Spanish and English search invocations with 370 ordered result headers, including general monthly, week-window, event-specific, local-outlet and retrospective queries. The 32 source cards are search-only; one exact RNN body attempt ended in Cache miss with no HTTP status/body. No local archive or LexisNexis coverage is established, and search-result presence or absence is not evidence of event occurrence or non-occurrence.",
+    "source_ids": [],
+    "affected_candidates": [
+      "DRDOM202102-E001",
+      "DRDOM202102-E002",
+      "DRDOM202102-E003",
+      "DRDOM202102-E004"
+    ],
+    "required_followup": "Coordinator review should prioritize permitted contemporaneous local reporting, exact source access and attendance/physical-boundary evidence; do not claim exhaustiveness."
+  }
+]

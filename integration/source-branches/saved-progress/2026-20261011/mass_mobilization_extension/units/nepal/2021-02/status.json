@@ -1,0 +1,23 @@
+{
+  "unit_id": "nepal_2021-02",
+  "country": "Nepal",
+  "month": "2021-02",
+  "agent_task": "/root/nepal_2021_02_batch59",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T17:44:13.887989+00:00",
+  "finished_at": "2026-10-10T18:39:24+00:00",
+  "n_queries": 18,
+  "n_sources": 34,
+  "n_candidates": 12,
+  "n_excluded": 0,
+  "n_continuations": 1,
+  "n_gaps": 15,
+  "source_access_counts": {
+    "opened_cards": 2,
+    "search_only_cards": 32,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "coverage_assessment": "Non-exhaustive open-web first pass with 18 original batched search actions and 599 positionally preserved result headers, including English and Nepali searches. One contemporary article body was read; one separate exact Kathmandu Post URL timed out before HTTP and yielded no body. One previously opened January article was consulted locally through its saved card and scope, without reopening. Thirty-two cards are search-only. Search activity identified 12 candidate leads and one possible cross-month continuation, but attendance, state-directed demands, event boundaries, exact dates, local coverage, and response evidence remain incomplete for most. Open-web search does not reproduce LexisNexis or systematic newspaper archives; no claim of exhaustiveness or non-occurrence is made. Official baseline/manual compatibility remains pending.",
+  "baseline_gate": "pending_official_baseline"
+}

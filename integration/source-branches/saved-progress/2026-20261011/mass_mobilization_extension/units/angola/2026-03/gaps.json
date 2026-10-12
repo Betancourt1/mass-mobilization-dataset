@@ -1,0 +1,40 @@
+[
+  {
+    "gap_id": "AO26-03-G001",
+    "type": "source_access",
+    "description": "The exact Ver Angola target returned HTTP 403 on the single permitted direct attempt. No body evidence exists; Correio Canada is not an approved substitute.",
+    "source_ids": [
+      "AO2603S003",
+      "AO2603S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve the exact denial and stop. Any future access action needs a fresh explicit scope decision; do not retry this URL or follow related links under this authorization."
+  },
+  {
+    "gap_id": "AO26-03-G002",
+    "type": "search_coverage",
+    "description": "Full-month date windows and targeted local-language, sector, regional, official/media and human-rights-source searches (including explicit HRW, Amnesty and CIVICUS domain terms in AO26Q047) were attempted. The rights-targeted output did not identify a relevant report; results remain noisy and do not exhaust provincial/local outlets, government and union notices, rights reporting or archives. No absence conclusion is supported.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may assess this bounded first pass. Further discovery should follow concrete independently surfaced sources and verify onset, state-directed demand, participation threshold and continuity; no fixed query quota is implied."
+  },
+  {
+    "gap_id": "AO26-03-G003",
+    "type": "event_evidence",
+    "description": "The Ver Angola article target returned HTTP 403 on its single permitted direct attempt. Occurrence, date and participant threshold for the Luanda march are unverified; Correio Canada remains a separate unrequested search-only lead.",
+    "source_ids": [
+      "AO2603S003",
+      "AO2603S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve the denial and do not retry, follow origins/links, or substitute Correio under the existing authorization. Any new access attempt requires explicit coordinator scope approval."
+  },
+  {
+    "gap_id": "AO26-03-G004",
+    "type": "capture_integrity",
+    "description": "AO26WEB003 has no original bytes and no result attribution to its three grouped queries. The exclusive helper now preserves exact rendered strings for later calls including AO26Q047, while native result metadata remains unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep the missing-byte disclosure and exact output artifacts separate; do not fabricate native headers or agency independence."
+  }
+]

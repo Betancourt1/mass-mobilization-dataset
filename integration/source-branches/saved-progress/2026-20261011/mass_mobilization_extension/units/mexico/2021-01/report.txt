@@ -1,0 +1,59 @@
+MÉXICO — ENERO DE 2021
+Primer barrido de investigación abierto, pendiente de revisión
+Unidad: mexico_2021-01; agente: /root/mexico_2021_01
+Baseline gate: pending_official_baseline
+
+ALCANCE Y MÉTODO
+Se leyeron el protocolo de trabajadores y el manual Mass Mobilization.
+Se registraron 43 consultas con combinaciones genéricas de México/enero/2021 y protestas, manifestaciones, bloqueos, marchas y huelgas, búsquedas aproximadas por semana, búsquedas regionales y seguimiento por episodios. Se consultó prensa contemporánea accesible y documentos oficiales; fuentes retrospectivas y resultados sin lectura se mantuvieron como descubrimiento. El diario de consultas conserva URL, hora registrada y límites de atribución de lotes.
+
+La búsqueda abierta no reproduce LexisNexis All News/major world publications. Los operadores after/before de cuatro consultas fallaron y devolvieron también resultados de 2026; no fueron filtros de fecha efectivos. Las consultas por términos semanales tampoco garantizan ventanas completas. No se declara exhaustividad.
+
+RECUENTO
+Candidatos de enero: 37.
+Propuestas de inclusión: 8.
+Pendientes de umbral: 11.
+Pendientes de unidad/continuidad: 5.
+Pendientes de objetivo estatal: 3.
+Pendientes de evidencia íntegra: 10.
+Excluidos/convocatorias no verificadas: 7.
+Continuaciones de meses anteriores: 3.
+Fuentes relevantes: 87 URLs, con 40 abiertas, 15 bloqueadas y 32 sólo en descubrimiento. Dos de las abiertas sólo devolvieron encabezados/metadatos sin cuerpo suficiente.
+Consultas documentadas: 43.
+Huecos documentados: 15.
+
+INTERPRETACIÓN DEL MATERIAL
+Los ocho candidatos propuestos reúnen evidencia de una reunión pública, objetivo estatal y tamaño suficiente: UACh, Toluca, UAN en Tepic, taxistas de Colima, entretenimiento de Monterrey, verificentros de Tlalnepantla, eventos en León y marcha por Mariana Sánchez en San Cristóbal. Son propuestas revisables, no filas aprobadas; persisten preguntas de fecha, cierre, unidad y respuesta. En Tlalnepantla se conserva precisión mensual porque el día no está inequívocamente fijado en su párrafo.
+
+Los demás hallazgos no se suman automáticamente a un total de protestas elegibles. Algunas acciones tienen decenas o ningún conteo. La caravana de FRENAAA publica vehículos; Puebla anuncia futuras adhesiones; IMSS Campeche y Tula publican poblaciones afectadas; Acatlán informa detenidos; Hacienda Blanca refiere desplazados históricos. Ninguna cifra se convierte en asistentes sin prueba. Unos 50 de UPAY es una estimación justo en el límite.
+
+Se separaron las tres demandas distintas durante la visita a Atoyac. La acción coordinada de UACh conserva cientos en Chihuahua y 35 en Juárez sin sumarlos ni duplicar un mismo episodio. Las jornadas de Yautepec, la serie de restaurantes en CDMX/Edomex/Puebla y las sedes de Pemex requieren revisar organización y continuidad. El agente de febrero podrá detectar persistencia, cierre y duplicados. Salina Cruz tiene conflicto entre jueves y día 8; Coatzacoalcos no permite resolver 13/14.
+
+RESPUESTAS Y CONSECUENCIAS
+Se registran sólo respuestas explícitas vinculadas a la reunión. Reuniones y promesas de autoridades constituyen accommodation provisional en Yautepec del 18, Monterrey y tianguis de Ciudad Juárez; no equivalen a victoria. El operativo de Acatlán informa detenciones y retiro de ocupantes, pero la violencia atribuida proviene de versión estatal y su objetivo estatal/umbral siguen sin prueba suficiente. Se mantiene unknown para ausencia de violencia o represión no reportada, sin inferir ignore a partir de silencio.
+
+La detención del dirigente UAN, desapariciones de Yautepec y muerte de Mariana preceden a la protesta: no se trasladan a arrests/killings del evento. Retirar 150 tiendas vacías del Campamento México no se trata como dispersión de 150 manifestantes.
+
+CONTINUACIONES Y EXCLUSIONES
+Campamento México comenzó antes de 2021: fecha exacta y sucesión de FRENAAA no resueltas.
+Paro policial de Salina Cruz comenzó en diciembre según resultados aún no íntegramente verificables.
+Retención armada en Chamula empezó el 31 de diciembre; probable exclusión por coerción armada, mantenida en continuaciones para revisión del dueño mensual.
+Se excluyeron dos reuniones de unas 20 personas, dos acciones dirigidas sólo a Morena en las fuentes leídas, una encuesta digital laboral privada, una convocatoria no verificada y una pieza de aniversario histórico. La exclusión de una pista no equivale a probar que no ocurrió una acción posterior.
+
+COBERTURA Y HUECOS
+Los hallazgos provienen sobre todo de CDMX, Estado de México, Oaxaca, Chiapas, Guerrero, Veracruz, Jalisco, Chihuahua, Guanajuato, Hidalgo, Puebla, Nuevo León, Sonora, Yucatán, Campeche, Nayarit, Morelos, Colima y una pista de San Luis Potosí. No hubo una revisión uniforme de los 32 estados; tampoco de prensa no indexada ni de lenguas indígenas.
+
+Los bloqueos de acceso y las lecturas parciales se conservan por URL. No se eludieron muros de pago ni controles. Las versiones sindicadas de El Universal, El Heraldo de Chihuahua, Quadratín y comunicados oficiales no se cuentan como confirmaciones independientes. Las 32 fuentes de descubrimiento abiertas pendientes y pistas sin fecha precisa siguen como huecos. Una referencia retrospectiva a muchas protestas de Veracruz en el primer trimestre señala probable subcobertura, no un número de eventos de enero utilizable.
+
+No encontré evidencia suficiente para completar muchos campos. Esto no significa que no hubo protestas, violencia o respuesta estatal.
+La revisión siguiente debe priorizar baseline oficial, umbral, comienzo/fin, unidad y contraste de relatos oficiales. No se asignaron IDs oficiales, no se modificó la base original, no se contactó a terceros y no se publicó un PR.
+
+ARCHIVOS
+search_log.jsonl: todas las consultas registradas.
+sources.jsonl: todas las URLs relevantes del barrido, con estado de acceso y paráfrasis.
+discovery_urls.json: inventario adicional de metadatos de resultados, incluidos enlaces irrelevantes o fuera del mes; no son registros codificados.
+events.json: candidatos, evidencia por campo y preguntas.
+excluded.json: exclusiones y pistas no realizadas verificablemente.
+continuations.json: episodios comenzados antes de enero.
+gaps.json: huecos y próximos pasos.
+status.json: recuentos y estado, cerrado sólo tras escribir y validar todos los archivos.

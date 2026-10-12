@@ -1,0 +1,143 @@
+[
+  {
+    "gap_id": "luxembourg_2021-02-G001",
+    "type": "threshold_and_demands",
+    "description": "The full 8 February Journal article reports a fourth HORECA gathering on Saturday (date derived as 6 February) in Luxembourg City, but gives no attendance, exact venue, specific government-directed request, physical end or event-specific response. The single body read therefore does not establish the 50-person and domestic-state-demand criteria.",
+    "source_ids": [
+      "LUX202102-S003"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-02-E001"
+    ],
+    "required_followup": "Seek an accessible contemporaneous report or organizer/official record establishing actual attendance and the demand. Preserve the inferred date and unknown end until directly supported."
+  },
+  {
+    "gap_id": "luxembourg_2021-02-G002",
+    "type": "threshold_and_state_target",
+    "description": "The 11 February Place d’Armes HORECA action is supported only by search-result metadata. Pre-event hopes for up to 1,000 are not actual turnout; snippets suggesting more aid are not body-verified. RTL variants may be related and publisher independence is unresolved.",
+    "source_ids": [
+      "LUX202102-S001",
+      "LUX202102-S002",
+      "LUX202102-S011",
+      "LUX202102-S014",
+      "LUX202102-S015",
+      "LUX202102-S016",
+      "LUX202102-S017",
+      "LUX202102-S018"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-02-E002"
+    ],
+    "required_followup": "Use only fresh exact-URL scoped evidence under the normal access protocol if this dossier is reopened; verify actual turnout, execution, demand, source origins, end and response before coding."
+  },
+  {
+    "gap_id": "luxembourg_2021-02-G003",
+    "type": "access_prerequisite_failures",
+    "description": "The exact Le Quotidien S002 body remains unread after four fresh prerequisite chains ended before a request: R001 deferred on unstable inputs; R005 failed its immediate input-hash check; R006 stopped after the manual-review command error; R007 stopped after the preflight syntax error, with a later diagnostic showing changed input. N005-N007 retain no-request outcomes; the manual-review note and gate history files are retained where present. None of these outcomes is a publisher denial. The coordinator instructed the worker to stop retrying this body in this first pass.",
+    "source_ids": [
+      "LUX202102-S002"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-02-E002"
+    ],
+    "required_followup": "Keep this as unanswered follow-up. Do not reuse receipts or treat failures as a denial. Any future reading requires a separately authorized reopening and a wholly successful fresh receipt/manual-review/preflight chain."
+  },
+  {
+    "gap_id": "luxembourg_2021-02-G004",
+    "type": "threshold_and_local_policy",
+    "description": "The 5 February Esch-sur-Alzette co-housing/development-plan action is represented by two search-result titles only. Its execution, actual attendance, precise demand, intended municipal/state target, organizer, end and response remain unverified. RTL Today returned a technical Cache miss without HTTP status or body.",
+    "source_ids": [
+      "LUX202102-S007",
+      "LUX202102-S008"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-02-E003"
+    ],
+    "required_followup": "Seek permitted body-level or official local evidence establishing execution, size and the demand target; do not count the RTL/Wort titles as attendance confirmation."
+  },
+  {
+    "gap_id": "luxembourg_2021-02-G005",
+    "type": "possible_anti_covid_event",
+    "description": "A Tagesblatt search-result title says about 300 people protested COVID measures on a Saturday, while a 13 February Reddit search lead may concern an anti-restrictions gathering. The date, location, identity/linkage of these leads, actual attendance, demands and response are unverified. The Reddit exact-URL open returned a technical Cache miss with no HTTP status or post text. No date is assigned to February solely from the search query or Saturday wording.",
+    "source_ids": [
+      "LUX202102-S006",
+      "LUX202102-S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Establish the exact event date and whether both items describe one executed February gathering; verify body-level turnout and a domestic-policy demand before creating/coding a candidate."
+  },
+  {
+    "gap_id": "luxembourg_2021-02-G006",
+    "type": "planned_action_occurrence",
+    "description": "Chronicle.lu search results announce a 1 February Radio ARA march from the station to Parliament by staff/volunteers about its finances and media-support issue. The announcement does not establish execution or attendance.",
+    "source_ids": [
+      "LUX202102-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find post-event reporting, organizer documentation or an official record; do not code the plan or prospective demand as an executed protest."
+  },
+  {
+    "gap_id": "luxembourg_2021-02-G007",
+    "type": "planned_action_occurrence",
+    "description": "A 17 December Wort search result announced an education-sector protest for 9 February. This first pass found no execution confirmation or actual crowd evidence.",
+    "source_ids": [
+      "LUX202102-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify whether the action occurred, who participated, size, demand target, end and response; do not treat announcement as event."
+  },
+  {
+    "gap_id": "luxembourg_2021-02-G008",
+    "type": "audiovisual_source_access",
+    "description": "An RTL Play result dated 19 February surfaced a Mamer heritage-preservation protest segment lead. The segment was not opened or played, and the reported event date, group size, target and execution details remain unknown.",
+    "source_ids": [
+      "LUX202102-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review the audiovisual segment only through its normal accessible channel under a fresh exact-URL gate; separately assess whether the associated action meets the threshold and demand criteria."
+  },
+  {
+    "gap_id": "luxembourg_2021-02-G009",
+    "type": "late_month_and_sector_coverage",
+    "description": "Week/date-targeted searches covered 15–28 February and HORECA (including 20/27 February), labor/education, health and care, housing, refugees/migration, climate, farmers, women’s actions, and a 27 February Reddit lead. They did not establish further body-verified qualifying events. The Reddit title and indexed comments are not evidence of an event or turnout; no negative inference is made from search non-results.",
+    "source_ids": [
+      "LUX202102-S010",
+      "LUX202102-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If extending beyond this bounded open-web pass, verify the 27 February social lead and search contemporary local reporting or public records for late-month executions; do not convert search absence into proof none occurred."
+  },
+  {
+    "gap_id": "luxembourg_2021-02-G010",
+    "type": "women_action_execution_and_month_boundary",
+    "description": "Searches surfaced a possible 22 February Place d’Armes “Un violador en tu camino”/women’s-rights gathering and a CID Fraen an Gender program for the second women’s strike. Search metadata does not establish which activities occurred in February, attendance, demand recipient or qualifying threshold. March 8 International Women’s Day material is outside this unit unless evidence shows an action began in February.",
+    "source_ids": [
+      "LUX202102-S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify each February action and its own start date, attendance and state target; keep March events outside this unit unless a continuous episode beginning in February is established."
+  },
+  {
+    "gap_id": "luxembourg_2021-02-G011",
+    "type": "continuity_and_event_identity",
+    "description": "January’s weekly HORECA gatherings (Jan 16, 23 and 30) are recorded as separate actions. The 6 February Journal gathering is described as a fourth meeting; the 11 February Place d’Armes event is a separate reported action. No uninterrupted event across dates or into March is established. March 8 women’s and March 27 housing search leads are month-boundary follow-ups, not February events.",
+    "source_ids": [
+      "LUX202102-S003",
+      "LUX202102-S001",
+      "LUX202102-S018"
+    ],
+    "affected_candidates": [
+      "luxembourg_2021-02-E001",
+      "luxembourg_2021-02-E002"
+    ],
+    "required_followup": "Keep each dated HORECA assembly separate unless direct evidence demonstrates one continuous physical action. Recheck only if new event-level evidence establishes a continuation or owner month."
+  },
+  {
+    "gap_id": "luxembourg_2021-02-G012",
+    "type": "archive_and_baseline_limits",
+    "description": "Searches used English, French, German and Luxembourgish terms, including date windows and local sectors, but open-web search is not LexisNexis or systematic local newspaper coverage. No official baseline/manual availability or complete source-origin map was established. The 18 exact-URL cards include one full written-body read and 17 search-only leads; counts do not establish source independence, completeness or exhaustiveness.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should compare candidates and source scope with the official baseline when available. Any wider completeness or source-independence claim requires systematic archive/origin review."
+  }
+]
