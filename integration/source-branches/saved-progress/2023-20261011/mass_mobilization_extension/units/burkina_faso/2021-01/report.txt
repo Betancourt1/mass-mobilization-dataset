@@ -1,0 +1,35 @@
+Burkina Faso — January 2021 open-web research dossier
+Research scope: January 1–31, 2021; fixed event cutoff October 7, 2026 inclusive, America/Mexico_City. Provisional ccode 439. Experimental extension, not an official MM update. Assignment registered October 8, 2026; independent review and official-baseline verification remain pending.
+
+Method and coverage
+63 queries are retained in search_log.jsonl. French and English general, weekly/date-window, local-media, sector and regional searches covered Ouagadougou and Bobo-Dioulasso; Kaya, Dédougou, Fada N’Gourma, Koudougou, Ouahigouya, Dori, Banfora and Tenkodogo; labor, education, health, security/accountability, local services, land/farming and mining. December2020 and February2021 boundaries were searched, with earlier starts retained separately. RTB archive discovery covered Mooré, Dioula and Fulfulde index material only; no translated audio review was completed.
+Queries are not a fixed quota or proof of exhaustiveness. Open-web search does not reproduce LexisNexis. Date/site operators often returned unrelated years and countries. All discovery cards were retained, including false positives, so 260 URL cards are not 260 relevant articles or independent confirmations. Batch request-start times are recorded where captured; exact per-query execution time and result-to-query mapping were unavailable, so executed_at is null and returned_urls is the batch union. Source accessed_at is null where actual pre-fetch time was not captured; later metadata recording is distinct. Only paraphrases and metadata are persisted, not full articles.
+
+Candidate findings
+E001: Merchants gathered January7 around Rood Wooko, Ouagadougou, opposing Harouna Kaboré reappointment as commerce minister. Full Infobf article recovered via ordinary HTTPS200 after web Internal Error. No qualifying attendance estimate; pending_threshold. Participants said CRS occupied intended ministry site and caused relocation. Crowd_dispersal=yes records that prevention/displacement mechanism with participant attribution; no independent official confirmation. Other responses remain unknown.
+E002: UFR/SDS health-sciences strike began January19; Studio Yafa describes January20 picket. Exam reprogramming, allowances and internship arrears are reported demands. The 1403 students with zero grades is affected enrollment, not crowd attendance. Public accessibility, threshold and episode start remain unresolved; pending_unit.
+E003: January12–14 UFR/SDS strike retrospectively reported by AIB. No separately verified crowd or demands. Linked to E002 for review, without automatic merge or daily splitting; pending_unit.
+E004: January21 F-SYNTER university/research coordinations general assembly opposing career/CAMES restrictions. Public-protest character and attendance unverified; pending_unit. Planned meetings and later press replies do not prove accommodation.
+E005: January16 Dori MBDHP-Séno Yirgou justice meeting appears only in unread search evidence after tool failure and HTTPS timeout; pending_evidence. Prior massacre figures concern2019 and are not event killings.
+E006: January22 ministry march announced by UFR/SDS students in January20 report; occurrence not established. Announced date explicitly distinguished from execution; pending_evidence and potentially same episode as E002/E003.
+There are zero proposed_include candidates. Six local research records are not six confirmed distinct qualifying protests. All physical ending dates remain null. Seven response fields retain unknown except the specifically attributed merchant relocation. Silence is not ignore, no violence or no repression.
+
+Continuations and exclusions
+C001 records Ouagadougou municipal workers strike beginning November5,2020. January public gathering not established; unread blocked Le Pays retrospective suggests February resumption without a reliable physical ending date.
+C002 records December2,2020 Souri farmer land-compensation protest in January12 republication of January3 MBDHP statement. Alleged December3 torture is attributed NGO evidence, not January response.
+C003 preserves repeated SDS campaign since November2020 as a month-precision campaign lead; no automatic assertion of one continuous public episode.
+X001 excludes January20 UCRB press conference: state demand is present but no qualifying protest assembly, and leaders explicitly said no strike currently envisaged. Later February announced action is not January execution.
+X002 excludes January22–24 FDS cultural/social-cohesion fair: no qualifying state-policy protest demand documented.
+X003 excludes June2014 Bobo-Dioulasso Balai Citoyen sit-in announcement returned by unreliable date filtering.
+
+Source access and limitations
+Opened article evidence: AIB, Studio Yafa, Sidwaya, Radars, Wakat Séra/MBDHP statement, Infobf and NetAfrique historical false positive. Opened indexes: RTB, Infobf and Sidwaya. Ordinary public HTTPS was used only after web-tool failure; actual403 at Burkina24 merchant article and Le Pays follow-up was respected. DirectInfo DNS failure, Dori timeout and AIB Bobo404 remain gaps. AIB reprints and shared statements do not establish independent corroboration. Sidwaya January31/February1 linked F-SYNTER bodies remain unread; index alone cannot code interaction.
+16 gaps document baseline, attendance, episode unit, dates, response/casualty attribution, access, conflicting DirectInfo year, languages, coverage, search method and independence. No discovery of an eligible event is not evidence that none occurred. Latest official baseline/schema/universe/procedure/reuse conditions remain unverified despite available historical May2015 manual.
+
+Checks and resources
+All eight research files plus root-owned assignment.json are present. JSON/JSONL parsing, local source references, unique IDs, counts, seven response values, January candidate start dates and prior-month continuation starts checked. Root performs independent audit, consolidation and local commit. Worker made no Git operation, contact or publication and edited only this dossier.
+Temporary foreground HTTPS retrieval processes completed with observed exit0, including sessions42992,96005,34375 and8253; immediate retrieval commands also completed. No server, watcher, browser or background service started; no resource remains running.
+The task exceeded ten minutes because of source/date verification and access failures. Existing portable CLI and protocol already cover the reusable workflow. A new skill or CLI would duplicate them and would not remove the manual evidence judgment, so none was added.
+
+Review handoff
+Status: researched_open_web_pending_review. Priority follow-up: merchant attendance and police relocation corroboration; SDS public crowd/continuity and planned march execution; F-SYNTER public assembly; accessible Dori report and local-language review. No human or official approval is claimed.

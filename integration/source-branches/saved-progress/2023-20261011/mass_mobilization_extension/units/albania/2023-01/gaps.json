@@ -1,0 +1,180 @@
+[
+  {
+    "gap_id": "albania_2023-01_G001",
+    "type": "baseline",
+    "description": "The assigned ccode 339 remains provisional and the official Mass Mobilization baseline, universe, and source-year coverage are not resolved in this unit.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should resolve the pending_official_baseline gate against the designated official data and codebook before consolidation or claims of official compatibility."
+  },
+  {
+    "gap_id": "albania_2023-01_G002",
+    "type": "coverage",
+    "description": "Open-web coverage is based on discoverable Albanian and English pages, not systematic newspaper archives. Searches surfaced Tirana, Lezhë, Fier/Roskovec, Bilisht, and Bërxullë but cannot rule out unreported or locally indexed assemblies elsewhere in Albania.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review Albanian national and regional archive holdings and relevant local records; preserve the present result as coverage-limited, not evidence that no other events occurred."
+  },
+  {
+    "gap_id": "albania_2023-01_G003",
+    "type": "search_method",
+    "description": "The 24 captured query invocations (668 ordered result headers) include weekly January date windows and broad, sector, region, labor, housing, and boundary searches. Search engines returned substantial off-month material, so date filters and query rank did not consistently isolate January actions.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If more tools permit, use local outlet date archives and issue-specific searches for any city or week with thin coverage; do not infer absence from a query that returned no January result."
+  },
+  {
+    "gap_id": "albania_2023-01_G004",
+    "type": "language",
+    "description": "Research used Albanian and English queries and relied mainly on Albanian-language reporting. Albanian terms, dialect spellings, and machine-rendered page text may affect retrieval and fine-grained interpretation.",
+    "source_ids": [],
+    "affected_candidates": [
+      "albania_2023-01_E001",
+      "albania_2023-01_E002",
+      "albania_2023-01_E003",
+      "albania_2023-01_E004",
+      "albania_2023-01_E005"
+    ],
+    "required_followup": "If a reviewer has stronger Albanian-language access, check wording around attendance, demands, and whether attributed statements were made during each assembly."
+  },
+  {
+    "gap_id": "albania_2023-01_G005",
+    "type": "source_access",
+    "description": "S002's exact Top Channel URL returned HTTP 403. Exact URLs for S005 ABC News, S007 Shekulli, S008 TPZ, S009 Citizens.al, and S015 Dosja returned cache misses without observed HTTP denials. These outcomes are URL-scoped; no publisher-wide restriction was established, and no retries or bypasses were attempted.",
+    "source_ids": [
+      "S002",
+      "S005",
+      "S007",
+      "S008",
+      "S009",
+      "S015"
+    ],
+    "affected_candidates": [
+      "albania_2023-01_E001",
+      "albania_2023-01_E002",
+      "albania_2023-01_E004"
+    ],
+    "required_followup": "Keep the exact URLs and receipt records; only retrieve through ordinary permitted access if a later fresh exact-URL review allows it. Technical cache failures are not denials."
+  },
+  {
+    "gap_id": "albania_2023-01_G006",
+    "type": "participants",
+    "description": "No reliable source gives an event-specific individual attendance count for E001-E005. At E001, the named relatives are not a total crowd count. For E002, 131 is the port workforce, while S009’s search-only “about 130” estimate cannot be checked because its body was unavailable and may describe workforce rather than attendees. At E003, 164 refers to affected families; at E004, 20 refers to households; neither is individual turnout. E005 has no reported crowd count.",
+    "source_ids": [
+      "S001",
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S013",
+      "S014",
+      "S016"
+    ],
+    "affected_candidates": [
+      "albania_2023-01_E001",
+      "albania_2023-01_E002",
+      "albania_2023-01_E003",
+      "albania_2023-01_E004",
+      "albania_2023-01_E005"
+    ],
+    "required_followup": "Find contemporaneous event-specific attendance evidence. Keep participant bounds null and eligibility pending until the 50-person threshold is supported."
+  },
+  {
+    "gap_id": "albania_2023-01_G007",
+    "type": "state_target",
+    "description": "E001's official memorial format and the timing of the families' reported justice demand leave eligibility unresolved. S007's Bilisht labor lead appears to concern a private employer, with no verified government-policy target. E002-E005 report demands involving a government bonus or state-backed urban land-use and compensation decisions.",
+    "source_ids": [
+      "S001",
+      "S006",
+      "S007",
+      "S010",
+      "S013",
+      "S014",
+      "S016"
+    ],
+    "affected_candidates": [
+      "albania_2023-01_E001",
+      "albania_2023-01_E002",
+      "albania_2023-01_E003",
+      "albania_2023-01_E004",
+      "albania_2023-01_E005"
+    ],
+    "required_followup": "Review E001's event-level demand and public-demonstration status; retain X003 as a provisional exclusion unless state-target evidence for the Bilisht issue is found."
+  },
+  {
+    "gap_id": "albania_2023-01_G008",
+    "type": "dates",
+    "description": "E002 is dated January 11 by opened S010 and “this Wednesday” by S011. S009 is a search-only Citizens.al item dated January 12 with an unverified attendance preview; its inaccessible body does not establish whether the reported action occurred January 11 or January 12. End dates are unreported for all five candidates.",
+    "source_ids": [
+      "S008",
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "albania_2023-01_E002",
+      "albania_2023-01_E001",
+      "albania_2023-01_E003",
+      "albania_2023-01_E004",
+      "albania_2023-01_E005"
+    ],
+    "required_followup": "Retain January 11 as the opened report's action date while recording the January 12 alternative as unresolved; find physical closure evidence for each action instead of using publication dates or month end."
+  },
+  {
+    "gap_id": "albania_2023-01_G009",
+    "type": "episode_unit",
+    "description": "Q018 found December 2022 political-protest context; Q017 and AP metadata place the opposition rally on February 11; Q023 dates the former Qytet Studenti residents' protest to February 8; Q024 returns 2022 housing campaign reports and a December 2022 Bërxullë accountability filing, not evidence of one continuous public assembly. S014 says the Bërxullë campaign had lasted five months, but no exact start or continuous occupation is established. Q022 places Zall-Herr road protests in September 2023.",
+    "source_ids": [
+      "S012",
+      "S014",
+      "S017"
+    ],
+    "affected_candidates": [
+      "albania_2023-01_E003",
+      "albania_2023-01_E004",
+      "albania_2023-01_E005"
+    ],
+    "required_followup": "Check dated December 2022 and February 2023 local reporting if identifying campaign ownership matters. Do not merge separate dates or mark a continuation without evidence of one continuous assembly and a supported start date."
+  },
+  {
+    "gap_id": "albania_2023-01_G010",
+    "type": "state_response",
+    "description": "All seven state-response values and protester_violence remain unknown for E001-E005. Management's request to a supervisory board, a mayoral invitation, the Prime Minister's memorial attendance, attributed claims of no response, and future threats do not establish the corresponding response or violence fields.",
+    "source_ids": [
+      "S001",
+      "S006",
+      "S010",
+      "S011",
+      "S013",
+      "S014",
+      "S016"
+    ],
+    "affected_candidates": [
+      "albania_2023-01_E001",
+      "albania_2023-01_E002",
+      "albania_2023-01_E003",
+      "albania_2023-01_E004",
+      "albania_2023-01_E005"
+    ],
+    "required_followup": "Use event-specific reporting or official records to verify each response and any violence; do not code silence, a threat, or a management statement as an event response."
+  },
+  {
+    "gap_id": "albania_2023-01_G011",
+    "type": "source_independence",
+    "description": "S010 and S011 overlap on the Shëngjin protest and the port director's account; shared wording or common reporting origin is possible but not established. S008 and S009 are search-only and do not independently verify turnout. S014 and S015 concern Bërxullë, but the latter body was unavailable and source independence is unverified.",
+    "source_ids": [
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S014",
+      "S015"
+    ],
+    "affected_candidates": [
+      "albania_2023-01_E002",
+      "albania_2023-01_E004"
+    ],
+    "required_followup": "Inspect bylines, agency credits, and original reporting when available; do not count syndicated or overlapping text as independent turnout corroboration."
+  }
+]

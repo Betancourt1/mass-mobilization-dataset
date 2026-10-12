@@ -1,0 +1,31 @@
+{
+  "unit_id": "burkina_faso_2021-01",
+  "country": "Burkina Faso",
+  "month": "2021-01",
+  "agent_task": "/root/burkina_faso_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T07:26:35.623512+00:00",
+  "finished_at": "2026-10-08T07:38:20.019664+00:00",
+  "n_queries": 63,
+  "n_sources": 260,
+  "n_candidates": 6,
+  "n_excluded": 3,
+  "n_continuations": 3,
+  "n_gaps": 16,
+  "coverage_assessment": "French/English full open-web pass across general, weekly, sector, regional and boundary searches. Six unresolved candidates; zero proposed_include. Rural/local-language and archival access remain uneven; no exhaustive or protest-zero claim.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources_started": [
+    "Foreground ordinary HTTPS retrieval commands; sessions42992,96005,34375,8253 completed exit0; no lasting service/browser"
+  ],
+  "temporary_resources_remaining": [],
+  "frozen_for_review": true,
+  "checks": {
+    "json_jsonl_parse": "pass",
+    "source_references": "pass",
+    "unique_source_query_ids": "pass",
+    "counts": "pass",
+    "date_ownership": "pass",
+    "seven_responses": "pass",
+    "required_files": 9
+  }
+}

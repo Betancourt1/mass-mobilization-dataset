@@ -1,0 +1,152 @@
+[
+  {
+    "candidate_id": "montenegro_2021-01-E001",
+    "country": "Montenegro",
+    "ccode": "348",
+    "unit_month": "2021-01",
+    "title": "Bar Pamti cypress-felling anniversary gathering",
+    "start_date": "2021-01-17",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Courtyard of Niko Rolović Gymnasium and Economic-Catering School, Bar",
+    "scope": "local",
+    "organizer": "Građanska inicijativa Bar Pamti",
+    "demands": [
+      "land_farm_issue"
+    ],
+    "participants_original": "About fifty citizens (pedesetak građana)",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Pending: a Dnevne Novine search result says about fifty, which is neither an exact count nor a numeric lower bound; it does not establish that attendance was at least 50. Vijesti confirms an anniversary gathering but gives no headcount. The opened Institut Alternativa report says RTCG's Jan17 report used images from the previous year's assembly; those images cannot establish 2021 attendance.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S021",
+      "S029",
+      "S030",
+      "S031"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001",
+          "S021",
+          "S029",
+          "S030"
+        ],
+        "summary": "Institut Alternativa identifies an RTCG report aired Jan17 about a Bar cypress anniversary assembly; search-only Dnevne says the performance happened the previous day, and search-only Vijesti dates the anniversary gathering to Jan17."
+      },
+      "location": {
+        "source_ids": [
+          "S029",
+          "S030"
+        ],
+        "summary": "Search-result texts place the gathering at the school courtyard in Bar; details remain unverified in opened articles."
+      },
+      "organizer": {
+        "source_ids": [
+          "S030"
+        ],
+        "summary": "Vijesti search-result text identifies the Bar Pamti Citizens' Initiative and its organizers; source not opened by this worker."
+      },
+      "demands": {
+        "source_ids": [
+          "S029",
+          "S030"
+        ],
+        "summary": "Search-result text attributes to organizers a two-year effort for a better kindergarten site and restoration/improvement of the schoolyard; tentative category land_farm_issue reflects a public land-use/site-selection demand."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S029"
+        ],
+        "summary": "Dnevne search-result text gives pedesetak građana (about fifty)."
+      },
+      "participants_min": {
+        "source_ids": [
+          "S029"
+        ],
+        "summary": "No numerical lower bound is reported."
+      },
+      "participants_max": {
+        "source_ids": [
+          "S029"
+        ],
+        "summary": "No numerical upper bound is reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S001",
+          "S021",
+          "S029",
+          "S030"
+        ],
+        "summary": "Approximate about-fifty wording does not prove at least 50; Vijesti gives no number. The report explicitly says RTCG used previous-year images, which are excluded as 2021 turnout evidence."
+      },
+      "scope": {
+        "source_ids": [
+          "S029",
+          "S030"
+        ],
+        "summary": "The described venue is in Bar; organizer is a local citizens' initiative."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "S029",
+          "S030"
+        ],
+        "summary": "Search results say the education minister met organizers and promised action, but this worker did not open either underlying article; response remains unknown."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S029",
+          "S030"
+        ],
+        "summary": "No opened source establishes whether participants used violence; field remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "S029",
+          "S030"
+        ],
+        "summary": "No opened source supports any of the seven response fields; all remain unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "S029",
+          "S030"
+        ],
+        "summary": "No source documents the participants physically leaving or the assembly ending."
+      },
+      "episode_key": {
+        "source_ids": [
+          "S029",
+          "S030",
+          "S031"
+        ],
+        "summary": "The sources call it a two-year anniversary in the Bar Pamti campaign; uninterrupted public assembly and episode boundaries are unresolved."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "bar_pamti_cypress_schoolyard_kindergarten",
+    "notes": "Search-result reporting supports a Jan17 public anniversary gathering and a possible domestic state-policy land-use demand, but turnout and full context remain search-only. Do not treat the event as meeting the >=50 threshold or code accommodation until directly reviewed. The report's warning that RTCG displayed prior-year footage is preserved. The wider campaign's onset and the boundary between a recurring campaign and discrete anniversary gathering remain open.",
+    "open_questions": [
+      "Did at least 50 people participate? Dnevne says approximately fifty without an exact count.",
+      "Can the contemporary Dnevne and Vijesti sources be opened directly for full event and demand details?",
+      "Was the Jan17 anniversary a discrete new protest episode or part of a continuing earlier campaign?",
+      "When did participants physically depart?",
+      "Does the original MM category mapping treat this site-selection dispute as land_farm_issue?"
+    ]
+  }
+]

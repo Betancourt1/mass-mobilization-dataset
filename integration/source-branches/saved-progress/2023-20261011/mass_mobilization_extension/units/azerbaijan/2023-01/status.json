@@ -1,0 +1,29 @@
+{
+  "unit_id": "azerbaijan_2023-01",
+  "country": "Azerbaijan",
+  "month": "2023-01",
+  "agent_task": "/root/azerbaijan_2023_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T03:57:22Z",
+  "finished_at": "2026-10-10T04:48:41Z",
+  "n_queries": 18,
+  "n_sources": 22,
+  "n_candidates": 0,
+  "n_excluded": 8,
+  "n_continuations": 3,
+  "n_gaps": 9,
+  "coverage_assessment": "First-pass open-web research: 18 captured invocations (411 ordered result headers) in Azerbaijani, Russian, and English, covering weekly January windows, national and regional searches, labor/professional sectors, and December/February boundaries. No January-started public assembly meeting the 50-person and domestic-government/policy-demand criteria was verified; events.json is empty without an absence or completeness claim. The Dec 12 sit-in remains a continuity lead with threshold, direct state target, territorial ownership, and end date unresolved; two separate December actions aimed at Russian peacekeepers remain outside-month leads. The S020 hunger-strike headline remains unresolved on occurrence date, public character, location, target and turnout after one exact-URL attempt yielded no captured body text. The 20 January subject/publication dates on X003, X007 and X008 are not coded as event occurrence dates. Eight exclusions and nine open gaps preserve these uncertainties. The official baseline and independent coordinator review remain pending; no human or official approval is claimed.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 2,
+    "search_only_cards": 20,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 411,
+    "unique_query_ids": 18,
+    "ids": "Q001-Q018",
+    "recovery_note": "Q018 is the exact original combined invocation with two query strings and 34 ordered result headers; it was not split."
+  }
+}

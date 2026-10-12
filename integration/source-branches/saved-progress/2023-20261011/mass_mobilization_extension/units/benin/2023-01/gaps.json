@@ -1,0 +1,89 @@
+[
+  {
+    "gap_id": "benin_2023-01_G001",
+    "type": "source_access",
+    "description": "Educ’Action S001 has a displayed search-result date of 23 January 2023, but the indexed text mentions negotiations on 26 January 2017. The exact article body was not retrieved: web.open returned Cache miss and one ordinary HTTPS retry failed DNS before HTTP. The date conflict and any 2023 action remain unresolved.",
+    "source_ids": [
+      "BN2301-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If the exact public article becomes normally available, obtain a fresh receipt and manual publisher/origin review, then verify publication date, action chronology and public-event details from the body. Until then do not infer a 2023 strike, gathering, attendance, demand or state response."
+  },
+  {
+    "gap_id": "benin_2023-01_G002",
+    "type": "source_access",
+    "description": "La Flamme S004 is an APP meeting lead connected to the January 2023 legislative election. Its article page returned Cache miss (turn469view0); one ordinary exact-URL HTTPS request failed DNS before HTTP. Q025 returned the same publisher’s item/indexes but no independent event report; all search-index dates and details remain discovery-only.",
+    "source_ids": [
+      "BN2301-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If normally available later, use a fresh exact-URL receipt and manual source/origin guard before reading. Verify each meeting date/location, execution, public-protest versus campaign-rally character, attendance threshold, state-directed demand and response. Do not use search-result snippets as event evidence."
+  },
+  {
+    "gap_id": "benin_2023-01_G003",
+    "type": "source_access",
+    "description": "Les 4 VERITES S007 is a search-only student sit-in lead whose result age indicator says about 9.3 years before the 2026 search. Two exact page opens returned Cache miss (turn554view0 and turn555view0), and one ordinary HTTPS request failed DNS before HTTP. The expanded manual source-check review followed these failed attempts; no body was retrieved or used, and no later body request was made.",
+    "source_ids": [
+      "BN2301-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep as an unresolved historical lead, not a January 2023 event. If resumed, confirm exact publication/action date and attendance/state-target details from a normally available body after a fresh access receipt and manual publisher/origin review."
+  },
+  {
+    "gap_id": "benin_2023-01_G004",
+    "type": "source_access",
+    "description": "Africa Press items S002 and S005 remain unrequested under the inherited publisher-wide hold recorded in Zambia zambia_2021-01_S012 and based on Ethiopia ETH202101-S175 HTTP 403. S002’s exact-target receipt had no automated match, which does not override the explicit manual hold. S005 search text overlaps S003, but the republication chain was not established.",
+    "source_ids": [
+      "BN2301-S002",
+      "BN2301-S003",
+      "BN2301-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry Africa Press or seek same-story copies during this run. Treat S003 as the only body-read report; do not count the blocked search leads as independent corroboration."
+  },
+  {
+    "gap_id": "benin_2023-01_G005",
+    "type": "participants",
+    "description": "No reviewed lead establishes a qualifying January gathering of at least 50 people. The APP meetings S004 have no verified attendance, and the student sit-in S007 has neither a confirmed January 2023 date nor attendance; S001’s chronology is conflicted. The 714 WANEP observers and 686 polling-post reports in S003 are coverage figures, not protester counts.",
+    "source_ids": [
+      "BN2301-S001",
+      "BN2301-S003",
+      "BN2301-S004",
+      "BN2301-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "For any future candidate, find event-specific evidence of crowd size or a clear qualitative account supporting at least 50 participants. Do not substitute observers, polling places, workers listed by category, arrests or campaign totals for attendance."
+  },
+  {
+    "gap_id": "benin_2023-01_G006",
+    "type": "state_target",
+    "description": "The accessible aggregate WANEP poll-day report S003 says 93.44% of 686 reporting polling posts had no public manifestations observed by 15:50, but it does not describe any manifestation in the remainder. S004’s indexed text is insufficient to determine which meeting actions, if any, were protests directed at Benin’s government or policy rather than electoral campaigning. No event-specific state response or protester-violence evidence is established.",
+    "source_ids": [
+      "BN2301-S003",
+      "BN2301-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek contemporaneous event-level reporting before identifying a protest or assigning a domestic state target. If an event is verified, research its response separately; silence in a source is not an explicit no-response or no-violence code."
+  },
+  {
+    "gap_id": "benin_2023-01_G007",
+    "type": "continuity",
+    "description": "No December-to-January continuing episode or January-start action continuing into February was verified in boundary searches. The Djougou taxi-moto cessation began 27 February and is recorded as X001, outside this unit’s start-month ownership.",
+    "source_ids": [
+      "BN2301-S001",
+      "BN2301-S006"
+    ],
+    "affected_candidates": [
+      "benin_2023-01_X001"
+    ],
+    "required_followup": "Keep the February action outside January. Revisit continuity only if a source establishes an action that began in December or January; do not infer continuation from later coverage or shared sector."
+  },
+  {
+    "gap_id": "benin_2023-01_G008",
+    "type": "coverage",
+    "description": "Sixteen original search-tool invocations preserve 28 French/English queries and 386 ordered headers. Coverage included broad discovery, weekly January windows, student/teacher/transport/labor and other sectors, northern and southern cities, the election period, post-result searches, and December/February boundaries. Open-web searching is not LexisNexis and does not establish exhaustiveness; no systematic Fon, Yoruba, Bariba, local-radio or province-by-province archive sweep is documented. The local May 2015 codebook is historical (1990–2014), while the current official dataset version/universe remains unverified and its official gate is pending.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If a later completeness review is warranted, expand local-language, radio and province-specific archives and verify the official baseline/version and additional coding procedure before any official integration. Do not claim no protest occurred."
+  }
+]

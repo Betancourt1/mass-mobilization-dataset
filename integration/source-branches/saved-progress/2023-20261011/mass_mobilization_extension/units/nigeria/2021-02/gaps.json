@@ -1,0 +1,338 @@
+[
+  {
+    "gap_id": "NGA202102-G001",
+    "type": "coverage",
+    "description": "Web abierta no reproduce LexisNexis ni hemerotecas; no afirmar exhaustividad ni protest=0.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Aplicar protocolo hemerográfico oficial si se obtiene acceso; revisar país-mes completo."
+  },
+  {
+    "gap_id": "NGA202102-G002",
+    "type": "search_filter_failure",
+    "description": "Cuatro ventanas after/before y exclusiones devolvieron años 2024–2026 y Wikipedia. Se añadieron cuatro ventanas en texto natural; sigue incompleta precisión temporal.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Verificar publicación y fecha del evento en cada documento; repetir ventanas en hemeroteca."
+  },
+  {
+    "gap_id": "NGA202102-G003",
+    "type": "language",
+    "description": "Predominio inglés; una nota Hausa abierta y consultas Hausa/Yoruba. Pidgin BBC bloqueado; Igbo y otras lenguas sin cobertura sistemática.",
+    "source_ids": [
+      "NGA202102-S168"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Revisión local lingüística/archivos abiertos; no tratar traducción automática como corroboración."
+  },
+  {
+    "gap_id": "NGA202102-G004",
+    "type": "blocked_archive",
+    "description": "Tribune Oyo 15 febrero rechazó apertura 403. Guardian KLT falló primero y abrió en segundo intento; conservar historial.",
+    "source_ids": [
+      "NGA202102-S192",
+      "NGA202102-S229"
+    ],
+    "affected_candidates": [
+      "NGA202102-C002",
+      "NGA202102-E007"
+    ],
+    "required_followup": "Acceder a edición autorizada de Tribune sin eludir bloqueo; fuente alternativa contemporánea."
+  },
+  {
+    "gap_id": "NGA202102-G005",
+    "type": "official_baseline",
+    "description": "Versión oficial/corte/licencia MM aún no verificados. Todos los registros son candidatos y código 475 provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Resolver baseline antes de integrar, dar IDs oficiales o contribuir PR."
+  },
+  {
+    "gap_id": "NGA202102-G006",
+    "type": "threshold",
+    "description": "NGA202102-E001: >=50 personas no acreditadas inequívocamente; sin aforo de la reunión. No usar plantillas, población, vehículos o detenidos como total simultáneo.",
+    "source_ids": [
+      "NGA202102-S050",
+      "NGA202102-S055",
+      "NGA202102-S235",
+      "NGA202102-S238",
+      "NGA202102-S046"
+    ],
+    "affected_candidates": [
+      "NGA202102-E001"
+    ],
+    "required_followup": "Recuperar estimación de concentración y contrastar menor conteo; conservar pending si no se obtiene."
+  },
+  {
+    "gap_id": "NGA202102-G007",
+    "type": "threshold",
+    "description": "NGA202102-E002: >=50 personas no acreditadas inequívocamente; sin aforo de la reunión. No usar plantillas, población, vehículos o detenidos como total simultáneo.",
+    "source_ids": [
+      "NGA202102-S069",
+      "NGA202102-S009",
+      "NGA202102-S008"
+    ],
+    "affected_candidates": [
+      "NGA202102-E002"
+    ],
+    "required_followup": "Recuperar estimación de concentración y contrastar menor conteo; conservar pending si no se obtiene."
+  },
+  {
+    "gap_id": "NGA202102-G008",
+    "type": "threshold",
+    "description": "NGA202102-E003: >=50 personas no acreditadas inequívocamente; PLAC: unos 40 manifestantes; policía: 40 detenidos acumulados; Reuters: unos 15 iniciales. No usar plantillas, población, vehículos o detenidos como total simultáneo.",
+    "source_ids": [
+      "NGA202102-S018",
+      "NGA202102-S177",
+      "NGA202102-S184",
+      "NGA202102-S092",
+      "NGA202102-S168"
+    ],
+    "affected_candidates": [
+      "NGA202102-E003"
+    ],
+    "required_followup": "Recuperar estimación de concentración y contrastar menor conteo; conservar pending si no se obtiene."
+  },
+  {
+    "gap_id": "NGA202102-G009",
+    "type": "threshold",
+    "description": "NGA202102-E004: >=50 personas no acreditadas inequívocamente; sin aforo de la reunión. No usar plantillas, población, vehículos o detenidos como total simultáneo.",
+    "source_ids": [
+      "NGA202102-S064"
+    ],
+    "affected_candidates": [
+      "NGA202102-E004"
+    ],
+    "required_followup": "Recuperar estimación de concentración y contrastar menor conteo; conservar pending si no se obtiene."
+  },
+  {
+    "gap_id": "NGA202102-G010",
+    "type": "threshold",
+    "description": "NGA202102-E005: >=50 personas no acreditadas inequívocamente; sin aforo de la reunión. No usar plantillas, población, vehículos o detenidos como total simultáneo.",
+    "source_ids": [
+      "NGA202102-S198",
+      "NGA202102-S065"
+    ],
+    "affected_candidates": [
+      "NGA202102-E005"
+    ],
+    "required_followup": "Recuperar estimación de concentración y contrastar menor conteo; conservar pending si no se obtiene."
+  },
+  {
+    "gap_id": "NGA202102-G011",
+    "type": "threshold",
+    "description": "NGA202102-E006: >=50 personas no acreditadas inequívocamente; The Sun: cientos; Punch: decenas (dozens), estimaciones discordantes. No usar plantillas, población, vehículos o detenidos como total simultáneo.",
+    "source_ids": [
+      "NGA202102-S214",
+      "NGA202102-S327",
+      "NGA202102-S330",
+      "NGA202102-S333"
+    ],
+    "affected_candidates": [
+      "NGA202102-E006"
+    ],
+    "required_followup": "Recuperar estimación de concentración y contrastar menor conteo; conservar pending si no se obtiene."
+  },
+  {
+    "gap_id": "NGA202102-G012",
+    "type": "threshold",
+    "description": "NGA202102-E007: >=50 personas no acreditadas inequívocamente; sin aforo de la reunión. No usar plantillas, población, vehículos o detenidos como total simultáneo.",
+    "source_ids": [
+      "NGA202102-S229"
+    ],
+    "affected_candidates": [
+      "NGA202102-E007"
+    ],
+    "required_followup": "Recuperar estimación de concentración y contrastar menor conteo; conservar pending si no se obtiene."
+  },
+  {
+    "gap_id": "NGA202102-G013",
+    "type": "threshold",
+    "description": "NGA202102-E009: >=50 personas no acreditadas inequívocamente; Scores/decenas de residentes; sin cifra verificable >=50. No usar plantillas, población, vehículos o detenidos como total simultáneo.",
+    "source_ids": [
+      "NGA202102-S224",
+      "NGA202102-S276"
+    ],
+    "affected_candidates": [
+      "NGA202102-E009"
+    ],
+    "required_followup": "Recuperar estimación de concentración y contrastar menor conteo; conservar pending si no se obtiene."
+  },
+  {
+    "gap_id": "NGA202102-G014",
+    "type": "threshold",
+    "description": "NGA202102-E010: >=50 personas no acreditadas inequívocamente; sin aforo de la reunión. No usar plantillas, población, vehículos o detenidos como total simultáneo.",
+    "source_ids": [
+      "NGA202102-S351",
+      "NGA202102-S369"
+    ],
+    "affected_candidates": [
+      "NGA202102-E010"
+    ],
+    "required_followup": "Recuperar estimación de concentración y contrastar menor conteo; conservar pending si no se obtiene."
+  },
+  {
+    "gap_id": "NGA202102-G015",
+    "type": "state_target",
+    "description": "Akpabuyo/Bakassi se dirige sobre todo a distribuidora PHEDC; Jangebe protesta contra secuestro. Presencia policial/alcalde no acredita demanda a política estatal.",
+    "source_ids": [
+      "NGA202102-S256",
+      "NGA202102-S307",
+      "NGA202102-S308",
+      "NGA202102-S224",
+      "NGA202102-S276"
+    ],
+    "affected_candidates": [
+      "NGA202102-E008",
+      "NGA202102-E009"
+    ],
+    "required_followup": "Recuperar demanda explícita y verificar propiedad/competencia de entidad; excluir si exclusivamente privado/no estatal."
+  },
+  {
+    "gap_id": "NGA202102-G016",
+    "type": "episode_boundary",
+    "description": "NASU huelga febrero y congreso no heredan aforo/actividad física enero. IMN y Water Corporation requieren decidir jornadas/pausas sin duplicación mensual.",
+    "source_ids": [
+      "NGA202102-S069",
+      "NGA202102-S008",
+      "NGA202102-S009",
+      "NGA202102-S145",
+      "NGA202102-S147",
+      "NGA202102-S128",
+      "NGA202102-S129"
+    ],
+    "affected_candidates": [
+      "NGA202102-E002",
+      "NGA202102-C001",
+      "NGA202102-C002",
+      "NGA202102-C004"
+    ],
+    "required_followup": "Revisar mes anterior/posterior y procedimiento adicional MM; documentar fusión o separación."
+  },
+  {
+    "gap_id": "NGA202102-G017",
+    "type": "contradictory_event",
+    "description": "Olanada: PM News afirma protesta 15; comisionado niega y cuestiona uniformes, sin resolución independiente.",
+    "source_ids": [
+      "NGA202102-S351",
+      "NGA202102-S369"
+    ],
+    "affected_candidates": [
+      "NGA202102-E010"
+    ],
+    "required_followup": "Buscar material original fechado y ubicación/uniforme; no aprobar por republicaciones."
+  },
+  {
+    "gap_id": "NGA202102-G018",
+    "type": "size_conflict",
+    "description": "NYU: The Sun dice cientos frente a decenas de Punch. No seleccionar mayor estimación para superar umbral.",
+    "source_ids": [
+      "NGA202102-S214",
+      "NGA202102-S327",
+      "NGA202102-S330"
+    ],
+    "affected_candidates": [
+      "NGA202102-E006"
+    ],
+    "required_followup": "Identificar fuente/corresponsal, hora y estimación baja verificable."
+  },
+  {
+    "gap_id": "NGA202102-G019",
+    "type": "state_response_unknown",
+    "description": "Información incompleta de víctimas, detenciones, fuerza estatal y no violencia. Unknown no es cero. CAC: identidad del supuesto incendiario disputada.",
+    "source_ids": [
+      "NGA202102-S065",
+      "NGA202102-S198",
+      "NGA202102-S235",
+      "NGA202102-S238",
+      "NGA202102-S224",
+      "NGA202102-S276"
+    ],
+    "affected_candidates": [
+      "NGA202102-E001",
+      "NGA202102-E002",
+      "NGA202102-E003",
+      "NGA202102-E004",
+      "NGA202102-E005",
+      "NGA202102-E006",
+      "NGA202102-E007",
+      "NGA202102-E008",
+      "NGA202102-E009",
+      "NGA202102-E010"
+    ],
+    "required_followup": "Recuperar respuesta específica por acción y separar agresiones previas/terceros."
+  },
+  {
+    "gap_id": "NGA202102-G020",
+    "type": "end_date",
+    "description": "Faltan finales físicos de CAC, KLT, Jangebe; flitchers fin el 22 usa última actividad publicada. Huelga suspendida no es automáticamente fin de reunión.",
+    "source_ids": [
+      "NGA202102-S064",
+      "NGA202102-S065",
+      "NGA202102-S198",
+      "NGA202102-S229",
+      "NGA202102-S224",
+      "NGA202102-S276",
+      "NGA202102-S008",
+      "NGA202102-S009"
+    ],
+    "affected_candidates": [
+      "NGA202102-E002",
+      "NGA202102-E004",
+      "NGA202102-E005",
+      "NGA202102-E007",
+      "NGA202102-E009"
+    ],
+    "required_followup": "Seguir actividad vecina y fijar regla de cierre explícita; no usar 28 febrero por defecto."
+  },
+  {
+    "gap_id": "NGA202102-G021",
+    "type": "retrospective_allegation",
+    "description": "IMN: fuente 1 febrero alega dos muertos 26 enero, herido 27 y ataque 28. Discrepa con candidato enero de una muerte. No confirmado ni añadido a febrero.",
+    "source_ids": [
+      "NGA202102-S145"
+    ],
+    "affected_candidates": [
+      "NGA202102-C001",
+      "NGA202101-E007"
+    ],
+    "required_followup": "Revisión coordinador de identidad/fecha/autor y contraste independiente; no actualizar enero silenciosamente."
+  },
+  {
+    "gap_id": "NGA202102-G022",
+    "type": "syndication",
+    "description": "NAN es origen de Guardian UNILAG/UniAbuja/extortion y otras republicaciones; The Tide/The Trent de Calabar comparten texto; varios Sun NYU probablemente mismo episodio/corresponsal.",
+    "source_ids": [
+      "NGA202102-S050",
+      "NGA202102-S064",
+      "NGA202102-S069",
+      "NGA202102-S198",
+      "NGA202102-S256",
+      "NGA202102-S305",
+      "NGA202102-S307",
+      "NGA202102-S327",
+      "NGA202102-S330"
+    ],
+    "affected_candidates": [
+      "NGA202102-E001",
+      "NGA202102-E002",
+      "NGA202102-E004",
+      "NGA202102-E005",
+      "NGA202102-E006",
+      "NGA202102-E008"
+    ],
+    "required_followup": "Etiquetar relaciones de fuente y no multiplicar evidencias independientes por URL."
+  },
+  {
+    "gap_id": "NGA202102-G023",
+    "type": "prior_month_discovery",
+    "description": "Edo NUT inició huelga 18 enero y suspendió 5 febrero; no reunión pública >=50 demostrada, posible hueco enero.",
+    "source_ids": [
+      "NGA202102-S349"
+    ],
+    "affected_candidates": [
+      "NGA202102-C003"
+    ],
+    "required_followup": "Investigar reunión pública enero con aforo, sin contar huelga de escritorio por sí sola."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "gap_id": "CRI-2023-01-G001",
+    "type": "threshold",
+    "description": "No candidate has evidence of at least 50 simultaneous physical participants. Pavas has no crowd count; its 250-family affected-household figure is not attendance. Keylor reports say only 'decenas'; the Jan. 21 UCR lead and Assembly candidates have no usable count.",
+    "source_ids": ["CR-S003", "CR-S005", "CR-S006", "CR-S007", "CR-S008", "CR-S009", "CR-S010"],
+    "affected_candidates": ["CRI-2023-01-E001", "CRI-2023-01-E002", "CRI-2023-01-E003", "CRI-2023-01-E004", "CRI-2023-01-E005"],
+    "required_followup": "Find event-specific simultaneous crowd counts or clearly quantified attendance; do not infer bounds from 'decenas', affected families, organizers, or photos alone."
+  },
+  {
+    "gap_id": "CRI-2023-01-G002",
+    "type": "episode_unit",
+    "description": "A UCR search result indexes a Finca San Juan protest at municipal offices on Jan. 21, while Telediario reports a Jan. 20 protest near Demasa. They may be distinct day/site actions or a date/index discrepancy; the UCR query/PDF bodies were not retrieved.",
+    "source_ids": ["CR-S003", "CR-S007", "CR-S008"],
+    "affected_candidates": ["CRI-2023-01-E001", "CRI-2023-01-E003"],
+    "required_followup": "Read a verifiable Jan. 21 UCR event record or independent contemporaneous reporting, then decide whether the Jan. 20 and Jan. 21 physical gatherings are distinct. Do not merge on shared organizers/demand alone."
+  },
+  {
+    "gap_id": "CRI-2023-01-G003",
+    "type": "source_access",
+    "description": "The UCR January protest chronology item and two other UCR pages remained search-only after technical retrieval failures. The chronology item returned a web Cache miss, then three receipted ordinary-HTTPS attempts failed in the local output pipeline with curl exit 23; actual HTTP status/body were unobserved. The exact UCR database query and chronology PDF each had one receipted Cache-miss open attempt, with no retry.",
+    "source_ids": ["CR-S001", "CR-S007", "CR-S008"],
+    "affected_candidates": ["CRI-2023-01-E001", "CRI-2023-01-E003", "CRI-2023-01-E004", "CRI-2023-01-E005"],
+    "required_followup": "Use a new exact-URL receipt before any future body attempt; preserve all prior attempt/receipt pairs, and do not describe Cache miss or curl 23 as publisher denial."
+  },
+  {
+    "gap_id": "CRI-2023-01-G004",
+    "type": "date_conflict",
+    "description": "The UCR chronology search result is headed 'Diciembre 2022' but its excerpts include weekday/date combinations that conflict with that month. The Jan. 24 Assembly item is therefore pending evidence. A 'SÁBADO 25' Pérez Zeledón court-gathering lead cannot be safely assigned to January from the snippets.",
+    "source_ids": ["CR-S008", "CR-S010"],
+    "affected_candidates": ["CRI-2023-01-E005"],
+    "required_followup": "Read the exact chronology PDF or locate independent contemporaneous reporting; resolve the document's month/date before assigning the Pérez Zeledón lead to this unit or treating Jan. 24 as an executed separate protest."
+  },
+  {
+    "gap_id": "CRI-2023-01-G005",
+    "type": "episode_unit",
+    "description": "The UCR gallery confirms a Jan. 23 Assembly gathering with student and other groups on opposing sides of the Defensoría selection, while OPNA says student federations took their position on Jan. 23 and 24. It is unresolved whether Jan. 24 was a separate physical action, continued campaign activity, or only a reported position; group-level event boundaries on Jan. 23 also need coordinator review.",
+    "source_ids": ["CR-S008", "CR-S009", "CR-S010"],
+    "affected_candidates": ["CRI-2023-01-E004", "CRI-2023-01-E005"],
+    "required_followup": "Compare the readable UCR chronology with contemporaneous local reporting and the original coding rule; retain separate same-site groups/days only when physical episodes are supported."
+  },
+  {
+    "gap_id": "CRI-2023-01-G006",
+    "type": "response_and_closure",
+    "description": "Most candidates have no reported physical end time or event-specific state response. The Keylor route is reported to have ended at the Supreme Court entrance, but no time is given. The Pavas report notes police presence and regulated traffic without establishing a coded response; silence in all reports cannot be coded as 'ignore' or 'no violence'.",
+    "source_ids": ["CR-S003", "CR-S005", "CR-S006", "CR-S007", "CR-S008", "CR-S009", "CR-S010"],
+    "affected_candidates": ["CRI-2023-01-E001", "CRI-2023-01-E002", "CRI-2023-01-E003", "CRI-2023-01-E004", "CRI-2023-01-E005"],
+    "required_followup": "Seek event-specific follow-up on physical duration and coded state responses; keep values unknown unless directly supported."
+  },
+  {
+    "gap_id": "CRI-2023-01-G007",
+    "type": "coverage",
+    "description": "Nine actual grouped searches covered broad Spanish/English terms, weekly January windows, local outlets, UCR protest sources, Pavas/Keylor, and the Defensoría selection. This is a bounded first pass, not proof of absence. The January UCR chronology was not readable, the UCR APSE query is not a comprehensive month filter, and equivalent local archives/LexisNexis coverage was not available in this workstream.",
+    "source_ids": ["CR-S001", "CR-S002", "CR-S003", "CR-S004", "CR-S007", "CR-S008", "CR-S009", "CR-S010"],
+    "affected_candidates": ["CRI-2023-01-E001", "CRI-2023-01-E002", "CRI-2023-01-E003", "CRI-2023-01-E004", "CRI-2023-01-E005"],
+    "required_followup": "Review the complete official UCR monthly chronology and additional local/sectoral archives, then compare against an official baseline when one is located; do not describe unlocated items as non-events."
+  },
+  {
+    "gap_id": "CRI-2023-01-G008",
+    "type": "baseline",
+    "description": "The official baseline gate remains pending. No official Mass Mobilization IDs or approvals are assigned, and candidate records remain provisional.",
+    "source_ids": [],
+    "affected_candidates": ["CRI-2023-01-E001", "CRI-2023-01-E002", "CRI-2023-01-E003", "CRI-2023-01-E004", "CRI-2023-01-E005"],
+    "required_followup": "Coordinator should verify the official baseline, codebook/version, and inclusion rules before any consolidation or approval."
+  },
+  {
+    "gap_id": "CRI-2023-01-G009",
+    "type": "date_and_execution",
+    "description": "A UCR chronology search excerpt includes a Jan. 22 concentration call and a 'SÁBADO 25' Pérez Zeledón court-gathering entry. The Jan. 22 item is a call, not evidence of execution; the court lead has unresolved month/date context and no underlying body read, so neither is added as a candidate.",
+    "source_ids": ["CR-S008"],
+    "affected_candidates": [],
+    "required_followup": "Locate a contemporaneous execution report and a readable, correctly dated chronology before creating either candidate; do not treat the announcement as attendance or infer the court event's month."
+  }
+]

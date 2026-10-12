@@ -1,0 +1,105 @@
+[
+  {
+    "gap_id": "CUB202301-G001",
+    "type": "participants",
+    "description": "The Santiago confrontation is described as involving a community, but no attendance count or estimate is given; the 50-person threshold is unverified.",
+    "source_ids": [
+      "CUB202301-S003"
+    ],
+    "affected_candidates": [
+      "CUB202301-E001"
+    ],
+    "required_followup": "Find a contemporaneous account that estimates how many people were physically present at once. Preserve qualitative wording if no numeric estimate exists; do not infer a minimum from “community”."
+  },
+  {
+    "gap_id": "CUB202301-G002",
+    "type": "state_target",
+    "description": "The available account does not state a participant demand or identify a policy target for the Santiago confrontation.",
+    "source_ids": [
+      "CUB202301-S003"
+    ],
+    "affected_candidates": [
+      "CUB202301-E001"
+    ],
+    "required_followup": "Locate a source quoting participants or identifying the issue and intended state addressee before assigning a demand category."
+  },
+  {
+    "gap_id": "CUB202301-G003",
+    "type": "dates",
+    "description": "Only the month is established for the Santiago confrontation. Its day, physical beginning and ending are not reported.",
+    "source_ids": [
+      "CUB202301-S003"
+    ],
+    "affected_candidates": [
+      "CUB202301-E001"
+    ],
+    "required_followup": "Seek contemporaneous local coverage or the underlying OCC incident entry to verify the occurrence date and episode endpoints separately."
+  },
+  {
+    "gap_id": "CUB202301-G004",
+    "type": "state_response",
+    "description": "The OCC account says merchant arrests preceded the confrontation. It does not describe a state response to the protest episode itself or who ended it.",
+    "source_ids": [
+      "CUB202301-S003"
+    ],
+    "affected_candidates": [
+      "CUB202301-E001"
+    ],
+    "required_followup": "Verify police conduct during and after the confrontation, including any accommodation, arrests, beating, dispersal, shooting, killing, or explicit non-response; do not recode the precipitating arrests as protest response."
+  },
+  {
+    "gap_id": "CUB202301-G005",
+    "type": "source_independence",
+    "description": "The Santiago episode appears in the OCC monthly account. Diario de Cuba search-result text repeats OCC’s summary, and two exact body requests failed technically; no independent event-level corroboration was read.",
+    "source_ids": [
+      "CUB202301-S003",
+      "CUB202301-S004"
+    ],
+    "affected_candidates": [
+      "CUB202301-E001"
+    ],
+    "required_followup": "Locate a contemporaneous account with an independent reporting origin; distinguish any republication or summary of OCC from corroboration."
+  },
+  {
+    "gap_id": "CUB202301-G006",
+    "type": "baseline",
+    "description": "The official Mass Mobilization baseline, original country-month universe and candidate eligibility record were outside this worker lane and remain unverified; no official approval is made.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator should verify the preserved official baseline, country-month row, codebook and inclusion rules before any materialization."
+  },
+  {
+    "gap_id": "CUB202301-G007",
+    "type": "coverage",
+    "description": "This is a bounded open-web first pass using Spanish and English discovery, weekly windows, selected independent Cuban outlets, and city/service-specific searches. It does not provide systematic access to local archives or complete coverage across Cuba’s provinces and sectors.",
+    "source_ids": [
+      "CUB202301-S001",
+      "CUB202301-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue with dated regional outlet archives and local-language searches across provinces and issue areas; preserve unsuccessful and inaccessible coverage as gaps rather than infer no events."
+  },
+  {
+    "gap_id": "CUB202301-G008",
+    "type": "source_access",
+    "description": "The Diario de Cuba body returned reader Internal Error twice without an HTTP response; the EFE Marcha de las Antorchas URL returned HTTP 429 and no body. These are recorded as retrieval outcomes, not publisher denials or evidence of absence.",
+    "source_ids": [
+      "CUB202301-S004",
+      "CUB202301-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If follow-up is warranted, obtain a fresh exact-URL receipt and manual current/canonical/origin/alias review before any retry; do not use alternate URLs or syndicated copies to bypass a hold."
+  },
+  {
+    "gap_id": "CUB202301-G009",
+    "type": "lead_eligibility",
+    "description": "Search headers surfaced a Marcha de las Antorchas report, a Pedro Albert walk described as solo, and a Damas de Blanco Sunday detention report. Their body details, event dates, demands and/or group size were not verified, so they are not coded as events or exclusions.",
+    "source_ids": [
+      "CUB202301-S005",
+      "CUB202301-S006",
+      "CUB202301-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify the event date and body evidence through each exact URL only after a fresh receipt and manual hold review; determine whether each was a qualifying public gathering of at least 50 directed at a Cuban state target."
+  }
+]

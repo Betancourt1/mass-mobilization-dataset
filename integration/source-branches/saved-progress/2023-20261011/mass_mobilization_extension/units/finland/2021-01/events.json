@@ -1,0 +1,162 @@
+[
+  {
+    "candidate_id": "FIN202101-E001",
+    "country": "Finland",
+    "ccode": "375",
+    "unit_month": "2021-01",
+    "title": "Helsinki Kansalaistori gathering for constitutional assembly and speech rights",
+    "start_date": "2021-01-30",
+    "start_precision": "day",
+    "end_date": "2021-01-30",
+    "end_precision": "day",
+    "location": "Kansalaistori (Citizens' Square), Helsinki",
+    "scope": "local gathering",
+    "organizer": "Juha Korhonen (convener attributed by participant-associated Verkkomedia)",
+    "demands": [
+      "political_behavior_process",
+      "social_restrictions"
+    ],
+    "participants_original": "MTV–STT contemporaneously reports police estimate of about 60 actual participants. Verkkomedia's February 11 retrospective claims about 100. The ten-person legal limit and reported police deployment numbers are not participant counts.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_point_estimate": 60,
+    "threshold_50_evidence": "Contemporary MTV–STT body reports police estimate of about 60 physically present on January 30, exceeding 50. Retain this lower contemporaneous estimate, with rounded uncertainty.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "FIN202101-S011",
+      "FIN202101-S043",
+      "FIN202101-S061",
+      "FIN202101-S101",
+      "FIN202101-S217"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "FIN202101-S011",
+          "FIN202101-S061"
+        ],
+        "summary": "Contemporary report and next-day participant-associated account identify the Saturday January 30 gathering."
+      },
+      "end_date": {
+        "source_ids": [
+          "FIN202101-S043",
+          "FIN202101-S061"
+        ],
+        "summary": "Aligned calendar explicitly says this named January 30 gathering ended when police drove participants off the square; next-day associated outlet says police broke it up. Day-level physical closure rests on attributed accounts, not merely the official ending order or article date."
+      },
+      "location": {
+        "source_ids": [
+          "FIN202101-S011",
+          "FIN202101-S043",
+          "FIN202101-S061"
+        ],
+        "summary": "Kansalaistori in Helsinki; no second city or continuous national physical episode established."
+      },
+      "organizer": {
+        "source_ids": [
+          "FIN202101-S061",
+          "FIN202101-S217"
+        ],
+        "summary": "Associated outlet identifies Juha Korhonen as convener. Koronarealistit explicitly disclaims organizing listed events."
+      },
+      "demands": {
+        "source_ids": [
+          "FIN202101-S011",
+          "FIN202101-S061",
+          "FIN202101-S217"
+        ],
+        "summary": "Assembly and speech rights/constitutional freedoms opposed to Finnish gathering restrictions; directed at Finland's state rules."
+      },
+      "participants": {
+        "source_ids": [
+          "FIN202101-S011",
+          "FIN202101-S101",
+          "FIN202101-S217"
+        ],
+        "summary": "About 60 police estimate in contemporary report and retrospective Yle; associated outlet claims about 100. No exact interval or min/max inferred from rounded estimates."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "FIN202101-S061"
+        ],
+        "summary": "Associated outlet calls the gathering peaceful. Independent contemporary report does not explicitly establish absence of protester violence against the state; retain unknown pending review."
+      },
+      "arrests": {
+        "source_ids": [
+          "FIN202101-S011",
+          "FIN202101-S061"
+        ],
+        "summary": "MTV–STT reports one person briefly detained; associated outlet identifies Korhonen as taken away. Fines are separately three in STT and four in later associated account."
+      },
+      "crowd_dispersal": {
+        "source_ids": [
+          "FIN202101-S011",
+          "FIN202101-S043",
+          "FIN202101-S061"
+        ],
+        "summary": "Police ordered the gathering ended and participants to leave; aligned calendar says police drove them off the square and associated next-day account describes breakup. Dispersal does not require success, and here closure has additional attributed evidence."
+      },
+      "accommodation": {
+        "source_ids": [
+          "FIN202101-S217"
+        ],
+        "summary": "Earlier operational discussions with police about organizing an event do not establish formal reception, negotiation or concession regarding political demands; unknown."
+      },
+      "beatings": {
+        "source_ids": [
+          "FIN202101-S101"
+        ],
+        "summary": "Later Russian ministry video allegation not independently verified for this gathering; media unassessed. No specific established beating evidence."
+      },
+      "killings": {
+        "source_ids": [
+          "FIN202101-S011",
+          "FIN202101-S061"
+        ],
+        "summary": "No explicit event-specific killing finding; unknown, not an absence claim."
+      },
+      "shootings": {
+        "source_ids": [
+          "FIN202101-S011",
+          "FIN202101-S061"
+        ],
+        "summary": "No explicit event-specific shooting finding; unknown."
+      },
+      "ignore": {
+        "source_ids": [
+          "FIN202101-S011",
+          "FIN202101-S061"
+        ],
+        "summary": "No explicit finding that authorities ignored the demands. Dispersal/detention does not establish this separate response category."
+      },
+      "episode_unit": {
+        "source_ids": [
+          "FIN202101-S043",
+          "FIN202101-S101",
+          "FIN202101-S217"
+        ],
+        "summary": "Earlier October/November and later February/March actions are described as separate gatherings. January 30 body and attributed closure support a distinct January onset; do not merge merely because demands recur."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "finland-helsinki-kansalaistori-assembly-rights-2021-01-30",
+    "human_approved": false,
+    "notes": "Research candidate only; provisional plan ccode 375, no official MM identifier. Retain lower rounded contemporaneous count without exact numeric bounds. State arrests includes brief detention. End date uses attributed whole-gathering closure from aligned retrospective calendar and next-day associated reporting, with no observed conflicting boundary evidence. No video has been independently assessed. Three versus four fines remains unresolved and does not change the separately documented single brief detention.",
+    "open_questions": [
+      "Review organizer attribution and source alignment.",
+      "Retrieve original police statement and resolve fine count if useful.",
+      "Review Finnish and Swedish paraphrases and episode boundaries against the missing Detailed Coding Procedure.",
+      "Verify unassessed media before coding any additional response."
+    ]
+  }
+]

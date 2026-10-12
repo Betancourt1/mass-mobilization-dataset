@@ -1,0 +1,175 @@
+[
+  {
+    "gap_id": "CA202301-G001",
+    "type": "baseline",
+    "description": "The official original Mass Mobilization version, Canada code/row mapping, coding manual version, universe, and usage/license conditions were not verified for this unit. The assignment carries provisional ccode 20 and baseline_gate remains pending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CA202301-E001",
+      "CA202301-E002",
+      "CA202301-E003",
+      "CA202301-E004",
+      "CA202301-E005",
+      "CA202301-E006",
+      "CA202301-E007",
+      "CA202301-E008"
+    ],
+    "required_followup": "Coordinator verifies the original official source/version and unit mapping before any candidate is treated as an update to the original dataset."
+  },
+  {
+    "gap_id": "CA202301-G002",
+    "type": "participants",
+    "description": "Threshold is unresolved for the Kingston Women’s March (both body-read accounts say only “dozens”), the HMR and Chicoutimi nurse sit-ins (attendance not reported), the Urgences-Santé lead (no count), and the SCAN/Burnaby search-only leads. Petitions, interviewees and search snippets are not attendance counts.",
+    "source_ids": [
+      "S007",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S016"
+    ],
+    "affected_candidates": [
+      "CA202301-E003",
+      "CA202301-E004",
+      "CA202301-E005",
+      "CA202301-E006",
+      "CA202301-E007",
+      "CA202301-E008"
+    ],
+    "required_followup": "Find event-specific person counts or credible estimates from independent contemporaneous coverage/organizers; keep petitions and general staff counts separate from event turnout."
+  },
+  {
+    "gap_id": "CA202301-G003",
+    "type": "state_target",
+    "description": "The Jan. 28 Ottawa anniversary reports do not state a current government-directed demand. Kingston coverage describes solidarity on broad women’s-rights issues but no concrete public-policy ask. Hospital nursing actions target hospital management/work conditions; whether they are directed to a government or policy must be reviewed.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S016"
+    ],
+    "affected_candidates": [
+      "CA202301-E001",
+      "CA202301-E003",
+      "CA202301-E004",
+      "CA202301-E005",
+      "CA202301-E006"
+    ],
+    "required_followup": "Review full statements, signs, event calls and reliable reporting for a demand to the Canadian/provincial government or policy. Do not transfer demands from the 2022 convoy or infer them from a public institution alone."
+  },
+  {
+    "gap_id": "CA202301-G004",
+    "type": "source_access",
+    "description": "SCAN S007 had one exact-URL attempt after a manual_review receipt whose nested return was not retained locally, then a second open without a fresh receipt; that second body is separately recorded and excluded from evidence. The peace-action page S009 returned only a Cache miss, and the CSN S014 page returned a timeout after fresh receipts. No denial is inferred for either fetch failure and none was retried.",
+    "source_ids": [
+      "S007",
+      "S009",
+      "S014"
+    ],
+    "affected_candidates": [
+      "CA202301-E006",
+      "CA202301-E007",
+      "CA202301-E008"
+    ],
+    "required_followup": "For any further attempt, create and manually inspect a new receipt for the exact raw URL first. Preserve the first and second SCAN attempts as separate history; use only a future properly guarded response."
+  },
+  {
+    "gap_id": "CA202301-G005",
+    "type": "source_independence",
+    "description": "The Ottawa evidence does not provide three independent crowd counts: CityNews credits some Canadian Press files but attributes its 200-person estimate to its reporter; Ottawa Lookout relays the 200+ count from a councillor/CTV; TVA is a separate report but counts approximately 100 truckers rather than all attendees.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "CA202301-E001",
+      "CA202301-E002"
+    ],
+    "required_followup": "Trace the referenced CTV/Police/councillor sources if needed and record exact origin links; do not count a relay or syndicated copy as an independent count."
+  },
+  {
+    "gap_id": "CA202301-G006",
+    "type": "episode_unit",
+    "description": "The Jan. 29 Ottawa “small convoy” attempt may be related to the Jan. 28 anniversary gathering, but a shared organizer or demand is not established. Cross-month continuation and closure were not resolved for the local nursing actions or the anniversary activity; Q013 located only search-result follow-up leads.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S012",
+      "S013",
+      "S015"
+    ],
+    "affected_candidates": [
+      "CA202301-E001",
+      "CA202301-E002",
+      "CA202301-E004",
+      "CA202301-E005"
+    ],
+    "required_followup": "Check neighboring-month local/union coverage and determine whether these are distinct actions, a continuing episode, or unrelated mobilizations before assigning an episode relation or end date."
+  },
+  {
+    "gap_id": "CA202301-G007",
+    "type": "coverage",
+    "description": "This is a bounded open-web first pass, not an exhaustive Canadian sweep. English- and French-language national, week-binned, province/city, labor, health, housing, climate, Indigenous, and convoy searches were run; outlet and regional coverage remains uneven. CBC/Radio-Canada domain-targeted queries encountered tool access/robots limits, and no LexisNexis/newspaper archive search was available.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CA202301-E001",
+      "CA202301-E002",
+      "CA202301-E003",
+      "CA202301-E004",
+      "CA202301-E005",
+      "CA202301-E006",
+      "CA202301-E007",
+      "CA202301-E008"
+    ],
+    "required_followup": "Expand with provincial/local archives, CBC/Radio-Canada through permitted access, additional languages and archive databases; distinguish search failure from no event."
+  },
+  {
+    "gap_id": "CA202301-G008",
+    "type": "state_response",
+    "description": "Opened reports describe two arrests at the Jan. 28 event and police turning away an uncounted Jan. 29 convoy attempt, but do not establish several other response dimensions. The HMR/Chicoutimi sources mention health authority or hospital management actions without conclusively tying them to the protest itself.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "CA202301-E001",
+      "CA202301-E002",
+      "CA202301-E004",
+      "CA202301-E005"
+    ],
+    "required_followup": "Verify event-specific response sources and attribution. Keep crowd dispersal, accommodation, violence, ignore, beatings, killings and shootings unknown absent direct evidence."
+  },
+  {
+    "gap_id": "CA202301-G009",
+    "type": "source_access",
+    "description": "Some useful local results remain search-only: True North convoy coverage, Radio-Canada video, CityNews pre-event expectations, the JDM hospital follow-up and CNW/CSN Urgences-Santé material. An expected crowd of 500 is pre-event and must not be substituted for actual turnout.",
+    "source_ids": [
+      "S004",
+      "S005",
+      "S006",
+      "S014",
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "CA202301-E001",
+      "CA202301-E004",
+      "CA202301-E006"
+    ],
+    "required_followup": "Only attempt exact source URLs after a fresh access receipt and manual review; prioritize body sources that can resolve event turnout, actual execution, origin and response."
+  }
+]

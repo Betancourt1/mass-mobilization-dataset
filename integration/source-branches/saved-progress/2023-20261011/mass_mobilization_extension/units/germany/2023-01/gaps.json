@@ -1,0 +1,152 @@
+[
+  {
+    "gap_id": "germany_2023-01_G001",
+    "type": "coverage",
+    "description": "Open-web discovery is incomplete: 12 German-language broad, weekly, topical and Lützerath queries captured 380 result headers; this does not establish exhaustive January coverage or reproduce LexisNexis. Search-only leads remain unverified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue broad German/local and topic searches, including regional reporting, unions, agricultural groups, official records and retrospective cross-checks; document inaccessible LexisNexis coverage."
+  },
+  {
+    "gap_id": "germany_2023-01_G002",
+    "type": "source_access",
+    "description": "S011 exact page open returned Cache miss with no article body. The ordinary HTTPS fallback was deferred after the generation-3 window closed at 2026-10-10T17:49:25.219260Z; no fallback request was made.",
+    "source_ids": [
+      "DEU202301-S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only after a new source window and fresh exact-URL/full-manual-scope gate, decide whether to try the exact URL fallback; do not treat Cache miss as a denial or publisher outage."
+  },
+  {
+    "gap_id": "germany_2023-01_G003",
+    "type": "source_access",
+    "description": "S006 is under a source-specific saved gate hold, so no body was requested. The gate reviewed unrelated DW records and source-check mentions; this does not establish a blanket publisher-wide inability to access all DW material.",
+    "source_ids": [
+      "DEU202301-S006"
+    ],
+    "affected_candidates": [
+      "germany_2023-01_E005"
+    ],
+    "required_followup": "Preserve the exact hold and re-evaluate only under the future source-access protocol; do not bypass or generalize the hold."
+  },
+  {
+    "gap_id": "germany_2023-01_G004",
+    "type": "date",
+    "description": "S001 narrative and page date point to the Lützerath walk on Sunday 8 January, while same-story photo captions are dated 7 January.",
+    "source_ids": [
+      "DEU202301-S001"
+    ],
+    "affected_candidates": [
+      "germany_2023-01_E003"
+    ],
+    "required_followup": "Seek an independent contemporaneous source that dates the physical walk; retain the source conflict until resolved."
+  },
+  {
+    "gap_id": "germany_2023-01_G005",
+    "type": "attendance",
+    "description": "Keyenberg crowd estimates are attributed to police, Fridays for Future and organizers and use different sites/groups/scopes; S025 distinguishes the opening rally from about 5,000 additional people near the mine edge. These are not a range or a campaign-wide total.",
+    "source_ids": [
+      "DEU202301-S002",
+      "DEU202301-S008",
+      "DEU202301-S025",
+      "DEU202301-S026"
+    ],
+    "affected_candidates": [
+      "germany_2023-01_E005"
+    ],
+    "required_followup": "Look for independent, contemporaneous estimates with explicit footprints and timing; do not add organizer movement counts to event-wide estimates."
+  },
+  {
+    "gap_id": "germany_2023-01_G006",
+    "type": "state_response",
+    "description": "Reports document selected conduct but do not establish all seven state-response dimensions or event-level protester-violence coding. In particular, S025 reports police use of pepper spray, batons and water cannon but does not establish injury/arrest totals; S004 reports repeated march stops without establishing crowd dispersal.",
+    "source_ids": [
+      "DEU202301-S001",
+      "DEU202301-S002",
+      "DEU202301-S004",
+      "DEU202301-S005",
+      "DEU202301-S025",
+      "DEU202301-S026"
+    ],
+    "affected_candidates": [
+      "germany_2023-01_E001",
+      "germany_2023-01_E002",
+      "germany_2023-01_E003",
+      "germany_2023-01_E004",
+      "germany_2023-01_E005",
+      "germany_2023-01_E006",
+      "germany_2023-01_E007"
+    ],
+    "required_followup": "Check independent accounts for each action. Keep fields unknown unless the exact codebook dimension is explicit; distinguish participant conduct from police response."
+  },
+  {
+    "gap_id": "germany_2023-01_G007",
+    "type": "source_accuracy",
+    "description": "The exact Tagesschau URL in S024 currently serves an article dated 18 January 2025, not the 2023 discovery lead. It cannot establish a 2023 event or demand.",
+    "source_ids": [
+      "DEU202301-S024"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search for an exact contemporaneous 2023 report of the Green Week/Wir haben es satt event; do not use the current 2025 body for this month."
+  },
+  {
+    "gap_id": "germany_2023-01_G008",
+    "type": "unreviewed_leads",
+    "description": "Search-only leads include the 21 January “Wir haben es satt” archive/result, public-sector warning-strike reporting, Köln and Düsseldorf demonstrations, and additional Lützerath reports. Their bodies were not reviewed.",
+    "source_ids": [
+      "DEU202301-S007",
+      "DEU202301-S009",
+      "DEU202301-S010",
+      "DEU202301-S011",
+      "DEU202301-S012",
+      "DEU202301-S013",
+      "DEU202301-S014",
+      "DEU202301-S015",
+      "DEU202301-S016",
+      "DEU202301-S018",
+      "DEU202301-S019",
+      "DEU202301-S020",
+      "DEU202301-S021",
+      "DEU202301-S022",
+      "DEU202301-S023"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Prioritize fresh-gated body review of high-relevance local/official/organizer leads; distinguish announced actions from actually held assemblies and strikes from demonstrations."
+  },
+  {
+    "gap_id": "germany_2023-01_G009",
+    "type": "continuity",
+    "description": "The sources say the wider Lützerath occupation/campaign predates January and clearance continued, but do not identify its exact start or previous owning episode.",
+    "source_ids": [
+      "DEU202301-S001",
+      "DEU202301-S025",
+      "DEU202301-S026"
+    ],
+    "affected_candidates": [
+      "germany_2023-01_E003",
+      "germany_2023-01_E005"
+    ],
+    "required_followup": "Compare prior-month dossiers for a documented original event and dates; do not convert the occupation or campaign into daily events or assign a January start."
+  },
+  {
+    "gap_id": "germany_2023-01_G010",
+    "type": "baseline",
+    "description": "The official baseline/codebook gate remains pending; these are provisional extension candidates only. Climate/coal demands do not map clearly to the fixed demand categories, so those arrays are empty and demand wording is retained in notes.",
+    "source_ids": [
+      "DEU202301-S001",
+      "DEU202301-S002",
+      "DEU202301-S004",
+      "DEU202301-S005",
+      "DEU202301-S008",
+      "DEU202301-S026"
+    ],
+    "affected_candidates": [
+      "germany_2023-01_E003",
+      "germany_2023-01_E004",
+      "germany_2023-01_E005",
+      "germany_2023-01_E006",
+      "germany_2023-01_E007"
+    ],
+    "required_followup": "Coordinator resolves the official baseline and category mapping; worker candidates remain pending review and do not receive official IDs."
+  }
+]

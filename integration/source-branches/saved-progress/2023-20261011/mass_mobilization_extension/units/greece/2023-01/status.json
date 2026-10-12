@@ -1,0 +1,21 @@
+{
+  "unit_id": "greece_2023-01",
+  "country": "Greece",
+  "month": "2023-01",
+  "agent_task": "/root/greece_2023_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T17:22:48+00:00",
+  "finished_at": "2026-10-10T18:09:01.240974+00:00",
+  "prepared_at": "2026-10-10T15:14:06Z",
+  "baseline_gate": "pending_official_baseline",
+  "human_approved": false,
+  "n_queries": 50,
+  "n_sources": 76,
+  "n_candidates": 13,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 8,
+  "coverage_assessment": "50 captured native searches with 967 ordered result headers and 76 source cards. 13 conservative search-header leads are recorded, all pending evidence or month ownership; 1 out-of-period opened LARCO report is excluded; no continuation is established. 1 current-unit body opens; 0 prior-unit-only. The opened body is only the June 2024 false positive; Greece S001 cache-missed without text. The generation-3 body window is closed; open-web coverage is not exhaustive and official baseline compatibility is unresolved.",
+  "temporary_resources": "None started.",
+  "next_action": "Frozen for independent root review. No body requests until new explicit ROOT_READY supplies reopened source window, matching approved guard and actual current HEAD; preserve all source-attempt history."
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "gap_id": "cape_verde_2023-01-G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization codebook/manual and its version, universe, and variable rules were not reviewed in this unit. Event coding therefore follows the documented extension protocol only; the official baseline gate remains pending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "cape_verde_2023-01-E001",
+      "cape_verde_2023-01-E002",
+      "cape_verde_2023-01-E003"
+    ],
+    "required_followup": "Coordinator obtains and records the official codebook/version and applies its inclusion, date, location, participant, demand, and response rules before consolidation."
+  },
+  {
+    "gap_id": "cape_verde_2023-01-G002",
+    "type": "source_independence/participants",
+    "description": "The 5 January Praia march is documented by one opened ASEMANA report (S001). It describes “thousands” qualitatively, with no exact lower or upper bound. Targeted searches did not find independent same-event corroboration in this pass; search-result copies or later republications would not constitute independent confirmation.",
+    "source_ids": [
+      "cape_verde_2023-01-S001"
+    ],
+    "affected_candidates": [
+      "cape_verde_2023-01-E001"
+    ],
+    "required_followup": "Locate an independent contemporaneous report, organizer record, or other primary documentation; preserve the qualitative wording unless an explicit numeric estimate is found."
+  },
+  {
+    "gap_id": "cape_verde_2023-01-G003",
+    "type": "state_response/dates/episode_unit",
+    "description": "S001 follows the march to the National Assembly until about 18:00 and describes security around the Government Palace and blocked Assembly entry, but does not establish a dispersal or other listed coercive response. Exact event closure and whether the access blockade meets the original response rule remain unresolved. A search for related August 2022 slogans did not establish continuous physical action into January.",
+    "source_ids": [
+      "cape_verde_2023-01-S001"
+    ],
+    "affected_candidates": [
+      "cape_verde_2023-01-E001"
+    ],
+    "required_followup": "Review independent event reporting or organizer records for closure and any subsequent action; apply the official crowd-dispersal rule without inferring it from security presence or blocked entry."
+  },
+  {
+    "gap_id": "cape_verde_2023-01-G004",
+    "type": "source_access/participants/state_target",
+    "description": "A Nação search results (S002, S004) describe a Praia municipal-guard strike and a planned concentration, but both exact-URL article-body attempts returned native-tool cache misses before HTTP. These are technical retrieval failures, not publisher denials. The snippets do not verify strike execution, a public assembly, 50 attendees, or a complete account of the demands and municipal response.",
+    "source_ids": [
+      "cape_verde_2023-01-S002",
+      "cape_verde_2023-01-S004"
+    ],
+    "affected_candidates": [
+      "cape_verde_2023-01-E002"
+    ],
+    "required_followup": "If pursued in a later pass, use a fresh exact-URL access receipt before each retry; seek an accessible contemporaneous report or direct union/municipal record and verify any public gathering and attendance independently of workforce size."
+  },
+  {
+    "gap_id": "cape_verde_2023-01-G005",
+    "type": "source_access",
+    "description": "The planned Praia municipal-employees demonstration report (S005) also returned a native-tool cache miss before HTTP. The captured result/title says it was suspended after an understanding, but the article body, negotiation outcome, and any rescheduled event were not verified. No denial was observed.",
+    "source_ids": [
+      "cape_verde_2023-01-S005"
+    ],
+    "affected_candidates": [
+      "cape_verde_2023-01-X001"
+    ],
+    "required_followup": "Check later contemporaneous reporting or an organizer/municipal record for the outcome and any rescheduled public assembly; do not infer either occurrence or absence from the suspension notice alone."
+  },
+  {
+    "gap_id": "cape_verde_2023-01-G006",
+    "type": "participants/state_target/episode_unit/dates",
+    "description": "The Marxa Cabral evidence (S003, S006) is pre-event. S003 anticipates “dozens,” not a number, and S006 describes a four-day program culminating in a planned 20 January march and simultaneous Sal activity. Neither confirms post-event execution or 50 attendees. The mix of cultural commemoration and political critique leaves the specific domestic state target open; the common event unit for Praia and Sal is unresolved.",
+    "source_ids": [
+      "cape_verde_2023-01-S003",
+      "cape_verde_2023-01-S006"
+    ],
+    "affected_candidates": [
+      "cape_verde_2023-01-E003"
+    ],
+    "required_followup": "Find post-20 January coverage or organizer documentation confirming occurrence and actual attendance; verify specific state-directed demands, the Praia/Sal coordination, Sal venue, and whether any part of the four-day program was itself a qualifying public action."
+  },
+  {
+    "gap_id": "cape_verde_2023-01-G007",
+    "type": "source_access/source_independence/participants",
+    "description": "Searches surfaced two similarly named Marxa Kabral exhibition-catalog PDFs (S007, S008). The first body attempt returned a tool error; the second exceeded the native-tool content limit and a page screenshot returned no rendered pixels or readable text. The files may be mirrors, but origin identity was not verified; no attendance or image count was inspected.",
+    "source_ids": [
+      "cape_verde_2023-01-S007",
+      "cape_verde_2023-01-S008"
+    ],
+    "affected_candidates": [
+      "cape_verde_2023-01-E003"
+    ],
+    "required_followup": "If these catalogs are reviewed later, verify file identity/origin and inspect the relevant pages through an authorized accessible method, with a fresh exact-URL receipt before each attempt; do not treat a mirror as independent reporting."
+  },
+  {
+    "gap_id": "cape_verde_2023-01-G008",
+    "type": "participants/state_target",
+    "description": "The Mindel Insite result (S009) reports only a private-company strike notice concerning SEFI workers and supplies no public assembly or count. The apparent target is the employer rather than domestic state policy; the result is search-only.",
+    "source_ids": [
+      "cape_verde_2023-01-S009"
+    ],
+    "affected_candidates": [
+      "cape_verde_2023-01-X002"
+    ],
+    "required_followup": "Revisit only if later evidence indicates a public assembly with a domestic state-policy demand; otherwise retain the documented private-target exclusion."
+  },
+  {
+    "gap_id": "cape_verde_2023-01-G009",
+    "type": "coverage/search_method",
+    "description": "This bounded open-web pass used nine captured grouped queries and 182 returned result headers, covering general and weekly date searches, Portuguese and some Cape Verdean Creole wording, local/national outlets, candidate follow-up, and island/sector leads. It did not reproduce LexisNexis or a systematic national/regional press-archive search; indexing and source coverage are uneven, and many results were geographic or topic noise.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "A later coverage pass should use available press archives and relevant official/rights-organization records, document the search frame and inaccessible holdings, and keep all findings separate from claims of event absence."
+  },
+  {
+    "gap_id": "cape_verde_2023-01-G010",
+    "type": "language/coverage",
+    "description": "Searches included Portuguese and selected Kriolu/Kriolu-spelling terms, but this was not a systematic review of Cape Verdean Creole variants or island-level media archives. Praia coverage is more visible in the captured results than coverage for other islands.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Expand later searches with locally used Creole spellings and regional outlet archives, especially for Mindelo, Sal, and other islands; retain language and geographic coverage limits in any summary."
+  }
+]

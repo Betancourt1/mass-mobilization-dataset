@@ -1,0 +1,146 @@
+[
+  {
+    "gap_id": "GHA202301-G001",
+    "type": "event_boundaries",
+    "description": "Tamale E001 is established on 7 January, but no opened account names the exact assembly point, physical route endpoint, finish time or explicit dispersal. The same-day end date is coded from reports of one dated demonstration and should be reviewed against any precise event account.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "GHA202301-E001"
+    ],
+    "required_followup": "If evidence work resumes, verify any explicit physical endpoint/finish and retain city-level crowd estimates without assigning them to separate route segments."
+  },
+  {
+    "gap_id": "GHA202301-G002",
+    "type": "source_dependence",
+    "description": "WANEP S004's MMDCE, heavy-security and peacefulness-related Tamale details point to Adom S005. They are not independent corroboration of that account; exact crowd evidence comes from GNA S001.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "GHA202301-E001"
+    ],
+    "required_followup": "Keep S004/S005 dependency explicit and seek independent corroboration only if it changes a coded field."
+  },
+  {
+    "gap_id": "GHA202301-G003",
+    "type": "threshold_and_target",
+    "description": "Old Vandals E002 has no attendance estimate; whether one site reached 50 is unknown. The demand is against University of Ghana management's tenancy decision, and whether this is an own-state policy demand is unresolved.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [
+      "GHA202301-E002"
+    ],
+    "required_followup": "Check for a reliable site-level crowd count and clarify the responsible policy authority; otherwise retain pending status."
+  },
+  {
+    "gap_id": "GHA202301-G004",
+    "type": "date_and_threshold",
+    "description": "WANEP S004 records an Oforikrom march but leaves its incident date blank. Q018/Q019 search-only previews are published/referenced on 21 January and say Saturday morning, but this does not verify the physical occurrence date. The “scores” wording also does not establish 50 people at one site.",
+    "source_ids": [
+      "S004",
+      "S012",
+      "S016"
+    ],
+    "affected_candidates": [
+      "GHA202301-E003"
+    ],
+    "required_followup": "Open a permitted contemporary report under fresh gates if the window reopens; verify actual occurrence date, attendance at a site, route and physical endpoint."
+  },
+  {
+    "gap_id": "GHA202301-G005",
+    "type": "demand_coding",
+    "description": "Oforikrom's road and bridge demands are directed to local authorities/representatives in search-only previews but do not map clearly to the supplied original demand categories; state-policy target and category mapping need human review.",
+    "source_ids": [
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "GHA202301-E003"
+    ],
+    "required_followup": "Use the complete source and original codebook to determine whether local public-works requests are within the state-policy target and which demand category, if any, applies."
+  },
+  {
+    "gap_id": "GHA202301-G006",
+    "type": "unverified_lead",
+    "description": "WANEP S004 mentions university fee agitations before a 5 January meeting/directive, but the bounded extract does not describe a physical student gathering, an event date or attendance.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not code the meeting, decision or 'agitations' phrase alone; seek a contemporary account of any actual student assembly only if necessary."
+  },
+  {
+    "gap_id": "GHA202301-G007",
+    "type": "labor_event",
+    "description": "Q014 surfaced a CETAG strike call-off and a MyJoyOnline strike-resumption announcement. No reviewed source establishes that a ≥50-person public gathering or street action occurred; a work stoppage or negotiation is not itself sufficient.",
+    "source_ids": [
+      "S019",
+      "S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify any distinct public demonstration/march and its date, site, attendance, target and physical end before considering an event record."
+  },
+  {
+    "gap_id": "GHA202301-G008",
+    "type": "unverified_lead",
+    "description": "The University of Ghana TEWU/Senior Staff Association story appears in search results as a demonstration with police involvement, but Adom's result rendering also appears to carry a 2024 page date while referring to a January 2023 union statement. Event date, count, source lineage and exact relationship to January remain unresolved.",
+    "source_ids": [
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not use the representative's media statement date as a demonstration date; verify the physical event date and attendance from a full contemporary source under fresh gates."
+  },
+  {
+    "gap_id": "GHA202301-G009",
+    "type": "source_access",
+    "description": "Citi S003's Tamale report remains search-only after the exact web open returned Cache miss with no HTTP status. This does not establish source denial or publisher outage and was not retried because other opened accounts establish the candidate.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "GHA202301-E001"
+    ],
+    "required_followup": "No retry is required for current coding. If reopened, any attempt needs a fresh exact-URL receipt and scope review."
+  },
+  {
+    "gap_id": "GHA202301-G010",
+    "type": "continuity",
+    "description": "The Tamale event followed roughly ten weeks of mobilisation, while later Bolgatanga/Wa phases are described as planned. The available material does not establish continuous physical protest before/after the Tamale event; no continuation is coded.",
+    "source_ids": [
+      "S001",
+      "S008"
+    ],
+    "affected_candidates": [
+      "GHA202301-E001"
+    ],
+    "required_followup": "Keep mobilisation and planned events distinct; only add another January episode if a separate physical gathering is documented."
+  },
+  {
+    "gap_id": "GHA202301-G011",
+    "type": "coverage",
+    "description": "Searches were open-web discovery through English queries, including 19 native search actions (22 query strings) covering weeks and named cities/sectors. There was no LexisNexis access, systematic newspaper archive search, comprehensive local-language search or full examination of every Ghanaian region.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Report web-versus-LexisNexis and language/regional limitations; do not infer that an unobserved event did not happen."
+  },
+  {
+    "gap_id": "GHA202301-G012",
+    "type": "source_window",
+    "description": "The generation-3 body window closed at 2026-10-10T17:49:25.219260Z. Completed Ghana body reads were retained, and all later actions were search-only; no Ghana request is in flight.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Any later body attempt requires a newly open live window, fresh exact-URL receipt, full recursive source/check ledger and current-card alias/origin scope, guard/current-HEAD checks, and exact loaded-URL equality."
+  }
+]

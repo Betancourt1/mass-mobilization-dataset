@@ -1,0 +1,30 @@
+{
+  "unit_id": "austria_2023-01",
+  "country": "Austria",
+  "month": "2023-01",
+  "agent_task": "/root/austria_2023_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T03:57:27.892611+00:00",
+  "finished_at": "2026-10-10T05:21:17+00:00",
+  "n_queries": 19,
+  "n_sources": 32,
+  "n_candidates": 8,
+  "n_excluded": 2,
+  "n_continuations": 1,
+  "n_gaps": 9,
+  "coverage_assessment": "Open-web first pass: 19 captured German- and English-language invocations covering national/regional outlets and searches across Vienna, Linz, Innsbruck and other Länder/cities, with climate, energy-price and labor leads. Verified event reporting is uneven and concentrated in Vienna; no LexisNexis-equivalent archive access, no comprehensive provincial or sectoral coverage, and several search-only/technical-failure leads remain. This is not exhaustive and does not imply that no other gatherings occurred. A focused coding check leaves the Fairdenken event pending because its announced agenda is not event-day verified; the sparse Vienna energy-price and A4-area leads remain pending evidence because attendance and event-specific domestic-target support are incomplete. Reported E003/E004 end dates apply only to those roadway actions.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 15,
+    "search_only_cards": 15,
+    "blocked_cards": 2,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "unique_query_ids": 19,
+    "captured_header_count": 626,
+    "notes": "Q001–Q019 retain the actual ordered refs, raw URLs and titles; Q018–Q019 are recovered original invocations, not repeated queries."
+  },
+  "independent_human_review": false,
+  "official_approval": false
+}

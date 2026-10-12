@@ -1,0 +1,243 @@
+[
+  {
+    "gap_id": "DK202101-G001",
+    "type": "baseline_coding_procedure",
+    "description": "Local baseline/mm_codebook.txt was read. Official baseline and additional detailed Coding Procedure remain unavailable; no final episode or approval inferred.",
+    "source_ids": [],
+    "affected_candidates": [
+      "DK202101-E001",
+      "DK202101-E002",
+      "DK202101-E003",
+      "DK202101-E004",
+      "DK202101-E005",
+      "DK202101-E006"
+    ],
+    "required_followup": "Recover official baseline/procedure and review campaign, city/date, march and post-closure phases before integration."
+  },
+  {
+    "gap_id": "DK202101-G002",
+    "type": "coverage_search_method",
+    "description": "61 Danish/English broad, weekly-window, sector, regional and Dec/Feb boundary queries constitute one open-web pass. No LexisNexis or systematic full local-news archive coverage.",
+    "source_ids": [],
+    "affected_candidates": [
+      "DK202101-E001",
+      "DK202101-E002",
+      "DK202101-E003",
+      "DK202101-E004",
+      "DK202101-E005",
+      "DK202101-E006"
+    ],
+    "required_followup": "Continue dated contemporary archives and sector/region sources; query count is not proof of exhaustiveness."
+  },
+  {
+    "gap_id": "DK202101-G003",
+    "type": "search_dates_and_clock_precision",
+    "description": "Search engines returned wrong months/years. Query UTC times were sampled immediately before batched calls, not per result; pooled returned URLs cannot reconstruct exact query-to-result mapping.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Verify dates in original bodies; retain honest batch timing and pooled URL provenance."
+  },
+  {
+    "gap_id": "DK202101-G004",
+    "type": "language_and_jurisdiction",
+    "description": "Danish/English coverage only. Greenland/Faroe keyword searches in Danish did not cover Greenlandic/Faroese archives or resolve official baseline territory coding.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Determine territorial universe and research relevant local-language archives without automatically treating territories as Denmark events."
+  },
+  {
+    "gap_id": "DK202101-G005",
+    "type": "threshold_and_demand",
+    "description": "January16 physical occurrence verified in public participant excerpt, but actual attendance and precise state-policy demand remain unverified.",
+    "source_ids": [
+      "DK202101-S047",
+      "DK202101-S096",
+      "DK202101-S169"
+    ],
+    "affected_candidates": [
+      "DK202101-E003"
+    ],
+    "required_followup": "Recover original agency caption/full contemporary reports and actual count; do not use planned1000–5000."
+  },
+  {
+    "gap_id": "DK202101-G006",
+    "type": "source_access",
+    "description": "IMAGO JavaScript-only shell, municipal PDF cache miss and participant blog's public excerpt limit evidence. No member-only access attempted.",
+    "source_ids": [
+      "DK202101-S047",
+      "DK202101-S096",
+      "DK202101-S169"
+    ],
+    "affected_candidates": [
+      "DK202101-E003"
+    ],
+    "required_followup": "Find public original body/caption or archive; preserve incomplete access status."
+  },
+  {
+    "gap_id": "DK202101-G007",
+    "type": "threshold",
+    "description": "January30 Aarhus police body verifies march and formal closure but omits attendance.",
+    "source_ids": [
+      "DK202101-S003",
+      "DK202101-S165"
+    ],
+    "affected_candidates": [
+      "DK202101-E006"
+    ],
+    "required_followup": "Find contemporaneous reporter/organizer/police actual crowd estimate; do not substitute police staffing, charges or February counts."
+  },
+  {
+    "gap_id": "DK202101-G008",
+    "type": "episode_continuity",
+    "description": "MIB January local actions link tentatively to December19 predecessor and February6 forward action. Same label alone cannot settle MM episode count.",
+    "source_ids": [
+      "DK202101-S002",
+      "DK202101-S010",
+      "DK202101-S021",
+      "DK202101-S109",
+      "DK202101-S116"
+    ],
+    "affected_candidates": [
+      "DK202101-E001",
+      "DK202101-E002",
+      "DK202101-E004",
+      "DK202101-E006"
+    ],
+    "required_followup": "Use detailed procedure and physical action chronology to review nationwide campaign versus local/day units; preserve separate provisional leads."
+  },
+  {
+    "gap_id": "DK202101-G009",
+    "type": "end_and_phase",
+    "description": "January9 Copenhagen dissolution followed by city incidents; last physical action is not established.",
+    "source_ids": [
+      "DK202101-S002",
+      "DK202101-S004"
+    ],
+    "affected_candidates": [
+      "DK202101-E001"
+    ],
+    "required_followup": "Recover police chronology and final action evidence; do not equate later calm with episode end."
+  },
+  {
+    "gap_id": "DK202101-G010",
+    "type": "end_and_chronology_conflict",
+    "description": "January23 NI/Ritzau places dissolution after20:00 and calm after23:00; TheLocal/Ritzau says breakup23:00; LocalEyes says official peaceful action ended before later trouble.",
+    "source_ids": [
+      "DK202101-S010",
+      "DK202101-S021",
+      "DK202101-S125"
+    ],
+    "affected_candidates": [
+      "DK202101-E004"
+    ],
+    "required_followup": "Resolve primary police timestamps and distinguish official march, later clashes and campaign closure."
+  },
+  {
+    "gap_id": "DK202101-G011",
+    "type": "participants_estimate_conflict",
+    "description": "January9 Copenhagen police200–250 and separate approximately300 estimate may describe different times; neither is a confidence interval.",
+    "source_ids": [
+      "DK202101-S002",
+      "DK202101-S004"
+    ],
+    "affected_candidates": [
+      "DK202101-E001"
+    ],
+    "required_followup": "Recover primary police timestamp and avoid synthesizing false exact overall range."
+  },
+  {
+    "gap_id": "DK202101-G012",
+    "type": "post_closure_incident",
+    "description": "Aarhus police reports attempted rock throw against police and arrest after formal closure; current gathering response/violence fields remain unknown pending boundary attribution.",
+    "source_ids": [
+      "DK202101-S003"
+    ],
+    "affected_candidates": [
+      "DK202101-E006"
+    ],
+    "required_followup": "Review both attempted violence and arrest together under episode rules; document deliberate phase boundary."
+  },
+  {
+    "gap_id": "DK202101-G013",
+    "type": "violence_target_and_state_response",
+    "description": "Aalborg fireworks lack explicit state target; January23 charges combine violence or threats. Route control/police presence and private café/effigy damage do not by themselves establish state-directed violence or dispersal.",
+    "source_ids": [
+      "DK202101-S004",
+      "DK202101-S010",
+      "DK202101-S021",
+      "DK202101-S107",
+      "DK202101-S125"
+    ],
+    "affected_candidates": [
+      "DK202101-E002",
+      "DK202101-E003",
+      "DK202101-E004"
+    ],
+    "required_followup": "Obtain specific observed state-targeted acts and operational removal evidence; leave unknown fields unresolved rather than use silence."
+  },
+  {
+    "gap_id": "DK202101-G014",
+    "type": "recurring_friday_gathering",
+    "description": "January29 photo report says gathered again; organizer and prior/future dates unknown, with no verified MIB affiliation or physical closure.",
+    "source_ids": [
+      "DK202101-S161"
+    ],
+    "affected_candidates": [
+      "DK202101-E005"
+    ],
+    "required_followup": "Trace Friday protest sequence and independent calendar date; retain separate provisional episode key."
+  },
+  {
+    "gap_id": "DK202101-G015",
+    "type": "source_independence",
+    "description": "Avisen/NI/TheLocal share Ritzau origin; Jan23 attendance is B.T. attribution. Several URLs are discovery leads or later court/research reports, not independent contemporaneous confirmations.",
+    "source_ids": [
+      "DK202101-S004",
+      "DK202101-S010",
+      "DK202101-S021",
+      "DK202101-S104",
+      "DK202101-S118",
+      "DK202101-S129"
+    ],
+    "affected_candidates": [
+      "DK202101-E001",
+      "DK202101-E002",
+      "DK202101-E004"
+    ],
+    "required_followup": "Obtain original police and B.T. reports, separate agencies, and source-specific chronology."
+  },
+  {
+    "gap_id": "DK202101-G016",
+    "type": "underlying_street_action",
+    "description": "Navalny group retrospective mentions demonstrations without January dates or crowd counts. Online petition explicitly addresses Danish foreign policy but has no physical gathering evidence.",
+    "source_ids": [
+      "DK202101-S214",
+      "DK202101-S217",
+      "DK202101-S172",
+      "DK202101-S174"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find dated Copenhagen street-action originals and their own-state demands; petition signatures do not establish crowd."
+  },
+  {
+    "gap_id": "DK202101-G017",
+    "type": "unverified_response_types",
+    "description": "Except explicitly sourced Copenhagen January9 arrests/beatings/dispersal, Aalborg arrests and Copenhagen January23 arrests/dispersal, response fields remain unknown. No accommodation inferred from traffic contacts or general policy announcements.",
+    "source_ids": [
+      "DK202101-S002",
+      "DK202101-S003",
+      "DK202101-S004",
+      "DK202101-S010",
+      "DK202101-S021"
+    ],
+    "affected_candidates": [
+      "DK202101-E001",
+      "DK202101-E002",
+      "DK202101-E003",
+      "DK202101-E004",
+      "DK202101-E005",
+      "DK202101-E006"
+    ],
+    "required_followup": "Check contemporaneous reception/negotiation and other response reports specific to each action; do not import earlier/later responses."
+  }
+]

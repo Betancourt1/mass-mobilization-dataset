@@ -1,0 +1,112 @@
+[
+  {
+    "gap_id": "angola_2023-01_G001",
+    "type": "baseline",
+    "description": "The current official Mass Mobilization event files, universe and supplemental Coding Procedure were not verified for this worker pass; the assignment baseline gate remains pending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "angola_2023-01_E001",
+      "angola_2023-01_E002"
+    ],
+    "required_followup": "Coordinator should reconcile candidates against the verified official baseline and preserve pending status until the baseline gate is cleared."
+  },
+  {
+    "gap_id": "angola_2023-01_G002",
+    "type": "eligibility",
+    "description": "For E001, none of S003, S025 or S029 gives a total crowd count; the demand made by the march is also not explicit. The destination’s scheduled local-governance talk does not establish the marchers’ own demand or target.",
+    "source_ids": [
+      "S003",
+      "S025",
+      "S029"
+    ],
+    "affected_candidates": [
+      "angola_2023-01_E001"
+    ],
+    "required_followup": "Seek independent event reporting that states the march demand/target and a total attendance estimate; do not substitute injury or legislator counts for turnout."
+  },
+  {
+    "gap_id": "angola_2023-01_G003",
+    "type": "provenance",
+    "description": "S003 and S025 both rely on the same PRA-JA communiqué and are not independent. S029 is retrospective and does not name the underlying source for the January 28 paragraph. S019 is a distinct article with an explicit DW África credit and is not independent evidence because S001 is held.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S019",
+      "S025",
+      "S029"
+    ],
+    "affected_candidates": [
+      "angola_2023-01_E001",
+      "angola_2023-01_E002"
+    ],
+    "required_followup": "Resolve event provenance from ordinary independent reporting if available; do not retrieve held S001 or recognized reprints and do not count S019 as corroboration."
+  },
+  {
+    "gap_id": "angola_2023-01_G004",
+    "type": "eligibility",
+    "description": "For E002, S028 and S029 report a planned march stopped by police but give no total count of people assembled. Detained-activist counts are not total turnout.",
+    "source_ids": [
+      "S028",
+      "S029"
+    ],
+    "affected_candidates": [
+      "angola_2023-01_E002"
+    ],
+    "required_followup": "Find a total crowd estimate for the gathering, if available, while keeping the attempted march distinct from the other January 28 action."
+  },
+  {
+    "gap_id": "angola_2023-01_G005",
+    "type": "provenance",
+    "description": "S028 supplies a local on-site account of E002; S029 supplies a retrospective account whose underlying source is not specified. The relationship between the two sources has not been independently resolved.",
+    "source_ids": [
+      "S028",
+      "S029"
+    ],
+    "affected_candidates": [
+      "angola_2023-01_E002"
+    ],
+    "required_followup": "Look for an independent contemporaneous account only if ordinary access checks and scoped holds permit it."
+  },
+  {
+    "gap_id": "angola_2023-01_G006",
+    "type": "coverage",
+    "description": "Coverage included four January week windows, Portuguese and English queries, sector and province sweeps, and discovery leads beyond Luanda. No qualifying public assembly outside Luanda surfaced; the Malanje BIOCOM/MATRA result is a search-only workplace-dispute table, not assembly evidence. This is a source-coverage statement, not proof of absence.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018",
+      "S022",
+      "S030"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may broaden provincial and sector coverage if the consolidated review finds a concrete uncovered lead; no completeness or quota claim is made."
+  },
+  {
+    "gap_id": "angola_2023-01_G007",
+    "type": "source_access",
+    "description": "Body access remained stopped for exact DW (S001), Observador (S002, S005), HRW (S004, S009), and the same Amnesty report in English (S031). HRW and Amnesty stops rely on previously saved publisher-wide/manual scope holds; S031 had no exact English-URL check or request. No HTTP 403 is asserted for the Angola HRW or English Amnesty URLs.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S005",
+      "S009",
+      "S031"
+    ],
+    "affected_candidates": [
+      "angola_2023-01_E001",
+      "angola_2023-01_E002"
+    ],
+    "required_followup": "Preserve each saved scope restriction; do not try alternate language or mirror paths to reach a held source. Reassess only through the coordinator’s documented scope review."
+  }
+]

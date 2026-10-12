@@ -1,0 +1,126 @@
+[
+  {
+    "gap_id": "zambia_2021-01_G001",
+    "type": "source_access",
+    "description": "Two possible protests appear only in Africa Press search-result titles (unemployed doctors in Kitwe/Lusaka; displaced traders/transport workers over trading-area sale). A saved actual HTTP 403 for another story on the same publisher domain barred bodies and copies; neither lead's origin is verified.",
+    "source_ids": [
+      "zambia_2021-01_S012",
+      "zambia_2021-01_S014"
+    ],
+    "affected_candidates": [
+      "zambia_2021-01_E001",
+      "zambia_2021-01_E002"
+    ],
+    "required_followup": "Seek genuinely independent contemporaneous sources with distinct reporting origins and bylines; do not retrieve either Africa Press page or copies of their written origin."
+  },
+  {
+    "gap_id": "zambia_2021-01_G002",
+    "type": "dates",
+    "description": "No physical date or original publication date is present in the captured headline; the broad query's date terms do not prove the story occurred in that week or month.",
+    "source_ids": [
+      "zambia_2021-01_S012"
+    ],
+    "affected_candidates": [
+      "zambia_2021-01_E001"
+    ],
+    "required_followup": "Find a permitted independent source that states the publication date and physical action date; otherwise keep date unknown and month ownership pending."
+  },
+  {
+    "gap_id": "zambia_2021-01_G003",
+    "type": "participants",
+    "description": "No attendance appears in the search-only headline. The 50-person threshold is unresolved; an employed or unemployed workforce total would not measure attendees.",
+    "source_ids": [
+      "zambia_2021-01_S012"
+    ],
+    "affected_candidates": [
+      "zambia_2021-01_E001"
+    ],
+    "required_followup": "Find an independent event-day account or organizer record with an attendee estimate and public-access details."
+  },
+  {
+    "gap_id": "zambia_2021-01_G004",
+    "type": "state_target",
+    "description": "The search title names unemployed doctors but gives no demand or target; conflict with a private employer alone would not establish a demand to Zambia's own state.",
+    "source_ids": [
+      "zambia_2021-01_S012"
+    ],
+    "affected_candidates": [
+      "zambia_2021-01_E001"
+    ],
+    "required_followup": "Find independent reporting that states the demands and whether they addressed domestic government policy or action."
+  },
+  {
+    "gap_id": "zambia_2021-01_G005",
+    "type": "episode_unit",
+    "description": "A title naming Kitwe and Lusaka does not establish a single coordinated event, separate city actions, continuity, or ownership month.",
+    "source_ids": [
+      "zambia_2021-01_S012"
+    ],
+    "affected_candidates": [
+      "zambia_2021-01_E001"
+    ],
+    "required_followup": "Compare permitted independent contemporaneous reports across the two cities and adjacent months; do not merge without evidence of organization and physical continuity."
+  },
+  {
+    "gap_id": "zambia_2021-01_G006",
+    "type": "dates",
+    "description": "The displaced-traders headline has no event or publication date. Its appearance in a late-January search does not establish January physical onset or ownership.",
+    "source_ids": [
+      "zambia_2021-01_S014"
+    ],
+    "affected_candidates": [
+      "zambia_2021-01_E002"
+    ],
+    "required_followup": "Find a permitted independent contemporaneous source giving both publication and physical action dates; otherwise keep date and ownership unresolved."
+  },
+  {
+    "gap_id": "zambia_2021-01_G007",
+    "type": "participants",
+    "description": "The headline number refers to displaced traders and transport workers, not necessarily people present at a protest; the 50-person threshold is unknown.",
+    "source_ids": [
+      "zambia_2021-01_S014"
+    ],
+    "affected_candidates": [
+      "zambia_2021-01_E002"
+    ],
+    "required_followup": "Seek an independent event-day attendance estimate and public-access description; do not use affected population or workforce as turnout."
+  },
+  {
+    "gap_id": "zambia_2021-01_G008",
+    "type": "state_target",
+    "description": "The title does not identify who sold the trading area or what demand protesters made. The dispute may involve a private actor; no domestic state target is established.",
+    "source_ids": [
+      "zambia_2021-01_S014"
+    ],
+    "affected_candidates": [
+      "zambia_2021-01_E002"
+    ],
+    "required_followup": "Find a permitted independent account specifying the seller, governing decision, demands, and addressee."
+  },
+  {
+    "gap_id": "zambia_2021-01_G009",
+    "type": "episode_unit",
+    "description": "The title does not identify a location or whether displaced traders and bus/taxi drivers formed one coordinated public gathering or separate actions.",
+    "source_ids": [
+      "zambia_2021-01_S014"
+    ],
+    "affected_candidates": [
+      "zambia_2021-01_E002"
+    ],
+    "required_followup": "Seek independent reporting by location, organizer, and date; resolve event unit and physical continuity before assigning January ownership."
+  },
+  {
+    "gap_id": "zambia_2021-01_G010",
+    "type": "source_independence",
+    "description": "Africa Press may republish local reporting; the original byline and written origin are unknown for E002 and E001. These search hits are not independent corroboration.",
+    "source_ids": [
+      "zambia_2021-01_S012",
+      "zambia_2021-01_S014"
+    ],
+    "affected_candidates": [
+      "zambia_2021-01_E001",
+      "zambia_2021-01_E002"
+    ],
+    "required_followup": "Compare search-only headlines with permitted independent bylined reports; record writer, agency, statement and body-copy relationships separately."
+  }
+]

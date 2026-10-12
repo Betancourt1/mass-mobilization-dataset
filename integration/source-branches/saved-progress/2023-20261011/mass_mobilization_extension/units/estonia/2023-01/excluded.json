@@ -1,0 +1,94 @@
+[
+  {
+    "candidate_id": "EST-2023-01-X001",
+    "title": "Tallink seafarers’ wage warning strike",
+    "event_date": "2023-01-16",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "decision": "excluded",
+    "reason": "The bounded ERR article read for S002 describes a wage dispute between the seafarers’ union and Tallink, a private employer, and identifies no Estonian state-policy demand. Exclude on target criterion. It reports a delayed vessel departure but gives no simultaneous attendee estimate or exact assembly site; those facts remain unknown and are not coded below threshold. S001’s body was not recovered.",
+    "field_evidence": {
+      "date": {
+        "source_ids": [
+          "S002"
+        ],
+        "note": "ERR dates the strike to 2023-01-16."
+      },
+      "physical_action": {
+        "source_ids": [
+          "S002"
+        ],
+        "note": "ERR reports a strike that delayed MS Baltic Queen’s departure."
+      },
+      "target": {
+        "source_ids": [
+          "S002"
+        ],
+        "note": "The inspected article frames the demands as union-company wage negotiations and gives no Estonian state-policy demand."
+      },
+      "threshold_50": {
+        "source_ids": [
+          "S002"
+        ],
+        "note": "The inspected text gives no simultaneous attendance figure."
+      },
+      "location": {
+        "source_ids": [
+          "S002"
+        ],
+        "note": "The inspected text gives no exact strike or assembly site."
+      }
+    }
+  },
+  {
+    "candidate_id": "EST-2023-01-X002",
+    "title": "Tallinn rally supporting Russian political prisoners at the Russian Embassy",
+    "event_date": null,
+    "source_ids": [
+      "S003"
+    ],
+    "decision": "excluded",
+    "reason": "The inspected Tallinn section reports a rally at the Russian Embassy and slogans directed at Russia, including support for Russian political prisoners and demands concerning Putin and Russia. The target is a foreign state, not Estonian state policy. Meduza attributes the Tallinn account to Delfi; that report was not independently checked.",
+    "field_evidence": {
+      "location": {
+        "source_ids": [
+          "S003"
+        ],
+        "note": "Meduza reports the Tallinn gathering at the Russian Embassy."
+      },
+      "participants": {
+        "source_ids": [
+          "S003"
+        ],
+        "note": "Meduza attributes an estimate of about 200 participants to Delfi."
+      },
+      "target": {
+        "source_ids": [
+          "S003"
+        ],
+        "note": "Reported slogans concern Russian political prisoners, Putin, and Russia; no Estonian state-policy demand is identified."
+      },
+      "response_and_violence": {
+        "source_ids": [
+          "S003"
+        ],
+        "note": "The inspected Tallinn section gives no information about Estonian state response or protester violence; both remain unknown."
+      }
+    },
+    "event_date_precision": "unknown",
+    "prior_worker_coding": {
+      "event_date": "2023-01-21",
+      "event_date_precision": "day",
+      "field_evidence_date": {
+        "source_ids": [
+          "S003"
+        ],
+        "note": "The Meduza page and its inspected date line identify 2023-01-21."
+      },
+      "preservation_note": "Original assertion retained for provenance; the exact pre-correction excluded.json is preserved at capture_revisions/excluded.json.before-est-2023-01-x002-date-correction-20261010."
+    },
+    "date_precision_note": "S003 publication date remains 2023-01-21 in sources.jsonl; its general Jan. 20–21 rally wave and inspected Tallinn section do not explicitly date the local action."
+  }
+]

@@ -1,0 +1,427 @@
+[
+  {
+    "gap_id": "bolivia_2021-01_G001",
+    "type": "baseline",
+    "description": "The official current baseline, universe, schema and license have not been reconciled. The locally read manual is the historical May 2015 manual, not an asserted latest version.",
+    "source_ids": [],
+    "affected_candidates": [
+      "bolivia_2021-01_E001",
+      "bolivia_2021-01_E002",
+      "bolivia_2021-01_E003",
+      "bolivia_2021-01_E004",
+      "bolivia_2021-01_E005",
+      "bolivia_2021-01_E006",
+      "bolivia_2021-01_E007",
+      "bolivia_2021-01_E008",
+      "bolivia_2021-01_E009",
+      "bolivia_2021-01_E010",
+      "bolivia_2021-01_E011",
+      "bolivia_2021-01_E012",
+      "bolivia_2021-01_E013",
+      "bolivia_2021-01_E014"
+    ],
+    "required_followup": "Coordinator must obtain and verify the official baseline before considering any integration; retain the pending baseline gate."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G002",
+    "type": "search_method",
+    "description": "Open-web research differs from systematic LexisNexis retrieval. Weekly date-window searches returned some off-month and irrelevant material. Every actual query is retained, including two early executions whose result-to-query mapping was not preserved.",
+    "source_ids": [],
+    "affected_candidates": [
+      "bolivia_2021-01_E001",
+      "bolivia_2021-01_E002",
+      "bolivia_2021-01_E003",
+      "bolivia_2021-01_E004",
+      "bolivia_2021-01_E005",
+      "bolivia_2021-01_E006",
+      "bolivia_2021-01_E007",
+      "bolivia_2021-01_E008",
+      "bolivia_2021-01_E009",
+      "bolivia_2021-01_E010",
+      "bolivia_2021-01_E011",
+      "bolivia_2021-01_E012",
+      "bolivia_2021-01_E013",
+      "bolivia_2021-01_E014"
+    ],
+    "required_followup": "Repeat unresolved episodes in a systematic contemporaneous archive if authorized and available; verify article dates individually. Do not infer absence or exhaustive coverage from the logs."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G003",
+    "type": "coverage",
+    "description": "Country-wide and regional searches covered transport, mining, health, education, farming, indigenous and local disputes, but opening and survival of regional sources are uneven. Pando, rural Beni beyond Riberalta, Oruro, northern Potosí, Chuquisaca and smaller municipalities remain underdocumented.",
+    "source_ids": [],
+    "affected_candidates": [
+      "bolivia_2021-01_E001",
+      "bolivia_2021-01_E002",
+      "bolivia_2021-01_E003",
+      "bolivia_2021-01_E004",
+      "bolivia_2021-01_E005",
+      "bolivia_2021-01_E006",
+      "bolivia_2021-01_E007",
+      "bolivia_2021-01_E008",
+      "bolivia_2021-01_E009",
+      "bolivia_2021-01_E010",
+      "bolivia_2021-01_E011",
+      "bolivia_2021-01_E012",
+      "bolivia_2021-01_E013",
+      "bolivia_2021-01_E014"
+    ],
+    "required_followup": "Prioritize regional contemporary newspaper and official-record retrieval in the poorly documented areas, including small municipal demands rather than only national strikes."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G004",
+    "type": "language",
+    "description": "Spanish and English searches were used. Aymara, Quechua and Guaraní coverage was explored through language-name searches, but no validated original-language protest report or independently checked native-language search vocabulary was obtained.",
+    "source_ids": [],
+    "affected_candidates": [
+      "bolivia_2021-01_E001",
+      "bolivia_2021-01_E002",
+      "bolivia_2021-01_E003",
+      "bolivia_2021-01_E004",
+      "bolivia_2021-01_E005",
+      "bolivia_2021-01_E006",
+      "bolivia_2021-01_E007",
+      "bolivia_2021-01_E008",
+      "bolivia_2021-01_E009",
+      "bolivia_2021-01_E010",
+      "bolivia_2021-01_E011",
+      "bolivia_2021-01_E012",
+      "bolivia_2021-01_E013",
+      "bolivia_2021-01_E014"
+    ],
+    "required_followup": "Use accessible contemporary community media and a fluent language reviewer for relevant Aymara, Quechua and Guaraní sources. Treat the existing search as limited language discovery."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G005",
+    "type": "participants",
+    "description": "No retained candidate has a verified simultaneous attendance count or clear qualitative evidence establishing at least 50. Blockade points, vehicles, 46 schools, 3,000 baskets, payroll beneficiaries and health-sector deaths cannot substitute for demonstrators.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S005",
+      "S007",
+      "S079",
+      "S084",
+      "S100",
+      "S109",
+      "S110",
+      "S111",
+      "S126",
+      "S130",
+      "S163",
+      "S174",
+      "S231",
+      "S232",
+      "S243",
+      "S245",
+      "S259",
+      "S271",
+      "S272"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E001",
+      "bolivia_2021-01_E002",
+      "bolivia_2021-01_E003",
+      "bolivia_2021-01_E004",
+      "bolivia_2021-01_E005",
+      "bolivia_2021-01_E006",
+      "bolivia_2021-01_E007",
+      "bolivia_2021-01_E008",
+      "bolivia_2021-01_E009",
+      "bolivia_2021-01_E010",
+      "bolivia_2021-01_E011",
+      "bolivia_2021-01_E012",
+      "bolivia_2021-01_E013",
+      "bolivia_2021-01_E014"
+    ],
+    "required_followup": "Obtain a direct count, credible crowd estimate, or clearly attributable qualitative description for each physical gathering. Preserve uncertainty and do not sum separate cities or times."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G006",
+    "type": "dates episode_unit",
+    "description": "The January 12 and January 19 transport actions are related to a loan-deferral campaign; the evidence does not settle whether a pause created separate episodes, how regional action was coordinated, or the physical end of each action. Plans for 24 or 48 hours are not observed ends.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S005",
+      "S007",
+      "S120"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E001",
+      "bolivia_2021-01_E002"
+    ],
+    "required_followup": "Read the January 12 end, January 13–18 interval and January 19–21 local follow-up, then review national/local ownership and any response separately for each physical gathering."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G007",
+    "type": "state_response contested_evidence",
+    "description": "The January 12 caption describes police preventing blockade installation without establishing movement or breakup of an actual assembly, so dispersal is unknown. The January 19 official account supports clearing La Paz points only at those sites. Defensoría met transport leadership on site about ambulance passage, supporting accommodation as a meeting without a loan-deferral concession.",
+    "source_ids": [
+      "S004",
+      "S110",
+      "S001"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E001",
+      "bolivia_2021-01_E002"
+    ],
+    "required_followup": "Seek independent contemporary reporting of physical police action and negotiation at each gathering, keeping the exact date, location and organization attached to each response. Do not extend the local ambulance-access meeting to the entire national action."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G008",
+    "type": "participants violence_casualties state_response",
+    "description": "The miners report distinguishes dozens, ten with a leader and about 300 unpaid workers. Dynamite detonations alone do not establish an attack against the state or property damage; announced payment after talks does not prove delivery.",
+    "source_ids": [
+      "S100"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E003"
+    ],
+    "required_followup": "Find an independent contemporary account of the January 11 public gathering, its crowd size, duration and any actual violence or state response."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G009",
+    "type": "state_target dates episode_unit",
+    "description": "The January 7 Caja Petrolera notice describes an ongoing Santa Cruz protest but does not identify its beginning, attendance, organizer or exact domestic policy demand. A prior-month beginning remains possible.",
+    "source_ids": [
+      "S079"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E004"
+    ],
+    "required_followup": "Identify the protest organization, demands and first public gathering before assigning January ownership or eligibility."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G010",
+    "type": "episode_unit dates",
+    "description": "The January 25 Chaco pension blocks resumed after a Thursday pause; Riberalta began on January 11, while Santa Cruz pension blocks were only observed on January 19. National campaign membership does not settle physical episode boundaries. The initial Yacuiba gathering had 35 participants and is excluded only at that reported time.",
+    "source_ids": [
+      "S111",
+      "S163",
+      "S110"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E005",
+      "bolivia_2021-01_E006",
+      "bolivia_2021-01_E014",
+      "bolivia_2021-01_X003"
+    ],
+    "required_followup": "Trace January 11–25 chronology, individual sites, organizers and simultaneous participation. Verify whether Santa Cruz began in January. Do not merge, split or count these leads automatically."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G011",
+    "type": "source_access dates participants",
+    "description": "K’ara K’ara January 25 dates and municipal commitments presently rely on a 2023 retrospective chronology. The contemporary article S173 was discovered but could not be retrieved; its snippet supplies no field evidence.",
+    "source_ids": [
+      "S130",
+      "S173"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E007"
+    ],
+    "required_followup": "Obtain a contemporary report or original municipal record, then verify the crowd and same-day physical end independently of the retrospective publication date."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G012",
+    "type": "source_access dates",
+    "description": "Pampa Galana remains an unread discovery. El Andaluz returned an actual HTTP 403 and retrieval stopped. El Deber failed retrieval; the local ordinary HTTPS attempt failed DNS before any HTTP response.",
+    "source_ids": [
+      "S109",
+      "S174"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E008"
+    ],
+    "required_followup": "Use another legitimately accessible contemporary source or original municipal agreement to establish occurrence, beginning, crowd and physical end. Respect the actual access denial."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G013",
+    "type": "source_access source_independence violence_casualties",
+    "description": "Three January 27 medical quarantine discoveries are copies of an EFE story, and no body was successfully read. Reported COVID deaths are the grievance, not evidence of killings during this assembly.",
+    "source_ids": [
+      "S231",
+      "S243",
+      "S259"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E009"
+    ],
+    "required_followup": "Read a publicly accessible full contemporary account and find independent evidence of the hospital gathering, attendance and response; preserve common agency origin."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G014",
+    "type": "source_access episode_unit dates",
+    "description": "Late-January medical strike announcements and proposed February 1 action do not establish an executed January public assembly. A January 29 meeting, strike decision or averted strike is not itself a qualifying street gathering.",
+    "source_ids": [
+      "S081",
+      "S084",
+      "S126",
+      "S061"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E010"
+    ],
+    "required_followup": "Verify January 29–February 2 physical assemblies, locations and size. Transfer ownership to February if the first qualifying gathering began there; preserve the announcement as discovery context."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G015",
+    "type": "source_access state_target participants",
+    "description": "The cancer-patient lead comes from an unread January 15 newspaper listing. The described previous-day protest, representative identity, demand, state target and attendance remain unverified.",
+    "source_ids": [
+      "S232"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E011"
+    ],
+    "required_followup": "Obtain the actual report or an accessible contemporary CNS or patient-organization record before coding occurrence, target or size."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G016",
+    "type": "participants episode_unit",
+    "description": "Vinto parents took public action over municipal school-food baskets. School counts and baskets are benefits rather than attendance. A December agreement and a one-hour January 13 pause do not automatically create separate monthly events.",
+    "source_ids": [
+      "S245",
+      "S272"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E012"
+    ],
+    "required_followup": "Find a crowd estimate and prior December action chronology; keep the January 13–14 physical gathering separate from the landfill closure conflict in Vinto."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G017",
+    "type": "dates participants",
+    "description": "Villa Ingenio action lasted about a week and ended after negotiations around 23:00, but the exact beginning and end day are unclear. The publication date is not automatically the end. Attendance was not given.",
+    "source_ids": [
+      "S271",
+      "S244"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E013"
+    ],
+    "required_followup": "Find dated local reports or the signed agreement to identify physical beginning and end, and a simultaneous crowd estimate. The node and canonical routes are the same article."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G018",
+    "type": "episode_unit dates source_access",
+    "description": "A January 9 newspaper front-page and short item describe a Vinto landfill blockade lasting more than two months before police action on January 8. A separate retrospective identifies a December 14–22 K’ara K’ara school-basket action. Neither is a new January-start event.",
+    "source_ids": [
+      "S146",
+      "S130"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_C001",
+      "bolivia_2021-01_C002"
+    ],
+    "required_followup": "Route these antecedents to the appropriate earlier-month owners and verify original start, continuity, attendance and response with contemporary sources. Do not treat the newspaper PDF as fully read."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G019",
+    "type": "source_access",
+    "description": "Several public articles failed the web tool. Seven ordinary HTTPS recoveries to the same public URLs failed at local DNS resolution and yielded no HTTP status or body. This technical failure is distinct from the actual 403 at S174. Canonical recovery succeeded for the same ERBOL and Los Tiempos articles.",
+    "source_ids": [
+      "S006",
+      "S081",
+      "S084",
+      "S109",
+      "S120",
+      "S126",
+      "S173",
+      "S174",
+      "S244",
+      "S247",
+      "S271",
+      "S272"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E001",
+      "bolivia_2021-01_E002",
+      "bolivia_2021-01_E003",
+      "bolivia_2021-01_E004",
+      "bolivia_2021-01_E005",
+      "bolivia_2021-01_E006",
+      "bolivia_2021-01_E007",
+      "bolivia_2021-01_E008",
+      "bolivia_2021-01_E009",
+      "bolivia_2021-01_E010",
+      "bolivia_2021-01_E011",
+      "bolivia_2021-01_E012",
+      "bolivia_2021-01_E013",
+      "bolivia_2021-01_E014"
+    ],
+    "required_followup": "Retry tool failures only through ordinary authorized access or another accessible original source; never bypass a login, paywall, anti-bot challenge or actual denial. Preserve same-article relationships."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G020",
+    "type": "state_response violence_casualties",
+    "description": "The seven response fields remain unknown except for specific evidenced talks or dispersal. Silence does not establish no response or ignore. An unread discovery mentions a death during transport conflict; it does not establish state responsibility. The January 23 disability notice concerns September–October 2020 abuse, rather than a new January gathering.",
+    "source_ids": [
+      "S120",
+      "S107"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E001",
+      "bolivia_2021-01_E002",
+      "bolivia_2021-01_E003",
+      "bolivia_2021-01_E004",
+      "bolivia_2021-01_E005",
+      "bolivia_2021-01_E006",
+      "bolivia_2021-01_E007",
+      "bolivia_2021-01_E008",
+      "bolivia_2021-01_E009",
+      "bolivia_2021-01_E010",
+      "bolivia_2021-01_E011",
+      "bolivia_2021-01_E012",
+      "bolivia_2021-01_E013",
+      "bolivia_2021-01_E014"
+    ],
+    "required_followup": "Find event-specific response accounts and casualty attribution. Keep shootings separate from tear gas or displayed weapons and keep grievance deaths outside event killings."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G021",
+    "type": "source_independence",
+    "description": "EFE copies, Ahora Digital republication of Página Siete with a Riberalta passage attributed to Elay Diario Digital, and canonical/node variants are dependent records. The source-card total also retains broad off-month discovery and is not a count of corroborations.",
+    "source_ids": [
+      "S163",
+      "S231",
+      "S243",
+      "S259",
+      "S244",
+      "S271",
+      "S247",
+      "S272"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_E001",
+      "bolivia_2021-01_E002",
+      "bolivia_2021-01_E003",
+      "bolivia_2021-01_E004",
+      "bolivia_2021-01_E005",
+      "bolivia_2021-01_E006",
+      "bolivia_2021-01_E007",
+      "bolivia_2021-01_E008",
+      "bolivia_2021-01_E009",
+      "bolivia_2021-01_E010",
+      "bolivia_2021-01_E011",
+      "bolivia_2021-01_E012",
+      "bolivia_2021-01_E013",
+      "bolivia_2021-01_E014"
+    ],
+    "required_followup": "Locate original regional reporting where accessible and seek independent corroboration for disputed attributes. Deduplicate article origin in review without deleting discovery provenance."
+  },
+  {
+    "gap_id": "bolivia_2021-01_G022",
+    "type": "state_target coverage",
+    "description": "Candidate-selection blockades at Santa Ana and Cocapata are documented exclusions. Broader searches also produced party-rally, intercommunal, armed and later-period material. No exclusively foreign-target or private action has been included by assumption. An early-January Yungas internal-union conflict remains only broad discovery, without an opened qualifying domestic-policy account.",
+    "source_ids": [
+      "S078",
+      "S214"
+    ],
+    "affected_candidates": [
+      "bolivia_2021-01_X001",
+      "bolivia_2021-01_X002"
+    ],
+    "required_followup": "Review any additional public domestic-policy demand separately before reconsidering an exclusion. Preserve the reason and avoid inferring eligibility merely from police intervention or party membership."
+  }
+]

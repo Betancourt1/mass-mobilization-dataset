@@ -1,0 +1,182 @@
+[
+  {
+    "gap_id": "austria_2023-01_G001",
+    "type": "baseline_original_codebook",
+    "description": "The official Mass Mobilization baseline, exact inclusion/episode instructions and applicable release/licensing context are not verified in this unit. The unit remains provisional and cannot claim alignment to an official row universe or codebook.",
+    "source_ids": [],
+    "affected_candidates": [
+      "austria_2023-01_E001",
+      "austria_2023-01_E002",
+      "austria_2023-01_E003",
+      "austria_2023-01_E004",
+      "austria_2023-01_E005",
+      "austria_2023-01_E006",
+      "austria_2023-01_E007",
+      "austria_2023-01_E008"
+    ],
+    "required_followup": "Coordinator verifies the governing baseline version, full manual, universe, schema and license before any integration or approval."
+  },
+  {
+    "gap_id": "austria_2023-01_G002",
+    "type": "participants_threshold",
+    "description": "Attendance remains unresolved for the distinct 11 January Gürtel blockades, 13 January Wienzeile action, 10 January Praterstern action, 11 January Vienna energy-price mention and 12 January A4-area action. Arrests, complaints, police deployment, supporter references, registration requests and another city’s count are not crowd estimates.",
+    "source_ids": [
+      "AT23-S016",
+      "AT23-S021",
+      "AT23-S025",
+      "AT23-S029",
+      "AT23-S030",
+      "AT23-S031"
+    ],
+    "affected_candidates": [
+      "austria_2023-01_E003",
+      "austria_2023-01_E004",
+      "austria_2023-01_E005",
+      "austria_2023-01_E006",
+      "austria_2023-01_E007"
+    ],
+    "required_followup": "Seek independent event-day crowd estimates for each site/date; keep events pending if no defensible count is found and do not allocate campaign aggregates to individual days."
+  },
+  {
+    "gap_id": "austria_2023-01_G003",
+    "type": "state_target",
+    "description": "The domestic government/policy target is not fully established for the 6 January Megademo, the 21 January Fairdenken demonstration, the sparse Vienna energy-price mention, the 12 January action and the 14 January Lützerath march. For Fairdenken, the agenda appears only in an advance report and the event-day account does not verify that it was voiced. The Lützerath march mainly focused on German Lützerath, with only a secondary Austrian initiative reference and no named Austrian addressee.",
+    "source_ids": [
+      "AT23-S002",
+      "AT23-S008",
+      "AT23-S020",
+      "AT23-S025",
+      "AT23-S030",
+      "AT23-S031",
+      "AT23-S012",
+      "AT23-S019"
+    ],
+    "affected_candidates": [
+      "austria_2023-01_E001",
+      "austria_2023-01_E002",
+      "austria_2023-01_E006",
+      "austria_2023-01_E007",
+      "austria_2023-01_E008"
+    ],
+    "required_followup": "Locate event-day sources that identify actual domestic policy demands and targets; for E002, verify whether the announced agenda was voiced. Keep eligibility pending while target evidence is unresolved and exclude foreign-government demands from eligibility."
+  },
+  {
+    "gap_id": "austria_2023-01_G004",
+    "type": "state_response_protester_violence",
+    "description": "Event-specific state responses and protester violence are not comprehensively reported. The 52 arrests, over 200 complaints and 850 officers in a retrospective are aggregate weekday-wave figures and cannot be allocated to particular days. Police presence or escort alone is not coded as a response category.",
+    "source_ids": [
+      "AT23-S003",
+      "AT23-S016",
+      "AT23-S021",
+      "AT23-S029",
+      "AT23-S030",
+      "AT23-S031",
+      "AT23-S012"
+    ],
+    "affected_candidates": [
+      "austria_2023-01_E001",
+      "austria_2023-01_E002",
+      "austria_2023-01_E003",
+      "austria_2023-01_E004",
+      "austria_2023-01_E005",
+      "austria_2023-01_E006",
+      "austria_2023-01_E007",
+      "austria_2023-01_E008"
+    ],
+    "required_followup": "Attribute each response to an exact event and source; retain unknown for silence, aggregate-only counts, unverified smoke-cartridge responsibility and non-specific police deployment."
+  },
+  {
+    "gap_id": "austria_2023-01_G005",
+    "type": "dates_episode_unit_ownership_january",
+    "description": "The 9–13 January Letzte Generation weekday actions are a reported campaign wave, but separate daily actions must remain distinct and no physical continuity or common campaign end is established. The reported 11 January and 13 January police actions provide end dates for those roadway actions only; they do not establish the end of the broader action wave. The shared episode key is tentative context. The 13 February action is a later executed repeat, not proof of an uninterrupted January event.",
+    "source_ids": [
+      "AT23-S003",
+      "AT23-S016",
+      "AT23-S021",
+      "AT23-S029",
+      "AT23-S030",
+      "AT23-S031",
+      "AT23-S032",
+      "AT23-S033",
+      "AT23-S006"
+    ],
+    "affected_candidates": [
+      "austria_2023-01_X001",
+      "austria_2023-01_E003",
+      "austria_2023-01_E004",
+      "austria_2023-01_E005",
+      "austria_2023-01_E007"
+    ],
+    "required_followup": "Preserve the reported action-level ends for E003 and E004 while keeping the broader campaign end unknown. The Austria February owner may check the 13 February event independently. Preserve separate dates and the open December lead; do not merge daily or cross-month actions without physical-boundary evidence."
+  },
+  {
+    "gap_id": "austria_2023-01_G006",
+    "type": "source_access_blocked_receipt_chronology",
+    "description": "The Der Standard January 25 article at S028 was denied by robots.txt at the exact URL; its pre-request check showed manual_review but no saved denial or publisher-wide hold. The S027 Press Nachrichten page returned a technical cache miss and its original pre-request receipt is missing after a filename collision; the later S027 receipt is post-attempt. The S033 December 2022 article body returned a technical cache miss. These states differ and no bypass or retry is warranted.",
+    "source_ids": [
+      "AT23-S027",
+      "AT23-S028",
+      "AT23-S033"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve the receipts and actual event chronology; do not broaden the S028 URL-level denial or treat technical failures as denials. Any future body retrieval must follow a fresh exact-URL check and applicable manual review."
+  },
+  {
+    "gap_id": "austria_2023-01_G007",
+    "type": "source_independence_contested_evidence",
+    "description": "The 14 January Vienna attendance is reported by one local reporter and an organizer/participant-group archive; the two estimates are not independent confirmations. For the 21 January Fairdenken event, its attendance is from the event-day report, while its planned demands appear in a same-publisher advance article and are not confirmed as voiced. S029 contains inconsistent about-40/about-50 scientist references, neither of which is a total crowd count.",
+    "source_ids": [
+      "AT23-S008",
+      "AT23-S020",
+      "AT23-S012",
+      "AT23-S019",
+      "AT23-S029"
+    ],
+    "affected_candidates": [
+      "austria_2023-01_E002",
+      "austria_2023-01_E005",
+      "austria_2023-01_E008"
+    ],
+    "required_followup": "Trace reporting origins and distinguish event-day observation from organizer, advance or republished claims; retain Fairdenken’s agenda as unverified until event-day evidence confirms it, and do not count same-origin accounts as independent confirmation."
+  },
+  {
+    "gap_id": "austria_2023-01_G008",
+    "type": "coverage_search_method",
+    "description": "The first pass used 19 captured German- and English-language search invocations and opened selected national/regional sources. Queries covered Vienna, Linz, Innsbruck and additional Länder/cities, with climate, energy-price and labor leads. Accessible open-web results do not replicate LexisNexis or systematic local archives; detailed verified body coverage is concentrated in Vienna and is uneven by province and sector. Search-only leads (including labor, Afghanistan-rights and additional climate topics) remain unverified.",
+    "source_ids": [
+      "AT23-S001",
+      "AT23-S004",
+      "AT23-S009",
+      "AT23-S011",
+      "AT23-S014",
+      "AT23-S017",
+      "AT23-S018",
+      "AT23-S023",
+      "AT23-S026",
+      "AT23-S027",
+      "AT23-S028",
+      "AT23-S033"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may prioritize regional, labor and minority-rights archives or licensed newspaper databases; report the resulting coverage boundaries and do not convert a search miss into a no-protest claim."
+  },
+  {
+    "gap_id": "austria_2023-01_G009",
+    "type": "dates_episode_unit_ownership_cross_month",
+    "description": "A search result returned for a query about a possible 19 December 2022 Innsbruck climate action led to a page whose body retrieval had a technical cache miss. Its event date, turnout and episode relationship remain unverified. Nothing establishes continuous physical presence between December, January and February. The 13 February Naschmarkt action is separately reported and does not establish a continuous occupation.",
+    "source_ids": [
+      "AT23-S006",
+      "AT23-S030",
+      "AT23-S031",
+      "AT23-S032",
+      "AT23-S033"
+    ],
+    "affected_candidates": [
+      "austria_2023-01_E003",
+      "austria_2023-01_E004",
+      "austria_2023-01_E005",
+      "austria_2023-01_E007"
+    ],
+    "required_followup": "Keep the December link unresolved unless an accessible dated source establishes the action and episode boundary; retain February as a distinct later event and never invent an end date."
+  }
+]

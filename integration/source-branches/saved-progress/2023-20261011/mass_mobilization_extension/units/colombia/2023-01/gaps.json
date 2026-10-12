@@ -1,0 +1,167 @@
+[
+  {
+    "gap_id": "CO202301-G001",
+    "type": "official_baseline",
+    "description": "The consulted legacy manual is a 2015 codebook extract. The current official MM baseline/version, full coding procedure, dataset-wide unit coverage and terms are not verified. No candidate is an official MM event or ID.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CO202301-E001",
+      "CO202301-E002",
+      "CO202301-E003",
+      "CO202301-E004",
+      "CO202301-E005",
+      "CO202301-E006",
+      "CO202301-E007",
+      "CO202301-E008",
+      "CO202301-E009",
+      "CO202301-E010",
+      "CO202301-E011"
+    ],
+    "required_followup": "Coordinator verifies the authoritative current baseline/version, codebook and country-month ownership before consolidation."
+  },
+  {
+    "gap_id": "CO202301-G002",
+    "type": "coverage",
+    "description": "Ten native search invocations were captured with 293 result headers across general Spanish/English, week, sector, regional and focused queries. Search result counts are not complete event coverage; no LexisNexis or equivalent licensed archive was accessed. The evidence supports candidates and explicit leads, not an absence claim for Colombia in January.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CO202301-E001",
+      "CO202301-E002",
+      "CO202301-E003",
+      "CO202301-E004",
+      "CO202301-E005",
+      "CO202301-E006",
+      "CO202301-E007",
+      "CO202301-E008",
+      "CO202301-E009",
+      "CO202301-E010",
+      "CO202301-E011"
+    ],
+    "required_followup": "Review country news archives and any licensed/protest-monitoring databases; expand only with exact captured queries and source provenance."
+  },
+  {
+    "gap_id": "CO202301-G003",
+    "type": "threshold_50",
+    "description": "Attendance is not reported in opened sources for the Jan25–31 La Mojana strike, the Oponcito/Campo 23 block, or La Lizama humanitarian action. Search-only snippets have turnout claims for Santander páramo farmers and Bogotá recyclers, but those claims are not body-verified. Several Bogotá actions also lack any count. Vehicles, blocked roads, affected commuters and affected communities are not participant counts.",
+    "source_ids": [
+      "CO202301-S006",
+      "CO202301-S007",
+      "CO202301-S008",
+      "CO202301-S019",
+      "CO202301-S021",
+      "CO202301-S034",
+      "CO202301-S035",
+      "CO202301-S036",
+      "CO202301-S037",
+      "CO202301-S040"
+    ],
+    "affected_candidates": [
+      "CO202301-E002",
+      "CO202301-E004",
+      "CO202301-E005",
+      "CO202301-E006",
+      "CO202301-E007",
+      "CO202301-E008",
+      "CO202301-E009",
+      "CO202301-E010",
+      "CO202301-E011"
+    ],
+    "required_followup": "Find a count scoped to each distinct physical action or retain pending_threshold/pending_evidence. Do not transfer turnout between episodes or locations."
+  },
+  {
+    "gap_id": "CO202301-G004",
+    "type": "source_access",
+    "description": "One exact-URL web.open attempt for each of S001, S004, S005, S009, S015, S019, S020, S021, S030, S034 and S035 returned a Cache miss with no HTTP status or page body. Each attempt has a fresh access receipt and is recorded as a technical retrieval failure, not as a publisher denial. No repeated opens were made after the initial failures.",
+    "source_ids": [
+      "CO202301-S001",
+      "CO202301-S004",
+      "CO202301-S005",
+      "CO202301-S009",
+      "CO202301-S015",
+      "CO202301-S019",
+      "CO202301-S020",
+      "CO202301-S021",
+      "CO202301-S030",
+      "CO202301-S034",
+      "CO202301-S035"
+    ],
+    "affected_candidates": [
+      "CO202301-E006",
+      "CO202301-E007",
+      "CO202301-E008",
+      "CO202301-E009",
+      "CO202301-E010"
+    ],
+    "required_followup": "If a source is retried, obtain a new exact-URL access receipt and recheck its exact unit card, alias and origin first; otherwise seek accessible independent reporting."
+  },
+  {
+    "gap_id": "CO202301-G005",
+    "type": "episode_boundary",
+    "description": "The El Oponcito/Campo 23 license protest has conflicting timing: opened Vanguardia says roughly 48 hours by Jan25 while a Caracol search excerpt says the community had been at the point since Jan08. Search-only coverage also reports Jan25 solidarity blockades at Puerto Wilches and Sabana de Torres. It is unclear whether these are phases, separate groups, or distinct physical episodes.",
+    "source_ids": [
+      "CO202301-S006",
+      "CO202301-S007",
+      "CO202301-S037",
+      "CO202301-S038",
+      "CO202301-S039"
+    ],
+    "affected_candidates": [
+      "CO202301-E004",
+      "CO202301-E005",
+      "CO202301-E011"
+    ],
+    "required_followup": "Read direct source bodies and map each site/group/date separately; keep all actions unmerged until the physical boundaries and crowd evidence are clear."
+  },
+  {
+    "gap_id": "CO202301-G006",
+    "type": "representativeness_and_dates",
+    "description": "The Wayuu blockade report describes a crowd as “hundreds” but also reports a dispute over whether organizers had authority to represent all affected Wayuu communities. Jan23 is inferred from wording that the protest was already in its second day on Jan24; the agreement/road clearance is dated Jan25.",
+    "source_ids": [
+      "CO202301-S011",
+      "CO202301-S013"
+    ],
+    "affected_candidates": [
+      "CO202301-E003"
+    ],
+    "required_followup": "Verify the start date, turnout by site, organizing authorization and scope/implementation of the reported T-302-related agreement."
+  },
+  {
+    "gap_id": "CO202301-G007",
+    "type": "state_response",
+    "description": "Reported agreements or dialogue commitments exist for La Mojana, the Wayuu blockades, La Lizama, Santander páramo farmers and recyclers. These are not evidence of completed policy/work implementation. Radio Nacional is an RTVC public broadcaster; its account does not independently verify government performance.",
+    "source_ids": [
+      "CO202301-S002",
+      "CO202301-S013",
+      "CO202301-S029",
+      "CO202301-S036",
+      "CO202301-S039",
+      "CO202301-S041"
+    ],
+    "affected_candidates": [
+      "CO202301-E001",
+      "CO202301-E002",
+      "CO202301-E003",
+      "CO202301-E005",
+      "CO202301-E006",
+      "CO202301-E007"
+    ],
+    "required_followup": "Check primary government/municipal records or independent reporting for exact commitments, parties and later implementation; keep unobserved response fields unknown."
+  },
+  {
+    "gap_id": "CO202301-G008",
+    "type": "event_identity",
+    "description": "The Jan16 Bogotá youth action is documented only in search text and concerns allegations about disappearances during the 2021 strike; neither the allegation nor the precise 2023 demand is body-verified. Other search-only leads about platform drivers may refer to a planned Ministry meeting rather than a physical protest.",
+    "source_ids": [
+      "CO202301-S016",
+      "CO202301-S017",
+      "CO202301-S018",
+      "CO202301-S023",
+      "CO202301-S024",
+      "CO202301-S025"
+    ],
+    "affected_candidates": [
+      "CO202301-E010"
+    ],
+    "required_followup": "Read direct bodies to verify what occurred, the state target, the organizers and the public demand. Determine whether platform-driver items report an actual protest or only planned dialogue before creating a separate candidate."
+  }
+]

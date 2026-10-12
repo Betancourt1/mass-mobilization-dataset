@@ -1,0 +1,148 @@
+[
+  {
+    "gap_id": "FIN202301-G001",
+    "type": "baseline",
+    "description": "Official Mass Mobilization latest version, country universe, current schema, final ccode and reuse terms remain unverified; ccode 375 is provisional.",
+    "source_ids": [],
+    "affected_candidates": [
+      "FIN202301-E001",
+      "FIN202301-E002"
+    ],
+    "required_followup": "Coordinator must resolve the official-baseline gate before consolidation or any official compatibility claim."
+  },
+  {
+    "gap_id": "FIN202301-G002",
+    "type": "participants",
+    "description": "FI-S005 reports roughly ten attendees at the STOP NATO flash-mob, while FI-S003 gives no crowd count. The estimate has no independent corroboration, so the 50-person threshold is unresolved.",
+    "source_ids": [
+      "FI-S003",
+      "FI-S005"
+    ],
+    "affected_candidates": [
+      "FIN202301-E001"
+    ],
+    "required_followup": "Seek an independent contemporaneous estimate or authoritative count; do not infer attendance from organizers, police deployment, photos, or repeated affiliated headlines."
+  },
+  {
+    "gap_id": "FIN202301-G003",
+    "type": "state_target",
+    "description": "FI-S005 reports opposition to Finland’s NATO membership alongside opposition to U.S. presence. Whether an explicit demand addressed Finnish government policy, rather than the U.S. Embassy or NATO generally, needs confirmation.",
+    "source_ids": [
+      "FI-S004",
+      "FI-S005"
+    ],
+    "affected_candidates": [
+      "FIN202301-E001"
+    ],
+    "required_followup": "Review a contemporaneous independent account or organizer statement and record the precise demand and its addressee."
+  },
+  {
+    "gap_id": "FIN202301-G004",
+    "type": "episode_unit",
+    "description": "FI-S003 reports a Helsinki anti-NATO demonstration during the week before 31 January; FI-S005 reports a 28 January STOP NATO flash-mob. Their shared time, place and theme suggest a possible match, not a verified identity.",
+    "source_ids": [
+      "FI-S003",
+      "FI-S005"
+    ],
+    "affected_candidates": [
+      "FIN202301-E001"
+    ],
+    "required_followup": "Compare additional independent reporting or primary records before linking the reports to one episode; do not count the match as independent corroboration."
+  },
+  {
+    "gap_id": "FIN202301-G005",
+    "type": "source_access",
+    "description": "FI-S001 remains unread after a public web Cache miss and an ordinary HTTPS DNS-resolution failure before HTTP. The date and location in its search headline do not prove an executed gathering.",
+    "source_ids": [
+      "FI-S001"
+    ],
+    "affected_candidates": [
+      "FIN202301-E002"
+    ],
+    "required_followup": "Do not retry the already-attempted exact URL. Seek independent corroboration only from another separately screened public URL; any new body target requires the live generation-4 window, exact card/receipt match, fresh full-scope review and immediate pre-request gate check."
+  },
+  {
+    "gap_id": "FIN202301-G006",
+    "type": "dates",
+    "description": "The FI-S001 headline associates a demonstration with 30 January, but actual physical start, schedule and endpoint are unverified. FI-S003 gives only a relative “last week” window for its anti-NATO event.",
+    "source_ids": [
+      "FI-S001",
+      "FI-S003",
+      "FI-S005"
+    ],
+    "affected_candidates": [
+      "FIN202301-E001",
+      "FIN202301-E002"
+    ],
+    "required_followup": "Use contemporary event evidence to distinguish an announced date, article date and physical start/end; leave unknown values null."
+  },
+  {
+    "gap_id": "FIN202301-G007",
+    "type": "state_response",
+    "description": "Yle reports police contact with an organizer about a planned Quran burning that was abandoned; MV-Lehti reports a police warning to a journalist. Neither establishes a response to the STOP NATO political demand or the coded response categories.",
+    "source_ids": [
+      "FI-S003",
+      "FI-S005"
+    ],
+    "affected_candidates": [
+      "FIN202301-E001"
+    ],
+    "required_followup": "Seek an event-specific police account or independent contemporary report; keep all response fields unknown until supported."
+  },
+  {
+    "gap_id": "FIN202301-G008",
+    "type": "source_independence",
+    "description": "FI-S004 and FI-S005 are similarly framed advocacy-oriented STOP NATO accounts; their relationship and independence are unresolved. Yle FI-S003 is a separate outlet but does not explicitly identify the 28 January event or crowd size.",
+    "source_ids": [
+      "FI-S003",
+      "FI-S004",
+      "FI-S005"
+    ],
+    "affected_candidates": [
+      "FIN202301-E001"
+    ],
+    "required_followup": "Check written-story origins and obtain independent evidence for any duplicated facts; do not count same-origin accounts as separate confirmation."
+  },
+  {
+    "gap_id": "FIN202301-G009",
+    "type": "coverage",
+    "description": "Forty-two captured open-web searches (848 ordered headers) include Finnish, Swedish and English terms, national and selected regional outlets, event-specific leads, and selected police, student and labor routes. They are not a systematic archive review or complete regional/sector coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If further work is authorized, target uncovered regional labor, education, public-service and local archive sources for 1–31 January, capturing all native results; distinguish a no-result search from evidence that no event occurred."
+  },
+  {
+    "gap_id": "FIN202301-G010",
+    "type": "language",
+    "description": "Searches included Finnish, Swedish and English, but the dossier has not had fluent independent review of Finnish/Swedish wording and regional archives.",
+    "source_ids": [],
+    "affected_candidates": [
+      "FIN202301-E001",
+      "FIN202301-E002"
+    ],
+    "required_followup": "Have a fluent Finnish and Swedish reviewer check local terms, the two Helsinki leads and regional reporting; retain the original phrases alongside translations."
+  },
+  {
+    "gap_id": "FIN202301-G011",
+    "type": "episode_unit",
+    "description": "Systematic late-December 2022 and February 2023 boundary searches have not established whether any January lead continued from a prior month or continued into February.",
+    "source_ids": [
+      "FI-S001",
+      "FI-S003",
+      "FI-S005"
+    ],
+    "affected_candidates": [
+      "FIN202301-E001",
+      "FIN202301-E002"
+    ],
+    "required_followup": "Search adjacent-month reporting for start and closure evidence; record pre-January starts as continuations rather than January events."
+  },
+  {
+    "gap_id": "FIN202301-G012",
+    "type": "search_method",
+    "description": "This dossier uses open-web search and selected public pages; it does not reproduce the original LexisNexis search. The official baseline and original current coding procedure remain unresolved.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep the method deviation and access limitations explicit; coordinator must resolve baseline and procedure questions independently."
+  }
+]

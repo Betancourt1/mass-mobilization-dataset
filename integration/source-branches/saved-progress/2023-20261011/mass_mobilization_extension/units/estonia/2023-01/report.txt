@@ -1,0 +1,22 @@
+Estonia — January 2023
+Unit: estonia_2023-01 | provisional ccode: 366 | queue: 3887
+Status: researched_open_web_pending_review | baseline: pending_official_baseline
+
+Scope and search
+Sixteen native web searches were captured with exact ordered result headers, aligned URLs, original event IDs, and native execution/completion clocks. Searches used Estonian, English, and Russian terms; they included broad searches, lead-specific queries, and four date windows covering January 1–31. Snippets were omitted from the saved search projections. This is bounded open-web research, not exhaustive coverage.
+
+Disposition
+No event is included as a qualifying observation. Two physical actions were documented but excluded on the state-target rule:
+
+• Tallink seafarers’ wage warning strike, January 16 (S001–S002; related search header in Q011). The bounded ERR article read for S002 reports an EMSA strike that delayed MS Baltic Queen and describes union-company wage negotiations. It identifies no Estonian state-policy demand. It gives neither a simultaneous attendee count nor an exact strike site, so those fields remain unknown. The Jan. 27 public-conciliator meeting is a negotiation step, not a continuation of physical protest.
+• Tallinn rally at the Russian Embassy (S003). Meduza’s page was published on 2023-01-21 and discusses an international rally wave around Jan. 20–21, but the inspected Tallinn section does not explicitly date the local action; its physical event date is unknown. The section reports about 200 people, attributes the local account to Delfi, and describes slogans concerning Russian political prisoners and Russia. The target is Russia, not Estonian state policy. The cited Delfi account was not independently checked; exact event endpoints, Estonian state response, and violence remain unknown.
+
+Source-access record
+Three source cards were retained: two bounded body reads (S002 and S003) and one search-only card (S001). S001 had one recorded open attempt at 14:19:53.722–14:19:54.679Z; the returned page metadata was captured, but a local TextEncoder serialization error prevented recovery or persistence of the article body. That request was not repeated. The raw S002 and S003 responses are retained outside this portable unit in the dated quarantine paths and are represented here only by metadata, hashes, bounded read scopes, and paraphrased evidence.
+
+The shared source window closed at 2026-10-10 14:33:38.354072 UTC. The last body request, S003, had ended at 14:31:32.224Z. No body requests were made after closure; later work consisted only of native search capture and unit-file preparation.
+
+Open leads and limits
+Search headers did not establish a specific January 2023 Pärnu bus-driver gathering; one result was only a Pärnu Postimees issue header for January 31, and its contents were not opened. Generic bus-driver wage-protest results were not treated as an event. Energy-price/solar-producer searches did not establish a physical gathering. Teacher-strike result headers in the late-month window point to an announcement/event in December 2023–January 2024, outside this unit. These are coverage notes, not claims that no other protests occurred.
+
+The unit remains pending coordinator review and the official-baseline gate. It has not received independent review or official approval. See gaps.json for follow-up questions and limits.

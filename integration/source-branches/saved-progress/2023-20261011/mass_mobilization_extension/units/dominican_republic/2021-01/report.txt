@@ -1,0 +1,92 @@
+Dominican Republic, January 2021 — queue 52, batch 9
+
+Experimental research dossier, pending independent review and coordinator consolidation.
+Fixed cutoff: October 7, 2026, America/Mexico_City.
+Only this unit directory was edited. Assignment was read-only. No official MM IDs,
+integration, contact, publication, or Git operations were performed.
+
+Method and coverage
+72 actual queries covered Spanish and English generic protest, demonstration, riot,
+strike and march terms and local equivalents. Weekly date-operator and textual-date
+windows, sector searches and individual lead followups were used. Regional screens
+covered Santo Domingo, Santiago, Moca, Higüey, Los Alcarrizos, Baní, Barahona,
+Puerto Plata, San Francisco de Macorís, San Juan and La Romana. Sector screens
+included lawyers, health workers/nurses, teachers, transport, farmers, students,
+women, cane workers, land, artists, businesses, pensions and employment.
+December and February boundaries were checked. International and human-rights
+retrospective searches included Reuters, AP and Amnesty terms; annual context
+did not yield an additional verified January action in the material inspected.
+Date operators returned some wrong-year results, prompting textual date searches
+and article-body checks. No query quota or exhaustive-coverage claim is made.
+Not finding a further verified action is not evidence that none occurred.
+
+All query timestamps are pre-request UTC, at batch precision. Many merged search
+batches did not preserve exact URL attribution to each individual query; an empty
+returned_urls array explicitly does not claim zero results. Relevant discoveries
+are retained with source IDs, URLs and web references. There are 52 sources.
+Ordinary public HTTPS recovered some web-tool cache misses; HTTP status and read
+scope are documented. HTTP 403, TLS failures, DNS failure and HTTP 404 were
+respected. No access controls were bypassed and no full articles were stored.
+
+Candidates: 12
+E001: CARD lawyers, January 7, proposed inclusion. A CARD-style report says hundreds;
+independent El Día says dozens. Duplicate releases are not independent confirmation.
+E002: January 5 artists' march announcement, pending evidence.
+E003: January 12 pension withdrawal announcement, pending evidence.
+E004: January 13 Santiago taxi caravan, search-only, pending evidence.
+E005: January 16 Santiago notice and preventive police deployment, pending evidence.
+E006: January 17 bar/restaurant owners at Plaza de la Bandera, pending threshold.
+E007: Higüey evangelical mask/vaccine protest and arrests, pending threshold;
+physical date remains unknown despite January 18 publication.
+E008: January 22 Moca curfew/business-cost vigil, pending threshold.
+E009: January 26 Los Alcarrizos severance lead, search-only, pending evidence.
+E010: January 31 Santo Domingo Este state-jobs protest, search-only, pending evidence.
+E011: Household cacerolazo, pending unit; date sequence and public-assembly scope
+remain uncertain.
+E012: January 27 La Saona drinking-water protest, pending threshold.
+
+Crowd estimates are kept separate from affected workers, association membership,
+businesses, taxi drivers affected economically and dismissed employees. Approximate
+words have null numeric bounds. E001 uses contemporaneous January 7 occurrence
+evidence rather than the January 8 BLG publication date. E012 is anchored by the
+Thursday January 28 article saying this Wednesday. Announced/search-only dates are
+not treated as physical starts. All end dates are null because compatible physical
+closure evidence was not found.
+
+Moca's governor actually received a delegation: accommodation=yes even though she
+disagreed with them. The Higüey article reports group arrests: arrests=yes. Moca and
+La Saona are explicitly described as peaceful: protester_violence=no_explicit.
+The lawyers' knife/slap incidents targeted civilians, which does not establish
+violence against the state. The arrested woman's participant/infiltrator identity is
+disputed, so arrests of protesters remains unknown. Other seven-response fields
+remain unknown. Historical complaints of being ignored do not establish an ignore
+response to this gathering. Police presence and barriers alone are not dispersal.
+
+Exclusions: 2
+The health workers' planned January 13 stoppage was canceled on January 8.
+The Los Caños planned January 19 bridge protest was canceled on January 13.
+A preceding official meeting or later work resumption is not protest duration or
+response evidence for an action that was canceled before execution.
+
+Prior-month references: 2
+December 23 artists and the November 2020 Los Alcarrizos severance report are
+boundary/campaign references; continuous occupation into January is not established.
+February pension confrontations are not January repression. The missing detailed
+original Coding Procedure leaves campaign/day/location separation for review.
+
+Gaps and next work
+Fifteen gaps cover thresholds, dates, physical ends, responses, source access,
+source independence, languages, regional coverage, web versus LexisNexis, query
+provenance and the baseline gate. Next review should independently inspect bodies,
+resolve E001's crowd conflict, find accessible contemporary execution evidence for
+E002/E003/E004/E009/E010, establish turnout/date for E006/E007/E008/E012, and decide
+E011's public-gathering/date eligibility. No automatic integration is authorized.
+
+Temporary resources and reuse assessment
+Only ordinary HTTPS retrieval subprocesses were started. Session 30943 was confirmed
+gone; sessions 24654, 23658 and 58814 completed with exit code 0. Other retrieval
+commands completed with exit code 0. No server, watcher, browser, container, virtual
+machine or builder was started or left running.
+This unit took over ten minutes. The existing portable CLI and protocol already
+cover validation, consolidation and review. A new skill or CLI would duplicate
+that infrastructure; none was created. Root owns independent approval and commit.

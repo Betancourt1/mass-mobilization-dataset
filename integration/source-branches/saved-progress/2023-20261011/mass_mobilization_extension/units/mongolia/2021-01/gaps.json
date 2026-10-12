@@ -1,0 +1,121 @@
+[
+  {
+    "gap_id": "MNG21JAN-G001",
+    "type": "search_method",
+    "description": "Open-web searches are discovery tools and are not equivalent to the manual’s LexisNexis archive. Mongolian Cyrillic and English searches have begun; no systematic archive or exhaustive retrieval is available.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue weekly, sector and geographic searches in Mongolian and English; report the method limitation without an absence claim."
+  },
+  {
+    "gap_id": "MNG21JAN-G002",
+    "type": "participants",
+    "description": "Related Oyu Tolgoi demonstrations and support for MP S. Ganbaatar’s hunger strike are described qualitatively (“fewer participants” or “a large number”) but no headcount establishes >=50. The UB Post page that reports a large number remains search_only after reader Internal Error.",
+    "source_ids": [
+      "MNG21JAN-S012",
+      "MNG21JAN-S019",
+      "MNG21JAN-S020",
+      "MNG21JAN-S021",
+      "MNG21JAN-S022"
+    ],
+    "affected_candidates": [
+      "mongolia_2021-01-E002"
+    ],
+    "required_followup": "Seek accessible contemporaneous local sources with a count or a clear attendance description; ordinary public HTTPS recovery may be tried for the UB Post page. Keep the proposal pending until a public gathering of at least 50 is evidenced."
+  },
+  {
+    "gap_id": "MNG21JAN-G003",
+    "type": "episode_unit",
+    "source_ids": [
+      "MNG21JAN-S012",
+      "MNG21JAN-S019",
+      "MNG21JAN-S020",
+      "MNG21JAN-S021",
+      "MNG21JAN-S022"
+    ],
+    "affected_candidates": [
+      "mongolia_2021-01-E002"
+    ],
+    "description": "Reports give the hunger-strike start as Jan 25 or Jan 26, while Mongolia Focus says related demonstrations began on the preceding weekend. The relationship between initial weekend gatherings, Ganbaatar’s hunger strike and later supporters is not resolved.",
+    "required_followup": "Find contemporaneous reports for Jan 23–29 and describe the campaign/episode relationship; retain pending_unit if available coding procedure does not resolve whether this is one or more observations."
+  },
+  {
+    "gap_id": "MNG21JAN-G004",
+    "type": "dates",
+    "source_ids": [
+      "MNG21JAN-S012",
+      "MNG21JAN-S020",
+      "MNG21JAN-S022"
+    ],
+    "affected_candidates": [
+      "mongolia_2021-01-E002"
+    ],
+    "description": "The hunger strike is reported as ending on Jan 29 at 13:55, but departure of the wider protest crowd is not documented. Exact onset of the crowd gathering remains uncertain.",
+    "required_followup": "Check Jan 29–Feb 2021 follow-up for the last actual gathering and physical departure; do not infer end from the lone protester stopping the strike."
+  },
+  {
+    "gap_id": "MNG21JAN-G005",
+    "type": "source_access",
+    "source_ids": [
+      "MNG21JAN-S019",
+      "MNG21JAN-S026"
+    ],
+    "affected_candidates": [
+      "mongolia_2021-01-E002"
+    ],
+    "description": "Direct web-reader opens for the Jan 27 UB Post and Jan 25 Zogii articles returned Internal Error; neither returned an HTTP denial. Both remain search_only.",
+    "required_followup": "Try ordinary public HTTPS to the exact URLs; if it fails or returns access controls, preserve the search-only status and stop."
+  },
+  {
+    "gap_id": "MNG21JAN-G006",
+    "type": "source_independence",
+    "source_ids": [
+      "MNG21JAN-S011",
+      "MNG21JAN-S014"
+    ],
+    "affected_candidates": [
+      "mongolia_2021-01-E001"
+    ],
+    "description": "The CNA article’s opened body describes a “small” Jan 20 protest without a number and cites Associated Press for selected details; it does not establish that the entire report or the size wording is solely AP-originated. Root separately inspected Taipei Times and reported AP attribution there. Treat the AP material as potentially shared, not as two independent numeric crowd estimates; the Taipei Times card remains search_only for this worker.",
+    "required_followup": "Preserve the source agency relation in coordinator review; do not count AP syndication copies as independent estimates."
+  },
+  {
+    "gap_id": "MNG21JAN-G007",
+    "type": "coverage",
+    "source_ids": [
+      "MNG21JAN-S003",
+      "MNG21JAN-S027"
+    ],
+    "affected_candidates": [],
+    "description": "The first broad Jan 1–19 open-web searches did not surface a separately evidenced protest/strike outside the Jan 20 and later hunger-strike leads. Search results were pooled and date filters may be ignored; this does not establish absence.",
+    "required_followup": "Continue week-specific Mongolian Cyrillic and English searches for Jan 1–7, Jan 8–14 and Jan 15–19, including regional cities and labor/mining/health/education sectors; check Dec/Feb boundaries."
+  },
+  {
+    "gap_id": "MNG21JAN-G008",
+    "type": "episode_unit",
+    "description": "The NHRC 2023 report says the Jan 20 sequence continued on Jan 21 with a group of health-sector workers opposing the Health Minister’s resignation. It does not give their headcount or separately restate venue, and says the sequence ended when the Prime Minister submitted his resignation request without documenting physical departure. This may be a distinct assembly (E003) or a shift within the Jan 20 episode (E001).",
+    "source_ids": [
+      "MNG21JAN-S028",
+      "MNG21JAN-S012"
+    ],
+    "affected_candidates": [
+      "mongolia_2021-01-E001",
+      "mongolia_2021-01-E003"
+    ],
+    "required_followup": "Seek contemporary Jan 21 coverage for the workers’ assembly, location, attendance and actual departure; retain the relationship as unresolved until evidence supports a unit decision."
+  },
+  {
+    "gap_id": "MNG21JAN-G009",
+    "type": "source_access",
+    "description": "Urug.mn’s Jan 21 local report could not be opened: the web reader returned Cache miss and an ordinary HTTPS request failed at DNS resolution before receiving an HTTP response. The Diplomat’s contemporaneous report returned HTTP 403 Forbidden and remains blocked. Neither source is used as verified evidence.",
+    "source_ids": [
+      "MNG21JAN-S030",
+      "MNG21JAN-S031"
+    ],
+    "affected_candidates": [
+      "mongolia_2021-01-E001",
+      "mongolia_2021-01-E003"
+    ],
+    "required_followup": "If an ordinary accessible copy becomes available, read it without bypassing controls; preserve the search-only/blocked distinction and do not infer event details from snippets."
+  }
+]

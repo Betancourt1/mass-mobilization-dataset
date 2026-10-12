@@ -1,0 +1,26 @@
+{
+  "unit_id": "cape_verde_2023-01",
+  "country": "Cape Verde",
+  "month": "2023-01",
+  "agent_task": "/root/cape_verde_2023_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T08:57:56.544697+00:00",
+  "finished_at": "2026-10-10T09:14:04+00:00",
+  "n_queries": 9,
+  "n_sources": 9,
+  "n_candidates": 3,
+  "n_excluded": 2,
+  "n_continuations": 0,
+  "n_gaps": 10,
+  "coverage_assessment": "Bounded open-web pass: nine captured grouped native-web queries with 182 returned result headers, covering general/weekly searches, Portuguese and selected Cape Verdean Creole terms, local/national media, event follow-up, strikes, and island leads. Three source cards have readable body text and six are search-only. This does not reproduce LexisNexis or a systematic press-archive review; indexing, local-language and island coverage are incomplete, and results include query noise. No exhaustive search or event-absence claim is made.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened": 3,
+    "search_only": 6,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 182
+  }
+}

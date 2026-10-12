@@ -1,0 +1,26 @@
+Albania — January 2023
+
+Status: researched through an open-web first pass; all candidate records remain unreviewed and provisional. The country code 339 and official baseline are pending coordinator verification. This report is not an official dataset update.
+
+Search coverage
+- 24 unique captured web-search invocations, Q001–Q024, preserve exact query records, ordered result metadata, raw URLs, and observed query/capture clocks in search_log.jsonl and capture_artifacts. There are 668 result headers in the captured arrays; repeated links are not unique events or unique sources.
+- Queries include English and Albanian equivalents for protest, demonstration, march, strike, residents, workers, students, teachers, farmers, pensions, housing, roads, and prices. Date sweeps cover January 1–7, 8–14, 15–21, and 22–31, with additional memorial, labor, regional, housing, and adjacent-month checks.
+- Searches surfaced candidate reporting from Tirana, Shëngjin/Lezhë, Roskovec/Fier, Bilisht, and Bërxullë, as well as other-month noise. This is a discovery footprint, not nationwide exhaustive coverage. Open web search cannot reproduce LexisNexis or a systematic national/local newspaper-archive search; search engines also returned weak date matches.
+
+Candidates
+- E001, January 21 Tirana victims' family commemoration: government and contemporary news sources verify the event; the state-hosted memorial format, the relationship of a reported justice demand to the assembly, and total attendance remain unresolved. Eligibility is pending evidence.
+- E002, January 11 Shëngjin port workers: an opened report verifies the protest over delayed wages and exclusion from a government anti-inflation bonus. No individual attendee count is verified. The 131 figure is port workforce size; a separate search-only estimate of about 130 has an unavailable body and is not confirmed turnout. Eligibility is pending the 50-person threshold.
+- E003, January 19 5 Maji residents before Tirana City Hall: an opened report verifies a rehousing/land-use protest. No crowd size is reported. The 164-family figure concerns residents displaced earlier, not demonstrators. Eligibility is pending the threshold.
+- E004, January 25 Bërxullë families before the Prime Minister's Office: an opened report says 20 families sought a road-route change, market-value expropriation, and secondary-road works. Households are not individual attendance. The source describes a five-month protest campaign but does not establish an uninterrupted assembly or exact start date. Eligibility is pending the threshold.
+- E005, January 28 Laprakë residents, joined by 5 Maji residents: an opened report verifies a protest against demolitions and unclear rehousing terms. No crowd count is reported. It is a separately dated gathering from E003; shared housing grievances do not establish a continuous assembly. Eligibility is pending the threshold.
+
+Sources, exclusions, and access
+- The dossier has 17 source cards: nine opened pages, one exact-URL HTTP 403 for Top Channel (S002), and seven search-only records. Five search-only records include URL-specific cache misses (S005, S007, S008, S009, S015); cache misses were not treated as denials, and no retry or bypass was attempted. Search-only counts and article metadata are not treated as body evidence.
+- X001 records the January announcement of an opposition protest later scheduled for February 11; AP search metadata places that action outside January. X002 records an education petition and conditional strike without an executed public assembly. X003 preserves a search-only Bilisht garment-worker lead with an unverified event date, turnout, and no established domestic-government target.
+- Searches found a February 8 former Qytet Studenti residents' protest, September 2023 Zall-Herr road protests, and 2022 housing-protest reports. These are boundary or retrieval leads, not January events. No cross-month physical continuation is established in continuations.json.
+
+Open gaps
+- Attendance remains unknown for all five candidates; household, workforce, affected-home, and search-preview counts have not been converted into turnout.
+- E001's event-level demand/eligibility is unresolved. E002 has an unresolved January 11 versus January 12 date reference; the opened date in S010 is retained provisionally.
+- All end dates, the seven state-response values, and protester violence remain unknown where sources do not establish them. No silence is coded as explicit absence.
+- Reporting independence, local archive coverage, English/Albanian wording nuance, the 50-person threshold, and the relation between campaign recurrence and a single continuous episode require review.

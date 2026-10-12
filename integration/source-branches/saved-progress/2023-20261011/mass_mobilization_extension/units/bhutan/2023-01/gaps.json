@@ -1,0 +1,62 @@
+[
+  {
+    "gap_id": "BHU202301-G001",
+    "type": "baseline",
+    "description": "Official Mass Mobilization baseline, final ccode, current schema, and official coverage status were not independently verified; ccode 760 remains provisional.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator must resolve the pending official-baseline gate before any consolidation or official compatibility claim."
+  },
+  {
+    "gap_id": "BHU202301-G002",
+    "type": "language",
+    "description": "English, Nepali-script, and Dzongkha-script terms were searched, including an official-dictionary protest term, but the review was neither fluent nor a systematic Dzongkha archive search.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "A fluent reviewer should search BBS Dzongkha and district-level January 2023 reporting with local protest, grievance, strike, and assembly terms. Do not treat the script queries as complete linguistic coverage."
+  },
+  {
+    "gap_id": "BHU202301-G003",
+    "type": "coverage",
+    "description": "Open-web indexing and the small set of BBS/The Bhutanese local pages do not constitute a complete month archive. The BBS page/609 contents shifted between search snapshots and an exact open; the targeted Kuensel search returned current app/ePaper and unrelated results rather than a dated January news archive.",
+    "source_ids": [
+      "BHU202301-S004",
+      "BHU202301-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review dated Kuensel/ePaper, BBS and The Bhutanese archives plus district outlets for Jan. 1–31; preserve archive date and completeness limits, and verify each possible assembly’s date, public character, attendance, location, and state target."
+  },
+  {
+    "gap_id": "BHU202301-G004",
+    "type": "source_access",
+    "description": "The exact Radio Nepal refugee-report URL returned a 400 timeout after a clean precheck; one The Bhutanese teacher-allowance archive result remains search-only. Neither technical failure nor search-only status establishes event absence.",
+    "source_ids": [
+      "BHU202301-S005",
+      "BHU202301-S006"
+    ],
+    "affected_candidates": [
+      "BHU202301-X004"
+    ],
+    "required_followup": "Keep the Radio Nepal report search-only; do not retry or switch routes in this pass. If revisited later, recheck exact URL and applicable publisher/origin limits first. Obtain a direct source only through ordinary public access."
+  },
+  {
+    "gap_id": "BHU202301-G005",
+    "type": "coverage",
+    "description": "No qualifying January public assembly with documented attendance of at least 50 and a domestic state/policy demand was established in this first pass. The empty events array is not a finding that no protests occurred.",
+    "source_ids": [
+      "BHU202301-S001",
+      "BHU202301-S002",
+      "BHU202301-S003",
+      "BHU202301-S004",
+      "BHU202301-S005",
+      "BHU202301-S006"
+    ],
+    "affected_candidates": [
+      "BHU202301-X001",
+      "BHU202301-X002",
+      "BHU202301-X003",
+      "BHU202301-X004"
+    ],
+    "required_followup": "Keep the event list empty unless new source evidence establishes an eligible event; do not code protest=0 or claim absence. Complete local-language and archival review before an absence assessment."
+  }
+]

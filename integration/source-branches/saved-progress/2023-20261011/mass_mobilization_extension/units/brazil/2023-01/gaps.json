@@ -1,0 +1,165 @@
+[
+  {
+    "gap_id": "brazil_2023-01_G001",
+    "type": "episode_unit",
+    "description": "The January 8 Brasília march and occupation began from a pre-month Army HQ camp. Reporting supports a distinct day-level march, but does not resolve whether it is a separate event or an episode of the earlier anti-election campaign, or which month owns the continuing campaign.",
+    "source_ids": [
+      "brazil_2023-01_S001",
+      "brazil_2023-01_S002",
+      "brazil_2023-01_S017",
+      "brazil_2023-01_S042"
+    ],
+    "affected_candidates": [
+      "brazil_2023-01_E001"
+    ],
+    "required_followup": "Compare January sources with the adjacent Brazil 2022 unit and review campaign/event ownership under the manual; do not merge from shared participants or goals alone."
+  },
+  {
+    "gap_id": "brazil_2023-01_G002",
+    "type": "participants",
+    "description": "The Jan 8 SSP/DF estimate counts about 3,000 near Army HQ before the planned march, while reports describe thousands marching; no count is given for people who reached/entered the buildings.",
+    "source_ids": [
+      "brazil_2023-01_S001",
+      "brazil_2023-01_S002",
+      "brazil_2023-01_S017",
+      "brazil_2023-01_S042"
+    ],
+    "affected_candidates": [
+      "brazil_2023-01_E001"
+    ],
+    "required_followup": "Seek an explicitly located, episode-specific count if available; otherwise preserve separate reported scales and do not infer entry count."
+  },
+  {
+    "gap_id": "brazil_2023-01_G003",
+    "type": "participants",
+    "description": "Jan 8 roadblocks were reported in at least four states, with multiple sites in Mato Grosso, but no participant count by site. Reported tire burning is not a crowd-size proxy.",
+    "source_ids": [
+      "brazil_2023-01_S048"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only create local candidates if an opened source establishes a qualifying public gathering and its domestic-government target; do not add together sites or assign an unlocated national total."
+  },
+  {
+    "gap_id": "brazil_2023-01_G004",
+    "type": "state_target",
+    "description": "At the Manaus refinery access, about 50 people were reported and had left roughly an hour later. The account describes an effort to block fuel distribution but states no specific demand aimed at Brazil’s government for this group.",
+    "source_ids": [
+      "brazil_2023-01_S050"
+    ],
+    "affected_candidates": [
+      "brazil_2023-01_E004"
+    ],
+    "required_followup": "Find direct reporting or a contemporaneous statement on the Manaus group’s demand and any more precise count; otherwise retain pending_state_target and pending threshold."
+  },
+  {
+    "gap_id": "brazil_2023-01_G005",
+    "type": "participants",
+    "description": "The Jan 9 Paulista march has no police estimate; the >50,000 claim is attributed to a political participant. The separate USP Law School gathering is reported at about 800, but any participant overlap is unknown.",
+    "source_ids": [
+      "brazil_2023-01_S028"
+    ],
+    "affected_candidates": [
+      "brazil_2023-01_E002",
+      "brazil_2023-01_E003"
+    ],
+    "required_followup": "Seek an independent attendance estimate and retain the two gathering boundaries unless direct evidence resolves coordination/overlap."
+  },
+  {
+    "gap_id": "brazil_2023-01_G006",
+    "type": "participants",
+    "description": "The Jan 16 Porto Alegre democracy gathering is reported as occurring but has no attendance number.",
+    "source_ids": [
+      "brazil_2023-01_S041"
+    ],
+    "affected_candidates": [
+      "brazil_2023-01_E005"
+    ],
+    "required_followup": "Find a contemporaneous count or keep the candidate pending_threshold."
+  },
+  {
+    "gap_id": "brazil_2023-01_G007",
+    "type": "state_target",
+    "description": "The Jan 25 Porto Alegre opening march drew thousands but the opened report describes varied participant demands rather than a single demand demonstrably shared across the event; the delivery-worker subgroup focused on a private platform.",
+    "source_ids": [
+      "brazil_2023-01_S053",
+      "brazil_2023-01_S054"
+    ],
+    "affected_candidates": [
+      "brazil_2023-01_E006"
+    ],
+    "required_followup": "Resolve the shared domestic-government target from direct statements; keep subgroup/private-employer demands separate."
+  },
+  {
+    "gap_id": "brazil_2023-01_G008",
+    "type": "state_response",
+    "description": "For most January candidates, the first-pass sources do not describe responses across all seven dimensions. Silence is retained as unknown. No state response from another refinery site, city or event was transferred.",
+    "source_ids": [
+      "brazil_2023-01_S028",
+      "brazil_2023-01_S041",
+      "brazil_2023-01_S050",
+      "brazil_2023-01_S054"
+    ],
+    "affected_candidates": [
+      "brazil_2023-01_E002",
+      "brazil_2023-01_E003",
+      "brazil_2023-01_E004",
+      "brazil_2023-01_E005",
+      "brazil_2023-01_E006"
+    ],
+    "required_followup": "Review each candidate against event-specific reporting and code only documented accommodation, arrest, beating, dispersal, ignoring, killing or shooting evidence."
+  },
+  {
+    "gap_id": "brazil_2023-01_G009",
+    "type": "source_access",
+    "description": "Search responses BRA23Q002 and BRA23Q003 incidentally surfaced AP article text in search output. No direct body request/open was made; article text was not retained, cited or used. This is a provenance/access incident, not evidence about an event.",
+    "source_ids": [
+      "brazil_2023-01_S009",
+      "brazil_2023-01_S010",
+      "brazil_2023-01_S011",
+      "brazil_2023-01_S025"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve the exposure record and do not request, cite, copy or use AP article body content in this run."
+  },
+  {
+    "gap_id": "brazil_2023-01_G010",
+    "type": "source_access",
+    "description": "Direct open attempts for six non-AP sources returned cache misses/internal errors without HTTP denial evidence: S015, S022, S027, S034, S036 and S047. These are technical retrieval failures, not observed site denials; their snippets remain discovery-only.",
+    "source_ids": [
+      "brazil_2023-01_S015",
+      "brazil_2023-01_S022",
+      "brazil_2023-01_S027",
+      "brazil_2023-01_S034",
+      "brazil_2023-01_S036",
+      "brazil_2023-01_S047"
+    ],
+    "affected_candidates": [
+      "brazil_2023-01_E001",
+      "brazil_2023-01_E002"
+    ],
+    "required_followup": "If a fact materially changes an unresolved coding decision, try ordinary public retrieval only after a fresh exact-URL access check; otherwise preserve the access gap. Never treat the search excerpt as opened-body evidence."
+  },
+  {
+    "gap_id": "brazil_2023-01_G011",
+    "type": "search_method",
+    "description": "This is a bounded open-web first pass: eight captured English/Portuguese queries with 115 result headers, focused on broad discovery, weekly windows, Jan 8/9 episodes, camps/roads/refineries, labor/indigenous/student sectors, selected regions and retrospective context. It does not reproduce LexisNexis or establish no other protests occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review should compare this coverage with the adjacent-month dossiers and decide whether archival access or further targeted searches are needed before any completeness claim."
+  },
+  {
+    "gap_id": "brazil_2023-01_G012",
+    "type": "baseline",
+    "description": "The official Mass Mobilization baseline/version, original universe and codebook compatibility have not been independently established for this unit.",
+    "source_ids": [],
+    "affected_candidates": [
+      "brazil_2023-01_E001",
+      "brazil_2023-01_E002",
+      "brazil_2023-01_E003",
+      "brazil_2023-01_E004",
+      "brazil_2023-01_E005",
+      "brazil_2023-01_E006"
+    ],
+    "required_followup": "Coordinator to verify official baseline and manual/version gates. These remain research candidates, not official updates."
+  }
+]

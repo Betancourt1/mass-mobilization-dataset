@@ -1,0 +1,341 @@
+[
+  {
+    "candidate_id": "GHA202301-E001",
+    "country": "Ghana",
+    "ccode": "452",
+    "unit_month": "2023-01",
+    "title": "Fix the Country demonstration in Tamale",
+    "start_date": "2023-01-07",
+    "start_precision": "day",
+    "end_date": "2023-01-07",
+    "end_precision": "day",
+    "location": "Tamale, Northern Region, Ghana; MyJoyOnline describes a route from Jubilee Park through the Police Headquarters area, Teshigu, Agric traffic light and Water Works area before returning toward town centre. The exact assembly point and route endpoint remain unspecified.",
+    "scope": "local",
+    "organizer": "Fix the Country conveners and affiliate youth groups. GNA names Activista Ghana, Northern Regional Youth Network and Progressive Forces of Northern Ghana.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "GNA S001 reports “thousands of youth”; Adom S005 describes turnout as “very large” without a number; MyJoyOnline S002 gives no numerical estimate. Search-only Citi S003 and NewsGhana S017 have “hundreds” headlines but are not used as opened-source estimates.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "GNA S001 explicitly reports thousands of youth at the Tamale demonstration, establishing more than 50 at the city-level event. It does not establish attendance at each point along the described route.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S008",
+      "S009",
+      "S017",
+      "S018"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S005"
+        ],
+        "summary": "Three opened accounts date the physical Tamale demonstration to 7 January 2023."
+      },
+      "end_date": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S005"
+        ],
+        "summary": "Coded as a same-day event from accounts describing one dated demonstration on 7 January; no physical finish time or explicit dispersal endpoint is given."
+      },
+      "location": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S005"
+        ],
+        "summary": "All opened accounts place the event in Tamale; S002 gives a route through named areas and back toward town centre, but not the exact assembly site or endpoint."
+      },
+      "organizer": {
+        "source_ids": [
+          "S001",
+          "S005"
+        ],
+        "summary": "GNA identifies Fix the Country conveners and three affiliate youth groups; Adom also describes the Fix the Country demonstration."
+      },
+      "demands": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S005"
+        ],
+        "summary": "Reports describe a demand for a new/revised constitution, political accountability and democratic reform. WANEP/Adom additionally describe elected MMDCEs; WANEP cites that exact Adom story, so this detail is source-dependent."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S005"
+        ],
+        "summary": "GNA says thousands; Adom says very large without a number; MyJoyOnline supplies no count."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "GNA's city-level “thousands of youth” estimate clearly exceeds the 50-person threshold; it is not assigned to individual route segments."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S005"
+        ],
+        "summary": "Adom explicitly characterizes the demonstration as peaceful; this is a single-source characterization, not a broader absence-of-report inference."
+      },
+      "state_response": {
+        "source_ids": [
+          "S004",
+          "S005"
+        ],
+        "summary": "WANEP and its cited Adom story report heavy security deployment/presence. No described act maps to arrests, beatings, dispersal, killings, shootings, accommodation or ignore; coded dimensions remain unknown."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "candidate",
+    "episode_key": "ghana:tamale:fix-the-country:2023-01-07",
+    "notes": "The established episode is one Tamale demonstration on 7 January. Ten weeks of prior organising/civic education and planned later Bolgatanga/Wa phases are not physical continuation episodes. WANEP S004 cites Adom S005 at footnote 36; its MMDCE/security details are not independent of that story. Search-only S009's 23 January reference conflicts with the opened January 7 accounts and is not used to create another event. No official MM ID or approval is assigned.",
+    "open_questions": [
+      "Can a source specify the actual gathering site, march endpoint, physical finish time and whether the same-day end date is explicit?",
+      "Can the MMDCE demand and heavy-security description be independently corroborated beyond WANEP's cited Adom story?",
+      "Keep city-level attendance distinct from attendance at each route segment; no segment-specific count is established.",
+      "Search-only Ghanaian Times, NewsGhana, Citi and Onua results remain unreviewed and must not be counted as independent evidence."
+    ]
+  },
+  {
+    "candidate_id": "GHA202301-E002",
+    "country": "Ghana",
+    "ccode": "452",
+    "unit_month": "2023-01",
+    "title": "Old Vandals Association gathering over University of Ghana hall tenancy decisions",
+    "start_date": "2023-01-03",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "University of Ghana campus, Legon, Greater Accra Region; exact gathering point is not stated. Commonwealth and Mensah Sarbah Halls are the subject of the tenancy decision, not verified separate assembly sites.",
+    "scope": "local",
+    "organizer": "Old Vandals Association",
+    "demands": [],
+    "participants_original": "No attendance figure reported in the separately valid Adom S007 body.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "S007 provides no simultaneous50-person headcount; not established.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S007"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "S007 metadata dates the parallel report to3 January2023 and the article describes Tuesday-morning campus convergence; no inference from the excluded S006 body."
+      },
+      "end_date": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "S007 does not establish a physical end date or endpoint."
+      },
+      "location": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "S007 places convergence on University of Ghana campus, without an exact gathering point; named halls concern the tenancy decision, not separate verified assembly sites."
+      },
+      "organizer": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "S007 identifies the Old Vandals Association."
+      },
+      "demands": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "S007 describes opposition to university management tenancy decisions. A domestic state-policy demand and category mapping remain unverified."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "S007 reports no numerical turnout."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "S007 describes convergence but establishes no simultaneous50-person attendance."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "S007 provides no established event-specific protester violence; silence remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "S007"
+        ],
+        "summary": "S007 mentions heavy security presence, without a specific coded response action."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "candidate",
+    "episode_key": "ghana:ug-old-vandals:2023-01-03",
+    "notes": "Scientific coding uses S007 only. S006 is excluded because its preserved pre-request access disposition was incomplete; later prose correction does not retroauthorize it. S006 and S007 are closely parallel written-story variants and are not independent corroboration. S007 security presence alone is not a coded state response. The public-university state-policy target and threshold remain unresolved.",
+    "open_questions": [
+      "Was there a physical assembly of at least 50 people at a single site?",
+      "Was the demand directed at state policy or only University of Ghana management?",
+      "What was the exact gathering point and when did the physical gathering end?",
+      "The same-story relationship between GBC and Adom is strong but no upstream written origin is identified."
+    ]
+  },
+  {
+    "candidate_id": "GHA202301-E003",
+    "country": "Ghana",
+    "ccode": "452",
+    "unit_month": "2023-01",
+    "title": "Concerned Youth of Oforikrom road and bridge demonstration",
+    "start_date": null,
+    "start_precision": "unknown",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Oforikrom Municipality, Ashanti Region; WANEP S004 says the march used the Anloga-Susanso road. Search-only reports refer to the Anloga-Sisakyi bridge area; the exact gathering point is unverified.",
+    "scope": "local",
+    "organizer": "Concerned Youth of Oforikrom (per the WANEP digest and search-only report previews).",
+    "demands": [],
+    "participants_original": "Search-only previews describe “scores of residents”; no numeric count or secure lower bound is available.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Not established. “Scores” is qualitative and does not securely show at least 50 participants at any one site. No body from the follow-up reports was opened.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S004",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S004",
+          "S012",
+          "S016"
+        ],
+        "summary": "The opened WANEP entry establishes that a physical march occurred but leaves its occurrence-date field blank. Search-only previews are dated/referenced 21 January and say Saturday morning, but no opened source confirms that as the physical event date; retain the occurrence date as unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "S004",
+          "S015",
+          "S016"
+        ],
+        "summary": "The WANEP extract and search-only previews do not establish the event's physical ending date/time or endpoint."
+      },
+      "location": {
+        "source_ids": [
+          "S004",
+          "S012",
+          "S015",
+          "S016"
+        ],
+        "summary": "WANEP says the youth marched along Anloga-Susanso road. Search-only previews place the issue around Oforikrom roads and a bridge but do not establish a crowd count at a named site."
+      },
+      "organizer": {
+        "source_ids": [
+          "S004",
+          "S012",
+          "S016"
+        ],
+        "summary": "WANEP names Concerned Youth of Oforikrom; search-only previews use the same group name."
+      },
+      "demands": {
+        "source_ids": [
+          "S012",
+          "S014",
+          "S016"
+        ],
+        "summary": "Search-only previews describe requests for road and bridge repairs and local development/accountability. These public-works demands do not map cleanly to the supplied original demand categories; Plan B's additional resignation demand is unverified."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S012",
+          "S016"
+        ],
+        "summary": "Search-only previews use the word “scores”; no numerical estimate was found."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S012",
+          "S016"
+        ],
+        "summary": "Qualitative “scores” wording does not establish ≥50 at one location; no opened follow-up report gives a count."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S004",
+          "S012",
+          "S016"
+        ],
+        "summary": "No event violence detail is established in the bounded WANEP extract or search-only previews; keep unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "S004",
+          "S015"
+        ],
+        "summary": "WANEP and an Adom feed result say police assisted the march. This describes accompaniment, not one of the listed coded response actions; all dimensions remain unknown."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "episode_key": "ghana:oforikrom-roads-bridges:date-unknown",
+    "notes": "A physical march is reported in the opened WANEP extract, but the digest leaves the occurrence-date field blank. Search-only results are dated 21 January and mention a Saturday-morning protest; that publication/search preview date does not verify the actual physical start date. No body was opened after the source window closed. Citi S016, Ghanaguardian S013, Ghanamma S012 and Adom S015 have explicit or provisional variant links; do not count them as independent attendance corroboration. Plan B S014 adds an unverified resignation demand. This remains a pending-evidence lead, not an inclusion.",
+    "open_questions": [
+      "Verify the event start date from a fully opened contemporary report; the WANEP occurrence-date field is blank, and the 21 January preview date is not established as the physical occurrence date.",
+      "Establish whether at least 50 people gathered simultaneously at one site; “scores” is insufficient.",
+      "Verify named gathering site, route, physical endpoint and event end date/time.",
+      "Clarify whether the road/bridge demands satisfy the project's own-state policy target and map to an allowed demand category.",
+      "Compare Citi, Ghanamma, Ghanaguardian, Plan B and Adom story origins before counting any as independent.",
+      "Confirm whether police accompaniment is the only described state action; do not code it as accommodation without a defined basis."
+    ]
+  }
+]

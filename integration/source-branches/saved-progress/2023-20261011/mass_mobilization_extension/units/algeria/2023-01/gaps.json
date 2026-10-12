@@ -1,0 +1,142 @@
+[
+  {
+    "gap_id": "algeria_2023-01_G001",
+    "type": "participants_threshold",
+    "description": "Neither the disputed-date UGTA headquarters gathering nor the 28 January esplanade gathering has body-verified attendance establishing at least 50 people. The 28 January search-only “hundreds” phrase is not accepted as evidence; the “about ten structures” and “500+ sections” values count organizations, not people.",
+    "source_ids": [
+      "S014",
+      "S015",
+      "S016",
+      "S018",
+      "S021"
+    ],
+    "affected_candidates": [
+      "algeria_2023-01_E001",
+      "algeria_2023-01_E002"
+    ],
+    "required_followup": "Seek a readable contemporaneous report, organizer record, or other direct attendance evidence for each gathering; preserve pending_threshold until verified."
+  },
+  {
+    "gap_id": "algeria_2023-01_G002",
+    "type": "dates_episode_boundary",
+    "description": "The earlier UGTA headquarters gathering is dated differently across reports: S015 implies 24 January, S017’s search result says Wednesday without a verified body/date, and S014 prints “Wednesday 26 January,” an internally inconsistent weekday/date. Whether it is a distinct gathering from the 28 January action remains unresolved.",
+    "source_ids": [
+      "S014",
+      "S015",
+      "S017",
+      "S004",
+      "S021"
+    ],
+    "affected_candidates": [
+      "algeria_2023-01_E001",
+      "algeria_2023-01_E002"
+    ],
+    "required_followup": "Check contemporaneous issue dates and any primary union schedule; do not choose a day or merge actions without evidence."
+  },
+  {
+    "gap_id": "algeria_2023-01_G003",
+    "type": "planned_vs_executed",
+    "description": "S011 confirms an announced peaceful national sit-in outside the Higher Education Ministry for 23 January but no source read here confirms execution. Search-only S029 and S032 mention degree-holders protesting or demanding employment without verified body/date; they do not confirm that plan was carried out.",
+    "source_ids": [
+      "S011",
+      "S029",
+      "S032"
+    ],
+    "affected_candidates": [],
+    "required_followup": "A later owner may check the exact Echorouk result and other contemporary reports under fresh source-access review; distinguish the plan from any executed gathering."
+  },
+  {
+    "gap_id": "algeria_2023-01_G004",
+    "type": "state_response_violence_end",
+    "description": "For both UGTA candidates, all seven state-response fields, protester violence, and physical event end remain unknown. Silence in reports is not coded as no response or no violence.",
+    "source_ids": [
+      "S004",
+      "S014",
+      "S015",
+      "S021"
+    ],
+    "affected_candidates": [
+      "algeria_2023-01_E001",
+      "algeria_2023-01_E002"
+    ],
+    "required_followup": "Seek event-specific reports or official records; keep each variable unknown absent affirmative or explicit negative evidence."
+  },
+  {
+    "gap_id": "algeria_2023-01_G005",
+    "type": "continuity_execution",
+    "description": "The 6 February doctoral/master’s-holder sit-in is announced by S019 but not verified as executed. The February Echorouk and El Djoumhouria results remain unread search leads.",
+    "source_ids": [
+      "S019",
+      "S029",
+      "S030"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check in the February unit if assigned; do not treat the announcement or search result as an occurrence."
+  },
+  {
+    "gap_id": "algeria_2023-01_G006",
+    "type": "continuity_execution_threshold",
+    "description": "Q022 returned February labor-law/union-law strike and protest-announcement leads. Their bodies were not read, so no public assembly, attendance, execution, or continuity with January is established.",
+    "source_ids": [
+      "S023",
+      "S024",
+      "S025",
+      "S026",
+      "S027",
+      "S028"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check in the February unit if needed; use fresh access checks and preserve Al-Araby’s saved scope hold. Do not infer a public assembly from a workplace strike."
+  },
+  {
+    "gap_id": "algeria_2023-01_G007",
+    "type": "source_access",
+    "description": "La Sentinelle S016 body could not be retrieved after three exact-URL manual-review receipts and Cache miss/DNS failures; Maghreb Emergent S017 and Echorouk AMP S020 had technical retrieval failures. These are not observed denials. S016’s search-only count is therefore unusable as a verified minimum.",
+    "source_ids": [
+      "S016",
+      "S017",
+      "S020"
+    ],
+    "affected_candidates": [
+      "algeria_2023-01_E001",
+      "algeria_2023-01_E002"
+    ],
+    "required_followup": "No access bypass. A later ordinary retrieval may be tried only after a new exact-URL access check and manual review; retain the current gap if unavailable."
+  },
+  {
+    "gap_id": "algeria_2023-01_G008",
+    "type": "source_scope_hold",
+    "description": "Captured queries surfaced Al-Araby pages S028, S031 and S032. The saved publisher-scope hold is associated with an actual HTTP 403 for a different alaraby.co.uk article (coordinator review/source_checks.jsonl:1458, 2026-10-08); that 403 is not target-specific. No body request was made. S031 may concern the union-law mobilization; S032 concerns degree-holders in a result title, but both remain undated and unread. The separate New Arab hold remains scoped to newarab.com; no newarab.com URL was returned in this unit’s 29 queries.",
+    "source_ids": [
+      "S028",
+      "S031",
+      "S032"
+    ],
+    "affected_candidates": [
+      "algeria_2023-01_E001"
+    ],
+    "required_followup": "Do not request a body unless a future fresh exact-URL access check and applicable manual review establish no hold for that exact scope."
+  },
+  {
+    "gap_id": "algeria_2023-01_G009",
+    "type": "coverage_method",
+    "description": "The first pass logged 29 English-, French-, and Arabic-language queries, including national/general, weekly January windows, sector, city/region, postal, UGTA, and doctoral-holder searches, plus December 2022 and February 2023 continuity queries. This is documented open-web coverage, not exhaustive retrieval or LexisNexis-equivalent coverage.",
+    "source_ids": [],
+    "affected_candidates": [
+      "algeria_2023-01_E001",
+      "algeria_2023-01_E002"
+    ],
+    "required_followup": "If review requires broader local/regional or archival coverage, perform additional targeted searches with complete capture; preserve language, regional, archive, and search-engine limits."
+  },
+  {
+    "gap_id": "algeria_2023-01_G010",
+    "type": "baseline_review",
+    "description": "The candidates remain provisional research records, not official Mass Mobilization observations. Original baseline/manual eligibility review and independent human review have not been completed in this unit.",
+    "source_ids": [],
+    "affected_candidates": [
+      "algeria_2023-01_E001",
+      "algeria_2023-01_E002"
+    ],
+    "required_followup": "Coordinator review against the original codebook and verified baseline; retain pending official baseline and pending human review."
+  }
+]

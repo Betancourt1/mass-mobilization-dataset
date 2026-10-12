@@ -1,0 +1,30 @@
+{
+  "unit_id": "eritrea_2021-01",
+  "country": "Eritrea",
+  "month": "2021-01",
+  "agent_task": "/root/eritrea_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T10:33:39.694233+00:00",
+  "finished_at": "2026-10-08T10:44:40.877490+00:00",
+  "n_queries": 46,
+  "n_sources": 196,
+  "n_candidates": 0,
+  "n_excluded": 11,
+  "n_continuations": 0,
+  "n_gaps": 16,
+  "coverage_assessment": "Documented broad English/Arabic/Tigrinya open-web first pass with weekly, sector, regional, rights/media and December/February boundary searches. No verified domestic January candidate in read evidence; not exhaustive and no zero-event claim. Most discovered URLs remain unread.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_status_counts": {
+    "search_only": 179,
+    "opened": 17
+  },
+  "eligibility_counts": {},
+  "validation": "Local nine-file JSON/reference/count checks recorded in report before freeze; independent coordinator review and audit remain pending.",
+  "temporary_resources": {
+    "started": [
+      "Foreground ordinary HTTPS retrieval session 58195",
+      "Foreground targeted HTTPS retrieval session 11103"
+    ],
+    "closure": "Both retrieval sessions observed exit_code 0. Initial sandbox DNS attempt also completed. No server, browser, container, watcher or background process started. No live worker resources remain."
+  }
+}

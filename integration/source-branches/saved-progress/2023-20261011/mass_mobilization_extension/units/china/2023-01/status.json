@@ -1,0 +1,28 @@
+{
+  "unit_id": "china_2023-01",
+  "country": "China",
+  "month": "2023-01",
+  "agent_task": "/root/china_2023_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T09:44:28.946984+00:00",
+  "finished_at": "2026-10-10T10:15:25.959932+00:00",
+  "n_queries": 13,
+  "n_sources": 9,
+  "n_candidates": 5,
+  "n_excluded": 3,
+  "n_continuations": 0,
+  "n_gaps": 10,
+  "source_access_counts": {
+    "opened_cards": 5,
+    "search_only_cards": 4,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 362,
+    "query_input_files": 13,
+    "scope": "Q001-Q013; grouped English and simplified-Chinese search invocations, native result headers retained"
+  },
+  "coverage_assessment": "Bounded broad open-web first pass across 13 grouped queries and general, weekly, sector, regional, and local-language search dimensions. Five article bodies were read within recorded scopes. All five candidates remain pending on one or more eligibility or evidence gates; search omissions do not establish absence or completeness.",
+  "baseline_gate": "pending_official_baseline"
+}

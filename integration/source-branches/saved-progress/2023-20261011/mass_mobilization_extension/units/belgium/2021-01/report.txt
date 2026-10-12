@@ -1,0 +1,31 @@
+BELGIUM — JANUARY 2021 — OPEN-WEB RESEARCH DOSSIER
+Experimental extension; not an official Mass Mobilization update.
+
+Acceptance and scope
+Outcome: preserve reviewable January-start protest candidates and uncertainties for Belgium (provisional Polity code 211), with event cutoff 2026-10-07 inclusive America/Mexico_City.
+Scope: only units/belgium/2021-01; repository revision observed 1f00b917b1f0e4aed7c38a8287eeb3c4fde5a708. Root ACCEPTANCE_CONTRACT.txt controls. No historical restoration or interface change. Preserve assignment, original catalogue, official dataset, cutoff and shared planning/review. Authorized worker mutations are these unit evidence files only; coordinator independently audits before committing. Worker does not commit/push/contact/publish.
+
+Method and results
+47 logged queries in French, Dutch and English, plus a German Eupen/regional check. Broad month searches, weekly date terms, Flanders/Wallonia city searches, sector searches and December/February boundaries were followed by episode checks. Search operators sometimes produced other years/countries. Query results are logged at batch level because exact per-query URL provenance was not exposed in combined responses; three relevant URLs whose batch mapping was not retained are explicitly logged as full-session discovery. Exact execution/access timestamps were not captured: null timestamps and separate recorded_at checkpoints are intentional.
+
+70 source cards:17 opened,48 search-only,5 blocked. Opened text comprises contemporary public broadcasters/local news, an organizer report and announcement, plus retrospective/rights material explicitly distinguished. AP/AFP/Belga and repeated movement/police claims do not count automatically as independent corroboration.
+
+10 candidates:4 proposed_include,1 pending_threshold,5 pending_evidence.
+The proposed candidates are Jan 13 justice for Ibrahima (hundreds; state reception, arrests and water cannon), Jan 24 class/racist justice (100–150; dispersal/arrests and contested detention beatings), Jan 29 Comac student financing policy (about 100; organizer report) and Jan 31 Mont des Arts Covid restrictions (about 150; associated preventive arrests scoped separately). Prior custody deaths are motivations, never protest killings.
+
+Jan 3 curfew sources suggest about 50/about 70 but both returned 403, so occurrence details remain pending_evidence. Jan 15 non-profit and horeca actions remain announcement leads with public crowd/occurrence gaps. Jan 29 Ilyes assembly occurred, but small is not evidence of>=50. Béguinage occupation has January 30/31 origin and initial 10 versus later 100/700 figures; no opened January threshold/date proof, so pending_evidence. NATION's undated claim of a symbolic Atomium action conflicts with contemporary no-gathering reporting and also remains pending_evidence.
+
+Important boundaries
+Jan 24 arrest figures 232/245 include people outside the physical rally; not attendance. Alleged beatings are reported as allegations with police response and unresolved investigation. Explicit peaceful-assembly descriptions do not verify every later group.
+Jan 31's 488 administrative arrests concern associated prevention operations at three stations and suspected future attendees. Original arrests=yes preserves that operation-level association; arresting any of the 150 physical Mont des Arts participants is unknown and requires coordinator event-scope review.
+No event ending was inferred from last publication, detention date or month boundary. Jan 24 was a postponed December 5 planned gathering, not a proven continuous December occupation. No confirmed pre-January continuation was established: continuations.json is empty, with historical Arlon ZAD/prison-family campaign leads retained in gaps.
+
+Three triage exclusions retain Namur Assange solidarity (foreign target/search-only 7 people), December 5 Eupen beauty protest (outside month/search-only 40), and an explicitly February 5 Charleroi horeca announcement. Exclusions are discovery triage proposals, not verified claims of absence.
+
+Access and limitations
+Ordinary public HTTPS recovered Euronews, CSC and BRUZZ after web-tool cache/internal errors, with HTTP 200 and read scope recorded in cards. Nieuwsblad, BX 1 cancellation and horeca announcement returned actual 403; CathoBel returned anti-bot page. Stopped without bypass. No video was watched or login content accessed. Foreground request session 15311 completed with exit 0; later requests also exited 0. No background servers, browsers, containers or other temporary resources started.
+
+Coverage is Brussels-heavy and non-exhaustive. Twelve gaps preserve regional/language/archive limitations, open-web versus LexisNexis, baseline, source chains, sizes, occurrence, dates/units and contested state responses. German-community and Flemish regional coverage remains especially thin. Empty or off-topic searches are not protest=0. Official baseline gate remains pending.
+
+Next work
+Coordinator reviews ten candidates, especially arrest-operation boundaries, source-only facts, allegation coding and occupation ownership. Seek accessible contemporaneous Jan 3/Jan 15/Jan 31–Feb 1 reports, investigate first>=50 Béguinage gathering, and extend local archive/sector checks. Existing portable CLI/protocol is sufficient for repeated validation/consolidation; judgment and source gaps do not warrant a new skill or CLI.

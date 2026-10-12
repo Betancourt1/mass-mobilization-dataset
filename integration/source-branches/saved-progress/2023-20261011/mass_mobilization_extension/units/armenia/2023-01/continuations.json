@@ -1,0 +1,51 @@
+[
+  {
+    "continuation_id": "armenia-2023-01-CONT-001",
+    "candidate_id": "armenia-2023-01-006",
+    "country": "Armenia",
+    "unit_month": "2023-01",
+    "date": "2023-01-26",
+    "type": "possible_followup",
+    "description": "AuroraNews search-result title places parents of deceased soldiers at the Investigative Committee on 26 January and references a planned confrontation with police officers. The page body was not retrieved, so it is not verified as an executed public gathering or as a continuation of the Jan 20 protest.",
+    "source_ids": [
+      "S010"
+    ],
+    "status": "unverified_search_only",
+    "open_questions": [
+      "Did a public gathering occur on Jan 26 or was the item only an announcement?",
+      "What was the actual demand, turnout, state response, and relation to the Jan 20 protest? Do not merge or infer execution from the headline."
+    ]
+  },
+  {
+    "continuation_id": "armenia-2023-01-CONT-002",
+    "country": "Armenia",
+    "unit_month": "2023-01",
+    "date": null,
+    "type": "announcement_only",
+    "description": "A Q011 search result linked a Yerevan municipality PDF. Prior session notes described a Jan 29–Feb 8 “national unity” notice with nominal capacity 100, but those details are not present in the durable captured header and could not be reverified because the PDF body returned Cache miss. No actual gathering is established.",
+    "source_ids": [
+      "S013"
+    ],
+    "status": "unverified_announcement_only",
+    "open_questions": [
+      "What exact date, purpose, capacity, and organizer did the notice specify?",
+      "Did any assembly actually take place? Do not treat the announcement as execution or count the nominal capacity as turnout."
+    ]
+  },
+  {
+    "continuation_id": "armenia-2023-01-CONT-003",
+    "country": "Armenia",
+    "unit_month": "2023-01",
+    "date": null,
+    "type": "possible_cross_month_followup",
+    "description": "A later Hetq search-result title reports police removal of families from the former Defense Ministry building. Its date and body details were not retrieved, so it is not verified as a protest or as related to the Jan 23 roadblock over electricity.",
+    "source_ids": [
+      "S014"
+    ],
+    "status": "unverified_search_only",
+    "open_questions": [
+      "When did this police removal occur, and was it a distinct public assembly or only an eviction/removal?",
+      "Was it related to the Jan 23 electricity roadblock? Do not transfer it as a protest response or infer continuity from the shared building alone."
+    ]
+  }
+]

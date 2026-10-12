@@ -1,0 +1,128 @@
+[
+  {
+    "gap_id": "egypt_2023-01-G001",
+    "type": "baseline",
+    "description": "The official Mass Mobilization release, coding procedure, universe and license remain unverified in the project baseline; this unit uses the provisional ccode 651 assignment only.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve against the current official release before any proposed observation is eligible for export."
+  },
+  {
+    "gap_id": "egypt_2023-01-G002",
+    "type": "search_method",
+    "description": "Eighteen native English and Arabic search actions (389 ordered result headers) cover general activity, labor, regions and four January week windows; q017 submitted two local-language leads in one native action; q018 is a recovered earlier native event with complete headers but without the original formatted tool-response text. Results include a Jan 20 Samannoud strike lead, an Egypt Cement December-to-January continuity lead, and dated/out-of-month labor leads. Open-web search is not equivalent to the original LexisNexis process; absence from these results does not establish no gathering.",
+    "source_ids": [
+      "S012",
+      "S014",
+      "S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue bounded local-language and regional discovery when useful; retain unresolved search-only leads without inferring event identity or eligibility."
+  },
+  {
+    "gap_id": "egypt_2023-01-G003",
+    "type": "source_access",
+    "description": "Twelve of 15 source cards remain search_only. S003, S007 and S012 have separately documented body reads. S001 provided metadata only; S002 retrieval attempts produced technical cache errors and a malformed-URL incident without an HTTP response; S013–S015 are newly captured search-only leads.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S005",
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S013",
+      "S014",
+      "S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No further body request was made after the source window closed at 2026-10-10T15:29:11.771543Z. Any future body work requires a newly open window and fresh full receipt/manual-scope/guard checks."
+  },
+  {
+    "gap_id": "egypt_2023-01-G004",
+    "type": "source_access",
+    "description": "S001 Open Data Tank 2023 catalogue had one exact-URL attempt at 2026-10-10T14:28:37.835Z. The recovered native event exposed page metadata only and no article body or HTTP status, so no catalogue contents can be coded from it.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain as unresolved and do not repeat for formatting recovery; a future distinct request would require a newly open window and complete fresh gates."
+  },
+  {
+    "gap_id": "egypt_2023-01-G005",
+    "type": "source_access",
+    "description": "S002 Arab Foundation for Civil Society and Human Rights report has two correct exact-URL tool Cache-miss/technical failures with no HTTP status or body, plus one separately preserved malformed requested-URL/receipt mismatch that was not covered by its exact-URL gate and returned no body or HTTP result. None is a publisher denial.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve the mismatch as an ungated incident, do not rewrite its receipt, and do not retry S002 for formatting or persistence recovery. The source remains unresolved."
+  },
+  {
+    "gap_id": "egypt_2023-01-G006",
+    "type": "source_access",
+    "description": "S003 is a CFJ announcement; S012 is the distinct six-page same-publisher January–June bulletin PDF linked from it, not independent corroboration. The PDF dates the Mac carpet, Alexandria Container and Kiriazi protests to February; the drivers’ work stoppage to March; the bank strike to April; and the Engineers’ Syndicate incident to May. Its 428+ Eco Egypt Suez sit-in is undated and directed at company salaries; the January date, physical endpoints and own-state policy target are not established.",
+    "source_ids": [
+      "S003",
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep the 428+ Suez action as an undated lead; do not convert the January 2023 Wages Council decision date into an event date or infer a state target from ministry involvement in bargaining."
+  },
+  {
+    "gap_id": "egypt_2023-01-G007",
+    "type": "event_identity_and_date",
+    "description": "Search-only S013 is an Egypt labor-ministry release about collective bargaining at a Suez company and a stated 697 workers; the captured header/preview does not give the event date. Search result q017 also surfaced S006’s annual labor report preview associating an Efco Suez sit-in with March 2023. Identity between this Efco lead and CFJ S003/S012’s 428+ “Eco Egypt” account is unresolved; do not combine their headcounts or dates.",
+    "source_ids": [
+      "S003",
+      "S006",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain each source lead separately. If later reopened, verify company/event identity, exact physical date and site, attendance, demands and recipient using each source’s exact card URL and fresh source gates."
+  },
+  {
+    "gap_id": "egypt_2023-01-G008",
+    "type": "event_eligibility",
+    "description": "Search-only S015 PDF preview reports a 20 January strike by women workers at Birat and Samannoud following a monthly allowance reduction. This is a material January lead and may correspond to S012’s otherwise undated Samannoud action, but the PDF body was not read. No evidence establishes 50 simultaneous participants at a site, physical start/end, or an Egypt-state policy target.",
+    "source_ids": [
+      "S012",
+      "S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep outside events.json pending permitted source verification and evidence for each inclusion criterion; do not infer attendance from worker/staff totals or an employer dispute as a state target."
+  },
+  {
+    "gap_id": "egypt_2023-01-G009",
+    "type": "cross_month_continuity",
+    "description": "S012 says the Egypt Cement Company sit-in/work stoppage in the Qusair area of Qena began in December 2022 and lasted about three weeks; S014 and S015 are related search-only December coverage leads. January continuation is possible but the exact endpoint, physical turnout and own-state policy target are unknown.",
+    "source_ids": [
+      "S012",
+      "S014",
+      "S015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain EGYPT2023-01-C001 as an unresolved cross-month lead, not a candidate. Do not assign January ownership absent an actual physical endpoint in the month."
+  },
+  {
+    "gap_id": "egypt_2023-01-G010",
+    "type": "event_date_and_size",
+    "description": "S012 also names undated actions involving Samannoud (separately addressed as the Jan 20 lead in G008), Americana delivery workers, BBC Cairo journalists, Styrene/Poly Styrene workers at Port of Dekheila, Port Said taxi drivers, Porto Marina security workers, Damietta textile workers and Baltim hospital staff. For these other leads, January event dates, physical start/end and simultaneous site attendance are not established; dismissal counts are not assembly turnout.",
+    "source_ids": [
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve as distinct event leads and do not assign them to January or use staff/organization totals as participant counts without source-specific evidence."
+  },
+  {
+    "gap_id": "egypt_2023-01-G011",
+    "type": "capture_integrity",
+    "description": "Native event exec-784ccd25-3b93-486f-a808-936c1090dc54 (q018) is captured with its exact action, event ID, clocks and all 17 ordered result headers from public event_msg metadata, but the original formatted web-tool response text was not found in raw quarantine. The query was not repeated.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep the native event recovery and the raw-text limitation explicit. Do not repeat q018 for formatting or persistence recovery."
+  }
+]

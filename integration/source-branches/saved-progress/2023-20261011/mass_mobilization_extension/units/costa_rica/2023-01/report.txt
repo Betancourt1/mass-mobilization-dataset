@@ -1,0 +1,29 @@
+Costa Rica, January 2023 — research handoff
+
+Assignment: provisional ccode 94, queue order 3874. The fixed evidence cutoff remains 2026-10-07 inclusive (America/Mexico_City). This is a bounded research pass, not a complete or officially approved update.
+
+Coverage and method
+
+Nine actual grouped web-search invocations were retained with their native result headers, references, raw URLs, order, and timestamps in capture_inputs/ and search_log.jsonl. The pass included Spanish and English broad searches; January week-window searches; local outlet searches; searches around Pavas/Finca San Juan, Keylor Gamboa, the Defensoría selection, and UCR protest records. Search results are leads, not article reads. Five source bodies were read after one fresh exact-URL receipt and manual source-scope review per body attempt. The source cards retain each exact URL, access status, read scope, publication date where known, origin and limitations.
+
+The January UCR chronology and two other UCR records remain search-only. The chronology item had one web Cache miss followed by three separately receipted ordinary-HTTPS attempts that failed in the local output pipeline with curl exit 23; no actual HTTP status or body was captured. The UCR database query and chronology PDF each had a separately receipted open that returned Cache miss. These are technical retrieval gaps, not publisher denials. No request was repeated to repair formatting. AP/AfricaPress inherited holds were honored; no body attempts were made against those sources or syndicated copies.
+
+Provisional candidates
+
+- CRI-2023-01-E001: Finca San Juan residents protested a planned municipal eviction near Demasa on Jan. 20. The article reports street blocking and police presence, but no crowd size or physical end. The 250-family figure is affected households, not attendance. Pending threshold.
+- CRI-2023-01-E002: A separate Jan. 20 march for justice for Keylor Gamboa went from Parque Central to the Supreme Court entrance. Two outlets say “decenas”; neither gives a numerical total. La Teja reports the actual 9:30 a.m. start and route endpoint, but no end time. Pending threshold.
+- CRI-2023-01-E003: UCR search excerpts list a Jan. 21 Finca San Juan protest at municipal offices, possibly distinct from the Jan. 20 Demasa gathering. The record body was not retrieved, so date/site/episode relationship and attendance remain pending evidence.
+- CRI-2023-01-E004: A UCR photo gallery documents student and other groups at the Legislative Assembly on Jan. 23 during the Defensoría selection debate, including opposing positions about Erick Ulate and Laura Arguedas. No crowd total or event end is given. Pending threshold; group/episode boundary remains for review.
+- CRI-2023-01-E005: A UCR chronology search excerpt may describe a separate Jan. 24 FEUNA/FEUCR and disability-movement gathering at the Assembly. The chronology PDF is unread and its heading/day labels conflict; the OPNA analysis confirms the groups' position across Jan. 23-24 but is not an event-specific witness. Pending evidence.
+
+All candidate start dates are within the assigned month. State-response dimensions and protester violence remain unknown where sources do not establish them. Police presence is not coded as a response by itself. No event is marked proposed_include, no numeric attendance bounds were invented, and no official IDs or approvals were assigned.
+
+Exclusions and continuations
+
+excluded.json and continuations.json are empty. Cross-month/search-only leads remain in the captured searches or gap record; no announcement was treated as an executed gathering, no unverified out-of-month lead was added as a January event, and no January physical action was verified as a continuation from December.
+
+Open gaps and next work
+
+Nine gaps cover attendance thresholds, the Jan. 20/21 Pavas episode relationship, technical UCR retrieval failures, UCR chronology date conflicts, Jan. 23/24 Assembly event boundaries, physical closure and response, bounded source coverage, the pending official baseline, and an unassignable Pérez Zeledón court-gathering lead. The captured Jan. 22 concentration call is not evidence of execution; the “SÁBADO 25” court lead is not assigned to January until the underlying date can be read.
+
+Next action: coordinator independently reviews the five provisional candidates, source/receipt pairs, episode boundaries, and nine gaps; obtain readable UCR event records and fuller local archive coverage before changing eligibility. Official baseline verification and human review remain pending.

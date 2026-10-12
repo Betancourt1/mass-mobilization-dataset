@@ -1,0 +1,450 @@
+[
+  {
+    "candidate_id": "BG202301-E001",
+    "country": "Bulgaria",
+    "ccode": "355",
+    "unit_month": "2023-01",
+    "title": "Coal and energy workers’ protest outside the National Assembly",
+    "start_date": "2023-01-12",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "In front of the National Assembly, Sofia",
+    "scope": "Nationally organized capital action",
+    "organizer": "KNSB/CITUB, Confederation of Labour Podkrepa, and affiliated energy/mining-sector unions",
+    "demands": [],
+    "participants_original": "KNSB and NOVA each report more than 3,000 workers; NOVA does not state its count source.",
+    "participants_min": 3000,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "reported_lower_bound",
+    "threshold_50_evidence": "The organizer KNSB and contemporaneous broadcaster NOVA each report over 3,000 workers. The estimate origin is not independently documented; the conservative lower bound still exceeds 50.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "yes",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Both contemporaneous reports identify the protest as occurring on 12 January 2023."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "Neither article establishes when the physical assembly ended."
+      },
+      "location": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Both place the workers outside the National Assembly in Sofia."
+      },
+      "scope": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "The unions describe workers from coal/thermal-energy employers across Bulgaria at a national-policy protest in the capital."
+      },
+      "organizer": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "KNSB and Podkrepa are identified with the action; NOVA says unions organized it."
+      },
+      "demands": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Textual demands concern renegotiating the Recovery and Resilience Plan energy chapter, removing its 40% emissions-reduction commitment and keeping coal plants operating through at least 2038. These do not map cleanly to the seven listed demand categories, so the category array is empty."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "KNSB and NOVA both report more than 3,000; the organizer is a primary but interested source, and NOVA does not disclose a separate counting basis."
+      },
+      "participants_min": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "A conservative reported lower bound of 3,000 is directly supported by both “more than 3,000” reports; no upper bound is available."
+      },
+      "participants_max": {
+        "source_ids": [],
+        "summary": "No upper bound reported."
+      },
+      "participants_estimate": {
+        "source_ids": [],
+        "summary": "No point estimate is reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Both reports place the event well above 50, though the count source may not be independent."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "The read article prose does not establish protester violence or explicitly state that none occurred; value remains unknown."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "KNSB says parliamentary-group representatives addressed the crowd at protesters’ request; NOVA says MPs from several groups joined and expressed support. This is coded as accommodation/contact, not as proof that the protest caused the formal vote or that demands were fully met."
+      },
+      "state_response.arrests": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Neither read article reports event-specific arrests; silence is not coded as no_explicit."
+      },
+      "state_response.beatings": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Neither read article reports event-specific beatings; value remains unknown."
+      },
+      "state_response.crowd_dispersal": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Neither read article establishes crowd dispersal; value remains unknown."
+      },
+      "state_response.ignore": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "The sources report parliamentary contact but do not establish whether other government actors ignored the event; value remains unknown."
+      },
+      "state_response.killings": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "No event-specific killing evidence is reported; silence is not coded as no_explicit."
+      },
+      "state_response.shootings": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "No event-specific shooting evidence is reported; value remains unknown."
+      },
+      "notes": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S005"
+        ],
+        "summary": "Specific energy-policy demands are kept in prose because they do not fit the listed categories. KNSB mentions a separate 11 November 2022 action over the same issue; this January assembly is a new physical event, not a January continuation of that earlier action."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "bulgaria_coal_energy_policy_campaign",
+    "notes": "The demand categories available in the working protocol do not include these specific energy-transition/recovery-plan demands; the categories remain empty and textual goals are retained. The formal parliamentary resolution is documented in a partial BTA excerpt, but BTA does not describe the protest; no causal link between the vote and assembly is asserted. KNSB mentions a distinct 11 November 2022 action, not an ongoing physical episode.",
+    "open_questions": [
+      "When did the assembly physically end?",
+      "What was the source/method behind the two >3,000 estimates, and were they independent?",
+      "Did parliamentary statements or the formal resolution represent a response to the protest, or only a same-day policy action?",
+      "How does the unavailable official codebook classify this energy-policy demand?"
+    ]
+  },
+  {
+    "candidate_id": "BG202301-E002",
+    "country": "Bulgaria",
+    "ccode": "355",
+    "unit_month": "2023-01",
+    "title": "Reported Kustendil protest against increased municipal taxes and waste fees",
+    "start_date": "2023-01-16",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Outside the Kustendil Municipality building (announced venue; execution unverified)",
+    "scope": "Local municipal-policy action",
+    "organizer": null,
+    "demands": [
+      "price_increases_tax_policy"
+    ],
+    "participants_original": "A search-only Lupa result says several hundred residents protested; no source body confirms the count.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unverified_search_only",
+    "threshold_50_evidence": "A search-only Lupa result uses a several-hundred description, but the article body was not obtained. The body-read BNR source is only an advance notice. Threshold remains unverified.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S010",
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S010",
+          "S011",
+          "S012",
+          "S013"
+        ],
+        "summary": "Three search-only reports identify a 16 January protest; the opened BNR report was a same-day announcement of a planned 16:30 event, not proof it occurred."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "No physical ending is documented."
+      },
+      "location": {
+        "source_ids": [
+          "S010",
+          "S011",
+          "S012",
+          "S013"
+        ],
+        "summary": "Search leads and the BNR announcement place the planned protest at Kustendil Municipality; event execution and exact site remain unconfirmed."
+      },
+      "scope": {
+        "source_ids": [
+          "S010",
+          "S011",
+          "S012",
+          "S013"
+        ],
+        "summary": "The reported issue is a municipal tax and waste-fee increase in Kustendil."
+      },
+      "organizer": {
+        "source_ids": [
+          "S013"
+        ],
+        "summary": "Organizer remains unknown. The mayor alleged that BSP and allied parties organized the planned protest; this is an unverified attributed allegation, not a confirmed organizer."
+      },
+      "demands": {
+        "source_ids": [
+          "S010",
+          "S011",
+          "S012",
+          "S013"
+        ],
+        "summary": "The search leads describe opposition to higher local taxes; the opened BNR announcement identifies vehicle/property-tax and waste-fee increases."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S012"
+        ],
+        "summary": "Only a search-result snippet says several hundred; it was not body-read or independently corroborated."
+      },
+      "participants_min": {
+        "source_ids": [],
+        "summary": "No validated numerical lower bound."
+      },
+      "participants_max": {
+        "source_ids": [],
+        "summary": "No estimate or upper bound."
+      },
+      "participants_estimate": {
+        "source_ids": [],
+        "summary": "No validated point estimate."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S012",
+          "S013"
+        ],
+        "summary": "Several hundred appears only in a search snippet; the body-read BNR page announces a future event but does not report attendance."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S013"
+        ],
+        "summary": "The advance notice does not report event violence and cannot establish whether the protest occurred; value unknown."
+      },
+      "state_response.accommodation": {
+        "source_ids": [
+          "S013"
+        ],
+        "summary": "The mayor commented on the planned action before its scheduled start; no response to an executed assembly is established."
+      },
+      "notes": {
+        "source_ids": [
+          "S010",
+          "S011",
+          "S012",
+          "S013"
+        ],
+        "summary": "Kustendil.info, Focus and Lupa body opens returned Cache miss; a fresh-receipt ordinary HTTPS attempt to the exact Kustendil.info URL failed DNS before HTTP. The only opened body is a pre-event notice. A separate headline claims a mayor-resignation demand, not corroborated in the opened notice."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "kustendil_municipal_tax_campaign",
+    "notes": "Retain as a search-derived lead, not a verified occurrence: local outlets’ search results describe an actual 16 January protest, while the only body-read local public-radio page was published at 12:45 announcing a future 16:30 demonstration. The mayor alleged partisan organization; the allegation is not verified. The headline also mentions a mayor-resignation demand, which the opened notice does not confirm.",
+    "open_questions": [
+      "Did the scheduled assembly actually take place?",
+      "Can an accessible contemporaneous report verify a count of at least 50?",
+      "Who organized it, and was the mayor-resignation demand made by participants?",
+      "What was the physical end time and any event-specific response?"
+    ]
+  },
+  {
+    "candidate_id": "BG202301-E003",
+    "country": "Bulgaria",
+    "ccode": "355",
+    "unit_month": "2023-01",
+    "title": "Reported second Kustendil protest against local tax increases",
+    "start_date": "2023-01-26",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Kustendil; exact venue unverified",
+    "scope": "Local municipal-policy action",
+    "organizer": null,
+    "demands": [
+      "price_increases_tax_policy"
+    ],
+    "participants_original": "Search-only Struma headline characterizes a tax protest before a municipal-council session as low-turnout; no numeric count or opened report is available.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown_search_only",
+    "threshold_50_evidence": "The only captured turnout description is the search-only Struma headline “low-turnout”; it does not establish whether 50 people attended. Pending body-level attendance evidence.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S015",
+      "S016",
+      "S017"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S015"
+        ],
+        "summary": "The search result for Kustendil.info identifies this as a second protest on 26 January; the article body was not obtained."
+      },
+      "end_date": {
+        "source_ids": [],
+        "summary": "No physical ending is documented."
+      },
+      "location": {
+        "source_ids": [
+          "S015",
+          "S016"
+        ],
+        "summary": "Search leads place a second tax protest in Kustendil; the precise venue is not verified for this date."
+      },
+      "scope": {
+        "source_ids": [
+          "S015",
+          "S016",
+          "S017"
+        ],
+        "summary": "All captured leads concern Kustendil municipal taxes; exact demands and participation remain body-unverified."
+      },
+      "organizer": {
+        "source_ids": [],
+        "summary": "Organizer unknown."
+      },
+      "demands": {
+        "source_ids": [
+          "S015",
+          "S016",
+          "S017"
+        ],
+        "summary": "Captured titles/metadata connect the leads to increased local taxes and a planned municipal-council session."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S017"
+        ],
+        "summary": "Search-only Struma title labels turnout low without a number."
+      },
+      "participants_min": {
+        "source_ids": [],
+        "summary": "No numerical lower bound established."
+      },
+      "participants_max": {
+        "source_ids": [],
+        "summary": "No estimate or upper bound."
+      },
+      "participants_estimate": {
+        "source_ids": [],
+        "summary": "No numeric estimate."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S015",
+          "S016",
+          "S017"
+        ],
+        "summary": "The second-protest and BNR titles indicate a Kustendil action; the only turnout wording is the un-opened Struma headline “low-turnout,” insufficient to decide the 50-person threshold."
+      },
+      "protester_violence": {
+        "source_ids": [],
+        "summary": "No body evidence; unknown."
+      },
+      "notes": {
+        "source_ids": [
+          "S015",
+          "S016",
+          "S017"
+        ],
+        "summary": "Keep this reported 26 January action separate from the reported 16 January rally. A shared episode key marks only a tentative campaign relationship; the date boundary, distinct execution and continuity are not confirmed by body-level evidence."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "kustendil_municipal_tax_campaign",
+    "notes": "A captured Kustendil.info search result calls this a second protest on 26 January; BNR and Struma search leads also concern Kustendil tax protest activity. All corresponding body attempts returned Cache miss before HTTP; the exact Kustendil.info/BNR domains also failed DNS on ordinary HTTPS attempts. Do not infer under-50 attendance from “low turnout.” The episode key is tentative and does not merge this with BG202301-E002.",
+    "open_questions": [
+      "Did a separate physical action take place on 26 January?",
+      "What was the exact site and attendee count?",
+      "Did it belong to the same tax campaign as BG202301-E002, and was there an ongoing assembly or a separate day of action?",
+      "What state response occurred?"
+    ]
+  }
+]

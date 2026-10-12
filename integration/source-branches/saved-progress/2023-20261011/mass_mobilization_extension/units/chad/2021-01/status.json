@@ -1,0 +1,31 @@
+{
+  "unit_id": "chad_2021-01",
+  "country": "Chad",
+  "month": "2021-01",
+  "agent_task": "/root/chad_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08 08:16:12 UTC",
+  "finished_at": "2026-10-08 08:25:23 UTC",
+  "n_queries": 52,
+  "n_sources": 119,
+  "n_candidates": 5,
+  "n_excluded": 6,
+  "n_continuations": 3,
+  "n_gaps": 18,
+  "coverage_assessment": "Documented open-web first pass: English, French and Arabic probes; literal and operator weekly windows; labour, schools, health, recruitment, services, transport, land, women, opposition and provincial terms; December2020/February2021 continuity. Five pending leads, zero proposed includes; no exhaustive or absence claim. Sparse provincial and local-language/radio archive coverage, blocked sources, missing additional Coding Procedure and official baseline persist.",
+  "baseline_gate": "pending_official_baseline",
+  "timestamp_note": "Search executed_at is actual pre-request UTC batch initiation, not per-query internal runtime. Two source recoveries have accessed_at null because initiation was not captured; recorded_at is later save time. All other recorded opens/recoveries use pre-request batch time.",
+  "temporary_resources_started": [
+    {
+      "type": "foreground_public_https_readers",
+      "sessions": [
+        27917,
+        41626,
+        82664,
+        12432
+      ],
+      "status": "all observed exit0"
+    }
+  ],
+  "temporary_resources_remaining": []
+}

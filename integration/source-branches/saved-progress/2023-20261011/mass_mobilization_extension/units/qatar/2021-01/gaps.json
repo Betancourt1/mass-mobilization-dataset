@@ -1,0 +1,87 @@
+[
+  {
+    "gap_id": "qatar_2021-01_G001",
+    "type": "baseline",
+    "description": "Official latest MM dataset bytes, current universe/schema and additional Coding Procedure remain unresolved; provisional ccode 694 only.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep this unit pending official baseline comparison; do not assign official IDs."
+  },
+  {
+    "gap_id": "qatar_2021-01_G002",
+    "type": "search_method_coverage",
+    "description": "Twenty-one English and Arabic open-web queries covered January weekly windows, local/regional outlets and Qatar News Agency, plus searches in December 2020 and February 2021. Query result lists were captured but no result totals are exposed; this does not reproduce LexisNexis or systematic archives.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If archive or LexisNexis access becomes available, extend discovery across local and regional papers, preserve query-level evidence, and review the full result universe; do not treat the current searches as exhaustive."
+  },
+  {
+    "gap_id": "qatar_2021-01_G003",
+    "type": "language_coverage",
+    "description": "English and Arabic discovery searches were run and several Arabic contemporary or retrospective reports were opened. Full Arabic newspaper archives and independent qualified language review were not available; translation, indexing and region-specific coverage can still be incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review original Arabic text for any newly identified candidate and extend Arabic local-source searches if systematic archive access becomes available."
+  },
+  {
+    "gap_id": "qatar_2021-01_G004",
+    "type": "participants",
+    "description": "No January 2021 physical-gathering candidate with an evidenced attendance threshold was identified. This is an unresolved discovery gap, not evidence that no gathering occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If a January candidate is found, verify the number of people who physically gathered; do not substitute affected workers, workforce totals, arrests or petitions."
+  },
+  {
+    "gap_id": "qatar_2021-01_G005",
+    "type": "state_target",
+    "description": "No January event with an evidenced demand directed to Qatar's government or its policy was identified. Do not infer a government target from location or from a private employer's alleged violation.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If an in-month gathering is discovered, establish its demand target from the participants' stated demand or contemporaneous reporting."
+  },
+  {
+    "gap_id": "qatar_2021-01_G006",
+    "type": "episode_unit",
+    "description": "English and Arabic searches for December 2020 and February 2021 did not identify a specific physical episode reported as crossing the January boundary. A retrospective HRW account only places multiple ITCC worker protests across 2019–2020 without exact dates; it cannot establish a Jan. 2021 continuation.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Recheck employer- or episode-specific reports and any accessible local archive for onset/end evidence before coding a continuation; do not assign an episode to January from an undated history."
+  },
+  {
+    "gap_id": "qatar_2021-01_G007",
+    "type": "source_access",
+    "description": "Sabq's exact-title result dates its report to May 23, 2020 and describes a wage protest late Friday, but the publisher page returned a web-tool Cache miss. One ordinary HTTPS request to the exact public URL failed local DNS resolution (curl exit 6, HTTP 000); this is not an observed site denial. A scholarly article reports a May 22 Msheireb gathering; correspondence is likely but unconfirmed.",
+    "source_ids": [
+      "QTR202101-S014",
+      "QTR202101-S015"
+    ],
+    "affected_candidates": [
+      "qatar_2021-01_X005"
+    ],
+    "required_followup": "If network access permits without bypass, retrieve the same public Sabq URL and compare only the relevant event facts with the Cambridge article; retain the May 2020 action outside this unit absent January-continuity evidence."
+  },
+  {
+    "gap_id": "qatar_2021-01_G008",
+    "description": "An initial default-sandbox request to the Al-Sharq Jan. 26 issue failed local DNS (curl exit 6, HTTP 000). Two later exact-URL ordinary HTTPS GETs returned HTTP 200 PDFs of 15,821,337 bytes. The first copy was extracted and Arabic protest-term screening identified a Gaza vigil item, not a Qatar gathering; the first copy was removed before hashing. The second retrieval's SHA256 is recorded on S018 and applies only to that second copy. Only one daily issue received keyword screening, without full translation or line-by-line review; this does not cover all January newspapers.",
+    "required_followup": "Review the remaining January archive and have a qualified Arabic reader assess relevant hits if systematic access becomes available; do not infer monthwide absence from one issue.",
+    "source_ids": [
+      "QTR202101-S018"
+    ],
+    "affected_candidates": [],
+    "type": "coverage"
+  },
+  {
+    "gap_id": "qatar_2021-01_G009",
+    "description": "The Jan. 5 Dhaka protest exclusion is reported by Doha News and a Financial Express search result that both attribute reporting to Bdnews24. The Bdnews24 exact source URL returned HTTP 403 on a coordinator's ordinary HTTPS request; the duplicate reports are not independent corroboration.",
+    "required_followup": "If needed for the cross-unit location/demand review, seek an independently reported Bangladesh-side account; retain the Qatar territorial exclusion unless evidence changes.",
+    "source_ids": [
+      "QTR202101-S001",
+      "QTR202101-S012",
+      "QTR202101-S019"
+    ],
+    "affected_candidates": [
+      "qatar_2021-01_X003"
+    ],
+    "type": "source_independence"
+  }
+]

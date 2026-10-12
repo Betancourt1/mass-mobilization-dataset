@@ -1,0 +1,791 @@
+[
+  {
+    "candidate_id": "POL202101-E001",
+    "country": "Poland",
+    "ccode": 290,
+    "unit_month": "2021-01",
+    "title": "Warsaw Women’s Strike protest against the proposed ticket-law change and other government policies",
+    "start_date": "2021-01-20",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Central Warsaw: began at Rondo de Gaulle’a, proceeded toward the Sejm and back toward Rondo Dmowskiego, then was pushed along Marszałkowska toward Plac Konstytucji",
+    "scope": "local",
+    "organizer": "Women’s Strike organizers; the opened article attributes stated grievances to members of Ogólnopolski Strajk Kobiet",
+    "demands": [
+      "political_behavior_process",
+      "police_brutality"
+    ],
+    "participants_original": "Onet reports “kilkaset osób” (several hundred).",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "qualitative_hundreds",
+    "threshold_50_evidence": "The opened contemporary Onet report explicitly describes several hundred participants, which supports at least 50 without converting the qualitative phrase into an exact count.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "POL202101-S017",
+      "POL202101-S031"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "Onet’s contemporary report is dated 20 Jan 2021 and says the protest began at 18:00."
+      },
+      "location": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "The report traces the gathering from Rondo de Gaulle’a toward the Sejm, back toward Rondo Dmowskiego, and along Marszałkowska toward Plac Konstytucji."
+      },
+      "scope": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "The opened account describes a march in central Warsaw; no other locality is part of this candidate."
+      },
+      "organizer": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "The article identifies a Women’s Strike action and attributes policy explanations to Ogólnopolski Strajk Kobiet members; it does not establish one individual organizer."
+      },
+      "demands": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "Organizers objected to a proposed law barring refusal of fines and cited the anticipated abortion ruling, the Anti-Violence Convention, and pandemic management. Chants criticized police conduct."
+      },
+      "participants_original": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "Onet describes several hundred participants; no exact count or bounded numerical range is reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "The article’s qualitative “several hundred” description exceeds the 50-person threshold; no exact number is inferred."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "The report says participants threw snow at police officers near St Alexander’s Church; under the historical manual, any violence directed against the state is within this variable, regardless of type."
+      },
+      "state_accommodation": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "No event-specific reception or negotiation is reported; silence is not coded as no."
+      },
+      "state_arrests": {
+        "source_ids": [
+          "POL202101-S017",
+          "POL202101-S031"
+        ],
+        "summary": "Onet reports one person detained by publication time; the RPO’s next-day notice confirms detainees were held after the demonstration and that all but one had been released by the visit. Both sources connect the detentions with the Jan20 Warsaw demonstration."
+      },
+      "state_beatings": {
+        "source_ids": [
+          "POL202101-S017",
+          "POL202101-S031"
+        ],
+        "summary": "Onet documents pushing, clashes and tear gas but no explicit beating. The RPO records detainees’ attributed complaints of police brutality and the police account that actions were lawful, without specifying a physical beating. Preserve the contested allegation; no specific beating is established, so unknown."
+      },
+      "state_crowd_dispersal": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "Police repeatedly called for the gathering to disperse; a police cordon pushed participants toward Plac Konstytucji, and officers used tear gas. These are explicit dispersal mechanisms."
+      },
+      "state_ignore": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "The article reports police action, but does not establish whether authorities ignored any separate demand; unknown."
+      },
+      "state_killings": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "No event-specific state killing is reported; absence of mention is not coded no, so unknown."
+      },
+      "state_shootings": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "No event-specific firearm shooting is reported; absence of mention is not coded no, so unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "POL202101-S017"
+        ],
+        "summary": "The report follows the march through a police push and gas use but does not document participants’ departure or dissolution; end unknown."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "Warsaw-Womens-Strike-2021-01-20-Otwarcie-Sezonu",
+    "notes": "This is one Warsaw route/gathering, not a separate event for each location. The opened Onet account supports occurrence, date, several-hundred attendance, government-policy demands, police dispersal and one detention. A search-only PAP result suggests the protest ended around 21:45, but its body was not read and that time is not used. Physical departure remains unresolved. The Women’s Strike campaign began in 2020; this January 20 gathering is a dated new physical action, not a newly created campaign. The next-day RPO notice reports detainees’ allegations of police brutality and the police account that officers acted lawfully; it does not specify a beating, so beatings remain unknown.",
+    "open_questions": [
+      "Find a source documenting when participants physically left or the gathering dissolved.",
+      "Check whether additional contemporary reports independently confirm the Jan 20 turnout and account of police response."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "POL202101-E002",
+    "country": "Poland",
+    "ccode": 290,
+    "unit_month": "2021-01",
+    "title": "Ogólnopolski Strajk Kobiet protests after publication of the Constitutional Tribunal abortion ruling",
+    "start_date": "2021-01-27",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Multiple reported sites, including Warsaw, Szczecin, Wrocław, Kraków, Gdańsk, Kielce, Toruń, Olsztyn, Piła, Poznań, Katowice, Łomża and Łódź; Onet reports actions in dozens of cities overall.",
+    "scope": "national",
+    "organizer": "Ogólnopolski Strajk Kobiet announced actions in several Polish cities; local organizing roles are not fully distinguished.",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Onet reports more than 100 in Szczecin, a police estimate of about 3,000 in Kraków (while an earlier Kraków photo caption says several hundred), several thousand in Wrocław, several dozen at an earlier Szczecin update, and about 20 in Piła. City-specific reports are not added; Warsaw attendance is not quantified.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "mixed site-specific qualitative and approximate estimates; not summed",
+    "threshold_50_evidence": "The opened live report says more than 100 demonstrators gathered in Szczecin and separately reports thousands in other cities. This establishes a qualifying crowd at a reported site without summing separate-city figures.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "POL202101-S027"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "The live report is dated Jan27; it documents gathering in Warsaw from 18:31 and actions beginning in other listed cities that evening."
+      },
+      "location": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "The live report describes protest activity at multiple named Polish sites and says actions occurred in dozens of cities; these are recorded as one announced national action for review, with no cross-city turnout sum."
+      },
+      "scope": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "Ogólnopolski Strajk Kobiet announced protests in several Polish cities after the ruling publication; the source reports actual gatherings at many cities the same evening."
+      },
+      "organizer": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "The report attributes the multi-city call to Ogólnopolski Strajk Kobiet, while individual city-level organizers are not all identified."
+      },
+      "demands": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "The report identifies the actions as protests against publication of the Constitutional Tribunal abortion ruling and records slogans supporting freedom of choice."
+      },
+      "participants_original": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "Site-specific descriptions include more than 100 in Szczecin, several thousand in Wrocław, and conflicting descriptions for Kraków (several hundred in a caption; about 3,000 according to police). No city totals are combined."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "The report explicitly describes more than 100 demonstrators at the Szczecin site; separate city turnout is not aggregated."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "The opened report does not establish protester violence for this Jan27 multi-site action; unknown."
+      },
+      "state_accommodation": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "The opened report does not establish receipt or negotiation of demands; unknown."
+      },
+      "state_arrests": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "No event-specific Jan27 arrest count is established in the read scope; no Jan28 or multi-day aggregate is transferred; unknown."
+      },
+      "state_beatings": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "The opened report does not establish a Jan27 beating; unknown."
+      },
+      "state_crowd_dispersal": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "At 19:01 police called for protesters to disperse at the Warsaw site. Under the historical manual, an explicit warning directed at breaking up the gathering is a dispersal attempt even without proof of success. This does not establish a dispersal response at the other reported cities or a physical end to the national action."
+      },
+      "state_ignore": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "The report does not establish an explicit refusal or avoidance of a demand; unknown."
+      },
+      "state_killings": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "No event-specific state killing is established; unknown."
+      },
+      "state_shootings": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "No event-specific firearm shooting is established; unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "POL202101-S027"
+        ],
+        "summary": "The Warsaw site is reported to be ending about 22:01 after a return to the Tribunal, but other city actions are still described during the evening; a national physical end is not established."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "Ogólnopolski-Strajk-Kobiet-2021-01-27-publication-day",
+    "notes": "This candidate preserves the national action explicitly announced by Ogólnopolski Strajk Kobiet and reported in multiple cities on Jan27. The documented site counts are not summed, and the Warsaw turnout is not inferred from other cities. Jan28 was announced as another action and is preserved separately as E003 because an official RPO record confirms the next-day Warsaw protest; no campaign-wide count or response is transferred. City-level boundaries and whether the national call is one event under the original coding rules remain for coordinator review. The national physical end is unknown even though Onet reports the Warsaw site ending. Warsaw-only dispersal response is coded yes because the opened live report records police dispersal calls at 19:01; success and response at other cities remain unknown.",
+    "open_questions": [
+      "Determine whether the national call should be coded as one multi-site event or as local actions under the official event-unit rules.",
+      "Seek additional independent contemporaneous reports for turnout and site-specific physical end.",
+      "Check physical continuity into the Jan28 call without merging separate dates by campaign alone."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "POL202101-E003",
+    "country": "Poland",
+    "ccode": 290,
+    "unit_month": "2021-01",
+    "title": "Women’s Strike protests across Poland after publication of the abortion ruling, 28 January",
+    "start_date": "2021-01-28",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Multiple reported cities including Warsaw, Szczecin, Lublin, Katowice, Bielsko-Biała, Łódź, Poznań, Inowrocław, Skoczów, Zielona Góra, Zgorzelec, Gdańsk and Gliwice. The official police account supplies detailed turnout/response only for Warsaw.",
+    "scope": "national",
+    "organizer": "Women’s Strike leadership announced further protests after the Jan27 national actions; the opened Onet live report describes actual gatherings in multiple cities. Local organizers are not all distinguished.",
+    "demands": [
+      "social_restrictions"
+    ],
+    "participants_original": "Warsaw Metropolitan Police later reported about 1,300 at peak in Warsaw. Onet contemporaneously reports several hundred in Szczecin. These are site-specific and are not added; no national aggregate is available.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "site-specific approximate and qualitative estimates; not summed",
+    "threshold_50_evidence": "The official police response estimates approximately 1,300 participants at the Warsaw site; Onet independently reports hundreds in Szczecin. Separate-city figures are not summed.",
+    "protester_violence": "yes",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "yes",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "POL202101-S027",
+      "POL202101-S028",
+      "POL202101-S032",
+      "POL202101-S033",
+      "POL202101-S034",
+      "POL202101-S035"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "POL202101-S028",
+          "POL202101-S035",
+          "POL202101-S033",
+          "POL202101-S034"
+        ],
+        "summary": "The records identify Jan28 as a further Women’s Strike protest day after Jan27. The police letter dates the Warsaw gathering and reports people assembling around 19:00; Onet reports actions in cities from late afternoon onward."
+      },
+      "location": {
+        "source_ids": [
+          "POL202101-S035",
+          "POL202101-S033",
+          "POL202101-S034"
+        ],
+        "summary": "Onet documents actual gatherings in multiple cities. RPO identifies the Warsaw protest at the TK; police place the Warsaw crowd around Plac Na Rozdrożu and then the Tribunal on Aleja Szucha."
+      },
+      "scope": {
+        "source_ids": [
+          "POL202101-S028",
+          "POL202101-S035"
+        ],
+        "summary": "Onet reports a further coordinated Women’s Strike protest day and actual gatherings in multiple Polish cities. Individual city sites remain within this national candidate pending original unit rules."
+      },
+      "organizer": {
+        "source_ids": [
+          "POL202101-S027",
+          "POL202101-S028",
+          "POL202101-S035",
+          "POL202101-S034"
+        ],
+        "summary": "Onet describes the national Women’s Strike leadership announcing further actions; the police letter says people associated with Women’s Strike announced a Warsaw protest. Local co-organizers are not all identified."
+      },
+      "demands": {
+        "source_ids": [
+          "POL202101-S028",
+          "POL202101-S032",
+          "POL202101-S033",
+          "POL202101-S034",
+          "POL202101-S035"
+        ],
+        "summary": "Onet and the RPO link the protests to the published Constitutional Tribunal abortion ruling; police also identify this policy context. The primary demand concerns abortion restrictions."
+      },
+      "participants_original": {
+        "source_ids": [
+          "POL202101-S034",
+          "POL202101-S035"
+        ],
+        "summary": "Warsaw Metropolitan Police report about 1,300 at peak in Warsaw; Onet reports several hundred in Szczecin. These are separate site reports and not summed."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "POL202101-S034"
+        ],
+        "summary": "Police report approximately 1,300 participants at the Warsaw site, independently sufficient for the threshold; this differs from the 431 people police later say they identified."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "POL202101-S034",
+          "POL202101-S035"
+        ],
+        "summary": "Onet reports fireworks thrown at or onto the Tribunal grounds and snowballs directed at police; the police later report snowballs, a flare, property marking and a flagpole striking an officer. These reports are attributed; no adjudication is implied."
+      },
+      "state_accommodation": {
+        "source_ids": [
+          "POL202101-S035",
+          "POL202101-S034"
+        ],
+        "summary": "Onet notes police negotiators appearing near organizers, and police later report anti-conflict-team conversations. Neither source establishes reception or negotiation of the protest demand; unknown."
+      },
+      "state_arrests": {
+        "source_ids": [
+          "POL202101-S032",
+          "POL202101-S033",
+          "POL202101-S034",
+          "POL202101-S035"
+        ],
+        "summary": "Onet at 20:54 relays KSP’s report of three people detained after entering TK grounds, while organizers gave a different count. The later RPO notice and KSP response report 14 arrests for the Warsaw event. The figures are time-specific/attributed; arrest occurrence is established."
+      },
+      "state_beatings": {
+        "source_ids": [
+          "POL202101-S032",
+          "POL202101-S033",
+          "POL202101-S034"
+        ],
+        "summary": "The RPO records an arrestee’s attributed report that an officer jerked her arm and asks about media-described force during a personal search; police say the matter was under review and describe physical-force measures used in other specified interventions. No source establishes a specific beating; unknown."
+      },
+      "state_crowd_dispersal": {
+        "source_ids": [
+          "POL202101-S034",
+          "POL202101-S035"
+        ],
+        "summary": "Onet reports repeated police calls to disperse and a cordon in Warsaw; police report repeated dispersal announcements, kordon, and force in specified interventions. Evidence is detailed for the Warsaw site, not every city."
+      },
+      "state_ignore": {
+        "source_ids": [
+          "POL202101-S032",
+          "POL202101-S033",
+          "POL202101-S034",
+          "POL202101-S035"
+        ],
+        "summary": "The records do not establish an explicit government refusal or avoidance of protest demands; unknown."
+      },
+      "state_killings": {
+        "source_ids": [
+          "POL202101-S032",
+          "POL202101-S033",
+          "POL202101-S034",
+          "POL202101-S035"
+        ],
+        "summary": "No event-specific state killing is established in these records; unknown."
+      },
+      "state_shootings": {
+        "source_ids": [
+          "POL202101-S032",
+          "POL202101-S033",
+          "POL202101-S034",
+          "POL202101-S035"
+        ],
+        "summary": "Sources describe flares and physical force but no firearm shooting; unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "POL202101-S034",
+          "POL202101-S035"
+        ],
+        "summary": "Onet reports the Warsaw demonstration was still occurring at 22:33; neither the live report nor the police/RPO records establishes the eventual physical departure or national end."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "Ogólnopolski-Strajk-Kobiet-2021-01-28-following-publication",
+    "notes": "The national Women’s Strike action announced for the next day is retained as one multi-site candidate rather than divided automatically by city. Onet documents actual gatherings in several cities and hundreds at Szczecin. The official police account concerns the Warsaw site only and estimates about 1,300 there; figures are not summed. At 20:54 Onet relays police reporting three persons detained after entry into the Tribunal grounds while organizers reported a different count; later RPO/KSP records report 14 arrests for the Warsaw event. These are time-specific and attributed records, not an event-total contradiction resolved by inference. The RPO request and attached KSP response are linked records; Onet is a separate publisher. The Jan28 physical end across sites is unknown; the Warsaw demonstration was still reported at 22:33. Review the national/local unit and Jan27–28 boundary under the original rules. Warsaw and Szczecin turnout figures are site-specific estimates from different cities, not conflicting estimates for one crowd.",
+    "open_questions": [
+      "Determine whether this central multi-city call is one national event or needs local action records under the original event-unit rules.",
+      "Locate the physical departure/dissolution time for Warsaw and other sites; do not infer an endpoint from the liveblog’s closing time.",
+      "Check whether any protest at a listed site was a local action outside the central Women’s Strike call."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "POL202101-E004",
+    "country": "Poland",
+    "ccode": 290,
+    "unit_month": "2021-01",
+    "title": "KOD-led demonstrations for free courts and judges facing repression",
+    "start_date": "2021-01-18",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Kielce and Starachowice, with related pickets reported in many Polish cities; individual sites are not fully listed.",
+    "scope": "national_reported_local_boundaries_unresolved",
+    "organizer": "Komitet Obrony Demokracji - Świętokrzyskie records its own Kielce demonstration and related pickets in multiple cities; the national-level organizer/site relationships are not fully identified.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "No attendance estimate or count reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "The KOD calendar confirms protest activity in several cities but gives no turnout figure for any site. Separate-site counts cannot be aggregated; the 50-person threshold remains unverified.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "POL202101-S008",
+      "POL202101-S038",
+      "POL202101-S039",
+      "POL202101-S040",
+      "POL202101-S041"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "POL202101-S008",
+          "POL202101-S038",
+          "POL202101-S039",
+          "POL202101-S040",
+          "POL202101-S041"
+        ],
+        "summary": "The KOD calendar records Jan18 activity, and a contemporary Łódź report dated Jan18 documents a picket underway. Jan17 local reports and archives announced Kielce actions for the next day; the Białystok article remains blocked and its result is only a plan."
+      },
+      "location": {
+        "source_ids": [
+          "POL202101-S008",
+          "POL202101-S038",
+          "POL202101-S039",
+          "POL202101-S040",
+          "POL202101-S041"
+        ],
+        "summary": "The KOD calendar names Kielce and Starachowice; the opened contemporary Łódź report documents a Piotrkowska picket. Kielce and Białystok articles are pre-event announcements; do not use them alone as execution evidence."
+      },
+      "scope": {
+        "source_ids": [
+          "POL202101-S008",
+          "POL202101-S038",
+          "POL202101-S039",
+          "POL202101-S040",
+          "POL202101-S041"
+        ],
+        "summary": "The calendar and contemporary coverage indicate activity across cities, including a local Łódź picket, but do not settle whether one national event or multiple local actions should be coded."
+      },
+      "organizer": {
+        "source_ids": [
+          "POL202101-S008",
+          "POL202101-S038",
+          "POL202101-S039",
+          "POL202101-S040",
+          "POL202101-S041"
+        ],
+        "summary": "KOD Świętokrzyskie reports organizing the Kielce demonstration; the Łódź report names three local groups including KOD. Białystok/Kielce announcement records are not treated as proof of execution."
+      },
+      "demands": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "The calendar describes the action as defending free courts and judges repressed by PiS."
+      },
+      "participants_original": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No attendance estimate or count is present in the extracted calendar or Łódź passage. Kielce and Białystok pre-event plans do not provide actual turnout. Separate sites are not summed."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No reported attendance at any executed site establishes 50 or more; the national/local group and threshold are unresolved. No separate-site counts are aggregated."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No Jan18 event-specific protester violence is documented in the calendar; unknown."
+      },
+      "state_accommodation": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No event-specific accommodation is documented; unknown."
+      },
+      "state_arrests": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "The calendar does not report Jan18 arrests; unknown."
+      },
+      "state_beatings": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "The calendar does not document a Jan18 beating; unknown."
+      },
+      "state_crowd_dispersal": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "The calendar does not describe event-specific dispersal; unknown."
+      },
+      "state_ignore": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "The calendar does not establish explicit government avoidance/refusal; unknown."
+      },
+      "state_killings": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No event-specific killing is documented; unknown."
+      },
+      "state_shootings": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No event-specific shooting is documented; unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "The calendar does not report a physical end; unknown."
+      }
+    },
+    "eligibility": "pending_unit",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "KOD-free-courts-2021-01-18-national-local-structure-unresolved",
+    "notes": "The organizer calendar and an opened contemporary Łódź report support dated Jan18 protest activity, while local Kielce and Białystok sources include announcements rather than proof of executed meetings. Multiple local actions are documented/reported, but neither a complete site list nor a national-versus-local event unit is established. No turnout figure for an executed site is supported; do not sum sites. This candidate remains pending_unit and is not an approved inclusion.",
+    "open_questions": [
+      "Find contemporary independent turnout evidence for executed sites; do not infer a crowd from the word picket or the number of cities.",
+      "Determine whether the actions were centrally coordinated as one national event or were distinct local actions.",
+      "Confirm actual execution in Kielce and Białystok from sources beyond pre-event announcements."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  },
+  {
+    "candidate_id": "POL202101-E005",
+    "country": "Poland",
+    "ccode": 290,
+    "unit_month": "2021-01",
+    "title": "KOD candle-heart commemoration for Pawel Adamowicz with a call to begin his killer’s trial",
+    "start_date": "2021-01-14",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Kielce city market (Rynek).",
+    "scope": "local",
+    "organizer": "Komitet Obrony Demokracji - Świętokrzyskie",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "No attendance estimate or count reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "The source records a candle-heart ceremony on the market square and an appeal that the trial should begin promptly, but gives no crowd count or evidence of a qualifying gathering of 50 or more. The source does not clearly classify it as a protest rather than a commemorative event.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "POL202101-S008"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "KOD calendar dates the commemoration Jan14, 2021."
+      },
+      "location": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "The ceremony was on Kielce’s market square."
+      },
+      "scope": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "A single Kielce commemoration is described."
+      },
+      "organizer": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "KOD Świętokrzyskie says it organized the candle-heart ceremony."
+      },
+      "demands": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "The calendar says participants appealed for the trial of Pawel Adamowicz’s killer to begin as soon as possible; whether this was addressed to a state institution is not fully clear."
+      },
+      "participants_original": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No crowd estimate or count is provided."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No evidence establishes 50 participants or the event’s protest character."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No event-specific protester violence is documented; unknown."
+      },
+      "state_accommodation": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No event-specific accommodation is documented; unknown."
+      },
+      "state_arrests": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No event-specific arrests are documented; unknown."
+      },
+      "state_beatings": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No event-specific beating is documented; unknown."
+      },
+      "state_crowd_dispersal": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No event-specific dispersal is documented; unknown."
+      },
+      "state_ignore": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No explicit government avoidance/refusal is documented; unknown."
+      },
+      "state_killings": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No event-specific killing is documented; unknown."
+      },
+      "state_shootings": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No event-specific firearm shooting is documented; unknown."
+      },
+      "end_date": {
+        "source_ids": [
+          "POL202101-S008"
+        ],
+        "summary": "No physical end is reported; unknown."
+      }
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "agent_coded_pending_review",
+    "episode_key": "KOD-Adamowicz-commemoration-2021-01-14",
+    "notes": "Preserved as a source-only potential public event because a market-square candle-heart commemoration and an appeal about the criminal process are reported, but attendance and whether the gathering was a protest are not established. The Jan10 police summons described elsewhere in the same calendar concerns the prior Dec13 protest, not an in-scope January gathering. Do not include without attendance and event-character evidence.",
+    "open_questions": [
+      "Determine if the Jan14 ceremony was a public demand-making protest and obtain attendance evidence.",
+      "Clarify whether the call to begin the trial was directed to the state and whether the gathering was open to the public."
+    ],
+    "coordinator_review_status": "not_reviewed",
+    "baseline_gate": "pending_official_baseline",
+    "official_update": false
+  }
+]

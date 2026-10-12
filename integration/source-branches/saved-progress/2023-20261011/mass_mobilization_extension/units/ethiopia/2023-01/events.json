@@ -1,0 +1,152 @@
+[
+  {
+    "candidate_id": "ETH2301-C001",
+    "country": "Ethiopia",
+    "unit_month": "2023-01",
+    "title": "Reported Kekeji protest on 7 January 2023 (partial source read)",
+    "start_date": "2023-01-07",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Kekeji, Shanan Dhuuggoo district, East Hararghe, Oromia, Ethiopia",
+    "scope": "Local-area event; exact assembly site not verified.",
+    "organizer": null,
+    "event_type": "Reported protest; accessible article lead is partial and subscription-limited.",
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "Not established. The accessible lead gives no count and no exact assembly site, so 50 simultaneous physical attendees at one site cannot be verified.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "source_ids": [
+      "S001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001"
+        ],
+        "paraphrase": "The accessible article headline and opening lead place a protest in Kekeji on 7 January 2023."
+      },
+      "location": {
+        "source_ids": [
+          "S001"
+        ],
+        "paraphrase": "The headline names Kekeji in Shanan Dhuuggoo, East Hararghe; the exact assembly site is not supplied in the accessible text."
+      },
+      "event_type": {
+        "source_ids": [
+          "S001"
+        ],
+        "paraphrase": "The partial visible lead identifies a protest; further event details remain behind a subscription gate."
+      },
+      "possible_demand": {
+        "source_ids": [
+          "S001"
+        ],
+        "paraphrase": "A provisional translation of the partial lead indicates a call to remove Prime Minister Abiy Ahmed and mentions WBO/Jaal Marroo support. This translation is uncertain and is not coded as a confirmed own-state policy demand."
+      }
+    },
+    "open_questions": [
+      "Independent contemporaneous account or reliable translation of the accessible lead",
+      "Exact state-directed policy demand and whether it meets the dataset definition",
+      "One-site attendance and 50-person threshold",
+      "Precise assembly site, organizer, physical end, protester violence, and state response",
+      "Whether the reported detentions occurred after and in response to this specific event; accessible text does not establish timing or linkage"
+    ]
+  },
+  {
+    "candidate_id": "ETH2301-C002",
+    "country": "Ethiopia",
+    "unit_month": "2023-01",
+    "title": "Retrospective report of a Welkite water-scarcity demonstration dated 14 January 2023; event details contested",
+    "start_date": "2023-01-14",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Welkite town (reported), Guraghe; exact assembly site unknown",
+    "scope": "One reported public demonstration in Welkite; the source retrospectively dates it to 14 January. Exact site, event boundaries, and casualty linkage are unresolved.",
+    "organizer": null,
+    "event_type": "Reported public demonstration involving jerry-cans over potable-water scarcity; retrospective account.",
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "Not established. The retrospective article provides no verified count of simultaneous physical attendees at a single site.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "eligibility": "pending_evidence",
+    "coding_status": "candidate",
+    "source_ids": [
+      "S003"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S003"
+        ],
+        "paraphrase": "The April retrospective dates the Welkite demonstration to 14 January 2023. This is an attributed retrospective date; casualty references in the same article are ambiguous with a distinct February episode."
+      },
+      "location": {
+        "source_ids": [
+          "S003"
+        ],
+        "paraphrase": "The article identifies Welkite town in Guraghe but not the exact assembly site."
+      },
+      "event_type": {
+        "source_ids": [
+          "S003"
+        ],
+        "paraphrase": "The account describes people carrying jerry-cans during a demonstration associated with potable-water scarcity."
+      },
+      "demand_status": {
+        "source_ids": [
+          "S003"
+        ],
+        "paraphrase": "Water scarcity is the reported grievance. The article’s broader discussion of Guraghe self-administration does not establish it as this gathering’s own direct state-directed demand; no demand category is coded."
+      },
+      "response_status": {
+        "source_ids": [
+          "S003",
+          "S005"
+        ],
+        "paraphrase": "No response or casualty is assigned to the January gathering. The retrospective’s shooting/death passage cites February reporting, while the separate VOA account describes a February event in Welkite with differing casualty accounts."
+      }
+    },
+    "open_questions": [
+      "Independent contemporaneous account of the 14 January gathering and date",
+      "Exact assembly site and one-site attendance threshold",
+      "Whether the water grievance was directed to the Ethiopian state and the precise demand",
+      "Organizer, physical end, protester violence, and state response",
+      "Whether the retrospective’s casualty passage refers to 14 January or the separate February Welkite episode; no Jan 14 casualty/response is coded",
+      "Whether any similar-title Zehabesha result is a republication; it is not treated as independent"
+    ],
+    "context_source_ids": [
+      "S005",
+      "S006"
+    ]
+  }
+]

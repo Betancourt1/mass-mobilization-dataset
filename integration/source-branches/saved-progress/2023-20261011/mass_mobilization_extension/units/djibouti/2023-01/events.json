@@ -1,0 +1,135 @@
+[
+  {
+    "candidate_id": "djibouti_2023-01-E001",
+    "country": "Djibouti",
+    "ccode": 522,
+    "unit_month": "2023-01",
+    "title": "Reported recurring protest demonstrations in the Dikhil region after Obakar’s death",
+    "start_date": null,
+    "start_precision": "unknown",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Dikhil region; FRUD names Dikhil, As-Eyla, and Kouta Bouya.",
+    "scope": "A recurring multi-locality protest lead. Whether the local demonstrations were coordinated as one action or were separate events is unresolved.",
+    "organizer": null,
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Pending. The opened FRUD communiqué and the search-only State Department report provide no attendee count or clear qualitative evidence that any individual gathering reached 50 people.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "S001 describes weekly protest demonstrations across the Dikhil region after the death of Abdoulkader Obakar; the source-attributed title does not assert a verified event."
+      },
+      "start_date": {
+        "source_ids": [
+          "S001",
+          "S002",
+          "S005"
+        ],
+        "summary": "S001 says demonstrations have taken place weekly since the reported killing but gives no first gathering date. S002 says the death triggered protests but gives no protest date. S005 dates the death overnight 30–31 January, not the first protest. Month ownership is unresolved."
+      },
+      "end_date": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The 6 March FRUD communiqué reports weekly demonstrations but does not state a final gathering or end date; publication/last observation is not treated as event end."
+      },
+      "location": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The opened communiqué names the Dikhil region and the localities of Dikhil, As-Eyla, and Kouta Bouya."
+      },
+      "scope": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The statement refers to recurring demonstrations across several localities, but does not establish coordination, a single campaign, or distinct per-site episodes."
+      },
+      "organizer": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "FRUD is the origin of the communiqué reproduced by ARDHD; the source does not identify the protest organizer. Statement origin is not treated as organizer."
+      },
+      "demands": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "The reports connect protests to the death in Dikhil custody but do not state demonstrators’ demands or establish a specific demand directed to Djibouti’s government or policy."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Neither source supplies an attendance estimate for an individual gathering."
+      },
+      "participants_min": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "No numeric lower bound is reported or directly derivable."
+      },
+      "participants_max": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "No numeric upper bound is reported or directly derivable."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S001",
+          "S002"
+        ],
+        "summary": "Neither source provides a headcount or qualitative scale that establishes 50 attendees at any gathering."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The communiqué does not describe protester violence. Silence is coded unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "No response to the Obakar-related demonstrations is described. Separate 5–6 March Gobaad raids/clashes are reported in a land-settlement context and are not attributed to this lead; all seven response fields remain unknown."
+      }
+    },
+    "eligibility": "pending_unit",
+    "coding_status": "candidate",
+    "episode_key": null,
+    "notes": "This is an unresolved source-attributed lead, not a January event inclusion. S001 is a FRUD communiqué reproduced by ARDHD, not an independent confirmation. The reported death date differs across sources (30 January in S001, 31 January in the State Department search result, overnight 30–31 January in the CNDH search result); none dates the first physical demonstration. No demand, attendee count, named protest organizer, per-site schedule, or event end is supplied. The Gobaad land protests and 5–6 March clashes in S001 are separate context and are not merged into this candidate.",
+    "open_questions": [
+      "Did a physical protest begin in January 2023, and on what date? The source dates the precipitating death but not any gathering.",
+      "What exact demand, if any, was directed to the Djiboutian government or its policy?",
+      "Did any individual public gathering reach 50 people?",
+      "Were Dikhil, As-Eyla, and Kouta Bouya part of one coordinated campaign or separate local episodes, and when did each occur?",
+      "What was the last physical gathering? The 6 March report is a last observation, not an established end date.",
+      "Was there event-specific protester violence or a state response? The current source does not establish either."
+    ]
+  }
+]

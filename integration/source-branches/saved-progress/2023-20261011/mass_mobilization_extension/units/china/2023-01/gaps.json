@@ -1,0 +1,82 @@
+[
+  {
+    "gap_id":"china_2023-01_G001",
+    "type":"baseline",
+    "description":"The official Mass Mobilization baseline version, January 2023 universe, schema/coding rules, licensing, and original source status have not been checked. Open-web candidates are not official rows and no absence claim is made.",
+    "source_ids":[],
+    "affected_candidates":["china_2023-01_E001","china_2023-01_E002","china_2023-01_E003","china_2023-01_E004","china_2023-01_E005"],
+    "required_followup":"Coordinator should compare the frozen candidates and evidence with the authorized original dataset and codebook before any consolidation or official-status language."
+  },
+  {
+    "gap_id":"china_2023-01_G002",
+    "type":"participants",
+    "description":"Attendance is unquantified for the bank-depositor action, Luyi fireworks-ban crowd, Yancheng nurses' strike, and Luochuan hospital gathering. ‘Large group,’ ‘crowds,’ and ‘collectively’ do not establish a numeric minimum. The 300+ Luochuan temporary staff and roughly 100 Wuning workers are affected-workforce figures, not protesters.",
+    "source_ids":["china_2023-01_S002","china_2023-01_S004","china_2023-01_S005","china_2023-01_S006"],
+    "affected_candidates":["china_2023-01_E001","china_2023-01_E002","china_2023-01_E004","china_2023-01_E005"],
+    "required_followup":"Seek event-specific direct counts or clear qualitative estimates from identifiable reports/video. Keep affected-worker, injury, vehicle, arrest, and police counts separate from attendee counts."
+  },
+  {
+    "gap_id":"china_2023-01_G003",
+    "type":"state_target",
+    "description":"The own-state/policy target is unresolved for several labor and depositor actions. Bank depositors petitioned at a reported regulator venue but slogans addressed banks; Chongqing grievances name a private employer/dispatch agencies and state negotiations are only a response; hospital workers' insurance grievances could concern employer compliance without an explicit state demand.",
+    "source_ids":["china_2023-01_S001","china_2023-01_S004","china_2023-01_S005","china_2023-01_S006"],
+    "affected_candidates":["china_2023-01_E001","china_2023-01_E003","china_2023-01_E004","china_2023-01_E005"],
+    "required_followup":"Look for event-specific slogans, petition text, or direct reporting that identifies demands to a Chinese government body or policy; do not treat police/government negotiation or employer ownership as sufficient by itself."
+  },
+  {
+    "gap_id":"china_2023-01_G004",
+    "type":"episode_unit",
+    "description":"Physical event boundaries are uncertain for the New Year's Day depositor mobilization: reports describe many people traveling from several places, a highway march toward Zhengzhou, and a subset petitioning at the regulator. Campaign continuity from 2022 is explicit, but it does not prove that every arrival/action was one meeting. RFA also notes a Nanjing crowd at a Sun Yat-sen statue on 31 December 2022 without establishing it as a protest or January continuation.",
+    "source_ids":["china_2023-01_S002","china_2023-01_S005","china_2023-01_S006"],
+    "affected_candidates":["china_2023-01_E001","china_2023-01_E002"],
+    "required_followup":"Identify exact sites and sequence, compare with prior-month physical episodes, and keep the Nanjing lead outside January unless a protest and continuation are established."
+  },
+  {
+    "gap_id":"china_2023-01_G005",
+    "type":"dates",
+    "description":"Start dates are reported for the five candidates, but no source establishes a physical end date for any gathering/strike. A separate Wuning loader-at-gate account is tied to a 15 January social-media post rather than a verified action date, so it is excluded from events pending a dated source.",
+    "source_ids":["china_2023-01_S001","china_2023-01_S002","china_2023-01_S004","china_2023-01_S005","china_2023-01_S006"],
+    "affected_candidates":["china_2023-01_E001","china_2023-01_E002","china_2023-01_E003","china_2023-01_E004","china_2023-01_E005","china_2023-01_X003"],
+    "required_followup":"Find event-specific reports on when each physical action ended. For Wuning, locate the original post/video and establish its physical action date before assigning a month."
+  },
+  {
+    "gap_id":"china_2023-01_G006",
+    "type":"state_response",
+    "description":"Response details remain source-limited: Luyi's six arrests are attributed to a police statement; RFA reports that some bank petitioners were taken to a police station but does not independently verify the claim; NTD reports police tried to disperse Luochuan staff and alleges shoving, while a video voice's beating claim is unverified. No-event silence is not coded as ‘ignore.’",
+    "source_ids":["china_2023-01_S002","china_2023-01_S004","china_2023-01_S006"],
+    "affected_candidates":["china_2023-01_E001","china_2023-01_E002","china_2023-01_E005"],
+    "required_followup":"Seek event-specific independent accounts or official statements and distinguish police presence, dispersal, transport to a station, formal arrest, and alleged beating."
+  },
+  {
+    "gap_id":"china_2023-01_G007",
+    "type":"source_independence",
+    "description":"The two bank-depositor articles cite online video/social accounts and do not provide independent event verification; RFA expressly says it could not verify the messages/videos. NTD's Luochuan, Yancheng, and Wuning lead is one roundup based on social posts/videos. RFA's Chongqing attendance caption attributes the word ‘hundreds’ to Reuters, whose article was not opened.",
+    "source_ids":["china_2023-01_S001","china_2023-01_S004","china_2023-01_S005","china_2023-01_S006"],
+    "affected_candidates":["china_2023-01_E001","china_2023-01_E003","china_2023-01_E004","china_2023-01_E005"],
+    "required_followup":"Map each article to its original video/interview/newswire, check syndicated or shared-source relationships, and avoid counting outlet copies as independent corroboration."
+  },
+  {
+    "gap_id":"china_2023-01_G008",
+    "type":"language",
+    "description":"Most opened material was in simplified Chinese; the Luyi RFA page is an English translation that credits a Mandarin original. No independent translation check or additional non-English regional news search was completed.",
+    "source_ids":["china_2023-01_S001","china_2023-01_S002","china_2023-01_S004","china_2023-01_S005","china_2023-01_S006"],
+    "affected_candidates":["china_2023-01_E001","china_2023-01_E002","china_2023-01_E003","china_2023-01_E004","china_2023-01_E005"],
+    "required_followup":"Check source-language pages and relevant regional-language reporting if the coordinator needs stronger event confirmation; preserve attributed wording and translation uncertainty."
+  },
+  {
+    "gap_id":"china_2023-01_G009",
+    "type":"coverage",
+    "description":"This was a bounded open-web first pass across general, weekly, labor, bank, fireworks, health-insurance, and regional/local Chinese and English queries. It is not exhaustive across China's provinces, platforms, or language variants, and search visibility may be affected by censorship/deletion. Q001-Q013 search headers are preserved; no LexisNexis or systematic newspaper/archive access was used.",
+    "source_ids":["china_2023-01_S001","china_2023-01_S002","china_2023-01_S004","china_2023-01_S005","china_2023-01_S006"],
+    "affected_candidates":[],
+    "required_followup":"If broader coverage is needed, run an independently documented archive/database search with region- and sector-specific Chinese terms and compare it with this captured query set."
+  },
+  {
+    "gap_id":"china_2023-01_G010",
+    "type":"contested_evidence",
+    "description":"Several claims are explicitly unverified or attributed to social-media videos: the bank-destination and yellow-code account, Luochuan police-beating allegation, and Wuning action date/loader account. These have been preserved as reported claims rather than verified outcomes.",
+    "source_ids":["china_2023-01_S004","china_2023-01_S005","china_2023-01_S006"],
+    "affected_candidates":["china_2023-01_E001","china_2023-01_E005","china_2023-01_X003"],
+    "required_followup":"Review original public posts/videos or independent contemporary reporting; resolve source and date before upgrading any claim."
+  }
+]

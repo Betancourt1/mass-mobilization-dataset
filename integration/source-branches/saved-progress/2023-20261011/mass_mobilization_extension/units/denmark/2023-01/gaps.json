@@ -1,0 +1,145 @@
+[
+  {
+    "gap_id": "denmark_2023-01_G001",
+    "type": "baseline",
+    "description": "The authoritative current Mass Mobilization dataset, country universe, schema, reuse terms and additional official Coding Procedure were not verified for this unit. Ccode 390 remains provisional; all candidate IDs and eligibility decisions are local worker proposals.",
+    "source_ids": [],
+    "affected_candidates": [
+      "denmark_2023-01_E001",
+      "denmark_2023-01_E002",
+      "denmark_2023-01_E003"
+    ],
+    "required_followup": "Coordinator should verify the official baseline bytes, codebook/Coding Procedure, universe, schema and reuse terms before any mapping or integration."
+  },
+  {
+    "gap_id": "denmark_2023-01_G002",
+    "type": "state_target",
+    "description": "The Jan 12 construction-worker gathering clearly supported private-sector negotiators and raised wage/social-dumping bargaining demands. A proposed holiday abolition and working hours were described as important issues, but the opened account does not attribute a direct government demand to this gathering.",
+    "source_ids": [
+      "S019"
+    ],
+    "affected_candidates": [
+      "denmark_2023-01_E001"
+    ],
+    "required_followup": "Find an original participant/organizer statement or independent contemporary report that distinguishes a Danish government-policy demand from private employer bargaining."
+  },
+  {
+    "gap_id": "denmark_2023-01_G003",
+    "type": "source_independence",
+    "description": "Only Netavisen Pio’s Jan 12 body was opened for the construction-worker event. Solidaritet was technically inaccessible; Arbejderen, Fagbladet 3F and DI are search-only leads and have not been compared for shared text, agency or direct observation.",
+    "source_ids": [
+      "S001",
+      "S019",
+      "S020",
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [
+      "denmark_2023-01_E001"
+    ],
+    "required_followup": "If permitted by fresh exact-URL checks, inspect the relevant original bodies and record direct observation, syndication and organizational interests before treating accounts as independent."
+  },
+  {
+    "gap_id": "denmark_2023-01_G004",
+    "type": "participants",
+    "description": "The Jan 21 Louis Vuitton lead is search-only and the first exact-URL body request returned Cache miss; the snippet says only “a group.” The Jan 28 Max Mara accounts also give no physical count. Neither fur gathering is shown to meet 50 participants.",
+    "source_ids": [
+      "S018",
+      "S011",
+      "S016"
+    ],
+    "affected_candidates": [
+      "denmark_2023-01_E002",
+      "denmark_2023-01_E003"
+    ],
+    "required_followup": "Seek a lawful, fresh-receipt-checked contemporary source that counts physical participants at each site; do not infer attendance from photographs or article wording alone."
+  },
+  {
+    "gap_id": "denmark_2023-01_G005",
+    "type": "state_target",
+    "description": "The fur-action reports identify private retailer targets and opposition to fur use, but no demand to the Danish government or its policy. The local provisional category list has no animal-welfare/fur demand category.",
+    "source_ids": [
+      "S011",
+      "S016",
+      "S018"
+    ],
+    "affected_candidates": [
+      "denmark_2023-01_E002",
+      "denmark_2023-01_E003"
+    ],
+    "required_followup": "Review full organizer materials or contemporary coverage for an explicit Danish state-policy demand; if none is documented, retain these as private-target exclusions after review."
+  },
+  {
+    "gap_id": "denmark_2023-01_G006",
+    "type": "episode_unit",
+    "description": "S011 describes the Jan 21 Louis Vuitton action as a previous-weekend action with the same message as Jan 28 Max Mara. Identity, organizers and continuity are not established. The same issue does not by itself justify merging local dates/sites.",
+    "source_ids": [
+      "S011",
+      "S018",
+      "S016"
+    ],
+    "affected_candidates": [
+      "denmark_2023-01_E002",
+      "denmark_2023-01_E003"
+    ],
+    "required_followup": "Check dated organizer records and December/February boundaries for shared organization or distinct actions; keep the two dates/sites separate unless evidence supports a documented episode decision."
+  },
+  {
+    "gap_id": "denmark_2023-01_G007",
+    "type": "contested_evidence",
+    "description": "For the Jan 28 Max Mara action, Presse-fotos describes a calm gathering and police presence for order; Arbejderen reports an abrupt forceful ending, an administrative detention and shoves. No primary police or video evidence was reviewed.",
+    "source_ids": [
+      "S011",
+      "S016"
+    ],
+    "affected_candidates": [
+      "denmark_2023-01_E003"
+    ],
+    "required_followup": "Obtain an independent primary account or additional contemporary reporting and preserve source attribution; verify exact response and physical end time without treating shoves as a beating."
+  },
+  {
+    "gap_id": "denmark_2023-01_G008",
+    "type": "state_target",
+    "description": "Paludan’s three site stops and a possible Soundbox counter-action are described, but no Danish government-policy demand is established. At the first site, about 100 people are described as watching without roles separated; later site participant counts are absent.",
+    "source_ids": [
+      "S007",
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [
+      "denmark_2023-01_X003",
+      "denmark_2023-01_X004",
+      "denmark_2023-01_X005",
+      "denmark_2023-01_X006"
+    ],
+    "required_followup": "For any reconsideration, distinguish demonstrator(s), counter-demonstrators, supporters, spectators and police at each site; establish an actual 50-person assembly and a demand on Danish policy."
+  },
+  {
+    "gap_id": "denmark_2023-01_G009",
+    "type": "source_access",
+    "description": "S001 (Solidaritet) and S018 (Presse-fotos LV) returned technical Cache miss errors; S001’s ordinary HTTPS attempt failed at DNS without HTTP. AP-linked S012/S013 remain under the inherited Associated Press hold and were not requested. DR/TV2 domain searches returned robots.txt errors only; no source-page denial is claimed.",
+    "source_ids": [
+      "S001",
+      "S012",
+      "S013",
+      "S018"
+    ],
+    "affected_candidates": [
+      "denmark_2023-01_E001",
+      "denmark_2023-01_E002"
+    ],
+    "required_followup": "Preserve the AP hold. For technical failures, use only a new exact-URL receipt and manual review before any later attempt; do not relabel technical errors as denial. Seek accessible permitted Danish reporting for the open leads."
+  },
+  {
+    "gap_id": "denmark_2023-01_G010",
+    "type": "coverage",
+    "description": "This is a bounded Danish/English open-web pass, not a LexisNexis-equivalent archive search or an absence finding. There was no systematic review of local/regional print archives, union records, Greenlandic/Faroese materials or all Danish-language regional outlets. DR and TV2 site searches failed at the tool’s robots boundary.",
+    "source_ids": [],
+    "affected_candidates": [
+      "denmark_2023-01_E001",
+      "denmark_2023-01_E002",
+      "denmark_2023-01_E003"
+    ],
+    "required_followup": "A reviewer should extend coverage through permitted local/regional and sector archives, and document language/outlet limits and unsuccessful searches without inferring that no other events occurred."
+  }
+]

@@ -1,0 +1,228 @@
+[
+  {
+    "gap_id": "BEL202301-G001",
+    "type": "attendance_threshold",
+    "description": "E002 firefighters action has conflicting figures: BX1 headline says 200, BX1 body describes about 50 at first plus arrivals, and Brussels Times reports a delegation. Final unique attendance is not reconciled.",
+    "source_ids": [
+      "BEL202301-S004",
+      "BEL202301-S005"
+    ],
+    "affected_candidates": [
+      "BEL202301-E002"
+    ],
+    "required_followup": "Find a contemporary source establishing whether at least 50 distinct participants attended."
+  },
+  {
+    "gap_id": "BEL202301-G002",
+    "type": "attendance_threshold",
+    "description": "E004 Ostend report combines strike participants and demonstrators in an approximately 400 figure. The distinct public-gathering count is unknown.",
+    "source_ids": [
+      "BEL202301-S012",
+      "BEL202301-S013"
+    ],
+    "affected_candidates": [
+      "BEL202301-E004"
+    ],
+    "required_followup": "Find source separating workers who struck from people who attended the public action."
+  },
+  {
+    "gap_id": "BEL202301-G003",
+    "type": "attendance_threshold",
+    "description": "E008 VRT’s 70–80 estimate is a pre-event forecast; BRUZZ confirms a gathering but reports no realized turnout.",
+    "source_ids": [
+      "BEL202301-S015",
+      "BEL202301-S016"
+    ],
+    "affected_candidates": [
+      "BEL202301-E008"
+    ],
+    "required_followup": "Find post-event attendance evidence for the gathering outside Groen headquarters."
+  },
+  {
+    "gap_id": "BEL202301-G004",
+    "type": "attendance_threshold",
+    "description": "E009 Belga confirms farmers and tractors at the N-VA reception entrance but does not give participant attendance; the party reports thousands of its own members inside.",
+    "source_ids": [
+      "BEL202301-S027",
+      "BEL202301-S028"
+    ],
+    "affected_candidates": [
+      "BEL202301-E009"
+    ],
+    "required_followup": "Find a contemporary count of people protesting outside, kept distinct from tractors and party-reception attendees."
+  },
+  {
+    "gap_id": "BEL202301-G005",
+    "type": "possible_duplicate_or_separate_event",
+    "description": "A Stuut title announces a 12 January Sourour commemoration, while VICE reports a gathering on 15 January. The Stuut page timed out before its contents could be read; occurrence and relationship remain unresolved.",
+    "source_ids": [
+      "BEL202301-S030",
+      "BEL202301-S051",
+      "BEL202301-S023"
+    ],
+    "affected_candidates": [
+      "BEL202301-E007"
+    ],
+    "required_followup": "Establish whether a separate 12 January gathering occurred and whether it meets attendance and domestic-state-target criteria; do not merge dates without evidence."
+  },
+  {
+    "gap_id": "BEL202301-G006",
+    "type": "source_access",
+    "description": "The exact AP care-sector article is under an inherited AP manual hold confirmed by the parent. No body or AP-written copy was requested. This is historical access evidence, not a fresh target-specific AP denial in this run.",
+    "source_ids": [
+      "BEL202301-S002"
+    ],
+    "affected_candidates": [
+      "BEL202301-E001"
+    ],
+    "required_followup": "No retry or AP copy request in this run; coordinator may retain the saved restriction and source gap."
+  },
+  {
+    "gap_id": "BEL202301-G007",
+    "type": "source_access",
+    "description": "Q028’s exact HLN search response reported a robots.txt block. The Ostend report attributes its 400 combined strike/protest figure to HLN, but no HLN article or alternate host was opened.",
+    "source_ids": [
+      "BEL202301-S034",
+      "BEL202301-S013"
+    ],
+    "affected_candidates": [
+      "BEL202301-E004"
+    ],
+    "required_followup": "Keep the robots restriction; use permitted independent sources if further verification is needed."
+  },
+  {
+    "gap_id": "BEL202301-G008",
+    "type": "technical_retrieval",
+    "description": "Technical retrieval failures left BIPMedia, DeWereldMorgen, L-Post, the BRUZZ firefighters/police pages, RTBF and the Observatoire event page unread. DNS/cache/internal failures are not denials; observed 403 responses for BRUZZ firefighters and De Standaard are recorded separately.",
+    "source_ids": [
+      "BEL202301-S006",
+      "BEL202301-S008",
+      "BEL202301-S014",
+      "BEL202301-S007",
+      "BEL202301-S018",
+      "BEL202301-S019",
+      "BEL202301-S024"
+    ],
+    "affected_candidates": [
+      "BEL202301-E001",
+      "BEL202301-E002",
+      "BEL202301-E006",
+      "BEL202301-E007"
+    ],
+    "required_followup": "Do not retry pages with observed 403 or timeout; consider only permitted sources and retain technical versus denial distinctions."
+  },
+  {
+    "gap_id": "BEL202301-G009",
+    "type": "event_eligibility",
+    "description": "The 22 January Vandecasteele rally demanded release by Iran while also asking Belgian officials to exert pressure. Inclusion assumes the explicit demand to Belgian officials meets the domestic state-policy target criterion.",
+    "source_ids": [
+      "BEL202301-S010",
+      "BEL202301-S011"
+    ],
+    "affected_candidates": [
+      "BEL202301-E003"
+    ],
+    "required_followup": "Coordinator review of domestic state-target interpretation."
+  },
+  {
+    "gap_id": "BEL202301-G010",
+    "type": "continuity_and_end",
+    "description": "Physical ending dates and post-event continuity were not established for the January candidates; no end date is inferred from last publication, scheduled speeches or month boundary.",
+    "source_ids": [
+      "BEL202301-S001",
+      "BEL202301-S009",
+      "BEL202301-S004",
+      "BEL202301-S005",
+      "BEL202301-S010",
+      "BEL202301-S011",
+      "BEL202301-S012",
+      "BEL202301-S013",
+      "BEL202301-S022",
+      "BEL202301-S017",
+      "BEL202301-S017",
+      "BEL202301-S021",
+      "BEL202301-S023",
+      "BEL202301-S021",
+      "BEL202301-S015",
+      "BEL202301-S016",
+      "BEL202301-S027",
+      "BEL202301-S028"
+    ],
+    "affected_candidates": [
+      "BEL202301-E001",
+      "BEL202301-E002",
+      "BEL202301-E003",
+      "BEL202301-E004",
+      "BEL202301-E005",
+      "BEL202301-E006",
+      "BEL202301-E007",
+      "BEL202301-E008",
+      "BEL202301-E009"
+    ],
+    "required_followup": "For each retained candidate, seek direct evidence of physical end and evidence before/after the month for continuity or duplication."
+  },
+  {
+    "gap_id": "BEL202301-G011",
+    "type": "responses_and_violence",
+    "description": "State response variables and protester violence remain unknown unless an event-specific response is explicitly reported. A custody death is not coded as violence at the later Sourour gathering; unassigned “bangs” are not attributed.",
+    "source_ids": [
+      "BEL202301-S001",
+      "BEL202301-S009",
+      "BEL202301-S004",
+      "BEL202301-S005",
+      "BEL202301-S023",
+      "BEL202301-S021"
+    ],
+    "affected_candidates": [
+      "BEL202301-E001",
+      "BEL202301-E002",
+      "BEL202301-E007"
+    ],
+    "required_followup": "Only update response or violence fields with event-specific source evidence; preserve unknown elsewhere."
+  },
+  {
+    "gap_id": "BEL202301-G012",
+    "type": "search_lead_date",
+    "description": "Searches surfaced a Gent budget protest headline (HLN/PZC) but the event date is unverified and search metadata suggests it may be outside January 2023. It remains a search-only lead, not a candidate.",
+    "source_ids": [
+      "BEL202301-S034",
+      "BEL202301-S035"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify the exact date from an accessible permitted source before assigning the event to any month."
+  },
+  {
+    "gap_id": "BEL202301-G013",
+    "type": "source_independence",
+    "description": "BRUZZ’s 31 January report credits Belga; related Belga and some syndicated pages do not constitute separate independent counts. Other source relationships remain unverified unless stated.",
+    "source_ids": [
+      "BEL202301-S001",
+      "BEL202301-S038",
+      "BEL202301-S039"
+    ],
+    "affected_candidates": [
+      "BEL202301-E001"
+    ],
+    "required_followup": "Coordinator should verify origin chains before treating reports as independent corroboration."
+  },
+  {
+    "gap_id": "BEL202301-G014",
+    "type": "baseline_and_method",
+    "description": "Current official baseline, full country-month universe and reuse terms remain unverified; the consulted 2015 manual refers to an additional Coding Procedure that was unavailable. Open-web searches cannot reproduce LexisNexis or support an exhaustive absence claim.",
+    "source_ids": [
+      "BEL202301-S031"
+    ],
+    "affected_candidates": [
+      "BEL202301-E001",
+      "BEL202301-E002",
+      "BEL202301-E003",
+      "BEL202301-E004",
+      "BEL202301-E005",
+      "BEL202301-E006",
+      "BEL202301-E007",
+      "BEL202301-E008",
+      "BEL202301-E009"
+    ],
+    "required_followup": "Coordinator review against the official baseline and any current supplementary coding instructions when available."
+  }
+]

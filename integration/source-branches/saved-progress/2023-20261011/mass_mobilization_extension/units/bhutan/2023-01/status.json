@@ -1,0 +1,22 @@
+{
+  "unit_id": "bhutan_2023-01",
+  "country": "Bhutan",
+  "month": "2023-01",
+  "agent_task": "/root/bhutan_2023_01_retry",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T06:59:31.550838+00:00",
+  "first_observed_at": "2026-10-10T07:00:53.990000+00:00",
+  "finished_at": "2026-10-10T07:30:39.584610+00:00",
+  "recorded_at": "2026-10-10 07:30:39 UTC",
+  "n_queries": 26,
+  "n_sources": 6,
+  "n_candidates": 0,
+  "n_excluded": 4,
+  "n_continuations": 0,
+  "n_gaps": 5,
+  "coverage_assessment": "Bounded open-web first pass: 26 captured search records, consisting of the preserved original 25-header query and 25 current-worker queries across English, Nepali-script and Dzongkha-script searches; local and sector searches; four weekly windows; regional refugee, boundary, and retrospective searches. Six source cards, four screening exclusions, and zero qualifying January assembly candidates. Local-language, archive, district, and newspaper/ePaper coverage remain incomplete; zero candidates is not event absence.",
+  "baseline_gate": "pending_official_baseline",
+  "timestamp_note": "started_at is the parent-saved successful restart timestamp in assignment.json; first_observed_at is the first new query execution. Access checks retain their exact timestamps. Exact web-open response times were not exposed; opened-source accessed_at fields remain null.",
+  "temporary_resources_started": [],
+  "temporary_resources_remaining": []
+}

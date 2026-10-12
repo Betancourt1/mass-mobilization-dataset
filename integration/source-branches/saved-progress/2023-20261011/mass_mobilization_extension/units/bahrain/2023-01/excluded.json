@@ -1,0 +1,100 @@
+[
+  {
+    "candidate_id": "bahrain_2023-01_X001",
+    "title": "Ras al-Rumman Quran-burning sit-in",
+    "date": "2023-01-27",
+    "date_precision": "day",
+    "source_ids": [
+      "S001"
+    ],
+    "reason": "Provisional foreign-state-target-only screen-out based on the opened event account: the body attributes the gathering to Swedish authorities’ allowance of Quran burning and reports chants condemning that act. It does not report an attendee demand directed at Bahrain government or policy. Search-only Shiite News S006 raises an unresolved conflicting Bahrain-ban lead, so the screen-out remains provisional pending body-level evidence.",
+    "notes": "Bahrain Mirror reports a public sit-in in Ras al-Rumman led by Sayed Majeed Al-Mashaal on January 27. Attendance is described as “Dozens”; the ≥50 threshold is unresolved, not coded below 50. The opened report attributes the gathering to Sweden’s allowance of Quran burning and does not state a Bahrain-policy demand in the body read. It also reports that authorities prevented the originally planned Beit Al Quran gathering and that some would-be participants heading to the intended gathering were taken into custody. The venue prevention is separate context, and the custody report is scoped as a pre-gathering response, not arrests of the executed Ras al-Rumman crowd. No dispersal of that executed sit-in is reported. Search-only Shiite News S006 raises a possible conflicting domestic-ban account; because its article body was not available, it remains an unresolved lead and the foreign-target screen-out is provisional.",
+    "field_evidence": {
+      "occurrence_date": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Body lines 34-35 identify a sit-in held Friday, January 27, 2023."
+      },
+      "location": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Body line 34 identifies Ras al-Rumman, Bahrain."
+      },
+      "organizer": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Body line 34 says it was led by Sayed Majeed Al-Mashaal, head of the Ulama Council."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Body line 34 uses the qualitative word ‘Dozens’; it does not give a numeric count."
+      },
+      "target": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Body lines 34-35 attribute the event to the Swedish authorities' action and slogans condemning it; no Bahrain policy target is reported in the body read."
+      },
+      "state_arrests": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Body line 37 says a number of would-be participants heading to the intended gathering were taken into custody. This is reported as a pre-gathering response, not arrests of the executed Ras al-Rumman sit-in crowd."
+      },
+      "state_crowd_dispersal": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "The opened body does not report Bahraini authorities dispersing the executed Ras al-Rumman sit-in. It reports prevention of the originally planned Beit Al Quran gathering and an organizer venue change; those facts are recorded separately as venue prevention."
+      },
+      "reported_venue_prevention": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "Body line 37 says Bahraini authorities prevented the originally planned Beit Al Quran gathering and organizers changed venue. This is pre-gathering venue prevention, not evidence that authorities dispersed the later executed Ras al-Rumman sit-in."
+      }
+    },
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "protester_violence": "unknown",
+    "response_limitations": "The gathering is provisionally screened out, with the S006 domestic-target lead unresolved. The source reports custody of would-be participants heading to the initially intended gathering as a pre-gathering response, not arrests of the executed Ras al-Rumman crowd. Planned Beit Al Quran venue prevention is retained separately and does not establish dispersal of the executed sit-in; crowd-dispersal is unknown. Accommodation, beatings, ignore, killings, shootings, and protester violence are unknown. Silence is coded unknown.",
+    "start_date": "2023-01-27",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Ras al-Rumman, Bahrain",
+    "organizer": "Sayed Majeed Al-Mashaal, head of the Ulama Council (as reported)",
+    "target": "Swedish authorities’ allowance of Quran burning, as described in the opened report; no Bahrain-government policy demand stated in the body read.",
+    "participants_original": "Dozens",
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "qualitative_unbounded",
+    "threshold_50_evidence": "The report says “Dozens” without a numeric range. The evidence does not establish either ≥50 or <50."
+  },
+  {
+    "candidate_id": "bahrain_2023-01_X002",
+    "title": "Jaw prison communication boycott / threatened hunger strike lead",
+    "date": null,
+    "date_precision": "unknown",
+    "source_ids": [
+      "S004",
+      "S005",
+      "S008"
+    ],
+    "reason": "Lead-only: currently surfaced evidence concerns a prison communication/visitation boycott, a threatened hunger strike, and a prison letter. No body-verified public assembly is reported.",
+    "notes": "This is an exclusion from the public-assembly event list, not a finding that the private/in-prison action occurred or did not occur. No outside solidarity meeting is verified. Prisoner/signatory totals must never be used as public attendance; an announcement or threat is not execution."
+  }
+]

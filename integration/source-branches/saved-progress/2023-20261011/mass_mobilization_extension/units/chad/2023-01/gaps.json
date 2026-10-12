@@ -1,0 +1,71 @@
+[
+  {
+    "gap_id": "CHD202301-G001",
+    "type": "participants",
+    "description": "The 12 January Top 20 Octobre press conference is reported, but no attendance count or evidence that it was an open public protest gathering is given. The three named speakers do not establish protest attendance.",
+    "source_ids": [
+      "CHD202301-S001"
+    ],
+    "affected_candidates": [
+      "CHD202301-E001"
+    ],
+    "required_followup": "Seek contemporaneous local coverage or a public recording that establishes the meeting format and attendance; otherwise keep eligibility pending threshold."
+  },
+  {
+    "gap_id": "CHD202301-G002",
+    "type": "episode_unit",
+    "description": "The Top 20 Octobre movement announced future information and mobilization activities, including sit-ins across 23 regions, without dates. Search results do not establish that any announced action occurred in January.",
+    "source_ids": [
+      "CHD202301-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search contemporaneous regional outlets for dated, physically executed actions; create separate candidates only when an in-month action and evidence support it."
+  },
+  {
+    "gap_id": "CHD202301-G003",
+    "type": "source_access",
+    "description": "The BandeInfo article about the Doba SET strike remained unopened after two exact-URL attempts returned Cache miss with no HTTP status. The failures are technical and do not establish a publisher denial.",
+    "source_ids": [
+      "CHD202301-S002"
+    ],
+    "affected_candidates": [
+      "CHD202301-E002"
+    ],
+    "required_followup": "Retry only after a new access check for the same raw URL, or find an independent contemporaneous report; preserve search_only status until body evidence is obtained."
+  },
+  {
+    "gap_id": "CHD202301-G004",
+    "type": "participants",
+    "description": "The search-result text for the Doba SET strike gives no participant or workplace count, and does not establish whether the labor action became a public protest rather than remaining a workplace stoppage or negotiation.",
+    "source_ids": [
+      "CHD202301-S002"
+    ],
+    "affected_candidates": [
+      "CHD202301-E002"
+    ],
+    "required_followup": "Find reliable attendance/workplace evidence and details of any public demonstration or direct public demand; do not infer participation from union membership."
+  },
+  {
+    "gap_id": "CHD202301-G005",
+    "type": "episode_unit",
+    "description": "A 3 January Tchadinfos article mentions an unspecified teachers’ strike among disruptions during the first school term that ended around the year-end break. Its dates, places, demands, and relationship to the separate 16–18 January Doba lead are not stated.",
+    "source_ids": [
+      "CHD202301-S003"
+    ],
+    "affected_candidates": [
+      "CHD202301-E002"
+    ],
+    "required_followup": "Locate the underlying contemporary strike reports and dates; do not merge it with the Doba lead or assign it to January without evidence."
+  },
+  {
+    "gap_id": "CHD202301-G006",
+    "type": "coverage",
+    "description": "This was a documented open-web first pass using English, French, and Arabic queries, weekly windows, regional/place-name, sector, local-outlet, and international-outlet searches. It does not reproduce LexisNexis coverage; no systematic archive access or search in every Chadian language was available, and search results do not establish absence of events.",
+    "source_ids": [],
+    "affected_candidates": [
+      "CHD202301-E001",
+      "CHD202301-E002"
+    ],
+    "required_followup": "Continue with accessible Chadian and regional press archives, relevant local-language queries, union/official statements, and dated reports for the announced actions; report remaining coverage limits."
+  }
+]
