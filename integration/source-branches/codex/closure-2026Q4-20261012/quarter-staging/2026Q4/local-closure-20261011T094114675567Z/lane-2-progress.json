@@ -1,0 +1,50 @@
+{
+  "lane": 2,
+  "scope": {
+    "start": "2026-10-01",
+    "end": "2026-10-07",
+    "cutoff_timezone": "America/Mexico_City"
+  },
+  "state": "RUNNING_BOUNDED_DISCOVERY",
+  "updated_at_utc": "2026-10-11T03:06:30Z",
+  "processed_count": 12,
+  "pending_count": 27,
+  "processed": [
+    {"batch":2,"unit":"armenia_2026-10","status":"bounded_no_candidate"},
+    {"batch":3,"unit":"bangladesh_2026-10","status":"candidate_found"},
+    {"batch":4,"unit":"bhutan_2026-10","status":"bounded_no_candidate"},
+    {"batch":5,"unit":"brazil_2026-10","status":"candidate_found"},
+    {"batch":6,"unit":"cambodia_2026-10","status":"bounded_no_candidate"},
+    {"batch":7,"unit":"central_african_republic_2026-10","status":"bounded_no_candidate"},
+    {"batch":8,"unit":"colombia_2026-10","status":"bounded_no_candidate"},
+    {"batch":9,"unit":"costa_rica_2026-10","status":"bounded_no_candidate"},
+    {"batch":10,"unit":"czech_republic_2026-10","status":"bounded_no_candidate"},
+    {"batch":11,"unit":"ecuador_2026-10","status":"bounded_no_candidate"},
+    {"batch":12,"unit":"eritrea_2026-10","status":"bounded_no_candidate"},
+    {"batch":13,"unit":"france_2026-10","status":"candidate_found"}
+  ],
+  "candidates": [
+    {"unit":"bangladesh_2026-10","event_date":"2026-10-05","summary":"Battery-run rickshaw drivers staged a sit-in/road blockade and procession at Dhaka National Press Club; corroborated by The Business Standard, The Daily Star, Prothom Alo and Dhaka Tribune.","evidence_path":"/workspace/scratch/mass-mobilization-2026Q4-online/bangladesh_2026-10/discovery-notes.md"},
+    {"unit":"brazil_2026-10","event_date":"2026-10-07","summary":"Thousands joined a student-led march in downtown Rio de Janeiro from Candelaria toward Cinelandia; reported by UOL and described in Reuters Connect records.","evidence_path":"/workspace/scratch/mass-mobilization-2026Q4-online/brazil_2026-10/discovery-notes.md"}
+    ,{"unit":"france_2026-10","event_date":"2026-10-06","summary":"Nationwide student-led protest day with blockades and demonstrations, joined by teachers, parents and supporters; Reuters reports and Le Monde search excerpt provide evidence and scale estimates.","evidence_path":"/workspace/scratch/mass-mobilization-2026Q4-online/france_2026-10/discovery-notes.md"}
+  ],
+  "failures": [
+    {"unit":"bangladesh_2026-10","url":"https://www.facebook.com/tbsnews.net/posts/battery-run-rickshaw-drivers-are-observing-an-all-out-strike-in-dhaka-today-5-oc/1549914263849969/","failure":"Open was throttled; no bypass attempted. Reporting source was accessed directly at TBS and other outlets."},
+    {"unit":"ecuador_2026-10","url":"https://www.facebook.com/LaNaranjaEc/posts/diversos-grupos-de-manifestantes-cerraron-varias-calles-y-v%C3%ADas-durante-una-jorna/1433758528784659/","failure":"Open was throttled; snippet had no date, so it cannot substantiate an in-window event. No bypass attempted."},
+    {"unit":"france_2026-10","source":"France24 search domain","failure":"Managed web search reported robots.txt block for france24.com; no bypass or retry attempted. Reuters and other allowed public sources were available."}
+  ],
+  "bounded_no_hit_units": ["armenia_2026-10","bhutan_2026-10","cambodia_2026-10","central_african_republic_2026-10","colombia_2026-10","costa_rica_2026-10","czech_republic_2026-10","ecuador_2026-10","eritrea_2026-10"],
+  "no_hit_limit":"No-hit findings describe only the bounded searches recorded in each unit's notes and are not proof that no events occurred.",
+  "pending_units": [
+    "germany_2026-10", "guinea_2026-10", "honduras_2026-10", "iran_2026-10",
+    "ivory_coast_2026-10", "kazakhstan_2026-10", "kyrgyzstan_2026-10", "lesotho_2026-10",
+    "luxembourg_2026-10", "malaysia_2026-10", "mexico_2026-10", "morocco_2026-10",
+    "nepal_2026-10", "nigeria_2026-10", "pakistan_2026-10", "peru_2026-10",
+    "qatar_2026-10", "saudi_arabia_2026-10", "singapore_2026-10", "south_africa_2026-10",
+    "sri_lanka_2026-10", "sweden_2026-10", "tajikistan_2026-10", "togo_2026-10",
+    "uganda_2026-10", "uruguay_2026-10", "yemen_2026-10"
+  ],
+  "validation": false,
+  "official_database_writes": false,
+  "git_operations": false
+}

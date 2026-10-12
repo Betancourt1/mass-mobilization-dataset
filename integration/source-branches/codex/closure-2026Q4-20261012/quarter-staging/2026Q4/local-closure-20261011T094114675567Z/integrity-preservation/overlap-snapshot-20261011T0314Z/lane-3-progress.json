@@ -1,0 +1,12 @@
+{
+  "lane": 3,
+  "status": "in_progress",
+  "scope": {"start": "2026-10-01", "end": "2026-10-07", "timezone": "America/Mexico_City"},
+  "processed_units": [
+    {"unit": "austria_2026-10", "country": "Austria", "result": "two announced Vienna demonstrations surfaced (Oct 1 headscarf-ban, Oct 7 Palestine); occurrence not confirmed", "evidence": "austria_2026-10/README.md"},
+    {"unit": "belarus_2026-10", "country": "Belarus", "result": "no matching Oct 1-7 result surfaced in localized/outlet queries; no absence inference", "evidence": "belarus_2026-10/README.md"},
+    {"unit": "bolivia_2026-10", "country": "Bolivia", "result": "no confirmed in-window protest event; Sep 29 strike and Oct 13 planned mobilization are out of window", "evidence": "bolivia_2026-10/README.md"},
+    {"unit": "bulgaria_2026-10", "country": "Bulgaria", "result": "no dated in-window event confirmed; BNT result undated/open failure, many 2025 budget-2026 false positives", "evidence": "bulgaria_2026-10/README.md"}
+  ],
+  "limits": ["initial public-source discovery only", "search misses are not evidence of absence", "announced events are not confirmed occurrences", "no formal validation/completion or official records"]
+}

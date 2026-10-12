@@ -1,0 +1,69 @@
+{
+  "quarter": "2026Q4",
+  "state": "RUNNING_NEW_UNITS",
+  "phase": "BOUNDED_DISCOVERY_PASS_SAVED_CANONICAL_KIT_BLOCKED",
+  "research_started": true,
+  "scope": {
+    "start": "2026-10-01",
+    "end": "2026-10-07",
+    "cutoff_timezone": "America/Mexico_City",
+    "remaining_firstpass_units_declared": 160
+  },
+  "first_batch_candidates": [
+    "afghanistan_2026-10",
+    "albania_2026-10",
+    "algeria_2026-10",
+    "angola_2026-10"
+  ],
+  "batch_elapsed_units": 4,
+  "eligibility_basis": "audited supplied handoff accepted as current inventory per explicit coordinator instruction",
+  "repository_local_check": {
+    "toplevel": "/workspace/mass-mobilization-dataset",
+    "origin": "https://github.com/Betancourt1/mass-mobilization-dataset.git"
+  },
+  "online_environment_association_verified": true,
+  "models_requested": {
+    "coordinator": "gpt-6.1-sol/medium",
+    "researchers": "gpt-6-luna/high"
+  },
+  "runtime_settings_verified": false,
+  "evidence_complete": false,
+  "formal_validation": false,
+  "official_database_writes": false,
+  "automatic_resume": false,
+  "blocking_inputs": [
+    "portable scientific workflow and schema kit for canonical integration/validation"
+  ],
+  "source_requests_made": "positive; exact per-unit counts held in researcher staging",
+  "research_subagents_launched": 4,
+  "created_at_utc": "2026-10-11T02:59:20.401550+00:00",
+  "research_allowed": true,
+  "model_settings_limits": "Researchers requested explicitly as gpt-6-luna/high; coordinator effective model not independently inspectable.",
+  "updated_at_utc": "2026-10-11T03:27:40.396418+00:00",
+  "first_effective_query_report": {
+    "agent": "afghanistan_october",
+    "query": "Afghanistan protests demonstrations October 1 2026",
+    "approximate_query_utc": "2026-10-11T03:02:31Z",
+    "query_time_limit": "agent-recorded approximation; managed web does not expose per-call timestamps",
+    "initial_outcome": "No in-scope candidate found; not evidence of absence",
+    "staging_path": "/workspace/scratch/mass-mobilization-2026Q4-online/afghanistan_2026-10/"
+  },
+  "canonical_kit_received": false,
+  "canonical_integration_blocker": "Library official helper download failed twice; no local ZIP, checksum/MANIFEST verification or initialization possible",
+  "online_environment_association_verification": {
+    "status": "verified by Chrome per parent report",
+    "independently_verified_in_executor": false
+  },
+  "coordinator_model_verification": {
+    "requested": "gpt-6.1-sol/medium",
+    "status": "verified by Chrome per parent report",
+    "independently_verified_in_executor": false
+  },
+  "online_environment_association_verification_basis": "parent reports completed Chrome verification; executor independently verified repository path/remote only",
+  "runtime_settings_reported_verified_by_parent": true,
+  "READY_FOR_NEW_UNIT_DISCOVERY": true,
+  "READY_FOR_CANONICAL_VALIDATION": false,
+  "bounded_discovery_notes_verified": 160,
+  "formal_firstpass_completed_units": 0,
+  "research_workers_active": false
+}
