@@ -1,0 +1,286 @@
+[
+  {
+    "gap_id": "china_2021-01_G001",
+    "type": "baseline",
+    "description": "Official files, universe and current schema remain unverified;May2015 manual does not replace additional Coding Procedure.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator obtain official baseline and additional Procedure before official coding."
+  },
+  {
+    "gap_id": "china_2021-01_G002",
+    "type": "search_method",
+    "description": "Open-web search differs from original LexisNexis protocol. All43 actual queries retained, including pooled returns; query/date operators frequently returned foreign events or wrong years.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Calibrate against original newspaper/archival protocol; do not create protest=0 or exhaustive coverage claims."
+  },
+  {
+    "gap_id": "china_2021-01_G003",
+    "type": "coverage_language",
+    "description": "English, simplified and traditional Chinese probes are model-assisted. No independent Chinese-language human review, Tibetan, Uyghur or Mongolian-language archive search completed.",
+    "source_ids": [
+      "S033"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Independent language review; expand regional-language sources and archives."
+  },
+  {
+    "gap_id": "china_2021-01_G004",
+    "type": "universe",
+    "description": "China710 treated as provisional mainland label. Taiwan713 exists separately in plan. Hong Kong January leads were discovered but not silently merged.",
+    "source_ids": [
+      "S014",
+      "S044",
+      "S049"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator confirm official territorial universe and assign Hong Kong leads explicitly."
+  },
+  {
+    "gap_id": "china_2021-01_G005",
+    "type": "source_access",
+    "description": "CLB interactive map could not be opened; static search form's0results were not a verified January query.",
+    "source_ids": [
+      "S043"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Recover ordinary public dated map records/export if available; no absence inference."
+  },
+  {
+    "gap_id": "china_2021-01_G006",
+    "type": "source_access",
+    "description": "Renminbao index/teachers and Wuxi page returned cache misses. OrdinaryHTTPS recovery failed at DNS before any site response; no site denial inferred. VOA amp URL failed but canonical article opened.",
+    "source_ids": [
+      "S001",
+      "S036",
+      "S006",
+      "S003",
+      "S024"
+    ],
+    "affected_candidates": [
+      "china_2021-01_E005",
+      "china_2021-01_C002"
+    ],
+    "required_followup": "Use normal public archive/source access without bypassing restrictions."
+  },
+  {
+    "gap_id": "china_2021-01_G007",
+    "type": "state_target",
+    "description": "Yan'an public hospital status is indexed in later official budgets;2022 PDF cache miss and2025PDF404. Employer management action is not automatically state response.",
+    "source_ids": [
+      "S021",
+      "S035",
+      "S038"
+    ],
+    "affected_candidates": [
+      "china_2021-01_E001"
+    ],
+    "required_followup": "Read contemporaneous official ownership documentation and review public-employer target rule."
+  },
+  {
+    "gap_id": "china_2021-01_G008",
+    "type": "participants",
+    "description": "Yan'an attendance near100 in Sohu versus hundreds in CLB retrospective; qualitative threshold supported but estimates disagree.",
+    "source_ids": [
+      "S021",
+      "S009"
+    ],
+    "affected_candidates": [
+      "china_2021-01_E001"
+    ],
+    "required_followup": "Obtain contemporary report and preserve estimates separately."
+  },
+  {
+    "gap_id": "china_2021-01_G009",
+    "type": "episode_unit",
+    "description": "Suixian January16 is explicitly a second visit; earlier occurrence and first physical start unknown. Apollo search text saysJanuary6/16.",
+    "source_ids": [
+      "S025",
+      "S027",
+      "S028"
+    ],
+    "affected_candidates": [
+      "china_2021-01_E002"
+    ],
+    "required_followup": "Recover first visit before assigning owner/start or separating newday; consult additional Procedure."
+  },
+  {
+    "gap_id": "china_2021-01_G010",
+    "type": "participants",
+    "description": "Suixian sources describe100 versus more1000 marchers; workforce quotation also explicitly says they went out, but estimates remain conflicting.",
+    "source_ids": [
+      "S021",
+      "S027"
+    ],
+    "affected_candidates": [
+      "china_2021-01_E002"
+    ],
+    "required_followup": "Independent attendance reconstruction; do not sum estimates."
+  },
+  {
+    "gap_id": "china_2021-01_G011",
+    "type": "source_access_episode_unit",
+    "description": "Xianyang and Dezhou original WeChat/Weibo posts inaccessible. January26 is publication date; CLB says they precededJanuary25, showing date cannot safely be substituted.",
+    "source_ids": [
+      "S016",
+      "S009",
+      "S056",
+      "S057"
+    ],
+    "affected_candidates": [
+      "china_2021-01_E003",
+      "china_2021-01_E004"
+    ],
+    "required_followup": "Recover original metadata/content, actual dates and episode ownership."
+  },
+  {
+    "gap_id": "china_2021-01_G012",
+    "type": "participants",
+    "description": "Xianyang and Dezhou actual participant counts unknown; parked taxis are not people.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [
+      "china_2021-01_E003",
+      "china_2021-01_E004"
+    ],
+    "required_followup": "Find independent contemporary physical gathering counts."
+  },
+  {
+    "gap_id": "china_2021-01_G013",
+    "type": "source_access_participants",
+    "description": "Wuxi protest page unread; actual gathering size and physical start unverified. Wider preventive roundup of dozens cannot establish50 at protest.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "china_2021-01_E005"
+    ],
+    "required_followup": "Open original, resolve year inconsistency and separate preventive detention from protest response."
+  },
+  {
+    "gap_id": "china_2021-01_G014",
+    "type": "public_assembly_state_target",
+    "description": "Hebei Best Express stoppage lacks verified physical assembly,50 attendance and state demand; packages undelivered are not participants.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [
+      "china_2021-01_E006"
+    ],
+    "required_followup": "Find original report establishing physical action and state target before inclusion."
+  },
+  {
+    "gap_id": "china_2021-01_G015",
+    "type": "state_response",
+    "description": "All seven responses remain unknown for January candidates. Suixian arrest allegations appear only in unread/social discovery; Yan'an employer reform suspension not automatically state accommodation.",
+    "source_ids": [
+      "S028",
+      "S021"
+    ],
+    "affected_candidates": [
+      "china_2021-01_E001",
+      "china_2021-01_E002",
+      "china_2021-01_E003",
+      "china_2021-01_E004",
+      "china_2021-01_E005",
+      "china_2021-01_E006"
+    ],
+    "required_followup": "Find action-specific opened evidence; formal reception/negotiation required for accommodation."
+  },
+  {
+    "gap_id": "china_2021-01_G016",
+    "type": "dates",
+    "description": "Most physical closure dates unknown. Publication, last mention, work resumption, scheduled custody end and wage payment do not establish assembly end.",
+    "source_ids": [
+      "S020",
+      "S008"
+    ],
+    "affected_candidates": [
+      "china_2021-01_E001",
+      "china_2021-01_E002",
+      "china_2021-01_E003",
+      "china_2021-01_E004",
+      "china_2021-01_E005",
+      "china_2021-01_E006",
+      "china_2021-01_C001",
+      "china_2021-01_C002",
+      "china_2021-01_C003",
+      "china_2021-01_C004"
+    ],
+    "required_followup": "Trace physical assembly closure in following reports."
+  },
+  {
+    "gap_id": "china_2021-01_G017",
+    "type": "episode_unit",
+    "description": "Shishuo began no later thanDecember31 withDecember18/25 antecedents andJanuary government branch. No new January row from calendar boundary.",
+    "source_ids": [
+      "S019",
+      "S023",
+      "S020"
+    ],
+    "affected_candidates": [
+      "china_2021-01_C001"
+    ],
+    "required_followup": "December owner reconstruct full episode and branches using additional Procedure."
+  },
+  {
+    "gap_id": "china_2021-01_G018",
+    "type": "source_independence",
+    "description": "CLB article/PDF/mirrors share origin; ShantouSohu/Telegram share local-media report. Republications are not independent corroboration.",
+    "source_ids": [
+      "S009",
+      "S016",
+      "S058",
+      "S037"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Identify original interviews/posts and label syndication."
+  },
+  {
+    "gap_id": "china_2021-01_G019",
+    "type": "coverage",
+    "description": "Rural land, sanitation, transport, education, housing and minority-region searches yielded uneven results. Repression/media limits and inaccessible posts leave unknown missed events.",
+    "source_ids": [
+      "S033"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Expand regional archives and local-language sources; no query quota proves exhaustive coverage."
+  },
+  {
+    "gap_id": "china_2021-01_G020",
+    "type": "dates",
+    "description": "ChinaFileJanuary22 article describes2020 Urumqi actions; SwissPolicyResearch gatheredprotest phrase refersJune2021Foshan. Publication/search snippets can misplace events.",
+    "source_ids": [
+      "S045",
+      "S046"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep historical leads out ofJanuary counts; verify dates inside originals."
+  },
+  {
+    "gap_id": "china_2021-01_G021",
+    "type": "historical_response",
+    "description": "Tenzin NyimaJanuary death after custody relates to2019 protests; no January public assembly established.",
+    "source_ids": [
+      "S031"
+    ],
+    "affected_candidates": [
+      "china_2021-01_C004"
+    ],
+    "required_followup": "Review historical owner and attribution separately; never code as this month's response."
+  },
+  {
+    "gap_id": "china_2021-01_G022",
+    "type": "source_access",
+    "description": "ApolloSuixian page failed; observed search snippets are not opened article. Several discovered reports/PDFs remain search_only.",
+    "source_ids": [
+      "S028",
+      "S017",
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Read relevant original pages through ordinary public access and update access scope."
+  }
+]

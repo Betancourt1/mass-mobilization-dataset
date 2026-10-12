@@ -1,0 +1,97 @@
+[
+  {
+    "gap_id": "north_korea_2021-01_G001",
+    "type": "source_access",
+    "description": "Yonhap’s opened Jan. 20 English report describes the Jan. 19 rallies as support for Party Congress decisions and cites KCNA. The original KCNA account and independent contemporaneous corroboration were not accessed.",
+    "source_ids": [
+      "NKO202101-S001"
+    ],
+    "affected_candidates": [
+      "north_korea_2021-01_E002"
+    ],
+    "required_followup": "Seek the original KCNA/Rodong account or a genuinely independent contemporary report; preserve agency attribution and re-evaluate only if new evidence changes the documented purpose."
+  },
+  {
+    "gap_id": "north_korea_2021-01_G002",
+    "type": "source_access",
+    "description": "A South Korean Ministry of Unification January 2021 monthly-monitor catalog lead lists congress-related rallies, but the catalog page returned Cache miss and ordinary HTTPS failed at DNS resolution; the underlying report remains unread.",
+    "source_ids": [
+      "NKO202101-S004"
+    ],
+    "affected_candidates": [
+      "north_korea_2021-01_E001",
+      "north_korea_2021-01_E002"
+    ],
+    "required_followup": "Recover and inspect the official catalog record and underlying report if publicly available; do not infer event details from the search-result table of contents."
+  },
+  {
+    "gap_id": "north_korea_2021-01_G003",
+    "type": "participants",
+    "description": "No numeric participant estimate was found for either supportive rally lead. The Jan. 15 Yonhap Korean caption calls the crowd demonstration large-scale, but this is not a count. Attendance does not ground the current exclusions, which rest on the reported absence of an own-state demand.",
+    "source_ids": [
+      "NKO202101-S001",
+      "NKO202101-S002"
+    ],
+    "affected_candidates": [
+      "north_korea_2021-01_E001",
+      "north_korea_2021-01_E002"
+    ],
+    "required_followup": "If independent evidence surfaces a qualifying state-directed demand, seek a simultaneous-attendance estimate for each gathering; do not convert a qualitative label, image dimensions, vehicles or number of provinces into a participant count."
+  },
+  {
+    "gap_id": "north_korea_2021-01_G004",
+    "type": "source_independence",
+    "description": "Opened Yonhap coverage of both rally leads relays KCNA or Rodong Sinmun descriptions of support and pledged implementation. For the Jan. 15 S011 article, the coordinator separately inspected the original body (turn3766view0, lines 76–98); the agent’s own open showed the generated summary and caption. No independent contemporary account was located. The reported purpose supports exclusion, while the state-media account and participants’ agency are not independently tested.",
+    "source_ids": [
+      "NKO202101-S001",
+      "NKO202101-S011"
+    ],
+    "affected_candidates": [
+      "north_korea_2021-01_E001",
+      "north_korea_2021-01_E002"
+    ],
+    "required_followup": "Look for independent contemporary accounts or primary text with reliable translation; do not infer dissent from state-organized settings or infer voluntariness from pledges."
+  },
+  {
+    "gap_id": "north_korea_2021-01_G005",
+    "type": "episode_unit",
+    "description": "The Jan. 15 Pyongyang rally and Jan. 19 four-province rallies remain separate excluded leads. Their relationship to one coordinated post-congress mobilization campaign is not established; matching political context alone does not warrant merging.",
+    "source_ids": [
+      "NKO202101-S001",
+      "NKO202101-S002"
+    ],
+    "affected_candidates": [
+      "north_korea_2021-01_E001",
+      "north_korea_2021-01_E002"
+    ],
+    "required_followup": "Compare accessible primary accounts, organizers and timing before linking these leads; no protest episode is coded absent evidence of a qualifying public demand."
+  },
+  {
+    "gap_id": "north_korea_2021-01_G006",
+    "type": "coverage",
+    "description": "Coverage remains highly limited. Korean/English broad, site-restricted, market/labor, regional Hyesan/Ryanggang, early/late-week and Dec.–Feb. boundary searches mostly returned unrelated South Korean or out-of-period results. Yonhap and 38 North rally coverage is externally accessible; KCNA and the Ministry report remain unread. A Feb. 15 DailyNK report documents Hyesan/Samjiyon lockdown hardship and reported dissatisfaction, but no public protest. These limits do not establish that no protest occurred.",
+    "source_ids": [
+      "NKO202101-S001",
+      "NKO202101-S002",
+      "NKO202101-S004",
+      "NKO202101-S013"
+    ],
+    "affected_candidates": [
+      "north_korea_2021-01_E001",
+      "north_korea_2021-01_E002"
+    ],
+    "required_followup": "Continue targeted Korean and English searches across South Korean monitoring, international and local/regional reporting, state media and rights sources. Seek systematic newspaper archives unavailable through open web and preserve the distinction between hardship/private discontent and public gatherings."
+  },
+  {
+    "gap_id": "north_korea_2021-01_G007",
+    "type": "source_access",
+    "description": "A Kyunghyang reporter-archive search result may refer to a contemporaneous Jan. 17 rally report, but the matching article was not verified. The archive URL returned HTML 200 over ordinary HTTPS yet its inspected entries did not surface the rally item; it cannot be counted as independent corroboration.",
+    "source_ids": [
+      "NKO202101-S012"
+    ],
+    "affected_candidates": [
+      "north_korea_2021-01_E001"
+    ],
+    "required_followup": "Locate a direct article URL or an archived copy if publicly accessible; distinguish a republished KCNA/Rodong account from independent reporting. Do not treat the unverified search excerpt as opened evidence."
+  }
+]

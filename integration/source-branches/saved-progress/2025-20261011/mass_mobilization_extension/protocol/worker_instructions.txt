@@ -1,0 +1,64 @@
+Mass Mobilization extension — unidad de investigación país/mes
+Fecha de corte: 2026-10-07 (día local CDMX). Perfil experimental, no actualización oficial.
+
+ENCARGO
+Investiga únicamente el país y mes asignados. Escribe solo dentro de tu directorio. No subdelegues, no contactes a terceros y no publiques nada.
+La raíz del proyecto es mass_mobilization_extension/. Desde units/<pais>/<mes> se llega a ella por ../../../.
+Las copias privadas del manual no se incluyeron en la entrega. Recupera el manual enlazado en README.txt
+El coordinador conserva cualquier copia recuperada en baseline/; los trabajadores no escriben fuera de su unidad.
+URL de lectura: https://reed-statistics.github.io/math141s21/projects/mass_mobilization/MM_codebook.pdf
+Mientras falte, usa el protocolo documentado y registra esa limitación. No inventes reglas del original.
+Los identificadores /root/... y web_ref de expedientes previos son históricos, no agentes locales ni
+referencias recuperables garantizadas; las URLs y los IDs internos de fuente sí permiten reanudar.
+Consulta el manual, en particular inclusión/exclusión, fechas, ubicación, participantes, demandas y respuestas.
+Una noticia no es un evento. Una campaña no equivale a cada artículo ni a cada día. No infieras cobertura completa de búsquedas web.
+
+BÚSQUEDA
+Usa búsqueda web obligatoriamente. Registra TODAS las consultas, incluso sin resultados, y TODAS las URLs candidatas encontradas que sean relevantes, abiertas o no. Conserva metadatos, referencias y paráfrasis de evidencia, no artículos completos ni extensas citas protegidas.
+Busca combinaciones genéricas de país, mes/año y protest/demonstration/riot/strike/march más los equivalentes en lengua local. Usa ventanas por semana cuando un mes tenga muchos resultados. Incluye búsqueda retrospectiva de prensa internacional, medios locales/regionales, registros oficiales y organizaciones de derechos humanos pertinentes.
+Después busca cada episodio encontrado para precisar fecha, objetivo estatal, tamaño, organización, geografía, respuesta y continuidad. Evita limitarte a las protestas ya famosas.
+La búsqueda web abierta no reproduce LexisNexis: consigna esta desviación y archivos inaccesibles. Sin acceso sistemático a hemerotecas no declares exhaustividad.
+No eludas bloqueos, inicios de sesión ni muros de pago. Registra URL y bloqueo. Fuentes secundarias sirven para descubrimiento; verifica en noticias contemporáneas o documentos originales disponibles.
+
+UNIDAD Y CRITERIOS
+Incluye candidatos de reuniones públicas de >=50 personas con demanda dirigida al gobierno del propio país o a su política. Excluye acciones armadas rebeldes, disputas exclusivamente intercomunales, actos exclusivamente partidarios/electorales de apoyo, actos dirigidos solamente a gobiernos extranjeros y conflictos exclusivamente privados sin demanda estatal. Conserva excluidos con razón.
+Demanda y violencia estatal son variables distintas; una protesta contra violencia policial no prueba violencia policial en ese evento.
+La titularidad mensual corresponde al INICIO del evento. Documenta continuaciones de meses anteriores aparte; no dupliques una misma acción continua al cambiar de mes. Un evento nacional organizado puede comprender varios lugares; no lo dividas automáticamente por ciudad. Acciones locales distintas quedan como candidatos separados para revisión.
+Busca continuidad antes y después del mes para identificar duplicados y cierre. No fijes fecha final al fin del mes, a la última publicación o a la fecha de consulta sin señalar cuál regla se usa y su evidencia. Una fecha de inicio anterior al mes va en continuations, no en events.
+Dos publicaciones de una misma agencia no son confirmaciones independientes. Registra la agencia/origen y relaciones de sindicación.
+
+ARCHIVOS OBLIGATORIOS
+1. search_log.jsonl: una línea por consulta {query_id,query,executed_at,tool,returned_urls,notes}. Adapta campos si el buscador no expone un total de resultados; no inventes totales.
+2. sources.jsonl: una línea por URL relevante {source_id,url,title,publisher,publication_date,access_status,accessed_at,source_type,origin_agency,web_ref,summary,limitations}. Estados: opened,search_only,blocked,not_found. Fechas de publicación desconocidas = null.
+3. events.json: array de candidatos cuyo comienzo pertenece al mes. Cada objeto:
+ {candidate_id,country,ccode,unit_month,title,start_date,start_precision,end_date,end_precision,location,scope,organizer,demands,participants_original,participants_min,participants_max,threshold_50_evidence,protester_violence,state_response,source_ids,field_evidence,eligibility,coding_status,episode_key,notes,open_questions}.
+ candidate_id = prefijo de unidad + E001 etc.; ccode original del plan, no ISO.
+ start/end ISO sin día inventado; precisión day/month/year/unknown. null cuando falta. No uses fechas fuera de la evidencia.
+ demands = lista de categorías originales: labor_wage_dispute,land_farm_issue,police_brutality,political_behavior_process,price_increases_tax_policy,social_restrictions,removal_of_politician. Puedes usar lista vacía si falta evidencia; detalla demanda textual en notes.
+ participants_original = lo publicado; límites numéricos únicamente si se publican o calculan directamente de números explícitos. No conviertas "miles" en una cifra exacta. threshold_50_evidence puede usar evidencia cualitativa clara con explicación y fuente.
+ protester_violence = yes/no_explicit/unknown. No codifiques ausencia de violencia por silencio de la noticia.
+ state_response = objeto {accommodation,arrests,beatings,crowd_dispersal,ignore,killings,shootings}, cada valor yes/no_explicit/unknown. Agrega solo lo sustentado; shootings requiere evidencia de disparos, no inferencia desde muertos o gases. accommodation no equivale a victoria. ignore no se deduce de silencio.
+ source_ids = referencias a sources.jsonl. field_evidence = objeto por campo, con {source_ids,summary}; toda afirmación sustantiva debe apuntar a evidencia o quedar unknown.
+ eligibility = proposed_include/pending_threshold/pending_state_target/pending_unit/pending_evidence. coding_status = candidate/agent_coded_pending_review. Ningún subagente aprueba definitivamente sus propios registros.
+4. excluded.json: array {candidate_id,title,date,source_ids,reason,notes}. No elimines candidatos sin rastro.
+5. continuations.json: array de episodios empezados fuera del mes, con fecha conocida, fuentes y posible unidad propietaria.
+6. gaps.json: array {gap_id,type,description,source_ids,affected_candidates,required_followup}. Documenta umbral/tamaño, cierre, represión desconocida, archivos inaccesibles, idioma, continuidad y búsqueda web vs LexisNexis.
+7. report.txt: resumen de métodos, cobertura, eventos, continuaciones, exclusiones, fuentes y huecos. Diferencia "no encontré" de "no hubo".
+8. status.json: {unit_id,country,month,agent_task,status,started_at,finished_at,n_queries,n_sources,n_candidates,n_excluded,n_continuations,n_gaps,coverage_assessment,baseline_gate}. status=researched_open_web_pending_review. coverage_assessment debe indicar alcance y límites. baseline_gate=pending_official_baseline.
+
+LÍMITES
+No fabriques participantes, fechas, víctimas, identidades ni enlaces. No uses una cifra de toda una campaña para cada jornada. No atribuyas muertes no estatales al campo killings. No reproduzcas afirmaciones del buscador sin abrir/contrastarlas: si solo hay snippet, marca search_only y pending_evidence.
+No asignes IDs MM oficiales, no integres al original ni produzcas un PR. Solo deja candidatos revisables. Escribe todos los archivos, aunque algunos arrays estén vacíos. Devuelve al coordinador un resumen y la ruta del directorio.
+
+PUBLIC SOURCE RETRIEVAL CHECKPOINT
+A web-tool Internal Error or Cache miss can be a tool failure rather than a site denial.
+An ordinary HTTPS request to the same public URL may recover the page; verify HTTP
+status and actual article content, then log the retrieval method and read scope.
+If the site returns an access denial, login/paywall or anti-bot challenge, preserve
+the gap under the existing access rule. A successful request does not independently
+corroborate the source or turn an announcement into an executed gathering.
+
+REVIEWED WORKFLOW ADOPTION
+Follow protocol/research_workflow.txt and protocol/research_cli.txt for prompt
+search capture, fresh access receipts, validation, compact handoff and rolling
+batches. Coordinator owns baseline; all existing coding/access rules still apply.

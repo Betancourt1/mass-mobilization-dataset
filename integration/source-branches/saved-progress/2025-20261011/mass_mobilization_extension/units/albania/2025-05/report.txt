@@ -1,0 +1,30 @@
+Albania — 2025-05 open-web research dossier
+Unit status: researched_open_web_pending_review; no official approval or baseline completion is claimed.
+
+Methods and coverage
+Recorded 6 actual search invocations and 149 visible result headers. Queries cover English and Albanian general protest terms, week/month windows, local/regional outlets, labor, agriculture/mining, students, environmental/civic concerns, candidate-specific dates, and retrospective/event-boundary checks. Each pooled response is logged once; results were not partitioned among constituent queries. Search results are discovery leads only.
+Exact search inputs and full returned rendered responses are retained in private_reading; hashes and header extraction limits are documented per invocation. The tool did not expose native event timestamps or complete native metadata in all calls, which remains unknown. The effective Luna/high runtime cannot be verified. This open-web process is not equivalent to LexisNexis or a complete newspaper archive.
+
+Opened-source inventory
+Opened source cards: 4; current-unit body reads: 3 (S002, S003, S005); prior-unit-only consultation: 1 (S001, read in April); search-only leads: 3; blocked exact targets: 1. Body reads and captured content scopes remain summarized in source cards. Temporary full page-body response files were removed after their hashes, byte/character counts, read scopes and brief paraphrases were recorded in ../2025-04/private_reading/body_capture_cleanup_Q2_2026-10-11.json; full rendered search captures remain private.
+
+Candidates and exclusions
+- ALB202505-E001: International Workers’ Day assembly in Tirana (proposed_include); source IDs S001, S003.
+- ALB202505-E002: Opposition protest rejecting parliamentary election results (pending_threshold); source IDs S001.
+- ALB202505-E003: Pride Parade 2025 in Tirana (proposed_include); source IDs S001, S005.
+- Excluded ALB202505-X001: Parallel worker protest at Marinza oilfield; The organizer statement describes demands over wages, bonuses and work conditions directed at private employer Bankers Petroleum; no state-directed demand is established for this action.
+
+Continuity and gaps
+- G001: May 16 opposition turnout is described as “small” without a count, leaving the 50-person threshold unresolved. May 1 and May 24 attendance are described as hundreds without numeric counts.
+- G002: Reviewed accounts do not resolve the seven state-response fields for any May candidate. CIVICUS reports no major police intervention at the May 16 protest, which does not resolve each field. The Pride account quotes ministerial support and a dialogue invitation but no formal action.
+- G003: OSAC S007’s captured title says a planned demonstration near the U.S. Embassy on May 16; its body was not reviewed. A prior source brief’s specific Zogu I Boulevard wording is not supported by the captured header and remains unverified. CIVICUS separately reports an opposition protest in Tirana; the OSAC lead’s exact venue and relation to it remain unknown. Top Channel S004 exact URL returned HTTP 403; coordinator directs that the exact story and same-story variants, translations, mirrors and written-origin copies remain held. CIVICUS S001 was read before the denial, and that chronology/derivative relationship is retained without authorizing a copy.
+- G004: CIVICUS S001 links directly to the CLR PDF for May Day and the Citizens.al article for Pride. The accounts are therefore related, not independent corroboration. The CLR PDF is an organizer statement.
+- G005: Open-web first pass included English and Albanian generic, weekly, sector, local/regional, candidate-specific and retrospective searches. Search engines returned substantial out-of-period noise; LexisNexis-equivalent newspaper archive access and exhaustive coverage cannot be established. No June continuation of these May actions was verified.
+
+Access and evidence limitations
+Top Channel exact URL returned HTTP 403; same-story variants, translations, mirrors, and written-origin copies are held per coordinator scope decision. The prior CIVICUS reading predates the denial and does not authorize a copy. Other holds for AP exact targets/copies and the Ora/Dosja publisher scope remain in force; no held source was requested in this unit. Technical/native metadata not exposed by the web tool remains unknown.
+
+Observed timing
+Historical search/read/wait/rework intervals are unknown where not captured. June records outer functions.exec query+capture intervals (Q008 3.7s, Q009 3.7s, Q010 4.6s, Q011 4.3s) and body-request+capture interval (S001 0.9s); these include orchestration and saving, not pure provider latency. Its observed closure window was 00:00:52–00:03:17 UTC (145s) and includes review, writing, validation and communication. April/May historical intervals remain unknown. No speed or acceleration comparison is asserted.
+
+Review state: pending coordinator review; unresolved gaps: 5. No Mass Mobilization official IDs or approvals assigned.

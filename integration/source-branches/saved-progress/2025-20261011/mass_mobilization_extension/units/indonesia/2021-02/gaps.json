@@ -1,0 +1,197 @@
+[
+  {
+    "gap_id": "IDN202102-G001",
+    "type": "search_method_coverage_language",
+    "description": "27 recorded search invocations include English/Bahasa Indonesia general terms, weekly windows and selected episode follow-ups, but do not reproduce LexisNexis or systematic national newspaper archives. Provincial and sector coverage is uneven.",
+    "source_ids": [],
+    "affected_candidates": [
+      "IDN202102-E001",
+      "IDN202102-E002",
+      "IDN202102-E003",
+      "IDN202102-E004",
+      "IDN202102-E005",
+      "IDN202102-E006",
+      "IDN202102-E007",
+      "IDN202102-E008",
+      "IDN202102-E009",
+      "IDN202102-E010",
+      "IDN202102-E011"
+    ],
+    "required_followup": "Continue regional archive and organization searches across provinces and sectors; treat unsearched regions as unknown, not event-free."
+  },
+  {
+    "gap_id": "IDN202102-G002",
+    "type": "threshold_turnout",
+    "description": "Physical attendance is unverified for every candidate; reported online participants, membership totals, broad campaign figures and police/security counts must not substitute for this specific gathering.",
+    "source_ids": [],
+    "affected_candidates": [
+      "IDN202102-E001",
+      "IDN202102-E002",
+      "IDN202102-E003",
+      "IDN202102-E004",
+      "IDN202102-E005",
+      "IDN202102-E006",
+      "IDN202102-E007",
+      "IDN202102-E008",
+      "IDN202102-E009",
+      "IDN202102-E010",
+      "IDN202102-E011",
+      "IDN202102-E014",
+      "IDN202102-E015"
+    ],
+    "required_followup": "Obtain contemporaneous reports giving on-site headcounts or unambiguous qualitative crowd descriptions; preserve contradictory counts."
+  },
+  {
+    "gap_id": "IDN202102-G003",
+    "type": "state_target_and_demands",
+    "description": "Exact demands and responsible authorities remain uncoded pending body review; private employers or providers cannot be treated as state targets without evidence of a public-policy demand.",
+    "source_ids": [],
+    "affected_candidates": [
+      "IDN202102-E001",
+      "IDN202102-E002",
+      "IDN202102-E003",
+      "IDN202102-E004",
+      "IDN202102-E005",
+      "IDN202102-E006",
+      "IDN202102-E007",
+      "IDN202102-E008",
+      "IDN202102-E009",
+      "IDN202102-E010",
+      "IDN202102-E011",
+      "IDN202102-E014",
+      "IDN202102-E015"
+    ],
+    "required_followup": "Verify who was addressed, the demand at the physical gathering and whether policy or government conduct was involved."
+  },
+  {
+    "gap_id": "IDN202102-G004",
+    "type": "episode_ownership_continuity",
+    "description": "The relationship among February 17–18 BPJS-related actions and among Papua student actions across cities is unresolved. No cross-month continuity is yet confirmed.",
+    "source_ids": [],
+    "affected_candidates": [
+      "IDN202102-E005",
+      "IDN202102-E006",
+      "IDN202102-E007",
+      "IDN202102-E008"
+    ],
+    "required_followup": "Check pre-event, later reporting and organizer records; maintain separate local gatherings unless explicit coordination evidence supports grouping."
+  },
+  {
+    "gap_id": "IDN202102-G005",
+    "type": "access_body_verification",
+    "description": "One IDN Times web.open returned a technical Cache miss; this is not a publisher denial. Two contemporaneous government articles have since been read under fresh exact-URL receipts; their read scopes are recorded in body_observations.jsonl.",
+    "source_ids": [
+      "IDN202102-S009"
+    ],
+    "affected_candidates": [
+      "IDN202102-E002"
+    ],
+    "required_followup": "Use a fresh exact-URL receipt, full saved-origin review and immediate input-hash verification before any new body attempt; record only observed read scope."
+  },
+  {
+    "gap_id": "IDN202102-G006",
+    "type": "state_response_violence",
+    "description": "Protester violence and all seven state-response dimensions remain unknown for the candidates, including the proposed Kediri include. Discovery-only reports do not establish event-specific arrests, dispersal, injuries, shootings or accommodations.",
+    "source_ids": [],
+    "affected_candidates": [
+      "IDN202102-E001",
+      "IDN202102-E002",
+      "IDN202102-E003",
+      "IDN202102-E004",
+      "IDN202102-E005",
+      "IDN202102-E006",
+      "IDN202102-E007",
+      "IDN202102-E008",
+      "IDN202102-E009",
+      "IDN202102-E010",
+      "IDN202102-E011",
+      "IDN202102-E012",
+      "IDN202102-E014",
+      "IDN202102-E015"
+    ],
+    "required_followup": "Verify each response dimension independently and retain unknown when contemporaneous evidence is absent."
+  },
+  {
+    "gap_id": "IDN202102-G007",
+    "type": "calendar_and_boundary",
+    "description": "Some date leads derive from publication dates or search descriptions rather than inspected article text. The UBL tuition-protest result points to a possible February-adjacent dispute but does not establish exact event onset or a state-policy target.",
+    "source_ids": [
+      "IDN202102-S001",
+      "IDN202102-S012",
+      "IDN202102-S013",
+      "IDN202102-S014",
+      "IDN202102-S029"
+    ],
+    "affected_candidates": [
+      "IDN202102-E001",
+      "IDN202102-E003",
+      "IDN202102-E004",
+      "IDN202102-E010"
+    ],
+    "required_followup": "Verify action date directly and determine ownership; retain private-university-only disputes outside inclusion unless an own-state demand is documented."
+  },
+  {
+    "gap_id": "IDN202102-G008",
+    "type": "baseline_manual",
+    "description": "Latest official MM baseline bytes/universe and any additional coding procedure remain unverified; this dossier uses the fixed local documented criteria and ccode 850.",
+    "source_ids": [],
+    "affected_candidates": [
+      "IDN202102-E001",
+      "IDN202102-E002",
+      "IDN202102-E003",
+      "IDN202102-E004",
+      "IDN202102-E005",
+      "IDN202102-E006",
+      "IDN202102-E007",
+      "IDN202102-E008",
+      "IDN202102-E009",
+      "IDN202102-E010",
+      "IDN202102-E011"
+    ],
+    "required_followup": "Coordinator to complete baseline verification before any approval or export."
+  },
+  {
+    "gap_id": "IDN202102-G009",
+    "type": "prior_action_continuity",
+    "description": "The Feb 19 GAH PUPR report calls the gathering its third and says earlier actions at the prosecutor’s office and governor’s office took place “several days” before. Exact dates and whether any began before February remain unknown; no continuation is assigned.",
+    "source_ids": [
+      "IDN202102-S023"
+    ],
+    "affected_candidates": [
+      "IDN202102-E013"
+    ],
+    "required_followup": "Verify prior action dates and continuity before assigning any to continuations or treating the reported third action as a single campaign."
+  },
+  {
+    "gap_id": "IDN202102-G010",
+    "type": "additional_regional_leads",
+    "description": "Two public-institution accounts have now been read: Kediri PMII against the Omnibus Law (qualitative hundreds) and Banda Aceh GAH (20, below threshold). Pinrang and Bima remain search-only leads; additional independent local coverage is needed.",
+    "source_ids": [
+      "IDN202102-S022",
+      "IDN202102-S023",
+      "IDN202102-S024",
+      "IDN202102-S025"
+    ],
+    "affected_candidates": [
+      "IDN202102-E012",
+      "IDN202102-E013",
+      "IDN202102-E014",
+      "IDN202102-E015"
+    ],
+    "required_followup": "Verify the listed sources, search for independent contemporaneous reporting, and resolve attendance, state-target, event-boundary and continuation questions."
+  },
+  {
+    "gap_id": "IDN202102-G011",
+    "type": "unresolved_event_month_and_boundary_leads",
+    "description": "Search results also surfaced an SPN demonstration page from North Sumatra with no verified event date, a UBL tuition dispute, North Sumatra student interpellation reporting, and later Pancoran conflict coverage. These bodies, event dates and public-policy targets were not verified; none is coded here as a February event.",
+    "source_ids": [
+      "IDN202102-S026",
+      "IDN202102-S027",
+      "IDN202102-S028",
+      "IDN202102-S029",
+      "IDN202102-S030"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Open exact pages only after a fresh receipt, full matching-corpus/manual publisher-origin review and immediate complete path/hash recheck; determine event month, public target and whether the source describes a qualifying gathering."
+  }
+]

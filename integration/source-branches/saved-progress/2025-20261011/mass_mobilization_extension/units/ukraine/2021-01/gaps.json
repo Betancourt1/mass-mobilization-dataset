@@ -1,0 +1,238 @@
+[
+  {
+    "gap_id": "ukraine_2021-01_G001",
+    "type": "baseline",
+    "description": "Official latest dataset bytes, country/event universe, current schema, supplemental Coding Procedure, and data-specific reuse terms remain unverified; the May 2015 manual is historical. This unit cannot assign official MM IDs or change the baseline.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ukraine_2021-01_E001",
+      "ukraine_2021-01_E002",
+      "ukraine_2021-01_E003",
+      "ukraine_2021-01_E004",
+      "ukraine_2021-01_E005",
+      "ukraine_2021-01_E006",
+      "ukraine_2021-01_E007",
+      "ukraine_2021-01_E008",
+      "ukraine_2021-01_E009",
+      "ukraine_2021-01_E010",
+      "ukraine_2021-01_E011",
+      "ukraine_2021-01_E012",
+      "ukraine_2021-01_E013",
+      "ukraine_2021-01_E014",
+      "ukraine_2021-01_E015",
+      "ukraine_2021-01_E016",
+      "ukraine_2021-01_C001"
+    ],
+    "required_followup": "Coordinator verifies official version/cutoff, universe, current rules and reuse terms before consolidation or contribution."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G002",
+    "type": "participants",
+    "description": "Attendance is unallocated or threshold-uncertain for multiple local actions. Chernivtsi has only a regional total; several dozen and approximate-50 reports remain uncertain; Jan. 13 Zhytomyr has only an upper bound. Petition totals are not attendance.",
+    "source_ids": [
+      "S005",
+      "S007",
+      "S014",
+      "S030",
+      "S043",
+      "S091",
+      "S094",
+      "S070"
+    ],
+    "affected_candidates": [
+      "ukraine_2021-01_E002",
+      "ukraine_2021-01_E003",
+      "ukraine_2021-01_E005",
+      "ukraine_2021-01_E007",
+      "ukraine_2021-01_E008",
+      "ukraine_2021-01_E010",
+      "ukraine_2021-01_E012",
+      "ukraine_2021-01_E013",
+      "ukraine_2021-01_E014",
+      "ukraine_2021-01_E015"
+    ],
+    "required_followup": "Seek independent contemporaneous crowd estimates; do not sum petition, regional, multi-site or cross-day totals."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G003",
+    "type": "state_target",
+    "description": "Some tariff grievances are reported without a named domestic government addressee or explicit state-policy demand. A state venue or crowd threshold alone does not resolve target.",
+    "source_ids": [
+      "S005",
+      "S070",
+      "S091",
+      "S094"
+    ],
+    "affected_candidates": [
+      "ukraine_2021-01_E004",
+      "ukraine_2021-01_E011",
+      "ukraine_2021-01_E016"
+    ],
+    "required_followup": "Look for explicit own-state demands in accessible contemporary reporting; do not infer from venue or later policy response."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G004",
+    "type": "episode_unit",
+    "description": "The Kharkiv police aggregate overlaps named local reports; shared organization and whether it describes one mobilization or multiple assemblies remain unresolved. Chernivtsi’s multi-site total is also unallocated.",
+    "source_ids": [
+      "S014",
+      "S091",
+      "S094"
+    ],
+    "affected_candidates": [
+      "ukraine_2021-01_E001",
+      "ukraine_2021-01_E002",
+      "ukraine_2021-01_E003",
+      "ukraine_2021-01_E004",
+      "ukraine_2021-01_E007"
+    ],
+    "required_followup": "Resolve site-level scopes and coordination without assigning totals to each city or splitting every locality automatically."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G005",
+    "type": "dates",
+    "description": "Vezha reports Jan. 10 tariff protests in Vinnytsia, Koziatyn and Zhmerynka but its displayed publication date lacks a year and the event year is unstated. Related Suspilne canonical S098 is blocked; AMP S097 remains search-only. These reports are not assigned to Jan. 2021.",
+    "source_ids": [
+      "S088",
+      "S097",
+      "S098"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find accessible independent evidence explicitly dating the reported gatherings to 2021; do not infer year from a month/day header or snippet."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G006",
+    "type": "state_response",
+    "description": "All unreported response dimensions remain unknown. Actual official engagement supports accommodation only for the Jan. 13 and Jan. 15 Zhytomyr actions. Silence is not ignore; traffic handling, participant blockades, security preventing office entry and police presence do not by themselves establish state crowd dispersal.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007",
+      "S014",
+      "S029",
+      "S030",
+      "S043",
+      "S070",
+      "S091",
+      "S094"
+    ],
+    "affected_candidates": [
+      "ukraine_2021-01_E001",
+      "ukraine_2021-01_E002",
+      "ukraine_2021-01_E003",
+      "ukraine_2021-01_E004",
+      "ukraine_2021-01_E005",
+      "ukraine_2021-01_E006",
+      "ukraine_2021-01_E007",
+      "ukraine_2021-01_E008",
+      "ukraine_2021-01_E009",
+      "ukraine_2021-01_E010",
+      "ukraine_2021-01_E011",
+      "ukraine_2021-01_E012",
+      "ukraine_2021-01_E013",
+      "ukraine_2021-01_E014",
+      "ukraine_2021-01_E015",
+      "ukraine_2021-01_E016",
+      "ukraine_2021-01_C001"
+    ],
+    "required_followup": "Seek episode-specific evidence of accommodation, arrests, force, attempted dispersal, refusal, killings or shootings; keep unknown when unreported."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G007",
+    "type": "source_access",
+    "description": "Actual blocks: S011 Pravda Cloudflare 403; S075 RBC Cloudflare 403; S080 Racurs 403 after one exact retry; S086 20minut 403 after DNS failure and one escalated request; S098 Suspilne Vinnytsia 403. Other Pravda S042 remains search-only after same-publisher denial. No retry or mirror followed a denial.",
+    "source_ids": [
+      "S011",
+      "S042",
+      "S075",
+      "S080",
+      "S086",
+      "S098"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Preserve block status; use only genuinely independent non-denied sources if further research is authorized."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G008",
+    "type": "source_independence",
+    "description": "S091 and S094 use the same Kharkiv police origin for regional/local counts. S014 credits Interfax-Ukraine and is not independent confirmation. S007 and S043 are both Ukrinform; the later report directly links the roadblock account.",
+    "source_ids": [
+      "S007",
+      "S014",
+      "S043",
+      "S091",
+      "S094"
+    ],
+    "affected_candidates": [
+      "ukraine_2021-01_E001",
+      "ukraine_2021-01_E002",
+      "ukraine_2021-01_E005",
+      "ukraine_2021-01_E006",
+      "ukraine_2021-01_E007",
+      "ukraine_2021-01_E008",
+      "ukraine_2021-01_E010"
+    ],
+    "required_followup": "Retain origin/dependency notes and seek genuinely separate accounts where corroboration matters."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G009",
+    "type": "coverage",
+    "description": "Open-web searches in Ukrainian, Russian and English covered January date windows, regions/cities, tariff/energy and labor terms, and December/February continuity. They did not reproduce LexisNexis or systematic local archives; no provider total was exposed. Search results do not prove coverage or absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use the original archive protocol or authorized local archives when available; do not infer no other event occurred."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G010",
+    "type": "episode_unit",
+    "description": "S006 reports the Jan. 28 FOP rally/march and says Tax Maidan had continued at Independence Square since Dec. 15, 2020. It does not establish uninterrupted physical presence or whether Jan. 28 was a phase or distinct assembly.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "ukraine_2021-01_C001"
+    ],
+    "required_followup": "Check accessible December and January physical accounts; keep Jan. 28 activity separate from a proved episode onset."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G011",
+    "type": "episode_unit",
+    "description": "Zhytomyr tariff actions are reported on Jan. 10, Jan. 13 and Jan. 15. Jan. 13 roadblockers dispersed; a separate moving Jan. 15 action is documented. Jan. 10 turnout/site and broader campaign relations remain uncertain. Same-publisher accounts are not independent.",
+    "source_ids": [
+      "S007",
+      "S043"
+    ],
+    "affected_candidates": [
+      "ukraine_2021-01_E005",
+      "ukraine_2021-01_E008",
+      "ukraine_2021-01_E010"
+    ],
+    "required_followup": "Verify the Jan. 10 lead and any campaign organization; do not merge date-specific acts by shared grievance alone."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G012",
+    "type": "source_access",
+    "description": "S030 is the opened Dnipro Jan. 24 canonical page (input ref turn5684search6, body ref turn5762view0). The full returned text and exact line range are not in retained worker context after compaction; URL/ref pairing and summarized observed facts remain. No guessed store-key probe is treated as proof of a missing key.",
+    "source_ids": [
+      "S030"
+    ],
+    "affected_candidates": [
+      "ukraine_2021-01_E014"
+    ],
+    "required_followup": "Root may reread the exact page after a fresh global saved-universe denial scan if detailed scope needs independent confirmation."
+  },
+  {
+    "gap_id": "ukraine_2021-01_G013",
+    "type": "source_access",
+    "description": "S043’s first pre-open scan matched three publisher-tagged cards but its host predicate omitted two www.ukrinform.ua cards with null publisher. Exact S043 card was included and not blocked. A corrected full host scan found all five cards and no denials and was repeated before S007’s exact GET.",
+    "source_ids": [
+      "S007",
+      "S043"
+    ],
+    "affected_candidates": [
+      "ukraine_2021-01_E008",
+      "ukraine_2021-01_E010"
+    ],
+    "required_followup": "Retain scan limitation; corrected full scans found no denial and no retry followed any denial."
+  }
+]

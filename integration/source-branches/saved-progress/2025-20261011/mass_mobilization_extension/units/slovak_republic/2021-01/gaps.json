@@ -1,0 +1,28 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline",
+    "description": "The latest official Mass Mobilization event file, universe, schema, and standalone Coding Procedure remain unverified in the shared baseline. This unit will retain provisional candidate records only.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator to resolve the official baseline and Coding Procedure before any export or official coding."
+  },
+  {
+    "gap_id": "G002",
+    "type": "search_method",
+    "description": "The 23 logged queries use open-web indexing and do not reproduce the original LexisNexis search frame. The search provider exposes result headers but no total-result counts; localized and week-specific queries reduce but do not eliminate undercoverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain this query log; use the original archive/search frame if it becomes available before making any official event-level completeness claim."
+  },
+  {
+    "gap_id": "G003",
+    "type": "source_access",
+    "description": "The January 28 Denník N article surfaced in search as a report about mayors opposing the government, but the web open was a cache miss. The initial exact-URL ordinary HTTPS request failed DNS (process exit 3); one subsequent exact-URL ordinary HTTPS request returned HTTP 403 (process exit 2). The search snippet does not establish a gathering.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry or bypass the denial. Revisit only if an independently discovered specific gathering makes this source material to classification."
+  }
+]

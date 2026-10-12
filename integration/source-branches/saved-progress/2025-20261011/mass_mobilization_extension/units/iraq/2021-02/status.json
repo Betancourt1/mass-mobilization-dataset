@@ -1,0 +1,30 @@
+{
+  "unit_id": "iraq_2021-02",
+  "country": "Iraq",
+  "month": "2021-02",
+  "agent_task": "/root/iraq_2021_02_batch57",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T12:16:29.842000+00:00",
+  "finished_at": "2026-10-10T12:53:43.482012+00:00",
+  "n_queries": 21,
+  "n_sources": 31,
+  "n_candidates": 4,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 15,
+  "coverage_assessment": "Bounded open-web discovery: 21 actual captured searches in English, Arabic and Sorani yielded 487 exact ordered result headers and 31 recorded source cards. Only the Shafaq Dukan Dam story (S002) has a full exposed article-body read; 30 cards remain search_only. Four provisional event records remain pending review, alongside 15 evidence gaps. Search results and this limited source set are not an exhaustive country-month census or proof of absence. LexisNexis and the official baseline were not available to this worker. Event onsets, thresholds, unit boundaries, end dates, origins and state responses remain incomplete; no candidate is officially approved.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 1,
+    "search_only_cards": 30,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "original_search_actions": 21,
+    "captured_query_records": 21,
+    "captured_header_count": 487,
+    "ordered_headers_urls_clocks_and_original_event_ids_verified": true,
+    "search_capture_manifest": "search_capture_manifest.json"
+  }
+}

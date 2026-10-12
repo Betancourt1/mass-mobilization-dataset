@@ -1,0 +1,116 @@
+[
+  {
+    "candidate_id": "ALB202504-E001",
+    "country": "Albania",
+    "ccode": "339",
+    "unit_month": "2025-04",
+    "title": "Animal-protection march in Tirana",
+    "start_date": "2025-04",
+    "start_precision": "month",
+    "end_date": "2025-04",
+    "end_precision": "month",
+    "location": "Tirana; reported route included central streets and state institutions",
+    "scope": "One public march; CIVICUS and The Animal Reader describe a central Tirana procession, while RTSH reports stops at the Prime Minister's Office, Tirana Municipality and Justice Ministry. Exact start/end times unknown.",
+    "organizer": "Animal welfare organizations, including Animal Rescue Albania, Dandi Mission, Animals Need Me and Bambi Foundation; The Animal Reader reports these organizers.",
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "CIVICUS Monitor and The Animal Reader describe hundreds of participants; RTSH calls the number large. No numeric headcount or bounds reported.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "The two linked reports describe hundreds, which supports a gathering over 50 qualitatively; exact count and independence of the CIVICUS/Animal Reader reporting relationship remain unresolved. RTSH separately describes a large number.",
+    "protester_violence": "no_explicit",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "no_explicit",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S001",
+      "S005",
+      "S008"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "S001",
+          "S005",
+          "S008"
+        ],
+        "summary": "CIVICUS dates the march to April 26; The Animal Reader dates its report April 27 without an explicit event date; RTSH, published April 28, says it occurred 'yesterday' (April 27). Preserve the conflict; month precision only."
+      },
+      "end_date": {
+        "source_ids": [
+          "S001",
+          "S005",
+          "S008"
+        ],
+        "summary": "Same-month public march is documented, but exact ending date/time is conflicted or unstated; month precision only."
+      },
+      "location": {
+        "source_ids": [
+          "S001",
+          "S005",
+          "S008"
+        ],
+        "summary": "All accounts place the animal-rights march in Tirana; RTSH and The Animal Reader list different state-institution stops."
+      },
+      "organizer": {
+        "source_ids": [
+          "S008"
+        ],
+        "summary": "The Animal Reader names Animal Rescue Albania, Dandi Mission, Animals Need Me and Bambi Foundation; RTSH says organized but does not name the groups."
+      },
+      "demands": {
+        "source_ids": [
+          "S001",
+          "S005",
+          "S008"
+        ],
+        "summary": "Reports describe demands for animal protection, enforcement of animal-protection laws, an end to violence against animals, and action by authorities. Mapped provisionally to political_behavior_process because the codebook has no separate animal-policy category."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S001",
+          "S005",
+          "S008"
+        ],
+        "summary": "CIVICUS and The Animal Reader say hundreds; RTSH says a large number; no numeric estimate."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S001",
+          "S008"
+        ],
+        "summary": "Qualitative 'hundreds' wording supports the threshold; numeric attendance and source independence are unresolved."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S001",
+          "S008"
+        ],
+        "summary": "The accounts describe the demonstration/march as peaceful."
+      },
+      "state_response": {
+        "source_ids": [
+          "S001"
+        ],
+        "summary": "CIVICUS reports no incidents or police intervention. This supports no_explicit crowd dispersal only; other state-response dimensions remain unknown."
+      }
+    },
+    "eligibility": "proposed_include",
+    "coding_status": "candidate",
+    "episode_key": "ALB202504-TIRANA-ANIMAL-PROTECTION",
+    "notes": "CIVICUS S001's April 26 claim is linked in its body to The Animal Reader S008; treat the two as related reporting, not independent corroboration. RTSH S005 separately reports a large animal-protection protest but says 'yesterday' in a report dated April 28, suggesting April 27. This conflicts by one day with CIVICUS; month-level date precision is retained. State-directed demand and qualitative mass threshold are reported. No official baseline gate has been completed.",
+    "open_questions": [
+      "Can the exact event date be resolved without choosing between April 26 and April 27 by assumption?",
+      "Is any exact attendance estimate available?",
+      "Did authorities respond beyond the report that no police intervention occurred?",
+      "Are CIVICUS S001 and Animal Reader S008 reporting independent, or is one the other's written origin?"
+    ]
+  }
+]

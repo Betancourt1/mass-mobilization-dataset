@@ -1,0 +1,44 @@
+Georgia — January 2021 research package
+Finished: 2026-10-08 11:24:21 UTC
+Status: researched_open_web_pending_review; human_approved=false.
+Worker ownership: this unit's evidence files only. assignment.json belongs to the coordinator.
+No Git operations, contact, publication, contribution or official-data merge performed.
+
+METHOD AND COUNTS
+71 actual web queries; 300 source URL cards; 28 opened, 267 search-only, 3 blocked, 2 not found.
+24 candidate research objects; 9 exclusions; 4 continuation/predecessor records; 35 gaps.
+Candidate proposals: 1 proposed_include, 12 pending_threshold, 1 pending_state_target, 6 pending_unit, 4 pending_evidence.
+The research objects preserve finer action/day/locality distinctions for review. These counts are not distinct eligible-event counts or independent confirmations.
+
+Generic protest/demonstration/strike/march searches were followed by overlapping weekly and date-filter windows, Georgian and Russian equivalents, regional queries (including Batumi, Kutaisi, Zugdidi, Anaklia, Pankisi, Rustavi, Tkibuli, Chiatura and Guria) and sector queries on labour, restrictions, schooling, disability, transport, amnesty, electoral demands, development and dam protests. December/November predecessors and February follow-up leads were sought. Actual queries and their returned URLs are retained, including empty/no-useful-result searches and contamination.
+Times are actual UTC clock readings. Batch search times identify request initiation, not individual result timestamps. Batch-pooled returned URLs are explicitly labelled rather than falsely attributed to one query. Publication date is null when not verified; event dates come from body evidence when available.
+
+Public web browsing was mandatory and used. Where web tools returned cache errors, ordinary HTTPS requests recovered contemporary written bodies. Actual HTTP 403, TLS certificate failure and DNS failure were respected. Source cards specify selected body/link/index scope and limitations; images and video were not used to estimate crowds. No full articles or large quotations retained. Native independent human review of Georgian and Russian passages remains pending.
+Web search does not reproduce LexisNexis or comprehensive archives. Date filters frequently returned later years and the US state. Missing results are not protest absence.
+
+MAIN EVIDENCE AND REVIEW
+E001: OC Media reports around 200 physically attending the January 24 Government Chancellery rally against Georgian restrictions; Civil Georgia confirms the actual rally and 48-hour ultimatum. Rounded point estimate 200 is not an exact range. Proposed inclusion remains subject to episode identity and review.
+E002–E014: Written contemporary evidence distinguishes the January 24 night march and Mziuri parents, January 25 Greens/United Youth/dance-school actions, January 26 Chancellery and separate Gldani traders, January 27 Kutaisi tent, January 28 Kutaisi traders and disability action, and January 30–31 reopening/transport actions. No crowd numbers were manufactured from relative size, restaurant counts or affected people. January 31 Kutaisi explicitly reports several citizens, insufficient to establish 50.
+E015/E021/E023: January 8 Sputnik article relaying 1TV verifies separate amnesty actions in Duisi and Kutaisi and a Tbilisi political-prisoner-release action. Prison hunger strikers and possible beneficiaries are not street attendance.
+E016/E017/E020/E022: January 10 amnesty renewal, January 16 conference-outside protest, January 28 court solidarity and January 23 Anaklia port lead retain null physical starts where only inaccessible discovery or an announcement is established. GHN's body is opened but describes a planned future court gathering, not verified execution.
+E018: January 23 Batumi colonnades rally organized by Batom opposes hotel development in a heritage/recreation zone. The actual publisher archive, including the coordinator's narrower read, establishes a domestic-government demand to protect the space, act lawfully and publish the development plan. Attendance is pending. Organizers disavowed the separate MP-following/trash-dumping incident; it is not assigned to the entire assembly.
+E019: Kavkaz Uzel reports several dozen at a January 24 Pangani-release rally and an ended 20:00–21:00 phase; News Georgia reports renewal January 25. Whole-episode closure, the 50 threshold and exact phase identity remain open. Motivating arrest is not coded as a response to the release rally.
+E024: Publika reproduces EMC's contemporaneous claim of more than 100 Glovo couriers physically outside the office January 29. Wage and conditions demands address the company; EMC separately asks the Labour Inspectorate to investigate. Assembly's own state demand is unresolved, so pending_state_target. Company-manager meetings do not establish government accommodation.
+
+Seven state responses and protester violence remain unknown in all events unless the evidence supports the exact action and scope. Gldani roadblock resistance has no verified attempt to move or break up the assembly in the read text, so dispersal remains unknown; actual success is never required. Kutaisi building guards do not establish dispersal. A disability letter's delivery does not establish formal reception. A reported government/private-sector meeting is not automatically accommodation for E007 without matching representatives or demands. A trader's attributed claim of governmental neglect has an unresolved action/policy scope. No fines or arrests in one reported phase does not establish all responses as absent.
+
+CONTINUITY AND EXCLUSIONS
+C001: Namakhvani/Rioni rotating vigil predates January; 98 days is duration. January 30 police tent removal supports crowd_dispersal=yes for that clearing phase. No January onset reset, exact earlier day, numerical crowd, beating or whole-protest end inferred.
+C002: Batumi Government House election camp already continuing in November; January continuation reported. Exact first physical day/owner month unresolved; New Year celebration is not a new onset.
+C003: CrisisWatch says early-December Tskhinvali main-square protest continued through January. De-facto jurisdiction/state-target mapping, threshold and primary evidence are pending. Former leaders' proposed mediation is not actual government accommodation; an August death is not a January response.
+C004: Earlier Parliament rear-entrance tent protest is a possible predecessor trace, not verified uninterrupted January occupation.
+
+The exclusions retain company-only GWP demands, foreign-target discovery, conference delegates mistaken for protesters, date/US-state contamination, generic COVID fines, celebration of an existing camp, business-only boycott planning and later-year mobilisation. Qualifications are preserved; new evidence of an assembly's own state demand can reopen the relevant private-company exclusion.
+
+NEXT WORK AND LIMITS
+Recover original current-domain Atinati and Batumelebi January 12 family/road-closure leads; distinguish announcements and prevention from an executed public assembly. Recover legitimate inaccessible ACT2, TV25 and January 16 reporting, original EMC/1TV/Rustavi 2 material, exact attendance and physical closure. Review action/campaign/day/local/phase ownership using missing detailed original episode procedure. Resolve baseline bytes, latest schema and country universe before integration. None of the pending records imply that no protest occurred.
+
+SELF-CHECK AND OPERATIONS
+All nine required unit files are present; JSON/JSONL parsing, IDs, references, enumerations, date precision, counts and global prefix uniqueness are checked before handoff. Coordinator performs independent read-only review and any authorized local commit. No worker approval is implied.
+Temporary resources: finite HTTPS readers only, all returned exit code 0; no worker browser, server, watcher, container, VM or background process remains. Temporary request lists contain URLs, not article copies.
+This work took more than ten minutes. The existing portable CLI already covers validation, checkpointing and consolidation; source recovery and evidence judgment were the bottleneck, so a new skill or CLI would not remove the main cost.

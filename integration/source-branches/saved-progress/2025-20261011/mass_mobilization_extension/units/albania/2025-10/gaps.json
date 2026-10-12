@@ -1,0 +1,99 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "state_target",
+    "description": "For ALB202510-E001, the Oct. 8–9 mine-site demands reported by Citizens focus on employer labor conditions, safety, union recognition and collective agreement. Reporter.al reports mediation through the National Employment Agency and union calls for government action, but those references do not establish that this particular gathering itself was directed at the state.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "ALB202510-E001"
+    ],
+    "required_followup": "Seek site- and action-specific evidence of a state-directed demand; otherwise keep eligibility pending_state_target."
+  },
+  {
+    "gap_id": "G002",
+    "type": "participants",
+    "description": "Citizens says about 70 miners gathered in protest for the Oct. 8–9 mine-site action; the approximate count has no bounds or independent contemporary corroboration. Reporter.al’s phrase about 70 employees protesting for three days is not independently treated as an assembly count. Oct. 30 Parliament turnout is not stated.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "ALB202510-E001",
+      "ALB202510-E002"
+    ],
+    "required_followup": "Find independent attendance reporting for each separate action; do not transfer Oct. 8–9 count to Parliament."
+  },
+  {
+    "gap_id": "G003",
+    "type": "event_dates_and_episode_boundaries",
+    "description": "Citizens dates the mine-site gathering to Oct. 8 and 9. Reporter.al says three days as of Oct. 10; the precise physical end, number of assemblies and continuity are unresolved. Oct. 30 at Parliament is treated as a distinct gathering within the broader Spaç labor dispute.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "ALB202510-E001",
+      "ALB202510-E002"
+    ],
+    "required_followup": "Seek dated reporting about daily assemblies, strike continuation and the Oct. 30 action boundary."
+  },
+  {
+    "gap_id": "G004",
+    "type": "participants",
+    "description": "The Oct. 30 Parliament action is reported, but the inspected contemporary report gives no separate crowd estimate.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "ALB202510-E002"
+    ],
+    "required_followup": "Verify turnout for the Parliament gathering from an independent source."
+  },
+  {
+    "gap_id": "G005",
+    "type": "source_access_and_cutoff",
+    "description": "CNA S001 was opened but published Oct. 9, 2026, after the fixed 2026-10-07 cutoff, and its headline does not identify the rallies’ year. It is excluded from 2025 evidence. ACLED S002 retrospectively identifies October as a demonstration peak and names mine/oil sectors and places but supplies no event-level date or attendance.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "ALB202510-E001",
+      "ALB202510-E002"
+    ],
+    "required_followup": "Use pre-cutoff contemporary event reports for individual dates, turnout and demands; do not code CNA or infer individual events from ACLED’s monthly summary."
+  },
+  {
+    "gap_id": "G006",
+    "type": "cross_month_continuity",
+    "description": "October reports describe an indefinite strike and later Parliament action, but the physical continuity, any November public gathering, strike end and relation of the actions across month boundaries are unresolved. The November Citizens follow-up response was not saved and cannot be used to establish continuity.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "ALB202510-E001",
+      "ALB202510-E002"
+    ],
+    "required_followup": "Verify later actions and actual physical continuity with a separately captured, permitted report; preserve announced strikes separately from assemblies."
+  },
+  {
+    "gap_id": "G007",
+    "type": "search_capture_provenance",
+    "description": "Five actual pooled search invocations yielded 130 visible rendered headers. Q001–Q005 are retained as whole-invocation traces; Q001–Q004 historical local call/save intervals and provider-native header timestamps are unknown. Search snippets were discovery leads only.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain exact private outputs and hashes; do not infer partitions or provider timestamps."
+  },
+  {
+    "gap_id": "G008",
+    "type": "search_coverage",
+    "description": "The open-web pass covered English and Albanian generic protest terms, October worker/mining/oil searches, Spaç/Marinëz and candidate-date follow-ups. No systematic news archive or LexisNexis search was available; open-web searches are not exhaustive and do not imply absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If later review finds concrete date/sector leads, conduct bounded source-specific follow-up and document any archive limitation."
+  }
+]

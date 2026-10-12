@@ -1,0 +1,22 @@
+Angola 2025-04 — first open-web pass complete; pending independent review
+
+Scope and method
+This dossier covers Angola in April 2025 only. The pass used pooled public web searches in Portuguese and English, including country-month and event-specific phrasing, local and international news, student/labour/strike terms, and retrospective follow-up. Every actual search invocation is captured once with the complete ordered visible header list; batched result-to-query partitions were not exposed and were not inferred. Exact returned strings and request inputs remain in private_reading/search. Search-result excerpts, including incidental long DW text in a search response, are leads only and were not used as verified body evidence. Search access does not reproduce LexisNexis; neither exhaustive coverage nor absence is claimed.
+
+Finding
+One April 26 Luanda MEA student gathering/march is retained as a proposed-inclusion candidate, angola_2025-04_E001. Opened Primeiro Impacto reports the event and an MEA-attributed 150 detentions, not a crowd count. Opened Folha 8 says more than 50 MEA members were gathering, supporting the threshold as an attributed lower-bound claim; it is not an exact maximum and remains subject to human review. Folha 8 also reports public-school demands, criticism of the Angolan government, arrests and alleged beatings. RTP’s April 24 article is an advance notice with the planned place/time/route; it is not execution evidence. The candidate records arrests and beatings as reported, while participant violence, dispersal, shootings, killings, event end and official police response remain unknown. The education demand is left unmapped because the supplied category list has no education-specific category.
+
+Sources and access
+There are 15 source cards: three opened article bodies (S002, S011 and S015), one DW lead held under a saved publisher scope (S009), one exact TSF URL returning HTTP 403 (S010), one Facebook page returning an explicit temporary anti-bot block (S012), and two exact restricted leads (Club-K S013, Ver Angola S014). S005 Radio Angola is a search-only DW derivative and remains held. Other contemporaneous leads remain search-only or are planned notices; source IDs and evidence claims are linked in the candidate. S002 and S011 have no explicit written-origin link in reviewed metadata; separate publishers are not treated as proof of independence. The denied/held targets and variants were not retried or bypassed.
+
+Coverage gaps
+The physical assembly size beyond Folha 8’s “more than 50” report, completed route, end time, exact detention and injury totals, police account, outcome of detentions, and source independence remain open. The country/month search also returned out-of-period July fuel-price protest coverage; no July facts are coded here. Coverage by local languages, inaccessible archives and LexisNexis remains incomplete. See gaps.json for source-specific restrictions and follow-up. No March-starting continuation was identified in this pass; no continuity into May is established. Empty continuation and exclusion arrays do not assert that no other event occurred.
+
+Research status: researched_open_web_pending_review. Official baseline gate: pending_official_baseline. This dossier is not official inclusion or an update to the original Mass Mobilization dataset.
+
+Timing provenance
+Actual local pre-call observations are retained in the request/search records where sampled; native timestamps and early historical intervals are unavailable and remain null. Two ordinary HTTPS command timings were returned directly by curl: S002 exact-URL success 1.687134 seconds; S010 exact-URL 403 response 0.979120 seconds. Other search/open intervals were not sampled reliably; no durations are inferred from filenames or delayed observations.
+
+
+Approved temporary-body cleanup
+On 2026-10-11T00:37:08.412220Z, the exact approved article-body captures for this batch were removed after byte-level verification and independent approval (cleanup 7c7923d0-9396-457e-9790-d8495b8e10bd). Their SHA-256, byte size, read scope, paraphrases and actual access/request history remain in the body capture inventory, source records and cleanup receipt. No full-body backup was retained. Search outputs, error/denial/anti-bot responses, and unrelated captures remain. The May O País Internal Error response and curl metadata/stderr were preserved unchanged.

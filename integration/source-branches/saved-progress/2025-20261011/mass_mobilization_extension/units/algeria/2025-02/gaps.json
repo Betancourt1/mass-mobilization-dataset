@@ -1,0 +1,83 @@
+[
+  {
+    "gap_id": "algeria_2025-02_G001",
+    "type": "search_method",
+    "description": "Search captures are degraded rendered-result traces: original structured event metadata and native timestamps are unavailable. Batched invocations Q010–Q011, Q014–Q016, and Q017–Q019 were retained as whole batches with no guessed result-to-query allocation.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep raw captures/hashes; do not repeat searches solely to reconstruct missing metadata."
+  },
+  {
+    "gap_id": "algeria_2025-02_G002",
+    "type": "source_access",
+    "description": "Seven source cards remain search_only. Four source cards have limited body reads (S003, S007, S010, S011); S003 explicitly credits AP and is not independent, S011 explicitly relays S010, and S009 exact open returned Internal Error without article content. S001 has an inherited Le Monde hold; S002 AP open previously returned only a technical error and remains held from retry pending scope review.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue only on independent permitted exact URLs after fresh receipt/manual origin review; no retry of S009 or S002."
+  },
+  {
+    "gap_id": "algeria_2025-02_G003",
+    "type": "participants",
+    "description": "The M’sila Feb. 24 teachers’ union gathering is retained as a pending candidate: two opened accounts identify a gathering, but neither gives attendance. The >=50 threshold remains unresolved; demands and unit/campaign boundaries also remain unresolved. Search-only sources mention possible doctor actions but do not establish date, place or public-gathering form.",
+    "source_ids": [
+      "S007",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "algeria_2025-02_E001"
+    ],
+    "required_followup": "Seek permitted independent attendance/demand corroboration and clarify doctor-action dates/form; retain pending threshold rather than treating search excerpts as facts."
+  },
+  {
+    "gap_id": "algeria_2025-02_G004",
+    "type": "source_independence",
+    "description": "The joint FIDH/OMCT retrospective and Maghreb Emergent contemporary report both describe the M’sila gathering, but their underlying reporting independence is not established. CIVICUS explicitly attributes its repeated account to Maghreb Emergent. Africanews S003 explicitly says “with AP” and displays AP copyright, so it is an AP copy.",
+    "source_ids": [
+      "S007",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "algeria_2025-02_E001"
+    ],
+    "required_followup": "Map sources by disclosed origin and obtain a genuinely independent permitted account if available."
+  },
+  {
+    "gap_id": "algeria_2025-02_G005",
+    "type": "language",
+    "description": "French and Arabic searches, including candidate-specific M’sila and doctors’ queries, plus an English query, have been issued. Local/regional and official/union searches remain incomplete; Kabyle/Tamazight coverage is absent.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue systematic local/wilaya, official, union and regional searches, and log empty/noisy calls."
+  },
+  {
+    "gap_id": "algeria_2025-02_G006",
+    "type": "episode_unit",
+    "description": "The M’sila reporting describes strike activity on Feb. 23–24 but does not establish whether one gathering continued or separate gatherings occurred. Relationship to January student/lycée actions and possible February health-sector actions is unresolved.",
+    "source_ids": [
+      "S007",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "algeria_2025-02_E001"
+    ],
+    "required_followup": "Resolve start/end continuity, organizational relationship and cross-month unit ownership from permitted source text."
+  },
+  {
+    "gap_id": "algeria_2025-02_G007",
+    "type": "baseline",
+    "description": "Official baseline and additional Coding Procedure remain unverified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator verifies baseline before official mapping or integration."
+  }
+]

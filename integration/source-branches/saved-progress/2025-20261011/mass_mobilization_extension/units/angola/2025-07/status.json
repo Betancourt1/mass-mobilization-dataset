@@ -1,0 +1,40 @@
+{
+  "unit_id": "angola_2025-07",
+  "country": "Angola",
+  "month": "2025-07",
+  "agent_task": "/root/angola_q1",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-11T00:40:02.699125Z",
+  "finished_at": "2026-10-11T01:00:25Z",
+  "n_queries": 4,
+  "n_sources": 67,
+  "n_candidates": 1,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 6,
+  "coverage_assessment": "Bounded open-web first pass: 4 pooled search invocations, 109 visible headers and 67 source cards, including Portuguese and English fuel/taxi/protest searches and July-boundary follow-up. One Luanda July 28 protest candidate remains pending_threshold; no exact crowd size or verified physical dispersal. Two current exact-URL article bodies were reviewed; JTM and AP targets are blocked/held. Residual gaps cover threshold, response attribution, episode boundary, source independence/access, capture/deviation provenance, and coverage. This is not an absence claim; official baseline remains pending.",
+  "baseline_gate": "pending_official_baseline",
+  "runtime_model_configuration": "Luna/high requested; tool configuration accepted for reused worker, effective runtime unverified.",
+  "source_access_counts": {
+    "blocked": 2,
+    "search_only": 63,
+    "opened": 2,
+    "not_found": 0
+  },
+  "query_capture_integrity": {
+    "invocations": 4,
+    "captured_header_count": 109,
+    "whole_invocation_records": true,
+    "query_result_partitions": "unavailable; pooled results retained without inferred mapping",
+    "native_provider_clocks": "unavailable/null where not supplied",
+    "private_response_capture": "preserved with gaps explicitly noted in monthly report"
+  },
+  "observed_timing": {
+    "started_at_local_utc": "2026-10-11T00:40:02.699125Z",
+    "finished_at_local_utc": "2026-10-11T01:00:25Z",
+    "search_call_and_capture_intervals": "See report.txt; actual intervals recorded where available; some call+capture intervals combined.",
+    "reading_intervals": "See report.txt; actual request intervals recorded for July exact-body reads; other reading phases not measured.",
+    "coding_rework_wait_intervals": null,
+    "note": "Prior unknowns remain null; no filenames used to infer clocks."
+  }
+}

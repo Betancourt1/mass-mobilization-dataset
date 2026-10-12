@@ -1,0 +1,80 @@
+[
+  {
+    "gap_id": "angola_2025-07-G001",
+    "type": "participants_and_threshold",
+    "source_ids": [
+      "S027"
+    ],
+    "affected_candidates": [
+      "angola_2025-07-E001"
+    ],
+    "description": "The Reuters page reports protests but no crowd count or 50-person estimate; the 50-person threshold at one public assembly remains unestablished.",
+    "required_followup": "Seek a permitted contemporary report or primary record with a named gathering, time/place and attendance evidence. Keep eligibility pending_threshold unless threshold is clearly supported."
+  },
+  {
+    "gap_id": "angola_2025-07-G002",
+    "type": "state_response_and_attribution",
+    "source_ids": [
+      "S027",
+      "S067"
+    ],
+    "affected_candidates": [
+      "angola_2025-07-E001"
+    ],
+    "description": "Reuters attributes deaths and tear gas/shots to Novo Jornal; the Lusa-byline Correio da Manhã article reports strike-related vandalism and police presence. Neither proves deaths caused by state action or physical dispersal of the candidate gathering; looting/vandalism is not automatically protester violence.",
+    "required_followup": "Review permitted exact-origin evidence only after fresh publisher/story gates; identify whether arrests, shots or dispersal relate to the same assembly and code unknown where evidence does not support attribution."
+  },
+  {
+    "gap_id": "angola_2025-07-G003",
+    "type": "episode_boundary_and_continuity",
+    "source_ids": [
+      "S014",
+      "S016",
+      "S021",
+      "S023",
+      "S027",
+      "S047",
+      "S066",
+      "S067"
+    ],
+    "affected_candidates": [
+      "angola_2025-07-E001"
+    ],
+    "description": "Discovery leads suggest an earlier July 26 march and July 28–30 taxi stoppage/unrest. Search snippets do not establish the July 26 gathering, whether it is distinct, or the start/end and spatial bounds of the July 28 protest. Taxi work stoppage, looting and public assembly must not be merged by inference.",
+    "required_followup": "Verify exact occurrence dates, gathering locations, episode ownership and any continuation into August from permitted contemporary sources; do not assign the whole three-day strike or provincial unrest to one crowd."
+  },
+  {
+    "gap_id": "angola_2025-07-G004",
+    "type": "source_access_and_independence",
+    "source_ids": [
+      "S001",
+      "S014",
+      "S016",
+      "S023",
+      "S025",
+      "S027",
+      "S067"
+    ],
+    "affected_candidates": [
+      "angola_2025-07-E001"
+    ],
+    "description": "JTM S001 returned an explicit 403 and is blocked. AP S025’s exact URL had an observed 403; AP publisher/same-story/copy requests are on hold pending scope review, and no AP article facts are used. Reuters S027 attributes some claims to Novo Jornal; S067 is expressly Lusa-byline copy. Ver Angola exact-target/copies and other publisher holds remain off-limits. No alternate story/copy was used to bypass them.",
+    "required_followup": "Wait for source-specific scope review before any held AP/Ver Angola/Novo Jornal origin request. Keep exact access history; obtain independent reporting through separately scoped, non-held publishers where useful."
+  },
+  {
+    "gap_id": "angola_2025-07-G005",
+    "type": "search_capture_provenance",
+    "source_ids": [],
+    "affected_candidates": [],
+    "description": "July Q001 was preserved from owner-authorized rendered output; exact pre-call web__run JSON argument serialization is missing, although the query strings/tool/response-length note and full raw output are retained. No reconstruction or replacement query was made. A separate direct-write protocol deviation on events.json is documented at private_reading/deviation_records/20261011_events_direct_write_corrected.json; pre-copy and post-reapplication eight-file snapshots verify the old bytes remain.",
+    "required_followup": "Retain the exact missing-input and write-deviation disclosures in review. Do not reconstruct missing native/input metadata. All further dossier writes must use preserve_dossier.py."
+  },
+  {
+    "gap_id": "angola_2025-07-G006",
+    "type": "coverage_and_baseline",
+    "source_ids": [],
+    "affected_candidates": [],
+    "description": "Open-web discovery is not LexisNexis coverage; the original manual and official baseline remain pending. Search was in English and Portuguese and included general fuel/taxi, date-specific, local-news and provincial/sector terms, but results do not prove exhaustive reporting or absence.",
+    "required_followup": "Coordinator to resolve official baseline/manual access. Reviewers may request further bounded language, province or sector searches if gaps affect inclusion."
+  }
+]

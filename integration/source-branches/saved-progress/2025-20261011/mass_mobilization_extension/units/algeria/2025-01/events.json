@@ -1,0 +1,117 @@
+[
+  {
+    "candidate_id": "algeria_2025-01_E001",
+    "country": "Algeria",
+    "ccode": 615,
+    "unit_month": "2025-01",
+    "title": "High-school strike with reported street protests",
+    "start_date": "2025-01-20",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Maghreb Emergent names Tlemcen, Batna, Sétif, Bordj Bou Arréridj, Tizi Ouzou, Skikda and Biskra, with marches toward wilaya education directorates; TSA gives no city, and exact assembly locations and which reported sites are authentic remain unresolved.",
+    "scope": "Reported nationwide/cross-wilaya student mobilization involving local marches and school strikes; exact set of verified local assemblies and whether to treat them as one coordinated episode or distinct events remains unresolved.",
+    "organizer": "No organization identified. TSA attributes calls to anonymous social-media posts; Maghreb Emergent reports a shared TikTok call and an unsigned communiqué that called for mobilization at wilaya education directorates.",
+    "demands": [],
+    "participants_original": null,
+    "participants_min": null,
+    "participants_max": null,
+    "participants_estimate": null,
+    "participants_precision": "unknown",
+    "threshold_50_evidence": "Maghreb Emergent’s contemporaneous 20 Jan report says TikTok videos showed hundreds of students marching across several establishments and lists seven wilayas, but explicitly cautions not all locations could be authenticated and gives no per-assembly counts. NPA’s 7 Feb political commentary claims hundreds in each of four cities, but offers no cited basis. TSA gives no count. The sources support a plausible mass-action candidate, but no specific authenticated assembly/date/unit has verified >=50 turnout; keep pending_threshold.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "unknown",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S005",
+      "S006",
+      "S003"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "S005",
+          "S006",
+          "S003"
+        ],
+        "summary": "TSA reports a high-school strike and street protests by Jan. 23; Maghreb Emergent describes Jan. 20 marches; NPA retrospectively says the movement began Jan. 20 and continued through the week."
+      },
+      "start_date": {
+        "source_ids": [
+          "S006",
+          "S003",
+          "S005"
+        ],
+        "summary": "Maghreb Emergent dates initial marches to the morning of Monday Jan. 20; NPA says the strike began Monday Jan. 20. TSA’s Jan. 23 report says actions had been underway for a few days. Exact dates of later assemblies remain unknown."
+      },
+      "location": {
+        "source_ids": [
+          "S006",
+          "S003",
+          "S005"
+        ],
+        "summary": "Maghreb Emergent names seven wilayas and says marches went toward education directorates, but cautions not all locations could be authenticated. NPA independently names four cities but does not list venues; TSA names no city."
+      },
+      "scope": {
+        "source_ids": [
+          "S006",
+          "S003",
+          "S005"
+        ],
+        "summary": "Maghreb Emergent describes mobilization at wilaya-level directorates and NPA calls it generalized across several cities. The count and boundaries of verified local assemblies and whether one episode or separate event units are appropriate remain unresolved."
+      },
+      "organizer": {
+        "source_ids": [
+          "S006",
+          "S003",
+          "S005"
+        ],
+        "summary": "Maghreb Emergent reports TikTok calls and an unsigned communiqué; TSA says anonymous social-media calls; NPA says lycéens coordinated via TikTok. No formal student organization is named."
+      },
+      "demands": {
+        "source_ids": [
+          "S006",
+          "S003",
+          "S005"
+        ],
+        "summary": "Maghreb Emergent and NPA attribute a curriculum-reduction demand to the movement; TSA reports unclear/mixed grievances. The controlled demand taxonomy contains no education category, so no coded demand value is assigned; participant-authored source basis and local variation remain unverified."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S006",
+          "S003",
+          "S005"
+        ],
+        "summary": "Maghreb Emergent contemporaneously says videos showed hundreds across several establishments, but not per assembly and cautions some locations could not be authenticated. NPA later claims hundreds in each of four cities without citing its basis; TSA provides no count. A specific authenticated assembly exceeding 50 remains unverified."
+      },
+      "state_response": {
+        "source_ids": [
+          "S006",
+          "S003",
+          "S005"
+        ],
+        "summary": "Maghreb Emergent reports an official presented as the Batna education director addressing students, saying the wali was informed and promising to visit schools and examine grievances; its identity/video was not independently checked. TSA reports a ministerial promise and union calls but no assembly-level link. No aggregate response is coded."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "candidate",
+    "episode_key": null,
+    "notes": "A plausible collective public-action lead is retained for review; no qualifying mass assembly, specific demand directed to the Algerian state, local event unit, or direct state response is established. No national-to-local split is inferred. NPA–Révolutionnaires’ 7 Feb political commentary adds a retrospective claim of demonstrations by hundreds in Algiers, Tizi Ouzou, Oran and Constantine, and dates the strike from 20 Jan. Its counts are uncorroborated and event-unit boundaries remain unresolved; keep pending_threshold and do not split into local events without evidence. Maghreb Emergent’s contemporaneous Jan. 20 article reports TikTok videos of hundreds of students marching toward wilaya education directorates in seven named wilayas, while explicitly saying not all locations could be authenticated. It gives a per-assembly count nowhere. This adds localized specificity but does not establish the unit structure or a verified >=50 crowd for a specific assembly. Although reporting attributes curriculum grievances, the controlled demand taxonomy has no education category; the `demands` coded array remains empty. The summary records attributed demand evidence without assigning an unsupported category.",
+    "open_questions": [
+      "Did any specific public gathering reach 50 participants?",
+      "Which city, venue, exact day, and group does each reported street protest concern?",
+      "Were demands actually directed to state authorities, and what were they?",
+      "Does the strike/protest remain physically continuous into February or consist of distinct events?",
+      "Can independent contemporary sources corroborate event and threshold details?",
+      "Are the NPA-reported city counts based on a contemporaneous source and do they refer to distinct assemblies meeting the project threshold?",
+      "What dates and exact venues correspond to the city marches?"
+    ]
+  }
+]

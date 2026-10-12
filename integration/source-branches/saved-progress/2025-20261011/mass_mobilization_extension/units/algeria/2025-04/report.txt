@@ -1,0 +1,13 @@
+Algeria 2025-04 — open-web first pass; pending independent review.
+
+Method: Search invocations and full rendered responses are saved privately in private_reading/search. Searches covered French, Arabic (including common local month names), English and a Tamazight-script probe; broad demonstration/protest/strike/union terms; education, health and public-sector labor; selected official APS, local/regional outlets and retrospective coverage; and major-city, Kabylie/Béjaïa/Tizi Ouzou/Bouira, southern-wilaya and local-grievance terms. Every batched invocation is one canonical search_log row. Results are stored only at invocation scope; no query-to-result assignment is inferred. Some SEARCH returns contained long publisher excerpts; these are recorded as search-result exposure only and remain search_only/pending_evidence.
+
+Coverage: 6 actual search invocations and 22 submitted query strings. Captured visible headers: 163. Native structured search-event metadata and native clocks were not exposed; unavailable fields remain unknown. Search-response raw files and input records are retained, hashed, and parsed only for displayed title, URL, citation ref when present, and order.
+
+Sources: 5 relevant search-only leads are recorded in sources.jsonl. No event-level source body was successfully read. Amnesty International’s April source remains subject to the current scope hold; no body was requested. Search-only reports about online activism do not establish a physical gathering. Source-scope note: the current AP and Amnesty body holds remain respected. No AP copy/story was requested; AP search results in this pass concerned February boundary material only. Amnesty body retrieval was not attempted. Exact-URL receipts that return manual_review do not themselves authorize retrieval.
+
+No candidate event is currently coded. This means no qualifying candidate was established from the captured, permitted evidence; it does not mean no mobilization occurred. events.json, excluded.json and continuations.json are empty because the discovery-only evidence did not support event-level classification.
+
+Final consistency and validation closure ran from 2026-10-10 23:58:15 to 23:58:36 UTC (21 seconds). Earlier native search/read/coding boundaries were not captured and remain unknown.
+
+Unresolved limits are listed in gaps.json. The unit remains subject to coordinator review, official baseline comparison, source-scope decisions, and additional targeted research if requested. No exhaustiveness claim is made; web search is not LexisNexis or a complete newspaper/archive corpus.

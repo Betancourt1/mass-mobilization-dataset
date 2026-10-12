@@ -1,0 +1,161 @@
+[
+  {
+    "gap_id": "CDK-2021-02-G001",
+    "type": "event_occurrence_threshold_and_continuity",
+    "description": "Zando vendors’ February 2 activity remains a discovery lead. The S003 search title refers to a planned/prohibited march, but its supplied article body lacks a contemporaneous saved manual-review note; all body-derived claims, including the reported prohibition and planned date, are quarantined as non-evidence. S001’s separate Actu30 result suggests an executed march, but its receipt-backed request returned HTTP 403 with no body and also lacks a contemporaneous saved manual-review note. Search metadata does not establish occurrence, date, attendance threshold, state response or relationship to the January 25 market protest.",
+    "source_ids": [
+      "CDK-2021-02-S001",
+      "CDK-2021-02-S002",
+      "CDK-2021-02-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use accessible independent contemporary reporting or records to establish whether a public march occurred on Feb 2, its attendance and state response, and whether it was distinct from the Jan 25 episode. Do not retry the exact Actu30 URL after its 403.",
+    "notes": "S003 body synopsis is preserved only as historical non-evidence. S001 returned no body; its search title/snippet is discovery only. No body-derived conclusion is operative."
+  },
+  {
+    "gap_id": "CDK-2021-02-G002",
+    "type": "event_date_threshold_and_origin",
+    "description": "A 7sur7 search-result snippet says M14 organized a protest in Gbadolite against governor Izato Nzege Koloke’s return and a decision by Interior Minister Gilbert Kankonde. The only URLs surfaced by exact-title search are category listings, including two duplicate indexes; the underlying report URL, event date and attendance are not established. The likely-related Dépêche.cd exact URL returned HTTP 403, so its article body was not read.",
+    "source_ids": [
+      "CDK-2021-02-S008",
+      "CDK-2021-02-S009",
+      "CDK-2021-02-S024"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find an accessible direct article or independent contemporary account to establish occurrence date, crowd threshold, organizer demands, response and whether the 7sur7 and Dépêche items are independent reports or related story copies; do not retry the denied Dépêche URL.",
+    "notes": "7sur7 category snippets are discovery-only, not independent evidence. S008’s receipt exists but no contemporaneous saved manual-review note is present; the exact request returned 403 with no body. Its discovery lead remains unresolved."
+  },
+  {
+    "gap_id": "CDK-2021-02-G003",
+    "type": "publicness_state_target_and_threshold",
+    "description": "S021’s search result identifies a possible Beni university-staff strike lead. Its prior body synopsis, including the claimed February 2 effective strike, campus general assembly and external-audit demand, lacks a contemporaneous saved manual-review note and is quarantined as non-evidence. Occurrence, event date, publicness, state-policy target, attendance threshold, strike continuity and state response remain unresolved; do not infer these facts from the preserved body synopsis.",
+    "source_ids": [
+      "CDK-2021-02-S021"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check whether another contemporary source establishes a public assembly/picket, at least 50 participants, and an explicit government or state-policy target; otherwise retain outside event candidates as an internal labor dispute.",
+    "notes": "S021’s body-read flag and old synopsis are historical process records only. The search lead remains discovery metadata; the body claims are not operative evidence. No public gathering is inferred."
+  },
+  {
+    "gap_id": "CDK-2021-02-G004",
+    "type": "attendance_threshold_and_source_relationship",
+    "description": "Actu30’s body establishes a public ECIDE march in Kananga on February 10, 2021 over insecurity and demands for local officials to resign and governor elections. Police stopped it at the starting-point roundabout, arrested the ECIDE federation chair and two militants, while other participants fled. The crowd size is not reported, and three arrests do not establish the >=50 threshold. Coulisses S011 appears to describe a similar Kananga/Fayulu march, but no body or written origin link establishes whether it covers the same action. Q024 also surfaced search-only S036 and S037: S036 announces the Feb 10 ECIDE action and S037 lists a 7sur7 account; both may concern this same action and do not establish an additional event.",
+    "source_ids": [
+      "CDK-2021-02-S010",
+      "CDK-2021-02-S011",
+      "CDK-2021-02-S036",
+      "CDK-2021-02-S037"
+    ],
+    "affected_candidates": [
+      "CDK-2021-02-E004"
+    ],
+    "required_followup": "Find a contemporaneous account with an attendance estimate and compare the Coulisses report’s event date, details, and any explicit source attribution before merging or treating it as independent.",
+    "notes": "S010 was read after web.open returned only a technical cache miss, using ordinary public HTTPS with a separate fresh receipt and manual review. No denied HTTP status occurred. It is a candidate with pending_threshold; arrest numbers are not used as crowd size."
+  },
+  {
+    "gap_id": "CDK-2021-02-G005",
+    "type": "attendance_threshold_and_report_lineage",
+    "description": "Infocongo confirms a peaceful Kananga march by judicial defenders on February 25 against a new bar law and reports that the provincial assembly quaestor received their memo and promised to forward it. Turnout is unreported. A Radio Okapi archive lists a matching headline/date, but no direct story URL or origin relation establishes whether it is the same report or an independent account.",
+    "source_ids": [
+      "CDK-2021-02-S027",
+      "CDK-2021-02-S015"
+    ],
+    "affected_candidates": [
+      "CDK-2021-02-E005"
+    ],
+    "required_followup": "Find an attendance estimate and a direct Radio Okapi article or origin note; do not count the archive listing as independent confirmation. Check whether the memorandum was forwarded or acted on.",
+    "notes": "The memo receipt and promise to forward are coded as accommodation limited to procedural receipt; they are not coded as a law change or victory."
+  },
+  {
+    "gap_id": "CDK-2021-02-G006",
+    "type": "blocked_source_event_date_and_scope",
+    "description": "The ACP search result describes a Matadi march supporting President Tshisekedi’s new African Union chair role. The exact article URL returned HTTP 403 after a web-reader cache miss; no body was read. The actual occurrence, date, turnout, and whether participants made any demand beyond support remain unverified.",
+    "source_ids": [
+      "CDK-2021-02-S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry the exact ACP URL after 403. If needed for final scope review, seek an accessible independent contemporary account that establishes occurrence/date and whether there was any separate grievance or government demand; do not turn the search title into verified event evidence.",
+    "notes": "The lead is provisionally placed in excluded.json as support-only on title evidence. The exclusion remains provisional because page body and event metadata are unavailable."
+  },
+  {
+    "gap_id": "CDK-2021-02-G007",
+    "type": "attendance_threshold_relative_date_and_episode_relation",
+    "description": "InfosLive body confirms a Lucha street protest in Kananga against rising insecurity and demanding the local mayor’s resignation. The article says “this Friday”; its URL path is dated 12 February, but no separate absolute occurrence timestamp or turnout is given. S013 Afrique Media’s search lead describes a civil-society insecurity protest around February 13 and may refer to the same action or the separately announced civic-forces march; no body or origin relation resolves this.",
+    "source_ids": [
+      "CDK-2021-02-S012",
+      "CDK-2021-02-S013"
+    ],
+    "affected_candidates": [
+      "CDK-2021-02-E006"
+    ],
+    "required_followup": "Seek an accessible contemporaneous account with a numeric attendance estimate and explicit event date, and establish whether S013 is the Lucha action, the planned civic-forces march, a separate action, or a related copy. Do not count the announced civic-forces march as executed without evidence.",
+    "notes": "The demand to the Kananga mayor is explicit and is recorded in E006 field evidence; the attendance threshold remains unresolved. Police repression reported for the separate Feb 10 ECIDE action is not coded as a response to Lucha."
+  },
+  {
+    "gap_id": "CDK-2021-02-G008",
+    "type": "february_19_lucha_event_and_report_lineage",
+    "description": "Q024 surfaced a February 19 Actualite.cd Lucha report (S031), a 7sur7 category listing (S032), a MediaCongo Press account mentioning an appeal to Gilbert Kankonde (S033), and a Forum des as title about Lucha and Filimbi demanding the Kananga mayor’s departure after a repressed march (S038). These search-only leads may concern one or more Kananga actions later in February and are not merged with the Feb 12 E006 event.",
+    "source_ids": [
+      "CDK-2021-02-S031",
+      "CDK-2021-02-S032",
+      "CDK-2021-02-S033",
+      "CDK-2021-02-S038"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Find accessible direct bodies, confirm event dates/occurrence and turnout, and compare details and written origin/copy relationships across the Lucha reports before deciding whether they describe one or multiple actions. Do not infer a separate event from a headline or archive listing.",
+    "notes": "No body attempt was made for these Q024 leads. Search-result metadata is discovery only; this gap preserves rather than resolves them."
+  },
+  {
+    "gap_id": "CDK-2021-02-G009",
+    "type": "youth_march_announcement_occurrence_and_threshold",
+    "description": "Q024 surfaced a Feb 17 Coulisses announcement that a youth collective would march on Friday for security in Kananga (S034) and a MediaCongo Press title reporting police dispersed a youth march (S035). The two titles may refer to the same Feb 18 action; exact date, execution, group relationship, attendance and response details are not confirmed from bodies.",
+    "source_ids": [
+      "CDK-2021-02-S034",
+      "CDK-2021-02-S035"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review direct body text and any independent account to confirm whether an assembly occurred, its date and turnout, and whether the announcement and report concern one action. Do not treat the announcement as execution.",
+    "notes": "Search-only lead; no body was attempted. Keep distinct from E006 unless actual event linkage is established."
+  },
+  {
+    "gap_id": "CDK-2021-02-G010",
+    "type": "post_month_lucha_followup_and_continuity",
+    "description": "Q024 surfaced a March 9 ADIAC page (S029) and a March 9 Les Dépêches de Brazzaville/Le Courrier de Kinshasa PDF (S030) titled as a Lucha sit-in planned outside the Kananga prosecutor’s office. The PDF host branding is associated with Brazzaville, but the search result describes Kananga in DRC; the source is not evidence of a Republic of Congo protest. Body text and written origin relation are unavailable.",
+    "source_ids": [
+      "CDK-2021-02-S029",
+      "CDK-2021-02-S030"
+    ],
+    "affected_candidates": [
+      "CDK-2021-02-E006"
+    ],
+    "required_followup": "If reviewing continuity, read the exact March 9 pages/PDF and establish whether a sit-in occurred or was only planned, whether it followed the Feb 12 Lucha protest, and whether S029/S030 are the same report. Keep March activity outside this February event unless evidence supports a cross-month continuation record.",
+    "notes": "Retained as a month-boundary lead only. No body was attempted; the DRC/DRC-Kinshasa and Republic of Congo/Brazzaville contexts must remain distinct."
+  },
+  {
+    "gap_id": "CDK-2021-02-G011",
+    "type": "missing_manual_review_body_quarantine_hospital_workers",
+    "description": "Raw candidate E001 is preserved as historical worker coding only. The supplied S016 and S020 body outputs have receipt records but no contemporaneous saved manual-review notes and are quarantined as non-evidence. Under the coordinator’s current review decision, occurrence, dates, location, scope, organizer, demand/state target, turnout, violence, end and state response are unknown; eligibility is pending_evidence.",
+    "source_ids": [
+      "CDK-2021-02-S016",
+      "CDK-2021-02-S020"
+    ],
+    "affected_candidates": [
+      "CDK-2021-02-E001"
+    ],
+    "required_followup": "Retain the candidate only as a discovery lead until separate compliant existing evidence or a later authorized, fully gated source establishes any event fields. Do not rely on either quarantined body or infer dates, attendance, demands or response.",
+    "notes": "The raw events.json row is historical and unchanged; the coordinator field override in review/decisions.json controls effective coding."
+  },
+  {
+    "gap_id": "CDK-2021-02-G012",
+    "type": "missing_manual_review_body_quarantine_kindu_youths",
+    "description": "Raw candidate E002 is preserved as historical worker coding only. The supplied S007 body output has a receipt record but no contemporaneous saved manual-review note and is quarantined as non-evidence. Under the coordinator’s current review decision, occurrence, dates, location, scope, organizer, demands/state target, turnout, violence, end and all response fields are unknown; eligibility is pending_evidence.",
+    "source_ids": [
+      "CDK-2021-02-S007"
+    ],
+    "affected_candidates": [
+      "CDK-2021-02-E002"
+    ],
+    "required_followup": "Retain the candidate only as a discovery lead until separate compliant existing evidence or a later authorized, fully gated source establishes any event fields. Do not rely on the quarantined body or infer a public assembly, demand, attendance or response.",
+    "notes": "The raw events.json row is historical and unchanged; the coordinator field override in review/decisions.json controls effective coding."
+  }
+]

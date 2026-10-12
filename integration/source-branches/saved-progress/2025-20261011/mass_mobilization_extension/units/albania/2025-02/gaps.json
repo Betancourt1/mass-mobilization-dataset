@@ -1,0 +1,97 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "source_access",
+    "description": "S001 was opened after fresh receipt/manual review and dated 2026-10-08, so it is excluded. S002 AP exact URL produced two web-tool-inaccessible messages and a pre-HTTP DNS failure; after another fresh receipt/manual review, the same URL returned HTTP 403. No body was reviewed; the exact URL is blocked and no further request or copy will be attempted.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry S002 or seek copies. Continue only with other independently cleared sources; this source supplies no event facts."
+  },
+  {
+    "gap_id": "G002",
+    "type": "search_coverage",
+    "description": "A genuine open-web first pass now includes English/Albanian generic searches, sector and regional terms, four February week windows, candidate-specific Feb 8 and Feb 11 searches, and cross-month March 15 follow-up. Results were noisy; no systematic archive or exhaustive local coverage is established.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "After body-gate clearance, continue independent week-window searches in Albanian and English across national/local outlets, labor/student/farmer/civic sectors and Tirana plus regions; retain empty searches."
+  },
+  {
+    "gap_id": "G003",
+    "type": "search_capture_provenance",
+    "description": "The web tool exposed rendered result text rather than native structured header objects. Parsed displayed title/URL/ref/order were captured and aligned for Q001-Q003, but exact native metadata is unverified. Temporary rendered responses for Q001-Q003 were removed before the coordinator required preservation; hashes are unavailable. The first three-query combined invocation is transcribed once as Q000 in units/albania/2025-01/search_log.jsonl and referenced here as shared discovery context, not counted as an additional executed query in this unit. It is a degraded whole-invocation trace from visible conversation output; the raw rendered response was not saved, and native metadata/order completeness cannot be verified. Results are not partitioned across constituent queries or month. Q004 and Q005 now have exact private invocation outputs with hashes and parsed visible title/URL/ref/order only; native metadata remains unknown.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat all saved query records as degraded invocation-level discovery traces; do not reconstruct native headers, infer per-query result assignment, or replace prior responses. Coordinator/auditor to decide whether native rollout extraction is possible from this task’s actual runtime."
+  },
+  {
+    "gap_id": "G004",
+    "type": "participants",
+    "description": "S001 is out of period and provides no crowd size. S002 remains unverified. Remaining source cards/search headers do not establish a qualifying gathering or threshold attendance.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "For each dated gathering lead, verify attendance in a contemporary source; do not infer attendance from affected people or from a headline."
+  },
+  {
+    "gap_id": "G005",
+    "type": "state_target",
+    "description": "For ALB202502-E001, S003 Citizens.al reports that participants called for Prime Minister Edi Rama to resign and demanded accountability. The intended target is established; the event remains pending the attendance threshold, not a missing-demand claim. S001 is an out-of-period 2026 event; S002 AP is an exact-URL 403 and supplies no facts.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "ALB202502-E001"
+    ],
+    "required_followup": "Verify precise demand and its intended government/policy target from a cleared source."
+  },
+  {
+    "gap_id": "G006",
+    "type": "event_dates_and_episode_boundaries",
+    "description": "S003 dates ALB202502-E001 to the afternoon of February 11, 2025. The article does not establish an end time or relationship to other February actions. S001 is dated 2026-10-08 and excluded; S002 date is unverified because the exact AP URL returned 403.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "ALB202502-E001"
+    ],
+    "required_followup": "Verify publication and event dates, location, organizer, relationship among reports, prior-month ownership and continuation after the month."
+  },
+  {
+    "gap_id": "G007",
+    "type": "archive_access",
+    "description": "LexisNexis or an equivalent systematically searchable news archive was not available or consulted; open-web discovery does not establish completeness.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Report archive access limitations and use any authorized archive only if available; never describe this open-web pass as exhaustive."
+  },
+  {
+    "gap_id": "G008",
+    "type": "search_excerpt_exposure",
+    "description": "Q004 and Q005 rendered search outputs contained publisher text blocks along with visible headers. They were saved privately before parsing; only visible title/URL/ref/order are retained. The excerpt text was not used as evidence; no result URL was intentionally opened. Q006 added another noisy header-only invocation.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat all captured headers as discovery-only; use fresh exact-URL receipts and manual scope review before any intended page-body request."
+  },
+  {
+    "gap_id": "G009",
+    "type": "participants",
+    "description": "S003 Citizens.al verifies a February 11 gathering outside the Prime Minister’s Office with a demand for Rama’s resignation, but says only “dozens” and gives no count. This does not establish the ≥50 threshold. Feb 11 turnout follow-up Q013 did not locate a further numeric estimate; a Feb 12 Albanian Times result is search_only and does not independently establish event turnout.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "ALB202502-E001"
+    ],
+    "required_followup": "Seek an independently cleared contemporary report or original footage with a defensible count; do not convert “dozens” into a numerical estimate."
+  }
+]

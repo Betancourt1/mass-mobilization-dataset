@@ -1,0 +1,110 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "capture_integrity",
+    "description": "March has 14 locally counted invocation traces, including two lost rendered outputs (invocation_005 failed during persistence and invocation_006 failed during persistence) and nine losslessly preserved resumed search responses (invocations_007–015) with 215 extracted visible headers. Historical native headers/event IDs/timestamps remain unavailable; pooled outputs have no per-query mapping. Jan/Feb/March shared calls remain counted only in their canonical dossiers.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep both lost-call gaps explicit; do not recreate complete arrays from visible output. Preserve new raw files and hashes before further extraction; use unique filenames and precreate search directories."
+  },
+  {
+    "gap_id": "G002",
+    "type": "body_access_gate",
+    "description": "S002 Balai and S004 Zango were opened after separate fresh exact-URL receipts/manual reviews; S002 is DW-origin and not used as independent event evidence. S003 Club-K is held because Angola S051 records a publisher-level denial with unresolved scope; Amnesty S001 is held under unresolved S033/S045 scope. A separate preserved rendered response (private_reading/search/resumed_20261010_05.raw; SHA-256 7d9b710702008da7b16a16f146a1d60608099eda1515e0f7c7cb17556d2cdea6) says “Blocked by robots.txt” for non-retryable domain path dw.com/pt-002. The exact article URL and triggering search/open operation are not retained, and no article-level access receipt/direct-body request is documented; do not infer them. Do not use Balai or another copy to bypass DW robots.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not open Club-K or Amnesty under unresolved hold. Do not follow DW origin or use a mirror as a workaround for robots. Keep S002 as derivative planned-event evidence only, not independent corroboration. Fresh exact receipt and manual scope review before any new page."
+  },
+  {
+    "gap_id": "G003",
+    "type": "event_evidence",
+    "description": "E001 provisionally records the March 29 Luanda planned public action about gender-based violence. Zango says police prevented concentration at Largo das Heroínas and elsewhere, removed posters/shirts, and detained ten women before organizers cancelled. It provides no total attendance or separate written origin. The story does not clearly specify the state target or concrete demand, so eligibility is pending_state_target; attendance threshold is separately unresolved. Physical dispersion of a formed crowd is not established, so crowd_dispersal is unknown. Balai S002 is a DW-origin announcement, not occurrence evidence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "angola_2025-03_E001"
+    ],
+    "required_followup": "Seek independent body evidence for an explicit state target/demand, whether 50 or more people were present/attempting to assemble, and whether an assembled group was physically dispersed; otherwise preserve pending_state_target and threshold uncertainty."
+  },
+  {
+    "gap_id": "G004",
+    "type": "coverage",
+    "description": "Coverage remains partial after Portuguese/English outlet, province, sector, boundary and cross-quarter searches. A final Q1 search used Umbundu, Kimbundu and Kikongo terms with named provinces; results were noisy and yielded no dated Q1 candidate. Huambo, Benguela, other provinces, worker/student/health sectors, archival/local-language material and Jan/Feb/April continuity remain uneven.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue province/sector/week-window and locally phrased searches; check January/February/April continuity and search official/organizer contemporaneous records where accessible. No discovery absence claim."
+  },
+  {
+    "gap_id": "G005",
+    "type": "source_access",
+    "description": "Club-K S003 remains held because saved Angola S051 records publisher-level denial; exact scope is unresolved. Amnesty S001 remains held under Angola S033/S045 scope uncertainty. A preserved rendered response names DW domain path dw.com/pt-002 as blocked by robots.txt, but the exact article URL, triggering operation and article-level receipt are unavailable; no direct DW body request is confirmed. Separately, Ver Angola S007 exact URL returned 403 Forbidden and exact-headline copies on Angola24Horas/Correio da Manhã Canada/Ecos e Factos are held as potential same-story material; do not use copies to bypass that denial. Ver Angola exact target: https://www.verangola.net/va/en/022025/Society/43279/Workers-threaten-to-resume-general-strike-in-March-over-government-failures.htm (receipt access_receipts/20261010_2340_VerAngola_S007.json; subsequent exact open returned 403; rendered error private_reading/readings/20261010_VerAngola_S007_open.json). Potential exact-headline copies, not opened: https://angola24horas.com/sociedade/item/31295-sindicatos-ameacam-retomar-greve-geral-em-marco-por-incumprimentos-do-governo ; https://www.correiodamanhacanada.com/trabalhadores-angolanos-ameacam-retomar-greve-geral-em-marco-por-incumprimentos-do-governo/ ; https://www.ecosefactos.com/trabalhadores-ameacam-retomar-greve-geral-em-marco-por-incumprimentos-do-governo/ . Relationships are not fully verified; held as possible copies, not independent evidence.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S006"
+    ],
+    "affected_candidates": [
+      "angola_2025-03_E001"
+    ],
+    "required_followup": "Maintain source-specific holds and seek genuinely independent sources. Do not use mirrors to bypass either the DW robots block or exact Ver Angola 403. Escalate only if a held source proves necessary after reasonable independent checks."
+  },
+  {
+    "gap_id": "G006",
+    "type": "threshold",
+    "description": "E001 has no total attendance estimate. Ten reported arrests are not a crowd count. Threshold >=50 remains unknown. It is separately unclear whether an assembled group was physically dispersed.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S006"
+    ],
+    "affected_candidates": [
+      "angola_2025-03_E001"
+    ],
+    "required_followup": "Seek reliable total attendance or qualitative crowd evidence from independent body sources; if unresolved, retain pending_threshold."
+  },
+  {
+    "gap_id": "G007",
+    "type": "independent_corroboration",
+    "description": "Only Zango S004 has opened execution/response detail for the March 29 planned action and it quotes organizer Ginga Patrícia without separate written origin. The political target/specific demand and attendance are unclear; ten arrests are not an attendance estimate. Balai S002 is DW-origin pre-event reporting. Amnesty and Club-K are held; no independent body corroboration is established.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S006"
+    ],
+    "affected_candidates": [
+      "angola_2025-03_E001"
+    ],
+    "required_followup": "Continue searching independent contemporary/retrospective news and direct organizer/official evidence; document origin and access scope before opening any body. Do not use search snippets as established facts."
+  }
+]

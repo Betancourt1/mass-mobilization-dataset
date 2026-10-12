@@ -1,0 +1,28 @@
+[
+  {
+    "gap_id": "AFG202502_G001",
+    "type": "source_access",
+    "description": "One exact-URL body request for AFG202502_S001 followed receipt/manual review but returned a technical fetch-throttling Internal Error without HTTP status or body. No denial was observed and no retry was made.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain the source as search_only and seek independent evidence; do not treat a technical failure as a publisher denial."
+  },
+  {
+    "gap_id": "AFG202502_G002",
+    "type": "coverage",
+    "description": "17 invocations (148 headers) completed the broad first pass across English, Dari/Pashto, local calendar, first/second-half date windows, local outlet, sector, neighboring months, UN monitoring and HRW/Amnesty searches. Targeted UN/UNAMA/OHCHR and HRW/Amnesty searches were attempted. Results were mostly irrelevant or broad; a World Report header does not establish month-specific events. Search indexing returned many items outside the month.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review residual scope and, if needed, consult more targeted local archives. The February 1 Kabul-airport lead still lacks a year and a verified event; do not treat this as absence."
+  },
+  {
+    "gap_id": "AFG202502_G003",
+    "type": "source_access",
+    "description": "Crisis24/GardaWorld search-only Facebook lead titled “Ongoing demonstration near Kabul airport (KBL) February 1” lacks a year and event details. After fresh receipt/manual publisher-origin review, one ordinary exact-URL web open returned Internal Error / online fetch throttled, with no HTTP response or body; no denial was observed and no retry was made.",
+    "source_ids": [
+      "AFG202502_S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek an independent accessible contemporaneous report to establish which year/date the advisory concerns, what the gathering demanded, its attendance, state target and response. Recheck exact URL only if a new attempt is justified under a fresh receipt; do not infer a denial from this fetch failure."
+  }
+]

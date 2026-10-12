@@ -1,0 +1,114 @@
+[
+  {
+    "gap_id": "algeria_2025-01_G001",
+    "type": "search_method",
+    "description": "Rendered web results remain a degraded capture format: original structured event metadata and native timestamps are unavailable. Q001–Q002 were saved after parsing; Q003–Q008 and Q015–Q016 before parsing; batches Q009–Q011 and Q012–Q014 are retained at invocation level without guessed per-query headers. S004’s Le360 response was lost by the wrapper after invocation; outcome/content remain unknown and it was not retried.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve private raw responses/hashes and historical capture-order differences; do not reconstruct metadata or repeat S004."
+  },
+  {
+    "gap_id": "algeria_2025-01_G002",
+    "type": "source_access",
+    "description": "Three source cards have scoped written-text reads (S003 NPA–Révolutionnaires, S005 TSA, S006 Maghreb Emergent). S001/Le Monde remains under an inherited publisher-level hold; S004/Le360 has an unknown lost response; S002 remains search_only. S003’s current exact-URL review returned manual_review with no restriction/origin match; both S003 and S006 have recorded body scopes.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry S004 or request held S001. Continue only with fresh receipt and manual exact-source/alias/origin review for any new body target."
+  },
+  {
+    "gap_id": "algeria_2025-01_G003",
+    "type": "language",
+    "description": "French, Arabic and English searches now include a local contemporary Maghreb Emergent account, local political commentary and selected official/union/wilaya queries. Kabyle/Tamazight and systematic coverage of all wilayas remain incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted local and regional searches in available languages; log empty/noisy responses and preserve the language gap."
+  },
+  {
+    "gap_id": "algeria_2025-01_G004",
+    "type": "coverage",
+    "description": "Sixteen query records cover student-school actions, local cities/wilayas, French/Arabic/English, selected local publications and official/union terms. Searches did not establish comprehensive regional/official/union coverage, and noisy or missing matches do not establish absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue independent local/official/union discovery if useful, without treating search excerpts as event facts."
+  },
+  {
+    "gap_id": "algeria_2025-01_G005",
+    "type": "episode_unit",
+    "description": "Contemporary Maghreb Emergent dates initial marches to the morning of Jan. 20, with TikTok videos said to show hundreds across several establishments and marches toward wilaya education directorates; NPA later describes a week-long movement; TSA reports street protests by Jan. 23. Exact assembly dates/end and which local events were authentic remain unresolved. NPA says teachers planned mobilization Feb. 10–11, but that is not evidence of student-action continuity.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify the student movement’s physical end and distinguish the January student action from later education-worker mobilizations; no continuation is coded."
+  },
+  {
+    "gap_id": "algeria_2025-01_G006",
+    "type": "participants",
+    "description": "Maghreb Emergent reports hundreds across several schools/wilayas and names seven wilayas, but explicitly says not all locations could be authenticated and gives no per-assembly count. NPA later claims hundreds in each of four cities without cited basis; TSA has no count. No specific authenticated assembly has an independently verified attendance estimate.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek independent city-specific count/date/venue evidence; keep pending_threshold and do not split into local events without evidence."
+  },
+  {
+    "gap_id": "algeria_2025-01_G007",
+    "type": "baseline",
+    "description": "Official Mass Mobilization baseline, universe, additional rules, and contribution compatibility remain unverified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator verifies baseline before any official mapping or integration."
+  },
+  {
+    "gap_id": "algeria_2025-01_G008",
+    "type": "source_access",
+    "description": "The exact Le360 public-page request for S004 followed a fresh manual_review receipt and canonical exact URL/alias/origin review, but the wrapper failed before persisting/exposing its response. No body read, successful result, or denial is verified.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "algeria_2025-01_E001"
+    ],
+    "required_followup": "Do not retry the same request to replace the lost capture; keep its outcome unknown."
+  },
+  {
+    "gap_id": "algeria_2025-01_G009",
+    "type": "source_access",
+    "description": "Le Monde S001 exact URL remains held because inherited saved evidence records an unrelated Le Monde subscriber-paywall restriction. Its search excerpt is discovery-only and no body request was made.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "algeria_2025-01_E001"
+    ],
+    "required_followup": "Do not request the held article; seek permitted corroboration elsewhere."
+  },
+  {
+    "gap_id": "algeria_2025-01_G010",
+    "type": "source_independence",
+    "description": "The three opened accounts are TSA contemporary reporting, Maghreb Emergent contemporary reporting based partly on TikTok videos/an unsigned communiqué, and NPA–Révolutionnaires partisan retrospective commentary. Their inputs may overlap via social media; no source independently authenticates per-assembly crowd sizes or all local sites.",
+    "source_ids": [
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "algeria_2025-01_E001"
+    ],
+    "required_followup": "Seek independently originated city-specific evidence and primary-source authentication before treating attendance, exact unit boundaries, or state response as settled."
+  }
+]

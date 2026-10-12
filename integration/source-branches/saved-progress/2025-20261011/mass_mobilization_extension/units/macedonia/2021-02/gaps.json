@@ -1,0 +1,222 @@
+[
+  {
+    "gap_id": "macedonia_2021-02_G001",
+    "type": "baseline",
+    "description": "Official baseline, current country universe, current schema, license and further coding procedure have not been checked by this worker. The inherited country label Macedonia and code 343 are preserved provisionally; candidate IDs are local review keys.",
+    "source_ids": [],
+    "affected_candidates": [
+      "macedonia_2021-02_E001",
+      "macedonia_2021-02_E002",
+      "macedonia_2021-02_E003",
+      "macedonia_2021-02_E004",
+      "macedonia_2021-02_E005",
+      "macedonia_2021-02_E006",
+      "macedonia_2021-02_E007",
+      "macedonia_2021-02_E008",
+      "macedonia_2021-02_E009"
+    ],
+    "required_followup": "Coordinator should verify the authorized baseline/version, country label/code, schema, terms and episode rules before official mapping or export."
+  },
+  {
+    "gap_id": "macedonia_2021-02_G002",
+    "type": "participants threshold",
+    "description": "Only the February 3 Public Room march has an opened body with a qualitative estimate clearly above 50. Attendance is not established for the hospital staff action, Tursko Rudare, the February 19/22/23/24 event-sector actions, VMRO-DPMNE's boulevard blockade, or the February 26 Monstra protest. Workforce size and unreviewed result snippets are not substitutes for event-specific attendance.",
+    "source_ids": [
+      "S001",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018",
+      "S019",
+      "S020",
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-02_E002",
+      "macedonia_2021-02_E003",
+      "macedonia_2021-02_E004",
+      "macedonia_2021-02_E005",
+      "macedonia_2021-02_E006",
+      "macedonia_2021-02_E007",
+      "macedonia_2021-02_E008",
+      "macedonia_2021-02_E009"
+    ],
+    "required_followup": "Find reliable, event-specific physical crowd estimates for each action; otherwise retain pending_threshold and do not infer from group or workforce totals."
+  },
+  {
+    "gap_id": "macedonia_2021-02_G003",
+    "type": "event occurrence and date",
+    "description": "Event-sector date claims come from an advance notice and search-only retrospective snippets rather than body-reviewed contemporaneous reporting. CIVICUS search text claims actions on February 19/22/23, while the notice lists a 14:00–17:00 schedule; execution and date details, especially E006, remain unresolved. Candidate records retain reported dates without assuming that dates alone prove separate assemblies or one continuous/recurrent campaign.",
+    "source_ids": [
+      "S005",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-02_E004",
+      "macedonia_2021-02_E005",
+      "macedonia_2021-02_E006",
+      "macedonia_2021-02_E007"
+    ],
+    "required_followup": "Review contemporaneous reports for each claimed date, confirm execution and precise venues, then decide event boundaries and campaign relation from physical-action evidence; do not infer distinctness or continuity from date sequence or shared demands."
+  },
+  {
+    "gap_id": "macedonia_2021-02_G004",
+    "type": "state target and project ownership",
+    "description": "The February 4 Tursko Rudare archive lead identifies opposition to a mini-hydropower site but does not show whether protesters addressed a public authority or only the developer. The January village action is a separate prior-month candidate.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-02_E003"
+    ],
+    "required_followup": "Find the exact February report and verify stated demand/addressee, municipality or ministry role, actual gathering location and continuity boundary."
+  },
+  {
+    "gap_id": "macedonia_2021-02_G005",
+    "type": "Monstra continuity and response",
+    "description": "The opened retrospective MHC report distinguishes January 29 from the February 26 protest and reports a small violent subgroup and police obstruction of the march. It gives no attendance count and does not establish whether police obstruction constituted dispersal; event-specific physical end, arrests, beatings, concession and exact organizer remain unresolved. The MHC report is not independent of its January reporting family.",
+    "source_ids": [
+      "S018",
+      "S019",
+      "S020",
+      "S021",
+      "S022"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-02_E009"
+    ],
+    "required_followup": "Check event-specific contemporaneous sources for crowd, end, police response, arrests and organizer; retain attribution and keep all January details separate."
+  },
+  {
+    "gap_id": "macedonia_2021-02_G006",
+    "type": "physical end and state response",
+    "description": "The Public Room report supplies no physical end or event-specific response. Search-only candidate reports generally omit reliable end and response detail, and silence is not coded as absence or official inaction. The wedding-style report's mention of an official's presence does not alone establish accommodation.",
+    "source_ids": [
+      "S001",
+      "S005",
+      "S007",
+      "S008",
+      "S010",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S022"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-02_E001",
+      "macedonia_2021-02_E002",
+      "macedonia_2021-02_E003",
+      "macedonia_2021-02_E004",
+      "macedonia_2021-02_E005",
+      "macedonia_2021-02_E006",
+      "macedonia_2021-02_E007",
+      "macedonia_2021-02_E008",
+      "macedonia_2021-02_E009"
+    ],
+    "required_followup": "Review fuller event-specific reporting for physical ends and each state-response field; retain unknown where not documented."
+  },
+  {
+    "gap_id": "macedonia_2021-02_G007",
+    "type": "source access and independence",
+    "description": "Body reads in this unit are limited to S001 AP and S022 MHC. Exact-URL attempts for S002, S007, S012, S017 and S018 returned technical Cache misses with no content, not observed denials, and were not retried. S003 appears to repeat the S001 AP story; S022 is from the same MHC institutional family as the January reports. S004 and S026 were not requested because their gates closed on phase/input changes.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S007",
+      "S012",
+      "S017",
+      "S018",
+      "S022",
+      "S026"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-02_E001",
+      "macedonia_2021-02_E002",
+      "macedonia_2021-02_E005",
+      "macedonia_2021-02_E008",
+      "macedonia_2021-02_E009"
+    ],
+    "required_followup": "Use a fresh exact-URL receipt and saved full manual review before each future body attempt; verify saved note readback/hash and stable complete inputs immediately before requesting. Do not use a cache miss as a denial or as evidence."
+  },
+  {
+    "gap_id": "macedonia_2021-02_G008",
+    "type": "announcements and unconfirmed public action",
+    "description": "Search leads for the February 23 Albanian political-prisoners association protest, the conditional matura sit-in, and the Tetovo student bus-fare protest do not establish an executed qualifying February public assembly. This is unresolved discovery, not a claim that no gathering occurred.",
+    "source_ids": [
+      "S023",
+      "S024",
+      "S025",
+      "S026",
+      "S027"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-02_X001",
+      "macedonia_2021-02_X002",
+      "macedonia_2021-02_X003"
+    ],
+    "required_followup": "Search for contemporaneous execution evidence and turnout; keep announced action, online boycott, policy complaint and in-person assembly distinct."
+  },
+  {
+    "gap_id": "macedonia_2021-02_G009",
+    "type": "language and coverage",
+    "description": "The first pass searched English, Macedonian and Albanian terms and sampled weekly windows, Skopje/Tetovo/village and sector leads, local outlets, MHC and CIVICUS. It is open-web discovery rather than a systematic national press archive search, is not equivalent to LexisNexis and cannot support a claim of exhaustive coverage or no other events.",
+    "source_ids": [
+      "S001",
+      "S005",
+      "S006",
+      "S014",
+      "S019",
+      "S020",
+      "S023",
+      "S024",
+      "S025",
+      "S026",
+      "S028"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review should consider additional local-language/regional archives and any licensed press database available; add only source-supported records and keep coverage limits explicit."
+  },
+  {
+    "gap_id": "macedonia_2021-02_G010",
+    "type": "episode boundaries",
+    "description": "The Tursko Rudare issue appears in January and again in a February 4 search lead; Monstra appears on January 29 and February 26. These are separate reported date leads, not evidence of continuous assemblies. CIVICUS snippets also mention a January 26 hospital workers protest and February 19/22/23 event-sector actions; the former may match a January lead, while boundaries among the latter remain unresolved. The shared event-sector episode key is a provisional campaign link only.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S009",
+      "S013",
+      "S022"
+    ],
+    "affected_candidates": [
+      "macedonia_2021-02_E003",
+      "macedonia_2021-02_E004",
+      "macedonia_2021-02_E005",
+      "macedonia_2021-02_E006",
+      "macedonia_2021-02_E007",
+      "macedonia_2021-02_E009"
+    ],
+    "required_followup": "Compare source chronology, physical end/start and organizer evidence against January and adjacent February actions; verify the possible January hospital match. Preserve separate candidate records only as date/report leads; do not merge, transfer attendance or claim event boundaries without source support and reviewer decision."
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "unit_id": "jordan_2021-02",
+  "country": "Jordan",
+  "month": "2021-02",
+  "agent_task": "/root/jordan_2021_02_batch58",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T13:40:47.808449+00:00",
+  "finished_at": "2026-10-10T14:54:02Z",
+  "n_queries": 39,
+  "n_sources": 17,
+  "n_candidates": 7,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 4,
+  "coverage_assessment": "Open-web discovery only: 39 reconciled search actions and 956 result headers. Two physical body reads (annual aggregate S001; one federation account S007), one failed exact-page attempt without a body (S015), one New Arab source held without request (S006), and one additional gated Al-Ghad source with no request before phase close (S010). Seven candidates and two additional unemployed-action title leads remain unresolved; no national completeness claim. 2 current-unit body opens; 0 prior-unit-only consultations. Final provenance review corrected S009 to the Civil Society Knowledge Centre header captured in Q036; the farmers leads remain search-only, with event identity and source independence unresolved.",
+  "baseline_gate": "pending_official_baseline",
+  "body_read_count": 2,
+  "body_request_attempt_count": 3,
+  "body_request_failure_count": 1,
+  "body_read_source_ids": [
+    "JOR202102-S001",
+    "JOR202102-S007"
+  ],
+  "technical_retrieval_failure_source_ids": [
+    "JOR202102-S015"
+  ],
+  "held_without_request_source_ids": [
+    "JOR202102-S006"
+  ],
+  "official_update": false
+}

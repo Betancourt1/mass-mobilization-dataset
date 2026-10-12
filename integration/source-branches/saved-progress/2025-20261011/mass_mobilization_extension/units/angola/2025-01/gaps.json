@@ -1,0 +1,74 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "capture_integrity",
+    "description": "Thirty-eight unique quarter-level web-search calls have been made to date: January holds fifteen invocation records, February nine and March fourteen. Historical records retain degraded/native metadata gaps. Nine resumed January batches (invocations 007–015) preserve rendered outputs and visibly exposed title/URL/ref/order; invocation 006 returned output but local persistence failed, and that loss remains documented without a repeat. Native event IDs and clocks are unavailable. January response pointers do not partition pooled results by query.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain the rendered-output capture adjustment, unknown native metadata and lost invocation 006 disclosure; do not recreate the missed response. Consult cross-month pointers rather than counting pooled invocations repeatedly."
+  },
+  {
+    "gap_id": "G002",
+    "type": "body_access_gate",
+    "description": "Two January source bodies were opened after fresh exact URL receipts/manual review: VOA S001 and Imparcial Press S006. Five other source cards remain search_only. Every remaining URL needs a fresh receipt plus manual publisher/origin review. Imparcial Press S006 is a Dec 2024 boundary source, not Jan event evidence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "For S002-S005 and S007, run fresh exact-URL receipts, inspect canonical aliases/origin/restrictions, and request only an ordinary permitted page. Keep evidence about 2024 Huambo activity separate from January."
+  },
+  {
+    "gap_id": "G003",
+    "type": "event_evidence",
+    "description": "VOA S001 body says only that a demonstration had occurred in Huambo before the Jan 6 article; it gives no event date or crowd size and does not state that it was within January. Opened Imparcial Press S006 is dated Dec 14, 2024 and says protests occurred “this week,” with Huambo leading and about 300 professionals in the streets over unpaid remote-zone isolation allowances; this is an out-of-period boundary lead with no exact day or January continuity. The Jan 28 search-only Carta de Angola S007 reports allowance suspension pending investigation of possible ghost employees but does not describe a public gathering. Benguela school absences and planned municipal protests remain work stoppage/announcement leads, not confirmed assemblies.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search for an exact January dated report or primary statement tying actual assembly to the Huambo allowance grievance; verify date, threshold, state target and response. Do not equate the Jan 6 VOA lead with the December action unless direct linkage emerges. No January event coded."
+  },
+  {
+    "gap_id": "G004",
+    "type": "coverage",
+    "description": "Fifteen unique search invocations include 58 query strings relevant to January, covering Portuguese/English month-window, teachers, unions, workers, students, local province outlets and targeted Huambo isolation-allowance terms. Results were noisy and often drifted to other years. Coverage of other provinces/sectors and archives remains incomplete; absence of a search result does not establish absence of protest.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue province/sector/week-window and local-language searches, and check late-Dec/early-Jan continuity. Document inaccessible archives; no LexisNexis-equivalent archive searched."
+  },
+  {
+    "gap_id": "G005",
+    "type": "capture_integrity",
+    "description": "The real resumed batch recorded as angola_2025-01_invocation_006 returned a web-tool rendered result but its response was lost when the first local persistence code failed (the JS runtime lacked btoa). Exact query inputs and the fact of loss are preserved in search_log.jsonl; no output bytes, visible headers or result URLs are available. The query was not repeated.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain this as an actual call with response/header data unknown. Do not repeat it to replace the loss or infer any results."
+  }
+]

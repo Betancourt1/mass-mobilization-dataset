@@ -1,0 +1,26 @@
+{
+  "unit_id": "albania_2025-08",
+  "country": "Albania",
+  "month": "2025-08",
+  "agent_task": "/root/albania_q1",
+  "status": "researched_open_web_pending_review",
+  "started_at": null,
+  "finished_at": "2026-10-11T00:26:20+00:00",
+  "n_queries": 8,
+  "n_sources": 2,
+  "n_candidates": 0,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 3,
+  "coverage_assessment": "Bounded open-web first pass: 8 pooled invocations, 237 captured visible result headers, English and Albanian month/week/sector/region and retrospective searches. 0 exact source bodies reviewed; none establishes an event beginning in 2025-08. This is not evidence of absence. Local archives/LexisNexis, exact native timestamps, search/read interval timings, and adjacent-month continuity remain unresolved.",
+  "baseline_gate": "pending_official_baseline",
+  "runtime_model_configuration": "Luna/high requested; tool configuration accepted for reused worker, effective runtime unverified.",
+  "observed_timing": {
+    "started_at_local_utc": null,
+    "finished_at_local_utc": null,
+    "search_call_and_capture_intervals": null,
+    "reading_intervals": null,
+    "coding_rework_wait_intervals": null,
+    "note": "Unmeasured intervals remain null; no filename or inferred clock values used."
+  }
+}

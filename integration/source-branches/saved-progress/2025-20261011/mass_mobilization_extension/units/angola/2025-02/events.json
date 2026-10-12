@@ -1,0 +1,141 @@
+[
+  {
+    "candidate_id": "angola_2025-02_E001",
+    "country": "Angola",
+    "ccode": "540",
+    "unit_month": "2025-02",
+    "title": "Ndalatando protest over deaths of women farmers and demand for investigation",
+    "start_date": "2025-02-16",
+    "start_precision": "day",
+    "end_date": null,
+    "end_precision": "unknown",
+    "location": "Ndalatando, Cuanza Norte",
+    "scope": "local",
+    "organizer": null,
+    "demands": [
+      "political_behavior_process"
+    ],
+    "participants_original": "VOA Português reports the Cuanza Norte Provincial Police estimate as “approximately 50 citizens”; Jornal Terra Angolana, expressly relying on Novo Jornal’s Feb 20 edition and quoting the provincial police, says “more than 50 people.” These are separate attributed wordings from the same underlying police source, not independent counts.",
+    "participants_min": null,
+    "participants_max": null,
+    "threshold_50_evidence": "Police-origin accounts use different wordings near the cutoff: VOA says “approximately 50”; the derivative Terra Angolana/Novo Jornal account says “more than 50.” The underlying police statement has not been directly inspected and the reports share that origin. Eligibility remains pending_threshold; exact bounds are unsupported.",
+    "protester_violence": "unknown",
+    "state_response": {
+      "accommodation": "unknown",
+      "arrests": "yes",
+      "beatings": "unknown",
+      "crowd_dispersal": "unknown",
+      "ignore": "unknown",
+      "killings": "unknown",
+      "shootings": "unknown"
+    },
+    "source_ids": [
+      "S005",
+      "S006"
+    ],
+    "field_evidence": {
+      "title": {
+        "source_ids": [
+          "S006"
+        ],
+        "summary": "VOA reports protest against deaths of elderly women farmers and demand for investigation."
+      },
+      "start_date": {
+        "source_ids": [
+          "S006"
+        ],
+        "summary": "The article identifies Sunday February 16 as the date of the protest and detentions."
+      },
+      "end_date": {
+        "source_ids": [
+          "S006"
+        ],
+        "summary": "No physical end is reported."
+      },
+      "location": {
+        "source_ids": [
+          "S006"
+        ],
+        "summary": "Article identifies Ndalatando in Cuanza Norte."
+      },
+      "scope": {
+        "source_ids": [
+          "S006"
+        ],
+        "summary": "The reported protest occurred at Ndalatando; no other location is identified for this action."
+      },
+      "organizer": {
+        "source_ids": [
+          "S006"
+        ],
+        "summary": "Organizer is not named; UNITA MPs attended but are not identified as organizers."
+      },
+      "demands": {
+        "source_ids": [
+          "S006"
+        ],
+        "summary": "Article says demonstrators protested deaths of at least 13 elderly women and called for an investigation; this maps provisionally to political_behavior_process."
+      },
+      "participants_original": {
+        "source_ids": [
+          "S005",
+          "S006"
+        ],
+        "summary": "Preserve both attributed wordings separately: VOA reports the police estimate as “approximately 50”; Terra Angolana repeats from Novo Jornal/police “more than 50.” The accounts share police-origin reporting and the second is derivative; these are not independent counts and do not establish exact numeric bounds."
+      },
+      "participants_min": {
+        "source_ids": [
+          "S005",
+          "S006"
+        ],
+        "summary": "No exact minimum is supported because the source says approximately 50."
+      },
+      "participants_max": {
+        "source_ids": [
+          "S005",
+          "S006"
+        ],
+        "summary": "No maximum is reported."
+      },
+      "threshold_50_evidence": {
+        "source_ids": [
+          "S005",
+          "S006"
+        ],
+        "summary": "VOA gives police wording “approximately 50”; Terra Angolana, citing Novo Jornal and quoting the same provincial police account, says “more than 50.” Because the formulations conflict near the threshold and share police-origin reporting, count remains pending_threshold; no exact min/max assigned."
+      },
+      "protester_violence": {
+        "source_ids": [
+          "S006"
+        ],
+        "summary": "Police alleged road blocking and confrontation but no detailed conduct is described; protester violence remains unknown."
+      },
+      "state_response": {
+        "source_ids": [
+          "S005",
+          "S006"
+        ],
+        "summary": "VOA reports six citizens taken to station and two MPs released after identification; Terra Angolana repeats police claims and adds a claim of subsequent arrests after some returned to streets. The accounts rely on the same provincial police source/derivative story. Journalist António Domingos was reportedly detained separately. Arrests yes; other response dimensions and full counts unknown."
+      },
+      "eligibility": {
+        "source_ids": [
+          "S005",
+          "S006"
+        ],
+        "summary": "Occurrence/date/location/demand are reported. The only attendance figure is police-origin and approximate or repeated through Novo Jornal; exact threshold evidence remains unresolved."
+      }
+    },
+    "eligibility": "pending_threshold",
+    "coding_status": "candidate",
+    "episode_key": "angola_ndalatando_women_farmers_investigation_2025-02-16",
+    "notes": "One VOA report and one derivative Jornal Terra Angolana account (which explicitly cites Novo Jornal and quotes the same Cuanza Norte police statement) provide date/event details. Preserve approximately 50 and more than 50 as separate attributed wordings; do not treat as independent corroboration or convert them into exact bounds. Do not conflate the underlying farmer murders with protest-related killings. Arrests/detentions are linked to the protest only as reported by these sources; journalist António Domingos is separately described. Search-only Club-K, Novo Jornal opinion and Amnesty leads are not independent body evidence; Amnesty remains held.",
+    "open_questions": [
+      "Did the gathering reliably reach at least 50 people?",
+      "What exact route/sites and physical end are documented?",
+      "Who organized the gathering?",
+      "Were the detained protest participants all six people taken to the station?",
+      "Can the police count and detentions be corroborated independently?",
+      "Did the same group or another assembly continue after Feb 16?"
+    ]
+  }
+]

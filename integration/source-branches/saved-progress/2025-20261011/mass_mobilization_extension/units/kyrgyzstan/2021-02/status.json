@@ -1,0 +1,44 @@
+{
+  "unit_id": "kyrgyzstan_2021-02",
+  "country": "Kyrgyzstan",
+  "month": "2021-02",
+  "agent_task": "/root/kyrgyzstan_2021_02_batch58",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T14:29:02Z",
+  "finished_at": "2026-10-10T15:20:41Z",
+  "updated_at": "2026-10-10T15:20:41Z",
+  "n_queries": 21,
+  "n_sources": 38,
+  "n_candidates": 2,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 12,
+  "source_access_counts": {
+    "search_only_cards": 36,
+    "opened_cards": 2,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "captured_header_count": 475,
+    "actual_query_actions_compared_by_original_event_id": 21,
+    "mismatches": 0
+  },
+  "source_read_scope": {
+    "body_request_attempts": 4,
+    "successful_scoped_body_reads": 2,
+    "current_opened_source_ids": [
+      "KGZ202102-S007",
+      "KGZ202102-S010"
+    ],
+    "cache_miss_source_ids": [
+      "KGZ202102-S009",
+      "KGZ202102-S029"
+    ],
+    "note": "One S029 request occurred after shared phase03 closure and is preserved as a procedural incident; it returned no body. S009 received one individually gated exact-URL request after full Kloop-origin review; it returned no body. No retries or alternate routes."
+  },
+  "coverage_assessment": "First-pass discovery is recorded from 21 actual search actions across English, Russian, Kyrgyz and local/regional outlets; all 21 action IDs, original query batches and ordered non-snippet headers were compared with the registered rollout (475 headers, zero mismatches). Two opened report bodies support separate Feb 1 gatherings whose turnout remains unknown, so both candidates stay pending threshold. RFE/RL reports approximately 30 demonstrators in Bishkek on Feb 10, below 50; E007 is retained as an exclusion. Other leads remain search-only or unverified. Two additional gated exact-URL attempts returned cache misses without article bodies. The web search corpus is not LexisNexis-equivalent and cannot establish that no other gatherings occurred; less-indexed district, workplace and Kyrgyz-language reporting and the official baseline remain pending.",
+  "baseline_gate": "pending_official_baseline",
+  "receipt_manifest": "access_receipts/manifest.json",
+  "receipt_manifest_sha256": "2dbb429553a2483e0c68bb32add5cedc4a6ce87b35f17528a4f0f88b90290244"
+}

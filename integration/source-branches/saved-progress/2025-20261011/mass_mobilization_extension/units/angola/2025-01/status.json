@@ -1,0 +1,43 @@
+{
+  "unit_id": "angola_2025-01",
+  "country": "Angola",
+  "month": "2025-01",
+  "agent_task": "/root/angola_q1",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T22:36:25.124020+00:00",
+  "finished_at": "2026-10-10T23:33:44+00:00",
+  "n_queries": 15,
+  "n_sources": 7,
+  "n_candidates": 0,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 5,
+  "coverage_assessment": "Completed first open-web pass with residual gaps after continued open-web work: 15 unique invocation traces with 58 query strings relevant to January; 256 captured rendered headers across nine losslessly preserved resumed outputs, with native event metadata/timestamps unavailable. One earlier resumed response remains lost and explicitly documented. Seven sources (2 opened, 5 search-only), 2 body reads, 0 January candidates. VOA reports an unspecified Huambo demonstration before Jan 6. An opened Dec 14, 2024 Imparcial Press article says about 300 professionals protested over unpaid remote-zone isolation allowances in Huambo during the week of Dec 14; exact day and continuity into January are not established. Jan 28 search lead says government suspended allowances pending investigation, but no public assembly is linked. Benguela school absences/planned municipal protests remain unexecuted leads. No January action with date and threshold is established; geographic, sectoral and archive coverage remains partial.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 2,
+    "search_only_cards": 5,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "quality": "degraded_invocation_only",
+    "captured_header_count": 256,
+    "native_headers_available": false,
+    "note": "256 visibly rendered result headers are preserved across nine resumed search responses; one later raw response was lost before persistence and remains documented separately. Native event/header metadata and original execution clocks are unavailable; empty metadata arrays do not mean zero search results."
+  },
+  "current_body_reads": 2,
+  "actual_query_terms_in_month_relevant_batches": 58,
+  "related_invocation_pointers": [
+    {
+      "unit_month": "2025-03",
+      "query_id": "angola_2025-03_invocation_011",
+      "purpose": "Q1-wide Jan–Mar labor/protest coverage discovery; canonical record and pooled results stored/count once in March; no query-result attribution inferred"
+    },
+    {
+      "unit_month": "2025-03",
+      "query_id": "angola_2025-03_invocation_015",
+      "purpose": "Q1-wide local-language/region coverage attempt; canonical record and pooled result headers stored/count once in March"
+    }
+  ]
+}

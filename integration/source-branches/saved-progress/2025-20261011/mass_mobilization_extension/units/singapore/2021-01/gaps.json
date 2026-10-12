@@ -1,0 +1,107 @@
+[
+  {
+    "gap_id": "singapore_2021-01-G001",
+    "type": "baseline",
+    "description": "The official current dataset files, cutoff, country universe, schema and reuse conditions remain unverified. The additional Mass Mobilization Coding Procedure is also unavailable at the coordinator’s baseline gate.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator must verify authoritative current baseline materials and reuse conditions before any official IDs or export decisions."
+  },
+  {
+    "gap_id": "singapore_2021-01-G002",
+    "type": "coverage",
+    "description": "Thirteen actual open-web queries covered the five January windows and additional date, issue and adjacent-month searches. Search results included many repeated or unrelated pages; open-web retrieval does not reproduce LexisNexis or local newspaper archives and does not establish that no other assemblies occurred.",
+    "source_ids": [
+      "singapore_2021-01-S001",
+      "singapore_2021-01-S003",
+      "singapore_2021-01-S006",
+      "singapore_2021-01-S009"
+    ],
+    "affected_candidates": [
+      "singapore_2021-01-E001"
+    ],
+    "required_followup": "Retain the query log and pursue local archives or additional source coverage only if available; do not infer absence from search ranking or result counts."
+  },
+  {
+    "gap_id": "singapore_2021-01-G003",
+    "type": "language",
+    "description": "English, Chinese, Malay and Tamil discovery terms were used. A Chinese-language Lianhe Zaobao article was read directly; Malay and Tamil searches did not surface a separately read contemporary report of another January gathering. Translation and archive coverage remain limited.",
+    "source_ids": [
+      "singapore_2021-01-S009"
+    ],
+    "affected_candidates": [
+      "singapore_2021-01-E001"
+    ],
+    "required_followup": "A future reviewer with relevant local archive access may check additional Malay- and Tamil-language sources; no exhaustive multilingual coverage is claimed."
+  },
+  {
+    "gap_id": "singapore_2021-01-G004",
+    "type": "episode_unit",
+    "description": "Adjacent-month searches checked December 2020 and February 2021. The opened contemporary accounts place the MOE assembly on 26 January; two of five left before police arrival and the remaining three were arrested around 5:35pm. No evidence found in the checked sources shows this physical action continuing from December or into February. February Myanmar-related planned or embassy activity is a separate issue/location; later MOE stories are legal follow-up. Neighboring-month searches remain incomplete open-web checks.",
+    "source_ids": [
+      "singapore_2021-01-S001",
+      "singapore_2021-01-S003",
+      "singapore_2021-01-S006",
+      "singapore_2021-01-S009",
+      "singapore_2021-01-S011",
+      "singapore_2021-01-S008",
+      "singapore_2021-01-S182",
+      "singapore_2021-01-S183",
+      "singapore_2021-01-S194"
+    ],
+    "affected_candidates": [
+      "singapore_2021-01-E001"
+    ],
+    "required_followup": "If stronger boundary evidence emerges, compare the physical episode rather than campaign or later legal coverage; do not turn the February Myanmar activity into a January continuation."
+  },
+  {
+    "gap_id": "singapore_2021-01-G005",
+    "type": "contested_evidence",
+    "description": "The opened Wikipedia page states six people protested on 6 January 2021 and cites a later November police-warning article. Contemporary SPF, CNA, News24 and Lianhe Zaobao accounts state five attendees on 26 January. The discrepancy is retained without an invented explanation; Wikipedia is not used to overwrite the contemporary date or count.",
+    "source_ids": [
+      "singapore_2021-01-S004",
+      "singapore_2021-01-S001",
+      "singapore_2021-01-S003",
+      "singapore_2021-01-S006",
+      "singapore_2021-01-S009",
+      "singapore_2021-01-S011"
+    ],
+    "affected_candidates": [
+      "singapore_2021-01-E001"
+    ],
+    "required_followup": "Preserve both accounts for coordinator review. Do not assign 6 January or six attendees without contemporary evidence."
+  },
+  {
+    "gap_id": "singapore_2021-01-G006",
+    "type": "source_access",
+    "description": "The web tool returned Cache misses for the January Straits Times, Malay Mail and Asian human-rights URLs; these remain search_only with no body reading. The Jakarta Post returned actual HTTP 403 and was not retried. The Chinese Zaobao URL was recovered by one ordinary HTTPS request (HTTP 200). The CNA February URL cited by FIDH returned HTTP 404 on one ordinary HTTPS request and remains not_found.",
+    "source_ids": [
+      "singapore_2021-01-S007",
+      "singapore_2021-01-S013",
+      "singapore_2021-01-S014",
+      "singapore_2021-01-S015",
+      "singapore_2021-01-S009",
+      "singapore_2021-01-S194"
+    ],
+    "affected_candidates": [
+      "singapore_2021-01-E001"
+    ],
+    "required_followup": "Respect the actual 403 and 404 without retry or alternate route; do not use snippets from Cache-miss sources as evidence."
+  },
+  {
+    "gap_id": "singapore_2021-01-G007",
+    "type": "source_independence",
+    "description": "Several outlets report the same SPF account. CNA Jan27 and CNA November follow-up share the same outlet; the Jan27 article includes the group statement and TODAY-sourced comments. News24 includes police information and participant comments, but opened page provenance does not identify its wire source. Lianhe Zaobao is a separate Chinese-language outlet but also reports police statements. Repeated publication count is not independent corroboration of every response detail.",
+    "source_ids": [
+      "singapore_2021-01-S001",
+      "singapore_2021-01-S003",
+      "singapore_2021-01-S006",
+      "singapore_2021-01-S009",
+      "singapore_2021-01-S011"
+    ],
+    "affected_candidates": [
+      "singapore_2021-01-E001"
+    ],
+    "required_followup": "Keep origin-agency and outlet relationships distinct in any later adjudication; do not double-count syndicated or police-derived details."
+  }
+]

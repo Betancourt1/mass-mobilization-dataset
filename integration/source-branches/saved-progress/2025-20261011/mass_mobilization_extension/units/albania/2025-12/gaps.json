@@ -1,0 +1,94 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "search_capture_provenance",
+    "description": "Seven pooled invocations produced 212 visible headers. Q006’s separate pre-call input file was missing; the exact submitted arguments survived inside its full saved response envelope and a postrequest extracted copy is marked as such. input_saved_before_request is false for Q006; this method deviation is not reconstructed as a pre-save. Provider-native timestamps remain unavailable.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ALB202512-E001"
+    ],
+    "required_followup": "Preserve the explicit deviation and use pre-saved exact args for any future query."
+  },
+  {
+    "gap_id": "G002",
+    "type": "search_capture_provenance",
+    "description": "Reuters S001 returned a page after a fresh exact-URL receipt/manual review, but the full response was not saved because the body directory was missing. Only the title/header and site navigation preview were seen; article text was not reviewed or coded. Raw response hash/bytes are unknown and no retry was made.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ALB202512-E001"
+    ],
+    "required_followup": "Do not retry or reconstruct; seek independent permitted reporting only if necessary."
+  },
+  {
+    "gap_id": "G003",
+    "type": "source_access",
+    "description": "ATA S002 and Gazeta Express S003 exact targets returned 403 after the recorded fresh-gate sequence; original BIRN S004 exact target returned 403 Forbidden after its own fresh receipt and manual review. These targets remain held. Do not use translations, mirrors, copies or alternate hosts as substitutes.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "ALB202512-E001"
+    ],
+    "required_followup": "Respect exact denials and any unresolved same-publisher scope; seek genuinely independent sources only after their own fresh manual review."
+  },
+  {
+    "gap_id": "G004",
+    "type": "event_occurrence_and_eligibility",
+    "description": "Gazeta Shqiptare S005 confirms only a scheduled Democratic Party gathering outside the Prime Minister’s office at 18:00 on Dec. 22 and prospective traffic restrictions. It does not establish that a gathering occurred, turnout, actual demands, event end or a response to an assembly. Candidate E001 is pending_evidence only.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "ALB202512-E001"
+    ],
+    "required_followup": "Find a permitted, pre-cutoff independent post-event account establishing execution, threshold, precise demands, boundaries and response; otherwise retain pending_evidence."
+  },
+  {
+    "gap_id": "G005",
+    "type": "state_response",
+    "description": "The S005 police notice announces traffic arrangements before the scheduled gathering. These prospective measures are not coded as crowd dispersal, accommodation or any other event-specific state response.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "ALB202512-E001"
+    ],
+    "required_followup": "Verify only an actual response to an observed gathering."
+  },
+  {
+    "gap_id": "G006",
+    "type": "search_coverage",
+    "description": "The open-web pass included English/Albanian general and Dec. 22 terms, outlet-specific and event-specific follow-ups, and regional labor/student/pension searches. Search returned substantial current-year and adjacent-year noise. No systematic archive/LexisNexis access was available; this is not a claim of absence.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No further search is required for this bounded first pass; reopen only for a concrete source-specific verification need."
+  },
+  {
+    "gap_id": "G007",
+    "type": "temporary_body_retention",
+    "description": "Exact temporary full responses for the opened October and December pages remain in private_reading/body pending science review and exact independent cleanup approval. Denial/error responses and raw search outputs are retained separately. No body copy has been deleted or backed up elsewhere.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Obtain exact independent cleanup review before deleting any full permitted body; preserve hashes, sizes, character counts, read scopes and chronology."
+  },
+  {
+    "gap_id": "G008",
+    "type": "official_baseline",
+    "description": "All event rows remain proposals. The official 2025 baseline, inclusion decision and official identifiers are pending; no official approval or final inclusion is claimed.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ALB202512-E001"
+    ],
+    "required_followup": "Coordinator to reconcile against an authorized official baseline when available."
+  }
+]

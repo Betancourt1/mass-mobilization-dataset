@@ -1,0 +1,42 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "event_dates_and_boundaries",
+    "description": "CIVICUS S001 gives 26 April. The Animal Reader S008 is dated 27 April but does not explicitly date the event. RTSH S005 is dated 28 April and says it happened “yesterday” (27 April). The accounts may refer to the same march but disagree by one day.",
+    "source_ids": [
+      "S001",
+      "S005",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ALB202504-E001"
+    ],
+    "required_followup": "Retain month precision unless independently verified evidence resolves the event date."
+  },
+  {
+    "gap_id": "G002",
+    "type": "participants_and_independence",
+    "description": "CIVICUS and The Animal Reader describe hundreds and RTSH says a large number, but no numeric attendance estimate or bounds were found. CIVICUS links to The Animal Reader, so those two accounts are related.",
+    "source_ids": [
+      "S001",
+      "S005",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ALB202504-E001"
+    ],
+    "required_followup": "Seek an independent contemporary estimate; keep attendance qualitative otherwise."
+  },
+  {
+    "gap_id": "G003",
+    "type": "candidate_verification_and_coverage",
+    "description": "An OSAC notice and TRT World social post are search-only leads for a planned/held 17 April Tirana opposition demonstration; execution, crowd size, demand, target and relation between the notices remain unverified. The pass also included English/Albanian generic, weekly, sector, regional, animal-rights, candidate-specific and retrospective searches, but open-web discovery is not equivalent to a newspaper archive.",
+    "source_ids": [
+      "S003",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify the April 17 episode through separately permitted contemporaneous sources; continue month-boundary and retrospective checks during review."
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "unit_id": "angola_2025-02",
+  "country": "Angola",
+  "month": "2025-02",
+  "agent_task": "/root/angola_q1",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-10T22:36:25.213208+00:00",
+  "finished_at": "2026-10-10T23:33:44+00:00",
+  "n_queries": 9,
+  "n_sources": 10,
+  "n_candidates": 1,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 6,
+  "coverage_assessment": "Completed first open-web pass with residual gaps: 9 unique invocation traces containing 32 February-relevant query strings; 128 visible headers from four resumed batches, native IDs/timestamps and per-query attribution unavailable. Ten source cards (2 opened; 7 search-only, 1 blocked), two body reads, one Ndalatando Feb 16 candidate retained pending_threshold. VOA quotes police as saying approximately 50; Jornal Terra Angolana says more than 50 but expressly cites Novo Jornal and repeats the same police-origin account, so this is derivative and not independent attendance corroboration. Exact bounds, route/site boundary, organizer, physical end, and full arrest tally remain open. Feb 15 Luanda is announcement-only. Amnesty retrospective page remains held under unresolved inherited restriction. Coverage gaps remain open; no completeness claim.",
+  "baseline_gate": "pending_official_baseline",
+  "source_access_counts": {
+    "opened_cards": 2,
+    "search_only_cards": 7,
+    "blocked_cards": 1,
+    "not_found_cards": 0
+  },
+  "query_capture_integrity": {
+    "quality": "degraded_invocation_only",
+    "captured_header_count": 128,
+    "native_headers_available": false,
+    "note": "128 rendered title/URL/ref/order headers are preserved across four resumed batches; historical native headers, event IDs/timestamps and per-query result attribution remain unavailable. Empty metadata arrays are capture gaps, not zero results."
+  },
+  "current_body_reads": 2,
+  "actual_query_terms_in_month_relevant_batches": 32,
+  "related_invocation_pointers": [
+    {
+      "unit_month": "2025-01",
+      "query_id": "angola_2025-01_invocation_005",
+      "purpose": "shared Jan/Feb/Mar site-filter batch, stored/counts once in January"
+    },
+    {
+      "unit_month": "2025-02",
+      "query_id": "angola_2025-02_invocation_002",
+      "purpose": "shared Feb/March batch, stored/counts once in February"
+    },
+    {
+      "unit_month": "2025-01",
+      "query_id": "angola_2025-01_invocation_010",
+      "purpose": "pooled January-oriented search batch whose returned set surfaced the Feb 15 Luanda demonstration announcement; canonical log and raw response remain in January"
+    },
+    {
+      "unit_month": "2025-03",
+      "query_id": "angola_2025-03_invocation_011",
+      "purpose": "Q1-wide Jan–Mar labor/protest coverage discovery; canonical record and pooled results stored/count once in March; no query-result attribution inferred"
+    },
+    {
+      "unit_month": "2025-03",
+      "query_id": "angola_2025-03_invocation_015",
+      "purpose": "Q1-wide local-language/region coverage attempt; canonical record and pooled result headers stored/count once in March"
+    }
+  ]
+}

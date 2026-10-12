@@ -1,0 +1,62 @@
+[
+  {
+    "gap_id": "benin_2021-02_G001",
+    "type": "source_access",
+    "description": "No Kétou article body was read. Exact URLs S047 (Bénin Web TV), S111 (Africaxó), and S165 (L’Investigateur) returned HTTP 403 after fresh checks; their earlier Cache-miss/DNS failures are also preserved. S112 (a second L’Investigateur URL) produced an uncaptured first web.open response, a second Cache miss, and a DNS failure before HTTP; it has no exact HTTP status denial. A different L’Investigateur Kétou URL (S165) later returned 403. These are source-access outcomes, not event evidence.",
+    "source_ids": [
+      "S047",
+      "S111",
+      "S112",
+      "S165"
+    ],
+    "affected_candidates": [
+      "benin_2021-02_E001"
+    ],
+    "required_followup": "Do not retry exact URLs S047, S111, or S165. If the distinct S112 URL is considered again, perform a fresh exact-URL access check and manual review of the later same-publisher 403 first; otherwise seek genuinely independent accessible reporting. Keep all snippet claims as discovery only."
+  },
+  {
+    "gap_id": "benin_2021-02_G002",
+    "type": "participants",
+    "description": "No verified simultaneous attendance evidence for the Kétou lead. Snippet words for population/crowd and injury counts do not establish a 50-person public assembly.",
+    "source_ids": [
+      "S047",
+      "S111",
+      "S112",
+      "S165"
+    ],
+    "affected_candidates": [
+      "benin_2021-02_E001"
+    ],
+    "required_followup": "Find body-level contemporary evidence of people assembled at one time and place; exclude vehicles, affected populations, injuries and later mobilization promises."
+  },
+  {
+    "gap_id": "benin_2021-02_G003",
+    "type": "state_target",
+    "description": "Search excerpts suggest objection to motorcycle seizures, but no body establishes a public protest or an explicit demand directed to the domestic government or a policy.",
+    "source_ids": [
+      "S047",
+      "S111",
+      "S112",
+      "S165"
+    ],
+    "affected_candidates": [
+      "benin_2021-02_E001"
+    ],
+    "required_followup": "Read a permitted body or independent report for the stated demand, target, and whether this was an assembly rather than an encounter."
+  },
+  {
+    "gap_id": "benin_2021-02_G004",
+    "type": "episode_unit",
+    "description": "February 1 appears only as an unverified search-result lead date. January 25–31 and March 1–7 boundary searches did not establish a prior onset, physical continuity, recurrence, or end; absence from these searches is not proof that none occurred.",
+    "source_ids": [
+      "S047",
+      "S111",
+      "S112",
+      "S165"
+    ],
+    "affected_candidates": [
+      "benin_2021-02_E001"
+    ],
+    "required_followup": "Keep start_date null and start_precision unknown. Before any episode/month assignment, obtain body-level date and continuity evidence; do not infer a February onset from a search snippet or a physical end from publication timing."
+  }
+]

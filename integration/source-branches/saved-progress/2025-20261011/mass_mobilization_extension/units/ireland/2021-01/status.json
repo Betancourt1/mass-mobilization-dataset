@@ -1,0 +1,39 @@
+{
+  "unit_id": "ireland_2021-01",
+  "country": "Ireland",
+  "month": "2021-01",
+  "agent_task": "/root/ireland_2021_01",
+  "status": "researched_open_web_pending_review",
+  "started_at": "2026-10-08T13:14:15+00:00",
+  "finished_at": "2026-10-08 13:24:01 UTC",
+  "n_queries": 57,
+  "n_sources": 360,
+  "n_candidates": 8,
+  "n_excluded": 3,
+  "n_continuations": 2,
+  "n_gaps": 16,
+  "n_opened_sources": 16,
+  "coverage_assessment": "Documented open-web first pass with English and limited Irish generic, weekly, regional, sector and boundary follow-up queries. Eight pending candidates, three scope/occurrence exclusions and two continuations. Strongest body evidence concerns Dublin and Drogheda; regional/Irish archive coverage uneven. Source counts include other-date/country discovery noise. No exhaustive coverage, absence finding or official approval.",
+  "baseline_gate": "pending_official_baseline",
+  "temporary_resources": {
+    "finite_reader_sessions": [
+      {
+        "id": 82666,
+        "exit_code": 0
+      },
+      {
+        "id": 57629,
+        "exit_code": 0
+      },
+      {
+        "id": 43816,
+        "exit_code": 0
+      }
+    ],
+    "other_finite_commands": "All write/read commands returned exit 0 except one failed encoding write (exit 1); retry succeeded. Initial sandbox network reader exited 0 with DNS errors; escalated ordinary HTTPS readers respected actual 403 responses.",
+    "servers_browsers_background_processes_started": [],
+    "remaining_resources": []
+  },
+  "metadata_repair_at": "2026-10-08 13:30:44 UTC",
+  "metadata_repair": "Separated 282 unverified discovery headings from title; all non-opened publication dates remain null. Rechecked two opened exact headings and retained observed dates."
+}
