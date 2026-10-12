@@ -1,0 +1,54 @@
+[
+  {
+    "gap_id": "mali_2023-03_G001",
+    "type": "threshold_and_occurrence",
+    "description": "AMAP's search result reports a March 20 road blockade on main routes in Kayes Region by ‘Je suis les routes de Kayes’ over road renovation/reconstruction, and separately says a planned rally was canceled around 23:00. The exact AMAP URL received one tool-level TimeoutError with no HTTP status or readable body. The saved result does not establish public assembly or simultaneous attendance at any site.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "mali_2023-03_E001"
+    ],
+    "required_followup": "Do not retry/variant the exact timed-out URL. If feasible, use unrelated independent reporting or organizer/authority sources for exact site, assembly, site-level simultaneous crowd size, direct state target, physical end and response."
+  },
+  {
+    "gap_id": "mali_2023-03_G002",
+    "type": "threshold_and_scope",
+    "description": "AIB reports 19 people walked from the Burkina embassy in Mali to Ouagadougou over 22 days, ending by March 21. This count is below the 50-person threshold; exact start date is not stated and the march is transnational/supportive rather than a confirmed oppositional Mali-state protest.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No further coding is justified unless distinct evidence changes the reported count or establishes a separate qualifying event; do not pool the 19 walkers with other events."
+  },
+  {
+    "gap_id": "mali_2023-03_G003",
+    "type": "event classification",
+    "description": "Search results report a March 18 transition-supporting youth mobilization in Bamako and private-school/higher-education stoppages in March. The former is not presented as protest against the state; the latter reports labor stoppages without public assembly evidence.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep the mobilization and each workplace action distinct; do not infer protest eligibility or crowd thresholds from event labels, school closures or an internal association meeting."
+  },
+  {
+    "gap_id": "mali_2023-03_G004",
+    "type": "coverage",
+    "description": "Ten captured searches in French and English returned 266 rendered result headers. Queries covered Bamako, education and labor, regional terms including Kayes/Gao/Mopti/Ségou/Tombouctou/Sikasso, political/referendum activity, the 26 March anniversary, local-language discovery and a transnational walk. Results were mixed-year and included out-of-month stories (for example a Gao result dated May); no systematic archive or comprehensive local-language corpus was searched.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "mali_2023-03_E001"
+    ],
+    "required_followup": "Future feasible coverage should use distinct date-specific regional outlets/languages and direct independent sources; these search results do not prove absence of other events."
+  }
+]

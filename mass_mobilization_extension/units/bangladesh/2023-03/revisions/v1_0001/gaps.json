@@ -1,0 +1,126 @@
+[
+  {
+    "gap_id": "BD23M-G001",
+    "topic": "Simultaneous attendance for March event candidates",
+    "affected_candidate_ids": [
+      "E001",
+      "E002",
+      "E003",
+      "E004",
+      "E005",
+      "E006",
+      "E007"
+    ],
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S007",
+      "S008",
+      "S009",
+      "S010"
+    ],
+    "description": "No opened body supplies a defensible simultaneous count/qualitative size for these specific sites. Q017 search-only leads likewise do not establish turnout; 220 injured in the prior-night RU clash is not protest attendance.",
+    "next_step": "Look for distinct permitted local post-event reports with crowd size at the specific site; do not infer aggregate counts from nationwide programmes, injury totals or search-result ranking."
+  },
+  {
+    "gap_id": "BD23M-G002",
+    "topic": "Coverage outside reported Dhaka, Moulvibazar and Rajshahi sites",
+    "affected_candidate_ids": [],
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004"
+    ],
+    "description": "Captured Bangla/English searches surfaced nationwide BNP programme plans but body details primarily cover Dhaka, plus individual Moulvibazar and Rajshahi events. Many districts, rural areas, Chattogram/Sylhet divisions and Chittagong Hill Tracts are not supported by reviewed local bodies.",
+    "next_step": "Supplement with distinct date-windowed searches in local/regional outlets and confirm event dates and exact locality from public reporting."
+  },
+  {
+    "gap_id": "BD23M-G003",
+    "topic": "Early and late monthly date-window sweep limitations",
+    "affected_candidate_ids": [],
+    "source_ids": [],
+    "description": "Searches Q014–Q017 targeted weekly or late-month windows, but the web index returned substantial out-of-window results; date filtering is unreliable and only explicit article dates were assigned. Q017 exposed March 22/30/31 snippets but did not resolve attendance or all areas.",
+    "next_step": "Use publication/body dates from newly discovered local sources; do not treat no relevant returned header as proof of no events."
+  },
+  {
+    "gap_id": "BD23M-G004",
+    "topic": "March 16 Rajshahi University human-chain source access and size",
+    "affected_candidate_ids": [
+      "E007"
+    ],
+    "source_ids": [
+      "S008"
+    ],
+    "description": "New Age search excerpt describes a 16 March RU human chain but the exact body URL returned HTTP 403. No crowd size or detailed own-state demand is established.",
+    "next_step": "Seek a distinct source on the specific 16 March action; do not retry the denied URL or invent a publisher-wide alias."
+  },
+  {
+    "gap_id": "BD23M-G005",
+    "topic": "March 18 Nayapaltan rally execution and threshold",
+    "affected_candidate_ids": [
+      "E004"
+    ],
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "description": "Dhaka Times body is a 13:33 preview before the 14:00 start. TBS search excerpt later says rallies were underway and “hundreds” joined, but page was inaccessible via tool; Banglanews24 exact body returned HTTP 403. No trustworthy opened body establishes same-site simultaneity or completion.",
+    "next_step": "Use a distinct permitted post-event body report with site-specific attendance and closure; do not retry the failed exact pages or variants."
+  },
+  {
+    "gap_id": "BD23M-G006",
+    "topic": "BNP political-process rally classification and episode boundary",
+    "affected_candidate_ids": [
+      "E002",
+      "E004"
+    ],
+    "source_ids": [
+      "S001",
+      "S005",
+      "S007"
+    ],
+    "description": "BNP demands include price policy, release of leaders, government resignation, caretaker government and electoral process. The manual distinguishes political rallies from anti-state protest. Reports describe recurring multi-site programmes, but no source establishes a single continuous episode or whether any local action meets the exception.",
+    "next_step": "Reviewer should assess the codebook political-rally exclusion and keep site-level events separate absent evidence for a common event/threshold."
+  },
+  {
+    "gap_id": "BD23M-G007",
+    "topic": "March 12 Rajshahi protest target and prior-night clash boundary",
+    "affected_candidate_ids": [
+      "E003"
+    ],
+    "source_ids": [
+      "S004"
+    ],
+    "description": "The 12 March protest included explicit demands about police firearm use and justice/safety, alongside claims against university administration. Prior-night bus-fare/local trader clash is distinct; injury totals apply to that clash and are not a 12 March turnout estimate.",
+    "next_step": "Reviewer should determine state-target fit and threshold from any site-specific account; do not merge the prior-night clash."
+  },
+  {
+    "gap_id": "BD23M-G008",
+    "topic": "Cross-month continuity and April follow-up",
+    "affected_candidate_ids": [
+      "E002",
+      "E004",
+      "E006"
+    ],
+    "source_ids": [
+      "S001",
+      "S003",
+      "S005",
+      "S007"
+    ],
+    "description": "Q012–Q013 searched for continuity and an April 1 follow-up, but results showed announced future programmes rather than documented unbroken action beginning in March. Recurring BNP campaign language does not establish one continuous protest; March 30–31 student actions have no verified continuity relation.",
+    "next_step": "Only link episodes if a contemporaneous source establishes an unbroken encampment/action or explicit same-event continuation; otherwise keep monthly/site events separate."
+  },
+  {
+    "gap_id": "BD23M-G009",
+    "topic": "Three search response prompt strings missing from saved capture",
+    "affected_candidate_ids": [],
+    "source_ids": [],
+    "description": "Raw tool outputs Q011–Q013 are preserved and their rendered result headers are in search_log.jsonl, but the exact input query strings were not saved. Search-log query fields use an explicit placeholder, not reconstructed prompts. Native tool times and result totals are also unavailable.",
+    "next_step": "Retain this provenance limitation; do not reconstruct or rerun these queries merely to repair metadata."
+  }
+]

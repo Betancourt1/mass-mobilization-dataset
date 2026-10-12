@@ -1,0 +1,25 @@
+{
+  "unit_id": "mexico_2023-01",
+  "country": "Mexico",
+  "month": "2023-01",
+  "status": "researched_open_web_pending_review",
+  "firstpass_complete": false,
+  "official_approved": false,
+  "baseline_gate": "pending_official_baseline",
+  "n_queries": 29,
+  "n_sources": 30,
+  "n_candidates": 11,
+  "n_excluded": 0,
+  "n_continuations": 0,
+  "n_gaps": 13,
+  "source_access_counts": {
+    "opened": 20,
+    "search_only": 8,
+    "blocked": 1,
+    "not_found": 1
+  },
+  "metadata_unknown": true,
+  "coverage_assessment": "Bounded open-web checkpoint with 29 captured in-scope query records (724 rendered headers), 11 candidates, 0 exclusions and 13 unresolved gaps. Q030 found a distinct local same-day Reto Diario report for the Jan13 Puebla vehicle-inspection protest. Its approximate count of twenty at the initial 07:00 Puente de Ovando gathering corroborates El Universal Puebla’s low early count, but does not resolve e-consulta’s approximately 60 during the later march; E007 remains pending_threshold. Other candidates, baseline and geographic coverage remain open; no exhaustive or zero-event claim.",
+  "finished_at": null,
+  "started_at": "2026-10-11T11:26:51.931156+00:00"
+}

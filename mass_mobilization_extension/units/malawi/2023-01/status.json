@@ -1,0 +1,27 @@
+{
+  "unit_id": "malawi_2023-01",
+  "country": "Malawi",
+  "month": "2023-01",
+  "status": "researched_open_web_pending_review",
+  "firstpass_complete": true,
+  "official_approved": false,
+  "baseline_gate": "pending_official_baseline",
+  "n_queries": 7,
+  "executed_query_strings_count": 11,
+  "captured_query_strings_count": 10,
+  "n_sources": 12,
+  "n_candidates": 3,
+  "n_excluded": 2,
+  "n_continuations": 0,
+  "n_gaps": 7,
+  "source_access_counts": {
+    "opened": 6,
+    "search_only": 6,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "metadata_unknown": true,
+  "scope_note": "Seven actual query-response records capture ten prompt strings: Q001 is one four-prompt batch with aggregate results not attributable by prompt; six single-prompt responses are Q002–Q007. One additional actual prompt response (Malawi civil servants strike January 9 2023 did strike occur Malawi high cost living) was lost due accidental reuse of Q003_search.json and was not reconstructed or logged. Queries in English; no Chichewa queries. January only, as assigned.",
+  "body_open_note": "Six exact-target article opens returned the requested story and are recorded with body_read_scope; two body attempts returned non-usable pages (Nation exact-URL verification challenge, and Malawi Freedom Network redirect to unrelated 2026 story) and remain search_only. No retry was made.",
+  "first_pass_result": "Three event candidates are retained, all pending_threshold: Mulanje Jan 27 protest (actual occurrence and state-directed demands supported; source says low turnout, no count); Kamphata AIP truck blockade (search result only; wrong-page redirect; no count); Chiradzulu AIP refund march (two sources, 'scores' but no numerical simultaneous count and date conflict). Two non-occurrence/non-state-target leads are excluded. This is not an exhaustive inventory or official approval."
+}

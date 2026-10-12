@@ -1,0 +1,82 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold",
+    "description": "Both reported actions lack a protester count. “Scores of commuters” refers to stranded traffic users, not participants.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "jamaica_2023-01_E001",
+      "jamaica_2023-01_E002"
+    ],
+    "required_followup": "Seek a permitted independent account, organizer/police record, or reliable participant estimate."
+  },
+  {
+    "gap_id": "G002",
+    "type": "continuity",
+    "description": "Jan 18 reports an intention to remain all week; this does not prove actual continuation. Jan 26 calls itself a second blockade in under two weeks. Intervening actual gatherings unknown.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "jamaica_2023-01_E001",
+      "jamaica_2023-01_E002"
+    ],
+    "required_followup": "Check distinct dated reports for actual Jan 17–25 activity; do not infer daily continuity."
+  },
+  {
+    "gap_id": "G003",
+    "type": "end_date",
+    "description": "No actual closure time/date is documented for either blockade.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "jamaica_2023-01_E001",
+      "jamaica_2023-01_E002"
+    ],
+    "required_followup": "Code an end only when a source documents actual cessation."
+  },
+  {
+    "gap_id": "G004",
+    "type": "state_response",
+    "description": "Police and firefighters were reportedly called to clear the Jan 16 road; execution and any impact on protesters are unknown. Jan 26 scheduled political meeting was postponed.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [
+      "jamaica_2023-01_E001",
+      "jamaica_2023-01_E002"
+    ],
+    "required_followup": "Seek independent or official account of actual state response if material."
+  },
+  {
+    "gap_id": "G005",
+    "type": "retrieval_failure",
+    "description": "RJR exact-body request returned web-tool error 400 timeout, not an observed publisher denial; no retry. NWC statement remains search-only.",
+    "source_ids": [
+      "S004",
+      "S006"
+    ],
+    "affected_candidates": [
+      "jamaica_2023-01_E001",
+      "jamaica_2023-01_E002"
+    ],
+    "required_followup": "No retry of RJR; NWC PDF may be considered as a distinct official source after exact-target assessment if needed."
+  },
+  {
+    "gap_id": "G006",
+    "type": "coverage",
+    "description": "Five English open-web queries covered month-wide protest/strike terms, roadblock/roads-water terms and parish combinations. Systematic week-by-week searches across all parishes and sectors remain incomplete. No LexisNexis-equivalent archive used; this is not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue feasible parish/week, sector, local/regional and adjacent-month continuity searches in Feb/Mar; do not claim exhaustive or no protests."
+  }
+]

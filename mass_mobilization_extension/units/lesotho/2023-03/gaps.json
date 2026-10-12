@@ -1,0 +1,48 @@
+[
+  {
+    "gap_id": "LSO2023-03-G001",
+    "type": "threshold",
+    "description": "E001 is an actual public picketing action reported in Maseru, but the source gives no simultaneous crowd count. “Mass protest” phrasing and union size/followers do not establish at least 50 in one public gathering.",
+    "source_ids": [
+      "LSO2023-03-S001"
+    ],
+    "affected_candidates": [
+      "LSO2023-03-E001"
+    ],
+    "required_followup": "Seek independent local reporting or a source-supported count for a single picket site; otherwise leave pending_threshold."
+  },
+  {
+    "gap_id": "LSO2023-03-G002",
+    "type": "source_independence",
+    "description": "Only Africa-Press’ opened report establishes E001. It quotes interviews to Public Eye but does not identify a written-source relationship or another independent report.",
+    "source_ids": [
+      "LSO2023-03-S001"
+    ],
+    "affected_candidates": [
+      "LSO2023-03-E001"
+    ],
+    "required_followup": "Search distinct local publishers for contemporaneous coverage; do not treat interview mention, topic overlap or page duplication as independent reporting."
+  },
+  {
+    "gap_id": "LSO2023-03-G003",
+    "type": "end_date_state_response",
+    "description": "E001’s report does not state when the picketing ended or the full event-specific state response. It reports police shot three people while dispersing protesters; deaths, arrests, beatings, accommodation and eventual closure are not established.",
+    "source_ids": [
+      "LSO2023-03-S001"
+    ],
+    "affected_candidates": [
+      "LSO2023-03-E001"
+    ],
+    "required_followup": "Find a retrospective account of the event’s conclusion/response if available; do not infer closure from a successful dispersal attempt or silence."
+  },
+  {
+    "gap_id": "LSO2023-03-G004",
+    "type": "event_occurrence_threshold",
+    "description": "The State Department search excerpt records that the Socialist Revolutionaries Party Youth League applied for a permit for a 24 March protest and police denied it. No source found so far confirms whether an unpermitted public gathering took place or reports any crowd size. The exact official report body request returned a generic tool error without HTTP status or source text.",
+    "source_ids": [
+      "LSO2023-03-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Look for distinct contemporaneous local reporting on 24 March, but do not treat permit refusal as proof of cancellation or actual assembly; no variant-host retry."
+  }
+]

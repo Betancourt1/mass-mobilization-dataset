@@ -1,0 +1,120 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "coverage",
+    "description": "Partial open-web search: six individual Spanish-language queries (including a specific March follow-up for February’s La Guardia blockade) and seven exact-URL body opens. Coverage identified teacher, Potosí civic/lithium and pensioner actions across La Paz, Cochabamba, Potosí and the national series. It did not complete weekly/date-windowed review of every city, outlet, sector, or retrospective/official/organizer sources; English and local-language coverage is sparse. Historical source ledgers are omitted, so the access inventory is not clean. Unknown is not zero; not an exhaustive month.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue systematic week and city searches, and review additional accessible local publications, organizers, authorities and retrospective records across sectors including labor, health, transport, students, farmers/Indigenous communities, mining, prices/pensions and civil/political demands."
+  },
+  {
+    "gap_id": "G002",
+    "type": "threshold",
+    "description": "For the March 6 teachers’ march, Unitel reports at least 3,000 teachers from the interior arrived in La Paz with the purpose of marching and local teachers joined; the actual march and police confrontation are confirmed, but the report does not state the simultaneous number at the ministry cordon. The UCB bulletin is a press clipping explicitly linking to El Deber/Unitel and is not independent corroboration.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "bolivia_2023-03_E001"
+    ],
+    "required_followup": "Seek a contemporaneous site-specific count from another permitted independent source or organizer account; do not use union membership or arrivals in the city as a precise site attendance."
+  },
+  {
+    "gap_id": "G003",
+    "type": "threshold",
+    "description": "Comcipo’s March 13 action involved actual road blockades, but organizer estimate of 52 points and police observation of three highway points do not establish participant count at any one point. The separate campesino occupation at YLB Llipi has distinct actors and may be a separate event.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "bolivia_2023-03_E002"
+    ],
+    "required_followup": "Find site-specific simultaneous attendance and independently determine whether the Llipi occupation was a public gathering; do not merge it with Comcipo without evidence."
+  },
+  {
+    "gap_id": "G004",
+    "type": "threshold",
+    "description": "The March 16 Cochabamba pensioners’ march is confirmed, but Opinión gives no crowd size. Its report of national replication cannot be aggregated across locations.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "bolivia_2023-03_E003"
+    ],
+    "required_followup": "Find actual simultaneous attendance in Cochabamba and distinct-site counts elsewhere."
+  },
+  {
+    "gap_id": "G005",
+    "type": "episode_boundary",
+    "description": "Teacher actions recurred during March, including the March 6 La Paz march and March 24 national strike-day marches. The 18-day interval and campaign overlap suggest distinct action days, but source coverage does not resolve whether event records should be separate or grouped under a common episode; no uninterrupted physical gathering is asserted.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "bolivia_2023-03_E001",
+      "bolivia_2023-03_E004"
+    ],
+    "required_followup": "Review intervening March 7–23 actions and exact local event boundaries using already captured/local evidence or genuinely new date-windowed searches; do not infer continuous protest solely from a three-week retrospective label."
+  },
+  {
+    "gap_id": "G006",
+    "type": "continuity",
+    "description": "Specific cross-month follow-up for Feb 13 La Guardia blockade: a March query yielded only the same El Deber Feb 13 article already body-read in February (Feb S005); it provided no report of a later continuation, end, or resumption. No repeat body access was attempted. The February candidate remains onset in February with unknown end.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [
+      "bolivia_2023-02_E001"
+    ],
+    "required_followup": "Retain unknown closure/continuity unless a genuinely distinct later report or organizer/authority source documents it; the query result is not evidence of ending or continuation."
+  },
+  {
+    "gap_id": "G007",
+    "type": "source_origin",
+    "description": "A March 20 Diario Libre search result mentions three weeks of teacher protests but did not disclose a clear written-story origin or a distinct event count in the captured snippet. No body was opened because the origin relationship could not be assessed from the available evidence.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [
+      "bolivia_2023-03_E001",
+      "bolivia_2023-03_E004"
+    ],
+    "required_followup": "Resolve exact written-story origin from permitted source metadata before considering any body access; no inferred AP relationship, alias, or variant access."
+  },
+  {
+    "gap_id": "G008",
+    "type": "state_response",
+    "description": "March 6 police chemical dispersal and mutual shoves/hits are reported; exact attribution and individual injuries are not established. Other candidates’ sources do not document a completed accommodation, arrest, beating, dispersal, killing or shooting. Silence is retained as unknown.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "bolivia_2023-03_E001",
+      "bolivia_2023-03_E002",
+      "bolivia_2023-03_E003",
+      "bolivia_2023-03_E004"
+    ],
+    "required_followup": "Seek event-specific evidence for government response and any injury/arrest, distinguishing demonstrator violence from state action and not inferring munition fire from chemical agents."
+  }
+]

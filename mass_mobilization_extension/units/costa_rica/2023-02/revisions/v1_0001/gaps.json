@@ -1,0 +1,78 @@
+[
+  {
+    "gap_id": "costa_rica_2023-02_G001",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidate_ids": [
+      "costa_rica_2023-02_E002",
+      "costa_rica_2023-02_E004",
+      "costa_rica_2023-02_E005",
+      "costa_rica_2023-02_E006",
+      "costa_rica_2023-02_E007",
+      "costa_rica_2023-02_E008",
+      "costa_rica_2023-02_E009",
+      "costa_rica_2023-02_E010",
+      "costa_rica_2023-02_E011",
+      "costa_rica_2023-02_E012",
+      "costa_rica_2023-02_E013"
+    ],
+    "dimension": "contemporary source confirmation, attendee threshold, and site/event separation",
+    "reason": "The IIS-UCR monthly chronology is the only opened source for these leads. It names six newspapers in its source list, but their underlying articles were not opened. Some entries have no simultaneous count; the route-32 Repretel exact URL returned an unrelated 2026 page.",
+    "next_permitted_action": "Seek distinct exact public articles/original records for the named event leads, with fresh target-specific assessment before each body request. Do not retry the mismatched Repretel URL or count UCR total actions as qualifying events."
+  },
+  {
+    "gap_id": "costa_rica_2023-02_G002",
+    "source_ids": [
+      "S001",
+      "S006"
+    ],
+    "affected_candidate_ids": [
+      "costa_rica_2023-02_E003"
+    ],
+    "dimension": "CCSS gathering date and episode identity, count, origin, and response",
+    "reason": "SURCOS reports a San José demonstration on 17 February, while UCR records a similar CCSS gathering on 18 February. Shared organizations/issues may indicate one event or separate actions; neither source reports attendance. SURCOS says the note was shared by Rafael López Alfaro and links a Facebook photo album; that album was not opened.",
+    "next_permitted_action": "Use distinct public reporting or original non-Facebook records to resolve whether these were one or two actions and whether any site exceeded 50 simultaneous attendees. Do not follow the linked Facebook asset."
+  },
+  {
+    "gap_id": "costa_rica_2023-02_G003",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidate_ids": [],
+    "dimension": "late-month coverage, 25–28 February",
+    "reason": "The opened UCR chronology shows dated entries only through 24 February. Spanish/English searches specifically covering 25–28 February were executed (Q011 and Q015), but returned no opened event-specific story establishing whether activity occurred. Search absence is not evidence of no protest.",
+    "next_permitted_action": "If further source-diverse coverage is required, search dated local outlets and relevant sector/region pages for 25–28 February; preserve the current open-web limitation."
+  },
+  {
+    "gap_id": "costa_rica_2023-02_G004",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidate_ids": [
+      "costa_rica_2023-02_E012"
+    ],
+    "dimension": "independent occurrence evidence for Matina / Route 32 lead",
+    "reason": "The exact Repretel URL found through Q008 opened to a different 2026 pedestrian-bridge story, not the UCR chronology’s 11 February report about CONAVI route-work changes. No retry or URL variant was requested.",
+    "next_permitted_action": "Look for a distinct public source using a separately discovered exact URL; keep the UCR-only candidate pending meanwhile."
+  },
+  {
+    "gap_id": "costa_rica_2023-02_G005",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidate_ids": [
+      "costa_rica_2023-02_E001",
+      "costa_rica_2023-02_E002",
+      "costa_rica_2023-02_E003",
+      "costa_rica_2023-02_E004"
+    ],
+    "dimension": "source diversity and independent corroboration",
+    "reason": "Only one opened source provides an approximately qualifying count for the taxi march. The other opened event reports lack a count or have date/origin uncertainty. UCR may depend on Diario Extra; SURCOS links Facebook but its album was not opened.",
+    "next_permitted_action": "Pursue independent public reporting only where it can materially resolve count/date/event identity, with new exact URL assessment before each request."
+  }
+]

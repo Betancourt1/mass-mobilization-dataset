@@ -1,0 +1,45 @@
+[
+  {
+    "gap_id": "BWFEB-G001",
+    "type": "eligibility_evidence",
+    "description": "The two opened Mmegi excerpts concern a University of Botswana union strike/salary dispute but do not establish that members gathered publicly, the date/site of any gathering, 50 simultaneous participants, or the form of state-policy demand. The Feb 8 Gazette issue preview is also unavailable after an exact 403.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "botswana_2023-02_E001"
+    ],
+    "required_followup": "Use distinct permitted contemporary sources (for example public university/union notices or other local news reports) to establish an actual public gathering, site-level count and direct state/policy target. Do not retry the exact Gazette PDF or use variants; do not count a work stoppage alone."
+  },
+  {
+    "gap_id": "BWFEB-G002",
+    "type": "search_coverage",
+    "description": "Open-web search covered English national/local reporting, a Setswana-term search (boipelaetso; go gwanta), Gaborone/university labor, opposition-politics terms, Francistown and Palapye prompts, and four explicit weekly date-window prompts. Search results were pooled/noisy and the tool did not enforce or verify date windows. No systematic newspaper archive, print-issue review or LexisNexis search was available; News24.com was blocked by robots.txt in the search tool.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "botswana_2023-02_E001"
+    ],
+    "required_followup": "If another permitted source is needed for eligibility or coverage, pursue it through a distinct local/regional outlet or an accessible contemporaneous union/university source; retain any exact restriction and do not infer exhaustive or zero-protest coverage."
+  },
+  {
+    "gap_id": "BWFEB-G003",
+    "type": "continuity",
+    "description": "February sources do not establish an actual public episode or its start/end. March was assessed separately: the available March opposition walkout reports concern different committee-related actions and provide no explicit link to the University of Botswana salary strike. This does not establish an explicit close of any February public action.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005",
+      "S008"
+    ],
+    "affected_candidates": [
+      "botswana_2023-02_E001"
+    ],
+    "required_followup": "If later permitted contemporaneous evidence establishes a February public gathering, seek an explicit closure/retrospective activity account and event-level link before assigning an end or cross-month continuation; do not infer continuity from shared month or union identity."
+  }
+]

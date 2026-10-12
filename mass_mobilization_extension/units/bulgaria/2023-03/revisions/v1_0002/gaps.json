@@ -1,0 +1,57 @@
+[
+  {
+    "gap_id": "G001",
+    "category": "coverage_method",
+    "description": "Web search does not reproduce the codebook’s LexisNexis newspaper workflow. No systematic newspaper archive, original codebook release gate, or full baseline/licensing/official-universe audit was available. Search results were not treated as exhaustive."
+  },
+  {
+    "gap_id": "G002",
+    "category": "language_and_geography",
+    "description": "Research used Bulgarian-language queries and one English-language retrospective query. No comprehensive regional-language archive search or systematic province-by-province reporting review was completed. Sofia evidence is not used to infer attendance in other cities."
+  },
+  {
+    "gap_id": "G003",
+    "category": "retrieval_failure",
+    "description": "Exact BNR body URL https://old-news.bnr.bg/post/101792171 timed out after its receipt and manual assessment (tool ref turn434151view0; “Failed to fetch … Timeout fetching”). No HTTP status or denial was returned; no retry. Its search result is discovery only."
+  },
+  {
+    "gap_id": "G004",
+    "category": "retrieval_failure",
+    "description": "Exact BNR body URL https://old-news.bnr.bg/post/101790542/shestvie-za-pravata-na-jenite-v-sofia timed out after receipt_008_bnr_women.json and target_008_bnr_women.json (tool ref turn567467view0; tool-level “(400) Timeout fetching”). No HTTP status or denial was returned; no retry. The 8 March women’s-rights candidate remains pending_threshold based on a search snippet and has no attendance estimate."
+  },
+  {
+    "gap_id": "G005",
+    "category": "threshold",
+    "description": "12 March Sofia anti-war march: News.bg reports about 150 at NDK; Baricada reports an approximately 12,000 estimate as a social-media participant claim. The latter is unverified; exact attendance is unresolved. Only the single Sofia gathering count is used; other cities are not combined."
+  },
+  {
+    "gap_id": "G006",
+    "category": "threshold_and_access",
+    "description": "24 March Sofia protest: BTA and a NOVA item explicitly attributed to BTA establish date, Independence Square and demands, but neither provides attendance. BTA body was paywall-limited after a short segment. Candidate remains pending_threshold and the accounts are not independent."
+  },
+  {
+    "gap_id": "G007",
+    "category": "threshold",
+    "description": "28 March EMS workers’ protest: bTV confirms a public gathering, brief road blockage before the Health Ministry and convoy, but no simultaneous headcount. BNT/BTA search hits include advance announcements and do not prove attendance. Candidate remains pending_threshold."
+  },
+  {
+    "gap_id": "G008",
+    "category": "threshold_and_continuity",
+    "description": "Kresna livestock-farmer actions on 2 and 9 March have public blockades and demands for state assistance; BNT says “tens” of sheep-farm owners on 9 March and no count on 2 March. Threshold >=50 is unknown, the relationship between short blockades is provisional, and the 15-minute road reopening does not establish campaign closure."
+  },
+  {
+    "gap_id": "G009",
+    "category": "threshold_and_unit",
+    "description": "RFE/RL reports 9 March gatherings at both the Monument to the Soviet Army and the Municipal Council opposing removal of the monument. Neither site has a participant estimate; the two site gatherings are kept separate pending any evidence linking them or establishing >=50 at either site."
+  },
+  {
+    "gap_id": "G010",
+    "category": "date_and_access",
+    "description": "An AP search result about Bulgarian farmers protesting Ukrainian grain mentions Pernik but the captured snippet does not expose its event date. It remains search-only and is not assigned a March onset. No body was attempted because exact AP access scope remains unresolved under the known affected-source hold."
+  },
+  {
+    "gap_id": "G011",
+    "category": "search_date_adherence",
+    "description": "Date-window searches returned substantial off-period and unrelated results. Exact event dates were checked in opened bodies where possible; the broader month search and two Bulgarian-language windows plus one English retrospective do not establish complete March coverage."
+  }
+]

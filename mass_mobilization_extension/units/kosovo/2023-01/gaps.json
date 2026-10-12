@@ -1,0 +1,52 @@
+[
+  {
+    "gap_id": "kosovo_2023-01_G001",
+    "type": "eligibility_evidence",
+    "description": "The Jan23 Kurti-resignation protest is confirmed by two opened reports, but neither gives a site-level simultaneous crowd estimate. Threshold status remains unresolved.",
+    "source_ids": [
+      "S001",
+      "S004"
+    ],
+    "affected_candidates": [
+      "kosovo_2023-01_E002"
+    ],
+    "required_followup": "Seek a distinct permitted article/report with an attendance estimate for the Pristina government-building protest; do not infer attendance from organizers or political participation."
+  },
+  {
+    "gap_id": "kosovo_2023-01_G002",
+    "type": "retrieval_failure",
+    "description": "The exact KoSSev URL for the combined Jan8 Štrpce/North Mitrovica story returned an internal “Error fetching” tool message with no HTTP status.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [
+      "kosovo_2023-01_E001",
+      "kosovo_2023-01_X002"
+    ],
+    "required_followup": "No retry of this source action. Existing opened BBC-origin and RFE/RL reports cover the two separate gatherings."
+  },
+  {
+    "gap_id": "kosovo_2023-01_G003",
+    "type": "access_restriction",
+    "description": "The exact KOHA.net Jan23 Kurti protest URL returned HTTP 403. The parent/coordinator recorded an append-only exact-URL hold; do not retry or use alternate URL variants.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "kosovo_2023-01_E002"
+    ],
+    "required_followup": "None for this exact URL. Seek separate permitted sources if needed."
+  },
+  {
+    "gap_id": "kosovo_2023-01_G004",
+    "type": "retrieval_failure",
+    "description": "The exact KOHA.net Jan31 ZSO URL returned “not accessible via this tool” with no HTTP status, so article content is unavailable and no denial can be claimed.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [
+      "kosovo_2023-01_X001"
+    ],
+    "required_followup": "Do not repeat the exact attempt; rely on the already opened contemporaneous KoSSev report and Kosovo Online retrospective, or use unrelated permitted sources if future review requires."
+  }
+]

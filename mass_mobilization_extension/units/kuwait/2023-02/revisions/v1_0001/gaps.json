@@ -1,0 +1,109 @@
+[
+  {
+    "gap_id": "kuwait_2023-02_G001",
+    "type": "threshold",
+    "description": "None of the four candidate gatherings has a numeric simultaneous headcount. Descriptions range from “a number/group of employees/students” to “a large number,” which cannot defensibly be converted to >=50.",
+    "source_ids": [
+      "KWT2023-02-S001",
+      "KWT2023-02-S002",
+      "KWT2023-02-S005",
+      "KWT2023-02-S007",
+      "KWT2023-02-S008",
+      "KWT2023-02-S009"
+    ],
+    "affected_candidates": [
+      "kuwait_2023-02_E001",
+      "kuwait_2023-02_E002",
+      "kuwait_2023-02_E003",
+      "kuwait_2023-02_E004"
+    ],
+    "required_followup": "Seek permitted contemporary coverage or official records with site-specific simultaneous attendance; keep each pending_threshold until supported."
+  },
+  {
+    "gap_id": "kuwait_2023-02_G002",
+    "type": "venue_publicness",
+    "description": "The Awqaf sit-ins are reported at the ministry and ministry lobby; the accounts do not establish general public accessibility. Press/minister/MP presence indicates visibility but does not alone settle venue publicness.",
+    "source_ids": [
+      "KWT2023-02-S002",
+      "KWT2023-02-S005",
+      "KWT2023-02-S007"
+    ],
+    "affected_candidates": [
+      "kuwait_2023-02_E002",
+      "kuwait_2023-02_E003"
+    ],
+    "required_followup": "Find contemporary descriptions of exact venue and access; do not treat indoor location as automatically private."
+  },
+  {
+    "gap_id": "kuwait_2023-02_G003",
+    "type": "date_and_continuity",
+    "description": "Awqaf hours-policy reporting includes a 16 February sit-in, related reporting dated 17 and 19 February without separate action dates, and a distinct 20 February sit-in on the first implementation day. The material does not establish whether the 17/19 February reports describe the 16 February action or a separate intervening sit-in, nor whether any presence continued between dates.",
+    "source_ids": [
+      "KWT2023-02-S002",
+      "KWT2023-02-S003",
+      "KWT2023-02-S004",
+      "KWT2023-02-S005",
+      "KWT2023-02-S007"
+    ],
+    "affected_candidates": [
+      "kuwait_2023-02_E002",
+      "kuwait_2023-02_E003"
+    ],
+    "required_followup": "Check permitted contemporaneous sources for precise action dates, organizer/crowd continuity, venue and explicit start/end; do not merge discrete days automatically."
+  },
+  {
+    "gap_id": "kuwait_2023-02_G004",
+    "type": "retrieval_failure",
+    "description": "Exact Kuwait Local URL and Al-Rai URL body requests returned tool-level Internal Error / inaccessible-via-tool with no HTTP status, not a demonstrated site denial. Their raw outputs and receipts are preserved; no retry or alternate URL was attempted.",
+    "source_ids": [
+      "KWT2023-02-S004",
+      "KWT2023-02-S006"
+    ],
+    "affected_candidates": [
+      "kuwait_2023-02_E003"
+    ],
+    "required_followup": "Use other permitted sources for date, turnout and venue; any new body action needs its own current exact-URL assessment and receipt."
+  },
+  {
+    "gap_id": "kuwait_2023-02_G005",
+    "type": "search_only",
+    "description": "The PAAET student sit-in is supported only by an exact Al-Anba search result; a body response from a different URL variant was quarantined. Exact action day, attendance and response remain unresolved.",
+    "source_ids": [
+      "KWT2023-02-S008"
+    ],
+    "affected_candidates": [
+      "kuwait_2023-02_E004"
+    ],
+    "required_followup": "Do not retry the variant. Seek independent permitted coverage or documented exact-URL permission for a future action before any new body request."
+  },
+  {
+    "gap_id": "kuwait_2023-02_G006",
+    "type": "search_coverage",
+    "description": "Twelve English/Arabic searches covered early, middle and late February, labor/public employees, education, Bidoon, National Day, and Awqaf follow-ups. Results were dominated by older/out-of-country material and the Awqaf schedule dispute; no strong month-specific Bidoon, health, transport, migrant-worker or other sector lead surfaced in this bounded search. This is not evidence that none occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with additional local/sectoral and retrospective sources in later review, especially non-Awqaf groups, Bidoon and migrant-worker actions; do not claim zero events."
+  },
+  {
+    "gap_id": "kuwait_2023-02_G007",
+    "type": "archive_limit",
+    "description": "Open web searches do not reproduce Lexis-Nexis/all-news and no systematic local newspaper archive, licensed wire database or complete local print issue run was available. Several query results were stale, syndicated or only snippets.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review against authorized newspaper archives/official source universe if later available; structural validation is not exhaustive coverage."
+  },
+  {
+    "gap_id": "kuwait_2023-02_G008",
+    "type": "audit_quarantine",
+    "description": "The earlier provisional core dossier contains two body attempts whose request URLs came from a parser that had truncated the final URL character: PAAET Al-Anba (`/1169620` instead of raw `/1169620/`) and Al-Jarida electricity (`/1452` instead of raw `/14524`); those bodies and any dependent preliminary coding are excluded from this revision. Exact raw query outputs remain preserved in the assigned core folder.",
+    "source_ids": [
+      "KWT2023-02-S008",
+      "KWT2023-02-S009"
+    ],
+    "affected_candidates": [
+      "kuwait_2023-02_E001",
+      "kuwait_2023-02_E004"
+    ],
+    "required_followup": "Use only the exact captured URLs for future assessments; do not rely on quarantined body data or repeat prior discovery."
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline_mapping",
+    "description": "Assignment does not expose original Polity country code/baseline mapping; ccode remains null.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MKD23FEB_E001",
+      "MKD23FEB_E002",
+      "MKD23FEB_E003"
+    ],
+    "required_followup": "Coordinator/baseline owner to confirm code before official use."
+  },
+  {
+    "gap_id": "G002",
+    "type": "archive_access",
+    "description": "Bounded open-web research is not the original archive/baseline search procedure; no equivalent historical archive is available in this worktree.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If authorized archive access is available, complete the prescribed source/date coverage."
+  },
+  {
+    "gap_id": "G003",
+    "type": "attendance_threshold",
+    "description": "Feb 17 gender-based-violence protest has no qualifying attendance estimate; the only wording is “dozens” (S002), which does not establish 50 simultaneous people.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "MKD23FEB_E001"
+    ],
+    "required_followup": "Locate a distinct contemporaneous source with event-specific simultaneous attendance evidence; do not infer 50 from images or plural wording."
+  },
+  {
+    "gap_id": "G004",
+    "type": "attendance_threshold",
+    "description": "Feb 22 health-worker actions include multiple named sites/cities, but no numeric or qualifying simultaneous attendance evidence at any one location. Do not pool sites.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "MKD23FEB_E002"
+    ],
+    "required_followup": "Find location-specific same-time turnout evidence and resolve whether local actions should be separate event rows."
+  },
+  {
+    "gap_id": "G005",
+    "type": "attendance_threshold",
+    "description": "Feb 17 journalist march is documented as an actual event with state-facing demands, but no participant count/estimate appears in opened source.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "MKD23FEB_E003"
+    ],
+    "required_followup": "Seek contemporaneous event-specific headcount evidence; search snippets do not establish threshold."
+  },
+  {
+    "gap_id": "G006",
+    "type": "continuity_end_date",
+    "description": "No captured article establishes physical end/longer continuity for Feb 17 gender-based-violence protest or journalist march.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005"
+    ],
+    "affected_candidates": [
+      "MKD23FEB_E001",
+      "MKD23FEB_E003"
+    ],
+    "required_followup": "Use new contemporaneous follow-up only if one emerges; do not treat publication date or silence as event closure."
+  },
+  {
+    "gap_id": "G007",
+    "type": "geographic_scope",
+    "description": "Searches sampled Tetovo/Bitola/Kumanovo/Ohrid and a Macedonian-language query, but regional results were limited; MIA says other cities without identifying all sites.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "MKD23FEB_E002"
+    ],
+    "required_followup": "Expand only with unsearched local/regional municipality and facility terms if a follow-up pass is scheduled."
+  },
+  {
+    "gap_id": "G008",
+    "type": "language_sector_coverage",
+    "description": "Coverage included English, Macedonian and one Albanian-language query, date windows, public-health and journalist/women’s-rights sector leads; Albanian query yielded no coded body and Serbian/local-language coverage was not systematically searched.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Future bounded pass may search local-language newsroom and union/organizer materials by specific date and site; no broad completeness inference."
+  },
+  {
+    "gap_id": "G009",
+    "type": "demand_mapping",
+    "description": "Gender-based-violence protest’s demand to improve police handling/institutional action is tentatively mapped to police_brutality_or_arbitrary_actions; codebook fit of inaction/poor handling requires human review. Media march labour category may overstate demands because no explicit wage request was captured.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005"
+    ],
+    "affected_candidates": [
+      "MKD23FEB_E001",
+      "MKD23FEB_E003"
+    ],
+    "required_followup": "Reviewer to confirm or revise mappings using the codebook while retaining evidence summaries."
+  },
+  {
+    "gap_id": "G010",
+    "type": "source_scope",
+    "description": "S006 and S007 remain search-only; sources and current inventory do not represent a clean historical access ledger. No inference is made about unlisted publisher aliases or source holds.",
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "MKD23FEB_E003"
+    ],
+    "required_followup": "Do not open without a fresh exact-URL receipt and manual origin/hold review."
+  }
+]

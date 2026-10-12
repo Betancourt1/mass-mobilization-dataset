@@ -1,0 +1,80 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold",
+    "description": "Mulanje Jan 27 protest is confirmed, but 'low turnout' is the only opened turnout description and no numeric simultaneous count is known; event remains pending_threshold.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [
+      "E001"
+    ],
+    "required_followup": "Independent contemporaneous local/international story with numerical attendance and same-site/same-time scope, if available."
+  },
+  {
+    "gap_id": "G002",
+    "type": "threshold",
+    "description": "Kamphata AIP road-blockade search result describes crowd action but body request redirected to an unrelated 2026 biography; do not use that returned page, retry, or infer attendance. Search-only evidence is insufficient for threshold.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "E002"
+    ],
+    "required_followup": "Distinct separately assessed report documenting exact-site count, event timing and source origin."
+  },
+  {
+    "gap_id": "G003",
+    "type": "date_precision",
+    "description": "AIP march at Chiradzulu is dated Jan 31 in S006 but contextual wording in S007 (published Jan 31) places it about a day before Nankhumwa's Jan 30 letter, implying an earlier date. The event date remains unknown pending resolution.",
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "E003"
+    ],
+    "required_followup": "Contemporaneous report, organizer statement or underlying dated record establishing march date."
+  },
+  {
+    "gap_id": "G004",
+    "type": "threshold",
+    "description": "S007 calls turnout 'scores' of AIP beneficiaries from about 12 villages. The wording and represented-village count do not establish at least 50 simultaneous attendees at the Chiradzulu office.",
+    "source_ids": [
+      "S007"
+    ],
+    "affected_candidates": [
+      "E003"
+    ],
+    "required_followup": "Numerical site-level attendee estimate and temporal scope."
+  },
+  {
+    "gap_id": "G005",
+    "type": "nonoccurrence_followup",
+    "description": "Parents/Union of Private School Teachers threatened a Lilongwe Ministry of Education vigil over school reopening; January actual execution is not established in captured sources.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retrospective or contemporaneous evidence confirming whether a public vigil actually occurred; don't code the threat itself."
+  },
+  {
+    "gap_id": "G006",
+    "type": "query_capture",
+    "description": "An actual search call was executed for exact prompt 'Malawi civil servants strike January 9 2023 did strike occur Malawi high cost living'. Its response was not retained: a later call accidentally reused the same raw filename and replaced it. The lost output is not reconstructed or counted as a captured query record. The later distinct Q003 response remains preserved.",
+    "source_ids": [],
+    "affected_candidates": [
+      "X002"
+    ],
+    "required_followup": "None; do not repeat solely to reconstruct the lost response. Other retained Jan 8 and retrospective material document cancellation."
+  },
+  {
+    "gap_id": "G007",
+    "type": "coverage",
+    "description": "January first pass included English web search, Malawi local news and retrospective reporting. No Chichewa query was executed; national/regional coverage outside surfaced Mulanje, Lilongwe and Chiradzulu leads remains incomplete. Publicly accessible indexed coverage is not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue quarter coverage/continuity assessment for allowed next months and check local-language reporting where feasible."
+  }
+]

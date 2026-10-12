@@ -1,0 +1,109 @@
+[
+  {
+    "gap_id": "nepal_2023-01_G001",
+    "type": "pending_source",
+    "description": "Potential Jan 11 monarchist rally remains an unverified lead. AP result headline and AP-origin LBC/Yahoo syndications are discovery-only; the AP affected-source hold remains pending exact scope. No body or AP variant was requested. Local Nepali query Q009 did not surface direct independent execution/attendance evidence; it surfaced an RPP tea-reception story, which is not treated as the same event. Exact AP target: https://apnews.com/article/8dcb00d95fd983cb840857519cb3d6b8. Existing receipt_003 was a manual-review/no-match receipt before later source-card changes and is not permission.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S032"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search permitted non-AP-origin contemporaneous local/regional sources for Jan 11 actual gathering, event site/date, state-directed demand and simultaneous crowd size. Do not open AP or AP-origin variants until scope is resolved."
+  },
+  {
+    "gap_id": "nepal_2023-01_G002",
+    "type": "pending_threshold",
+    "description": "E002 NEST marches occurred in seven provinces, but S006 gives no province-level city/site list or site-level turnout. Nationwide scope is organizational, not a basis for summing attendees across sites.",
+    "source_ids": [
+      "S004",
+      "S006"
+    ],
+    "affected_candidates": [
+      "nepal_2023-01_E002"
+    ],
+    "required_followup": "Find separate location/attendance reports for individual Jan 9 gatherings; establish whether any one site reached 50 and whether one national organized action or distinct local events is the best description."
+  },
+  {
+    "gap_id": "nepal_2023-01_G003",
+    "type": "pending_threshold",
+    "description": "E003 Jan 25 Acharya march attendance is unquantified; the KPost retrospective’s “scores” is ambiguous at the >=50 cutoff. KPost accounts are same-outlet; Nepal Press corroborates protest occurrence but not attendance.",
+    "source_ids": [
+      "S009",
+      "S011",
+      "S013",
+      "S014"
+    ],
+    "affected_candidates": [
+      "nepal_2023-01_E003"
+    ],
+    "required_followup": "Seek contemporaneous independent local reporting or primary organizer records with site-specific simultaneous attendance. Resolve end/response only with explicit report."
+  },
+  {
+    "gap_id": "nepal_2023-01_G004",
+    "type": "pending_threshold_review",
+    "description": "E005 Jan 29 has no numeric turnout. Himalayan News Service calls the gathering a “mass demonstration”; KPost says “large number”. The owner proposes inclusion using the contemporaneous qualitative term but leaves its adequacy for independent review.",
+    "source_ids": [
+      "S013",
+      "S021",
+      "S033"
+    ],
+    "affected_candidates": [
+      "nepal_2023-01_E005"
+    ],
+    "required_followup": "Independent reviewer assess whether “mass demonstration” clearly entails at least 50; search any feasible independent site-specific turnout evidence and explicit closure."
+  },
+  {
+    "gap_id": "nepal_2023-01_G005",
+    "type": "continuation_field_gap",
+    "description": "C001 Kurmi sit-in began Dec 29, 2022 and was still underway at the Jan 31 interview/Feb 2 retrospective; simultaneous participant count and exact end date are unknown.",
+    "source_ids": [
+      "S013"
+    ],
+    "affected_candidates": [
+      "nepal_2023-01_C001"
+    ],
+    "required_followup": "Use later-month reports to establish whether/when the sit-in ended and whether turnout is ever reported; do not convert presence of one activist or duration into crowd size."
+  },
+  {
+    "gap_id": "nepal_2023-01_G006",
+    "type": "pending_coverage",
+    "description": "Regional/sector discovery remains bounded: the Jan 9 NEST source says seven provinces but identifies no sites; targeted event searches concentrated on Kathmandu. General Jan 1–8 English and broad Nepali Jan 1–24 searches returned mostly later-year or unrelated results. Local provincial outlet coverage and other sectors are not systematically resolved.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "nepal_2023-01_E002"
+    ],
+    "required_followup": "Continue feasible provincial/local outlet and sector checks during Q1; test Jan 1–8, Jan 12–24 and Jan 30–31 windows with concrete regional and labor/education/health/cost queries; document any relevant returned results or why unavailable."
+  },
+  {
+    "gap_id": "nepal_2023-01_G007",
+    "type": "continuity_followup",
+    "description": "The Jan 27 squatters’ march, Jan 29 road-expansion/KMC demonstration, and ongoing vendor mobilization share urban evictions/public-space themes, but the current bodies do not establish a single continuous episode or prove that announced later vendor actions were executed.",
+    "source_ids": [
+      "S005",
+      "S006",
+      "S013",
+      "S019",
+      "S020",
+      "S021",
+      "S033",
+      "S034",
+      "S035"
+    ],
+    "affected_candidates": [
+      "nepal_2023-01_E002",
+      "nepal_2023-01_E004",
+      "nepal_2023-01_E005"
+    ],
+    "required_followup": "Review February and March sources for explicit organizer/episode links, later execution of announced phase-wise vendor protests, and closure; do not merge events based only on a shared policy issue."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "search_capture_integrity",
+    "description": "One February search-service response was not persisted; its exact prompt/result are unavailable in the dossier, are not counted in search_log.jsonl, and were not repeated. See audits/capture_loss_001.json.",
+    "source_ids": []
+  },
+  {
+    "gap_id": "G002",
+    "type": "threshold",
+    "candidate_id": "libya_2023-02_E001",
+    "description": "LibyaReview's Feb 6 article reports “dozens” at a Tripoli healthcare demonstration, but this term does not establish at least 50 simultaneous participants. No exact attendance appears in the opened body.",
+    "source_ids": [
+      "S001"
+    ]
+  },
+  {
+    "gap_id": "G003",
+    "type": "threshold_and_public_character",
+    "candidate_id": "libya_2023-02_E002",
+    "description": "The Misrata airport union sit-in is reported to start Feb 5 and affect airline operations, with wage/Ministry demands, but no participant number or public accessibility details. Do not infer threshold from operational effects or pool separate airports. Article provides no physical end date.",
+    "source_ids": [
+      "S002"
+    ]
+  },
+  {
+    "gap_id": "G004",
+    "type": "unverified_related_lead",
+    "description": "Search-only Libya Observer Feb 7 report says ground-services workers at Misrata and Sabha resumed after strike. It does not report public gathering/turnout; distinct sites cannot be pooled. Retained as a follow-up lead only.",
+    "source_ids": [
+      "S003"
+    ]
+  },
+  {
+    "gap_id": "G005",
+    "type": "historical_inventory_and_access",
+    "description": "Historical source ledgers and full independent newspaper/archive access are absent; current receipts/manual assessments do not establish a clean historical inventory or exhaustive coverage.",
+    "source_ids": []
+  },
+  {
+    "gap_id": "G006",
+    "type": "official_baseline",
+    "description": "Official Mass Mobilization baseline/version, licensing and independent review remain pending; candidates are not official rows.",
+    "source_ids": []
+  },
+  {
+    "gap_id": "G007",
+    "type": "continuity",
+    "description": "No Jan/Mar continuation is established for the medical demonstration. Ground-services search-only follow-up indicates return to work by Feb 7, but no body is opened for that separate story and same-site event boundaries remain unresolved.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "gap_id": "kosovo_2023-02_G001",
+    "type": "missing_query_metadata",
+    "description": "Raw search tool response objects query_010_tool_output.json and query_011_tool_output.json were preserved, but neither object contains the exact executed prompt. No search_log row was fabricated and neither output was used to infer an exact query string.",
+    "source_ids": [],
+    "affected_candidates": [
+      "kosovo_2023-02_E001",
+      "kosovo_2023-02_E002"
+    ],
+    "required_followup": "Do not repeat these calls to reconstruct prompts. Preserve the raw outputs and gap; later searches must be captured at request time with exact prompts."
+  },
+  {
+    "gap_id": "kosovo_2023-02_G002",
+    "type": "eligibility_evidence",
+    "description": "The Feb1 NPB renters/shop-workers protest is confirmed at the old Pristina Municipality building, but neither opened body provides simultaneous attendance. Threshold is unresolved.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "kosovo_2023-02_E001"
+    ],
+    "required_followup": "Use only new, separately assessed permitted evidence for a site-level attendance estimate; do not infer numbers from affected tenants or workers."
+  },
+  {
+    "gap_id": "kosovo_2023-02_G003",
+    "type": "access_restriction",
+    "description": "KoSSev Feb15 exact target returned HTTP 403; no body evidence is used. The scope is the exact URL only.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [
+      "kosovo_2023-02_E002"
+    ],
+    "required_followup": "Do not retry this exact URL or variants; unrelated separately assessed sources may be used."
+  },
+  {
+    "gap_id": "kosovo_2023-02_G004",
+    "type": "access_restriction",
+    "description": "Kallxo exact target for the Feb1 NPB protest returned HTTP 403; no body evidence is used. Exact-URL scope only.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "kosovo_2023-02_E001"
+    ],
+    "required_followup": "Do not retry this URL or variants."
+  },
+  {
+    "gap_id": "kosovo_2023-02_G005",
+    "type": "access_restriction",
+    "description": "Telegrafi exact target for the Feb1 NPB protest returned HTTP 402 Payment Required; no body evidence is used. Exact-URL scope only.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "kosovo_2023-02_E001"
+    ],
+    "required_followup": "Do not retry this URL or variants."
+  },
+  {
+    "gap_id": "kosovo_2023-02_G006",
+    "type": "retrieval_failure",
+    "description": "Dukagjini exact-target open returned a tool error with no observed HTTP status.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [
+      "kosovo_2023-02_E002"
+    ],
+    "required_followup": "Do not repeat this exact action; this is a technical retrieval gap, not an observed denial."
+  },
+  {
+    "gap_id": "kosovo_2023-02_G007",
+    "type": "retrieval_failure",
+    "description": "Albanian Daily News exact-target open returned a timeout/fetch error; no verified HTTP response or body content was obtained.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [
+      "kosovo_2023-02_E002"
+    ],
+    "required_followup": "Do not repeat this exact action; its search snippet is discovery only and cannot establish turnout."
+  }
+]

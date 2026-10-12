@@ -1,0 +1,76 @@
+[
+  {
+    "gap_id": "benin_2023-03_G001",
+    "type": "threshold_and_state_target",
+    "description": "E001 is a documented 13 March FLLAC protest, but neither opened article quantifies simultaneous attendance. A demand was addressed to the UAC rectorate, yet whether this internal academic-policy dispute meets the MM state/state-policy criterion remains unresolved.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "benin_2023-03_E001"
+    ],
+    "required_followup": "Seek permitted independent contemporary/local evidence with site-specific attendance and clarify the public-university/state-policy coding; retain pending_threshold meanwhile."
+  },
+  {
+    "gap_id": "benin_2023-03_G002",
+    "type": "source_document_access",
+    "description": "La Nation links the UAC rectorate’s 15 March press release as a response to the FLLAC protest, but the exact PDF request returned a tool-level Internal Error with no HTTP status/body. The article itself reports the sit-in and one demand; the PDF contents remain unknown.",
+    "source_ids": [
+      "S001",
+      "S007"
+    ],
+    "affected_candidates": [
+      "benin_2023-03_E001"
+    ],
+    "required_followup": "If the exact public PDF becomes available through an ordinary permitted retrieval method, assess that exact target locally before opening; do not infer its contents or retry through a URL variant."
+  },
+  {
+    "gap_id": "benin_2023-03_G003",
+    "type": "continuity",
+    "description": "FLLAC’s 20 March 48-hour work stoppage shares the actor and demands of E001, but coverage does not show a public gathering; campaign continuity is possible while the work stoppage remains a separate non-gathering action.",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "benin_2023-03_E001",
+      "benin_2023-03_X001"
+    ],
+    "required_followup": "Seek direct union or independent reporting that can distinguish a strike-only follow-up from any accompanying public assembly; do not merge actions without evidence."
+  },
+  {
+    "gap_id": "benin_2023-03_G004",
+    "type": "pending_event_and_threshold_evidence",
+    "description": "ITUC-Africa reports unspecified student/union protests around 20–21 March after teachers were detained, but gives no gathering details or count. The associated on-site strike and arrests do not themselves establish a mass gathering.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "benin_2023-03_X002"
+    ],
+    "required_followup": "Seek a permitted contemporary local report or union statement identifying whether a public assembly occurred, its site/date, headcount and demands; otherwise retain pending_evidence."
+  },
+  {
+    "gap_id": "benin_2023-03_G005",
+    "type": "coverage",
+    "description": "Open-web searching in French and English covered full-month and four week-window queries, student and labor sectors, local/regional and international labor/rights sources, official-source discovery and February/April boundary context. The search returned noisy/repetitive results; local newspaper archives and LexisNexis were not reviewed. Native clocks and native search metadata are unknown. One exact article target hit an anti-bot challenge and one official PDF target a tool-level technical error.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "benin_2023-03_E001",
+      "benin_2023-03_X001",
+      "benin_2023-03_X002"
+    ],
+    "required_followup": "Continue feasible source-diverse French-language and local/sector follow-ups to resolve the named attendance and gathering questions; no exhaustive coverage claim."
+  }
+]

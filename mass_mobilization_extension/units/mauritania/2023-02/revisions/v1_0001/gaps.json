@@ -1,0 +1,134 @@
+[
+  {
+    "gap_id": "MRT23FEB-G001",
+    "type": "threshold",
+    "description": "The 23 Feb COVID-19 contract workers’ sit-in outside the Health Ministry is confirmed by two outlets, but neither gives a crowd estimate. Workforce size is not attendance.",
+    "candidate_id": "mauritania_2023-02_E001",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-02_E001"
+    ],
+    "required_followup": "Find a site-specific simultaneous headcount of at least 50; keep pending_threshold until supported."
+  },
+  {
+    "gap_id": "MRT23FEB-G002",
+    "type": "threshold",
+    "description": "Relatives and friends gathered outside Dar Naïm 2 police station on 10 Feb and demanded investigation/autopsy/accountability. No crowd count is reported.",
+    "candidate_id": "mauritania_2023-02_E002",
+    "source_ids": [
+      "S004",
+      "S006"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-02_E002"
+    ],
+    "required_followup": "Seek permitted location-specific turnout evidence; do not infer attendance from the death or later events."
+  },
+  {
+    "gap_id": "MRT23FEB-G003",
+    "type": "threshold",
+    "description": "Renewed street protests/clashes near Dar Naïm 2 on 12 Feb are documented, but sources describe groups without a per-site headcount. A separate funeral caption says “huge crowds” without date or site; it is not transferred to these protests.",
+    "candidate_id": "mauritania_2023-02_E003",
+    "source_ids": [
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-02_E003"
+    ],
+    "required_followup": "Seek exact date/site crowd count for station-side protests; keep funeral crowd separate until its event date/site and protest demand are established."
+  },
+  {
+    "gap_id": "MRT23FEB-G004",
+    "type": "continuity",
+    "description": "Reports link protests on 10 and 12 Feb to the same custodial death and police station, but do not establish one continuous crowd/event. One source says the station area was quiet after two days of protest before renewed clashes.",
+    "source_ids": [
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-02_E002",
+      "mauritania_2023-02_E003"
+    ],
+    "required_followup": "Keep C001 pending and candidates separate until direct evidence resolves continuity; do not merge attendance."
+  },
+  {
+    "gap_id": "MRT23FEB-G005",
+    "type": "threshold_and_site_coverage",
+    "description": "Mourassiloun confirms sit-ins by hundreds of teachers across multiple inland cities on 20 Feb, outside regional directorates and district inspections, but names no cities and gives no individual-site count. The aggregate is not site-specific.",
+    "candidate_id": "mauritania_2023-02_E004",
+    "source_ids": [
+      "S007",
+      "S009"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-02_E004"
+    ],
+    "required_followup": "Identify the towns and individual sites, then seek site-specific simultaneous counts and ending/response details."
+  },
+  {
+    "gap_id": "MRT23FEB-G006",
+    "type": "threshold_and_location",
+    "description": "Essahraa reports an actual 22 Feb teachers’ sit-in in Nouakchott, calling it large/well-attended, but supplies no number. Its article reproduces the union’s own bulletin; that bulletin contains a 2022 year typo. The prior notice names Place de la Liberté, while the post-event report does not restate the venue.",
+    "candidate_id": "mauritania_2023-02_E005",
+    "source_ids": [
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-02_E005"
+    ],
+    "required_followup": "Seek independent reporting or contemporaneous image with venue/count; clarify actual venue if possible. Preserve the embedded year mismatch transparently."
+  },
+  {
+    "gap_id": "MRT23FEB-G007",
+    "type": "pending_evidence",
+    "description": "Al Wiam’s 27 Feb archive search result describes a nursing/midwifery coalition sit-in outside the Health Ministry. The exact archive body open returned a web-tool Internal Error with no HTTP status. Search-only is discovery evidence, not coding confirmation.",
+    "candidate_id": "mauritania_2023-02_E006",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-02_E006"
+    ],
+    "required_followup": "A distinct permitted search may identify an individual article; any new body target requires a fresh exact URL access check and manual assessment. No retry of the inaccessible archive URL."
+  },
+  {
+    "gap_id": "MRT23FEB-G008",
+    "type": "unassigned_funeral_lead",
+    "description": "Peoples Dispatch caption says “huge crowds” attended Souvi Ould Cheine’s funeral, with photo credit via We Can Movement, but gives no funeral date or site in that caption. It is not attributed to the 10/12 Feb street protests and is not coded as an event in this unit.",
+    "source_ids": [
+      "S006"
+    ],
+    "required_followup": "If needed, seek a distinct source establishing funeral date/site and whether the event included explicit state-directed protest demands. Do not use this caption as attendance for E002/E003."
+  },
+  {
+    "gap_id": "MRT23FEB-G009",
+    "type": "coverage",
+    "description": "Searches covered French, Arabic and English, including Nouakchott, Dar Naïm, named interior regions/cities, education/health/employment sectors, and date-specific events. Regional coverage remains partial: 20 Feb inland teacher sit-ins were not individually localized; Nouadhibou, Zouerate, Rosso, Kaédi, Kiffa, Néma and Atar searches yielded no site-specific February protest reports. Search results were mixed-year; the opened Education International item is a 2022 strike, outside scope. These searches do not establish absence.",
+    "source_ids": [
+      "S001",
+      "S007",
+      "S009",
+      "S010"
+    ],
+    "required_followup": "At a later extension boundary, target named interior provinces and sectors with independent local sources; retain current event locations/dates and do not repeat identical queries."
+  },
+  {
+    "gap_id": "MRT23FEB-G010",
+    "type": "search_capture_correction",
+    "description": "Q005–Q008 raw web responses were preserved immediately. An initial parser appended rows with zero headers because it expected the title/URL and web_ref on the same line; actual raw outputs put web_refs on the following line. No raw response was lost or reconstructed. The corrected versioned search_log must parse headers from these same raw files, retain the original exact queries and keep per-query attribution individual.",
+    "source_ids": [],
+    "query_ids": [
+      "MRT23FEB-Q005",
+      "MRT23FEB-Q006",
+      "MRT23FEB-Q007",
+      "MRT23FEB-Q008"
+    ],
+    "required_followup": "Assemble the versioned checkpoint search_log once from captured raw outputs using the original query strings; preserve canonical rows and this audit note."
+  }
+]

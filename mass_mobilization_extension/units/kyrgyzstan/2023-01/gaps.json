@@ -1,0 +1,33 @@
+[
+  {
+    "gap_id": "kyrgyzstan_2023-01-G001",
+    "type": "technical_retrieval_failure",
+    "description": "Sputnik Кыргызстан exact story URL S004 produced a web-tool Internal Error/timeout during a body attempt; no site HTTP response or article body was observed. It remains search_only; do not describe this as a publisher denial.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retry in this pass; an independent permitted source may establish the reported incident if discovered without repeating the lost request."
+  },
+  {
+    "gap_id": "kyrgyzstan_2023-01-G002",
+    "type": "source_access_denial",
+    "description": "Exact 24.kg URL S019 returned HTTP 403 Forbidden. Restriction is exact-URL scoped and registered by coordinator; no body, variant, or retry used. K-News attributes only its route/detention passage to 24.kg, but the captured K-News page did not expose an exact hyperlink mapping this URL to that paragraph.",
+    "source_ids": [
+      "S019",
+      "S011"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-01-E001"
+    ],
+    "required_followup": "Keep 24.kg exact URL blocked; do not infer that S019 is the exact linked origin. Resolve only if a separately permitted record explicitly documents the link."
+  },
+  {
+    "gap_id": "kyrgyzstan_2023-01-G003",
+    "type": "coverage_method",
+    "description": "This is a bounded open-web pass, not the codebook's LexisNexis All News workflow or an official-baseline-complete search. Searches covered four January windows in English, Russian and Kyrgyz plus Jan 10 attendance, local reporting, and broad worker/strike terms, but do not establish exhaustive nationwide or sector coverage. No claim of zero other events is made.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may add archive or regional coverage if available; official baseline, licensing and universe remain pending."
+  }
+]

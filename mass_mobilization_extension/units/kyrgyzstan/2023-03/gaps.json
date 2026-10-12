@@ -1,0 +1,139 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold_50",
+    "description": "March 6 Dobolu rally for Ilgiz Shamenov: Kloop body says ‘presumably more than 20’ villagers but gives no upper bound. It does not establish whether attendance reached 50. Do not use the number of villagers/workforce/campaign reach as attendance.",
+    "source_ids": [
+      "S010",
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-03_E005"
+    ],
+    "required_followup": "Find a contemporaneous, non-social source with explicit same-time attendance at the Dobolu gathering; keep pending if unavailable. Do not access the Facebook page."
+  },
+  {
+    "gap_id": "G002",
+    "type": "event_qualification",
+    "description": "March 31 Khaidarkan warning strike: source reports unpaid wages and 600+ workers at the combine, but gives no strike attendance/public gathering and primarily directs wage demand to private partner DuVatash; separate union request asks state bodies to support investors. Public-event/state-demand criteria are unresolved.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-03_E007"
+    ],
+    "required_followup": "Look for a source establishing 50+ simultaneous participants at a public gathering/march and a worker demand aimed at state labor policy; do not treat 600 employees as turnout."
+  },
+  {
+    "gap_id": "G003",
+    "type": "source_origin",
+    "description": "March 10 Bishkek KKM crowd size is around 200-300 per Kloop ‘according to media’ without a named outlet. Economist search-only account says about 200 and cites 24.kg, but no distinct March 10 24.kg URL surfaced. A fresh access receipt for the candidate 24.kg URL resolved to a February 20 story, so it was not opened or used for March evidence.",
+    "source_ids": [
+      "S004",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-03_E003"
+    ],
+    "required_followup": "Identify the exact March 10 origin story only if a future search provides a distinct URL; no variants or mistaken February URL. Current event retains Kloop’s approximate report provisionally."
+  },
+  {
+    "gap_id": "G004",
+    "type": "source_origin",
+    "description": "March 9 Talas traders rally is reported at around 500 in Kloop’s March 10 body, while the separate Kloop and Economist search results explicitly attribute their story to Azattyk. The exact Azattyk original URL/body was not surfaced; these copies are not independent confirmation.",
+    "source_ids": [
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-03_E004"
+    ],
+    "required_followup": "Identify/open the exact Azattyk original only if surfaced by a future permitted search; do not infer its URL from other Azattyk pages."
+  },
+  {
+    "gap_id": "G005",
+    "type": "event_end_state_response",
+    "description": "Opened event articles do not document physical end dates or complete retrospective accounts for E001-E008; state response, violence and closure remain unknown unless explicitly described. Senior officials answering questions at the March 10 rally is recorded as a contact, not assumed accommodation or outcome.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S009",
+      "S010",
+      "S014",
+      "S018"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-03_E001",
+      "kyrgyzstan_2023-03_E002",
+      "kyrgyzstan_2023-03_E003",
+      "kyrgyzstan_2023-03_E004",
+      "kyrgyzstan_2023-03_E005",
+      "kyrgyzstan_2023-03_E006",
+      "kyrgyzstan_2023-03_E007",
+      "kyrgyzstan_2023-03_E008"
+    ],
+    "required_followup": "Look only for explicit physical closing/complete retrospective reports and event-specific official response; do not infer an end from the article date or silence."
+  },
+  {
+    "gap_id": "G006",
+    "type": "independence",
+    "description": "March 17 Bishkek Kempir-Abad rally’s opened Media Policy and Kloop pages are materially the same story; their approximately 200 estimate is one underlying count, not independent corroboration. Other search results were not opened for independent assessment.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-03_E002"
+    ],
+    "required_followup": "If feasible, locate an independently written contemporaneous report and assess its written origin before opening; no need to repeat the same-story pages."
+  },
+  {
+    "gap_id": "G007",
+    "type": "coverage",
+    "description": "Coverage is bounded open-web work, not an exhaustive record. Twelve captured queries include broad English discovery, Russian/Kyrgyz local searches, weekly March windows and targeted follow-ups. Search results for March 22-31 were mostly irrelevant; the only substantive late-month lead was the Khaidarkan strike whose protest eligibility is unresolved. Official records and systematic archives were not searched; HRW surfaced but was held and not opened. LexisNexis was unavailable.",
+    "source_ids": [
+      "S009",
+      "S020"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-03_E007"
+    ],
+    "required_followup": "A future pass could cover regional Kyrgyz-language outlets for late March and local labor/education/health sectors; no claim that unlocated events did not occur."
+  },
+  {
+    "gap_id": "G008",
+    "type": "non_event_lead",
+    "description": "Media Policy roundup search output mentions an appeal by journalists/activists regarding detained women with about 60 signatories. The displayed information indicates a collective appeal/sign-on, not an in-person gathering; signatories are not crowd attendance and no event page was identified.",
+    "source_ids": [
+      "S020"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not code as an event unless a source documents a separate public gathering; no further action needed for this unit on the appeal alone."
+  },
+  {
+    "gap_id": "G009",
+    "type": "continuity",
+    "description": "Several separate KKM protests (March 2 Bishkek, March 9 Talas, March 10 Bishkek) and Kempir-Abad-related actions (March 6 Dobolu, March 14 Talas, March 17 Bishkek) share topics, but available evidence identifies separate dates/venues rather than uninterrupted occupation/action. No continuation from prior month is established.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S010",
+      "S014"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-03_E001",
+      "kyrgyzstan_2023-03_E002",
+      "kyrgyzstan_2023-03_E003",
+      "kyrgyzstan_2023-03_E004",
+      "kyrgyzstan_2023-03_E005",
+      "kyrgyzstan_2023-03_E006"
+    ],
+    "required_followup": "Keep separate unless evidence of continuous mobilization/action is found. Do not pool same-sector turnout across different dates or locations."
+  }
+]

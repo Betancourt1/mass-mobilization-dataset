@@ -1,0 +1,71 @@
+[
+  {
+    "gap_id": "jordan_2023-01_G001",
+    "type": "source_origin_and_threshold",
+    "description": "CSKC mapping body lists January 4, 8, 10 and 11 actions but exposes no per-event underlying contemporary URLs and no turnout counts. Its January 11 location column conflicts with its description. The first CSKC body open followed an exact receipt/manual inspection, but a standalone assessment was not saved before the action; a clearly post hoc audit is preserved. Claims from those rows remain bounded.",
+    "source_ids": [
+      "JOD2023-01-S001"
+    ],
+    "affected_candidates": [
+      "jordan_2023-01_E001",
+      "jordan_2023-01_E003"
+    ],
+    "required_followup": "Use a new, separately scoped contemporary source if later authorized; resolve counts and origin chain without re-requesting CSKC page/origin."
+  },
+  {
+    "gap_id": "jordan_2023-01_G002",
+    "type": "threshold",
+    "description": "Ammon News reports “dozens” at the January 25 amnesty sit-in, insufficient to determine whether simultaneous turnout reached 50.",
+    "source_ids": [
+      "JOD2023-01-S003"
+    ],
+    "affected_candidates": [
+      "jordan_2023-01_E002"
+    ],
+    "required_followup": "Seek a distinct permitted contemporary account with a count tied to the Amman Parliament gathering."
+  },
+  {
+    "gap_id": "jordan_2023-01_G003",
+    "type": "retrieval_failure",
+    "description": "NCHR 2023 human-rights annual-report PDF search result was relevant to labor/protest leads, but exact requested URL returned tool-reported HTTP 404 Not Found. No retry or variant was requested; source remains not_found/search-result-only. This is not coded as an access denial.",
+    "source_ids": [
+      "JOD2023-01-S002"
+    ],
+    "affected_candidates": [
+      "jordan_2023-01_E001"
+    ],
+    "required_followup": "No retry on this exact URL. Use only another distinct permitted source if needed."
+  },
+  {
+    "gap_id": "jordan_2023-01_G004",
+    "type": "coverage",
+    "description": "Coverage is a partial Arabic/English open-web first pass, not LexisNexis or an equivalent archive. Queries covered all January date windows and broad governorate/action terms; named sectors (agriculture, phosphate retirees, unpaid-wage workers, transport) emerged in discovery. Local archive coverage, precise attendance, and full regional follow-up remain incomplete. No total-results metadata was exposed.",
+    "source_ids": [
+      "JOD2023-01-S001",
+      "JOD2023-01-S003",
+      "JOD2023-01-S004",
+      "JOD2023-01-S005",
+      "JOD2023-01-S006"
+    ],
+    "affected_candidates": [
+      "jordan_2023-01_E001",
+      "jordan_2023-01_E002",
+      "jordan_2023-01_E003",
+      "jordan_2023-01_E004"
+    ],
+    "required_followup": "Review Arabic/English local reporting for each week and governorate, especially attendance and event closure; check neighboring-month continuity before treating any campaign as separate."
+  },
+  {
+    "gap_id": "jordan_2023-01_G005",
+    "type": "continuity_and_independence",
+    "description": "January 27 accounts report the same Amman march, but one attributes timing to Jo24 and the second does not state its written origin. Independence and syndication relation are unresolved; the event start is documented, but no explicit physical ending/time is reported.",
+    "source_ids": [
+      "JOD2023-01-S004",
+      "JOD2023-01-S006"
+    ],
+    "affected_candidates": [
+      "jordan_2023-01_E004"
+    ],
+    "required_followup": "Resolve written-origin relationship from permitted evidence; preserve end date unknown without an explicit closure account."
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "gap_id": "moldova_2023-02_G001",
+    "type": "baseline_and_archival_scope",
+    "description": "No official baseline or historical archive equivalent is available in this replacement research environment; open-web results are not exhaustive or equivalent to LexisNexis.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review of official baseline and feasible archive scope; retain bounded open-web status."
+  },
+  {
+    "gap_id": "moldova_2023-02_G002",
+    "type": "threshold_and_ownership",
+    "description": "The 28 February central march/rally and linked Stăuceni approach blockade are supported by three local/independent reports, but none supplies participant counts at either site. Keep one linked sequence pending participant-level/site-level threshold and exact event boundary.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "moldova_2023-02_E002"
+    ],
+    "required_followup": "Find a permitted contemporaneous source with an attendance estimate and clarify whether route group and central rally are one organized event; do not import 19 February attendance."
+  },
+  {
+    "gap_id": "moldova_2023-02_G003",
+    "type": "state_response",
+    "description": "Police blocked access to PMAN; a separate route blockade involved masked-officer intervention. Captured accounts do not establish arrests, beatings, shootings or killings. Relation between road intervention and central gathering remains limited to Radio Moldova's report.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S007"
+    ],
+    "affected_candidates": [
+      "moldova_2023-02_E002"
+    ],
+    "required_followup": "Seek a direct event-specific official or independent report; retain unknown response fields unless evidence is explicit."
+  },
+  {
+    "gap_id": "moldova_2023-02_G004",
+    "type": "source_access",
+    "description": "Open of exact RFE/RL Romania URL for 28 February returned the search tool's Internal Error and no body or HTTP status. This is a tool failure, not evidence of publisher denial; no retries or variants.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "moldova_2023-02_E002"
+    ],
+    "required_followup": "No repeated attempt at this exact URL; use already captured and separately assessed sources."
+  },
+  {
+    "gap_id": "moldova_2023-02_G005",
+    "type": "estimation_and_response",
+    "description": "The 19 February event is supported and exceeds 50. News.ro attributes approximately 3,600 to police; Euronews describes hundreds. These are approximate reports, not exact bounds; there is no exact start time or confirmed event-specific coercive state response.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S006"
+    ],
+    "affected_candidates": [
+      "moldova_2023-02_E001"
+    ],
+    "required_followup": "Independent review may reconcile size sourcing; keep estimate approximate and event response unknown unless direct evidence resolves it."
+  },
+  {
+    "gap_id": "moldova_2023-02_G006",
+    "type": "scope_and_coverage",
+    "description": "Seven captured queries in English, Romanian and Russian covered the month broadly, Feb 1–14, 19 February, 28 February, and labor/education/health sector terms. Results were concentrated on the Chișinău Movement for the People actions; no separate regional or labor-sector qualifying event was verified. This is not evidence none occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If additional independent regional/sector sources are available, query distinct outlet/region leads; no broad-exhaustiveness claim."
+  },
+  {
+    "gap_id": "moldova_2023-02_G007",
+    "type": "secondary_source_attribution",
+    "description": "Several discovery results reference AP, RFE/RL, TV8, Unimedia, ZdG, Agerpres and official police statements. AP search results are held from body use; Euronews body attributes some claims to other named outlets/agency and its Facebook photo credit is not written-story origin. Keep each attribution at claim level; do not imply independence where not established.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S006",
+      "S008"
+    ],
+    "affected_candidates": [
+      "moldova_2023-02_E001",
+      "moldova_2023-02_E002"
+    ],
+    "required_followup": "Review source-origin attribution if later evidence relies on a linked or republished story."
+  },
+  {
+    "gap_id": "moldova_2023-02_G008",
+    "type": "operational_source_check",
+    "description": "The first ZDG fresh source-index receipt R004 deferred due a blank JSONL line in an unrelated Mauritius March ledger. No external ledger was changed; a read-only manual review of current source cards was saved in exact assessment A004. Subsequent fresh exact-target receipts R005–R008 were manual_review with no parse errors, but historical ledgers remain omitted and no clean global inventory is claimed.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "moldova_2023-02_E002"
+    ],
+    "required_followup": "Retain A004/R004 provenance; coordinator may confirm unrelated ledger repair or conduct independent review. Do not treat the successful later receipts as retrospective authorization."
+  }
+]

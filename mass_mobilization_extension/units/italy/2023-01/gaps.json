@@ -1,0 +1,162 @@
+[
+  {
+    "gap_id": "ITA23JAN-G001",
+    "type": "threshold_and_source_access",
+    "description": "Q004/Q012 identify a Jan 21 Rome student flash mob at the Ministry of Education; Rai snippet says about forty, while Q012/ANSA confirms students and workers held an action but gives no local numeric count. The exact Rai article body was inaccessible at tool level without HTTP status/body. Keep the candidate pending and do not infer a final below-50 exclusion from the snippet.",
+    "source_ids": [
+      "ITA2023-01-S001",
+      "ITA2023-01-S005"
+    ],
+    "affected_candidates": [
+      "italy_2023-01_E001"
+    ],
+    "required_followup": "Seek a distinct permitted contemporaneous source that reports local simultaneous attendance and body evidence for the Rome flash mob. Do not retry the exact Rai URL or count multi-city/movement totals."
+  },
+  {
+    "gap_id": "ITA23JAN-G002",
+    "type": "coverage_and_continuity",
+    "description": "January is partially covered by 25 captured Italian-language queries: broad windows 1–7, 8–14, 15–21, 22–31; regional/local searches for PCTO/student actions in Rome, Naples, Livorno and Turin; Cospito actions; worker/health-sector searches. Search outputs were noisy and several results were later/out of scope. This does not establish exhaustive coverage. No February continuity research was performed because assignment was January-only.",
+    "source_ids": [
+      "ITA2023-01-S001",
+      "ITA2023-01-S004",
+      "ITA2023-01-S013",
+      "ITA2023-01-S016",
+      "ITA2023-01-S021",
+      "ITA2023-01-S023"
+    ],
+    "affected_candidates": [
+      "italy_2023-01_E001",
+      "italy_2023-01_E002",
+      "italy_2023-01_E003",
+      "italy_2023-01_E004",
+      "italy_2023-01_E005",
+      "italy_2023-01_E006",
+      "italy_2023-01_E007",
+      "italy_2023-01_E008",
+      "italy_2023-01_E009",
+      "italy_2023-01_E010"
+    ],
+    "required_followup": "Continue scoped date-bounded local and sector searches as feasible, especially 1–7 Jan localities/health and other work sectors; seek distinct reports for current candidates. Maintain January ownership and preserve limits of open web vs LexisNexis."
+  },
+  {
+    "gap_id": "ITA23JAN-G003",
+    "type": "date_and_event_identity",
+    "description": "A PMLI retrospective preview dates the Kaos/Piazza dei Martiri action to Jan 20, while opened Il Desk and search-only Corriere/ANSA reports describe a similar Kaos action at the same site on Jan 21. It is unresolved whether PMLI misdated one action or reports a distinct day; two leads are retained (E002 and E010), with E010 not treated as a confirmed independent event.",
+    "source_ids": [
+      "ITA2023-01-S002",
+      "ITA2023-01-S003",
+      "ITA2023-01-S004",
+      "ITA2023-01-S007"
+    ],
+    "affected_candidates": [
+      "italy_2023-01_E002",
+      "italy_2023-01_E010"
+    ],
+    "required_followup": "Seek a permitted local source distinguishing Jan 20 from Jan 21 and any explicit State-directed demand for the earlier action. Do not merge or count both as established."
+  },
+  {
+    "gap_id": "ITA23JAN-G004",
+    "type": "source_access_and_threshold",
+    "description": "A Jan 20 Livorno student march is described in Il Telegrafo search preview with a government education-policy demand, but no crowd estimate; exact body access failed technically without HTTP status/body. A USB item is only an advance announcement.",
+    "source_ids": [
+      "ITA2023-01-S021",
+      "ITA2023-01-S022"
+    ],
+    "affected_candidates": [
+      "italy_2023-01_E006"
+    ],
+    "required_followup": "Seek accessible independent reporting on actual occurrence, local simultaneous attendance, exact State target and duration; no retry of the failed Il Telegrafo URL."
+  },
+  {
+    "gap_id": "ITA23JAN-G005",
+    "type": "source_access_and_threshold",
+    "description": "Il Tirreno and PMLI search previews report local Livorno Jan 21 counts of at least 400/over 500 and anti-PCTO demands, but exact article body access failed technically; no retry or URL variant used. PMLI’s event/date phrasing and Il Tirreno’s Jan 21 article should be reconciled.",
+    "source_ids": [
+      "ITA2023-01-S007",
+      "ITA2023-01-S008"
+    ],
+    "affected_candidates": [
+      "italy_2023-01_E007"
+    ],
+    "required_followup": "Find an accessible permitted contemporaneous local article verifying actual local attendance and policy demand, confirm that sources describe the same local action, and obtain duration/State response if stated."
+  },
+  {
+    "gap_id": "ITA23JAN-G006",
+    "type": "end_date_and_violence_conflict",
+    "description": "La Stampa’s opened Jan 14 Turin report documents >600 at one local gathering and a three-hour route but does not explicitly state full dissolution/end time. The same article mentions firecrackers/bottles in the opening and later calls the procession peaceful with few writings; event-level violence remains unknown.",
+    "source_ids": [
+      "ITA2023-01-S013",
+      "ITA2023-01-S014",
+      "ITA2023-01-S015"
+    ],
+    "affected_candidates": [
+      "italy_2023-01_E003"
+    ],
+    "required_followup": "Seek a permitted distinct account clarifying the conflicting violence descriptions, explicit end/close evidence and any State response; do not use later March totals or other Cospito actions."
+  },
+  {
+    "gap_id": "ITA23JAN-G007",
+    "type": "end_date_and_response",
+    "description": "Il Tempo’s opened Jan 28 Rome article establishes around 100 in Piazza Trilussa, opposition to 41-bis, protester violence, one arrest and police cordon. It does not establish the full end/close or crowd dispersal endpoint; later groups are followed to a garage. Later violence passage partly attributes reporting to Adnkronos.",
+    "source_ids": [
+      "ITA2023-01-S016",
+      "ITA2023-01-S017",
+      "ITA2023-01-S018",
+      "ITA2023-01-S019",
+      "ITA2023-01-S020"
+    ],
+    "affected_candidates": [
+      "italy_2023-01_E005"
+    ],
+    "required_followup": "Seek a permitted distinct account of closure and police action after the plaza, keeping agency-origin distinctions; do not infer arrests beyond the reported one."
+  },
+  {
+    "gap_id": "ITA23JAN-G008",
+    "type": "source_access_and_threshold",
+    "description": "Jan 31 Turin DAP vigil appears in two contemporaneous search previews with about forty attendees and policy context, but both Corriere and ANSA exact body opens failed technically without HTTP status/body. Gancio is only an event listing. Keep pending rather than final exclusion.",
+    "source_ids": [
+      "ITA2023-01-S009",
+      "ITA2023-01-S010",
+      "ITA2023-01-S011"
+    ],
+    "affected_candidates": [
+      "italy_2023-01_E004"
+    ],
+    "required_followup": "Find accessible permitted source verifying local attendance and actual demand; no exact-URL retries or announcement-as-outcome inference."
+  },
+  {
+    "gap_id": "ITA23JAN-G009",
+    "type": "public_scope_and_threshold",
+    "description": "The MIGEP archive records a 31 Jan 2023 “manifestazione OSS carceri” and a delegation describing professional/contract issues, while TG24 preview announced a delegation under the Health Ministry. Neither source gives local crowd size or clearly establishes an open public gathering at the announced venue; represented OSS/professional counts are not attendance.",
+    "source_ids": [
+      "ITA2023-01-S023",
+      "ITA2023-01-S024"
+    ],
+    "affected_candidates": [
+      "italy_2023-01_E008"
+    ],
+    "required_followup": "Seek permitted contemporaneous evidence of actual venue, public gathering, number physically present and exact demand delivered; distinguish a delegation/meeting from a public protest."
+  },
+  {
+    "gap_id": "ITA23JAN-G010",
+    "type": "search_only_threshold",
+    "description": "A Feb 1 la Repubblica preview reports slightly over thirty at a Jan 31 Cospito solidarity vigil outside the Health Ministry. It is a separate action from the Jan 28 Piazza Trilussa event, but the body is not opened and the snippet-level figure cannot support a final below-threshold exclusion.",
+    "source_ids": [
+      "ITA2023-01-S025"
+    ],
+    "affected_candidates": [
+      "italy_2023-01_E009"
+    ],
+    "required_followup": "Seek a permitted body/source for local attendance and full demand/close; retain pending evidence and do not conflate with the OSS delegation or Jan 28 vigil."
+  },
+  {
+    "gap_id": "ITA23JAN-G011",
+    "type": "technical_audit_gap",
+    "description": "One Jan 14 source-selection mistake caused a body attempt to a Rai Piemonte Oct 2023 URL while the assessment had been labeled La Stampa. Exact attempt, receipt and raw failure are preserved under A010/AR010/O010 and an outcome note quarantines it from evidence. The correct La Stampa URL was subsequently assessed, receipted and opened under A011/AR011/O011. No source fact or candidate judgment uses the wrong page.",
+    "source_ids": [
+      "ITA2023-01-S013"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No source retry. Keep the preserved wrong-page attempt excluded from coding; use only the correctly accessed La Stampa source card S013."
+  }
+]

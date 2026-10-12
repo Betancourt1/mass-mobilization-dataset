@@ -1,0 +1,33 @@
+[
+  {
+    "gap_id": "LUX2023-03-G001",
+    "type": "source_access",
+    "description": "A search result identifies a 17 March Luxembourg Times/Zebra video titled “Protestors march through Kirchberg.” The exact URL was checked and manually assessed; its body request returned HTTP 403 Forbidden. The snippet does not establish the event cause, simultaneous attendance, organizer, demand, or state target. No retry or URL variant was used, and the restriction is exact-URL scoped.",
+    "source_ids": [
+      "LUX2023-03-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry this exact URL or use a variant. Keep as an unresolved lead; other unrelated permitted sources may be assessed independently."
+  },
+  {
+    "gap_id": "LUX2023-03-G002",
+    "type": "state_response",
+    "description": "For the 8 March JIF march, the opened event report does not document event-specific state action. A partial 3 March Tageblatt teaser says organizers initially received incorrect information about Place Hamilius and then permission to use it; this is pre-event route access, not evidence of a response to the march’s substantive policy demands.",
+    "source_ids": [
+      "LUX2023-03-S001",
+      "LUX2023-03-S010"
+    ],
+    "affected_candidates": [
+      "LUX2023-03-E001"
+    ],
+    "required_followup": "Keep response variables unknown unless an accessible source documents a response during or after the march to its demands. Do not automatically code the permit correction as accommodation."
+  },
+  {
+    "gap_id": "LUX2023-03-G003",
+    "type": "unit_pending_coverage",
+    "description": "Nine captured search calls returned 211 ordered result headers across French, German, Luxembourgish and English. Searches included first/second-half date windows and sector/general terms; relevant results were strongly Luxembourg City centered. The pass did not systematically cover every municipality, regional newsroom, or sector archive. Q009’s Iran sit-in/hunger-strike leads are dated in February, not March; no March continuation is established. This does not establish that no other qualifying March gatherings occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If more March coverage is required, search date-delimited local/regional and sector sources outside Luxembourg City. Do not transfer February Iran activity into March without evidence of March activity."
+  }
+]

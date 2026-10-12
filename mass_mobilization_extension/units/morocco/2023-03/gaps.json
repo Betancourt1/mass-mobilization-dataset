@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "morocco_2023-03_G001",
+    "type": "continuity",
+    "description": "Rabat Land Day event is documented on 30 Mar; physical end is unknown and no explicit source closes the gathering. Other linked city actions were on the same evening.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "morocco_2023-03_E001"
+    ],
+    "required_followup": "Look for retrospective or next-day reporting that explicitly closes the Rabat gathering; do not infer end from publication date or night-time schedule."
+  },
+  {
+    "gap_id": "morocco_2023-03_G002",
+    "type": "coverage",
+    "description": "Anadolu reports common calls and gatherings in 30+ cities, but only Rabat has a site-specific count in the body-read evidence. Other towns cannot be pooled to meet threshold.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If pursuing other locations, identify each event/location separately and obtain site-specific attendance evidence."
+  },
+  {
+    "gap_id": "morocco_2023-03_G003",
+    "type": "source_access",
+    "description": "The exact Hespress article URL for the Rabat gathering returned HTTP 403 and is subject to coordinator's exact URL/action restriction 0044; the Al-Araby/Aajsa search result has unresolved relationship to the pending New Arab scope and was not opened.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "morocco_2023-03_E001"
+    ],
+    "required_followup": "No retry or variant of the held/denied sources. Use distinct permitted publishers only."
+  },
+  {
+    "gap_id": "morocco_2023-03_G004",
+    "type": "coverage",
+    "description": "Search engine date filters returned stale and out-of-window material; open-web queries are not equivalent to LexisNexis. Local source access and non-Arabic windows/sector coverage remain partial.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue distinct local/international searches by week, region and sector; verify actual event dates from content and document out-of-window results."
+  }
+]

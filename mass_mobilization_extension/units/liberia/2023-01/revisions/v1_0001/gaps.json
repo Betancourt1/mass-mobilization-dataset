@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "liberia_2023-01_G001",
+    "type": "threshold",
+    "description": "E001 attendance is described only as 'scores' with no number; >=50 simultaneous participants is unresolved.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "liberia_2023-01_E001"
+    ],
+    "required_followup": "Seek a distinct permitted contemporaneous source that gives a site-specific crowd estimate; do not translate 'scores' into a number."
+  },
+  {
+    "gap_id": "liberia_2023-01_G002",
+    "type": "eligibility",
+    "description": "E001 occurred on the University of Liberia main campus; public-forum/public-gathering status and the match between student administration demands and listed demand categories merit review.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "liberia_2023-01_E001"
+    ],
+    "required_followup": "Check permitted contemporaneous description of the gathering and exact issue/target; retain pending_evidence unless eligibility is established."
+  },
+  {
+    "gap_id": "liberia_2023-01_G003",
+    "type": "state_response",
+    "description": "E001 report says the protest subsided after police support-unit deployment, but does not specify dispersal method, arrests, injury, violence details, or event end time.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "liberia_2023-01_E001"
+    ],
+    "required_followup": "Keep unsupported consequences and event-level state responses unknown; use event-specific evidence if found in later searches."
+  },
+  {
+    "gap_id": "liberia_2023-01_G004",
+    "type": "coverage",
+    "description": "January discovery is underway. Captured searches include broad English and Jan date-window queries plus one FrontPageAfrica-specific search; systematic county/local-source and nonstudent sector coverage is incomplete.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Complete remaining January windows and feasible local/regional source and labor/education/community sector searches; check late December and February for documented onset/continuity."
+  },
+  {
+    "gap_id": "liberia_2023-01_G005",
+    "type": "threshold_and_state_target",
+    "description": "E002 Cocopa roadblocks are reported by one local outlet, but no participant estimate establishes >=50; primary wage grievance is directed at the company, while the report says action was meant to attract government attention without identifying a state-policy demand.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "liberia_2023-01_E002"
+    ],
+    "required_followup": "Seek permitted distinct event-specific local reporting or official documentation that clarifies simultaneous crowd size and whether workers made an own-state policy demand; otherwise retain pending_evidence."
+  }
+]

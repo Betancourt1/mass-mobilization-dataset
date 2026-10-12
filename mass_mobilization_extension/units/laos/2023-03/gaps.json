@@ -1,0 +1,43 @@
+[
+  {
+    "gap_id": "laos_2023-03_G001",
+    "type": "candidate_event_type_and_threshold",
+    "description": "Laotian Times describes Xaysettha constituents from three villages meeting elected representatives about compensation and prices, but the meeting’s date, public/protest character and simultaneous attendance are unreported. Do not treat three villages as three events or as an attendance count.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "laos_2023-03_E001"
+    ],
+    "required_followup": "A permitted report with meeting date, public character and attendance or corroborating contemporaneous event coverage."
+  },
+  {
+    "gap_id": "laos_2023-03_G002",
+    "type": "retrieval_failure",
+    "description": "Laotian Times article on the March 24 Sihom night-market closure was found in search results; exact URL body open returned a tool timeout `(400) Timeout fetching` without an HTTP response. Search snippet says vendors were told to close and notes dissatisfaction but does not describe a gathering. A distinct April 6 RFA body reports a planned market closure around April 25 and vendor dissatisfaction, but no public protest; this timeline does not resolve the March 24 snippet. The March target was not retried.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retry of the Laotian Times URL. If future work addresses a public vendor action, use distinct permitted contemporaneous evidence and resolve closure timing."
+  },
+  {
+    "gap_id": "laos_2023-03_G003",
+    "type": "coverage",
+    "description": "English and Lao open-web searches surfaced mostly retrospective country-rights material, background, or unrelated 2023 items. Coverage of provincial outlets, non-indexed Lao-language media, sectors outside land/price/labor, and systematic newspaper archives remains incomplete; a DW search was blocked by robots in a query action.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent local/provincial reporting and archive coverage; no exhaustive or no-event claim."
+  },
+  {
+    "gap_id": "laos_2023-03_G004",
+    "type": "continuity",
+    "description": "A 2023 July RFA search result retrospectively mentions a December 2022 potash-mine protest and a March government-company agreement, but does not report a March public action or establish continuity. No continuation is coded.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Distinct contemporaneous reporting only if a continued public action into March is found."
+  }
+]

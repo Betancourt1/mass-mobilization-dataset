@@ -1,0 +1,99 @@
+[
+  {
+    "gap_id": "liberia_2023-03_G001",
+    "type": "threshold",
+    "description": "E001 attendance at the AFELL petition is described as “dozens,” without a count sufficient to confirm 50 simultaneous participants.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "liberia_2023-03_E001"
+    ],
+    "required_followup": "Seek an independent permitted account with a defensible site-specific count; do not treat “dozens” as an exact threshold."
+  },
+  {
+    "gap_id": "liberia_2023-03_G002",
+    "type": "threshold_and_eligibility",
+    "description": "E002 is confirmed as a student protest, but no source gives a crowd count; public accessibility of the state-run UL campus is also not established.",
+    "source_ids": [
+      "S002",
+      "S005"
+    ],
+    "affected_candidates": [
+      "liberia_2023-03_E002"
+    ],
+    "required_followup": "Find permitted independent evidence of simultaneous attendance and public setting; otherwise retain pending_evidence."
+  },
+  {
+    "gap_id": "liberia_2023-03_G003",
+    "type": "state_target_and_demands",
+    "description": "E002 is described as a protest against Gray’s campus visit and broadly against government over corruption and economic hardship, but a specific actionable demand/policy remedy is not documented.",
+    "source_ids": [
+      "S002",
+      "S005"
+    ],
+    "affected_candidates": [
+      "liberia_2023-03_E002"
+    ],
+    "required_followup": "Clarify what demands were pressed to the Liberian state; do not infer a precise demand from broad caption wording."
+  },
+  {
+    "gap_id": "liberia_2023-03_G004",
+    "type": "source_retrieval",
+    "description": "A fresh-receipt exact-URL request for the Inquirer retrospective returned the web tool message “URL ... is not accessible via this tool” and no HTTP status. This is a technical/tool retrieval failure, not an observed publisher denial; no retry was made.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "liberia_2023-03_E002"
+    ],
+    "required_followup": "If later review finds it feasible, use another distinct public source; do not retry the same page solely to recover this failed output."
+  },
+  {
+    "gap_id": "liberia_2023-03_G005",
+    "type": "coverage",
+    "description": "Captured bounded web discovery consists of 12 query calls / 14 submitted search strings (including two aggregated batches), 275 rendered headers, spanning March week windows, local outlet, students, women, labor and county searches. English searches dominate; only a small subset of relevant pages was opened. Coverage is not exhaustive and does not replicate LexisNexis.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "A future review may target distinct permitted local/regional reporting, sector and county windows, and adjacent-month onset/continuity; do not represent this web pass as complete."
+  },
+  {
+    "gap_id": "liberia_2023-03_G006",
+    "type": "access_restriction",
+    "description": "The Q012 search response explicitly reported liberianobserver.com blocked by robots.txt as non-retryable. No body was attempted and no domain variants were tried.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat this exact domain-level search-service robots restriction as binding for the affected query; use unrelated public sources."
+  },
+  {
+    "gap_id": "liberia_2023-03_G007",
+    "type": "end_date_and_response",
+    "description": "Neither E001 nor E002 has a reported physical end/date; E002 also has ambiguous violence attribution and no event-level state response.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005"
+    ],
+    "affected_candidates": [
+      "liberia_2023-03_E001",
+      "liberia_2023-03_E002"
+    ],
+    "required_followup": "Leave end date and unsupported violence/response fields unknown unless a permitted source specifically documents them."
+  },
+  {
+    "gap_id": "liberia_2023-03_G008",
+    "type": "period_ambiguous_search_lead",
+    "description": "Q010 returned an Africa-Press LFA protest story published Mar 20, 2025; its snippet mentions an event on Mar 18 without stating the event year. It is retained as a search-only lead and not assigned to March 2023.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not open the same story for an unrelated month assignment or infer a 2023 date from the search query. A distinct source is needed to establish whether any event belongs to this month."
+  }
+]

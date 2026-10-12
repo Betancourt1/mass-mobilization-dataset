@@ -1,0 +1,91 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "query_capture",
+    "description": "An actual Russian-language search call was executed before the first durable capture with the exact query “Беларусь протесты митинги забастовки февраль 2023 Минск регионы пенсии зарплаты политзаключенные”. The full response was lost when capture code failed with ReferenceError: btoa is not defined; no raw result, ordered headers, URLs or result count remain. Native execution/capture time was not exposed. The call was not repeated and no sources/events were inferred from it.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Do not repeat this query to reconstruct it. Preserve the loss and continue with distinct queries whose raw responses are persisted before parsing."
+  },
+  {
+    "gap_id": "G002",
+    "type": "query_capture",
+    "description": "A second actual Belarusian-language February search was executed with the exact query “Беларусь пратэсты люты 2023 мітынг забастоўка Мінск рэгіёны”. The full response was lost when capture code failed with ReferenceError: TextEncoder is not defined; no raw result, ordered headers, URLs or result count remain. Native execution/capture time was not exposed. The call was not repeated and no sources/events were inferred from it.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Do not repeat this query to reconstruct it. Preserve the loss and continue with distinct queries whose raw responses are persisted before parsing."
+  },
+  {
+    "gap_id": "G003",
+    "type": "source_access_denial",
+    "description": "Exact source URL https://spring96.org/ru/news/110879 returned an explicit 403 Forbidden on the first body request. This is an observed denial for that exact target; no retry or source variant was attempted. Raw failed response and fresh receipt are retained.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry the URL or origin variants. Continue through separate permitted sources; root was notified for source_checks handling."
+  },
+  {
+    "gap_id": "G004",
+    "type": "source_retrieval_tool_failure",
+    "description": "The February 2023 Viasna rights overview at https://belhumanrights.house/en/news/aglyad-vyasny-situacyya-z-pravami-cheloveka-belarusi-lyuty-2023 is visible only in captured search results; exact body opens returned “URL ... is not accessible via this tool” with no HTTP status. A prior mistaken URL containing an extra “-v-” also returned no page; that mismatch is separately preserved and not evidence about the story.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry the source or a URL variant. If a different permitted outlet or method yields the same review, assess its exact URL/origin first; do not use snippets as body evidence."
+  },
+  {
+    "gap_id": "G005",
+    "type": "body_request_audit",
+    "description": "A transcription mismatch occurred on the first attempted Viasna overview open: the attempted URL had an extra “-v-” after “cheloveka” and did not equal either the captured header or local assessment. The service said the mistyped URL was not accessible via the tool; no HTTP outcome, denial, or article evidence is inferred. The exact captured URL was later assessed separately and had a tool-level not-accessible result.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain both raw responses and the separate local assessments/outcomes. No further attempt to this source or a URL variant."
+  },
+  {
+    "gap_id": "G006",
+    "type": "candidate_eligibility",
+    "description": "The February 28 Gomel Redan gathering is an executed public-meeting near-miss. REFORM cites an estimate of about 50 people from a security-adjacent Telegram channel; Suspilne reports at least 25 detainees; Zerkalo reports an Interior Ministry count of 200 detainees (183 minors), not event attendance. Interviewees describe a subculture/fashion gathering and “freedom of appearance”; no clear demand directed at Belarusian state or policy is documented. State target and >=50 simultaneous attendance remain unresolved; the candidate stays pending_state_target.",
+    "source_ids": [
+      "S004",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "belarus_2023-02_E001"
+    ],
+    "required_followup": "Seek a permitted first-hand or independent report of what participants sought at the Gomel gathering and a defensible simultaneous attendee estimate. Keep detainee counts separate from attendance; do not include without a home-government/state-policy demand."
+  },
+  {
+    "gap_id": "G007",
+    "type": "adjacent_month_continuity",
+    "description": "Zerkalo’s March 1 follow-up says parents were warned of a possible gathering on March 1; this is an announcement only and does not establish that a second gathering occurred or that the February 28 meetup continued.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [
+      "belarus_2023-02_E001"
+    ],
+    "required_followup": "In assigned March research, check actual March 1 occurrence, date, attendance and state-directed demand, and determine whether it is a distinct action or related episode; do not carry the announcement as an event."
+  },
+  {
+    "gap_id": "G008",
+    "type": "coverage",
+    "description": "Seven captured individual open-web queries covered Russian and Belarusian-language discovery on general protest, antiwar anniversary, labor/strike issues, local detentions, and the Gomel Redan meeting; 161 rendered result headers. Search-result leads and body reads cover Minsk, Gomel, Svetlogorsk and Vitebsk, but no exhaustive all-region, issue-by-issue or commercial/archive search was completed. Two earlier actual calls were lost and are documented as G001–G002.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue feasible regional and local-language search in the March owner workflow and check continuity; use any accessible archive only as available. Report zero verified candidates under this bounded method, not zero protests."
+  }
+]

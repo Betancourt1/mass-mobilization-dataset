@@ -1,0 +1,196 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "participants",
+    "description": "No opened body gives a simultaneous attendance estimate establishing 50+ at any candidate site; all 15 remain below threshold pending evidence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S012"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-03_E001",
+      "myanmar_2023-03_E002",
+      "myanmar_2023-03_E003",
+      "myanmar_2023-03_E004",
+      "myanmar_2023-03_E005",
+      "myanmar_2023-03_E006",
+      "myanmar_2023-03_E007",
+      "myanmar_2023-03_E008",
+      "myanmar_2023-03_E009",
+      "myanmar_2023-03_E010",
+      "myanmar_2023-03_E011",
+      "myanmar_2023-03_E012",
+      "myanmar_2023-03_E013",
+      "myanmar_2023-03_E014",
+      "myanmar_2023-03_E015"
+    ],
+    "required_followup": "Find event-specific headcounts or reliable site-level visual/organizer evidence; do not allocate multi-site totals."
+  },
+  {
+    "gap_id": "G002",
+    "type": "state_target",
+    "description": "MOGE sanctions (E002/E007) may call for external sanctioning states; the artist boycott (E012) names private artists, not explicit state policy; Tanintharyi E010 is only called a movement.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-03_E002",
+      "myanmar_2023-03_E007",
+      "myanmar_2023-03_E010",
+      "myanmar_2023-03_E012"
+    ],
+    "required_followup": "Resolve whether demands target Myanmar state/state policy and whether E010 was a public anti-state gathering; otherwise retain pending."
+  },
+  {
+    "gap_id": "G003",
+    "type": "location_and_event_boundary",
+    "description": "Combined townships, Chindwin-bank villages, district/local village actions, and Yangon ritual lack site boundaries; do not assume a single gathering or merge locations.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S005",
+      "S012"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-03_E002",
+      "myanmar_2023-03_E005",
+      "myanmar_2023-03_E007",
+      "myanmar_2023-03_E009",
+      "myanmar_2023-03_E010",
+      "myanmar_2023-03_E011",
+      "myanmar_2023-03_E015"
+    ],
+    "required_followup": "Find exact village/venue and resolve one event versus coordinated/parallel sites."
+  },
+  {
+    "gap_id": "G004",
+    "type": "continuity_and_end_dates",
+    "description": "No report gives physical end date/time or proves continuation into another month; reporting date is not an event end.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S012"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-03_E001",
+      "myanmar_2023-03_E002",
+      "myanmar_2023-03_E003",
+      "myanmar_2023-03_E004",
+      "myanmar_2023-03_E005",
+      "myanmar_2023-03_E006",
+      "myanmar_2023-03_E007",
+      "myanmar_2023-03_E008",
+      "myanmar_2023-03_E009",
+      "myanmar_2023-03_E010",
+      "myanmar_2023-03_E011",
+      "myanmar_2023-03_E012",
+      "myanmar_2023-03_E013",
+      "myanmar_2023-03_E014",
+      "myanmar_2023-03_E015"
+    ],
+    "required_followup": "Seek explicit duration/close evidence; keep unknown ends otherwise."
+  },
+  {
+    "gap_id": "G005",
+    "type": "source_independence",
+    "description": "Most Sagaing candidates rely on single Mizzima roundups; Pakokku is Radio NUG relaying an organizers’ statement; Myaung and Yangon each have one report. No independent corroboration saved.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S012"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-03_E001",
+      "myanmar_2023-03_E002",
+      "myanmar_2023-03_E003",
+      "myanmar_2023-03_E004",
+      "myanmar_2023-03_E005",
+      "myanmar_2023-03_E006",
+      "myanmar_2023-03_E007",
+      "myanmar_2023-03_E008",
+      "myanmar_2023-03_E009",
+      "myanmar_2023-03_E010",
+      "myanmar_2023-03_E011",
+      "myanmar_2023-03_E012",
+      "myanmar_2023-03_E013",
+      "myanmar_2023-03_E014",
+      "myanmar_2023-03_E015"
+    ],
+    "required_followup": "Seek independent reporting or original materials; track story origin rather than treating derivative roundups as independent."
+  },
+  {
+    "gap_id": "G006",
+    "type": "access_restriction",
+    "description": "Exact body opens for Mizzima Mar 14 and Mar 25 returned 403; coordinator controls are exact URL/action only. No body evidence or snippet-based event coding used.",
+    "source_ids": [
+      "S007",
+      "S011"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retries or variants for those exact URLs; continue with unrelated permitted sources."
+  },
+  {
+    "gap_id": "G007",
+    "type": "source_scope",
+    "description": "Than Lwin Mar 24 archive lists a protest teaser but not underlying story body; no event coded from teaser.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Obtain independently located permitted article only after exact-origin assessment if feasible."
+  },
+  {
+    "gap_id": "G008",
+    "type": "search_only_leads",
+    "description": "ALTSEAN-Coup Watch appeared in search results for discovery only; underlying articles were not opened or used as evidence.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Locate and assess original local reports individually; do not use retrospective snippets as occurrence evidence."
+  },
+  {
+    "gap_id": "G009",
+    "type": "coverage",
+    "description": "Bounded English/Burmese query pass covers Sagaing, Magway/Pakokku, Tanintharyi and Yangon but concentrates on Mizzima roundups plus several local/institutional outlets. Historical inventory is omitted, and official baseline/licensing gates remain open.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S012"
+    ],
+    "affected_candidates": [
+      "myanmar_2023-03_E001",
+      "myanmar_2023-03_E002",
+      "myanmar_2023-03_E003",
+      "myanmar_2023-03_E004",
+      "myanmar_2023-03_E005",
+      "myanmar_2023-03_E006",
+      "myanmar_2023-03_E007",
+      "myanmar_2023-03_E008",
+      "myanmar_2023-03_E009",
+      "myanmar_2023-03_E010",
+      "myanmar_2023-03_E011",
+      "myanmar_2023-03_E012",
+      "myanmar_2023-03_E013",
+      "myanmar_2023-03_E014",
+      "myanmar_2023-03_E015"
+    ],
+    "required_followup": "Continue feasible regional/language/sector searches and consult baseline only when authorized; make no exhaustive-coverage claim."
+  }
+]

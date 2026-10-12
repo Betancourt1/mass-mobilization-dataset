@@ -1,0 +1,83 @@
+[
+  {
+    "gap_id": "kazakhstan_2023-01-G001",
+    "type": "coverage_access",
+    "description": "Only open-web discovery was available; no LexisNexis or systematically equivalent archive of Kazakhstan national/regional outlets was queried. Results frequently returned 2022 retrospectives despite 2023 date terms. The web engine’s date terms are not proof of strict filtering.",
+    "source_ids": [],
+    "affected_candidates": [
+      "kazakhstan_2023-01-E001",
+      "kazakhstan_2023-01-E002"
+    ],
+    "required_followup": "A later review may use additional permitted local and regional archives if available; keep all current candidates and do not infer that no other protests occurred."
+  },
+  {
+    "gap_id": "kazakhstan_2023-01-G002",
+    "type": "threshold_attribution",
+    "description": "E001 remains pending_evidence: Azattyq caption reports approximately 100 at Republic Square and says most were political activists, while reports distinguish the activist action from a nearby memorial gathering. The saved evidence does not securely attribute 50+ simultaneous attendees to the distinct activist subgroup.",
+    "source_ids": [
+      "S071",
+      "S072",
+      "S073"
+    ],
+    "affected_candidates": [
+      "kazakhstan_2023-01-E001"
+    ],
+    "required_followup": "Keep pending_evidence unless permitted event-specific evidence resolves the caption count’s subgroup and simultaneous-attendance scope; do not transfer the broader memorial crowd."
+  },
+  {
+    "gap_id": "kazakhstan_2023-01-G003",
+    "type": "eligibility",
+    "description": "E002 Jan 7 memorial actions are described as planned; Azattyq says some activists reached Almaty central square but gives no crowd count or state-policy demand, and reports detentions in three cities.",
+    "source_ids": [
+      "S101"
+    ],
+    "affected_candidates": [
+      "kazakhstan_2023-01-E002"
+    ],
+    "required_followup": "Seek distinct contemporaneous local reporting only if useful and permitted; otherwise retain pending_evidence. Do not infer a >=50 gathering or state target from the plan."
+  },
+  {
+    "gap_id": "kazakhstan_2023-01-G004",
+    "type": "exclusion_scope",
+    "description": "KKS-Sicim Jan 16–20 action was a substantial worksite strike, but reports locate it at work sites/industrial base and direct pay/job-grade demands at the private joint-venture contractor. Public forum and own-state policy target were not established.",
+    "source_ids": [
+      "S089",
+      "S090"
+    ],
+    "affected_candidates": [
+      "kazakhstan_2023-01-X001"
+    ],
+    "required_followup": "Reconsider only if a source documents a public gathering and demand directed at Kazakhstan state policy; do not use employee headcount as protest attendance."
+  },
+  {
+    "gap_id": "kazakhstan_2023-01-G005",
+    "type": "source_access",
+    "description": "The direct Masa Media body request timed out at the web-tool layer with “(400) Timeout fetching”; no publisher HTTP response was exposed and no retry was made. Known HRW and AP restrictions also prevented body access to relevant retrospective results; those snippets are not used as current event evidence.",
+    "source_ids": [
+      "S027",
+      "S072",
+      "S102"
+    ],
+    "affected_candidates": [
+      "kazakhstan_2023-01-E001"
+    ],
+    "required_followup": "No retry of the timed-out URL or held stories; use the opened Sputnik, Orda and Azattyq material and retain source-specific limitations."
+  },
+  {
+    "gap_id": "kazakhstan_2023-01-G006",
+    "type": "continuity",
+    "description": "Jan 5 activist protest is reported to have ended after about an hour with dispersal; no continuation is evidenced. Jan 7 is a separate planned memorial action with incomplete occurrence evidence. Jan 16 KKS-Sicim strike ended Jan 20 per Azattyq. No carry-over into February is established from current saved evidence.",
+    "source_ids": [
+      "S071",
+      "S073",
+      "S101",
+      "S090"
+    ],
+    "affected_candidates": [
+      "kazakhstan_2023-01-E001",
+      "kazakhstan_2023-01-E002",
+      "kazakhstan_2023-01-X001"
+    ],
+    "required_followup": "Review adjacent-month reports only for a documented continuation or newly reported evidence about these specific January episodes; do not duplicate them into February."
+  }
+]

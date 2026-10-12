@@ -1,0 +1,125 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold",
+    "description": "No body source provides simultaneous participant counts for Cross Roads, STETHS, BB Coke, Maggotty, Manchester High, Kingston march or St Andrew High gates.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S008",
+      "S006",
+      "S007",
+      "S009"
+    ],
+    "affected_candidates": [
+      "jamaica_2023-03_E001",
+      "jamaica_2023-03_E002",
+      "jamaica_2023-03_E003",
+      "jamaica_2023-03_E004",
+      "jamaica_2023-03_E007",
+      "jamaica_2023-03_E009",
+      "jamaica_2023-03_E010"
+    ],
+    "required_followup": "Seek site-specific participant evidence; do not use delegate counts, union membership, attendance absence, or cross-site totals."
+  },
+  {
+    "gap_id": "G002",
+    "type": "pending_evidence",
+    "description": "For Mt Alvernia and Garvey Maceo, Gleaner confirms “protests” but groups sick-outs and sit-ins without specifying which occurred at each site; Garvey Maceo’s 80% absence is not a gathering. Belair is a search-only photo caption.",
+    "source_ids": [
+      "S005",
+      "S011"
+    ],
+    "affected_candidates": [
+      "jamaica_2023-03_E005",
+      "jamaica_2023-03_E006",
+      "jamaica_2023-03_E008"
+    ],
+    "required_followup": "Find body-level school/site reporting that distinguishes an actual public sit-in from sick-out and gives participant count."
+  },
+  {
+    "gap_id": "G003",
+    "type": "continuity",
+    "description": "Teachers’ wage campaign spans Mar 3–9 reports; Mar 12 retrospective says four days of protests last week and regular duties resumed Friday Mar 10, but does not itemize every site/date or actual end time.",
+    "source_ids": [
+      "S003",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [
+      "jamaica_2023-03_E002",
+      "jamaica_2023-03_E003",
+      "jamaica_2023-03_E004",
+      "jamaica_2023-03_E005",
+      "jamaica_2023-03_E006",
+      "jamaica_2023-03_E007",
+      "jamaica_2023-03_E008",
+      "jamaica_2023-03_E009",
+      "jamaica_2023-03_E010"
+    ],
+    "required_followup": "Use dated site-level reports only to link or close individual events; do not infer each gathering ended when teachers returned to class."
+  },
+  {
+    "gap_id": "G004",
+    "type": "source_access",
+    "description": "Two exact IRIE FM URLs returned tool-rendered 404 Not Found; the NPTAJ Observer page body request returned a tool “Content length is too large” error. These are not evidence of protester or publisher denials; no retries were made.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S012"
+    ],
+    "affected_candidates": [
+      "jamaica_2023-03_E001",
+      "jamaica_2023-03_E002",
+      "jamaica_2023-03_E003",
+      "jamaica_2023-03_E004"
+    ],
+    "required_followup": "Use accessible distinct sources if material. Do not retry exact unavailable URLs; preserve their raw outcomes."
+  },
+  {
+    "gap_id": "G005",
+    "type": "state_response",
+    "description": "Reports describe wage negotiations, police/official attendance not directly tied to protest response, and a return-to-work warning; they do not document event-level arrests, beatings, dispersal or other response at the gatherings.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S006",
+      "S007",
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [
+      "jamaica_2023-03_E001",
+      "jamaica_2023-03_E002",
+      "jamaica_2023-03_E003",
+      "jamaica_2023-03_E004",
+      "jamaica_2023-03_E007",
+      "jamaica_2023-03_E009",
+      "jamaica_2023-03_E010"
+    ],
+    "required_followup": "Only code an event-level response when a source explicitly documents it; keep current fields unknown."
+  },
+  {
+    "gap_id": "G006",
+    "type": "coverage",
+    "description": "Seven English-language open-web queries covered the full month, teacher wage protests and school sites, election postponement, first-day STETHS sit-in, negotiation/continuity dates, other public-sector workers and the Mar 13–31 window. Searches were concentrated on surfaced teacher events; parish/week coverage remains bounded and not equivalent to LexisNexis.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent review may identify feasible additional site/parish searches; do not claim exhaustive or zero-protest coverage."
+  },
+  {
+    "gap_id": "G007",
+    "type": "event_scope",
+    "description": "Cross Roads PNP protest is documented as a local election-process protest; participant threshold and actual closure remain unknown. Some individual supporters also called for the Prime Minister to go, but this does not redefine the event as solely a removal campaign.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "jamaica_2023-03_E001"
+    ],
+    "required_followup": "Find site-specific crowd estimate or complete retrospective if needed; keep event at Cross Roads and avoid counting party membership."
+  }
+]

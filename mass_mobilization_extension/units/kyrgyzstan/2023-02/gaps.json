@@ -1,0 +1,92 @@
+[
+  {
+    "gap_id": "kyrgyzstan_2023-02-G001",
+    "type": "end_date_and_response_unknown",
+    "description": "For E001, the Kaktus article says the rally was ongoing at publication (S001); neither opened body supplies explicit physical closure or a retrospective full account. Protester violence and state response are not established.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-02_E001"
+    ],
+    "required_followup": "Retain end_date null/end_precision unknown and violence/response unknown unless a saved body explicitly documents the event’s ending or response."
+  },
+  {
+    "gap_id": "kyrgyzstan_2023-02-G002",
+    "type": "threshold_unknown",
+    "description": "E002 is an actual Feb 21 public drivers’ protest against a state policy, but the independent Govori.TV body (S013) gives no crowd count. FOR.kg (S012) explicitly sources its report to 24.kg and describes three motorcade columns without person or vehicle totals. The 24.kg origin article S015 returned 403 and Sputnik body S014 timed out. No simultaneous >=50 estimate is established.",
+    "source_ids": [
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-02_E002"
+    ],
+    "required_followup": "Keep pending_threshold. If a separately permitted independent source can be found in a later revision, verify people simultaneously present at a specific site; do not count columns or membership."
+  },
+  {
+    "gap_id": "kyrgyzstan_2023-02-G003",
+    "type": "technical_retrieval_failure",
+    "description": "Sputnik Кыргызстан exact Feb 21 drivers article S014 returned a tool-level timeout before HTTP response. No body or site denial was observed.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-02_E002"
+    ],
+    "required_followup": "Do not repeat or open a URL variant in this pass. Treat as technical gap, not a denial."
+  },
+  {
+    "gap_id": "kyrgyzstan_2023-02-G004",
+    "type": "source_access_denial",
+    "description": "The exact 24.kg Feb 21 drivers URL S015 returned explicit HTTP 403. Coordinator registered an exact-URL/ordinary-action restriction. No variant or retry was attempted. The earlier January 24.kg restriction remains scoped to its own URL and was not widened.",
+    "source_ids": [
+      "S015"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-02_E002"
+    ],
+    "required_followup": "Do not retry or use variants. Coordinator controls contain the new exact URL restriction at amendments/v1/restrictions/0029_kyrgyzstan_24kg_drivers_exact_403.json."
+  },
+  {
+    "gap_id": "kyrgyzstan_2023-02-G005",
+    "type": "date_window_search_limit",
+    "description": "Search queries q004–q006 specified different February windows but returned March 2 traders-rally pages despite dates, so search operators/windows were not reliable. The surfaced March 2 reports describe a later action after the Feb 20 market rally; no evidence supports merging them into E001.",
+    "source_ids": [
+      "S003",
+      "S007",
+      "S009",
+      "S010",
+      "S011"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-02_E001"
+    ],
+    "required_followup": "Handle March 2 as a separate March-unit lead and test continuity there; do not duplicate it as a February event."
+  },
+  {
+    "gap_id": "kyrgyzstan_2023-02-G006",
+    "type": "coverage_method",
+    "description": "Twelve captured open-web searches cover English, Russian and Kyrgyz terms, four requested February date windows, civic/anti-war, trader, transport, labor and regional terms. Most usable reporting is Bishkek-centric; no robust regional-sector newspaper archive or LexisNexis coverage is available. This is not an exhaustive event search and does not imply zero activity elsewhere.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review may add feasible regional sources or archive coverage; official baseline, license and universe remain pending."
+  },
+  {
+    "gap_id": "kyrgyzstan_2023-02-G007",
+    "type": "origin_or_paywall_limit",
+    "description": "K-News S003 attributes its Feb 20 trader report to Tazabek; Tazabek S018 search result says the archived material is subscriber-only. These are not independent body sources.",
+    "source_ids": [
+      "S003",
+      "S018"
+    ],
+    "affected_candidates": [
+      "kyrgyzstan_2023-02_E001"
+    ],
+    "required_followup": "No paywall attempt was made. Base event coding on opened Kaktus/Sputnik bodies; preserve Tazabek attribution and do not treat K-News as independent."
+  }
+]

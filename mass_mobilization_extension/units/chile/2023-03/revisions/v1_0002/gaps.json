@@ -1,0 +1,111 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "baseline_search_coverage",
+    "description": "Open-web searches and selected news pages do not reproduce the official baseline or LexisNexis newspaper search. Month coverage cannot be called exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [
+      "chile_2023-03_E001",
+      "chile_2023-03_E002",
+      "chile_2023-03_E003",
+      "chile_2023-03_E004",
+      "chile_2023-03_E005",
+      "chile_2023-03_E006",
+      "chile_2023-03_E007"
+    ],
+    "required_followup": "Official baseline/licensing and equivalent archive access remain coordinator-level open gates."
+  },
+  {
+    "gap_id": "G002",
+    "type": "attendance_conflict",
+    "description": "8M Santiago attendance reports conflict sharply: about 25,000 attributed to Carabineros versus more than 400,000 attributed to organizers. Current record uses the lower published estimate for the threshold and preserves the full reported range; no independent reconciliation.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "chile_2023-03_E002"
+    ],
+    "required_followup": "Seek contemporaneous independent estimate with clear attribution if available; do not sum regional counts."
+  },
+  {
+    "gap_id": "G003",
+    "type": "regional_site_linkage",
+    "description": "BioBio names multiple regional 8M marches and some local counts, while national accounts discuss policy demands. Site-level organization/demand linkage is less detailed outside Santiago; locations are preserved without adding attendance.",
+    "source_ids": [
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "chile_2023-03_E002"
+    ],
+    "required_followup": "If separate local coding is considered, verify same-site demand, count and organizing relationship for each city."
+  },
+  {
+    "gap_id": "G004",
+    "type": "source_independence",
+    "description": "T13 identifies Deutsche Welle as the Mochilazo story origin; treat the two as one written-origin account. La Tercera corroborates occurrence/demands but has no crowd estimate. EFE Valparaíso report appears as repeated photo captions and is a single origin.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S008"
+    ],
+    "affected_candidates": [
+      "chile_2023-03_E001",
+      "chile_2023-03_E004"
+    ],
+    "required_followup": "Independent, different-origin crowd evidence remains desirable, especially for Valparaíso March 15."
+  },
+  {
+    "gap_id": "G005",
+    "type": "attendance_unknown",
+    "description": "The March 16 Valparaíso Confusam demonstration is documented, but no simultaneous attendance count is provided. The 5,000 figure refers to affected workers, not attendance.",
+    "source_ids": [
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [
+      "chile_2023-03_E005"
+    ],
+    "required_followup": "Find a permitted report with a count at this site/date; do not infer from strike adhesions or workforce."
+  },
+  {
+    "gap_id": "G006",
+    "type": "search_only_candidates",
+    "description": "Valparaíso student blockade (March 28) and Día del Joven Combatiente-related demonstrations (March 29) remain discovery-only; no body-level confirmation of attendance/demand.",
+    "source_ids": [
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "chile_2023-03_E006",
+      "chile_2023-03_E007"
+    ],
+    "required_followup": "Open only after fresh exact-URL access check and manual assessment; verify body/date/site, >50 simultaneous and own-state demand."
+  },
+  {
+    "gap_id": "G007",
+    "type": "duration_response",
+    "description": "Exact end dates/times and full government responses are unknown for most events. Do not infer completion from publication dates, one-day framing, strike duration, silence or partial reporting.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S010"
+    ],
+    "affected_candidates": [
+      "chile_2023-03_E001",
+      "chile_2023-03_E002",
+      "chile_2023-03_E003",
+      "chile_2023-03_E004",
+      "chile_2023-03_E005"
+    ],
+    "required_followup": "Use explicit closure/complete retrospective accounts and event-specific state response evidence only."
+  }
+]

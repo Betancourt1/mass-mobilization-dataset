@@ -1,0 +1,73 @@
+[
+  {
+    "gap_id": "MRT23JAN-G001",
+    "type": "threshold",
+    "description": "The 4 Jan university adjunct-doctors sit-in at Place de la Liberté is supported by the opened Al Wiam archive excerpt, but no source reports simultaneous attendance. The individual article URL was not returned by search; no unassessed link was opened.",
+    "candidate_id": "mauritania_2023-01_E001",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-01_E001"
+    ],
+    "required_followup": "Search for a direct, independently authored account or a properly identified individual Al Wiam article with a site-specific turnout; retain pending_threshold until >=50 simultaneous participants are evidenced."
+  },
+  {
+    "gap_id": "MRT23JAN-G002",
+    "type": "threshold",
+    "description": "The 4 Jan SNDE workers sit-in before the Presidential Palace is body-confirmed at one site, but neither Al Wiam article reports the number present, duration or an end. S001 and S002 are same-publisher coverage.",
+    "candidate_id": "mauritania_2023-01_E002",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-01_E002"
+    ],
+    "required_followup": "Seek independent local reporting with attendance at the Palace; do not infer attendance from the number laid off or worker totals."
+  },
+  {
+    "gap_id": "MRT23JAN-G003",
+    "type": "threshold",
+    "description": "The Jan 12 specialist-doctors sit-in is independently reported by Kassataya (explicitly sourced to Saharamedias) and Le Calame. The reported 57 are candidates in the recruitment competition, not sit-in participants; neither account gives a protest headcount.",
+    "candidate_id": "mauritania_2023-01_E003",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-01_E003"
+    ],
+    "required_followup": "Look for a site-specific headcount or reporting that supports >=50 simultaneous sit-in participants; never count contest applicants as protesters."
+  },
+  {
+    "gap_id": "MRT23JAN-G004",
+    "type": "coverage",
+    "description": "Coverage is bounded, not exhaustive: 11 captured tool responses cover 12 exact search strings (English, French, Arabic and local-news targeted searches), with most useful leads in Nouakchott. No systematic day-by-day or province-by-province newspaper archive access, and no complete search of regional cities/sectors has been established. Mixed-year/future results are frequent.",
+    "source_ids": [],
+    "required_followup": "Continue late/early/within-month windows and regional/sector-specific searches in French and Arabic; test Nouadhibou, Zouerate, Rosso, Kaédi and interior wilayas. Search absence is not event absence."
+  },
+  {
+    "gap_id": "MRT23JAN-G005",
+    "type": "search_capture_attribution",
+    "description": "One actual web call executed two prompts in a single response; the full raw response and exact prompt array are saved, but returned headers are aggregate and not attributable to either prompt individually.",
+    "source_ids": [],
+    "query_ids": [
+      "MRT23JAN-Q008-Q009"
+    ],
+    "required_followup": "No reconstruction or repeat solely to recover attribution; preserve aggregate caveat."
+  },
+  {
+    "gap_id": "MRT23JAN-G006",
+    "type": "source_scope",
+    "description": "The Jan 4 university-doctors source is an archive page with an embedded article excerpt, not the individual article. It confirms the reported sit-in, date, site and demand but is partial source scope and does not establish crowd size.",
+    "candidate_id": "mauritania_2023-01_E001",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "mauritania_2023-01_E001"
+    ],
+    "required_followup": "Obtain an individually identified, separately assessed article URL if an independent source or direct article can be found."
+  }
+]

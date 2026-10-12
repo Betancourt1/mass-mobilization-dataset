@@ -1,0 +1,111 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "continuity",
+    "description": "February’s Gomel Redan episode included an announced follow-up meeting on 1 March. March Q001 search results reproduce a Flagshtok archive snippet about newly created Gomel chats, but that snippet does not establish an actual March 1 gathering. Opening the exact March archive yielded only partial body lines L0-L254 of 473 and did not show the quoted item. The separate Mogilev.media report on March 1 did not cover Gomel.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "belarus_2023-02_E001"
+    ],
+    "required_followup": "Seek permitted independent post-event reporting for Gomel on 1 March; do not repeat the prior query or treat chat announcements/detainee counts as event or attendance evidence."
+  },
+  {
+    "gap_id": "G002",
+    "type": "state_target",
+    "description": "The March 1 Redan-related local reports describe youth-subculture meetups, fights and arrests, with no demand on Belarusian authorities or state policy documented. The lead is screened in X001 and is not a candidate event.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "belarus_2023-03_X001"
+    ],
+    "required_followup": "No follow-up is needed for the state-target criterion unless new reporting identifies an explicit collective demand."
+  },
+  {
+    "gap_id": "G003",
+    "type": "threshold",
+    "description": "For March 1 subculture meetups, reported detentions (52 in Brest) are not crowd counts; Minsk has no reported figures; the Vitebsk video shows a fight among three adolescents and an unquantified group of observers; Mogilev reports no significant gathering. No location-specific simultaneous attendance estimate is established. Do not aggregate cities.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "belarus_2023-03_X001"
+    ],
+    "required_followup": "If new reporting identifies a qualifying protest demand, seek a same-place, same-time participant estimate."
+  },
+  {
+    "gap_id": "G004",
+    "type": "coverage",
+    "description": "Ten individual Russian/Belarusian-language queries (255 rendered result headers) covered Redan follow-up, Freedom Day, Women’s Day, antiwar anniversary, labor/economic issues, political detentions and regional searches. Results were dominated by prior-year protest chronologies, detention totals and historical context; no verified qualifying March gathering emerged. No systematic all-city/all-week archive review or official record search was completed; no native search totals or clocks were exposed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with week-windowed local/regional and sector searches, official records and local reporting for Minsk and all regions; distinguish announced events, diaspora gatherings, arrests and actual in-country attendance."
+  },
+  {
+    "gap_id": "G005",
+    "type": "coverage",
+    "description": "Women’s Day query results largely returned 2020 marches; no March 2023 women’s public gathering with a state/policy demand and simultaneous attendance was identified. Labor/economic queries likewise did not identify an executed March street gathering.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search local women’s groups, labor and issue-specific reporting by date and region; do not infer occurrence from general wage or detention statistics."
+  },
+  {
+    "gap_id": "G006",
+    "type": "event_evidence",
+    "description": "Search results report 614 political detentions in March and at least 45 detentions in Minsk during two weeks, but these are detention totals rather than public gathering counts or proof of an event. The Polish Radio body request timed out before HTTP response.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Locate accessible reporting that identifies the underlying incident, date, location, demand and simultaneous public attendance; do not infer an event from aggregate detentions."
+  },
+  {
+    "gap_id": "G007",
+    "type": "event_evidence",
+    "description": "Available Freedom Day material did not verify a public gathering inside Belarus on 25 March 2023. Most returned hits were historical. Spring96 search results discuss preemptive arrests but body was not requested; the Euroradio article target returned 403. A partial Flagshtok archive records police exercises in Gomel on 24 March, not an actual demonstration. This is unknown, not a finding of no protest.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue with permitted local contemporary reporting for 24-26 March, including each city separately; document diaspora events outside the territorial unit separately."
+  },
+  {
+    "gap_id": "G008",
+    "type": "source_access",
+    "description": "Euroradio exact target returned HTTP 403 Forbidden. The exact URL was not retried. Polish Radio’s separate target returned a pre-HTTP TimeoutError; it was not retried.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use unrelated permitted sources; do not retry either exact URL."
+  },
+  {
+    "gap_id": "G009",
+    "type": "source_scope",
+    "description": "Flagshtok’s March archive open returned a partial body (captured L0-L254 while reporting 473 total lines). The search excerpt about Gomel Redan chats was not visible in the captured portion and is not used as verified article evidence.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "belarus_2023-02_E001"
+    ],
+    "required_followup": "Do not infer unseen body content; if further archive research is pursued, use an additional exact target after fresh assessment/receipt."
+  },
+  {
+    "gap_id": "G010",
+    "type": "coverage",
+    "description": "Antiwar-related search results included an HRW report under a known hold, Spring96 material not opened, and a retrospective feature about the first year of the invasion. None of the search snippets documented an actual qualifying March 2023 public gathering in Belarus.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search permitted local sources for date-specific public antiwar actions and explicit demands; known holds remain in force."
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "gap_id": "cameroon_2023-02_G001",
+    "type": "coverage",
+    "description": "Ten actual web searches were captured. French searches addressed all four February date windows; English searches covered the month and selected windows, but 1–14 February was combined in one query and dates 8–14 were not separately targeted in English. Local/regional searches included Cameroon News Agency and Journal du Cameroun terms, and search-result leads for Yaounde, Douala, Bamenda, Buea, Ebolowa, Bafoussam and Ngaoundere. Open web only; no LexisNexis or systematically searchable local newspaper archive.",
+    "source_ids": [
+      "CMR23F-S001",
+      "CMR23F-S002",
+      "CMR23F-S003",
+      "CMR23F-S004",
+      "CMR23F-S005",
+      "CMR23F-S006",
+      "CMR23F-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If further bounded coverage is assigned, run distinct English searches for 1–7 and 8–14 February and targeted local-language/regional outlet queries. Do not infer no protests from current searches."
+  },
+  {
+    "gap_id": "cameroon_2023-02_G002",
+    "type": "evidence",
+    "description": "The body-read Togonyigba report confirms the CAWOF strike began 13 February over the government-set SMIG, but describes low participation at work sites and no street/public assembly or count. A separate assembly remains unresolved.",
+    "source_ids": [
+      "CMR23F-S002",
+      "CMR23F-S005"
+    ],
+    "affected_candidates": [
+      "cameroon_2023-02_X002"
+    ],
+    "required_followup": "Seek a distinct dated contemporary report or organizer/public record specifically describing an executed public gathering and simultaneous turnout; do not code the strike alone."
+  },
+  {
+    "gap_id": "cameroon_2023-02_G003",
+    "type": "evidence",
+    "description": "The OTS/OTA/SECA teachers source is a rendered search result from a Scribd-hosted user upload announcing a 6–10 February strike. Execution, the original communiqué, and any public assembly/attendance are unverified.",
+    "source_ids": [
+      "CMR23F-S004"
+    ],
+    "affected_candidates": [
+      "cameroon_2023-02_X003"
+    ],
+    "required_followup": "If material, find an independent contemporaneous report or official/union public record of execution and any actual public gathering. Do not treat the uploaded announcement as occurrence evidence."
+  },
+  {
+    "gap_id": "cameroon_2023-02_G004",
+    "type": "episode_link",
+    "description": "A VOA report opened during February research is dated 8 March and describes a cost-of-living protest on that date in Yaounde and other towns. It is outside February and is retained for March onset ownership; no evidence says it began in February.",
+    "source_ids": [
+      "CMR23F-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use the already captured body in the March unit without reopening it; search for independent contemporaneous March 8 reporting and check whether any distinct February episode existed."
+  },
+  {
+    "gap_id": "cameroon_2023-02_G005",
+    "type": "evidence",
+    "description": "Cameroon News Agency search result titled Mothers from Ekona on a peaceful protest in Buea has no visible date, turnout, exact demand or state target in the indexed result.",
+    "source_ids": [
+      "CMR23F-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search the exact title/URL in the assigned March follow-up only if unique and not repeated; establish event date, turnout and demand before coding."
+  }
+]

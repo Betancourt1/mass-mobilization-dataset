@@ -1,0 +1,115 @@
+[
+  {
+    "gap_id": "BG23FEB-G001",
+    "type": "episode_end_response",
+    "description": "The Sofia march reached Orlov Most and reports describe traffic disruption, but neither source explicitly states the time/action at which the event concluded. No event-specific state response or participant violence is established.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-02_E001"
+    ],
+    "required_followup": "Check for an explicit contemporary closure or complete retrospective account and event-specific response. Until then keep end date and response dimensions unknown."
+  },
+  {
+    "gap_id": "BG23FEB-G002",
+    "type": "multisite_threshold_and_ownership",
+    "description": "Anniversary marches, vigils and other events are reported outside Sofia. Site-level simultaneous counts and local state-target demands are not provided, and national coordination versus distinct local actions is unresolved. Do not aggregate across cities.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S006",
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-02_E002"
+    ],
+    "required_followup": "Seek city-specific contemporary local reporting for actual gathering, location, one-site count and direct Bulgarian state/policy demand; establish event relationship before merging."
+  },
+  {
+    "gap_id": "BG23FEB-G003",
+    "type": "candidate_eligibility",
+    "description": "The Feb 25 Sofia counter-march opposing Lukovmarch is found only in search-result excerpts. Its size and any direct demand to the Bulgarian state are unknown; the available descriptions identify the far-right march itself as the target.",
+    "source_ids": [
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-02_E003"
+    ],
+    "required_followup": "If feasible, consult a distinct permitted contemporaneous report or organizer/official record to establish crowd size and whether protesters demanded state action. Do not infer state-target from the separate prosecutor notice."
+  },
+  {
+    "gap_id": "BG23FEB-G004",
+    "type": "actual_occurrence",
+    "description": "NOVA’s opened Feb 6 interview anticipates several sector protests but does not document an actual public gathering; postal-worker strike signatures and employee totals are not protest attendance.",
+    "source_ids": [
+      "S010"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-02_E004"
+    ],
+    "required_followup": "Find contemporary event reporting or official/union records confirming whether an actual public assembly took place and its site-level count; otherwise retain as an unresolved discovery candidate."
+  },
+  {
+    "gap_id": "BG23FEB-G005",
+    "type": "state_target_threshold",
+    "description": "RFE’s brief reference to a protest outside the Russian Embassy lacks its purpose, organizer, count and any Bulgarian domestic state target.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-02_E005"
+    ],
+    "required_followup": "Find a permitted independent contemporaneous account clarifying protest purpose, target and one-site attendance; if it targeted only Russia, do not include under the domestic-target rule."
+  },
+  {
+    "gap_id": "BG23FEB-G006",
+    "type": "adjacent_month_continuity",
+    "description": "A targeted search found another Sofia action on 24 March calling for President Radev’s impeachment and military aid. It is a separate dated action one month later; no source says February’s march continued or links the episode explicitly. A February end/closure still remains unverified.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-02_E001"
+    ],
+    "required_followup": "During March research, compare organizers, demands, dates and any explicit retrospective link; keep the March action separate unless a source establishes continuation."
+  },
+  {
+    "gap_id": "BG23FEB-G007",
+    "type": "planned_future_action",
+    "description": "A Feb 28 BNT result reports livestock farmers preparing protests/blockades in response to delayed aid and a planned ministry meeting; it does not establish that a gathering occurred in February.",
+    "source_ids": [
+      "S014"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search March for whether and when the planned farmer action actually occurred; assign onset to the actual gathering month and do not code the February announcement."
+  },
+  {
+    "gap_id": "BG23FEB-G008",
+    "type": "search_coverage",
+    "description": "Open-web searches used Bulgarian and English, local/national outlets, a national broadcaster and agency, labor sectors, political demonstrations, Sofia and multiple regional-city prompts, with week windows. The pooled engine returned zero headers on the 8–14 and 15–21 February domain-filtered prompts; it does not guarantee those periods were covered. Search is not LexisNexis, print or systematic archive review. No official baseline or equivalent paid archive was available.",
+    "source_ids": [
+      "S001",
+      "S004",
+      "S006",
+      "S008",
+      "S010",
+      "S011",
+      "S014"
+    ],
+    "affected_candidates": [
+      "bulgaria_2023-02_E001",
+      "bulgaria_2023-02_E002",
+      "bulgaria_2023-02_E003",
+      "bulgaria_2023-02_E004",
+      "bulgaria_2023-02_E005"
+    ],
+    "required_followup": "Continue feasible local-language date-window and regional/sector searches if needed; any retrieval must use a fresh exact URL receipt and manual origin/hold review. Do not claim exhaustive coverage or infer no other protest occurred."
+  }
+]

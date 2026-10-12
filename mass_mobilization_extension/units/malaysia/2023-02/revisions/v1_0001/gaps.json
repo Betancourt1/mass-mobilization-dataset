@@ -1,0 +1,57 @@
+[
+  {
+    "gap_id": "MYS2023-02-G001",
+    "type": "threshold_evidence",
+    "description": "Feb 2 JPKK minimum-wage protest has direct federal-state demand and two opened accounts confirming its occurrence, but no opened report gives a headcount. FMT search result says “about 50”; its exact story body returned 403 Forbidden and the URL was not retried. Twenty-five supporting organizations are not attendees.",
+    "source_ids": [
+      "MYS2023-02-S002",
+      "MYS2023-02-S003",
+      "MYS2023-02-S004"
+    ],
+    "affected_candidates": [
+      "MYS2023-02-E001"
+    ],
+    "required_followup": "Use only a distinct permitted source with independently assessed exact URL/origin, or retain pending_threshold; do not retry the FMT URL or infer participants from organizational support."
+  },
+  {
+    "gap_id": "MYS2023-02-G002",
+    "type": "event_end_state_response",
+    "description": "Available Feb 2 protest accounts establish a memorandum handover but do not give a clear event end or describe a government response to the demands.",
+    "source_ids": [
+      "MYS2023-02-S002",
+      "MYS2023-02-S004"
+    ],
+    "affected_candidates": [
+      "MYS2023-02-E001"
+    ],
+    "required_followup": "Seek a separate permitted follow-up that specifies meeting/response and close of this particular event; absent that, retain unknown fields."
+  },
+  {
+    "gap_id": "MYS2023-02-G003",
+    "type": "candidate_classification",
+    "description": "The Feb 17–18 HIMPIT gathering included a PAS Youth contest parade in Setiu and generated police/public controversy over imitation weapons. Search records describe it as part of an annual party youth programme; no clear demand addressed to Malaysian authorities, event headcount, or general-public access is established. No protest event is coded from the current material.",
+    "source_ids": [
+      "MYS2023-02-S005",
+      "MYS2023-02-S006",
+      "MYS2023-02-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Only if useful, seek permitted independent reporting on event format, public access and any explicit state/policy demand; do not infer a protest from political-party identity or later police investigation."
+  },
+  {
+    "gap_id": "MYS2023-02-G004",
+    "type": "coverage",
+    "description": "Fourteen captured English, Malay, Chinese and Tamil queries included early/late-month date windows, national/local publisher terms, labor, health, student, cost-of-living and regional searches. Relevant confirmed coverage is concentrated in Putrajaya and Setiu; targeted archive coverage for other states, languages and sectors is incomplete. Health-worker strike references were rumors/uncertain plans and no actual gathering was found. The Bernama-specific Malay query returned an explicit empty result.",
+    "source_ids": [
+      "MYS2023-02-S001",
+      "MYS2023-02-S002",
+      "MYS2023-02-S004",
+      "MYS2023-02-S005",
+      "MYS2023-02-S008"
+    ],
+    "affected_candidates": [
+      "MYS2023-02-E001"
+    ],
+    "required_followup": "A bounded pass may add date-specific regional or sectoral news archive queries, especially Sabah/Sarawak and student/worker local reporting; do not describe coverage as exhaustive or claim the absence of further events."
+  }
+]

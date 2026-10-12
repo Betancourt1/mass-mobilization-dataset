@@ -1,0 +1,161 @@
+[
+  {
+    "gap_id": "ECU23MAR-G001",
+    "type": "threshold",
+    "description": "The 8 March Quito event has a clear local qualitative estimate of hundreds; Guayaquil and Cuenca are separate local actions without site-level counts. Do not pool across cities.",
+    "source_ids": [
+      "ECU2023-03-S002",
+      "ECU2023-03-S003"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-03_E002",
+      "ecuador_2023-03_E003"
+    ],
+    "required_followup": "Find city-specific counts or clear simultaneous crowd descriptions for Guayaquil and Cuenca."
+  },
+  {
+    "gap_id": "ECU23MAR-G002",
+    "type": "state_target",
+    "description": "Guayaquil’s march rejected femicides and Cuenca’s completed march/memorial commemorated victims, but the local body does not establish a specific demand on the State for those local actions.",
+    "source_ids": [
+      "ECU2023-03-S003"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-03_E002",
+      "ecuador_2023-03_E003"
+    ],
+    "required_followup": "Seek local organizer/source reporting that identifies a State authority or policy target and exact demand for each city."
+  },
+  {
+    "gap_id": "ECU23MAR-G003",
+    "type": "threshold",
+    "description": "The March 1 Guayaquil Front Popular plantón and Quito FEUE plantons are reported as occurring, but no site-specific attendance count is given.",
+    "source_ids": [
+      "ECU2023-03-S004",
+      "ECU2023-03-S005"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-03_E004",
+      "ecuador_2023-03_E005"
+    ],
+    "required_followup": "Find local reporting with a simultaneous attendance estimate at each location; do not combine the two cities."
+  },
+  {
+    "gap_id": "ECU23MAR-G004",
+    "type": "state_target",
+    "description": "El Comercio reports FEUE joined Quito plantons on 1 March but does not establish the demand at those actual gatherings. A 28 February announcement is not proof of the March 1 agenda.",
+    "source_ids": [
+      "ECU2023-03-S004"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-03_E005"
+    ],
+    "required_followup": "Find contemporaneous source on the March 1 Quito action’s specific State target and demand."
+  },
+  {
+    "gap_id": "ECU23MAR-G005",
+    "type": "occurrence",
+    "description": "Primicias describes Cuenca’s 17:00 gathering outside Gobernación as planned at 16:43 update time; occurrence and demand remain unverified.",
+    "source_ids": [
+      "ECU2023-03-S003"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-03_E003"
+    ],
+    "required_followup": "Find later same-day or following-day confirmation before coding the scheduled gathering as completed."
+  },
+  {
+    "gap_id": "ECU23MAR-G006",
+    "type": "retrieval",
+    "description": "Ecuavisa search result returned relevant 8 March claims, but an exact-URL open returned a tool-level Internal Error without an HTTP status. The body was not available and the attempt was not repeated.",
+    "source_ids": [
+      "ECU2023-03-S001"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-03_E001"
+    ],
+    "required_followup": "Use independent accessible sources already captured or a newly assessed distinct publisher; do not retry this URL after a technical failure unless a policy-supported ordinary HTTPS recovery is authorized."
+  },
+  {
+    "gap_id": "ECU23MAR-G007",
+    "type": "continuity",
+    "description": "Actual Quito actions on 14 March (FUT), 25 March (UNE) and 28 March (CONAIE) are now documented. No evidence yet establishes whether any episode continued into April; announced actions alone do not prove continuity.",
+    "source_ids": [
+      "ECU2023-03-S007",
+      "ECU2023-03-S009",
+      "ECU2023-03-S008"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-03_E006",
+      "ecuador_2023-03_E007",
+      "ecuador_2023-03_E008"
+    ],
+    "required_followup": "Check April coverage for a demonstrated continuation and document any event end time; do not carry planned actions into completed-event coding."
+  },
+  {
+    "gap_id": "ECU23MAR-G008",
+    "type": "geographic_and_sector_coverage",
+    "description": "Research so far emphasizes national/march announcements, Quito, Guayaquil and Cuenca. March activity in other provinces and sectors beyond women’s rights, Indigenous actions, FEUE, Frente Popular and labor announcements is not exhaustively covered.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search provincial outlets and sector terms for transport, education, health, agriculture, extractive industries, public services and local government through the rest of March."
+  },
+  {
+    "gap_id": "ECU23MAR-G009",
+    "type": "threshold",
+    "description": "The FUT march on 14 March is directly reported in Quito with state-policy demands, but no participant count or qualitative size estimate is provided.",
+    "source_ids": [
+      "ECU2023-03-S007"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-03_E006"
+    ],
+    "required_followup": "Find local reporting with a site-specific estimate of simultaneous attendance; do not infer from union membership or the presence of several legislators."
+  },
+  {
+    "gap_id": "ECU23MAR-G010",
+    "type": "threshold",
+    "description": "A CONAIE-led march reached the National Assembly on 28 March and delivered/advanced a water-law proposal, but the report gives no crowd estimate.",
+    "source_ids": [
+      "ECU2023-03-S008"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-03_E007"
+    ],
+    "required_followup": "Search contemporaneous site-specific coverage for a local simultaneous attendance estimate and verify receipt/response without inferring crowd size from the organizers."
+  },
+  {
+    "gap_id": "ECU23MAR-G011",
+    "type": "occurrence_target_threshold",
+    "description": "A search-result snippet claims 25 March pro-life marches in several cities and a multi-city “thousands” total, but the exact article body was not retrieved and no local count or specific State target is established.",
+    "source_ids": [
+      "ECU2023-03-S010"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-03_E009"
+    ],
+    "required_followup": "Use an independently accessible source or organizer report after exact-URL/source-origin assessment to verify each local gathering, State demand and site-level simultaneous count; do not retry the failed ACI URL or aggregate locations."
+  },
+  {
+    "gap_id": "ECU23MAR-G012",
+    "type": "threshold",
+    "description": "Expreso’s search-only snippet lists a 28 March civic plantón at Cuenca’s Gobernación de Azuay and reports a Guayaquil gathering of about ten people. Cuenca’s local crowd size is unknown; Guayaquil is below threshold. Other cities are not assessed individually.",
+    "source_ids": [
+      "ECU2023-03-S011"
+    ],
+    "affected_candidates": [
+      "ecuador_2023-03_E010"
+    ],
+    "required_followup": "Find accessible local reporting for Cuenca and any other specifically named site; assess each crowd separately. Do not retry this exact Expreso URL after the technical failure and do not aggregate city counts."
+  },
+  {
+    "gap_id": "ECU23MAR-G013",
+    "type": "continuity",
+    "description": "The March 17 CONAIE internal assembly announced future sit-ins at the Constitutional Court and Assembly, but no completed public sit-in is verified in the sources consulted. The body explicitly described that leadership meeting as restricted and not mass.",
+    "source_ids": [
+      "ECU2023-03-S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Seek independent contemporaneous evidence of any actually completed public sit-in and its local crowd size; the internal assembly itself is excluded and future plans are not coded as completed events."
+  }
+]

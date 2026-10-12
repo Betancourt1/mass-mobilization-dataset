@@ -1,0 +1,46 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "search_capture_integrity",
+    "description": "Eight attempted January query outputs and four attempted January body-open outputs were not persisted in the initial capture incident. Query prompts/URLs and pre-open receipts available in audits/capture_loss_001.json; output/header bytes are not. They are not counted as captured query records or cited evidence, and none was repeated. Supplemental audit capture_loss_002.json distinguishes the exact saved Alhadath assessment/receipt from the unretained conversation-only 403 note; no formal restriction/hold is registered.",
+    "source_ids": []
+  },
+  {
+    "gap_id": "G002",
+    "type": "threshold",
+    "candidate_id": "libya_2023-01_E001",
+    "description": "Tripoli protest at Presidential Council is confirmed by the opened Libya Observer report, but no demonstrator count is reported. The 650,000 figure is petition signatories and must not be used as attendance.",
+    "source_ids": [
+      "S001"
+    ]
+  },
+  {
+    "gap_id": "G003",
+    "type": "pending_evidence",
+    "candidate_id": "libya_2023-01_E002",
+    "description": "The Benina airline protest is present only in a saved search-result excerpt; the attempted full-body output is not durable and was not retried. Search-result excerpt gives no attendance count and a possible Wal/Benghazi credit whose written-origin role is unresolved.",
+    "source_ids": [
+      "S002"
+    ]
+  },
+  {
+    "gap_id": "G004",
+    "type": "continuity",
+    "description": "January-to-February continuity is unresolved; Jan E002's ten-day demand deadline is not evidence of a later action. No January unit outside this month is in scope.",
+    "source_ids": [
+      "S002"
+    ]
+  },
+  {
+    "gap_id": "G005",
+    "type": "historical_inventory",
+    "description": "Historical source ledgers and a clean full inventory were not supplied. Current exact-source receipts/manual checks do not imply no historical restrictions; official baseline, license, and equivalent archive access remain pending.",
+    "source_ids": []
+  },
+  {
+    "gap_id": "G006",
+    "type": "coverage",
+    "description": "Only two of ten attempted January queries have durable outputs (Q009/Q010); eight calls are documented as uncaptured in capture_loss_001. The search engine is not LexisNexis and no exhaustive coverage claim is made.",
+    "source_ids": []
+  }
+]

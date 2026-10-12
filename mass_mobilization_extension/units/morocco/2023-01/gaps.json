@@ -1,0 +1,36 @@
+[
+  {
+    "gap_id": "morocco_2023-01_G001",
+    "type": "event_continuity",
+    "description": "Le360 says the 2 Jan sit-in was planned for two days, but the captured body does not establish whether it actually continued on 3 Jan or when it physically ended.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "morocco_2023-01_E001"
+    ],
+    "required_followup": "Search distinct contemporary coverage dated 3 Jan and later; do not infer continuation or end from the announcement."
+  },
+  {
+    "gap_id": "morocco_2023-01_G002",
+    "type": "corroboration",
+    "description": "Only one body-read report currently supports the candidate; query output has additional leads, but independent reporting and source-origin relationships need checks.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "morocco_2023-01_E001"
+    ],
+    "required_followup": "Assess other exact URLs; distinguish original reporting from syndication and retain unknown origin where not documented."
+  },
+  {
+    "gap_id": "morocco_2023-01_G003",
+    "type": "coverage",
+    "description": "Search coverage is open web and does not reproduce Lexis-Nexis; additional Arabic/French/English searches by date window, region, sector, and event continuity remain underway. Native query clocks and total result counts are not exposed.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue independent local and international discovery in the assigned month; official baseline and country-code mapping remain coordinator gates."
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "gap_id": "G001",
+    "type": "threshold",
+    "description": "Institute one-hour blockade at Debeli Brijeg is confirmed but no simultaneous headcount is published.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "E001"
+    ],
+    "required_followup": "Independent on-scene estimate of participants at the crossing."
+  },
+  {
+    "gap_id": "G002",
+    "type": "threshold",
+    "description": "Child-safety action coordinated between Podgorica and Bar; no attendance estimate at either site. Do not sum sites or affected children.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "E002"
+    ],
+    "required_followup": "Separate count for each location and whether action timing overlapped."
+  },
+  {
+    "gap_id": "G003",
+    "type": "eligibility",
+    "description": "Cetinje event has one approximate police count around 50 and the target may be a candidate/campaign rather than state policy.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "E003"
+    ],
+    "required_followup": "Independent count, articulated demand, organizer, and state-target basis."
+  },
+  {
+    "gap_id": "G004",
+    "type": "threshold",
+    "description": "Women’s march confirmed; crowd size, route and duration not reported.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [
+      "E004"
+    ],
+    "required_followup": "Independent attendance estimate and route/duration."
+  },
+  {
+    "gap_id": "G005",
+    "type": "threshold",
+    "description": "Nikšić March8 protest confirmed; report says 10–15 dorm residents among protesters but gives no total. The 260 students housed there are not turnout.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "E005"
+    ],
+    "required_followup": "Total simultaneous protest crowd count."
+  },
+  {
+    "gap_id": "G006",
+    "type": "eligibility",
+    "description": "Health-center protest occurred; no attendance estimate and state-policy target versus internal management dispute remains uncertain.",
+    "source_ids": [
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "E006"
+    ],
+    "required_followup": "Independent count and explicit state-policy/ministerial demand."
+  },
+  {
+    "gap_id": "G007",
+    "type": "threshold",
+    "description": "OŠ Vladimir Nazor protest is confirmed outside Government; 1,300 refers to pupils affected, not protest attendance.",
+    "source_ids": [
+      "S006"
+    ],
+    "affected_candidates": [
+      "E007"
+    ],
+    "required_followup": "Numerical count at gathering."
+  },
+  {
+    "gap_id": "G008",
+    "type": "query_capture",
+    "description": "After six durable March search records, three additional search tool calls had no durable raw outputs due serialization errors; one prompt batch was rerun and last response is preserved as Q009. Earlier outputs were not reconstructed. Two accidental duplicate prompt executions occurred. No further repetitions. ",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "None; preserve loss and rely on durable captures only."
+  },
+  {
+    "gap_id": "G009",
+    "type": "retrieval",
+    "description": "Exact Vijesti AMP March3 student target returned “Internal Error ()” without HTTP status; technical failure, not denial. S005 body confirms previous-week action; S010 remains discovery-only.",
+    "source_ids": [
+      "S005",
+      "S010"
+    ],
+    "affected_candidates": [
+      "E008"
+    ],
+    "required_followup": "Do not retry exact AMP URL; any follow-up must use a distinct assessed target."
+  },
+  {
+    "gap_id": "G010",
+    "type": "coverage",
+    "description": "March EN and Montenegrin/Serbian searches/opened reports cover Podgorica, Bar, Cetinje, Nikšić, Herceg Novi and Debeli Brijeg. Other municipality and sector coverage remains incomplete. ",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If feasible, pursue only new non-duplicate regional/sector leads."
+  },
+  {
+    "gap_id": "G011",
+    "type": "continuity",
+    "description": "Institute preservation/financial campaign has earlier context, but no verified Jan/Feb public action is retained. Do not create a cross-month episode absent a direct source.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "E001"
+    ],
+    "required_followup": "Link only if direct saved evidence establishes prior event/campaign continuity."
+  }
+]

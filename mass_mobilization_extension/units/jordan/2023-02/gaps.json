@@ -1,0 +1,53 @@
+[
+  {
+    "gap_id": "jordan_2023-02_G001",
+    "type": "threshold",
+    "description": "Roya News reports “crowds” at the Amman Al-Kalouti Mosque gathering but gives no local number; article’s “hundreds” covers several actions and is directly localized only to the Irbid march.",
+    "source_ids": [
+      "JOD2023-02-S001"
+    ],
+    "affected_candidates": [
+      "jordan_2023-02_E002"
+    ],
+    "required_followup": "Seek a distinct contemporary report with an Amman-site simultaneous count; no pooling across same-day events."
+  },
+  {
+    "gap_id": "jordan_2023-02_G002",
+    "type": "event_scope_and_independence",
+    "description": "Roya News describes a call by a national forum, multiple marches/sit-ins/vigils, Amman and Irbid, but only localizes an explicit count to Irbid. It is unclear whether these actions were one organized national episode or distinct local events; no origin/corroboration chain is established.",
+    "source_ids": [
+      "JOD2023-02-S001"
+    ],
+    "affected_candidates": [
+      "jordan_2023-02_E001",
+      "jordan_2023-02_E002"
+    ],
+    "required_followup": "Check distinct local reporting by venue and organizer; keep event candidates split unless evidence establishes common national organization."
+  },
+  {
+    "gap_id": "jordan_2023-02_G003",
+    "type": "continuity_and_closure",
+    "description": "No report retrieved establishing the physical ending or any continuation of the February 24 Irbid march or Amman gathering. Article publication/event date does not prove end date.",
+    "source_ids": [
+      "JOD2023-02-S001"
+    ],
+    "affected_candidates": [
+      "jordan_2023-02_E001",
+      "jordan_2023-02_E002"
+    ],
+    "required_followup": "Seek an explicit close/retrospective account and check whether any action continued into March."
+  },
+  {
+    "gap_id": "jordan_2023-02_G004",
+    "type": "coverage",
+    "description": "Partial open-web Arabic/English coverage across four within-month windows; no LexisNexis/equivalent archive. February 1–28 broad searches and local report follow-up identify the Feb 24 actions but do not establish exhaustive coverage of labor, student, rural or professional-sector mobilization. Search output exposes no total-result counts.",
+    "source_ids": [
+      "JOD2023-02-S001"
+    ],
+    "affected_candidates": [
+      "jordan_2023-02_E001",
+      "jordan_2023-02_E002"
+    ],
+    "required_followup": "Continue distinct regional/sector-specific Arabic and English checks if later assigned; do not treat no additional discovered candidates as proof of no other events."
+  }
+]

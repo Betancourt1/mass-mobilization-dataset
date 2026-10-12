@@ -1,0 +1,68 @@
+[
+  {
+    "gap_id": "mozambique_2023-02_G001",
+    "type": "coverage",
+    "description": "Six broad and weekly Portuguese/English searches returned no confirmed in-window protest report. Search responses repeatedly surfaced newer election-related unrest or unrelated security/insurgency coverage; the engine’s date-window behavior was unreliable. This is not evidence that no protest occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search February 2023 using direct local outlets and regional/source-specific queries; check publication and event dates in bodies before coding."
+  },
+  {
+    "gap_id": "mozambique_2023-02_G002",
+    "type": "geographic_and_sector_coverage",
+    "description": "The first pass was weighted toward Maputo, with limited mentions of Beira/Nampula/Quelimane. It did not systematically cover every province, municipality, labor sector or student/community organization.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue region-by-region and sector-specific Portuguese/English searches and record actual returned evidence."
+  },
+  {
+    "gap_id": "mozambique_2023-02_G003",
+    "type": "language",
+    "description": "Portuguese and English were searched; no searches in Changana, Emakhuwa or other local languages were performed in this bounded checkpoint.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If feasible, search local-language terms or local-language outlets; otherwise retain this coverage gap."
+  },
+  {
+    "gap_id": "mozambique_2023-02_G004",
+    "type": "baseline_and_method",
+    "description": "Open-web searching is not Lexis-Nexis-equivalent and cannot support a no-events/exhaustive-coverage claim. Official baseline/universe and Polity code mapping remain unresolved.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator baseline gate remains pending; continue independent searches and event continuity checks."
+  },
+  {
+    "gap_id": "mozambique_2023-02_G005",
+    "type": "screened_lead",
+    "description": "A search result described a 14-Feb UP-Maputo student petition about tuition/fees; it is a legal filing, not a public gathering. No event candidate is retained from it.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If new reporting identifies a contemporaneous student assembly/march, assess that separate action; do not treat the petition itself as protest attendance."
+  },
+  {
+    "gap_id": "mozambique_2023-02_G006",
+    "type": "eligibility_threshold_and_access",
+    "description": "Search-only Ikweli report describes a 14-Feb manifestation by Malema municipal police agents, giving a count of 15 agents and mentioning additional OJM members without number; public assembly and 50-person threshold are unverified. Exact body request returned tool-level inaccessible response without HTTP status/content.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-02_E001"
+    ],
+    "required_followup": "No retry/variant on this exact story. Seek independent permitted local reporting if available to establish whether a public gathering occurred, site-specific turnout and state target."
+  },
+  {
+    "gap_id": "mozambique_2023-02_G007",
+    "type": "attendance_date_and_continuity",
+    "description": "O País body verifies workers demonstrated in front of the Namaacha municipal building almost a month after Jan 6, but gives no exact day or turnout. The likely date interval may straddle late January/early February, so onset-month assignment and relation to the earlier work stoppage remain unresolved.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "mozambique_2023-02_E002"
+    ],
+    "required_followup": "Preserve pending_unit until a source gives a date precise enough to assign onset month; do not infer attendance or physical end from the Mayor’s statement that workers returned to work."
+  }
+]

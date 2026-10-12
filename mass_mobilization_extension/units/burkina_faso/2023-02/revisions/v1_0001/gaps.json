@@ -1,0 +1,55 @@
+[
+  {
+    "gap_id": "BF23-02-G001",
+    "type": "threshold_and_target",
+    "description": "The 25 February Ouagadougou public conference is documented, but S001 gives no attendance and describes support for the transition plus criticism of ECOWAS. It does not establish 50 simultaneous participants or a demand directed at Burkina Faso’s state/policy.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2023-02_E001"
+    ],
+    "required_followup": "A permitted contemporaneous account giving the gathering’s size and explicit demands addressed to Burkina Faso’s government; if unavailable, retain pending_evidence."
+  },
+  {
+    "gap_id": "BF23-02-G002",
+    "type": "event_date_and_state_target",
+    "description": "S002 reports approximately 3,000 at an MPST rally in Bobo-Dioulasso, but the article supplies only its 6 February publication date, not the rally date, and does not report a demand to Burkina Faso’s government. S004 independently documents a January 28 pro-transition meeting at the same square, but no evidence links the organizers/events; identity must not be assumed.",
+    "source_ids": [
+      "S002",
+      "S004"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2023-02_E002"
+    ],
+    "required_followup": "A permitted source explicitly dating the MPST rally and identifying whether it is the 28 January gathering or a distinct February gathering, plus evidence of a domestic state/policy demand; otherwise do not assign to February."
+  },
+  {
+    "gap_id": "BF23-02-G003",
+    "type": "threshold",
+    "description": "Lefaso confirms a Partiaga residents’ press conference in Ouagadougou on 27 February with demands directed at authorities, but supplies no headcount; a press briefing with representatives may be smaller than 50.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2023-02_E003"
+    ],
+    "required_followup": "Permitted evidence of simultaneous attendance or whether this press conference constituted a broader public gathering of at least 50; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "BF23-02-G004",
+    "type": "coverage_and_continuity",
+    "description": "Twelve open-web searches covered general French-language protest terms; local Burkina24, Lefaso, Sidwaya/AIB, regional cities (Bobo-Dioulasso, Ouahigouya, Koudougou, Gaoua, Dori), labor/education/health sectors, and the four February date windows. The results were sparse and search-engine rankings duplicated neighboring-month or unrelated material. Coverage beyond these queries, especially local-language coverage, remains incomplete. The only same-place continuity lead is an undated Bobo rally in S002 and an explicitly January 28 meeting in S004; no identity link is established.",
+    "source_ids": [
+      "S002",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "burkina_faso_2023-02_E001",
+      "burkina_faso_2023-02_E002",
+      "burkina_faso_2023-02_E003"
+    ],
+    "required_followup": "Further permitted local reporting in French and feasible local-language sources; resolve E002 date/episode link and check March reports for any continuing Ouagadougou mobilization tied to E001. This method does not support an exhaustive zero-protest conclusion."
+  }
+]

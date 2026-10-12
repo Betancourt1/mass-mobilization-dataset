@@ -1,0 +1,80 @@
+[
+  {
+    "gap_id": "netherlands_2023-01_G001",
+    "type": "episode_continuity",
+    "description": "Two contemporaneous bodies support the executed 28 Jan A12 XR blockade. Searches also surfaced a search-only RTL header announcing a planned 11 March A12 action. The January record does not establish whether the later activity occurred or whether the Jan and March actions belong to a continuing episode.",
+    "source_ids": [
+      "S001",
+      "S005"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-01_E001"
+    ],
+    "required_followup": "During February/March research, seek contemporaneous independent reports of actual A12 gatherings and dates, distinguish new gatherings from campaign continuity, and do not treat the announcement/search header as execution evidence."
+  },
+  {
+    "gap_id": "netherlands_2023-01_G002",
+    "type": "threshold_and_state_target",
+    "description": "UvA Binnengasthuis occupation occurred on 16 Jan and ended around 23:30 per AT5, with 30 arrests. Both NOS and AT5 say “dozens,” which does not establish 50 attendees, and the reported demand targets UvA rather than clearly the Dutch state or state policy.",
+    "source_ids": [
+      "S002",
+      "S009"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-01_E002"
+    ],
+    "required_followup": "Keep pending unless saved or future independent evidence establishes at least 50 simultaneously assembled and a direct domestic state/policy target; preserve the institution-directed demand separately."
+  },
+  {
+    "gap_id": "netherlands_2023-01_G003",
+    "type": "threshold_and_episode_ownership",
+    "description": "Local reports document separate farmers’ route gatherings at Leeuwarden on 17 Jan and Zwolle on 23 Jan, describing travel past all Dutch provincial houses and opposition to policies imposed by The Hague/nitrogen policy. Neither report gives attendance. Whether they are stops in one itinerant episode is plausible but not explicitly confirmed; no crowd pooling is justified.",
+    "source_ids": [
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [
+      "netherlands_2023-01_E003",
+      "netherlands_2023-01_E004"
+    ],
+    "required_followup": "Check independent reporting on the named Grote Leugensroute, the organizers, exact daily stops, same-site headcounts, policy addressee and physical duration. Retain separate site/date candidates until episode and threshold evidence support any merge."
+  },
+  {
+    "gap_id": "netherlands_2023-01_G004",
+    "type": "unresolved_local_source",
+    "description": "Q008/Q013/Q015 surfaced a Groningen farmers’ protest lead at the provincial house (OOG TV), but its exact body-open response was lost before raw persistence; no content or denial is known and no retry was made. A separate Leidsch Dagblad exact URL produced `Internal Error ()` / `Failed to fetch restricted URL`; its exact-action tool refusal is recorded by central restriction 0056, without HTTP status or publisher-wide hold. These leads are not established as the same written story or as a new event.",
+    "source_ids": [
+      "S004",
+      "S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry or vary the lost OOG response or exact Leidsch URL. If a materially needed fact about a distinct Groningen event remains, use only clearly independent permitted reporting or authority evidence, with exact target assessment and no origin assumptions."
+  },
+  {
+    "gap_id": "netherlands_2023-01_G005",
+    "type": "tool_rejection",
+    "description": "The local Omroep West query NL23JAN-Q007 returned exact text “Blocked by robots.txt” and “The following domains cannot be accessed (non-retryable error): omroepwest.nl”. The raw response is retained. This is scoped to that query/host tool action; no body, HTTP status, editorial policy or written-origin relation is claimed.",
+    "source_ids": [],
+    "affected_candidates": [
+      "netherlands_2023-01_E001"
+    ],
+    "required_followup": "No retry or variant of Q007. Continue with other permitted Dutch local/national sources already represented by NOS, NRC, RTL search results and other distinct outlets."
+  },
+  {
+    "gap_id": "netherlands_2023-01_G006",
+    "type": "coverage",
+    "description": "Sixteen captured Dutch- and English-language searches covered broad January discovery; date windows for 1–10, 11–20 and 21–31; transport/labor, education/university, climate, farmers/nitrogen policy, and Iran-related foreign-policy protest leads; and local/regional terms for Amsterdam, The Hague, Groningen, Leeuwarden, Zwolle, Utrecht/Eindhoven and other cities. Local sources opened include AT5, Omroep Leeuwarden and Zwolle Nieuws; national sources include NOS, NRC, DutchNews and RD. Search results were mixed-year and no systematic archive or all-province local-media sweep was performed.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005",
+      "S007",
+      "S009",
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "affected_candidates": [],
+    "required_followup": "During package-level coverage review, consider feasible distinct regional outlets and any other documented date-window/sector leads. Do not claim exhaustive coverage or infer no protests from unreported results."
+  }
+]

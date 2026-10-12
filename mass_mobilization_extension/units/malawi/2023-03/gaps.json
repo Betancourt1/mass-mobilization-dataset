@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "G001",
+    "topic": "E001 origin, simultaneous turnout and ending",
+    "source_ids": [
+      "S004"
+    ],
+    "summary": "Africa-Press reports a March 13 gathering at SFFRFM in Blantyre and a demand for government fertilizer distribution, but names no article author or underlying written source. It reports over 20 MPs only; total attendance and end time remain unknown. The article quotes a speaker to Nation Online but does not establish that publication as origin or independent corroboration.",
+    "follow_up": "Seek a separately published, permitted contemporaneous account of the same March 13 site, resolve any written-origin relationship from explicit evidence, and seek a total simultaneous count; no count by summing sites or extrapolating from MPs."
+  },
+  {
+    "gap_id": "G002",
+    "topic": "March 20 shutdown announcement resolved as cancelled",
+    "source_ids": [
+      "S001"
+    ],
+    "summary": "The Feb. announcement had been retained as a future lead. A March 16 Malawi24 report says organizers cancelled before the scheduled March 20 demos due to Cyclone Freddy; an associated donation visit is not itself a protest.",
+    "follow_up": "No further action unless independent evidence contradicts cancellation; do not code the planned action as an event."
+  },
+  {
+    "gap_id": "G003",
+    "topic": "SFFRFM reports of Jan. 31 action are out of March window",
+    "source_ids": [
+      "S003",
+      "S005"
+    ],
+    "summary": "Radio Islam’s Jan. 31 full article and a Feb. 1 partial Blackfacts excerpt credited to The Times Group describe MPs at SFFRFM the previous day. These refer to a Jan. 31 lead, not the distinct March 13 Africa-Press report. Neither is used as March corroboration; the Blackfacts item is only a partial excerpt.",
+    "follow_up": "None for March; preserve as date-separation evidence and do not merge with E001."
+  },
+  {
+    "gap_id": "G004",
+    "topic": "Other March events / regional and sectoral coverage",
+    "source_ids": [
+      "S001",
+      "S004"
+    ],
+    "summary": "Queries covered broad Malawi protests, work/union action, AIP, Cyclone Freddy, localized districts, and Chichewa ziwonetsero/chiwonetsero/kuguba/zionetsero terms, including a retrospective search. Returns did not produce another March 2023 public-gathering candidate with body evidence; this bounded open-web search is not proof of absence.",
+    "follow_up": "If reopened, prioritize independent district reporting and labor/service sectors beyond Blantyre; inaccessible archives and LexisNexis are not covered."
+  },
+  {
+    "gap_id": "G005",
+    "topic": "Search header attribution, search restriction and native access times",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "summary": "Q001-Q004 were batched; complete raw outputs and ordered prompts are preserved but headers cannot be mapped to individual prompts. Q005-Q012 were individual calls; Q006 and Q011 had no results. The Q012 domain-filtered query response explicitly reports BBC search access blocked by robots.txt; its raw is units/malawi/2023-03/raw/Q012_search.json. The web tool exposed no native request/response/access times; timestamps remain null.",
+    "follow_up": "Do not reconstruct prompt attribution or timestamps; no retry of the BBC blocked search action."
+  }
+]

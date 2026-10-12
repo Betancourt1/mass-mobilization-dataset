@@ -1,0 +1,73 @@
+{
+  "quarter": "2023Q1",
+  "state": "STOPPED_SAVED",
+  "cutoff": "2026-10-07",
+  "official_complete_units": 0,
+  "source_revision": "540366f80d5b0bf50c267d5dcbcabc3c98423d97",
+  "source_inventory_sha256": "51d97c45b2ceced00cec6040b6d7fa049931472cf83512b7f3baae8839dc795e",
+  "local_artifact_counts": {
+    "manifest_reference_ids": 480,
+    "manifest_only_reference_ids_without_local_dossier": 296,
+    "latest_queue_unique_ids": 388,
+    "queued_ids_without_local_material": 204,
+    "outside_effective_queue_ids": 92,
+    "locally_materialized_unique_ids": 184,
+    "note_template_only_ids": 0,
+    "eight_file_research_dossier_ids": 184,
+    "partial_research_ids": 47,
+    "incomplete_file_dossier_ids": 0,
+    "research_ids_with_current_existing_hash_manifest": 173,
+    "independent_review_ids_with_selected_current_hashes": 166,
+    "ids_with_historical_or_stale_review": 35,
+    "ids_with_multiple_saved_status_versions": 102,
+    "extra_saved_status_versions": 189,
+    "duplicate_ids_in_latest_queue": 0,
+    "missing_local_material_ids": 296,
+    "missing_research_dossier_ids": 296
+  },
+  "retained_safe_source_files": 1237,
+  "omission_reasons": [
+    {
+      "reason": "ambiguous_long_or_multiline_prose",
+      "count": 38
+    },
+    {
+      "reason": "contact_or_personal_identifier_field",
+      "count": 1
+    },
+    {
+      "reason": "local_workstation_or_runtime_path",
+      "count": 156
+    },
+    {
+      "reason": "outside_safe_allowlist",
+      "count": 16582
+    },
+    {
+      "reason": "raw_or_excerpt_field",
+      "count": 327
+    },
+    {
+      "reason": "source_or_search_ledger_ambiguous_raw_payload",
+      "count": 752
+    },
+    {
+      "reason": "unparseable_structured_file",
+      "count": 4
+    }
+  ],
+  "worker_state": {
+    "existing_workers": 6,
+    "stopped": 6,
+    "active": 0
+  },
+  "private_export": {
+    "format": "tar.gz",
+    "sha256": "0ae75a4736816d5ff46ccf4f05f1819084c6d03b94b4bc74c7a6da7d3fab7b63",
+    "manifest_sha256": "1ff0597205f400d0783a21951806b35c93d767f0ad34fa157f0d09d163640bbc",
+    "bytes": 232275881,
+    "location": "local_private_artifact_not_published"
+  },
+  "history_status": "fresh parentless export; private local checkpoint history not pushed",
+  "limits": "Counts are local manifest-derived artifact inventory, not scientific acceptance or official completion. Partial dossiers overlap full eight-file dossier inventory. Multiple saved versions do not count as new units. Public export is intentionally incomplete; source/search ledgers and body text are private. Research remains stopped."
+}

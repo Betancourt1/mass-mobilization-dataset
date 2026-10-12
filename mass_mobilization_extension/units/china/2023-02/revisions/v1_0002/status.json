@@ -1,0 +1,25 @@
+{
+  "unit_id": "china_2023-02",
+  "country": "China",
+  "month": "2023-02",
+  "status": "researched_open_web_pending_review",
+  "firstpass_complete": true,
+  "official_approved": false,
+  "baseline_gate": "pending_official_baseline",
+  "n_queries": 15,
+  "n_sources": 17,
+  "n_candidates": 3,
+  "n_excluded": 0,
+  "n_continuations": 1,
+  "n_gaps": 2,
+  "source_access_counts": {
+    "opened": 3,
+    "search_only": 14,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "metadata_unknown": true,
+  "started_at": "2026-10-11T06:36:00Z",
+  "research_model": "gpt-6-luna/high",
+  "completion_scope_note": "Bounded open-web first pass completed for February windows in Chinese and English; 3 opened article pages, 14 search-only cards, 3 pending-review candidates. This is not exhaustive coverage, independent review, baseline matching, or official approval. Q001/Q002 tool responses were lost before capture and are explicitly not zero-result searches; see uncaptured_calls.jsonl. Q010 capture writer incident is transparently preserved in raw_calls/cn23-02-writer-incident-001.json."
+}
