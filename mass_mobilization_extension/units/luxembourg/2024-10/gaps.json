@@ -1,0 +1,29 @@
+[
+  {
+    "gap_id": "lux_oct01_lead_output_loss",
+    "scope": "2024-10",
+    "affected_candidate_ids": [],
+    "affected_source_ids": [
+      "LUX24OCT_S004"
+    ],
+    "description": "An exact Virgule body request returned HTTP 403. Prior workflow notes mention a search-result lead for a possible October 1 action, but neither the result output nor body is preserved, so no details or occurrence can be established from the effective evidence.",
+    "next_steps": "If future permitted research is undertaken, use other permitted sources to check whether any relevant October 1 gathering occurred. Do not retry the exact Virgule URL after HTTP 403.",
+    "evidence": "Exact body capture raw_bodies/S004_oct01_virgule.open-error.json; ref turn389296view0. Prior search attempt metadata/output is missing; result count and URLs are null."
+  },
+  {
+    "gap_id": "lux_oct_regional_and_episode_coverage",
+    "scope": "2024-10",
+    "affected_candidate_ids": [
+      "luxembourg_2024-10_E001",
+      "luxembourg_2024-10_E002",
+      "luxembourg_2024-10_E004"
+    ],
+    "affected_source_ids": [
+      "LUX24OCT_S001",
+      "LUX24OCT_S002"
+    ],
+    "description": "Captured reporting is concentrated in Luxembourg City. October 26 reports unquantified Ukraine and Palestine gatherings; the October 7 hostage gathering is described as part of weekend events, but its series onset and adjacent-month episode relation are unknown. No captured source resolves regional events or continuity across the Q4 window.",
+    "next_steps": "If further research is assigned, search permitted local outlets and organizer/public records for provincial/regional Q4 actions and neighboring-weekend event reports; do not merge distinct gatherings without source evidence.",
+    "evidence": "Current query captures: lux_oct_fr_001, lux_oct7_2024_002, lux_oct_broad_001, lux_oct_followup_002; bodies S001/S002/S003."
+  }
+]

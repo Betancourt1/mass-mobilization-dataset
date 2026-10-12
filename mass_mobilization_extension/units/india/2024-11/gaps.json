@@ -1,0 +1,65 @@
+[
+  {
+    "gap_id": "IN24NOV-G001",
+    "type": "coverage_method",
+    "description": "Searches covered broad national and Noida land protest terms in English/Hindi and one national farmers/workers campaign. India-wide regions/sectors, vernacular press and weekly windows were not exhausted; no coverage-completion claim.",
+    "source_ids": [
+      "IN24NOV-S001",
+      "IN24NOV-S003",
+      "IN24NOV-S004"
+    ],
+    "affected_candidates": [
+      "IN24Q4-202411-E001",
+      "IN24Q4-202411-E002"
+    ],
+    "required_followup": "Search more state capitals/districts, Bengali/Tamil/Marathi/Telugu and other feasible languages, and labor, student, price and policing dimensions; examine adjacent months."
+  },
+  {
+    "gap_id": "IN24NOV-G002",
+    "type": "threshold_and_provenance",
+    "description": "National Nov26 one-million estimate is organizer-reported and aggregate over around 500 places; local Tribune describes a “massive” Ludhiana dharna but no numeric crowd count. CITU response account from Bhagalpur is not independently confirmed in captured bodies.",
+    "source_ids": [
+      "IN24NOV-S003",
+      "IN24NOV-S004"
+    ],
+    "affected_candidates": [
+      "IN24Q4-202411-E002"
+    ],
+    "required_followup": "Independent reviewer assess qualitative local threshold evidence, national-versus-local coding, organizer estimate and response reliability; seek additional permitted local contemporary counts."
+  },
+  {
+    "gap_id": "IN24NOV-G003",
+    "type": "continuity_and_ownership",
+    "description": "Noida agitation starts Nov25 and appears continuous through Dec5, with shift to YEIDA and Dec2 border march. The November candidate has later-month dates and references cross-unit Dec body captures; the December dossier records continuation only.",
+    "source_ids": [
+      "IN24NOV-S001",
+      "IN24NOV-S005",
+      "IN24NOV-S006",
+      "IN24NOV-S007"
+    ],
+    "affected_candidates": [
+      "IN24Q4-202411-E001"
+    ],
+    "required_followup": "Reviewer confirm one episode vs discrete sit-in/march actions, organizer relationships and onset-month ownership; do not create a duplicate December event."
+  },
+  {
+    "gap_id": "IN24NOV-G004",
+    "type": "retrieval_failure",
+    "description": "The Aaj Tak exact target open surfaced page navigation but not the article narrative; it remains search_only. The Hindu domain returned explicit robots.txt block during a search, not a body denial for a specific URL; no retry.",
+    "source_ids": [
+      "IN24NOV-S002"
+    ],
+    "affected_candidates": [
+      "IN24Q4-202411-E001"
+    ],
+    "required_followup": "No retry Aaj Tak exact URL or The Hindu blocked domain; other permitted sources may corroborate."
+  },
+  {
+    "gap_id": "IN24NOV-G005",
+    "type": "historical_access_scope",
+    "description": "Original historical source ledgers/approval originals are absent from this cloud kit. The V1 amendment identifies known affected AP/HRW/New Arab/Facebook/L’Orient restrictions; no no-match is treated as a clean historical inventory.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Retain this limitation; exact unlisted URLs are assessed locally before any body request."
+  }
+]

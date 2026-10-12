@@ -1,0 +1,62 @@
+[
+  {
+    "gap_id": "CH24OCT-G001",
+    "type": "search_capture_gap",
+    "query_id": "CH24OCT-Q008",
+    "input_path": "CH24OCT-Q008.input.json",
+    "query": "Tchadinfos \"Société : le personnel de la commune de N’Djamena en grève\" 03/10/2024 URL",
+    "tool": "mcp__codex_apps__search_service_web_run",
+    "capture_status": "output_lost_after_request",
+    "actual_returned_results": null,
+    "actual_returned_urls": null,
+    "notes": "Tool response was returned but not preserved because the subsequent capture-saving script failed before saving; response content was not printed. Do not interpret as zero results. A fresh rerun will receive a new query ID.",
+    "followup": "Repeat same query as CH24OCT-Q009 after recording its input and save native output immediately."
+  },
+  {
+    "gap_id": "CH24OCT-G002",
+    "type": "search_capture_gap",
+    "query_id": "CH24OCT-Q011",
+    "input_path": "CH24OCT-Q011.input.json",
+    "query": "Tchad Les Transformateurs convention N'Djamena 4 octobre 2024 rassemblement revendications gouvernement convention lutte justice égalité participants",
+    "tool": "mcp__codex_apps__search_service_web_run",
+    "capture_status": "output_lost_after_request",
+    "actual_returned_results": null,
+    "actual_returned_urls": null,
+    "notes": "Native response was returned but not saved or printed because capture script referenced an out-of-scope variable. Do not interpret as empty results; preserve response loss as gap.",
+    "followup": "Fresh rerun Q012 after recording input; new tool execution only."
+  },
+  {
+    "gap_id": "CH24OCT-G003",
+    "type": "source_and_threshold",
+    "description": "Africa-Press search snippet suggests municipal workers’ Oct 1 strike and Oct 2 press conference; exact body retrieval timed out with tool HTTP 400. The exact direct Tchadinfos article URL was not resolved from the archive result. Event onset, demands, attendance and protest character remain unverified; do not equate strike membership with a public crowd.",
+    "source_ids": [
+      "CH24OCT-S003"
+    ],
+    "affected_candidates": [
+      "CH24OCT-E002"
+    ],
+    "required_followup": "Find an exact alternative local report/source and apply a fresh exact access check/manual review before any body; otherwise leave as pending evidence."
+  },
+  {
+    "gap_id": "CH24OCT-G004",
+    "type": "query_capture_loss",
+    "description": "Search outputs for CH24OCT-Q008 and Q011 were lost after requests due researcher-side capture script errors. Both inputs and explicit capture-gap records are preserved; their actual result arrays/counts are unknown, not zero. Q009 and Q012 are new executions with distinct IDs.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No need to rerun further solely to reconstruct lost outputs; preserve the two gaps and use captured Q009/Q012 as distinct searches."
+  },
+  {
+    "gap_id": "CH24OCT-G005",
+    "type": "eligibility_threshold",
+    "description": "The Les Transformateurs convention is an event lead dated 4–5 Oct with political-process demands, but available sources do not establish a public protest rather than a party convention or attendance of at least 50. Venue labels differ across reports and continuity between them is unresolved.",
+    "source_ids": [
+      "CH24OCT-S005",
+      "CH24OCT-S006",
+      "CH24OCT-S007"
+    ],
+    "affected_candidates": [
+      "CH24OCT-E001"
+    ],
+    "required_followup": "Independent contemporaneous evidence of a public protest gathering, simultaneous attendance and exact venue/episode continuity; otherwise retain pending_threshold."
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "gap_id": "GB24NOV-G001",
+    "type": "threshold",
+    "description": "E001's only reported count is 'about 50' ESE teacher trainees; VOA gives no count and ANG describes dozens. The strict simultaneous >=50 threshold is unresolved.",
+    "source_ids": [
+      "GB24NOV-S001",
+      "GB24NOV-S002"
+    ],
+    "affected_candidates": [
+      "GB24NOV-E001"
+    ],
+    "required_followup": "Seek a distinct contemporaneous local or organizer source with an attendee count; do not count detained students as additional attendees."
+  },
+  {
+    "gap_id": "GB24NOV-G002",
+    "type": "threshold",
+    "description": "E002's 21 Nov opposition procession attempt has no public crowd size or direct attendee description. Number of detainees cannot measure turnout.",
+    "source_ids": [
+      "GB24NOV-S003",
+      "GB24NOV-S004"
+    ],
+    "affected_candidates": [
+      "GB24NOV-E002"
+    ],
+    "required_followup": "Seek contemporaneous reports or organizer records stating whether a crowd formed and its simultaneous size."
+  },
+  {
+    "gap_id": "GB24NOV-G003",
+    "type": "state_target",
+    "description": "E002 sources state an opposition procession was scheduled and dispersed but do not specify its immediate demands. Election delay is contextual, not automatically the procession's demand.",
+    "source_ids": [
+      "GB24NOV-S003",
+      "GB24NOV-S004"
+    ],
+    "affected_candidates": [
+      "GB24NOV-E002"
+    ],
+    "required_followup": "Find an organizer call, placard, statement or report explicitly documenting the procession's demand before coding a state target."
+  },
+  {
+    "gap_id": "GB24NOV-G004",
+    "type": "continuity",
+    "description": "No follow-up establishes whether the ESE tuition mobilization continued after the 6 Nov dispersal or whether the 21 Nov opposition procession belonged to any continuing campaign. They remain separate episodes.",
+    "source_ids": [
+      "GB24NOV-S001",
+      "GB24NOV-S002",
+      "GB24NOV-S003",
+      "GB24NOV-S004"
+    ],
+    "affected_candidates": [
+      "GB24NOV-E001",
+      "GB24NOV-E002"
+    ],
+    "required_followup": "Search adjacent dates and organizer statements for continuation/onset; do not merge by shared political context."
+  },
+  {
+    "gap_id": "GB24NOV-G005",
+    "type": "coverage",
+    "description": "Seven logged queries cover Portuguese and English generic, student/teacher, opposition and date-window terms. The captured results are Bissau-centered; no systematic regional archive search was available. Batch Q002 contained three queries with one aggregated, unattributable response preserved in raw captures and zero header assignments in logs.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If a regional event lead appears, search its location and local outlets; do not infer nationwide completeness."
+  },
+  {
+    "gap_id": "GB24NOV-G006",
+    "type": "coverage",
+    "description": "Only open-web discovery was used; the original LexisNexis workflow and comprehensive newspaper database are unavailable. Native search totals/times are unknown.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat this as a bounded open-web search, not exhaustive event absence; consult a systematic archive if later available."
+  }
+]

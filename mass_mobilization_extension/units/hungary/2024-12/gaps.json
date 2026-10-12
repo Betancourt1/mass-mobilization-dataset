@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "HUN24DEC-G001",
+    "type": "coverage_limit",
+    "description": "Open-web coverage only, not systematic LexisNexis/newspaper archive coverage. Five saved English/Hungarian queries covered monthly, child-protection false lead, taxi-sector, judiciary and regional searches. This does not establish the absence of other events.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent review may continue date-window and regional-source searches."
+  },
+  {
+    "gap_id": "HUN24DEC-G002",
+    "type": "threshold_unknown",
+    "description": "The 17 December taxi demonstration has clear state and municipal policy demands, but the opened reports give no participant count. Statements about thousands of families in the sector are not attendance counts.",
+    "source_ids": [
+      "HUN24DEC-S002",
+      "HUN24DEC-S003"
+    ],
+    "affected_candidates": [
+      "HUN24DEC-E002"
+    ],
+    "required_followup": "Find an event-specific number of simultaneous people or retain pending_threshold."
+  },
+  {
+    "gap_id": "HUN24DEC-G003",
+    "type": "state_response_unknown",
+    "description": "No response category or protester-violence observation is established for the December 11 judicial protest or December 17 taxi demonstration.",
+    "source_ids": [
+      "HUN24DEC-S001",
+      "HUN24DEC-S002",
+      "HUN24DEC-S003"
+    ],
+    "affected_candidates": [
+      "HUN24DEC-E001",
+      "HUN24DEC-E002"
+    ],
+    "required_followup": "Do not code silence as ignore or as nonviolence."
+  },
+  {
+    "gap_id": "HUN24DEC-G004",
+    "type": "origin_and_review_limit",
+    "description": "Klubrádió references the organizer's Facebook event for specific taxi demands; the link was not opened due to the known Facebook hold. The opened report itself also states the key tax/policy demands.",
+    "source_ids": [
+      "HUN24DEC-S003"
+    ],
+    "affected_candidates": [
+      "HUN24DEC-E002"
+    ],
+    "required_followup": "Do not pursue the held Facebook target; rely only on evidence in the accessible article."
+  },
+  {
+    "gap_id": "HUN24DEC-G005",
+    "type": "baseline_missing",
+    "description": "Official baseline and original ccode remain pending; no code was invented.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator owns baseline verification."
+  }
+]

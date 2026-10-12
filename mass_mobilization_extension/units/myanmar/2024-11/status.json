@@ -1,0 +1,41 @@
+{
+  "unit_id": "myanmar_2024-11",
+  "country": "Myanmar",
+  "month": "2024-11",
+  "status": "researched_open_web_pending_review",
+  "firstpass_complete": false,
+  "official_approved": false,
+  "n_queries": 4,
+  "n_sources": 2,
+  "n_candidates": 2,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 2,
+  "source_access_counts": {
+    "opened_cards": 2,
+    "search_only_cards": 0,
+    "blocked_cards": 0,
+    "not_found_cards": 0
+  },
+  "metadata_unknown": true,
+  "query_capture_integrity": {
+    "captured_header_count": 124,
+    "uncaptured_search_attempts_recorded_in_gaps": true
+  },
+  "notes": "Versioned researcher snapshot; validation is structural only. Non-exhaustive; human review and official baseline remain pending.",
+  "baseline_gate": "pending_official_baseline",
+  "pending_coverage": {
+    "unit_pending_coverage": true,
+    "affected_candidate_ids": [
+      "MMR2024-11-E001",
+      "MMR2024-11-E002"
+    ],
+    "dimensions": [
+      "regional/source diversity",
+      "threshold verification",
+      "event date/place/episode and adjacent-month continuity"
+    ],
+    "reason": "A feasible scoped follow-up remains: the current open-web sample is non-exhaustive, regional/source diversity is limited, and candidate threshold or date/episode questions remain unresolved.",
+    "next_permitted_action": "Continue targeted English and Burmese regional/date-window searches through new sources after an exact-URL local assessment; seek independent event-specific attendance, date and organizer evidence, and check adjacent-month continuity. Do not reopen failed, denied, or held targets."
+  }
+}

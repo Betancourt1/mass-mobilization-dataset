@@ -1,0 +1,24 @@
+[
+  {
+    "gap_id": "DE2024-10-G001",
+    "candidate_id": "DE2024-10-E001",
+    "dimension": "independent corroboration / source provenance",
+    "reason": "Only one body was retrieved for the event; DW footer credits dpa and AFP, but its written origin and independence are unknown. Exact secondary RBB body attempt returned 404 and the official traffic source returned HTTP 403.",
+    "next_permitted_action": "Search permitted German and English local reporting for the same 3 October event; assess each exact URL and publisher/origin before opening; do not retry the denied VIZ URL or failed RBB URL.",
+    "effect": "Candidate evidence remains based on DW alone; count and source independence limits remain explicit."
+  },
+  {
+    "gap_id": "DE2024-10-G002",
+    "candidate_id": "DE2024-10-E001",
+    "dimension": "episode and event structure",
+    "reason": "DW reports multiple route streams and a final rally but does not resolve whether all attendance formed one event or distinct synchronous gatherings, nor link to adjacent-month precursor/continuity.",
+    "next_permitted_action": "Search neighboring September/November records and source material for organizer/event structure; avoid merging separate sites or treating totals across sites as simultaneous."
+  },
+  {
+    "gap_id": "DE2024-10-G003",
+    "candidate_id": "DE2024-10-E001",
+    "dimension": "search-source restriction / coverage",
+    "reason": "A targeted multi-domain search response returned “Blocked by robots.txt; non-retryable” for spiegel.de. No target URL/source was identified; no retry was attempted. Other queried domains returned results.",
+    "next_permitted_action": "Continue discovery through unrelated permitted German sources. Do not search or open the blocked Spiegel domain under this failed action."
+  }
+]

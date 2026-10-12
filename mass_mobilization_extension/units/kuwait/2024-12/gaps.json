@@ -1,0 +1,66 @@
+[
+  {
+    "gap_id": "KW24DEC-G001",
+    "type": "onset_ownership",
+    "description": "The cleaning-company strike crisis was reported resolved by 5 December, but neither body gives the first strike date; the strike may have begun in November or December.",
+    "source_ids": [
+      "KW24DEC-S001",
+      "KW24DEC-S002"
+    ],
+    "affected_candidates": [
+      "KW24DEC-E001"
+    ],
+    "required_followup": "Locate contemporaneous dated reports from late November/early December or worker/contractor records to establish first collective action and onset month."
+  },
+  {
+    "gap_id": "KW24DEC-G002",
+    "type": "threshold_and_public_gathering",
+    "description": "No source gives participant count, a 50-plus estimate, gathering location or evidence that the work stoppage included a public gathering.",
+    "source_ids": [
+      "KW24DEC-S001",
+      "KW24DEC-S002"
+    ],
+    "affected_candidates": [
+      "KW24DEC-E001"
+    ],
+    "required_followup": "Find a contemporaneous report or organizer/worker record documenting number present together, where they gathered and whether the action was a public sit-in/march or only a workplace strike."
+  },
+  {
+    "gap_id": "KW24DEC-G003",
+    "type": "state_target",
+    "description": "Sources identify unpaid wages to contractor workers and government payment of arrears to companies; they do not establish whether workers demanded state action or pursued only private-employer wage claims.",
+    "source_ids": [
+      "KW24DEC-S001",
+      "KW24DEC-S002"
+    ],
+    "affected_candidates": [
+      "KW24DEC-E001"
+    ],
+    "required_followup": "Seek worker/union statements or contemporaneous reporting specifying employer, demand addressee and the relevant state contracting/payment policy."
+  },
+  {
+    "gap_id": "KW24DEC-G004",
+    "type": "inaccessible_source",
+    "description": "The U.S. State Department custom report target returned tool text “Exception: forbidden” without HTTP status; no body or report year was verified. Similar wording appeared later in an older report search hit, so its snippet is not evidence for the 2024 candidate.",
+    "source_ids": [
+      "KW24DEC-S003"
+    ],
+    "affected_candidates": [
+      "KW24DEC-E001"
+    ],
+    "required_followup": "Do not retry the denied URL or access an alternate copy. Use independent permitted contemporary Arabic/English sources to resolve onset, turnout and demand target."
+  },
+  {
+    "gap_id": "KW24DEC-G005",
+    "type": "coverage",
+    "description": "Open-web searches covered early and late December and education/labor dimensions, but not the manual’s LexisNexis corpus or a complete local newspaper archive.",
+    "source_ids": [
+      "KW24DEC-S001",
+      "KW24DEC-S002"
+    ],
+    "affected_candidates": [
+      "KW24DEC-E001"
+    ],
+    "required_followup": "If accessible, search date-ranged local Arabic/regional news and labor union records, then update only if new actual evidence supports the event fields."
+  }
+]

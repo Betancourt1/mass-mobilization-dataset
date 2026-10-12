@@ -1,0 +1,97 @@
+[
+  {
+    "gap_id": "austria_2024-11_G001",
+    "type": "coverage",
+    "description": "Open web searches included English/German broad and weekly windows plus issue-specific terms; no systematic LexisNexis or newspaper archive access.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search local archives, official event/police records and additional independent outlets."
+  },
+  {
+    "gap_id": "austria_2024-11_G002",
+    "type": "language",
+    "description": "German and English searches predominated; other languages were not systematically covered.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search relevant community-language reporting and organizer material."
+  },
+  {
+    "gap_id": "austria_2024-11_G003",
+    "type": "continuity",
+    "description": "November starts/ends and links to events in adjacent months remain unverified.",
+    "source_ids": [
+      "S001",
+      "S007"
+    ],
+    "affected_candidates": [
+      "austria_2024-11_E001",
+      "austria_2024-11_E004",
+      "austria_2024-11_E005"
+    ],
+    "required_followup": "Review October and December materials and organizer announcements."
+  },
+  {
+    "gap_id": "austria_2024-11_G004",
+    "type": "threshold",
+    "description": "Airport deportation action has no verified attendance figure in accessible sources.",
+    "source_ids": [
+      "S007",
+      "S009"
+    ],
+    "affected_candidates": [
+      "austria_2024-11_E003"
+    ],
+    "required_followup": "Seek accessible independent contemporary source with crowd evidence."
+  },
+  {
+    "gap_id": "austria_2024-11_G005",
+    "type": "access_scope",
+    "description": "CBA links a Facebook video for the airport protest; Facebook is a known unresolved hold scope, so it remains search-only and unopened.",
+    "source_ids": [
+      "S009"
+    ],
+    "affected_candidates": [
+      "austria_2024-11_E003"
+    ],
+    "required_followup": "Do not open absent exact reviewed permission; use independent accessible sources."
+  },
+  {
+    "gap_id": "austria_2024-11_G006",
+    "type": "state_target",
+    "description": "TDoR and anti-patriarchal violence reports establish issue focus and attendance but no specific own-state demand.",
+    "source_ids": [
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [
+      "austria_2024-11_E001",
+      "austria_2024-11_E002"
+    ],
+    "required_followup": "Check organizer calls and contemporary reports for explicit domestic state/policy demands."
+  },
+  {
+    "gap_id": "austria_2024-11_G007",
+    "type": "event_boundary",
+    "description": "ORF distinguishes Heldenplatz stationary rally and separate spontaneous gatherings; CBA describes a broader rally and later march. Exact relationship and continuity unresolved.",
+    "source_ids": [
+      "S001",
+      "S007"
+    ],
+    "affected_candidates": [
+      "austria_2024-11_E004",
+      "austria_2024-11_E005"
+    ],
+    "required_followup": "Review full original calls, route evidence, organizer statements, and adjacent months."
+  },
+  {
+    "gap_id": "austria_2024-11_G008",
+    "type": "access_review_history",
+    "description": "For CBA and VIMÖ, initial opens followed receipts later made stale by sources.jsonl mutations; fresh stable manual-review checks were then recorded and pages re-opened. Only the latter opens are relied on. The early sequence remains a process deviation and is not cured by validation.",
+    "source_ids": [
+      "S005",
+      "S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Inspect listed fresh receipts and preserve the chronology in any later review."
+  }
+]

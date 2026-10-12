@@ -1,0 +1,32 @@
+[
+  {
+    "gap_id": "LE24OCT-G001",
+    "type": "pending_evidence",
+    "description": "A search-only result announces a national strike/demo for 24–25 October; actual occurrence, location, organizers, simultaneous turnout and demand are unverified. The ordinary web-tool open returned Online fetch throttled; no HTTP status or site denial was observed.",
+    "source_ids": [
+      "LE24OCT-S001"
+    ],
+    "affected_candidates": [
+      "LE24OCT-X001"
+    ],
+    "required_followup": "Use independently discovered contemporaneous Lesotho or regional news/union reports to determine whether a public gathering occurred and establish its location, domestic-state demand and attendance; do not retry the throttled YouTube fetch in this pass."
+  },
+  {
+    "gap_id": "LE24OCT-G002",
+    "type": "capture_alignment",
+    "description": "The first discovery call bundled four English/Sesotho queries and returned one rendered aggregate that does not map results to individual queries. The full output is preserved, but per-query result attribution and total returned-hit count are unknown; aligned result arrays are empty for those four rows for that reason, not because searches returned no results.",
+    "source_ids": [],
+    "affected_candidates": [
+      "LE24OCT-X001"
+    ],
+    "required_followup": "Use separately executed single-query calls for future follow-up; preserve this batch as unaligned raw output."
+  },
+  {
+    "gap_id": "LE24OCT-G003",
+    "type": "coverage_limit",
+    "description": "Open-web searches in English and Sesotho covered national protest/strike terms, unions/workers, students/education, local-news results, and first/second-half October windows. No LexisNexis or comprehensive contemporaneous local archive was available; result dates were not filter-enforced by the search service. This does not establish absence of protests.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If available, consult contemporaneous local newspaper/union archives or official public-meeting records for the month; continue independent open-web searches as feasible."
+  }
+]

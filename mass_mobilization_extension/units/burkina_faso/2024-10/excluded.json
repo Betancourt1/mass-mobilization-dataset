@@ -1,0 +1,33 @@
+[
+  {
+    "candidate_id": "BF2024-10-X001",
+    "title": "RN1 traffic interruption near Hèrèdougou-Pâ",
+    "date": "2024-10-18",
+    "source_ids": [
+      "S001"
+    ],
+    "reason": "Not a protest: the article attributes the road closure to floodwater/submersion after heavy rains, with no public gathering or demand on the state.",
+    "notes": "Opened partial article lines 39-58; excluded as a false positive, not evidence of no other October protests."
+  },
+  {
+    "candidate_id": "BF2024-10-X002",
+    "title": "Proposed Fekola mine strike in Mali",
+    "date": "2024-10-27",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "reason": "Outside Burkina Faso: Fekola is identified in the search results as a Mali mine; search hits describe a planned private workplace stoppage, not a confirmed Burkina public gathering or domestic-state demand.",
+    "notes": "Search-only leads; no body read and no claim that strike occurred."
+  },
+  {
+    "candidate_id": "BF2024-10-X003",
+    "title": "Bobo-Dioulasso student march over SOTRACO buses (18 November)",
+    "date": "2024-11-18",
+    "source_ids": [
+      "S004"
+    ],
+    "reason": "Onset is after the assigned October window; it is catalogued as a November candidate in the separate unit, not an October event or continuation.",
+    "notes": "Surfaced in adjacent-month continuity search Q018. Search-only source; no body/video opened."
+  }
+]

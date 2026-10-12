@@ -1,0 +1,47 @@
+[
+  {
+    "gap_id": "LV10-G001",
+    "type": "coverage_limit",
+    "description": "Four Latvian/English search batches covered month-wide protest/labor terms, follow-up to identified events, sectors and a monument-protest lead. Open web is not LexisNexis or systematic local archive coverage; no claim of exhaustiveness.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent reviewer may add regional press/archive searches. Empty qualifying-event count should not be read as absence of activity."
+  },
+  {
+    "gap_id": "LV10-G002",
+    "type": "threshold",
+    "description": "The 16 Oct Riga City Hall picket against monument removals is established as a public event, but the source gives no attendee count. Do not carry over the ~30 estimate for the separate 13 Oct event.",
+    "source_ids": [
+      "LV10-S006",
+      "LV10-S005"
+    ],
+    "affected_candidates": [
+      "LV10-E001"
+    ],
+    "required_followup": "Seek a contemporaneous count from another exact source after source-specific access assessment."
+  },
+  {
+    "gap_id": "LV10-G003",
+    "type": "access_scope",
+    "description": "Diena body request to www.diena.lv redirected to diena.lv. The only pre-body assessment covered the www host; canonical-host assessment happened after the body was opened. No local restriction was found in a later local scan, but that does not retroactively authorize the open.",
+    "source_ids": [
+      "LV10-S002"
+    ],
+    "affected_candidates": [
+      "LV10-E002"
+    ],
+    "required_followup": "Keep Diena evidence unpromoted unless reviewer resolves scope under applicable review policy. No retry/reopen."
+  },
+  {
+    "gap_id": "LV10-G004",
+    "type": "continuity",
+    "description": "The 31 Oct catering VAT campaign had prior correspondence, signatures and ministerial meetings. These are campaign history, not additional crowd counts. No later qualifying gathering or closure is established in this unit.",
+    "source_ids": [
+      "LV10-S003"
+    ],
+    "affected_candidates": [
+      "LV10-E002"
+    ],
+    "required_followup": "Review separate dates only if evidence shows distinct, in-month public gathering."
+  }
+]

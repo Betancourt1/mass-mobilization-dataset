@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "BHT24O-G001",
+    "type": "query_provenance",
+    "description": "Several exploratory web searches from before capture was active are not represented in search_log.jsonl. Their exact query strings, query-level returned headers and clocks cannot be reconstructed. The current logged searches are the auditable capture set; they include monthly terms, four weekly date windows, campaign/sector queries, and local-source/language searches.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep this provenance loss explicit. Use the logged set and current future search captures only; do not fabricate earlier queries or result counts."
+  },
+  {
+    "gap_id": "BHT24O-G002",
+    "type": "language_coverage",
+    "description": "Dzongkha-script and Nepali queries were attempted, but the search engine returned mostly unrelated laws, calendar pages and Nepal results. Researcher fluency in Dzongkha/Nepali is limited; local-language news and community sources across the 20 dzongkhags are not adequately covered.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Have a capable local-language researcher screen relevant Bhutanese reporting and district/community sources; do not infer zero from this search."
+  },
+  {
+    "gap_id": "BHT24O-G003",
+    "type": "geographic_sector_coverage",
+    "description": "Open-web queries covered national news, political-rights topics, public assembly, land/compensation, workers and gender/GBV, but did not systematically query each dzongkhag, local labor group or every sector. Kuensel site queries returned only the app and old party manifestos; date-specific archive retrieval was ineffective.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If extending coverage, search contemporaneous district-level reporting and labor/land/community channels with dates and locations, and record all actual query headers."
+  },
+  {
+    "gap_id": "BHT24O-G004",
+    "type": "date_attendance_demand",
+    "description": "The UNFPA retrospective describes 2024 LGBTIQ–parliamentarian consultations but supplies no dates, locations, attendee count or public-gathering/protest character; it cannot be assigned to October–December.",
+    "source_ids": [
+      "BHT24O005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If a specific Q4 public event becomes material, seek dated contemporaneous reports or source documents through a fresh scoped access assessment; the linked PDF was not opened."
+  },
+  {
+    "gap_id": "BHT24O-G005",
+    "type": "archive_method",
+    "description": "Only open-web sources were used. LexisNexis or a comparable comprehensive newspaper archive was not available, and older/less-indexed local reporting may be missing. This prevents an exhaustive coverage claim.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No bypass attempted; any later archive comparison should be separately documented."
+  }
+]

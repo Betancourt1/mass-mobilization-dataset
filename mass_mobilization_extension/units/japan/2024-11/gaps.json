@@ -1,0 +1,45 @@
+[
+  {
+    "gap_id": "JPN24NOV-G001",
+    "type": "source_independence_and_response",
+    "description": "E001 meets the reported date, public gathering, attendance and own-state demand criteria, but both opened reports are organizer/movement-adjacent. Police obstruction is mentioned without enough detail to code a response type.",
+    "source_ids": [
+      "JPN24NOV-S001",
+      "JPN24NOV-S002"
+    ],
+    "affected_candidates": [
+      "JPN24NOV-E001"
+    ],
+    "required_followup": "Independent contemporary coverage and fuller response/episode follow-up."
+  },
+  {
+    "gap_id": "JPN24NOV-G002",
+    "type": "temporal_discrepancy",
+    "description": "A December CIVICUS overview describes the Seibu workers’ strike as November 2024. The specific search follow-up for the named Seibu/Ikebukuro event returned Japan Times reports with 2023 dates and a 31 August 2023 event. The 2023 lead is excluded; no 2024 event was inferred from the discrepancy.",
+    "source_ids": [
+      "JPN24NOV-S004"
+    ],
+    "affected_candidates": [
+      "JPN24NOV-X002"
+    ],
+    "required_followup": "If the claimed November 2024 strike refers to a different event, locate its specific source and date; do not transfer the 2023 attendance or labor action."
+  },
+  {
+    "gap_id": "JPN24NOV-G003",
+    "type": "search_only_lead",
+    "description": "The monthly search returned a government-site page for a 23 November public meeting demanding the return of abductees. The captured result gives no attendance, protester character, or own-state demand; it was not coded as an event.",
+    "source_ids": [
+      "JPN24NOV-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Open only after a fresh exact-URL access check and manual review if the meeting is pursued; determine whether it was a public protest and whom participants demanded action from."
+  },
+  {
+    "gap_id": "JPN24NOV-G004",
+    "type": "coverage_limit",
+    "description": "Five recorded searches included Japanese and English full-month terms, national labor/political terms and follow-up on the Hibiya rally and Seibu false lead. Open-web search is not LexisNexis; local source and newspaper archive coverage is incomplete. Historical source ledgers and official baseline are unavailable. Native search clocks were not exposed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue additional prefectural/sector searches or consult archives if available; reviewers should assess the limited source corpus."
+  }
+]

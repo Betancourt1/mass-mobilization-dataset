@@ -1,0 +1,55 @@
+[
+  {
+    "gap_id": "KGZ24DEC-G001",
+    "type": "candidate_threshold_state_target_unit",
+    "description": "24.kg describes relatives gathered near Pre-trial Detention Center No.1 on 23 Dec and separately quotes police describing a protest near Correctional Institution No.21. No count or explicit family demand is given; whether these are the same public gathering is unresolved.",
+    "source_ids": [
+      "KGZ24DEC-S005"
+    ],
+    "affected_candidates": [
+      "KGZ2024-12-E002"
+    ],
+    "required_followup": "Find contemporaneous reporting or organizer/relative account with simultaneous crowd size, exact site, demand to Kyrgyz state, and relation to police incident."
+  },
+  {
+    "gap_id": "KGZ24DEC-G002",
+    "type": "source_independence_threshold",
+    "description": "The 2 Dec taxi protest is reported by several search-result outlets, but only Azattyk's Kyrgyz-language body was reviewed. No second body or independent turnout estimate was opened; search results do not establish source independence or validate a simultaneous >50 count.",
+    "source_ids": [
+      "KGZ24DEC-S001",
+      "KGZ24DEC-S002",
+      "KGZ24DEC-S003",
+      "KGZ24DEC-S004"
+    ],
+    "affected_candidates": [
+      "KGZ2024-12-E001"
+    ],
+    "required_followup": "Target-specific access check and body review of a distinct contemporaneous outlet if needed; compare attribution and lowest estimate, not merely headlines."
+  },
+  {
+    "gap_id": "KGZ24DEC-G003",
+    "type": "search_capture_loss",
+    "description": "The first broad December search call executed four Kyrgyz/Russian/English queries. Its full raw tool response was not persisted before the call ended; only partial visible transcript remains, so no complete header capture/search_log line was produced. The searches were not repeated.",
+    "source_ids": [],
+    "affected_candidates": [
+      "KGZ2024-12-E001"
+    ],
+    "required_followup": "Treat those four initial queries as unarchived discovery; rely only on later fully archived separate searches for reproducible coverage and never reconstruct missing result headers from snippets."
+  },
+  {
+    "gap_id": "KGZ24DEC-G004",
+    "type": "regional_language_coverage",
+    "description": "Searches included Kyrgyz and Russian terms and a regional query but results were noisy and skewed to Bishkek, current restrictions, and general reporting. Regional print archives and other local-language reporting were not systematically searched; LexisNexis-equivalent coverage is absent.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Further manual search by regions/cities, labor and community sectors, and available Kyrgyz-language local outlets; keep unknown rather than infer no events."
+  },
+  {
+    "gap_id": "KGZ24DEC-G005",
+    "type": "official_baseline",
+    "description": "Official historical baseline and original full manual coverage remain unavailable in this working kit; this dossier is a non-exhaustive open-web research snapshot.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator retains baseline_gate=pending_official_baseline; no official approval or completeness claim."
+  }
+]

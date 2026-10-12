@@ -1,0 +1,53 @@
+[
+  {
+    "gap_id": "EC24OCT-G001",
+    "type": "coverage",
+    "description": "Open web searches were in English and Spanish and focused on national/Quito protest, blackouts, workers, students and social organizations; search outputs were batches with no per-query result mapping. This is not LexisNexis coverage and is not exhaustive.",
+    "source_ids": [
+      "EC24OCT-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "Review Spanish regional/local press and official/union archives for other gatherings across all October weeks."
+    ]
+  },
+  {
+    "gap_id": "EC24OCT-G002",
+    "type": "threshold",
+    "description": "One Quito event qualifies through contemporaneous qualitative hundreds; exact attendance is unavailable and other sources report dozens/nutrido group.",
+    "source_ids": [
+      "EC24OCT-S005",
+      "EC24OCT-S006",
+      "EC24OCT-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "Independent reviewer assess qualitative count and same-gathering scope; no numeric count can be derived."
+    ]
+  },
+  {
+    "gap_id": "EC24OCT-G003",
+    "type": "access",
+    "description": "Infobae body open returned a tool Internal Error and Primera Plana returned a fetch error; neither is an observed HTTP denial, and no retry was made.",
+    "source_ids": [
+      "EC24OCT-S009",
+      "EC24OCT-S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "If future permitted retrieval is considered, perform fresh exact-URL assessment first; current body evidence is not needed for candidate inclusion."
+    ]
+  },
+  {
+    "gap_id": "EC24OCT-G004",
+    "type": "provenance",
+    "description": "Some saved input filename timestamp suffixes are labels and not native clock observations; exact request and response clocks are unknown. Invalid early assessment-time values are preserved with a separate correction record; non-basis targets were not opened.",
+    "source_ids": [
+      "EC24OCT-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "Reviewer inspect provenance/version_note and EC24OCT-TIME-CORRECTION-001."
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "gap_id": "mali_2024-12_G001",
+    "topic": "No own-state event verified in this pass; do not infer zero",
+    "source_ids": [
+      "MA24D001",
+      "MA24D003"
+    ],
+    "notes": "Only opened event body reports an anti-France rally, excluded as foreign-targeted. Search-only or blocked results do not establish absence of Mali-state demands."
+  },
+  {
+    "gap_id": "mali_2024-12_G002",
+    "topic": "Official EID session body unavailable",
+    "source_ids": [
+      "MA24D004",
+      "MA24D006"
+    ],
+    "notes": "ORTM exact page returned 403 after target-specific assessment; Journal du Mali search snippet identifies the 10 Dec hearing but does not give turnout, participant demands, or protest character. No retry of blocked ORTM URL."
+  },
+  {
+    "gap_id": "mali_2024-12_G003",
+    "topic": "AP result remains unopened under publisher hold",
+    "source_ids": [
+      "MA24D005"
+    ],
+    "notes": "AP search hit has unknown event date and may be outside Q4 2024; publisher hold was respected. No body request or event coding."
+  },
+  {
+    "gap_id": "mali_2024-12_G004",
+    "topic": "AMAP transporters URL yielded suspended host page",
+    "source_ids": [
+      "MA24D002"
+    ],
+    "notes": "Rendered account-suspended page after redirect; HTTP status unknown and target article unavailable. Date/event/details remain unknown; no retry."
+  },
+  {
+    "gap_id": "mali_2024-12_G005",
+    "topic": "Possible anti-France duplicate is not independent",
+    "source_ids": [
+      "MA24D001",
+      "MA24D003"
+    ],
+    "notes": "Afrique Média URL returned observed 403. APRNEWS body supports the Dec13 event and France-target demand; no explicit story origin link proves the later item independent."
+  },
+  {
+    "gap_id": "mali_2024-12_G006",
+    "topic": "Regional and local-language search coverage incomplete",
+    "source_ids": [
+      "MA24D006"
+    ],
+    "notes": "French/English, weekly window, sector and Bambara-descriptor searches were attempted, but regional/language reporting and systematic archive coverage remain limited."
+  },
+  {
+    "gap_id": "mali_2024-12_G007",
+    "topic": "No baseline or exhaustive archive evidence",
+    "source_ids": [],
+    "notes": "Official baseline pending; public web searches do not establish complete month coverage or zero events."
+  }
+]

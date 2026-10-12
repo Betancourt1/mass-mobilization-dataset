@@ -1,0 +1,65 @@
+[
+  {
+    "gap_id": "DE2024-12-G001",
+    "candidate_id": "DE2024-12-E001",
+    "dimension": "state target/event linkage",
+    "reason": "Reuters describes a far-right Magdeburg protest with ~2,100, while police place a 2,100-person gathering at Hasselbachplatz on 21 Dec. Same-event linkage is inferred; “remigration” does not explicitly name a German state demand.",
+    "next_permitted_action": "Find event-level reporting or organizer material that names venue, target, demands and any organizers; preserve unresolved link if no such source."
+  },
+  {
+    "gap_id": "DE2024-12-G002",
+    "candidate_id": "DE2024-12-E002",
+    "dimension": "state target",
+    "reason": "The Berlin march had 63 actual participants but no explicit demand on German government/state policy in the police release.",
+    "next_permitted_action": "Find organizer statements or independently reported demands; do not infer state target from anti-left slogan alone."
+  },
+  {
+    "gap_id": "DE2024-12-G003",
+    "candidate_id": "DE2024-12-E003",
+    "dimension": "state target / event structure",
+    "reason": "The ~600-person blockade opposed another march; direct state target is unclear and subsequent counter-actions have separate locations/counts.",
+    "next_permitted_action": "Find organizer materials and event reports distinguishing each blockade and its target; preserve separate counts."
+  },
+  {
+    "gap_id": "DE2024-12-G004",
+    "candidate_id": "DE2024-12-E004",
+    "dimension": "state target and linked gatherings",
+    "reason": "The 1,200-person march opposed fascism and hostility against groups but does not expressly demand state action; four other thematic assemblies joined and later participants moved into counter-protests.",
+    "next_permitted_action": "Search organizer statements and independent coverage for target and coordinated organization; do not merge or sum events automatically."
+  },
+  {
+    "gap_id": "DE2024-12-G005",
+    "candidate_id": "DE2024-12-E005",
+    "dimension": "occurrence and threshold",
+    "reason": "Only BUND organizer announcements for 11 Dec were found. Actual occurrence and simultaneous attendance remain unverified; a body request to one page timed out.",
+    "next_permitted_action": "Search post-event local reporting or official police/event records for 11 Dec without retrying the timed-out URL."
+  },
+  {
+    "gap_id": "DE2024-12-G006",
+    "candidate_id": null,
+    "dimension": "regional/sector coverage",
+    "reason": "Actual opened bodies cover Berlin, Magdeburg and Hamburg, but other German regions and sectors remain unevenly represented. Several targeted searches for local protest/labor activity surfaced out-of-window material; no exhaustive equivalent archive was available.",
+    "next_permitted_action": "Continue date-windowed German regional searches for remaining plausible state-targeted gatherings across October-December, especially regions and labor/public-service sectors; assess each body target before open."
+  },
+  {
+    "gap_id": "DE2024-12-G007",
+    "candidate_id": "DE2024-12-E006",
+    "dimension": "event body / occurrence / threshold",
+    "reason": "Berliner Zeitung search-result text indicates an actual 70-person die-in on 1 Dec over Berlin budget cuts, but the exact article URL was not accessible via the tool; no body could verify the event.",
+    "next_permitted_action": "Seek a permitted alternative article or official source confirming occurrence, count and demand; do not retry this tool-unavailable exact URL."
+  },
+  {
+    "gap_id": "DE2024-12-G008",
+    "candidate_id": "DE2024-12-E001/E007",
+    "dimension": "crowd estimate / counter-event identity",
+    "reason": "Police release reports ~2,100 at Hasselbachplatz; Deutschlandfunk reports police estimate ~1,000 right-wing supporters and ~100 counter-demonstrators. Time of measurement and whether the police supplement captures the same related gatherings are unclear.",
+    "next_permitted_action": "Retain both estimates and separate groups; seek any additional allowed contemporaneous event-level reporting or organizer material without opening any source with a denial/hold."
+  },
+  {
+    "gap_id": "DE2024-12-G009",
+    "candidate_id": "DE2024-12-E008",
+    "dimension": "episode / source corroboration",
+    "reason": "NDR reports a recurring annual Dec 13 demonstration and ~650 attendees; only one body is open, with no exact named organizer and uncertain attribution boundaries for incidents during the route.",
+    "next_permitted_action": "Search permitted event-specific corroboration for the 2024 Hamburg march and check adjacent-month/year episode boundaries; retain current separate annual event unless evidence supports another structure."
+  }
+]

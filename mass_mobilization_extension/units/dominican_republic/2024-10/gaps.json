@@ -1,0 +1,65 @@
+[
+  {
+    "gap_id": "DR24O-G001",
+    "type": "coverage_limit",
+    "description": "Research used Spanish-language open-web searches in four query records, including country/month, weekly fiscal-reform terms and local/sector terms; no LexisNexis or systematic local archive access. Cities/provinces and sectors remain incompletely covered.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Reviewer may run regional/week-by-week searches across provinces, labor, education, utilities and community demands. Absence of retrieved reports is not zero activity."
+  },
+  {
+    "gap_id": "DR24O-G002",
+    "type": "threshold_unknown",
+    "description": "SFM street action (E002), Santiago and Moca candlelight protests (E003-E004), Oct. 10 fiscal protest (E005), Oct. 19 Santiago result (E007), and Cotuí road march/vigil (E006) lack verified simultaneous attendance of at least 50. Oct. 10 reports conflict: contemporary Diario Libre says dozens; SuMundo later reports >250 without source basis resolved.",
+    "source_ids": [
+      "DOM24O008",
+      "DOM24O020",
+      "DOM24O021",
+      "DOM24O022",
+      "DOM24O024",
+      "DOM24O025",
+      "DOM24O017"
+    ],
+    "affected_candidates": [
+      "dominican_republic_2024-10-E002",
+      "dominican_republic_2024-10-E003",
+      "dominican_republic_2024-10-E004",
+      "dominican_republic_2024-10-E005",
+      "dominican_republic_2024-10-E006",
+      "dominican_republic_2024-10-E007"
+    ],
+    "required_followup": "Seek contemporary counts and event boundaries; distinguish event attendance from delegates, citywide effects, or dispersed cacerolazos."
+  },
+  {
+    "gap_id": "DR24O-G003",
+    "type": "episode_boundary",
+    "description": "Multiple actions opposed fiscal reform in October. Same issue/date proximity does not establish a single national episode. Moca/Santiago Oct. 16, Santiago Oct. 19 and Santo Domingo Oct. 10 remain separate candidates pending organizer/continuity evidence. Cacerolazo accounts describe dispersed household/vehicle noise without a documented public gathering of 50.",
+    "source_ids": [
+      "DOM24O008",
+      "DOM24O021",
+      "DOM24O024",
+      "DOM24O026"
+    ],
+    "affected_candidates": [
+      "dominican_republic_2024-10-E003",
+      "dominican_republic_2024-10-E004",
+      "dominican_republic_2024-10-E005",
+      "dominican_republic_2024-10-E007"
+    ],
+    "required_followup": "Verify dates, organization, location-specific attendance, and whether actions were separate or one organized national event; do not merge automatically."
+  },
+  {
+    "gap_id": "DR24O-G004",
+    "type": "retrieval_limit",
+    "description": "Exact CDN cacerolazo URL returned HTTP 403 and was not retried. Other opened/failed source URLs are separately documented. Oct. 5 Listín returned HTTP 406; De Último Minuto timed out with tool HTTP 400; neither establishes publisher denial.",
+    "source_ids": [
+      "DOM24O002",
+      "DOM24O009",
+      "DOM24O011"
+    ],
+    "affected_candidates": [
+      "dominican_republic_2024-10-E001"
+    ],
+    "required_followup": "Do not retry the denied URL. Continue only through independent, permitted sources; retain missing article bodies as uncertainty."
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "gap_id": "armenia_2024-10_G001",
+    "type": "baseline",
+    "description": "Official MM baseline and historical unit ledgers/receipts are absent from this Q4 partition; this worker did not reconstruct them. Search-access policy context lists unresolved source aliases/origins and known affected entities.",
+    "source_ids": [],
+    "affected_candidates": [
+      "armenia_2024-10_E001",
+      "armenia_2024-10_E002",
+      "armenia_2024-10_E003",
+      "armenia_2024-10_E004",
+      "armenia_2024-10_E005",
+      "armenia_2024-10_E006"
+    ],
+    "required_followup": "Coordinator review against official baseline and historical access/alias evidence when available."
+  },
+  {
+    "gap_id": "armenia_2024-10_G002",
+    "type": "coverage",
+    "description": "Open web search is not LexisNexis and is not a systematic archive search. Queries were in English and Armenian with episode-specific follow-ups; search results remain incomplete and the month is not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review local/regional archives and systematic news database searches, including Russian-language coverage, before any completeness claim."
+  },
+  {
+    "gap_id": "armenia_2024-10_G003",
+    "type": "participants",
+    "description": "No attendance count for the Oct6 rally/action, Oct11 POW-release protest (“several dozen” is ambiguous), Oct17 pedestrian rally, or Oct21 NGO protest. More than 50 organizations on a prior Sep letter is not an Oct21 protest headcount. The Oct25 threshold relies on a qualitative comparison to Oct9, not a direct count.",
+    "source_ids": [
+      "AR24OCT-S005",
+      "AR24OCT-S008",
+      "AR24OCT-S009",
+      "AR24OCT-S011",
+      "AR24OCT-S014",
+      "AR24OCT-S022"
+    ],
+    "affected_candidates": [
+      "armenia_2024-10_E002",
+      "armenia_2024-10_E004",
+      "armenia_2024-10_E005",
+      "armenia_2024-10_E006",
+      "armenia_2024-10_E007"
+    ],
+    "required_followup": "Seek contemporary independent attendance counts or photographs/counting estimates for each event; review whether Oct25 comparison suffices."
+  },
+  {
+    "gap_id": "armenia_2024-10_G004",
+    "type": "continuity",
+    "description": "Holy Struggle resumed protests after a multi-month lull in June; whether October actions are continuation of the spring campaign or a new episode is unresolved. The Oct6 Republic Square rally and action near the Constitutional Court may be one integrated event.",
+    "source_ids": [
+      "AR24OCT-S005",
+      "AR24OCT-S008",
+      "AR24OCT-S015"
+    ],
+    "affected_candidates": [
+      "armenia_2024-10_E001",
+      "armenia_2024-10_E002",
+      "armenia_2024-10_E003",
+      "armenia_2024-10_E006"
+    ],
+    "required_followup": "Compare neighboring-month evidence, determine episode boundaries, and reconcile Oct6 venue/route."
+  },
+  {
+    "gap_id": "armenia_2024-10_G005",
+    "type": "state_response",
+    "description": "For most candidates, sources do not establish event-specific arrests, beatings, dispersal, shootings, killings or non-response. These fields remain unknown rather than inferred negative.",
+    "source_ids": [
+      "AR24OCT-S001",
+      "AR24OCT-S004",
+      "AR24OCT-S005",
+      "AR24OCT-S008",
+      "AR24OCT-S009",
+      "AR24OCT-S011",
+      "AR24OCT-S022"
+    ],
+    "affected_candidates": [
+      "armenia_2024-10_E001",
+      "armenia_2024-10_E002",
+      "armenia_2024-10_E003",
+      "armenia_2024-10_E004",
+      "armenia_2024-10_E005",
+      "armenia_2024-10_E006",
+      "armenia_2024-10_E007"
+    ],
+    "required_followup": "Search event-specific police, court, organizer and rights-monitoring records."
+  },
+  {
+    "gap_id": "armenia_2024-10_G006",
+    "type": "source_access_context",
+    "description": "The quarter-level historical source-check ledger is absent; publisher alias/origin scopes remain unknown. Every opened source received a fresh exact-URL access-check and manual review of currently available records, but this cannot clear relationships omitted from history.",
+    "source_ids": [
+      "AR24OCT-S001",
+      "AR24OCT-S004",
+      "AR24OCT-S005",
+      "AR24OCT-S008",
+      "AR24OCT-S009",
+      "AR24OCT-S011",
+      "AR24OCT-S012",
+      "AR24OCT-S015",
+      "AR24OCT-S022"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Re-review affected-source relationships and access receipts if historical ledgers become available."
+  }
+]

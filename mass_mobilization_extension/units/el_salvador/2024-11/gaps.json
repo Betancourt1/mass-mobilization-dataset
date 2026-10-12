@@ -1,0 +1,38 @@
+[
+  {
+    "gap_id": "ES24NOV-G001",
+    "type": "unit_boundary",
+    "description": "Reports describe the second Marcha Blanca alongside MOVIR, detainee-family, budget, health/education and union demands; exact joint organization and whether all groups marched as one gathering are unresolved.",
+    "source_ids": [
+      "ES24NOV-S001",
+      "ES24NOV-S002",
+      "ES24NOV-S003"
+    ],
+    "affected_candidates": [
+      "ES24NOV-E001"
+    ],
+    "required_followup": "Compare full contemporaneous reports, route/time detail and organizer statements; do not create separate city or thematic events without distinct-gathering evidence."
+  },
+  {
+    "gap_id": "ES24NOV-G002",
+    "type": "coverage",
+    "description": "Spanish open-web month and weekly-window searches plus targeted follow-ups found the 23 November event. This does not establish month-wide completeness; local/sector and regional search coverage remains uneven.",
+    "source_ids": [],
+    "affected_candidates": [
+      "ES24NOV-E001"
+    ],
+    "required_followup": "Continue regional outlets and organizer/union reporting if required; no LexisNexis archive was available."
+  },
+  {
+    "gap_id": "ES24NOV-G003",
+    "type": "source_retrieval",
+    "description": "ES24NOV-S004 is a gallery about the same 23 November Marcha Blanca as candidate ES24NOV-E001. Its exact page request returned HTTP 502 and the captured output contains no gallery content. This is retained as a source-retrieval gap, not an event exclusion; no attendance or other facts are inferred from the gallery.",
+    "source_ids": [
+      "ES24NOV-S004"
+    ],
+    "affected_candidates": [
+      "ES24NOV-E001"
+    ],
+    "required_followup": "Do not retry the 502 URL. If needed, use other independently accessible reporting on the same gathering; keep S004 search-only and its body unavailable."
+  }
+]

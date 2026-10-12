@@ -1,0 +1,38 @@
+[
+  {
+    "gap_id": "MKD11-G001",
+    "type": "coverage_limit",
+    "description": "Open-web English/Macedonian searches focused on national and Skopje protest/labor/public-service terms; regional archives and full local-language coverage remain incomplete. No official event-list baseline was identified.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MKD2411-E001"
+    ],
+    "required_followup": "Reviewer may add targeted regional searches; no exhaustive-month claim."
+  },
+  {
+    "gap_id": "MKD11-G002",
+    "type": "attendance",
+    "description": "No event-level simultaneous crowd estimate was captured for the 22 November transit protest. The 40,000 figure refers to residents affected, not demonstrators.",
+    "source_ids": [
+      "MKD2411-S001",
+      "MKD2411-S002"
+    ],
+    "affected_candidates": [
+      "MKD2411-E001"
+    ],
+    "required_followup": "Retain pending_threshold until a contemporaneous attendance estimate is found."
+  },
+  {
+    "gap_id": "MKD11-G003",
+    "type": "outcome_scope",
+    "description": "RFE/RL reports a City response criticizing political manipulation; the pre-protest state reserve-fuel decision reported by MIA is not an outcome. The available response does not show service-demand accommodation.",
+    "source_ids": [
+      "MKD2411-S001",
+      "MKD2411-S002"
+    ],
+    "affected_candidates": [
+      "MKD2411-E001"
+    ],
+    "required_followup": "Reviewer can reassess whether response qualifies as ignore; no accommodation coded."
+  }
+]

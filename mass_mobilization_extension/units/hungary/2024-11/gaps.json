@@ -1,0 +1,68 @@
+[
+  {
+    "gap_id": "HUN24NOV-G001",
+    "type": "coverage_limit",
+    "description": "Open web only; seven saved queries used English/Hungarian overview, sector, local outlets, date-specific and regional-city terms. No exhaustive archive search or LexisNexis access; query engines may not honor date operators.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Further independent regional or weekly searches may add leads; do not read empty search headers as proof of no events."
+  },
+  {
+    "gap_id": "HUN24NOV-G002",
+    "type": "threshold_unknown",
+    "description": "Telex confirms a public DK march against a government electoral-law change on 29 November but publishes no attendance estimate. Number of politicians/supporters does not establish 50.",
+    "source_ids": [
+      "HUN24NOV-S001",
+      "HUN24NOV-S003"
+    ],
+    "affected_candidates": [
+      "HUN24NOV-E002"
+    ],
+    "required_followup": "Find contemporary crowd estimate or leave pending_threshold."
+  },
+  {
+    "gap_id": "HUN24NOV-G003",
+    "type": "state_target_and_rally_boundary",
+    "description": "The 23 November TISZA event in Debrecen is reported as several thousand people and a protest, while also being a party tour with speeches and future-party promises. Whether the crowd's purpose was to press a current own-state demand remains unresolved.",
+    "source_ids": [
+      "HUN24NOV-S002"
+    ],
+    "affected_candidates": [
+      "HUN24NOV-E001"
+    ],
+    "required_followup": "Reviewer should distinguish an opposition rally from a public protest over current government/battery-plant policy."
+  },
+  {
+    "gap_id": "HUN24NOV-G004",
+    "type": "search_only_counterprotest_lead",
+    "description": "Search results mention demonstrators greeting TISZA leader Péter Magyar during a Miskolc visit on 20 November. No body opened; crowd size, action, target and whether the activity was a counterprotest are unknown.",
+    "source_ids": [
+      "HUN24NOV-S004",
+      "HUN24NOV-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Assess only if exact contemporaneous source becomes relevant; do not infer own-state target from a protest directed at an opposition politician."
+  },
+  {
+    "gap_id": "HUN24NOV-G005",
+    "type": "violence_and_response_unknown",
+    "description": "No opened source establishes protester violence or a state-response category for the November candidates.",
+    "source_ids": [
+      "HUN24NOV-S001",
+      "HUN24NOV-S002"
+    ],
+    "affected_candidates": [
+      "HUN24NOV-E001",
+      "HUN24NOV-E002"
+    ],
+    "required_followup": "Keep all response/violence fields unknown absent exact evidence."
+  },
+  {
+    "gap_id": "HUN24NOV-G006",
+    "type": "baseline_missing",
+    "description": "Official baseline and original ccode remain pending; no code was guessed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator owns baseline verification."
+  }
+]

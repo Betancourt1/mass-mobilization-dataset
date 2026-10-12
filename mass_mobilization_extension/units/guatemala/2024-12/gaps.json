@@ -1,0 +1,92 @@
+[
+  {
+    "gap_id": "GU24DEC-G001",
+    "type": "threshold",
+    "description": "Dec16 microbus blockade campaign involved at least six roads for nearly 12 hours, but no protesters/driver headcount is reported; affected road users are not participants.",
+    "source_ids": [
+      "GU24DEC-S001"
+    ],
+    "affected_candidates": [
+      "GU24DEC-E001"
+    ],
+    "required_followup": "Find a permitted site-specific turnout count and evidence of organization; otherwise retain pending_threshold."
+  },
+  {
+    "gap_id": "GU24DEC-G002",
+    "type": "threshold",
+    "description": "Dec22 Lev Tahor gathering/action has no adult participant count; more than 160 refers to minors in state custody. Publinews reports continued tension outside the center on Dec23 but does not establish whether the same gathering persisted or a distinct event occurred. A Jan15 blockade followed a Jan8 operation and is not proven continuous from Dec.",
+    "source_ids": [
+      "GU24DEC-S002",
+      "GU24DEC-S014",
+      "GU24DEC-S015"
+    ],
+    "affected_candidates": [
+      "GU24DEC-E002"
+    ],
+    "required_followup": "Resolve whether the Dec22–23 reports describe one continuously present crowd or distinct gatherings, establish an adult headcount and public-protest scope, and retain the Jan15 episode as separate absent continuity evidence."
+  },
+  {
+    "gap_id": "GU24DEC-G003",
+    "type": "date_conflict",
+    "description": "ODEP search-result excerpt assigns a parent protest about Lev Tahor to 19 Dec 2024, but contemporary Prensa Libre results place parent protests at the same center on 27–28 Jan 2025. The underlying ODEP PDF could not be opened, so a distinct Dec19 gathering cannot be confirmed or ruled out.",
+    "source_ids": [
+      "GU24DEC-S006",
+      "GU24DEC-S007",
+      "GU24DEC-S008"
+    ],
+    "affected_candidates": [
+      "GU24DEC-E003"
+    ],
+    "required_followup": "If permitted evidence becomes available, inspect the ODEP incident list and contemporary Jan coverage to determine whether December and January refer to distinct gatherings or a misdated entry."
+  },
+  {
+    "gap_id": "GU24DEC-G004",
+    "type": "coverage",
+    "description": "Nine searches included broad December protest/labor/sector queries, targeted Dec16 and Lev Tahor follow-ups, and three date windows (1–10, 11–20, 21–31 Dec). Date-window results surfaced Dec5 and Dec13 transport blockades now retained separately; Jan2025 and May2024 health-worker leads were date-checked as outside the unit. Open-web coverage is not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use a systematic archive if later authorized; treat absence as unknown, not no event."
+  },
+  {
+    "gap_id": "GU24DEC-G005",
+    "type": "accessibility",
+    "description": "The exact ODEP Dec–Jan PDF target returned an HTTP 400 timeout from the web tool, not a denial; event chronology remains search-result-only. No retry was made.",
+    "source_ids": [
+      "GU24DEC-S006"
+    ],
+    "affected_candidates": [
+      "GU24DEC-E003"
+    ],
+    "required_followup": "Use another permitted copy or independent contemporaneous reporting if authorized; do not infer missing report content from the landing page."
+  },
+  {
+    "gap_id": "GU24DEC-G006",
+    "type": "episode_boundary",
+    "description": "Transporter actions are reported on Dec5 over an older-adult fare subsidy, Dec13 over payments for free older-adult transport, and Dec16 under CNTUDEG over a public transport subsidy. Common organization and continuity are not established; the policy descriptions may differ.",
+    "source_ids": [
+      "GU24DEC-S011",
+      "GU24DEC-S012",
+      "GU24DEC-S013"
+    ],
+    "affected_candidates": [
+      "GU24DEC-E001",
+      "GU24DEC-E004",
+      "GU24DEC-E005"
+    ],
+    "required_followup": "Compare organizers, subsidy agreements and whether the road actions were distinct single-day gatherings or one connected campaign; preserve unknown turnout and do not merge automatically."
+  },
+  {
+    "gap_id": "GU24DEC-G007",
+    "type": "episode_boundary",
+    "description": "Publinews reports tension at the Lev Tahor center on Dec23 after the Dec22 retrieval action; the exact gathering end and whether a distinct Dec23 event occurred are unknown. Prensa Libre dates a later Lev Tahor road blockade to Jan15 after a separate Jan8 incident.",
+    "source_ids": [
+      "GU24DEC-S002",
+      "GU24DEC-S014",
+      "GU24DEC-S015"
+    ],
+    "affected_candidates": [
+      "GU24DEC-E002"
+    ],
+    "required_followup": "Treat the Dec22/23 relationship as unresolved and do not create a separate December observation or January continuation without evidence of episode boundaries."
+  }
+]

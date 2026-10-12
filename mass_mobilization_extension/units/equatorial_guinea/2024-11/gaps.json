@@ -1,0 +1,67 @@
+[
+  {
+    "gap_id": "EG-11-G01",
+    "type": "continuity",
+    "description": "No specific Q4 domestic gathering established — Searches found an older 2015 call, a charitable concert and a government company ultimatum; none reports an eligible Q4 public gathering. Annobón rights reports are follow-up to July, while a November UN forum reference is a delegation abroad.",
+    "source_ids": [
+      "GQ24N001",
+      "GQ24N002",
+      "GQ24N003"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  },
+  {
+    "gap_id": "EG-11-G02",
+    "type": "threshold",
+    "description": "No candidate with documented 50 simultaneous participants — Search-result report of the Nov 10 concert has no attendance estimate and lacks a government-directed demand. No other Q4 report of a domestic public mobilization surfaced in these searches.",
+    "source_ids": [
+      "GQ24N001"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  },
+  {
+    "gap_id": "EG-11-G03",
+    "type": "regional_coverage",
+    "description": "Regional/sector coverage incomplete — Searches covered Malabo, Bata, Mongomo, Ebebiyín, Evinayong, Luba, Annobón and sectors including education, transport/taxis and public work, but did not systematically search local-language or all district archives.",
+    "source_ids": [
+      "GQ24N002",
+      "GQ24N003"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "Follow up in local/regional media and labour/education sources."
+    ]
+  },
+  {
+    "gap_id": "EG-11-G04",
+    "type": "language",
+    "description": "Local-language gap — Spanish, English and French used; no competent Fang, Bubi or Fa d’Ambô searches.",
+    "source_ids": [
+      "GQ24N001"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  },
+  {
+    "gap_id": "EG-11-G05",
+    "type": "archive_access",
+    "description": "Open-web method and baseline limitation — No LexisNexis-equivalent archive search and no official 2024 baseline available.",
+    "source_ids": [
+      "GQ24N001"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  },
+  {
+    "gap_id": "EG-11-G06",
+    "type": "capture",
+    "description": "Staging log serialization deviation — Some appends to the stage search_log.jsonl contain literal backslash+n delimiters; the effective snapshot log will be separately generated from parseable records, preserving stage bytes and documenting the transformation. No scientific content is inferred from that transformation.",
+    "source_ids": [
+      "GQ24N001"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  }
+]

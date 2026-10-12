@@ -1,0 +1,93 @@
+[
+  {
+    "gap_id": "MZ2411G001",
+    "type": "coverage",
+    "description": "Only one exact body opened; searches mainly Maputo and Quelimane, leaving other provinces and sectors undercovered.",
+    "source_ids": [
+      "MZ24N001",
+      "MZ24N002"
+    ],
+    "affected_candidates": [
+      "MZ24NOV-E001",
+      "MZ24NOV-E002",
+      "MZ24NOV-E003",
+      "MZ24NOV-E004"
+    ],
+    "required_followup": "Search regional and local reporting."
+  },
+  {
+    "gap_id": "MZ2411G002",
+    "type": "threshold",
+    "description": "Nov7 reports thousands; attendance unknown for Nov13, Nov16 and Nov22 leads.",
+    "source_ids": [
+      "MZ24N001",
+      "MZ24N002",
+      "MZ24N003",
+      "MZ24N004"
+    ],
+    "affected_candidates": [
+      "MZ24NOV-E002",
+      "MZ24NOV-E003",
+      "MZ24NOV-E004"
+    ],
+    "required_followup": "Find event-specific counts."
+  },
+  {
+    "gap_id": "MZ2411G003",
+    "type": "evidence",
+    "description": "Quelimane, pot-banging and mourning-action leads are search-only; event format and exact demand unresolved.",
+    "source_ids": [
+      "MZ24N002",
+      "MZ24N003",
+      "MZ24N004"
+    ],
+    "affected_candidates": [
+      "MZ24NOV-E002",
+      "MZ24NOV-E003",
+      "MZ24NOV-E004"
+    ],
+    "required_followup": "Open exact targets after fresh access review."
+  },
+  {
+    "gap_id": "MZ2411G004",
+    "type": "continuity",
+    "description": "Phase calls reported but no continuous event boundaries or October-to-November linkage established.",
+    "source_ids": [
+      "MZ24N001",
+      "MZ24N004"
+    ],
+    "affected_candidates": [
+      "MZ24NOV-E001",
+      "MZ24NOV-E003"
+    ],
+    "required_followup": "Follow event reports; do not merge from campaign label alone."
+  },
+  {
+    "gap_id": "MZ2411G005",
+    "type": "response",
+    "description": "Only tear-gas dispersal tied to Nov7; no event-specific arrests, deaths or later policy outcome.",
+    "source_ids": [
+      "MZ24N001"
+    ],
+    "affected_candidates": [
+      "MZ24NOV-E001"
+    ],
+    "required_followup": "Locate date-specific outcome reporting."
+  },
+  {
+    "gap_id": "MZ2411G006",
+    "type": "origin",
+    "description": "DW and other republished items may share agency text; independence of search-only cards not resolved.",
+    "source_ids": [
+      "MZ24N002",
+      "MZ24N003",
+      "MZ24N004"
+    ],
+    "affected_candidates": [
+      "MZ24NOV-E002",
+      "MZ24NOV-E003",
+      "MZ24NOV-E004"
+    ],
+    "required_followup": "Inspect bylines/origin links before treating as independent."
+  }
+]

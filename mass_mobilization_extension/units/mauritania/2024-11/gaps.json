@@ -1,0 +1,47 @@
+[
+  {
+    "gap_id": "MAU24NOV-G001",
+    "type": "attendance_and_event_separation",
+    "description": "The Nov 14 teacher sit-in has opened reports but no unambiguous size at one site. A search result for a Nov 15 Cridem report claims hundreds at the Nov 14 gathering, but its body attempt timed out and snippet text is not used. A further opened Alwiam report says 'dozens', which does not establish >=50. Same-day Taqadoum/Alwiam references may overlap. A SNES union statement calls the movement's participants 'large crowds' but that wording is broad and not site/event-specific enough to resolve the Nov 14 threshold.",
+    "source_ids": [
+      "MAU24NOV-S003",
+      "MAU24NOV-S004",
+      "MAU24NOV-S005",
+      "MAU24NOV-S008"
+    ],
+    "affected_candidates": [
+      "MAU24NOV-E002"
+    ],
+    "required_followup": "Find an accessible contemporaneous independent report or event photos/count for the Nov 14 crowd; resolve whether the accounts describe one gathering and clarify the reported police conduct."
+  },
+  {
+    "gap_id": "MAU24NOV-G002",
+    "type": "student_protest_dates_and_size",
+    "description": "AMP's Nov 17 article says the General Union strike ended after two protest marches and a total class stoppage at the new university campus on the preceding Friday and Saturday. It does not identify the marches' dates/venues or numbers. No attendance or threshold is inferred from class stoppage or from the general union strike.",
+    "source_ids": [
+      "MAU24NOV-S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Locate contemporaneous coverage identifying each march's date, venue, headcount, demands and relation to the campus stoppage; do not convert the strike into a public-gathering event."
+  },
+  {
+    "gap_id": "MAU24NOV-G003",
+    "type": "multi_location_counting_and_independence",
+    "description": "Al Jazeera reports hundreds at vigils in Nouakchott and other cities but does not apportion attendance by city and explicitly credits Anadolu Agency. Its count cannot be spread across several sites or automatically treated as independent corroboration of other Anadolu-origin reporting.",
+    "source_ids": [
+      "MAU24NOV-S002"
+    ],
+    "affected_candidates": [
+      "MAU24NOV-E001"
+    ],
+    "required_followup": "Seek site-level reports and distinct reporting origins for any other town actions; preserve distinct event/campaign ownership."
+  },
+  {
+    "gap_id": "MAU24NOV-G004",
+    "type": "archival_coverage",
+    "description": "Seven captured open-web queries covered French, Arabic and English generic protest/strike terms, teacher mobilization and the student union. Search results remain partial; open web is not LexisNexis or a complete national/regional press archive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted regional and sector-specific checking if new evidence appears; retain unknown rather than infer absence."
+  }
+]

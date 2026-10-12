@@ -1,0 +1,116 @@
+[
+  {
+    "gap_id": "BD24Q4-202411-G001",
+    "type": "retrieval_failure",
+    "description": "Selected Daily Star NTC pages S001–S003 returned tool-level 'URL not accessible' messages, not an HTTP status; bdnews24 Chinmoy search lead S012 returned an internal error with no article body. These are technical retrieval outcomes, not source-side denial evidence.",
+    "source_ids": [
+      "BD24Q4-202411-S001",
+      "BD24Q4-202411-S002",
+      "BD24Q4-202411-S003",
+      "BD24Q4-202411-S012"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202411-E001",
+      "BD24Q4-202411-E005"
+    ],
+    "required_followup": "Continue using other permitted sources for corroboration. Do not represent these as paywall/denial, and do not treat failed body access as a negative search."
+  },
+  {
+    "gap_id": "BD24Q4-202411-G002",
+    "type": "source_restriction",
+    "description": "The exact Daily Star URL for the 11,000+ NTC tea-worker strike returned HTTP 403 Forbidden during the body attempt. A post-observation fresh receipt records the source card as blocked_without_denial_evidence because historical denial evidence is absent; actual raw tool 403 is separately preserved in S005 notes.",
+    "source_ids": [
+      "BD24Q4-202411-S005"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202411-E001"
+    ],
+    "required_followup": "Do not request this body's content again. Use the manual-review/403 chronology and other sources; the search result's labor count is not a specific public-gathering count."
+  },
+  {
+    "gap_id": "BD24Q4-202411-G003",
+    "type": "threshold_and_continuity",
+    "description": "The 5 Nov Sylhet human-chain involved NTC workers from three state-owned gardens and explicitly appealed to government, but no count is reported. A 17,000 worker estimate refers to the entire NTC workforce, not this specific gathering.",
+    "source_ids": [
+      "BD24Q4-202411-S004",
+      "BD24Q4-202411-S005"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202411-E001"
+    ],
+    "required_followup": "Find an event-specific simultaneous attendance estimate and verify whether further NTC demonstrations continued into later weeks/months."
+  },
+  {
+    "gap_id": "BD24Q4-202411-G004",
+    "type": "episode_boundary",
+    "description": "Adviser appointments drew distinct student protests in Dhaka on 11 Nov and Rangpur on 12–13 Nov. The latter two days have same movement, demands, consecutive timing and >100 participants, but may be one continuing episode or two actions; link to Dhaka campus event is unproven.",
+    "source_ids": [
+      "BD24Q4-202411-S006",
+      "BD24Q4-202411-S007",
+      "BD24Q4-202411-S008",
+      "BD24Q4-202411-S010"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202411-E002",
+      "BD24Q4-202411-E003"
+    ],
+    "required_followup": "Review organizer identity, campaign continuity, precise locations/end times, and event-unit rules before final assignment."
+  },
+  {
+    "gap_id": "BD24Q4-202411-G005",
+    "type": "episode_boundary",
+    "description": "On 25–26 Nov, Chinmoy Krishna Das supporters held a 60–70-person Shahbagh protest, a thousands-strong Chattogram court gathering, and separate demonstrations in multiple districts. Shared detention/release demand and organization suggest a campaign; local events and possible nationwide unit structure need review.",
+    "source_ids": [
+      "BD24Q4-202411-S013",
+      "BD24Q4-202411-S014",
+      "BD24Q4-202411-S015",
+      "BD24Q4-202411-S016"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202411-E004",
+      "BD24Q4-202411-E005",
+      "BD24Q4-202411-E006",
+      "BD24Q4-202411-E007",
+      "BD24Q4-202411-E008",
+      "BD24Q4-202411-E009"
+    ],
+    "required_followup": "Review national/local organization and episode boundaries; do not combine distinct towns or infer local headcounts from other sites."
+  },
+  {
+    "gap_id": "BD24Q4-202411-G006",
+    "type": "threshold_and_continuity",
+    "description": "The 26 Nov Dhaka Tribune national-roundup reports Jahangirnagar, Khulna and Barisal release protests without local attendance counts, while Feni has over 500. The word 'mass rally' alone is insufficient to establish threshold.",
+    "source_ids": [
+      "BD24Q4-202411-S015"
+    ],
+    "affected_candidates": [
+      "BD24Q4-202411-E006",
+      "BD24Q4-202411-E007",
+      "BD24Q4-202411-E008",
+      "BD24Q4-202411-E009"
+    ],
+    "required_followup": "Find local attendance evidence for each site; keep each under threshold pending until supported."
+  },
+  {
+    "gap_id": "BD24Q4-202411-G007",
+    "type": "coverage_limit",
+    "description": "November discovery used English and Bangla web queries on protests, labor, adviser appointments and Chinmoy-related events. Search engines, source-access limitations, missing historical originals and limited time mean this dossier is not exhaustive or an official finding.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator/reviewer may identify unsearched dates, sectors, languages or prior-event links. Structural validation must not be treated as coverage certification."
+  },
+  {
+    "gap_id": "BD24Q4-202411-G008",
+    "type": "versioned_structural_correction",
+    "description": "V1 effective copy fixes one invalid labor-demand enum to labor_wage_dispute and supplies missing end_precision values from the already-recorded end_date (day where date present; unknown where null). Original files remain untouched.",
+    "source_ids": [],
+    "affected_candidates": [
+      "BD24Q4-202411-E001",
+      "BD24Q4-202411-E005",
+      "BD24Q4-202411-E006",
+      "BD24Q4-202411-E007",
+      "BD24Q4-202411-E008"
+    ],
+    "required_followup": "Reviewer should confirm end-date precision is supported by each cited record; unknown/null preserved when no date existed."
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "DR24D-G001",
+    "type": "coverage_limit",
+    "description": "Spanish-language open-web discovery included country/month, sector, fiscal/labor and follow-up queries, but not systematic province-by-province or archive coverage. LexisNexis and official baseline materials are unavailable; no exhaustive/zero-event claim is justified.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Reviewer may run local/sector/week searches and examine permitted official and contemporary local sources."
+  },
+  {
+    "gap_id": "DR24D-G002",
+    "type": "threshold_unknown",
+    "description": "Dec. 3 severance protest has conflicting counts: Ntelemicro says hundreds, CDN says dozens, Diario Libre unspecified. Dec. 12 Hato Mayor march has no count. The Dec. 18 migrant work-stoppage call/report does not establish a public gathering; CDN exact URL returned 403.",
+    "source_ids": [
+      "DOM24D008",
+      "DOM24D010",
+      "DOM24D014",
+      "DOM24D012",
+      "DOM24D015"
+    ],
+    "affected_candidates": [
+      "dominican_republic_2024-12-E001",
+      "dominican_republic_2024-12-E002"
+    ],
+    "required_followup": "Independently evaluate Dec. 3 count/source relationship and threshold; verify Hato Mayor simultaneous attendance and state target. Do not use work attendance or population aggregates."
+  },
+  {
+    "gap_id": "DR24D-G003",
+    "type": "state_target_uncertain",
+    "description": "Hato Mayor Dec. 12 participants demanded action against electricity overbilling from Edeeste, a utility. The body and follow-up confirm a march and company meeting, but do not establish a demand directed to the Dominican state or regulator. Company response is not coded as state accommodation.",
+    "source_ids": [
+      "DOM24D012",
+      "DOM24D016"
+    ],
+    "affected_candidates": [
+      "dominican_republic_2024-12-E002"
+    ],
+    "required_followup": "Determine whether grievance/demand targeted state policy/regulation, and obtain a crowd estimate; retain pending_state_target until shown."
+  },
+  {
+    "gap_id": "DR24D-G004",
+    "type": "retrieval_limit",
+    "description": "Exact CDN Dec. 18 report URL returned HTTP 403 and was not retried. Other open-web search results say the call to a migrant labor stoppage was made; one snippet says normal work in Distrito Nacional, but its body could not be read and the geographically limited result cannot establish what happened elsewhere or whether a gathering occurred.",
+    "source_ids": [
+      "DOM24D002",
+      "DOM24D015"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry the denied URL. Seek independent permitted follow-up reporting without treating call/attendance as public-protest evidence."
+  },
+  {
+    "gap_id": "DR24D-G005",
+    "type": "cross_month_continuity",
+    "description": "Fiscaldom announced a Dec. 2 work stoppage and Dec. 3 vigil after its Nov. 29 action; search results indicate Dec. 2 work stoppage occurred, but no Dec. 3 vigil body was read and no public crowd threshold was established. Current evidence is a continuing labor campaign, not a separate verified mass gathering.",
+    "source_ids": [
+      "DOM24D017"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Verify Dec. 2/3 gatherings, exact locations/attendance, campaign boundary, and whether actions are continuation of November or distinct; do not assign them as new events without evidence."
+  }
+]

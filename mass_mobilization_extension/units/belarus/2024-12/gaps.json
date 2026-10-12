@@ -1,0 +1,67 @@
+[
+  {
+    "gap_id": "belarus_2024-12_G001",
+    "type": "access_provenance",
+    "description": "The full historical access/source ledger is absent from this worktree. Current review/source_checks.jsonl and all available source cards were scanned; no exact or documented alias/origin match was found for the Viasna/HRW leads, but unknown historical context remains.",
+    "source_ids": [
+      "BYD24S001",
+      "BYD24S002",
+      "BYD24S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may provide permitted exact history or review independently. Do not treat a no-match as permission or infer domain scope."
+  },
+  {
+    "gap_id": "belarus_2024-12_G002",
+    "type": "access",
+    "description": "The Viasna annual-report PDF returned an observed HTTP 403 on its exact URL. The December monthly page is search-only and was not opened after two other exact URLs on the same host returned 403; this is not a finding that the December page itself is blocked or that the whole domain is restricted.",
+    "source_ids": [
+      "BYD24S001",
+      "BYD24S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry the denied PDF. Any future attempt to the distinct December page needs a fresh exact-URL scan and manual review; other allowed publishers may be used."
+  },
+  {
+    "gap_id": "belarus_2024-12_G003",
+    "type": "source_hold",
+    "description": "A Human Rights Watch annual-report result appeared in search. The body was not requested because the project instructions identify an unresolved HRW source/alias/origin hold; no scope was inferred and no access status beyond search-only is claimed.",
+    "source_ids": [
+      "BYD24S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Await permitted exact source-scope evidence or independent coordinator review; do not open this source while the hold is pending."
+  },
+  {
+    "gap_id": "belarus_2024-12_G004",
+    "type": "coverage",
+    "description": "Russian, Belarusian and English month and week-window searches did not confirm a public gathering inside Belarus meeting both the 50-person simultaneous threshold and own-state demand rule. Results prominently resurfaced 2019–2021 protests; the absence of a qualifying search hit is not evidence that no gathering occurred.",
+    "source_ids": [
+      "BYD24S001",
+      "BYD24S002",
+      "BYD24S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Independent review may search permitted local/regional and contemporary sources. Require event-specific attendance, own-state target and onset evidence."
+  },
+  {
+    "gap_id": "belarus_2024-12_G005",
+    "type": "method",
+    "description": "Open-web discovery cannot reproduce the LexisNexis newspaper search; native query timestamps and structured response headers were unavailable and rendered captures retain null clocks. Searches are not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep this limitation explicit; do not report a zero-event month as established."
+  },
+  {
+    "gap_id": "belarus_2024-12_G006",
+    "type": "regional_coverage",
+    "description": "Reconciliation added Russian/Belarusian city-group searches for Gomel, Brest, Vitebsk, Grodno, Mogilev and Minsk, four December date sub-windows and regional portal searches. Telegraf was opened for an advance notice about New Year festivities; no executed protest was reported. A Vitebsk Spring search result has unknown date and unresolved publisher relationship, so no body request was made. Results remain limited by local indexing and do not establish complete regional coverage.",
+    "source_ids": [
+      "BYD24S004",
+      "BYD24S005",
+      "BYD24S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Independent reviewer should assess the regional captures. If extending, clarify the distinct Vitebsk Spring publisher/origin from permitted evidence before considering body access, and use local-language regional sources; do not generalize the exact spring96.org denial."
+  }
+]

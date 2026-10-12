@@ -1,0 +1,75 @@
+[
+  {
+    "gap_id": "IT24OCT-G001",
+    "type": "search_coverage",
+    "description": "Non-exhaustive open-web search in Italian and English for October protests, labor/automotive actions, regional gatherings and Palestine solidarity. Queries sampled national sources and selected cities but did not exhaust regional archives or all issue sectors. Search output and capture limitations are documented in this unit.",
+    "source_ids": [
+      "IT24OCT-S001",
+      "IT24OCT-S002",
+      "IT24OCT-S003",
+      "IT24OCT-S004"
+    ],
+    "affected_candidates": [
+      "IT24OCT-E001",
+      "IT24OCT-E002",
+      "IT24OCT-E003",
+      "IT24OCT-E004"
+    ],
+    "required_followup": "Review regional sources and search additional city/sector terms; no result from current searches implies zero events."
+  },
+  {
+    "gap_id": "IT24OCT-G002",
+    "type": "state_target_and_organizer",
+    "description": "The 12 October Rome and Milan Gaza-related marches exceed the threshold but the opened source does not establish a clear demand for action by the Italian state; Rome and Milan remain separate candidates and no multi-city aggregation is made.",
+    "source_ids": [
+      "IT24OCT-S003"
+    ],
+    "affected_candidates": [
+      "IT24OCT-E002",
+      "IT24OCT-E003"
+    ],
+    "required_followup": "Seek explicit domestic-policy demands and organizer/campaign evidence; retain pending_state_target until established."
+  },
+  {
+    "gap_id": "IT24OCT-G003",
+    "type": "retrieval_failure",
+    "description": "The exact ANSA English article URL for the 5 October Rome march returned HTTP 503 Service Unavailable from the web tool after exact-target access check and manual review. Raw failure is saved; it is a technical failure, not a denial; no retry was made. The La Stampa opened report supports the candidate.",
+    "source_ids": [
+      "IT24OCT-S005"
+    ],
+    "affected_candidates": [
+      "IT24OCT-E004"
+    ],
+    "required_followup": "Do not retry the exact 503 URL; independent sources may be searched after fresh exact-target access review."
+  },
+  {
+    "gap_id": "IT24OCT-G004",
+    "type": "cross_month_continuity",
+    "description": "The 5 October Rome march opposed DDL 1660/security legislation. December 14 reporting also describes a national protest against the security decree, but available evidence does not establish that these were one continuous episode or the same organizing network.",
+    "source_ids": [
+      "IT24OCT-S004"
+    ],
+    "affected_candidates": [
+      "IT24OCT-E004"
+    ],
+    "required_followup": "Review December evidence and source continuity claims; do not merge based only on overlapping policy demand."
+  },
+  {
+    "gap_id": "IT24OCT-G005",
+    "type": "baseline_and_access_history",
+    "description": "Official baseline remains pending. Historical source restriction ledger is absent; the available context identifies AP, HRW, New Arab, Facebook and LOrient affected entities, while aliases/origins remain unknown. Local exact-target reviews do not prove global completeness.",
+    "source_ids": [
+      "IT24OCT-S001",
+      "IT24OCT-S002",
+      "IT24OCT-S003",
+      "IT24OCT-S004"
+    ],
+    "affected_candidates": [
+      "IT24OCT-E001",
+      "IT24OCT-E002",
+      "IT24OCT-E003",
+      "IT24OCT-E004"
+    ],
+    "required_followup": "Coordinator to resolve official baseline and historical restriction-ledger gaps; manual scientific review remains pending."
+  }
+]

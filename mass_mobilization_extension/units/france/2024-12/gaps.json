@@ -1,0 +1,55 @@
+[
+  {
+    "gap_id": "FRA2024-12-G001",
+    "gap_type": "pending_coverage",
+    "affected_candidate_ids": [
+      "FRA2024-12-E001",
+      "FRA2024-12-E002",
+      "FRA2024-12-E003"
+    ],
+    "description": "Eleven captured French-language queries cover public-service strike, farmers, industry and date windows but do not exhaust local press or sector archives. TF1 returned HTTP 403; Le Figaro page was inaccessible with no HTTP status; neither was retried.",
+    "source_ids": [
+      "S15E5280655",
+      "S7FF0860F18",
+      "S720DE30E56",
+      "SDCC3F32895",
+      "SD3F728731F"
+    ],
+    "next_permitted_action": "Search permitted local outlets for actual attendance and policy demands; do not retry blocked/inaccessible URLs."
+  },
+  {
+    "gap_id": "FRA2024-12-G002",
+    "gap_type": "pending_review",
+    "affected_candidate_ids": [
+      "FRA2024-12-E002",
+      "FRA2024-12-E003"
+    ],
+    "description": "Grand Palais and A2 events are distinct sites. Threshold is supported only for Paris; the French-state target for both farm events is unresolved.",
+    "source_ids": [
+      "SD3F728731F"
+    ],
+    "next_permitted_action": "Review own-country state-target criterion and local simultaneous attendance; do not merge cross-border and Paris events."
+  },
+  {
+    "gap_id": "FRA2024-12-G003",
+    "gap_type": "pending_evidence",
+    "affected_candidate_ids": [],
+    "description": "CGT’s 12 December listing enumerates planned industrial/public actions, but the captured source does not show which proposed gatherings occurred or their attendance.",
+    "source_ids": [
+      "SDCC3F32895"
+    ],
+    "next_permitted_action": "Find post-event local reporting for exact gatherings, occurrence, simultaneous attendance and demands before creating candidates."
+  },
+  {
+    "gap_id": "FRA2024-12-G004",
+    "gap_type": "pending_review",
+    "affected_candidate_ids": [
+      "FRA2024-12-E002"
+    ],
+    "description": "A prior malformed write of events.json was overwritten in place before its bytes/hash were preserved. The original malformed bytes and hash are unavailable; current V1 files have a new preservation copy and exact known hashes. No reconstruction is claimed.",
+    "source_ids": [
+      "SD3F728731F"
+    ],
+    "next_permitted_action": "Reviewer may assess the current V2 candidate against its preserved rendered source and current file hashes; do not infer or recreate the lost malformed bytes."
+  }
+]

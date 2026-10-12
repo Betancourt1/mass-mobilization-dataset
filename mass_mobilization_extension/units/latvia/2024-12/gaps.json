@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "LV12-G001",
+    "type": "coverage_limit",
+    "description": "Two Latvian/English open-web search batches covered month-wide protest terms, discovered Georgian solidarity events, sectors and a legislative-policy event. This is open-web coverage, not systematic LexisNexis or local archive coverage.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent review may expand local/regional/week-window searches. No claim of exhaustive event detection."
+  },
+  {
+    "gap_id": "LV12-G002",
+    "type": "threshold",
+    "description": "The 12 Dec singing protest at Saeima is a public event with an own-state legal-policy demand, but LSM says only “some dozens.” This does not establish ≥50.",
+    "source_ids": [
+      "LV12-S003"
+    ],
+    "affected_candidates": [
+      "LV12-E001"
+    ],
+    "required_followup": "Seek a contemporaneous event-specific count if an independent source is identified."
+  },
+  {
+    "gap_id": "LV12-G003",
+    "type": "date_and_capture_provenance",
+    "description": "The waste-incineration report was discovered by November queries and body-opened once after the November exact URL assessment. The December raw file is byte-identical to the November rendered response and is retained as a copied record, not a distinct December read.",
+    "source_ids": [
+      "LV12-S001"
+    ],
+    "affected_candidates": [
+      "LV12-X004"
+    ],
+    "required_followup": "Do not double-count an open or treat petition signatures as attendees."
+  },
+  {
+    "gap_id": "LV12-G004",
+    "type": "state_target",
+    "description": "The 4, 7 and 14 Dec Georgia solidarity actions took place in Riga, but their documented demands concern Georgia’s government, elections and political violence, not the Latvian state.",
+    "source_ids": [
+      "LV12-S002",
+      "LV12-S004",
+      "LV12-S005"
+    ],
+    "affected_candidates": [
+      "LV12-X001",
+      "LV12-X002",
+      "LV12-X003"
+    ],
+    "required_followup": "No additional coding absent evidence of a Latvian-state demand."
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "gap_id": "HT24O-G001",
+    "type": "coverage_limit",
+    "description": "Open-web discovery was performed in French, Haitian Creole and English with month/date, regional and sector terms. Searches targeted Jérémie/Grand’Anse, Cap-Haïtien, Ouanaminthe, Cayes and Gonaïves; only Jérémie has opened body evidence. Haitian Times reports other-city events only in a search snippet and tool retrieval was restricted. No systematic local archive/LexisNexis access.",
+    "source_ids": [
+      "HT24O001"
+    ],
+    "affected_candidates": [
+      "haiti_2024-10-E002",
+      "haiti_2024-10-E003"
+    ],
+    "required_followup": "Use permitted independent local reports for date, public gathering, site-specific attendance and demand in Cap-Haïtien/Ouanaminthe; do not retry the Haitian Times URL."
+  },
+  {
+    "gap_id": "HT24O-G002",
+    "type": "threshold_unknown",
+    "description": "Jérémie reports conflict between “several hundred” and “thousands”; no numeric count or provenance of estimates. The lower wording exceeds 50 qualitatively, but source lineage/reliability and the relevance of the organizer’s violent rhetoric require independent review.",
+    "source_ids": [
+      "HT24O002",
+      "HT24O003"
+    ],
+    "affected_candidates": [
+      "haiti_2024-10-E001"
+    ],
+    "required_followup": "Reviewer should assess source independence, lower crowd description, and whether the actual event remained public protest rather than armed resistance; unknown violence/state response/end date remain open."
+  },
+  {
+    "gap_id": "HT24O-G003",
+    "type": "episode_boundary",
+    "description": "The 17 October demonstration follows a political call and one report says Guy Philippe planned a national tour; evidence of actual continuation and relationship to separate city demonstrations in October/November was not established. October 30 September 2024 mobilization reports are outside this month.",
+    "source_ids": [
+      "HT24O003",
+      "HT24O004"
+    ],
+    "affected_candidates": [
+      "haiti_2024-10-E001",
+      "haiti_2024-10-E002",
+      "haiti_2024-10-E003"
+    ],
+    "required_followup": "Check only permitted dated reports for subsequent actual events and neighboring-month continuity; announcements alone do not extend the episode."
+  },
+  {
+    "gap_id": "HT24O-G004",
+    "type": "capture_limit",
+    "description": "The initial grouped search response did not persist as a complete raw structured output. A partial transcript of the visible five results was saved; no claim is made that it is the complete result set. Later searches were distinct follow-up queries, not a retry of that lost capture. Query-result alignment is not available for grouped tool calls.",
+    "source_ids": [
+      "HT24O001",
+      "HT24O004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use later captured search bundles for source-by-source follow-up; preserve the initial partial transcript as a limitation."
+  }
+]

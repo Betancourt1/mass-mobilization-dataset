@@ -1,0 +1,30 @@
+[
+  {
+    "gap_id": "LE-2024-11-G001",
+    "type": "event_execution_and_threshold",
+    "description": "Search previews surfaced a public-administration warning work-stoppage announcement for 13–15 November over a state decision on attendance/pay entitlements. The exact-body request failed; no captured source verifies completion, a public gathering, or at least 50 simultaneous participants. Announcement alone is not coded as an occurrence.",
+    "source_ids": [
+      "LE-2024-11-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use independently permitted contemporaneous reporting to verify whether the announced action occurred; if a gathering is reported, establish participant count and simultaneity."
+  },
+  {
+    "gap_id": "LE-2024-11-G002",
+    "type": "source_access",
+    "description": "Lebanon 24 exact-URL body access was unavailable through the search tool; the single failed attempt was not retried. The search-result preview is retained only as discovery evidence.",
+    "source_ids": [
+      "LE-2024-11-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry this URL in this pass; seek another permitted source."
+  },
+  {
+    "gap_id": "LE-2024-11-G003",
+    "type": "archive_coverage",
+    "description": "Captured open-web searches included English and Arabic terms and surfaced multiple labor/strike leads, mostly outside the month or announcement-only. The original historical source ledger is absent, and open web is not a LexisNexis/systematic regional archive search. No absence claim follows.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Coordinator review of remaining regional and sectoral coverage gaps."
+  }
+]

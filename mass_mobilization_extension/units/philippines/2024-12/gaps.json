@@ -1,0 +1,69 @@
+[
+  {
+    "gap_id": "PH2412-G001",
+    "type": "separate_event_threshold",
+    "description": "Separate Liwasang Bonifacio action/program is not part of PAHRA’s reported 200. Its count and demands remain unknown.",
+    "source_ids": [
+      "PH2412-S001",
+      "PH2412-S002",
+      "PH2412-S005",
+      "PH2412-S007"
+    ],
+    "affected_candidates": [
+      "PH2412-E001"
+    ],
+    "required_followup": "Accessible report establishing separate attendance, demand and episode."
+  },
+  {
+    "gap_id": "PH2412-G002",
+    "type": "retrieval",
+    "description": "ABS-CBN article rendered metadata only; its YouTube URL failed without HTTP status/body. Manila Bulletin estimate was prospective, not actual turnout. No retries.",
+    "source_ids": [
+      "PH2412-S001",
+      "PH2412-S005",
+      "PH2412-S003",
+      "PH2412-S004"
+    ],
+    "affected_candidates": [
+      "PH2412-E001"
+    ],
+    "required_followup": "Treat metadata and prospective counts as non-evidence of actual turnout; seek distinct permitted reports."
+  },
+  {
+    "gap_id": "PH2412-G003",
+    "type": "continuity",
+    "description": "RMN establishes the 10 December action but no episode start/end or continuity; regional results do not establish a qualifying event.",
+    "source_ids": [
+      "PH2412-S002",
+      "PH2412-S008"
+    ],
+    "affected_candidates": [
+      "PH2412-E001"
+    ],
+    "required_followup": "Permitted before/after local reporting if it changes event boundaries."
+  },
+  {
+    "gap_id": "PH2412-G004",
+    "type": "coverage",
+    "description": "Six saved English/Filipino searches covered month and Human Rights Day in Manila with regional follow-up. Open-web search is not exhaustive or LexisNexis-equivalent.",
+    "source_ids": [
+      "PH2412-S001",
+      "PH2412-S002",
+      "PH2412-S008"
+    ],
+    "affected_candidates": [
+      "PH2412-E001"
+    ],
+    "required_followup": "Independent review may identify additional local sources."
+  },
+  {
+    "gap_id": "PH2412-G005",
+    "type": "baseline",
+    "description": "Official baseline reconciliation pending.",
+    "source_ids": [],
+    "affected_candidates": [
+      "PH2412-E001"
+    ],
+    "required_followup": "Coordinator-controlled official baseline review."
+  }
+]

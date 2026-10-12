@@ -1,0 +1,72 @@
+[
+  {
+    "gap_id": "IDN24NOV-G001",
+    "type": "threshold",
+    "description": "The Nov 20 ASPEK/AASB action is confirmed by independent news and organizer report, but only the organizer's ambiguous estimated-participation phrase suggests thousands; independent actual simultaneous turnout is not reported.",
+    "source_ids": [
+      "IDN24NOV-S002",
+      "IDN24NOV-S003"
+    ],
+    "affected_candidates": [
+      "IDN24NOV-E003"
+    ],
+    "required_followup": "Find a contemporaneous independent crowd estimate or clarify the organizer's wording as actual rather than forecast attendance."
+  },
+  {
+    "gap_id": "IDN24NOV-G002",
+    "type": "threshold_and_demands",
+    "description": "The Nov 6 SPN national action is search-only with no verified headcount, precise site or body evidence; the Nov 7 ministry-yard action has no count or specific demand in the official release.",
+    "source_ids": [
+      "IDN24NOV-S004",
+      "IDN24NOV-S006"
+    ],
+    "affected_candidates": [
+      "IDN24NOV-E002",
+      "IDN24NOV-E004"
+    ],
+    "required_followup": "Find accessible union or independent body reporting on attendance, demands and exact gathering details."
+  },
+  {
+    "gap_id": "IDN24NOV-G003",
+    "type": "occurrence",
+    "description": "Multiple sources announce a nationwide strike on 11–12 Nov (and later dates), but no evidence in this bounded search verifies whether an actual public gathering/strike occurred on those days.",
+    "source_ids": [
+      "IDN24NOV-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search contemporaneous local reports from 11–12 Nov for execution, participation, location and demand; do not infer from announcements."
+  },
+  {
+    "gap_id": "IDN24NOV-G004",
+    "type": "continuity",
+    "description": "The Nov 4 Brebes, Nov 6 SPN and Nov 20 ASPEK actions share labor policy topics but have distinct organizers and dates; cross-event campaign relations and closure are unknown.",
+    "source_ids": [
+      "IDN24NOV-S001",
+      "IDN24NOV-S002",
+      "IDN24NOV-S003",
+      "IDN24NOV-S004"
+    ],
+    "affected_candidates": [
+      "IDN24NOV-E001",
+      "IDN24NOV-E002",
+      "IDN24NOV-E003"
+    ],
+    "required_followup": "Review organizer statements and post-event reporting; do not merge based only on common labor policy."
+  },
+  {
+    "gap_id": "IDN24NOV-G005",
+    "type": "coverage",
+    "description": "Bounded coverage found labor activity in Central Java and Jakarta, plus a Cianjur search lead; region-by-region and non-labor sectors were not systematically covered.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue follow-up for Cianjur and other provinces, and search land, environment, education, health, price and political-process issues."
+  },
+  {
+    "gap_id": "IDN24NOV-G006",
+    "type": "archive_access",
+    "description": "Open-web results do not reproduce LexisNexis; native search times/totals and comprehensive press archives are unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No exhaustiveness claim; coordinator may compare official archives if authorized."
+  }
+]

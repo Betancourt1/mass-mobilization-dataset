@@ -1,0 +1,82 @@
+[
+  {
+    "gap_id": "belarus_2024-11_G001",
+    "type": "access_provenance",
+    "description": "The original historical source/access ledger is absent. Available review/source_checks.jsonl was included in each current scan; manual matching found no prior URL, publisher-alias or written-origin evidence for the recorded Sputnik, Viasna and LRT sources. Missing historical context remains unresolved.",
+    "source_ids": [
+      "BYN24S001",
+      "BYN24S002",
+      "BYN24S003",
+      "BYN24S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may provide exact permitted historical evidence or review independently. Do not infer blanket clearance from the current no-match scan."
+  },
+  {
+    "gap_id": "belarus_2024-11_G002",
+    "type": "access",
+    "description": "The exact Viasna annual-report PDF URL returned HTTP 403; no retry was made. The LRT article open returned 'Failed to fetch restricted URL' with no HTTP status, so it is recorded as a tool-level retrieval failure, not a confirmed HTTP denial. Monthly Viasna report remains search-only after two separate exact URLs on the host returned 403; no domain-wide rule is inferred.",
+    "source_ids": [
+      "BYN24S002",
+      "BYN24S003",
+      "BYN24S004"
+    ],
+    "affected_candidates": [
+      "belarus_2024-11_X002"
+    ],
+    "required_followup": "Do not retry the affected exact URLs. Any other source requires its own fresh exact-URL check and manual review."
+  },
+  {
+    "gap_id": "belarus_2024-11_G003",
+    "type": "event_eligibility",
+    "description": "The only identified in-country public gathering with clear reported attendance above 50 is the 7 November state-level October Revolution anniversary rally. Its report describes commemorative/supportive speeches and no demand against Belarusian state policy; it is retained as an exclusion, not a protest candidate.",
+    "source_ids": [
+      "BYN24S001"
+    ],
+    "affected_candidates": [
+      "belarus_2024-11_X001"
+    ],
+    "required_followup": "Independent reviewer may assess the exclusion boundary; do not infer an anti-state demand from the meeting's large attendance."
+  },
+  {
+    "gap_id": "belarus_2024-11_G004",
+    "type": "geography_evidence",
+    "description": "An LRT search result reports a Belarusian diaspora demonstration in Vilnius on 22 November with around two dozen participants; article body access failed without an HTTP status. The snippet-level lead is outside Belarus and is not a verified Belarus event or attendance count.",
+    "source_ids": [
+      "BYN24S004"
+    ],
+    "affected_candidates": [
+      "belarus_2024-11_X002"
+    ],
+    "required_followup": "No coding as a Belarus domestic event. If a reviewer considers it relevant, obtain permitted independent confirmation of location and turnout."
+  },
+  {
+    "gap_id": "belarus_2024-11_G005",
+    "type": "method",
+    "description": "Open-web search in Russian, Belarusian and English, including week windows and election/sector terms, does not reproduce LexisNexis; native query clocks/result JSON were unavailable. Historical protests dominate several result windows. No exhaustive local archive review was possible.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep coverage claims bounded; verify any additional episode with contemporary local evidence."
+  },
+  {
+    "gap_id": "belarus_2024-11_G006",
+    "type": "regional_coverage",
+    "description": "Reconciliation added Russian/Belarusian city-group searches for Gomel, Brest, Vitebsk, Grodno, Mogilev and Minsk, four November date sub-windows and portal-focused searches. Hrodna.life was opened for two regional roundups; results primarily concerned detentions and stale protest history, with no current public protest identified. Searches demonstrate the previously omitted city dimension was attempted but do not exhaust local reporting.",
+    "source_ids": [
+      "BYN24S005",
+      "BYN24S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Independent reviewer should assess current hashes. If extending, a capable local-source researcher can check district/community reporting and targeted workplace coverage; no zero-event inference."
+  },
+  {
+    "gap_id": "belarus_2024-11_G007",
+    "type": "access",
+    "description": "The exact Euroradio article URL surfaced in the November regional search and returned HTTP 403 on one ordinary open. No body was read and no retry was made. The headline concerns a national repression count but does not identify a specific protest gathering.",
+    "source_ids": [
+      "BYN24S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not retry this exact URL. Use other permitted sources only if a specific unresolved claim or material coverage task later requires it."
+  }
+]

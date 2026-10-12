@@ -1,0 +1,36 @@
+[
+  {
+    "gap_id": "lux_nov_blocked_independent_accounts",
+    "scope": "2024-11",
+    "affected_candidate_ids": [
+      "luxembourg_2024-11_E001",
+      "luxembourg_2024-11_E002"
+    ],
+    "affected_source_ids": [
+      "LUX24NOV_S002",
+      "LUX24NOV_S004",
+      "LUX24NOV_S006"
+    ],
+    "description": "Three exact source body attempts are recorded as blocked/unavailable in their source cards. The Orange Week event has two reports, but only RTL Today supplies a participant count; the border-worker protest estimates differ between independent reporting and the union account. No official police turnout data was captured.",
+    "next_steps": "No retries to the exact blocked URLs. If further permitted research is assigned, seek a public police/city record or another independent report, and any later policy follow-up.",
+    "evidence": "Original error responses preserved at raw_search/S002_nov23_virgule.open-error.json, raw_search/S004_nov22_rtlinfos.open-error.json, and raw_search/S006_nov22_wort.open-error.json; opened source records S001, S003, S005, S007."
+  },
+  {
+    "gap_id": "lux_nov_regional_and_episode_limits",
+    "scope": "2024-11",
+    "affected_candidate_ids": [
+      "luxembourg_2024-11_E001",
+      "luxembourg_2024-11_E002"
+    ],
+    "affected_source_ids": [
+      "LUX24NOV_S001",
+      "LUX24NOV_S003",
+      "LUX24NOV_S005",
+      "LUX24NOV_S007",
+      "LUX24NOV_S008"
+    ],
+    "description": "Captured domestic-policy events are in Luxembourg City; one Schengen-region march crossed national borders but the reported target was French and German controls and no Luxembourg-state demand was captured. Orange Week is recurrent annually and border-worker campaigning predates this event, but the available accounts do not establish continuous event episodes or onset/end dates.",
+    "next_steps": "If further research is assigned, search regional municipal and union/news archives for other Q4 gatherings and contemporaneous neighboring-event reports; do not infer absence or continuity from this search set.",
+    "evidence": "Queries lux_nov_2024_002, lux_nov_2024_003, lux_nov_2024_004, lux_nov_broad_001; exact article passages preserved in source raw captures."
+  }
+]

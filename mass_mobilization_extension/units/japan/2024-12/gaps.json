@@ -1,0 +1,58 @@
+[
+  {
+    "gap_id": "JPN24DEC-G001",
+    "type": "state_target_ambiguity",
+    "description": "The 22 December Okinawa protest had a reported crowd of about 2,500, but the explicit demand was that the U.S. military apologize and compensate. A resolution would be delivered to Tokyo and Washington, without a described action demanded from Japan. Threshold evidence does not resolve target eligibility.",
+    "source_ids": [
+      "JPN24DEC-S001",
+      "JPN24DEC-S002"
+    ],
+    "affected_candidates": [
+      "JPN24DEC-E001"
+    ],
+    "required_followup": "Find exact resolution text or contemporaneous reporting that states what Japanese officials were asked to do; otherwise retain pending_state_target."
+  },
+  {
+    "gap_id": "JPN24DEC-G002",
+    "type": "threshold_unknown",
+    "description": "KTV documents the 1 December Osaka Airin eviction protest, but supplies no count of supporters. An occurrence and state target do not establish 50 simultaneous participants.",
+    "source_ids": [
+      "JPN24DEC-S003"
+    ],
+    "affected_candidates": [
+      "JPN24DEC-E002"
+    ],
+    "required_followup": "Seek a contemporaneous participant count or original photos/report with defensible simultaneity; otherwise keep pending_threshold."
+  },
+  {
+    "gap_id": "JPN24DEC-G003",
+    "type": "threshold_and_state_target",
+    "description": "CIVICUS reports a December protest at Kawasaki Heavy Industries’ Tokyo headquarters but gives no count or exact day. The only detailed post is a 4 December organizer announcement for 6 December; the meeting’s occurrence/date cannot be inferred from the plan, and its explicit demands are directed at the private company.",
+    "source_ids": [
+      "JPN24DEC-S001",
+      "JPN24DEC-S004"
+    ],
+    "affected_candidates": [
+      "JPN24DEC-E003"
+    ],
+    "required_followup": "Find a post-event, dated report with attendance and any direct demand to the Japanese government; do not treat the announcement or a count of organization members as event attendance."
+  },
+  {
+    "gap_id": "JPN24DEC-G004",
+    "type": "source_date_discrepancy",
+    "description": "CIVICUS calls the Seibu department-store strike a November 2024 event, but the specific Seibu search follow-up in the November unit returned Japan Times stories dated August 2023. The apparent 2024 attribution is not used to create a December event or to transfer turnout.",
+    "source_ids": [
+      "JPN24DEC-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Clarify whether CIVICUS intended a different 2024 event; if so, locate the exact contemporaneous report before coding."
+  },
+  {
+    "gap_id": "JPN24DEC-G005",
+    "type": "coverage_limit",
+    "description": "Seven recorded searches used Japanese and English full-month terms plus Osaka, Okinawa, labor and Kawasaki follow-ups. Web search is not LexisNexis or systematic local-archive access; no exhaustive coverage claim is made. Historical original source ledgers and official baseline are unavailable. Native execution and response clocks were not exposed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue local/regional and issue-specific searches if needed; consult historical ledgers and official baseline only if separately provided."
+  }
+]

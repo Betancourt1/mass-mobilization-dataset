@@ -1,0 +1,74 @@
+[
+  {
+    "gap_id": "CUB2024-11-G001",
+    "dimension": "thresholds",
+    "description": "Most local turnout is unreported or described as “decenas”; “gran número” and “more than 40” do not establish at least 50 simultaneous people.",
+    "related_candidates": [
+      "CUB2024-11-E001",
+      "CUB2024-11-E002",
+      "CUB2024-11-E003",
+      "CUB2024-11-E004",
+      "CUB2024-11-E005",
+      "CUB2024-11-E006",
+      "CUB2024-11-E007",
+      "CUB2024-11-E009",
+      "CUB2024-11-E010",
+      "CUB2024-11-E011",
+      "CUB2024-11-E012",
+      "CUB2024-11-E013"
+    ],
+    "next_step": "Seek local event-level counts; no monthly aggregate inference."
+  },
+  {
+    "gap_id": "CUB2024-11-G002",
+    "dimension": "independence",
+    "description": "OCC is the only opened source for the newly named local events; its linked articles/posts are discovery leads and were not opened. EFE returned 429 without retry; AP remains held/search-only.",
+    "related_candidates": [
+      "CUB2024-11-E003",
+      "CUB2024-11-E004",
+      "CUB2024-11-E005",
+      "CUB2024-11-E006",
+      "CUB2024-11-E007",
+      "CUB2024-11-E008",
+      "CUB2024-11-E009",
+      "CUB2024-11-E010",
+      "CUB2024-11-E011",
+      "CUB2024-11-E012",
+      "CUB2024-11-E013"
+    ],
+    "next_step": "Exact-target assessment before any follow-up body request; do not retry denied/held access."
+  },
+  {
+    "gap_id": "CUB2024-11-G003",
+    "dimension": "separate gatherings and organization",
+    "description": "A shared blackout context does not prove a single coordinated episode. Nuevo Vedado household actions may not form a public gathering; other localities are separately coded.",
+    "related_candidates": [
+      "CUB2024-11-E001",
+      "CUB2024-11-E002",
+      "CUB2024-11-E005",
+      "CUB2024-11-E008",
+      "CUB2024-11-E009"
+    ],
+    "next_step": "Resolve organization and physical gathering boundaries before linking or merging."
+  },
+  {
+    "gap_id": "CUB2024-11-G004",
+    "dimension": "state response and ending",
+    "description": "Arrests are reported in some locations, but event-specific timing, dispersal, consequences and end times are missing for most candidates.",
+    "related_candidates": [
+      "CUB2024-11-E001",
+      "CUB2024-11-E003",
+      "CUB2024-11-E006",
+      "CUB2024-11-E008",
+      "CUB2024-11-E010"
+    ],
+    "next_step": "Seek event-specific follow-ups; leave unreported response fields unknown."
+  },
+  {
+    "gap_id": "CUB2024-11-G005",
+    "dimension": "other actions",
+    "description": "OCC's wider list includes posters, slogans and online complaints; they do not automatically establish an eligible public assembly.",
+    "related_candidates": [],
+    "next_step": "Continue only event-level leads, never treating the monthly total as candidate events."
+  }
+]

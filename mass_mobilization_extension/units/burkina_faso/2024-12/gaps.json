@@ -1,0 +1,28 @@
+[
+  {
+    "gap_id": "BF2024-12-G001",
+    "type": "method_limitation",
+    "description": "The segmented French and English month searches, mining/labor and political/transition follow-ups, and Dec 6 government-dissolution follow-up found no supported Q4 protest gathering candidate in Burkina. Open-web non-discovery does not mean there were no protests.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "The feasible whole-month, date-window, labor/mining, political and government-transition follow-ups in this dossier were performed; independent review may request additional bounded discovery. This is not a zero-protest claim."
+  },
+  {
+    "gap_id": "BF2024-12-G002",
+    "type": "method_limitation",
+    "description": "No LexisNexis-equivalent archive, systematic broadcast corpus or exhaustive local-language indexing. Historical source/access ledgers and alias/origin mappings remain absent; there are no event-specific body reads for this month.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Official baseline and independent bounded-coverage review remain separate and pending."
+  },
+  {
+    "gap_id": "BF2024-12-G003",
+    "type": "capture_loss",
+    "description": "One query response (Q010) was returned by the web tool but lost before exact persistence when the capture script failed. A repeat of the same query is safely captured as Q011. Q010 has actual_result_count=null and no URLs; its empty header arrays are placeholders, not evidence of zero search results.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No reconstruction is attempted; Q011 is the preserved repeat. Future search results are captured immediately."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "gap_id": "BHT24N-G001",
+    "type": "query_provenance",
+    "description": "Some exploratory searches predated active capture and are absent from the log. Current saved set records monthly, weekly, labor/land, campaign, local-source and regional searches; no missing query text/result headers are reconstructed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve current captures as the auditable record; future searches should be captured at execution."
+  },
+  {
+    "gap_id": "BHT24N-G002",
+    "type": "blocked_source",
+    "description": "The exact United Nations SDG Partnership Week page returned HTTP 403 on one ordinary web-tool open. No body was read and there was no retry. Independent BBS coverage confirms a government–UN week launched in Thimphu on 17 November, but does not establish the separate planned 16 November festival attendance or any festival protest/action.",
+    "source_ids": [
+      "BHT24N002",
+      "BHT24N004"
+    ],
+    "affected_candidates": [
+      "BHT24N-X001"
+    ],
+    "required_followup": "Do not retry the blocked URL. Only pursue an independent permitted report if later evidence makes the festival’s execution or public demand material; no protest claim is made from the blocked page."
+  },
+  {
+    "gap_id": "BHT24N-G003",
+    "type": "language_coverage",
+    "description": "Dzongkha-script and Nepali searches produced sparse Bhutan-specific results and substantial Nepal noise. Researcher does not have reliable local-language reading fluency; reporting in local languages and community channels remains undercovered.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Local-language review by a capable researcher, especially labor, land and gender/rights sources in district-level coverage."
+  },
+  {
+    "gap_id": "BHT24N-G004",
+    "type": "geographic_sector_coverage",
+    "description": "Open-web national news and selected sectors were searched, but each dzongkhag and local labor/land/rights network was not systematically queried. Kuensel site query results were poorly targeted and mostly stale.",
+    "source_ids": [
+      "BHT24N001",
+      "BHT24N006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search district-level local news, labor and land/community reporting with dated queries and captured headers."
+  },
+  {
+    "gap_id": "BHT24N-G005",
+    "type": "archive_method",
+    "description": "Only open-web sources were used; LexisNexis or equivalent systematic news archive access was unavailable. No exhaustive or zero-protest inference follows.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Keep as a method limitation; no bypass or paid-access workaround attempted."
+  }
+]

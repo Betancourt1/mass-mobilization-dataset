@@ -1,0 +1,73 @@
+[
+  {
+    "gap_id": "namibia_2024-11-G001",
+    "type": "threshold",
+    "description": "All three November candidate events lack a demonstrated simultaneous turnout ≥50. The over-300 medical-intern figure describes workers addressed, not march attendees; the Air Namibia 600 figure is former workforce joblessness.",
+    "source_ids": [
+      "NAM24NOV-S001",
+      "NAM24NOV-S002",
+      "NAM24NOV-S003",
+      "NAM24NOV-S004"
+    ],
+    "affected_candidates": [
+      "namibia_2024-11-E001",
+      "namibia_2024-11-E002",
+      "namibia_2024-11-E003"
+    ],
+    "required_followup": "Find independent contemporaneous headcount evidence for each event; never use workforce/potential participant totals as turnout."
+  },
+  {
+    "gap_id": "namibia_2024-11-G002",
+    "type": "gathering_evidence",
+    "description": "The /Khomanin Nov 4 article confirms a petition submission but does not describe a march or public gathering, despite its headline and an advance notice of a planned demonstration.",
+    "source_ids": [
+      "NAM24NOV-S002"
+    ],
+    "affected_candidates": [
+      "namibia_2024-11-E002"
+    ],
+    "required_followup": "Seek an actual event-day report or imagery confirming a public gathering and its size; keep pending_evidence."
+  },
+  {
+    "gap_id": "namibia_2024-11-G003",
+    "type": "continuity",
+    "description": "Air Namibia former workers are reported protesting on Oct 31 and Nov 2 with the same spokesperson and similar severance demands. It is unclear whether these were distinct gatherings in a broader campaign or one episode; sources are not independent corroboration. Cross-unit ID is carried as an explicit reference because local source_ids must resolve within this November dossier.",
+    "source_ids": [
+      "NAM24NOV-S001"
+    ],
+    "affected_candidates": [
+      "namibia_2024-10-E002",
+      "namibia_2024-11-E001"
+    ],
+    "required_followup": "Review any event-specific chronology and organizer records; preserve the separate reported days pending reviewer decision.",
+    "cross_unit_source_refs": [
+      {
+        "unit_id": "namibia_2024-10",
+        "source_id": "NAM24OCT-S003"
+      }
+    ]
+  },
+  {
+    "gap_id": "namibia_2024-11-G004",
+    "type": "date_precision",
+    "description": "Air Namibia Nov 2 and medical intern Nov 19 dates are inferred from 'yesterday' or weekday before publication date, not explicit ISO event dates.",
+    "source_ids": [
+      "NAM24NOV-S001",
+      "NAM24NOV-S003",
+      "NAM24NOV-S004"
+    ],
+    "affected_candidates": [
+      "namibia_2024-11-E001",
+      "namibia_2024-11-E003"
+    ],
+    "required_followup": "Seek another contemporary dated report; retain inference notes until verified."
+  },
+  {
+    "gap_id": "namibia_2024-11-G005",
+    "type": "coverage_language_region",
+    "description": "First-pass search was mainly English and Windhoek-centered; Rundu/Katima searches surfaced security-worker reports published in 2026 rather than the assigned window. No systematic local-language, Oshakati/Ongwediva, or north-eastern Q4 review, official baseline, or LexisNexis search.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search regional archives and local languages with informed terminology; use only date-verified items for Nov 2024."
+  }
+]

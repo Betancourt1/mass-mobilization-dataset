@@ -1,0 +1,64 @@
+[
+  {
+    "gap_id": "BRA2024-11-G001",
+    "type": "event_threshold",
+    "description": "Portal Amazônia S001 reports more than 1,000 people at the Roraima encampment but does not establish simultaneous public attendance; Folha BV S002 has no count.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep continuation threshold unconfirmed; seek site-specific simultaneous attendance evidence."
+  },
+  {
+    "gap_id": "BRA2024-11-G003",
+    "type": "search_input_loss",
+    "description": "One actual search response was captured as Q005, but its exact query input is lost; it is excluded from search_log.jsonl and cannot be reconstructed.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain the loss record and count/query mismatch; only rerun if a genuinely new, justified search is performed."
+  },
+  {
+    "gap_id": "BRA2024-11-G004",
+    "type": "access_provenance",
+    "description": "Historical source/access ledgers were omitted; available source cards do not resolve publisher/origin relationships beyond their stated scope.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Coordinator may provide exact permitted source history for review; unknown aliases remain unknown."
+  },
+  {
+    "gap_id": "BRA2024-11-G005",
+    "type": "unit_scope",
+    "description": "6x1 reports document local actions in many cities but do not settle whether these were one nationally coordinated event or separate city events. No city counts are aggregated.",
+    "source_ids": [
+      "S004",
+      "S005",
+      "S011"
+    ],
+    "affected_candidates": [
+      "BRA2024-11-E001",
+      "BRA2024-11-E002"
+    ],
+    "required_followup": "Review event-specific organizer coordination and retain local counts unless national organization is demonstrated."
+  },
+  {
+    "gap_id": "BRA2024-11-G006",
+    "type": "episode_boundary",
+    "description": "Rio education strike/street action reportedly began 25 Nov, but the count that day is unknown. The first size-confirmed action is the separate chamber occupation on 26 Nov (>100 by Dec3 retrospective); campaign continues into December.",
+    "source_ids": [
+      "S008",
+      "S009",
+      "S012"
+    ],
+    "affected_candidates": [
+      "BRA2024-11-E003"
+    ],
+    "required_followup": "Keep start boundary distinct from first threshold-proven action; review later public activity before setting campaign end."
+  }
+]

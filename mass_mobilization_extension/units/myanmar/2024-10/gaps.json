@@ -1,0 +1,37 @@
+[
+  {
+    "gap_id": "MMR2024-10-G001",
+    "description": "Five body opens lacked a valid contemporaneous local assessment and are excluded from all source/event claims. Four response bodies and capture metadata remain preserved; the first DVB response is tool-output-only, with no saved path/hash and no recoverable file. No URLs were reopened. See the incident record and addendum.",
+    "source_ids": [],
+    "field_evidence": {
+      "assessment_sequence": {
+        "source_ids": [],
+        "summary": "tool_failures/MMR10_LOCAL_ASSESSMENT_SEQUENCE_DEVIATION_001.json and ADDENDUM_002.json document exact targets, refs, verified body hashes where files exist, null native timestamps, and first DVB non-preservation."
+      }
+    },
+    "open_questions": [
+      "Does reviewer require separate event cards for any of these unusable opens? Current coding excludes all their factual contents."
+    ]
+  },
+  {
+    "gap_id": "MMR2024-10-G002",
+    "description": "The October 26 Mandalay candidate has no simultaneous attendance count; the two reports may share the protest leader’s social media/photo origin. Event threshold and source independence are unresolved.",
+    "source_ids": [
+      "S002",
+      "S003"
+    ],
+    "open_questions": [
+      "Can a second independent source quantify this specific gathering?",
+      "Do both articles derive from the same source material?"
+    ]
+  },
+  {
+    "gap_id": "MMR2024-10-G003",
+    "description": "Search coverage remains non-exhaustive and no official baseline or complete historical source restriction ledger was available. Two initial search attempts were not persisted as captured responses and are not counted; exact outputs/refs are not recoverable from this version.",
+    "source_ids": [],
+    "open_questions": [
+      "Can local-language regional sources outside the current Mizzima/LuduNwayOo sample be examined under a fresh scoped assessment?",
+      "Can the missing historical restriction ledger be supplied for review?"
+    ]
+  }
+]

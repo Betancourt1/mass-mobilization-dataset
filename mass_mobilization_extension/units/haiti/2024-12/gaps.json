@@ -1,0 +1,55 @@
+[
+  {
+    "gap_id": "HT24D-G001",
+    "type": "threshold_unknown",
+    "description": "For the 4 December Canapé-Vert protest/barricades, neither source gives simultaneous attendance. Same-date reporting may describe the same or separate actions and gives security versus appointment grievances. Other neighborhood roadblocks in Le National have no site-specific numbers; do not aggregate populations.",
+    "source_ids": [
+      "HT24D002",
+      "HT24D004"
+    ],
+    "affected_candidates": [
+      "haiti_2024-12-E001",
+      "haiti_2024-12-E002"
+    ],
+    "required_followup": "Seek source-specific attendance and episode/site boundaries; no cross-neighborhood summing."
+  },
+  {
+    "gap_id": "HT24D-G002",
+    "type": "threshold_unknown",
+    "description": "The 19 December Fort-National street protest has two accounts but neither reports attendance; common story lineage is unknown.",
+    "source_ids": [
+      "HT24D001",
+      "HT24D003"
+    ],
+    "affected_candidates": [
+      "haiti_2024-12-E003"
+    ],
+    "required_followup": "Seek a permitted contemporaneous crowd estimate and determine whether the accounts are independent; keep source date 20/21 Dec distinct from event date 19 Dec."
+  },
+  {
+    "gap_id": "HT24D-G003",
+    "type": "coverage_limit",
+    "description": "Searches used French, Haitian Creole and English, with national/date, neighborhood-security, labor/student/worker and provincial-city terms. Opened protest bodies concern Port-au-Prince; no systematic local archive or comprehensive provincial/sector coverage was achieved. Search hits on attacks, gang violence and official security operations are not protests.",
+    "source_ids": [
+      "HT24D001",
+      "HT24D002",
+      "HT24D003",
+      "HT24D004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue feasible regional and sector searches for public gatherings and government-directed demands; do not treat violence or insecurity counts as protest attendance."
+  },
+  {
+    "gap_id": "HT24D-G004",
+    "type": "access_chronology",
+    "description": "Le National original URL passed a fresh exact-target assessment; the public open tool followed it automatically to a canonical article URL. That destination was unknown before the initial open. A fresh exact-target access-check/manual note was recorded afterward; it is not a pre-request assessment and does not retroactively authorize the earlier body retrieval. No second body request was made.",
+    "source_ids": [
+      "HT24D002"
+    ],
+    "affected_candidates": [
+      "haiti_2024-12-E001",
+      "haiti_2024-12-E002"
+    ],
+    "required_followup": "Preserve this deviation in review; no further opening of the destination is planned."
+  }
+]

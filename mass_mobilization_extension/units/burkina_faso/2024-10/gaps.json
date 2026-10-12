@@ -1,0 +1,34 @@
+[
+  {
+    "gap_id": "BF2024-10-G001",
+    "type": "method_limitation",
+    "description": "Non-exhaustive open-web searches found no supported October protest candidate beyond false-positive leads; search coverage used French/English and general, weekly, labor/mining, political/transition and regional-city dimensions. The broad discovery may still miss locally reported actions.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "The feasible broad, date-window, regional, sectoral and political open-web steps recorded in the dossier were performed; independent review may request additional bounded discovery, but no further specific event-led search was identified. This is not a zero-protest claim."
+  },
+  {
+    "gap_id": "BF2024-10-G002",
+    "type": "method_limitation",
+    "description": "No LexisNexis-equivalent archive, systematic broadcast corpus, or exhaustive local-language news index was available. The historical source/access ledgers and publisher alias/origin mappings are absent; a no-match cannot establish clean historical access scope.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Independent bounded-coverage review and official baseline comparison remain separate; do not infer no event from open-web non-discovery."
+  },
+  {
+    "gap_id": "BF2024-10-G003",
+    "type": "source_filtering",
+    "description": "Searches returned stale and cross-border labor/protest results, including an announced Fekola strike in Mali, and weather-caused road traffic disruption in Burkina. These were filtered without treating search snippets as event evidence.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Keep country, actual occurrence and public-gathering filters explicit in future discovery."
+  }
+]

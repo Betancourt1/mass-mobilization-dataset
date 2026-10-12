@@ -1,0 +1,43 @@
+[
+  {
+    "gap_id": "ER24NOV-G001",
+    "type": "access",
+    "description": "CSW exact target was manually assessed after stable access check; ordinary request returned HTTP 403 Forbidden. No body was read and no retry was made.",
+    "source_ids": [
+      "ER24NOV-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retry; any changed access must be handled under future authorization and a fresh exact assessment."
+  },
+  {
+    "gap_id": "ER24NOV-G002",
+    "type": "coverage",
+    "description": "English, Tigrinya and Arabic monthly/sector searches and focused Eritrean media searches did not establish an in-country public gathering. This is bounded open-web coverage, not proof that no protest occurred and not LexisNexis-equivalent.",
+    "source_ids": [
+      "ER24NOV-S001",
+      "ER24NOV-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Further feasible local and regional press/union searches; no claims of zero events from silence."
+  },
+  {
+    "gap_id": "ER24NOV-G003",
+    "type": "out_of_scope_lead",
+    "description": "Eritrea Focus result about riots/jails in Israel appears to concern diaspora activity outside Eritrea; search-only, body not opened.",
+    "source_ids": [
+      "ER24NOV-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No further action unless an in-country event is directly evidenced."
+  },
+  {
+    "gap_id": "ER24NOV-G004",
+    "type": "unverified_lead",
+    "description": "A Reddit search snippet asks whether people were angry about a proposed census; it does not document a public gathering, location or turnout.",
+    "source_ids": [
+      "ER24NOV-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not treat as protest absent corroborated reports of an actual gathering."
+  }
+]

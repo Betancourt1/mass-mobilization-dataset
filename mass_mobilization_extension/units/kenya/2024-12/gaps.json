@@ -1,0 +1,48 @@
+[
+  {
+    "gap_id": "KE12-G001",
+    "type": "threshold_and_scope",
+    "description": "Reuters reports several hundred in the Nairobi femicide march, but separate Mombasa and Lodwar events have no reported crowd sizes in the captured text.",
+    "source_ids": [
+      "S003"
+    ],
+    "affected_candidates": [
+      "KEN2024-12-E001"
+    ],
+    "required_followup": "Review the Nairobi count against baseline; seek separate event-level counts for other cities if needed."
+  },
+  {
+    "gap_id": "KE12-G002",
+    "type": "threshold",
+    "description": "The 30 December anti-abduction event is documented in Nairobi, but no simultaneous headcount is reported. Amnesty Kenya’s at-least-50 affected-person figure aggregates teargas/arrest reports across cities and is not attendance.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "KEN2024-12-E002"
+    ],
+    "required_followup": "Seek Nairobi-specific event attendance reporting; do not combine persons affected or other cities."
+  },
+  {
+    "gap_id": "KE12-G003",
+    "type": "partial_source_and_threshold",
+    "description": "The Standard page was visibly premium-limited to caption and introduction. The caption supports that doctors demonstrated outside Nairobi Hospital on 16 December but gives no crowd size; Citizen Digital is only an advance notice.",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "KEN2024-12-E003"
+    ],
+    "required_followup": "Use another permitted contemporaneous source, if available, for attendance and demands; no retry of the limited page."
+  },
+  {
+    "gap_id": "KE12-G004",
+    "type": "coverage",
+    "description": "Open-web searches were performed in English and Swahili; search output is not exhaustive. AP results were not opened due known source hold. No absence claim is made.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue with permitted independent outlets if additional regional coverage is required."
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "gap_id": "DK24OCT-G001",
+    "type": "continuity",
+    "description": "Onset/owner and closure of daily ministry/negotiation demonstrations unknown; October 23 reporting says daily actions were already underway “last month.”",
+    "source_ids": [
+      "DK24OCT-S005"
+    ],
+    "affected_candidates": [
+      "DK24OCT-E004"
+    ],
+    "required_followup": "Search September/October contemporaneous coverage and organizer records; determine onset and whether October episode belongs to September."
+  },
+  {
+    "gap_id": "DK24OCT-G002",
+    "type": "attendance_conflict",
+    "description": "October 1 climate crowd estimates differ (DGUB over 300; Arbejderen about/up to 200); student action lacks separate attendance.",
+    "source_ids": [
+      "DK24OCT-S001",
+      "DK24OCT-S002"
+    ],
+    "affected_candidates": [
+      "DK24OCT-E001",
+      "DK24OCT-E002"
+    ],
+    "required_followup": "Find independent contemporaneous attendance reporting; do not transfer climate estimate to students."
+  },
+  {
+    "gap_id": "DK24OCT-G003",
+    "type": "date_conflict",
+    "description": "DGUB hunger-strike closure text says “yesterday, Monday, 8 October” although 8 October 2024 was Tuesday; closure date remains unknown.",
+    "source_ids": [
+      "DK24OCT-S004"
+    ],
+    "affected_candidates": [
+      "DK24OCT-C001"
+    ],
+    "required_followup": "Seek independent dated reporting or organizer correction; do not infer exact end date."
+  },
+  {
+    "gap_id": "DK24OCT-G004",
+    "type": "coverage",
+    "description": "Open-web searches were conducted in Danish and English, but search is not LexisNexis and cannot establish month-wide exhaustiveness; protest response and violence evidence is limited.",
+    "source_ids": [],
+    "affected_candidates": [
+      "DK24OCT-E001",
+      "DK24OCT-E002",
+      "DK24OCT-E003",
+      "DK24OCT-E004",
+      "DK24OCT-E005"
+    ],
+    "required_followup": "Continue regional/sector searches and independent contemporaneous reporting; query official and local outlets where accessible."
+  },
+  {
+    "gap_id": "DK24OCT-G005",
+    "type": "access_record_loss",
+    "description": "Four original October access-assessment files were overwritten during versioning and cannot be reconstructed absent a separately authenticated byte copy/hash. Their prior contents are treated as lost; current V1 bytes were frozen by coordinator.",
+    "source_ids": [],
+    "affected_candidates": [
+      "DK24OCT-E001",
+      "DK24OCT-E002",
+      "DK24OCT-E003",
+      "DK24OCT-E004",
+      "DK24OCT-E005"
+    ],
+    "required_followup": "No reconstruction. Use new V2 assessment IDs only for new V2 reads; coordinator owns incident record."
+  }
+]

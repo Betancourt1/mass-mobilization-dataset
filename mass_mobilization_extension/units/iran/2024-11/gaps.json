@@ -1,0 +1,81 @@
+[
+  {
+    "gap_id": "IR24NOV-G001",
+    "type": "capture_gap",
+    "description": "One four-query batch has saved inputs in an erroneous non-unit path and byte-identical output copies with no query-to-header mapping. Exact inputs and response hashes are documented in deviations/IR24Q4_BATCH_SEARCH_MAPPING_GAP.json; no per-query search_log records are asserted for the batch.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Do not reconstruct or replay; use only later separately captured searches. Preserve the original paths/copies."
+  },
+  {
+    "gap_id": "IR24NOV-G002",
+    "type": "threshold",
+    "description": "Only the Nov20 retired-teacher event has event-specific reports in the current capture that clearly support at least 50. Other November public actions identified at Ministry, Presidential office, governorates, pension funds and hospital lack event-specific simultaneous counts. The claimed Nov20 counts conflict (hundreds, >1,000 attributed to ILNA/union activists, and ~7,000 attributed to teacher channels).",
+    "source_ids": [
+      "IR24NOV-S001",
+      "IR24NOV-S002",
+      "IR24NOV-S003",
+      "IR24NOV-S004",
+      "IR24NOV-S005",
+      "IR24NOV-S006"
+    ],
+    "affected_candidates": [
+      "IR24NOV-E001",
+      "IR24NOV-E002",
+      "IR24NOV-E003",
+      "IR24NOV-E004",
+      "IR24NOV-E005",
+      "IR24NOV-E006",
+      "IR24NOV-E007",
+      "IR24NOV-E008",
+      "IR24NOV-E009",
+      "IR24NOV-E010",
+      "IR24NOV-E012",
+      "IR24NOV-E013",
+      "IR24NOV-E014"
+    ],
+    "required_followup": "Independent reviewer should assess Nov20 count-source provenance; other candidates remain pending threshold."
+  },
+  {
+    "gap_id": "IR24NOV-G003",
+    "type": "episode_boundary",
+    "description": "Persian calendar dates were converted carefully: 20/21 Aban are Nov10/11, 26 Aban is Nov16, and 30 Aban is Nov20. Same-cohort gatherings on separate dates are not automatically continuous; the source describes a plan to continue Nov10 and separate dated gatherings, but uninterrupted action is unproven. Historic August nurse campaign is outside this month.",
+    "source_ids": [
+      "IR24NOV-S004",
+      "IR24NOV-S005",
+      "IR24NOV-S006"
+    ],
+    "affected_candidates": [
+      "IR24NOV-E001",
+      "IR24NOV-E002",
+      "IR24NOV-E003",
+      "IR24NOV-E014"
+    ],
+    "required_followup": "Do not merge dates/sector cohorts without evidence of continuous physical action or explicit national coordination."
+  },
+  {
+    "gap_id": "IR24NOV-G004",
+    "type": "access_review_history",
+    "description": "Historical source ledgers and publisher alias/origin history are unavailable. Fresh exact-target receipts and manual assessments are preserved for bodies opened; source independence is not inferred, including the Nov20 Iran International and Independent Persian articles.",
+    "source_ids": [
+      "IR24NOV-S001",
+      "IR24NOV-S002",
+      "IR24NOV-S003",
+      "IR24NOV-S004",
+      "IR24NOV-S005",
+      "IR24NOV-S006"
+    ],
+    "affected_candidates": [
+      "IR24NOV-E011"
+    ],
+    "required_followup": "Independent review can resolve origins only from actual source evidence; missing history is not an access grant."
+  },
+  {
+    "gap_id": "IR24NOV-G005",
+    "type": "baseline",
+    "description": "No official baseline/source universe or exhaustive country/month inventory was supplied. Current search sample uses English and Persian web searches and selected source bodies; it is not a complete list of all November events.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Do not interpret missing results as no events; retain bounded-coverage note."
+  }
+]

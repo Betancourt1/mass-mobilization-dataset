@@ -1,0 +1,34 @@
+[
+  {
+    "gap_id": "CH24DEC-G001",
+    "type": "access_hold",
+    "description": "Africanews search result explicitly identifies Associated Press origin. Exact-URL access check returned manual_review; body was not requested. The affected-source hold remains unresolved. Its search-only report cannot establish details beyond the captured snippet.",
+    "source_ids": [
+      "CH24DEC-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not open unless exact source/origin scope is independently cleared; use unrelated permitted sources."
+  },
+  {
+    "gap_id": "CH24DEC-G002",
+    "type": "access_denial",
+    "description": "APAnews article about a public-road demonstration ban returned HTTP 429 after exact-URL check and local review. No retry was made; article body remains unavailable.",
+    "source_ids": [
+      "CH24DEC-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retry under current stop rule; corroborate through other permitted sources if a specific research need arises."
+  },
+  {
+    "gap_id": "CH24DEC-G003",
+    "type": "coverage_and_archive_limit",
+    "description": "Open-web searches were limited and do not reproduce LexisNexis or a systematic newspaper archive. No claim of exhaustive discovery is warranted; other candidate rallies require own-state target evidence, which the reviewed reports did not provide.",
+    "source_ids": [
+      "CH24DEC-S002",
+      "CH24DEC-S003",
+      "CH24DEC-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Further permitted local/regional searches or contemporaneous records could identify unobserved episodes; keep current conclusions bounded to evidence reviewed."
+  }
+]

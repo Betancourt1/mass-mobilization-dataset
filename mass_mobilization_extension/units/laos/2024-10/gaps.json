@@ -1,0 +1,32 @@
+[
+  {
+    "gap_id": "LA10-G001",
+    "type": "coverage_and_public_space",
+    "description": "English and Lao-script open-web searches found official/press coverage of Vientiane school closures, road closures and postponement of some planned events during the ASEAN summit. This context cannot establish that all gatherings were prohibited or that no protests occurred.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Check additional permitted local/regional reports and province-level coverage for any actual gatherings during Oct 5-13; do not infer absence from restrictions."
+  },
+  {
+    "gap_id": "LA10-G002",
+    "type": "coverage",
+    "description": "Searches covered generic protest/march/strike terms plus Vientiane, labor, Xieng Khouang land/mining, and local-language terms. Relevant search results largely concerned events outside October; no Q4 candidate with occurrence, own-state demand and threshold evidence was found in this bounded search.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If feasible, continue targeted Lao-language/local outlet searches by province and sector; verify dates before treating old protest reports as current."
+  },
+  {
+    "gap_id": "LA10-G003",
+    "type": "capture_loss",
+    "description": "One additional search was executed, but its exact response payload was not saved due an invalid output path; it is named in raw_search/lost-search-capture.json with returned URLs/result count null and no coverage credit.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No reconstruction or repeat; use only saved query captures."
+  }
+]

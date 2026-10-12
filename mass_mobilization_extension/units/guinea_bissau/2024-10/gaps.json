@@ -1,0 +1,73 @@
+[
+  {
+    "gap_id": "GB24OCT-G001",
+    "type": "classification",
+    "description": "Lusa describes a three-day Frente Social strike on 7–9 Oct; Agence Afrique describes a three-day sectoral strike beginning 9 Oct through 11 Oct. Neither body reports a street gathering, and their date windows conflict or may reflect separate strike waves.",
+    "source_ids": [
+      "GB24OCT-S001",
+      "GB24OCT-S008"
+    ],
+    "affected_candidates": [
+      "GB24OCT-X001"
+    ],
+    "required_followup": "Find contemporaneous strike notices/union records and specific public-march reporting to resolve whether there were one or two work stoppages and whether any public gathering occurred."
+  },
+  {
+    "gap_id": "GB24OCT-G002",
+    "type": "accessibility",
+    "description": "The Conosaba article search header reports school closures during the 21–23 Oct strike. Its open attempt returned HTTP 500 redirected to Google's /sorry page and was marked non-retryable; no body was retrieved.",
+    "source_ids": [
+      "GB24OCT-S005"
+    ],
+    "affected_candidates": [
+      "GB24OCT-X002"
+    ],
+    "required_followup": "Do not retry or work around the redirect. Use other permitted sources only if a specific claim about this strike or a public gathering still matters."
+  },
+  {
+    "gap_id": "GB24OCT-G003",
+    "type": "threshold",
+    "description": "Available strike reports describe service disruption but not a simultaneous public protest group or attendee count. Affected teachers, students and patients are not protest participants.",
+    "source_ids": [
+      "GB24OCT-S001",
+      "GB24OCT-S005",
+      "GB24OCT-S008"
+    ],
+    "affected_candidates": [
+      "GB24OCT-X001",
+      "GB24OCT-X002"
+    ],
+    "required_followup": "Find contemporaneous reports of a separate march, rally, vigil or other public protest with size and state-directed demand; otherwise keep work stoppages excluded."
+  },
+  {
+    "gap_id": "GB24OCT-G004",
+    "type": "unit_assignment",
+    "description": "A search in October found an ANG report of an ESE tuition vigil held on 6 Nov, outside this unit. It is captured here as an adjacent-month lead and coded only in November.",
+    "source_ids": [
+      "GB24OCT-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Retain November ownership and check after-action coverage there; do not back-date the event into October."
+  },
+  {
+    "gap_id": "GB24OCT-G005",
+    "type": "coverage",
+    "description": "Nine logged searches (157 attributable rendered headers) include Portuguese generic and sector terms, English and French searches, date windows for 1–10, 11–20, and 21–31 Oct, strike/follow-up terms, local and regional leads. The first 3-query batch response was aggregated and not attributable by query; its raw output is preserved with three zero-header notes. Results are Bissau-centered; no full regional source sweep was possible.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Treat geographic and outlet coverage as bounded; follow specific regional leads if later found."
+  },
+  {
+    "gap_id": "GB24OCT-G006",
+    "type": "coverage",
+    "description": "The diaspora march in Lisbon was excluded from this country unit because it occurred in Portugal and called for Portuguese intervention; two search headers describe only a few dozen. Open web only; native search/access times and result totals are unknown.",
+    "source_ids": [
+      "GB24OCT-S006",
+      "GB24OCT-S007"
+    ],
+    "affected_candidates": [
+      "GB24OCT-X003"
+    ],
+    "required_followup": "No follow-up needed for this unit's eligibility; preserve the territorial/state-target exclusion and source dependency uncertainty."
+  }
+]

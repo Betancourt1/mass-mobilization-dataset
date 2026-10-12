@@ -1,0 +1,87 @@
+[
+  {
+    "gap_id": "CAR2024-10-G001",
+    "type": "source_access_history",
+    "description": "The historical source ledgers/receipts and detailed known-hold alias/origin scopes were not included. Only the new context row at review/source_checks.jsonl is present. Fresh exact-URL checks and per-target manual assessments were recorded; this does not establish a clean historical access inventory.",
+    "source_ids": [
+      "CAR2024-10-S001",
+      "CAR2024-10-S002",
+      "CAR2024-10-S003",
+      "CAR2024-10-S004",
+      "CAR2024-10-S005",
+      "CAR2024-10-S006",
+      "CAR2024-10-S007",
+      "CAR2024-10-S008",
+      "CAR2024-10-S009"
+    ],
+    "affected_candidates": [
+      "CAR2024-10-E001",
+      "CAR2024-10-E002",
+      "CAR2024-10-E003",
+      "CAR2024-10-E004",
+      "CAR2024-10-E005"
+    ],
+    "required_followup": "If a source-specific hold or origin link appears in permitted evidence, reassess that exact source/action; otherwise keep the historical limitation explicit."
+  },
+  {
+    "gap_id": "CAR2024-10-G002",
+    "type": "eligibility_threshold_and_state_target",
+    "description": "ICA phases lack a documented simultaneous participant count and clear state-directed demand; body text was not captured successfully.",
+    "source_ids": [
+      "CAR2024-10-S003",
+      "CAR2024-10-S004",
+      "CAR2024-10-S005"
+    ],
+    "affected_candidates": [
+      "CAR2024-10-E002",
+      "CAR2024-10-E003"
+    ],
+    "required_followup": "Use independent permitted reporting to establish public-gathering threshold, who was addressed, employer/state relationship, exact first-phase onset and episode continuity."
+  },
+  {
+    "gap_id": "CAR2024-10-G003",
+    "type": "access_technical_failure",
+    "description": "The Oubangui Médias article about INJS student-teachers timed out in the web tool (400 timeout text, no HTTP response); this is not a publisher denial. Search-result text reports 65 participants but body evidence remains unavailable.",
+    "source_ids": [
+      "CAR2024-10-S006"
+    ],
+    "affected_candidates": [
+      "CAR2024-10-E004"
+    ],
+    "required_followup": "Seek independent permitted confirmation of event, attendance, date, demands, response and continuation; do not retry the failed body request."
+  },
+  {
+    "gap_id": "CAR2024-10-G004",
+    "type": "state_target_and_threshold",
+    "description": "The Béloko gathering report appears to concern Ukraine but provides no attendance count or explicit demand to the CAR state.",
+    "source_ids": [
+      "CAR2024-10-S008"
+    ],
+    "affected_candidates": [
+      "CAR2024-10-E005"
+    ],
+    "required_followup": "Find evidence for participant count and domestic target; otherwise keep pending state target."
+  },
+  {
+    "gap_id": "CAR2024-10-G005",
+    "type": "response_and_end_date",
+    "description": "For the artist event, all seven state-response fields remain unknown; a next-day ministerial press briefing is search-only and is not proof of negotiation or accommodation. End date remains unknown.",
+    "source_ids": [
+      "CAR2024-10-S001",
+      "CAR2024-10-S002",
+      "CAR2024-10-S007"
+    ],
+    "affected_candidates": [
+      "CAR2024-10-E001"
+    ],
+    "required_followup": "Check permitted follow-up reporting for actual meeting, demand response, continuation, or closure; no response is inferred from silence."
+  },
+  {
+    "gap_id": "CAR2024-10-G006",
+    "type": "method_language_coverage",
+    "description": "Open-web research used French and English searches with week windows and local Bangui/Béloko terms. Sango terminology was not used because no verified vocabulary/source lexicon was available. LexisNexis and systematic archives were unavailable; searches are not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Consider additional French local/regional outlet and provincial/sector searches if accessible. No official or zero-protest claim."
+  }
+]

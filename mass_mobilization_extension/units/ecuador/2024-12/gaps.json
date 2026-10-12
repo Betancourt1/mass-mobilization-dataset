@@ -1,0 +1,82 @@
+[
+  {
+    "gap_id": "EC24DEC-G001",
+    "type": "coverage",
+    "description": "English/Spanish searches covered broad monthly and follow-up terms for Malvinas, Archidona/Napo, labor, students and regional actions. Batch outputs do not map every result to each query; web search cannot establish no other protests or LexisNexis-equivalent coverage.",
+    "source_ids": [
+      "EC24DEC-S001",
+      "EC24DEC-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "Review remaining local/provincial press and official/union sources for December beyond episodes found."
+    ]
+  },
+  {
+    "gap_id": "EC24DEC-G002",
+    "type": "continuity",
+    "description": "Archidona reports give inconsistent elapsed-day descriptions (second day Dec4, nine days Dec11, 15 days Dec16); onset is supported on Dec3 but closure/end date is unknown.",
+    "source_ids": [
+      "EC24DEC-S004",
+      "EC24DEC-S005",
+      "EC24DEC-S006",
+      "EC24DEC-S007",
+      "EC24DEC-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "Independent reviewer assess one continuous episode and possible daily interruptions; do not invent end date."
+    ]
+  },
+  {
+    "gap_id": "EC24DEC-G003",
+    "type": "access",
+    "description": "EFE Dec13 page body attempt returned HTTP 429 Too Many Requests and was not retried; only search snippet is preserved.",
+    "source_ids": [
+      "EC24DEC-S008"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "No retry. Preserve blocked state; any future action requires changed authorization and fresh source assessment."
+    ]
+  },
+  {
+    "gap_id": "EC24DEC-G004",
+    "type": "threshold",
+    "description": "Dec23 local gatherings outside Guayaquil have “dozens” or no count; separate Quito called sites are not presumed to have happened unless actual reporting confirms.",
+    "source_ids": [
+      "EC24DEC-S002",
+      "EC24DEC-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "Assess each city/site count separately; do not aggregate national totals or announced events."
+    ]
+  },
+  {
+    "gap_id": "EC24DEC-G005",
+    "type": "state_target",
+    "description": "Dec31 pro-military group attendance is around 50, but its signs/support do not by themselves establish a state-directed demand.",
+    "source_ids": [
+      "EC24DEC-S009"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "Reviewer determine target from actual signage/text; retain pending_state_target absent explicit demand."
+    ]
+  },
+  {
+    "gap_id": "EC24DEC-G006",
+    "type": "provenance",
+    "description": "No native access timestamps were supplied in web tool outputs; accessed_at remains null. Earlier publication dates are source metadata and do not represent access clocks.",
+    "source_ids": [
+      "EC24DEC-S001",
+      "EC24DEC-S004",
+      "EC24DEC-S010"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "No correction needed; treat timestamps exactly as documented."
+    ]
+  }
+]

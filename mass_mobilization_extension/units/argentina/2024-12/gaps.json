@@ -1,0 +1,51 @@
+[
+  {
+    "gap_id": "ARG2024-12-G001",
+    "type": "continuity_end",
+    "description": "LA NACION reports the Plaza de Mayo march on 5 December but not the time it concluded.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ARG2024-12-E001"
+    ],
+    "required_followup": "Search later same-day reporting and organizer records for close and state response."
+  },
+  {
+    "gap_id": "ARG2024-12-G002",
+    "type": "event_threshold",
+    "description": "The 11 December national action advertised 500 protest points, but point-level attendance and unit boundaries are uncertain; one Buenos Aires action outside the Sheraton is confirmed but lacks a crowd count. Other points are not assessed.",
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "ARG2024-12-E002"
+    ],
+    "required_followup": "Open contemporary reports and identify specifically evidenced gatherings of 50+; do not assign the reported 500 points as participant estimates or create automatic mergers."
+  },
+  {
+    "gap_id": "ARG2024-12-G003",
+    "type": "baseline_access_scope",
+    "description": "Historical source ledgers and receipts omitted from cloud kit; exact URL review used available Q4 context/current source ledgers only, with aliases/origins for affected entities unknown.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "ARG2024-12-E001"
+    ],
+    "required_followup": "Retain limitation unless coordinator supplies permitted exact historical evidence."
+  },
+  {
+    "gap_id": "ARG2024-12-G004",
+    "type": "event_threshold",
+    "description": "A later EFE report republished by Infobae confirms a 20 December Plaza de Mayo protest by left-wing groups and pensioners against the Milei government economic adjustment, but gives no attendance estimate; start/end, state response and any other city units remain unknown.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [
+      "ARG2024-12-E003"
+    ],
+    "required_followup": "Seek contemporaneous or independent local reporting for attendance and event closure; distinguish any EFE republication from its original and do not infer attendance or state action."
+  }
+]

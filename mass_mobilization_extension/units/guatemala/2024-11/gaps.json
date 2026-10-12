@@ -1,0 +1,53 @@
+[
+  {
+    "gap_id": "GU24NOV-G001",
+    "type": "threshold",
+    "description": "Nov20 roadblocks remain without a site-level count; the Nov21 STEG march has a search/social-post reference to “hundreds” but no exact independently measured turnout. The 90,000 figure refers to the union leader’s broader claim, not a site-specific crowd.",
+    "source_ids": [
+      "GU24NOV-S001",
+      "GU24NOV-S002",
+      "GU24NOV-S004",
+      "GU24NOV-S006"
+    ],
+    "affected_candidates": [
+      "GU24NOV-E001",
+      "GU24NOV-E002"
+    ],
+    "required_followup": "Find a contemporaneous crowd count for each site or retain pending_threshold."
+  },
+  {
+    "gap_id": "GU24NOV-G002",
+    "type": "unit_assignment",
+    "description": "The multiple roadblocks may be separate local events or a coordinated road-infrastructure campaign; no common organizer is documented.",
+    "source_ids": [
+      "GU24NOV-S001",
+      "GU24NOV-S002"
+    ],
+    "affected_candidates": [
+      "GU24NOV-E001"
+    ],
+    "required_followup": "Determine actor/organizer connection and site-level demands before splitting or aggregating."
+  },
+  {
+    "gap_id": "GU24NOV-G003",
+    "type": "coverage",
+    "description": "Seven searches included broad November Spanish/English protest/labor queries, follow-ups for roadblocks and STEG activity, and three date windows (1–10, 11–20, 21–30 Nov). No additional distinct November gathering was verified in the captured date-window results; open-web absence is not a no-event finding.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Use archived/local reporting if wider coverage is required; no event absence is inferred."
+  },
+  {
+    "gap_id": "GU24NOV-G004",
+    "type": "date_conflict",
+    "description": "La Hora’s Nov21 teacher-march article contains one sentence with “21 de octubre”; its heading, publication date, other body details, and two other opened sources say 21 November.",
+    "source_ids": [
+      "GU24NOV-S004",
+      "GU24NOV-S005",
+      "GU24NOV-S006"
+    ],
+    "affected_candidates": [
+      "GU24NOV-E002"
+    ],
+    "required_followup": "Retain the internal typo in source limitations; use the consistent event-day date unless new evidence contradicts."
+  }
+]

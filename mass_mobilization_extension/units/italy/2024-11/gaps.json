@@ -1,0 +1,71 @@
+[
+  {
+    "gap_id": "IT24NOV-G001",
+    "type": "search_coverage",
+    "description": "Four captured Italian-language open-web queries sampled labor, student and national strike actions, including selected Rome, Bologna and Genoa coverage. Search was non-exhaustive and does not inventory all cities, sectors, dates or local outlets.",
+    "source_ids": [
+      "IT24NOV-S001",
+      "IT24NOV-S002",
+      "IT24NOV-S003",
+      "IT24NOV-S004"
+    ],
+    "affected_candidates": [
+      "IT24NOV-E001",
+      "IT24NOV-E002",
+      "IT24NOV-E003",
+      "IT24NOV-E004"
+    ],
+    "required_followup": "Search regional outlets and additional city/sector terms; current coverage cannot support a zero-event claim."
+  },
+  {
+    "gap_id": "IT24NOV-G002",
+    "type": "threshold_and_episode",
+    "description": "The base-union action was reported across 28 plazas with an aggregate estimate of several thousand, which does not establish 50 participants at any individual site. Its relationship as one national episode versus local actions remains open.",
+    "source_ids": [
+      "IT24NOV-S001"
+    ],
+    "affected_candidates": [
+      "IT24NOV-E003"
+    ],
+    "required_followup": "Find site-level simultaneous turnout and organization evidence; do not use aggregate turnout to satisfy a local threshold."
+  },
+  {
+    "gap_id": "IT24NOV-G003",
+    "type": "national_episode_scope",
+    "description": "The CGIL/UIL general strike is reported in at least Rome and Genoa under the same date, unions and budget-law demand. Only Genoa has an attendance estimate (>25,000). The event is provisionally coded as a coordinated national episode; city counts are not summed.",
+    "source_ids": [
+      "IT24NOV-S003",
+      "IT24NOV-S004"
+    ],
+    "affected_candidates": [
+      "IT24NOV-E004"
+    ],
+    "required_followup": "Independent review of national coordination, common demands, and whether the event should be coded nationally or as local gatherings."
+  },
+  {
+    "gap_id": "IT24NOV-G004",
+    "type": "wrong_target_open_deviation",
+    "description": "A tool call intended to open an ANSA Rome result mistakenly opened a Corriere Torino result before any exact-target access check/manual review for that Corriere URL. Raw output is preserved in body_captures/IT24NOV-OPEN-003_full_raw_tool_response.json and deviation IT24NOV-DEV-001 records the actual URL, publisher and hash. No scientific source card or candidate uses it; no retry will be made. The ANSA URL had its own check and assessment and was opened separately.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Preserve the deviation; do not use or reopen the Corriere body. Any other target requires a fresh exact-URL check and manual assessment."
+  },
+  {
+    "gap_id": "IT24NOV-G005",
+    "type": "baseline_and_access_history",
+    "description": "Official baseline remains pending. Historical source restriction ledger is absent; available context lists AP, HRW, New Arab, Facebook and LOrient, with aliases/origins unknown. Local target reviews do not prove global completeness.",
+    "source_ids": [
+      "IT24NOV-S001",
+      "IT24NOV-S002",
+      "IT24NOV-S003",
+      "IT24NOV-S004"
+    ],
+    "affected_candidates": [
+      "IT24NOV-E001",
+      "IT24NOV-E002",
+      "IT24NOV-E003",
+      "IT24NOV-E004"
+    ],
+    "required_followup": "Coordinator to resolve baseline and historical restriction-ledger gaps; scientific review pending."
+  }
+]

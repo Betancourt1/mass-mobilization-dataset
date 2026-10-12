@@ -1,0 +1,82 @@
+[
+  {
+    "gap_id": "IDN24DEC-G001",
+    "type": "threshold",
+    "description": "Banten action reported on 17 Dec is supported only by an ANTARA search result and gives no participant count. A different ANTARA page displayed an AI crawling/indexing restriction notice; no body request was made.",
+    "source_ids": [
+      "IDN24DEC-S003"
+    ],
+    "affected_candidates": [
+      "IDN24DEC-E003"
+    ],
+    "required_followup": "Find an accessible independent body source establishing the actual demand and whether 50 or more people gathered simultaneously."
+  },
+  {
+    "gap_id": "IDN24DEC-G002",
+    "type": "continuity",
+    "description": "Cirebon and Semarang actions are distinct local meetings with different dates/sites, while search results also point to Banten and planned Palace demonstrations. Their relationship to any national wage campaign and final active dates is unresolved.",
+    "source_ids": [
+      "IDN24DEC-S001",
+      "IDN24DEC-S002",
+      "IDN24DEC-S003",
+      "IDN24DEC-S004",
+      "IDN24DEC-S005",
+      "IDN24DEC-S006"
+    ],
+    "affected_candidates": [
+      "IDN24DEC-E001",
+      "IDN24DEC-E002",
+      "IDN24DEC-E003"
+    ],
+    "required_followup": "Check local and national follow-up reporting; do not merge on shared wage-policy context or infer campaign closure from the last article."
+  },
+  {
+    "gap_id": "IDN24DEC-G003",
+    "type": "occurrence",
+    "description": "The 24/27/28 Dec Palace actions and earlier national strikes appear as announcements/cancellation stories only; actual execution is not confirmed by the captured sources.",
+    "source_ids": [
+      "IDN24DEC-S004",
+      "IDN24DEC-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search contemporaneous reporting for the stated dates; retain announcements as forecasts until an action is observed."
+  },
+  {
+    "gap_id": "IDN24DEC-G004",
+    "type": "coverage",
+    "description": "December results were concentrated on wage protests; no broad province-by-province or systematic non-labor sector sweep was completed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue region and sector searches for environmental/land, education, health, price and political-process actions."
+  },
+  {
+    "gap_id": "IDN24DEC-G005",
+    "type": "date_metadata",
+    "description": "The Militant search result retrospectively describes October events, but its URL date and embedded issue/date differ; publication date is kept unknown and no new December event is inferred.",
+    "source_ids": [
+      "IDN24DEC-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "If needed, inspect through permitted access and resolve the publication-date discrepancy; this is an October continuity lead."
+  },
+  {
+    "gap_id": "IDN24DEC-G006",
+    "type": "archive_access",
+    "description": "Open-web research is not equivalent to LexisNexis and cannot establish complete newspaper coverage; native query times/totals are unavailable.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Do not claim exhaustiveness; compare with authorized archive material if available."
+  },
+{
+  "gap_id": "IDN24DEC-G007",
+  "type": "threshold",
+  "description": "The Dec 1 Papuan student demonstration in Yogyakarta is described as a crowd filling an intersection, but no attendance estimate establishes 50 simultaneous participants.",
+  "source_ids": [
+    "IDN24DEC-S007"
+  ],
+  "affected_candidates": [
+    "IDN24DEC-E004"
+  ],
+  "required_followup": "Seek a permissible event-specific attendance estimate from the original Tempo report or a separate contemporaneous source; keep the candidate pending if the threshold remains unproven."
+}
+]

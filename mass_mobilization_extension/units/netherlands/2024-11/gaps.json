@@ -1,0 +1,63 @@
+[
+  {
+    "gap_id": "netherlands_2024-11_G001",
+    "type": "coverage",
+    "description": "Search result lists Nov 21 marches in Arnhem/Utrecht, but the capture exposed an aggregator timeline and a referenced De Gelderlander title without an exact direct URL; no independent contemporary body was opened. Other regional sectors remain undercovered.",
+    "source_ids": [
+      "NET11_SEARCH_WIKI"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search local/regional outlets by city and obtain exact original URLs; verify actual local gathering, threshold and domestic-state demand independently."
+  },
+  {
+    "gap_id": "netherlands_2024-11_G002",
+    "type": "state_target",
+    "description": "Opened NOS accounts for Nov 10 and 13 establish large protests and state responses but do not state an explicit attendee demand toward Dutch government/policy.",
+    "source_ids": [
+      "NLD24NOV_S004",
+      "NLD24NOV_S008"
+    ],
+    "affected_candidates": [
+      "netherlands_2024-11_E002",
+      "netherlands_2024-11_E003"
+    ],
+    "required_followup": "Find organizer/attendee statements contemporaneous with each distinct event; do not infer demand from police arrests or context."
+  },
+  {
+    "gap_id": "netherlands_2024-11_G003",
+    "type": "restricted_source",
+    "description": "Delta article about the Nov 14 Utrecht/The Hague/Delft education-cut demonstrations returned an actual HTTP 402 Payment Required. Its raw failure and assessment are retained; no body or retry. The Delft site-specific gathering size/evidence remains unresolved.",
+    "source_ids": [
+      "NLD24NOV_S007"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Use other permitted independent/local sources for Delft only if an exact target is freshly assessed; do not retry Delta."
+  },
+  {
+    "gap_id": "netherlands_2024-11_G004",
+    "type": "continuity",
+    "description": "The higher-education campaign has separate gatherings in Utrecht and Enschede on Nov 14 and The Hague on Nov 25; local-event relationships and later December continuation need review.",
+    "source_ids": [
+      "NLD24NOV_S003",
+      "NLD24NOV_S005",
+      "NLD24NOV_S002"
+    ],
+    "affected_candidates": [
+      "netherlands_2024-11_E004",
+      "netherlands_2024-11_E005",
+      "netherlands_2024-11_E006"
+    ],
+    "required_followup": "Review whether distinct local events share campaign episode without pooling attendees; check December 2024/January 2025 follow-up."
+  },
+  {
+    "gap_id": "netherlands_2024-11_G005",
+    "type": "coverage",
+    "description": "Search covered first/second half-month windows and selected Palestine/student actions, but feasible follow-ups for Nov 15–24 regional protests, labor and sector diversity remain unfinished. LexisNexis was unavailable; no exhaustive/no-protest claim is made.",
+    "source_ids": [
+      "NET11_SEARCH_WIKI",
+      "NET11_SEARCH_RTLANP"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue Dutch regional searches for Nov 15–24 labor, housing, climate and migration-policy actions; investigate source-list leads without opening affected ANP-linked targets absent resolved scope."
+  }
+]

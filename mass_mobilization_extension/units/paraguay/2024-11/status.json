@@ -1,0 +1,40 @@
+{
+  "unit_id": "paraguay_2024-11",
+  "country": "Paraguay",
+  "month": "2024-11",
+  "status": "researched_open_web_pending_review",
+  "firstpass_complete": false,
+  "official_approved": false,
+  "n_queries": 10,
+  "n_sources": 15,
+  "n_candidates": 4,
+  "n_excluded": 1,
+  "n_continuations": 0,
+  "n_gaps": 4,
+  "source_access_counts": {
+    "opened": 14,
+    "search_only": 1,
+    "blocked": 0,
+    "not_found": 0
+  },
+  "metadata_unknown": true,
+  "coverage_assessment": "Ten Spanish/English/Guaraní and targeted regional/sector query records. Four candidate public actions: Japay-Py march (threshold evidence, outcome unknown), CDE Libre courthouse demonstration (count absent), FNC MAG protest 4 Nov (count absent), Caaguazú PY02 intermittent blockades 6 Nov (count absent). Separate CDE customs action on 9 Nov is excluded below threshold by UH and La Nación estimates (40/30). RDN credits ABC on Nov4; HOY independently confirms. CND Nov6 near-verbatim with UH, not independent. Coverage remains open.",
+  "pending_coverage": {
+    "pending": true,
+    "affected_candidates": [
+      "PY24NOV-E001",
+      "PY24NOV-E002",
+      "PY24NOV-E003",
+      "PY24NOV-E004"
+    ],
+    "dimensions": [
+      "threshold at MAG/PY02/CDE Libre",
+      "links among actions and neighbor-month continuity",
+      "event-specific state response and meeting outcomes",
+      "other regions/sectors and official baseline"
+    ],
+    "reason": "Only Japay-Py has numeric evidence above 50; other event-day turnouts are unresolved and campaign relationships are unverified.",
+    "next_permitted_actions": "Seek attendance, response and continuity reports; do not merge events by topic/date alone."
+  },
+  "baseline_gate": "pending_official_baseline"
+}

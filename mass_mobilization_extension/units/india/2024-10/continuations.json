@@ -1,0 +1,44 @@
+[
+  {
+    "continuation_id": "IN24Q4-202410-C001",
+    "source_ids": [
+      "IN24OCT-S001"
+    ],
+    "field_evidence": {
+      "start_date": {
+        "source_ids": [
+          "IN24OCT-S001"
+        ],
+        "summary": "Reuters reports strike and protest camp began Sep 9, 2024, before assigned month."
+      },
+      "activity_in_month": {
+        "source_ids": [
+          "IN24OCT-S001"
+        ],
+        "summary": "On Oct 1 Reuters reports more than 1,000 workers on strike and a street march near Chennai; the march is an action within the existing strike campaign."
+      },
+      "state_target": {
+        "source_ids": [
+          "IN24OCT-S001"
+        ],
+        "summary": "Wage and union-recognition demands principally directed at Samsung; whether state labor policy was a target is unresolved."
+      },
+      "episode_continuity": {
+        "source_ids": [
+          "IN24OCT-S001"
+        ],
+        "summary": "Event start predates October; this record avoids creating an October-onset observation."
+      }
+    },
+    "related_start_date": "2024-09-09",
+    "related_start_precision": "day",
+    "location": "Sriperumbudur near Chennai, Tamil Nadu",
+    "description": "Samsung workers’ strike/protest started Sept 9 and was still active at the start of October. Oct 1 march is kept as continuation; no new October candidate due earlier onset.",
+    "eligibility": "pending_state_target",
+    "open_questions": [
+      "Did an Oct 1 street march constitute a distinct action, or part of the Sep 9 campaign?",
+      "Were workers demanding a state labor-policy decision, or only employer bargaining?",
+      "When did the campaign end? No exact closeout source captured in this unit."
+    ]
+  }
+]

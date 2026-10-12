@@ -1,0 +1,28 @@
+[
+  {
+    "gap_id": "LE24DEC-G001",
+    "type": "coverage_limit",
+    "description": "Nine captured open-web searches in English and Sesotho terms covered general demonstrations, strikes and worker/government policy, Nqosa Mahao’s dismissal as a contextual lead, LENA/local results, and first/second-half December query phrasing. No event meeting the manual’s essentials was established; the search service did not guarantee date filtering. This is not evidence that no protests occurred.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Consult contemporary Lesotho local-news/union/community archives or other separately discovered permitted records if available; search for actual gatherings, turnout and demands on the Lesotho state."
+  },
+  {
+    "gap_id": "LE24DEC-G002",
+    "type": "retrieval_failure",
+    "description": "LE24DEC-S001 is a search-only LENA item about an official statement following a minister dismissal. One exact-body open timed out with no HTTP status; no access denial was observed. The snippet itself does not report a gathering.",
+    "source_ids": [
+      "LE24DEC-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not infer a protest from this context. If it becomes material, seek another separately discovered permitted report; do not treat timeout as a denial."
+  },
+  {
+    "gap_id": "LE24DEC-G003",
+    "type": "continuity",
+    "description": "No December continuation linked to a Q4 event was found in captured searches; adjacent-month completeness is limited, and the November Pride march is described as a single-day march within a broader program, not a December continuation.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "If new reporting identifies ongoing action, search the adjacent months and document onset/continuity before creating any candidate."
+  }
+]

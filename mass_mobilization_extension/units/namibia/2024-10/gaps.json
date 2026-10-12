@@ -1,0 +1,61 @@
+[
+  {
+    "gap_id": "namibia_2024-10-G001",
+    "type": "threshold",
+    "description": "All three October event candidates lack a reported simultaneous attendance count; no threshold ≥50 is established.",
+    "source_ids": [
+      "NAM24OCT-S002",
+      "NAM24OCT-S003",
+      "NAM24OCT-S004"
+    ],
+    "affected_candidates": [
+      "namibia_2024-10-E001",
+      "namibia_2024-10-E002",
+      "namibia_2024-10-E003"
+    ],
+    "required_followup": "Search/inspect additional contemporaneous reports or photos that provide an actual event-specific attendance estimate; do not substitute employee totals or campaign population."
+  },
+  {
+    "gap_id": "namibia_2024-10-G002",
+    "type": "date_and_sequence",
+    "description": "Mining-permit petition report is dated 28 Oct and says petition was handed over 'yesterday' while also reporting a Thursday appeal filing; event chronology needs resolution.",
+    "source_ids": [
+      "NAM24OCT-S004"
+    ],
+    "affected_candidates": [
+      "namibia_2024-10-E003"
+    ],
+    "required_followup": "Review original newspaper issue date and a separate dated report, if available; retain 27 Oct as inference until resolved."
+  },
+  {
+    "gap_id": "namibia_2024-10-G003",
+    "type": "state_target",
+    "description": "The TransNamib protest is reported at a state ministry, but dispute concerns a specific state-owned enterprise executive appointment and employment terms; state-policy nexus needs reviewer judgment.",
+    "source_ids": [
+      "NAM24OCT-S002"
+    ],
+    "affected_candidates": [
+      "namibia_2024-10-E001"
+    ],
+    "required_followup": "Determine whether the enterprise issue is governed by state policy or only employer-level negotiations."
+  },
+  {
+    "gap_id": "namibia_2024-10-G004",
+    "type": "date_coverage",
+    "description": "A Windhoek Observer guard demonstration has no exact publication or event date in the opened page, so it cannot be assigned to Oct–Dec 2024. Search output also surfaced 2025 labor actions and a 2025 Choppies demonstration, which were not assigned to Q4.",
+    "source_ids": [
+      "NAM24OCT-S005",
+      "NAM24OCT-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Do not attribute the guards' event to Q4 without dated evidence; search additional archives for exact chronology."
+  },
+  {
+    "gap_id": "namibia_2024-10-G005",
+    "type": "coverage_language_region",
+    "description": "First-pass searches were primarily English and Windhoek-focused, with one Khorixas-area/environmental item. No systematic Oshiwambo, Afrikaans or German query set or full northern/coastal/Caprivi regional coverage was completed; no official baseline or LexisNexis review.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Obtain fluent/local-language search support and query Oshiwambo, Afrikaans and German archives plus Oshakati, Ongwediva, Walvis Bay, Swakopmund, Rundu, Katima Mulilo; compare against official baseline when available."
+  }
+]

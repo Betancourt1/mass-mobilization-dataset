@@ -1,0 +1,93 @@
+[
+  {
+    "gap_id": "CAN2024-11-G001",
+    "type": "historical_access_inventory",
+    "description": "Historical source ledgers/receipts are absent; source_checks only provides explicit affected entity names and unknown alias/origin scope.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review permitted historical ledgers if supplied in a later authorized version."
+  },
+  {
+    "gap_id": "CAN2024-11-G002",
+    "type": "threshold_and_state_target",
+    "description": "Ottawa Nov. 18 protest has no crowd size or specific state-policy demand in captured sources.",
+    "source_ids": [
+      "S008",
+      "S009"
+    ],
+    "affected_candidates": [
+      "CAN2024-11-E005"
+    ],
+    "required_followup": "Find independent contemporary report or organizer statement with attendance and explicit Canadian policy demand."
+  },
+  {
+    "gap_id": "CAN2024-11-G003",
+    "type": "threshold_and_unit_boundary",
+    "description": "RCLALQ coordinated action-week had actions at multiple locations/dates and no turnout counts. Whether each gathering is a separate observation or one coordinated action is unresolved.",
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "affected_candidates": [
+      "CAN2024-11-E003"
+    ],
+    "required_followup": "Review codebook event boundary and regional accounts; do not treat banner action as gathering or count every city automatically."
+  },
+  {
+    "gap_id": "CAN2024-11-G004",
+    "type": "threshold_and_state_target",
+    "description": "Nov. 5 CPPIB divestment event has no headcount; request to a pension board may not satisfy own-state target criterion.",
+    "source_ids": [
+      "S005"
+    ],
+    "affected_candidates": [
+      "CAN2024-11-E004"
+    ],
+    "required_followup": "Find contemporaneous crowd estimate and evidence that demands were directed to government/policy."
+  },
+  {
+    "gap_id": "CAN2024-11-G005",
+    "type": "state_target_and_threshold",
+    "description": "Nov. 28 Canada Post headquarters rally is confirmed only by a photo caption, with no attendance and no rally-specific state demand.",
+    "source_ids": [
+      "S011"
+    ],
+    "affected_candidates": [
+      "CAN2024-11-E006"
+    ],
+    "required_followup": "Find contemporaneous union/independent report documenting public turnout and whether protesters targeted government policy."
+  },
+  {
+    "gap_id": "CAN2024-11-G006",
+    "type": "episode_boundary",
+    "description": "Nov. 22 and Nov. 23 anti-NATO actions occur during the Montreal NATO gathering week, but their organizers and event timing differ; source on Saturday also recounts Friday harms.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "CAN2024-11-E001",
+      "CAN2024-11-E002"
+    ],
+    "required_followup": "Review if national/event-week organization connects them; keep 22/23 events separate unless evidence changes boundary and never attribute Friday violence to Saturday."
+  },
+  {
+    "gap_id": "CAN2024-11-G007",
+    "type": "coverage",
+    "description": "Two captured search queries plus targeted follow-up opened multiple regional sources, but English/French open-web searching is not equivalent to LexisNexis and is not exhaustive. Local/Indigenous archives were not systematically searched.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue regional and sector searches in later version."
+  },
+  {
+    "gap_id": "CAN2024-11-G008",
+    "issue": "AP source remains held/search-only",
+    "source_ids": [
+      "S012"
+    ],
+    "affected_candidates": [],
+    "details": "Relevant AP search result was recorded, but no body request was made because AP is a known affected entity in CLOUD_WORKFLOW. Alias/origin scope and historical access evidence are absent; no snippet is used as factual evidence."
+  }
+]

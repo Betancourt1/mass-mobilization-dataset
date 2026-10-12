@@ -1,0 +1,45 @@
+[
+  {
+    "continuation_id": "BOL2024-11-C001",
+    "candidate_id": "BOL2024-10-E001",
+    "episode_key": "bolivia-2024-10-14-to-11-06-roadblock-campaign",
+    "unit_month": "2024-11",
+    "source_ids": [
+      "S5F54379475",
+      "S838756155F",
+      "S34A8B9129A",
+      "SB4317BB421"
+    ],
+    "continuation_status": "continuation from Oct 14 through day 24, reported as Nov 6; not a new onset",
+    "field_evidence": {
+      "october_onset": {
+        "source_ids": [
+          "S5F54379475"
+        ],
+        "summary": "EFE gives 14 Oct onset."
+      },
+      "continued": {
+        "source_ids": [
+          "S838756155F",
+          "SB4317BB421"
+        ],
+        "summary": "ABI reports the blockade 11 days old on 24 Oct; Defensoría bulletin says 24 days in October-November."
+      },
+      "end_date": {
+        "source_ids": [
+          "S34A8B9129A",
+          "SB4317BB421"
+        ],
+        "summary": "Search result of official full report says day 24 was 6 Nov; opened official bulletin confirms 24-day duration."
+      },
+      "threshold": {
+        "source_ids": [
+          "S5F54379475",
+          "SB4317BB421"
+        ],
+        "summary": "No event-level attendance count; aggregation not used for threshold."
+      }
+    },
+    "notes": "Campaign remains one episode owned by October onset; no duplicate November event."
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "gap_id": "MDA2024-10-G001",
+    "type": "threshold",
+    "description": "The 12 October poverty march is corroborated as an actual gathering by two opened articles, but neither gives a simultaneous participant count. Route descriptions conflict and source independence is unresolved.",
+    "source_ids": [
+      "MDA10-S001",
+      "MDA10-S002"
+    ],
+    "affected_candidates": [
+      "MDA2024-10-E001"
+    ],
+    "required_followup": "Search non-syndicated Moldovan coverage or contemporaneous imagery for a credible simultaneous count and route clarification; do not infer attendance from an unrelated municipality calendar."
+  },
+  {
+    "gap_id": "MDA2024-10-G002",
+    "type": "threshold_and_electoral_scope",
+    "description": "The 31 October protest at the Constitutional Court is reported as actual, but turnout is unreported and the event's relation to election/referendum exclusion is unsettled.",
+    "source_ids": [
+      "MDA10-S004"
+    ],
+    "affected_candidates": [
+      "MDA2024-10-E002"
+    ],
+    "required_followup": "Find a contemporaneous attendance estimate and apply the supplied electoral-protest rule to the specific demand against referendum validation."
+  },
+  {
+    "gap_id": "MDA2024-10-G003",
+    "type": "search_result_only_lead",
+    "description": "The Promo-LEX body passage confirms a 5 October march of about 150 with speeches supporting three presidential candidates. The excerpt identifies no demand against state policy, so the gathering is provisionally excluded as candidate-support/electoral activity rather than treated as an MM protest. The election-related exclusion decision remains open to review.",
+    "source_ids": [
+      "MDA10-S003"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Reconsider only if permitted evidence identifies a qualifying state-policy grievance; apply the manual's election-related screening."
+  },
+  {
+    "gap_id": "MDA2024-10-G004",
+    "type": "coverage_and_geography",
+    "description": "English, Romanian and Russian open-web searches and a regional-city query were captured. The regional query surfaced mainly older/out-of-window material; usable leads concentrated in Chișinău. Municipal-calendar snippets describe scheduled gatherings and do not prove actual attendance. No absence claim is warranted.",
+    "source_ids": [
+      "MDA10-S005"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search dated local reporting for Bălți, Cahul, Comrat/Gagauzia, Orhei and Tiraspol; separately verify any candidate's occurrence and attendance."
+  },
+  {
+    "gap_id": "MDA2024-10-G005",
+    "type": "episode_continuity",
+    "description": "A continuity-focused October search and November discovery results were captured, but the search-result leads do not establish whether the October 12 or 31 actions relate to earlier or later episodes. No cross-month link is inferred from topic or organizer similarity alone.",
+    "source_ids": [
+      "MDA10-S001",
+      "MDA10-S004"
+    ],
+    "affected_candidates": [
+      "MDA2024-10-E001",
+      "MDA2024-10-E002"
+    ],
+    "required_followup": "Compare dated September and November body evidence, organizer, demands and uninterrupted activity before assigning episode ownership; assess any exact target before requesting its body."
+  },
+  {
+    "gap_id": "MDA2024-10-G006",
+    "type": "capture_provenance",
+    "description": "Three early malformed search-tool invocations used an invalid tuple shape, leaving the query field undefined; they were rejected before search. Only the October error response is preserved in tool_failures; the November and December raw error responses were not retained. These are excluded from search_log and valid query/header totals; no zero-result claim is made.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "No retry is needed for the rejected call; continue counting only valid saved query responses."
+  }
+]

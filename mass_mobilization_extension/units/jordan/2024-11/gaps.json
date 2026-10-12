@@ -1,0 +1,65 @@
+[
+  {
+    "gap_id": "JO24NOV-G001",
+    "type": "eligibility_threshold_and_target",
+    "description": "The 8 November Amman and Irbid demonstrations are documented, but the opened report gives no attendance counts and does not identify a demand directed to Jordan's state or policy.",
+    "source_ids": [
+      "JO24NOV-S001"
+    ],
+    "affected_candidates": [
+      "JO24NOV-E001"
+    ],
+    "required_followup": "Find contemporaneous location-specific attendance and any explicit demands on Jordan's government; determine whether the two cities were nationally coordinated."
+  },
+  {
+    "gap_id": "JO24NOV-G002",
+    "type": "inaccessible_source_and_boundary",
+    "description": "Safa's 22 November search lead reports multi-city marches and a slogan framing West Bank annexation as a declaration of war on Jordan. Body request returned tool-level inaccessibility; no HTTP status or site-side restriction is known.",
+    "source_ids": [
+      "JO24NOV-S002"
+    ],
+    "affected_candidates": [
+      "JO24NOV-E002"
+    ],
+    "required_followup": "Do not retry this URL. Seek a different permitted source to verify each gathering, target, organization, and turnout."
+  },
+  {
+    "gap_id": "JO24NOV-G003",
+    "type": "attendance_and_state_response",
+    "description": "The 29 November Amman march has qualitative large-crowd wording and explicit requests to Jordanian officials, but no numeric count or state-response report.",
+    "source_ids": [
+      "JO24NOV-S003"
+    ],
+    "affected_candidates": [
+      "JO24NOV-E003"
+    ],
+    "required_followup": "Seek independent attendance and response reporting; keep counts and violence unknown if unavailable."
+  },
+  {
+    "gap_id": "JO24NOV-G004",
+    "type": "possible_duplicate_and_state_target",
+    "description": "The 15 November Anadolu report says hundreds attended and a speaker urged Arab and Muslim rulers to stop the war; Jordan is not named specifically. Jordan Times and Roya search results may describe the same event, so duplicates and independence are unresolved.",
+    "source_ids": [
+      "JO24NOV-S004",
+      "JO24NOV-S005",
+      "JO24NOV-S006"
+    ],
+    "affected_candidates": [
+      "JO24NOV-E004"
+    ],
+    "required_followup": "Compare organizers, route, time and demands in permitted reports; establish whether broad Arab-ruler demands meet the own-state targeting rule."
+  },
+  {
+    "gap_id": "JO24NOV-G005",
+    "type": "search_coverage_and_continuity",
+    "description": "The saved searches emphasize Gaza-related marches. They do not establish complete weekly, labor, price, education or regional coverage, nor the end or continuation of month-long embassy/treaty protest episodes from October.",
+    "source_ids": [],
+    "affected_candidates": [
+      "JO24NOV-E001",
+      "JO24NOV-E002",
+      "JO24NOV-E003",
+      "JO24NOV-E004"
+    ],
+    "required_followup": "Expand local/regional searches by week and sector and check October/December continuity; retain LexisNexis and archive-access gaps."
+  }
+]

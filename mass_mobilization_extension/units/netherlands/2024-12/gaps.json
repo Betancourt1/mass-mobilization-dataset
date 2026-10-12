@@ -1,0 +1,52 @@
+[
+  {
+    "gap_id": "netherlands_2024-12_G001",
+    "type": "coverage",
+    "description": "Searches found announcements for a Dec 14 Schiphol climate action and a Dec 14 Utrecht anti-scapegoating rally; the Utrecht event is now confirmed by an Oozo excerpt, but its linked RTV Utrecht original URL/body is not captured. Search results also identify an XR/KLM frequent-flyer campaign and a Castricum station action without attendance evidence.",
+    "source_ids": [
+      "NET12_SEARCH_AFA",
+      "NET12_SEARCH_SCHIPHOL",
+      "NET12_SEARCH_WIKI"
+    ],
+    "affected_candidates": [
+      "netherlands_2024-12_E002"
+    ],
+    "required_followup": "Recover exact linked RTV Utrecht source through permitted search and local assessment if feasible; investigate Castricum/Schiphol leads only with actual event size and target evidence."
+  },
+  {
+    "gap_id": "netherlands_2024-12_G002",
+    "type": "coverage",
+    "description": "December 1–31 windows were searched across Dutch/English, education, Palestine, climate and government-policy leads; feasible remaining regional/labor/sector-specific searches are unfinished. Search cannot establish absence. LexisNexis was not available.",
+    "source_ids": [
+      "NET12_SEARCH_WIKI",
+      "NET12_SEARCH_SCHIPHOL"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue local/regional labor, housing, climate, migration, agricultural and health-sector searches for the full month and follow dated leads."
+  },
+  {
+    "gap_id": "netherlands_2024-12_G003",
+    "type": "continuity",
+    "description": "The education-cuts issue links November and December gatherings, but separate onsets/sites must remain separate unless episode review finds a single continuous action. The UvA strike began before the reported Dec 12 day.",
+    "source_ids": [
+      "NLD24DEC_S001",
+      "NLD24DEC_S003"
+    ],
+    "affected_candidates": [
+      "netherlands_2024-12_E001"
+    ],
+    "required_followup": "Check January 2025 continuation and keep event-level participant totals separate."
+  },
+  {
+    "gap_id": "netherlands_2024-12_G004",
+    "type": "source_origin",
+    "description": "The Dec 14 Utrecht event card is an excerpt on Oozo that attributes the full article to RTV Utrecht through an outbound link. Exact target URL/original article was not recovered from the captured title search; independence/origin remains unknown.",
+    "source_ids": [
+      "NLD24DEC_S004"
+    ],
+    "affected_candidates": [
+      "netherlands_2024-12_E002"
+    ],
+    "required_followup": "Search exact title/domain and capture the original RTV Utrecht report only after a new exact-URL local assessment; preserve the existing excerpt as-is."
+  }
+]

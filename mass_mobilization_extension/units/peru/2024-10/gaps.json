@@ -1,0 +1,48 @@
+[
+  {
+    "gap_id": "PE24OCT-G001",
+    "type": "official_source_tool_failure",
+    "description": "The exact Defensoría article about October report actions returned one web-tool Internal Error labelled 418. This is a tool retrieval failure, not verified origin denial. The report PDF is a distinct search result, but no request/assessment for that exact PDF is currently preserved in October dossier.",
+    "source_ids": [
+      "PE24OCT-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "After a fresh exact-URL assessment, consider the distinct Defensoría report PDF; do not retry the failed article URL."
+  },
+  {
+    "gap_id": "PE24OCT-G002",
+    "type": "episode_boundary",
+    "description": "Reuters reports a 72-hour call beginning 10 Oct; opened coverage verifies the 10 Oct march but the exact actual stoppage end/continuation is unverified.",
+    "source_ids": [
+      "PE24OCT-S002",
+      "PE24OCT-S003"
+    ],
+    "affected_candidates": [
+      "PE24OCT-E001"
+    ],
+    "required_followup": "Check contemporary 11–13 Oct coverage for actual strike/gathering continuation and closure; do not infer full duration from announcement."
+  },
+  {
+    "gap_id": "PE24OCT-G003",
+    "type": "threshold_and_public_gathering",
+    "description": "RPP confirms a staged SUTEP strike from 16 Oct in several regions, but the opened source does not document a public gathering or any count.",
+    "source_ids": [
+      "PE24OCT-S008"
+    ],
+    "affected_candidates": [
+      "PE24OCT-E003"
+    ],
+    "required_followup": "Find contemporary reports of actual strike-day rallies/pickets, sites, organizers and simultaneous turnout; otherwise keep pending_evidence."
+  },
+  {
+    "gap_id": "PE24OCT-G004",
+    "type": "coverage_and_archive_limit",
+    "description": "Five saved web queries covered general October protest searches, transport actions and SUTEP. This is not a full census; LexisNexis and systematic newspaper archives are unavailable. The government monthly article was not body-readable in one tool attempt, while two relevant body captures are fetch/decoding tool errors.",
+    "source_ids": [
+      "PE24OCT-S001",
+      "PE24OCT-S006"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Further weekly and regional/source-category searches and assess the official PDF if needed; report remains non-exhaustive."
+  }
+]

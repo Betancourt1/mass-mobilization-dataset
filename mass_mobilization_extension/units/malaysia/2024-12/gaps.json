@@ -1,0 +1,108 @@
+[
+  {
+    "gap_id": "MY2412-G001",
+    "type": "coverage_limit",
+    "description": "Five batched web searches captured 185 result headers, including English and Malay national/local queries, official-site searches and Sabah follow-ups. Query-result mapping within each batch and native tool clocks are unknown. The open-web method does not reproduce Lexis-Nexis or demonstrate complete monthly coverage.",
+    "source_ids": [],
+    "affected_candidates": [
+      "MY2412-E001",
+      "MY2412-E002",
+      "MY2412-X001"
+    ],
+    "required_followup": "Reviewer may check additional regional archives and official baselines; no exhaustive-month claim."
+  },
+  {
+    "gap_id": "MY2412-G002",
+    "type": "attendance",
+    "description": "For the Dec 31 student march, Malaysiakini reports around 50 at the 2 pm start while Sinar Harian later observed nearly 100 and The Star reported over 100. These appear to be time-specific reports of the same student-led event, but an exact simultaneous count and exact growth path remain unknown. The separate 1,500-person Bangkit Sabahan gathering and online audience are excluded from the student event count.",
+    "source_ids": [
+      "MY2412-S004",
+      "MY2412-S007",
+      "MY2412-S008"
+    ],
+    "affected_candidates": [
+      "MY2412-E002"
+    ],
+    "required_followup": "Reviewer should assess the later same-event estimates under the codebook’s attendance rule; do not sum separate gatherings or digital views."
+  },
+  {
+    "gap_id": "MY2412-G003",
+    "type": "continuity",
+    "description": "Sinar Harian and Malaysiakini report a plan to stay into the late night/1 am, but the captured contemporaneous reports do not verify actual continuation or end time after midnight.",
+    "source_ids": [
+      "MY2412-S004",
+      "MY2412-S007"
+    ],
+    "affected_candidates": [
+      "MY2412-E002"
+    ],
+    "required_followup": "Keep end_date unknown and do not create a January continuation without evidence of actual activity across the date boundary."
+  },
+  {
+    "gap_id": "MY2412-G004",
+    "type": "source_capture",
+    "description": "The Malaysiakini English S003 body request used the assessed slash-terminated URL but the returned response redirected to a no-slash canonical target. A post-open assessment/check is separately preserved and does not backdate clearance. S003 is not used for event field coding; the direct Malay-language body S007 and independent Sinar/The Star bodies support the candidate.",
+    "source_ids": [
+      "MY2412-S003",
+      "MY2412-S004",
+      "MY2412-S007",
+      "MY2412-S008"
+    ],
+    "affected_candidates": [
+      "MY2412-E002"
+    ],
+    "required_followup": "Reviewer may inspect the redirect deviation and exact canonical check; do not reopen either URL."
+  },
+  {
+    "gap_id": "MY2412-G005",
+    "type": "source_origin",
+    "description": "The Malay Mail pre-event body S006 disclosed a Borneo Post credit only after opening; the exact original Borneo Post URL is unknown. Post-open origin and timestamp correction records preserve the sequence. S006 is not used for candidate evidence; no origin body was opened.",
+    "source_ids": [
+      "MY2412-S006",
+      "MY2412-S004",
+      "MY2412-S007",
+      "MY2412-S008"
+    ],
+    "affected_candidates": [
+      "MY2412-E002"
+    ],
+    "required_followup": "Resolve the original source URL only if the unit is reopened; do not treat S006 as independent or as pre-assessed origin evidence."
+  },
+  {
+    "gap_id": "MY2412-G006",
+    "type": "state_response",
+    "description": "Dec 4 response coverage in Malay Mail attributes the Prime Minister’s statement to a Facebook post, an affected held source; the post was not accessed and the statement is not relied on. For Dec 31, police presence/escort is documented but no response category is established.",
+    "source_ids": [
+      "MY2412-S001",
+      "MY2412-S002",
+      "MY2412-S004",
+      "MY2412-S008"
+    ],
+    "affected_candidates": [
+      "MY2412-E001",
+      "MY2412-E002"
+    ],
+    "required_followup": "Keep all state-response categories unknown; do not open Facebook or infer response from security presence."
+  },
+  {
+    "gap_id": "MY2412-G007",
+    "type": "access_scope",
+    "description": "Historical source-card/approval originals were not available in this workspace. The canonical December sources.jsonl was empty at pre-body assessment time; an empty ledger is not a clean access inventory. Exact receipts/manual review cover only available recorded context and do not create blanket publisher or story-origin clearance.",
+    "source_ids": [
+      "MY2412-S001",
+      "MY2412-S002",
+      "MY2412-S003",
+      "MY2412-S004",
+      "MY2412-S005",
+      "MY2412-S006",
+      "MY2412-S007",
+      "MY2412-S008"
+    ],
+    "affected_candidates": [
+      "MY2412-E001",
+      "MY2412-E002",
+      "MY2412-X001"
+    ],
+    "required_followup": "If reopened, review any historical originals and repeat source-specific assessments for new targets; do not infer aliases or permission from no-match."
+  }
+]

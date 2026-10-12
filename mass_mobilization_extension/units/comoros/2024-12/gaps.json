@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "COM24DEC-G001",
+    "type": "access",
+    "description": "Comores Infos exact-page open returned a web-tool Internal Error; one ordinary HTTPS request failed at the configured proxy before HTTP response (code 000). No observed site denial or content body. Preserve search_only status; no retry/workaround.",
+    "source_ids": [
+      "COM24DEC-S001"
+    ],
+    "affected_candidates": [
+      "COM24DEC-X001"
+    ],
+    "required_followup": "If permitted ordinary public retrieval becomes available, perform a fresh exact check and local assessment before any new body attempt; do not treat current failure as site denial."
+  },
+  {
+    "gap_id": "COM24DEC-G002",
+    "type": "occurrence_threshold",
+    "description": "Search result describes the Dec 16 call as ignored and Moroni as having ordinary activity, but because the article body is unavailable this is not independently verified. No qualifying gathering or simultaneous attendance is established.",
+    "source_ids": [
+      "COM24DEC-S001"
+    ],
+    "affected_candidates": [
+      "COM24DEC-X001"
+    ],
+    "required_followup": "Seek an independent contemporary source or organizer report on whether any public gathering occurred and its size."
+  },
+  {
+    "gap_id": "COM24DEC-G003",
+    "type": "language",
+    "description": "French, Arabic and English/French searches were used; Shikomori and locally archived radio/print sources were not systematically searched.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search local-language/island sources where available."
+  },
+  {
+    "gap_id": "COM24DEC-G004",
+    "type": "coverage",
+    "description": "Five captured web searches included month-wide and half-month windows and a Dec 16 follow-up. Public web search is not LexisNexis-equivalent and no exhaustive search of all local outlets was available. No claim that no protests occurred.",
+    "source_ids": [
+      "COM24DEC-S001"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Review additional local contemporary sources, opposition/union notices and any accessible archives."
+  }
+]

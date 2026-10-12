@@ -1,0 +1,39 @@
+[
+  {
+    "candidate_id": "MDA2024-10-X001",
+    "country": "Moldova",
+    "unit_month": "2024-10",
+    "title": "Social Movement for Peace March with presidential-candidate endorsements",
+    "start_date": "2024-10-05",
+    "start_precision": "day",
+    "location": "From Ciuflea Monastery to the Eternity memorial complex, Chișinău",
+    "reason": "Excluded from the current event dataset because the opened report describes a religiously organized rally with speeches supporting three presidential candidates and documents no demand against domestic state policy. The source reports about 150 attendees, but event size alone does not establish MM eligibility. Reconsider if permitted evidence identifies a qualifying state-policy demand.",
+    "source_ids": [
+      "MDA10-S003"
+    ],
+    "field_evidence": {
+      "date_and_occurrence": {
+        "source_ids": [
+          "MDA10-S003"
+        ],
+        "summary": "Promo-LEX reports an actual march on 5 October 2024."
+      },
+      "participants": {
+        "source_ids": [
+          "MDA10-S003"
+        ],
+        "summary": "The report estimates about 150 people; this estimate is for this gathering only."
+      },
+      "objective": {
+        "source_ids": [
+          "MDA10-S003"
+        ],
+        "summary": "The report says speakers endorsed presidential candidates Tarlev, Furtună and Voronin; it reports no policy demand in the captured passage."
+      }
+    },
+    "open_questions": [
+      "Did participants also make a documented demand against domestic state policy not included in the captured passage?",
+      "Does the candidate-support character fit the manual’s election-related exclusion?"
+    ]
+  }
+]

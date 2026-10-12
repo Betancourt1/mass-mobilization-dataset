@@ -1,0 +1,69 @@
+[
+  {
+    "gap_id": "EG-12-G01",
+    "type": "continuity",
+    "description": "Annobón reporting concerns July detentions, not a confirmed Q4 gathering — The Oct Guardian report places the grievance letter/protest episode in July and records later detentions. Dec Infobae reports a UN filing and an Annobón delegation at the Nov 27–29 UN Forum on Minorities in Geneva; this is outside Equatorial Guinea. Amnesty’s page is a 2026 retrospective and does not establish a Q4 event.",
+    "source_ids": [
+      "GQ24D001",
+      "GQ24D002"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  },
+  {
+    "gap_id": "EG-12-G02",
+    "type": "threshold",
+    "description": "No Q4 domestic assembly has published or qualitative threshold evidence — Results on a Dec service outage, a hospital review meeting, a holiday event and rights complaints do not establish a public gathering or simultaneous 50 participants.",
+    "source_ids": [
+      "GQ24D003",
+      "GQ24D004",
+      "GQ24D005"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  },
+  {
+    "gap_id": "EG-12-G03",
+    "type": "regional_coverage",
+    "description": "Open-web regional coverage is uneven — December searches named Malabo, Bata, Annobón, Mongomo, Ebebiyín, Evinayong and Luba and targeted health, education, transport, labor and public services; not a census of all local reporting.",
+    "source_ids": [
+      "GQ24D003",
+      "GQ24D004"
+    ],
+    "affected_candidates": [],
+    "required_followup": [
+      "Search additional provincial and district outlets/archives."
+    ]
+  },
+  {
+    "gap_id": "EG-12-G04",
+    "type": "language",
+    "description": "Language gap — Searches were in Spanish, English and French; Fang, Bubi and Fa d’Ambô coverage is absent. Annobón connectivity restrictions also limit independent reporting.",
+    "source_ids": [
+      "GQ24D001",
+      "GQ24D002"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  },
+  {
+    "gap_id": "EG-12-G05",
+    "type": "archive_access",
+    "description": "No LexisNexis-equivalent archive or historic baseline — Open web is not equivalent to the manual’s original newspaper search. The available codebook is from 2015 and no official 2024 baseline is supplied.",
+    "source_ids": [
+      "GQ24D001"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  },
+  {
+    "gap_id": "EG-12-G06",
+    "type": "capture",
+    "description": "Lost/partial capture and transformed log view — One duplicate December query was executed before capture; its response is not retained. A separate later execution is captured. Stage search_log.jsonl contains literal backslash+n on some appends; final view will be generated separately using that delimiter, with all original bytes and source hashes preserved.",
+    "source_ids": [
+      "GQ24D001"
+    ],
+    "affected_candidates": [],
+    "required_followup": []
+  }
+]

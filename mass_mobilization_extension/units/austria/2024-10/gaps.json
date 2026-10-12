@@ -1,0 +1,75 @@
+[
+  {
+    "gap_id": "austria_2024-10_G001",
+    "type": "coverage",
+    "description": "Open web searches covered broad English/German queries, month-week windows and identified issues; they do not replicate LexisNexis or local archives.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search local/regional print archives, wire service archives, official police/municipal notices and civil-society records."
+  },
+  {
+    "gap_id": "austria_2024-10_G002",
+    "type": "language",
+    "description": "Queries were primarily English and German; other community-language coverage was not systematically searched.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Search relevant local-language sources with native terminology."
+  },
+  {
+    "gap_id": "austria_2024-10_G003",
+    "type": "continuity",
+    "description": "Cross-month continuity was not established for October candidates.",
+    "source_ids": [],
+    "affected_candidates": [
+      "austria_2024-10_E001",
+      "austria_2024-10_E003"
+    ],
+    "required_followup": "Review September and November records and contemporary coverage to establish episode starts/ends."
+  },
+  {
+    "gap_id": "austria_2024-10_G004",
+    "type": "state_target",
+    "description": "March for Life attendance is reported but an Austrian government/policy target was not identified.",
+    "source_ids": [
+      "S005",
+      "S006"
+    ],
+    "affected_candidates": [
+      "austria_2024-10_E002"
+    ],
+    "required_followup": "Verify original calls/materials for explicit demand to Austrian government or policy."
+  },
+  {
+    "gap_id": "austria_2024-10_G005",
+    "type": "event_verification",
+    "description": "The 13 October Salzburg Palestine gathering appears in a secondary list only.",
+    "source_ids": [
+      "S008"
+    ],
+    "affected_candidates": [
+      "austria_2024-10_E004"
+    ],
+    "required_followup": "Find contemporary reporting or organizer documentation establishing occurrence, attendance and target."
+  },
+  {
+    "gap_id": "austria_2024-10_G006",
+    "type": "event_boundary",
+    "description": "Teachers rally and subsequent march involved two named groups, with relationship and participation transfer unclear.",
+    "source_ids": [
+      "S003",
+      "S004"
+    ],
+    "affected_candidates": [
+      "austria_2024-10_E003"
+    ],
+    "required_followup": "Review contemporary group notices and route/attendance reports."
+  },
+  {
+    "gap_id": "austria_2024-10_G007",
+    "type": "access_review_history",
+    "description": "Initial access scan deferred because the coordinator’s explicit partition-context input was absent. An Oct MeinBezirk scan also deferred while sources.jsonl was malformed; both issues were retained and later checks used a valid JSONL ledger. An SN/Salzburg24 result first discovered during October searches belongs to December and was moved there. The CBA/VIMÖ page bodies were first opened after receipts whose fingerprints were stale following later source-ledger mutations; only re-open attempts following fresh stable receipts are relied on. These later checks do not retroactively make earlier opens preauthorized.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review receipts and source-card notes; retain these as process deviations and do not treat validator output as scientific approval."
+  }
+]

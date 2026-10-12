@@ -1,0 +1,38 @@
+[
+  {
+    "gap_id": "FRA2024-11-G001",
+    "gap_type": "pending_coverage",
+    "affected_candidate_ids": [
+      "FRA2024-11-E001",
+      "FRA2024-11-E002"
+    ],
+    "description": "Ten captured queries cover general French protests, dates, feminist demonstrations, farmers and follow-ups; this is not exhaustive. More local reports and exact event dates/attendance for farmer actions remain unavailable. TF1 returned HTTP 403; Le Figaro retrieval failed without an HTTP code; neither was retried.",
+    "source_ids": [
+      "S2AE9F821DC",
+      "SF35C526E8C",
+      "SB8F9057B66",
+      "S24C6732411",
+      "S35F75F80CC",
+      "SF8372F718D",
+      "S25E560CDC6"
+    ],
+    "next_permitted_action": "Search other local press and organizers for exact turnout and French-state demands; avoid retrying TF1 or the inaccessible Figaro URL."
+  },
+  {
+    "gap_id": "FRA2024-11-G002",
+    "gap_type": "pending_review",
+    "affected_candidate_ids": [
+      "FRA2024-11-E001",
+      "FRA2024-11-E002"
+    ],
+    "description": "Assess whether the 23 November demonstrations are a common national episode under local-call rules; review the Paris 12,500 vs 80,000 conflict; determine whether Strasbourg farmer event has a direct French-state target.",
+    "source_ids": [
+      "S2AE9F821DC",
+      "SF35C526E8C",
+      "S24C6732411",
+      "S35F75F80CC",
+      "SF8372F718D"
+    ],
+    "next_permitted_action": "Review cited source captures and episode boundaries; do not aggregate local crowd estimates."
+  }
+]

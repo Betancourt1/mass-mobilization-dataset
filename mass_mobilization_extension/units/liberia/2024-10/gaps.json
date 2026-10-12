@@ -1,0 +1,34 @@
+[
+  {
+    "gap_id": "liberia_2024-10-G001",
+    "type": "threshold",
+    "description": "The October 10 former-EPS gathering has no reported headcount; the >=50 simultaneous-person threshold remains unresolved.",
+    "source_ids": [
+      "LR24OCT-S002"
+    ],
+    "affected_candidates": [
+      "liberia_2024-10-E001"
+    ],
+    "required_followup": "Find a permitted body-level account with a simultaneous crowd estimate."
+  },
+  {
+    "gap_id": "liberia_2024-10-G002",
+    "type": "source_access",
+    "description": "Liberia Investigator body fetch for the October 16 report returned tool-level 406 Not Acceptable; this does not establish publisher denial. No repeated request is made in this dossier.",
+    "source_ids": [
+      "LR24OCT-S001"
+    ],
+    "affected_candidates": [
+      "liberia_2024-10-E002"
+    ],
+    "required_followup": "Seek a different accessible publisher/document if available; do not infer from search snippets."
+  },
+  {
+    "gap_id": "liberia_2024-10-G003",
+    "type": "coverage",
+    "description": "Open-web searches and accessible public sources do not reproduce LexisNexis; searches covered general protest/labor and episode follow-ups but are not exhaustive.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review against official baseline and any systematic local archive access."
+  }
+]

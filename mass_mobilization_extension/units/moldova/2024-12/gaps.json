@@ -1,0 +1,91 @@
+[
+  {
+    "gap_id": "MDA2024-12-G001",
+    "type": "threshold",
+    "description": "The 13 December teacher picket is described as 'tens' (zeci), not a count establishing 50 or more. The 19 December CNSM/education/SHS group, farmers and PSRM at City Hall have no group-specific simultaneous counts.",
+    "source_ids": [
+      "MDA12-S001",
+      "MDA12-S002",
+      "MDA12-S003",
+      "MDA12-S004"
+    ],
+    "affected_candidates": [
+      "MDA2024-12-E001",
+      "MDA2024-12-E002",
+      "MDA2024-12-E003",
+      "MDA2024-12-E004"
+    ],
+    "required_followup": "Find contemporaneous attendance estimates or defensible event-specific visual counts; never aggregate across groups, sites or organizers."
+  },
+  {
+    "gap_id": "MDA2024-12-G002",
+    "type": "event_boundaries_and_continuity",
+    "description": "The 13 and 19 December teacher pickets have the same labor demand and CNSM link; ZDG says the latter was announced after negotiations failed. Whether these are separate observations or repeated actions in one episode is open. On 19 December farmers and teachers/unions are both reported at Parliament, but group boundaries/overlap are unresolved.",
+    "source_ids": [
+      "MDA12-S001",
+      "MDA12-S002",
+      "MDA12-S003",
+      "MDA12-S004"
+    ],
+    "affected_candidates": [
+      "MDA2024-12-E001",
+      "MDA2024-12-E002",
+      "MDA2024-12-E003"
+    ],
+    "required_followup": "Compare group-specific reporting, timing and organization before merging/splitting records; keep turnout unknown unless separately attributed."
+  },
+  {
+    "gap_id": "MDA2024-12-G003",
+    "type": "regional_and_sector_coverage",
+    "description": "Romanian/Russian searches covered labor, education, agriculture, weather-service and local-government grievances, while a regional-city query yielded primarily out-of-window or undated material. Body evidence is concentrated in Chișinău; absence elsewhere is not established.",
+    "source_ids": [
+      "MDA12-S001",
+      "MDA12-S003",
+      "MDA12-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Search local coverage for Bălți, Cahul, Comrat/Gagauzia, Orhei, Tiraspol and other regions, including health, transport, energy and agricultural actions."
+  },
+  {
+    "gap_id": "MDA2024-12-G004",
+    "type": "neighbor_month_episode_continuity",
+    "description": "December teacher and farmer continuity queries returned search-only leads including a NewTV headline announcing another education-union protest and Radio Moldova farmer-protest results. Those headers were not opened and do not establish dates, occurrence, counts or continuity beyond December. Within-quarter teacher episode links and neighbor-month onset/end remain unresolved.",
+    "source_ids": [
+      "MDA12-S001",
+      "MDA12-S002",
+      "MDA12-S003",
+      "MDA12-S004"
+    ],
+    "affected_candidates": [
+      "MDA2024-12-E001",
+      "MDA2024-12-E002",
+      "MDA2024-12-E003",
+      "MDA2024-12-E004"
+    ],
+    "required_followup": "If within coordinator scope, assess the exact January follow-up target before opening and compare dated organizer/demand evidence; do not count a search headline as a new event or evidence of continuity."
+  },
+  {
+    "gap_id": "MDA2024-12-G005",
+    "type": "technical_access_and_capture",
+    "description": "The moldova-news.md exact-URL body open returned an internal failed-to-fetch response without HTTP status or denial evidence. It is not usable event evidence and was not retried. A separate exact NewsMaker URL was assessed/opened; no redirect/origin relation is inferred.",
+    "source_ids": [
+      "MDA12-S005",
+      "MDA12-S002"
+    ],
+    "affected_candidates": [],
+    "required_followup": "No retry of the mirror is required; continue with separately assessed public targets."
+  },
+  {
+    "gap_id": "MDA2024-12-G006",
+    "type": "historical_source_scope_and_archive",
+    "description": "Only open-web search and rendered public pages were used. Historical access/restriction ledgers remain incomplete; fresh target assessments do not constitute global clearance or archive completeness.",
+    "source_ids": [
+      "MDA12-S001",
+      "MDA12-S002",
+      "MDA12-S003",
+      "MDA12-S004"
+    ],
+    "affected_candidates": [],
+    "required_followup": "Continue with permitted sources; preserve any exact-scope holds on future targets."
+  }
+]

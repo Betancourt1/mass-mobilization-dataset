@@ -1,0 +1,45 @@
+[
+  {
+    "gap_id": "EGY-NOV-G001",
+    "gap_type": "continuity_and_episode",
+    "affected_candidate_ids": [],
+    "affected_dimensions": [
+      "other_journalists_syndicate_gatherings",
+      "dates",
+      "simultaneous_threshold"
+    ],
+    "reason": "Mada Masr says there were a few other demonstrations at the Syndicate steps and elsewhere in Cairo, but dates and crowd sizes are not supplied. The November 3 event itself was about two dozen.",
+    "next_permitted_action": "Search permitted independent Arabic and English reporting for distinct November dates and event-level attendance; avoid treating repeated dates as one organized national event without evidence.",
+    "source_ids": [
+      "S001"
+    ]
+  },
+  {
+    "gap_id": "EGY-NOV-G002",
+    "gap_type": "source_access",
+    "affected_candidate_ids": [],
+    "affected_dimensions": [
+      "monthly_worker_protest_context",
+      "event_level_evidence"
+    ],
+    "reason": "A search result titled “111 protests among Egypt’s workers in November” is from the known affected New Arab entity. Search-only snippets do not establish individual events and the target remains under the pending hold.",
+    "next_permitted_action": "Do not open that target. Seek independent reports or accessible event-level documentation for any specific lead.",
+    "source_ids": [
+      "S002"
+    ]
+  },
+  {
+    "gap_id": "EGY-NOV-G003",
+    "gap_type": "feasible_monthly_coverage",
+    "affected_candidate_ids": [],
+    "affected_dimensions": [
+      "regional_and_sector_coverage",
+      "event_level_followups"
+    ],
+    "reason": "Arabic and English searches included workers, education, health, Cairo and Alexandria; identified event evidence remained sparse and one verified action fell below threshold. Open-web search is not exhaustive.",
+    "next_permitted_action": "Extend local Arabic searches to governorate outlets and labor/education/health sectors; inspect any accessible event catalogue at event level before assigning a candidate.",
+    "source_ids": [
+      "S001"
+    ]
+  }
+]

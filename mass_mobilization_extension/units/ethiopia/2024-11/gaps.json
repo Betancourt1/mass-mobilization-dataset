@@ -1,0 +1,86 @@
+[
+  {
+    "gap_id": "ETH24NOV-G001",
+    "type": "public_gathering_threshold",
+    "description": "Merkato sources document a tax/receipt dispute and business closures/strike but no simultaneous public assembly or event-specific count. The claim “hundreds of traders” describes participants in strike action, not necessarily a public gathering.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "affected_candidates": [
+      "ETH24NOV-E001"
+    ],
+    "required_followup": "Search contemporaneous merchant/municipal reporting and any photographs or notices for a street demonstration, exact date/place and simultaneous attendance; absent that, retain pending_evidence."
+  },
+  {
+    "gap_id": "ETH24NOV-G002",
+    "type": "event_unit_threshold",
+    "description": "Oromia peace rallies are reported across six zones over two days, with competing accounts about government versus community organization. No per-site attendance or exact town/date list is provided. ACLED cites VOA accounts, so independent confirmation is unresolved.",
+    "source_ids": [
+      "S005",
+      "S007",
+      "S008"
+    ],
+    "affected_candidates": [
+      "ETH24NOV-E002"
+    ],
+    "required_followup": "Find contemporaneous local reports identifying each gathering, exact date/town, organizer and count of at least 50 at one site; resolve whether sites were coordinated or separate."
+  },
+  {
+    "gap_id": "ETH24NOV-G003",
+    "type": "event_unit_threshold",
+    "description": "Student demonstrations following Dereje Amare’s killing are reported across multiple universities and towns, but no per-campus participant counts, precise dates or national coordination are given. “Around 26” refers to protest events, not attendees.",
+    "source_ids": [
+      "S004",
+      "S009"
+    ],
+    "affected_candidates": [
+      "ETH24NOV-E003"
+    ],
+    "required_followup": "Seek campus-specific contemporaneous accounts and exact onset/location/attendance; do not multiply or combine event counts into crowd size."
+  },
+  {
+    "gap_id": "ETH24NOV-G004",
+    "type": "threshold_source_dependence",
+    "description": "Dera Woreda public protest on 22 Nov and rule-of-law demand are reported through an Oromia Communication Bureau statement quoted by The Reporter; attendance and independent corroboration are unavailable.",
+    "source_ids": [
+      "S004"
+    ],
+    "affected_candidates": [
+      "ETH24NOV-E004"
+    ],
+    "required_followup": "Locate the original Afaan Oromo Bureau statement and any independent same-day account or crowd estimate; keep attendance unknown until evidence supports threshold."
+  },
+  {
+    "gap_id": "ETH24NOV-G005",
+    "type": "source_access_sequence",
+    "description": "The Addis Insight result URL redirected to a different host that had not been assessed before the initial body request. No facts from the redirect body are used. The source remains search-only; no retry was made.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "ETH24NOV-E001"
+    ],
+    "required_followup": "If this source remains materially necessary, assess the exact redirect URL and documented origin before any new request; otherwise use permitted independent reporting."
+  },
+  {
+    "gap_id": "ETH24NOV-G006",
+    "type": "coverage_method",
+    "description": "Open-web research used English, Amharic and some Oromo-language/transliterated queries, plus weekly ACLED windows and labor, student, regional peace and public-security leads. No Lexis-Nexis/equivalent newspaper archive or Afaan Oromoo full-text source was examined.",
+    "source_ids": [
+      "S004",
+      "S005",
+      "S007",
+      "S008",
+      "S009",
+      "S010"
+    ],
+    "affected_candidates": [
+      "ETH24NOV-E001",
+      "ETH24NOV-E002",
+      "ETH24NOV-E003",
+      "ETH24NOV-E004"
+    ],
+    "required_followup": "Search any permitted Afaan Oromoo and newspaper archives by dates Nov 1–30 and named sites/sectors; check neighboring month boundaries before proposing event ownership."
+  }
+]

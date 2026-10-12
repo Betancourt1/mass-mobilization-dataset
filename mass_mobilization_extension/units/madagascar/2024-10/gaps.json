@@ -1,0 +1,79 @@
+[
+  {
+    "gap_id": "MDG-OCT-G01",
+    "type": "threshold",
+    "description": "No opened October report gives a per-site attendance estimate that establishes 50 simultaneous participants; arrest counts are not attendance.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "MDG24OCT-E001",
+      "MDG24OCT-E002",
+      "MDG24OCT-E003",
+      "MDG24OCT-E004",
+      "MDG24OCT-E005",
+      "MDG24OCT-E006"
+    ],
+    "required_followup": "Seek independent contemporary reporting or organizer/official records with per-event counts."
+  },
+  {
+    "gap_id": "MDG-OCT-G02",
+    "type": "state_target",
+    "description": "Reports describe JIRAMA service complaints, but event-specific demands to government or State policy are not consistently established.",
+    "source_ids": [
+      "S003",
+      "S004",
+      "S005"
+    ],
+    "affected_candidates": [
+      "MDG24OCT-E001",
+      "MDG24OCT-E002",
+      "MDG24OCT-E003",
+      "MDG24OCT-E004",
+      "MDG24OCT-E005",
+      "MDG24OCT-E006"
+    ],
+    "required_followup": "Verify event demands and State/utility relationship; do not infer a State target from ownership or response alone."
+  },
+  {
+    "gap_id": "MDG-OCT-G03",
+    "type": "event_unit_and_continuity",
+    "description": "Local actions across several neighborhoods and weekends lack common organizers, exact site dates, episode onset/closure and established links to November actions.",
+    "source_ids": [
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "MDG24OCT-E002",
+      "MDG24OCT-E003",
+      "MDG24OCT-E004",
+      "MDG24OCT-E005",
+      "MDG24OCT-E006"
+    ],
+    "required_followup": "Check adjacent September/November reporting for organizers, dates, coordination and closure; keep local granularity absent evidence."
+  },
+  {
+    "gap_id": "MDG-OCT-G04",
+    "type": "access",
+    "description": "Exact L’Express October page returned HTTP 429; exact 2424.mg page timed out before HTTP. Search discovery does not replace article bodies.",
+    "source_ids": [
+      "S001",
+      "S002"
+    ],
+    "affected_candidates": [
+      "MDG24OCT-E002",
+      "MDG24OCT-E004"
+    ],
+    "required_followup": "Do not retry these URLs; use independent contemporary sources."
+  },
+  {
+    "gap_id": "MDG-OCT-G05",
+    "type": "coverage",
+    "description": "French, Malagasy and English open-web search is not the original LexisNexis workflow and is not exhaustive; other reports or sectors may be missing.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Later review should consult licensed archives and additional regional/local sources."
+  }
+]

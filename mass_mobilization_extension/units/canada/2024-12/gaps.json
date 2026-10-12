@@ -1,0 +1,68 @@
+[
+  {
+    "gap_id": "CAN2024-12-G001",
+    "type": "historical_access_inventory",
+    "description": "Historical Canada source ledgers and access receipts are omitted; source_checks.jsonl provides only the explicit hold context. No claim of full alias/origin clearance.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Review permitted historical ledgers/receipts if separately migrated."
+  },
+  {
+    "gap_id": "CAN2024-12-G002",
+    "type": "threshold",
+    "description": "Ottawa Dec. 3 sit-in is reported as ‘dozens’; published evidence does not establish ≥50 simultaneous participants.",
+    "source_ids": [
+      "S001"
+    ],
+    "affected_candidates": [
+      "CAN2024-12-E001"
+    ],
+    "required_followup": "Seek independent contemporaneous report or organizer/police count; do not infer crowd size from arrests."
+  },
+  {
+    "gap_id": "CAN2024-12-G003",
+    "type": "threshold_and_geography",
+    "description": "Dec. 8 provincewide Bill 69 demonstrations confirmed at multiple places, but no location has a published attendance count. Regional group identities, exact routes, local leads and separate venue boundaries are incomplete.",
+    "source_ids": [
+      "S002",
+      "S006"
+    ],
+    "affected_candidates": [
+      "CAN2024-12-E002"
+    ],
+    "required_followup": "Find contemporary post-event reports from local Québec media for each region; keep campaign grouping tentative and do not sum sites."
+  },
+  {
+    "gap_id": "CAN2024-12-G004",
+    "type": "continuity",
+    "description": "SCFP says similar Bill 69 actions occurred in September and November and describes a wider wave; the relationship between those episodes and Dec. 8 is not fully resolved.",
+    "source_ids": [
+      "S002"
+    ],
+    "affected_candidates": [
+      "CAN2024-12-E002"
+    ],
+    "required_followup": "Review October/November neighboring-unit records and establish whether Dec. 8 is a new action or continuation of an episode."
+  },
+  {
+    "gap_id": "CAN2024-12-G005",
+    "type": "source_access_and_coverage",
+    "description": "CSN page returned only a JavaScript challenge; no retry or workaround attempted. TVA (Agence QMI) provides rendered evidence. Searches were open-web and are not equivalent to LexisNexis or complete regional news coverage.",
+    "source_ids": [
+      "S003",
+      "S005"
+    ],
+    "affected_candidates": [
+      "CAN2024-12-E003"
+    ],
+    "required_followup": "If independently permitted, locate an accessible original CSN/CNW release and review additional local outlets; no special access method."
+  },
+  {
+    "gap_id": "CAN2024-12-G006",
+    "type": "coverage",
+    "description": "English and French broad and targeted searches yielded six actual queries. Search service and open-web scope do not establish exhaustive monthly coverage; some regional and Indigenous/local-language archives were not systematically reviewed.",
+    "source_ids": [],
+    "affected_candidates": [],
+    "required_followup": "Continue targeted regional/sector searches and record any new outputs in a later version."
+  }
+]

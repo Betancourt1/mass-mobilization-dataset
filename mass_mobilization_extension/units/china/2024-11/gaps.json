@@ -1,0 +1,82 @@
+[
+  {
+    "gap_id": "CN24NOV-G01",
+    "type": "named_source_dependency",
+    "description": "Jixi event attendance/date/demand wording comes from the Yesterday Protests monthly tracker; the official Jixi Transport Bureau notice confirms only the surcharge policy, not that the event occurred or that government acted in response. Related search-only/video material is not independent corroboration.",
+    "source_ids": [
+      "CN24NOVS002",
+      "CN24NOVS003"
+    ],
+    "affected_candidates": [
+      "china_2024-11-E001"
+    ],
+    "required_followup": "Find a contemporaneous independent report or original event video/participant record for the mid-November action and its simultaneous turnout; preserve the 12 Nov notice solely as policy context."
+  },
+  {
+    "gap_id": "CN24NOV-G02",
+    "type": "threshold_and_campaign_structure",
+    "description": "Reuters reports Evergrande participants’ unconfirmed >500 total across three actions; directly observed attendance is “dozens” at two different sites/days. The captured evidence does not identify a single gathering with >=50.",
+    "source_ids": [
+      "CN24NOVS001"
+    ],
+    "affected_candidates": [
+      "china_2024-11-E003"
+    ],
+    "required_followup": "Seek event-specific participant counts/original records for the three distinct visits; never assign the campaign total to a single action."
+  },
+  {
+    "gap_id": "CN24NOV-G03",
+    "type": "threshold_and_policy_document",
+    "description": "The November tracker calls Longhua residents “hundreds” across multiple actions, but only dates the county-government action to 19 November; no date-specific attendance or heating-fee policy document was opened.",
+    "source_ids": [
+      "CN24NOVS002"
+    ],
+    "affected_candidates": [
+      "china_2024-11-E002"
+    ],
+    "required_followup": "Find dated attendance evidence for 19 Nov, campaign onset and the official fee change/notice."
+  },
+  {
+    "gap_id": "CN24NOV-G04",
+    "type": "named_source_dependency",
+    "description": "JILPT’s accessible December report describes a November Ji’an supermarket action at city government, but it is a summary of CLB data and gives no attendance. November monthly tracker also identifies the action and two arrests but no group size.",
+    "source_ids": [
+      "CN24NOVS002"
+    ],
+    "affected_candidates": [
+      "china_2024-11-E006"
+    ],
+    "required_followup": "Locate event-specific China Labour Bulletin record or original local report and turnout before coding; do not carry this November action into December."
+  },
+  {
+    "gap_id": "CN24NOV-G05",
+    "type": "threshold_and_ownership",
+    "description": "The tracker reports multi-province historical-shareholder gatherings with no attendance, and separate Nenhe/Suileng depositor campaigns with no action-specific headcounts; depositor action onset relative to late-October institution failures is unclear.",
+    "source_ids": [
+      "CN24NOVS002"
+    ],
+    "affected_candidates": [
+      "china_2024-11-E004",
+      "china_2024-11-E005"
+    ],
+    "required_followup": "Find individual site/date attendance and ascertain event onset and own-state demand; do not sum across sites or days."
+  },
+  {
+    "gap_id": "CN24NOV-G06",
+    "type": "coverage_method",
+    "description": "Open-web method only: English and Chinese general searches, targeted Jixi/Longhua searches, four weekly November windows, retrospective monthly compilation and Reuters retrospective. No systematic newspaper archive/LexisNexis or comprehensive regional/official/local source coverage. Historical source restriction ledgers are absent; known affected source alias/origin scope is unresolved and not treated as cleared.",
+    "source_ids": [
+      "CN24NOVS001",
+      "CN24NOVS002",
+      "CN24NOVS003"
+    ],
+    "affected_candidates": [
+      "china_2024-11-E001",
+      "china_2024-11-E002",
+      "china_2024-11-E003",
+      "china_2024-11-E004",
+      "china_2024-11-E005"
+    ],
+    "required_followup": "Complete event-level and adjacent-month continuity/source-origin follow-up for the listed candidates using permitted public sources; no claim of exhaustiveness."
+  }
+]
